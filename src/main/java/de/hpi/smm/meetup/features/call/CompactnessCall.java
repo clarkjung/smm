@@ -51,5 +51,9 @@ public class CompactnessCall {
 		}
 	    return counter;
 	}
+	
+	public String getAPIKey(){
+		return apiKey;
+	}
 
 }

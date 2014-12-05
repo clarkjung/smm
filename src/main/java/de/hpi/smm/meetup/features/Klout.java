@@ -83,5 +83,9 @@ public class Klout {
 		return kloutId;
 	}
 	
+	public String getKloutAPIKey(){
+		return KloutAPIKey;
+	}
+	
 	
 }
