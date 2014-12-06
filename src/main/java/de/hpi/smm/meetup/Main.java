@@ -1,5 +1,6 @@
 package de.hpi.smm.meetup;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -7,6 +8,7 @@ import org.json.JSONException;
 
 import de.hpi.smm.meetup.features.Compactness;
 import de.hpi.smm.meetup.features.Klout;
+import de.hpi.smm.meetup.features.tools.FileHandler;
 import de.hpi.smm.meetup.machinelearning.entity.IndexEntity;
 import de.hpi.smm.meetup.machinelearning.entity.TermEntity;
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
@@ -32,7 +34,12 @@ public class Main
 //        String sample = "she likes it";
 //        String tagged = tagger.tagString(sample);
 //        System.out.println(tagged);
-        
+    
+    	String oldFilePath = "Y:/Projects/AlchemyAPI/smm/data/train/formal/";
+    	String newFilePath = "Y:/Projects/AlchemyAPI/smm/data/test/formal/";
+
+    	
+    	
     }
     	
 }
