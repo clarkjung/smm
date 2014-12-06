@@ -36,7 +36,8 @@ public class Main
 //        System.out.println(tagged);
     
     	String oldFilePath = "Y:/Projects/AlchemyAPI/smm/data/train/formal/";
-    	String newFilePath = "Y:/Projects/AlchemyAPI/smm/data/test/formal/";
+    	String newFilePath = "Y:/Projects/Alche0myAPI/smm/data/test/formal/";
+    	String targetWordsPath = "Y:/Projects/AlchemyAPI/smm/target_words/";
 
     	
     	

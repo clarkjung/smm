@@ -1,6 +1,10 @@
 package de.hpi.smm.meetup.features.tools;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -91,6 +95,16 @@ public class FileHandler {
 	static public void moveSelectedFiles(List<String> selectedFiles, String oldPath, String newPath){
 		for (String selectedFile : selectedFiles){
 			moveFile(oldPath, newPath, selectedFile);
+		}
+	}
+	
+	static public void findDuplicates(String fullFilePath) throws IOException{
+		String sCurrentLine;
+		String sPreviousLine = "";
+		BufferedReader br = new BufferedReader(new FileReader(fullFilePath));
+		while ((sCurrentLine = br.readLine()) != null) {
+			if(sPreviousLine.toLowerCase().equals(sCurrentLine.toLowerCase())) System.out.println(sPreviousLine);
+			sPreviousLine = sCurrentLine;
 		}
 	}
 	
