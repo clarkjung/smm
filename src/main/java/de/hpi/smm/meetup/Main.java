@@ -59,16 +59,16 @@ public class Main
     	//fileEntity.printIndex();
     	
     	//FileHandler.moveSelectedFiles(FileHandler.getRandomSelectFiles("/Users/jaeyoonjung/git/smm/data/train/devTestInformal/", 50), "/Users/jaeyoonjung/git/smm/data/train/devTestInformal/", "/Users/jaeyoonjung/git/smm/data/train/informal/");
-    	FileHandler.renameAllFiles("/Users/jaeyoonjung/git/smm/data/train/devTestInformal/", "devTest_informal");
+    	//FileHandler.renameAllFiles("/Users/jaeyoonjung/git/smm/data/train/devTestInformal/", "devTest_informal");
     	 
-//    	String trainFolderPath = "/Users/jaeyoonjung/git/smm/data/train/";
-//    	String testFolderPath = "/Users/jaeyoonjung/git/smm/data/train/";
-//    	MachineLearner machineLearner = new MachineLearner(trainFolderPath, trainFolderPath);
-//    	machineLearner.train();
-//    	machineLearner.test();
-//    	double accuracyForFormal = machineLearner.getAccuracyForFormal();
-//    	double accuracyForInformal = machineLearner.getAccuracyForInformal();
-//    	System.out.println(accuracyForFormal + ", " + accuracyForInformal + ", " + machineLearner.getGeneralAccuracy());
+    	String trainFolderPath = "/Users/jaeyoonjung/git/smm/data/train/";
+    	String testFolderPath = "/Users/jaeyoonjung/git/smm/data/train/";
+    	MachineLearner machineLearner = new MachineLearner(trainFolderPath, trainFolderPath);
+    	machineLearner.train();
+    	//machineLearner.test();
+    	//double accuracyForFormal = machineLearner.getAccuracyForFormal();
+    	//double accuracyForInformal = machineLearner.getAccuracyForInformal();
+    	//System.out.println(accuracyForFormal + ", " + accuracyForInformal + ", " + machineLearner.getGeneralAccuracy());
     	
 //    	HashMap<String, Integer> hashMap = new HashMap<String, Integer>();
 //    	hashMap.put("test", 1);

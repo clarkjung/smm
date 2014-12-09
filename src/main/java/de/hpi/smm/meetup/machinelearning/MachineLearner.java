@@ -1,9 +1,11 @@
 package de.hpi.smm.meetup.machinelearning;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -18,6 +20,7 @@ public class MachineLearner {
 	
 	String trainFolderPath;
 	String testFolderPath;
+	String exportPath;
 	double formalAccuracy, informalAccuracy, generalAccuracy;
 	ArrayList<TrainFileEntity> trainFormalList, trainInformalList;
 	ArrayList<TestFileEntity> testFormalList, testInformalList;
@@ -29,12 +32,18 @@ public class MachineLearner {
 		this.generalAccuracy = 0;
 		this.trainFolderPath = trainFolderPath;
 		this.testFolderPath = testFolderPath;
+		this.exportPath = null;
 		this.trainFormalList = new ArrayList<TrainFileEntity>();
 		this.trainInformalList = new ArrayList<TrainFileEntity>();
 		this.testFormalList = new ArrayList<TestFileEntity>();
 		this.testInformalList = new ArrayList<TestFileEntity>();
 		this.trainFormalMap = new HashMap<String, Integer>();
 		this.trainInformalMap = new HashMap<String, Integer>();
+	}
+	
+	public MachineLearner(String trainFolderPath, String testFolderPath, String exportPath){
+		this(trainFolderPath, testFolderPath);
+		this.exportPath = exportPath;
 	}
 	
 	public double getAccuracyForFormal(){
@@ -58,6 +67,23 @@ public class MachineLearner {
 		
 		smoothing(trainFormalMap);
 		smoothing(trainInformalMap);
+		
+		exportHashMaps(trainFormalMap, "TrainFormalMap.txt");
+		exportHashMaps(trainInformalMap, "TrainInformalMap.txt");
+	}
+	
+	private void exportHashMaps(HashMap<String, Integer> hashMap, String fileName) throws IOException{
+		String fullFilePath = exportPath + fileName;
+		File file = new File(fullFilePath);
+		if(!file.exists()){
+			file.createNewFile();
+		}
+		FileWriter fileWritter = new FileWriter(file.getName(),true);
+		BufferedWriter bufferWritter = new BufferedWriter(fileWritter);
+		for (String str : hashMap.keySet()){
+			bufferWritter.write(str + ":" + hashMap.get(str) + "\n");
+		}
+		bufferWritter.close();
 	}
 	
 	private void smoothing(HashMap<String, Integer> hashMap){
