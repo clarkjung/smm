@@ -3,599 +3,485 @@
     
       
         Background
-        Ribozymes whose activities are modulated by effector
-        molecules have previously been engineered. For example,
-        Herschlag and co-workers have previously shown that a
-        nucleobase could complement an abasic site within the
-        hammerhead ribozyme, restoring cleavage activity [ 1 ] .
-        Similarly, Porta and Lizardi engineered a hammerhead
-        ribozyme that assumed an inactive secondary structure; upon
-        the addition of an oligonucleotide that disrupted the
-        engineered secondary structure, the ribozyme was activated
-        [ 2 ] . More recently, it has previously been shown that
-        many selected nucleic acid binding species (aptamers)
-        undergo conformational changes upon ligand binding [ 3 4 5
-        6 ] In addition, when aptamers are conjoined to ribozymes,
-        the ligand-induced conformational changes in the aptamers
-        frequently modulate the structures and hence the activities
-        of the ribozymes [ 7 8 9 ] For example, binding of
-        theophylline to the anti-theophylline aptamer [ 10 ]
-        modulates the conformation of residue [ 11 12 ] and the
-        overall stability of the aptamer [ 10 13 ] . Appending the
-        anti-theophylline aptamer to the hammerhead ribozyme
-        allowed cleavage activity to be modulated by 110-fold by
-        theophylline [ 13 ] . Similarly, appending the
-        anti-theophylline aptamer to a small ribozyme ligase (L1)
-        generated an aptazyme that was activated 1,600-fold by
-        saturating theophylline concentrations [ 14 ] .
-        The methods for engineering and selecting Group I
-        aptazymes appear to be generalizable to several different
-        types of ribozymes. Adjoining aptamers to the Group I
-        self-splicing intron would potentially allow the control of
-        splicing not only 
-        in vitro , but 
-        in vivo . To this end, we have
-        attempted to generate and assay Group I aptazymes.
+        Cancer is a progressive genetic disease that involves
+        the accumulation of multiple and heterogeneous genetic and
+        epigenetic changes. Among the 30,000 - 40,000 human genes [
+        1 2 ] , an expanding list of genes has been shown to be
+        involved in cancer development and progression. Recently
+        developed technologies, including cDNA microarrays, allow
+        cancer researchers to screen thousands of genes
+        simultaneously to identify genes that show abnormal
+        expression in cancers [ 3 4 5 6 ] .
+        Cancer researchers face a serious challenge when trying
+        to apply these tools to clinical cancer specimens. First,
+        cancers are often detected at a late stage in development,
+        after multiple genetic and epigenetic changes have rendered
+        the cancer metastatic and highly refractory even to harsh
+        treatment. Multiple clones in the same tumor mass, which
+        can often be distinguished by morphological features, would
+        yield more information if they could be microdissected and
+        analyzed separately. Second, tumor tissues invariably
+        include a mixture of different cells, such as inflammatory
+        cells, stromal cells, vascular cells, and others. Each type
+        of cells may contribute to a unique aspect of the cancer
+        phenotype and may serve as a target for treatment.
+        Therefore, there is a need to dissect those cells for
+        separate study. For example, it was found that tumor
+        vascular cells have distinct gene expression profiles from
+        those of normal vascular cells [ 7 ] , and the genes that
+        are uniquely expressed on the surface of tumor endothelium
+        cells can serve as targets for specific cancer therapy.
+        Finally, a key breakthrough in cancer treatment would come
+        from early detection and diagnosis of cancer and the study
+        of molecular events in the early stages of cancer
+        progression. A difficulty in studying cancer at early
+        stages is that the tumor size is small and only limited
+        material can be obtained through means such as fine needle
+        aspiration. Identification of the genetic changes in such a
+        small sample is especially challenging because only limited
+        assays can be performed using conventional approaches. It
+        is obvious that the full potential of genomic technologies
+        will only be realized if they can be applied to minute
+        amounts of biological material.
+        For a typical gene expression profiling experiment
+        carried out on a glass microarray where thousands of cDNA
+        probes are deposited in an orderly manner, RNA is first
+        isolated from the biological material under study. The mRNA
+        (1-5% of total RNA) is reverse transcribed to cDNA, during
+        which process fluorescent dyes (Cy3 or Cy5) are
+        incorporated. The labeled cDNAs are hybridized to the
+        microarray and, after washing, the fluorescent signals are
+        detected by a laser scanner. Current protocols typically
+        require more than 50 μg of total RNA for consistent
+        microarray hybridization. Several hundred milligrams of
+        tumor tissues are often needed to obtain this much RNA,
+        which is simply unavailable in many situations. Thus, it is
+        crucial to develop a more sensitive and reliable procedure
+        that requires less RNA. Several molecular biology
+        approaches, such as T7 in vitro transcription and PCR based
+        assays, have been attempted [ 8 9 10 ] . However, only
+        cursory analysis has been carried out to validate the
+        assays, and limited confirmation experiments have been
+        performed to evaluate the validity of the amplification
+        results.
+        In this study, we performed and analyzed a set of nine
+        microarray experiments to evaluate an amplification
+        protocol adopted from Wang 
+        et al [ 9 ] . Focusing primarily on
+        the ability to identify differentially expressed genes, we
+        developed the following criteria for a successful
+        amplification protocol:
+        1. Because amplification may enhance the signal of genes
+        expressed at low copy numbers, more genes should be
+        detected by an amplification protocol than by a regular
+        protocol.
+        2. Most genes detected as differentially expressed using
+        a regular protocol should also be detected using an
+        amplification protocol. In other words, the two protocols
+        should reveal similar patterns of differential
+        expression.
+        3. An amplification protocol should generate signal
+        intensity profiles as reproducibly and reliably as a
+        regular protocol.
+        4. Microarray results obtained from an amplification
+        protocol should match data obtained from other molecular
+        biology approaches such as northern blotting, western
+        blotting and immunohistochemistry assay.
+        Our results showed that our amplification protocol
+        produced reproducible, reliable microarray data that was
+        consistent with the regular protocol. We also confirmed
+        that our amplification protocol revealed accurate
+        information about the differential expression of low copy
+        number genes that failed to give sufficient signal
+        intensities using the regular protocol. Therefore, many
+        clinical experiments for which only a minute amount of
+        material is available can be pursued using this
+        protocol.
       
       
-        Results and Discussion
+        Results
         
-          Design of Group I aptazymes
-          In order to convert the Group I self-splicing intron
-          to a regulatable aptazyme, it was necessary to first
-          identify sequences or structures in the ribozyme whose
-          conformation might modulate splicing activity. The
-          structural and kinetic properties of the Group I
-          self-splicing intron from the 
-          thymidylate synthase ( 
-          td ) gene in bacteriophage T4 have
-          been extensively studied. In particular, a series of
-          nested deletions of the P6 stem-loop have been shown to
-          partially or completely compromise ribozyme activity [ 15
-          ] . More importantly, either magnesium or the tyrosyl
-          tRNA synthetase from Neurospora mitochondria (CYT18) can
-          suppress many of these defects [ 16 17 ] . Previous
-          studies with other introns have also revealed that
-          deletion of the P5 stem-loop can modulate ribozyme
-          activity [ 18 19 ] . We hypothesized that sites where
-          deletions modulated ribozyme activity might also prove to
-          be sites where aptamer conformational changes would
-          modulate ribozyme activity. Based on these studies, we
-          designed a series of Group I aptazymes in which the
-          anti-theophylline aptamer was substituted for either a
-          portion of P6 or P5 (Figure 1). The anti-theophylline
-          aptamer was attached at the same point as had previously
-          proven successful in the design of theophylline-dependent
-          cleavases and ligases [ 13 14 ] .
+          Enhancement of signal intensity for genes expressed
+          at a low copy number
+          We expected the amplification protocol to increase the
+          signal intensity of low expressing genes; in other words,
+          the number of genes having measurable signal intensity
+          above background levels from using the amplification
+          protocol should be higher than that using the regular
+          protocol. We used S/N > 2.0 to determine if a gene has
+          measurable signal intensity on an array; i.e., if the
+          difference between signal intensity and background
+          intensity is greater than 2.0 SD of the local background,
+          then the gene gives adequate signal intensity. We
+          assessed all 9 arrays; the results are summarized in
+          Table 2. The results showed that the number of genes
+          whose S/N ratio exceeds 2 SD of background is
+          consistently higher in both channels when using the
+          amplification protocol. The signal intensities of low
+          expressors, indeed, are improved so that more genes
+          turned out to be detectable. Our result also showed that
+          the PCR step (1 or 3 cycles) before aRNA amplification
+          had no detectable effect on the final results.
         
         
-          Activation in vitro
-          The self-splicing activities of the Group I aptazymes
-          were examined 
-          in vitro using a standard splicing
-          assay (Table 1). Magnesium had previously been shown to
-          suppress structural defects in the 
-          td intron, and ligand-induced
-          suppressions of splicing defects were examined by
-          carrying out splicing reactions at either low (3 mM,
-          stringent) or high (8 mM, permissive) magnesium
-          concentrations [ 15 ] . Several of the constructs were
-          either relatively inactive (e.g., Th3P6, Th5P6, and
-          Th6P6) or did not consistently show differential splicing
-          activity (e.g., Th4P6 and Th2P5). However, four of the
-          constructs, Th1P6, Th2P6, Th3P6, and Th1P5, showed good
-          activity (>10% of wild-type) and increased
-          self-splicing in the presence of theophylline. For
-          example, Th2P6 showed the greatest activation (8-fold at
-          8 mM MgCl 
-          2 ), while Th1P5 showed low activation
-          (1.2-fold) at both magnesium concentrations.
-          For all of the aptazymes except Th3P6, the
-          ligand-induced splicing activity was greater in a
-          standard assay at the more stringent (3 mM) magnesium
-          concentration (Table 1). The construct Th3P6 was inactive
-          at lower magnesium concentrations, but underwent
-          ligand-induced splicing at the more permissive
-          concentration (8 mM). Interestingly, those aptazyme
-          constructs that showed ligand-dependent activity closely
-          resembled the original deletion variants that showed
-          magnesium-dependent recovery of splicing activity. For
-          example, the junction between the aptamer and the Group I
-          ribozyme in the aptazyme Th2P6 resembled the deletion
-          variant 
-          td ΔP6-6; the aptazyme was
-          activated by theophylline, while the splicing defect of
-          the deletion variant at 3 mM magnesium was suppressed by
-          8 mM magnesium or by stabilization of a tetraloop
-          sequence that capped the P6 helix [ 15 ] . Defects that
-          poise a ribozyme between active and inactive conformers
-          have previously been used to engineer effector-dependence
-          [ 20 ] .
-          The kinetics of splicing of two of the most activated
-          variants, Th1P5 and Th2P6, were examined in the presence
-          and absence of theophylline (Figure 2). As in the single
-          point assays, the theophylline-dependence of the
-          engineered introns was readily apparent (Figure 2a). The
-          time courses reveal that the extents of splicing of the
-          aptazymes were significantly affected by the addition of
-          theophylline (Figures 2b,2c). The aptazyme modified at P5
-          (Th1P5) showed less theophylline-dependent enhancement of
-          the extent of reaction than the aptazyme modified at P6
-          (Th2P6), consistent with the single point assays
-          described above. Th1P5 was activated 1.4-fold at 15
-          minutes (Figure 2b), while Th2P6 showed a 4.0-fold rate
-          enhancement at 15 minutes (Figure 2c). These levels of
-          ligand-dependent activation were similar to those
-          observed with the original hammerhead aptazyme
-          constructs, [ 21 ] and it may prove possible to use 
-          in vitro selection to further
-          optimize activation [ 13 14 ] . However, when the time
-          course data were fit with a single exponential equation,
-          the rates of the initial reactions turned out to be very
-          similar in both the presence and absence of theophylline
-          (Table 2).
-          Based on these results, the primary mechanism of
-          activation is likely the same as has been observed for
-          other aptazymes: ligand-induced conformational changes
-          that stabilize functional ribozyme sequences and
-          structures. However, the Group I self-splicing intron is
-          a much more complicated ribozyme than either the
-          hammerhead or the L1 ligase; for example, the tertiary
-          structure of the Group I intron is established by a
-          complicated folding pathway. [ 22 23 24 25 26 ]
-          Therefore, it was possible that theophylline-binding
-          influenced the overall folding pathway of the engineered
-          Group I aptazyme. In order to assess this possibility we
-          examined the theophylline-dependence of Th2P6 splicing
-          reactions 
-          in vitro following prolonged
-          incubation (30 minutes) to allow for re-folding. No
-          significant change in the extent of ligand-dependent
-          activation was observed following pre-incubation (data
-          not shown). These results argue that both GTP and
-          theophylline may need to be present to influence the
-          folding pathway of the engineered Group I aptazymes.
-          These results are also consistent with previous physical
-          [ 27 ] and kinetic [ 28 29 30 ] data that shows that the
-          folding of the Group I intron is dependent in part upon
-          GTP.
+          Consistent patterns of differential gene
+          expression
+          Finding differentially expressed genes is one of the
+          goals of microarray technology. Ideally, both the regular
+          and amplification protocols would identify the same list
+          of differentially expressed genes. We did not expect to
+          see identical lists of differentially expressed genes
+          generated from the two protocols, since we may not even
+          achieve that goal using the same protocol twice due to
+          the variability associated with microarray experiments [
+          12 13 14 ] . However, we do want to see most
+          differentially expressed genes appearing on both
+          lists.
+          To identify differentially expressed genes, we
+          computed "smooth t-statistics". To apply this method, we
+          first computed the mean log intensity and the standard
+          deviation for the replicated spots within each channel.
+          Since the standard deviation varies systematically with
+          the mean, we then fit a smooth curve representing the
+          standard deviation as a function of the mean. After
+          pooling the smooth estimates of standard deviation from
+          the two channels, we used the pooled estimates to compute
+          a t-statistic for each gene [ 13 15 ] . These "smooth
+          t-statistics" can also be viewed as "studentized log
+          ratios"; i.e., as log ratios between channels that have
+          been rescaled to account for the intrinsic
+          variability.
+          We found that the consistency and reproducibility of
+          smooth t-statistics between experiments is high
+          regardless of the protocol being used. We quantified the
+          reproducibility using the concordance coefficient, which
+          is analogous to the correlation coefficient but measures
+          how well a set of points matches the identity line [ 16
+          17 18 ] . The concordance between experiments using the
+          regular protocol ranged from 0.574 to 0.835, with a
+          median of 0.739. The concordance using the amplification
+          protocol ranged from 0.843 to 0.894, with a median of
+          0.873. The concordance between the experiments using
+          different protocols ranged from 0.562 to 0.796, with a
+          median of 0.652.
+          Using data from all experiments performed with the
+          regular protocol, we computed a combined set of smooth
+          t-statistics. We computed a similar set of t-statistics
+          using data from all experiments performed with the
+          amplification protocol. Genes are viewed as
+          differentially expressed if the smooth t-statistic
+          exceeds some threshold; for this study, we chose genes
+          with smooth t-statistic greater than four in absolute
+          value. Using this criterion, we found that the regular
+          protocol identified 21 genes that were differentially
+          expressed between U251 and LN229 cell lines, and the
+          amplification protocol identified 28 differentially
+          expressed genes. Fifteen genes were common to both lists.
+          Thirteen genes were found using the amplification
+          protocol but not the regular protocol; the smooth
+          t-statistics for these genes ranged in absolute value
+          from 1.19 to 3.96, with a median of 2.23. Six genes were
+          found using the regular protocol but not the
+          amplification protocol; the smooth t-statistics for these
+          genes using the amplification protocol ranged in absolute
+          value from 3.16 to 3.97 with a median of 3.42. In every
+          case, the sign of the t-scores was the same using the
+          different protocols, indicating that the same cell line
+          overexpressed the gene.
         
         
-          Gene regulation in vivo
-          Each of the successful aptazyme constructs was
-          subsequently cloned into an interrupted 
-          thymidylate synthase gene in place
-          of the parental 
-          td self-splicing intron. The
-          vectors were introduced into an 
-          E. coli strain (C600ThyA::Kan R)
-          that lacked a functional 
-          thymidylate synthase gene and that
-          was a thymidine auxotroph. When bacteria grown in rich
-          media were subsequently plated on minimal media lacking
-          thymidine, no colony growth was observed with the
-          exception of Th1P5. However, when theophylline (7.5 mM)
-          was included in the minimal media, bacteria containing
-          the intron Th2P6 formed colonies, and bacteria containing
-          the intron Th1P5 showed increased growth (Figure 3). All
-          introns that originally showed no or low splicing 
-          in vitro (including Th3P6) could
-          not rescue bacteria either in the presence or absence of
-          theophylline. Finally, no growth was observed in a
-          negative control that contained a non-functional Group I
-          intron (B11), and no theophylline-dependent changes in
-          growth were observed in a negative control in which
-          mutations were introduced into the aptazyme to abolish
-          theophylline binding (Th2P6.D). Interestingly, no growth
-          was observed for bacteria harboring the intron Th1P6,
-          despite the fact that this aptazyme showed the greatest
-          activation by theophylline 
-          in vitro . The plating results were
-          consistent and reproducible over a variety of
-          experiments.
-          To better characterize the influence of the effector
-          on intron-splicing, we also carried out a series of
-          growth experiments in liquid culture (Figure 4a). An
-          overnight bacterial culture that contained the 
-          td gene divided by the aptazyme
-          Th2P6 was inoculated into fresh, minimal media, effector
-          was added, and growth was continuously monitored. As
-          expected based on growth assays on solid media, little
-          growth was observed in the absence of theophylline.
-          However, when theophylline (0.5 mM) was added to liquid
-          medium, bacteria grew almost as well as a control in
-          which the parental intron was inserted into the 
-          td gene. Most importantly,
-          bacterial growth was not activated by the
-          structurally-related effector caffeine (i.e.,
-          7-methyltheophylline); the anti-theophylline aptamer is
-          known to discriminate between caffeine and theophylline
-          by a factor of 10,000-fold [ 10 ] . No effector-dependent
-          growth differences were observed with cultures containing
-          
-          td genes divided by the
-          non-functional Group I intron B11. Similar results were
-          obtained with cultures that contained the 
-          td gene divided by the aptazyme
-          Th1P5 (Figure 4b). However, in this instance there was
-          some background growth of uninduced bacteria, consistent
-          with the higher level of background splicing activity 
-          in vitro . If theophylline is
-          regulating intron splicing 
-          in vivo , then the extent of
-          bacterial growth should be dependent upon the
-          concentration of theophylline introduced into the media
-          (Figure 4c). However, theophylline was toxic to bacteria,
-          and caused a decrease in the growth of bacteria
-          containing the parental 
-          td intron at concentrations greater
-          than 0.5 mM. Consistent with this observation, low
-          concentrations of theophylline progressively increased
-          bacterial growth (by activating the 
-          td intron) while concentrations of
-          theophylline above 2 mM progressively decreased bacterial
-          growth (although levels of growth were still well above
-          background).
-          These results were all consistent with the hypothesis
-          that theophylline regulates intron splicing 
-          in vivo . To further probe whether
-          this was in fact the case mRNA was isolated from 
-          E. coli treated with theophylline
-          or not, and RT-PCR was used to confirm the presence of
-          spliced introns (Figure 5). For each of the introns known
-          to be responsive to theophylline 
-          in vivo (Th2P6 and Th1P5) an
-          increase in spliced mRNA was observed, while most other
-          introns that were not responsive to theophylline 
-          in vivo did not show an increase in
-          the levels of spliced mRNA. An exception to this was
-          Th1P6, which originally showed theophylline-dependent
-          splicing 
-          in vitro and also showed
-          theophylline-dependent splicing 
-          in vivo . However, Th1P6 did not
-          mediate theophylline-dependent growth. The bacterial
-          mRNAs were extracted, cloned, and sequenced, and half of
-          them appeared to use a cryptic splice site.
-          Several discrepancies were noted between intron
-          activation 
-          in vitro and effector-dependent
-          growth. This is not surprising; other studies have
-          revealed that there is often little correlation between
-          ribozyme activity 
-          in vitro and 
-          in vivo [ 31 ] . However, since it
-          is known that relatively small changes in gene expression
-          can greatly affect the metabolism of an organism, another
-          possible explanation for the apparent discrepancies is
-          that relatively small modulations in intron splicing are
-          amplified via cellular metabolism to yield growth
-          phenotypes. This would seem especially true in the
-          current set of experiments, since the modulation of
-          Thymidylate Synthase expression is known to greatly
-          affect thymidine levels and cell growth [ 32 ] . For
-          example, 
-          E. coli that are starved for
-          thymine quickly die, a phenomenon known as 'thymineless
-          death' [ 33 ] . In this respect, Group I aptazymes that
-          may have yielded lower amounts of functional Thymidylate
-          Synthase (e.g., Th3P6, which was less active than Th2P6;
-          or Th1P6, which mis-spliced) did not allow bacterial
-          growth. In contrast, aptazymes that may have yielded even
-          modestly greater amounts of functional Thymidylate
-          Synthase (e.g., Th1P5, which was both highly active and
-          modestly activated 
-          in vitro ) allowed bacterial
-          growth.
+          Reproducibility and reliability of signal
+          intensity
+          To evaluate whether the amplification protocol
+          preserved signals that were seen using the regular
+          protocol, we first found all the spots in each channel
+          (U251 or LN229) that consistently had S/N > 2.0 in all
+          five experiments using the regular protocol. We then
+          computed the percentage of those genes that also had S/N
+          > 2.0 on each of the arrays using the amplification
+          protocol. We found that 95% to 100% of the genes that are
+          consistently found to be expressed using the regular
+          protocol were also found to be expressed using the
+          amplification protocol. For U251 on four amplified
+          arrays, the percentages are 100%, 99%, 98%, and 100%; for
+          LN229, 100%, 96%, 95%, and 98%.
         
         
-          Effector specificity
-          In order to examine effector-specificity 
-          in vivo , a new series of Group I
-          aptazymes was constructed in which the anti-theophylline
-          aptamer was mutated to bind 3-methylxanthine (3MeX2P6) [
-          34 ] . These variants proved to be responsive to
-          3-methylxanthine both 
-          in vitro and 
-          in vivo (Figure 6a). However, the
-          variants were no longer responsive to theophylline, nor
-          were they responsive to a variety of other analogues,
-          including caffeine, 1-methylxanthine, 7-methylxanthine,
-          1,3-dimethyl urilic acid, hypoxanthine, xanthine, and
-          theobromine (Figure 6b). In contrast, the original
-          aptamer was known to also bind 3-methylxanthine, and the
-          original Group I aptazyme (Th2P6) also proved to be
-          responsive to 3-methylxanthine 
-          in vivo (Figure 6c). Thus, the
-          responsivity of the aptazymes 
-          in vivo appears to mirror their
-          effector specificity 
-          in vitro .
-        
-        
-          Applications
-          The ability to engineer Group I introns to be
-          responsive to effector molecules has numerous potential
-          applications. For example, it may prove possible to
-          develop new gene therapies in which patients rely upon
-          drugs that can differentially activate gene expression,
-          rather than having to rely upon a set level of endogenous
-          expression of an introduced gene. Similarly, it may prove
-          possible to use effector-dependent splicing to more
-          finely monitor gene expression 
-          in vivo . A drug could be localized
-          to particular organs, cells, or organelles, and splicing
-          of the aptazyme could be monitored via a reporter gene
-          such as luciferase. It is also possible to imagine that
-          engineered introns introduced into reporter genes may
-          find application in high-throughput, cell-based screening
-          assays that monitor drug uptake or efficacy. These
-          strategies should prove useful not only for self-splicing
-          introns activated by drugs, but for introns activated by
-          proteins or peptides. In this regard, it is notable that
-          some natural Group I introns have proven to be highly
-          dependent upon protein cofactors, [ 35 ] and that Group I
-          introns have been engineered whose tertiary structure and
-          activity is dependent upon a peptide [ 36 ] . Such
-          applications could also be melded with other innovations
-          dependent upon the Group I self-splicing intron, such as
-          the introduction of a trans-splicing intron that can
-          potentially repair or modulate the expression of a given
-          mRNA. [ 37 38 39 ]
+          Confirmation of the results from amplification
+          experiments
+          A key criterion for the validity of microarray
+          experiments is whether the results are real and can be
+          confirmed by other approaches. In order to obtain
+          representative information rather than noise from
+          nonspecific binding of targets to the DNA probes in a
+          microarray experiment, the hybridization has to be
+          specific. To demonstrate the hybridization specificity in
+          our microarray experiments, we selectively labeled a
+          specific target such as actin or GAPDH with one dye and
+          hybridized to the microarray. Our results showed that the
+          specific target only hybridized to its corresponding
+          spots on the array [ 19 ] . Second, in order to confirm
+          the results, the clones printed on the microarray have to
+          be correct and error free. This is an important issue
+          because most clone libraries used for making microarrays
+          contain significant errors. To surmount this problem, all
+          the clones printed on our microarrays were sequence
+          verified before printing [ 20 ] . Because of those
+          quality control measures, we expected that our microarray
+          results should be confirmed as long as the amplification
+          is stable and consistent among different experiments.
+          From the results of comparison between U251 and LN229,
+          we selected six genes that showed differential expression
+          either using both the regular and the amplification
+          procedures or only using the amplification procedure.
+          Among these, four genes were detected by both protocols
+          and two genes were only detected by the amplification
+          protocol (Figure 1). Genes that belong to the latter case
+          are most likely expressed at very low levels that fall
+          below the threshold of detection by the regular protocol.
+          These genes were then tested by other molecular
+          methodologies.
+          We first selected two genes, S100 and GFAP, that are
+          common markers for glial cells. Among U251 and LN229
+          cells, the microarray results from both protocols showed
+          that S100 was expressed at higher levels in LN229 cells
+          and GFAP at higher levels in U251 cells. U251 and LN229
+          cells were embedded in paraffin blocks and sectioned. The
+          sections were stained with antibodies for those two
+          antigens. The immunohistochemistry results showed that
+          S100 is expressed at higher levels in LN229 cells and
+          GFAP at higher levels in U251 cells (Fig 2A). Two
+          additional genes, HLA-DR alpha and SNRP-B, that were also
+          obtained using the two protocols, were confirmed by
+          northern blotting (Fig 2A).
+          We mentioned that some low-expressing genes could only
+          be detected by the amplification protocol and not by the
+          regular protocol. To confirm whether the new information
+          by this approach is reliable, we randomly picked up two
+          differentially expressed genes, IGFBP2 and integrin beta
+          4, that were identified by the amplification protocol but
+          not by the regular protocol for confirmation using
+          western blotting, northern blotting and
+          immunohistochemistry assays. The results from these
+          experiments showed that all the two genes were expressed
+          at higher levels in U251 cells (Figure 2B) as obtained by
+          the microarray data. It should be noted that for the low
+          expressed genes that could only be detected by the
+          amplification protocol, longer exposure time for the
+          northern blotting is needed and the signal intensity is
+          much lower than that generated from the high expressed
+          genes that could be detected by both protocols (Figure
+          2B).
+          In summary, we have carried out a series of
+          confirmation experiments using northern blotting, western
+          blotting and immunohistochemistry assay and all six
+          differentially expressed genes revealed from the
+          microarray experiments have been confirmed.
         
       
       
-        Conclusions
-        Group I aptazymes that were dependent upon theophylline
-        both 
-        in vitro and 
-        in vivo were engineered by conjoining
-        the 
-        thymidylate synthase ( 
-        td ) intron with an anti-theophylline
-        aptamer. Although the 
-        in vitro activation of splicing was
-        modest (up to an 18-fold change in initial rate), this
-        change was more than enough to mediate the survival of a
-        thymidine-dependent 
-        E. coli strain. The ligand
-        specificity of the anti-theophylline aptamer carried over
-        to the theophylline-dependent aptazyme, and no activation
-        was seen with caffeine, which differed by a single methyl
-        group from theophylline. The effector specificity could be
-        rationally changed by changing the specificity of the
-        conjoined aptamer: when a mutation was introduced into the
-        anti-theophylline aptamer that led to discrimination
-        against theophylline and in favor of 3-methylxanthine (that
-        also differed from theophylline by a single methyl group),
-        the aptamer became solely responsive to 3-methylxanthine 
-        in vivo . Group I aptazymes may have
-        a number of important biotechnology applications, including
-        use as 
-        in vivo , real-time reporters and as
-        regulatable gene therapeutics.
+        Discussion
+        A major difficulty in the study of cancer is that cancer
+        cells are extremely elusive and the genetic mutation events
+        are continuously occurring temporally and spatially. The
+        development of high throughput genomic technologies enables
+        us to screen thousands of genes simultaneously for the
+        informative genes, yet the power of these technologies is
+        greatly attenuated when inappropriate samples are studied.
+        Generally speaking, the most biologically appropriate
+        materials obtained from clinical samples are small in
+        quantity. This observation motivates the development of
+        experimental protocols that allow application of genomic
+        technologies to minute amounts of biological materials. In
+        this manuscript, we have described such a method that
+        allows us to use cDNA microarrays with only 1 microgram of
+        total RNA.
+        The initial evaluation of the methodology is based on
+        the detection of fluorescent signals on the microarray
+        after hybridization. Although we could see bright spots
+        with the amplification protocols, this apparent "success"
+        does not mean the information so acquired is reliable.
+        False positives are often the result of side-effects during
+        amplification. We set out to assess the accuracy and
+        reliability using both statistical and experimental
+        approaches. Both approaches supported the validity of our
+        protocol in the identification of differentially expressed
+        genes in two cell populations. This demonstrates that the
+        same genes are amplified to the same extent in different
+        cell populations. However, in our results, the amount of
+        amplification varies from gene to gene. Therefore, the
+        amplification process is not balanced and changes the
+        relative transcript levels in a given cell population.
+        Thus, from the amplified results, one cannot infer the
+        relative expression levels of different genes in a single
+        sample. However, in most biological studies, identification
+        of differentially expressed genes among different samples
+        is the main aim. These genes can serve as useful markers
+        for diagnosis, for prediction of therapeutic response, and
+        perhaps as a target for developing new drugs. Thus, we have
+        developed an assay that will enable us to approach a series
+        of important clinical issues given a limited amount of
+        material. This assay has been used in several ongoing
+        studies and useful information has been obtained.
       
       
-        Methods
-        
-          E. colistrains and growth media
-          
-          E. coli strain C600ThyA::KanR was
-          used for the plate assays and 
-          in vivo growth curves. INVaF'
-          (Invitrogen, Carlsbad, CA) was used for cloning and
-          plasmid amplification. Bacterial starter cultures were
-          grown in LB supplemented with thymine (50 mg/l).
-          Screening for thymidine auxotrophy was done in minimal
-          media supplemented with 0.1% Norit A-treated casamino
-          acids (MM) and MM supplemented with thymine (50 mg/l)
-          (MMT). Plates contained Bacto agar (1.5%). Ampicillin (50
-          mg/l) and kanamycin (100 mg/l) were added to all growth
-          media.
-        
-        
-          Construction of the tdintron aptazymes
-          The wild type plasmid pTZtd1304 [ 17 ] contains a
-          fully functional 265 nt derivative of the 1016 nt wild
-          type intron [ 15 ] . This derivative also contains the
-          substitutions U34A, which introduces a SpeI site, and
-          U976G, which introduces an EcoRI site. The constructs
-          were made using standard solid phase DNA synthesis, then
-          were PCR-amplified and cloned into pTZtd1304. The
-          parental P6 aptazyme construct was generated by two
-          overlapping oligos, Gp1Wt2 Gp1Wt2.122 (GCC TGA GTA TAA
-          GGT GAC TTA TAC TTG TAA TCT ATC TAA ACG GGG AAC CTC TCT
-          AGT AGA CAA TCC CGT GCT AAA TTG TAG GAC TGC CCG GGT TCT
-          ACA TAA ATG CCT AAC GAC TAT CCC TT) and Gp1Wt3.129 (TAA
-          TCT TAC CCC GGA ATT ATA TCC AGC TGC ATG TCA CCA TGC AGA
-          GCA GAC TAT ATC TCC AAC TTG TTA AAG CAA GTT GTC TAT CGT
-          TTC GAG TCA CTT GAC CCT ACT CCC CAA AGG GAT AGT CGT TAG).
-          These oligonucleotides (100 pmole) were annealed and
-          extended with AMV reverse transcriptase (Amersham
-          Pharmacia Biotech, Piscataway, NJ; 45 units) in AMV RT
-          buffer (50 mM Tris-HCl, pH 8.3, 8 mM MgCl 
-          2 , 50 mM NaCl, 1 mM DTT) and dNTPS
-          (200 μM) for 30 minutes at 37°C. The resulting
-          double-stranded DNA was diluted 1:50 and amplified using
-          primers SpeI.24 (TTA TAC TAG TAA TCT ATC TAA ACG; 0.4 μM)
-          and EcoRI.24 (CCC GGA ATT CTA TCC AGC TGC ATG; 0.4 μM) in
-          PCR buffer (10 mM Tris-HCl, pH 8.3, 50 mM KCl, 1.5 mM
-          MgCl 
-          2 , 0.1% Triton X-100, 0.005%
-          gelatin), dNTPS (200 μM) and Taq DNA polymerase (Promega,
-          Madison, WI; 1.5 units). The reactions were thermocycled
-          15 times at 94°C for 30 seconds, 45°C for 30 seconds,
-          72°C for 1 minute and then purified with a QIAquick PCR
-          purification kit (Qiagen, Valencia, CA). The PCR product
-          was digested with SpeI (New England Biolabs, Beverly, MA;
-          20 units) and EcoRI (50 units) in buffer (50 mM NaCl, 100
-          mM Tris-HCl, pH 7.5, 10 mM MgCl 
-          2 , 0.025% Triton X-100, 100 μg/ml
-          BSA) at 37°C for 60 minutes, purified, and cloned into
-          SpeI/EcoRI digested pTZtd1304. The negative control and
-          aptazyme constructs were made as described except that
-          Gp1Wt3.129 was replaced with oligonucleotides of the
-          appropriate sequence: B11 GCC TGA GTA TAA GGT GAC TTA TAC
-          TTG TAA TCT ATC TAA ACG GGG AAC CTC TCT AGT AGA CAA TCC
-          CGT GCT AAA TGC CTA ACG ACT ATC CCT T, Th1P6 GCC TGA GTA
-          TAA GGT GAC TTA TAC TTG TAA TCT ATC TAA ACG GGG AAC CTC
-          TCT AGT AGA CAA TCC CGT GCT AAA TTA TAC CAG CAT CGT CTT
-          GAT GCC CTT GGC AGA TAA ATG CCT AAC GAC TAT CCC TT, Th2P6
-          GCC TGA GTA TAA GGT GAC TTA TAC TTG TAA TCT ATC TAA ACG
-          GGG AAC CTC TCT AGT AGA CAA TCC CGT GCT AAA TTG ATA CCA
-          GCA TCG TCT TGA TGC CCT TGG CAG CAT AAA TGC CTA ACG ACT
-          ATC CCT T, Th3P6 GCC TGA GTA TAA GGT GAC TTA TAC TTG TAA
-          TCT ATC TAA ACG GGG AAC CTC TCT AGT AGA CAA TCC CGT GCA
-          TAC CAG CAT CGT CTT GAT GCC CTT GGC AGG CCT AAC GAC TAT
-          CCC TT, Th4P6 GCC TGA GTA TAA GGT GAC TTA TAC TTG TAA TCT
-          ATC TAA ACG GGG AAC CTC TCT AGT AGA CAA TCC CGT GCT AAA
-          TAT ACC AGC ATC GTC TTG ATG CCC TTG GCA GTA AAT GCC TAA
-          CGA CTA TCC CTT, Th5P6 GCC TGA GTA TAA GGT GAC TTA TAC
-          TTG TAA TCT ATC TAA ACG GGG AAC CTC TCT AGT AGA CAA TCC
-          CGT ATA CCA GCA TCG TCT TGA TGC CCT TGG CAG CTA ACG ACT
-          ATC CCT T, Th6P6 GCC TGA GTA TAA GGT GAC TTA TAC TTG TAA
-          TCT ATC TAA ACG GGG AAC CTC TCT AGT AGA CAA TCC CGT GAT
-          ACC AGC ATC GTC TTG ATG CCC TTG GCA GCC TAA CGA CTA TCC
-          CTT, Th1P5 TGA GTA TAA GGT GAC TTA TAC TAG TAA TCT ATC
-          TAA ACG GGG AAC CTC TAT ACC AGC ATC GTC TTG ATG CCC TTG
-          GCA GAG ACA ATC CCG TGC TAA ATT GTA GGA CTG CCC GGG TTC
-          TAC ATA AAT GCC TAA CGA CTA TCC CTT, Th2P5 TGA GTA TAA
-          GGT GAC TTA TAC TAG TAA TCT ATC TAA ACG GGG AAC CTA TAC
-          CAG CAT CGT CTT GAT GCC CTT GGC AGA CAA TCC CGT GCT AAA
-          TTG TAG GAC TGC CCG GGT TCT ACA TAA ATG CCT AAC GAC TAT
-          CCC TT, 3Mex2P6 GTA ATC TAT CTA AAC GGG GAA CCT CTC TAG
-          TAG ACA ATC CCG TGC TAA ATT GAT ACC AGC ATC GTC TTG ATG
-          CCA TTG GCA GCA TAA ATG CCT AAC GAC TAT CCC TT, and
-          Th2P6.D GTA ATC TAT CTA AAC GGG GAA CCT CTC TAG TAG ACA
-          ATC CCG TGC TAA ATT GAT ACC AGC ATC GTC TTG ATG CCC TTG
-          GTT GCA TAA ATG CCT AAC GAC TAT CCC TT.
-        
-        
-          In vitrotranscription
-          The introns were PCR-amplified with KM37 (GAT AAT ACG
-          ACT CAC TAT AAT GGC ATT ACC GCC TTG T) and GM24 (GCT CTA
-          GAC TTA GCT ACA ATA TGA AC) in 25 μl reactions under the
-          conditions stated above and cycled 20 times. A portion of
-          the reaction (5 μl) was run on a 3% agarose gel and the
-          PCR product band was stabbed with a pipette tip. The
-          agarose plug was added to a fresh PCR reaction (100 μl)
-          and cycled 15 times; DNA was purified using a QIAquick
-          kit and quantitated. The PCR product (2 μg in 50 μl) was
-          added to an 
-          in vitro transcription reaction
-          containing Ampliscribe T7 RNA polymerase (Epicentre),
-          RNase inhibitor (GIBCO BRL, Rockville, MD; 5 units), low
-          Mg 2+buffer (30 mM Tris-HCl, pH 8, 7.5 mM DTT, 4.5 mM
-          MgCl 
-          2 , 1.5 mM spermidine), UTP (1.25 mM),
-          ATP (2.5 mM), GTP (2.5 mM), CTP (7.5 mM) and α- 32P UTP
-          (NEN, Boston, MA; 20 μCi; 3000 mCi/mmol), and incubated
-          at 37°C for 2 hours. DNase (GIBCO BRL, 295 units) was
-          added and the reaction was incubated at 37°C for an
-          additional 30 minutes. The RNA was purified using
-          Centri-Sep columns (Princeton Separations, Adelphia, NJ)
-          and quantitated.
-        
-        
-          In vitrosplicing assays
-          The assays were performed by heating the RNA (500 nM)
-          in H 
-          2 O to 70°C for 3 minutes then
-          transferring to ice for 1 minute. Splicing buffer (20 mM
-          Tris-HCl, pH 7.5, 100 mM KCl, 3 mM MgCl 
-          2 ), effector (theophylline, 1.5 mM)
-          was added and the reactions were incubated on ice for an
-          additional 15 minutes. At this time a 4.5 μl aliquot was
-          removed for a zero time point and quenched with 5 μl stop
-          dye (95% formamide, 20 mM EDTA, 0.5% xylene cyanol, and
-          0.5% bromophenol blue). GTP (50 μM) was added to the
-          remaining reaction (5 μl total volume) to start the
-          splicing reaction. The reaction was incubated at 37°C for
-          30 minutes and then terminated with stop dye (5 μl). The
-          reactions were heated to 70°C for 3 minutes and 5 μl was
-          analyzed on a 8% denaturing polyacrylamide gel. The gel
-          was dried, exposed to a phosphor screen and analyzed
-          using a Molecular Dynamics Phosphorimager (Sunnyvale,
-          CA).
-          The reaction volumes were increased for the rate
-          determination assay. Aliquots were taken at intervals
-          between 0 minutes and 15 minutes and terminated with stop
-          dye. The reactions were analyzed as described above. For
-          each time point, the number of counts in unreacted
-          intron, spliced intron, and circularized intron were
-          determined. Background counts were subtracted from these
-          values. The fraction of reacted intron was then
-          calculated as:
-          
-            
-              (circular intron + spliced intron)
-              / (unreacted intron + circular intron + spliced
-              intron) 
-             
-          
-          The individual time points were averaged together, the
-          fraction reacted was plotted versus time, and rate
-          constants were extracted by fitting the data to a
-          single-exponential equation:
-          
-            
-            F = 
-            A * 
-            e (- 
-            kt ) 
-          
-          The plotted data and rate constants for Th1P5 and
-          Th2P6 constructs are shown in Figures 2band 2cand Table
-          2. The changes in the extent of reaction observed between
-          individual experiments, and thus the attendant error
-          bars, were consistent with those observed during the
-          kinetic analyses of other ribozymes. For example, studies
-          of the hairpin ribozyme have shown that data points can
-          vary between individual experiments by as much as 50% [
-          40 ] . Our data points typically varied from one another
-          by less than 30%.
-        
-        
-          In vivoplate assay
-          The plasmids containing the various group I constructs
-          were transformed into competent C600ThyA::Kan Rcells and
-          grown in LB with kanamycin overnight. A small aliquot (3
-          μl) of overnight cell culture was mixed with effector
-          (theophylline, 7.5 mM) or H 
-          2 O, spotted on plates, and grown
-          overnight at 37°C. As a positive control, all constructs
-          were also plated on minimal media plates with thymine
-          (MMT) and assayed for viability.
-        
-        
-          In vivogrowth curves
-          Cells grown overnight in LB were diluted 1:100 in MM
-          containing either theophylline, caffeine,
-          3-methylxanthine or no effector, and analyzed on a
-          Microbiology Workstation Bioscreen C (Labsystems, Inc.,
-          Franklin, MA).
-        
-        
-          RT-PCR analysis
-          RNA was isolated from an overnight culture using a
-          MasterPure RNA purification kit (Epicentre, Madison, WI)
-          and amplified by RT-PCR using primers KM37 and GM24
-          following the protocol provided for Tth polymerase. The
-          products were separated and analyzed on a 3% agarose
-          gel.
-        
+        Conclusion
+        We have confirmed a powerful and consistent cDNA
+        microarray procedure that can be used to study minute
+        amounts of biological tissue.
       
       
-        Authors' Contributions
-        Kristin M. Thompson conceived of, designed, and carried
-        out most of the experiments described in this paper and
-        analyzed the resultant data. Heather A. Syrett repeated a
-        number of these experiments and showed that the 
-        in vivo activation of the intron was
-        reproducible. Scott M. Knudsen assisted in data analysis.
-        Andrew D. Ellington conceived of these experiments and
-        assisted in the design of experiments and data
-        analysis.
+        Materials and Methods
+        
+          Microarray production
+          A total of 2,304 known human cDNAs were prepared by
+          PCR from the Research Genetics cDNA clone library using
+          the two primers on the vector. The sequences of the two
+          primers are: up-stream 5'-CTGCAAGGCATTAAGTTGGGTAAC-3';
+          down-stream, 5'- GTGAGCGGATAACAATTTCACACAGGAAACAGC-3'.
+          The PCR products were purified using MultiScreen PCR
+          plates (Millipore Corp., Bedford, MA) and verified by
+          sequencing at our Cancer Genomics Core Lab prior to
+          printing. The DNA clones, in 394-well plates, were
+          spotted onto poly-L-lysine-coated microscope slides using
+          a robotic arrayer (Genomic Solutions, Ann Arbor,
+          Michigan). All the clones except for the control genes
+          such as GAPDH, β-actin, tubulin and an EST highly similar
+          to GAPDH, are duplicated on the array. After printing,
+          the slides are dried, cross-linked by UV (650 J/cm2),
+          washed by water, and stored dry.
+        
+        
+          RNA amplification and target labeling
+          U251 and LN229 human glioma cell lines were maintained
+          in DMEM supplemented with 10% fetal calf serum
+          (Gibco-BRL, Gaithersburg, MD). Total RNA was isolated
+          using TRI reagent (MRC, Cincinnati, OH).
+          5-Amino-propargyl-2'-deoxycytidine 5'-triphosphate
+          coupled to Cy3 (Cy5) fluorescent dye - Cy 3-AP3-dCTP or
+          Cy5 -AP3-dCTP (Cy3 and Cy5) were purchased from Amersham
+          Pharmacia Biotech Inc. (Piscataway, NJ). Reverse
+          transcription was carried out in a 20 μl volume
+          containing 1 μg total RNA, 1 μg oligdT25- T7
+          (5'-AAACGACGGCCAGTGAATTGTAATACGACTCACTATAGGG -CGATT-3')
+          primer, 1 μg template switch primer
+          (5'-AAGCAGTGGTAACAACGC -AGGGACCGGG-3'), 4 μl first-strand
+          reaction buffer, 2 μl 10 mM dithiothreitol (DTT;
+          Gibco-BRL) 1 μl 10 mM dNTPs, 1 μl SUPERase-in, (Amtion,
+          Austin, TX) and 200 u Superscript II reverse
+          transcriptase (Gibco- BRL). cDNA synthesis was completed
+          at 42°C for 2 hours. Then 1 u RNase H (Roche, Branchburg,
+          NJ) was added to the reaction followed by incubation at
+          37°C for 15 min. Full-length ds-cDNA was synthesized by
+          adding 57 μl nuclease-free water, 10 μl 10× PCR buffer
+          (Roche), 10 μl 25 mM MgCl 
+          2 , 1 μl 10 mM dNTP and 5 u Ampli-Taq
+          Gold DNA Polymerase (Roche). The reaction was carried out
+          at 95°C for 10 min and then 1 or 3 cycles at: 95°C for 1
+          min., 65°C for 6 min. A prolonged elongation time up to
+          12 min was used in the final cycle. The PCR product was
+          purified by QIAquick PCR Purification Kit (Qiagen,
+          Valencia, CA). The anti-sense RNA (aRNA) amplification by
+          T7 in vitro transcription was carried out using
+          MEGAscript T7 Kit (Ambion Inc., Austin, TX) following the
+          manufacturer's instructions. After RNA amplification, the
+          DNA template was removed by incubation of the reaction
+          with 4 units of RNase-free DNase I (Ambion) at 37°C for
+          15 min. aRNA purification was achieved by Rneasy Mini Kit
+          (Qiagen). The purified 5 μg aRNA was labeled with Cy3 or
+          Cy5 by reverse transcription in a solution containing 10
+          μg of random hexamer, 4 μl first-strand reaction buffer,
+          2 μl 10 mM dithiothreitol (DTT; Gibco-BRL), 1 μl of 2 mM
+          dATP, dGTP, dTTP and 1 mM dCTP, 1 μl SUPERase-in,
+          (Amtion) and 200 u Superscript II reverse transcriptase
+          (Gibco-BRL). The labeling was completed at 42°C for 2
+          hours. Then the labeled cDNA was purified using MicroSpin
+          G-50 columns (Amersham Pharmacia). The volume was reduced
+          to about 10 μl using a Speed-Vac system (ThermoSavant,
+          AES2010) before hybridization.
+        
+        
+          Microarray hybridization and scanning
+          To hybridize the arrays, purified and labeled cDNA
+          targets were dissolved in 100 μl total volume of
+          ExpressHyb solution (Clontech, Palo Alto, CA) containing
+          8 μg of polydA 
+          40-60 (Amersham Pharmacia), 2 μg of
+          yeast tRNA (Gibco-BRL), 10 μg of human Cot I DNA
+          (Gibco-BRL). The mixture was heated to 95°C for 10 min,
+          then applied to the slides and covered by a coverslip.
+          Hybridization was carried out at 60°C for 14-16 hours in
+          a moisturized box in an incubator. Slides were washed at
+          37°C in 1× SSC (3 M sodium chloride, 0.3 M sodium
+          citrate), 0.01% SDS, 0.2× SSC, 0.01% SDS, and twice in
+          0.1× SSC sequentially for 2 min each. Hybridized arrays
+          were scanned at 10-μm resolution on a LSIV scanner
+          (Genomic Solution, Ann Arbor, MI).
+        
+        
+          Data quantification
+          Scanned microarray images (16-bit TIFF formatted
+          files) were quantified with ArrayVision™ (Imaging
+          Research, Inc., St. Catherine's, Ontario, Canada), and
+          values were recorded for spot intensity, local background
+          intensity, and signal-to-noise (S/N) ratio. Spot
+          intensity was computed as the integrated optical density
+          or volume in a fixed-size circle; background intensity
+          was computed as the median pixel value of four
+          diamond-shaped regions at the corners of each spot.
+          Background-corrected intensity was computed by
+          subtracting local background from spot intensity. The S/N
+          ratio was computed by dividing the background-corrected
+          intensity by the standard deviation (SD) of the
+          background pixels.
+        
+        
+          Data normalization
+          Data from all microarrays was imported into S-plus™
+          (Insightful Corp., Seattle, WA), for further analysis.
+          For each microarray, the background-corrected spot
+          intensities were normalized by setting the 75th
+          percentile equal to 1000. This procedure brings the
+          median log ratio between channels close to 1 for
+          expressed spots, and it also permits us to compare
+          individual channels across arrays. After normalization,
+          any spot whose normalized intensity remained below the
+          threshold value of 150 was considered to be undetectable,
+          and its value was replaced by the threshold value. In our
+          arrays, a normalized value of 150 corresponds roughly to
+          a spot whose S/N ratio equals 1, and thus any spot whose
+          background-corrected intensity falls below this threshold
+          cannot be reliably distinguished from background noise.
+          Finally the background-corrected, normalized signal
+          intensities were log-transformed (base two) for further
+          analysis.
+        
+        
+          Northern blotting analysis
+          The sequencing verified cDNAs used to print the
+          microarrays were used as templates and the probes were
+          labeled using Rediprime II Random Prime Labeling System
+          (Amersham). For northern blotting, 20 μg of total RNA was
+          electrophorized on a denaturing agarose gel, transferred
+          to nylon membrane, and hybridized to 33P labeled cDNA
+          probes as described previously [ 11 ] .
+        
+        
+          Western blotting analysis
+          For western blotting, 40 μg of total cellular protein
+          was run on a SDS-PAGE gel, transferred to a nylon
+          membrane, and incubated with IGFBP2 antibody (Santa Cruz
+          Biotechnology, Inc.) following the procedure as described
+          [ 11 ] .
+        
+        
+          Immunohistochemistry assay
+          Cell pellets were first embedded to paraffin block and
+          sections cut and mounted onto microscope slides. The
+          presence of S100, GFAP, and IGFBP2 antigens was detected
+          by their antibodies following standard
+          immunohistochemistry procedures [ 11 ] .
+        
       
     
   

@@ -2,393 +2,183 @@
   
     
       
-        Background
-        Hotspots have been defined as the minimal functional
-        protein:protein interaction domains through which
-        biological activity can be modulated [ 1 2 3 ] . A novel
-        strategy called Phenogenix ®has been developed as a means
-        for studying these interactions. To enable Phenogenix ®, we
-        use large and diverse phage display libraries consisting of
-        randomized 20 mer and 40 mer amino acid peptides with >
-        10 11independent clones. Because of their ability to
-        modulate protein: protein interactions, the resulting
-        peptides are called Hotspot Ligands (HSPLs). Using this
-        approach, we have successfully identified peptide agonists
-        and antagonists for a number of biologically important
-        molecules including growth hormone receptor, insulin
-        receptor and the insulin-like growth factor receptor [ 2 3
-        ] .
-        In this report, we describe the use of Phenogenix ®to
-        identify the critical protein:protein interactions
-        underlying the TNF/TNFR axis. TNFα and TNFβ have been
-        extensively studied and are involved in immune and
-        pro-inflammatory responses, playing an important role in
-        host defenses against infection and other disease states [
-        4 5 6 7 ] . The biological effects of TNFα and TNFβ are
-        mediated through the two membrane associated receptors,
-        TNFR1 (p55) and TNFR2 (p75), that are expressed on the
-        target cells [ 8 9 ] . The postulated pathogenic roles for
-        TNF include sepsis and other bacterial and viral
-        pathologies [ 10 11 12 ] , certain cancers [ 13 ] ,
-        metastasis [ 14 ] and chronic autoimmune disorders such as
-        rheumatoid arthritis [ 15 16 ] , multiple sclerosis [ 17 ]
-        and Crohn's disease [ 18 ] . It is worth noting that TNFα
-        mutants have been identified that selectively bind TNFR1.
-        One such mutant induced less systemic toxicity yet showed
-        no compromise in its anti-tumor activity in nude mice [ 13
-        ] . These observations indicated that finding modulators
-        specific for each of the TNF receptors is indeed
-        possible.
-        While TNFα binds equally well to both receptors, the
-        majority of biologic responses attributed to TNF are
-        mediated via TNFR1 although there is evidence that
-        activation of TNFR2 is responsible for some adverse effects
-        of TNFα [ 19 20 21 22 23 24 ] . Thus, the differential
-        regulation of these two receptors may require drugs that
-        specifically target either TNFR1 or TNFR2 allowing
-        therapeutic efficacy without the expected toxicity profile.
-        One obvious possibility then is to search for Surrogates
-        that selectively bind and regulate the individual
-        receptors. To date several antagonistic protein reagents
-        have been isolated for treating diseases with an underlying
-        TNF etiology. These include neutralizing monoclonal
-        antibodies and soluble forms of TNFR1 and TNFR2 [ 25 26 27
-        ] . However, both antibodies and extracellular receptors
-        are large proteins and not amenable to oral administration.
-        They also carry the unwanted risk of stimulating an
-        auto-immune response during chronic use.
-        By panning our peptide libraries against the TNFR2, we
-        isolated four HSPL peptides binding specifically to human
-        TNFR2 that allow the subdivision of the receptor into a
-        minimum of at least three independent hotspots involved in
-        its interaction with TNFα. In a biological model for TNFα
-        activation of TNFR2, three of the four peptides induced
-        cytotoxic response in the target cell line suggesting that
-        at least one of these domains induced a unique
-        TNFR2-specific biological response. Overall, these data
-        show the utility of using the HSPL peptides for subdividing
-        protein:protein interacting domains and for defining unique
-        novel biological activities not observed through the
-        natural ligand/receptor interaction.
+        
+        Consider a piece of text, either this one that you are now reading or any other. Surely
+        they are all pretty much alike, in so far as they are all run-on strings of characters. In
+        this same sense, we can envision that all DNA strands are alike because all are monotonous
+        polymers with the same general chemical makeup. Indeed, this is how we think of DNA when
+        considering its basic function of inheritance, in which all parts of all chromosomes must
+        be duplicated and then passed from one cell generation to the next. The capacity for
+        inheritance is fundamentally a consequence of DNA's general molecular structure, and not of
+        its sequence per se, as Watson and Crick (1953), and indeed Muller (1922) long before them,
+        well appreciated. Muller did not know that genes are made of DNA, but he did realize that,
+        whatever genes were made of, they must have a general capacity to replicate, regardless of
+        the information they carry (Muller 1922).
+        But sequence does matter when DNA fulfills its other, more directly functional role.
+        When the DNA that makes up a gene is exposed and expressed, when a gene is serving its
+        individual function, then the detailed sequence means all.
+        So where does recombination (Box 1) fit in? Is recombination something that happens to
+        DNA generally? Or does it happen to particular sequences? Bacteria have their chi (χ)
+        sequence, which is a specific series of eight base pairs in the DNA of the bacterial
+        chromosome that stimulate the action of proteins that bring about recombination (Eggleston
+        and West 1997). Similarly, the immunoglobulin genes of mammals have recombination signal
+        sequences that are involved in V-J joining—a kind of somatic recombination involving the
+        joining of a variable gene segment and a joining segment to form an immunoglobulin gene
+        (Krangel 2003). But does normal meiotic recombination depend on the local DNA sequence? In
+        yeast, as well as mammals (mice and humans), the answer is partly yes, for it is clear that
+        chromosomes have local recombination hotspots where crossing over is much more likely to
+        occur than in other places on the chromosome. Recombination hotspots are local regions of
+        chromosomes, on the order of one or two thousand base pairs of DNA (or less—their length is
+        difficult to measure), in which recombination events tend to be concentrated. Often they
+        are flanked by “coldspots,” regions of lower than average frequency of recombination
+        (Lichten and Goldman 1995).
       
       
-        Results
-        Human TNFR2 was panned with random 20 mer and 40 mer
-        phage display peptide libraries of high diversity [ 2 3 28
-        ] . After four rounds of panning, four phage clones were
-        isolated with specificity for TNFR2. The peptides were
-        initially divided into two groups: a 40 mer designated
-        KcF12 and three 20 mers designated KcC7, KcD11 and KcF6
-        (Table 1). From the amino acid sequences, KcC7, KcD11 and
-        KcF12 were found to have a pair of cysteine residues
-        suggesting the possibility of intra-chain disulfide
-        bonding. In addition, a putative motif, 
-        W x 
-        EY xx 
-        RGG , was found for peptides KcF6 and
-        KcD11 (Table 1). It was interesting that this motif was
-        related to a sequence 
-        W x 
-        E xxxxx 
-        GG found at the C-terminal (amino acids
-        190-198) of TNF-α. No appreciable sequence homology was
-        seen between either of the natural ligands, TNFα or TNFβ,
-        and KcF12 although the spacing of cysteine loop was close
-        to that seen in the cysteine rich domains of TNFR2 [ 29 ] .
-        At present, it is not known whether these structural
-        elements play a role in binding of the peptides to TNFR2
-        and it may be that the peptides mimic rather than
-        recapitulate the contact domains of the natural ligands.
-        ELISA analysis showed that all four phage clones bound
-        specifically to human TNFR2 and did not react with either
-        human or murine TNFR1 or murine TNFR2 (data not shown).
-        Competition ELISAs were performed using TNFα and TNFβ
-        vs. the four phage clones at their ED 
-        50 values (Figure 1a,1b,1c,1d). More
-        TNFα and TNFβ were required to compete KcF12 than the other
-        phage clones suggesting that certain intrinsic properties
-        of KcF12 (such as its length and/or amino acid content) may
-        contribute to a higher relative affinity (Table 2). In
-        addition, the synthetic forms of KcC7, KcD11, KcF6 and the
-        recombinant KcF12 (rKcF12) were able to compete the binding
-        of TNFα and TNFβ, as well as KcF6 and KcF12 phage clones in
-        the micromolar range (unpublished data). Interestingly, the
-        three 20 mer HSPLs but not KcF12 were competed by an
-        anti-TNFR2 monoclonal antibody, mAb226, (Figure 2)
-        suggesting that KCF12 binds to a hotspot on TNFR2 distinct
-        from the other 3 peptides. A summary of the phage/peptide
-        competition data is shown in Table 3.
-        Binding of KcF12 to native TNFR2 was measured in Jurkat
-        and Jiyoye cells using a radioreceptor assay. Jurkat cells
-        have been reported to have approximately equal numbers of
-        TNFR1 and TNFR2 per cell [ 27 ] whereas Jiyoye cells
-        express mainly TNFR2 (unpublished data). KcF12 inhibits
-        TNFα binding to Jiyoye cells with a Ki of about 2 uM
-        whereas the Ki for the peptide in Jurkat cells was found to
-        be >30 uM (Figure 3). Since TNFα binding to Jurkat
-        probably involves both TNFR1 and TNFR2, the data offers
-        additional confirmation of KcF12's selectivity for
-        TNFR2.
-        It has been previously reported that TNFα induced a
-        TNFR2-specific proliferation of the neuroblastoma cell line
-        SK-N-BE [ 30 ] . KcF12, KcC7 and KcF6 inhibited the
-        proliferative response to TNF-α in this cell line
-        indicating that they could act as antagonists (data not
-        shown). In addition, the same three peptides were found to
-        be cytotoxic to SK-N-BE cells in the absence of TNFα
-        (Figure 4a). KcF12 possessed the strongest killing activity
-        with an IC 
-        50 of ~700 nM whereas the IC 
-        50 s for KcC7 and KcF6 were 2 uM and 7
-        uM, respectively. None of the peptides induced a cytotoxic
-        response in cell lines not expressing TNFR2 (data not
-        shown). Interestingly, KcD11, which shares a motif with
-        KcF6 (Table 1), had no effect on SK-N-BE cells. The absence
-        of activity by KcD11 did not appear to be due to breakdown
-        of the peptide during culturing since mass spectral
-        analyses on aliquots retrieved from culture media showed
-        relatively no degradation of peptides between the initial
-        and the final time points (data not shown). Therefore, the
-        proliferation data suggests evidence of a hotspot on TNFR2
-        recognized by KcF12, KcC7 and KcF6 that is linked to this
-        unique biological effect. The inhibition of the KcC7 and
-        KcF6 cytotoxic effect with mAb226 (Figure 4b) confirms the
-        relationship between the peptide-induced cytotoxic event
-        and TNFR2 because of the antibody's specificity for TNFR2.
-        Overall, these data indicate that the surface topology of
-        the TNFR2 binding site is very complex and may be composed
-        of multiple hotspots capable of different regulatory
-        functions.
+        Diverse Implications of Recombination Hotspots: The Study of Meiosis and the Mapping
+        of Human Disease Alleles
+        Recombination hotspots are of strong interest to at least two quite different groups of
+        biologists. For geneticists and cell biologists who study meiosis, the existence of
+        recombination hotspots offers a way to learn what other processes are associated with
+        recombination. This is partly how we know that homologous crossovers in yeast and other
+        eukaryotes are initiated by the cleavage of single chromosomes, called “double-strand
+        breaks” (Box 1). It turns out that because of this causal linkage, the hotspots for
+        doublestrand breaks and the hotspots for recombination are one and the same (Game et al.
+        1989; Sun et al. 1989; Keeney et al. 1997; Lopes et al. 1999; Allers and Lichten 2001;
+        Hunter 2003).
+        For population geneticists, much of the interest in recombination hotspots comes from
+        their possible effect on the patterns of DNA sequence variation along human chromosomes and
+        from the possibility that these patterns could be used to map the position of alleles that
+        cause disease. When multiple copies of the DNA sequence of a gene, or of a larger region of
+        a chromosome, are aligned, they reveal the location and distribution of variation at
+        individual nucleotide positions—single nucleotide polymorphisms (SNPs). Each particular
+        sequence, or haplotype, will carry a configuration for the SNPs for that region (Figure 1).
+        Investigators have long known that SNPs that are adjacent or near each other tend to be
+        highly correlated in their pattern and to exhibit strong linkage disequilibrium (Box 1). It
+        is this linkage disequilibrium that enables scientists to map the locations of mutations
+        that cause heritable genetic diseases. If alleles that cause a disease have the same kind
+        of linkage disequilibrium with nearby SNPs as SNPs generally have with each other, then one
+        could search for genes with disease alleles by looking for a pattern of SNPs that is found
+        only in people who have the disease. This general method for mapping disease alleles is
+        called “association mapping,” and it is basically a search for linkage disequilibrium
+        between disease alleles and other SNPs. Whether or not association mapping works depends on
+        the actual patterns of linkage that occur among SNPs in human populations, and these
+        patterns depend in turn on how much recombination has occurred in the past (as well as on
+        other demographic and mutation processes).
+        With the advent of larger human haplotype data sets, it has become clear that there are
+        often fairly long regions with very high linkage disequilibrium (Daly et al. 2001; Patil et
+        al. 2001; Gabriel et al. 2002). This pattern of variation has been characterized as
+        occurring in “haplotype blocks,” which are apparent regions of low recombination (or high
+        linkage disequilibrium). Figure 1 shows a hypothetical example of haplotype blocks among
+        eight haplotypes for a series of SNPs found over a region of a chromosome. Given diverse
+        evidence of recombination hotspots in humans, a much discussed question is whether
+        recombination hotspots play a large role in the formation of the pattern of haplotype
+        blocks (Wang et al. 2002; Innan et al. 2003; Phillips et al. 2003; Stumpf and Goldstein
+        2003). The occurrence of haplotype blocks has inspired the HAPMAP project
+        (http://www.hapmap.org/), which has the goal of identifying a subset of SNPs that capture
+        most of the relevant linkage information in the human genome (IHC 2003). If one had a
+        subset of all common SNPs, with one or two per haplotype block, then this subset would
+        contain much of the available information for association mapping of disease alleles.
       
       
-        Discussion
-        Peptide libraries have been successfully used for
-        identifying novel peptides mimicing natural molecules in
-        terms of the critical protein:protein interactions involved
-        in biological activity. Yanofsky et al. [ 31 ] described a
-        peptide antagonist to IL-1 that was active in the nM range
-        and Wrighton et al. and Livnah et al. [ 32 33 ] identified
-        peptides binding to the erythropoietin (EPO) receptor with
-        full agonist activity 
-        in vivo . Neither the EPO agonist nor
-        the IL-1 antagonist peptides show any significant sequence
-        homology to the natural ligand suggesting that they act as
-        mimics of the natural ligand. In the case of the EPO
-        agonists, X-ray crystallographic analysis revealed that one
-        of these peptides spontaneously formed non-covalent
-        homodimers that allowed the dimerization of two EPO
-        receptors. Two families of small peptides binding to the
-        human thrombopoietin receptor (TPOR) were isolated that
-        competed with the natural ligand TPO [ 34 ] . The peptide
-        with the highest affinity was subsequently dimerized and
-        shown to function as a potent TPO agonist 
-        in vivo . Recently, a small,
-        non-peptide organic molecule binding to one chain of the
-        EPO receptor was multimerized and shown to mimic the
-        biological activities of the EPO [ 35 ] .
-        In this report we show that HSPLs can be isolated that
-        bind to human TNFR2 at its ligand-binding site and
-        subdivide it into multiple hotspots. All of the peptides
-        were competed by both TNFα and TNFβ implying they
-        recognized a hotspot that mapped either within or at least
-        overlapping the ligand-binding domain of TNFR2. The HSPLs
-        KcC7, KcD11, KcF6 but not KcF12 were also inhibited by the
-        neutralizing antibody mAb226 suggesting the 20 mers but not
-        KcF12 interact with a hotspot overlapping with the one
-        recognized by antibody. The fact that recombinant KcF12
-        peptide competed all of the phage expressed peptides (Table
-        3) indicated that the four peptides also recognize a common
-        hotspot which may be the one responsible for TNF ligand
-        binding to the receptor. In addition, the biological data
-        suggests that KcD11 binds to a hotspot that can be further
-        separated from KcF12, KcF6 and KcC7. While we cannot rule
-        out possible allosteric interactions between the peptides,
-        the data suggests that the HSPLs were able to dissect the
-        ligand-binding region of TNFR2 into several structural
-        and/or functional hotspots. In addition, the HSPLs were
-        specific for TNFR2 unlike the native ligands TNF-α and
-        TNF-β which bind to both receptors. These results
-        demonstrate that the approach has the ability to dissect
-        critical protein:protein interaction domains in terms of
-        both structural and functional elements. Using a similar
-        approach, we recently reported on the subdivision of the
-        ligand binding domain on the insulin receptor into two
-        separate and non-overlapping hotspots with different
-        biological activities [ 3 ] .
-        It has been shown that TNFα induced proliferation of the
-        undifferentiated neuroblastoma cell line, SK-N-BE, resulted
-        from activation of TNFR2 [ 30 ] . Proliferation of SK-N-BE
-        cells could be suppressed by the pre-incubation of cells
-        with anti-TNFR2 blocking antibodies without concomitant
-        cytotoxicity (data not shown). While all of the peptides
-        blocked the agonist effects of TNFα indicating that they
-        can act as antagonists, KcC7, KcF6 and KcF12 by themselves
-        induced a cytotoxic response by killing SK-N-BE cells in
-        the absence of TNFα. This is surprising because these
-        peptides share a hotspot with the natural ligand TNFα
-        (which is proliferative rather than-cytotoxic) and KcC7 and
-        KcF6 bind to a hotspot common to the neutralizing but
-        non-cytotoxic, antibody mAb226. Overall, these data suggest
-        that activation (agonism or cytotoxicity) of TNFR2 is
-        mediated through unique hotspots on the receptor that can
-        be defined by the peptides. Under the present experimental
-        conditions, it is unclear whether the natural ligand, TNFα,
-        touches the hotspot responsible for cytotoxicity although
-        one can speculate that, if it does, the cytotoxic effect
-        might be nullified by the sum of the natural
-        ligand:receptor interactions. Competition experiments
-        showing that mAb 226 reversed the effects of KcC7 and KcF6
-        confirm that these two peptides induce their effects though
-        their interaction with TNFR2. These findings suggest that
-        TNFR2 has multiple biological functions. In addition to
-        transferring TNFα to TNFR1 as proposed by the ligand
-        passing model [ 36 ] , TNFR2 may have a role in modulating
-        proliferative responses in both positive and negative
-        manner. Ongoing studies will attempt to elucidate the
-        mechanism of action behind the phenomenon such as the
-        effects on downstream signaling pathways including NFkB,
-        and apoptosis. However, it is possible that peptide-induced
-        cytotoxicity works through a mechanism similar to TNF
-        mediated apoptosis in T-cells [ 37 ] .
+        The Evolution of Recombination and (Possibly) Recombination Hotspots
+        Recombination is a nearly ubiquitous feature of genomes, and a great many theories have
+        been put forward to explain why it would be evolutionarily advantageous for genes to
+        regularly break with one another to join new genes (Barton and Charlesworth 1998). By and
+        large these theories predict that recombination should occur more often where genes occur
+        in higher concentration and that it should happen less often in areas of the genome where
+        genes are spaced far apart. This expectation is roughly born out in the human genome, where
+        recombination rates are higher in regions of the genome with higher gene density (Fullerton
+        et al. 2001; Kong et al. 2002).
+        To consider the possible evolutionary advantages of individual recombination hotspots,
+        we can draw from theory on the evolution of recombination modifiers. In particular, recent
+        population genetic theory has brought to light some fairly general circumstances for which
+        mutations that raise recombination rates would be favored by natural selection (Barton
+        1995; Otto and Barton 1997; Otto and Barton 2001; Otto and Lenormand 2002). The basic idea
+        is that linkage disequilibrium can easily occur (for many reasons) between two (or more)
+        polymorphic sites that are under selection. When this occurs, an allele that raises the
+        recombination rate (and decreases the linkage disequilibrium) can cause selection to act
+        more efficiently. If an allele that is under positive or negative selection always occurs
+        with an allele at another locus that is also under selection (i.e., the two loci are in
+        strong linkage disequilibrium), then selection cannot act on one locus independently of the
+        second locus. As new, multilocus configurations of beneficial alleles are generated (by
+        recombination) and increase in frequency by selection, the modifiers of recombination that
+        caused the production of those beneficial configurations increase in frequency with them. A
+        key piece of evidence supporting this kind of theory of the evolution of recombination is
+        directional selection, like that which occurs in artificial selection experiments, which
+        often generates a correlated elevation in recombination rates (Otto and Lenormand
+        2002).
+        Connecting these ideas about the evolution of recombination modifiers to the question of
+        recombination hotspots, we come to the possibility that individual hotspots may have arisen
+        as a byproduct of linkage disequilibrium between genes on either side of the hotspot that
+        were under selection. This situation would create a kind of selection pressure favoring
+        recombinant haplotypes and thus also favoring those chromosomes that happen to have a high
+        recombination rate between the selected genes. If true, then we might expect local
+        recombination rates (i.e., hotspots and coldspots for recombination) to fluctuate in
+        location and intensity, in ways that would be hard to precisely predict without knowing
+        what genes have been under selection and what patterns of linkage disequilibria there may
+        have been.
+        In this light, the paper by Ptak et al. (2004) in this issue of 
+        PLoS Biology is especially interesting. They report that chimpanzees do
+        not have a recombination hotspot in the TAP2 region where humans have a fairly well
+        characterized recombination hotspot (Jeffreys and Neumann 2002). Ptak et al.'s is a
+        statistical study of linkage disequilibrium in the TAP2 region of chimpanzees and humans,
+        and is less direct than the sperm-typing study of Jeffreys and Neumann (2002). However the
+        contrast in linkage patterns between humans and our closest relatives suggests that
+        recombination hotspots can evolve fairly quickly.
+      
+      
+        Functional Constraints on Recombination Hotspots
+        As appealing as the recombination modifier theory of recombination hotspots may be,
+        there is circumstantial evidence that argues against it and that suggests that
+        recombination hotspots are not directly the byproduct of selection on alleles in linkage
+        disequilibrium. Particularly important in this regard is that some wellstudied organisms
+        (notably the worm 
+        Caenorhabditis elegans and the fruitfly 
+        Drosophila melanogaster ) have not shown evidence of
+        recombination hotspots. If we compare these organisms with yeast and mammals, which do show
+        hotspots, we gain some more insight into the factors affecting the evolution of
+        hotspots.
+        Recall that double-strand breaks are the sites where recombination is initiated during
+        meiosis, and that this is true regardless of the presence of hotspots for both phenomena.
+        Apparently it is the case in yeast and mammals that both recombination and double-strand
+        breaks are also prerequisites for the proper formation of the synaptonemal complex (SC)
+        (Figure 2) and thus for proper orientation of the spindle apparatus and accurate
+        segregation of chromosomes during meiosis (Paques and Haber 1999; Lichten 2001; Hunter
+        2003; Page and Hawley 2003). In contrast, neither double-strand breaks nor recombination
+        appear to be required for the formation of the SC in 
+        D. melanogaster or 
+        C. elegans (Zickler and Kleckner 1999; MacQueen et al. 2002;
+        McKim et al. 2002; Hunter 2003; Page and Hawley 2003). Double-strand breaks and
+        recombination do indeed co-occur in these model organisms, and are required for proper
+        chromosome segregation, but they occur after the formation of the SC. Both of these species
+        have broad chromosomal regions where crossing over occurs at higher rates than others, but
+        there have been no reports of local recombination hotspots.
+        Recombination during meiosis seems to be required for proper chromosome segregation;
+        however, in those organisms where recombination and double-strand-break hotspots occur,
+        these phenomena are also required for proper formation of the SC. It is as if the
+        recombination machinery has been partly co-opted for chromosome alignment in some
+        eukaryotes more so than in others. The implication of these findings is that recombination
+        hotspots are byproducts of other functional constraints associated with the recombination
+        process. This does not rule out the evolutionary theory of recombination modifiers, or that
+        the location and intensity of recombination hotspots may evolve rapidly, but it does
+        suggest that we may not need to invoke the evolutionary modifier theory to explain the
+        existence of recombination hotspots.
       
       
         Conclusions
-        In summary, HSPLs were isolated with which we were able
-        to dissect the ligand-binding domain of a natural receptor
-        and generate information about novel and unexpected
-        bioactivities. This technology has also been successfully
-        used for known protein targets, such as the insulin
-        receptor [ 3 ] and TNF-β [ 38 ] as well as non-protein
-        targets such as disease-specific RNAs [ 38 ] . We have also
-        shown that the HSPL libraries identify hotspots on novel
-        genes of unknown function and identify functional
-        interaction pathways (manuscript in preparation). Overall,
-        the use of HSPLs have the potential to become a general
-        approach for scanning and understanding complex
-        protein:protein interactions.
+        Recombination hotspots co-occur with double-strand-break hotspots in some eukaryotes,
+        and together these phenomena appear to play an important role in the formation of the SC in
+        those organisms. Given the limited phylogenetic occurrence of recombination hotspots (i.e.,
+        their occurrence in some, but not all, species), general theories for the evolution of
+        recombination may not be very helpful for understanding the existence of recombination
+        hotspots. However, in those species where they do occur, it is quite possible that
+        recombination hotspots do evolve in location and intensity. Furthermore, the presence of
+        recombination hotspots in humans may have large effects on the length of local patterns of
+        linkage disequilibrium (haplotype blocks) and thus on our ability to map disease alleles by
+        their association with other markers.
       
       
-        Methods
         
-          Materials
-          
-          E. coli , strain TG1 (genotype =
-          K12Δ 
-          (lac-pro), supE, thi, hsdΔ5/F' [traD36,
-          proAB , 
-          lacI 
-          q , 
-          lacZΔM15 ]) was obtained from
-          Pharmacia (Piscataway, NJ). Recombinant human Tumor
-          Necrosis Factor-α (rhTNFα) was purchased from R&D
-          Systems, Inc. (Minneapolis, MN) or PeproTech Inc. (Rocky
-          Hill, NJ). Monoclonal antibodies against recombinant
-          human soluble TNF receptor RI (mAb225) and RII (mAb226)
-          were purchased from R&D Systems, Inc. (Minneapolis,
-          MN). WST-1 was purchased from Roche (Nutley, NJ).
-          125I-TNFα (NEX 257) with a specific activity of 97 μCi/μg
-          (1698 Ci/mmol) was purchased from NEN Life Science
-          Products, Inc (Boston, MA). Beckman Ready Safe™
-          scintillation fluid was purchased from Beckman Coulter,
-          Inc. (Fullerton, CA). MultiSreen™ assay filter plate
-          system and 96-well MultiScreen ®MAFC filter plates were
-          from Millipore (Bedford, MA). RPMI 1640 media, fetal
-          bovine serum, and GlutaMAX™-I were obtained from Life
-          Technologies (Rockville, MD). Polyvinylpyrrolidone (PVP),
-          Tween-20R™, phosphate-buffered saline (PBS), and
-          Dulbecco's phosphate-buffered saline (containing no
-          calcium or magnesium) were purchased from Sigma Chemical
-          Co. (St. Louis, MO). All other chemicals and reagents
-          used were analytical grade.
-        
-        
-          Cell Culture
-          SK-N-BE neuroblastoma cells, Jurkat (TIB-152) and
-          Jiyoye (CCL-87) cells were obtained from the ATCC
-          (Manassas, VA). SK-N-BE and Jurkat cells were maintained
-          in RPMI 1640 media supplemented with 10% fetal bovine
-          serum (FBS) and 2 mM GlutaMAX™-I, while Jiyoye cells were
-          maintained in RPMI 1640 media supplemented with 15% FBS
-          and 2 mM GlutaMAX™.
-        
-        
-          Design of the Primary Peptide Libraries
-          A description of library design and production has
-          been previously published [ 3 28 ] .
-        
-        
-          Subtractive Panning and ELISA
-          Panning was done as described [ 3 28 ] , except that
-          only 6 wells of a 96-well microtiter plate were coated
-          with target at concentrations ranging from 10-100
-          ng/well. The cross reactive phages from the eluted phage
-          were then subtracted by panning sequentially against
-          human TNFR1, TNFα and TNFβ as a way to obtain peptides
-          specific to the original target. ELISA was done as
-          previous described [ 3 28 ] .
-        
-        
-          Phage Competition ELISA Studies
-          Target was coated on MaxiSorp plates and blocked with
-          NFM-PBS as described [ 3 28 ] . HSPLs (phage clones or
-          synthetic peptides) are added in the presence of varying
-          concentrations of competitor (e.g., TNF ligand or soluble
-          receptor). IC 
-          50 s are determined by probing for
-          phage or peptide binding to target in the presence of
-          competitor.
-        
-        
-          Receptor Binding and Competition Assay
-          The binding of TNFα to TNFR2 on intact cells was
-          measured in a radioareceptor assay using Jurkat and
-          Jiyoye cells and the MultiSreen™ assay filter plate
-          system as described [ 39 ] . Data analysis was performed
-          with an add-in for Microsoft Excel, Xlfit™ (version 2.0)
-          from ID Business Solutions (Guildford, UK), which allows
-          curve fitting using nonlinear regression. To determine
-          binding kinetic parameters, the Four-Parameter logistic
-          equation y = Bottom + (Top - Bottom)/(1 + (IC 
-          50 /x) Hill slope) was used to
-          calculate IC 
-          50 values and Hill slopes. K 
-          i values were calculated according to
-          the equation, K 
-          i = IC 
-          50 /(1 + [ligand]/K 
-          d ), as described by Cheng and Prusoff
-          [ 40 ] .
-        
-        
-          Proliferation cell assay
-          SK-N-BE cells were seeded loosely in 96 well plates in
-          SK-N-BE medium and allowed to grow to 75-80% confluency.
-          Cells were starved overnight in media containing 1% serum
-          before each cell experiment. Briefly, cells were first
-          treated with a human TNFR1 blocking mAb, mAb225 (10
-          ug/ml), for at least 30 min at 37 C prior to the addition
-          of agents. All agents used in the cell experiment were
-          serial diluted at 1:2 and mixed in a separate plate
-          before transferring into the actual cell plate. The
-          starting highest final concentration of each peptide was
-          at 30 uM or at its highest possible concentration. Cells
-          were then returned into the incubator for 40-45 hrs
-          before the addition of 1/10 vol of WST-1. The plates were
-          further incubated and developed according to the
-          manufacturer's instruction.
-        
-      
-      
-        Authors' Contributions
-        KcH isolated and characterized the HSPLs binding to
-        TNFR2. RB prepared the primary and secondary HSPL
-        libraries. PW and ML produced and purified the recombinant
-        peptides and performed the stability studies with the
-        peptides. PF and VR did the binding assays. AB contributed
-        helpful suggestions about the design of the studies. NG
-        conceived the study and participated in the design and
-        coordination of the experiments. All authors have read and
-        approved the final manuscript.
       
     
   

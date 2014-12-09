@@ -2,592 +2,787 @@
   
     
       
-        Background
-        The precursor of heparin-binding EGF-like growth factor
-        (proHB-EGF) is found on a wide variety of cell surfaces and
-        is present in numerous tissue types [ 1 ] . Previously in
-        our laboratory, we cloned the cDNA encoding proHB-EGF from
-        monkey Vero cells and identified this cell-surface molecule
-        as a receptor for diphtheria toxin (DT) [ 2 ] . The
-        predicted amino acid sequence was shown to be identical to
-        that of the cell surface-expressed precursor of human
-        heparin-binding EGF-like growth factor (proHB-EGF) [ 3 4 ]
-        . The derived amino acid sequence revealed a signal
-        sequence (residues 1-23), an extracellular domain (residues
-        24-159), a transmembrane domain (residues 160-184), and a
-        carboxyl terminal cytoplasmic domain (residues 185-208) [ 2
-        ] . Proteolytic processing of the proHB-EGF occurs on the
-        cell surface and results in the release of mature HB-EGF
-        (mHB-EGF) (residues 63-148) [ 5 ] . The mature/soluble
-        HB-EGF is a member of the EGF family of growth factors that
-        includes amphiregulin, epidermal growth factor, and
-        transforming growth factor a [ 6 ] . Mature HB-EGF released
-        from the cell surface is mitogenic and is able to bind to
-        the EGF receptor [ 3 ] . Membrane-bound proHB-EGF has
-        juxtacrine growth factor activity [ 7 ] and also acts as a
-        DT receptor [ 2 8 ] .
-        Previously we have described the interaction of the
-        extracellular domain of proHB-EGF with the second
-        extracellular domain of the tetraspanin protein, monkey CD9
-        [ 9 ] . Tissue culture experiments using DT-sensitive
-        transfected mouse fibroblast cell lines expressing on the
-        cell surface both the monkey DT receptor and chimeric
-        mouse-monkey CD9 antigen showed that the second
-        extracellular domain of monkey CD9 antigen is able to act
-        as a coreceptor for DT and is also responsible for the
-        increased DT-sensitivity and affinity for DT in these cell
-        lines [ 9 ] . These observations suggested that the CD9
-        antigen and proHB-EGF likely interact physically on the
-        cell surface. Using a yeast two-hybrid system, we have
-        shown that the extracellular domain of proHB-EGF and the
-        second extracellular domain of monkey CD9 do indeed
-        interact [ 9 ] .
-        The yeast two-hybrid system strategy has been used to
-        examine both intracellular and receptor-ligand
-        protein-protein interactions. The interaction of mammalian
-        growth hormone, prolactin, and vascular endothelial growth
-        factor with their respective extracellular ligand-binding
-        proteins have been observed using yeast two-hybrid sytems [
-        10 11 12 13 ] .
-        The involvement of HB-EGF in various cellular and tissue
-        functions and its presence in extracellular matrices
-        suggested the possibility that it may interact with other
-        extracellular matrix proteins. To test this possiblity we
-        used the extracellular domain of proHB-EGF in a yeast
-        two-hybrid system to screen a monkey kidney cDNA library.
-        In the present report, we have identified two novel
-        extracellular matrix proteins latent transforming growth
-        factor β-binding protein 3 and fibulin-1C that interact
-        with the extracellular domain of proHB-EGF.
+        Introduction
+        The San Francisco Bay Area reports some of the highest
+        breast cancer rates in the world [ 1 2 ] . Within this
+        region, appropriately adjusted breast cancer incidence and
+        mortality rates are highest in Marin County, a small, urban
+        county of 250,000 predominantly white, non-Hispanic
+        residents located immediately north of the city of San
+        Francisco. Averaged over the period 1995-99, age-adjusted
+        invasive breast cancer rates per 100,000 white,
+        non-Hispanic women were 199 in Marin County, 155 in the
+        rest of the San Francisco Bay Area, and 144 in the United
+        States as a whole [ 2 ] . Pronounced international and
+        national geographic variation in breast cancer rates has
+        been studied extensively [ 3 4 5 6 7 8 ] and has been
+        attributed variously to population differences in the use
+        of mammographic screening, diet, physical activity, body
+        size, alcohol consumption, and socioeconomic and
+        reproductive factors [ 5 6 7 9 10 ] . However, studies of
+        breast cancer incidence among Asian migrants to North
+        America have noted associations with age at migration,
+        suggesting additional important influences of childhood or
+        adolescent exposures or experiences [ 4 5 6 ] . With regard
+        to Marin County, an earlier study by the Northern
+        California Cancer Center (NCCC) using census data suggested
+        that the high incidence was associated with the
+        sociodemographic characteristics of the county and not with
+        a geographically specific exposure [ 10 ] and that women
+        living in Marin County have a higher prevalence of some
+        recognized breast cancer risk factors, such as high
+        education and income as well as low and late parity [ 10 11
+        ] .
+        In 1997, members of Marin Breast Cancer Watch, a
+        grassroots non-profit organization of breast cancer
+        survivors and advocates, recruited researchers to help them
+        to investigate causes of breast cancer in Marin County more
+        thoroughly; these community members actively participated
+        in all aspects of conducting this study.
+        In this population-based case-control study of women
+        residing in Marin County, we asked about generally
+        recognized risk factors [ 5 12 ] and a variety of
+        adolescent physical, psychological, and social factors. The
+        main purpose in this first report is to compare generally
+        recognized breast cancer risk factors, as well as childhood
+        and adolescent socioeconomic factors and years of residence
+        in Marin County for women with and without breast cancer.
+        Although it was not the purpose of this study to explain
+        the high rates of breast cancer in Marin County, one
+        hypothesis of the study was that if exposures specific to
+        Marin County were to some degree responsible for the high
+        rates there, one would expect women with breast cancer to
+        have lived longer in Marin County than control women after
+        adjustment for generally recognized breast cancer risk
+        factors. The thought was that finding such a difference
+        would provide justification for a more detailed exploration
+        of exposures specific to Marin County, whereas no
+        difference would motivate research into other explanations.
+        Thus, this initial report provides important information
+        for planning future studies in this and other high-risk
+        areas.
       
       
-        Results and Discussion
+        Methods
         
-          Yeast two-hybrid screening of the monkey cDNA
-          library using the extracellular domain of proHB-EGF as
-          the bait fusion
-          The initial screening of ≈ 3 × 10 6clones of the
-          monkey cDNA library with the bait fusion of GAL4 binding
-          domain fused to the extracellular domain of proHB-EGF
-          yielded 294 colonies that were able to grow on Trp -His
-          -Leu -media and that gave positive β-galactosidase
-          activity in the β-galactosidase filter paper assay. False
-          positives were ruled out by testing the β-galactosidase
-          activity of the library clone alone or the library clone
-          and the GAL4 DNA binding domain plasmid vector together
-          in the yeast host strain. False positives were also ruled
-          out by testing the β-galactosidase activity of the
-          library clone with pVA3 (pGBT9 with a cloned insert). The
-          elimination of these false positive colonies from the
-          initial screening of the cDNA library resulted in a total
-          of 64 colonies whose library clones encoded potentially
-          true interacting proteins with the extracellular domain
-          of proHB-EGF. Some of these cDNA library clones were
-          transformed into the other yeast host strain, Y187, and
-          tested for β-galactosidase activity as a further check
-          that these clones did indeed contain potential
-          protein-interacting partners for the extracellular domain
-          of proHB-EGF.
-        
-        
-          Detection of the physical interactions of proHB-EGF
-          with CD9 antigens
-          The membrane-bound precursor and soluble forms of
-          heparin-binding epidermal growth factor-like growth
-          factor (HB-EGF) contribute to a variety of cellular
-          developmental processes [ 1 ] . The observations of
-          HB-EGF in cell and tissue types have suggested roles for
-          HB-EGF in numerous cellular and tissue events such as:
-          cell movement, extracellular matrix formation, tumor
-          formation and cell adherence [ 1 ] . As described above,
-          the membrane-bound precursor of HB-EGF (proHB-EGF) is
-          also the cell-surface receptor for diphtheria toxin (DT)
-          in DT-sensitive cells [ 2 ] .
-          Previously we have examined the protein-protein
-          interactions of proHB-EGF with the cell-surface CD9
-          antigen [ 9 ] . The CD9 antigen is found on a wide
-          variety of tissue and cell types and has been reported to
-          be involved in such cellular processes as B-cell
-          development, cell metastasis, platelet activation and
-          adhesion, and cell motility [ 14 15 ] . CD9 antigen is a
-          member of the tetraspanin superfamily and consists of two
-          extracellular domains sandwiched between four
-          highly-conserved hydrophobic transmembrane domains [ 14
-          15 ] . The second extracellular domain (75-130 amino
-          acids) is larger than the first extracellular domain
-          (20-27 amino acids). Short cytoplasmic domains (5-14
-          amino acids) are found at both the amino and carboxyl
-          termini of CD9 [ 14 ] . As reported previously, we used a
-          yeast two-hybrid system and observed interaction between
-          the second extracellular domain of MkCD9 and the
-          extracellular domain of proHB-EGF [ 9 ] . However,
-          despite repeated attempts, using the yeast two-hybrid
-          system, we were unable to show interaction between the
-          amino terminal cytoplasmic domain of monkey CD9 and the
-          cytoplasmic domain of proHB-EGF; these results may
-          reflect the limitation of the yeast two-hybrid system as
-          the insert sizes cloned into the vectors may be too small
-          resulting in Gal4 fusion proteins whose "test subunits"
-          are masked by the Gal4 subunit. This would result in the
-          fusion proteins being unable to recognize each other.
-          The results of screening the monkey cv-1 cDNA library
-          with the bait plasmid pGBT9/DTREx were somewhat
-          surprising in that no portions of the CD9 protein were
-          represented among the proteins found to interact with the
-          extracellular domain of proHB-EGF. These results may
-          reflect improper folding of CD9 protein fragments encoded
-          by cDNA inserts or these results may be due to under
-          representation of the CD9 cDNA in the monkey cv-1 cDNA
-          library. It was also surprising that the extracellular
-          portion of any of the EGF receptor proteins was also not
-          represented among the proteins found to interact with the
-          extracellular domain of proHB-EGF, since the mature
-          protein proteolytically cleaved from proHB-EGF (mHB-EGF)
-          as well as the membrane bound form are known to interact
-          with the EGF receptor.
+          Case-control ascertainment
+          Eligible cases included any female resident of Marin
+          County with a diagnosis of primary breast cancer between
+          July 1997 and June 1999 if under 50 years of age, and
+          between July 1997 and March 1999 if 50 years old or older
+          at diagnosis (Table 1). Dates were chosen to yield about
+          300 women overall, 100 under 50 years of age and 200 aged
+          50 and over. The sample size was planned with 80%
+          statistical power to detect 2.1-fold odds ratios (ORs)
+          between the highest and lowest quartiles of any
+          continuous variable, 1.9-fold ORs for quartile trend, a
+          0.25-year case-control difference in age at menarche, and
+          a 3.5-year case-control difference in years lived in
+          Marin. Names and addresses of these women and their
+          physicians were obtained from the cancer registry
+          operated by the NCCC, a participant in the National
+          Cancer Institute's (NCI's) Surveillance, Epidemiology,
+          and End Results program. After receiving an introductory
+          letter, women who did not refuse by postcard were
+          telephoned by a study interviewer to arrange a time and
+          place for the in-person interview.
+          Control women without breast cancer were ascertained
+          through random digit dialing (RDD) by using a
+          modification of the method of Waksberg [ 13 14 ] and were
+          frequency-matched to cases by age at diagnosis (within 5
+          years) and ethnicity. To maximize the chances of reaching
+          residential numbers, seed numbers used for dialing
+          included the area code plus the first five digits of the
+          study's cases and all cancer cases diagnosed in Marin
+          County in 1998. All possible numbers other than the
+          cases' numbers were generated and randomly sorted. The
+          RDD contractor also generated a batch of about 300 random
+          numbers from marketing sources to increase the number of
+          calls to households with women aged 65 years and older.
+          Randomly sorted numbers were called sequentially. Two
+          survey research companies (Survey Methods, and Field
+          Research Corporation, both of San Francisco, California)
+          conducted RDD and preliminary eligibility screening of
+          controls. RDD was conducted from April 2000 to August
+          2001.
+          The University of California, San Francisco, Committee
+          on Human Research approved the study methods, and
+          informed consent was obtained from all participants.
         
         
-          The extracellular domain of proHB-EGF interacts
-          with monkey LTBP-3
-          The positive interaction of the fragment of the latent
-          transforming growth factor β-binding protein-3 (LTBP-3)
-          with the extracellular domain of proHB-EGF was of great
-          interest (Additional file 1). Recently it has been
-          reported that treatment of EGF-responsive, nontransformed
-          rat intestinal crypt cell line RIE-1 cells with TGF-β
-          resulted in an increased level of expression of HB-EGF [
-          16 ] . LTBP-3 is a protein that is ubiquitous in tissues
-          and cells. Human LTBP-3 (Fig. 1) and mouse LTBP-3 contain
-          1242 and 1251 amino acids, respectively, and each protein
-          has five structural domains. Each has a signal sequence
-          (55 amino acids and 49, respectively), a second domain
-          containing an EGF-like repeat, a proline/glycine rich
-          region, a fibrillin motif [ 17 ] , an EGF calcium-binding
-          repeat, and a TGF-β repeat (390 and 389 amino acids,
-          respectively), a third domain containing a
-          proline/glycine rich region (113 and 111 amino acids,
-          respectively), a fourth domain containing numerous
-          calcium-binding type II EGF-like modules
-          (D/N)(I/V)(D/N)(E/D)C 
-          1 (678 and 677 amino acids,
-          respectively) and a fifth carboxyl-terminal domain (5 and
-          21 amino acids, respectively) (human LTBP-3 information
-          was obtained from the GenBank database accession no.
-          AF135960.2; [ 18 ] ). Colony hybridization experiments
-          using the LTBP-3 probe (see materials and methods) and
-          the monkey cv-1 cDNA library yielded a set of six (two
-          identical) overlapping clones (Fig. 2). The amino acid
-          sequence derived from the nucleotide sequence obtained
-          for the monkey LTBP-3 sequence (GenBank accession number
-          AF395658) shows it to share 98.6 % identity with the
-          human LTBP-3 amino acid sequence (GenBank accession
-          number NP_066548) and 86.7 % identity with the mouse
-          LTBP-3 amino acid sequence (GenBank accession number
-          NP_032546).
-          The presence of the calcium-binding EGF-like modules
-          in monkey LTBP-3 is noteworthy. It is well established
-          that EGF-like modules are important structural features
-          found in many extracellular proteins and that these
-          modules enable numerous protein :protein interactions;
-          the binding of EGF-like modules in laminin to nidogen [
-          19 ] and the interaction of EGF-like modules within
-          fibrillin monomers [ 20 21 ] . Calcium may be required
-          for some of these protein interactions.
-          At the time of writing, there have not been any
-          reported interactions of these EGF-like modules in LTBP-3
-          proteins with specific proteins. It is interesting that
-          the combination of colony hybridization and yeast
-          two-hybrid screens used in this study to identify
-          proteins that interact with the extracellular domain of
-          proHB-EGF yielded independent GAL4-LTBP-3 fusion proteins
-          that all contained these calcium-binding type II EGF-like
-          domains (Fig. 2). A constructed clone, pGAD424/LTBP-3
-          EGF#1-8, that contained calcium-binding type EGF-like
-          modules #1-8 fused to the GAL4-activation domain (see
-          Fig. 1and materials and methods) was tested using the
-          yeast two-hybrid system and found to interact with the
-          extracellular domain of proHB-EGF (Additional file 1).
-          These negatively-charged EGF-like modules of LTBP-3 may
-          interact efficiently with the positively-charged
-          heparin-binding domain of both the membrane-bound and
-          soluble forms of HB-EGF. The amino acid sequence of the
-          heparin-binding region of HB-EGF (
-          21KRKKKGKGLGKKRDPCLRKYK 41) [ 2 ] has been shown to have
-          a strong affinity for heparin and may influence the
-          interaction of this growth factor with cell-surface
-          negatively charged heparan sulfate proteoglycans [ 22 ] .
-          It remains to be seen whether specific/all of the
-          EGF-like modules are required and whether calcium is
-          needed for the interaction of HB-EGF with LTBP-3.
-          The LTBP-3 protein is secreted as a soluble protein
-          from the cell surface into the extracellular matrix. Two
-          of the proposed functions of LTBP proteins include
-          protecting TGF-β from premature proteolytic cleavage and
-          targeting TGF-β to its appropriate cell-surface receptor.
-          During cellular synthesis of TGF-β, a small latent
-          complex containing the latency-associated peptide and the
-          mature TGF-β is synthesized. This small latent complex
-          may be secreted inefficiently from the cell surface at
-          relatively slow rates [ 23 ] . However, when the small
-          latent complex is bound by the latent transforming growth
-          factor β-binding protein via a disulfide bond to the
-          latency-associated peptide, the result is the formation
-          of a large latent complex which may be secreted
-          efficiently and at a relatively high rate compared to the
-          small latent complex [ 23 ] . Latent TGF-β is then
-          released from the extracellular matrix via proteolytic
-          cleavage from the large latent complex, and the resulting
-          active TGF-β is now able to bind to the appropriate TGF-β
-          cell-surface receptors [ 24 ] .
-          It is well accepted that TGF-β is important for the
-          regulation of extracellular matrix synthesis and
-          degradation. The presence of TGF-β increases the
-          expression of such extracellular matrix proteins as
-          fibronectin, the fibronectin receptor, vitronectin,
-          tenascin, elastin, thrombospondin, collagen, and biglycan
-          [ 25 26 27 28 29 30 31 32 ] and also inhibits expression
-          of proteases that degrade the extracellular matrix while
-          stimulating the expression of protease inhibitors [ 33 34
-          35 36 ] .
-          It is interesting to note that although Bulus and
-          Barnard [ 16 ] showed that TGF-β treatment of R1E cells
-          resulted in increased level of HB-EGF expression, they
-          did not report any direct physical interactions between
-          the growth factors TGF-β and HB-EGF. It may be that
-          LTBP-3 provides a physical link between soluble mHB-EGF
-          and TGF-β. Possible functions for the apparent
-          interaction of mHB-EGF with LTBP-3 include the targeting
-          of the TGF-β within its protective large latent complex
-          to its appropriate TGF-β cell-surface receptor, or the
-          targeting of the TGF-β large latent complex to the EGF
-          receptor via binding of mHB-EGF to the appropriate EGF
-          receptor. These are reasonable functions for the role of
-          the proposed mHB-EGF :LTBP-3 protein:protein interactions
-          as the expression of both mHB-EGF and TGF-β is important
-          during extracellular matrix formation in wound healing [
-          1 25 ] ; it has been suggested that the coordinated
-          activities of HB-EGF and TGF-β regulate the wound healing
-          process [ 16 ] .
+          Interviews
+          The approximately 2-hour in-person interviews were
+          conducted at a place of each subject's choosing. Because
+          many questions required the recall of adolescent factors,
+          the interview used three memory tools developed during
+          the pilot phase of this study: a visualization exercise,
+          a magnetic memory board, and photographs of girls at
+          various stages of development in a variety of social
+          settings. The magnetic memory board consisted of a sheet
+          with rows showing the subject's age (0-20 years), the
+          corresponding year, and memorable historic events that
+          occurred during each year. As women went through the
+          questionnaire, magnets with major life events (such as
+          moves, school changes, births and deaths in the family)
+          were placed in the appropriate row for the age or year in
+          which the events occurred. All contemporary factors were
+          asked of cases up to or around diagnosis date and of
+          controls, up to the date of interview. The questionnaire
+          included factors that have been summarized elsewhere [ 5
+          12 ] as being either established or strongly suspected
+          risk factors for breast cancer. Women who did not wish to
+          participate in the full interview were asked to complete
+          a brief telephone interview that included a subset of the
+          full interview questions.
+          Questionnaire items pertinent to this report included
+          detailed residential and school histories before age 21
+          years (such as location, ownership or rental, and dates
+          in and out), highest level of schooling; total time of
+          residence in Marin and other parts of the San Francisco
+          Bay Area throughout the lifetime; ethnicity; childhood
+          religion; parents' highest level of education and
+          occupational characteristics at subject's age 5, 12, and
+          18 years; other measures of family's socioeconomic
+          conditions including self-assessed socioeconomic status
+          currently and before age 21 years; ages at menarche and
+          menopause, and menopausal status; alcohol use and tobacco
+          use and exposures; reproductive and breastfeeding
+          history; family history of breast cancer; type and ages
+          of use of female hormones; previous non-breast cancers;
+          breast and cervical cancer screening practices; breast
+          procedures; radiation treatments before breast cancer;
+          and body weight and height at various times in life not
+          including the times that the woman was pregnant or
+          nursing or during the first 6 months after pregnancy.
+          Case interviews were conducted from December 1999 to
+          September 2001 and control interviews were conducted from
+          April 2000 to September 2001.
         
         
-          The extracellular domain of proHB-EGF interacts
-          with monkey fibulin 1C
-          The extracellular domain of proHB-EGF interacts with
-          monkey fibulin-1C (Additional file 1). Fibulin-1 is a
-          calcium-binding extracellular matrix glycoprotein that is
-          associated with various connective tissues, basement
-          membranes and blood [ 37 38 39 ] . Splicing of the C
-          terminal domain of fibulin-1 can lead to the expression
-          of different variants of fibulin-1 (A-D) [ 37 ] . The
-          amino acid sequence of the human fibulin-1C protein
-          encodes five domains: a signal sequence (35 amino acid
-          residues), three anaphylatoxin type I repeats (108
-          residues), an adjoining sequence (33 amino acid
-          residues), nine calcium-binding type II EGF-like modules
-          (387 amino acid residues), and a carboxyl domain (116
-          amino acid residues) [ 37 ] . The amino acid sequence
-          derived from the nucleotide sequence obtained for monkey
-          fibulin-1C (GenBank accession number AF395659) shows it
-          to share 97.2 % identity with the amino acid sequence for
-          human fibulin-1C (GenBank accession number
-          NP_001987).
-          The EGF-like modules found in fibulin-1 are
-          instrumental in a variety of extracellular
-          protein:protein interactions. Fibulin-1 has been reported
-          to interact with such extracellular matrix proteins as
-          fibronectin, laminin, nidogen, aggrecan and versican [ 39
-          40 41 42 ] . Fibronectin is a glycoprotein found as
-          multimers in insoluble form in the extracellular matrix.
-          Fibronectin contains three types of homology sequences,
-          I-III; type I sequences bind heparin, 
-          Staphylococcus aureus, fibrin, and
-          cell surfaces, type II sequences bind collagen and
-          gelatin, and type III sequences bind DNA, cell surfaces,
-          heparin, and fibulin-1 [ 40 43 ] . Fibulin-1 interacts
-          with fibronectin through a heparin-binding region in type
-          III 
-          13 repeat; the binding of fibulin-1 to
-          this site is independent of the binding of heparin as
-          addition of exogenous heparin does not inhibit fibulin-1
-          binding to fibronectin [ 40 ] . The fibronectin-binding
-          site in fibulin-1 is located in EGF-like modules 5 and 6
-          [ 44 ] ; the binding of fibulin-1 to fibronectin is a
-          heterotypic interaction in which an EGF-like module binds
-          to a non EGF-like domain (the type III 
-          13 fibronectin repeat) [ 40 ] .
-          Laminin is a glycoprotein composed of three chains, A,
-          B1, and B2 in a cross-shaped molecule; this protein is
-          found in basement membranes where it interacts with other
-          such components as collagen IV, heparan-sulfate
-          proteoglycan, and nidogen [ 45 ] . Laminin contains
-          EGF-like modules in the amino-terminal region of the A,
-          B1, and B2 chains [ 45 ] . Surprisingly, these modules do
-          not appear to be involved in the binding of fibulin-1.
-          The site of fibulin-1 binding to laminin maps to the
-          carboxyl-terminal segment of the laminin A chain which
-          consists of five basic tandem repeats containing
-          conserved glycine and cysteine residues [ 39 46 ] . The
-          binding site of laminin to fibulin-1 maps to the
-          calcium-binding type II EGF-like modules of fibulin-1 [
-          39 ] .
-          Nidogen is a basement membrane protein composed of
-          three globular domains G1-G3 and two linking sequences;
-          domain G1 is joined to domain G2 through a flexible link
-          and domain G2 is connected to domain G3 by a rod-like
-          element consisting of EGF-like modules [ 47 ] . Nidogen1
-          is an important structural component of tertiary
-          complexes with other such extracellular components as
-          laminins, collagen IV, perlecan, and fibulins [ 48 ] .
-          Fibulin-1C binds to nidogen1 through domain G2 of nidogen
-          [ 48 ] . The nidogen binding site of fibulin-1C includes
-          the type II EGF-like modules 6-9 and the
-          carboxyl-terminal domain [ 42 ] .
-          Aggrecan and versican are aggregating proteoglycans
-          that are key constituents found in the extracellular
-          matrix [ 41 ] . Both proteoglycans contain amino-terminal
-          hyaluronic acid-binding regions, central core
-          glycosaminoglycan attachment domains, and
-          carboxyl-terminal domains containing EGF-like modules
-          (one in aggrecan and two in versican), C-type lectin like
-          modules and complement regulatory protein-like modules [
-          49 50 ] . Fibulin-1 exhibits calcium-dependent binding to
-          the carboxyl-terminal domain of aggrecan and versican [
-          41 ] . The binding site of aggrecan to fibulin-1 maps to
-          the type II EGF-like modules 8-9 and the
-          carboxyl-terminal domain of fibulin-1 [ 41 ] . The
-          binding site of versican to fibulin-1 maps to the type II
-          EGF-like modules 2-8 of fibulin-1 [ 41 ] .
-          Fibulin-1 has been reported two exhibit
-          calcium-dependent self-association [ 40 44 ] . The two
-          self-association sites map to type II EGF-like modules 5
-          and 6 and to a cryptic site in the amino-terminal region
-          of fibulin-1 [ 40 44 ] .
-          As described above, the calcium-binding type II
-          EGF-like modules of fibulin-1 are used in various
-          extracellular matrix interactions. It is noteworthy that
-          these modules may interact with other EGF-like modules or
-          with non EGF-like modules.
-          The yeast two-hybrid system and colony hybridization
-          screens used in this study indicated that a monkey cDNA
-          clone (Fig. 3), containing half of the anaphylatoxin type
-          I repeats, an EGF-adjoining sequence, calcium-binding
-          EGF-like modules and a carboxyl-terminal fibulin-type
-          module, demonstrated interaction with the extracellular
-          domain of proHB-EGF (Additional file 1). To see if the
-          any/all of the calcium-binding EGF-like modules were
-          necessary for this interaction, two clones were
-          constructed. A clone, pGAD424/Fib-1C EGF #5-COOH, that
-          contained calcium-binding type EGF-like modules #5-9 and
-          the carboxyl-terminus of fibulin-1C fused to the
-          GAL4-activation domain (see Fig. 3and materials and
-          methods) was tested using the yeast two-hybrid system and
-          found to interact with the extracellular domain of
-          proHB-EGF (Table 1). In constrast, the construct,
-          pGAD424/Fib-1C EGF#1-5, that contained calcium-binding
-          type II EGF-like modules #1-5 fused to the GAL4
-          activation domain (see Fig. 3and materials and methods)
-          did not interact with proHB-EGF (Additional file 1). It
-          remains to be determined which of the regions within the
-          EGF-like modules #5-9 (e.g. hydroxylation and
-          glycosylation sites) and the carboxyl-terminus of
-          fibulin-1C are necessary for the interaction with
-          proHB-EGF. The interaction of fibulin-1C may map to the
-          heparin-binding region of the extracellular domain of
-          proHB-EGF or it may map to the EGF-like module of
-          proHB-EGF or it may map to both of these regions within
-          proHB-EGF. To test whether the fibulin-1C interaction
-          with proHB-EGF maps to the heparin-binding region, a
-          construct, pGBT9/prodelHB-EGF, containing amino acid
-          residues Asp 106-His 159(the entire EGF like region of
-          proHB-EGF and 18 out of 32 residues of the
-          heparin-binding region) [ 2 ] was used in the yeast
-          two-hybrid system (see materials and methods). Construct
-          pGBT9/prodelHB-EGF was unable to interact with
-          pGAD424/Fib-1C EGF#5-COOH (data not shown). Caution must
-          be used with this result however, as the size of the
-          cloned prodelHB-EGF region is small, encoding just 54
-          amino acids; this may have resulted in a Gal4 fusion
-          protein in which the EGF epitopes in prodelHB-EGF are
-          hidden by the Gal4 subunit and thus not recognized by the
-          GAL4 fusion partner protein (GAL4/Fib-lC EGF
-          #5-COOH).
-          Additional file 1
-          β-galatosidase activity of years two-hybrid fusion
-          proteins with the extracellular domain of proHB-EGF.
-          Click here for file
-          Fibulin-1 is incorporated into fibronectin-containing
-          matrix fibers [ 44 51 ] . Although a distinct function
-          for fibulin-1 has not yet been described, it is
-          conceivable that fibulin-1 is important for cell adhesion
-          and migration along protein fibers within the
-          extracellular matrix. Fibulin-1 may serve to anchor the
-          mHB-EGF to its fibers as it migrates through the
-          extracellular matrix. As explained above, mHB-EGF has
-          been reported to be involved as a structural protein in
-          such tissue developmental processes as wound healing and
-          it is feasible that the direct physical association of
-          mHB-EGF with fibulin-1 may be useful in the tissue
-          remodeling of a wound site and in scar formation.
-          The results presented in this paper now suggest that
-          there is potential in carrying out experiments to further
-          delineate the molecular interactions between proHB-EGF
-          and LTBP-3 and between proHB-EGF and fibulin-1C. A
-          transitional step in this process will be the expression
-          and purification of these proteins. In order to rule out
-          false positives that may have resulted from the yeast
-          two-hybrid system, experiments that provide
-          co-immunoprecipitation data or solid phase binding
-          results of the interaction of these proteins will be
-          useful.
-          The interaction of EGF-modules with either non
-          EGF-like modules (e.g. the EGF-like modules of fibulin-1C
-          interacting with the heparin-binding region of
-          fibronectin) or with EGF-like modules (e.g. the
-          interaction of fibulin-1C with aggrecan and versican)
-          between extracellular matrix proteins argues for the
-          interaction of the EGF-modules containing within
-          fibulin-1C and LTBP-3 with either the heparin-binding
-          region or with the EGF-like domain of HB-EGF.
+          Data analysis methods
+          We computed frequencies of categorical variables and
+          means, standard errors, and medians of continuous
+          variables separately for cases and controls. Continuous
+          data also were categorized into quartiles determined by
+          the control group distributions. Analysis of variance was
+          used to compare unadjusted means and Wilcoxon tests were
+          used to compare medians of continuous variables for cases
+          and controls. Case-control ORs and 95% CIs were estimated
+          for categorical and quartiled data by using logistic
+          regression. Preliminary analyses made adjustments for
+          5-year age groups; these analyses included telephone
+          interview respondents for variables asked in both the
+          full and abbreviated interviews. After a review of
+          results of the preliminary age-adjusted analyses, a
+          subset of the many variables was selected for inclusion
+          in a multivariate model; these included variables that
+          are established or strongly suspected risk factors for
+          breast cancer that might confound other results and those
+          that were statistically significant in age-adjusted
+          comparisons. Age was included in all models. In addition,
+          ORs for residential history variables were adjusted for
+          other variables included in the multivariate model, but
+          not for each other, because the various residential
+          variables were not mutually exclusive. Multivariate ORs
+          were estimated with logistic regression and included only
+          those subjects with in-person interviews and non-missing
+          data for all the variables in the model.
+          Analyses were conducted across all age groups as well
+          as separately for women under 50 years of age and 50
+          years of age and older. These two age groups were chosen
+          for separate analyses before any data collection, because
+          the direction and magnitude of several important breast
+          cancer risk factors seem to vary by age [ 12 ] .
+          Furthermore, we specifically chose not to analyze women
+          separately by premenopausal and postmenopausal status,
+          because the many perimenopausal women do not readily fit
+          into either category. ORs of less than 1 are given two
+          decimal places; those greater than or equal to 1 are
+          given one decimal place to achieve comparable
+          accuracy.
+          Residences at birth and before age 21 years were
+          grouped into eight broad geographic regions based on the
+          geographic variation of breast cancer mortality as shown
+          in the NCI's Atlas of Cancer Mortality [ 15 ] . These
+          regions were Northeast (Maine, New Hampshire, Vermont,
+          Massachusetts, Connecticut, New Jersey, New York,
+          Pennsylvania, Delaware, Washington, DC, Rhode Island, and
+          Maryland); Great Lakes (Minnesota, Iowa, Illinois,
+          Wisconsin, Michigan, Indiana, and Ohio); Plains (North
+          Dakota, South Dakota, Nebraska, Kansas, and Montana);
+          South (Oklahoma, Missouri, Arkansas, Louisiana,
+          Mississippi, Alabama, Tennessee, Kentucky, West Virginia,
+          Virginia, North Carolina, South Carolina, Georgia,
+          Florida, and Texas); West (Idaho, Wyoming, Utah,
+          Colorado, Arizona, New Mexico, Alaska, and Hawaii);
+          Northwest (Washington, Oregon, and Nevada); California;
+          and not in the USA.
         
+      
+      
+        Results
+        
+          Subject ascertainment and interviews
+          Table 1shows participation rates for cases and
+          controls, and the footnote gives details on the numbers
+          and disposition of calls made through RDD. Ages and
+          ethnicities of cases and controls that completed the full
+          interview were very similar by study design (Table 1).
+          Because only 15 eligible women (about 4%) had died by the
+          time of the study, we did not conduct proxy interviews.
+          Of the 305 cases and 300 controls completing the
+          in-person interview, complete data for all variables
+          considered in the multivariate model were available for
+          285 cases and 286 controls.
+        
+        
+          Risk factors
+          
+            Personal and family health history
+            As shown in Table 2, there were no substantial or
+            statistically significant differences in the
+            frequencies of cases and controls reporting a
+            first-degree relative with breast cancer or a history
+            of benign breast biopsy. Cases were somewhat more
+            likely than controls to report previous radiation
+            treatments for conditions other than breast cancer and
+            the OR was significantly elevated in women under the
+            age of 50 years (Table 2). However, on closer
+            inspection four cases and four of the controls reported
+            radiation treatments to the upper body, whereas two
+            cases and no controls reported radiation treatment for
+            plantar warts.
+            There were no differences in average or median age
+            at menarche for cases and controls (average was 12.6 ±
+            0.1 for cases and 12.5 ± 0.1 for controls) and no
+            statistically significant trends with age at menarche
+            in either age group (Table 2). Among women under the
+            age of 50 years, cases were about half as likely as
+            controls to have begun menarche at age 15 years or
+            older, but the results were not significant (Table 2).
+            In both age groups, cases were more likely to be
+            premenopausal at diagnosis than controls at a similar
+            age (Table 2). Similar proportions of cases (6.7%) and
+            controls (7.3%) reported having had both ovaries
+            removed; 2% of cases and 1% of controls had both
+            ovaries removed before age 40 years. Cases were more
+            likely than controls to have had a history of uterine
+            or ovarian cancer (OR = 3.0; 95% CI, 0.60-15.1), but
+            the result was not statistically significant.
+            Some of the associations of reproductive factors
+            differed by age group. Among women aged 50 years and
+            older, compared with women who had never been pregnant,
+            cases were more than twice as likely as controls to
+            have been pregnant or parous, without breastfeeding
+            (Table 2). However, there were no differences between
+            these cases and controls in average age at first
+            pregnancy (25.1 ± 0.4 years for cases and 24.7 ± 0.4
+            years for controls) or at first birth (26.0 ± 0.4 years
+            for cases and 25.9 ± 0.4 years for controls) and no
+            suggestions of trends with numbers of births (Table 2).
+            Among women who breastfed, there was no difference
+            between cases and controls in duration of breastfeeding
+            (mean durations: 12.2 ± 1.2 months for cases, 12.8 ±
+            1.3 months for controls; categorized data presented in
+            Table 2). Among women under the age of 50 years, cases
+            were more likely than controls to have never been
+            pregnant, but the differences were not statistically
+            significant (Table 2). In categorized data, women with
+            three or more births, or more than 12 months of
+            breastfeeding, had significantly reduced ORs compared
+            with women who were never pregnant (Table 2). As with
+            women aged 50 and older, there were no trends evident
+            for and no differences in average ages at first
+            pregnancy (cases 25.4 ± 0.8 years; controls 26.3 ± 0.7
+            years) or first birth (cases 30.1 ± 0.9 years; controls
+            30.4 ± 0.7 years).
+            Significantly fewer cases than controls had ever
+            used birth control pills in both age groups (Table 2).
+            There were no apparent trends with total time used;
+            compared with women who never used birth control pills,
+            the use of birth control pills for up to 2 years, 2-6
+            years, 6-10 years, and more than 10 years had ORs of
+            0.55 (95% CI, 0.33-0.93), 0.52 (95% CI, 0.30-0.89),
+            0.57 (95% CI, 0.32-1.0), and 0.47 (95% CI, 0.27-0.82),
+            respectively. There was also no difference with current
+            use versus past use.
+            About equal percentages of cases (54.7%) and
+            controls (55.9%) had ever taken hormone replacement
+            therapy and there were similar percentages who had
+            taken combination therapy (Table 2).
+            Cases and controls had similar average and median
+            maximum lifetime heights of about 65 inches (165 cm).
+            There were no notable differences in highest or lowest
+            postpubertal body mass index before age 21 years (the
+            median highest body mass index for both cases and
+            controls was 20.6 kg/m 2, and the median lowest body
+            mass index was 18.5 kg/m 2for cases and 18.6 kg/m 2for
+            controls) or in lowest body mass index after age 21
+            years. However, in both age groups, the highest body
+            mass index after age 21 years was lower in cases than
+            in controls (the median highest body mass index was
+            23.9 kg/m 2for cases and 25.0 kg/m 2for controls);
+            categorized data are presented in Table 2. A similar
+            result was found by using body mass index 1 year before
+            diagnosis for cases and before interview for
+            controls.
+            We also conducted an analysis of perimenopausal and
+            postmenopausal women that stratified body mass index by
+            hormone replacement therapy use, adjusting for other
+            variables in the multivariate model: in comparison with
+            women who had not used hormone replacement therapy and
+            had a body mass index of less than 25 kg/m 2, cases
+            were significantly less likely than controls to report
+            a highest body mass index of more than 30, regardless
+            of whether they had used hormone replacement therapy
+            (OR = 0.36; 95% CI, 0.14-0.89) or not (OR = 0.24; 95%
+            CI, 0.08-0.75).
+            Over all and in both age groups, cases were more
+            than twice as likely as controls to have had four or
+            more mammograms during the period 1990-94 (Table 2).
+            Regarding other factors related to health care access
+            and use, all but 2% of cases and 1% of controls had
+            health insurance. For the period 1990-94, among women
+            under the age of 50 years, cases were somewhat less
+            likely than controls (83% versus 92%) to have clinical
+            breast exams yearly or more often, whereas cases and
+            controls were about equally likely (89% of cases and
+            94% of controls) to have an annual or more frequent
+            pelvic exam. During this same period, for women aged 50
+            years and older, about 92% of cases and 83% of controls
+            reported annual or more frequent clinical breast exams,
+            and 93% of cases and 87% of controls reported annual or
+            more frequent pelvic exams and pap tests.
+          
+          
+            Socioeconomic factors
+            Over all ages, there were no meaningful or
+            statistically significant differences between cases and
+            controls for current or past socioeconomic indicators,
+            except that cases were more likely than controls to
+            report their family's socioeconomic strata before age
+            21 years as 'upper' (Table 2). However, no difference
+            was noted when women in this small category of women
+            (3.9% of cases and 0.7% of controls) were combined with
+            the 'upper middle' category (Table 2). The
+            self-reported socioeconomic status at the time of
+            diagnosis for cases and interview for controls was very
+            similar for cases and controls: 9% of cases and 11% of
+            controls reported their status as 'poor', 'working
+            class' or 'lower middle', 36% of both cases and
+            controls reported 'middle' and 55% of cases and 53% of
+            controls reported 'upper middle' or 'upper'. Both cases
+            and controls had a median of 16 years of education.
+            There was some indication that case-control
+            associations of socioeconomic factors differed between
+            women 50 years and older and those under 50 years. For
+            example, among women aged 50 years and older, cases
+            were more likely than controls to report their family
+            socioeconomic status as 'upper or upper middle' before
+            age 21 years (Table 2). Although this finding was
+            largely due to the small group of women classifying
+            themselves as 'upper', consistent with this was the
+            observation that 33% of cases versus 22% of controls
+            reported their fathers to have been self-employed or
+            business owners when the subjects were 5 years old ( 
+            P < 0.05). In contrast, among
+            women under 50 years old there was a non-significant
+            inverse association with increasing self-reported
+            family socioeconomic status before age 21 years (Table
+            2). Consistent with this was the observation that case
+            families spent significantly more time on average than
+            control families in rental residences before age 21
+            years (6.2 ± 0.7 years versus 4.4 ± 0.5 years; 
+            P = 0.03) and cases were less
+            likely than controls to report that their fathers had a
+            college degree (40% versus 54%; 
+            P = 0.05) or that their father
+            held a supervisory position (for example, 50% versus
+            65% at subject's age 5; 
+            P = 0.05).
+          
+          
+            Religion
+            Over all ages, significantly fewer cases than
+            controls were raised with no specific religion, and
+            among women aged 50 and over cases were less likely
+            than controls to report having been raised in religions
+            other than Protestant, Catholic, or Jewish (Table
+            2).
+          
+          
+            Alcohol consumption
+            Women with breast cancer were significantly less
+            likely than control women to report having drunk
+            alcoholic beverages before age 21 years (Table 2).
+            Consistent with this finding was the fact that cases
+            also reported significantly fewer average or median
+            numbers of drinks than controls before age 21 years
+            (median 90 versus 120; 
+            P = 0.01). However, women with
+            breast cancer reported a higher frequency of drinking
+            alcohol after age 21 years than controls, and there was
+            a trend with increasing average frequency of drinking
+            irrespective of age group (Table 2) that was
+            statistically significant among women less than 50
+            years old.
+          
+          
+            Tobacco exposures
+            Although equivalent percentages of cases and
+            controls had ever smoked cigarettes (59% and 55%,
+            respectively), cases were more likely than controls to
+            report more than 28.5 pack-years (Table 2; 28.5 years
+            was the cutoff point for the upper quartile of
+            pack-years smoked among controls). This association was
+            also significant for women aged 50 and over, but there
+            was no trend with increasing pack-years smoked below
+            the highest quartile (Table 2). With regard to passive
+            exposure to tobacco smoke, 81% of cases and 79% of
+            controls had ever lived in a household with a smoker
+            before age 21 years, and 60% of cases and 62% of
+            controls had ever lived in a household with a smoker
+            after age 21 years, with no trend for duration of
+            exposure in either age group.
+          
+          
+            Residence history
+            As shown in Table 3, there were no substantial
+            differences in geographic area of birth or places ever
+            lived before age 21 years among women overall or women
+            over age 50 years. However, among women under the age
+            of 50 years, a significantly higher percentage of cases
+            than controls reported having been born in or having
+            ever lived in the Northeast or Great Lakes areas before
+            age 21 years (only geographic areas with noteworthy
+            differences are included in the table).
+            Over all ages and among women aged 50 years and
+            over, there were no notable case-control differences in
+            the age of first living in Marin County, years before
+            the age of 21 or lifetime years lived in Marin County
+            or lifetime years lived in the San Francisco Bay Area
+            (Table 3). Among women under the age of 50 years, cases
+            had lived significantly fewer years than controls in
+            other parts of the San Francisco Bay Area, but had
+            similar durations of living in Marin County (Table
+            3).
+          
+        
+      
+      
+        Discussion
+        In this article we have focused on comparisons of
+        generally accepted or suspected risk factors for breast
+        cancer, including some characteristics measured both for
+        adulthood and adolescence. Interestingly, cases and
+        controls were strikingly similar for several factors known
+        to influence breast cancer risk (such as family history of
+        breast cancer, contemporary socioeconomic status, age at
+        first birth, or use of hormone replacement therapy). For
+        instance, although the overall rate of positive
+        first-degree family history (19%) among cases is similar to
+        that reported in other recent series [ 16 17 ] , the
+        controls in this population had rates of family history
+        comparable to those of the cases. One possible explanation
+        for the homogeneity of cases with regard to these factors
+        could be our focus on residents of a small, relatively
+        homogenous, and affluent area, Marin County. The
+        homogeneity of the Marin County population is supported by
+        recent maps showing little variation in standardized
+        incidence rate ratios for breast cancer among the census
+        tracts within Marin County [ 18 ] .
+        Another explanation could involve preferential
+        participation in the study by controls with these
+        recognized breast cancer risk factors over those without
+        these factors. This seems unlikely given the high
+        participation rates among those found to be eligible on the
+        basis of RDD, but it is possible that there was some
+        selection bias in women or households who were willing to
+        answer the telephone call screening for eligibility.
+        Further studies with alternative control ascertainment
+        methods would be necessary to resolve this issue. In
+        addition, appropriately adjusted comparisons of these
+        factors in this high-risk area versus geographic areas with
+        lower breast cancer rates would be needed to answer the
+        question of how much of the excess of breast cancer
+        incidence in Marin County might be due to patterns of these
+        risk factors. Such a study is currently underway. A study
+        that uses risk factor prevalence data from this study and
+        other sources is also underway to estimate the attributable
+        proportions of breast cancer due to specific risk
+        factors.
+        As mentioned above, selection bias due to differential
+        participation by cases or controls with some risk factor of
+        interest is always a potential concern in case-control
+        studies. In attempts to minimize this problem, we sought an
+        abbreviated interview for those cases and controls not able
+        or willing to participate in the full interview. The
+        preliminary age-adjusted analyses of individual risk
+        factors used all women for whom information was available.
+        There were not any notable differences in magnitude of the
+        age-adjusted ORs that used all 657 participants and the
+        multivariate results based on 571 subjects with complete
+        information.
+        Despite homogeneity in current socioeconomic status, our
+        study suggests that among women aged 50 years and older,
+        breast cancer cases might have been more likely than
+        controls to have grown up in more affluent families,
+        although the results are largely due to the small
+        proportion of subjects reporting their family's
+        socioeconomic status as 'upper' before age 21 years. In
+        contrast, for women under the age of 50 years, breast
+        cancer cases were somewhat less likely than controls to
+        have grown up in more affluent families. That an effect of
+        pre-adult socioeconomic status existed in the women aged 50
+        and over that was independent of contemporary socioeconomic
+        status as well as established reproductive, menstrual, and
+        other factors such as body size and alcohol consumption
+        suggests that further attention is needed to understand the
+        relationship of childhood or adolescent socioeconomic
+        factors and breast cancer.
+        Almost all women in this study had health insurance, and
+        whereas women with breast cancer were more likely than
+        controls to report having had four or more mammograms in
+        the period 1990-94, they were about equally likely to
+        report obtaining pelvic exams over the same period. This
+        suggests that women who subsequently developed breast
+        cancer might have had more mammograms than controls because
+        they had more breast problems rather than because they
+        were, in general, more regular users of cancer screening
+        services than controls.
+        Interestingly, in both age groups, women who had given
+        birth but had not breastfed had a higher risk for breast
+        cancer than women who had never been pregnant, women who
+        had been pregnant but not parous, and women who had been
+        parous and breastfed, although the result was statistically
+        significant only in those aged 50 years and older. In
+        addition, among women under the age of 50 years, women who
+        breastfed for 12 months or more had significantly reduced
+        odds of breast cancer. This finding is consistent with a
+        large collaborative study [ 19 ] showing breastfeeding to
+        be protective for breast cancer through hormonal or other
+        mechanisms. That report suggested an urgent need to fully
+        understand the mechanisms of the protective effect of
+        breastfeeding so that some intervention mimicking
+        breastfeeding could be developed and offered to women who
+        have not breastfed.
+        It is also possible that inability to lactate or
+        suppressing lactation after giving birth might have a
+        deleterious effect on breast physiology [ 20 ] , but we did
+        not request this information from subjects. Given the
+        relatively late ages of first birth in this population, one
+        might not expect to see a protective effect of having ever
+        given birth, because the well-established protective
+        effects of pregnancy seem to be reversed for first births
+        at about age 30 years or later [ 21 22 ] . This study had a
+        higher percentage of nulliparous women (25% of cases and
+        26% of controls) than a recent study conducted in the
+        Seattle area (13% of cases and 14% of controls) [ 17 ] .
+        However, the California Teachers Study cohort, with a
+        similarly elevated rate of invasive breast cancer of 151
+        per 100,000 person years among non-Hispanic white women
+        between 1995 and 1998, reported a similar percentage of
+        nulliparous women (27%) among participants without breast
+        cancer in 1995 [ 23 ] .
+        Consistent with previous findings [ 12 ] was our
+        observation that cases were more likely to be premenopausal
+        than controls, suggesting a later age at menopause. Despite
+        the absence of a strong difference in age at menarche
+        between cases and controls in this group, those women who
+        developed breast cancer had relatively later menopause,
+        indicating a greater number of years of active
+        menstruation. Starting menarche at age 11 years or earlier
+        is considered an established breast cancer risk factor, and
+        starting menarche at age 15 years or older is considered an
+        established protective factor [ 12 ] . In the present
+        study, cases were somewhat less likely than controls to
+        start menarche at age 15 years or older, but cases were not
+        more likely than controls to have early menarche. A similar
+        lack of association of age at menarche with breast cancer
+        status was apparent in the large recent study by
+        March-banks and colleagues [ 16 ] . The distribution of age
+        at menarche reported by control women in Marin County was
+        similar to that observed for women in the California
+        Teachers Study cohort [ 23 ] .
+        Disagreement remains in the literature on the direction
+        and magnitude of effect, if any, of oral contraceptives on
+        breast cancer risk [ 12 16 24 ] . Despite large studies
+        designed to address such differences, chance, selection
+        factors, changes in formulations, patterns of use, and
+        different background risk for breast cancer might account
+        for some of the variation in findings. In this Marin County
+        study, we found a rather strong and significant inverse
+        association of oral contraceptive use and breast cancer.
+        However, the lack of case-control differences by duration
+        or latency of use argues against a causal connection and
+        suggests that oral contraceptive use might be a surrogate
+        for some other protective behavior or exposure. Given the
+        very high rate of use of oral contraceptives in this
+        population, an alternative explanation could be that
+        factors or conditions contraindicating the use of oral
+        contraceptives might increase the risk for breast cancer.
+        In future studies it might be worthwhile to assess why
+        women chose to use, or not to use, oral contraceptives.
+        In addition, there was no indication of large
+        differences in hormone replacement therapy use among cases
+        and controls, which was similar to a recent Seattle
+        case-control study [ 17 ] , although any use of hormone
+        replacement therapy was somewhat higher in the Marin
+        population (55-56%) than in the women in the Seattle study
+        (49-51%). In addition, the specificity of questions about
+        types of hormone replacement therapy used and the sample
+        size of this Marin study is insufficient to rule out the
+        small increased risk (25-30%) observed in larger studies [
+        25 26 ] or to examine in detail different hormone
+        replacement therapy regimens, duration, or age of use.
+        Appropriately adjusted comparisons of rates of hormone
+        replacement therapy use in this area and geographic areas
+        with lower breast cancer rates would be informative
+        regarding the relationship of hormone replacement therapy
+        use to the elevated breast cancer incidence in Marin
+        County.
+        Many studies have examined breast cancer in relation to
+        body weight, height, and overall body size (as measured by
+        body mass index). The general consensus has been that
+        increased height might be associated with increased risk
+        for breast cancer, and that obesity might increase risk in
+        women aged 50 years or over or who are post-menopausal but
+        might decrease risk in women under the age of 50 years [ 27
+        28 29 30 ] . Highest adult body mass index was strongly
+        inversely related to breast cancer status both in women
+        under the age of 50 years and, unexpectedly, in those aged
+        50 years and older. The average highest body mass indexes
+        reported in this study (24.9 and 26.5 kg/m 2for cases and
+        controls, respectively) were in the same range reported for
+        subjects' body mass index 5 years previously in a recent
+        large US study (25.5 and 25.8 kg/m 2for cases and controls,
+        respectively) [ 16 ] and participants in the California
+        Teachers Study in 1995 (24.8 kg/m 2) [ 23 ] .
+        One explanation for the finding could be that mechanisms
+        of weight maintenance might have contributed to the
+        association. Because we did not ask about adult or recent
+        physical activity in the interview, we cannot assess the
+        impact of these factors on the body size results. In the
+        Nurses' Health Study cohort, Huang and colleagues [ 31 ]
+        reported that among postmenopausal women, weight gain was
+        consistently associated with an increased risk for breast
+        cancer only among women who had not used hormone
+        replacement therapy. We found that cases had lower highest
+        body mass index than controls both among women who had used
+        hormone replacement therapy and among women who had not. It
+        is possible in this affluent community that perimenopausal
+        and postmenopausal women who are not taking prescribed
+        hormone replacement therapy could be eating foods or taking
+        herbal or other non-prescribed supplements to ameliorate
+        menopausal symptoms that might simulate the effects of
+        hormone replacement therapy. Unfortunately we did not
+        collect the data to test this possibility, but such
+        questions should be included in future studies.
+        Alcohol use has been increasingly associated with both
+        premenopausal and postmenopausal breast cancer risk [ 32 33
+        ] , including a report from the California Teachers Study,
+        showing that recent alcohol consumption increases risk for
+        breast cancer [ 34 ] . We found that although women with
+        breast cancer were less likely than controls to have begun
+        drinking alcohol before age 21 years, they were much more
+        likely than controls to consume two or more drinks per day
+        on average as adults. That the ORs for alcohol consumption
+        in this study were generally higher than those reported in
+        other studies suggests a possible interaction of alcohol
+        consumption with other factors that have a high prevalence
+        in this population.
+        Cigarette smoking has not been consistently associated
+        with breast cancer risk [ 12 ] . The elevated OR observed
+        in this study for the highest quartile of pack-years smoked
+        might be due to differential participation by controls with
+        a lower pack-year history or differential reporting of
+        smoking history by cases and controls. It is also possible
+        that smoking history was confounded by factors not measured
+        in this study, such as physical activity.
+        For women under the age of 50 years, women with breast
+        cancer were much more likely than controls to have been
+        born or lived before age 21 years in the Northeastern or
+        Great Lakes regions of the USA, regions that were in the
+        upper deciles of breast cancer mortality both for the
+        period 1950-69 and for the period 1970-94 [ 15 ] .
+        Geocoding and other refinements of residence information
+        might help to clarify which areas of first or early life
+        residences might be associated with later risk for breast
+        cancer.
+        The similar average ages of first residence and total
+        years lived in Marin for cases and controls do not support
+        (but cannot completely rule out) the hypothesis that there
+        is some agent specific to Marin County, such as a
+        particular water source, that might increase the risk for
+        breast cancer. These findings do not imply that
+        environmental factors are unimportant in breast cancer
+        causation. On the contrary, our and others' findings of
+        increased risk with frequency of alcohol consumption show
+        that a woman's personal environment can strongly influence
+        her breast cancer risk. In addition, our result of higher
+        risk among women under the age of 50 years who lived in the
+        Northeast or Great Lakes regions before age 21 years might
+        suggest a role of early environmental factors.
+        Because control women in this study had such high rates
+        of health insurance and use of basic screening services, it
+        seems likely that they truly did not have breast cancer at
+        the time of interview. This was despite a higher proportion
+        of controls with established breast cancer risk factors
+        such as family history and nulliparity than observed in
+        control subject groups in other recent studies. Given this
+        observation, a further intensive study of this or other
+        similarly high-incidence populations might reveal factors
+        proximate to breast cancer diagnosis that could enrich our
+        understanding of breast cancer etiology in a high-incidence
+        population. Some provocative clues from this first analysis
+        suggest that some as yet unidentified correlate of oral
+        contraceptive use might be protective and that consuming
+        two or more alcoholic drinks per day might be deleterious
+        for women in this high-incidence population. We were unable
+        to examine the effects of other provocative exposures
+        previously proposed by others, including exposures to light
+        at night [ 35 ] and polycyclic aromatic hydrocarbons [ 36 ]
+        . The observed early socioeconomic differences combined
+        with a lack of differences in age at menarche or early body
+        size also suggest that attention might be turned to
+        patterns of early infection (or lack of infection) and
+        immune response [ 37 ] .
+        This study is among the first reported in which
+        community advocates took part in all aspects of the
+        research process, from formulating questions of interest
+        and questionnaire design to monitoring progress of subject
+        recruitment and data analysis and interpretation at regular
+        meetings. This study provides important information for
+        planning additional studies to understand reasons for
+        breast cancer in this or other high-risk geographic areas
+        characterized by a socioeconomically affluent
+        population.
       
       
         Conclusions
-        In summary, we have shown the interaction of two novel
-        proteins with the extracellular domain of proHB-EGF using a
-        yeast two-hybrid system. The interactions of LTBP-3 and
-        fibulin-1C with the extracellular domain of proHB-EGF may
-        provide further insights into the roles that these proteins
-        play in cellular and tissue development processes. The
-        trafficking of such growth factors as HB-EGF and TGF-β and
-        structural proteins within the extracellular matrix is
-        important in wound healing processes. Therefore, the
-        interactions of HB-EGF with LTBP-3 and fibulin-1C described
-        in this study suggest novel functions for HB-EGF between
-        cell-surfaces and tissue surfaces.
+        Women with breast cancer and controls had very similar
+        distributions of age of first living and years lived in
+        Marin County, suggesting that the County's high breast
+        cancer rates are probably not due to geographically
+        specific exposures. Despite similar distributions for
+        several known breast cancer risk factors, case-control
+        differences in alcohol consumption suggest that breast
+        cancer risk in this population might be modifiable. This
+        study might be useful to communities and researchers
+        concerned with understanding the basis of, and means of
+        mitigating, high local or regional rates of breast cancer.
+        Intensive study of high-incidence areas might reveal other
+        important risk factors proximate to diagnosis.
       
       
-        Materials and methods
-        The plasmid vectors, pGBT9, pGAD424, pTD1, pVA3, the
-        monkey cv-1 cDNA library in pGAD10, and the 
-        S. cerevisiae strains Y187 and Y190
-        were obtained from Clontech. The cv-1 cDNA library was
-        amplified and stored as per the manufacturer's
-        instructions. Unless otherwise noted, all chemicals and
-        reagents were obtained from Sigma.
-        
-        E. coli strain DH5α was used as the
-        host strain for cloning. The extracellular domain (amino
-        acid residues Glu 24-His 159) of monkey proHB-EGF (GenBank
-        accession number Q09118) [ 2 ] was amplified by PCR using
-        primers MkHB-EGF 
-        ex (5') TCGGCACTGGTGGAATTCGAGAGCCTGGAG
-        and MKHB-EGF 
-        ex (3') CACAGCCAGGATGGATCCATGGTCATAGGT.
-        The PCR product was digested with 
-        Eco RI and 
-        Bam HI and ligated into the 
-        Eco RI and 
-        Bam HI restriction sites of pGBT9 and
-        pGAD424 to produce constructs pGBT9/proHB-EGFEx and
-        pGAD424/proHB-EGFEx, respectively. The pGBT9/proHB-EGFEx
-        construct was used as the bait construct in the yeast
-        two-hybrid screen to identify extracellular proteins that
-        interact with the extracellular domain of proHB-EGF. The
-        EGF-like region (amino acid residues Asp 106-His 159) of
-        monkey proHB-EGF [ 2 ] was amplified by PCR using primers
-        MkHB-EGF 5'CTAGGGAAGGAATTCGACCCATGTCTTCGG and MkHB-EGF
-        3'CACAGCCAGGATGGATCCTCAATGGTCATAGG. The PCR product was
-        digested with 
-        Eco RI and 
-        Bam HI and ligated into the 
-        Eco RI and 
-        Bam HI restriction sites of pGBT9 to
-        produce construct pGBT9/prodelHB-EGF.
-        All plasmid constructs were transformed into the 
-        S. cerevisiae strains, Y187 and Y190,
-        using the lithium acetate protocol as per the
-        manufacturer's instructions. Y190 transformants containing
-        pGBT9/proHB-EGFEx and pGAD10/cv-1 library were plated onto
-        Trp -Leu -His -agar plates. The triple auxotrophic
-        transformants were tested for β-galactosidase activity
-        using the filter paper assay described in the manual
-        provided by Clontech. A positive control of Y187 or Y190
-        containing both plasmids pTD1 and pVA3 together was
-        included in every β-galactosidase assay. A negative control
-        of Y187 or Y190 containing both plasmid vectors, pGBT9 and
-        pGAD424, was included in all β-galactosidase assays.
-        Each construct from the cDNA library that tested
-        positive for both 
-        lacZ and 
-        his reporter gene expression was also
-        tested for the ability to activate directly
-        β-galactosidase/ 
-        his reporter gene transcription
-        without the presence of the bait construct,
-        pGBT9/proHB-EGFEx. False positives were eliminated using
-        this screening assay. Potential true positive clones were
-        sequenced using primers GAD10SEQ 5'TACCACTACAATGGATG and
-        GAD10cSEQ 5'GTTGAAGTGAACTTGCGGGG with the automated DNA
-        sequencing facilities available at our Institution.
-        Comparisons of the obtained sequences were made using the
-        GENBANK database. The sequences for monkey LTBP-3 and
-        monkey fibulin-1c have been submitted to the GenBank
-        database under the accession numbers AF395658 and AF395659
-        respectively. Sequence alignment and identity was
-        determined using the Mac Vector sequence analysis
-        program.
-        The calcium-binding type II EGF-like modules #1-8 of
-        monkey LTBP-3 (Fig. 1) were amplified by PCR using primers
-        GAD10SEQ 5'TACCACTACAATGGATG and LB3priLQGSYVC
-        5'CGCGGATCCTCAACACACATAGGAGCCCTGAAG. The PCR product was
-        digested with 
-        Eco RI and 
-        Bam HI and ligated into the 
-        Eco RI and 
-        Bam HI restriction sites of pGADA424
-        to produce construct pGAD424/LTBP-3 EGF#1-8. The construct
-        was sequenced as described above using the primers
-        pGAD10SEQ and pGAD10cSEQ.
-        The calcium-binding type II EGF-like modules #1-5 (Fig.
-        3) of monkey fibulin-1C were amplified by PCR using primers
-        Fib5priYLNDRC 5'CGAATTCTATCTGAATGACCGCTGC and Fib3priCAPPAE
-        5'CCGTCGACTCACTCAGCAGGTGGCGCGCA. The calcium-binding type
-        II EGF-like repeats #5-9 (Fig. 3) and the carboxyl terminus
-        of monkey fibulin-1C were amplified by PCR using primers
-        Fib5priCAPPAE 5'CGAATTCTGCGCGCCACCTGCTGA and Fib3priFVSAEL
-        5'CCGTCGACTCAGAGCTCTGCAGACACAAA. The PCR products were
-        digested with 
-        Eco RI and 
-        Sal I and ligated into the 
-        Eco RI and 
-        Sal I restriction sites of pGAD424 to
-        produce constructs pGAD424/Fib-1C EGF#1-5 and
-        pGAD424/Fib-1C EGF#5-COOH respectively. The constructs were
-        sequenced as described above using primers pGAD10SEQ and
-        pGAD10cSEQ.
-        A random primed P 33labeled 1.8 kb DNA probe to the
-        region of LTBP-3 gene containing domain 4 was prepared
-        using the High Prime Labeling Kit from Roche Molecular
-        Biochemicals. Colony hybridizations were performed on 
-        E. coli colonies containing the
-        monkey cv-1 cDNA library. Colony lifts on zeta probe
-        membranes (Bio-Rad) were performed and the colonies were
-        denatured and neutralized as described by Sambrook et al. [
-        52 ] air dried and then UV cross-linked using a Stratagene
-        crosslinker. The probe was allowed to hybridize to the
-        colony DNA at 42°C overnight as described by Sambrook et
-        al. [ 52 ] . The membranes were then rinsed and washed
-        twice for 5 minutes in 2X SSC/0.1% SDS at room temperature,
-        twice for 15 minutes in 0.1X SSC/0.1 % SDS at 68°C, and
-        once for 15 minutes in 0.1X SSC/0.1% SDS at room
-        temperature. The colony blots were then wrapped in saran
-        wrap and exposed to X-ray film at room temperature for 24 h
-        at -80°C. The above strategy was used to perform colony
-        blot hybridization screening on the monkey cv-1 cDNA
-        library using a ~750 bp P 33-labeled probe to a region of
-        the fibulin-1C gene containing most of the type I
-        anaphylatoxin repeats and almost all of the type II
-        EGF-like repeats (Fig. 3).
+        Competing interests
+        None declared.
+      
+      
+        Abbreviations
+        CI = confidence interval; NCCC = Northern California
+        Cancer Center; NCI = National Cancer Institute; OR = odds
+        ratio; RDD = random digit dialing.
       
     
   

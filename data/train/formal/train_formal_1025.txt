@@ -1,920 +1,1226 @@
 
-  
-    
-      
-        Background
-        The complete sequencing of several genomes, including
-        that of the human, has signaled the beginning of a new era
-        in which scientists are becoming increasingly interested in
-        functional genomics; that is, uncovering both the
-        functional roles of different genes, and how these genes
-        interact with, and/or influence, each other. Increasingly,
-        this question is being addressed through the simultaneous
-        analysis of hundreds to thousands of unique genetic
-        elements with microarrays. Already, analytical strategies
-        have subdivided into distinct 'omic' domains, such as
-        genomics, proteomics, and metabolomics. This enables
-        researchers to examine not only genetic elements, but also
-        the corresponding proteins and metabolites derived from
-        these genes. All 'omic' technologies share the need for
-        fresh, innovative looks at data analysis. To date,
-        transcriptomics is the most widely studied molecular
-        approach, enabling researchers to examine subtle
-        differences in thousands of mRNA levels between
-        experimental samples, medical biopsies, 
-        etc . Although mRNA is not the end
-        product of a gene, the transcription of a gene is both
-        critical and highly regulated, thereby providing an ideal
-        point of investigation [ 1 2 ] . Development of microarrays
-        has permitted global measurement of gene expression at the
-        transcript level and provided a glimpse into the
-        coordinated control and interactions between genes.
-        Presently, two technologies dominate the field of
-        high-density microarrays: cDNA arrays and oligonucleotide
-        arrays. The cDNA array has a long history of development [
-        3 ] stemming from immunodiagnostic work in the 1980s;
-        however, it has been most widely developed in recent years
-        by Stanford University (California) researchers depositing
-        cDNA tags onto glass slides, or chips, with precise robotic
-        printers [ 4 ] . Labeled cDNA fragments are then hybridized
-        to the tags on the chip, scanned, and differences in mRNA
-        between samples identified and visualized using a variation
-        of the red/green matrix originally introduced by Eisen and
-        colleagues [ 5 ] . The light-generated oligonucleotide
-        array, developed by Affymetrix, Inc. (Santa Clara, CA),
-        involves synthesizing short 25-mer oligonucleotide probes
-        directly onto a glass slide using photolithographic masks [
-        6 7 ] . Sample processing includes the production of
-        labeled cRNA, hybridization to a microarray, and
-        quantification of the obtained signal after laser scanning.
-        Regardless of the array used, the output can be readily
-        transferred to commercially available data analysis
-        programs for the selection and clustering of significantly
-        modified genes.
-        Differentially expressed genes will be defined herein as
-        gene data determined to be statistical outliers from some
-        standard state, and which can not be ascribed to chance or
-        natural variabilty. Various creative techniques have been
-        proposed and implemented for the selection of
-        differentially expressed genes; however, none have yet
-        gained widespread acceptance for microarray analysis.
-        Despite this, there remains a great impulse to develop new
-        data analysis techniques, partly driven by the obvious need
-        to move beyond setting simple fold change cut-offs which
-        are out of context with the rest of the experimental and
-        biological data at hand [ 8 9 10 11 ] . This has been the
-        case for many studies, where the selection of differential
-        gene expression is performed through a simple fold change
-        cut-off, typically between 1.8 and 3.0. There is an
-        inherent problem with this selection criterion, as genes of
-        low absolute expression have a greater inherent error in
-        their measured levels. These genes will then tend to
-        numerically meet any given fold change cut-off even if the
-        gene is not truly differentially expressed. The inverse
-        also holds true, where highly expressed genes, having less
-        error in their measured levels, may not meet an arbitrary
-        fold-change cut-off of 2.0 even when they are truly
-        differentially expressed [ 12 ] . Therefore, selecting
-        differentially regulated genes based only on a single fold
-        change across the entire range of experimental data
-        preferentially selects lowly expressed genes [ 8 ] . This
-        commonly used approach does not accommodate for background
-        noise, variability, non-specific binding, or low copy
-        numbers- characteristics typical of microarray data which
-        may not be homogeneously distributed. Other approaches
-        entail the use of standard statistical measures such as a
-        student's 
-        t -test or ANOVA for every individual
-        gene. However, due to the cost of repeating microarray
-        experiments, the number of replicates usually remains low,
-        leading to inaccurate estimates of variance [ 8 ] .
-        Furthermore, due to the low number of replicates, the power
-        of these "gene-by-gene" statistical tests to differentiate
-        between regulated and non-regulated genes also remains very
-        low.
-        The present article describes a model that considers
-        both expression levels and fold changes for the
-        identification of significant differentially expressed
-        genes. This simple model allows the experimenter to
-        estimate the relationship between these two parameters in
-        the absence of large numbers of experimental replicates,
-        where the inherent error of measures cannot be accurately
-        estimated. Subsequently, gene transcripts determined to be
-        outliers from the trend can be considered differentially
-        expressed genes. An added strength to the model lies in its
-        ease of application to any data set. This model should be
-        considered a progressive and cyclical process, where the
-        data analyst can quickly and globally identify a list of
-        potentially differentially regulated genes with confidence,
-        based on the inherent qualities of the data set under
-        evaluation.
-        The model presented herein was developed with a data set
-        from a nutritional experiment in a mouse model using
-        Affymetrix Mu11K chips, where the effects of four diets
-        were compared in a number of organs (pool of five mice for
-        each sample in each organ): (1) control diet A in duplicate
-        from the same pool; (2) diet B; (3) diet C; and (4) diet D.
-        Details of the dietary treatments will be reported
-        elsewhere. The present article will take only the data from
-        the liver as an example for the development of a gene
-        selection model. The model was validated by real-time
-        polymerase chain reaction (RT-PCR) and indicates good
-        concordance between the two experimental techniques.
-      
-      
-        Results and Discussion
-        
-          Selection of differentially regulated genes and
-          data analysis
-          The method developed herein includes: (A)
-          determination of the upper X% of highest fold changes
-          within narrow bins of absolute expression levels in order
-          to generate a limit fold change (LFC) function; and (B)
-          subsequent ranking of genes by a combined fold
-          change/absolute expression calculation. The following
-          discussions describe the development of the model within
-          the context of our nutritional study; however, a generic
-          protocol can be found in the Materials and Methods
-          section.
-        
-        
-          (A) Selection of the upper X% of highest fold
-          changes within binned absolute expression levels
-          The principal parameter for gene expression data
-          stemming from a typical Affymetrix experiment is the
-          average difference intensity (ADI), which is a
-          representation of the absolute expression of a gene. As
-          indicated in the literature, it is common practice to
-          establish a minimal expression threshold below which data
-          are considered to be noise. In the case of Affymetrix
-          data, it is often necessary to discard minimal and
-          negative ADIs, as these data are both biologically and
-          mathematically difficult to interpret.
-          A number of previous reports have used an ADI
-          threshold ( 
-          A 
-          
-            t 
-           ) value of 20 in the standard Affymetrix range [ 13
-          14 15 16 ] , 
-          i.e. probe sets with ADI's of less
-          than 20 would either be rejected or set to 20 as
-          meaningful differences in gene expression can purportedly
-          be evaluated above this level. Although empirically
-          supported, an 
-          A 
-          
-            t 
-           of 20 is essentially an arbitrary selection and not
-          all groups select the same threshold value. The exact
-          setting of this lower 
-          A 
-          
-            t 
-           is not inherent to the LFC modeling process, and the
-          reader is encouraged to set the 
-          A 
-          
-            t 
-           value based on additional criteria, such as that
-          previously published by Gerhold 
-          et al . [ 17 ] and Dieckgraefe 
-          et al . [ 18 ] . However, an 
-          A 
-          
-            t 
-           of 20 will be used in the present work, for which
-          the selection of differentially expressed genes in the
-          context of ADI dependent variance is the central focus.
-          Therefore, all ADI's less than 20 were set to 20 and any
-          probe set with a value of 20 across all dietary
-          treatments were discarded. After eliminating the probe
-          sets which met these criteria there remained 9391 genes
-          out of the original 13179 genes represented on the Mu11K
-          GeneChip.
-          An additional parameter, highest fold change (HFC),
-          was then applied to these remaining genes. HFC is defined
-          as:
-          
-          where A, B, C, and D represent the individual
-          microarray results for each gene. The HFC is inherently a
-          ratio metric of the maximum change in measured gene
-          expression between any combination of experimental
-          treatments. The present experiment has four dietary
-          conditions with microarray data; however, it should be
-          noted that the HFC equation could be expanded to any
-          number of conditions or experimental treatments.
-          The determination of HFC is highly influenced by
-          absolute expression, and trends can be readily observed
-          in our data set where HFC is negatively correlated with
-          absolute expression (Figure 1a). For example, with
-          absolute expression values greater than 5000 it is of low
-          probability to observe an HFC greater than 2. However,
-          with absolute expression values near 50, an HFC of
-          greater than 2 is readily seen. Although not shown in
-          Figure 1a, this trend could be observed for any pair or
-          triplet of experimental comparison in the current data
-          set, 
-          i.e. AB, AC, AD, BC, BD, ABC, BCD.
-          It has also been observed across multiple experiments
-          examined in our laboratory (data not shown). This
-          consistancy can be explained by the fact that there are
-          very few genes out of the entire transcriptome which are
-          differentially expressed due to treatment. Therefore,
-          most measured gene transcripts display a typical
-          coefficient of variation independent of treatment. The
-          few genes which are differentially expressed do not
-          unduly affect the overall trend. Therefore, the trend
-          lends itself to characterization and may be used as a
-          metric for determining differential gene expression
-          across multiple experiments.
-          This empirically implies that natural variation,
-          expressed here as HFC, tends to be much greater at low
-          expression levels. This concept is supported in the
-          literature [ 12 ] and questions the appropriateness of
-          using a linear fold change cut-off in a system
-          characterized by heterogenous variance.
-          As stated previously, the selection of differentially
-          expressed genes is essentially a search for outliers, 
-          i.e. gene data lying outside some
-          standard distribution of differences relative to a
-          control state, and which cannot be ascribed to chance or
-          natural variabilty. To determine those genes which are
-          outliers, it is necessary to measure either the
-          variability of the system or to make valid assumptions
-          regarding the distribution of variability. In the present
-          model we assume that: (1) as mentioned above, variability
-          in the measurement of gene expression is related to the
-          ADI; and (2) if a broad sampling of the transcriptome is
-          measured, only a small number of genes will actually be
-          outliers even in the harshest of experimental conditions.
-          Assumption (1) is a fairly general analytical concept, 
-          i.e. the closer data is to the
-          measurement threshold, the higher the variability is in
-          that measurement [ 12 19 ] . Assumption (2) appears to be
-          empiricaly valid when surveying the literature for
-          high-density microarray experiments which evaluate severe
-          biological events, from caloric restriction [ 20 21 ] to
-          apoptosis [ 22 23 ] . In these experiments [ 20 21 22 23
-          ] , regardless of the gene selection method used, less
-          than 5% of the total number of genes probed were
-          differentially regulated. Therefore, to develop the
-          present model of gene selection, the validity of
-          selecting outliers was evaluated for a range of highly
-          variable genes using the top 5% as a benchmark. Model
-          trends were then examined from 1% to 10%.
-          The model was developed by first binning gene
-          expression data into tight classes across the entire
-          range of absolute expression values, where genes with an
-          equal absolute expression value were randomly ordered,
-          and then selecting the upper 5% of HFC values for further
-          consideration. Binning was carried out to divide the
-          entire range of absolute expression values into bins
-          containing an equal number, 
-          m , of genes, where 
-          m = 200. Therefore, bin widths
-          (ADI) were not necessarily equal, yet the number of genes
-          contained in each bin was equivalent. For the first round
-          of analysis, the upper 5%, or 95 thpercentile, of HFC
-          genes in each bin were selected for further consideration
-          (Figure 1a). It was possible to search separately for the
-          5% of genes with the greatest HFCs in each class;
-          however, in order to simplify the overall selection, we
-          plotted the relationship between absolute expression,
-          defined as min ADI (A,B,C,D), and HFC, in order to set
-          the LFC function. Herein, the min ADI (A,B,C,D) will
-          simply be referred to as min ADI. This relationship was
-          then modeled using a simple equation of the form 
-          LFC = a + (b/min ADI) , which is
-          fitted to the 95 thpercentile of each bin (Figure 1a) to
-          produce the LFC curve that best models the expression
-          data. This modeled LFC curve (5% LFC model = 1.74 +
-          91.55/min ADI) fit the data well (R 2= 0.98) and further
-          analysis indicated the residuals were randomly
-          distributed (data not shown). The equation for the line
-          of best fit contains two parameters that have various
-          repercussions on gene selection, both of which can be
-          defined in commercially available software using common
-          "solve" functions ( 
-          e.g . Microsoft Excel). First, 
-          a sets the asymptote, which
-          corresponds to the minimum HFC value that can be observed
-          at any given ADI. Second, 
-          b raises/lowers the limit function
-          at a given ADI, and is therefore highly influenced by
-          this latter value. For example, the smaller the ADI the
-          greater the LFC, and vice versa. Figure 1bshows that as
-          the selection criteria becomes more strict (top 5% → 1%
-          of genes), the curve shifts (1% LFC model = 2.43 +
-          166.12/min ADI) and becomes more restrictive in the
-          selection of differential genes, 
-          i.e. at any given absolute
-          expression level a higher fold change must be observed
-          for a gene to be considered differentially expressed. The
-          opposite is true when the selection criteria becomes less
-          strict (top 5% → 10% of genes), where the curve shifts
-          (10% LFC model = 1.59 + 69.47/min ADI) and results in a
-          more permissive selection of differential genes.
-          Using the aforementioned equations the selection of
-          genes for further consideration becomes simple and
-          'global' ( 
-          i.e. across the entire range of
-          expression levels); where a gene is selected with the HFC
-          approach if max ADI/min ADI > a+(b/min ADI). After
-          applying the 10% LFC gene filter, 869 genes remained in
-          the list out of the 9391 candidate genes selected from
-          the original 13179 genes on the GeneChip. When interested
-          in the top 5% and 1% of significant genes, the total
-          number of genes that meet the LFC requirements is 471 and
-          82, respectively.
-          Lastly it should be noted that the LFC, 
-          i.e. the modeled trend of HFC vs.
-          min ADI, is based on binned data of hundreds of genes
-          across multiple conditions leading to a highly powerful
-          characterization of a given threshold. In other words,
-          there is a large amount of data available in order to
-          accurately characterize the trend. The same argument
-          holds for the generation of a modeled confidence interval
-          based on low numbers of replicates, as will be described
-          below. This is in contrast to the relatively low
-          statistical power of conventional "gene-by-gene" tests
-          such as the 
-          t -test or ANOVA, often used for
-          the selection of differentially expressed genes [ 8 ]
-          .
-        
-        
-          (B) Assignment of gene rank
-          Following gene selection, a rank of 'importance' or
-          'interest level' was assigned to each selected gene. It
-          should be noted that the LFC is not dependent on the rank
-          calculation; rather rank simply lends relative
-          'importance' to selected genes by incorporating both the
-          magnitude of fold change and absolute expression values.
-          The rank number (RN) for each gene was determined by
-          first calculating a rank value (RV), which can be defined
-          as: RV = HFC * (max ADI - min ADI). After calculation of
-          RV, gene lists were sorted and then assigned a simple RN
-          of 1,2,3,4..., where a gene with a RN of 1 corresponds to
-          the gene with the highest RV. The RV is an arbitrary
-          value that simply lends importance to selected genes with
-          both high fold changes and high differences in absolute
-          expression. Both RV and RN aid in the discussion of
-          differential gene effects by adding the concept of
-          relative weight or importance amongst selected genes.
-          This concept aids in the choice of genes for validation
-          or follow-up studies, as detailed below.
-        
-        
-          (C) Model validation
-          
-            Validation of the LFC model via characterization
-            of measurement variability
-            Hess and colleagues have recently examined the
-            concept that variability and absolute expression are
-            related; however, they examined only the variability of
-            replicate spots on a single slide [ 24 ] . Herein, we
-            extended this concept to examine the variability
-            between genes on different microarrays. Measurement
-            variance was examined following the development of the
-            LFC model, and was therefore used simply as a
-            confirmation of this model. To further understand the
-            nature of measurement variability within the current
-            study, duplicate Mu11K Affymetrix microarrays for the
-            controls were examined (see Materials and Methods
-            section). A pooled RNA sample from mice ( 
-            n = 5) fed the control diet was
-            hybridized to two different chips, and the data was
-            analyzed to characterize measurement variability. It
-            was apparent from the trend that as absolute expression
-            levels (ADI) increase, the coefficient of variation
-            (CV= SD/MAE) decreases. The trendline was calculated as
-            detailed in the Materials and Methods section. This
-            trendline was overlayed on the entire data set, in
-            addition to the 5% LFC selected data (shown in red), in
-            Figure 1c. By overlaying the trendline of the within
-            variability data on those genes determined to be
-            significantly regulated by the LFC model, the CV upper
-            confidence limit for these selected genes had a 
-            p value ≤ 0.001. Thus, the 5%
-            LFC-selected data lies outside the 99.9% confidence
-            interval surrounding measurement variability,
-            reinforcing the validity of the results.
-          
-          
-            Real-time polymerase chain reaction
-            (RT-PCR)
-            The results obtained from a microarray experiment
-            are influenced by each step in the experimental
-            procedure, from array manufacturing to sample
-            preparation and application to image analysis [ 25 ] .
-            The preparation of the cRNA sample is highly correlated
-            to the efficiency of the reverse transcription step,
-            where reagents and enzymes alike can influence the
-            reaction outcome. These factors affect the
-            representation of transcripts in the cRNA sample,
-            necessitating the need for validations by complementary
-            techniques. Analyses by northern blot and RNAse
-            protection assays are commonly reported; however, the
-            emerging 'gold-standard' validation technique is RT-PCR
-            [ 26 ] . Microarrays tend to have a low dynamic range,
-            which can lead to small yet significant
-            under-representations of fold changes in gene
-            expression [ 27 ] . As RT-PCR has a greater dynamic
-            range, it is often used to validate the observed trends
-            rather than duplicate the fold changes obtained by chip
-            experiments [ 26 28 29 ] .
-            Having chosen genes that lie across the range of RN,
-            and therefore the range of model selection criteria,
-            RT-PCR was performed in triplicate for each
-            experimental condition (Diet A,B,C,D) using the same
-            pooled stocks of liver RNA (5 mice per experiment).
-            Genes were compared to the endogenous controls β-actin
-            and GAPDH, which did not significantly change across
-            the dietary treatments. As determined by our LFC
-            selection model, the GeneChip microarrays indicated no
-            significant differences amongst the 4 diets for either
-            GAPDH or β-actin. Subsequent confirmation that both
-            GAPDH and β-actin did not change was provided by
-            RT-PCR, where a simple student's 
-            t -test with a predefined nominal
-            α level of 0.05 indicated no significant differences
-            between the experimental diets (B,C,D) and the control
-            diet A. RT-PCR provided a means to confirm the effects
-            of the 3 dietary treatments on 9 genes (Table 1) and
-            the concordance between these 27 microarray and RT-PCR
-            results was examined. Perfect concordance was not to be
-            expected due to the inherent differences in sensitivity
-            and dynamic range between the two techniques. However,
-            a good overall concordance of 77.7% for differential
-            gene expression was observed, 
-            i.e. the fold change for a given
-            gene seen by microarray was directionally consistent
-            with that seen by RT-PCR, regardless whether the
-            results were significant by either the 5% LFC model
-            (for microarray data) or a student's T-test (for RT-PCR
-            data). When examining only those genes considered
-            significantly changed by RT-PCR (α = 0.05, starred
-            values in Table 1), concordance increases to 85.7%.
-            Therefore, the value of 85.7% indicates the overall
-            concordance between significantly changed genes seen by
-            RT-PCR and those microarray pairwise comparisons
-            (treatment vs. control) that meet the LFC model
-            criteria (§ values in Table 1).
-            What is noticeable through the color scheme (Table
-            1) is genes with high RN (low RV) have relatively less
-            concordance between the two techniques; where red
-            indicates no concordance and blue indicates only one or
-            two (out of three) of the results agreed. However, the
-            majority of genes are colored in green, indicating
-            perfect directional concordance. When specifically
-            examining fatty acid synthase (FAS), a highly expressed
-            gene, microarray fold changes of less than 2 can be
-            corroborated between the two experimental techniques,
-            reinforcing the strength of this fold change model.
-            Furthermore, it is clear from the RT-PCR data that at
-            very low expression levels, high fold changes are still
-            problematic to verify and remain questionable. The
-            present model takes this into account by raising the
-            criteria appropriately at the low expression range, 
-            i.e. a higher fold change at low
-            expression levels is required for a gene to be
-            considered differentially expressed.
-            As the selection criteria with microarray data was
-            that the HFC must be greater than the LFC model limits,
-            the expectation was that the LFC function could be
-            validated by RT-PCR (underlined values in Table
-            1indicate HFC for each gene). This is predominantly the
-            case across the full dynamic range of data selected by
-            the model (77.7% / 85.7 % concordance), except for very
-            lowly expressed genes such as the RAS oncogene. For
-            genes with a slightly lower RN (higher RV), such as
-            ABC1 member 7, some concordance is seen, indicating
-            confidence is gaining as RV increases. For genes with
-            an RN lower than 130 (RV > 1156; 
-            e.g. USF-2) concordance quickly
-            approaches 100%, indicating high confidence when
-            discussing gene trends or individual gene results.
-            These results reinforce the concept that RN is
-            correlated with confidence and validity when discussing
-            the gene set produced by the LFC model.
-            Interestingly, one might expect that genes with an
-            RN lower then 130 would be concentrated only at higher
-            expression levels; however, when the spread of genes
-            with an RN between 1-130 were examined, these genes
-            were found to lie across the entire range of absolute
-            expressions (data not shown). This indicates that a 5%
-            LFC model is confidently selecting differentially
-            regulated genes across the full range of absolute
-            expression. Therefore, the 5% LFC model appears to be
-            an appropriate selection criteria for the present
-            experimental data set; however, the fold change
-            percentage could easily be varied to meet other
-            acceptable levels of risk, as is done with conventional
-            hypothesis testing ( 
-            e.g. α-, 
-            p -, and χ 2-values). The X%
-            selection criteria should then be re-evaluated for
-            other experimental data sets in relation to the
-            variance and validation data at hand.
-          
-        
-      
-      
-        Conclusions
-        The analysis of microarray data is a developing field of
-        study aimed at enabling the biomedical community to cope
-        with the waves of large microarray data sets. Already, an
-        evolution can be observed with respect to the methods for
-        selecting significantly changed genes. Researchers are
-        moving away from simple fold change cut-offs and
-        incorporating the use of robust statistical concepts. The
-        conclusion that highly expressed genes will rarely have a
-        2-fold change in mRNA levels and that lowly expressed genes
-        will commonly have a greater than 2-fold change led to the
-        development of a model that would accommodate for this real
-        biological characteristic of gene expression measurements.
-        The fold change model presented in this paper considers
-        both the absolute expression level and fold change of every
-        gene across the entire range of observed absolute
-        expressions. In addition, the concept of increased
-        variation in lowly expressed genes is incorporated into the
-        selection model through the higher fold change requirements
-        for differential gene selection at low expression levels.
-        Following gene selection using an initial criterion of X%,
-        gene rank was introduced as a basis for choosing genes to
-        validate the model. Therefore, a limited but judicious
-        choice of model parameters to select genes across a broad
-        range of gene rank can then be used to reset the X% in
-        order to correspond with the data at hand (Figure 2). The
-        variance data characterizing measurement variability
-        supports the selection model, indicating that selected
-        genes lie outside measurement variability at very high
-        confidence limits (> 99.9% CL). Further validation of
-        this model in the current data set by RT-PCR confirmed
-        these relationships, reinforcing that genes with fold
-        changes even less than 1.8 can be measured, assuming
-        adequate absolute expression levels. This demonstrates that
-        biological changes in sample concentration of mRNA, even at
-        low fold change levels, can be confidently determined.
-        In summary, the X% LFC model enables one to define
-        experiment specific selection stringency while maintaining
-        simplicity and ensuring global coverage for the detection
-        of differential gene selection.
-      
-      
-        Materials and Methods
-        
-          Mice and feeding conditions
-          Mice were male Rj:NMRI mice from Elevage Janvier, Le
-          Genest-Saint-Isle France, weighing 10-11 g at delivery
-          and 33-51 grams on day 42, were housed 10 per cage. Mice
-          received 
-          ad libitum quantities of bottled
-          distilled water and purified powdered diets (7.5 g/mouse)
-          in ceramic cups (10/group) for 42 d. Experimental diets
-          will be described in detail in a biological follow up
-          publication.
-        
-        
-          Dissection of mice
-          After administration of the aforementioned diets to 10
-          mice per group, 5 mice were randomly selected for
-          inclusion in the gene expression analysis experiment.
-          Organs were dissected according to standard protocols,
-          then cut into 100-150 mg subsections, flash frozen in
-          liquid nitrogen, and stored at -80°C until gene
-          expression analysis.
-        
-        
-          Nucleic acid preparation
-          Tissue from each organ was extracted from 5 individual
-          mice and extracted separately using Qiagen RNeasy
-          mini-kits (Basel, Switzerland) according to
-          manufacturer's instructions with one exception: During
-          extractions, all RNeasy columns were impregnated with
-          DNase I (Roche, Basel, Switzerland) to remove possible
-          genomic DNA contamination. After extraction, equal
-          amounts of material were pooled to obtain 10 μg total RNA
-          per dietary group. RNA samples were quantified with the
-          RiboGreen RNA Quantification Kit according to
-          manufacturer's instructions (Molecular Probes, Eugene
-          Oregon), and then analyzed via agarose gel
-          electrophoresis for intact 18 and 28s rRNA. All samples
-          included in the study were judged to contain high-quality
-          RNA in sufficient amounts for hybridization.
-        
-        
-          Gene expression analysis using the murine 11k
-          GeneChip
-          
-            cRNA preparation
-            Total RNA (15 μg) was used as starting material for
-            all samples. In all cases, a "test chip" provided by
-            the manufacturer was run prior to using the Murine 11k
-            GeneChip. In each case this confirmed that sufficient
-            high quality RNA was present to detect gene expression
-            in the various tissue samples. The first and second
-            strand cDNA synthesis was performed using the
-            SuperScript Choice System (Life Technologies) according
-            to manufacturer's instructions, but using oligo-dT
-            primer containing a T7 RNA polymerase binding site.
-            Labeled cRNA was prepared using the MEGAscript, 
-            In Vitro Transcription kit
-            (Ambion). Biotin labeled CTP and UTP (Enzo) was used
-            together with unlabeled NTP's in the reaction.
-            Following the 
-            in vitro transcription reaction,
-            unincorporated nucleotides were removed using RNeasy
-            columns (Qiagen).
-          
-          
-            Array hybridization and scanning
-            cRNA (10 μg) was fragmented at 94°C for 35 min in
-            buffer containing 40 mM/L Tris-acetate pH 8.1, 100 mM/L
-            KOAc, 30 mM/L MgOAc. Prior to hybridization, fragmented
-            cRNA in a 6×SSPE-T hybridization buffer (1 M/L NaCl, 10
-            mM Tris pH 7.6, 0.005% Triton), was heated to 95°C for
-            5 min, cooled to 40°C, and then loaded onto the
-            Affymetrix probe array cartridge. The probe array was
-            incubated for 16 h at 40° C at 60 rpm. The probe array
-            was washed 10× in 6×SSPE-T at 25°C followed by 4 washes
-            in 0.5×SSPE-T at 50°C. The biotinylated cRNA was
-            stained with a streptavidin-phycoerythrin conjugate, 10
-            g/ml (Molecular Probes) in 6×SSPE-T for 30 min at 25°C
-            followed by 10 washes in 6×SSPE-T at 25°C. The probe
-            arrays were scanned at 560 nm using a confocal
-            laser-scanning microscope (made for Affymetrix by
-            Hewlett-Packard). Readings from the quantitative
-            scanning were analyzed with Affymetrix Gene Expression
-            Analysis Software.
-          
-        
-        
-          A step-by-step method to apply the LFC model to an
-          experimental data set
-          
-            1. Data handling and 2-dimensional
-            visualization
-            Overall, the values of all genes are compared across
-            any number ( 
-            p ) of experimental conditions.
-            The absolute expression value of the 
-            k -th gene for the 
-            j -th treatment is coded Z 
-            
-              kj 
-             . When considering any given gene, the following
-            data-handling rules are applied:
-            • All values below an ADI threshold ( 
-            A 
-            
-              t 
-             ) are set to 
-            A 
-            
-              t 
-             .
-            • If the values for gene 
-            k are 
-            A 
-            
-              t 
-             for all 
-            p treatments, the gene is defined
-            as not expressed and isn't considered further.
-            • The absolute expression value for gene 
-            k is defined as 
-            min ( 
-            Z 
-            
-            k 1 , ..., 
-            Z 
-            
-              kp 
-             ).
-            • The highest fold change (HFC) of gene 
-            k is defined as the
-            following:
-            
-            When visualizing all genes on a bivariate plot
-            according to absolute expression and fold change, one
-            obtains a data distribution similar to that of Figure
-            1a.
-          
-          
-            2. Modeling a discrete limit fold change
-            model
-            The goal is to select the upper X% of genes with
-            highest fold change across the entire range of
-            expression levels. Therefore, the following rules are
-            applied:
-            • Genes are ordered according to their absolute
-            expression value 
-            min ( 
-            Z 
-            
-            k 1 , ..., 
-            Z 
-            
-              kp 
-             ), where equally expressed genes are randomly
-            ordered.
-            • The overall expression range is divided into bins
-            of different width, but containing an equal number 
-            m of genes.
-            • In each bin, the (1-X)-percentile fold change
-            corresponding to a fold change that is exceeded by X%
-            of genes in the bin is determined. For X% between 1%
-            and 10%, 
-            m = 200 appears to be
-            suitable.
-            When visualizing the (1-X)-percentile fold change in
-            each bin, one obtains a data distribution similar to
-            that seen in Figure 1a.
-          
-          
-            3. Modeling a continuous limit fold change (LFC)
-            model
-            A continuous model is derived from the discrete one
-            by relating the mean expressions of each bin with the
-            corresponding (1-X)-limit fold change, using a least
-            squares fit of the equation:
-            (1-X)-LFC = 
-            a + 
-            b /Z (minimum expression)
-            This equation appears to fit the data very well and,
-            the interpretation of the parameters ( 
-            a and 
-            b ) is straightforward:
-            • Parameter 
-            a represents the asymptote of the
-            curve. For very large expressions, the (1- 
-            X )-limit fold change tends to be
-            equal to parameter 
-            a .
-            • Parameter 
-            b is proportional to the
-            difference between the (1-X)-limit fold change of small
-            and high expressions.
-            When visualizing this continuous limit fold change
-            model, one obtains a curve similar to that observed in
-            Figure 1a. In addition, increasing the (1-X)-percentile
-            fold change shifts the curve up the 
-            y -axis and results in an
-            increased stringency for gene selection, 
-            i.e. fewer genes meet the LFC
-            requirement (Figure 1b).
-          
-          
-            Validation by Coefficient of Variance
-            For experiments that are performed without
-            replicates, the LFC-model selects genes with the
-            highest between-treatment variability (previously
-            defined as fold change) at any expression level. If
-            replicates are available, the inherent error of
-            measures, the within-treatment variability, can be
-            estimated. Therefore, it becomes possible to select the
-            genes with the highest ratio of
-            between-treatment-variability /
-            within-treatment-variability.
-            In the data set that was used for illustrating the
-            development of the LFC-model, duplicate measures were
-            available for one of the four treatments. The
-            within-treatment-variability appears to be highly
-            dependent of the expression level of the gene,
-            confirming the findings of Hess 
-            et al. [ 24 ] .
-            In order to estimate the CV without taking into
-            account extreme values of the duplicate we used a
-            robust estimator, represented by the following
-            equation:
-            
-            where the χ 
-            
-              inverse 
-             function returns the inverse of the one-tailed
-            probability of the χ-squared distribution.
-            Applying the CV derived from replicate sample data (
-            
-            eqn. 2 ) to the quadruplicate
-            diet data enabled the calculation of the CV upper
-            confidence level (by bins of absolute expression level)
-            using the following equation:
-            
-            where the χ 
-            
-              inverse 
-             function returns the inverse of the one-tailed
-            probability of the χ-squared distribution.
-            
-            Eqn. 3 allows one to identify
-            genes with a variance above measurement variability.
-            This greater variability arose due to combined pool
-            (biological) and treatment variabilities.
-            This confidence level could be raised or lowered
-            according to the level of confidence desired by
-            altering the 
-            p value. Therefore, modeling the
-            variance data provides a complimentary method for
-            examining the variation of genes across the complete
-            range of absolute expression values.
-            The upper 99.9% confidence limit (CL) of a robust
-            estimation of the coefficient of variance (CV) for
-            replicates (within-treatment variability) has been
-            modeled as a function of absolute minimum expression of
-            all treatments using the following model:
-            Upper 99.9% CL = 
-            c + 
-            d /mean expression
-            The selected genes are now those for which the CV of
-            treatment expressions (between-treatment variability)
-            is larger than this limit (Figure 1c). By overlapping
-            those genes selected by the LFC model (red dots) on the
-            graph indicating the 99.9% CL (blue line), one observes
-            that the LFC model is considerably more restrictive
-            when selecting lowly expressed genes (Figure 1c).
-          
-          
-            Validation by real-time PCR (RT-PCR)
-            A subset of differentially expressed genes were
-            selected to confirm the LFC model, where genes were
-            selected across the range of absolute expressions and
-            with varying fold changes. Although not discussed in
-            the present manuscript, a good description of the
-            technique and an example of an excellent experimental
-            design can be found in previous publications [ 26 30 ]
-            , respectively. In brief, all genes were amplified in
-            the Applied Biosystems 5700 instrument using SYBR
-            ®green (Molecular Probes), a dye that binds
-            double-stranded DNA. Data represented means of
-            triplicates for each experimental treatment using
-            pooled RNA samples ( 
-            n = 5). Amplification was
-            performed using an ABI 5700 machine (Applied
-            Biosystems, Foster City, CA, USA) with a hot start at
-            95°C for 10 minutes, followed by 40 cycles of 95°C for
-            15 s and 60°C for 1 min for denaturation, annealing and
-            elongation. Genes were normalized to either β-actin or
-            GAPDH, and then experimental diets (B,C,D) were
-            compared to the control diet (A). All fold changes were
-            subjected to a student's 
-            t -test (α = 0.05) to ensure fold
-            changes observed by RT-PCR were statistically
-            significant. Comparisons between microarray data and
-            RT-PCR were then performed.
-          
-        
-      
-      
-        Abbreviations
-        
-        CV: coefficient of variation
-        
-        FC: fold change
-        
-        HFC: highest fold change
-        
-        LFC: limit fold change function
-        
-        MAE: mean absolute expression
-        
-        RN: rank number
-        
-        RT-PCR: real time polymerase chain
-        reaction
-        
-        RV: rank value
-        
-        SD: standard deviation
-      
-      
-        Definitions
-        
-        Average Difference Intensity
-        (ADI): average measure of intensity of hybridization
-        for a series of match and mismatch probe pairs tiled across
-        a particular gene transcript. ADI is an indicator of the
-        absolute expression of a gene.
-        
-        Concordance: state of agreement between
-        two complementary measurement techniques which is
-        directionally consistent, 
-        e.g. two techniques determine that
-        values are statistically significant and that they are both
-        either positive or negative.
-      
-      
-        Author contributions
-        DM integrated the mathematical and biological
-        interpretation of the experiment that resulted in the
-        writing of this manuscript. AR and RM developed the
-        mathematical formula describing the limit fold change
-        model. AB and MR designed and carried out the DNA
-        microarray studies in mice. MR initiated the development of
-        robust mathematical techniques to evaluate microarray data
-        at the Nestlé Research Center.
-        All authors read and approved the final manuscript.
-      
-    
-  
+
+
+
+Economic Analysis of a Multi-Emissions Strategy
+Prepared for: Senators James M. Jeffords and Joseph I. Lieberman
+U.S. Environmental Protection Agency Office of Air and Radiation
+Office of Atmospheric Programs
+October 31, 2001
+
+
+
+Executive Summary
+In response to a May 17, 2001 request from Senators James M.
+Jeffords (VT) and Joseph I. Lieberman (CT), this report describes
+the results of a modeling study done to evaluate the potential
+impacts of reducing nitrogen oxides (NOx), sulfur dioxide (SO2),
+mercury (Hg), and carbon dioxide (CO2) emissions from the US
+electric power sector. In their request, Senators Jeffords and
+Lieberman asked the Environmental Protection Agency to undertake an
+economic assessment of four technology-based scenarios designed to
+achieve the following emissions caps in the US electric power
+sector by the year 2007:
+
+
+•
+Reduce nitrogen oxides (NOx) emissions to 75 percent
+below 1997 levels;
+
+
+•
+Reduce sulfur dioxide (SO2) emissions to 75 percent below
+full implementation of the Phase II requirements under title
+IV;
+
+
+•
+Reduce mercury (Hg) emissions to 90 percent below 1999
+levels; and
+
+
+•
+Reduce carbon dioxide (CO2) emissions to 1990
+levels.
+
+
+The request also specified that EPA should evaluate the cost of
+achieving these reductions using four alternative technology
+scenarios:
+
+
+•
+The Energy Information Agency's Standard Technology
+Scenario.
+
+
+•
+The Energy Information Agency's High Technology Scenario,
+including technology assumptions with earlier introduction, lower
+costs, higher maximum market potential, or higher efficiencies than
+the Standard Scenario.
+
+
+•
+Two scenarios from Scenarios for a Clean Energy Future
+published by Oak Ridge National Laboratory, National Renewable
+Energy Laboratory, and Lawrence Berkeley National Laboratory, which
+include assumptions about changes in consumer behavior, additional
+research and development, and voluntary and information
+programs.
+
+
+Under each scenario, the costs of meeting the emission
+constraints are included in the price of electricity. Such costs
+include the purchase and installation of emissions control
+equipment and the purchase of emissions permits. Factors that
+mitigate projected cost increases include the availability of more
+cost-effective, energy efficient technologies for both consumers
+and electricity suppliers. EPA's analysis indicates that, under the
+conditions described above:
+
+
+•
+Electricity prices in 2015 would increase by about 32% to
+50%, depending on the technology scenario.
+
+
+•
+Coal-fired electric generation would decline by 25% to
+35% by the year 2015.
+
+
+•
+Overall costs, measured by the decline in household
+consumption of goods and services, would be between $13 and $30
+billion annually or 0.1% to 0.3% of total consumption. Under all
+four of the policy scenarios evaluated in this assessment, gross
+domestic product (GDP) would remain relatively unchanged as
+sacrificed consumption permits higher investment and government
+spending to reduce emissions.
+
+
+•
+Oil and gas-fired generation would be expected increase
+by about 8% under more restrictive technology assumptions, but
+decrease by as much as 20% under scenarios that
+
+
+embody more optimistic assumptions about energy-efficiency
+demand and supply technologies.
+The combination of increased prices and the availability of more
+energy-efficient equipment and appliances are projected to reduce
+electricity demand by about 10%. With the combination of higher
+prices and improved efficiency, total expenditures for electricity
+consumption in 2015 are projected to increase by about 17% to 39%,
+depending on the scenario.
+The increase in electricity prices and cost of the program, as
+well as the impact on the fuel mix, varies considerably based the
+technology future that is assumed. For example, the 30% electricity
+price increase, the $13 billion reduction in personal consumption,
+and the 25% decline in coal use are all associated with the Clean
+Energy Future Advanced Scenario, which includes the most optimistic
+technology assumptions. Likewise, the 50% electricity price
+increase, the $30 billion reduction in personal consumption, and
+the 35% decline in coal usage are all associated with EIA's
+Standard Technology Scenario.
+EPA was not asked to evaluate the merits of the alternative
+technology scenarios. We note, however, that they are the subject
+of considerable controversy. The Clean Energy Future scenarios have
+been criticized on several grounds: assumed changes in consumer
+behavior that are not consistent with historic behavior patterns,
+results from research and development funding increases that have
+not occurred, and voluntary and information programs for which
+there is no analytic basis for evaluating the impacts. On the other
+hand, supporters of those scenarios point to economic analyses
+showing that the assumed investments can pay for themselves over
+time. The range of estimates associated with the different
+technology scenarios highlights the importance of the technology
+assumptions.
+In conducting the modeling requested by Senators Jeffords and
+Lieberman, EPA has assumed that the reductions would be achieved
+through a nationwide "cap-and-trade" system similar to the Acid
+Rain program established under the 1990 Amendments to the Clean Air
+Act, together with increasing penetration and performance of energy
+technologies. In accordance with the Senators' request, the
+analysis also assumes the use of banked allowances made possible by
+early emissions reductions achieved in the years 2002 through 2006.
+(In practice, significant reductions beginning in 2002 would be
+difficult to achieve.) Because of the contribution of those banked
+allowances to overall emissions reductions, the analysis shows
+emissions in 2007 above the caps. Regardless, 2007 emissions are
+substantially reduced from current levels. At the end of 2015 a
+small pool of banked allowances continues to be available for use
+in later years. The analysis contained in the report covers the
+years 2002 through 2015.
+The results provided in this analysis should not be construed as
+forecasts of actual scenario outcomes. Rather, they are assessments
+of how the future might unfold compared to a previously defined
+reference case - given the mix of technology and policy assumptions
+embodied in each of the scenarios. The results also imply a
+national commitment that is successful in achieving the level of
+emission reductions described within the report.
+The economic impacts of the emissions reduction scenarios are
+evaluated using Argonne National Laboratory's AMIGA model, a
+200-sector computer general equilibrium model of the U.S. economy.
+The modular design and economy-wide coverage of the AMIGA model
+makes it a logical choice to analyze alternative technology
+scenarios. Although it does employ the same plant-level coverage of
+the electricity sector as the IPM and NEMS models used in other
+analyses, the pollution control technology assumptions are not
+included at the same level of detail as the IPM model. This may be
+particularly relevant for mercury controls, where the effectiveness
+varies by coal type, and may be difficult to model correctly
+without additional detail. In addition, we note that the AMIGA
+model is relatively new and has not been subject to the same degree
+of peer-review and scrutiny as the older IPM and NEMS models. It
+would be desirable in future work to establish the comparability of
+results across these models.
+
+1. Introduction
+
+1.1. Background
+Responding to an earlier Congressional request, the Energy
+Information Administration (EIA) released a detailed study
+reviewing the effects of a so-called "three pollutant" strategy in
+December 2000 (Energy Information Administration, 2000). The three
+emissions in the EIA assessment included nitrogen oxides (NOx),
+sulfur dioxide (SO2), and carbon dioxide (CO2). Although a
+coordinated climate and air quality policy appeared to lower costs
+compared to a series of separate policy initiatives, the EIA
+assessment indicated significant costs associated with capping
+emissions.
+At about the same time, five of the nation's national energy
+laboratories released an extensive review of some 50 different
+policy options that might achieve cost-effective reductions of both
+air pollutants and carbon dioxide (CO2) emissions. The study,
+Scenarios for a Clean Energy Future (Interlaboratory Working Group,
+2000), indicated that domestic investments in energyefficient and
+clean energy supply technologies could achieve substantial
+reductions in both sets of emissions at a small but net positive
+benefit for the economy.
+On May 17, 2001, Senators James M. Jeffords (VT) and Joseph I.
+Lieberman (CT) sent a letter to EIA and EPA seeking further clarity
+in the scenarios examined by the December EIA analysis, stating
+that "the analysis appears to unnecessarily limit the market and
+technology opportunities that might significantly affect the costs
+and benefits of emission reductions. In particular, the potential
+contributions of demand-side efficiency, gas-fired cogeneration and
+of renewable energy sources appear to be inadequately
+represented."
+In responding to this request, EPA modeled the combined impacts
+of both the emissions caps and the advanced technology scenarios
+specified by the Senators. We are aware that EIA has modeled the
+combined impacts but has also modeled the effects of the emission
+caps and the advanced technology scenarios separately. This
+approach provides perhaps a better technique for isolating the
+actual costs of the emissions caps. We have reviewed the EIA
+analysis of these separate effects and we believe that they offer
+interesting and important insights and that if we had performed the
+same kind of analysis we would have seen similar results.
+This report responds to the Senators' request. The results
+provided in this analysis should not be construed as forecasts of
+actual scenario outcomes. Rather they are assessments of how the
+future might unfold compared to a previously defined reference case
+- given a national commitment to achieve the emission reductions,
+and given the mix of technology and policy assumptions embodied in
+each of the scenarios.
+
+
+1.2. Technology Scenarios
+In the letter to Administrator Whitman, Senators Jeffords and
+Lieberman asked for an analysis of four different scenarios,
+requesting that EPA "analyze the cost and benefits, including all
+sectors of the economy and impacts on both the supply and demand
+side of the equation, of the following multi-pollutant emission
+control scenarios for the nation's electricity generators. Where
+feasible, this should include power plants both within the
+conventionally defined electric utility sector as well as
+electricity generated by industrial cogenerators and other
+independent power producers."
+The four scenarios are identified as follows:
+
+
+•
+Scenario A: Standard Technology Scenario. Assume standard
+technology characteristics as defined in AEO2001. Further assume a
+start date of 2002. By 2007 reduce NOx emissions 75 percent below
+1997 levels, reduce SO2 emissions to 75 percent below full
+implementation of the Phase II requirements under title IV, reduce
+mercury emissions 90 percent below 1999 levels, and reduce CO2
+emissions to 1990 levels.
+
+
+•
+Scenario B: High Technology Scenario. Continue the 2002
+start date, but assume the advanced technology assumptions of both
+the supply and demand-side perspectives that are referenced in
+AEO2001. By 2007 reduce NOx emissions 75 percent below 1997 levels,
+reduce SO2 emissions to 75 percent below full implementation of the
+Phase II requirements under title IV, reduce mercury emissions 90
+percent below 1999 levels, and reduce CO2 emissions to 1990
+levels.
+
+
+•
+Scenario C: Moderate Clean Energy Future Scenario.
+Continue the 2002 start date, but assume the moderate supply and
+demand-side policy scenario of the Clean Energy Future (CEF) study.
+By 2007 reduce NOx emissions 75 percent below 1997 levels, reduce
+SO2 emissions to 75 percent below full implementation of the Phase
+II requirements under title IV, reduce mercury emissions 90 percent
+below 1999 levels, and reduce CO2 emissions to 1990
+levels.
+
+
+•
+Scenario D: Advanced Clean Energy Future Scenario.
+Continue the 2002 start date, but assume the advanced supply and
+demand-side policy scenario of the Clean Energy Future study. By
+2007 reduce NOx emissions 75 percent below 1997 levels, reduce SO2
+emissions to 75 percent below full implementation of the Phase II
+requirements under title IV, reduce mercury emissions 90 percent
+below 1999 levels, and reduce CO2 emissions to 1990
+levels.
+
+
+In requesting an analysis of these four scenarios, the Senate
+request asked for "…results through 2020, in periods of five years
+or less, using the Annual Energy Outlook 2001 (AEO2001) as the
+baseline."
+
+
+1.3. Multi-Emission Targets
+Table 1 identifies the 2007 emission caps used for each of the
+four scenarios. The emission cap is defined by a benchmark emission
+level that is modified by the desired level (percentage) of
+reduction. For example, the benchmark for the SO2 emissions cap is
+the Phase II requirements of the Clean Air Act Amendments. That
+total, 8.95 million short tons, is reduced by a specific percentage
+(75 percent) to reach the emissions cap of 2.24 million tons.
+Following a similar pattern, the remaining emission caps are set as
+1.51 million tons for NOx emissions, 4.8 tons for mercury
+emissions, and 475 million metric tons (MtC) of carbon
+emissions.
+Table 1. Benchmark Emission Levels and Assumed Emission Caps
+
+
+
+1.4. Other Analytical Assumptions
+As previously noted, the letter from Senators Lieberman and
+Jeffords requested that EPA use four different sets of technology
+and policy assumptions to meet the specified emission caps shown in
+Table 1. The full set of technology and policy assumptions are
+described more fully in section two of this report. All scenarios
+are implemented in 2002. At the same time, there are other key
+assumptions that EPA adopted to facilitate the evaluation of the
+four scenarios.
+In addition to the different technology scenarios, EPA was asked
+to include the assumption that utilities would begin to make
+cost-effective emission reductions in the five years that precede
+the 2007 compliance date. These early reductions would be "banked"
+for use in the post-2007 period of analysis. For purposes of this
+simulation, the amount of allowances banked from 2002 through 2006
+was calculated as the simple difference between the reference case
+projections and the actual emission trajectory of each scenario.
+The decision to earn and hold early allowances is based on the
+assumption that allowances are viewed as an asset that must earn at
+least an 8% real return.1
+Following the assumption used in the CEF study, all four of the
+policy scenarios assume nationwide restructuring of the electric
+utility industry. This implies that prices are based on the
+marginal rather than the regulated, cost-of-service pricing now
+used throughout much of the country.
+EPA employed the Argonne National Laboratory's AMIGA modeling
+system to evaluate the impact of capping emissions under the four
+different technology scenarios. AMIGA is a 200 plus sector model of
+the U.S. economy that captures a wide variety of technology
+characteristics and their resulting impact on key indicators such
+as emissions, employment and income.2 EPA
+1
+In practice, it is more likely that significant reductions that
+contribute to any kind of allowance bank would be difficult to
+achieve before 2004. Assuming a delay in implementation to 2004
+would raise the economic impact of any of the scenarios.
+2
+AMIGA is especially suited to the t ask identifying and
+evaluating a different mix of technologies in the production of
+goods and services within the United States. It is not only a 200
+plus sector model of the U.S. economy, but it also includes the
+Argonne Unit Planning and Compliance model and database that
+captures a wide variety of technology characteristics within the
+electric generating sector, including industrial combined heat and
+power systems and the typically available emission control
+technologies. When the electricity module is integrated with
+asked Argonne to benchmark AMIGA to the reference case
+projections of AEO2001. AMIGA was then modified to approximate the
+assumptions behind each of the four scenarios.
+An economic analysis of a policy compares the world with the
+policy (the policy scenario) to the world absent the policy (the
+reference case or baseline scenario). The impacts of policies or
+regulations are measured by the resulting differences between these
+two scenarios. In effect, any meaningful analysis should compare
+the full set of benefits and costs to the extent possible.
+For purposes of this exercise, there are at least seven
+categories of costs and four benefits that might be reviewed. The
+costs include: (1) direct investment costs, (2) operating and
+maintenance costs, (3) research and development and other
+government program costs, (4) transaction, search, and compliance
+costs, (5) adjustment costs associated with large changes in
+specific capital stocks, (6) lost economic flexibility created by
+additional emission requirements, and (7) potential interactions
+with the existing tax system. At the same time, there are at least
+four categories of benefits. These include: (1) direct savings from
+lower compliance costs, (2) process efficiency and other
+productivity gains, (3) environmental and health benefits not
+captured within normal market transactions, and (4) spillovers
+and/or learning induced by either the technology investment, or the
+R&D efforts.
+The costs associated with the emission limits in each scenario
+are computed as the increased expenditures on pollution control,
+investment in more efficient equipment and appliances, research and
+development, tax incentives, and additional government programs -
+all relative to the reference case. The increased costs are coupled
+with credits for reductions in fuel use and productivity gains from
+technology. The economic impact of each scenario is reported in two
+ways. The first is as a change in household personal consumption,
+measuring the goods and services available for consumers to enjoy
+after subtracting these net expenditures. The second is as a change
+in economic output measured as Gross Domestic Product (GDP).
+The AMIGA model reasonably captures those costs and benefits
+noted above that arise in market transactions. Some, such as loss
+of flexibility and adjustment costs on the cost side, and health
+benefits and spillovers on the benefit side, remain beyond the
+scope of this analysis.
+
+
+
+2. Multi-Emissions Analysis
+This section provides additional details about the technology
+assumptions that underpin the four emission scenarios. It also
+describes the results of the scenario analysis, both in terms of
+the various marginal costs associated with emission control
+strategies and the economy-wide impact of each scenario. Although
+EPA made every effort to calibrate AMIGA to the AEO2001 reference
+case, AMIGA is a different modeling system than EIA's National
+Energy Modeling System (NEMS). Hence, it was not possible to
+reproduce the exact AEO2001 reference case
+the larger macroeconomic system, the model can then generate key
+outputs including projected electricity sales and net generation,
+resulting emissions for each of the four pollutants under
+consideration, and the set of energy and permit prices associated
+with the resulting production levels. Finally, AMIGA can provide an
+estimate of the consequent impact on the economy including key
+indicators as consumption, investment, government spending, GDP,
+and employment (Hanson, 1999). For more background on the AMIGA
+model, see Appendix 5.1.
+projections. Moreover, Argonne researchers recently upgraded
+AMIGA to incorporate SO2, NOx, and mercury emissions. For this and
+other reasons, AMIGA currently reports results only through the
+year 2015. Nonetheless, the differences in the resulting baseline
+projections are minor for the purposes of this analysis.
+
+2.1. Modeling Technology Assumptions
+Scenarios A and B are based on the AEO2001 standard and advanced
+technology characteristics, respectively. The standard technology
+assumptions of scenario A were used by EIA in the development of
+the AEO2001 "reference case" projections. The advanced technology
+assumptions of scenario B were used as a sensitivity analysis in
+the AEO2001. They demonstrated the effects of earlier availability,
+lower costs, and/or higher efficiencies for more advanced equipment
+than the reference case.3
+Scenarios C and D are based on the recently published
+DOE-sponsored report, Scenarios for a Clean Energy Future
+(Interlaboratory Working Group, 2000; see also, Brown, et al,
+2001). Both of the CEF scenarios assumed nationwide restructuring
+of the electric utility industry. From an analytical perspective,
+this means that prices are based on the marginal costs of
+generation, transmission and distribution of electricity rather
+than the regulated, cost-of-service pricing now used throughout
+much of the country. Moreover, both scenarios reflected increased
+spending for research and development and other programs designed
+to accelerate the development and deployment of low-carbon, energy
+efficient technologies. Each of the scenario assumptions are
+described more fully in the sections that follow.
+
+2.1.1. Reference Case Scenario
+The scenario A reference case assumes a "business-as-usual"
+characterization of technology development and deployment. As
+projected in the AEO2001 assessment, the nation's economy is
+projected to grow at 2.9% per year in the period 2000 through 2020.
+Given anticipated energy prices and the availability of standard
+technologies, the nation's primary energy use is expected to grow
+1.3% annually while electricity consumption is projected to
+increase by 1.8% annually. Further details are provided in Appendix
+5.2.1.
+
+
+2.1.2. Advanced Technology Scenario
+Under the AEO 2001 advanced technology characterization,
+scenario B assumes that a large number of technologies have earlier
+availability, lower costs, and/or higher efficiencies. For example,
+the high efficiency air conditioners in the commercial sector are
+assumed to cost less than in scenario A. This encourages a greater
+rate of market penetration as electricity prices rise in response
+to the emissions caps. Building shell efficiencies in scenario B
+are assumed to improve by about 50 percent faster than in scenario
+A.
+The AEO2001 was published in December 2000 (Energy Information
+Administration, 2000).
+On the utility's side of the meter, the heat rates for new
+combined cycle power plants are assumed to be less compared to the
+standard case assumptions. This means that more kilowatthours of
+electricity are generated for every unit of energy consumed by the
+power plants. Moreover, wood supply increases by about 10% and the
+capacity factor of wind energy systems increases by about 15-20%
+compared to the reference case assumptions. In the AEO2001 report,
+the combination of higher efficiencies and earlier availability of
+the technologies lowers the growth in electricity use from 1.8% in
+the reference case to 1.6%.
+
+
+2.1.3. CEF Moderate Case Scenario
+The authors of the Clean Energy Future (CEF) report describe
+their analysis as an attempt to "assess how energy-efficient and
+clean energy technologies can address key energy and environmental
+challenges facing the US" (Brown, et al, 2001). In that regard,
+they evaluated a set of about 50 policies to improve the technology
+performance and characterization of the residential, commercial,
+industrial, transportation, and electricity generation sectors. The
+policies include increased research and development funding,
+equipment standards, financial incentives, voluntary programs, and
+other regulatory initiatives. These policies were assumed to change
+business and consumer behavior, result in new technological
+improvements, and expand the success of voluntary and information
+programs.
+The selection of policies in the CEF study began with a
+sector-by-sector assessment of market failures and institutional
+barriers to the market penetration of clean energy technologies in
+the US. For buildings, the policies and programs include additional
+appliance efficiency standards; expansion of technical assistance
+and technology deployment programs; and an increased number of
+building codes and efficiency standards for equipment and
+appliances. They also include tax incentives to accelerate the
+market penetration of new technologies and the strengthening of
+market transformation programs such as Rebuild America and Energy
+Star labeling. They further include so-called public benefits
+programs enhanced by electricity line charges.
+For industry, the policies include voluntary agreements with
+industry groups to achieve defined energy efficiency and emissions
+goals, combined with a variety of government programs that strongly
+support such agreements. These programs include expansion and
+strengthening of existing information programs, financial
+incentives, and energy efficiency standards on motors systems.
+Policies in the CEF analysis were assumed to encourage the
+diffusion and improve the implementation of combined heat and power
+(CHP) in the industrial sector. For electricity, the policies
+include extending the production tax credit of 1.5 cents/kWh over
+more years and extending it to additional renewable
+technologies.
+Broadly speaking, the CEF Moderate scenario can be thought of as
+a 50% increase in funding for programs that promote a variety of
+both demand-side and supply-side technologies. For example, the
+moderate scenario assumes a 50% or $1.4 billion increase in
+cost-shared research, development, and demonstration of efficient
+and clean-energy technologies (in 1999 dollars with half as federal
+appropriations and half as private-sector cost share). It further
+assumes a careful targeting of funds to critical research areas and
+a gradual, 5-year ramp-up of funds to allow for careful planning,
+assembly of research teams, and expansion of existing teams and
+facilities. In addition, the CEF moderate scenario anticipates
+increased program spending of $3.0 and $6.6 billion for the years
+2010 and 2020, respectively. These expenditures include production
+incentives and investment tax credits for renewable energy, energy
+efficiency and transportation technologies. They further include
+increased spending for programs such as DOE's Industrial Assessment
+Centers and EPA's Energy Star programs.
+The combined effect of the R&D and program expenditures,
+together with other policies described in the CEF report, implies a
+steady reduction in total energy requirements over the period 2000
+through 2020. By the year 2020, for example, primary energy
+consumption and electricity sales were projected to decrease by 8%
+and 10%, respectively, compared to the CEF reference case.
+
+
+2.1.4. CEF Advanced Technology Scenario
+Building on the policies of the moderate scenario, the CEF
+advanced scenario assumes a doubling of cost-shared R&D
+investments, resulting in an increased spending of $2.9 billion per
+year (again, in 1999 dollars with half as federal appropriations
+and half as private-sector cost share). In addition, the advanced
+scenario anticipates increased program spending of $9.0 and $13.2
+billion for the years 2010 and 2020, respectively. The added
+spending covers all sectors including buildings, industry,
+transportation, and electric generation.
+The combined effect of the program and R&D expenditures,
+together with other policies described in the CEF report (including
+a $50 carbon charge applied in the CEF Advanced Scenario), drove a
+steady reduction in the need for energy compared to the CEF
+reference case. By 2020 total energy use fell by 19% compared to
+the reference case. At the same time, electricity sales in 2020
+were projected to decrease by 24% compared to the CEF reference
+case.
+
+
+2.1.5. Implementation of the Technology Assumptions
+The assumptions embedded in each of these scenarios have the
+effect of progressively increasing market penetration of higher
+performance energy efficiency and energy supply technologies. As
+shown in Table 2, the net effect of these assumptions is to lower
+the expected level of electricity consumption while continuing to
+meet the same level of service demanded by utility customers. The
+technology assumptions also have the effect of increasing the
+availability of cleaner energy supply technologies that reduce the
+level of emissions per kilowatt-hour of generation. The critical
+assumption used in the EPA analysis is that program spending
+affects both supply and demand technologies in a way that interacts
+with the emission caps that are to be imposed in 2007.
+Benchmarked to the year 2010, Table 2 shows the percentage
+change of key indicators for each scenario with respect to its
+respective reference case. These changes provide EPA with
+approximate targets so that each of the scenarios can be mapped
+into the AMIGA model. As such, the figures in Table 2 should be
+seen as inputs into the AMIGA model, not outputs of the model.
+Table 2. Influence of Technology Assumptions on Key Scenario
+Indicators - 2010
+
+By definition, scenario A assumes the standard technology
+assumptions of the AEO2001 reference case. Hence, there are no
+additional programs or policies that generate changes in the
+reference case technologies when the emission caps are imposed by
+the year 2007. The level of technology responsiveness grows for
+scenarios B, C, and D as a result of greater program spending.
+The CEF advanced scenario, for example, assumes a significant
+increase in program funds to promote a variety of both demand-side
+and supply-side technologies. As a result of this greater level of
+program activity, there is an accelerated penetration of
+energy-efficient technologies that drives electricity sales down by
+6.8 percent in 2010 (compared to the CEF reference case for that
+same year). At the same time, the combination of a lower demand for
+electricity and an increased investment in cleaner energy supply
+technologies reduces both carbon and NOx emissions by 10.7 and 8.1
+percent, respectively (again, compared to the CEF 2010 reference
+case). As EPA modeled this scenario, the bundle of policies in the
+CEF advanced scenario became, in effect, a complement to the
+emission caps imposed by 2007.
+To avoid overestimating the impact of the policy scenarios in
+this analysis, EPA made a number of adjustments before implementing
+the CEF assumptions in the four scenarios reported here. First, the
+CEF analysis was benchmarked to a 1999 reference case. In the
+AEO2001 reference case, however, the demand for electricity in 2020
+is about 10% higher compared to the CEF reference case. Second, the
+Senate request asked EPA to assume a 2002 start date in running the
+technology and policy scenarios. In effect, there are fewer years
+in which programs can achieve the desired level of technology
+improvement compared to the CEF scenarios. In addition, the CEF
+analysis includes a significant review of transportation
+technologies and policies. EPA chose to exclude all assumptions
+related to transportation, focusing only on the supply and
+demand-side technologies associated with electricity and natural
+gas consumption.
+With the adjustments described above now reflected in the
+current analytical framework, and using the program cost
+information documented in the CEF study, Table 3 summarizes the
+incremental program costs that were assumed as necessary to drive
+the kind of changes in electricity consumption and emissions
+described in Table 2. Since transportation programs drove a
+significant part of the CEF expenditures, and since there are fewer
+years to implement policies, the estimated program expenditures are
+also smaller compared to the CEF assumptions.
+Table 3. Incremental Policy Costs of the Technology Scenarios
+(billion 1999 dollars)
+
+Because scenario A characterizes existing program and technology
+performance, no additional funds are required to drive that
+scenario. Scenario B, on the other hand, anticipates some changes
+in the technology characterization that will affect the electricity
+sector as shown in Table
+2. While the AEO2001 analysis anticipated no program spending to
+drive these changes, EPA assumed that additional spending would be
+required for scenario B. Calibrating to the CEF policy scenarios,
+EPA estimated that program and policy spending would increase by
+$0.8 billion in 2002, rising steadily to $2.9 billion by 2015. For
+scenario C, program spending increased by $1.2 billion starting in
+2002, rising to $4.8 billion by 2015. Finally, program spending in
+scenario D started at $2.1 billion in 2002 and increased to $5.5
+billion by the last year of this analysis.4
+The net effect of mapping increased program spending together
+with adjustments needed to update the assumptions of the CEF policy
+scenarios can be highlighted by reviewing the change in electricity
+generation for scenario D. In the CEF Advanced Scenario (based on a
+1999 reference case), for example, the level of electricity
+generation in 2010 was lowered by 10% from the reference case
+requirements of 3,920 billion kilowatt-hours (kWh). As the CEF
+technology assumptions were applied in scenario D within this
+analysis (updated to the AEO2001 reference case), electricity
+generation was reduced by 9% from 4,253 billion (kWh). The trend
+was more pronounced in 2015. Rather than a roughly 16% reduction
+from a generation level of 4,200 billion kWh in the 1999 CEF
+Advanced Case, the scenario D equivalent in this analysis achieved
+only a 12% reduction from a generation of 4,580 billion kWh.
+
+
+2.1.6. Reasonableness of the Scenario Assumptions
+The results of the technology-driven scenarios should not be
+interpreted as an EPA endorsement of any of the policies or
+technology assumptions behind each of scenarios described in this
+report. On the one hand, EPA has not conducted any significant
+review of the EIA assumptions that underpin the AEO2001
+projections. On the other hand, some analysts do not necessarily
+agree with the assumptions and projected level of impacts in the
+CEF assessment despite the fact that it was peer-reviewed and its
+findings published this fall in an academic journal. The EIA
+(2001), for example, notes that the CEF policies assume changes in
+consumer behavior that are not consistent with historically
+observed behavior patterns. Moreover, the EIA suggests that there
+is little documentation to support the assumed technological
+improvements generated by the research and development (R&D)
+initiatives described in the report. Finally, EIA notes that
+The program spending assumptions developed in this analysis are
+used only to approximate the impact of the CEF scenario s. They do
+not reflect EPA endorsement of these spending levels.
+the effectiveness of voluntary or information programs may be
+less than assumed in the CEF scenarios. At the same time, the lead
+CEF analysts have responded to the EIA assertions by citing
+relevant economic literature and noting that the CEF study is one
+of "the most carefully documented and complete analysis of U.S.
+energy futures that has ever been funded by the U.S. government"
+(Koomey, et al, 2001).
+Notwithstanding these concerns, EPA attempted to respond to the
+Senators' request by mapping in the critical assumptions of the CEF
+as a range of policies that provide a set of alternative
+assumptions about the future. In this regard, the scenarios are
+more like descriptions of alternative future outcomes rather than
+predictions or recommendations about how the future should
+unfold.
+To provide a more complete context for understanding the
+magnitude of the changes in electricity generation that are
+suggested by the different scenarios, the figure below illustrates
+both the historical and projected trends in the nation's
+electricity generation. The information is shown as the number of
+kWh per dollar of GDP (measured in constant 1999 dollars). The
+historical data covers the period 1970 through 2000 while the
+projected trends are through the year 2015. The historical period
+shows a moderate level of volatility. The reference case
+projections suggest an annual rate of declining intensity of 1.6%
+per year through 2015 with a final value 0.33 kWh/$.
+Historical and Projected US Electricity Trends (kWh per 1999 $
+GDP)
+
+1970
+1980
+1990
+2000
+2010
+
+In comparison to the reference case, Scenario D (adapting the
+CEF Advanced Case assumptions) reflects a national commitment to
+improve both electricity supply and the efficiency of demandside
+technologies. The presumption is that such a commitment would be
+supported by a significant increase in R&D and program spending
+as described above. Under these assumptions, the nation's
+electricity intensity is projected to decline at an annual rate of
+2.5%,
+dropping to a final intensity of 0.28 kWh/$. This level of
+decline is greater than previously seen in the recent past. In the
+period 1980 through 1986, for example, and again 1993 through 2000,
+the annual rate of decline was only 1.7 percent. Hence, it appears
+that the assumptions driving the advanced scenario are aggressive.
+At the same time, however, the research undertaken by the CEF
+analysts indicates that the technology is available to achieve such
+a reduction should a national commitment be successful in driving
+similar policies.
+
+
+
+2.2. Results of the Scenario Analysis
+With the model benchmarked to AEO2001, and given the different
+mix of scenario assumptions previously described, AMIGA reports the
+results in the figures and tables that follow. More complete data,
+including reference case assumptions, are available in Appendix
+5.2.
+
+2.2.1. Emission Projections
+All program and policy assumptions have a start date of 2002.
+Moreover, the analysis anticipates the use of banked allowances
+made possible by early emissions reductions achieved in the years
+2002 through 2006 (as requested in the Senate letter). Figures 1
+through 4 on the following page illustrate both the emissions
+projections and the impact of banking the early reductions on all
+four emissions caps implemented in 2007.
+Although all four categories of emissions are down
+substantially, they only achieve 50-75% of the proposed cap by 2007
+(shown as the dotted horizontal line in each of the above figures).
+This is because of the availability of the banked allowances that
+can be used by sources to meet emissions caps in 2007 and beyond.
+Note that costs would be noticeably higher if power plants were
+required to actually hit the target in 2007. In 2015, carbon and
+mercury emissions continue to be 15% or more above the target.
+The reductions that generate the banked allowances are shown as
+the area to the left of each vertical dotted line as the
+differences between the reference case and scenario emission
+trajectories. The emissions above the cap are shown to the right of
+each vertical dotted line and between the scenario emissions and
+the dotted horizontal line. Subtracting these two areas on each
+graph reveals the level of the bank in 2015. Using Scenario D as an
+example, the remaining allowances in 2015 are 100 million metric
+tons for carbon, 1.3 million tons for SO2, 0.2 million tons for NOx
+and 25 tons for mercury. In the case of carbon, the bank would last
+another two years at the rate of drawdown in 2015, or longer if the
+drawdown declined.
+Figure 1. Carbon Emissions (million metric tons) Figure 2. SO2
+Emissions (million tons)
+
+Figure 3. NOx Emissions (million tons) Figure 4. Mercury
+Emissions (tons)
+
+
+
+2.2.2. Changes in Electric Generation Expenditures
+Given the assumptions and economic drivers in each of the
+scenarios, the AMIGA model calculates the capital investment,
+operation and maintenance, and fuel costs necessary to meet
+consumer demand for electricity. The incremental expenditures
+required to generate electricity under each of the four scenarios
+as compared to the reference case are summarized in Figure 5 (in
+billions of 1999 dollars). In effect, the incremental expenditures
+reflect the range of decisions made by the electricity sector to
+comply with each of the four scenario constraints-but do not
+reflect efforts made outside the electricity sector. Because these
+expenditures ignore spending on energy efficiency, research and
+development outside the electricity sector-spending that can be
+substantial-they are not measures of program costs. Note that
+incremental expenditures are incurred as early as 2002 in all four
+scenarios to generate early reductions that can be banked for use
+in 2007 and beyond.
+The generation expenditures vary in each of the scenarios change
+for at least three reasons: (1) the size of the allowance bank made
+possible by early reductions driven, in part, by program spending
+prior to the introduction of the caps; (2) the varying levels of
+demand for electricity over time, resulting in changes in the
+overall mix of generation resources; and, (3) the gradual reduction
+in the banked allowances available for withdrawal necessitating
+additional actions to reduce emissions.
+As expected, scenario A has the largest increase with
+expenditures rising by nearly $17 billion in 2015 compared to the
+reference case. The higher level of expenditures is driven by a 21%
+increase in unit generation costs caused primarily by the emissions
+caps and offset only slightly by a small decrease in electricity
+demand. With less energy efficiency technology penetrating the
+market, a greater level of control equipment must be installed and
+operated which, in turn, drives up the cost of generation. Scenario
+B follows a similar pattern with expenditure increases being offset
+by further reductions in electricity demand as more efficient
+technology penetrates the market. The expenditures for scenario C
+decline even further as reduced demand continues to lower both the
+level generation and the unit cost of that generation compared to
+scenario A. Scenario D, on the other hand, actually shows a decline
+in total expenditures by 2015. The combination of a 12.5% reduction
+on generation load together with only an 11.9% increase in the unit
+cost of generation (both with respect to the reference case)
+results in a $3.11 billion reduction in total electric generation
+expenditures.
+Figure 5. Incremental Expenditures on Electric Generation
+(Billions of 1999$)
+
+
+
+2.2.3. Marginal Costs
+The marginal costs of emission reductions over the period 2005
+through 2015 are shown in Figures 6 through 9 for all four
+scenarios.
+Figure 6. Projected Marginal Cost of Carbon Reductions ($/Metric
+Ton)
+
+Figure 7. Projected Marginal Cost of SO2 Reductions ($/Ton)
+
+Figure 8. Projected Marginal Cost of NOx Reductions ($/Ton)
+Figure 9. Projected Marginal Cost of Hg Reductions
+($Million/Ton)
+
+
+The marginal cost of carbon reductions range from $46 to
+$138/metric ton through 2015 with each scenario showing
+successively smaller costs as technology characteristics improve
+and more energy-efficient and/or low carbon technologies penetrate
+the market. The marginal cost of SO2 and NOx reductions through
+2015 are less than $450/ and $2,300/ton, respectively, in all four
+multi-emissions reduction scenarios. The marginal cost of mercury
+reductions by 2015 ranges from $350 million/ton to $432
+million/ton, again depending on the scenario.
+It is important to note that marginal cost reflects the
+additional cost of one more ton of reductions, and not the total
+cost associated with each pollutant. One can make a very rough
+estimation of this overall cost for each pollutant, on top of the
+costs associated with the other three, by multiplying half the
+marginal cost (to approximate average cost) by the volume of
+reductions. By 2015, as an example, scenario A returns cost
+estimates of $15.2 billion for carbon, $1.1 billion for SO2, $2.7
+billion for NOx, and $6.4 billion for mercury. In Scenario D, the
+cost estimates are $8.6 billion for carbon, $1.6 billion for SO2,
+$3.3 billion for NOx, and $7.8 billion for mercury. Note that these
+figures cannot be added together for an overall estimate because
+they (a) double count the benefits of controlling multiple
+pollutants simultaneously, and
+(b) ignore the consequences of the underlying technology policy.
+We discuss overall costs below.
+Surprisingly, the marginal cost of SO2, NOx, and Hg reductions
+increases as the marginal cost of carbon decreases. The reason
+appears to be that as efficiency technology penetrates the market
+and reduces carbon prices, more of a price signal is required to
+generate further reductions in the three conventional pollutants.
+In the advanced scenarios, for example, both demand reductions and
+the increased use of gas tends to reduce carbon emissions. But gas
+prices begin to rise which allows coal to make a modest comeback
+with respect to scenario A. This is especially true as cleaner and
+more efficient coal technologies begin to penetrate the market as
+assumed in scenarios B through D. In order to offset the tendency
+for coal-generated emissions to increase, permit prices need to
+adjust upward.
+
+
+2.2.4. Fuel Use Impacts
+Figure 10 shows both total electricity consumption and the
+fossil fuel consumption used in the generation of electricity for
+the year 2010. The results are in quadrillion Btu in both the
+reference case and each of the four policy scenarios. As each
+successive scenario generates a greater reduction in electricity
+demand, coal use is reduced significantly (by about 30 percent).
+Gas consumption increases slightly in scenarios A and B, and
+decreases by a small amount in scenarios C and D as lower
+electricity consumption reduces the need for new capacity.
+Figure 10. Total Electricity Consumption and Fossil Fuel
+Generation in 2010 (Quadrillion Btu)
+
+
+
+2.2.5. Energy Price Impacts
+The model suggests that under the conditions described above,
+electricity prices are expected to increase by about 30% (under
+scenario D) to 50% (under scenario A) by the year 2015. This is the
+logical result of increased control costs and permit prices. The
+combination of increased prices and the availability of more
+energy-efficient equipment and appliances reduce electricity demand
+by about 10%. Total electricity expenditures increase by about 15%
+to 30% depending on the year and the scenario (see Table 3, below,
+and the tables in Appendix 5.2 for more detail on the changing
+pattern of expenditures).
+
+
+2.2.6. Economy-wide Impacts
+Table 3 provides a summary of key macroeconomic data for the
+year 2010 to compare the impact of emissions reductions on both
+personal consumption and other components of gross domestic product
+(GDP). The effects on personal consumption show a decline of
+between $13 billion and $31, or 0.1% to 0.3%, depending on the
+scenario. This reflects the cost of the program in terms of the
+decreased well being of households who must forego a fraction of
+their consumption of goods and services in order to pay for both
+research and development programs, energy efficiency improvements,
+and more expensive electricity production. Table 3 shows little
+change in GDP under any of the policy scenarios, reflecting the
+fact that this foregone consumption turns up as expenditures in
+other categories of GDP, namely, investment and government
+spending.5
+Table 3. Summary of Economic Impacts by Scenario - 2010
+
+The AMIGA modeling system reports the costs and benefits of each
+scenario with several major exceptions. The first omitted benefit
+is spillover and productivity gains beyond energy bill savings. A
+number of studies suggest that energy efficiency technology
+investments also tend to increase overall productivity of the
+economy, especially in the industrial sector. (Sullivan, et al.,
+1997; Finman and Laitner, 2001; and Laitner, et al, 2001). To date,
+however, no systematic effort has been undertaken to incorporate
+such benefits into the current generation of policy models. Hence,
+this potential benefit is not reported at this time. The second
+missing benefit includes gains in environmental quality, especially
+improved health benefits.
+On the cost side, the model ignores costs associated with rapid
+changes in capital stocks, as well as potential loss of flexibility
+and interactions with the existing tax system. For example, the
+model forecasts significant changes in the level and composition of
+electricity generation in 2002, ignoring the difficulty of rapidly
+changing the capital stock by then end of 2001. Losses in
+flexibility occur when pollution control activities potentially
+interfere with efficiency and other operational programs at a
+regulated facility. Finally, there are interactions with the tax
+system when, in response to a rise in the relative cost of
+purchased goods, people decide to enjoy more
+A more complete assessment of each policy scenario can be made
+by reviewing the more detailed data contained in the Appendix.
+leisure (which is now relatively less expensive), work less, and
+lower taxable income (Parry and Oates, 2000).
+
+
+
+2.3. The Results in Context
+Recent studies suggest significant economic consequences as a
+result of substantial emission reduction strategies (EPRI, 2000;
+and EIA, 2000). On the other hand, the presumption of a trade-off
+between environmental and economic benefits may not provide an
+entirely appropriate framework for analysis of such policies
+(DeCanio, 1997). Indeed, there are a number of studies that show
+net economic benefits may be possible when a full accounting of
+both benefits and costs are included within an appropriate analysis
+(Krause, et al, 2001; and Bailie, et al, 2001).
+At the same time, understanding the proper characterization and
+role of technology improvements (Edmonds, et al, 2000), and then
+capturing that characterization within an appropriate model
+structure (Peters, et al, 2001), is a critical aspect of all such
+economic assessments.
+Finally, it is important to recognize that the mere existence of
+technologies and the potential for positive net benefits does not
+assure that these technologies will be commercialized and adopted,
+nor that the net benefits will be realized (Jaffe, et al, 2001). An
+unanswered question is whether and how policies might encourage
+these activities.
+This current study, while drawing on credible data sources and
+applying a state-of-the-art modeling system, cannot adequately
+capture all such nuances associated with emission reduction
+scenarios. The results of this analysis should be viewed within
+this larger context.
+
+
+
+3. Conclusions
+The analysis suggests that under the conditions described above,
+emissions through 2015 will be significantly reduced although they
+won't meet the 2007 target. This is largely because of assumptions
+about the banking of allowances earned prior to 2007. At the same
+time, coal-fired electric generation is expected to decline by 25%
+to 35% by the year 2015. On the other hand, oil and gas-fired
+generation is projected to increase by about 8% under more
+restrictive technology assumptions, but decrease by as much as 20%
+under scenarios that embody more optimistic assumptions about
+energy-efficiency demand and supply technologies. Electricity
+prices are expected to increase by 32% to 50% in 2015, depending on
+the scenario.
+The combination of increased prices and the availability of more
+energy-efficient equipment and appliances are projected to reduce
+electricity demand by about 10% compared to the reference case.
+With the combination of higher prices and improved efficiency,
+total expenditures for electricity consumption in 2015 are
+projected to increase by about 17% to 39% depending on the
+scenario. Interacting with other changes in consumer and business
+spending that is driven by each of the scenario assumptions, the
+personal consumption reduced by about 0.1% to 0.3%. This again
+depends on the year and the scenario.
+The results provided in this analysis should not be construed as
+forecasts of actual scenario outcomes. Rather they are assessments
+of how the future might unfold compared to a previously defined
+reference case - given the mix of technology and policy assumptions
+embodied in each of the scenarios. The results from these scenarios
+imply a strong national commitment, one that is successful in
+developing the programs and policies necessary to achieve the level
+of emission reductions described within the report.
+
+
+4. References
+Alison, Bailie, Stephen Bernow, William Dougherty, Michael
+Lazarus, and Sivan Kartha, 2001. The American Way to the Kyoto
+Protocol: An Economic Analysis to Reduce Carbon Pollution, Tellus
+Institute and Stockholm Environment Institute, Boston, MA, July,
+2001.
+Brown, Marilyn A., Mark D. Levine, Walter Short, and Jonathan G.
+Koomey, 2001. "Scenarios for a clean energy future," Energy Policy
+Vol. 29 (November): 1179-1196, 2001.
+DeCanio, Stephen J., 1997. "Economic Modeling and the False
+Tradeoff Between Environmental Protection and Economic Growth,"
+Contemporary Economic Policy, Vol. 15 (October): 10-27, 1997.
+Edmonds, Jae, Joseph M. Roop, and Michael J. Scott, 2000.
+Technology and the economics of climate change policy, Pew Center
+on Global Climate Change, Washington, DC, September 2000.
+E-GRID, 2000. Emissions & Generation Resource Integrated
+Database, US Environmental Protection Agency, Washington, DC,
+http://www.epa.gov/airmarkets/egrid/factsheet.html.
+Electric Power Research Institute, 2000. Energy-Environment
+Policy Integration and Coordination Study, TR-1000097, Palo Alto,
+CA, 2000.
+Energy Information Administration, 1998. Impacts of the Kyoto
+Protocol on U.S. Energy Markets and Economic Activity,
+SR/OIAF/98-03, Washington, DC, October 1998.
+Energy Information Administration, 2000. Analysis of Strategies
+for Reducing Multiple Emissions from Power Plants: Sulfur Dioxide,
+Nitrogen Oxides, and Carbon Dioxide, SR/OIAF/2000-05 (Washington,
+DC, December 2000).
+Energy Information Administration, 2001. Analysis of Strategies
+for Reducing Multiple Emissions from Electric Power Plants with
+Advanced Technology Scenarios, SR/OIAF/2001-05 (Washington, DC,
+October 2001).
+Finman, Hodayah, and John A. "Skip" Laitner, 2001. "Industry,
+Energy Efficiency and Productivity Improvements," Proceedings of
+the ACEEE Industrial Summer Study, American Council for an
+Energy-Efficient Economy, Washington, DC, August 2001.
+Hanson, Donald A, 1999. A Framework for Economic Impact Analysis
+and Industry Growth Assessment: Description of the AMIGA System,
+Decision and Information Sciences Division, Argonne National
+Laboratory, Argonne, IL, April, 1999.
+Interlaboratory Working Group, 2000. Scenarios for a Clean
+Energy Future, ORNL/CON-476 and LBNL-44029 Oak Ridge, TN: Oak Ridge
+National Laboratory; Berkeley, CA: Lawrence Berkeley National
+Laboratory, November 2000.
+Jaffe, AB, RN Newell, and RN Stavins, 2001. "Energy-efficient
+technologies and climate change policies: Issues and evidence." In
+Climate Change Economics and Policy: An RFF Anthology, edited by MA
+Toman. Washington: Resources for the Future.
+Jeffords, James, and Joseph Lieberman, 2001. "Letter to EPA
+Administrator Christine Todd Whitman," May 17, 2001.
+Koomey, Jonathan, Alan Sanstad, Marilyn Brown, Ernst Worrell,
+and Lynn Price, 2001. "Assessment of EIA's statements in their
+multi-pollutant analysis about the Clean Energy Futures Report's
+scenario assumptions," Memo to EPA's Skip Laitner, Lawrence
+Berkeley National Laboratory, Berkeley, CA, October 18, 2001.
+Krause, Florentin , Paul Baer, and Stephen DeCanio, 2001.
+Cutting Carbon Emissions at a Profit: Opportunities for the U.S.,
+International Project For Sustainable Energy Paths, El Cerrito, CA,
+May 2001.
+Laitner, John A. "Skip", Ernst Worrell, and Michael Ruth, 2001.
+"Incorporating the Productivity Benefits into the Assessment of
+Cost-effective Energy Savings Potential Using Conservation Supply
+Curves," Proceedings of the ACEEE Industrial Summer Study, American
+Council for an Energy-Efficient Economy, Washington, DC, August,
+2001.
+Parry, I.W.H. and W.E. Oates. "Policy Analysis in the Presence
+of Distorting Taxes" Journal of Policy Analysis and Management
+19(4), pp 603-613.
+Peters, Irene, Stephen Bernow, Rachel Cleetus, John A. ("Skip")
+Laitner, Aleksandr Rudkevich, and Michael Ruth, 2001. "A Pragmatic
+CGE Model for Assessing the Influence of Model Structure and
+Assumptions in Climate Change Policy Analysis ," Presented at the
+2nd Annual Global Conference on Environmental Taxation Issues,
+Tellus Institute, Boston, MA, June 2001.
+Sullivan, Gregory P., Joseph M. Roop, and Robert W. Schultz,
+1997. "Quantifying the Benefits: Energy, Cost, and Employment
+Impacts of Advanced Industrial Technologies," 1997 ACEEE Summer
+Study Proceedings on Energy Efficiency in Industry, American
+Council for an Energy-Efficient Economy, Washington, DC, 1997.
+US Environmental Protection Agency, 2000b. Guidelines for
+Preparing Economic Analysis, EPA-240-R-00-003, Office of the
+Administrator, Washington, DC, September 2000.
+
+
+5. Appendices
+
+5.1. Description of the AMIGA Model
+The All Modular Industry Growth Assessment (AMIGA) model is a
+general equilibrium modeling system of the U.S. economy that covers
+the period from 1992 through 2030.6 It integrates features from the
+following five types of economic models:
+1). Multisector - AMIGA starts by benchmarking to the 1992
+Bureau of Economic Analysis (BEA) interindustry data, which a
+preprocessor aggregates to approximately 300 sectors;
+2). Explicit technology representation - AMIGA reads in files
+with detailed lists of technologies (currently with a focus on
+energy-efficient and low-carbon energy supply technologies,
+including electric generating units) containing performance
+characteristics, availability status, costs, anticipated learning
+effects, and emission rates where appropriate;
+3). Computable General Equilibrium - AMIGA computes a
+full-employment solution for demands, prices, costs, and outputs of
+interrelated products, including induced activities such as
+transportation and wholesale/retail trade;
+4). Macroeconomic - AMIGA calculates national income, Gross
+Domestic Product (GDP), employment, a comprehensive list of
+consumption goods and services, the trade balance, and net foreign
+assets and examines inflationary pressures;
+5). Economic Growth - AMIGA projects economic growth paths and
+long-term, dynamic effects of alternative investments including
+accumulation of residential, vehicle, and producer capital
+stocks.
+In addition, the AMIGA system includes the Argonne Unit Planning
+and Compliance model that captures a wide variety of technology
+characteristics within the electric generating sector. This
+includes a system dispatch routine that allows the retirement and
+the dispatch of units on the basis of traditional cost criteria as
+well as the impact of various permit prices on operating costs. It
+also includes non-utility generation sources such as industrial
+combined heat and power applications and renewable energy
+systems.
+Climate change mitigation policy has been the main application
+of the AMIGA system to date. But the AMIGA modeling system recently
+has been enhanced to include policies involving the reduction of
+sulfur dioxide, nitrogen oxide, and mercury emissions. Moreover, a
+new intertemporal optimization module has been added to AMIGA that
+allows an evaluation of early reductions and the banking of
+allowances to be incorporated into policy scenarios. Hence, the
+system is well suited to evaluate a variety of multi-emission
+strategies that are driven by price incentives as well as R&D
+programs, voluntary initiatives, and cap and trade policies.
+Because of recent upgrades and enhancements made in the model,
+the current reporting period is extended only through the year
+2015. We expect the full reporting period to extend back to the
+year 2030 in the very near future.
+The model includes a complete database of all electric utility
+generating units within the United States. The cost and performance
+characteristics of the electricity supply technologies generally
+follow those modeled within the Energy Information Administration's
+National Energy Modeling System. The characteristics associated
+with the various emission control technologies generally follow
+those modeled within the Integrated Planning Model used by the
+Environmental Protection Agency.
+The AMIGA modeling system is a highly organized, flexible
+structure that is programmed in the C language. It includes modules
+for household demand, production of goods, motor vehicles,
+electricity supply, and residential and commercial buildings and
+appliances.
+The production modules contain representations of labor,
+capital, and energy substitutions using a hierarchy of production
+functions. The adoption rates for cost-effective technologies
+depend on energy prices as well as policies and programs that lower
+the implicit discount rates (sometimes referred to as hurdle rates)
+that are used by households and businesses to evaluate
+energy-efficiency and energy supply measures.7
+For a more complete documentation of the AMIGA model, see
+Hanson, Donald A, 1999. A Framework for Economic Impact Analysis
+and Industry Growth Assessment: Description of the AMIGA System,
+Decision and Information Sciences Division, Argonne National
+Laboratory, Argonne, IL, April, 1999. For an example of other
+policy excursions using the AMIGA model, see, Hanson, Donald A. and
+John A. "Skip" Laitner, 2000, "An Economic Growth Model with
+Investment, Energy Savings, and CO2 Reductions," Proceedings of the
+Air & Waste Management Association, Salt Lake City, June 18-22,
+2000. Also see, Laitner, John A. "Skip", Kathleen Hogan, and Donald
+Hanson, "Technology and Greenhouse Gas Emissions: An Integrated
+Analysis of Policies that Increase Investments in Cost Effective
+Energy-Efficient Technologies," Proceedings of the Electric
+Utilities Environment Conference, Tucson, AZ, January 1999.
+
+
+5.2. Summary Tables for Study Scenarios
+
+
+5.2.1.
+Reference Case Projections
+
+
+5.2.2.
+Scenario A: Emission Constraints Using Reference Case
+Technologies
+
+
+5.2.3.
+Scenario B: Emission Constraints Using Advanced Case
+Technologies
+
+
+5.2.4.
+Scenario C: Emission Constraints Using the Moderate CEF
+Scenario Assumptions
+
+
+5.2.5.
+Scenario D: Emission Constraints Using the Advanced CEF
+Scenario Assumptions
+
+
+
+
+
+
+
+
+
+
+
+

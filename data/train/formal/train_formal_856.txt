@@ -2,431 +2,351 @@
   
     
       
-        Introduction
-        Older adults are frequently counseled to lose weight,
-        even though there is little evidence that overweight is
-        associated with increased mortality in those over age 65.
-        Six large controlled population-based studies of
-        non-smoking older adults have investigated the association
-        between body mass index (BMI) and mortality, controlling
-        for relevant covariates [ 1 2 3 4 5 6 ] . All studies found
-        excess risk for persons with very low BMI, but that persons
-        with moderately high BMI had little or no extra risk except
-        in certain small subsets. A review of 13 studies of older
-        adults drew similar conclusions [ 7 ] .
-        Many healthy older adults report gradual weight gain
-        throughout adult life. It may be that a small amount of
-        gradual weight gain is normative and associated with the
-        most robust health as we age. It has been suggested that
-        weight standards be adjusted upwards for age [ 8 ] . Such
-        recommendations remain controversial, however, because the
-        number of studies of older persons is fairly small, and
-        because few studies have examined the relation of BMI to
-        quality of life or years of healthy life (YHL) in the
-        elderly [ 9 ] .
-        In older adults, risk factors may have a greater effect
-        on health than on mortality. If so, then behavior change
-        trials of weight modification might be more successful if
-        they were evaluated on improved health, rather than on
-        decreased mortality. Clinical trials powered to detect
-        differences in YHL would often require fewer subjects than
-        trials to detect survival differences or cardiovascular
-        events [ 10 ] . In this paper we study whether BMI at
-        baseline is associated with living longer, and/or with more
-        years of being healthy, in a cohort of older adults for
-        whom risk factors, subclinical disease, and morbidity are
-        well characterized. The goal is to determine whether
-        analyses based on years of life (YOL) or on YHL would
-        provide substantively different results, and which measure
-        would yield more powerful evaluations of weight
-        modification interventions in older adults.
+        Background
+        A synthetic form of EPO, human recombinant EPO, has been
+        successfully used to treat anemia in patients with chronic
+        renal failure and HIV [ 1 ] . Some randomized trials (RCT)
+        assessed the role of EPO in anemia related the cancer [ 2 3
+        ] . However, many of these trials were underpowered and
+        failed to identify clinically meaningful benefits of EPO
+        treatment. As a result, there has been persistent
+        uncertainty about the efficacy of EPO as a treatment for
+        cancer-related anemia, despite the introduction of EPO in a
+        clinical practice almost a decade ago. Systematic reviews
+        (SR) are the best way to offer synthesis of evidence and
+        are of special utility in settings where many small trials
+        fail to achieve a significant result [ 4 ] .
+        A recent comprehensive SR [ 5 6 ] addressed the role of
+        EPO in treatment-related anemia in cancer patients. This SR
+        included non-randomized studies and performed a
+        meta-analysis (MA) of 12 RCTs showing a significant effect
+        of EPO in reducing the need to transfuse patients who are
+        receiving chemotherapy. Although comprehensive, some issues
+        were not addressed in this previous SR/MA: a formal
+        quantitative synthesis (meta-analysis) was not performed
+        according to different clinical aspects and to main
+        methodological quality dimensions empirically linked to
+        bias [ 7 ] .
+        In contrast to this previous report [ 5 6 ] , in this SR
+        we evaluated only data from randomized studies. We also
+        investigated a broad range of clinical issues, including
+        EPO use according to the level of hemoglobin (hb),
+        platinum-based chemotherapy and tumor type. Finally, to
+        investigate the stability of our conclusions, a broad
+        methodological appraisal of the quality of the trials was
+        performed, specifically examining those dimensions that
+        have been empirically linked to bias [ 7 ] .
+        We also performed a conservative cumulative
+        meta-analysis (CMA) [ 8 ] to determine the earliest point
+        in time when the use of EPO versus placebo reached a such
+        statistical significance after which the uncertainty [ 9 ]
+        about the effect of EPO in cancer-related anemia could have
+        been considered resolved.
       
       
-        Materials and methods
-        
-          Study design: The Cardiovascular Health
-          Study
-          The Cardiovascular Health Study (CHS) is a
-          population-based longitudinal study of 5,888 adults aged
-          65 and older at baseline [ 11 ] . Subjects were recruited
-          from a random sample of the Medicare eligibility lists in
-          four US counties. Extensive baseline data were collected
-          for all subjects using a baseline home interview, an
-          annual mail questionnaire, and annual clinic
-          examinations. Additional information was collected in a
-          brief telephone interview 6 months after each scheduled
-          visit. Two cohorts were followed, one with 7 years of
-          follow-up (n = 5,201) and the second (all African
-          American, n = 687) with 4 years of follow-up to date.
-          Data collection began in 1989, and follow-up is virtually
-          complete for all surviving subjects [ 12 ] .
-        
-        
-          Body mass index
-          BMI was calculated as measured weight in kilograms
-          divided by the square of measured height in meters. A
-          report from the National Heart Lung and Blood Institute
-          classifies normal weight (without reference to age) as a
-          BMI of 18.5 to 24.9; overweight as 25 to 29.9; and
-          obesity as 30.0 and higher [ 13 ] . We consider
-          separately the group with BMI between 18.5 and 20, which
-          was associated with lower survival in studies cited
-          above.
-        
-        
-          Years of life and years of healthy life
-          YOL is the number of years that a person lived in the
-          7 years after baseline. YHL is the number of years in
-          which the person was 'healthy', and is similar in concept
-          to quality-adjusted life-years, healthy year equivalents,
-          or active life expectancy [ 14 ] . We based YHL on
-          self-rated health (is your health excellent, very good,
-          good, fair, or poor?) (EVGFP) which was collected every 6
-          months. EVGFP is a simple but well-known measure, which
-          has been studied in detail [ 15 16 ] , and is predictive
-          of health events in many studies [ 17 ] . Because we are
-          examining health status over time, we added a sixth
-          health state, dead. Data were available about 93% of the
-          time. We used linear interpolation to estimate missing
-          data when there were known values before and after the
-          missing value, bringing the percent complete to 95% [ 18
-          ] .
-          For this analysis we defined YHL as the number of
-          years (of 7) in which a person reported excellent, very
-          good, or good health (were 'healthy'). YHL ranges from 0
-          (for persons who were never in excellent, very good, or
-          good health) to 7 years (for persons who were healthy
-          throughout). Since people reported their health every 6
-          months, YHL has a reasonably continuous distribution. A
-          drawback of this simple definition of 'healthy' is that
-          it does not distinguish between fair or poor health and
-          death, since all are considered 'not healthy'. We also
-          used an alternative approach, which assigns a different
-          value to each level of EVGFP [ 19 ] . Preliminary results
-          were similar for the two approaches, however, and we
-          report results using only the simpler definition.
-          The calculations had to be modified to include the 438
-          persons in the second African American cohort, who have
-          been followed only 4 years to date. For those persons,
-          and for 70 persons in the first cohort who did not have
-          complete data, we estimated the last 4 years of YOL and
-          YHL from their age, sex, and health at the end of 3
-          years, using validated methods presented elsewhere [ 20 ]
-          . That article showed that estimated 4-year YOL and YHL
-          were unbiased for the African American cohort. In the
-          primary analysis we used observed 7-year YOL and YHL when
-          they were available, and observed 3-year YOL and YHL plus
-          4-year estimated YOL and YHL when they were not (about
-          10% of the sample). We performed all analyses with and
-          without the persons who had partially estimated data, to
-          ensure that the estimation had not distorted the
-          findings.
-        
-        
-          Covariates
-          The goal is to examine the association of YOL and YHL
-          with BMI. To adjust for possible confounding we chose
-          baseline covariates that were prevalent in the elderly,
-          related to mortality and morbidity in previous studies,
-          and likely to be related to BMI. Self-reported covariates
-          include age, gender, smoking (never or former), history
-          of arthritis, cancer, diabetes, fair or poor self-rated
-          health status, limitations in activities of daily living
-          or in instrumental activities of daily living, and 10
-          pounds or more unintended weight loss in the year before
-          baseline. Clinical covariates include hypertension,
-          cardiovascular disease (prevalent heart disease,
-          peripheral vascular disease, or cerebrovascular disease),
-          maximum thickness of the internal carotid artery,
-          depression (CESD score), serum albumin, serum
-          cholesterol, and serum creatinine. These measures are
-          explained in more detail elsewhere [ 21 22 23 24 ] . We
-          excluded 697 current smokers and 313 others with
-          incomplete covariate data, leaving 4,878 persons on whom
-          this analysis is based.
-        
-        
-          Analysis
-          All analyses were performed separately for men and
-          women. We calculated two sets of adjusted values, as
-          follows. We regressed YOL and YHL first on age, age
-          squared, race, and smoking history (former or never), and
-          second on all of the covariates listed above. We
-          calculated adjusted YOL as a person's observed YOL minus
-          predicted YOL (from the regression) plus the mean YOL
-          (6.52 years for women or 6.06 for men). That is, a
-          person's adjusted YOL is his residual from the regression
-          plus the grand mean. The mean of this new variable, for a
-          group of subjects, is the adjusted mean YOL for that
-          group. Adjusted YHL was calculated in a similar manner.
-          We calculated two sets of adjusted variables because of
-          the possibility of 'over-adjustment', controlling
-          inappropriately for factors (such as diabetes) which may
-          have been causally affected by the person's weight. We
-          plotted mean adjusted YOL and YHL against BMI, and tested
-          for difference among BMI groups using confidence
-          intervals or analysis of variance. Finally we calculated
-          the effect size for each measure, comparing each BMI
-          subgroup to the 'normal' group. The effect size is the
-          difference in mean YOL (or YHL) in two groups divided by
-          their common standard deviation. Since the sample size
-          required to detect an effect of this magnitude is
-          proportional to the inverse of the squared effect size,
-          large effect sizes are desirable.
-        
+        Methods
+        A previous SR served as a basis for location of the
+        articles of interest [ 5 ] . We also performed a search of
+        MEDLINE, LILACS and CANCERLIT databases, last update in
+        July of 2001, using the optimal search strategy for RCT for
+        use in MEDLINE [ 10 ] and LILACS [ 11 ] with the additional
+        terms related to this review - (epoetin OR Erythropoietin)
+        and (cancer OR neoplasm), in all fields.
+        We included only RCTs that compared EPO versus no
+        therapy or placebo in cancer related anemia. We excluded
+        studies related to transplant setting and myelodysplastic
+        syndrome, since the physiopathology of these diseases is
+        different, more linked to pancytopenia than to anemia [ 1 ]
+        . We also excluded trials that used EPO with the primary
+        objective to magnify hb to improve the efficacy of
+        radiotherapy.
+        Four trials described more than one comparison of
+        different doses of EPO with only one control group [ 12 13
+        14 15 ] . We approached these multi-arm studies in two
+        different ways: in the first, each EPO arm was compared to
+        the control arm. In the second we combined all active arms
+        in one, by adding all EPO treated patients, and analyzed it
+        against the control. Both combinations achieved virtually
+        the same result and data are presented using the second
+        method.
+        Data were abstracted on patient characteristics, type of
+        tumor, treatment details and the major methodological
+        quality dimensions [ 4 7 ] (see Additional file 1). The end
+        point studied was the number of patients requiring
+        transfusions. Results in a conventional meta-analysis were
+        pooled using the Peto's Odds Ratio (OR) and relative risk
+        (RR), both in a fixed effect model [ 16 ] . We also
+        extracted data on adverse effects of the use of EPO.
+        Additional file
+        Table 1: Characteristics of included studies.
+        Click here for file
+        Heterogeneity among trials was assessed using chi-square
+        test (chi). The possibility of publication bias was
+        assessed using the funnel plot method [ 17 ] . To assess
+        the reasons for any heterogeneity found, we performed a
+        meta-regression [ 4 ] . Sensitivity and subgroup analyses
+        according to the main methodological quality dimensions [ 7
+        ] and a number of clinical criteria were also performed
+        (see fig 2and 3). The results were calculated with
+        corresponding 95% confidence interval (95%CI). When the
+        results from pooled data were significant, we calculated
+        the number of patients need to treat (NNT) [ 18 ] in order
+        to prevent one transfusion. However, the readers are
+        advised to exercise due caution because NNT and NNH (number
+        of patients to harm) are more influenced by the baseline
+        risk in a control group than the odds ratio.
+        The qualitative conclusion of the authors was assessed
+        using the method described by Gilberts and Colditz [ 19 20
+        ] and adapted to a six point scale, where 1 = control group
+        highly preferred, 2 = control preferred to EPO treatment, 3
+        = about equal, EPO a disappointment, 4 = about equal, EPO a
+        success, 5 = EPO preferred to control and 6 = EPO highly
+        preferred.
+        Finally, we performed a cumulative meta-analysis (CMA) [
+        8 ] using a conservative approach, setting the α error at
+        1%, with a two tailored "p" in a random effects model [ 21
+        ] . The CMA allowed us to determine the point when the
+        results achieved a level of statistical significance after
+        which we should expect no changes in the effect by
+        performing new trials, and after which placebo controlled
+        trials should not have been performed. In other words: CMA
+        allowed us to determine the threshold point after which
+        uncertainty about this question should have been considered
+        resolved [ 9 ] .
       
       
         Results
-        Table 1shows the distribution of key variables by sex
-        and race. Mean age at baseline was 73.1 and about two
-        thirds of the men and a third of the women were former
-        smokers. Black women had a higher mean BMI and higher
-        percent obese (BMI ≥ 30) than the other three groups. Black
-        men were most likely to have unintentionally lost more than
-        10 pounds in the past year; white women were least
-        likely.
-        About 78% of the subjects were healthy at baseline,
-        declining to 57% at the end of 7 years; 20% had died (data
-        not shown). Of the 22% who were unhealthy (fair or poor) at
-        baseline, about 24% were healthy 7 years later. There was
-        thus substantial change in EVGFP over time, in both
-        directions. Table 1shows the mean YOL and YHL (calculated
-        from EVGFP) in the first seven years of the study, adjusted
-        to age 73. For example, black women averaged 6.3 YOL, but
-        only 4.2 YHL of a maximum possible 7. We calculated some
-        additional descriptive statistics, shown in the final two
-        lines: years of unhealthy life (YOL minus YHL) and years
-        lost to death (7 minus YOL). White women had the most YHL
-        and black men the fewest; black women had the most years of
-        unhealthy life, and white men the fewest; black men lost
-        the most years to death (1.3 out of 7) while white women
-        lost only 0.4 years. For blacks, about 68% of their YOL
-        were healthy (YHL/YOL, not shown); for whites, about 75%
-        were healthy.
-        Among whites, the gender differences in Table 1were
-        statistically significant (p <.05) except for BMI and
-        unintended weight loss. Among blacks, gender differences
-        were significant except for 10 pounds unintended weight
-        loss and weight loss since age 50. Among males, there were
-        significant differences between black and white for BMI,
-        unintended weight loss, YOL, YHL, years of unhealthy life,
-        and years lost to death. Whites in the sample had higher
-        income and education (data not shown). After adjusting for
-        income and education, as well as age and former smoking,
-        the difference in BMI was no longer statistically
-        significant. Among females, blacks and whites differed
-        significantly on BMI, BMI>30, weight loss since age 50,
-        YOL, YHL, years of unhealthy life, and years lost to death.
-        After adjustment for income and education, the difference
-        in weight loss since age 50 was no longer significant.
-        Blacks had significantly lower YOL and YHL than whites
-        after adjustment for age, but the difference disappeared
-        after adjustment for the entire set of health-related
-        baseline covariates (analyses not shown).
-        We next examined the relationship of BMI to YOL and YHL.
-        Table 2presents the mean values of YOL and YHL, adjusted
-        for age, race, and previous smoking (columns 1 and 3), and
-        also adjusted for the entire set of covariates (columns 2
-        and 4). For example, YOL for women, adjusted for age, race,
-        and smoking, averaged 6.0 years for women with a baseline
-        BMI below 18.5, but averaged 6.6 years for women with a BMI
-        from 25 to 29.9. The second column, which shows results
-        adjusted for all covariates, is not very different (the
-        only discrepancy is for men with BMI < 18.5, a category
-        containing only 14 men). Adjustment for extensive
-        covariates also made little difference for YHL (columns 3
-        and 4). Subsequent analyses are adjusted only for age,
-        race, and former smoking. As mentioned above, the group
-        with BMI from 18.5 to 20 would be considered 'normal' by
-        the NHLBI guidelines, but had lower YOL and YHL than those
-        with 20-24.9 in all comparisons. For this reason, and to
-        increase sample size for those with low BMI, we combined
-        the two lower categories, defining underweight as a BMI
-        under 20.
-        Figure 1is a plot of adjusted YOL and YHL by sex and
-        BMI. For each BMI category the mean and its 95% confidence
-        interval are plotted. Categories whose confidence intervals
-        do not overlap, or overlap only slightly, are significantly
-        different. The bars are slightly offset to permit all error
-        bars to be seen.
-        YOL for women (the uppermost curve on Figure 1) averaged
-        about 6.5 out of 7 years, and showed no evident association
-        between BMI and YOL for BMI above 20. Underweight women
-        averaged about .25 fewer YOL than other women (p < .05
-        compared with normal group). Underweight men also had lower
-        YOL, but this group was not significantly different from
-        the normal group, in part because of low sample size. Men
-        classified as normal, overweight or obese all had about the
-        same YOL.
-        The lowermost two lines in Figure 1show mean YHL for
-        women and men. Women who were normal or overweight averaged
-        about 4.9 YHL. The YHL for underweight or obese women was
-        about 4.5 years, which was significantly lower than the
-        normal group. The relationship of BMI to YHL for men is
-        similar, but differences among BMI groups were not
-        statistically significant. YHL was significantly higher for
-        women than for men in the normal and overweight groups, but
-        the sexes had similar YHL in the underweight and obese
-        groups.
-        We next present the effect size for comparing each group
-        to the normal BMI group. The effect sizes are shown in
-        Table 3, with the significance results of the associated
-        t-tests for the differences in means of the two groups
-        being compared. For example, underweight women averaged
-        4.50 YHL compared to 4.92 for normal women, and the common
-        standard deviation was 1.44. The effect size is thus
-        (4.92-4.50)/1.44 = .29. The two groups had significantly
-        different YHL, implying that the effect size is also
-        significantly greater than zero. A clinical trial of a
-        treatment to help underweight women achieve normal weight
-        (presumably by addressing the underlying cause) could be
-        expected to have 80% power with N = (1.96+.84) 2/.29 2=
-        about 93 women per treatment arm, if 7-year YHL were the
-        outcome measure.
-        The biggest effect sizes are in the first row, comparing
-        underweight to normal. YHL and YOL have similar effect
-        sizes for women, and are significantly different from zero.
-        The effect sizes are not significantly different from zero
-        for men, in part because there were only 42 men in the
-        underweight category. The effect size comparing overweight
-        to normal yielded small, non-significant effect sizes, with
-        inconsistent signs, suggesting extremely large sample sizes
-        would be needed. For comparing obese to normal, only YHL
-        for women showed a large and significant effect size. Thus,
-        an intervention to improve the health of underweight women
-        to that of their normal weight peers could be performed
-        using either YHL or YOL as the outcome variable. Trials to
-        make obese women comparable to normal women could be
-        evaluated using YHL, but not YOL. Trials to improve the
-        health of the other groups to that of the normals would
-        probably be fruitless since there is no evidence that being
-        overweight (for men or women) or obese (for men) affects
-        YOL or YHL.
-        As mentioned above, we repeated these analyses excluding
-        the persons with partially estimated data, and using two
-        different ways of coding YHL. The only substantive change
-        was that some of the differences between blacks and whites
-        shown in Table 1were no longer statistically significant,
-        due to a smaller sample size.
+        Thirty-seven randomized articles addressing the use of
+        EPO in cancer related anemia were located and retrieved for
+        full text appraisal. Twenty one papers fit our inclusion
+        criteria. Two articles describing two small trials [ 22 23
+        ] with a total of 79 patients were excluded from our
+        analysis because they did not provide information regarding
+        our end point of interest.
+        Nineteen articles [ 2 3 12 13 14 15 24 25 26 27 28 29 30
+        31 32 33 34 35 36 ] describing 21 trials (see Additional
+        file 1) fit our inclusion criteria. One paper [ 3 ]
+        described three different trials, two of which [ 24 26 ]
+        were reported later, in separate papers. We included data
+        from these latest papers only. Therefore, we included 19
+        trials from 19 articles with 1896 patients in cancer
+        related anemia. Fourteen trials with a total of 1511
+        patients described the use of EPO in patients with hb level
+        < 11.5 g/dl and five trials with 369 patients related to
+        hb level >= 11.5 g/dl. Of the latter ones, one trial [
+        14 ] included patients with hb ranging from 10.6 to 12.0
+        g/dl. The analysis did not change when we excluded this
+        trial in the sensitivity analysis.
+        The possibility of publication bias was considered
+        unlikely according to the visual inspection of the funnel
+        plot [ 17 ] . The results of the critical appraisal
+        according to the most important methodological quality
+        dimensions of each article are shown in (see Additional
+        file 1). No single trial met all methodological quality
+        criteria. All trials scored five or six on the six point
+        Gilbert [ 19 ] and Colditz [ 20 ] scales, denoting strong
+        qualitative support in favor of EPO ((see Additional file
+        1)).
+        The meta-analysis of the 19 trials (Fig 1and 3) showed a
+        significant beneficial effect of EPO in diminishing the
+        number of patients requiring transfusion [OR = 0.41; 95%CI:
+        0.33 to 0.5 ; p < 0.00001], without statistical
+        heterogeneity [chi = 23.46; df = 18; p > 0.1]. When we
+        used relative risk (fig 3) as a summary point estimate in
+        the meta-analysis, the results remained significant [RR =
+        0.61; 95% CI: 0.54 to 0.68; p < 0.00001], but now with
+        significant statistical heterogeneity: [chi = 37.56; df =
+        18; p = 0.0044]. However, when the study by Porter et al [
+        29 ] was removed from the analysis, heterogeneity
+        disappeared from the analysis, and the analysis according
+        to OR or RR did not differ. This is likely because in this
+        small study including 10 patients in each group, event rate
+        was so high with all but one patient receiving
+        transfusion.
+        To further explain heterogeneity, we also performed a
+        metaregression [ 4 ] . The variables related to the design
+        and clinical features which possible could affect the
+        treatment effect of EPO were entered in the equation (see
+        Additional file 1) We found no statistically significant
+        association between any of the variables with the treatment
+        effect of EPO when all data were simultaneously entered in
+        a multiregression equation(data not shown). However, when a
+        stepwise regression model was used, two variables emerged
+        of the potential significance which could explain most the
+        heterogeneity of our results: (in)adequacy of allocation
+        concealment (p = 0.026) and Hb cut-off value of 11.5 g/dl
+        (p = 0.046). The between study variation (tau2 estimate)
+        was 0.0372 for the model containing no variables (i.e. the
+        simple meta-analysis); this was reduced to almost zero in
+        the final model. In addition, most likely explanation of
+        heterogeneity seen in our study is related to a small
+        sample size of the individual trials resulting in random
+        fluctuation of the effect between the studies. When we
+        divided the trials according to the hb level, using 11.5
+        g/dl as a cut-off point, the results remained essentially
+        unchanged (i.e. highly significant in favor of EPO) (fig
+        2and 3).
+        Thus, it appears that the effect of EPO is a rather
+        robust despite heterogeneity noted in the meta-analysis
+        Sensitivity and subgroup analyses according to clinical
+        and methodological quality dimensions (Fig 2and 3) showed
+        consistency in the results, favoring the use of EPO.
+        Statistical heterogeneity was noted for some of these
+        comparisons (see fig 2and 3). It was related to the
+        magnitude of the treatment effect and not to its
+        significance, since in all trials the point estimate of the
+        effect favored EPO. A stepwise metaregression analysis did
+        point to the possibility that treatment effect could have
+        been exaggerated by inadequacy in allocation concealment
+        and that larger treatment effects are seen at hb level <
+        11.5 g/dl. The heterogeneity was more common when we used
+        RR than when we used OR.
+        The overall result by pooling all trials indicates that
+        for each 5 cancer patients (95% CI: 4 to 7) using EPO, one
+        patient will avoid transfusion. This result is maintained
+        when we separately analyzed the trials that included
+        patients with hb level < 11.5 g/dl (NNT = 5; 95% CI: 4
+        to 8) and Hb > 11.5 g/dl (NNT = 5; 95% CI: 3 to 9).
+        These NNT should be analyzed carefully, since they were
+        calculated from a pool of data that in some analysis were
+        not homogeneous.
+        We also performed a CMA, (fig 4) using a conservative
+        approach (i.e. setting α error at 1%). Our CMA demonstrated
+        that by 1995 a high level of significance [OR = 0.52;
+        99%CI: 0.28 to 0.97; p = 0.0068]; [RR = 0.69; 99%CI: 0.53
+        to 0.90; p = 0.0003] about the benefit of EPO on reducing
+        the use of blood transfusions had been achieved. Beyond
+        this point, all new trials only improved the precision,
+        without adding any additional useful information. We
+        estimated that 1240 patients, representing 65% of the total
+        number of cancer patients who participated in EPO studies,
+        were enrolled in 13 placebo-controlled randomized studies
+        that were reported after 1995.
+        The previous SR [ 5 ] concluded that it was impossible
+        to reasonably distinguish between adverse events related to
+        EPO and concurrent treatments. We also tried to extract
+        data on adverse events, but were unable to make a
+        reasonable approach due to the poor reporting. Therefore,
+        we decided not to tabulate data on adverse events and
+        perform quantitative pooling.
       
       
         Discussion
-        
-          Optimal weight and overweight
-          Recent studies have defined obesity without reference
-          to age [ 6 13 30 ] . Andres 
-          et al proposed a desirable BMI of
-          24-30 for persons aged 60 to 69 [ 8 ] . Allison 
-          et al [ 31 ] proposed 27-30 for
-          older men and 30-35 for older women. In Figure 1, the
-          overweight (as opposed to the obese) are no different
-          from those of normal weight, suggesting that these two
-          categories could be combined for older adults. Since
-          future improvements in life expectancy may be limited [
-          32 ] , the greatest advances may be made by improving
-          people's YHL. This suggests that the development of
-          future guidelines should take YHL or other measures of
-          quality of life into account.
-        
-        
-          Implications for clinical trials
-          Based on these findings, trials to address obesity in
-          older women could be efficient if YHL (but not YOL) was
-          the outcome measure. That is, women who changed from
-          being obese to being normal would likely show changes in
-          YHL, but not YOL. Clinical trials of weight modification
-          interventions for older adults who were merely overweight
-          would appear to be fruitless since the interventions
-          would probably not have a direct effect on either YOL or
-          YHL.
-          Weight or weight change are sometimes used as the
-          outcome in evaluations of interventions such as diet or
-          exercise programs. The fact that weight is not associated
-          in a consistent way with health suggests that such
-          evaluations should be considered critically when older
-          adults are the subjects. This is particularly important
-          in the light of recent findings, which found that
-          interventions such as weight-loss drugs may be harmful [
-          33 34 ] . For older adults, the risks associated with
-          higher weight are especially unclear, and the optimal
-          outcome for a trial of weight loss in older adults
-          requires specific attention to improved health and
-          mortality.
-          Interestingly, the strongest health relationships were
-          found for underweight older adults. Clinical trials whose
-          objective was to make the underweight as healthy as their
-          normal-weight peers (presumably by addressing the
-          underlying conditions that caused the low weight) could
-          be performed efficiently using either YOL or YHL as the
-          outcome measure. Both YOL and YHL would be clinically
-          significant in this patient group.
-        
-        
-          Potential limitations
-          CHS participants were somewhat healthier than the
-          average older adult; however, adjustment for detailed
-          covariates made little difference in the findings. We
-          estimated the last four years of health data for about
-          10% of the sample, but results with and without this
-          group were similar. Analysis of mean YOL instead of the
-          more traditional survival analysis survival analysis was
-          appropriate here, since virtually no persons were lost to
-          follow-up. Biases caused by over-adjustment are probably
-          not large, since the findings were not sensitive to the
-          number of variables adjusted for.
-          These results are for a 7-year follow-up. The relative
-          superiority of YHL to YOL would probably hold in trials
-          with shorter follow-up. The effect sizes in Table 3might
-          also be appropriate in shorter trials, since lengthy
-          trials often add little information [ 10 ] .
-          EVGFP, on which YHL was based, might have missed some
-          effects of obesity on risk factors for future health. A
-          person who is depressed because of a poor self-image
-          related to obesity or who has osteo-arthritis related to
-          obesity and limits to activities to successfully avoid
-          pain would surely have worse EVGFP than others, based on
-          results from many studies. However, health measures
-          designed specifically to measure those conditions might
-          be more sensitive to change in weight than EVGFP. If YHL
-          were based on such measures, the superiority of YHL to
-          YOL would likely be even greater than that shown here.
-          These more sensitive measures might also have detected
-          differences between the overweight and normal weight
-          persons, but we think this is unlikely given the absence
-          of any differences in EVGFP.
-        
+        According to our overall analysis, administration of EPO
+        is related to an average 59% reduction in odds of requiring
+        a transfusion. A previous SR [ 5 6 ] pooled 12 trials that
+        used subcutaneous EPO (all also included in our analysis)
+        in a Bayesian MA reached results similar [OR = 0.38; 95%CI:
+        0.28 to 0.51] to ours. We could also demonstrate
+        consistency of the results when analyzed according to OR,
+        RR, various quality dimensions and many different clinical
+        settings (fig 2and 3).
+        Due to these EPO effects, patients with cancer are
+        expected to have direct benefits through fewer transfusions
+        and lower exposure to anemia effects. Furthermore, all
+        patients will benefit indirectly through conservation of
+        the blood supply.
+        The use of RR as summary statistics is less robust than
+        OR [ 4 ] and in this case resulted in greater heterogeneity
+        than the analysis based on OR (see fig 2and 3). The
+        estimate the effects of EPO using RR indicated a smaller
+        effect than OR but both results were significant (p <
+        0.0001 in both analysis). However, when events are common,
+        the OR may overestimate the effect of treatment [ 4 ] . Due
+        to these characteristics of the analysis, we choose to show
+        both (OR and RR) as a summary statistics. Nevertheless, we
+        should mention (see the RESULTS) that the most of
+        heterogeneity could be explained by high transfusion rates
+        in the trial by Porter et al. and inadequacy of allocation
+        concealment in EPO trials. Similarly, it appears that the
+        larger treatment effects are seen when EPO is given in the
+        patients with hb > 11.5 g/dl.
+        Because it was not possible to extract data on quality
+        of life (QOL), this issue was not addressed here. However,
+        a recent systematic review by Bottomley et al [ 37 ]
+        indicated that solid evidence about the effect of EPO on
+        this end point is lacking. We should also mention that the
+        high cost of EPO has deterred its widespread acceptance [ 5
+        ] and more studies using economic analysis should be done
+        to address the issue if the use of EPO is
+        cost-effective.
+        A previous SR [ 5 6 ] found no increased incidence of
+        adverse events of EPO when compared with controls. We also
+        did not find any side effect of EPO consistently reported
+        among trials.
+        Our main goal here is to stress that the basic ethical
+        requirement to randomize patients in clinical trials is
+        that physicians and patients must not have preferences for
+        any of the therapies considered i.e. they should be in the
+        state of uncertainty or equipoise [ 9 ] . If uncertainty
+        does not exist, it is felt to be unethical to ask patients
+        to participate in RCTs [ 9 ] .
+        To assess if uncertainty regarding a clinical question
+        exists, researchers should evaluate the totality of
+        pre-existing knowledge: if we already knew that one
+        treatment is superior to another, nothing new could be
+        learned and we would unnecessarily expose our patients to
+        already known inferior treatment by performing a new trial.
+        We showed here that if a SR/CMA had been used to formally
+        address the uncertainty regarding the effect of EPO in
+        cancer patients, this uncertainty could have been
+        conservatively considered resolved (Fig 4) since 1995. Our
+        findings suggest that 65% of the cancer patients included
+        in this SR participated in placebo controlled clinical
+        trials that were reported after EPO was shown to be
+        superior to placebo. Had a CMA been performed
+        prospectively, it is possible that clinical trialists may
+        have decided against initiating 13 clinical trials. We
+        should note that we analyzed trials according to date of
+        their report. It is conceivable that some trials were
+        initiated before 1995, but were reported after 1995.
+        However, this only means that the uncertainty about the
+        role of EPO could have been solved even earlier (if these
+        patients were available for CMA or a large RCT). For
+        example, if all 656 patients included in randomized studies
+        up to 1995 had participated in only one, large, randomized
+        study, the uncertainty about EPO could have been solved
+        earlier. An alternative approach to large studies in
+        solving uncertainty is to use CMA to monitor accumulation
+        of treatment effects in clinical trials [ 38 ] . The
+        technique of CMA is a powerful scientific instrument to
+        assess the significance of accumulated knowledge [ 8 38 ] .
+        In more than 100 CMA performed, there has never been a
+        single case where the point estimate switched to indicate
+        the opposite effect, once the difference between treatments
+        reached statistical significance [ 8 ] .
       
       
         Conclusion
-        Recommendations for desirable weight have been
-        criticized for emphasizing mortality rather than health. We
-        found associations between YHL and obesity that were not
-        present in the mortality analysis, suggesting that YHL may
-        be a more sensitive measure of the burden of obesity in
-        older adults, especially for women. Future efforts to
-        determine desirable weight guidelines should include
-        measures of YHL. Using either YOL or YHL, however, we found
-        no excess risk for older adults who would be classified as
-        'overweight' by the NHLBI guidelines. This suggests using
-        YHL as the outcome measure in clinical trials involving
-        obese or underweight older adults, and discouraging trials
-        that address older adults who are merely overweight.
+        EPO is highly effective for cancer-related anemia. This
+        effect could have been detected in 1995 if CMA had been
+        performed at that time. The techniques of CMA should be
+        used more frequently in the future to preserve "the
+        uncertainty principle" [ 9 ] and protect patients who
+        consent to be randomized in clinical trials.
       
       
         Competing interests
-        None declared
+        No funding or honoraria were provided for this work to
+        any of the authors. CB and BD served as consultants for the
+        US manufacturers of erythropoietin (Amgen, Ortho) and also
+        received their unrestricted support for organization of
+        educational seminars unrelated to the use of
+        erythropoietin.
       
       
-        Abbreviations
-        BMI Body mass index
-        CESD Center for Epidemiologic Studies Depression
-        Scale
-        CHS Cardiovascular Health Study
-        EVGFP Is your health excellent, very good, good, fair or
-        poor?
-        QALY Quality-adjusted life years
-        YHL Years of healthy life
-        YOL Years of life
+        Authors' contributions
+        OC conceptualized the study, defined the protocol,
+        extracted and analyzed data, wrote the draft and approved
+        the final version of the paper. JRD extracted data,
+        contributed to the protocol writing, extracted and analyzed
+        data, contributed to the drafts and approved the final
+        version of the paper. CLB analyzed data, took an active
+        participation on the writing of all versions of the draft
+        and approved the final version of the paper. BD
+        conceptualized the study, defined the protocol, extracted
+        and analyzed data, wrote the draft and approved the final
+        version of the paper.
       
     
   

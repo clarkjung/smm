@@ -2,293 +2,483 @@
   
     
       
-        Introduction
-        The protective effects of antibody to pneumococcal capsular polysaccharides have been
-        appreciated since the development of serum therapy, in which passively transferred,
-        serotype-specific antipneumococcal serum reduced mortality from pneumococcal pneumonia by
-        half [1]. The development of pneumococcal polysaccharide vaccines for adults [2] and the
-        efficacy of pneumococcal polysaccharide–protein conjugate vaccines in infants and children
-        [3,4] have confirmed that active immunity to the polysaccharide can provide excellent
-        protection against invasive disease from pneumococci of the same serotype, and in some
-        cases protection against cross-reacting serotypes within the same serogroup.
-        While the ability of passive or vaccine-induced anticapsular antibodies to protect
-        against pneumococcal disease is clear, less is known about the natural development of
-        immunity to pneumococcal disease in unimmunized persons. In unimmunized populations, the
-        incidence of invasive disease follows a well-known age distribution, peaking in the first 2
-        y of life, declining by more than an order of magnitude by the second and third decades of
-        life, and then rising at an accelerating pace, with incidence in persons over 70 y
-        approaching that in infants [5]. The reason for the decline in incidence has not been
-        conclusively determined, yet it is often suggested that the acquisition of anticapsular
-        antibodies plays a critical role in this decline [6,7]. Indeed, it has been proposed that
-        the human immune system sees each serotype of 
-        Streptococcus pneumoniae as a distinct, independent pathogen
-        [8].
-        The hypothesis that protection from invasive pneumococcal disease is caused by the
-        acquisition of anticapsular antibodies directed against each of the pneumococcal serotypes
-        yields two simple predictions about the age-specific epidemiology of pneumococcal disease.
-        First, it predicts that the age-specific timing of the decline in invasive disease should
-        be different for different serotypes: those that are rare, poorly immunogenic, or both
-        should decline later in life than those that are common and immunogenic. Second, it
-        predicts that protection against invasive disease from a given serotype should coincide
-        temporally with the acquisition of anticapsular antibody to that serotype, both at an
-        individual level and at a population level. We tested these predictions using data from the
-        United States, Finland, and Israel.
+        Background
+        Completely sequenced genomes enable the study of
+        relations between organisms in terms of the complete set of
+        genes they possess. Genomic properties have been proposed
+        as the most convenient tool for studying these
+        relationships, as they are global properties that may
+        circumvent many of the difficulties of classical molecular
+        phytogenies [ 1]. Common gene content [ 2, 3] or
+        conservation of families of proteins [ 4] are examples of
+        this kind of genomic information. From this genomic
+        perspective, conservation of gene order is a very
+        informative measure that may provide information both about
+        the function and interactions of the proteins these genes
+        encode [ 5, 6], and about the evolution of the genomes and
+        the organisms themselves.
+        Gene order is generally well preserved at close
+        phylogenetic distances [ 7]. When the species are not
+        closely related, the degree of gene order conservation is
+        usually low, and consequently it was proposed that
+        conservation of gene order is easily lost during evolution
+        [ 8]. This loss also extends to the disruption of operons,
+        in some cases wiping them out completely [ 9].
+        Nevertheless, some instances of especially
+        well-preserved clusters of genes are known, even in
+        divergent species. The best examples are the genes for
+        ribosomal proteins [ 10] and the 
+        dcw cluster [ 11]. Lathe and
+        co-workers [ 12] recently identified genomic regions in
+        which gene order is especially highly conserved. Even if
+        some rearrangement does occur in these regions, the general
+        trend is to keep the genes closer together than in other
+        regions. This shows that selection for gene location and
+        ordering could exist in some cases. The operon structure
+        and common regulation cannot easily account for the
+        conservation, as these conserved regions extend for more
+        than a single operon; hence the proposed nomenclature of 
+        uber-operons [ 12].
+        Conservation of gene order can be due to any one of the
+        following three reasons. First, the species have diverged
+        only recently and gene order has not yet been destroyed;
+        second, there has been lateral gene transfer of a block of
+        genes; and third, the integrity of the cluster is important
+        to the fitness of the cell. Only in this latter case is
+        gene order conservation selectable.
+        Proposed explanations for selection for gene ordering
+        include helping the interaction of proteins encoded by the
+        genes of the cluster [ 13], favoring lateral gene transfer
+        [ 14], or co-localization of the mRNAs in the same region
+        of the cell [ 15]. These explanations are not mutually
+        exclusive. Recent studies of the structure of the 
+        dcw cluster suggest that, in this
+        particular case, conservation of gene order within the
+        cluster may be linked to cellular morphology, thus
+        connecting gene order with a selectable phenotype [
+        16].
+        The importance of gene order in the study of evolution
+        is starting to be recognized. Even if the loss of gene
+        order conservation is faster than the loss of sequence
+        similarity, a large amount of conservation remains at
+        medium phylogenetic distances, such as that between 
+        Escherichia coli and 
+        Bacillus subtilis [ 8]. Conservation
+        is a valuable clue to the relationships between organisms
+        and the influence of events such as lateral gene transfer
+        on the evolution of genomes.
+        I present here an analysis of the extent and
+        characteristics of gene order conservation in prokaryotes
+        and attempt to answer two questions. Does conservation of
+        gene order occur similarly throughout the prokaryotes? Are
+        the conserved regions distributed uniformly within the
+        genomes?
       
       
-        Methods
+        Results and discussion
         
-          United States Dataset
-          Incidence of invasive pneumococcal disease was measured in eight sites around the
-          United States participating in the Centers for Disease Control and Prevention's Active
-          Bacterial Core Surveillance between 1994 and 1999. The data used here are restricted to
-          those periods during which serotyping was routinely performed: 1994–1999 for the Georgia
-          site, 1995–1999 for the Minnesota site, and 1998–1999 for all other sites [5]. Data were
-          not available on the timing of anticapsular antibody acquisition in these same
-          populations, but we compared the timing of the decline in pneumococcal disease against
-          previously published data on age-specific prevalence of anticapsular antibody levels
-          greater than 0.2 mcg/ml [9].
+          Conservation of gene order in evolution
+          
+            General trends in gene order conservation
+            To address the issue of how gene order is conserved
+            during evolution, I measured gene order conservation in
+            prokaryotes in relation to evolutionary distance in
+            terms of small subunit rRNA (SSU rRNA) substitutions.
+            The results are shown in Figure 1.
+            In the Bacteria, conservation of gene order
+            apparently follows a common trend for all species. The
+            loss of gene order conservation when phylogenetic
+            distance increases is clear, but even at long distances
+            some conservation is maintained. This is mainly because
+            of clusters of genes that remain well conserved during
+            bacterial evolution [ 12]. Gene order is extensively
+            conserved at small phylogenetic distances, mostly
+            because rearrangement has not yet had time to
+            occur.
+            The distribution in Figure 1afits to a sigmoid
+            curve, revealing the existence of a cooperative process
+            in the loss of gene ordering. This might be related to
+            the existence of operons, in which the displacement of
+            a single gene can facilitate the rearrangement of the
+            rest of the operon. Previous studies proposed an
+            exponential shape for the distribution [ 8, 17]. This
+            disagreement probably arises because those studies did
+            not include pairs of closely related species, and
+            therefore missed the leftmost part of the graph, which
+            is highly significant for the sigmoid shape.
+            Within this observed global trend, several bacterial
+            species present small deviations from the average.
+            Although such deviations are small, in some cases they
+            are indicative of evolutionary processes shaping the
+            genomes.
+            An interesting case is that of 
+            Buchnera. Figure 1bshows that the
+            degree of gene order conservation in 
+            Buchnera is greater than expected
+            according to the phylogenetic position of this
+            bacterium, as previously observed [ 18, 19]. As an
+            endosymbiont, 
+            Buchnera is experiencing
+            extensive gene loss due to reductive processes, and
+            consequently, lower levels of gene order conservation
+            could be expected. However, many gene rearrangement
+            processes are dependent on RecA activity [ 20, 21],
+            which could not be found in 
+            Buchnera [ 18]. As a result, it
+            is likely that the genome of this bacterium has
+            experienced few rearrangement events. Lateral gene
+            transfer also seems negligible in this case [ 22], and
+            therefore gene loss remains as the only process capable
+            of altering gene order in the 
+            Buchnera genome. With the
+            exception of lost genes, the 
+            Buchnera genome might reflect the
+            gene order it had when the bacterium became an
+            endosymbiont and lost 
+            recA. Accordingly, it could be
+            used as a convenient reference point in studies on gene
+            order.
+            Deep-branching species on the bacterial tree, such
+            as 
+            Aquifex and 
+            Synechocystis, also deviate from
+            the average. These species have the lowest values for
+            gene order conservation among the Bacteria (Figure 1b).
+            This agrees with classical molecular phylogenies as
+            well as with genomic phylogenies based on
+            whole-proteome analysis [ 3], in which these species
+            are also the most divergent within the Bacteria.
+            To study whether a common trend in conservation of
+            gene order occurs within prokaryotes, I also included
+            archaeal species in the comparisons. According to
+            Figure 1a, the trend observed in Bacteria is not found
+            in the Archaea. Conservation of gene order between
+            archaea is less than between bacteria, even for very
+            closely related species ( 
+            Pyrococcus horikoshii and 
+            Pyrococcus abyssi ), and the
+            point at which only residual conservation persists is
+            reached much faster. I think that this difference is
+            probably artifactual, and due to anomalous measurement
+            of the phylogenetic distances between organisms.
+            Brinkmann and Philippe [ 23] argued that SSU rRNAs of
+            bacteria evolve faster than those of archaea, thus
+            resulting in an underestimation of the phylogenetic
+            distances between archaea. The distances between
+            archaea are thus probably higher than shown in Figure
+            1aand, consequently, gene order conservation would fit
+            well into the overall trend found for the Bacteria,
+            although the lack of points on the left-hand side of
+            the graph makes it difficult to extract a conclusion.
+            Moreover, measures of phylogenetic distances between
+            bacteria and archaea should also be higher, which would
+            shift the Bacteria-Archaea points to the right in the
+            plot, thus eliminating the surprising artificial
+            overlap between Bacteria-Archaea and Bacteria-Bacteria
+            points.
+            This is a good example of the difficulties
+            encountered when using molecular phylogenies. Phenomena
+            such as unequal mutation rates and lateral gene
+            transfer, or artifacts such as long-branch attraction
+            may produce biased results [ 1]. Here, I show that
+            these problems seem surmountable with the aid of
+            genomic methods. The unequal mutation rate in SSU rRNA,
+            detectable only by careful comparison of different
+            molecular phylogenies, can be readily discovered by
+            looking at gene order conservation. Hence, gene order
+            conservation could be used as an alternative measure of
+            distances between organisms, especially when such
+            distances are small.
+            Conservation of gene order between bacteria and
+            archaea is much lower than within each domain, and is
+            even nonexistent in some cases. There is one exception:
+            gene order conservation between the hyperthermophilic
+            bacterium 
+            Thermotoga maritima and archaea
+            is higher than the rest, and much higher than between 
+            Aquifex and archaea, even though
+            the SSU rRNA distances between bacteria and archaea are
+            approximately equal. The existence of extensive lateral
+            gene transfer between 
+            Thermotoga maritima and archaea
+            has been claimed [ 24]. This possibility is of great
+            importance, as it suggests lateral gene transfer can
+            occur between different domains. 
+            Thermotoga thus provides a nice
+            example of conservation of gene order produced via
+            lateral gene transfer.
+          
+          
+            Molecular phylogenies of universally conserved
+            genes for better estimating distances
+            A different set of phylogenetic distances can be
+            extracted by averaging those obtained from the
+            molecular phylogenies of universally conserved genes
+            (see Materials and methods). The results are shown in
+            Figure 2. Distances between organisms seem to be more
+            accurately estimated using this set of genes, and thus
+            gene order conservation within the Archaea follows more
+            closely the trend observed in the Bacteria. As the
+            agreement between the two distributions is still not
+            complete, however, I conjecture that the estimates of
+            distances are still not entirely correct. It is likely
+            that there are no differences between the amount of
+            gene order conservation among the Bacteria and among
+            the Archaea, and therefore the trend of conservation of
+            gene order could be approximately the same for both
+            domains.
+          
+          
+            Common gene content and gene order
+            conservation
+            Realizing the difficulty of estimating the
+            relationships between organisms using molecular
+            phylogenies, some authors have proposed a genomic
+            method based on the common gene content of the genomes
+            [ 2, 3]. This method of estimating distances is claimed
+            to be more accurate as it is not affected by the
+            drawbacks of molecular phylogenies. I used common gene
+            content as an additional estimation of distance between
+            genomes, and compared the resulting distances with gene
+            order conservation. The results are shown in Figure
+            3.
+            When using common gene content as a measure of
+            phylogenetic distance, gene order conservation in the
+            Archaea follows a similar trend to that in the Bacteria
+            (Figure 3a). Even if common gene content has some
+            biases, as I will illustrate below, such biases are
+            expected to be the same for the Bacteria as for the
+            Archaea. This reinforces the hypothesis that both
+            domains have a similar trend in the conservation of
+            gene order.
+            In a more general sense, common gene content seems
+            to be a noisy measure, as it is affected by factors
+            such as the different lifestyles of the organisms. For
+            example, 
+            Xylella fastidiosa is a
+            proteobacterium, and one of its closest relatives in
+            this study is 
+            Pseudomonas
+            aeruginosa. Nevertheless, their common gene content
+            is low, less than 40%. Between 
+            E. coli and 
+            Haemophilus influenzae, with a
+            comparable phylogenetic distance, common gene content
+            is around 70%. The fact is that 
+            X. fastidiosa has a very high
+            number of open reading frames (ORFs) with no known
+            relatives in other species (unique genes). The number
+            of unique genes is as high as 40% for 
+            X. fastidiosa [ 25], and it is
+            also very high for some other species [ 26]. As a
+            result, distances between 
+            X. fastidiosa and other bacteria
+            are overestimated by using common gene content. This is
+            often the case for closely related bacteria with
+            different lifestyles, such as 
+            E. coli and 
+            Vibrio cholerae, which share less
+            than half of their genes because their different
+            environments require different adaptations and
+            different systems. Common gene content thus has
+            disadvantages as a measure for estimating phylogenetic
+            distances. In contrast, gene order conservation defines
+            much more precisely the course of evolution of genomes,
+            as it is not affected by the presence of particular
+            sets of genes in individual genomes.
+          
         
         
-          Israel Dataset
-          Antibody concentrations were measured by enzyme-linked immunosorbent assay (ELISA)
-          (with absorption by cell wall polysaccharide but not by 22F polysaccharide) in blood
-          samples that were obtained from 130 toddlers at enrollment and at approximately 12 and 24
-          mo after enrollment in a double-blind, controlled trial of a nine-valent pneumococcal
-          conjugate vaccine. The toddlers analyzed for this study were those in the control group,
-          which received meningococcal C conjugate vaccine; the details of the trial [10] were
-          previously described. Preliminary analyses of these data confirmed previous findings [11]
-          that ELISA measurements were highly correlated (and therefore likely revealed
-          cross-reactions) for all pairs of serotypes, except for type 14, for which correlations
-          were minimal, consistent with previous findings of little cross-reaction. For this
-          reason, we chose to analyze age trends only in serotype 14 antibodies.
-        
-        
-          Finland Dataset
-          Mandatory reporting from all microbiological laboratories in Finland to the National
-          Register of Infectious Disease (http://www3.ktl.fi/stat/) identified all blood and
-          cerebrospinal fluid isolates of 
-          S. pneumoniae obtained in the years 1995–2001. Incidence
-          within 6-mo age groups was calculated using population denominators obtained from
-          Statistics Finland (Helsinki, Finland). Since the primary purpose of examining incidence
-          in Finland was to compare age-specific rates against published distributions of antibody
-          concentrations for the same age groups [12], we restricted our attention to serotype 14
-          and serogroup 6, for which subsequent investigations suggested antibody measurements in
-          Finland were relatively unaffected by cross-reactions [13] (ELISA measurements for
-          published data from Finland used a special type 6B polysaccharide that was found to
-          minimize cross-reactions [13]).
+          Regions of conservation and non-conservation of
+          gene order in the genome
+          The second object of this study was to determine how
+          the conservation of gene order is distributed along the
+          genome. Are the conserved regions uniformly spread, or
+          are there instead well-defined regions of high and low
+          conservation? The latter answer seems to be the right
+          one. Figure 4shows conservation of gene order using the
+          genomes of 
+          E. coli and 
+          X. fastidiosa as references. The
+          rest of the genomes are sorted according to their
+          phylogenetic distance (estimated by SSU rRNA
+          substitutions) to the reference genomes. The gradual loss
+          of gene order is easily seen, and it is apparent that
+          regions of high gene order conservation coexist with
+          regions in which no conservation can be found.
+          Regions with no trace of gene order conservation are
+          not rare, even between closely related organisms. They
+          represent either regions in which active rearrangement
+          processes occur, or regions with a majority of unique
+          genes. The first case is illustrated in Figure 4afor 
+          E. coli, in which the terminus of
+          replication, which is a recombination hotspot, has no
+          gene order conservation because of the extensive
+          rearrangement in this region. An example of the second
+          case is shown in Figure 4bfor the genome of 
+          X. fastidiosa, in which regions
+          where unique genes are prevalent are easily detected
+          because of their lack of gene order conservation.
+          At the other extreme, regions of high gene order
+          conservation exist in all the genomes. Figure 1shows that
+          there is a remnant of gene order conservation even
+          between distantly related organisms, in both the Bacteria
+          and the Archaea. These regions of special conservation
+          can be thought of as being subject to selective processes
+          for keeping genes together. I analyzed the functional
+          composition of these regions.
+          To find out whether the conserved regions are related
+          to any functional characteristics, the proteins encoded
+          by the genes in these regions were functionally
+          classified using the EUCLID system [ 27]. I also explored
+          the correspondence of the runs of genes with
+          experimentally determined operons, as found in the
+          RegulonDB database [ 28]. The most conserved runs are
+          shown in Table 1. No apparent preferences for particular
+          functional classes were found (apart from the translation
+          class, over-represented because of ribosomal proteins).
+          The runs are composed of genes for proteins involved in
+          many different types of processes, from metabolic-related
+          classes to information-related ones. With some
+          exceptions, every run is preferentially composed of ORFs
+          belonging to the same functional class. The selective
+          forces acting to keep these genes together could indeed
+          be different when the run is composed of different
+          functional classes. For instance, the conservation of
+          gene order in metabolic-related runs is often related to
+          their coding for enzymes that act sequentially in a
+          pathway, forming multifunctional complexes in several
+          cases. For the runs related to cellular processes and
+          information management, the selective scenario might be
+          more complex [ 7].
+          The conserved runs of genes usually correspond to
+          operons in 
+          E. coli, and combinations of two or
+          even three operons are common. If we consider the
+          proposal that operons are unstable structures [ 9], the
+          maintenance of gene order within the operons would be
+          striking in itself, but the conservation of combinations
+          of operons points to additional factors, other than
+          common regulation, acting in the conservation of gene
+          order. Lateral gene transfer could play a part in such a
+          process [ 13], even if it is not easy to envisage how it
+          could explain such extensive conservation. It is too
+          early to say whether the assumption that operons are
+          independent units [ 29] is challenged. Additional
+          research on these conserved structures is needed in order
+          to elucidate the factors acting in each case.
         
       
       
-        Results
-        
-          United States Findings
-          Figure 1 shows the age-specific incidence of invasive pneumococcal disease, by
-          capsular serogroup, obtained from population-based active surveillance in the United
-          States prior to the introduction of the conjugate vaccine. Figure 2 shows age-specific
-          incidence by type of infection, for the same age range.
-          Incidence peaks between the ages of 9 and 15 mo, and falls in an approximately
-          parallel fashion thereafter, for each of the seven most important serogroups (which are
-          those included in the seven-valent conjugate vaccine) and for the remaining serogroups
-          put together. The same pattern is observed for both pneumonia and bacteremia. For each
-          serogroup, incidence by age 24 mo is approximately half that in the peak age group, and
-          by 36 mo, incidence for each serogroup has fallen to 10%–25% of its peak.
-          The consistent timing of the pattern across multiple serogroups argues for a common
-          mechanism, rather than for independent acquisition of immunity to each serogroup as a
-          separate event. Since most individuals do not suffer from invasive pneumococcal disease
-          in this age range, carriage or mucosal disease (otitis media) from pneumococci may be the
-          immunizing event for anticapsular antibodies in the general population [12] (although in
-          principle immunity to some serogroups could be generated in response to cross-reacting
-          antigens from other bacterial species or other sources [14]). Different serogroups have
-          vastly different frequencies among pneumococci isolated from carriage [12,15,16,17] and
-          otitis media [12,18]; for example, serogroups 4 and 18 and the non-vaccine serogroups are
-          isolated far less commonly than several of the other pneumococcal types identified in
-          Figure 1. One could postulate that these differences in frequency of carriage are offset
-          by differences in immunogenicity; however, there is little evidence that serotypes 4 or
-          18C are more immunogenic than other, far more common serotypes [4,15]. One could also
-          postulate that the frequency of isolation of serotypes from carriage depends on duration
-          as well as incidence, so that the serotypes for which carriage appears rare are simply
-          carried for a shorter duration. While the data to address this speculation are limited,
-          the duration of carriage of types 4 and 18C seems to be comparable to that of other, more
-          frequently carried serotypes [15,16]. Thus, the most parsimonious interpretation of the
-          data on the timing of the decline in age-specific susceptibility is that one or more
-          common mechanisms are responsible for the decline in disease from all serotypes.
-          Testing the second prediction against data is hampered by the fact that, to our
-          knowledge, no study has characterized the age-specific distribution of antibody
-          concentration in a large population using the currently accepted methodology, which
-          includes absorption with both cell wall polysaccharide and serotype 22F polysaccharide
-          [13,19]. Analyses by Soininen and colleagues have found that antibodies measured by
-          standard ELISA in unimmunized children are highly cross-reactive between different
-          serotypes, and that cross-reactive antibodies lack opsonophagocytic function and often
-          appear in the absence of any documented exposure to a given capsular serotype. As a
-          result, age-specific antibody concentration data for any given serotype are
-          “contaminated,” to a greater or lesser degree, by cross-reactive antibodies with other
-          specificties.
-          The most important exception to this problem occurs for antibodies to serotype 14, for
-          which cross-reaction is minimal [11]. A recent publication describes the age-specific
-          proportion of children in the United States with anti-type-14 polysaccharide antibody
-          concentration exceeding the putative protective concentration of 0.2 μg/ml (Figure 3 of
-          [9]). At 12 mo, 90%–95% of the population falls below this level, and at 24 mo, 80%–85%
-          remains below it—despite a 40%–50% drop in disease incidence from 12 mo to 24 mo. At 36
-          mo, 75% of children remain below the putative protective level, although by this age
-          incidence has fallen more than 80% from its 12-mo peak. In summary, if the 0.2-μg/ml
-          concentration were truly the threshold for “protection,” the 20%–30% reduction in the
-          unprotected population between ages 12 and 36 mo would be inadequate to explain the 90%
-          decline in disease incidence. Clearly, 0.2 μg/ml is not a precise dividing line between
-          being “protected” and “unprotected,” a threshold that (if it exists) may vary by
-          serotype, but given the available data, there is reason to doubt that anti-type-14
-          antibody alone is responsible for the decline in disease in this age range.
-        
-        
-          Israel Findings
-          To assess whether the limitations of the United States antibody described above—i.e.,
-          the availability of only one cutoff point for antibody concentrations—might be providing
-          an incomplete picture of the distribution of antibody levels by age, we examined an
-          additional dataset from Israeli toddlers. For the reasons described above, we examined
-          only antibodies to serotype 14, for which the distribution of concentrations by age is
-          shown in Figure 3. These data indicate that between the ages of 12–17 and 36–41 mo, the
-          median antibody concentration increases by about 2-fold. These data are broadly
-          consistent with those published for the United States; antibody levels rise very
-          gradually, though detectably, during the second and third years of life. It is difficult
-          to believe—albeit not impossible—that the dramatic declines in disease incidence over
-          these years are explained simply by this small rise in antibody concentrations.
-        
-        
-          Finland Findings
-          Incidence of serogroup 6 and serotype 14 invasive pneumococcal disease by 6-mo age
-          groups in Finland, shown in Figure 4, is broadly similar to that found in the United
-          States, albeit with lower absolute incidence for both serogroups. Peak incidence occurs
-          in the 12–17-mo age group, and incidence declines to 25%–30% of its peak rate by 24–29 mo
-          of age. This decline in incidence may be compared against the cumulative distributions of
-          antibody concentrations in Finnish toddlers shown in Figure 2 of [12]. Between ages 12
-          and 24 mo, there is a discernible increase in the concentration of antibodies in the
-          population, but the median concentration increases by only about 2-fold in this period.
-          Moreover, the proportion of the population with antibody concentration below any
-          particular threshold that may indicate protection changes little in this period. For
-          example, the proportion of the population with anti-type-14 antibody concentrations less
-          than 0.2 μg/ml declines from approximately 55% to approximately 40%, and the proportion
-          with less than 0.5 μg/ml is reduced from about 95% to about 80%. Similar patterns are
-          seen in the Finnish antibody data for type 6B [12]. Thus, as in the Israeli data, only a
-          very small shift in the distribution of type-specific anti-polysaccharide antibody
-          concentration is observed during the second year of life, yet incidence of invasive
-          disease from the serotypes in question declines substantially.
-        
+        Conclusions
+        Gene order is a labile genomic characteristic. The level
+        of conservation is high when organisms are phylogenetically
+        closely related, but conservation is lost rapidly, probably
+        to a higher degree than other genetic or genomic features [
+        8]. Thus, the instances in which gene order is conserved
+        between phylogenetically distant organisms may indicate
+        that strong selection pressures are keeping them together,
+        in the cases in which lateral gene transfer is unlikely to
+        be the origin of the conservation. Selection could be
+        because the operon controls the assembly of a
+        multifunctional enzymatic complex or the performance of an
+        important stage in a metabolic pathway. But in some cases,
+        other explanations should be considered, in which the gene
+        order could influence the phenotype. The existence of
+        conserved units bigger than operons seems to argue in favor
+        of other explanations [ 12, 16].
+        Gene order conservation can be valuable for establishing
+        the relationships between organisms as it is not influenced
+        by parameters that affect other genomic measures, such as
+        the content of unique genes, that are ultimately dependent
+        on the lifestyle of the species. Genomic properties have
+        been proposed as alternatives to classical molecular
+        phylogenies as they measure global features of the genomes.
+        So far, no genomic property by itself can represent that
+        alternative, and integration of information on different
+        properties is desirable. In this perspective, the
+        information offered by gene order conservation is
+        crucial.
       
       
-        Discussion
-        We have assessed two lines of epidemiological evidence, analyzed ecologically, that bear
-        on the role of anticapsular polysaccharide antibody as the determinant of protection
-        against invasive disease that develops during the second and third year of life. The
-        simultaneous and approximately parallel nature of the decline in disease incidence for the
-        seven most important serogroups in the United States suggests that one mechanism, rather
-        than seven independent mechanisms, account for the declines in invasive disease from these
-        serogroups. Moreover, only a slight increase in anticapsular antibody concentration is
-        measurable in Finnish, United States, and Israeli toddlers during the same age range. As we
-        discuss below, each of these lines of evidence is subject to caveats, but we believe that,
-        taken together, these observations make a strong case for the importance of one or more
-        factors other than acquisition of anticapsular antibodies in the development of protection
-        against pneumococcal disease.
-        There are several possible candidates for mechanisms that could explain this age-related
-        decline in pneumococcal disease. These include the following: acquisition of antibodies or
-        cellular immune responses to noncapsular pneumococcal “species” antigens; age-related
-        changes in host biology that are not related to acquired immunity, such as maturation of
-        the innate immune system or changes in anatomy or receptors for pneumococcal attachment;
-        changes in other risk factors, such as exposure; or changes related to other
-        microorganisms, including changes in the resident flora or changes in the incidence of
-        viral infections.
-        Systemic antibodies to several pneumococcal protein antigens, which are conserved across
-        pneumococcal strains and serotypes, develop following pneumococcal carriage and otitis
-        media and are present by the beginning of the second year of life [20,21]. In both Finland
-        [20] and Kenya [21], there is an increase in the concentration of antibodies to the
-        pneumococcal proteins pneumolysin and pneumococcal surface protein A over the first two or
-        more years of life. In Kenya, antibodies to another conserved protein, pneumococcal surface
-        adhesin A, showed similar distributions in the first, second, and subsequent years of life,
-        while in Finland, levels of these antibodies were already high (equivalent to adult levels)
-        in the first year of life, and increased above these levels in the second year. In mice,
-        either passively transferred human serum IgG against pneumococcal surface protein A or
-        vaccine-induced antibodies to pneumococcal surface protein A and/or pneumolysin are
-        protective against invasive disease. Such data are consistent with the hypothesis that
-        antibodies to these, or perhaps other, conserved pneumococcal proteins are in part
-        responsible for the decline in invasive disease in the second and subsequent years of
-        life.
-        A number of investigators have tested the hypothesis that antibodies to the pneumococcal
-        teichoic acid, known as cell wall polysaccharide (CWPS), are capable of protecting
-        individuals against pneumococcal invasive disease. While studies in animals [22] and humans
-        [23] have failed to find a protective effect of antibodies to CWPS or its components, a
-        recent study showed that passive transfer of human IgG against phosphorylcholine, a
-        component of CWPS, could protect mice against invasive pneumococcal infections [24].
-        Notably, such antibodies might be elicited by a number of bacteria in addition to
-        pneumococci, such as 
-        Haemophilus influenzae, which also produce phosphorylcholine. We are
-        unaware of studies on the timing of acquisition of anti-CWPS antibodies.
-        We have recently shown that mice that are exposed thrice at weekly intervals to
-        intranasal colonization with encapsulated pneumococci are protected against subsequent
-        carriage, that this protection is effective for heterologous as well as homologous capsular
-        types, and that it is effective even in MuMT mice, which lack the ability to produce
-        antibodies (Malley R, Trzcinski K, Srivastava A, Thompson CM, Anderson PW, et al.,
-        unpublished data). We have also shown that intranasal immunization with unencapsulated,
-        killed pneumococci protects against nasopharyngeal colonization, in a fashion that is
-        independent of antibody but requires CD4+ T cells at the time of challenge. The relevance
-        of cellular immune mechanisms in protecting humans against pneumococcal colonization or
-        disease is not known.
-        Another candidate for a factor that may be changing with age is susceptibility to viral
-        infections, especially influenza, which may predispose to pneumococcal colonization [25] or
-        disease [26,27]. Recent evidence from clinical trials of pneumococcal conjugate vaccines
-        shows that the vaccines can reduce the incidence of infections such as bronchiolitis that
-        are usually associated with viruses [28] and of documented, virus-associated pneumonia
-        [27]. These findings raise the possibility that the decline in pneumococcal disease with
-        age reflects, in part, a decline in the incidence or severity of viral infections, so that
-        fewer such infections lead to secondary pneumococcal disease.
-        Exposure to pneumococci probably changes in some fashion over the first 5 y of life.
-        However, for changes in exposure to account for the sharp drop in disease incidence
-        following the first birthday, it would be necessary for exposure also to drop severalfold
-        per year over this age range. Studies of pneumococcal carriage do show gradual changes in
-        the prevalence and serotype composition of the nasopharyngeal flora in these years, but the
-        prevalence of carriage changes much more gradually than the incidence of invasive disease
-        [29].
-        We are not aware of data that bear strongly on the plausibility of other possible
-        mechanisms for the age-related decline in pneumococcal disease, such as changes in anatomy,
-        physiology, receptor expression, or resident bacterial flora. However, factors other than
-        antibody—such as innate or acquired cellular immune responses, age-related anatomical
-        changes, or changes in exposure to pneumococci—cannot be ruled out, and more than one
-        factor may be involved. Indeed, the peak of pneumococcal meningitis incidence in the 3–6-mo
-        age group (see Figure 2) suggests that the mechanism of protection against meningitis may
-        differ from those against pneumonia and bacteremia.
-        Although we suggest that anticapsular antibody is not primarily responsible for the
-        age-specific decline in invasive pneumococcal disease, there is no question that the
-        capsule is an important virulence factor that interacts with the innate and acquired immune
-        system in a number of ways. It is clear that the pneumococcal capsule interferes with
-        various host clearance mechanisms [30]. It would be unsurprising if different capsular
-        types were differentially effective in permitting pneumococci to evade phagocytosis and
-        other host defenses [31] (M. Melin, H. Jarva, S. Meri, and H. Käyhty, unpublished data). If
-        this were the case, then one could envision that certain capsular types might in fact
-        follow a different age-specific incidence. In particular, recent analyses suggest that
-        serotypes 1 and 5 have relatively stable incidence over a range of age groups (W. P.
-        Hausdorff, D. R. Feikin, and K. P. Klugman, unpublished data).
-        The evidence adduced here is subject to several limitations. With respect to the
-        relative timing of acquisition of protection against different serotypes, one could
-        postulate that because some of the most common pneumococcal serotypes, such as 6B, 19F, and
-        23F, are also among the least immunogenic [12], the effective exposure of the immune system
-        is more consistent across serogroups than it appears from serogroup frequency alone.
-        However, this pattern is not general; for example, serotype 14 is both very common and
-        highly immunogenic [12]. With respect to the absolute timing of protection relative to the
-        acquisition of antibody, one could argue that low levels of anticapsular antibody, perhaps
-        of low affinity, may be present and even active at levels below those that can be reliably
-        detected by current assays, or that B cell memory may be present and protective at an
-        earlier age than that at which high levels of antibody are measurable. Inferences about
-        protective antibody concentrations from animal studies and from concentrations achieved by
-        vaccines suffer from several uncertainties. Making allowances for all of these limitations,
-        we nonetheless believe the data suggest that mechanisms other than anticapsular antibody
-        are primarily responsible for the age-specific decline in pneumococcal invasive disease
-        that starts at the age of 1 y.
-        The likelihood that mechanisms other than anticapsular antibody confer immunity to
-        pneumococcal disease has important implications with respect to vaccine design. As
-        experience with conjugate pneumococcal vaccines in children unfolds, it is becoming
-        increasingly clear that such a strategy suffers from several limitations, including the
-        possibility of serotype replacement (already confirmed in several clinical trials), a
-        modest effect on nasopharyngeal colonization, limited serotype coverage, cost, and
-        difficulties in production that have led to shortages since licensure. A better
-        understanding of the mechanisms that underlie natural immunity to pneumococcus could pave
-        the way for the development of more effective, species-specific pneumococcal vaccines.
+        Materials and methods
+        Sequences, positions and orientations of genes and
+        corresponding proteins in complete prokaryotic genomes
+        (Table 2) were obtained from NCBI [ 30]. Where the genome
+        is composed of several chromosomes and/or plasmids, the
+        sequences were linearized and concatenated.
+        Homologs and orthologs between genomes were detected by
+        BLAST [ 31] similarity searches. For two ORFs to be
+        considered as homologous, their alignment should include at
+        least 75% of the length of both ORFs, and the expected
+        value (E-value) must be less than 10 -5. I will refer to
+        this homology relationship as bidirectional hits (BHs).
+        ORFs related in this way are not necessarily orthologous,
+        however, as paralogous genes may exist and are also
+        identified. Therefore one gene can have more than one BH,
+        which may introduce a bias in the count of related genes
+        and conserved blocks of genes between two genomes. For
+        identifying real orthologs, I look for best bidirectional
+        hits (BBHs), such that one ORF is the closest relative of
+        the other and vice versa. All the results shown in this
+        article were obtained using BBHs, but the use of BHs does
+        not alter the tendencies, as only minor quantitative
+        differences were found.
+        The position of each gene in the genome is converted
+        into a linear scale, from one to the total number of genes
+        in the genome, and the information on either BHs or BBHs
+        between two genomes is used to extract 'runs' - clusters of
+        genes in which order is conserved. A run cannot comprise
+        genes from different strands; hence a change of coding
+        strand implies the termination of the run. I introduce two
+        parameters setting the minimum length of the run and the
+        maximum length of gaps (inserted genes) within it. For the
+        purposes of this article, these parameters were set to a
+        minimum length of three genes, allowing gaps of three genes
+        as well. As gene duplications may exist, duplicated runs
+        are also possible. Duplicated runs are taken into account
+        if, and only if, they are present in both genomes.
+        Otherwise the duplication is discarded. By definition,
+        duplicated runs do not exist when working with BBHs.
+        The measure of gene order conservation between two
+        genomes used here is the ratio between the number of genes
+        located in conserved runs and the total number of related
+        genes (BHs or BBHs).
+        Molecular phylogenetic methods have been widely used to
+        determine the degree of relationship between organisms. The
+        genes of choice are those universally conserved, especially
+        SSU rRNA. The classical molecular phylogeny of SSU rRNA was
+        obtained from the RDP database [ 32], and was used to
+        estimate distances between the organisms on the basis of
+        the number of substitutions between the sequences. The
+        distances were computed using different correction methods
+        (Jukes-Cantor, Jin-Nei and Kimura two-parameter methods),
+        by means of the program 'distances' of the GCG package [
+        33]. The differences using different correction methods
+        were found to be very small (less than 5%), and did not
+        influence this study.
+        Averaging molecular phylogenies of different universally
+        conserved genes has been proposed as a way of alleviating
+        the problems of individual phylogenies, by compensating for
+        the different tendencies found in single genes [ 24, 34].
+        By a systematic search, 24 genes conserved in all the
+        genomes used in this study were found. Molecular
+        phylogenies of these collections of genes were constructed
+        using neighbor-joining and maximum likelihood methods,
+        extracting 24 sets of distances. A unique set of distances
+        was obtained by averaging the 24 sets and used as an
+        additional measure of divergence between species.
+        Common gene content between two organisms is proposed as
+        a genomic estimation of distances between them. Common gene
+        content is defined as the ratio between the number of
+        orthologous genes found between the two species and the
+        maximum number of possible orthologs (the number of genes
+        in the smaller genome).
+        Therefore, three different estimations of distances
+        between organisms were used in this study: distances based
+        on SSU rRNA phylogeny; averaged distances of molecular
+        phylogenies of universally conserved genes; and common gene
+        content between the species.
       
     
   

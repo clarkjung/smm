@@ -1,416 +1,134 @@
 
-  
-    
-      
-        Background
-        Spermatogenesis is a complex developmental process in
-        which male germ cells progress through mitotic
-        proliferation, meiotic division and dramatic morphological
-        changes to form mature sperm. This process is vital for the
-        propagation of a species, and involves a large portion of
-        the genome of an organism to ensure the quality and
-        quantity of the final products. It is estimated that
-        mutations in up to 11% of all genes in 
-        Drosophila might lead to male
-        sterility [ 1 ] . This is likely to be true for humans
-        also, considering the extremely high incidence (4-5%) of
-        infertility in men [ 2 ] . Among the genes associated with
-        male infertility is the 
-        DAZ (Deleted in Azoospermia) gene
-        family. The family includes the Y-linked 
-        DAZ genes that are present only in
-        great apes and old world monkeys [ 3 ] , and the autosomal 
-        DAZL1 (DAZ-like 1) and BOULE genes [
-        4 5 ] in all mammals. Deletion of the 
-        DAZ genes is found in about 10% of
-        infertile males with idiopathic azoospermia [ 2 ] , and
-        disruption of 
-        Dazl1 causes infertility in both male
-        and female mice [ 6 ] . Mutations in the 
-        DAZ family members of 
-        Drosophila [ 7 ] , 
-        C. elegans [ 8 ] , and 
-        Xenopus [ 9 ] also affect the
-        fertility in either males, females, or both sexes.
-        The 
-        DAZ gene family encodes RNA binding
-        proteins that are expressed specifically in germ cells. DAZ
-        and DAZL are expressed in the nucleus and cytoplasm of
-        primordial germ cells and spermatogonia, and in the
-        cytoplasm of meiotic spermatocytes [ 6 10 ] . BOULE is
-        expressed later, in the cytoplasm of pachytene
-        spermatocytes [ 5 ] . Genetic and biochemical studies
-        suggest a role for the DAZ family in the regulation of mRNA
-        translation. 
-        Drosophila Boule mutants was
-        defective in the translation of the meiosis-specific CDC25
-        homologue, Twine [ 11 ] , and DAZL was found to be
-        associated with polyribosomes in mouse testes [ 12 ] . More
-        recently, DAZL was shown both 
-        in vitro and in a yeast three-hybrid
-        system to bind specifically to oligo(U) stretches
-        interspersed by G or C residues, including a U-rich segment
-        in the 5' UTR of mouse 
-        Cdc25C mRNA [ 13 ] .
-        In an attempt to elucidate the function of the 
-        DAZ gene family and to understanding
-        the mechanisms of its action, we used a yeast two-hybrid
-        system to isolate two human genes encoding DAZ associated
-        proteins (DAZAPs) [ 14 ] . One of them, 
-        DAZAP1, is expressed predominantly in
-        testes. It encodes a protein with two RNA binding domains
-        and a proline rich C-terminal portion. The DAZAP1 protein
-        interacted with both DAZ and DAZL 
-        in vitro. It also bound to RNA
-        homopolymers. We now report our characterization of the
-        mouse 
-        Dazap1 gene and its protein product.
-        The subcellular localization of DAZAP1 suggests that it is
-        not involved directly in mRNA translation.
-      
-      
-        Results
-        
-          Characterization of the mouse Dazap1cDNA
-          Mouse 
-          Dazap1 cDNA clones were isolated by
-          library screening, and the 5' end of the cDNA was
-          isolated by 5' RACE [ 15 ] . The near fall length cDNA
-          consists of a 53 bp 5' untranslated region (UTR), an open
-          reading frame for a protein of 405 amino acid residues,
-          and a 362 bp 3' UTR (GenBank Accession No: AF225910). The
-          coding region shares 89% similarity with that of the
-          human orthologue. The 3' UTR sequence is remarkably
-          conserved. It contains three segments of 35 bp, 133 bp
-          and 90 bp that share 85%, 90%, and 97% similarity with
-          segments in the human 3' UTR, respectively. These
-          segments probably contain regulatory elements.
-          The DAZAP1 protein contains two RNA-binding domains
-          (RBDS) and a C-terminal portion that is rich in proline
-          (Figure 1). It is highly conserved evolutionarily. The
-          mouse and the human proteins differ in 9 amino acids
-          only, with 7 substitutions and two deletions/insertions.
-          The mammalian proteins shares 89% similarity and 81%
-          identity with 
-          Xenopus Prrp (for proline-rich RNA
-          binding protein) [ 16 ] . The two RBDs are especially
-          highly conserved. They share 98% and 97% similarity and
-          97% and 92% identity, respectively, between DAZAP1 and
-          Prrp. These proteins may therefore have a similar RNA
-          binding specificity. The C-terminal proline-rich portions
-          of DAZAP1 and Prrp are less conserved (81% similarity and
-          71% identity). There is an insertion of a 58 bp segment
-          in Prrp cDNA that causes a change of reading frame and
-          results in a shorter Prrp with a different C-terminal end
-          sequence.
-        
-        
-          Genomic structure of Dazap1and chromosomal
-          mapping
-          Several overlapping lambda clones containing mouse 
-          Dazap1 genomic sequences were
-          isolated. The locations of exons were determined by PCR
-          amplification across exon-intron boundaries following by
-          sequencing. All but the first exon were isolated and
-          mapped. The genomic structure of the human 
-          DAZAP1 gene was also determined by
-          blasting the human genome sequence at National Center for
-          Biotechnology Information with the human 
-          DAZAP1 cDNA sequence. The mouse and
-          the human genes have very similar structures, consisting
-          of 12 exons spanning about 28 kb. All intron insertion
-          sites are conserved (Table 1). The two RBDs are encoded
-          by exons 1-4 and 5-8, respectively.
-          A pair of PCR primers was designed from 
-          Dazap1 intronic sequences that
-          amplified mouse but not hamster genomic sequences. Using
-          a panel of mouse-hamster radiation hybrids, the mouse 
-          Dazap1 gene was mapped to
-          chromosome 10 placed 27.84 cR from D10Mit260 (lod >
-          3.0) (data not shown). This region is syntenic to human
-          19p13.3 where the human 
-          DAZAP1 gene is located [ 14 17 ] .
-          It contains no known mutant alleles that are associated
-          with infertility.
-        
-        
-          Expression of Dazap1
-          Northern analyses of adult mouse tissues showed the
-          presence of two 
-          Dazap1 transcripts of 1.75 kb and
-          2.4 kb, respectively (Figure 2). Only the shorter
-          transcript has been isolated in cDNA clones. 
-          Dazap1 was expressed most
-          abundantly in the testis, much less in liver, heart and
-          brain, and even less in other tissues. This pattern of
-          expression is similar to that of the human 
-          DAZAP1 (14). RT-PCR analyses showed
-          that 
-          Dazap1 mRNA was already present in
-          fetal testes at embryonic day 15, similar to 
-          Dazl1 mRNA (Figure 3). The
-          expression of both 
-          Dazl1 and 
-          Dazap1 persisted throughout testes
-          development, in both the prenatal and postnatal periods. 
-          Dazl1 and 
-          Dazap1 transcripts were also
-          present in the testes of W v/W vmutant mice which
-          contained diminished number of germ cells [ 18 ] .
-          However, only 
-          Dazap1 was expressed in a mouse
-          germ cell line GCl-spg [ 19 ] and a Sertoli cell line
-          MT4. The results suggest that 
-          Dazap1 is expressed in both somatic
-          and germ cells in the testis.
-          To study the expression of the DAZAP1 protein, two
-          antibodies against mouse DAZAP1 were generated. The anti
-          DAZAP1-C antibody was raised against a recombinant
-          protein containing the C-terminal proline-rich portion,
-          and the anti DAZAP1-P antibody was raised against an
-          oligopeptide containing the last 19 amino acid residue at
-          the C-terminus. Both antibodies recognized 
-          in vitro synthesized DAZAP1 in an
-          immunoprecipitation assay (data not shown). Western
-          blotting of mouse tissue extracts detected a 45 kD
-          protein that was present most abundantly in the testis,
-          and to a lesser degree in spleen, liver, lung and brain
-          (Figure 4). The protein was also present in the ovary.
-          The expression of DAZAP1 during germ cell development
-          paralleled that of DAZL (Figure 5). It is present at a
-          low level in the testes of 6 days old mice which
-          contained only primitive type A spermatogonia. The
-          expression of DAZAP1 increased afterward, as the testes
-          contained increasing number of proliferating and meiotic
-          germ cells.
-        
-        
-          Subcellular localization of DAZAP1
-          Our previous fractionation of mouse testis extracts
-          showed that most DAZL were present in the post
-          mitochondrial fraction, and some of them were associated
-          with polyribosomes [ 12 ] . Similar analyses showed that
-          a majority of DAZAP1 in adult mouse testes was also
-          present in the cytoplasmic fraction (data not shown).
-          However, sucrose gradient analyses of the post-
-          mitochondria fraction showed that, unlike DAZL, DAZAP1
-          did not co-sediment with polyribosomes (Figure 6).
-        
-      
-      
-        Discussion
-        RNA-binding proteins have been found to participate in
-        many cellular functions, including RNA transcription,
-        pre-mRNA processing, mRNA transport, localization,
-        translation and stability [ 20 ] . A role for the DAZ
-        family in the regulation of mRNA translation is supported
-        by lines of circumstantial evidence, including the
-        association of DAZL with polyribosomes [ 12 ] . The absence
-        of DAZAP1 from polyribosomes indicates that it is not
-        directly involved in protein synthesis. This finding is
-        different from two RNA-binding proteins, FXR1P and FXR2P,
-        that were identified through their interaction with another
-        polysomal-associated RNA-binding protein, the fragile X
-        mental retardation protein [ 21 ] . Both FXR1P and FXR2P
-        are associated with the polyribosomes [ 22 ] .
-        The significance of the interaction between DAZAP1 and
-        DAZL/DAZ remains to be defined. These proteins may act
-        together to facilitate the expression of a set of genes in
-        germ cells. For example, DAZAP1 could be involved in the
-        transport of the mRNAs of the target genes of DAZL.
-        Alternatively, DAZL and DAZAP1 may act antagonistically to
-        regulate the timing and the level of expression. Such an
-        antagonistic interaction between two interacting
-        RNA-binding proteins is exemplified by the neuron-specific
-        nuclear RNA-binding protein, Nova-1. Nova-1 regulates the
-        alternative splicing of the pre-mRNAs encoding neuronal
-        inhibitory glycine receptor α2 (GlyR α2) [ 23 ] . The
-        ability of Nova-1 to activate exon selection in neurons is
-        antagonized by a second RNA-binding protein, brPTB
-        (brain-enriched polypyrimidine tract-binding protein),
-        which interacts with Nova-1 and inhibits its function [ 24
-        ] . DAZAP1 could function in a similar manner by binding to
-        DAZL and inhibiting its function. Comparing the phenotypes
-        of 
-        Dazl1 and 
-        Dazap1 single and double knock-out
-        mice may provide some clues to the significance of their
-        interaction. 
-        Dazl1 knock-out mice have already
-        been generated and studied [ 6 ] . The spermatogenic defect
-        in the male becomes apparent only after day 7 post partum
-        when the germ cells are committing to meiosis (H. Cooke,
-        personal communication). The genomic structure of 
-        Dazap1, delineated here, should
-        facilitate the generating of 
-        Dazap1 null mutation.
-        DAZAP1 was shown to bind RNA homopolymers 
-        in vitro, with a preference for poly
-        U and poly G. Its natural substrates have not been
-        identified. Recently, the 
-        Xenopus orthologue of DAZAP1, Prrp,
-        was identified and characterized [ 16 ] . Prrp binds to a
-        340 nt sequence in the 3' UTR of 
-        Xenopus Vg1 mRNA. This Vg1
-        localization element (VLE) is sufficient for the migration
-        and clustering of 
-        Vg1 mRNA to the vegetal cortex of
-        mature oocyte. Prrp also interacts through its proline-rich
-        domain with two microfilament-associated proteins profilin
-        and Mena, which may facilitate the anchoring of 
-        Vg1 mRNA to the vegetal cortex. The 
-        Vg1 RNA encodes a member of the
-        transforming growth factor-β family that is required for
-        generating dorsal mesoderm at the blastula stage of 
-        Xenopus embryogenesis [ 25 ] .
-        Sequence conservation between the RBDs of DAZAP1 and Prrp
-        suggests that these proteins may bind to similar RNA
-        sequences. However, a BLAST search of the GenBank for the
-        340 nt VLE sequence failed to identify any mammalian
-        sequences with significant homology. Further mapping of the
-        RNA sequence within VLE that binds Prrp, and possibly
-        DAZAP1, may help to identify the natural substrates of
-        DAZAP1.
-      
-      
-        Conclusions
-        DAZAP1 is an evolutionarily conserved RNA-binding
-        protein. It is present at variable levels in many tissues.
-        Its predominant expression in testes suggests a role in
-        spermatogenesis. In mouse testes, DAZAP1 was found both in
-        the nuclei and in the cytoplasm. Its absence from
-        polyribosomes indicates that it is not directly involved in
-        mRNA translation.
-      
-      
-        Materials and methods
-        
-          Isolation of mouse Dazap1cDNA clones
-          
-          Dazap1 cDNA clones were isolated
-          from a mouse testis cDNA library (#937308, Stratagene, La
-          Jolla, CA) using a human 
-          DAZAP1 cDNA as a probe. The 5' end
-          of the cDNA was isolated by 5' RACE [ 15 ] , using
-          prdap11 (ttgcgggccatatccttg, #749-732) as the primer for
-          cDNA synthesis from mouse testis RNA, and prdap37
-          (ttgttgccacgtgggcg, #734-718) and an adaptor primer as
-          the primers for PCR amplification. The PCR products were
-          cloned into a TA cloning vector pCR2.1-TOPO (Invitrogen,
-          Carlsbad CA). 
-          Dazap1 clones were identified by
-          colony hybridization and sequenced. The 5' RACE clone
-          with the longest 5' UTR region and the cDNA clone P21
-          were ligated together through a unique 
-          Pml I site at # 722 to generate a
-          cDNA clone (Dazap1-C) with a near full-length insert.
-        
-        
-          Chromosomal mapping of Dazap1
-          
-          Dazap1 genomic clones were isolated
-          from a mouse 129SV genomic library (#946305, Stragagene),
-          and sequences flanking each exons were determined. PCR
-          primers (prdap25: cacctccaggatgtgttagc and
-          prdazp26:gtcaccaagggtgtctgaag) were designed from
-          intronic sequences flanking 
-          Dazap1 exon 8. These primers
-          amplified a 271 bp fragment from mouse but not hamster
-          genomic DNA. DNA samples of a panel of 100 radiation
-          hybrids containing mouse chromosome fragments in a
-          hamster background were purchased from Research Genetics
-          (Huntsville, AL). The presence of mouse 
-          Dazap1 in the radiation hybrids was
-          determined by PCR and the results were sent to the MIT
-          server www.gonome.wi.mit.edu/mouse_rh/index.hlmlfor
-          computerized physical mapping of the gene.
-        
-        
-          Expression of Dazap1transcripts
-          Northern hybridization was carried out according to
-          standard procedures [ 26 ] using a mouse Multiple Tissue
-          Northern Blot #7762-1 from Clontech (Palo Alto, CA). The
-          blot was hybridized sequentially with 
-          DAZAP1 and β-actin cDNA probes,
-          with stripping of the bound probes in between.
-          Reverse transcription-polymerase chain reaction
-          (RT-PCR) was carried out as preciously described using an
-          annealing temperature of 54°C [ 27 ] . The primers were
-          prdap35: agctcagggagtacttcaaga and prdap24
-          :ggagcttgattcttgctgtcc for 
-          Dazap1 which generated a product of
-          211 bp, and prdaz71: atcgaactggtgtgtcgaagg and prdaz72:
-          ggaggctgcatgtaagtctca for 
-          Dazl1 which generated a product of
-          245 bp. Both primer pairs annealed across intron
-          insertion sites.
-        
-        
-          Generation of anti-DAZAP1 antibodies
-          Antibodies were generated against both a recombinant
-          protein produced in 
-          E. coli and an oligopeptide
-          synthesized 
-          in vitro. The insert of a 
-          Dazap1 cDNA clone P21, which
-          encoded the C-terminal portion of DAZAP1 (starting from
-          aa #197), was cloned in-frame into the 
-          Eco RI/ 
-          Xho I sites of an expression vector
-          pET32b (Novagen, Madison, WI). Sequences at the junctions
-          were verified by DNA sequencing. Milligrams of fusion
-          proteins between thioredoxin and DAZAP1 were prepared and
-          purified on His-Bind metal chelation resins (Novagen,
-          Madison, WI). The proteins were mixed with Freund's
-          adjuvant and injected into rabbits to generate the
-          anti-DAZAPl-C antibody. An oligopeptide containing the
-          last 19 ammo acid residues of the mouse DAZAP1 was
-          synthesized 
-          in vitro using the services of
-          Bethyl Laboratories (Montgomery, TX). The peptide was
-          conjugated to KLH as carrier and injected into a goat.
-          The anti-DAZAP1-P antibody thus produced was purified on
-          an affinity column containing the oligopeptide
-          antigen.
-        
-        
-          Western blotting
-          Mouse tissues were homogenized in the RIPA lysis
-          buffer (150 mM NaCl, 1.0% NP-40, 0.5% DOC, 0.1% SDS, 50
-          mM Tris, pH 8.0) at a concentration of 0.2 g tissue per
-          ml of buffer. The homogenized samples were cleared of
-          debris by centrifugation at 10,000 × g for 10 minutes.
-          Protein concentration of the tissue extracts was
-          determined by the Bradford method using the Bio-Rad
-          Protein Assay system (Bio-Rad, Hercules, CA). About 50 μg
-          of tissue extracts were separated on 10%
-          SDS-polyacrylamide gels and blotted with either the
-          anti-DAZAP1-C antibody (at a 1/2,000 dilution) or the
-          anti-DAZAP1-P antibody (at a 1/5,000 dilution). After
-          incubation with horseradish peroxidase-conjugated
-          secondary antibodies, the binding of antibodies was
-          detected using the ECL Western Blotting System (Amersham
-          Pharmacia Biotech, Piscataway, NJ).
-        
-        
-          Fractionation of mouse testicular extracts
-          Adult mouse testes were homogenized in a buffer
-          containing 20 mM Tris, pH 7.5, 100 mM KCl, 5 mM MgCl 
-          2 , 0.3% NP-40, 40 U/ml of Rnasin
-          ribonuclase inhibitor (Promega, Madison, WI), and a
-          mixture of 10 protease inhibitors provided in the
-          Protease Inhibitors Set (Roche Molecular Biochemicals,
-          Indianapolis, IN). Homogenates were centrifuged at 1,000
-          × g for 10 minutes to pellet cell debris and nuclei.
-          After an additional centrifugation at 10,000 × g for 10
-          minutes to pellet the mitochondria, aliquots of the
-          supernatant were applied to 15-45% sucrose gradients in
-          20 mM Tris, 100 mM KCl and 5 mM MgCl 
-          2 and centrifuged in a Beckman SW41
-          rotor at 39,000 rpm for 2 hours at 4°C. Fractions of 0.5
-          ml were collected from the bottom of the tubes and
-          analyzed by western blotting.
-        
-      
-    
-  
+
+
+
+Office of the General Counsel
+B-276222
+February 26, 1997
+The Honorable William V. Roth, Jr. Chairman The Honorable Daniel
+Patrick Moynihan Ranking Minority Member Committee on Finance
+United States Senate
+The Honorable Bill Archer Chairman The Honorable Charles B.
+Rangel Ranking Minority Member Committee on Ways and Means House of
+Representatives
+Subject: Social Security Administration: Supplemental Security
+Income; Determining Disability for a Child Under Age 18; Interim
+Final Rules with Request for Comments
+Pursuant to section 801(a)(2)(A) of title 5, United States Code,
+this is our report on a major rule promulgated by the Social
+Security Administration (SSA), entitled "Supplemental Security
+Income; Determining Disability for a Child Under Age 18; Interim
+Final Rules with Request for Comments" (RIN: 0960-AE57). We
+received the rule on February 12, 1997. It was published in the
+Federal Register as an interim final rule on February 11, 1997. 62
+Fed. Reg. 6407.
+This interim final rule implements the childhood disability
+provisions of sections 211 and 212 of Public Law 104-193, the
+Personal Responsibility and Work Opportunity Reconciliation Act of
+1996. Those sections provide a new definition of disability for
+children, mandate changes to the evaluation process for children's
+disability claims and continuing disability reviews, and require
+that disability redeterminations be performed for 18-year-olds
+eligible as children in the month before they attain age 18.
+GAO/OGC-97-23
+Enclosed is our assessment of the SSA's compliance with the
+procedural steps required by section 801(a)(1)(B)(i) through (iv)
+of title 5 with respect to the rule. Our review indicates that the
+SSA complied with the applicable requirements.
+In March 1995, our Office issued a report on the subject of this
+rule entitled "Social Security: New Functional Assessments for
+Children Raise Eligibility Questions" (HEHS-95-66).
+If you have any questions about this report, please contact
+James Vickers, Assistant General Counsel, at (202) 512-8210. The
+official responsible for GAO evaluation work relating to the Social
+Security Administration is Jane Ross, Director, Income Security
+Issues. Ms. Ross can be reached at (202) 512-7215.
+Robert P. Murphy General Counsel
+Enclosure
+cc: Mr. Brian Coyne Chief of Staff Office of the Commissioner
+Social Security Administration
+Page 2 GAO/OGC-97-23
+ENCLOSURE
+ANALYSIS UNDER 5 U.S.C. § 801(a)(1)(B)(i)-(iv) OF A MAJOR RULE
+ISSUED BY THE SOCIAL SECURITY ADMINISTRATION ENTITLED "SUPPLEMENTAL
+SECURITY INCOME; DETERMINING DISABILITY FOR A CHILD UNDER AGE 18;
+INTERIM FINAL RULES WITH REQUEST FOR COMMENTS" (RIN: 0960-AE57)
+(i) Cost-benefit analysis
+The Social Security Administration performed a cost-benefit
+assessment of the impact of the interim final rule. The assessment,
+which is summarized in the preamble to the rule in the Federal
+Register, was submitted to our Office in its entirety.
+SSA estimates that reduced program outlays resulting from the
+rule will be $4.7 billion dollars over the next 6 years with $34.7
+billion spent during that 6-year period on childhood disability
+benefits. In addition, it is estimated that there will be a
+reduction in Medicaid program outlays of $590 million during that
+period.
+The cost of conducting the medical redeterminations is expected
+to be $185 million in fiscal year 1997 and $130 million in fiscal
+year 1998. After that time, SSA estimates that administrative costs
+will be $10 million less each year from 1999 through 2002.
+The redeterminations are expected to result in 135,000 children
+having benefits terminated as a result of these changes in the
+law.
+The assessment also discusses the costs involved in two
+alternatives that were considered but were found not to adequately
+reflect the intent of the legislation, as reflected by the
+legislative history of Public Law 104-193.
+(ii) Agency actions relevant to the Regulatory Flexibility Act,
+5 U.S.C. §§ 603-605, 607 and 609
+The Commissioner has certified that the interim final rule will
+not have a significant economic impact on a substantial number of
+small entities since the rule only affects individuals.
+GAO/OGC-97-23
+(iii) Agency actions relevant to sections 202-205 of the
+Unfunded Mandates Reform Act of 1995, 2 U.S.C. §§ 1532-1535
+The interim final rule does not impose any unfunded mandates
+upon state, local or tribal governments or the private sector under
+the Unfunded Mandates Reform Act of 1995.
+(iv) Other relevant information or requirements under acts and
+executive orders
+Administrative Procedure Act, 5 U.S.C. §§ 551 et seq.
+The Commissioner determined under 5 U.S.C. § 553(b)(B) that good
+cause existed for dispensing with the Notice of Proposed Rulemaking
+procedures of the Administrative Procedure Act and has issued the
+rule as an interim final rule with a request for comments by April
+14, 1997. Since sections 211 and 212 of Public Law 104-193 were
+effective upon enactment and section 215 required the Commissioner
+to issue regulations to carry out the amendments within 3 months
+after enactment, the Commissioner found that it would be
+impracticable and contrary to congressional intent to follow the
+NPRM procedures.
+SSA will consider the comments received by April 14, 1997, and
+will issue revised regulations if necessary.
+Paperwork Reduction Act, 44 U.S.C. §§ 3501-3520
+The rule contains a new information collection requirement which
+was submitted to the Office of Management and Budget (OMB) under
+emergency procedures and OMB has approved the collection
+requirements and issued OMB No. 0960-0568.
+The new collection of information is the completion of the
+Childhood Disability Evaluation Form by the State Disability
+Determination Services. The submission to OMB lists the yearly
+usage rate of the form at approximately 800,000 and there is a
+one-time disability redetermination workload of 266,000 to be
+processed in 1997. The submission estimates the burden per response
+to be 20 minutes for an annual hour burden of 355,333. The cost to
+the federal government is estimated to be $8.7 million.
+Statutory authorization for the rule
+The interim final rule is issued pursuant to section 215 of
+Public Law 104-193 to implement sections 211 and 212 of the
+Personal Responsibility and Work Opportunity Reconciliation Act of
+1996. (110 Stat. 2105).
+Page 2 GAO/OGC-97-23
+Executive Order No. 12866
+The interim final rule was determined to be a "significant
+regulatory action" by OMB under Executive Order No. 12866 and was
+approved by the Office of Information and Regulatory Affairs, OMB
+as complying with the requirements of the order based on
+information supplied by SSA, including a planned regulatory action
+document describing the reason for the rule and an assessment of
+the costs and budgetary impact of the rule.
+Page 3 GAO/OGC-97-23
+
+
+

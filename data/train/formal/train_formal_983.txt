@@ -3,448 +3,755 @@
     
       
         Background
-        In terms of avoiding bias, the most rigorous method for
-        evaluating a medical intervention is the randomized
-        controlled trial. However, many clinical investigators are
-        unable to conduct a randomized trial because of excessive
-        cost or required effort or difficulty overcoming strongly
-        held beliefs among health care providers or patients. In
-        these situations, a clinical investigator may consider a
-        design and analysis based on observational data (Table
-        1).
-        One common method of inference from observational data
-        is the cohort study with an adjustment for risk factors
-        using, for example, regression models [ 1 ] and propensity
-        scores [ 2 ] . In some situations, estimates from
-        high-quality cohort studies have been similar to those from
-        randomized trials [ 2 ] [ 3 ] [ 4 ] [ 5 ] . However there
-        are some notable exceptions, including studies of the
-        effect of beta-carotene on cardiovascular mortality [ 6 ] [
-        7 ] , the effect of hormone therapy on the rate of
-        cardiovascular disease [ 8 ] , the effect of epidural
-        analgesia on the probability of Cesarean section [ 9 ] ,
-        the effect of beta-blockers on mortality [ 10 ] , and the
-        effect of aspirin on the risk of colorectal cancer [ 11 ] .
-        Some of the discrepancy between the results of these high
-        quality cohort studies and randomized trials may be
-        explained by differences in the intervention, patient
-        population, or duration of follow-up. Nevertheless, a major
-        reason for bias with cohort studies is the failure to
-        adjust for 
-        all factors related the receipt of
-        intervention and outcome. This failure may be due to the
-        inability to identify or collect the necessary data, or the
-        difficulty measuring or quantifying subjective factors such
-        as clinical judgment. For a fuller discussion of how an
-        omitted factor related to receipt of intervention and
-        outcome can bias results in a cohort study but not a
-        randomized trial see Baker and Kramer [ 12 ] .
-      
-      
-        Methods
-        An alternative and less widely known approach is the
-        paired availability design for historical controls [ 9 ] [
-        13 ] [ 14 ] . As we describe in more detail, the paired
-        availability design consists of comparing outcomes in
-        multiple hospitals or medical centers before versus after a
-        change in availability of a medical intervention. To adjust
-        for different changes in availability among the hospitals
-        or medical centers, the test statistic for each hospital or
-        medical center is the difference in outcome before and
-        after the change in availability divided by the change in
-        the fraction of patients who receive the intervention.
-        These test statistics are combined in a meta-analysis,
-        which weights the statistic from each hospital according to
-        the reciprocal of the variance, a quantity that depends on
-        sample size and the change in availability.
-        The paired availability design avoids many of the biases
-        of analyses based on traditional historical controls. With
-        traditional historical controls, investigators compare
-        outcome among subjects who receive a new intervention with
-        outcome among a previous group of subjects who received the
-        standard intervention. Selection bias often arises because
-        subjects who receive the new intervention are typically not
-        comparable to subjects who received the standard
-        intervention [ 15 ] . The paired availability design
-        reduces selection bias because the comparison is between 
-        all subjects (those who received the
-        intervention and those who did not) before the change in
-        availability and 
-        all subjects (those who received the
-        intervention and those who did not) after the change in
-        availability. Thus the intervention is the availability of
-        treatment, instead of the receipt of treatment. If the
-        sample of all subjects eligible for intervention is
-        comparable before and after the change in availability, one
-        can obtain an unbiased estimate of the effect of a change
-        in availability by comparing outcome among all subjects
-        before the change in availability with the outcome among
-        all subjects after the change in availability. This is
-        analogous to obtaining an unbiased estimate of the effect
-        of intent-to-treat by comparing outcomes among all subjects
-        in each arm of a randomized trial subject to
-        noncompliance.
-        For both the paired availability design and randomized
-        trials subject to noncompliance, the ideal goal is an
-        unbiased estimate of the effect of receipt of treatment. If
-        certain requirements hold, which we discuss, a simple
-        adjustment gives an unbiased estimate of the effect of
-        receipt of treatment in the paired availability design.
-        Similarly, in certain situations involving randomized
-        trials with noncompliance, such as switching interventions
-        immediately after randomization, a similar adjustment also
-        yields an unbiased estimate of the effect of receipt of
-        treatment [ 16 ] [ 17 ] . Readers interested in a formal
-        mathematical statement of these requirements and how they
-        give rise to the simple estimate should consult references
-        [ 9 ] [ 13 ] [ 14 ] [ 16 ] [ 17 ] .
+        The adult cuticular surface of insects is covered with
+        hairs, sensory bristles, ridges, scales and other
+        structures. In most body regions individual cuticular
+        structures are aligned in the plane of the epithelium. The
+        basis for the development of this planar or tissue polarity
+        has principally been studied in Drosophila [ 1 2 3 4 ]
+        where it is under the control of the 
+        frizzled ( 
+        fz ) pathway [ 5 ] . Many Drosophila
+        epidermal cells produce cuticular hairs that are outgrowths
+        from the apical surface of pupal epidermal cells. The
+        development of epidermal hairs has principally been studied
+        on the wing where each pupal cell produces a single
+        distally pointing hair. The 
+        fz pathway controls hair polarity by
+        directing the location for hair initiation [ 5 ] . In a
+        wild type fly hairs are formed at the distal most vertex of
+        the wing cells and extend distally. Mutations in 
+        fz pathway genes result in altered
+        sites for hair initiation, which results in altered hair
+        polarity and in some cases altered hair number [ 5 ] .
+        Sensory bristles are found in all regions of the adult
+        epidermis. Bristles are polarized within the plane of the
+        epidermis and in most body region neighbouring bristles are
+        aligned in parallel and point in the same direction as
+        neighbouring hairs. The 
+        fz pathway controls bristle polarity
+        by regulating the orientation of the spindle for the first
+        differentiative division of the sensory organ precursor
+        cell [ 6 ] . The ommatidia of the compound eye also display
+        a dramatic planar polarity that is under the control of the
+        
+        fz pathway. In this tissue the 
+        fz pathway controls polarity by
+        regulating the R3/R4 cell fate decision [ 7 ] .
+        The arista is the terminal segment of the antenna and it
+        is comprised of a central core of epidermal cells, some of
+        which elaborate a single lateral extension [ 8 ] . The
+        laterals and the cells that form them share a number of
+        characteristics of both hairs and bristles. The laterals
+        are longer than many bristles, but thinner. At the
+        ultrastructural level developing laterals resemble bristles
+        and not hairs [ 8 ] . They contain a series of large
+        bundles of F-actin that are juxtaposed to the plasma
+        membrane. In addition, microtubules are distributed
+        throughout the central region of the lateral. The
+        developing laterals resemble hairs and not bristle in that
+        they are formed at the apical surface of epithelial cells
+        and they are not innervated.
+        Mutations in the genes of the 
+        fz pathway result in altered hair and
+        bristle polarity and in some cases large numbers of cells
+        that produce multiple hairs. To determine if the 
+        fz pathway played a role in arista
+        development we examined the aristae of various 
+        fz pathway mutants [ 1 5 ] . We found
+        that 
+        multiple wing hairs ( 
+        mwh ), which results in an average of
+        almost 4 hairs per cell on the wing also resulted in the
+        formation of multipled and branched laterals. However
+        unlike the situation on the wing, where 
+        mwh results in altered hair polarity,
+        on the arista we did not see any evidence of altered
+        lateral polarity. We also examined aristae from 
+        inturned ( 
+        in ) and 
+        fuzzy ( 
+        fy ) mutants. On the wing mutations
+        in these genes result in altered hair polarity and in many
+        cells forming two or three hairs [ 5 ] . On mutant aristae
+        we found that 
+        in and 
+        fy caused multipled and branched
+        laterals, but as was the case for 
+        mwh we did not see any evidence for
+        altered polarity. We did not detect any mutant phenotype in
+        adult aristae of 
+        fz , 
+        Van Gogh ( 
+        Vang ), 
+        dishevelled ( 
+        dsh ), 
+        starry night ( 
+        stan ) also known as - 
+        Flamingo ( 
+        fmi ) or 
+        prickle ( 
+        pk ) mutants [ 1 ] . It was
+        surprising that upstream members of the 
+        fz pathway did not show a mutant
+        phenotype while downstream members did. We therefore
+        examined the situation further. In developing wild type
+        pupal aristae laterals formed near but not at the distal
+        edge of aristae central core cells [ 8 ] . When we examined
+        
+        fz, dsh and 
+        stan mutants we noted that lateral
+        initiation was no longer restricted to the distal region of
+        central core cells. Although these laterals formed at an
+        unusual subcellular location this did not produce a
+        noticeable phenotype in the adult. The altered location for
+        lateral initiation in 
+        fz and other mutants was similar to
+        their phenotype in the wing [ 5 ] . Prior to hair
+        initiation in wing cells Fz, Dsh, Fmi and Dgo accumulate on
+        the distal side of wing cells (Stan and Dgo are also
+        thought to accumulate on the proximal side) [ 9 10 11 12 13
+        ] . To see if this could be the case for lateral
+        development we examined the distribution of Fz in
+        developing arista using a Fz-GFP encoding transgene gene.
+        We found that Fz-GFP preferentially accumulated on the
+        distal side of arista central core cells much as it does in
+        wing cells. In addition, we found that this asymmetric
+        localization was lost in 
+        dsh mutants but retained in 
+        in and 
+        fy mutants as is the case in wing
+        cells. As is the case in wing cells the distal accumulation
+        of Fz did not appear to influence lateral development in an
+        
+        in or 
+        fy mutant. Overall the data argue
+        that the 
+        fz pathway functions in a similar but
+        modified way to regulate lateral morphogenesis as compared
+        to wing hair morphogenesis. We suggest that the absence of
+        a noticeable adult phenotype in 
+        fz aristae while there is a dramatic
+        phenotype on the wing is due to inherent differences in the
+        cell biology of the relevant cells.
       
       
         Results
         
-          Design
-          The paired availability design uses data collected in
-          either a prospective or retrospective manner, or a
-          combination of the two. Although implementing a
-          multi-center study may initially appear burdensome, two
-          mitigating factors lessen the burden: (1) randomization
-          is not required and (2) investigators need not collect
-          data on risk factors if the requirements hold. The
-          requirements (to follow) are most likely to hold when the
-          time period for the entire study is not too long. We
-          recommend limiting the total study duration to not more
-          than two years, recognizing there may be exceptions due
-          to patient accrual rate, intervention, and outcome. If
-          availability changes gradually, it is often sufficient to
-          split the data halfway between the start of the "before"
-          period and the end of the "after" period; although more
-          sophisticated statistical techniques can be employed [ 9
-          ]
-          The change in availability between the "before" and
-          "after" periods can take different forms which do not
-          affect the design or analysis. With fixed availability,
-          the intervention is available to all subjects who arrive
-          during a certain time of day or day of the week. With
-          random availability, the intervention is available only
-          if the necessary personnel or equipment is available,
-          which occurs at random. In either case, subjects can
-          decide whether or not to undergo the intervention.
-          The study design has five requirements for making
-          appropriate inference: stable population, stable
-          treatment, stable evaluation, stable preference, and no
-          effect of availability on the effect of intervention
-          (Table 2). Stable population, treatment, and evaluation,
-          are required for appropriate inference in any medical
-          study involving comparisons over time. Stable preference
-          and no effect of availability on the effect of
-          intervention, are needed to adjust for differences in
-          availability among hospitals or medical centers.
-          The first requirement, stable population, is that the
-          composition of subjects eligible for the intervention
-          should not change from the "before" to the "after" period
-          in ways that would affect outcome. This requirement would
-          be violated if subjects seek treatment because of the
-          availability of the treatment under study. The assumption
-          is therefore violated if hospitals advertise the
-          availability of a new diagnostic test or medical
-          intervention. In addition, each hospital or medical
-          center should serve a well-defined population with little
-          in- or out- migration. Examples include the only hospital
-          in a geographic region or a military medical center. The
-          presence of two or more hospitals in a region could
-          introduce bias if the new intervention were available in
-          only one hospital and it were not possible to exclude
-          from the analysis patients who switched hospitals to
-          undergo the new intervention. The stable population
-          requirement would also be violated by changes in
-          eligibility criteria over time. If eligibility is
-          determined by a medical diagnosis, the method of
-          diagnosis must not change over time. Lastly the stable
-          population requirement would be violated if the
-          underlying prognosis of patients changed over time. For
-          example in a study of treatment for a viral infection
-          which is spreading through a population, the most
-          susceptible subjects would likely enter the trial first,
-          which would violate the stable population requirement if
-          they have the worse prognosis after infection.
-          The second requirement, stable treatment, is that the
-          patient management unrelated to the intervention is
-          identical in the "before" and "after" groups. Thus, in
-          studying the effect of epidural analgesia on the
-          probability of Caesarian section, other forms of
-          obstetric management should be constant over time.
-          Similarly, in studying the effect of an intense
-          chemotherapeutic regimen for cancer on survival, the type
-          of antibiotic should not change of over time, as new and
-          more effective antibiotics could lower treatment-related
-          mortality irrespective of the efficacy of the anticancer
-          regimen.
-          The third requirement, stable evaluation, is that the
-          method of evaluation is identical in the "before" and
-          "after" groups. For example, the use of a new radiologic
-          test to stage cancer in the "after" group may
-          artifactually improve prognosis of each stage,
-          independent of the therapy [ 18 ] .
-          Because the paired availability design involves
-          multiple hospitals or medical centers, random violations
-          of the stable population, treatment, and evaluation
-          requirements will tend to average out, and not affect the
-          conclusion. The main concern is with systematic
-          violations. To minimize systematic violations, if
-          possible, a wide variety of hospitals or medical centers
-          should be studied.
-          The fourth requirement, stable preference, is
-          strengthened in the absence of new information in the
-          "after" period that would change a subject's preference
-          for the medical intervention. This requirement could be
-          violated by a widely publicized report of a harmful side
-          effect of the new treatment, or direct-to-consumer
-          advertising of the intervention to consumers. To the best
-          of our knowledge, in the paired availability design to
-          study the effect of epidural analgesia on the probability
-          of Cesarean section, there were no credible reports of
-          either detrimental or beneficial side effects to the
-          mother or fetus from epidural analgesia and no relevant
-          direct-to-consumer advertising. In contrast, if the media
-          reported preliminary results that radioactive seed
-          implants had fewer side effects than previous approaches
-          for treating prostate cancer, healthier subjects who care
-          most about the side effects may be more likely to request
-          the new therapy than less healthy subjects who only care
-          if treatment reduces the risk of mortality.
-          The fifth requirement is that the effect of the
-          intervention on outcome does not change with a change in
-          availability. Importantly, it applies only when there are
-          some subjects in the "before" group who undergo the
-          intervention. Mathematically the following two
-          assumptions are required to estimate method effectiveness
-          [ 9 ] [ 13 ] [ 14 ] . (1) Subjects in the "before" group
-          who undergo intervention have comparable counterparts in
-          the "after" group who undergo intervention (which is
-          justified by the other requirements) 
-          and the effect of intervention is
-          the same in both groups, i.e. it does not depend on a
-          change in availability. (2) Subjects in the "after" group
-          who do 
-          not undergo the intervention have
-          comparable counterparts in the "before" group who do 
-          not undergo the intervention (as
-          justified by the other requirements) 
-          and the effect of no intervention
-          is the same in both groups. By definition no intervention
-          is the same in the "before" and "after" groups, so a
-          change in availability of intervention would have no
-          bearing on (2). Thus the effect of a change in
-          availability on the effect of the intervention only
-          pertains to (1), where subjects in the "before" group
-          undergo intervention.
-          The fifth requirement would be violated if increased
-          availability caused some subjects to undergo the
-          intervention sooner in the course of the disease,
-          changing prognosis. The fifth requirement would also be
-          violated if there were a learning curve with new
-          intervention, such as a surgical technique that improves
-          with the number of procedures. If such violations are
-          likely, the design should be restricted to hospitals or
-          medical centers where no subjects in the "before" group
-          received the intervention.
-          Baker and Lindeman provided a formula to calculate the
-          required the number of hospitals or medical centers to
-          achieve sufficient power for hypothesis testing [ 13 ] .
-          However, the formula may be difficult to use if the
-          required information on the likely variability of an
-          effect over hospitals or medical centers is not readily
-          available. In such situations, as a rule of thumb, we
-          recommend a minimum of 10 hospitals or medical centers,
-          with 15 preferable, and 20 ideal.
+          The arista phenotype of inturned and fuzzy
+          On the wing, mutations in 
+          inturned ( 
+          in ) and 
+          fuzzy ( 
+          fy ) result in both altered hair
+          polarity and in many cells forming more than one hair [ 5
+          14 15 16 ] . In the arista mutations in these genes do
+          not have an obvious polarity phenotype but they do result
+          in the production of multipled and split laterals (Fig.
+          1C). We found about two lateral ends per lateral
+          producing cell (a wild type unbranched lateral has one
+          end per lateral producing cell) (Table 1). Most of these
+          cases were due to independent initiation events in the
+          same central core cell (≅ 50 %) or to a split near the
+          proximal end of the lateral (≅ 30 %). In phalloidin
+          stained preparations of 
+          in and 
+          fy mutant heads we saw that early
+          in lateral morphogenesis F-actin accumulated over a
+          larger fraction of the distal part of the cell than in
+          wild type (Fig. 1I). This wider distribution of F-actin
+          typically resolved into two (or occasionally more)
+          actin-filled laterals (Fig. 1J,1K). On occasion we saw
+          laterals in 
+          fy and 
+          in mutants that were branched
+          distally (Fig. 1K). In a wild type arista the lateral
+          initiates close to, but not at the distal most boundary
+          of the cell. On average the lateral is located at 90% of
+          the way toward the distal edge of the cell (Table 2). In 
+          in and 
+          fy mutants the proximal most
+          lateral was located about 65% of the way toward the
+          distal edge of the cell. This was significantly different
+          from that in wild type (Table 2). When we made a series
+          of timed observations of individual laterals 
+          in pupae we found that most cells
+          formed multiple independent laterals at a similar time.
+          We also saw examples where laterals split during
+          outgrowth (Fig. 2). The splitting was seen at a variety
+          of stages, from early in lateral outgrowth to as much as
+          8 hours or more after lateral initiation. We did not
+          detect any delay in lateral initiation or any notable
+          change in the rate of lateral elongation in these mutants
+          ( [ 17 ] (data not shown)). As split laterals extended
+          there was an increase both in the distance from the
+          proximal end of the lateral to the branch-point (Fig.
+          2B,2C) and from the branch-point to each of the distal
+          tips. This is similar to what we have seen with other
+          mutations [ 18 19 ] . That mutations in 
+          in and 
+          fy cause both independent lateral
+          initiations and the splitting of single laterals during
+          outgrowth was unexpected, as the multiple wing hair
+          phenotype produced by these mutations has been
+          interpreted as an effect only on hair initiation [ 5 ] .
+          This result led us to reexamine 
+          in and 
+          fy adult wings and indeed we were
+          able to find small numbers of branched hairs. The
+          presence of branched 
+          fy hairs was reported previously [
+          15 ] . Thus the phenotypic difference between the effects
+          on laterals and hairs appears quantitative and not
+          qualitative.
+          We next attempted to determine the critical time for 
+          in function in lateral development
+          using temperature shift experiments with the temperature
+          sensitive allele 
+          in II53 [ 20 ] . On the wing this
+          allele results in a large phenotypic difference when
+          pupae grown at the restrictive versus permissive
+          temperatures. We found that the phenotypic difference was
+          not so dramatic on the laterals, as at the restrictive
+          condition approximately 55% of laterals were split or
+          multipled while at the permissive condition about 35%
+          were split or multipled. This difference was still large
+          enough to use for the shift experiments. Lateral growth
+          takes place over more than 18 hours at 29°C and more than
+          30 hours at 18°C giving us a wide window for shift
+          experiments [ 8 ] . In shift experiments we found that
+          the crucial time for 
+          in function in lateral development
+          was around the time of lateral initiation (26 hours at
+          29°C and 52 hrs at 18°C) (Fig. 3). Notably, temperature
+          shifts in either direction even shortly after the start
+          of lateral outgrowth had only minor effects on the
+          phenotype. These results are similar to those previously
+          obtained on the wing [ 20 ] . It is worth noting that 
+          in laterals will sometimes split 8
+          hours or more after the end of the 
+          in temperature sensitive period. We
+          suggest that this is an example where the consequences of
+          a mutation are not manifested until some hours after the
+          time of action of the gene.
+          On the wing single and double mutant combinations of 
+          in and 
+          fy result in a similar phenotype [
+          5 ] . This lack of additivity has been interpreted as
+          evidence that these genes function and are required in a
+          common process. We compared the multipled lateral
+          phenotypes of 
+          in and 
+          fy single mutants and 
+          fy; in double mutants and found no
+          difference consistent with 
+          in and 
+          fy functioning in the same process
+          in lateral development (Table 1). In the wing 
+          in and 
+          fy are epistatic to mutations in 
+          fz , 
+          dishevelled ( 
+          dsh ), 
+          prickle ( 
+          pk ), 
+          Van Gogh ( 
+          Vang ) (aka 
+          strabismus ) and 
+          starry night ( 
+          stan ) (aka 
+          flamingo ) [ 5 21 ] . This was also
+          the case in the arista (Table 1).
         
         
-          Analysis
-          The purpose of the analysis is to estimate the effect
-          of the receipt of the medical intervention, which is also
-          called method-effectiveness [ 16 ] . As derived by Baker
-          and Lindeman [ 9 ] [ 13 ] , if the aforementioned
-          requirements hold, for each hospital or medical center,
-          the estimated effect of receipt of treatment is
-          D/F, where
-          D= difference in outcome before and after change in
-          availability
-          F = fraction that received intervention 
-          after change in availability -
-          fraction that received intervention 
-          before change in availability
-          If the outcome measure is a continuous variable such
-          as blood measure, D is a difference in the average
-          outcomes between the "before" and "after" groups. If the
-          outcome measure is binary, such as success or failure, D
-          is a difference in the fraction who fail or succeed in
-          the "before" and "after" groups.
-          The above estimate, D/F, has an analog in the analysis
-          of randomized trials when some subjects switch treatments
-          soon after randomization. With an intent-to-treat
-          analysis, one can estimate use-effectiveness, D*, which
-          is the effect of random assignment of treatment on
-          outcome. Similarly, one can estimate F*, the fraction of
-          subjects in the study group that received the new
-          treatment minus the fraction of subjects in the control
-          group that received the new treatment. Invoking an
-          assumption analogous to the fifth requirement for the
-          paired availability design, the estimated
-          method-effectiveness is D*/F* [ 17 ] .
-          As illustrated in the calculations accompanying Table
-          3, we use a standard approach for a random effects
-          meta-analysis [ 19 ] to summarize the estimated effect of
-          receipt of treatment over all studies. The summary
-          statistic is a weighted average of the estimated effect
-          of receipt of treatment for each hospital or medical
-          center, where the weight for each hospital or medical
-          center is the reciprocal of the sum of the sampling
-          variance and the variance of the true effect over the
-          studies. The sampling variance of the estimated effect of
-          receipt of treatment, the variability due to taking a
-          sample from a hypothetical larger population,
-          approximately equals the sampling variance of the
-          numerator, which is a standard calculation, divided by
-          denominator squared. The variability of the true effect,
-          which arises because the medical intervention is not
-          exactly identical among all hospitals, is computed using
-          the formula in DerSimonian and Laird [ 19 ] . The
-          standard error of the summary statistic is the square
-          root of the reciprocal of the sum of the weights. An
-          approximate 95% confidence interval is computed as the
-          summary statistic plus or minus the standard error
-          multiplied by the 97 1/2 percentile of a t-distribution
-          with degrees of freedom equal to the number of hospitals
-          or medical centers minus one [ 20 ] . This value can be
-          found in tables in many statistics books; for example for
-          11 hospitals, there are 10 degrees of freedom and the
-          value is 2.23.
+          The arista phenotype of mutiple wing hairs
+          In the wing 
+          multiple wing hairs ( 
+          mwh ) results in similar polarity
+          disruptions and a stronger multiple hair cell phenotype
+          than 
+          in or 
+          fy [ 5 14 ] . 
+          mwh aristae had almost 5 lateral
+          ends per cell (Table 1) (Fig. 1D). The laterals were also
+          substantially shorter than wild type (40-45% of normal
+          length). Thus, in the arista laterals as in wing hairs 
+          mwh has a substantially stronger
+          phenotype than 
+          in or 
+          fy. At early stages in 
+          mwh lateral morphogenesis we saw
+          multiple locations within individual cells where F-actin
+          accumulated (Fig. 1H). At later stages these appeared as
+          multiple independent laterals produced by individual
+          cells (Figure 1L,1M). These conclusions were confirmed by
+          time-lapse observations ( [ 17 ] (data not shown)). In
+          addition, we saw examples where a lateral split during
+          outgrowth ( [ 17 ] (data not shown)). There was no
+          alteration in the time of lateral initiation in 
+          mwh although we did see a decrease
+          in the rate of lateral elongation that was consistent
+          with the short final length of 
+          mwh laterals ( [ 17 ] (data not
+          shown)). The short length and slow growth may simply be a
+          consequence of the extreme multiple lateral phenotype as
+          laterals that were only slightly branched were of
+          relatively normal length. In the wing all double mutant
+          combinations of 
+          mwh and other 
+          fz pathway genes result in a 
+          mwh like phenotype [ 5 ] . For the
+          lateral phenotype we found that 
+          mwh fz double mutants resembled 
+          mwh, as is the case in the wing
+          (Table 1). However, 
+          mwh in and 
+          fy ; 
+          mwh laterals produced an
+          intermediate phenotype in terms of the mean number of
+          lateral ends per cell (Table 1). Thus, the relationship
+          between 
+          in and 
+          fy and 
+          mwh appears different in the wing
+          and arista, presumably reflecting differences in the
+          genetic circuitry in these two tissues.
         
         
-          Example
-          Baker and Lindeman applied the paired availability
-          design to study the effect of epidural analgesia on the
-          probability of Cesarean section [ 9 ] . They identified
-          11 hospitals or medical centers where epidural analgesia
-          was introduced, expanded, or discontinued. Stable
-          population and stable treatment requirements were
-          supported by the reports of the investigators. Stable
-          evaluation held because of the unambiguous nature of the
-          outcome. The stable preference requirement likely held,
-          as there were no widely published reports concerning
-          risks or benefits of epidural analgesia and no
-          direct-to-consumer advertising of the procedure. Because
-          increased availability would likely cause some subjects
-          to receive epidural analgesia earlier in the course of
-          labor, there was concern about violating the fifth
-          requirement of no effect of availability on the effect of
-          intervention. However, because a randomized trial had
-          previously shown that the effect of epidural analgesia on
-          the probability of Cesarean section did not differ
-          whether epidural analgesia was initiated early or late in
-          labor, the requirement was thought to hold. A slightly
-          simplified version of the data from Baker and Lindeman [
-          9 ] is given in Table 3. In particular, to simplify the
-          calculations for the hospital designated as number 11, we
-          regrouped data from multiple time periods into two time
-          periods.
-          Using the aforementioned method of analysis, with more
-          details in the notes for Table 3, the estimated increase
-          in the probability of Cesarean section due to epidural
-          analgesia was -0.005 with a 95% confidence interval of
-          (-.047, .037). This is fairly close to the more exact
-          calculations based on a permutation distribution in [ 9 ]
-          . Importantly, these results were similar to those from a
-          meta-analysis of randomized trials adjusted for switching
-          of treatments that yielded an estimate of method
-          effectiveness of .02 with 95% confidence interval of
-          (-.02, .08) [ 9 ] . In contrast, a high quality
-          propensity score analysis of cohort data gave a much
-          larger estimate of. 10 with a 95% confidence interval of
-          (.07, .13). The bias may be due to the omission of a risk
-          factor for intense pain early in labor [ 9 ] .
+          The arista phenotype of fz mutants
+          We did not see any obvious mutant phenotype in aristae
+          from 
+          fz, dsh, pk, Vang or 
+          stan flies (Fig. 1B). In the wing,
+          mutations in 
+          fz and these other 
+          fz like genes result in hairs with
+          abnormal polarity due to a failure to restrict prehair
+          initiation to the distal most part of the cell [ 5 ] .
+          Only infrequently does this result in a cell forming more
+          than one hair. When we examined the development of 
+          fz mutant laterals by phalloidin
+          staining we found that lateral initiation was not as
+          restricted to the distal part of cells as is the case in
+          wild type (Fig. 1F) (Table 2). Rather laterals formed at
+          a wide range of locations along the proximal distal axis
+          of the extended central core cells. For 
+          fz , 
+          dsh (Fig. 1G) and 
+          stan (data not shown) the lateral
+          formed at about 70% of the way toward the distal edge of
+          the cell, which was significantly different from that of
+          wild type. This was slightly more distal than we saw for 
+          in and 
+          fy but not significantly so (Table
+          2). For 
+          pk and 
+          Vang mutants the average location
+          for lateral initation was slightly less distal than in
+          wild type (≅ 85% vs 90%) and this difference was only
+          marginally significant. The position for lateral
+          initiation in 
+          pk and 
+          Vang was clearly different from
+          that of 
+          fz .
+        
+        
+          Fz accumulates asymmetrically in arista
+          cells
+          The initiation of wing hairs in the vicinity of the
+          distal most vertex of wing cells is preceded by the
+          preferential accumulation of Fz protein along the distal
+          side of wing cells [ 10 ] . To determine if the distal
+          initiation of laterals was also associated with the
+          preferential accumulation of Fz we examined aristae that
+          expressed Fz-GFP under the control of the 
+          armadillo promoter. This construct
+          is expressed at a low enough rate so that the subcellular
+          localization of the Fz protein is still preferentially
+          found along the distal edge of wing cells (Strutt, 2001).
+          We found that Fz protein also accumulated preferentially
+          along the distal/proximal edges of arista central core
+          cells (Fig. 4). This could be detected both before and
+          during lateral outgrowth. The ratio of the intensity of
+          GFP flourescence on the distal versus lateral sides of
+          the cells ranged from 1.7 to 2.4 in different aristae
+          preparations. This is similar to the ratio for Fz-GFP
+          that we have seen in wing cells. The emerging laterals
+          were found close to but not overlapping this region. From
+          our experiments we could not distinguish between
+          preferential location along the distal edge, proximal
+          edge or both. Based on analogy with the wing situation we
+          suggest it at the distal edge of the cells. In occasional
+          cells that bulged out from the central core this appeared
+          to be the case. The distal accumulation of Fz-GFP could
+          be detected until late in lateral development. At this
+          time the cells become highly elongated along the
+          proximal/distal axis and it becomes difficult to assess
+          what the distal edge is (Fig 4).
+          In the wing the accumulation of Fz at the distal edge
+          of the cell requires the function of 
+          dsh [ 10 ] . We examined aristae
+          from 
+          dsh 1; 
+          arm-fz-GFP pupae and found that the
+          preferential distal accumulation of Fz was lost (Fig. 4).
+          The ratio of GFP fluorescence on the distal versus
+          laterals sides of cells ranged from 1.2 - 0.9. Thus, as
+          in the wing the distal accumulation of Fz in arista cells
+          is dependent on 
+          dsh function. In the wing Dsh
+          accumulates preferentially along the distal edge of wing
+          cells [ 12 13 ] . We found that Dsh-GFP also accumulated
+          along the distal edge of arista cells (Fig. 4).
+          In the wing the distal accumulation of Fz is not
+          dependent on the function of 
+          in or 
+          fy , although in 
+          in and 
+          fy mutants the distal accumulation
+          of Fz is no longer able to restrict hair formation to the
+          distal edge of the cell [ 10 ] . We examined the
+          distribution of Fz in 
+          arm-fz-GFP; in and 
+          fy; arm-fz-GFP aristae. The
+          preferential distal accumulation of Fz was still present
+          in these arista cells (Fig. 4) (we obtained distal to
+          lateral edge ratios of 1.7 - 2.0), although the 
+          in and 
+          fy mutant lateral phenotype was
+          obvious. Thus, 
+          fz , 
+          in and 
+          fy appear to have a similar
+          relationship in the arista and wing.
+          There are a number of striking similarities in the
+          morphogenesis of hairs, laterals and bristles [ 8 ] .
+          Data presented here for laterals and previously for wing
+          hairs [ 10 ] show that the asymmetric accumulation of Fz
+          is prominent in these terminally differentiating cells.
+          Given these observations we might expect that this would
+          also be true for bristles. The bristle sense organ is a
+          multicellular structure with the cells organized in a
+          3-dimensional arrangement making it difficult to observe
+          Fz localization in all of these cells. The socket cell
+          that surrounds the growing shaft remains in the plane of
+          the adult epidermis and is easy to observe in whole mount
+          preparations of pupal epidermis. The socket cell is also
+          polarized in the same direction as the shaft as it is
+          higher on one side than the other. We examined the
+          accumulation of Fz-GFP in differentiating socket cells
+          and found that it was asymmetrically distributed both
+          early and late in bristle differentiation (Fig. 5). In
+          most cells that we observed it appeared to accumulate on
+          both the proximal and distal (dorsal/ventral etc.) edges
+          of the socket cells. We cannot be certain from these
+          observations if it was accumulating in the socket cell or
+          in the neighboring epidermal cells. The level of Fz-GFP
+          appeared higher than in typical epidermal cells
+          suggesting that we are looking at Fz-GFP present in the
+          socket cell. The ratio of GFP fluorescence at high to low
+          regions was similar (2.4 - 1.6) to what we obtained for
+          wing and arista cells. It was reported previously that
+          Fmi/Stan protein accumulated to a higher level in the PI
+          cell that forms the bristle lineage [ 22 ] . Previous
+          experiments have shown that Fz regulates orientation of
+          the spindle in the division of the PI cell of the bristle
+          sense organ lineage and it has been thought that this is
+          the way that 
+          fz regulated bristle polarity [ 4 6
+          ] . Our observations suggest that 
+          fz may also play a later role in
+          specifying bristle polarity that is analogous to its role
+          in regulating hair and lateral development.
         
       
       
         Discussion
-        The paired availability design has promise for
-        evaluating medical versus surgical interventions. For such
-        an evaluation, it would be difficult to recruit patients to
-        a randomized trial because few patients want to be
-        randomized to those options. Also, many physicians feel
-        uncomfortable assigning their patients to invasive versus
-        non-invasive interventions. Thus a validated alternative
-        method of evaluation would be of considerable value. We
-        think that, in some cases, the paired availability design
-        would be well suited for this type of evaluation. The key
-        to the stable population requirement is having clear and
-        constant eligibility criteria. For stable treatment,
-        ancillary care and the method of evaluation must be the
-        same over time. For the stable preference assumption to
-        hold, there should be no advertising of the medical
-        intervention. For the requirement of no effect of
-        availability on the effect of intervention, either the
-        surgical technique should have stabilized or the design
-        should only include hospitals with no previous
-        surgeries.
-        A possible example would be an analysis of surgical
-        removal of liver metastases in patients with colorectal
-        cancer. Although liver metastatectomy has been associated
-        with favorable outcomes, a more rigorous evaluation is
-        needed. An analysis of prospective cohort data is likely to
-        be biased because of the difficulty observing or
-        quantifying important risk factors such as patient
-        performance status, tumor doubling times, and meticulous
-        staging.
-        Several conditions listed in Table 2are favorable to a
-        paired availability design. The surgical approach has been
-        relatively stable for years. The use of CT scans and CEA
-        blood testing in follow-up of patients after resection of
-        the primary tumor has been popular for at least two
-        decades. Although systemic therapy has changed, efficacy of
-        chemotherapy for metastatic disease has reached a plateau.
-        Metastatectomy is not one of the procedures heavily
-        advertised by hospitals or medical centers. An ideal
-        circumstance would be to apply the paired availability
-        design to hospitals before and after the arrival of a
-        surgical oncologist who brings the procedure into common
-        practice for the first time at that hospital.
-        A well-designed randomized study of liver metastatectomy
-        would still give a more statistically valid assessment of
-        the procedure than the paired availability design. However,
-        such a randomized study has never been done, despite the
-        use of metastatectomy for many years. A paired availability
-        design would likely be subject to fewer biases than a
-        cohort study comparing outcomes of patients who did versus
-        those who did not undergo the surgical procedure.
-        To decide if a method for analyzing observational data
-        is generally reliable, one should have experience comparing
-        the results to those obtained from a randomized trial. In
-        the only application of the paired availability design to
-        date. Baker and Lindeman obtained similar results from the
-        paired availability design as from a meta-analysis of
-        randomized trials. These results differed substantially
-        from a multivariate adjustment for concurrent controls,
-        which likely omitted an important risk factor 2. Hopefully
-        this article will spur new studies using the paired
-        availability design, including some comparing the results
-        to those from randomized trials.
+        In wing cells the distal assembly of the hair is
+        preceded by the preferential accumulation of Fz, Dsh,
+        Fmi/Stan, and Diego along the distal edge of the cell [ 9
+        11 12 13 ] . This provides a cortical mark that is thought
+        to specify the proximal-distal axis of the cells. In these
+        cells the region for hair initiation overlaps, but is only
+        a small part of the region where these proteins accumulate.
+        It is unclear how the cytoskeleton is activated in this
+        restricted region. One possibility is that a Fz receptor
+        protein complex directly interacts with and activates
+        proteins that stimulate the cytoskeleton to produce a hair
+        (Fig. 6). In the arista we also see a preferential
+        accumulation of Fz protein at the distal/proximal edges of
+        cells and this likely serves a similar function as a
+        cortical mark. It is worth noting however, that the
+        location for lateral outgrowth does not directly overlap
+        with the location for Fz accumulation (Fig. 4, 7). Although
+        the lateral is formed in the distal region of the cell it
+        is not juxtaposed to the junctional complex or lateral cell
+        periphery where Fz accumulates. Rather laterals in wild
+        type flies form on the apical surface of arista cells (Fig.
+        7) [ 8 ] . Thus, in arista cells it is unlikely that there
+        is any direct connection between Fz receptor complex
+        proteins that accumulate distally and the actin
+        cytoskeleton of the laterals. More likely in this cell type
+        the distal accumulation of Fz and other proteins activates
+        a signal transduction pathway that activates the
+        cytoskeleton through a diffusible signal (Fig. 6). The JNK
+        pathway, which has been implicated in Fz signal
+        transduction in the eye is a candidate pathway to be
+        involved in this ( [ 23 24 25 ] ). We note that a
+        diffusible signal could be part of the mechanism that is
+        used to restrict hair initiation to a smaller part of wing
+        cells than the region where Fz accumulates.
+        Based on the precedent from wing cells it is at first
+        glance surprising that an alteration in the site for
+        lateral initiation does not produce obvious phenotypic
+        consequences [ 5 ] . Pupal wing cells are relatively
+        isotropic in terms of their shape in the planar direction.
+        The assembly of the hair at the cell periphery puts it in
+        close proximity to the junctional complex perhaps allowing
+        for direct interactions between the cortical and hair
+        cytoskeletons [ 5 ] . This could provide orientation
+        guidance for the growing hair. In a 
+        fz mutant, where hair formation no
+        longer takes place at the cell periphery this guidance
+        would be lost (Fig. 7). In an 
+        in mutant, where hair formation takes
+        place at alternative locations on the cell periphery, it
+        would be incorrect (Fig. 7). Lateral forming cells are
+        elongated in the proximal distal direction (Fig. 7) and
+        laterals grow out at a large angle to the apical surface of
+        the central core cells. In this way wild type laterals
+        resemble 
+        fz mutant wing cells [ 5 ] . Thus,
+        early in their development laterals are not close to the
+        junctional complex or the prominent cortical cytoskeleton
+        at the cell periphery and are unlikely to be getting any
+        orientation guidance in this way. In a 
+        fz mutant lateral the location along
+        the proximal distal axis of the cell is changed but there
+        is no disruption of a close connection to the cortical
+        cytoskeleton as there is in hair cells. In the mutant there
+        is no change in the dorsal/ventral position for lateral
+        outgrowth or the angle of the outgrowth to the apical
+        surface. In part this may be due to limitations inherent in
+        a relatively large lateral growing out of a long thin cell.
+        It is also worth considering that the elongated shape of
+        the lateral forming cells becomes much more extreme as
+        development proceeds (Fig 4) [ 8 ] . This brings the
+        laterals close to the cell edges that are parallel to the
+        proximal distal axis of the central core and the junctional
+        complexes at these edges could provide orientation
+        guidance.
+        Previous studies on 
+        in and 
+        fy function in regulating wing hair
+        development have focused on their role in regulating the
+        site for hair initiation [ 5 20 ] . Observations reported
+        in this paper show that multiple laterals associated with 
+        in and 
+        fy mutants can arise either from
+        independent initiation events or from the splitting of an
+        elongating lateral. The splitting of laterals could be due
+        to a need for 
+        in and 
+        fy function during the outgrowth
+        process or to a need for 
+        in and 
+        fy function at initiation with the
+        consequences only being manifested at a later time. We
+        carried out a set of temperature shift experiments to
+        distinguish between these possibilities. These shift
+        experiments showed that the essential time for 
+        in function in lateral development is
+        around the time of lateral initiation. This is similar to
+        what we previously found for 
+        in function in wing hair development
+        [ 20 ] . It is interesting that the consequences of a lack
+        of 
+        in function in laterals are
+        manifested some hours after the end of the 
+        in temperature sensitive period. We
+        suggest that in an 
+        in mutant there is a subtle defect in
+        a cytoskeleton-organizing center that promotes lateral
+        outgrowth. The defect is not severe enough to block or
+        dramatically slow lateral outgrowth. In some cells it leads
+        to the formation of multiple initiation sites and in others
+        to an unstable lateral that is subject to splitting. A
+        similar phenomenon could explain the formation of
+        occasional branched wing hairs in 
+        in, fy and 
+        mwh wings. It could also explain
+        differences in the hair, lateral and bristle phenotypes of 
+        tricornered ( 
+        trc ) and 
+        furry ( 
+        fry ) mutants [ 19 26 ] . In such
+        mutants bristles and laterals are often branched. In
+        contrast, 
+        trc and 
+        fry wing cells have a very dramatic
+        multiple hair cells phenotype (average more than 5 hairs
+        per cell). The multiple hairs are found primarily in
+        clusters of independent hairs with only occasional branched
+        hairs. We suggest that there is a common defect in 
+        trc and 
+        fry bristles, laterals and hairs.
+        Differences in the phenotypes would be due to inherent
+        differences in the sensitivity of these cell types to the
+        defective organizing centers. The smaller hairs would be
+        more sensitive to the defects leading to "spitting" during
+        the initial stages of growth, which would result in what
+        appears to be a cluster of independent hairs. The larger
+        structures (laterals and bristles) could be less sensitive
+        so that the consequences of the abnormal organizing center
+        would only be manifested later in morphogenesis if at
+        all.
+        Previous observations had indicated that the 
+        fz pathway functioned in the
+        development of planar polarity in hairs, bristles and
+        ommatidia [ 5 6 7 14 ] . Consistent with much current
+        thinking on signal transduction pathways it has been
+        suggested that there is a core group of 
+        fz pathway of genes that function
+        similarly in different cell types [ 2 ] . Downstream genes
+        would function to interpret the signal from the core group
+        of genes in a cell type specific way. As attractive as this
+        idea is a number of observations suggest that much of the 
+        fz pathway is modified in cell type
+        specific ways. For example, the asymmetric accumulation of
+        Fmi/Stan in wing cells is essential for marking the distal
+        edge of wing cells [ 9 ] . However, Fmi/Stan does not
+        accumulate asymmetrically in sensory organ precursor cell
+        that gives rise to the bristle sense organ although the
+        orientation of the pI cell spindle is altered in 
+        fmi/stan mutants [ 22 ] . Our
+        observations on the arista suggest that the genetic
+        circuitry of the 
+        fz pathway is modified in a different
+        way in this cell type. The most notable differences were
+        the lack of a substantial phenotype in 
+        pk and 
+        Vang and that 
+        mwh is not epistatic to 
+        in and 
+        fy as it the case on the wing.
       
       
-        Conclusion
-        We wish to emphasize that the randomized trial
-        represents the strongest form of evaluation and should be
-        implemented if possible. However we recognize that there
-        are situations where the randomized trial is difficult to
-        implement, such as comparing medical versus surgical
-        interventions. If the requirements for the paired
-        availability design are met, we recommend it as an
-        alternative with advantages over the usual analyses from
-        observational studies.
+        Conclusions
+        In this paper we provide evidence that a modified
+        version of the 
+        frizzled pathway regulates the
+        development of arista laterals. As is the case for the wing
+        the asymmetrical accumulation of Fz protein appears to
+        produce a cortical mark that is used to control where the
+        cytoskeleton is activated to produce a lateral.
       
       
-        Competing Interests
-        None Declared
+        Materials and methods
+        
+          Fly strains
+          Fruit flies were grown on standard media. Many of the
+          mutations were isolated in this lab and described
+          previously [ 5 20 27 28 ] . Several were obtained from
+          the Drosophila stock center at Indiana University. D.
+          Strutt kindly provided flies carrying the 
+          arm-fz-GFP transgene [ 10 ] and J.
+          Axelrod kindly provided flies carrying a 
+          dsh-GFP transgene (this construct
+          uses the endogenous 
+          dsh promoter) [ 12 ] . Temperature
+          shift experiments were done as previously [ 20 ] .
+        
+        
+          Cytological procedures
+          Standard techniques were used. In most staining
+          experiments pupae were fixed in phosphate buffered saline
+          supplemented with 4% paraformaldehyde. Actin staining was
+          done as described previously [ 8 ] using Alexa 568
+          phalloidin (Molecular Probes). For experiments where we
+          visualized GFP we made an effort to use the minimum
+          amount of fixation compatible with maintaining the
+          morphology of the aristae.
+        
+        
+          Microscopy
+          Confocal images were obtained using a BioRad confocal
+          microscope at the Keck Center for Biological Imaging at
+          the University of Virginia. Other images were obtained
+          using a Spot digital camera (National Diagnostics) on a
+          Zeiss Axioskop microscope using bright field optics.
+          Length measurements were made using either the software
+          provided with the Spot camera or by using the ruler tool
+          in Adobe Photoshop. To measure the intensity of
+          GFP-fluorescence we took maximal projections of optical
+          sections and used the Psion port of the NIH Image
+          software to analyze the data. The tif images were
+          inverted and the intensity plotted along an 8 pixel line
+          drawn across the relevant cell boundary. The background
+          was estimated by the lowest reading along the line and
+          this was subtracted from the highest reading to obtain an
+          intensity measurement. The same procedure was done for a
+          line drawn along a "low" intensity cell border. Multiple
+          cells were scored (usually 10) from the same projection,
+          averages obtained used to provide an intensity ratio.
+          Microsoft Excel was used to analyze the data (calculating
+          means, standard deviation, and plotting). To measure the
+          location along the proximal/distal axes of arista cells
+          we took micrographs of actin stained aristae where the
+          lateral was small (less than 1/3 the length of the cell)
+          and measured the distance from the proximal to distal
+          sides of the cell. We also measured the distance from the
+          proximal side to the distal edge of the base of the
+          growing lateral where it was connected to the central
+          core. The ratio of these two values is used as a measure
+          of the location for lateral initiation.
+        
+        
+          Scoring of arista phenotypes
+          Adult aristae were mounted in Gary's Magic Mountant
+          and examined under bright field microscope.
+        
+        
+          In vivoimaging of the arista laterals
+          Carefully aged pupae were washed and air-dried. In
+          early experiments they were then attached to standard
+          microscope slides with double-stick tape or to shallow
+          well slides using super glue. In both preparations the
+          animals were placed with their ventral side up. Pupal
+          cases were opened anteriorly. At various time points they
+          were examined by microscope under bright field optics in
+          a drop of water using a water immersion objective (40×).
+          After observation water was removed from the slides and
+          the pupae were then kept in a humid chamber at 25°C for
+          further development and observations. Most pupae
+          tolerated the treatment, reached the pharate adult stage
+          and were morphologically normal. More recently we built a
+          chamber using rubber spacers, double stick tape and a
+          cover-slip. The pupae were placed on the double stick
+          tape ventral side up and the pupal case opened. A small
+          amount of 10% gelatin, 10% glycerol was place on the
+          anterior end of the pupae and between the opened pupae
+          and the cover slip. Although the optics are not quite as
+          good as with our earlier approaches, the chamber approach
+          is less time consuming and can be used for automated time
+          lapse.
+        
+        
+          Statistical analysis
+          Excel was used in the quantitative analysis of
+          phenotypes. We used t-test and Z test in different
+          experiments for comparing different genotypes.
+        
+      
+      
+        Authors' contributions
+        BH carried out the scanning EM studies, many of the in
+        vivo observations, the phenotypic analysis of adult and
+        pupal aristae and helped with writing the paper. PNA
+        carried out some of the in vivo observations, many of the
+        studies on Fz-GFP and did much of the writing.
+        All authors read and approved the final manuscript.
       
     
   

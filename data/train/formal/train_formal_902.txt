@@ -2,122 +2,292 @@
   
     
       
-        
-        At some time almost 4 billion years ago, nature likely was faced with a chemical
-        dilemma. Nucleic acids had emerged as replicable information carriers and primitive
-        catalysts (Joyce 2002), yet their functional potential was constrained by their structural
-        homogeneity and lack of reactive groups. These properties rendered nucleic acids well
-        suited for storing information, but flawed for mediating the diverse chemistries required
-        to sustain and improve increasingly complex biological systems. It is tempting to speculate
-        that translation emerged as the solution to this dilemma. Translation, defined here as the
-        conversion of an informationcarrying molecule into a corresponding encoded structure,
-        enabled the expanded functional potential of proteins to be explored using powerful
-        evolutionary methods that depend on the unique ability of nucleic acids to replicate.
-        A small but growing number of researchers have begun to tackle a modern version of this
-        dilemma. While proteins and nucleic acids can be manipulated using powerful molecular
-        biology techniques that enable their directed evolution, the size, fragility, and
-        relatively limited functional group diversity of biological macromolecules make them poorly
-        suited for solving many problems in the chemical sciences. Ideally, researchers would like
-        to apply evolution-based approaches to the discovery of functional synthetic, rather than
-        biological, molecules. A solution analogous to nature's translation of mRNA into protein
-        could, in principle, address this contemporary problem (Orgel 1995; Gartner and Liu 2001).
-        If a laboratory system were developed that could translate amplifiable information carriers
-        such as DNA into arbitrary synthetic molecules, the evolution of synthetic molecules using
-        iterated cycles of translation, selection, amplification, and diversification would be
-        possible.
-        The translation of DNA into synthetic molecules is conceptually distinct from the use of
-        DNA simply as a tag during the solidphase synthesis of a molecule that is part of a
-        combinatorial library (Brenner and Lerner 1992). The latter process uses DNA to record the
-        history of a series of chemical reactions by cosynthesizing a portion of a DNA
-        oligonucleotide during each step of a molecule's solidphase synthesis. As a result, the
-        identity of compounds that pass screening can be inferred by PCR amplification and
-        sequencing of the DNA associated with a given bead (Needels et al. 1993). The resulting
-        DNA, however, cannot redirect the synthesis of active compounds. In contrast, the
-        translation of DNA into synthetic molecules uses the sequence of nucleotides in a strand of
-        DNA to direct the synthesis of a nascent molecule. As a result, a complete cycle of
-        translation, selection, and amplification can be applied to the discovery of synthetic
-        molecules in a manner that is analogous to the processes that take place during biological
-        evolution.
-        DNA-templated organic synthesis (DTS) has emerged as one way to translate DNA sequences
-        into a variety of complex synthetic small molecules (Gartner and Liu 2001; Gartner et al.
-        2002; Li and Liu 2004). In this approach, starting materials covalently linked to DNA
-        templates approximately 20–50 nucleotides in length are combined in very dilute solutions
-        with reagents that are covalently linked to complementary DNA oligonucleotides. Upon
-        Watson-Crick base pairing, the proximity of the synthetic reactive groups elevates their
-        effective molarity by several orders of magnitude, inducing a chemical reaction. Because
-        reactions do not take place between reactants linked to mismatched (noncomplementary) DNA,
-        DTS generates synthetic products in a manner that is programmed by the sequence of bases in
-        the template strand.
-        In a series of three papers in this issue of 
-        PLoS Biology , Harbury and co-workers describe an elegant new approach to
-        translating DNA into synthetic peptides called “DNA display.” Their approach uses DNA
-        hybridization to separate mixtures of DNA sequences into spatially distinct locations. The
-        first paper (Halpin and Harbury 2004a) reports the development of resin-linked
-        oligonucleotides that efficiently and sequence-specifically capture DNA containing
-        complementary subsequences. This immobilization process is efficient enough to be iterated,
-        so that DNA sequences specifying multiple amino acids can be routed to the appropriate
-        miniature resin-filled columns during each step.
-        In the second paper (Halpin and Harbury 2004b), Harbury and coworkers detail solid-phase
-        peptide synthesis performed on unprotected DNA 340mers bound to DEAE Sepharose.
-        Optimization of amino acid side-chain-protecting groups and peptide coupling conditions
-        enabled a variety of amino acids to undergo efficient peptide coupling to bound
-        oligonucleotides containing an amine group.
-        The third paper (Halpin et al. 2004) integrates the routing and peptide synthesis
-        described above into the translation of a library of 10
-        6 DNA 340mers into a corresponding library of up to 10
-        6 synthetic pentapeptides. To achieve chemical translation, the DNA
-        library was subjected to iterated cycles of routing and solidphase peptide synthesis. After
-        each routing step, the appropriate amino acid was coupled to each DNA-linked subpopulation.
-        DNA routing was therefore used to achieve the splitting step of “split-and-pool”
-        combinatorial peptide synthesis. The completed library of peptide–DNA conjugates was then
-        subjected to in vitro selection based on the ability to bind an antibody with known
-        affinity for the [Leu]enkephalin pentapeptide Tyr-Gly-Gly-Phe-Leu. After two rounds of
-        routing, synthesis, and selection, followed by DNA sequencing, the remaining
-        oligonucleotides predominantly encoded the Tyr-Gly-Gly-Phe-Leu sequence or close variants
-        thereof. This result demonstrates that the DNA display method is capable of facilitating
-        the discovery of functional molecules by enabling in vitro selection methods to be applied
-        to molecules generated by split-and-pool combinatorial synthesis.
-        The fundamental distinctions between DTS and DNA display approaches to chemical
-        translation imply that these two strategies will be applicable to different types of
-        synthetic structures. Because the DNA display approach separates the DNA hybridization step
-        from the chemical synthesis step, it does not require the coupling of synthetic reagents to
-        oligonucleotides (beyond the starting material), and can use reaction conditions such as
-        high temperatures or high pH that may not be compatible with DNA hybridization. These
-        features suggest that DNA display may be able to access structures that cannot be created
-        by DTS. Likewise, because DTS approaches use effective molarity rather than intermolecular
-        reactivity to direct organic synthesis, they enable modes of controlling reactivity (such
-        as using otherwise incompatible reactions in a single solution [Calderone et al. 2002]) and
-        classes of chemical reactions (such as heterocoupling of substrates that preferentially
-        homocouple) that cannot be accessed using split-and-pool synthesis. In principle, these two
-        approaches are complementary, and it is tantalizing to envision the use of both DNA display
-        and DTS to direct different steps during a single chemical translation.
-        In order for either approach to fully realize its potential of truly 
-        evolving libraries of diverse synthetic molecules, rather than simply
-        enriching libraries that already contain at the outset the “most fit” molecule, researchers
-        must develop sophisticated library syntheses that generate remarkable complexity (vast
-        numbers of different compounds) in a relatively modest number of DNA-compatible synthetic
-        steps. True evolution takes place when the theoretical complexity of a population exceeds
-        the number of different molecules that can be created in a single library translation step,
-        and when diversification is required to access compounds in later generations that are more
-        fit than any member of the starting pool.
-        To my knowledge, no synthetic library to date contains this degree of complexity
-        (indeed, the total size of the Chemical Abstracts Service database of known chemical
-        substances is presently less than 10
-        8 compounds). However, because so few copies of a DNA-linked synthetic
-        molecule are required for in vitro selection (Doyon et al. 2003)—compared with the
-        relatively large quantities of material that are required for conventional screening
-        approaches—these chemical translation methods offer the first hope of achieving such
-        synthetic complexity without requiring an impractical amount of material or storage space.
-        For comparison, a conventional-format synthetic library containing 100 µg of each of 10
-        8 different structures would represent 10 kg of material, not including
-        the mass of beads or plates associated with the library, while a chemically translated
-        library containing 10,000 copies of 10
-        8 different species represents less than 1 µg of total material.
-        While significant remaining challenges face efforts to develop and apply chemical
-        translation, the promise of marrying evolution and organic synthesis is an irresistible
-        combination for some researchers. The work of Harbury and co-workers described in this
-        issue represents the latest approach to the very ancient problem of translating replicable
-        information into functional structures.
+        Background
+        New antiretroviral therapies introduced in the mid 1990s
+        have allowed many persons with HIV infection to live longer
+        before progressing to AIDS, and to have longer survival
+        following an AIDS diagnosis [ 1 2 3 ] . The annual number
+        of deaths due to AIDS in the United States peaked in 1995
+        and has since declined [ 4 ] , resulting in an increase in
+        the number of prevalent AIDS cases. Current clinical
+        guidelines [ 5 ] call for persons infected with HIV to take
+        a combination of antiretroviral medications to decrease
+        viral load, maintain immune cell function, and prevent the
+        development of resistant viral strains. Thus, for many
+        patients the treatment of HIV has evolved more toward a
+        model of chronic disease management, with patients taking a
+        variety of potent medications for extended periods of
+        time.
+        Besides clinical outcomes, health-related quality of
+        life (HRQOL) and disability are important issues for
+        persons treated for chronic diseases [ 6 7 8 9 10 11 ] ,
+        including HIV infection [ 12 13 14 ] . Populations with HIV
+        infection or AIDS have reported different levels of HRQOL,
+        both in clinical trials [ 15 16 17 18 ] and
+        population-based research [ 19 20 21 ] . We present summary
+        information from a multi-site supplemental surveillance
+        project that describes the levels of HRQOL reported by
+        HIV-infected persons in different demographic and
+        behavioral risk factor groups, stressing the relationship
+        between disease progression and HRQOL.
+      
+      
+        Methods
+        Since 1990, the Centers for Disease Control and
+        Prevention (CDC) has conducted the Supplement to HIV/AIDS
+        Surveillance (SHAS) Project, an ongoing cross-sectional
+        interview study designed to collect supplemental behavioral
+        surveillance data from persons with HIV infection [ 22 ] .
+        Persons 18 years of age or older reported with HIV or AIDS
+        through routine case surveillance were eligible for
+        participation. Participants were enrolled using one of
+        three methods: (1) facility-based recruitment of all
+        eligible persons seeking treatment at selected health care
+        facilities in Atlanta, Connecticut, Denver, Detroit,
+        Florida, and New Jersey; (2) population-based recruitment
+        of all eligible persons in Arizona, Delaware, New Mexico
+        and South Carolina; and (3) population-based recruitment of
+        a 30% sample of men who have sex with men (MSM) and 100% of
+        all other eligible persons in Washington State and Los
+        Angeles County, California. During the period examined for
+        this analysis, Arizona, Denver, Detroit, New Jersey, and
+        South Carolina interviewed persons with HIV infection in
+        addition to those with AIDS. (Three sites-Detroit, South
+        Carolina, and Washington-opted not to collect data using
+        the HRQOL module and were excluded from all analyses.)
+        Informed consent was obtained from all participants prior
+        to the interview, and the study has received institutional
+        review board approval at both the CDC and local levels.
+        Trained interviewers conducted a standardized interview in
+        either English or Spanish that includes questions on
+        demographic characteristics, drug and alcohol use, sexual
+        behaviors, and medical and social service information. Data
+        are self-reported and are not verified through medical
+        record review or clinical tests. On average interviews take
+        approximately 45 minutes to complete. Data were sent to CDC
+        without any personal identifying information.
+        The format of the SHAS Project allows the questionnaire
+        to be modified to collect data on additional topics of
+        interest. From January 1995 through December 1996, a module
+        of questions adapted from research conducted by Albert Wu
+        and colleagues [ 23 ] was added to study the levels of
+        self-reported HRQOL. Wu et al compiled questions from the
+        RAND Medical Outcomes Study (MOS) [ 24 ] as well as
+        additional items to measure other dimensions of health
+        (energy, distress, and cognitive function) potentially
+        relevant to HIV disease. Wu et al found that their modified
+        health status questionnaire reliably and distinctly
+        measured aspects of health among HIV-positive persons
+        recruited for two clinical trials of zidovudine.
+        HIV-infected persons who were asymptomatic had higher
+        scores on most HRQOL dimensions-indicating relatively less
+        disability and a better quality of life-than persons who
+        were diagnosed with early AIDS related complex.
+        The SHAS Quality of Life module was used to collect
+        information on self-reported HRQOL in the following
+        dimensions: Overall Health, Pain, Physical Functioning,
+        Role Functioning, Social Functioning, Mental Health,
+        Energy/Fatigue, and Cognitive Functioning. These eight
+        HRQOL dimensions were measured using 24 questions (a subset
+        of the 30 MOS questions used by Wu et al). Response scores
+        for each HRQOL dimension were transformed linearly on scale
+        of 0 to 100. Multi-item dimensions were scored by summing
+        item responses, and internal consistency coefficients
+        (Cronbach's alpha [ 25 ] ) were calculated. For each
+        dimension, lower scores indicate relatively lower
+        self-perceived quality of life for that health measure
+        compared to higher scores.
+        Analysis of variance tests were used to compare crude
+        mean HRQOL scores across demographic and behavioral
+        categories; because the sample was large the significance
+        level for univariate analysis was set at P < 0.01.
+        Multivariate linear regression (least-squares means) was
+        used to identify independent factors associated with HRQOL
+        in the statistical models; analyses included variables
+        noted from the literature as potentially associated with
+        quality of life (e.g., age, sex, education, and income).
+        Linear regression models were then constructed using the
+        separate HRQOL dimension scores as the outcomes; here, the
+        significance level was set at P < 0.05. Tukey-Kramer
+        adjustments for multiple comparisons were used where
+        appropriate. Age and education were included in the models
+        as continuous predictor variables; CD4 count, gender,
+        income, race/ethnicity, mode of exposure, time known to be
+        HIV+, currently taking antiretroviral therapy (yes versus
+        no), and type of SHAS recruitment (population-based versus
+        facility-based) were included as categorical predictor
+        variables. To simplify comparisons across HRQOL dimensions,
+        we report results for models including all predictor
+        variables, regardless of whether any individual variable
+        was predictive of the outcome. All analyses were conducted
+        using SAS Version 6.12 (SAS Institute, Inc., Cary, NC,
+        USA).
+      
+      
+        Results
+        From January 1995 through December 1996, 6128 persons
+        were identified for interview at the nine sites that
+        administered the HRQOL module. Of these, 614 were found to
+        have died before they could be contacted. Of the remaining
+        5514, 4246 (77.0%) completed SHAS interviews, 463 (8.4%)
+        refused to participate, 394 (7.1%) could not be located,
+        and 353 (6.4%) were located but were too ill (either
+        physically or mentally) to participate. Sites phased out
+        the HRQOL module at various times during the two-year
+        period; HRQOL data were available from 3778 interviews.
+        Persons administered the HRQOL module were demographically
+        similar to persons who did not participate in SHAS
+        (refused, could not be located, or too ill), except that a
+        slightly higher percentage of those who did not participate
+        were male (76.0% vs. 73.5%) and white (40.5% vs. 34.0%;
+        chi-square test of proportions, P < 0.001).
+        The multi-item HRQOL dimensions of Physical Functioning,
+        Role Functioning, Mental Health, Energy/Fatigue, and
+        Cognitive Functioning were internally consistent in our
+        sample (Table 1; all Cronbach's alpha ≥ 0.84).
+        Demographic characteristics of the HRQOL module
+        participants are shown in Table 2. The median age of those
+        providing HRQOL information was 37 years (range: 18-84).
+        AIDS had been diagnosed in 81.1% of participants, 70.9% had
+        known of their HIV infection for 12 months or more, and
+        65.0% were currently taking any antiretroviral medications
+        (i.e., zidovudine, didanosine, zalcitabine, stavudine, or
+        experimental HIV drugs, including protease inhibitors). The
+        population mean score on the dimension of Overall Health
+        was 50.4 (on a scale of 0 to 100).
+        Mean HRQOL scores were stratified across demographic and
+        behavioral categories and compared by using the analysis of
+        variance. As seen in Table 2, lower Overall Health scores
+        were associated with older age, female sex, black or
+        Hispanic race/ethnicity, HIV exposure through injection
+        drug use, lower CD4 count, less than 12 years of education,
+        no private health insurance, and lower income. Mean scores
+        for each of the remaining HRQOL dimensions were also
+        computed and similarly compared by demographic
+        characteristics. In most instances in which significant
+        differences were found, lower HRQOL was associated with the
+        factors already listed (data not displayed).
+        In linear regression analyses, lower CD4 count, less
+        education, lower income, and older age were consistently
+        associated with lower HRQOL scores. Table 3shows the HRQOL
+        scores stratified by CD4 count adjusted for the other
+        predictor variables, using the Least Squares Means
+        technique (the group labeled "CD4 Unknown" includes those
+        who never had a CD4 test as well as those who had a CD4
+        test but could not recall the result). On all but two of
+        the HRQOL measures, self-reported HRQOL decreased as CD4
+        count decreased. CD4 count was not associated with the
+        measures of Mental Health and Cognitive Function.
+        We were also interested in the relationship between
+        antiretroviral therapy and HRQOL. Most of the study
+        population (65.0%) was currently taking antiretroviral
+        medication. Taking antiretroviral medication differed
+        significantly by CD4 count: 75.1% of those with a CD4 count
+        of <200 were currently taking antiretroviral medication,
+        compared to 68.5% with a CD4 count of 200-499, and 27.3%
+        with a CD4 count of ≥ 500 (P < 0.001, Mantel Hantzel
+        chi-square test for trend). In univariate analysis, current
+        antiretroviral therapy was associated with only two HRQOL
+        dimensions: therapy was negatively associated with Role
+        Function and positively associated with Mental Health. For
+        the dimension of Role Function, currently taking
+        antiretroviral medication was associated with a lower HRQOL
+        score (44.3) than that of persons not currently taking
+        medication (49.8; P < 0.001). However, in the
+        multivariate models examining HRQOL scores stratified by
+        CD4 count, currently taking antiretroviral medication was
+        not associated with differences in HRQOL.
+      
+      
+        Discussion
+        Disability and health-related quality of life are
+        becoming increasingly important issues associated with HIV
+        disease. New developments in the treatment of HIV have
+        produced dramatic improvements in the clinical and
+        immunologic health for many patients, with a resulting
+        reduction in deaths due to AIDS in the United States. Along
+        with clinical indicators of morbidity and mortality,
+        measures of HRQOL (such as physical functioning, mental
+        health, pain, and energy) can help guide treatment
+        decisions for both patients and providers.
+        Like other researchers, we found that lower HRQOL scores
+        and poorer perception of health were associated with more
+        advanced disease. A majority of the SHAS participants had
+        an AIDS diagnosis at the time of their interview. However,
+        a broad range of CD4 levels is represented in the study
+        population. Both facility-based and population-based
+        strategies were used to recruit SHAS participants. The
+        study population included large numbers of women,
+        racial/ethnic minorities, and persons infected with HIV
+        through injection drug use or heterosexual risk. These
+        groups have not been extensively reported in previous
+        studies of HIV and HRQOL, in which the populations have
+        been more representative of white male clinic patients [ 16
+        17 18 26 27 28 ] . Where significant differences were found
+        by univariate analysis, women, blacks, Hispanics, and
+        persons infected with HIV through injection drug use had
+        lower mean HRQOL scores. However, in multivariate linear
+        regression, sex, race/ethnicity, and HIV infection risk
+        were not associated with differences in HRQOL when
+        stratified by CD4 count.
+        Several limitations should be considered in the
+        interpretation of our findings. SHAS is a cross-sectional
+        interview study with data self-reported by the participant.
+        Critical indicators of disease progression, such as CD4
+        count, were not confirmed through clinical testing or
+        review of medical records. Among those who reported having
+        ever had a CD4 count, 12.5% could not recall the most
+        recent CD4 count; on most HRQOL dimensions their scores lay
+        between the scores for the lowest and middle CD4 groups.
+        This finding suggests they were more advanced in their HIV
+        disease; indeed, 83.6% were reported to the national
+        surveillance system as having AIDS. The SHAS questionnaire
+        also did not adequately capture the composition of a
+        person's past and current antiretroviral therapies, or the
+        duration of, and adherence to, those therapies.
+        Specifically, this questionnaire does not assess the
+        effects of protease inhibitor therapy on HRQOL, as those
+        medications were introduced during the period the HRQOL
+        module was used. Of the 2380 persons taking antiretroviral
+        medications at the time of interview, only 39 (1.6%)
+        reported taking protease inhibitors. Although other studies
+        have also reported that questions adapted from the MOS
+        discriminated differences in HRQOL among populations with
+        HIV [ 15 16 17 18 19 ] , the SHAS questionnaire's shorter
+        24-item subset of the MOS questions may limit direct
+        comparison of our results with those of other studies.
+        Still, our findings from the HRQOL analysis in SHAS
+        generally agree with those in other published research.
+        Quality of life issues are also important for persons
+        with HIV as they relate to medication adherence. Complex
+        medication regimens and side effects can affect both
+        quality of life and adherence [ 29 30 31 32 ] . Resistant
+        viral strains may emerge when adherence to antiretroviral
+        regimens is suboptimal. After the initial HRQOL module was
+        used, the SHAS questionnaire was modified to include
+        questions on use of past and current medications (including
+        protease inhibitors), duration of current therapies,
+        measures of adherence, and reasons for lack of adherence.
+        These questions should provide valuable new data on the
+        relationship of disease progression, therapy, and HRQOL
+        among participants in the SHAS Project.
+      
+      
+        Conclusions
+        The evolution toward treatment of HIV disease as a
+        chronic illness presents additional challenges for patients
+        and clinicians. Measures of health-related quality of life
+        can provide important information to behavioral and
+        clinical studies of antiretroviral treatment, adherence,
+        and viral resistance - factors that ultimately influence
+        HIV-related morbidity and mortality.
+      
+      
+        Authors' contributions
+        MLC developed the analysis question, conducted the data
+        analysis, and drafted the manuscript. AKN and AJD
+        participated in developing the analysis question, and have
+        contributed to and approved the final manuscript.
       
     
   

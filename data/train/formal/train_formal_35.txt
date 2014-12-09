@@ -1,1399 +1,511 @@
 
-
-
-
-May 2000
-Streamlining the Payment Process While Maintaining Effective
-Internal Control
-
-
-GAO/AIMD21.3.2
-Contents
-Preface
-Introduction
-
-Page 1 GAO/AIMD21.3.2 (5/00)
-Contents
-
-Related GAO Products
-Figure Figure 1: Agency Systems Architecture
-Abbreviations
-
-
-
-Preface
-In recent years, agencies have taken advantage of advancing
-technology to streamline operations and reduce costs in financial
-management systems. Specifically, in the payment processing area,
-agencies have redesigned or improved existing systems and have
-formally requested GAO's views on the quality of internal control
-designed into the new or modified systems. As part of GAO's
-responsibility to issue internal control standards and our
-commitment to improve financial management in government, we have
-worked with agencies to assist them in saving millions of dollars
-while ensuring that effective control was also included in the
-systems designs and modifications.
-Many of the agencies' designs and systems modifications have
-been creative and innovative in streamlining payment systems and
-reducing costs. In each case, after working with the agencies, we
-summarized their designs and our positions with regard to the
-internal control in their designs. We have aggregated the views in
-our individual letters into this booklet as a guide to agencies
-which are reengineering their payment systems. Our intentions are
-to (1) assist agencies in maintaining sound internal control and
-(2) help them focus requests for our assistance on the
-effectiveness of planned internal control for revised payment
-systems.
-This guide is divided into four major sections. The first
-section covers background information about traditional payment
-systems and the changes occurring in them. The second section
-focuses on advancing technology and its impact on payment systems.
-The third section deals with streamlining efforts in the payment
-systems involving the purchase of goods and services while the last
-section deals with streamlining efforts in the employee travel
-payment systems.
-Additional copies of this guide can be obtained from the U.S.
-General Accounting Office, 700 4th Street NW, Room 1100,
-Washington, D.C. 20548, or by calling (202) 5126000 or TDD (202)
-5122537. It is also available on the internet on GAO's Home Page
-(www.gao.gov)under "Other Publications."
-
-Jeffrey C. Steinhoff Assistant Comptroller General Accounting
-and Information Management Division
-
-
-Introduction
-This document contains four sections. The first section provides
-an overview of the traditional payment systems to vendors for the
-acquisition of goods and services and to employees as a result of
-government travel. It describes the major processing components of
-the payment system and focuses on the basic internal control that
-should have existed within these traditional systems to emphasize
-that these same control objectives should always be satisfied as
-payment systems change and evolve.
-The second section discusses the role of advancing technology
-and its effect on major changes that have and continue to occur in
-payment systems. The basic internal control discussed in
-traditional payment systems is emphasized as the key ingredient in
-maintaining effective payment systems regardless of the changes
-occurring. Also discussed are advances in technology, which have in
-recent years begun to be used by agencies, but for which wide
-spread application will likely occur in the foreseeable future.
-The third and fourth sections cover details of the numerous
-requests we have received, including a description of agencies'
-systems designs and modifications and our views on the
-effectiveness of the designed internal control in the proposed
-changes. The third section covers payments to vendors for the
-acquisition of goods and services and the fourth section covers
-payments to employees for government travel. The requests and our
-responses focus mostly on internal control regarding the automation
-of payment systems or the conversion from manual to automated
-systems.
-The first appendix covers relevant issues addressed in GAO's
-reports (responses to agency requests). The second appendix
-provides a brief discussion about relevant systems standards issued
-by the Joint Financial Management Improvement Program (JFMIP). The
-last page lists the products that form the basis for this
-document.
-In carrying out our responsibilities to work with agencies, we
-have published and periodically updated GAO's
-PolicyandProceduresManual forGuidanceofFederalAgencies. This manual
-is divided into eight major parts called titles. Title 7, "Fiscal
-Guidance," provides guidance in several areas including areas
-covering our responsibility to settle accounts of accountable
-officers, issue internal control standards, and respond to agencies
-that inquire about these matters. Title 7 contains extensive
-coverage on the payment process, which is the subject of this
-document, and provides the basic concepts and criteria we rely on
-in assisting agencies and responding to their requests.
-
-
-Background
-This section discusses the traditional payment process,
-modifications to the traditional payment process, and the
-importance of internal control in effectively administering the
-payment process. It also provides the basic concepts and criteria
-contained in Title 7, "Fiscal Guidance," of GAO's
-PolicyandProceduresManualforGuidanceofFederalAgencies. Title 7
-provisions form the basis for our positions developed in response
-to agencies' requests for our views on proposed new payment systems
-or modifications to streamline the operations of existing
-systems.
-
-
-Traditional Payment Process
-Title 7 identifies the following steps of the acquisition and
-payment process involving general purchases: (1) purchase
-authorization (the ordering function), (2) receipt and acceptance
-of the items ordered,
-
-
-(3)
-receipt of the invoice, (4) payment approval and
-authorization, and
-
-
-(5)
-actual payment (disbursement of funds). None of the
-requests we received for assistance involved the actual payment
-part of the process, and therefore we are not covering that aspect
-in this document.
-
-
-The purchase authorization portion of the process is the formal
-approval of the purchase by responsible designated officials within
-the agency and usually results in the obligation of budget
-authority. The receipt and acceptance portion generally involves a
-government employee taking possession of the items purchased and
-verifying quantity and quality of the items received. Receipt of
-the invoice or bill from the supplier or vendor represents a claim
-against the government for the items sent or delivered per the
-government's purchase order.
-The payment approval and authorization portions of the process
-can involve a multistep process with administrative approvals being
-first
-Background
-followed by payment authorization.1 An administrative approval
-is generally performed by a responsible official in the unit that
-ordered or received the items purchased. The administrative
-approval normally is based on verification that the items ordered
-were actually received and met the government's specifications, and
-thus validates a vendor's request (invoice) for payment.
-Payment authorization is generally restricted to designated
-persons in the agency. These individuals can be held personally
-liable, under certain circumstances, for authorizations made by
-them. These individuals are responsible for ensuring the legality,
-propriety, validity, and accuracy of all payments they authorize.
-Specifically, they must determine whether:
-
-
-•
-the payment is permitted by law;
-
-
-•
-the appropriation amounts are available at the time and
-are being used for the intended purpose;
-
-
-•
-the goods and services have been received and conform to
-the requirements of the order or agreement;
-
-
-•
-the required administrative approvals have been obtained;
-and
-
-
-•
-the quantities, prices, and calculations are
-accurate.
-
-
-As used in this document, administrative approvals are
-differentiated from payment authorization. Payment authorization
-(also called payment certification) refers to the act of approving
-payment and authorizing Treasury to disburse funds. Agency
-officials designated to be certifying officers (who certify
-payment) must have certain documents on file with Treasury, must
-follow Treasury regulations, and can be held legally liable for
-payments they authorize. Administrative approvals, on the other
-hand, refer to the approval function of various aspects of a
-transaction except for payment authorization. Administrative
-approvals include, but are not limited to, obligation of funds (for
-example, authorizing the purchase of goods, approving employee
-travel, approving contracts on behalf of the agency); accepting
-goods and services delivered to an agency per order or contract;
-and approving travel vouchers for payment scheduling. Agency
-officials authorized to perform administrative approvals are
-generally required to follow agency policies and procedures as
-opposed to statutory requirements and Treasury regulations followed
-by certifying officers.
-Because certifying officers' responsibilities cover the payment
-they authorized, their responsibilities can extend to most aspects
-of a transaction. Officials performing administrative approvals
-usually are responsible for fewer aspects of a transaction. For
-example, the administrative approval of an employee's travel
-voucher (usually performed by the employee's supervisor) generally
-confirms the reasonableness of the claim and that the travel
-actually took place. The certifying officer, however, not only
-verifies that the voucher contains an administrative approval
-ensuring that the travel took place, but also performs numerous
-examination procedures to ensure all claims are within regulations
-and limitations.
-Background
-Traditionally, certifying or disbursing officers2
-responsibilities extended throughout the payment process. They had
-staff assisting them in reviewing each invoice prior to payment
-authorization. This review is referred to as the "prepayment
-examination." The examination consisted of several steps, primarily
-focusing on comparing information on three critical documents-the
-obligation or ordering document, the receiving and inspection
-document (normally called a receiving report), and the invoice. The
-information on the three documents had to be of sufficient detail
-to allow an effective comparison to occur. The information had to
-include specific identification of the good or service (e.g., stock
-numbers, detailed descriptions, grades or quality, and types or
-models); quantities ordered, received, and billed; the quality
-(type, grade, or condition) of the items received; and prices per
-unit. If necessary, the invoice was adjusted to reflect the items
-actually received and accepted. While examining the documents, the
-staff also was required to verify that the documentation had the
-necessary administrative approvals. For example, such approvals
-could be evidenced by purchase orders signed by an authorized
-official or travel orders and vouchers signed by supervisors.
-Once the staff was satisfied that the invoice reflected a legal,
-proper, valid, and accurate amount, the invoice was deemed ready
-for payment. The invoice amount, or an adjusted or modified amount,
-was prepared for payment on a specific form. In the civil agencies,
-payment information (payee and amount) traditionally was entered on
-Treasury Form 1166, Voucher and Schedule of Payments. The specific
-form was forwarded along with the related supporting documents to
-the agency certifying or disbursing officer for review and
-approval. Once approved, by signature, the form without the
-supporting documents was forwarded to Treasury (for civil agencies)
-or another unit under the disbursing officer (for DOD) for actual
-payment.
-Lastly, the hard copy documents (i.e., obligation document,
-receiving report, and the invoice) supporting a disbursement were
-normally filed centrally at the certifying or disbursing officer's
-location for easy access in the event of a management review or
-outside audit of the payment process. The documents had to be
-retained for specified periods and be stored under certain
-procedures in accordance with Title 8, "Records Management," of
-GAO's PolicyandProceduresManual.
-Pursuant to Public Law 104106, National Defense Authorization
-Act for Fiscal Year 1996, DOD was given the authority to have
-certifying officers. Prior to that, disbursing officers usually
-approved vouchers for payment.
-Background
-
-
-Modifications to the Traditional Payment Process
-The traditional payment approval process has been modified over
-the years primarily through the application of statistical sampling
-and "fast pay" procedures, and the widespread use of computer
-technology. (Computer technology is discussed in the next section.)
-Statistical sampling was initially implemented in the 1960s to
-reduce the cost of the payment process while still affording
-confidence that payments were processed accurately. Statistical
-sampling procedures implemented involved a random selection of
-invoices from a known universe of invoices below a certain dollar
-amount (currently set at $2,5003)tobe examined in lieu of examining
-all invoices as would be done under a 100percent examination. Fast
-pay was implemented in the government, in certain circumstances, on
-a larger scale during the 1980s to assist agencies in meeting the
-payment timing requirements of the Prompt Payment Act. It involved
-the examination of invoices after payment in lieu of prepayment
-examination.4
-It should be noted that statistical sampling and fast pay
-procedures neither reduce the need for effective internal control
-nor relieve the certifying/disbursing officer of his or her
-responsibility. They merely provide a mechanism to reduce clerical
-costs and expedite processing while continuing to meet prompt
-payment requirements and maintain effective internal control.
-Statistical sampling allows conclusions to be made about (1) the
-universe of invoices from which the sample was selected and (2) the
-procedures in effect used to process all invoices in the universe.
-Examination of the sample and evaluation of the results permits
-correction of errors and other deficiencies found in the items
-sampled and the procedures and controls directly related to the
-items. It also permits projections as to the quality of all
-invoices in the universe.
-Prior to implementing sampling procedures, a sampling plan
-should be developed. The plan should include (1) a definition of
-the universe of invoices to be examined, (2) the size and selection
-method of the sample based on the risks of the invoice processing
-system, (3) procedures to analyze the results of the sample, and
-(4) methods to document the plan and the analysis.
-3Title 7 of GAO's PolicyandProceduresManual,section 7.4.E.
-4
-OMB Circular A125 (revised 12/12/89) PromptPayment, which
-provided guidance on the Prompt Payment Act, permits under certain
-conditions, the use of fast pay procedures to pay vendor invoices
-without evidence of receipt and acceptance at the time of
-
-certification and payment. (See footnote 5.)
-Background
-Compared to the prepayment examination of all invoices,
-implementing sampling procedures increases the risks of
-overpayments occurring and going undetected. This risk can be
-acceptably mitigated if the plan calls for invoice examination to
-be commensurate with the risk to the government. The plan should
-convincingly demonstrate that statistical sampling procedures would
-produce administrative savings while adequately protecting the
-interests of the government. Savings would be achieved if the
-combined costs of (1) examining the sample and (2) projected losses
-due to undetected errors on invoices not examined are less than the
-administrative cost of examining all invoices.
-Effective control over disbursements ordinarily requires
-examination of invoices before they are approved for payment.
-However, fast pay procedures typically entail payment authorization
-without evidence of receipt and acceptance, provided that
-subsequent to payment authorization, receipt and acceptance is
-verified. Under fast pay, examination of the invoice subsequent to
-payment authorization is sometimes referred to as "post payment
-examination." OMB Circular A125 PromptPayment,5 the Prompt Payment
-Act, and the Federal Acquisition Regulation (FAR), part 13 provide
-guidance on implementing fast pay. Based on that guidance, fast pay
-is currently subject to a limitation of $25,000 per invoice and the
-following conditions: (1) geographical separation and lack of
-communication facilities make it impractical to make timely
-payments based on evidence of acceptance, (2) suppliers who will be
-paid under the procedure have agreed to repair, correct, or replace
-goods or services not conforming to requirements, and (3) and it is
-limited to suppliers who have had and continue to have a good
-ongoing business relationship with the agency.
-Normally, under fast pay procedures, all invoices are examined
-subsequent to payment authorization. However, combining statistical
-sampling with fast pay procedures is permitted under appropriate
-circumstances. Although such a combination increases the risks of
-overpayments occurring, the risks can be effectively mitigated if
-the sampling plan developed ensures that projected savings exceed
-estimated costs.
-OMB revised the circular effective October 29, 1999. The
-requirements and the guidance in the circular were then placed in
-the Code of Federal Regulations (5 C.F.R. part 1315, "Prompt
-Payment") and the circular was rescinded.
-Background
-
-
-Importance of Effective Internal Control and Financial
-Management Systems
-Each agency's internal control over the payment process should
-be based on the operating needs of the agency. In particular, the
-units that process payments under the direction of the certifying
-and disbursing officers should have in place effective internal
-control activities6 to ensure payments are legal, proper, valid,
-and accurate and that duplicate payments are avoided.
-Under traditional payment processes, certifying officers
-reviewed all invoices they authorized for payment. Although the
-certifying officers are primarily responsible for payments
-authorized, the volume of transactions, the geographic dispersion
-of activities, and the emphasis on prompt payment make it virtually
-impossible for these individuals to review all invoices before
-authorizing payment. Consequently, in fulfilling their
-responsibilities, these officers must rely on the systems, internal
-controls, and personnel that process the transactions. As a result,
-payment process oversight has generally shifted from individual
-transaction reviews to reviews of internal control over systems
-that process the transactions.
-This shift in emphasis from approval of individual transactions
-to evaluations of the adequacy of systems and the internal control
-environment has been reflected in law and in policy for numerous
-years. The Federal Managers' Financial Integrity Act of 1982
-requires agency management to annually assess and report on the
-adequacy of internal control. The guidance needed to comply with
-this act is contained in GAO's
-StandardsforInternalControlintheFederalGovernment7 and OMB Circular
-A123 (revised June 21, 1995), Managementand
-AccountabilityControl.
-The Federal Financial Management Improvement Act of 1996
-requires, among other things, that agencies implement and maintain
-financial management systems that substantially comply with federal
-financial management systems requirements. These system
-requirements are detailed in the Financial Management Systems
-Requirements series issued by the Joint Financial Management
-Improvement Program (JFMIP) and OMB Circular A127 (revised June 10,
-1999), FinancialManagement Systems. JFMIP requirements documents
-include (1) a framework for financial management systems, (2) core
-financial management systems
-6
-Examples of internal control include separation of duties,
-limited access to assets and information, clear documentation of
-all transactions and events, and the timely recording of
-transactions and events.
-
-7StandardsforInternalControlintheFederalGovernment(GAO/AIMD99.21.3.1)
-was revised in November 1999, and is available on the Internet, GAO
-home page (www.gao.gov) under "Other Publications." It is also
-available in hard copy by calling (202) 5126000 or at Room 1100,
-700 4th Street NW (corner of 4th and G Sts. NW, Washington, DC.
-Background
-requirements, and (3) requirements for 16 other systems that
-support agency operations. (See appendix II for a further
-description of the JFMIP systems requirements series.)
-While new technologies and reengineering of business processes
-may change how certifying and disbursing officers operate, their
-basic responsibilities and accountabilities remain unaltered.
-Consequently, these officers must have valid and documented
-assurances that the systems and key controls on which they rely for
-authorizing payments are working as intended and remain intact and
-effective over time. This confidence in the systems and control
-should be based on several factors; among the most significant are
-the following:
-
-
-•
-A welldefined organizational structure and flow of work,
-appropriate separation of responsibilities, and clearly written
-policies and procedures governing purchase authorization, receipt
-of goods and services, and examination and approval of invoices for
-payment.
-
-
-•
-Effective application of available technology for
-efficient and effective acquisition of goods and services and
-processing of payment authorization.
-
-
-•
-Review of the invoice examination process in sufficient
-scope, depth, and frequency to provide reasonable assurance that
-systems and controls are working as intended and are
-reliable.
-
-
-
-
-Advancing Technology
-The repetitive nature of processing most transactions and the
-uniform examination procedures applied to invoice processing
-usually permit extensive automation of these processes. In lieu of
-the traditional practice of performing a 100percent manual
-prepayment examination of invoices, agencies today process large
-volumes of transactions in highly automated systems with automated
-controls, electronic data interchange, and computer assisted
-examination techniques.
-Data entry edits to ensure accurate and reliable data processing
-are relatively simple to develop and use. Edits are programmed to
-perform various comparisons, verifications, and calculations to
-produce outputs that effectively replace many of the manual invoice
-processing and examination procedures. As the sophistication and
-the number of edits continue to evolve and become more widely
-applied throughout the government, agencies have been revising
-their automated payment processes to reflect these improvements
-while at the same time making their systems more efficient.
-Hard copy documentation that is necessary to support invoice
-examination and payment authorizations is giving way to electronic
-forms which reduce retention and storage costs while concurrently
-enhancing access capabilities. Today's proper application of
-available technology makes it possible to perform the required
-prepayment examination without assembling hard copy records from
-diverse locations as in the past. With today's technology,
-personnel can extract data from hard copy source records, input the
-information into the automated system through computer terminals,
-and forward the data through communications networks to a
-centralized location for further online processing, examination,
-and payment authorization. However, implementation of available
-technologies does not change the requirement that audit trails of
-transactions and authorizations be maintained or the rigors of
-examination of invoices not be compromised.
-Although automation of payment processes helps streamline
-operations, the basic responsibilities of the certifying and
-disbursing officers remain the same. These officers must have
-sufficient knowledge of the automated systems in order to carry out
-their responsibilities effectively. They are still responsible for
-making sure that they can rely on the quality of the automated
-systems to ensure that invoices authorized for payment are legal,
-proper, valid, and correct.
-The quality of the automated systems is to a large extent based
-on the effectiveness of internal control. Internal control over
-automated systems can be grouped into general control and
-application control. General
-
-
-Electronic Signatures
-Advancing Technology
-control applies to all information systems-mainframe,
-minicomputer, network, and enduser environment. Application control
-is designed to cover the processing of data within application
-software.8 To ensure the quality of the automated systems,
-management must provide the environment for effective
-implementation of general and application controls.
-Automated environments naturally require various levels of
-access in order to permit data entry, appropriate data manipulation
-(i.e., calculations, summarization, and reporting), program
-modifications, and data review and approval. Generally, access,
-authorization, and approvals are permitted through various controls
-and electronic symbols or programmed data elements. The degree of
-control over access to automated systems for data entry,
-examinations, reviews, and approvals will vary. User identification
-codes and passwords provide less control over data than do
-electronic signatures. An electronic signature is a method of
-signing an electronic message that (1) identifies and authenticates
-a particular person as the source of the electronic message and (2)
-indicates such person's approval of the information contained in
-the electronic message.9
-An electronic signature is a data authentication process, which
-when effectively implemented, provides assurance that data
-associated with the signature has not been altered or changed.
-Traditional user identification codes and passwords, while
-permitted under certain circumstances, do not. To be effective, GAO
-recommends that electronic signatures be
-(1) unique to the signer, (2) under the signer's sole control,
-and (3) capable of verification. In addition, the signature should
-be linked to the data in such a manner that if the data are
-changed, the signature is invalidated. The National Institute of
-Standards and Technology (NIST)10 has established procedures for
-the evaluation and approval of certain automated signature
-techniques11 to ensure data integrity and consistency with
-previously mentioned criteria.
-8
-General and application control is discussed further in the
-StandardsforInternalControl intheFederalGovernment, November 1999
-(GAO/AIMD0021.3.1), pp. 1618.
-9
-The Government Paperwork Elimination Act, section 1710(1).
-10
-Under the requirements of the Computer Security Act, NIST is
-responsible for establishing standards for federal computer systems
-that process sensitive but unclassified information.
-11
-These procedures are contained in the Federal Information
-Processing Standards (FIPS PUB 186).
-Advancing Technology
-
-
-Enhancing Internal Control and Data Integrity
-In developing electronic data authentication systems, Title 7
-recommends that agencies follow NIST guidance for payment approval
-(payment certification). Automated approvals, when the risks
-associated with automated records and approvals warrant it, might
-necessitate electronic signatures that follow NIST guidance. The
-Government Paperwork Elimination Act requires OMB to issue guidance
-to agencies regarding automated systems that maintain electronic
-information as a substitute for paper and use electronic
-signatures. OMB's published guidance12 states that an agency should
-perform an assessment to evaluate the suitability of electronic
-signature alternatives for a particular application. Among other
-things, the assessment should develop strategies to mitigate risks
-and maximize benefits in the context of available technologies, and
-the relative total costs and effects of implementing those
-technologies.
-In its FrameworkforFederalFinancialManagementSystems, JFMIP
-envisioned automated systems with standardized information and
-electronic data exchange to eliminate manual processes, reduce the
-risks of data loss or errors, and eliminate manual reentry and
-interpretation. Title 7 states that agencies should endeavor to
-establish automated techniques, including data interchange, and
-control whenever feasible so long as the interests of the
-government are protected.
-Although many current payment systems are highly automated, the
-technological changes envisioned by JFMIP have not yet been fully
-realized. There are several major areas in the payment process
-where technological advances have had and will continue to have a
-substantial impact. Three of these areas include: (1) the
-automation of receipt and acceptance, (2) electronic signatures,
-and (3) statistical sampling regarding examination of claims in the
-payment process.
-Although some agencies have automated part of the receipt and
-acceptance function, widespread application has not yet occurred.
-As the application of advancing technology continues, systems will
-be able to directly transmit receipt and acceptance data from
-points of purchase to central locations for invoice examination and
-payment authorization. Transmissions of receipt and acceptance data
-will come from multiple locations and possibly from vendor
-locations where, for example, a government employee transmits data
-electronically from a fueling dock and from agencies' remote
-locations, including field offices and sea vessels. Electronically
-submitted data will alleviate many of the current
-12See OMB's
-ImplementationoftheGovernmentPaperworkEliminationAct, May 2, 2000,
-at its internet address http://www.whitehouse.gov/OMB/, under
-"Information and Regulatory Policy."
-Advancing Technology
-problems agencies face in locating hard copy receiving reports
-and manually reconciling receipt data to invoice amounts.
-Once the electronic data are received centrally, the examination
-process could be more automated. Receipt and acceptance data could
-be compared electronically to the ordering and the invoice
-information to help ensure that payment authorization is valid and
-at the same time reduce the risk of errors in the process. Also,
-the cost of the examination process would be reduced due to the
-elimination of manual reconciliation procedures. The time and
-effort needed to locate receiving reports would also not exist, and
-prompt payment requirements (taking advantage of discounts and
-avoiding late payment fees) could more easily be met.
-The OMB guidance states that automated techniques should depend
-upon risks, benefits, and cost effectiveness associated with the
-automated applications. Agencies should determine whether any
-electronic signature alternative, in conjunction with appropriate
-process controls, represents a practicable tradeoff between
-benefits on the one hand and cost and risk on the other. Electronic
-signatures meeting the aforementioned criteria, however, can
-provide the necessary data integrity for highly automated systems
-because the signature "seals" the data once it is applied. Any
-subsequent alterations to the data can be readily detected. Because
-of the nature of electronic data, it is sometimes difficult to
-ascertain whether the data have been altered or manipulated unless
-the signature is linked to the data in such a way that the
-signature verification process can detect data changes. Passwords
-and identification codes generally do not provide this detection
-capability.
-Although implementation of electronic signatures meeting the
-NIST criteria may not currently be costeffective in all cases, or
-may not be needed because the electronic data application is low
-risk, technological advances will continue to occur, making the
-signatures more affordable and widespread in the future. Combining
-the automation of the receipt and acceptance process with the
-widespread use of electronic signatures could be a major move
-towards full automation.
-With full automation, statistical sampling of invoices prior to
-payment to make inferences about the universe would no longer be
-necessary since the system would perform a 100percent verification
-of receipt and acceptance. Statistical sampling would only be
-needed for monitoring the system operations through periodic
-testing. Aspects of the system that could be tested through
-sampling might include verifying that the electronic recording of
-receipt and acceptance was supported by other sources.
-Advancing Technology
-Also, under full automation, fast pay could be eliminated in
-most situations. Since the system would automatically verify all
-receipts and acceptances prior to invoice payment authorization,
-there would be no need to authorize payment prior to verification
-of receipt. Moreover, systems could be designed and operated to
-contain specific control mechanisms to prevent payment
-authorization either manually or in an automated environment prior
-to confirmation of receipt and acceptance.
-
-
-Streamlining the Payment Process- Acquisition of Goods and
-Services
-Verification of Receipt and Acceptance After Payment
-Authorization (Fast Pay)
-In an effort to streamline operations and reduce costs while
-taking advantage of currently available technology, many agencies
-have redesigned or modified their payment systems. Several agencies
-have requested opinions from us on whether proposed new payment
-system designs or proposed system modifications conform to the
-requirements of Title 7 internal controls. Agencies' specific
-questions regarding their payment systems for the acquisition of
-goods, along with our responses, are organized into the following
-six sections. Since we did not test the proposed changes, our
-responses only addressed agencies' proposals conceptually.
-Several agencies asked whether certain changes to their existing
-payment process complied with the internal control requirements of
-Title 7. At the time of the request, their procedures required the
-verification of receipt and acceptance prior to authorization of
-payment. The proposed changes would allow payment on invoices under
-$25,000 prior to verification of receipt and acceptance of the
-items purchased.
-GAO Response Payment authorization prior to verifying receipt
-and acceptance is a common process referred to as "fast pay." Since
-specific authority to implement a fast pay process for the
-acquisition of goods and services at agencies exists as set forth
-in OMB Circular A12513 and FAR, our permission is not necessary.
-However, we responded to agency requests for assistance in
-designing and implementing effective internal controls.
-In responding to these agencies' requests, we verified that
-their designs met the fast pay requirements previously discussed
-(limitation of $25,000, geographical separation, ongoing
-relationship with suppliers, and methods to identify suppliers
-abusing fast pay). If the designed procedures met the requirements,
-we did not object to the implementation of fast pay. In keeping
-with the fast pay requirements, we also suggested that the system
-designs include procedures to identify first time vendors and
-vendors with a history of abusing fast pay.These vendors would not
-be eligible to participate in fast pay until the agency had
-satisfied itself that those vendors were worthy businesses that
-could be paid under fast pay.
-In each case, we further suggested that, as part of its required
-FMFIA review of its internal controls, special emphasis be given to
-testing controls of the new processes to help ensure effective
-implementation.
-13See footnote 4.
-
-
-Combining Statistical Sampling With Fast Pay
-The agencies requesting guidance on internal controls when
-implementing fast pay have also designed procedures to verify
-receipt and acceptance of goods ordered on an afterthefact sampling
-basis rather than on the basis of a 100percent postpayment
-verification as is traditionally done. We reviewed the proposals
-involving the statistical sampling verification procedures.
-
-GAO Response
-Title 7 limits statistical sampling to invoices under $2,500.
-Combining statistical sampling with fast pay procedures increases
-the risks that overpayments would occur and go undetected compared
-to a 100percent verification of receipt and acceptance. These risks
-would be acceptably mitigated if the statistical sampling plan
-provided for (1) the scope or extent of invoice examination to be
-commensurate with the risk to the government,14 (2) sampling from
-the universe of all invoices under $2,500 not subject to complete
-examination, (3) effective monitoring to ensure that the plan is
-effectively implemented and the risks to the government remain
-within tolerable limits, and (4) a continuing relationship with the
-vendor so that the risk of loss is minimized. We did not object to
-implementing sampling so long as the plan included these four
-items.
-In a variation of the preceding, one agency proposed to
-implement a statistical sampling process where the sample
-limitation was increased from $2,500 to $25,000, the same
-limitation for fast pay. The agency would require the purchasing
-office to notify the central office (where payment certification
-took place) within 20 days of the receipt of the invoice only in
-instances where the actual receipt of goods differed from the
-order, thus affecting payment.
-The agency would limit the use of this process to vendors with
-whom it had an ongoing satisfactory relationship. To ensure that
-the purchasing offices compared invoices to receiving reports
-subsequent to payment authorization, the agency would regularly
-examine statistical samples of paid invoices, provide adequate
-training for personnel, and regularly review implementation of
-controls. Our response was that if the agency followed through with
-its proposed controls and that the benefits derived exceeded the
-cost, the modifications would be in accordance with Title 7. As
-with other requests, we recommended that the agency's
-subsequent
-14
-In developing a sample plan, agencies should make sure that
-their proposed procedures would produce savings while adequately
-protecting the government's interest. Savings, as defined by Title
-7, would be achieved when the combined cost of (1) examining the
-sample and (2) projected losses due to undetected errors on
-invoices not examined are less than the cost of examining all
-vouchers. Through analysis, the plan must develop and identify a
-tolerable error rate (the point at which, or below which, savings
-should occur), the number of vouchers to select for examination,
-and the selection method.
-
-
-
-Fast Pay Combined With Statistical Sampling When Weak Internal
-Controls Exist
-FMFIA reviews specifically emphasize testing the effectiveness
-of the controls over its fast pay procedures and related
-statistical sampling.
-In the previous discussions, agencies requesting our assistance
-had designed but not yet implemented fast pay. However, one agency,
-where fast pay procedures had been implemented for the acquisition
-of certain goods, was moving toward verifying receipt and
-acceptance of invoices on a sampling basis. The agency's Office of
-Inspector General (OIG) had asked us whether the agency's fast pay
-procedures combined with statistical sampling was permissible. The
-OIG reported that, over a 5month period, 10 per cent of the
-invoices paid under the fast pay process had incorrect or missing
-support. That review and process uncovered missing or inaccurate
-data on order forms and receiving reports. The errors occurred
-because poor controls existed in the review and processing of
-invoices for payment.
-Also, during our discussions with agency officials, we were told
-that many invoices processed for payment were likely to exceed the
-$25,000 limitation of fast pay.
-
-GAO Response
-We responded to the request by stating that although fast pay is
-permitted under certain criteria, the purchases under the process
-inquired about would not meet the criteria (1) where the purchase
-exceeds $25,000 or
-(2) if the 10percent error rate is considered by management and
-the IG office to be above the tolerable acceptable error rate.
-Regarding sampling of invoices after payment authorization to
-verify receipt and acceptance, we pointed out that Title 7 limits
-sampling to invoices under $2,500. Without a specific request to
-raise the limitation,15 we stated that verification of receipt and
-acceptance would be required for all invoices equal to or greater
-than $2,500. In addition, we stated that sampling should not be
-implemented if the 10percent error rate is considered above the
-acceptable error rate.
-15
-In the preceding section on the discussion of combining
-statistical sampling with fast pay, one agency had proposed a
-design under which sampling would be done for all invoices $25,000
-or less. GAO responded to that agency's proposal as to whether it
-could raise the $2,500 limitation to $25,000. However, in this
-request, we were not provided a design nor asked if the limitation
-could be raised.
-
-
-
-Processing Payment Without an Invoice
-One federal entity asked GAO whether it would be permissible to
-make purchase order or contract payments (without a vendor's
-invoice) solely on the basis of a receiving report or other
-documentary evidence showing receipt and acceptance. This entity
-had designed a payment system whereby the acquisition of certain
-goods and services made under maintenance contracts and purchase
-orders would not require an invoice to generate a payment.
-
-GAO Response
-We reviewed the proposed payment processes and responded by
-stating that Title 7 identifies three typical steps to ensure
-proper payment is authorized: (1) the acquisition of goods and
-services was properly authorized as evidenced by an approved
-purchase order or contract,
-
-
-
-(2)
-the goods and services ordered have been delivered and
-accepted, evidenced by a receiving and inspection report, and (3) a
-claim has been made against the government as evidenced by receipt
-of an invoice or bill. Vendor's billing and government payment
-systems have been traditionally designed and operated with the
-invoice being the primary document initiating the payment process.
-Title 7, however, does not preclude payment from being authorized
-without an invoice if adequate internal controls exist to protect
-the government's interest.
-
-Three specific areas where internal control should be given
-special attention when authorizing payments without invoices are:
-(1) payment is initiated only after receipt and acceptance of
-ordered goods and services and is authorized only after matching
-the types and quantities received with those on the purchase order
-or contract,16 (2) controls exist to insure against duplicate
-payment should a vendor mistakenly seek payment for goods or
-services for which payment has already been made, and
-
-
-(3)
-payments are made to coincide with the due dates to take
-advantage of discount terms or avoid late payment penalties.17 The
-proposed design contained sufficient control in these three areas
-to protect the government's interest. We did not object to the
-system design so long as steps were taken to ensure effective
-implementation.
-
-
-
-
-
-Record Retention at Field Offices or Sites
-Two of the agencies requesting our assistance on designing and
-implementing fast pay also asked if the key documents (i. e.
-purchase order, receiving report, and invoice) could be retained in
-the field offices
-16
-A purchase order or contract should contain details of the type
-or quality of goods or services (e.g. model, stock number,
-quantity, per item price, discount, and payment due date).
-17
-The annual blanket contracts should stipulate discount terms and
-late payment dates.
-
-GAO Response
-or sites where the purchase was initiated. Instead of sending
-supporting documentation to the finance center for payment
-certification, a purchase log or other summary information would be
-maintained and all pertinent data would be entered into it, signed
-by the purchaser and approving official, and sent to the finance
-center for payment authorization. Periodically, samples of all paid
-invoices would be selected and the supporting documentation
-reviewed to verify the validity of the payment. Field offices and
-sites would then be required to forward the related documentation
-for all the transactions selected in the sample.
-We stated that, although supporting documents are traditionally
-maintained at the certifying/disbursing officer's location, Title 7
-did not preclude the documents being retained at the field offices
-or sites. However, we emphasized that employees responsible for
-maintaining the documents must be familiar with the retention and
-storage requirements set forth in Title 8, "Records Management," of
-the GAO Policyand ProceduresManualand that they might be requested
-to forward the documents for review by the certifying officer or
-auditors.
-We suggested that agencies inform the field office staff that
-random samples of all payment transactions would be selected for
-the purpose of verifying the validity of the payments and that they
-would be required to forward all documents related to the selected
-transactions to the certifying officer's location for review. We
-also suggested that the agencies provide the field office staff
-with training to familiarize them with the retention and storage
-requirements. We did not object to retaining documents at field or
-site locations provided the suggestions we made were
-implemented.
-Electronic Imaging One agency asked us if electronic images
-(i.e.,an electroniccopyor image of a paper document) constituted an
-acceptable record. This agency's plan was to convert financial
-paper records (such as payment vouchers and related supporting
-documents) into electronic records. After the conversion, the paper
-documents would be destroyed and the electronic records would
-become the official records of the agency.
-GAO Response GAO has long recognized that agency records need
-not be maintained in their original paperbased form. For example,
-we have found that microfilm and similar technologies are
-acceptable methods for storing data originally on paper. Electronic
-technology that allows data to be examined in human readable form,
-as on a monitor, stored in electronic
-Page 21 GAO/AIMD21.3.2 (5/00)
-media, recalled from storage, and reviewed in human readable
-form can provide data integrity that is equal to that of a paper
-document.
-Any system, regardless of the technology used, must incorporate
-adequate controls to ensure the integrity of the data. Internal
-control must ensure that (1) the digital images accurately
-represent the corresponding paper document, (2) any changes to the
-original digital image can be detected,
-(3) access to the images is limited to authorized personnel for
-authorized purposes, and (4) the digital images are not destroyed,
-but remain accessible until the applicable retention period
-expires. Although authorized changes to an image may need to be
-made, the unaltered copy of the original image should be maintained
-to facilitate adequate audit trails.
-We did not object to the agency's electronic imaging plan so
-long as internal control was implemented to ensure that the
-criteria in the preceding paragraph were met.
-
-
-
-Streamlining the Payment Process- Employee Travel Claims
-Electronic Vouchers, Electronic Edits, and Authorizing Payment
-BasedonElectronic Validation
-In an effort to streamline operations and reduce costs while
-taking advantage of currently available technology, many agencies
-have redesigned or modified their employee travel claim payment
-systems. Several agencies have requested our opinion on whether
-newly designed systems or modified ones conform to the requirements
-of Title 7 regarding internal control. Agencies' specific questions
-regarding these systems along with our responses are organized into
-the following seven sections.
-While the General Services Administration (GSA) is responsible
-for issuing federal travel regulations, which are published in the
-Code of Federal Regulations (41 C.F.R. 301), we have provided our
-views on the internal control considerations in agencies' system
-designs pursuant to our authority to issue internal control
-standards. Since we did not test agencies' proposals, our responses
-only address agencies' proposals conceptually.
-In streamlining their employee travel systems, several agencies
-designed automated systems containing electronic travel vouchers
-and requested our assistance in interpreting Title 7 requirements
-and assessing their designed internal controls.
-While each of the designs had minor differences, they generally
-called for a commercial software package modified to fit specific
-agency needs. The software contained a travel voucher form in two
-parts, a summary of the claims, and related detail supporting
-amounts. After completing the travel, the traveler completed the
-forms and signed the voucher electronically. The electronic forms
-contained the same information as the standard government hard copy
-travel voucher. After the voucher was completed, the traveler's
-supervisor reviewed it. During the review of the voucher, the
-supervisor could ask for supporting hard copy documents (e.g.,
-hotel receipts) if additional detail was needed to verify any of
-the claims on the voucher. The supervisor would then approve the
-voucher electronically. The approval signified reasonable assurance
-that the travel actually took place and that the claimed amounts
-were reasonable.
-The supervisory approved voucher would then be forwarded
-electronically to the certifying or payment officer for approval of
-payment. Numerous electronic edits would be applied to the voucher
-at the certifying or payment officer's location prior to payment
-authorization. The edits could, for example, verify that the travel
-has been authorized and compare information on the voucher to
-information on master files to test the validity of the claims
-(i.e., that the claims were proper, legal, and accurate).
-Information to be compared could include, for example, data on the
-traveler (e.g., name, employee or social security number, etc.) and
-limitations such as per diem amounts allowed in the city where the
-traveler stayed. If the edits did not uncover any discrepancies,
-the voucher would be approved for payment.
-Subsequent to payment, the designs called for a review of the
-supporting documentation related to the travel vouchers. Those
-vouchers which would be reviewed included (1) all vouchers
-exceeding $2,500 and (2) a random sample selected from all vouchers
-for $2,500 or less. The supporting documents would be examined to
-help verify the validity of the claims and the effectiveness of the
-system.
-Title 7 does not require payment approval of travel vouchers to
-be based solely on the traditional review of supporting
-documentation if adequate controls compensate for not reviewing
-such documentation. In addition to the traditional supervisors'
-review and approval of the voucher, the primary compensating
-controls designed were the automated edits and computations to
-ensure that the travel claims complied with all requirements.
-Although automated edits assist in determining the validity of a
-claim, they cannot determine whether the claim was properly
-documented nor can they fully replace the role of a human reviewer.
-The plan to test vouchers on a sample basis after payment
-authorization for vouchers $2,500 or less should give further
-assurances that the claims are valid. The sample should follow a
-plan that provides for voucher examination against hardcopy
-documents to be commensurate with the risk to the government and a
-sample from the universe of all vouchers not subject to complete
-examination.
-We did not object to the implementation of the automated travel
-systems, but suggested that, to help ensure effective
-implementation, each agency emphasize testing controls in its new
-designs during its annual review of internal control as required by
-the FMFIA.
-
-GAO Response
-
-
-
-Travelers Retaining Supporting Documentation
-Each agency designing automated employee travel voucher systems
-discussed in the previous section also asked us if the traveler
-could retain the supporting hardcopy documentation. These agencies
-stated that part of the streamlining effort would include reducing
-the time, effort, and cost of moving paper documents through a
-manual system, reviewing and approving the documents, and filing
-the documents at the certifying or payment officer's location.
-Reducing the paper flow would also result in faster payments since
-the system would not be relying solely on hard copy documents.
-Regarding employees that either retire or leave the agency prior
-the expiration of the retention period, the designs called for an
-employee checkout procedure whereby clearance from their travel
-unit (as well as other units within the agency) is required prior
-to receiving their last salary payment.
-Traditionally, hardcopy documents have been retained at the
-certifying or payment officer's location for ease in accessibility.
-However, Title 7 does not preclude the documents from being
-maintained at the traveler's location. Nevertheless, we emphasized
-that the travelers must retain the documents in accordance with the
-requirements of Title 8, "Records Management," of the GAO
-PolicyandProceduresManual.
-We suggested that agencies inform all travelers that random
-samples of payment transactions would be selected for the purpose
-of further verifying the validity of the payments and, for those
-selected transactions, travelers would be required to forward all
-related documents to the certifying or payment officer's location
-for review. We also suggested that the agencies provide travelers
-with training to familiarize them with the retention and storage
-requirements. We did not object to travelers retaining supporting
-hardcopy documents so long as the suggestions we made were
-effectively implemented.
-
-GAO Response
-
-
-
-Electronic Signatures
-Several of the agencies designing automated employee travel
-voucher systems discussed in the previous sections did not indicate
-how the data would be secured from unauthorized access and
-manipulation. Two agencies requested our views on whether the
-electronic signatures proposed in their designs provided sufficient
-control to ensure the integrity of the data on the vouchers after
-being completed by the traveler and approved by the supervisor.
-
-GAO Response
-Regarding those agencies that did not disclose the type of
-signature in their proposals, we pointed out that the degree to
-which data on electronic vouchers are secured depends upon the type
-of automated signature used. Electronic signatures meeting the
-criteria previously discussed may be used to secure data on the
-voucher when the traveler and the supervisor electronically sign
-the voucher.
-Page 25 GAO/AIMD21.3.2 (5/00)
-After our responses, the Government Paperwork Elimination Act
-(GPEA) became effective, requiring OMB to issue guidance to
-agencies for using and accepting electronic documents and
-signatures. OMB's guidance states that an agency should determine
-whether an electronic signature alternative, in conjunction with
-appropriate process controls, represents a practicable tradeoff
-between benefits, costs, and risks; and if so, determine and
-document which signature alternative is the best one to use for a
-particular application.
-Regarding the two agencies requesting our views on the
-signatures proposed in their designs, we stated that their
-signatures must meet the aforementioned criteria. These agencies
-were working with their contractors (who provided the electronic
-applications for the automated employees travel system) in moving
-towards meeting the criteria. We did not object to their system
-being pilot tested at limited locations so long as they continued
-to move toward meeting the criteria. The agencies agreed to follow
-up by requesting our views on full implementation when the
-signatures at the pilot locations were implemented.
-One of the agencies planning the implementation of an electronic
-travel claim system asked us if travelers could be reimbursed on a
-flatrate basis for lodging (the maximum allowed at the city where
-the travel took place), under the same concept of the per diem rate
-allowed for meals and related incidental amounts. The agency
-believed that a flatrate would reduce the administrative effort
-needed to separately record all actual lodging costs incurred,
-retain and submit the receipts when requested, and examine the
-lodging costs on the voucher.
-
-
-
-FlatRate Lodging Reimbursement
-
-GAO Response
-The GAO PolicyandProceduresManualdoes not address lodging
-reimbursement on a flatrate basis. GSA is responsible for setting
-the maximum allowable amount for a particular locality. However, we
-provided the requester our views on internal control when
-considering the implementation of flatrate lodging policy.
-Going to a flatrate lodging basis poses a risk that the
-government would incur more cost than it would otherwise. Travelers
-who incur minimal lodging costs by staying at a government
-facility/military base or low cost lodging would, in many
-instances, receive excessive travel stipends under the proposal,
-especially if they stay at a location for an extended period.
-We believe the agency should analyze the costs and benefits of
-going to a flatrate basis for lodging before a decision is made to
-implement it. The
-
-
-
-Validating Travel Claims After Payment Authorization
-analysis should include consideration of the costs to process
-travel vouchers as well as a review of past travel authorizations
-and claims by employees compared to the maximum amounts allowed. If
-the difference were minimal, justification would exist for going to
-such a rate, providing GSA approved. If the difference is material,
-the agency should reconsider going to such a rate or establish
-procedures to ensure travelers incur at least a significant portion
-of the flatrate amount or, if not, are reimbursed at the actual
-costs incurred.
-Another one of the agencies planning the implementation of an
-electronic travel claim system believed that about 10 percent of
-the travel claims would continue to come from small, isolated
-offices (where personnel spend most of the time out of the office)
-where obtaining and operating computer facilities are not
-costeffective. Travel vouchers for staff at those locations were to
-continue to be completed and processed in hardcopy paper documents
-under a manual system. To reduce the cost of processing such
-hardcopy documents, the agency designed procedures whereby travel
-vouchers would be certified for payment prior to the review of
-supporting documentation. After completing and signing the voucher,
-it would be approved by the supervisor, then forwarded to the
-certifying officer's location, certified for payment, and payment
-made to the traveler. After payment, a test of the validity of the
-payment would be made on a sample basis by obtaining the supporting
-documentation from the traveler (where it would be retained) and
-reviewing information in the documents to ensure the validity of
-the claim. The sampling methodology would follow the sampling
-requirements contained in Title 7.
-The agency believed that the risks to the government from
-implementing such a design were minimal based on an analysis it had
-performed under its current system. The analysis revealed that very
-low error rates were found during its prepayment testing of
-vouchers and that collecting overpayments from employees, by virtue
-of their relationship with the agency, would be easily done.
-Nevertheless, to ensure that overpayments were collected, the
-agency would take the most expedient of the three following options
-to recover funds: (1) obtain reimbursement from the traveler, (2)
-make deductions from other travel payments due the traveler, or (3)
-initiate action for payroll deductions from the traveler's
-salary.18 The agency's goal was to
-18
-The agency's attorneys had provided clearance to the financial
-office regarding authority to make payroll deductions from
-employees for overpayment of travel claims.
-
-GAO Response
-recover overpayments, using one of the three collection options,
-within 60 days of discovering the overpayment.
-
-The type of postpayment validation procedures the agency
-proposed to implement is analogous to the form of payment known as
-"fast pay," available for the purchase of goods and services. In
-assessing the agency's design, we applied the fast pay criteria.
-Fast pay is permitted primarily where there is a continuing
-relationship with reliable vendors and a geographical separation
-exists between the payment authorization office and the location
-where goods and services are received.
-We believed the two criteria were met; however, we offered four
-suggestions to the agency. First, the sampling plan should be
-designed to ensure that the risks of overpayments are within
-tolerable thresholds. Second, the agency should formally
-communicate to its employees who prepare these vouchers the process
-for recovering overpayments. Third, the agency should establish a
-mechanism to identify employees who make repeated errors, so their
-vouchers could receive prepayment validation until such time as the
-errors are eliminated or reduced to an acceptable level. Finally,
-during the initial period of implementation, the agency should
-emphasize its review of the new process during the agency's annual
-internal control review under FMFIA.
-We did not object to this portion of the agency's new employee
-travel system, provided our suggestions were effectively
-implemented.
-
-
-
-Omitting Supervisory Approval of Travel Claims
-Two agencies planning the implementation of an electronic travel
-claim system designed systems in which the supervisor's approval of
-travel vouchers would not be needed. The agency would rely on the
-supervisor's approval of the travel order (i.e., the obligating
-document authorizing travel to be taken), the electronic edits, and
-the review of supporting documents after payment certification. The
-review of supporting documents to fully validate the automated
-edits would be done on a statistically generated sample from the
-universe of all vouchers.
-
-GAO Response
-The primary purpose of the supervisor's approval of staff's
-travel vouchers is to help the certifying officer ensure that all
-claims are valid when certified. Generally, the supervisor's
-approval serves two main purposes for the certifying officer: (1)
-to indicate the claims on the voucher are reasonable and (2) to
-verify that the travel actually took place. While the first purpose
-would be achieved through the electronic edits proposed in
-Page 28 GAO/AIMD21.3.2 (5/00)
-the design, we were concerned that payment would be authorized
-before verifying that the travel actually took place.
-We believe there are several alternative procedures available to
-verify that travel actually took place without requiring the
-supervisor's approval. For example, employees could be required to
-use the agencydesignated charge card for hotel and certain other
-costs. When the travel voucher is being processed, the automated
-system could compare the information on the actual charges
-processed by the charge card company with those claimed on the
-voucher. When a "match" occurs for hotel and certain other charges,
-a verification of the actual trip would be made. Where no match is
-found, the travel office (or certifying officer) could request the
-hotel receipts to verify outoftown lodging costs. Properly
-implemented, this approach provides reasonable assurance that a
-trip occurred.
-We did not object to the implementation of the agency's proposal
-so long as procedures were implemented to verify that authorized
-trips were actually taken by employees prior to payment
-authorization and that for the first year the system was
-operational, assessment of internal control in the system was
-emphasized during the annual FMFIA review.
-One agency intended to implement an employee travel claim
-procedure allowing travelers, with certain exceptions, to merely
-list an aggregate amount of all expenses that individually cost $75
-or less.19 At thetimeof the request, GSA required all travel
-expenses to be listed on the voucher; however, it granted the
-requester a waiver of the requirement to itemize expenses costing
-$75 or less as long as we concurred.
-
-
-
-Summarizing Expenses of $75 or Less
-
-GAO Response
-Since Title 7 requires the validity of travel claims to be
-established prior to certification for payment, we believe that
-listing all expenses individually on the travel voucher helps
-satisfy this requirement. Such a list provides the official
-administratively approving the voucher (usually the traveler's
-supervisor) and the certifying officer additional evidence for
-determining the reasonableness of the claims. It also reduces the
-risks of errors or fraud occurring and going undetected.
-Our response contained a simple example of an error occurring
-that would not be detected if all expenses $75 or less were merely
-listed in the aggregate on the voucher. If the traveler
-inadvertently summarized taxi
-19
-At the time of our response to this agency, GSA required the
-traveler to obtain receipts for all expenses individually costing
-$75 or more.
-fares costing $17.99 as $71.99 on the voucher by transposing the
-seven and the one, the approving official and the certifying
-officer, who might generally expect much lower taxi fares, would
-have no basis to assess the reasonableness of the claim. Both
-officials would lose the capability to determine whether claims
-under $75 were reasonable under the circumstances.
-We suggested that the agency modify its proposal to require
-travelers to list each expense individually on the travel
-voucher.
-
-
-
-Relevant Issues Addressed in GAO Reports
-
-
-
-
-Financial Management System Standards Issued by JFMIP
-The Joint Financial Management Improvement Program (JFMIP) is a
-joint cooperative undertaking of the Office of Management and
-Budget, the General Accounting Office, the Department of Treasury,
-and the Office of Personnel Management, working in cooperation with
-each other and with operating agencies to improve financial
-management practices throughout the government. The program was
-initiated in 1948 by the Secretary of the Treasury, the Director of
-the Bureau of the Budget (now OMB), and the Comptroller General and
-was given statutory authorization in the Budget and Accounting
-Procedures Act of 1950. The Civil Service Commission, now the
-Office of Personnel Management (OPM), joined JFMIP in 1966.
-The Federal Financial Management Improvement Act (FFMIA) of 1996
-requires, among other things, that agencies implement and maintain
-financial management systems that substantially comply with federal
-financial management systems requirements. These system
-requirements are detailed in the Financial Management Systems
-Requirements series issued by JFMIP and Office of Management and
-Budget (OMB) Circular A127, FinancialManagementSystems. JFMIP
-requirements documents identify (1) a framework for financial
-management systems, (2) core financial systems requirements, and
-(3) 16 other financial and mixed systems supporting agency
-operations, not all of which are applicable to all agencies. Figure
-1 is the JFMIP model that illustrates how these systems interrelate
-in an agency's overall systems architecture.
-Systems standards are important for agencies streamlining
-operations by redesigning or modifying systems to take advantage of
-technological advances. The standards provide the criteria to help
-ensure that the systems include effective internal control and meet
-the requirements imposed for central reporting and complying with
-laws and regulations.
-Appendix II Financial Management System Standards Issued by
-JFMIP
-Figure 1: Agency Systems Architecture
-
-Source: JFMIP Core Financial System Requirementsdocument.
-To date, JFMIP has issued (1) the FrameworkforFederalFinancial
-ManagementSystems(not shown in Figure 1) and (2) systems
-requirements for the core financial system and 7 of the 16 other
-systems identified in the architecture. (See figure 1.)20
-Thus far, the series includes the (1)
-FrameworkforFederalFinancialManagement Systems,(2)
-CoreFinancialSystemRequirements,(3)
-InventorySystemRequirements,
-
-
-(4)
-Seized/ForfeitedAssetSystemRequirements,(5)
-DirectLoanSystemRequirements,
-
-
-(6)
-GuaranteedLoanSystemRequirements,(7)
-TravelSystemRequirements,(8)Human
-Resources&PayrollSystemsRequirements,and (9)
-SystemRequirementsforManagerial CostAccounting. In early 1998,
-JFMIP decided to initiate projects to update system requirements
-documents that were not current with regulations and legislation.
-JFMIP also planned to initiate projects to complete the remaining
-systems requirements where none currently exist.
-
-
-
-
-Related GAO Products
-
-(922280)
-
-Ordering Information
-The first copy of each GAO report is free. Additional copies of
-reports are $2 each. A check or money order should be made out to
-the Superintendent of Documents. VISA and MasterCard credit cards
-are accepted, also.
-Orders for 100 or more copies to be mailed to a single address
-are discounted 25 percent.
-
-Orders by mail:
-U.S. General Accounting Office
-P.O. Box 37050 Washington, DC 20013
-Orders by visiting: Room 1100 700 4th St. NW (corner of 4th and
-G Sts. NW)
-U.S. General Accounting Office Washington, DC
-Orders by phone: (202) 512-6000 fax: (202) 512-6061 TDD (202)
-512-2537
-Each day, GAO issues a list of newly available reports and
-testimony. To receive facsimile copies of the daily list or any
-list from the past 30 days, please call (202) 512-6000 using a
-touchtone phone. A recorded menu will provide information on how to
-obtain these lists.
-Orders by Internet: For information on how to access GAO reports
-on the Internet, send an e-mail message with "info" in the body
-to:
-info@www.gao.gov
-or visit GAO's World Wide Web home page at:
-http://www.gao.gov
-
-
-Contact one:
-
-
-
-To Report Fraud,
-• Web site: http://www.gao.gov/fraudnet/fraudnet.htm
-
-
-Waste, or Abuse in
-
-• e-mail: fraudnet@gao.gov •
-1-800-424-5454 (automated answering system)
-
-
-
-
-
-
+  
+    
+      
+        Background
+        Type 1 diabetes mellitus (T1DM) is a T cell-mediated
+        autoimmune disease characterized by lymphocytic
+        infiltration of the pancreatic islets of Langerhans with
+        subsequent destruction of the insulin-producing beta cells
+        [ 1 ] . Non-obese diabetic (NOD) female mice, a murine
+        model for T1DM, spontaneously develop diabetes by 30
+        weeks-of-age, with infiltrating cells appearing around the
+        pancreatic islets as early as at 3-4 weeks-of-age [ 2 ]
+        .
+        T1DM susceptibility in the NOD mouse is linked to I-A
+        g7, the murine MHC class II gene that encodes a histidine
+        at position 56 and a serine at position 57 in the β chain,
+        in place of the more frequent proline 56β and aspartic acid
+        57β [ 3 ] . The development of diabetes is prevented in
+        NOD.PD mice (which are NOD mice with I-A g7) that carry a β
+        chain transgene with site-specific mutations that restore
+        proline and aspartic acid at positions 56β and 57β,
+        respectively [ 4 ] . Furthermore, because of the two amino
+        acid changes in the additional (transgenic) MHC class II
+        allele β chain in NOD.PD mice, NOD.PD mice recognize three
+        additional peptide epitopes in the glutamic acid
+        decarboxylase 65 (GAD65) autoantigen [ 5 ] .
+        Among beta-cell autoantigens, GAD65 is an important
+        initial target of the immune response that results in
+        beta-cell destruction and diabetes, in both humans and NOD
+        mice [ 6 7 8 9 ] . While both humoral and cellular
+        responses to GAD65 occur as early as 4 weeks of age in NOD
+        mice [ 8 ] , there is considerable evidence that
+        beta-cell-specific T 
+        H 1 cells are the effectors of T1DM,
+        whereas T 
+        H 2 cells appear to have a protective
+        role [ 10 ] . Accordingly, a shift of the autoimmune
+        response from T 
+        H 1 to T 
+        H 2 predominance has represented a
+        promising strategy for prevention of diabetes and other T 
+        H 1-mediated autoimmune diseases.
+        For example, administration of GAD65 to young NOD mice
+        has been shown to prevent insulitis and diabetes [ 8 9 ] ,
+        apparently via induction of CD4+ regulatory T cells with a
+        T 
+        H 2 phenotype [ 10 ] . Similarly,
+        treatment with immunodominant peptides of myelin can
+        prevent or reverse experimental autoimmune
+        encephalomyelitis (EAE), a T 
+        H 1-associated inducible "autoimmune"
+        disorder that is widely used as a model for human multiple
+        sclerosis [ 11 12 13 ] .
+        Unfortunately, recent work indicates that the
+        application of strategies to shift autoimmune responses
+        from T 
+        H 1 to T 
+        H 2 predominance is not without risk.
+        Thus, some of us recently showed that administration of two
+        self peptides that can induce EAE, myelin proteolipid
+        protein peptide 139 to 151 (PLP139-151) or myelin
+        oligodendrocyte glycoprotein peptide 35-55 (MOG35-55), can
+        result in severe anaphylactic reactions [ 14 ] . This
+        result clearly indicated that severe allergic reactions to
+        self peptides can occur in mice that have been 
+        induced to express pathology (i.e.,
+        EAE) related to "autoimmunity" to these peptides. However,
+        it was initially unclear whether anaphylactic reactivity
+        also could be elicited to self peptides that have been
+        implicated in the development of a 
+        spontaneous autoimmune disorder.
+        In the present study, we show that anti-peptide
+        autoantibodies and fatal anaphylactic reactions can be
+        elicited by immunodominant GAD65 peptides in NOD mice that
+        have been injected with these peptides intraperitoneally in
+        incomplete Freund's adjuvant (IFA), as part of an attempt
+        to induce "tolerance" and prevent the spontaneous
+        development of T1DM. Moreover, while this manuscript was in
+        review, Liu and colleagues reported that anti-peptide
+        autoantibodies and fatal anaphylaxis can be induced in NOD
+        mice that have been immunized with insulin B chain peptides
+        B:9-23 or B:13-23 [ 15 ] . However, in the Liu 
+        et al. study, the peptides were
+        administered subcutaneously in saline without adjuvant. As
+        reviewed in Liu 
+        et al ., [ 15 ] several lines of
+        evidence indicate that amino acids 9-23 of the insulin B
+        chain also represent a major target of anti-islet
+        autoimmunity in T1DM. Taken together with the findings
+        reported herein, this work indicates that anaphylactic
+        reactions can be elicited in mice that have been immunized
+        with pancreatic islet-associated self-peptides that also
+        represent significant targets of autoimmunity in T1DM.
+      
+      
+        Results
+        
+          Anaphylactic responses to GAD65 and PD
+          peptides
+          In an attempt to induce a T 
+          H 2 shift, [ 19 20 ] 8 to 9 week old
+          female NOD mice (I-A g7) were immunized by 3 weekly i.p.
+          injections of the immunodominant G7 peptides (GAD
+          206-226/217-236/286-300) or of the additional GAD65
+          peptides identified in NOD.PD mice (I-A NOD/PD) (GAD
+          333-345/K458-470R) in IFA [ 5 ] . As noted in the
+          background section, PD peptides are not immunodominant in
+          NOD mice. Indeed, we originally included the PD-immunized
+          group because PD peptides are the immunodominant epitopes
+          that are presented in transgenic NOD.PD mice that do 
+          not get diabetes [ 4 5 ] .
+          Because of their unknown, and potentially even
+          protective, role in the diabetes-resistant NOD.PD strain,
+          we felt that it was important to assess whether, through
+          a peptide therapy regimen, PD peptides might be able to
+          protect against diabetes by shifting T 
+          H 1 to T 
+          H 2 responses in NOD mice. As our
+          study unfolded, and we found that G7 peptide therapy
+          induced anaphylactic reactivity in NOD mice, we felt that
+          it was important to evaluate whether PD peptides might
+          also induce allergic responses in the NOD strain.
+          As demonstrated in our study, immunization of NOD mice
+          with PD peptides can induce both a specific IgG1 response
+          and also anaphylactic reactivity. On the other hand, as
+          might be predicted, PD peptides induced a less robust
+          IgG1 response (Figure 2) and also a lower incidence and
+          severity of anaphylaxis (see Table 1and Figure 1) when
+          injected into NOD mice than did G7 peptides. In an
+          attempt to induce anaphylactic reactivity to peptides
+          known to induce T 
+          H 2 responses associated with allergic
+          reactions, NOD mice were immunized using the same
+          protocol with hen egg lysozyme and ovalbumin peptides
+          (HEL 81-96, OVA 323-339) [ 21 22 23 ] . As a negative
+          control, NOD mice received 3 weekly injections of saline
+          emulsified in IFA. Four weeks after the last of the 3
+          i.p. injections of peptides/IFA or saline/IFA, mice
+          injected with peptides/IFA were challenged i.p. with the
+          same peptides used for the immunizations dissolved in
+          saline, whereas mice that had been injected with
+          saline/IFA were challenged with saline alone. By the day
+          of challenge, 10-15% of all mice had developed diabetes,
+          with the exception of the mice in the saline group
+          (0%).
+          All of the mice challenged with G7 peptides developed
+          severe anaphylactic shock (100%; 14/14), with the
+          majority of them dying within 30 minutes after the
+          injection (86%; 12/14) (Table 1). In addition to the
+          classical signs of anaphylaxis, such as reddening of the
+          skin, prostration and respiratory impairment, the mice
+          underwent a dramatic drop in body temperature (Fig. 1),
+          which confirmed the presence of anaphylactic shock.
+          Moreover, the death rate from anaphylaxis was
+          substantially higher than in any other group in which
+          anaphylaxis occurred (Table 1).
+          On the other hand, the clinical and physiological
+          features of anaphylaxis elicited by the G7 peptides were
+          similar to those observed in age- and gender-matched NOD
+          mice undergoing IgE-mediated passive systemic anaphylaxis
+          (Fig. 1). Although the death rate was significantly
+          higher in the G7 challenged NOD group (86%; 12/14)
+          compared to the IgE-sensitized, DNP-HSA challenged group
+          (none) (P = < 0.0001 by Fisher's exact test, Table 1),
+          those mice in either group that developed anaphylaxis
+          exhibited quite similar drops in body temperature (Fig.
+          1B). Similarly, while the group of mice that was
+          challenged with G7 peptides exhibited a higher incidence
+          of anaphylactic responses than did the group challenged
+          with HEL/OVA peptides (Table 1), the temperature changes
+          (Fig. 1B) and death rates (Table 1) in mice that did
+          develop a reaction were quite similar.
+          None of the naïve age/gender-matched NOD mice (these
+          mice received no injection prior to challenge) that were
+          challenged with G7 peptides showed any signs of
+          anaphylaxis (0/9; P < 0.0001 by Fisher's exact test
+          for comparison vs. G7 immunized, G7 challenged mice)
+          (Table 1, Fig. 1). This result indicates that priming of
+          these mice with G7 peptides is required for the
+          elicitation of the allergic response.
+          Of the mice immunized with the PD peptides, that are
+          not immunodominant in NOD mice, 43% (3/7) developed
+          anaphylactic shock at the time of challenge with PD
+          peptides (Table 1). Thus, the incidence of anaphylactic
+          shock in mice immunized and challenged with PD peptides
+          was significantly lower than that in mice immunized and
+          challenged with immunodominant G7 peptides (P = 0.0058 by
+          Fisher's exact test). Moreover, of those PD-immunized,
+          PD-challenged mice that did exhibit an anaphylactic
+          reaction, the drop in temperature was less sustained than
+          that in those mice in the other groups that exhibited
+          anaphylaxis (Fig. 1B) and only 1 of these mice died (33%)
+          (Table 1). In accord with these results, immunization of
+          the NOD mice with PD peptides produced a less robust
+          specific IgG1 antibody response than did immunization
+          with the immunodominant G7 peptides (see below). As
+          expected, none of the mice immunized with saline/IFA
+          alone developed anaphylaxis upon i.p. challenge with
+          saline (Table 1, Fig. 1).
+          Notably, in the mice immunized with G7, PD or HEL/OVA
+          emulsified in IFA, anaphylactic responses were also
+          provoked by the third i.p. immunization with peptides
+          (10/12 in the G7 group; 3/4 for PD, 3/10 for HEL/OVA).
+          However, these anaphylactic responses were less severe
+          than those induced by subsequent peptide challenge of the
+          same mice, with a less dramatic drop in body temperature
+          (data not shown) and no deaths. Finally, although the
+          numbers of mice that had developed diabetes by the day of
+          peptide challenge in each of the immunized groups was
+          small (10-15%), there were no statistically significant
+          differences in the incidence of anaphylactic reactions in
+          these mice vs. mice that were normoglycemic at the time
+          of peptide challenge.
+        
+        
+          IgG1, IgG2a and IgE responses
+          Antibody responses were analyzed by ELISA in serum
+          obtained 2 to 3 days before the 4 week challenge with
+          peptides or saline. Mice immunized with the G7 peptides
+          had high IgG titers against the G7 peptides, with levels
+          of IgG1 being significantly higher than those of IgG2a (P
+          < 0.0001 by Mann-Whitney U test, 2-tailed; Figure 2A).
+          Anti-G7 IgG antibodies generally were not detectable in
+          the other groups (PD- or HEL/OVA- immunized, or IFA
+          alone) or in the non-injected (naïve) mice. The two
+          exceptions were a single non-immunized mouse with anti-G7
+          IgG1 antibodies (at a serum concentration of 90 μg/ml),
+          and one mouse immunized with HEL/OVA with anti-G7 IgG2a
+          antibodies (at a serum concentration of 492 ng/ml).
+          Anti-peptide IgG1 and IgG2a antibodies also were detected
+          in PD- (Figure 2B) and HEL/OVA- (Figure 2C) immunized
+          mice, although the magnitude of the antibody responses to
+          these peptides (especially the IgG1 response) were
+          substantially less than those to the G7 peptides.
+          Total IgE concentrations were slightly, but
+          significantly, higher in the peptide-immunized groups
+          (G7, PD, or HEL/OVA) compared to those in mice injected
+          with IFA and saline alone (Figure 3). However, the serum
+          concentrations of total IgE were very similar in the mice
+          that had been immunized with G7, PD or HEL/OVA peptides
+          (Figure 3).
+        
+      
+      
+        Discussion
+        This study clearly demonstrates that i.p. immunization
+        of NOD mice with preparations of GAD65 self peptides in IFA
+        can cause a marked shift towards a T 
+        H 2 like response, as reflected by high
+        levels of IgG1. Similarly, Liu 
+        et al. recently demonstrated that
+        strong IgG1 responses can be induced in NOD mice that have
+        been immunized subcutaneously with insulin B chain peptides
+        administered in physiological saline [ 15 ] . However, both
+        studies showed that anaphylaxis can be induced in such mice
+        upon subsequent re-challenge with preparations of the
+        peptides used for immunization [ 15 ] . Moreover, the
+        anaphylactic reactions in mice that had been immunized and
+        challenged with G7 peptides were severe, with reductions in
+        body temperature that were very similar to those observed
+        in mice exhibiting IgE-dependent passive systemic
+        anaphylaxis and with a very high fatality rate (12/14 mice,
+        or 86%). Anaphylaxis also developed in some NOD mice that
+        had been immunized and challenged with preparations of PD
+        peptides (that are not immunodominant in NOD mice),
+        although both the drop in body temperature and the death
+        rate in these mice were significantly less than those
+        observed in the mice immunized and challenged with G7
+        peptides.
+        There were both similarities and differences between our
+        findings in the NOD mouse model of T1DM and those in the
+        EAE model [ 14 ] . Expression of EAE requires specific
+        immunization with self peptides (e.g., PLP 139-151 or
+        MOG35-55), and these peptides generally are administered in
+        complete Freund's adjuvant (CFA). By contrast, T1DM
+        develops spontaneously in NOD mice. On the other hand,
+        induction of anaphylactic reactivity in NOD mice appeared
+        to require immunization of the mice with GAD65 peptides (in
+        this model, in IFA), as naïve NOD mice challenged with G7
+        peptides exhibited no detectible reactions, and none of
+        them died (Table 1). Thus, in both the EAE model [ 14 ] and
+        the NOD T1DM model (this study, and that of Liu 
+        et al ., [ 15 ] ) some form of
+        artificial "immunization" with a self peptide preparation
+        appears to be required for the development of anaphylactic
+        reactivity to "self". This of course is not a surprising
+        result. Indeed, it is challenging to conceive of any
+        possible selective advantage that would be conferred by a
+        propensity to develop, under "natural" conditions,
+        potentially fatal allergic reactions to components of self.
+        It remains to be determined whether self peptide
+        immunization protocols that induce anaphylactic reactivity
+        do so simply because of the manner in which they present
+        large amounts of self peptides to the immune system, or
+        because of other factors, such as the presence in the
+        peptide preparations of aggregates or other components
+        beside self peptide monomers.
+        Whatever the underlying reason(s) for the development of
+        anaphylactic reactivity to these self peptide preparations,
+        in both the EAE and the NOD T1DM models, anaphylactic
+        reactions occurred in mice that had developed strong IgG1
+        responses to the relevant self peptides, with only modest
+        changes in total IgE levels. In humans, antigen-specific
+        anaphylactic reactivity is thought to be mediated solely
+        (or primarily) by IgE antibodies, whereas it has long been
+        known that either IgE or IgG1 antibodies can mediate
+        anaphylaxis in mice (reviewed in [ 14 15 ] and [ 17 ] ).
+        However, it has been reported that IgG1-dependent
+        anaphylaxis in the mouse is associated with substantially
+        less histological evidence of mast cell degranulation than
+        is observed in IgE-dependent anaphylaxis in that species [
+        17 ] . In neither of the models of "autoimmunity" that we
+        have studied (i.e., EAE, T1DM in NOD mice) was anaphylaxis
+        associated with histological evidence of substantial mast
+        cell degranulation [ 14 ] (data not shown). Taken together,
+        these findings suggest that IgG1 antibodies contribute
+        importantly to the development of anaphylaxis in both of
+        these models. On the other hand, we can not rule out some
+        role for IgE antibodies in these reactions.
+        Indeed, Liu 
+        et al . [ 15 ] found that, in NOD
+        mice that had been immunized with peptide B:9-23, treatment
+        with both anti FcγRII/RIII and anti-IgE monoclonal
+        antibodies was required to prevent anaphylaxis upon
+        challenge with the peptide. Interestingly, however, Liu 
+        et al . [ 15 ] did not detect IgE
+        antibodies to B:9-23 or B:13-23 in the serum of their NOD
+        mice. By contrast, mice that had been immunized with B:9-23
+        peptide at 10 or 100 μg/dose exhibited a robust and
+        dose-dependent IgG1 antibody response to the peptide [ 15 ]
+        . Thus, in both B:9-23 peptide-associated anaphylaxis (Liu 
+        et al . [ 15 ] ) and GAD65
+        peptide-associated anaphylaxis (our study), anti-peptide
+        IgG1 antibodies contribute to the response. However, IgE
+        antibodies also appear to contribute to anaphylaxis to
+        B:9-23 peptides [ 15 ] , and may also be involved in our
+        model.
+        One point not yet clarified by the comparison of the
+        present results, those of Liu 
+        et al . [ 15 ] , and those of Pedotti
+        
+        et al. [ 14 ] is whether the
+        influence of thymic expression of the self peptide on the
+        propensity to develop anaphylactic reactivity differs in
+        the EAE and NOD T1DM models. In the study by Pedotti et al.
+        [ 14 ] , it was noted that the two self peptides that
+        induced anaphylactic reactivity, MOG 35-55 and PLP139-151,
+        are not expressed in the thymus, whereas the two peptides
+        tested that did not induce anaphylactic reactivity, PLP 
+        p 178-191 and MBPA 
+        C 1-11, are expressed at that site.
+        However, both GAD65 and GAD67 mRNA can be detected in the
+        thymic medullary epithelial cells in mice [ 24 ] . Thus,
+        despite thymic expression of GAD65 and GAD67 at the level
+        of mRNA, NOD mice spontaneously develop autoreactivity to
+        these islet (and brain) expressed proteins, and
+        re-challenge of mice that have been immunized with peptides
+        from GAD65 results in severe anaphylactic reactions. On the
+        other hand, expression of GAD65 or GAD67 protein in the
+        thymus has not yet been reported. Similarly, as reviewed in
+        Liu 
+        et al . [ 15 ] , although several
+        lines of evidence indicate that insulin is present in the
+        thymus of mice and humans, it is possible that the specific
+        insulin peptides that induced anaphylaxis in their study
+        are not ordinarily present in that site. As a result, it
+        has not yet been demonstrated that anaphylactic reactions
+        can develop to self peptides that are expressed in the
+        thymus.
+        It should be emphasized that NOD mice have a partial
+        defect in thymic negative selection [ 25 26 ] , a defect in
+        FcγRIIB (that can negatively regulate anaphylactic
+        reactions [ 27 28 ] ), and perhaps other genetic
+        polymorphisms that may result in immunological
+        hyperresponsiveness. The same is likely to be true in at
+        least some patients with type 1 diabetes, and in patients
+        in the pre-diabetic phase. Therefore, because of the risk
+        of induction of anaphylactic sensitization, extreme caution
+        needs to be used in developing any type of antigen-specific
+        immunosuppressive therapy for the prevention or treatment
+        of T1DM. This caution probably should be extended to all
+        attempts to shift immune responses to self or foreign
+        antigens from a T 
+        H 1 to a T 
+        H 2 response. Indeed, in a recent phase
+        II clinical trial, 9% of MS patients given an altered
+        peptide ligand (APL) of a myelin basic protein epitope
+        developed immediate hypersensitivity reactions after
+        multiple injections of the APL [ 29 ] . Thus, it would
+        appear that great care must be taken when injecting
+        preparations of putative "tolerogens" in attempts to
+        suppress T 
+        H 1-mediated autoimmune diseases.
+      
+      
+        Methods
+        
+          Mice
+          Female NOD/LtJ mice (The Jackson Laboratory, Bar
+          Harbor, ME), were maintained on Lab Diet 5K52 (Purina, St
+          Louis, MO), under filter-top barrier conditions. Mice
+          were tested three times a week for glycosuria using
+          Chemstrip uGK (Roche Diagnostics, Indianapolis, IN), and
+          considered diabetic when tested positive (glucose levels
+          above 100 mg/dL), on three consecutive occasions.
+        
+        
+          Peptides
+          Three peptide pools consisted of: G7 (GAD 206-226, GAD
+          217-236, GAD 286-300), PD (GAD K458-470R, GAD 333-345),
+          and hen egg lysozyme/ovalbumin (HEL/OVA; HEL 81-96, OVA
+          323-339). All peptides were synthesized by Research
+          Genetics (Huntsville, AL) and were confirmed > 90%
+          pure by HPLC and Mass Spectrometry analysis.
+        
+        
+          Immunizations
+          Mice (8-9 weeks old) received three weekly
+          intraperitoneal (i.p.) injections of 100 μl containing a
+          mixture of 200 μg each of the G7 peptides, the PD
+          peptides or the HEL/OVA peptides, dissolved in 50 μl of
+          sterile, pyrogen-free 0.9% NaCl ("saline") and emulsified
+          in an equal volume of incomplete Freund's adjuvant (IFA)
+          (Difco Laboratories, Detroit, MI). A peripheral blood
+          sample was obtained 2 to 3 days before challenge and was
+          analyzed for antibody response by ELISA. Mice were
+          challenged four weeks after the third immunization (at
+          15-16 weeks-of-age) by i.p. injection of the same peptide
+          pools (200 μg of each peptide) dissolved in saline. Mice
+          were observed for 30 minutes after challenge for signs of
+          anaphylaxis, and temperature was taken at intervals of 5
+          minutes. As negative control groups, mice were immunized
+          with an emulsion of IFA and saline and challenged with
+          saline, and age-gender-matched non-immunized mice were
+          challenged with the G7 mixture (containing 200 μg of each
+          peptide in pool) dissolved in 50 μl of saline. As an
+          additional control, temperature measurements were taken
+          from unmanipulated (non-injected) naïve mice.
+        
+        
+          Passive systemic anaphylaxis
+          For passive systemic anaphylaxis, 15-week-old NOD mice
+          were injected i.p. with 20 μg anti-DNP-IgE (IgE hybridoma
+          = H1 DNP-ε-26) [ 16 ] dissolved in 200 μl HMEM
+          (Gibco-BRL, Gaithersburg, MD) with PIPES buffer (0.47
+          g/l, Sigma, St. Louis, MO). Twenty-four hours later, mice
+          were challenged intravenously (i.v.) with 200 μg DNP-HSA
+          (Sigma) dissolved in 200 μl saline [ 17 ] .
+        
+        
+          Temperature measurement
+          Rectal temperatures were taken using Physitemp
+          (Clifton, NJ). Basal temperatures were recorded before
+          challenge, and temperature readings were taken at 5
+          minute intervals until death from anaphylaxis or 30
+          minutes post injection, whichever occurred first.
+          Temperature measurements were performed in a "blinded"
+          fashion.
+        
+        
+          IgG1 and IgG2a antibody measurements
+          G7, PD and HEL/OVA peptide-specific IgG1 and IgG2a
+          responses were measured in duplicate with mouse sera
+          collected 1 to 3 days before challenge. EIA/RIA 96-well
+          plates (Corning Incorporated, Acton, MA) were coated
+          overnight at 4°C with a 100 μl mixture of each peptide
+          preparation in a pool for a total peptide concentration
+          of 30 μg/ml diluted in physiologic saline. After 3 washes
+          with phosphate-buffered saline (PBS) and 0.05% Tween 20
+          (Sigma), plates were blocked with PBS plus 2% BSA
+          (Sigma), and 0.02% sodium azide (Sigma), for 2 hours at
+          room temperature (RT). Serum samples were diluted in
+          blocking buffer and incubated for two hours at RT. After
+          1 hr incubation at RT with 50 μl/well of biotinilated
+          secondary antibodies, plates were developed with
+          Eu-labelled Streptavidin (PerkinElmer Life Sciences,
+          Boston, MA) followed by Enhancement solution (PerkinElmer
+          Life Sciences) and read in a 1234 Delfia Fluorometer
+          (PerkinElmer Life Sciences). Serum Ig values were
+          interpolated from standard curves obtained by coating the
+          plates directly with purified IgG1 or IgG2a (PharMingen)
+          at a starting concentration of 500 ng/ml, according to
+          the manufacturer's instructions.
+        
+        
+          Total IgE antibody measurement
+          Total IgE was measured in duplicate with mouse serum
+          at 1:100 dilution by sandwich ELISA (PharMingen)
+          according to the manufacturer's instructions [ 18 ] .
+        
+      
+      
+        Authors' Contributions
+        Rosetta Pedotti and Maija Sanna participated in the
+        design of the experiments and performed the peptide
+        immunizations and challenges in the mice, measurements of
+        anaphylactic responses and ELISA immunoassays for
+        antibodies. Rosetta Pedotti and Maija Sanna contributed
+        equally to this study, including collaborating in writing
+        the first draft of the manuscript. Mindy Tsai participated
+        in the design and execution of the study and the drafting
+        of the manuscript. Jason DeVoss performed some of the ELISA
+        immunoassays for antibodies. Lawrence Steinman, Hugh
+        McDevitt, and Stephen J. Galli participated in experimental
+        design, interpretation of the results, and revision of the
+        manuscript. All authors read and approved the final version
+        of the manuscript.
+      
+    
+  

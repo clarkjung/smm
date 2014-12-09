@@ -2,344 +2,891 @@
   
     
       
-        Introduction
-        In addition to the role of smoking in cancer initiation and promotion, cigarette smoking
-        accelerates atherogenic cardiovascular disease in both a dose- and a duration-dependent
-        manner through several concurrent pathways. Smoking incites an immunologic response to
-        vascular injury, described as oxidative stress leading to lipid peroxidation, endothelial
-        cell dysfunction, and foam cell proliferation in the tunica media [1,2]. Smoking also
-        enhances platelet aggregation, impairs lipoprotein metabolism, depresses high-density
-        lipoprotein (HDL) cholesterol, and reduces distensibility of vessel walls [3,4].
-        Cigarette smoking is associated with increased levels of inflammatory markers. During
-        the acute phase of inflammatory states, there are quantifiable increases in C-reactive
-        protein, white blood cell count, and fibrinogen, and decreases in serum albumin [5–8].
-        Acute inflammatory markers have been shown to be both prognostic and predictive of future
-        cardiovascular events in several populations. For example, C-reactive protein has been
-        discussed extensively as a marker of cardiovascular disease risk [9–16].
-        C-reactive protein in particular is also increasingly being implicated in the
-        pathogenesis of atherosclerosis [17–19]. C-reactive protein is a pentaxin, highly conserved
-        across species [17,20,21] and stimulated synergistically by both IL-6 and IL-1β [22–25].
-        Previously believed to be synthesized by the liver, recent evidence suggests that
-        C-reactive protein is also produced at the site of atherosclerosis by smooth muscle cells
-        [17]. In the vessel wall, it induces expression of adhesion molecules on endothelial cells
-        and increases monocyte chemotactic protein-1, which attracts monocytes and T cells into the
-        vessel wall [26–28]. Additionally, C-reactive protein reduces endothelial nitric oxide
-        synthase, upregulates the proatherosclerotic NF-κB pathway, enhances low-density
-        lipoprotein (LDL) uptake by macrophages, which become foam cells, and facilitates T-cell-
-        and complement-mediated destruction and apoptosis of the endothelium [2,26,29–31]. Thus,
-        C-reactive protein is increasingly described not only as a marker of the inflammatory
-        response, but also as a mediator in the pathogenesis of atherosclerotic cardiovascular
-        disease [2,27]. Other inflammatory markers may also have causal properties, but are not as
-        well understood. The inflammatory response therefore not only indicates atherosclerotic
-        potential, but may accelerate atherosclerosis.
-        Several studies have described a prevalent inflammatory state in smokers. Despite the
-        known impact of smoking on cardiovascular disease progression, few studies have examined
-        the impact of smoking cessation on levels of inflammatory markers or on cardiovascular risk
-        reduction [6,32]. The level to which the inflammatory response subsides following smoking
-        cessation and the rate at which the inflammatory response subsides are uncertain.
-        Furthermore, it remains unclear whether traditional risk factors can adequately explain the
-        decline in cardiovascular risk following smoking cessation.
-        Using the Third National Health and Nutrition Examination Survey (NHANES III), a
-        population-based representative sample of United States adults, we investigated the
-        association between smoking and smoking cessation and levels of inflammatory markers and
-        traditional cardiovascular risk factors. We examined the association between changes in the
-        inflammatory markers—C-reactive protein, white blood cell count, albumin, and
-        fibrinogen—and the traditional risk factors—total cholesterol, HDL cholesterol,
-        triglycerides, systolic blood pressure, and diabetes—with decreased smoking intensity and
-        increased time since smoking cessation. Our primary objective was to investigate changes in
-        C-reactive protein in an effort to characterize the excess cardiovascular risk associated
-        with smoking and any associated decline in risk with smoking cessation. We also aimed to
-        characterize whether the inflammatory markers or traditional risk factors explained
-        observed cardiac risk reduction following smoking cessation.
+        Background
+        Chlamydiae are obligate intracellular pathogens that
+        infect a variety of host organisms and exhibit individual
+        tissue tropisms within a host species. The availability of
+        complete genomic sequences for different species has
+        provided a contemporary impetus for research to uncover
+        specific relationships of chlamydial genes with the disease
+        process, an impetus that is particularly welcome because
+        the fastidious growth requirements of the organism have
+        made it relatively intractable to experimentation. A number
+        of analyses dealing with the comparative genomics of the
+        chlamydiae have appeared in the recent literature [ 1, 2,
+        3].
+        Chlamydiae all progress through a life cycle that is
+        intimately tied to success as a pathogen. The host is
+        invaded by elementary bodies (EBs), which represent the
+        extracellular infectious stage. The newly established EBs
+        develop into intracellular reticulate bodies (RBs) that
+        replicate in anticipation of maturation to EBs, which then
+        lyse the host cell and initiate a new round of pathogen
+        proliferation. Aggressive progress through repetitions of
+        this cycle characterizes the acute disease process.
+        Distinct changes in cell size, chromatin organization,
+        membrane characteristics and metabolic competence
+        constitute endpoints of a reversible developmental profile.
+        A third metabolic stage called persistence is increasingly
+        recognized to attend the chronic disease process [ 4]. The
+        persistent state can be induced 
+        in vitro in tissue culture in
+        response to various environmental cues such as nutrient
+        limitation, antibiotic treatment or presence of
+        interferon-γ (IFN-γ) [ 5, 6]. All of the latter may act to
+        trigger persistence by eliciting a degree of metabolic
+        starvation [ 7]. In fact, it has been shown [ 7] that even
+        normal blood plasma concentrations of amino acids are
+        sufficiently limiting to infected cell cultures to promote
+        the persistent state. Cells present in the persistent state
+        have been detected 
+        in vivo, for example, in the synovial
+        membranes of patients with Chlamydia-associated reactive
+        arthritis [ 8]. Chlamydial cells poised in this state of
+        metabolic latency exist as viable but non-cultivable cells
+        that are 'abnormally' enlarged and which exhibit
+        distinctive morphological characteristics [ 4].
+        One of the most prominent host protective responses to
+        chlamydial infections has been the production of the
+        T-cell-derived pro-inflammatory cytokine IFN-γ. This
+        cytokine induces a variety of biochemical changes in host
+        metabolism, apparently designed to thwart the ability of
+        intracellular parasites to gain access to host resources.
+        Relative sensitivity to IFN-γ varies, with 
+        C. muridarum and 
+        C. psittaci being relatively
+        resistant compared to 
+        C. pneumoniae and the various 
+        C. trachomatis serovars. The relative
+        insensitivity 
+        in vivo of 
+        C. muridarum, compared to human
+        strains of 
+        C. trachomatis, is supported by the
+        results of Cotter 
+        et al. [ 9] and Perry 
+        et al. [ 10]. Conflicts in the
+        literature about the sensitivities of 
+        C. trachomatis and 
+        C. muridarum isolates to
+        IFN-γ-mediated inhibition have been attributed to strain
+        variation [ 10]. A well documented effect of IFN-γ has been
+        its ability to decrease the availability of L-tryptophan in
+        host cells. (Other anti-chlamydial effects involve the
+        inducible synthesis of nitric oxide and deprivation of iron
+        [ 11].) Although effective L-tryptophan starvation may
+        resolve an acute infection, a more modulated degree of
+        starvation for L-tryptophan is thought to be intimately
+        involved in the phenomenon of persistence [ 12]. Thus,
+        tryptophan limitation is increasingly recognized as an
+        important factor in a variety of chronic disease
+        conditions. As initially shown by Byrne 
+        et al. [ 13, 14] and confirmed by
+        others [ 15, 16], IFN-γ acts by inducing indoleamine
+        2,3-dioxygenase, a host enzyme that converts L-tryptophan
+        to L-formylkynurenine. (This broad-specificity monomeric
+        enzyme is different from the non-homologous tryptophan
+        2,3-dioxygenase in liver [ 17] and brain tissues [ 18].) In
+        addition, IFN-γ is a potent inducer of host
+        tryptophanyl-tRNA synthetase [ 19]. Thus, the host not only
+        decreases the pool of tryptophan available to intracellular
+        parasites, but the remaining tryptophan molecules tend to
+        be increasingly sequestered by the elevated level of host
+        tryptophanyl-tRNA synthetase.
+        The biological relationship of IFN-γ, indoleamine
+        dioxygenase, tryptophan limitation and the persistent state
+        of intracellular parasitism extends beyond chlamydial
+        parasites, as illustrated by consideration of 
+        Toxoplasma gondii [ 20]. This
+        unicellular protozoan is a eukaryotic intracellular
+        parasite that is subject to tryptophan limitation by
+        exactly the same host mechanism used against the
+        chlamydiae. The result is a generally widespread and
+        asymptomatic state of chronic infection. Even extracellular
+        bacteria such as group B streptococci (tryptophan
+        auxotrophs) are inhibited by the IFN-γ mechanism of
+        tryptophan limitation [ 21]. In this context, it may be no
+        accident that pathogens such as 
+        Enterococcus faecalis, Haemophilus
+        ducreyi, Clostridium difficile and 
+        Cl. perfringens are conspicuous
+        tryptophan auxotrophs that maintain full competence for
+        phenylalanine and tyrosine biosynthesis. The broad
+        biological impact of host tryptophan catabolism is further
+        illustrated by the hypothesis that tryptophan catabolism
+        localized in placental tissue provides a mechanism
+        (suppression of lymphocyte proliferation [ 22]) to prevent
+        immune rejection of the mammalian fetus [ 23]. An
+        additional example of the far-reaching consequences of host
+        tryptophan catabolism is illustrated by the potential for
+        persistent immune activation to disrupt the balance between
+        serotonin and kynurenine production from tryptophan, thus
+        linking the immunological network and neuropsychiatric
+        consequences of serotonin imbalance [ 24].
       
       
-        Methods
+        Results and discussion
         
-          Study Population
-          The NHANES III survey and data collection procedures have been described in detail
-          elsewhere [33,34]. Briefly, NHANES III was a national probability survey conducted
-          between 1988 and 1994. This survey used a complex, multi-stage, stratified cluster
-          sampling design to obtain a representative sample of the non-institutionalized civilian
-          United States population. Participation included a home examination and a visit to a
-          mobile examination center in one of 89 locations. For those unable to travel to a mobile
-          examination center, a special home visit was arranged.
-          Of the 19,618 persons aged 18 and over included in the NHANES III population, we
-          excluded 3,021 persons for whom C-reactive protein levels were missing, given that this
-          was our primary marker of interest. Another 292 persons were excluded because they were
-          pregnant, and 816 people were excluded because they reported cigar, pipe, snuff, or
-          chewing tobacco use. Data for 15,489 persons were analyzed.
+          Dynamic gene reorganization and gene flux within
+          the chlamydial plasticity zones
+          Figure 1shows the gene organization in 
+          C. psittaci of tryptophan-pathway
+          genes ( 
+          trp ), the large toxin gene 
+          lifA, a perforin-family gene, and a
+          conserved hypothetical gene that is specific to the 
+          C. pneumoniae/C. psittaci lineage. 
+          lifA, the 
+          trp genes, the perforin-encoding
+          gene and a few other genes can be generally recognized as
+          interspecies residents of a 'plasticity zone' located
+          near the terminus of replication [ 2]. As Read 
+          et al. [ 2] pointed out, dynamic
+          events of gene shuffling, gene insertion and gene loss
+          are apparent within this plasticity zone. They discussed
+          the lack of variation in GC content and the absence of
+          evidence for gene transfer, as well as the variation of
+          tryptophan-pathway genes.
+          Substantial variation is also striking with respect to
+          
+          lifA. C. psittaci possesses a
+          single copy of 
+          lifA, C. muridarum has three
+          paralog copies, 
+          C. trachomatis has a single
+          pseudogene with frameshift mutations and 
+          C. pneumoniae lacks 
+          lifA altogether. 
+          lifA (lymphocyte inhibitory factor)
+          encodes a large toxin that can block production of IFN-γ.
+          It therefore undermines the host's ability to deplete
+          tryptophan through induction of indoleamine dioxygenase. 
+          lifA is of limited phylogenetic
+          distribution, being present elsewhere only in
+          enteropathogenic strains of 
+          Escherichia coli [ 25]. The effect
+          of IFN-γ is dose-dependent [ 26, 27], and different
+          concentration ranges have been shown [ 28] to allow rapid
+          progress through the acute infection cycle (low IFN-γ
+          concentration), to promote a stable state of persistence
+          (medium IFN-γ concentration), or to completely resolve
+          the infection (high IFN-γ concentration). Thus, to the
+          extent that 
+          lifA is considered to be a factor, 
+          C. muridarum presumably has a
+          maximal capability to block induction of IFN-γ, whereas 
+          C. psittaci has only a partial
+          ability to block IFN-γ induction via 
+          lifA. The amino-terminal portion of
+          
+          lifA (which includes the remnant of
+          
+          lifA remaining in 
+          C. trachomatis ) is homologous to
+          the gene encoding a clostridial toxin, and Belland 
+          et al. [ 29] have recently
+          demonstrated cytotoxic activities in 
+          C. muridarum and 
+          C. trachomatis D that are
+          indistinguishable from those mediated by clostridial
+          toxin B. Cytotoxicity was dose dependent with respect to 
+          lifA copy number. Belland 
+          et al. [ 29] note that if the
+          chlamydial cytotoxin inhibits lymphocyte activation (as
+          does LifA in 
+          E. coli ), it would provide a
+          mechanism for immune evasion.
+          Within the plasticity zone shown in Figure 1, 
+          C. psittaci has an operon
+          arrangement of genes encoding a nearly complete pathway
+          of tryptophan biosynthesis. In contrast, the plasticity
+          zone of 
+          C. trachomatis has only two
+          structural genes of tryptophan biosynthesis ( 
+          trpEb and 
+          trpEa ), and 
+          C. muridarum has no
+          tryptophan-pathway genes at all [ 2]. In addition, both 
+          C. trachomatis and 
+          C. muridarum have a 
+          trpC gene outside of the plasticity
+          zone. 
+          C. pneumoniae has no
+          tryptophan-pathway genes present anywhere in the
+          genome.
         
         
-          Measures
-          Self-reported race/ethnicity was categorized as non-Hispanic white, non-Hispanic
-          black, Mexican-American, or other. The self-reported poverty to income ratio, a marker of
-          socioeconomic status used in multiple prior studies [35,36], was classified as <1.5,
-          1.5–3, or >3.
-          Self-reported clinical factors were dichotomized for analysis. Participants reported
-          on use of non-steroidal anti-inflammatory drugs, estrogen replacement therapy, and
-          vitamin supplements. Use of any alcohol in the past 24 h was measured by dietary recall
-          questionnaire. Prior physician-diagnosed angina, myocardial infarction, or stroke was
-          defined as prevalent atherosclerotic cardiovascular disease (ASCVD). Prevalent
-          inflammatory disease was defined as the presence of rheumatoid arthritis, asthma,
-          emphysema, or chronic bronchitis. Presence of acute illness was indicated by a positive
-          answer to the question: “In the past few days have you had a cough, cold, or other acute
-          illness?”
-          Additional clinical factors were measured by a combination of participant self-report
-          and clinical exam and were also dichotomized for analysis. Hypertension was indicated by
-          use of anti-hypertensive medication, an average systolic blood pressure over 140 mm Hg,
-          or an average diastolic blood pressure over 90 mm Hg, over four readings. Diabetes
-          mellitus was considered present if the participant reported physician diagnosis of
-          diabetes mellitus (excluding diagnosis during pregnancy), was taking diabetes
-          medications, had fasting plasma glucose over 7 mmol/l (126 mg/dl), or had non-fasting
-          glucose levels over 11.1 mmol/l (200 mg/dl). Finally, serum cholesterol and triglyceride
-          levels were measured enzymatically (Hitachi 704 analyzer, Boehringer Mannheim, Mannheim,
-          Germany). LDL was calculated using the Friedewald equation and measured fasting
-          triglycerides, total cholesterol, and HDL cholesterol. LDL cholesterol and triglycerides
-          were included as continuous variables and were logarithmically transformed to approximate
-          the normal curve.
-          Smoking history was categorized based on both self-report and serum cotinine levels.
-          Persons who gave a history of current smoking and/or had serum cotinine levels greater
-          than 56.8 nmol/l (10 ng/ml) were considered current smokers. Current smokers were
-          categorized into four roughly equal groups, based on number of cigarettes per day: 1–9,
-          10–19, 20–29, and over 30 cigarettes per day. Former smokers were defined by self-report
-          as having smoked over 100 cigarettes in their lifetime and as having quit smoking. Former
-          smokers were categorized by years since smoking cessation. Since the zero year since
-          cessation point is subject to misclassification bias, the following levels were used in
-          analyses: <1, 1–3, 3–5, 5–7, 7–9, and >9 ysince cessation. Never smokers were
-          defined by self-report and as having serum cotinine levels under 56.8 nmol/l (<10
-          ng/ml). Passive smokers with cotinine levels over 56.8 nmol/l (10 ng/ml) were categorized
-          as smokers at the lowest dose-intensity level.
-          Our main outcome variable, C-reactive protein, was measured using a latex-enhanced
-          Behring Nephelometer Analyzer System (Dade Behring, Deerfield, Illinois, United States).
-          Because the presence or absence, rather than the absolute level, of C-reactive protein
-          appears to be associated with cardiovascular risk, we compared undetectable versus
-          detectable levels of this marker. This is consistent with previous research, given the
-          nonlinearity of C-reactive protein interpretation [37,38]. Since the limit of detection
-          for the latex-enhanced nephelometry assay was 2.1 mg/l, we defined undetectable as less
-          than 2.1 mg/l. Other outcome variables were treated continuously. White blood cell count
-          was determined using a fully automated Coulter S-PLUS JR hematology analyzer (Beckman
-          Coulter, Fullerton, California, United States). Albumin was measured using the
-          bromocresol purple method. Fibrinogen was measured using a quantitative assay of clotting
-          time compared to a known standard.
+          Novelty of the tryptophan operon of C.
+          psittaci
+          The pathway of tryptophan biosynthesis consists of
+          five steps, and we have used the convention [ 30] of
+          naming the genes in the order of the steps, 
+          trpA, trpB, trpC, trpD and 
+          trpE. The α and β subunits of 
+          trpA are named 
+          trpAa and 
+          trpAb, and the α and β subunits of 
+          trpE are named 
+          trpEa and 
+          trpEb. This nomenclature is
+          logical, easy to remember and suited to the modern era of
+          comparative genomics, where gene naming needs to be
+          consistent and to correspond to proteins at the level of
+          catalytic domain (subunit). Thus, 
+          trpAaAbBCDEaEb corresponds to the
+          conventional 
+          E. coli designations of 
+          trpEGDFCAB. 
+          The tryptophan operon in 
+          C. psittaci is incomplete in that
+          genes encoding the two subunits of anthranilate synthase
+          ( 
+          trpAa and 
+          trpAb ) are absent. These genes are
+          not present elsewhere in the genome. Hence, no
+          biochemical connection with chorismate as a beginning
+          substrate for tryptophan biosynthesis is apparent (Figure
+          2). The tryptophan operon of 
+          C. psittaci exhibits further
+          striking aspects of novelty. Not only does it contain
+          genes ( 
+          kynU and 
+          kprS ) that are not components of
+          the classical tryptophan operon, but these genes are not
+          even present in other chlamydiae. 
+          kynU encoding kynureninase and 
+          kprS (alternative name: 
+          prsA ) encoding PRPP synthase are
+          located at the 3' end of the 
+          C. psittaci trp operon (see Figure
+          1). These genes, together with 
+          trpB, trpD, trpC, trpEb and 
+          trpEa, comprise a compact operon in
+          which all but one gene overlaps its neighbor in the
+          operon (translational coupling). A regulatory gene, the 
+          trpR repressor, precedes the
+          tryptophan operon on the amino-terminal side. A second
+          paralog of the tryptophan synthase β subunit ( 
+          trpEb-2 ) is also present in an
+          extra-operonic location several genes upstream of 
+          trpR. The possible functional
+          significance of this paralog as serine deaminase has been
+          discussed elsewhere [ 30].
         
         
-          Statistical Methods
-          The distributions of traditional risk factors, inflammatory markers, and clinical and
-          sociodemographic factors were examined by smoking status. Chi-square and analysis of
-          variance tests, as appropriate, were performed to test for statistically significant
-          differences. Variables identified as potential confounders by these bivariate analyses
-          were included in multivariate models, as were the cofactors believed to be clinically
-          relevant.
-          For multivariate analyses, our primary independent variables were smoking intensity
-          and time since smoking cessation. Our primary dependent variables were the inflammatory
-          markers—C-reactive protein, fibrinogen, white blood cell count, and serum albumin—and the
-          traditional risk factors—systolic blood pressure, total cholesterol, triglycerides, HDL,
-          LDL, diabetes, and alcohol use. Two sets of multivariate models were developed. The first
-          set of analyses (minimally adjusted) were adjusted for age, sex, and race, given
-          previously reported differences in the distribution of inflammatory markers in those
-          groups. The second set of analyses (fully adjusted) were adjusted for all covariates and
-          potential confounders: age, sex, race, poverty to income ratio, body mass index,
-          prevalent cardiovascular disease, prevalent diabetes, prevalent chronic inflammatory
-          condition, current acute illness, and use of alcohol, non-steroidal anti-inflammatory
-          medication, aspirin, and estrogen replacement.
-          For inflammatory markers and traditional risk factors that were measured continuously,
-          linear regressions were used to model the relationship to smoking intensity and time
-          since smoking cessation. Least square means were calculated. C-reactive protein (a
-          dichotomous variable) was modeled with logistic regression, using never smokers as the
-          reference category. Odds ratios, however, do not approximate risk ratios, given that the
-          prevalence of elevated C-reactive protein is over 10%.
-          The dose–response relationship between both smoking intensity and time since smoking
-          cessation and each of the outcomes was assessed using Mantel tests for trend. Three sets
-          of tests were performed, evaluating the trends: (1) among current smokers by cigarettes
-          per day; (2) among former smokers by time since cessation; and (3) among smokers, former
-          smokers, and non-smokers, despite the potential nonlinearity between groups. To further
-          explain the relationship between smoking exposure and C-reactive protein, to increase the
-          power to detect a trend, and to reduce residual confounding, C-reactive protein was
-          categorized into three levels: under 2.1 mg/l (undetectable), 2.1–9.9 mg/l (mildly
-          elevated), and ≥10.0 mg/l (clinically significant).
-          Lastly, blocked group comparisons were done using adjusted chi-square tests.
-          Inflammatory and traditional risk factors were compared across current, former, and never
-          smokers to validate findings from previous studies.
-          All analyses were weighted to represent the total civilian, non-institutionalized
-          United States population; they are, therefore, population prevalence estimates. Analyses
-          were conducted in SAS (version 8.02; SAS Institute, Cary, North Carolina, United States)
-          and SUDAAN (version 9.0; Research Triangle Institute, Research Triangle Park, North,
-          Carolina, United States), incorporating sampling weights to account for nonresponse and
-          oversampling. All analyses were conducted using two-sided tests with alpha set to
-          0.05.
+          Host-parasite metabolic mosaic for tryptophan
+          cycling
+          A rationale for inclusion of 
+          kprS and 
+          kynU in the 
+          C. psittaci tryptophan operon can
+          be visualized from an examination of Figure 2. The
+          ability of 
+          C. psittaci to synthesize
+          L-tryptophan requires an alternative source of
+          anthranilate (other than chorismate) as 
+          C. psittaci lacks anthranilate
+          synthase. Kynurenine, intercepted from the host stream of
+          catabolism, would satisfy this requirement given the
+          presence of KynU. PRPP input is required for the
+          TrpB-catalyzed step, and thus it was necessary for 
+          C. psittaci to recruit PRPP
+          synthase ( 
+          kprS ) to the operon. The import of
+          ATP (substrate for PRPP synthase) from the host is also
+          probably needed, and the presence of ATP translocases in
+          chlamydial genomes has been documented [ 1, 2, 3].
+          Alternative sources of ATP, for example, utilization of
+          PEP by pyruvate kinase, are not altogether ruled out [
+          31]. Finally, serine import is required for the
+          tryptophan synthase step as chlamydiae are not competent
+          for serine biosynthesis.
+          Figure 2illustrates the mammalian 'kynurenine' pathway
+          of tryptophan catabolism, which is prominent in liver and
+          kidney. The initial step is rate limiting and is
+          catalyzed by either of two enzymes: indoleamine
+          2,3-dioxygenase or tryptophan 2,3-dioxygenase. The latter
+          is the true catabolic entity, has narrow specificity for
+          tryptophan, and is inducible in the presence of
+          tryptophan, glucocorticoids and heme cofactor [ 17]. In
+          contrast, indoleamine 2,3-dioxygenase has broad substrate
+          specificity and is capable of depleting low-to-normal
+          concentrations of tryptophan if induced by IFN-γ. The
+          overall host metabolism of tryptophan shown in Figure
+          2reflects a general potential that is not necessarily
+          realized in all cell types. The ultimate catabolic
+          process to generate acetyl-CoA is a feature of liver and
+          kidney organ systems. 2-Amino-3-carboxymuconate
+          semialdehyde can be considered to be a branchpoint
+          metabolite that either enters committed catabolism to
+          acetyl-CoA or that enters biosynthesis to NAD +/NADP +.
+          In the central nervous system, a number of
+          kynurenine-pathway metabolites are neuroactive and appear
+          to be involved in inflammatory neurological diseases [
+          32]. Quinolinate can cause excitotoxic neuronal death.
+          Kynurenic acid, derived from kynurenine by
+          transamination, can antagonize the effect of quinolinate.
+          3-Hydroxykynurenine and 3-hydroxyanthranilate have been
+          shown to cause apoptotic or necrotic neuronal death in
+          cell cultures [ 32]. In glioblastoma cells (and
+          apparently in human fibroblasts) kynurenine is an
+          endpoint of tryptophan catabolism [ 33]. In human
+          macrophages kynurenine is further metabolized [ 34].
+          Indoleamine dioxygenase is a rate-limiting step of
+          tryptophan catabolism, and other steps are not known to
+          be induced by IFN-γ. 3-Hydroxykynurenine is a prominent
+          metabolite in the eye lens (it absorbs UV radiation) and
+          probably supports eye pigmentation in the iris/ciliary
+          body [ 35].
+          Hence, in some host tissue types, kynurenine is a
+          largely dead-end product of tryptophan catabolism,
+          whereas it has a variety of metabolic fates in other
+          tissues. In either case, kynurenine generally exhibits a
+          conspicuous pool size [ 36]. Thus, although 
+          C. psittaci apparently cannot
+          utilize chorismate (for which it has an intact
+          biosynthetic pathway) as a precursor of L-tryptophan, it
+          has the potential to synthesize its own supply of
+          L-tryptophan from host-generated kynurenine, ATP and
+          L-serine.
+          It is of interest that the conversion of kynurenine to
+          anthranilate and the conversion of 3-hydroxykynurenine to
+          3-hydroxyathranilate are similar hydrolytic reactions.
+          The host enzyme catalyzing the latter reaction is, in
+          fact, a kynureninase which is a homolog of the 
+          C. psittaci KynU. Kynureninases
+          have been reported to possess a range of substrate
+          specificities that vary between very high specificity for
+          kynurenine and very high specificity for
+          3-hydroxykynurenine. The kynureninase of rat and human
+          liver has an order-of-magnitude preference for
+          3-hydroxykynurenine [ 37], in contrast to a microbial
+          kynureninase that exhibits a very high preference for
+          kynurenine [ 38]. It seems likely that the 
+          C. psittaci KynU is specific for
+          kynurenine, whereas the mammalian host may possess
+          isozymes of different substrate specificity in different
+          tissues.
+          An intriguing possible layer of additional complexity
+          involves a competitive relationship between indoleamine
+          dioxygenase and nitric oxide (NO) synthase (type II
+          isoform), which are both induced by IFN-γ. In murine
+          macrophages, induction of NO synthase requires at least
+          one additional stimulus (such as bacterial
+          lipopolysaccharide (LPS)) that acts synergistically with
+          IFN-γ ([ 39] and references therein). Metabolite flow to
+          NAD +is proportional to the input availability of
+          tryptophan in murine macrophages [ 40]. Under conditions
+          in which there is induction of both indoleamine
+          dioxygenase and NO synthase, an interplay of potential
+          cross-pathway inhibitions are set in motion as
+          illustrated in Figure 2. Nitric oxide inhibits
+          indoleamine dioxygenase [ 41]. On the other hand,
+          3-hydroxyanthranilate inhibits both the expression and
+          activity of NO synthase [ 39]. Thus, small-molecule
+          products of each pathway can be mutually inhibitory.
+          Consider a scenario where 
+          C. psittaci has parasitized a host
+          niche where 3-hydroxyanthranilate is a prominent
+          metabolite, as in human macrophages [ 42]. The withdrawal
+          of kynurenine from this flow route might undermine the
+          levels of 3-hydroxyanthranilate sufficiently to release
+          the restraints on NO synthase. The consequent increase in
+          nitric oxide production might then tend to limit the
+          availability of kynurenine as a result of inhibition of
+          indoleamine dioxygenase. Although this might at first
+          seem an unfavorable outcome for the 
+          C. psittaci parasitism, a finite
+          but minimal supply of kynurenine might satisfy the highly
+          limited metabolic demands of the persistent state.
+        
+        
+          Did the C. psittaci trpoperon originate by lateral
+          gene transfer?
+          The tryptophan operon of 
+          C. psittaci is probably derived
+          from ancestral chlamydial genes before modern events of
+          gene reduction occurred. However, as the present-day 
+          C. psittaci operon is unique among
+          chlamydiae, it is also possible that 
+          trp genes were lost and then
+          reacquired by lateral gene transfer (LGT). As this would
+          have happened recently (after divergence of 
+          C. psittaci from other chlamydial
+          lineages), one might then expect the genes to have GC
+          contents different from that of the overall 
+          C. psittaci genome (42%). Table
+          1shows that each operon gene, as well as 
+          trpR and 
+          trpEb-2, are within the range
+          expected for 
+          C. psittaci. However, the GC
+          content of the donor genome could have fortuitously been
+          near that of 
+          C. psittaci. If so, one might
+          expect that the top hits returned from a BLAST search of
+          each 
+          C. psittaci operon gene would not
+          include other chlamydial genes and would be dominated by
+          one organism having an appropriate GC content. The
+          results (Table 1) show that this expectation was not
+          realized.
+          It is perhaps intriguing that when 
+          C. psittaci kynureninase (KynU) was
+          used as a query sequence, the top hits returned from
+          BLAST were the KynU orthologs from man and mouse.
+          Accordingly, the codon usage for the KynU proteins of 
+          C. psittaci and 
+          Homo sapiens (left half of Figure
+          3) was compared with the genomic codon usage of the
+          respective organisms (right half of Figure 3). The codon
+          usage for arginine, leucine, proline and valine is
+          distinctive in a comparison of 
+          C. psittaci and 
+          H. sapiens. The profile of codon
+          usage for these amino acids by 
+          C. psittaci KynU clearly matches
+          the genomic codon-usage profile of 
+          C. psittaci, but not that of 
+          H. sapiens. Thus, there is no
+          evidence for a recent LGT of 
+          kynU between 
+          C. psittaci and 
+          H. sapiens. 
+        
+        
+          Deterioration of tryptophan-pathway genes in the
+          chlamydiae
+          Chlamydial species have generally undergone reductive
+          evolution that includes an inability to synthesize
+          tryptophan from chorismate. That the process of reductive
+          evolution is ongoing is suggested by the variability of
+          remaining remnants and by indications that some of these
+          remnants are pseudogenes. At one extreme, 
+          C. pneumoniae has lost all
+          tryptophan-pathway genes; 
+          C. muridarum has only one remnant (
+          
+          trpC ); and 
+          C. trachomatis has three remnants (
+          
+          trpC, trpEa and 
+          trpEb ). It appears that 
+          C. psittaci alone assigns a
+          functional role to tryptophan-pathway genes, but it is a
+          kynurenine-to-tryptophan pathway rather than a
+          chorismate-to-tryptophan pathway. Thus, even 
+          C. psittaci is dependent upon host
+          resources (that is, kynurenine) for tryptophan.
+          Figure 4shows a sequence comparison of TrpC from 
+          E. coli with those from chlamydial
+          species. Critical residues can be assessed with guidance
+          from X-ray crystallography data (see legend) and
+          invariant residues seen in multiple alignments. Given the
+          presumed lack of selection for function in 
+          C. trachomatis and 
+          C. muridarum, it would not be
+          surprising to find evidence of unfavorable mutations.
+          Indeed, the mutations H335 → S335 ( 
+          E. coli numbering) and G385 → E385
+          in 
+          C. trachomatis and 
+          C. muridarum, but not in 
+          C. psittaci, probably reflect
+          unfavorable catalytic alterations (see heavy up arrows in
+          Figure 4). Two changes in 
+          C. psittaci, not present in the
+          other two chlamydial species (V292 → T292 and S429 →
+          T429) are conservative changes that are presumably
+          tolerated.
+          TrpEa from 
+          C. trachomatis has clearly
+          accumulated deleterious mutations in contrast to the 
+          C. psittaci TrpEa (Figure 5).
+          Comparison of these sequences with that of the well
+          studied TrpEa from 
+          Salmonella typhimurium shows 
+          C. trachomatis TrpEa (but not 
+          C. psittaci TrpEa) to have the
+          following changes at critical residues ( 
+          S. typhimurium numbering): G61 →
+          N61, G211 → R211, F/L212 → R212, and G234 → K234. In
+          addition, the intersubunit signaling residue G181 has
+          been changed to A181 in 
+          C. trachomatis. C.
+          trachomatis TrpEa has a four-residue deletion between
+          R192 and K193 that is unique in our comprehensive
+          alignment of TrpEa. Xie 
+          et al. [ 30] pointed out that the
+          elongated branch of 
+          C. trachomatis TrpEa, but not of 
+          C. psittaci TrpEa, on an unrooted
+          phylogenetic tree of the TrpEa family was consistent with
+          a likely pseudogene status for the former. The rapid
+          deterioration of TrpEa is, in fact, apparent from
+          differences in TrpEa from various serovars of 
+          C. trachomatis [ 43]. Thus, serovar
+          B lacks TrpEa altogether, serovars A and C express
+          severely truncated TrpEa proteins, whereas serovars D and
+          L2 express full-length TrpEa proteins (although
+          undoubtedly inactive).
+          The β subunits of tryptophan synthase in 
+          C. psittaci (two copies, Figure 1)
+          and 
+          C. trachomatis appear to have all
+          important residues conserved (Figure 6). This includes
+          conserved catalytic residues and residues that are
+          important for establishing intersubunit and intrasubunit
+          salt bridges needed for formation of the α-β complex of
+          tryptophan synthase. It appears that there has been rapid
+          deterioration of TrpEa, but not of TrpEb. This might
+          suggest that TrpEb is under positive selection for some
+          functional role other than that of tryptophan synthase.
+          When TrpEb is not complexed with TrpEa, it has
+          substantial activity as serine deaminase. Therefore,
+          present-day TrpEb may function in the chlamydiae as
+          serine deaminase, as has been proposed by Xie 
+          et al. [ 30] for some archaea. This
+          is consistent with the total absence of genes in
+          chlamydiae known to encode enzymes with serine deaminase
+          activity. These enzymes include Fe-S serine deaminase
+          (GenBank gi 2501150), PLP-dependent serine deaminase (gi
+          134387), catabolic threonine deaminase (gi 135723), and
+          biosynthetic threonine deaminase (gi 135720).
+          A very recent paper by Fehlner-Gardiner 
+          et al. [ 44] affirms experimentally
+          the predictions made in this paper that TrpEb should be
+          functional and TrpEa should not be functional.
+          Fehlner-Gardiner 
+          et al. [ 44] sequenced TrpEa and
+          TrpEb from all human serovars of 
+          C. trachomatis. All of the genital
+          serovars expressed TrpEa and TrpEb proteins, but only
+          TrpEb had catalytic activity. Interestingly, the
+          catalytic indole-utilizing activity of TrpEb required a
+          full-length TrpEa. It appears that these TrpEa proteins,
+          although lacking their own catalytic activity, are still
+          functional in maintaining the TrpEb activity. Even though
+          most of the ocular serovars also had a potentially
+          functional TrpEb, none of them would presumably utilize
+          indole 
+          in vivo because of the absence of a
+          full-length TrpEa. The authors propose that other
+          bacteria in the microenvironment of genital serovars
+          might be a source of indole, a situation not expected in
+          the microenvironment of ocular serovars. In short, the
+          tissue tropism correlates with ability to convert indole
+          to L-tryptophan 
+          in vivo. This seems a reasonable
+          possibility, although it does not explain why most of the
+          ocular serovars have maintained a TrpEb that seems to
+          have resisted reductive evolutionary forces. It would be
+          interesting to know whether the serine deaminase activity
+          of 
+          C. trachomatis TrpEb (an activity
+          other than indole utilization suggested in this paper)
+          requires full-length TrpEa or not.
+        
+        
+          Overview of tryptophan-pathway variability in
+          chlamydiae
+          Shaw 
+          et al. [ 43] have correlated the
+          variability in the number of tryptophan-pathway enzymes
+          present in chlamydiae (in particular, the α subunit of
+          tryptophan synthase) with varied sensitivity to IFN-γ
+          treatment [ 16] and ease of demonstrating the transition
+          to persistence 
+          in vitro. C. trachomatis A, B and C
+          readily develop persistent characteristics following
+          IFN-γ treatment. 
+          C. pneumoniae also is readily
+          converted to persistence with IFN-γ treatment [ 45].
+          Tryptophan has been reported to be essential for growth
+          of serovars A, B and C, but not for growth of 
+          C. psittaci or serovars D-K and L2
+          of 
+          C. trachomatis [ 45]. Thus, 
+          C. trachomatis serovars A-C, but
+          not serovars D-K or L1-L3, have been described as
+          'tryptophan auxotrophs' [ 43]. Likewise, 
+          C. pneumoniae, but not 
+          C. psittaci, has been described as
+          a tryptophan auxotroph. Morrison [ 46] has also discussed
+          the possible relationship of genes present or absent for
+          tryptophan biosynthesis and the differential
+          sensitivities of chlamydiae to inhibitory effects of
+          IFN-γ. Shaw 
+          et al. [ 43] imply that 
+          C. trachomatis D, L2 and 
+          C. psittaci are competent for
+          tryptophan biosynthesis, unlike 
+          C. trachomatis A, B, C and 
+          C. pneumoniae. This correlates
+          nicely with proneness to persistence and the more
+          demonstrable nutritional requirement for tryptophan in
+          the latter strains, but not the former. However, from the
+          current database information available, it appears likely
+          that all chlamydiae, even 
+          C. psittaci, are tryptophan
+          auxotrophs. As the host itself is incapable of tryptophan
+          biosynthesis, the host is not a credible source of any
+          biosynthetic intermediates. It is also noteworthy that
+          only 
+          C. psittaci has PRPP synthase,
+          which is needed for provision of PRPP (TrpB step). Thus,
+          there seems to be no basis for the conclusion [ 43] that
+          variations in 
+          C. trachomatis serovar pathogenesis
+          can be directly linked to differences in TrpEa, and it
+          therefore seems that the latter differences are
+          coincidental. Differential capabilities for acquisition
+          of the host resources are unknown variables that might
+          distinguish different strains [ 47]. In this context, it
+          seems possible that variation in LifA integrity or copy
+          number could easily explain variation in IFN-γ
+          sensitivity and the nutritional requirement for
+          L-tryptophan 
+          in vitro. 
+          Except for 
+          C. psittaci, we may be seeing
+          different strains in varied states of reductive evolution
+          with respect to what remnants of genes for tryptophan
+          biosynthesis remain. 
+          C. pneumoniae and 
+          C. trachomatis B lack genes
+          encoding the entire tryptophan pathway. 
+          C. trachomatis D possesses 
+          trpC, trpEa and 
+          trpEb; C. muridarum possesses only 
+          trpC; C. trachomatis A and C
+          possess 
+          trpEa and 
+          trpEb. The truncation of 
+          trpEa in 
+          C. trachomatis A and C, the likely
+          pseudogene status of 
+          trpEa in serovar D, and the absence
+          of 
+          trpEa altogether in serovar B
+          indicates an active ongoing process of reductive
+          evolution.
+        
+        
+          Chlamydial transport of tryptophan, kynurenine and
+          serine
+          The chlamydiae are dependent on host cells for a
+          variety of metabolites that are relevant to the
+          host-parasite relationships of tryptophan metabolism.
+          These include kynurenine, serine, ATP and tryptophan
+          itself. Hence, the nature and variability for transport
+          of these compounds should be of considerable
+          interest.
+          Species of chlamydiae possess one ( 
+          C. psittaci ) or two ( 
+          C. muridarum, C. trachomatis and 
+          C. pneumoniae ) homologs of genes
+          encoding the well characterized hydroxy/aromatic amino
+          acid (HAAAP) permease family [ 48]. Figure 7presents an
+          unrooted radial tree that shows the chlamydial proteins
+          to comprise a distinct cluster. 
+          E. coli Mtr (high-affinity
+          tryptophan permease) and TnaB (low-affinity tryptophan
+          permease) comprise one distinct group, and 
+          E. coli TyrP homologs make up
+          another distinct group. The chlamydial sequences are
+          approximately equidistant from the TyrP/Mtr-TnaB
+          groupings. These chlamydial proteins might be
+          broad-specificity transporters of tryptophan, tyrosine,
+          phenylalanine and perhaps kynurenine as well.
+          When the Na +-coupled serine symporter SdaC from 
+          E. coli was used as a query against
+          the chlamydial genomes, TyrP was the top hit (22%
+          identity). This reflects the membership of SdaC proteins
+          in the HAAAP family. An alternative query, the 
+          E. coli CycA serine/alanine/glycine
+          transporter, yielded CT216 as the top hit (only 22%
+          identity). 
+          E. coli possesses a Na +-coupled
+          serine symporter, SttT, which is regulated by tryptophan
+          [ 49]. Although this is but one of at least five
+          different transporters for serine in 
+          E. coli, sstT encodes the sole
+          serine/threonine transporter in 
+          Porphyromonas gingivalis [ 50].
+          Species of chlamydiae possess two paralogs of SstT, which
+          were judged to be the most likely genes encoding serine
+          transport. Perhaps one favors serine transport and the
+          other threonine transport. Figure 8shows an unrooted tree
+          of SstT proteins.
+        
+        
+          The tryptophan repressor
+          The presence of 
+          trpR implies that the tryptophan
+          operon is under repression control by L-tryptophan, and
+          some experimental evidence does indeed show derepression
+          under conditions of tryptophan limitation [ 43].
+          Starvation for host-derived L-tryptophan, which is
+          initiated by induction of indoleamine dioxygenase by
+          IFN-γ, undoubtedly triggers derepression of the entire
+          tryptophan operon, including the genes encoding PRPP
+          synthase and kynureninase. Kynureninase from 
+          C. psittaci is a key linker between
+          the anthranilate-utilizing TrpB enzyme that initiates
+          tryptophan biosynthesis in the parasite and the host
+          kynurenine foramidase that generates kynurenine. In
+          effect a hybrid host-parasite cycle is generated in which
+          a metabolic stream in the host away from tryptophan is
+          intercepted by a metabolic stream toward tryptophan in 
+          C. psittaci. 
+          The thoroughly studied repressor protein that
+          regulates tryptophan biosynthesis in 
+          E. coli is of limited phylogenetic
+          distribution. In fact, 
+          Xylella fastidiosa, C.
+          trachomatis and 
+          C. psittaci are the only organisms
+          outside the enteric lineage known to possess 
+          trpR. The GC content of 
+          trpR was examined for evidence of
+          possible horizontal transfer. Table 3lists the GC content
+          of 
+          trpR genes, compared to the GC
+          content of the corresponding genomes. The 
+          trpR GC content of each organism
+          corresponded relatively well to the genomic GC content,
+          except for 
+          X. fastidiosa where 
+          trpR exhibited a low GC content,
+          more similar to that of the chlamydiae or 
+          H. influenzae. 
+        
+        
+          Does C. psittacihave a regulon controlled by
+          trpR?
+          In 
+          E. coli the 
+          trp repressor binds upstream of the
+          
+          trp operon and upstream at the 
+          mtr transport gene in promoter
+          regions where CTCG or CTAG are important for binding [
+          51]. The 
+          sstT gene of 
+          E. coli is also subject to
+          repression control by tryptophan and a CTCG upstream
+          region has been proposed to be an additional target
+          region for TrpR [ 49].
+          As 
+          C. psittaci has 
+          trpR, it seems quite possible that
+          the 
+          trp operon, 
+          sstT (for serine transport), and 
+          tyrP (for tryptophan transport)
+          might comprise a regulon controlled by the 
+          trpR repressor. Indeed, CTAG and/or
+          CTCG motifs were found upstream of all these genes in 
+          C. psittaci, but the presence of
+          these regions did not exceed random probability
+          sufficiently to justify any concrete assertions. The
+          further use of a computational approach [ 52] to identify
+          the transcription regulatory pattern was also not
+          illuminating. As chlamydial TrpR proteins are the most
+          divergent of TrpR proteins, the motif pattern for DNA
+          binding may also be divergent.
         
       
       
-        Results
-        Of the 15,489 persons in our sample, 7,665 were classified as never smokers, 3,459 were
-        classified as former smokers, and 4,365 were classified as current smokers. The average
-        time since smoking cessation for former smokers was 13 y. The average cotinine level for
-        current smokers was 1,255 nmol/l (221 ng/ml); for both former and never smokers the average
-        cotinine level was <3 nmol/l (<0.5 ng/ml). Weighted descriptive statistics are given
-        in Table 1.
-        Bivariate analyses of smoking status showed that among the inflammatory risk factors,
-        unadjusted C-reactive protein, white blood cell count, and fibrinogen were all
-        significantly and positively associated with smoking status (
-        p <0.01). Albumin levels were similar across smoking categories.
-        Among traditional risk factors, smokers had higher total cholesterol and triglycerides, but
-        were otherwise younger, had lower body mass index, and had lower blood pressure, and a
-        smaller proportion were diabetic. Former smokers were most likely to have prevalent
-        atherosclerotic cardiovascular disease.
-        Bivariate analyses of the inflammatory markers showed that C-reactive protein was
-        significantly associated with older age (
-        p- trend < 0.01 by 10-y age group), female sex (
-        p <0.01), and black race (
-        p <0.01). Serum albumin and serum fibrinogen showed similarly
-        significant associations. White cell count was associated with race (
-        p <0.01), but not with age or sex. Among traditional risk factors,
-        analyses showed that total cholesterol, triglycerides, HDL cholesterol, LDL cholesterol,
-        and systolic blood pressure were each associated with age, sex, and race (all 
-        p <0.01). Diabetes was associated with age and race only (
-        p <0.01). Alcohol use was associated with age and sex only (
-        p <0.01). All models, therefore, were adjusted for age, race, and
-        sex.
-        Table 2 displays abatement of the inflammatory response with (1) reduced intensity of
-        smoking and (2) increased time since smoking cessation, adjusted for age, sex, and race.
-        C-reactive protein, white blood cell count, and fibrinogen were all positively associated
-        with increased smoking intensity (
-        p ≤ 0.01) and were all significantly negatively associated with time
-        since smoking cessation (
-        p <0.05). Similarly, albumin showed a negative association with
-        intensity of smoking (
-        p ≤ 0.01), but no relationship after cessation. All acute phase reactant
-        inflammatory markers had significant trends overall, from current to former to never
-        smokers (
-        p ≤ 0.01) (Figure 1).
-        Differences in the traditional cardiovascular risk factors are shown in Table 3,
-        adjusted for age, sex, and race. Total and HDL cholesterol, triglycerides, alcohol usage,
-        and systolic blood pressure all showed a dose-dependent association with smoking intensity
-        (
-        p <0.05). Triglycerides and alcohol use showed time-dependent
-        associations with smoking cessation (
-        p ≤ 0.01). Overall trends (from current to former to never smokers) were
-        present for alcohol use, triglycerides, total cholesterol, and HDL cholesterol, as shown in
-        Figure 2. In models fully adjusted for all covariates (not shown), dose-dependent
-        associations persisted for HDL cholesterol and triglycerides (
-        p ≤ 0.01). Both total cholesterol and triglycerides showed an association
-        with time since smoking cessation (
-        p = 0.03 for both) and an overall trend from current to never smokers in
-        fully adjusted models.
-        Lastly, the inflammatory markers were examined in fully adjusted models. C-reactive
-        protein continued to show abatement of the acute phase response with reduced smoking
-        intensity and increased time since cessation despite adjustment for covariates (Table 4).
-        White blood cell count and albumin were associated with smoking intensity but not with time
-        since cessation. All positive acute phase reactants showed an associated decline from
-        current to former to never smokers in fully adjusted models (
-        p ≤ 0.01); albumin, likewise showed a significant increase (
-        p -trend ≤ 0.01).
-        Analyses using pack-years were also done (not shown); the results were unchanged using
-        this measure. Additionally, data were reanalyzed excluding those individuals with prevalent
-        cardiovascular disease (not shown); results were again unchanged and measures of
-        association were even slightly stronger. Overall, we observed the following associations:
-        (1) improvement in both inflammatory markers and traditional risk factors with decreased
-        intensity of smoking, and (2) improvement in inflammatory markers with increased time since
-        smoking cessation.
-      
-      
-        Discussion
-        In this cross-sectional population-based study, we were able to demonstrate dose effects
-        from smoking and temporal effects from cigarette smoking cessation. The NHANES III dataset
-        allowed us to utilize both self-reported smoking and serum cotinine levels to minimize
-        misclassification error. It also allowed us to control for a wide range of confounders and
-        assess consistency across measures by analyzing four acute phase proteins and several
-        traditional risk factors. By examining both traditional risk factors and inflammatory
-        markers of cardiovascular risk, this study contributes to the literature by providing a
-        more complete analysis with regard to the effects of smoking and smoking cessation.
-        It is known that after smokers give up smoking, their risk of mortality and future
-        cardiac events declines [32,39], but there is little data quantifying the rate of risk
-        reduction and when, or even whether, cardiovascular risk for former smokers reaches that of
-        never smokers [12,40,41]. We found that the smoking-associated inflammatory response
-        subsides within 5 y after smoking cessation. This suggests that the vascular effects are
-        reversible and that cardiovascular risk subsides gradually with reduced exposure. The time
-        to risk factor “correction” was longest with C-reactive protein; only one traditional risk
-        factor—triglycerides—showed a similar pattern. Our findings are consistent with prior
-        studies, suggesting that the full benefit of smoking cessation may be achieved gradually
-        [39,42,43].
-        Our estimates of the time to risk factor “correction” are shorter than those for the
-        decline in mortality risk and risk for specific cardiac events reported in some prospective
-        studies [42,44], but on par with those in other prospective [45], case-control [46,47], and
-        cross-sectional [48] studies. Discrepancies may be due to smoking recidivism in prospective
-        studies, where former smokers recommence smoking and increase their risk, such that the
-        reported time since cessation is longer than the true time, or due to a lag between changes
-        in cardiovascular risk factors and regression of disease. Additionally, one would expect
-        morbidity risk to subside first, since mortality is a more distant endpoint. Prior studies
-        also did not control for known cardiovascular risk factors, did not use serum cotinine
-        levels, did not examine the associated change in inflammatory markers post-cessation, or
-        grouped participants into broad categories of current, former, and never smokers,
-        increasing residual confounding while failing to explore the relative effects within each
-        group [9,12,49]. Nevertheless, it remains unclear whether C-reactive protein's ongoing
-        decline in former smokers simply indicates a prevalent underlying burden of atherosclerotic
-        plaque, or “simmering” ongoing disease processes. The direct associations of C-reactive
-        protein with mortality decrement seen in these other studies—and the dose–response seen in
-        our own study—suggest the latter.
-        Three studies have systematically examined inflammatory markers following smoking: the
-        MONICA Study (Monitoring Trends and Determinants in Cardiovascular Disease) [46], the
-        Cardiovascular Health Study (CHS) [48], and the Northwick Park Heart Study [45]. The
-        Cardiovascular Health Study found no association between inflammatory markers and smoking
-        status itself, although C-reactive protein was strongly related to lifetime smoking
-        exposure as measured by pack-years. Our results, while based on more complete modeling,
-        support findings from the Northwick Park Heart Study and MONICA Study, both of which found
-        that fibrinogen levels (adjusted only for age) reached normal levels within 5 y.
-        Our study supports the hypothesis that cardiovascular risk falls with inflammatory
-        abatement, and that inflammatory markers are better indicators of such risk reduction. In
-        this analysis, triglycerides showed the strongest dose-intensity and temporal trends of the
-        traditional cardiovascular risk factors. This is both consistent with prior research and
-        not surprising since the strongest association between C-reactive protein and lipid
-        measures is for triglycerides. Despite the colinearity, the inflammatory markers studied
-        appear to have a much clearer trend and longer lasting effect after smoking cessation than
-        traditional risk factors. This would suggest their greater utility in being more accurate
-        markers of disease, particularly given C-reactive protein's increasingly apparent role in
-        the pathogenesis of atherosclerosis. Alternative explanations include (1) the presence of
-        multiple independent causal pathways leading to cardiovascular disease and (2) traditional
-        risk factors correlating more closely with mortality than morbidity or underlying
-        pathophysiology. The relative value of novel inflammatory markers versus traditional risk
-        factors remains of much debate [50,51].
-        Limitations of this study include measurement error from self-reporting, residual
-        confounding from use of indicator variables, smoking recidivism, lack of newer measures
-        such as interleukin-6 and high-sensitivity C-reactive protein [52], and lack of data on
-        secondhand smoke. Recent studies have suggested that toxin exposures from secondhand smoke
-        may impact the biomarkers used in this study [53,54]. We attempted to adjust for bias in
-        self-reporting and secondhand exposure by using serum cotinine levels, but residual
-        confounding may exist. It has also been suggested that circulating C-reactive protein
-        levels may not reflect all relevant inflammatory effectors, owing to post-transcriptional
-        regulation of C-reactive protein [22]. We chose C-reactive protein, however, for its clear
-        role in the inflammatory response and for its increasing clinical relevance. Lastly, it is
-        noteworthy that we are not using a linear scale, but measures of both intensity and
-        duration. Time since cessation and cigarettes per day are distinctly different measures,
-        and a discontinuity arises at cessation.
-        Further research should explore the acute phase response in the months following smoking
-        cessation [53,55–57]. Time intervals of less than a year since cessation have not been
-        assessed adequately in other studies nor in this study because of sample size limitations
-        of the NHANES III data. Additionally, if cardiovascular risk subsides gradually upon
-        smoking cessation, do vessel wall damage and pro-aggregatory cascades all completely
-        reverse course upon cessation? Future research should continue to explore the relationship
-        between the inflammatory cascade and alterations in the vessel wall [7,58].
-        This and other similar studies suggest that smoking cessation should play a larger role
-        in public policy. Linked to poverty, decreased productivity, and premature death, tobacco
-        remains the second major cause of preventable death in the world and fourth most common
-        risk factor for disease worldwide [59]. While tobacco is clearly a worldwide concern,
-        states and localities are left responsible for addressing tobacco use and smoking in a
-        comprehensive manner. Our results suggest that policy-makers faced with escalating
-        health-care costs should look to smoking cessation as an opportunity to achieve both long-
-        and short
-        - term health-care cost savings through cardiovascular risk reduction
-        [60]. If cardiovascular benefits are, in fact, readily attainable, there exists an
-        opportunity for short-term gain from smoking cessation. This may be sufficient to induce
-        policy change. Larger scale action is also needed. Arguments persist in the developing
-        world regarding the forced opening of tobacco markets as a result of the Global Agreements
-        on Tariffs and Trade. Guidance may be forthcoming, however, from the World Health
-        Organization Framework Convention on Tobacco Control, which began operation in February
-        2005 as an international treaty aimed at controlling tobacco packaging, marketing, and use
-        [61]. Over 60 nation-states are currently parties to the Framework Convention on Tobacco
-        Control, including many European nations and Japan, although the United States has yet to
-        approve this treaty. Opportunities for tobacco control remain available, and it is becoming
-        increasingly clear that smoking cessation models deserve high priority both in research and
-        in any preventive health care system.
+        Conclusions
+        Chlamydial parasites appear to respond to host
+        mechanisms for restriction of tryptophan availability with
+        a diversity of strategies, the exact nature of which we
+        still know very little. One strategy utilized by 
+        C. muridarum employs a three-copy
+        dose of 
+        lifA, which could inhibit cytokine
+        proliferation and decrease IFN-γ production by the host
+        (although at least some IFN-γ has been shown to be produced
+        in mice infected with 
+        C. muridarum [ 53]). Such a strategy
+        would seem to be consistent with acute infections, which
+        can be a successful mode of pathogenicity in some
+        situations, such as high-density rodent populations. In the
+        case of 
+        C. muridarum, the mechanism does not
+        necessarily involve blocking the induction of indoleamine
+        dioxygenase and thereby preventing depletion of host
+        tryptophan, in view of some experimental work with the
+        MoPn/mouse model system. The primary effect of the IFN-γ
+        may not be to cause starvation for tryptophan as
+        anti-chlamydial and anti-proliferative activities of murine
+        IFN-γ in mouse cells was not reversible by tryptophan [
+        54]. It has been concluded in other studies as well [ 55,
+        56] that host-mediated tryptophan depletion is not an
+        important factor in the MoPn/mouse model system. However, a
+        conflicting conclusion was recently published by Perfettini
+        
+        et al. [ 57] that the inhibitory
+        effect of IFN-γ in mouse cell cultures and genital tracts
+        seems to be due in part to tryptophan depletion (because
+        inhibition was partially reversed by tryptophan). It has
+        been generally observed that in murine systems indoleamine
+        dioxygenase has not been induced by IFN-γ under the same
+        experimental conditions that readily induce synthesis of
+        the enzyme in human systems. However, the potential to
+        induce the dioxygenase in murine systems by IFN-γ exposure
+        has been demonstrated when nitric oxide production is
+        blocked [ 41]. Thus, it seems that the key difference
+        between the mouse and human systems might lie in the
+        details that dictate the balance between the
+        cross-regulated pathways of tryptophan and arginine
+        metabolism (see Figure 2). If so, in human systems the
+        balance favors domination by the indoleamine dioxygenase
+        route, whereas in murine systems the nitric oxide route is
+        favored. Many individual factors could influence the
+        balance, including differential sensitivities of NO
+        synthase to inhibition by 3-hydroxyanthranilate or of
+        indoleamine dioxygenase to inhibition by nitric oxide. In
+        addition, unidentified cytokine-mediated mechanisms
+        undoubtedly await elucidation.
+        In any event, for most chlamydiae the successful
+        implementation of tryptophan depletion by the host is
+        closely tied to chlamydial responses that result in a
+        persistent metabolic state and chronic disease. It would
+        appear that chlamydiae have learned to recognize and
+        exploit tryptophan depletion as an environmental cue that
+        initiates a distinct chain of remodeling biochemistry that
+        promotes long-term viability in a latent state.
+        It is difficult to guess whether the ability of 
+        C. psittaci to scavenge kynurenine as
+        a source of tryptophan is a recent innovation in this
+        lineage, or whether it represents an ancient chlamydial
+        strategy that has been abandoned by other chlamydiae.
+        Perhaps the strategy is linked to the particular tissue
+        tropism of 
+        C. psittaci. Because the presence of
+        the tryptophan-pathway enzymes varies so markedly, even
+        between closely related stains, one cannot be certain at
+        this point that the tryptophan-recapture cycle is uniquely
+        characteristic of 
+        C. psittaci. It cannot be ruled out
+        that other strains of 
+        C. psittaci might lack the cycle,
+        whereas some strains of 
+        C. trachomatis or 
+        C. pneumoniae not yet sequenced might
+        possess it. Different overall host metabolism and different
+        biochemical environments in various tissues undoubtedly
+        influence the availability of kynurenine (as well as other
+        metabolites such as ATP and serine). Hence, tissue tropism
+        must be a crucial factor. It would be interesting to know
+        whether the tryptophan-recapture cycle is capable of
+        providing abundant tryptophan to the parasite, or whether
+        it might be more subtly geared to provision of barely
+        adequate tryptophan for parasites established in the
+        chronic-infection mode.
       
     
   

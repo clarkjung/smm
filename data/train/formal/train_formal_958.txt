@@ -2,610 +2,218 @@
   
     
       
-        Background
         
-          Antigenic drift and the generation of viral
-          quasispecies
-          Some RNA viruses form a quasispecies--a set of related
-          viral variants that coexist in field populations and even
-          within single infected individuals (reviewed in [ 1, 2,
-          3, 4, 5]). The emergence of immunologically distinct
-          members of a viral quasispecies through mutation and
-          subsequent immune selection is called "antigenic drift."
-          Antigenic drift is thought to be important in human
-          immunodeficiency virus (HIV) infection and the continuing
-          seasonal influenza epidemics because immunity generated
-          against one viral quasispecies member selects for escape
-          variants. Attributed in part to antigenic drift are the
-          moderately high failure rate and the short-lived efficacy
-          of influenza vaccines [ 6], the failure of synthetic
-          foot-and-mouth disease virus vaccines [ 7], and the
-          inability of recombinant HIV vaccines to provide complete
-          protection against field strains of the virus [ 8].
-          The hemagglutinin (HA) envelope surface
-          glycoprotein--the major neutralizing determinant of
-          influenza A--is a classic example of an antigenically
-          drifting protein [ 9]. Walter Gerhard and colleagues
-          demonstrated that the immune pressure exerted by
-          monoclonal antibodies (Abs) selects for HA escape mutants
-          in model systems [ 10, 11]. Later, Dimmock and colleagues
-          showed that polyclonal anti-sera also select for escape
-          mutants [ 12, 13]. Similarly, much of the observed
-          variability of glycoprotein 120 (gp120), the principal
-          surface antigen of HIV, is thought to reflect antigenic
-          drift [ 14, 15, 16, 17]. The correlation of intra-patient
-          viral diversity with immune response strength has been
-          cited as evidence that the immune response is a selective
-          factor in HIV antigenic drift [ 18, 19, 20, 21, 22].
-          Phylogenetic analyses describe divergence within a
-          viral population, and these methods have been used to
-          infer the selective advantages of viral variation [ 18,
-          19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]. A more
-          direct indication of the selective advantage gained
-          through variation is an observed overabundance of
-          replacement mutations relative to silent mutations in
-          viral proteins [ 31]. Such analyses of gp120 and its V
-          regions indicate that replacement mutations are generally
-          over-represented in this protein and thus appear to
-          confer selective advantage to HIV-1 [ 22, 24, 25, 26, 27,
-          28, 29, 30, 32, 33, 34, 35]. In more detailed analyses,
-          several groups tested individual codons for replacement
-          mutations that are, as an aggregate, overabundant [ 23,
-          36, 37, 38]. However, none of these methods determine
-          which replacement mutations are actually positively
-          selected. Also, when replacement mutations of varying
-          fitness are lumped together, positively selected
-          mutations may remain undetected among negatively selected
-          mutations.
-          To overcome these limitations, we have developed a
-          "selection mapping" algorithm. The cornerstone of
-          selection mapping is the testing of each observed
-          replacement mutation at each codon to identify those
-          particular replacement mutations that are overabundant
-          relative to silent mutations at that codon. Such
-          replacement mutations are determined to be positively
-          selected. Negatively selected variants are recognized as
-          "noise" and are thereafter ignored. Here, we use the
-          selection mapping method to identify the positively
-          selected variants of influenza A HA (H3 serotype), HIV-1
-          reverse transcriptase (RT), and HIV-1 gp120.
+        In 1967, mule deer in a research facility near Fort Collins, Colorado, in the United
+        States apparently began to react badly to their captivity. At least, that was the guess of
+        researchers working on the natural history and nutrition of the deer, which became listless
+        and showed signs of depressed mood, hanging their heads and lowering their ears. They lost
+        appetite and weight. Then they died—of emaciation, pneumonia, and other complications—or
+        were euthanized. The scientists dubbed it chronic wasting disease (CWD), and for years they
+        thought it might be caused by stress, nutritional deficiencies, or poisoning. A decade
+        later, CWD was identified as one of the neurodegenerative diseases called spongiform
+        encephalopathies, the most notorious example of which is bovine spongiform encephalopathy
+        (BSE), more commonly known as mad cow disease. Nowadays, CWD is epidemic in the United
+        States. Although no proof has yet emerged that it's transmissible to humans, scientific
+        authorities haven't ruled out the possibility of a public health threat. The media have
+        concentrated on this concern, and politicians have responded with escalated funding over
+        the past two years for fundamental research into the many questions surrounding this
+        mysterious disease.
+        Quite apart from how little is yet known about CWD, media interest is reason enough to
+        step up investigation of it, says Mo Salman, a veterinary epidemiologist at Colorado State
+        University in Fort Collins. He's been scientifically involved with BSE, since it was first
+        discovered among cattle in the United Kingdom in 1986. He recalls predicting that lay
+        interest in BSE would wane after five years. Instead, the disease was found in the
+        mid-1990s to be capable of killing humans who ate tainted beef. “I was wrong, and it really
+        changed my way of thinking, to differentiate between scientific evidence and the public
+        perception,” Salman admits. “Because CWD is similar to BSE, the public perception is that
+        we need to address this disease, to see if it has any link to human health.”
+        
+          
+            CWD is the only spongiform encephalopathy known to naturally infect both
+            free-ranging and captive animals, a situation that greatly complicates efforts to
+            monitor, control, or eradicate it.
+          
         
       
       
-        Results and Discussion
+        Increasing Attention
+        In 2001, the United States' Department of Agriculture (USDA) declared an emergency after
+        CWD was first diagnosed in deer east of the Mississippi River, indicating a potential
+        nationwide problem. This year, the USDA is developing a herd certification program to help
+        prevent the movement of infected animals in the game farming industry. This will bolster
+        monitoring already underway in virtually every state, including postmortem examinations of
+        game killed by hunters and by sharpshooters in mass culling operations.
+        By June 2003, brain tissue from more than 111,000 animals had been sampled in North
+        America, and 629 were found to have tested positive for CWD. That's a small epidemic
+        compared to the thousands of BSE cases detected in cattle in the United Kingdom, but CWD is
+        thought to be slow-spreading and perhaps lurking undiscovered elsewhere. So far, the United
+        States and Canada are the only countries in which it has been identified, apart from a few
+        imported cases in the Republic of Korea, but surveillance has not been thorough in North
+        America and is virtually nonexistent in the rest of the world.
+        Considered 100% fatal once clinical signs develop, CWD has struck three species of the
+        cervid family—mule deer, white-tailed deer, and Rocky Mountain elk—which roam wild and are
+        raised on farms for meat and hunting. It's the only spongiform encephalopathy known to
+        naturally infect both free-ranging and captive animals, a situation that greatly
+        complicates efforts to monitor, control, or eradicate it.
+        The economic costs are hard to quantify, but a 2001 survey by the United States
+        Department of Commerce's Bureau of Census shows that big-game hunters nationwide spend more
+        than US$10 billion annually for trips and equipment. By far, their main target is deer.
+        Wildlife watching of large land mammals, principally deer, drew 12.2 million participants
+        in 2001. The North American Deer Farmers Association represents owners of 75,000 cervid
+        livestock raised for their meat and for velvet antler, a health-food supplement made from
+        antlers. These animals are valued at more than US$111 million.
+        Over the past two years, the federal government's emphasis on CWD has been “quite high”
+        compared to other wildlife diseases, says USDA staff veterinarian Dan Goeldner. “In no
+        small part, that's because the disease has cropped up in new places, and those are states
+        that have political clout.” It has now been found in ten more states beyond what became
+        known as the endemic region of Colorado and neighboring Wyoming (Figure 1). Last year, the
+        USDA received US$14.8 million to monitor and manage the disease, and Goeldner says the
+        department expects to get about US$16 million this year.
+      
+      
+        The Prion Diseases
+        Those figures don't include scientific research funded by other organizations, such as
+        the US$42.5 million received by the United States' Department of Defense in 2002 to start
+        up a National Prion Research Program. The prion is the protein-like agent that causes
+        transmissible spongiform encephalopathies (TSEs). Its normal function is uncertain, but
+        when it misfolds into an abnormal or “infectious” form, it causes the microscopic holes and
+        globs of toxic, misshapen protein found in the brains of TSE victims. Unlike viruses,
+        prions don't contain nucleic acids—only protein. Without DNA or RNA to issue biochemical
+        commands, abnormal prions shouldn't be able to convert normal prions to the infectious
+        state, but that's exactly what they do (Box 1).
+        Prion diseases occur in many species. In domestic sheep and goats, prion diseases occur
+        as scrapie, which has a virtually worldwide distribution. North America and Europe have
+        also reported rare cases of TSE in ranched mink. Humans get kuru, Creutzfeldt-Jacob disease
+        (CJD), and Gerstmann-Sträussler-Scheinker syndrome—all rare—and BSE itself manifests in
+        people as a variant form of CJD. Since the United Kingdom outbreak, BSE has been discovered
+        in more than 20 countries, most recently in North America. As public fear rose of possible
+        CWD transmission to humans who eat infected venison, the United States' Centers for Disease
+        Control and Prevention (CDC) released a report last year of its investigation into several
+        deaths among venison eaters who might have had a TSE. The report concluded that none of the
+        deaths could be attributed to venison, but it nevertheless cautioned that animals showing
+        evidence of CWD should be excluded from the human and animal feed chains (Box 2).
+        CWD is the least understood of all the prion diseases. Its origins are unknown and may
+        well never be discovered. The question is largely academic, unless one hypothesis is proven
+        true, that it derives from scrapie. In that case, the knowledge might help in efforts to
+        control the two diseases through herd and flock management.
+        Researchers are working to determine the minimum incubation time of CWD before clinical
+        signs appear, now roughly estimated at 15 months in deer and 12—34 months in elk. They're
+        trying to discover whether CWD strains exist that can affect the length of the disease
+        process and different regions of the brain or that can infect different species, including
+        humans. They are also investigating the period during which the prion is passed on, as well
+        as its modes of transmission. They want to know whether disease reservoirs exist in the
+        bodily fluids of hosts, in the environment, or both. They're racing to develop a diagnostic
+        test that can be performed on live animals, enabling identification of the disease before
+        clinical signs appear, which would eliminate the need to kill thousands of apparently
+        healthy animals in areas where CWD is detected. But among the first things they need to
+        clarify are CWD's distribution across North America and its prevalence.
         
-          Selection map of influenza A H3
-          hemagglutinin
-          QUASI identifies 25 HA codons where one or more
-          replacement mutations are positively selected in the
-          influenza A H3 virus (Fig. 1). [From our neutral drift
-          testing of QUASI, we expect a maximum of about 2-3 false
-          positives (see Materials and Methods)]. The distribution
-          of these positively selected codons is of particular
-          interest. Without exception, the codons where variants
-          are positively selected are on the HA surface (Fig. 2,
-          left). The parsimonious explanation of this result is
-          that HA variants are primarily selected for escape from
-          B-cell immunity. If T-cell immunity is instead the
-          primary selective force affecting HA variation, then
-          either all T-cell immunity escape variants are
-          coincidentally solvent-exposed, or HA T-cell epitopes are
-          determined by Ab protection [ 39]. These 25 codons
-          include 13 outside those identified as positively
-          selected by Walter Fitch and colleagues [ 40]. We
-          attribute our new findings primarily to sites where many
-          variants are negatively selected but where at least one
-          variant is positively selected. The Fitch group also
-          identifies 6 additional codons as positively selected. We
-          believe that these are false positives caused by the
-          Fitch group's assumption that HA is, on average,
-          neutrally drifting; these six codons may be less
-          negatively selected than average, but they nevertheless
-          appear to be negatively selected. Additionally, our data,
-          while largely the same as those analyzed by the Fitch
-          group, do have some differences.
-          Wiley 
-          et al . proposed four antigenic
-          sites where field and laboratory mutations could be
-          grouped on the HA surface [ 41]. These putative antigenic
-          sites are indicated in Figure 1and the right side of
-          Figure 2. Positively selected variants are correlated
-          (Fisher's exact test) with antigenic site A (p = 5.27 ×
-          10 -3), antigenic site B (p = 1.12 × 10 -3), and
-          antigenic site C (p = 1.0 × 10 -5). In contrast,
-          antigenic site D is not particularly correlated with
-          positively selected variants. We believe the lack of
-          positively selected variants spanning antigenic site D
-          may explain a decades-old puzzle. In the fully assembled
-          HA protein, site D is buried in the trimer interface and
-          therefore is not generally accessible to Ab [ 41, 42]. At
-          the time that the antigenic sites were proposed, residues
-          in and around the trimer interface were variable and
-          found on the monomer surface, so they were grouped and
-          labeled as antigenic site D even though it was unclear
-          how site D was recognized by Ab [ 41]. In fact, the only
-          two positively selected variants QUASI identifies in site
-          D are solvent-exposed at the extreme edge of the HA
-          trimer (Fig. 2). Based on QUASI's selection map of HA, we
-          now conclude that those mutations found in the
-          trimer-buried portion of HA do not confer significant
-          advantage on influenza A. That is, while the
-          trimer-buried portion of antigenic site D includes the
-          sound and fury of variability, it signifies nothing.
-          While QUASI finds that antigenic sites A-C are
-          significantly associated with positively selected
-          variation, this association may be a simple consequence
-          of the sites' surface exposure. As can be seen in the
-          left-hand side of Figure 2, positively selected variants
-          are scattered across the entire exposed surface of HA.
-          There are positively selected variants outside the
-          antigenic sites, and there are subregions of the
-          antigenic sites where variation is negatively selected.
-          Thus, it may be more appropriate to view antigenic sites
-          as more positional than functional. Indeed, more recent
-          demarcations of antigenic sites enlarge antigenic sites
-          A-D and add an additional antigenic site, site E, and
-          these sites are now considered primarily positional
-          rather than functional [ 6, 43].
-        
-        
-          Selection map of HIV-1 gp120
-          At 123 codons, QUASI's selection map of gp120
-          indicates that one or more non-consensus amino acids are
-          positively selected in HIV-1 (Fig. 3). Most positively
-          selected variants appear to be on the gp120 surface (not
-          shown), but in contrast to HA, gp120 includes several
-          monomer-buried positively selected variants (at sites
-          I225, V270, N295, H333, I345, T387, I424, and L453).
-          Additionally, some of the positively selected variants
-          that appear to be solvent-exposed may normally be buried
-          (some loops are absent from the core protein crystal
-          structure [ 44]). The burial of positively selected
-          variants in the gp120 monomer confirms that gp120
-          quasispeciation is not selected solely for escape from
-          B-cell immunity.
-          Two competition-group epitopes have been identified
-          for broadly neutralizing anti-gp120 Abs: the CD4-binding
-          site (CD4BS) and the CD4-induced (CD4i) epitopes
-          (references in [ 45]). Each epitope includes only a
-          single non-consensus positively selected variant (Fig.
-          3). Thus, broadly neutralizing Abs appear to be those
-          that engage few protein positions where variation is
-          positively selected. Based on this observation, we
-          propose that the neutralizing spectra of Abs may be
-          predicted if the epitopes are known. For example, we
-          would predict that the anti-CD4BS Abs will have
-          particular trouble recognizing gp120 molecules carrying
-          the positively selected variant of the CD4BS epitope (D→N
-          at codon 474). This prediction is fulfilled in that the
-          15e anti-CD4BS monoclonal Ab fails to react to gp120 from
-          HIV strain RF, a strain that carries this D→N mutation [
-          46]. We also predict that gp120 molecules carrying the
-          positively selected I→F mutation at codon 423 will be
-          poorly recognized by the anti-CD4i Abs.
-          It is worth commenting on the GPGRAF motif (gp120
-          residues 312-317) that is sometimes (though increasingly
-          rarely) referred to as "highly conserved." Because QUASI
-          identifies non-consensus variants at two codons of this
-          motif as positively selected (Fig. 3), it may be
-          inappropriate to refer to the GPGRAF motif as "highly
-          conserved." Instead, five positively selected variants
-          appear to exist at this region in addition to GPGRAF:
-          GPGKAF, GPGRTF, GPGKTF, GPGRVF, and GPGKVF.
-          Kwong 
-          et al. roughly divide the gp120
-          three-dimensional structure into outer (β9-β19 and
-          β22-β24) and inner (N-α1, β4-β8, and α5-C) domains joined
-          by a bridging sheet (β2, β3, β20, and β21) [ 44]. As
-          indicated by Kwong 
-          et al. , all three domains include
-          variable regions; as QUASI shows, diversity in all three
-          regions is positively selected (Fig. 3). The selective
-          advantage we find rendered by diversity in some of these
-          regions ( 
-          e.g. , the "silent face") has been
-          attributed to neutral drift [ 44, 45], thus QUASI's
-          results run counter to previous interpretations. That is,
-          QUASI finds that diversity in regions proposed to be
-          inaccessible to the immune system nevertheless confers
-          selective advantage on HIV. QUASI's findings may be
-          consistent with the existence of gaps in the carbohydrate
-          groups thought to mask the silent face from gp120 from
-          immune surveillance. Interestingly, in
-          carbohydrate-building models of gp120, these gaps
-          correspond to codons where we find variation is
-          positively selected (P. Kwong, pers. commun.).
-          A "non-neutralizing" face has been identified where
-          binding Abs generally do not neutralize HIV when gp120 is
-          oligomerized [ 45, 47]; these data were interpreted as
-          indicating that the non-neutralizing face is occluded in
-          the trimer and that binding Abs are raised against shed
-          gp120 monomers. However, QUASI finds numerous positively
-          selected variants on the non-neutralizing face of the
-          inner domain. Assuming the "non-neutralizing" appellation
-          is appropriate, how do mutations on this face provide
-          selective advantage to the virus? The obvious answer is
-          that mutations provide escape not from direct B-cell
-          immunity but from other levels of immunity, such as
-          T-cell immunity [including major histocompatibility
-          complex (MHC) presentation] or indirect Ab immunity via
-          Ab-dependent cellular cytotoxicity (where gp120 molecules
-          found on infected cell surfaces are monomers).
-          To determine if HIV-1 viral sequences retain evidence
-          that T-cell immunity is a significant selective force
-          affecting HIV quasispeciation, we used QUASI to generate
-          a selection map of HIV-1 RT (Fig. 4). Because RT is not a
-          surface-expressed protein, it is not plausible that the
-          positively selected variants of RT have been selected by
-          direct B-cell immunity. 
-          A priori , RT quasispeciation could
-          have been the result of neutral drift, but because QUASI
-          finds that replacement mutations confer selective
-          advantage on the virus, we reject the neutral drift
-          hypothesis at the 22 RT codons. If T-cell immunity
-          (including MHC presentation) is a selective pressure
-          shaping RT quasispeciation, positively selected variants
-          should be associated with T-cell epitopes. When known
-          T-cell epitopes [ 48] are plotted on the RT selection
-          map, the positively selected variants are found to
-          localize significantly (Fisher's exact test) both with
-          helper T-cell epitopes (p = 3.27 × 10 -2) and CTL
-          epitopes (p = 6.58 × 10 -3). We conclude that T-cell
-          immunity is a significant selection pressure shaping the
-          quasispeciation of RT and presumably is a significant
-          factor in the quasispeciation of other HIV proteins.
-          Thus, because positively selected gp120 variants found
-          throughout gp120 may be selected by T-cell immunity,
-          QUASI's finding that the non-neutralizing face includes
-          positively selected variants is not at odds with models
-          where the non-neutralizing face forms the gp120 trimer
-          interface. Nor are QUASI's results incompatible with the
-          silent face being silent to B-cell immunity. QUASI's
-          finding that positively selected variants may be buried
-          in the gp120 monomer is consistent with escape from
-          T-cell immunity.
-          In addition to the selection pressure exerted by
-          T-cell immunity, 3'-azido-3'-deoxythymidine (AZT) may
-          also have provided selection pressure for RT
-          quasispeciation in the sequences selection mapped by
-          QUASI [ 59, 51]. Indeed, QUASI identifies six of the
-          eight mutations known to be associated with AZT
-          resistance [ 52] as positively selected (N67, R70, W210,
-          Y215, and F215) or possibly positively selected (L41) to
-          HIV-1 (Fig. 4). The exceptions, two mutations of codon
-          219, are informative. Whereas mutations at other codons
-          are necessary for high resistance to AZT, mutations at
-          codon 219 are not, and codon 219 mutations arise late in
-          infection after earlier mutations have already rendered
-          RT resistant to AZT [ 53]. We conclude that the
-          additional AZT resistance conferred by codon 219
-          mutations did not provide significant selective advantage
-          to the profiled HIV viruses, possibly because HIV had
-          already acquired the maximum effective AZT resistance
-          selectable, 
-          in vivo , when mutations arose at
-          this codon. Alternatively, the lysine at codon 219 may be
-          important for proper 
-          in vivo RT function such that the
-          advantage conferred by increased AZT resistance does not
-          adequately compensate for impaired RT function. The RT
-          sequences we analyze were taken from patients who either
-          had no anti-RT treatment or were treated mainly with AZT
-          (though some patients who were treated with AZT were also
-          treated with 2',3'-dideoxyinosine) [ 49, 50, 51].
-          Therefore, we would predict that mutations associated
-          with resistance to other anti-RT drugs should not be
-          positively selected in the sequences QUASI analyzed. As
-          predicted, QUASI identifies none of the 50 RT mutation
-          associated with resistance to other drugs as positively
-          selected (compare Figure 4to the Los Alamos database [
-          52]).
+          
+            “…the disease has cropped up in new places, and those are states that
+            have political clout.”
+          
         
       
       
-        Conclusion
-        We have developed an algorithm for using sequence data
-        to map the positively selected mutations of viral
-        quasispecies. We have used this method to map the
-        positively selected variants of influenza A HA, HIV-1 RT,
-        and HIV-1 gp120. Other obvious targets for selection
-        mapping are the hepatitis C and foot-and-mouth disease
-        viruses. We believe that potentially the most illuminating
-        use of selection mapping may be the comparison of viral
-        subpopulations to determine which variants are advantageous
-        under different selective pressures. For example, selection
-        mapping of HIV isolates with different cellular tropisms
-        will allow the determination of mutations that are
-        positively selected depending on the host cell type. Also,
-        we may use selection mapping to analyze HIV breakthrough
-        infections to determine if vaccines prevented the HIV
-        quasispecies from inhabiting normally advantageous regions
-        of the quasispecies sequence space. Finally, we propose
-        that the positively selected viral variants (as opposed to
-        all viral variants) should be included in future, highly
-        multivalent vaccines designed to compensate for
-        B-cell-selected antigenic drift.
+        An Initial Step: Improved Surveillance
+        “Before you can start to control CWD, you need to understand where it is and how much of
+        it you have,” says veterinary pathologist Beth Williams of the University of Wyoming in
+        Laramie. “So I think you really need surveillance.” Research on its pathogenesis and
+        transmission will help to develop better diagnostic tools, which will improve surveillance,
+        adds Williams, who first identified the disease as a TSE more than a quarter-century
+        ago.
+        Colorado State's Salman argues that current surveillance is primarily a series of
+        reactions to reported cases, rather than a systematic strategy designed to determine where
+        and at what prevalence the disease exists and where it's absent. The estimated prevalence
+        is about 1% in elk and 2.5% in deer. But Salman says, “We don't have a good idea of areas
+        in which we are saying we haven't found the disease because these areas are not yet, in my
+        estimation, negative for the disease. Scrapie is a wonderful example of systematic
+        surveillance but, to be fair to the decision-makers and technical people involved with CWD,
+        surveillance on wildlife species is very difficult.”
+        The USDA's Goeldner declares, “We have the goal and the hope to eradicate the disease
+        from the farm population.” But Colorado Department of Wildlife veterinarian and CWD expert
+        Mike Miller warns, “Given existing tools, it seems unlikely that CWD can be eradicated from
+        free-ranging populations once established.”
+        The gold standard of diagnosis is based on examination of the brain for spongiform
+        lesions and abnormal prion aggregation. Suspect animals are decapitated and their bodies
+        incinerated. “This is an approach that nobody wants, including the people who have to
+        implement it,” says wildlife ecologist Michael Samuel, principal investigator in the United
+        States Geological Survey–Wisconsin Cooperative Wildlife Research Unit at the University of
+        Wisconsin in Madison.
+        Nevertheless, when three white-tailed deer shot by hunters in the south-central part of
+        that state during the fall of 2001 were diagnosed with CWD, the state government took swift
+        action. By the spring of 2003, almost 40,000 deer had been sacrificed and sampled for the
+        disease, both within and without a 411 square-mile (1065 square-kilometer) region dubbed
+        the eradication zone. There the goal was to remove as many deer as possible, whereas the
+        plan in contiguous outlying areas was to reduce density to about ten deer per square mile.
+        CWD is thought to spread more efficiently in high-density populations, and normal densities
+        in Wisconsin are 50–100 deer per square mile, about five times that of Colorado and
+        Wyoming. The main objectives of the Wisconsin culling were to discover where the disease
+        existed and its prevalence in affected areas. In the eradication zone, it was 6%–7%,
+        although in the outlying region it was only 1%–2%. Samples elsewhere in the state tested
+        negative.
       
       
-        Materials and Methods
-        
-          QUASI--the selection mapping algorithm
-          An executable version of the QUASI software is
-          attached as an additional file (see additional file 1).
-          Also attached are a users' manual (user.txt - see
-          additional file 2) and a FASTA to QUASI file converter
-          PERL script (F2Q.pl - additional file 3). Current
-          versions of QUASI are available from the authors or may
-          be accessed at the Los Alamos Influenza Sequence Database
-          (http://www.flu.lanl.gov/).
-          For a set of viral nucleotide sequences, we determine
-          the variants that confer selective advantage by measuring
-          the empirical replacement to silent mutation ratio (R:S)
-          of each possible amino acid replacement and then
-          comparing this observed ratio to that which would be
-          expected if mutation were unselected. An R:S that is
-          found to be higher than expected indicates that the
-          replacement mutation tested is positively selected, while
-          a lower-than-expected observed R:S indicates that the
-          tested replacement mutation is negatively selected.
-          Testing for an overabundance of replacements across a
-          protein as a whole is a reasonable approach when only a
-          few nucleotide sequences are available, but because a
-          large number of mutated viral sequences are currently
-          available, such aggregation is unnecessarily crude.
-          Better are approaches that test for an overabundance of
-          replacement mutations at individual codons [ 23, 36, 37,
-          38]. However, these methods lump together replacement
-          mutations and thus allow negatively selected mutations to
-          conceal positively selected mutations and 
-          vice versa ( 
-          e.g. , replacement mutations at a
-          codon may be negatively selected as a group despite the
-          fact that one or more particular replacement mutations
-          are positively selected).
-          To overcome these limitations, the QUASI algorithm
-          does not test the overall R:S of the entire protein as an
-          aggregate, nor does QUASI test the R:S of a codon to all
-          its replacement mutations taken as a whole. Rather, QUASI
-          tests the R:S of each particular replacement mutation at
-          each codon. That is, QUASI measures the R:S of the
-          mutations from a consensus codon towards each individual
-          replacement amino. For example, if the consensus codon at
-          a protein position were ttt (Phe), QUASI would test the
-          R:Ss of all point mutations from ttt. One of these
-          mutations is ttt→tat (Tyr). QUASI calculates the expected
-          R:S for ttt→tat under the null hypothesis of neutral
-          drift. The expected S is one because only one mutation
-          (ttc) is silent, and the expected R is also one because
-          only one point mutation of ttt (tat) codes for Tyr, so
-          the expected R:S is one, in this case. If QUASI rejects
-          the (Jukes-Cantor) neutral drift null hypothesis because
-          the observed R:S is significantly higher than one, then
-          QUASI classifies this replacement mutation (Tyr) as
-          positively selected. Conversely, if QUASI rejects the
-          null hypothesis because the observed R:S is significantly
-          lower than one, then QUASI determines that this
-          replacement mutation is negatively selected. QUASI
-          performs this procedure for all replacement point
-          mutations [ 
-          e.g. , in the example case, Tyr
-          (tat), Ile (att), Leu (tta, ttg, and ctt), Val (gtt), Ser
-          (tct), and Cys (tgt)].
-          In this paper, selection mapping is carried out
-          independent of the underlying phylogeny. QUASI uses R:S
-          to reject the null hypothesis that the mutational space
-          surrounding the consensus codon is distributed randomly
-          among all nine possible R or S point mutations (except
-          stop codons, which are considered to be disallowed). This
-          allows R:S calculations to be applied to viral sequences
-          whose ancestral sequence is unclear or unknown. This is a
-          both an advantage and a disadvantage over analyses that
-          rely on phylogeny. Phylogeny is difficult to determine
-          accurately and uniquely, and relying on phylogeny ignores
-          the persistence of positively selected replacement
-          mutations (the major effect of selection). On a practical
-          level, using phylogeny to reconstruct viruses' mutational
-          histories and then using intuited mutations leaves one
-          with insufficient data to determine positively-selected
-          codons [ 36] unless, as some have done, one assumes
-          observed drift is neutral and then tests for codons where
-          selection is more positive than average [ 23, 38]. The
-          significance problem can be compounded when one is
-          looking for independent occurrences of particular
-          mutations; often, there simply has not been enough
-          sequence evolution in HIV or influenza to map positively
-          selected variants if the retention of positively selected
-          mutations is ignored. The drawback of ignoring phylogeny
-          is a potentially high false positive rate (see
-          below).
-          Empirical R:S is compared to neutral R:S by means of a
-          two-sided test of the binomial distribution. For each
-          codon, we test the null hypothesis that all nine point
-          mutants are equally probable. The quotient 
-          p = R/(R+S) is the probability of a
-          replacement mutation at this codon if each nucleotide is
-          equally mutable and each of the three mutational targets
-          at that codon are equally likely. The numerator, R, is
-          the number of point mutations that lead from the
-          consensus codon to the target amino acid. The chance of
-          observing 
-          r replacement mutations is given by
-          the binomial distribution, , where 
-          n is the number of codons providing
-          data for this position. To form a two-sided test, we sum
-          all terms 
-          b ( 
-          kn ,, 
-          p ) such that 
-          b ( 
-          kn ,, 
-          p ) is not greater than 
-          b ( 
-          rn , 
-          p ,), where 
-          k is in the set (0,..., 
-          n ) and 
-          r is the number of observed
-          replacement mutations. In other words, we sum the chances
-          of all events that are no more likely than that of the
-          observation. If this sum, α, is small ( 
-          e.g. , not greater than 0.05), we
-          reject the null hypothesis at the α level of
-          significance.
-        
-        
-          Working example
-          We analyze the following scenario as a working example
-          (Table 1).
-          Additional file 1
-          Click here for file
-          Additional file 2
-          Click here for file
-          Additional file 3
-          Click here for file
-          The consensus codon is given as ttt (Phe; Table 1,
-          column 1). Each observed mutation is also given (Table 1,
-          columns 1-3)
-          Because we know the frequency of silent mutations
-          (given as 10 in this example; Table 1, column 3), we also
-          know the expected R:S for each replacement mutation
-          (Table 1, column 4). That is, if selection is neutral for
-          any particular replacement mutation, we can calculate the
-          incidence of each replacement mutation we expect to
-          observe (by looking at a table of the genetic code).
-          Using the given frequency of each mutation observed,
-          we also know what the observed R:S is in each case (Table
-          1, column 5).
-          Now we use a two-tailed test of the binomial
-          distribution to determine if each observed R:S is
-          significantly different from the corresponding expected
-          R:S (Table 1, column 6). In some cases, the differences
-          are significant, in which case the appropriate
-          replacement mutation is assigned positive or negative
-          selection (positive if the observed R:S is larger than
-          expected and negative if the observed R:S is lower than
-          expected). Otherwise, the selection is assigned to be
-          neutral drift.
-          The QUASI algorithm thus indicates at this exemplary
-          codon that both tyrosine and serine are positively
-          selected; isoleucine, leucine, and cystine are negatively
-          selected; and the selective advantage or disadvantage of
-          valine is indistinguishable from neutral drift. Any other
-          ttt codon will have its own selective pressures assessed
-          in a similar but independent testing procedure.
-        
-        
-          Minimum sequences
-          For each possible replacement mutation, a minimum
-          number of mutations will need to be observed for a
-          selective event to be detected. This minimum number
-          differs depending on the consensus codon and the level of
-          significance. We have calculated the minimum number of
-          mutations needed to achieve the 5% significance level. At
-          the lower bound of this range, only 2 replacement
-          mutations will be required to detect positive selection
-          for any replacement mutation from cta or ctg. Any
-          replacement mutation from cta or ctg has an expected R:S
-          of 1:4, and thus an observed R:S of 2:0 will be
-          sufficient to reject neutral drift in favor of positive
-          selection. Conversely, detecting negative selection at a
-          cta or ctg codon is difficult. At the upper bound of the
-          range, a minimum of 17 observed mutations are required to
-          detect negative selection at such a codon (0:17 is
-          significantly lower than 1:4). For the most-typical
-          codon, the expected R:S is 1:3. For these modal codons,
-          at least 3 mutations must be observed to detect positive
-          selection ( 
-          i.e. , if observed R:S = 3:0). At
-          the same most-typical codon, 12 mutations are required,
-          at a minimum, to detect negative selection ( 
-          i.e. , if observed R:S = 0:12).
-          Because identification of positive selection is generally
-          the goal, the QUASI algorithm appears to have a practical
-          advantage over extant selection detectors, which require
-          either many more mutations or a biased expectation of
-          neutral drift in order to detect positive selection.
-        
-        
-          False-positive testing
-          False positives are likeliest when drift is completely
-          neutral ( 
-          e.g. , as was found by Suzuki and
-          Gojobori [ 36]). One may estimate the maximum frequency
-          of false positives by testing simulated sequences
-          generated under neutral drift parameters. We used the
-          EVOLVER program of the PAML package [ 54] to generate
-          sequences drifting under neutral Jukes-Cantor evolution.
-          For each simulation, we generated 300 related sequences
-          of length 999 and with average branch lengths varying in
-          0.1 length intervals from 0.1 to 1.0; each parameter set
-          was used to generate 10 sets of 300 sequences. False
-          positive percentages [Fig. 5; false positive percentage =
-          false positives / (false positives + neutral drift
-          variants)] were extremely low (∼ 2%) for relatively long
-          branch lengths (0.1-1.0). Extremely high false positive
-          rates (up to 70%) were found for extremely short branch
-          lengths (maximum at 0.001). As accurate branch lengths
-          are calculated using maximum likelihood phylogeny, these
-          branch lengths may be used to find the appropriate
-          false-positive percentage. For instance, if the branch
-          length were 0.01 [as appears appropriate for HA
-          (unpublished observation)], then the maximum false
-          positive rate would be estimated at 32%. We then use the
-          calculated neutral drift frequency (from QUASI) as an
-          estimator for the maximum false positives. If (as we
-          report) HA is found to have 5 neutral drift variants,
-          then we would expect a maximum of 2.3
-          false-positives.
-        
-        
-          Selection mapping
-          QUASI presents its results in the following
-          format:
-          1. The consensus amino acids are written in capital
-          letters.
-          2. Beneath each consensus amino acid are written in
-          capital letters all variants determined to be positively
-          selected (in descending order of frequency).
-          3. The negatively selected variants are not shown.
-          4. In lowercase letters and interspersed according to
-          their frequencies among the positively selected variants
-          are variants where the neutral drift null hypothesis
-          cannot be rejected with the given sequence data. As a
-          reasonable but arbitrary cut-off, we include apparently
-          unselected variants if they are among the 2 H+σmost
-          frequent variants, where 
-          H is the Shannon information
-          content of the site and σ is the standard error of its
-          estimation [ 55]. is the 
-          i th fraction of amino acids at the
-          site (the alignment gap is counted as a 21st amino acid).
-          For the Shannon calculation, alignment gaps are
-          considered distinct from "no data" gaps (artifacts of
-          indeterminate sequencing or sequence fragment overlaps;
-          such data absences are excluded from calculation).
-        
-        
-          Sequences
-          Nucleotide sequences were downloaded from GenBank at
-          the NIH. Sequences were included only if they were
-          isolated in the field and were not obviously pseudogenes
-          (sequences containing premature stop codons were removed
-          from consideration). We analyzed 310 sequences of
-          human-infective influenza A (H3 serotype), 6,151 HIV-1
-          gp120 sequences, and 400 HIV-1 RT sequences. All
-          sequences were pre-aligned with PILEUP [ 56] and/or
-          DIALIGN2 [ 57] then hand-corrected.
-        
+        In Search of a Live Assay
+        A key to combating the spread of CWD is to put into widespread use a preclinical
+        diagnostic test on live animals. Miller and colleagues recently developed and validated the
+        first such assay, based on a biopsy of lymphoid tissue, where the infectious agent is known
+        to incubate. They showed that tonsillar biopsies taken from live animals can confirm
+        disease at least 20 months prior to death and up to 14 months before the onset of clinical
+        signs. Although the method is a useful screening tool, it requires much time and training.
+        Each deer must be anaesthetized and blindfolded, placed in a restraint, its mouth held open
+        with a gag, the tonsil visualized with a laryngoscope, and the biopsy taken with endoscopic
+        forceps. Lymphoid tissue sampling was first used as a preclinical test in sheep scrapie.
+        “Many attempts have been made to develop and evaluate tests for live animals, but it is
+        fraught with difficulties,” declares TSE specialist Danny Matthews of the United Kingdom
+        Government's Veterinary Laboratories Agency in Weybridge. He says that a live test for BSE
+        in cattle is likely to be evaluated shortly by the European Food Safety Authority, but
+        warns of a major problem: test samples are collected early in the incubation, whereas brain
+        pathology only arises two to three years later. This creates long delays in determining
+        whether a positive preclinical test result is, in fact, accurate: “How can one do an
+        appropriate evaluation?”
+        Matthews notes that blood appears to be a useful medium for testing scrapie in sheep,
+        but current technology cannot deliver a tool applicable across a range of different scrapie
+        genotypes. “Like sheep, elk and mule deer do have a peripheral pathogenesis, which suggests
+        that the blood test route may have some potential, especially if the genotype variability
+        is more restricted than in sheep.”
       
       
-        Abbreviations
-        HIV, human immunodeficiency virus; HA, hemagglutinin;
-        Ab, antibody; gp120, glycoprotein 120; RT, reverse
-        transcriptase; R:S, replacement to silent mutation ratio;
-        CD4BS, CD4 binding site epitope; CD4i, CD4-induced epitope;
-        MHC, major histocompatibility complex; AZT,
-        3'-azido-3'-deoxythymidine.
+        Transmission Mysteries
+        Scrapie can be vertically transmitted from mother to offspring, either in the womb or
+        from the transfer of infected germ plasm. It also can be transmitted horizontally, from any
+        one animal to another. CWD, the only other known contagious TSE, is thought to be
+        transmitted solely by as-yet-undetermined direct or indirect horizontal contact. It
+        probably is not transmitted through infected feed, as is the case for BSE.
+        A number of scientists are currently on the trail of suspected CWD disease reservoirs.
+        Saliva is a leading candidate, because clinical signs of CWD include excessive thirst,
+        drinking, and drooling. Work with lab animals suggests that the infectious agent might be
+        produced in salivary glands and, if so, it could be transmitted through social
+        interactions. Feces is also a possible reservoir because animals nose in the ground for
+        feed, and urine is yet another candidate, because it is involved in the scenting activities
+        of cervids.
+        Soil could be an environmental reservoir, because cervids ingest dirt to supplement
+        their diets with minerals. Bucks also lick soil on which does have urinated to ascertain
+        their mating status. University of Wisconsin soil science professor Joel Pedersen has
+        discovered that abnormally folded prions stick to the surface of some soil types, such as
+        clay, resisting environmental and chemical damage. “Captive elk contracted CWD when
+        introduced into paddocks occupied by infected elk more than 12 months earlier, despite
+        fairly extensive efforts to disinfect the enclosures,” Pedersen notes. He has begun a
+        five-year project to characterize interactions between infectious prions and soil particles
+        and determine the extent to which infectivity is retained.
+        No matter how CWD is transmitted between cervids, the likelihood of human susceptibility
+        seems low. Laboratory evidence has demonstrated a molecular barrier against such
+        cross-species infection, based on the failure of abnormal cervid prions to efficiently
+        convert normal human prions to the infectious state. Likewise, abnormal cervid prions don't
+        easily convert normal cattle prions, suggesting that cattle won't get CWD and pass it on to
+        humans who eat tainted beef. While cattle can contract CWD if inoculated with the
+        infectious agent, long-term studies placing cattle in close proximity to diseased cervids
+        have resulted in no cases of natural transmission. Williams summarizes what all this
+        suggests: “Never say never, but based on the [molecular] work, the CDC's findings, and the
+        epidemiology, we certainly don't have evidence that humans have gotten CWD.”
+      
+      
+        
       
     
   

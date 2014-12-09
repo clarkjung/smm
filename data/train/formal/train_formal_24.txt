@@ -3,433 +3,332 @@
     
       
         Background
-        Baculoviruses are a diverse family of insect viruses
-        that are pathogenic for insects particularly members of the
-        Lepidoptera, Diptera and Hymenoptera. They have large
-        double-stranded, circular, supercoiled, DNA genomes of
-        100-180 kb and are characterized by the occlusion of their
-        virions in crystalline protein matrices. There are two
-        genera of baculoviruses, the nucleopolyhedroviruses (NPVs)
-        in which many virions are occluded in large
-        polyhedron-shaped occlusion bodies, and the granuloviruses
-        (GVs) which normally occlude a single nucleocapsid per
-        small granular occlusion body. A novel feature of these
-        viruses is the production of two types of virions [ 1].
-        One, the occlusion derived virion (ODV) type, is present in
-        occlusion bodies and spreads the infection between insects,
-        whereas the other, the budded virion (BV) type, spreads the
-        infection between cells within insects or in cell culture.
-        A major difference between these two types of virions is
-        their envelope proteins. The envelope of ODV is not well
-        characterized; and although it may be composed of multiple
-        proteins, the mechanism by which it facilitates the
-        initiation of infection of insect midgut cells is unclear
-        [reviewed in [ 2]]. In contrast, BV envelopes contain an
-        envelope fusion protein that causes the merging of the
-        virion envelope and the membrane of cellular endocytic
-        vesicles when exposed to low pH.
-        Current evidence suggests that lepidopteran
-        baculoviruses may be divided into two phylogenetic groups
-        based on the envelope fusion proteins of budded virions [
-        3]. One group that includes 
-        Autographa
-        californica multinucleocapsid nucleopolyhedrovirus
-        (AcMNPV) and 
-        Orgyia pseudotsugata MNPV (OpMNPV),
-        contain GP64 in their budded virion envelopes [ 4, 5].
-        Homologs of 
-        gp64 are also found in a genus of
-        orthomyxoviruses, the thogotoviruses [ 6]. Recently a
-        number of complete baculovirus genome sequences have been
-        described and were found to lack an open reading frame with
-        homology to 
-        gp64 . Analysis of the genome of the 
-        Lymantria dispar MNPV (LdMNPV),
-        revealed a single orf ( 
-        ld130 ) with predicted signal and
-        transmembrane domains. Characterization of LD130, indicated
-        that it localizes to the membrane of infected cells, is a
-        component of budded virions, and is N-glycosylated.
-        Uninfected cells transiently transfected with a plasmid
-        encoding LD130, showed localization of the protein to the
-        cell membrane and low-pH mediated cell fusion suggesting
-        that LD130 is the envelope fusion protein of LdMNPV [ 3].
-        Similar results have been reported for the LD130 homolog in
-        SeMNPV [ 7].
-        Homologs of 
-        ld130 are found in the genomes of all
-        the sequenced 
-        gp64 -minus viruses including LdMNPV,
-        SeMNPV [ 8], 
-        Plutella xylostella GV (PxGV) [ 9]
-        and 
-        Xestia c-nigrum GV (XcGV) [ 10]. In
-        addition, homologs of 
-        ld130 are also found in 
-        gp64 -containing viruses, although
-        they do not appear to be capable of mediating
-        low-pH-dependent membrane fusion (Pearson et al,
-        unpublished). In contrast to the close relatedness of
-        baculovirus gp64 homologs, the LD130 homologs are highly
-        variable suggesting that 
-        gp64 was recently incorporated into a
-        baculovirus genome where it displaced the envelope fusion
-        function of the 
-        ld130 homologs [ 3].
-        Database searches with LD130 and its homologs routinely
-        identify, not only homologous baculovirus proteins, but
-        some members also showed significant levels of homology
-        with the predicted envelope proteins of a number of insect
-        retrovirus-like elements from 
-        Drosophila and Lepidoptera [ 11],
-        (also see genbank documentation for AcMNPV orf23 in the
-        AcMNPV sequence [ 12]). Evidence suggests that at least
-        some of these retrovirus-like elements are infectious and
-        have been classified as insect retroviruses [ 13, 14, 15]
-        or errantiviruses [ 16]. In this report, we provide
-        evidence for an evolutionary link between this newly
-        characterized family of baculovirus envelope proteins and
-        the envelope proteins predicted for a variety of insect
-        retrovirus-like retrotransposons. These relationships
-        suggest a possible common origin of the envelope fusion
-        proteins for these two groups of viruses.
+        T-lymphocytes expressing the α:β T-cell antigen receptor
+        (TCR) consist of two major subsets: T cells expressing the
+        CD4 surface glycoprotein, which are restricted by the major
+        hystocompatibility complex (MHC) class II proteins, and CD8
+        +T cells, which interact with antigen presented by MHC
+        class I proteins [ 1 ] . CD4 and CD8 molecules bind to
+        monomorphic regions on class II and class I MHC proteins
+        respectively, thereby increasing the avidity in the
+        interaction of the TCR with antigen presenting cells [ 2 ]
+        . An intriguing question concerns to the mechanism by which
+        selection and tolerance to self-components is mediated in
+        developing lymphocytes. This is particularly relevant to T
+        Lymphocytes because of their ability to recognize antigen
+        only if this is associated with the class I or the class II
+        MHC molecules [ 3 ] , and also because of the unique
+        selection process which operates within the thymus during T
+        cell development. Early during T-cell development in the
+        thymic cortex, thymocytes bear both of the T cell surface
+        glycoproteins CD4 and CD8 and express the α and β
+        heterodimer of the TCR [ 4 ] . Compelling data have
+        demonstrated that CD4 and CD8 molecules participate in the
+        selection of MHC class I or class II restricted T cells in
+        the thymus. It is known that during clonal selection in the
+        thymus, immature CD4, CD8 double positive cells develop
+        into single positive CD4 or CD8 cells according to the
+        relative affinity of their TCR to class II or class I
+        molecules respectively [ 5 6 ] . These immature T-cells are
+        selected in the thymic epithelium on the basis of their TCR
+        interaction with either class I or class II MHC molecules [
+        7 8 ] , thus generating two mutually exclusive
+        subpopulations that are characterized by the expression of
+        either CD4 or CD8 glycoproteins [ 9 ] . Earlier studies in
+        the murine system have demonstrated that PMA and cAMP can
+        modulate the expression CD4 and CD8 on developing
+        thymocytes [ 10 11 12 13 ] . In keeping with these
+        findings, ex vivo experiments with human thymocytes
+        previously reported by our group, revealed that while
+        phorbol esters can coordinately regulate the transcription
+        of α and β TCR during intrathymic T cell differentiation [
+        14 ] , cAMP selectively affected the transcription of the α
+        and δ-TCR [ 15 16 ] . Together the murine data and our own
+        findings support the hypothesis that in humans, TCR
+        expression and CD4, CD8 commitment and selection may be
+        regulated by the same signal-transduction pathways. Since
+        (a) it is generally accepted that CD4 or CD8 are physically
+        associated to the TCR in the course of T cell activation [
+        17 18 ] and (b) it is well known that mitogen activated
+        protein (MAP) kinase signaling is involved in the selection
+        of the T cell repertoire [ 19 20 ] , the present study
+        further proposes that the PKC and PKA-mediated signaling,
+        which regulates TCR expression, can coordinately modulate
+        the selection of CD4 +CD8 -and CD4 -CD8 +T cells during
+        human intrathymic differentiation.
       
       
         Results
-        
-          Database searches with members of the LD130
-          family
-          Routine BLAST searches of the database with individual
-          members of the LD130 family of baculovirus proteins
-          revealed high levels of similarity with a set of
-          predicted envelope proteins from a number of insect
-          retrovirus-like retrotransposons. For example, an LD130
-          homolog from PxGV, PX26 [ 9] showed significance values
-          of 10 -10with the envelope protein of TED, a lepidopteran
-          retrovirus-like retrotransposon [ 17], and in the 10 -4to
-          10 -10range for a number of other predicted envelope
-          proteins from retrovirus-like retrotransposons from other
-          insects, particularly members from the genus 
-          Drosophila . Searches with other
-          members of the ld130 family showed values of 10 -4to 10
-          -6to these proteins. A 
-          Drosophila orf (see below) that is
-          not part of a retrovirus-like element was also
-          identified. These values suggested that the relatedness
-          was significant and may be evidence of an exchange of
-          genes encoding this important category of proteins
-          between insect cells and members of the baculovirus and
-          retrovirus families. To investigate this relationship
-          further, we performed BLAST searches of the database with
-          all members of the baculovirus LD130 family and also with
-          all sequences that showed alignments with E values of
-          less than 10 -3to members of this family. When sequences
-          within this category were identified that were over 90%
-          identical, only one was included. Similarly, fragments
-          from within complete sequences that were identified by
-          this search were not included. This resulted in a total
-          of 17 proteins used in our analyses (Table 1).
-          With one exception, all the non-baculovirus sequences
-          showing the best scores are derived from retrovirus-like
-          retrotransposons from insects that fall in the T3- 
-          gypsy group [ 18]. The exception is
-          a 
-          Drosophila orf called cg4715 (Table
-          1). The orfs adjacent to cg4715 (two upstream and two
-          downstream) appear to be non-homologous to retrovirus
-          orfs (data not shown) suggesting that it may either be an
-          insect gene or a remnant of an integrated
-          retroelement.
-        
-        
-          Significance of the relatedness of the members of
-          the Ld130 family
-          The potential relationships uncovered by the BLAST
-          searches were further assessed for significance by the
-          calculation of Z-scores for each of the sequences
-          compared to each of the other sequences (see Methods).
-          This led to the grouping of the sequences into six
-          subfamilies based on Z-score cutoff values of ≥ 20 (Figs.
-          1, 2, Table 1). These include the baculovirus subfamily,
-          two major divisions of the dipteran 
-          gypsy retrotransposon group with
-          four members each, and three subfamilies each with a
-          single member. The latter included one dipteran 
-          gypsy sequence, the lepidopteran 
-          gypsy -like element TED [ 19], and
-          the 
-          Drosophila cellular protein cg4715.
-          We then compared each subfamily using the conservative
-          criterion of a Z-score of ≥ 6 as an indicator of
-          homology.
-          Furthermore, guided by the assumption that sequence
-          features conserved over long evolutionary distances
-          should also be conserved over short distances, a
-          secondary criteria used for the more distant
-          relationships was that Z-scores derived from comparing
-          families of sequences should show enhanced significance
-          over that of the individual sequences. The Z-scores
-          revealed strong evidence for the homology of the
-          seventeen sequences (Fig. 1). Members of the LD130 family
-          showed Z-scores of 9 and 10 to two groups containing
-          eight 
-          gypsy proteins. These are similar
-          to scores determined for comparisons between different
-          gypsy envelope proteins of from 9 to12. In addition, only
-          one other protein [called rhoptry, from 
-          Plasmodium yoelii (accession #
-          T28677)], fell within our 10 -3BLAST search cutoff in two
-          instances (with T13994 and p20829 [Table 1]). However,
-          when aligned to each of the 17 sequences, only one
-          alignment resulted in a Z-score of 4 and all the other
-          z-scores were ≤2. Also when members of each subfamily
-          were grouped together and compared with this protein, the
-          scores were not enhanced (data not shown). A matrix
-          comparing the levels of sequence identities among these
-          sequences is shown in Fig. 2, and reveals that in
-          contrast to Z-scores, sequence identity is not a reliable
-          indicator of evolutionary relatedness at the longer
-          distances. For example, although the proteins with the
-          groups composed of #1-4, #7-10 and #11-14 (Table 1) are
-          clearly related to one another, their relationship with
-          other members of the data set are unclear.
-        
-        
-          Features of the LD130 protein family
-          In addition to the overall sequence homology, our
-          analyses revealed a number of other conserved features
-          (Fig. 3). They all are predicted to be moderately large
-          proteins of 348 to 649 amino acids and all contain
-          predicted signal peptides at their amino terminus and
-          transmembrane domains near their carboxyl terminus.
-          Another feature of these sequences is the conservation
-          of cysteine residues. In the baculovirus sequences, 11
-          cysteines are conserved (Fig. 4). In TED, the
-          lepidopteran retrovirus-like element, seven of the
-          C-terminal cysteine residues are conserved. Likewise in
-          the Drosophila sequence, cg4715, that is not a component
-          of a retrotransposon, six of the C-terminal cysteines are
-          conserved. With the two other categories of retroelements
-          represented by 
-          gypsy and 
-          tom in Fig. 4, four of the
-          cysteines are conserved. The consensus pattern of
-          cysteine conservation is shown at the bottom of Fig.
-          4.
-          It has recently been reported that SE8, a homolog of
-          LD130, is the likely membrane fusion protein for the 
-          Spodoptera exigua MNPV [ 7].
-          Furthermore, by N-terminal sequence analysis it was found
-          that in budded virions, SE8 was truncated downstream of a
-          motif that is a furin cleavage consensus sequence in
-          other viruses. This motif has the sequence K/RXXK/R. One
-          of the striking features of our alignments is that this
-          site and downstream sequences appear to be conserved in
-          these proteins (Fig. 5). The downstream sequence has the
-          21-amino acid motif gXΦBΦΦGXΦXKΦΦΦGXΦDXXD where Φ
-          represents sites with predominantly hydrophobic amino
-          acids, B represents D or N, and X represents any amino
-          acid. The lower case of the initial g is related to its
-          absense in one group of 
-          gypsy sequences (#7-10, Table 1).
-          This motif is present in all the sequences except those
-          represented by Ac23 and Op21 (Figs. 3, 5) and cg4715.
-          Both AcMNPV and OpMNPV utilize GP64 as their envelope
-          fusion protein and neither OP21 nor AC23 appear to
-          function as an envelope fusion protein in cell fusion
-          assays (Pearson et al, unpublished). Likewise, cg4715 is
-          not a component of a virus-like element. In contrast, the
-          sequence is conserved in the other proteins that may play
-          a role in membrane fusion. It has previously been
-          suggested that for members of the 
-          gypsy family of env proteins the
-          protease cleavage site may be downstream of this sequence
-          [ 13, 20]. A similar cleavage site location was suggested
-          for TED [ 21]. However, the major env components were
-          never N-terminally sequenced and the data could also be
-          interpreted to be the result of the removal of about 12
-          kda from the N-termini of these proteins at the cleavage
-          site shown in Fig. 5.
-          Coiled-coil-like motifs are a distinguishing feature
-          of a number of viral fusion proteins. A program,
-          Learncoil-VMF, has been developed to predict the location
-          and the probability of these domains occurring within a
-          protein [ 22]. We applied this program to the LD130
-          family of proteins. A summary of the scores is shown in
-          Table 1and the location of the coiled-coil domains is
-          indicated in Fig. 6. Coiled-coil-like domains were
-          predicted for many of these proteins immediately
-          downstream of the predicted cleavage site. With two
-          exceptions in which two regions were identified (Table
-          1), the program predicted a single coiled-coil region in
-          a similar location, or in three instances, no such
-          region. In the protein from the two NPVs that lack GP64
-          (LD130 and SE8), the same location was identified.
-          However, the program predicted these regions slightly
-          downstream for the two granulovirus proteins, XC27 and
-          PX26, (these two viruses also lack gp64) placing them in
-          the same position as predicted for proteins from NPVs
-          that contain GP64. The baculovirus proteins had a
-          probability of this motif occurring from 0.23 (Op21) to
-          0.63 (Ac23). In one set of gypsy retrovirus-like elements
-          (#7-10), the probability of the coiled-coil motif
-          downstream of the cleavage site ranged from 0.26 to 1.0.
-          The rest of the sequences showed a high degree of
-          variability. Two sequences (#15 and #16 [TED]), showed a
-          strong probability (0.69 and 0.54, respectively) just
-          upstream of the predicted cleavage site (Fig. 3). No.15
-          also showed a broad region of 0.17 probability just
-          downstream of the cleavage site. With the exception of
-          #12 (0.44), the remaining three sequences (#11,13, and
-          17) had a probability of 0. This included the cellular
-          protein cg4715.
-        
+        The effect of the phorbol ester
+        12-tetradecanoylphorbol-13 acetate (PMA) and exogenous cAMP
+        on the levels of mRNA encoding the CD4 and CD8
+        glycoproteins was examined in human thymocytes. Total
+        post-Ficoll un-fractionated thymocytes were incubated in
+        the presence or the absence of 10 nM PMA and/or 0.1 mM cAMP
+        + 1 mM of the phosphodiesterase inhibitor
+        isobutylemthylxnthine (IBMX). The fundamental reasons for
+        the design of our 
+        ex-vivo experiments are three-fold:
+        (a) The need to evaluate intrathymic differentiation as
+        close as it could be physically possible to an 
+        in vivo model; (b) We sought to
+        perform the experiments on "untouched" cells with the least
+        of manipulations. In purifying thymocyte subsets, there is
+        a risk that the antibodies used for the selection of the DP
+        subset can stimulate cells through a TCR-like signaling,
+        thus masking the read-out of the experimental stimuli and;
+        (c) At least 80% of thymocytes are double positive (DP)
+        cells. Therefore the contribution of single positive (SP)
+        cannot be a concern. After 3.0 h incubation RNA was
+        extracted and analyzed for CD4 and CD8 expression by
+        northern blot hybridizations. As shown in Fig. 1, PMA
+        caused a marked decrease in the levels of both CD4 and CD8
+        mRNAs, whose constitutive expression is high in developing
+        thymocytes. In contrast, cAMP selectively decreased CD8
+        mRNA levels. On the other hand, apoptosis was ruled out as
+        a mechanism to explain the differential down-regulation of
+        CD4 and CD8 by PMA and cAMP, on the grounds of two
+        independent observations: (a) After a maximum of 4.0 hr
+        incubation with either PMA or cAMP+ IBMX the cell viability
+        was the same as the untreated controls (usually between
+        90-95%); (b) Treatment with dexamethasone, which is a known
+        pro-apoptotic molecule did not have any effects on the
+        expression of either CD4 or CD8 (data not shown) and; (c)
+        As demonstrated earlier in the murine system, TCR
+        engagement of CD4 +CD8 +induces positive selection but not
+        apoptosis [ 12 ]
+        To further investigate whether the effect of PMA on CD4
+        and CD8 expression is consistent with the activation of
+        protein kinase C (PKC), we examined structurally distinct
+        phorbol esters that either have or lack the capacity to
+        activate PKC, for their effectiveness to modulate the
+        levels of CD4 and CD8 mRNAs. As shown in Fig. 2, the
+        α-configuration of the phorbol ester that lacks the ability
+        to activate PKC [ 21 ] had no effect on the expression of
+        CD4 and CD8. In contrast, the β-configuration that has the
+        capacity to activate PKC [ 21 ] decreased the levels of CD4
+        and CD8 mRNAs. The water-soluble phorbol 12,13 dibutyrate
+        (PDB) had similar effects to those of PMA. The specificity
+        of the signals driven by PMA was further stressed by the
+        up-regulation of CD3 expression and by the unaltered mRNA
+        levels of the proto-oncogene c-Ha-ras.
+        On the other hand, it has been previously demonstrated
+        that direct activation of adenylate cyclase by Forskolin or
+        cholera toxin, inhibition of cAMP-specific
+        phosphodiesterase, and treatment with a cell permeable cAMP
+        analog, induces a rise in intracellular cAMP [ 22 23 24 25
+        26 ] . Since cAMP is known to modulate the expression of
+        CD8 in mice [ 27 ] , we sought to determine whether
+        cAMP-dependent protein kinase (PKA)-mediated signaling
+        plays a role in modulating the mRNA levels of CD3, CD4, and
+        CD8 in ex vivo examined human thymocytes. Fig. 3shows that
+        the signal, which regulates the expression of human CD8, is
+        cAMP-mediated, since direct activation of adenylate cyclase
+        by cholera toxin produced the same effects as the
+        di-butiryl cAMP analog. The requirement of
+        phosphodiesterase inhibition by IBMX further supports this
+        statement. As it can also be observed, cAMP coordinately
+        regulated the expression of both the α and β chains of the
+        CD8 molecule. CD4 remained unchanged and CD3 was minimally
+        affected, thus stressing the selectivity of the
+        cAMP-dependent down-regulation of CD8 expression (Fig. 3).
+        To further investigate whether PMA and cAMP regulate CD4
+        and CD8 expression at the protein level, surface detection
+        of the CD3, CD4, and CD8 was also assessed. As observed in
+        Fig. 4aPMA dropped the proportion of CD4 +cells from 60% to
+        zero, produced a slight decrease (from 71% to 64%) in CD8
+        +cells, and did not affect the expression of CD3. cAMP on
+        the other hand had little effect on the surface expression
+        of the glycoproteins. These findings are in contrast with
+        the drastic down-regulation of CD8 transcript levels
+        exerted by cAMP. However, regulation gene expression is
+        complex and engages numerous checkpoints that include
+        transcription, RNA processing, nuclear/cytosol transport,
+        translation, and RNA and Protein stability. Since the
+        half-lives of mRNA and protein can be dramatically
+        different, we hypothesize that an increased CD8 protein
+        stability may result in a delay of CD8 surface
+        disappearance, thus favoring its transient selection. As
+        CD8 gene transcription has been turned-off by cAMP-mediated
+        signaling, surface CD8 subsequently fades with the
+        concomitant emergence of CD4+ cells. In keeping with this
+        rationale, the kinetics of the PMA-mediated down-regulation
+        of CD4 (Fig. 4b) reveals a sharp and rapid decrease on CD4
+        surface expression as early as 15 min. of incubation with
+        PMA, with a complete disappearance by 2.0 hr. The
+        relatively short kinetics of surface CD4 down-regulation
+        and the delayed CD8 surface disappearance can be
+        interpreted as a PKC-mediated selection signaling in favor
+        of CD8 +CD4 -/α:β-TCR cells that may operate during
+        intrathymic T cell differentiation. Binding of specific
+        ligands to CD4 (including phorbol esters) results in
+        internalization of the molecule by endocytosis, which in
+        turn is phosphorylated [ 28 ] and possibly immobilized. It
+        is conceivable that a similar mechanism might be used by
+        extra-cellular signals in the thymic epithelium during
+        intrathymic differentiation.
       
       
         Discussion
-        In this report we have investigated the evolutionary
-        relatedness between three categories of proteins, the
-        retrovirus-like 
-        gypsy envelope proteins, the
-        baculovirus LD130 group of envelope-associated proteins,
-        and an insect cellular protein. Globally optimal sequence
-        alignments in combination with assessment of the
-        significance of the alignment scores resulted in striking
-        patterns of relatedness. Not only did our analyses link the
-        
-        gypsy -derived envelope proteins
-        together with a high level of significance as would be
-        predicted from studies of other 
-        gypsy genes [ 18], but it also linked
-        two of the major categories of the 
-        gypsy sequences to the baculovirus
-        ld130 group with similar levels of significance. In
-        addition, a cell-encoded protein from 
-        Drosophila showed relatedness at a
-        high level of significance to the baculovirus ld130 protein
-        group. The parameters we used as a basis for these analyses
-        were conservative with cut-off Z-score values
-        representative of at least 6 standard deviations above the
-        value for the randomized sequences. In addition to the
-        overall homology, a number of other features common to
-        members of this class of proteins were identified. These
-        included the predicted signal sequences and transmembrane
-        domains and a striking conservation surrounding a possible
-        protease cleavage site in the proteins that likely serve as
-        envelope fusion proteins [ 7]. In addition, predicted
-        coiled-coil domains in similar locations relative to the
-        cleavage site in a number of the sequences further suggest
-        both functional and structural similarities between members
-        of this protein group.
-        Concurrent with the preparation of this research for
-        publication, a similar study by Malik et al was reported [
-        23]. They also describe a relationship between the envelope
-        protein of gypsy retrovirus-like elements and the ld130
-        group of baculovirus envelope proteins. They identified the
-        predicted signal and transmembrane domains that we describe
-        in Fig. 3and the conserved region that we compare in Fig.
-        5. Their alignments also highlight the conservation of the
-        cysteine residues that we describe in Fig. 4.
-        Although our analyses convincingly indicate a
-        relationship between the insect cellular, 
-        gypsy , and baculovirus membrane
-        proteins, we can only speculate on the evolutionary pathway
-        leading to the presence of members of this set of proteins
-        in all three types of organisms. If homologs of the cg4715
-        gene are conserved among Diptera and Lepidoptera, the
-        interrelationship between members of the baculoviridae and
-        TED, the lepidopteran 
-        gypsy element capable of integrating
-        into both a host insect and a baculovirus genome, provides
-        a clear pathway via DNA recombination for the exchange of
-        members of the ld130 gene family between host cells,
-        baculovirus genomes, and the transposable element. Indeed,
-        a phylogenetic analysis of the envelope protein of these
-        elements reported by Malik et al [ 23] suggests that they
-        are derived from a monophyletic event that resulted from
-        their incorporation of a baculovirus envelope protein gene
-        in an ancestral member of these retrovirus-like
-        elements.
-        TED has features that suggest that it may have
-        specifically evolved to exploit a relationship with a
-        baculovirus and this may have facilitated its acquisition
-        of a baculovirus envelope protein gene. It is present as a
-        mid-level repeated element in its host insect genome (about
-        50 copies/genome) [ 19, 24], it encodes a set of proteins
-        (gag, pol, env) with features similar to those of
-        well-characterized retrovirus proteins [ 17] and it is
-        capable of producing virus-like particles [ 25]. A specific
-        example of TED's adaptation to baculovirus biology is the
-        presence of palindromes containing the baculovirus late
-        promoter element in its long terminal repeat [ 17, 24].
-        Evidence suggests that this results in the high level
-        transcription of the TED genome by the viral RNA polymerase
-        [ 17] and could lead to the production of TED virus-like
-        particles concomitant with the baculovirus late gene
-        expression. This would provide a novel two-pronged escape
-        mechanism from insects suffering from a fatal baculovirus
-        infection; TED might be passed to other insects as an
-        integrated transposable element in an infectious
-        baculovirus, or as an infectious retrovirus. Oral
-        transmission is the normal route for baculovirus infection
-        and has been reported for 
-        gypsy retrovirus-like
-        retrotransposons [ 15]. This strategy could elevate the
-        retrotransposon's potential to exchange genetic material
-        with the genomes of its viral and cellular hosts.
-        Members of the Ld130 family of baculovirus envelope
-        proteins have been demonstrated to mediate low-pH membrane
-        fusion [ 3]. In contrast, retroviruses normally enter cells
-        by receptor-mediated fusion at the cell surface (reviewed
-        in [ 26]) or by a combination of both receptor and low-pH
-        mediated events [ 27]. Despite the differing mechanisms of
-        cell entry, members of these two groups have been related
-        by a number of structural criteria [ 28]. The link that we
-        have described in this report and that of Malik et al [ 23]
-        suggests the possibility of a genetic relationship as
-        well.
+        An accepted scheme of the T cell development program [
+        29 30 ] has demonstrated that as immature cells enter the
+        thymus, cycling CD4 -CD8 -precursors begin to rearrange δ,
+        and γ genes, which generates CD4 -CD8 -, and δ +γ +cells.
+        CD4 +CD8 +on the other hand, rearrange and express the
+        α:β-TCR heterodimer. A few of these cells are selected
+        through the specificity of their antigen receptor and
+        mature into either CD4 +CD8 -, or CD4 -CD8 +T cells which
+        exit from the thymus.
+        Much progress has been accomplished in determining the
+        molecular steps that lead to a better understanding of
+        murine T cell progenitor commitment and selection of the
+        functional repertoire, which has gained important insights
+        into mechanisms of CD4/CD8 lineage commitment (reviewed in
+        31). For instance, changes in expression of CD5, TCR,
+        Bcl-2, RAG and TdT genes can be induced by in vitro TCR
+        engagement of DP thymocytes, thus indicating that at least
+        some aspects in the T cell maturation program are directly
+        coupled to TCR signaling. It is therefore accepted that
+        positive selection are directly coupled to TCR signaling
+        pathways in DP thymocytes. However, the signals that
+        promote selective down regulation of CD4 and CD8 remain
+        have not been that conclusive, at least in humans. Earlier
+        (again murine) studies (reviewed in 31) have suggested that
+        a transitional phenotype of CD4 +CD8 lowis not a signature
+        of commitment towards the CD4 lineage. The confirmation of
+        such conclusion in the humans and the determination of the
+        signals that lead to the phenotype remain to be
+        assessed.
+        We have previously shown that PMA strongly induces the
+        transcription of α and β TCR in human thymocytes, whereas
+        cAMP exclusively affected the transcription of α-TCR [ 15
+        16 ] . The data reported herein, suggest that following
+        rearrangement, protein kinase C activation mimicked by the
+        phorbol esters induces the expression of the α and β-TCR on
+        CD4 +CD8 +precursor T cells. Since only a proportion of
+        developing thymocytes succeed in expressing the α:β TCR
+        heterodimer, PKC activation also provides the signal to
+        turning off the CD4 and CD8 genes on cells that failed to
+        express the TCR, which are non-functional and potentially
+        harmful. On the other hand, cAMP is known to participate in
+        the growth and differentiation of varied cell types
+        (including thymocytes), through the transcriptional
+        regulation of specific genes [ 32 33 34 ] . The unique cAMP
+        signaling which specifically targets the expression of the
+        CD8 mRNAs (α and β), suggests that PKA activation may
+        result in the transduction of signals that determine the
+        selection of T lymphocytes in favor of the CD4 +CD8
+        -lineage, by down-regulating and possibly turning off the
+        expression of the CD8 transcripts. In keeping with this
+        notion, regulatory elements, within the CD4 and CD8
+        promoters have been identified an characterized including
+        the presence of cAMP regulatory elements binding (CREB)
+        sites [ 35 ] . However it is also likely that the control
+        of CD4 and CD8 expression and thus the selection of CD4 or
+        CD8 lineage-committed cells may also be controlled by the
+        differences in mRNA and protein stability. Lastly, some of
+        the TCR signaling pathways involved in positive selection
+        have been identified in the mouse and there is some
+        evidence that these may be different from those involved in
+        negative selection. It remains to be determined whether
+        same interpretation applies to human T cell selection.
       
       
-        Conclusions
-        The relatedness of a class of low pH-dependent
-        baculovirus envelope fusion proteins to envelope proteins
-        of 
-        gypsy retrovirus-like elements was
-        demonstrated to be highly significant. Transposon mediated
-        exchange provides a documented pathway for the movement of
-        this gene between insect cells, and two different types of
-        viruses.
+        Conclusion
+        In conclusion, the results of the ex vivo experiments of
+        human thymocytes reported in the present study are in
+        complete agreement with the earlier studies in the murine
+        system and strongly support the conclusions. We further
+        propose that the transduction of intracellular signals
+        initiated by the activation of PKC and PKA by phorbol
+        esters and cAMP respectively, are not only critical for the
+        differential regulation of CD4 and CD8 gene expression but
+        more importantly in the commitment and selection of the
+        functional T cell repertoire.
       
       
         Materials and Methods
-        Blast searches were performed using the Gap-Blast search
-        engine [ 29]. Sequence alignments were performed with the
-        program SEQUOIA by C.M Bruns which is available on the web
-        at http://www.scripps.edu/∼bruns/sequoia.html. SEQUOIA uses
-        a conventional dynamic programming algorithm based on the
-        work of Needleman and Wunsch [ 30] to find the globally
-        optimal alignment given a particular residue comparison
-        matrix and gapping model. The statistical significance of
-        the optimal alignment was assessed by calculation of their
-        Z-score. The Z-score is derived by comparison of an
-        observed alignment score with the distribution of scores
-        obtained for alignments after one of the sequences was
-        shuffled to create a random sequence with the same amino
-        acid composition. 100 shuffles were carried out for each
-        sequence comparison and the significance was measured
-        relative to the mean and standard deviation of scores from
-        the shuffled sequences. Quantitatively, the Z-score is
-        defined as the number of standard deviations of the
-        observed score above the mean of the shuffled scores and is
-        determined by the following equation:
-        Z-score = Observed score - mean shuffled score/Standard
-        deviation of shuffled scores
-        In the work we describe here, alignments were done using
-        a gap penalty of 10 and the BLOSUM62 scoring matrix [ 31].
-        An additional important feature of SEQUOIA is that a
-        "sequence" need not be just a single sequence, but can be a
-        prealigned family of sequences that are treated as a
-        unit.
+        
+          Cells
+          Human thymocytes were purified from fresh residual
+          thymic tissue that was obtained as an incidental specimen
+          from immunologially normal pediatric patients undergoing
+          cardiac surgery and according with institutional
+          guidelines. Purification was carried out by a single step
+          Ficoll/Hypaque gradient centrifugation. Purified cells
+          were cultured at 37°C in RPMI-1640 medium supplemented
+          with 10% fetal bovine serum at a density of 5 × 10
+          6cells/ml and in the presence or absence of 10 nM PMA
+          phorbol ester and or 1 mM dibutyryl cAMP + 1 mM
+          phosphodiesterase inhibitor isobutylemthylxnthine
+          (IMBX).
+        
+        
+          Reagents
+          The phorbol esters 12-tetradecanoylphorbol-13 acetate
+          (PMA), 4x-phorbol, 12,13 didecanoate (αPD2), 4B-phorbol
+          12,13 didecanoate (βPD2), the phorbol 12,13 dibutyrate
+          (PDB), dibutyryl cyclic AMP, and the IBMX were obtained
+          from Sigma Chemical Co. (St. Louis, MO.). Deionized
+          formamide Distilled Phenol and guanidinium isothiocyanate
+          were purchased from Fluka (Milwaukee, Wl). Nylon Hybond
+          membranes (0.45 mm), and 32p-dCTP were obtained from
+          Amersham (Arlington Heights, IL). The CD3 plasmid was
+          commercially obtained from the American Type Culture
+          Collection (ATCC, Manassas, VA) and the respective cDNA
+          insert was generated by a Pst I digestion. CD4 [ 36 ] and
+          CD8 [ 37 ] were kind gifts from Dr. Dan Littman and the
+          respective cDNA probes were obtained by digestion with
+          the EcoR 1 restriction endonuclease. The cHa-ras was also
+          from ATCC and the respective insert probe was excised by
+          a Barn H1 endonuclease digestion. The monoclonal
+          antibodies to CD3, CD4, and CD8 were commercially
+          obtained (Pharmigen, San Diego, CA).
+        
+        
+          RNA Extraction
+          Total unfractionated RNA was extracted in guanidiniun
+          isothiocyanate as previously described [ 38 ] .
+        
+        
+          Northern Blots
+          Total RNA (10 μg) was electrophoresed in 1.0% agarose
+          gel and transferred onto nylon membranes as described
+          earlier [39,40]. Blots were then prehybridized overnight
+          at 42°C in 50% formamide, 4X SSC, 5X Denhart's solution,
+          25 mM sodium phosphate, pH 6.5, 1.0% sodium deodecyi
+          sulphate (SDS), and 200 μg/ml salmon sperm DNA.
+          Hybridization was carried out for 16 hr. at 42°C, simply
+          by adding [a- 32P]dCTP-labeled probes. After
+          hybridization, northern blots were stringently washed for
+          2.0 hr. and autoradiographed. Equal amounts of RNA
+          loading of the different experimental samples, was
+          confirmed by ethidium bromide staining and ultraviolet
+          transilluminator visualization. The constitutively
+          expressed proto-oncogene c-Ha-ras was used as internal
+          control.
+        
+        
+          Immunofluorescent Staining
+          Freshly isolated thymocytes were incubated in the
+          presence or the absence of either PMA or cAMP+IBMX. At
+          the indicated times cells were harvested, washed twice
+          with phosphate-buffered saline (containing 0.1% serum
+          bovine albumin and 0.1% sodium azide), and incubated for
+          30 min at 4°C with specific monoclonal antibodies to
+          either CD3, CD4 or CD8. Cells were then washed twice with
+          PBS and incubated for 30 min at 4°C with the appropriate
+          FITC-conjugated second antibody. After the second
+          incubation the cells were washed twice with PBS and
+          analyzed on a fluorescence-activated Cell Sorter (FACS)
+          II.
+        
+      
+      
+        List of Abbreviations
+        IBMX: isobutylemthylxnthine/PMA:
+        12-tetradecanoylphorboMS acetate/PKA: cAMP-dependent
+        Protein Kinase/PKC: Protein Kinase C
       
     
   

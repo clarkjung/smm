@@ -3,821 +3,691 @@
     
       
         Background
-        In skeletal muscle, the dihydropyridine receptor (DHPR)
-        consists of α 
-        1S , α 
-        2 -δ, β 
-        1a and γ 
-        1 subunits [ 1]. This complex is
-        responsible for the L-type Ca 2+current and serves as the
-        voltage sensor for excitation-contraction (EC) coupling. In
-        the latter process, the movement of electrical charges in
-        the α 
-        1S subunit promotes a conformational
-        change that opens the ryanodine receptor type-1 (RyR1) in
-        the sarcoplasmic reticulum membrane (SR) leading to an
-        increase in cytosolic Ca 2+[ 2, 3]. The functional
-        interactions between the DHPR subunits necessary for
-        opening the Ca 2+channel are only partially known. Further,
-        the interactions between DHPR subunits and RyR1 also are
-        incompletely understood. The α 
-        1 subunit is a large protein that
-        contains the basic functional elements of the L-type Ca
-        2+channel, including the Ca 2+selectivity,
-        voltage-dependent gating, and sensitivity to
-        dihydropyridines. The cytoplasmic loop between repeats II
-        and III of the α 
-        1S subunit interacts closely with RyR1
-        and is an important determinant of skeletal type EC
-        coupling [ 4, 5]. A region in the cytoplasmic loop between
-        repeats I and II of the α 
-        1 subunit, referred to as the AID [ 6],
-        binds tightly with a 30 amino acid region on the β 
-        1 subunit, referred to as the BID [ 7].
-        β subunits are ∼ 55 to 65 kDa proteins essential for
-        channel assembly and/or membrane targeting, as well as for
-        modulation of channel kinetics [ 8]. The α 
-        2 -δ subunit is a highly glycosylated ∼
-        175 kDa protein formed by two disulfide-linked peptides
-        encoded by the same gene. Transmembrane topology and
-        functional analyses suggest the α 
-        2 -δ subunit is composed of a single
-        transmembrane domain and a short cytoplasmic tail of only
-        five residues [ 9, 10]. Given this topology, the α 
-        2 -δ subunit is most likely to interact
-        with the α 
-        1 and/or the γ 
-        1 subunits. The γ 
-        1 subunit is a ∼ 32 kDa skeletal
-        muscle-specific protein with four presumptive transmembrane
-        domains [ 11, 12, 13]. The transmembrane topology of the γ 
-        1 subunit and the critical binding
-        domains are unknown at this time.
-        EC coupling is initiated by voltage-dependent charge
-        movements in the S4 segments of the DHPR α 
-        1S subunit, whose expression is
-        dependent on the presence of the β 
-        1a subunit [ 14]. The C-terminus of the
-        β 
-        1a subunit has also been shown to be
-        important in EC coupling, presumably by interaction with
-        RyR1 [ 15]. The role of the α 
-        2 -δ subunit on skeletal EC coupling is
-        unknown, but in heterologous expression systems it has been
-        demonstrated to increase the amount of charge movement [
-        16]. The role of the γ 
-        1 subunit in Ca 2+channel function is of
-        particular interest given the discovery of a second γ
-        subunit, γ 
-        2 or 
-        stargazin , which is expressed in
-        neurons and is responsible for the 
-        stargazer mutation in mice [ 17].
-        Subsequently, several other γ subunit genes have been
-        identified and shown to be expressed in brain and
-        peripheral tissues [ 18, 19]. In the present study we
-        examined the role of the γ 
-        1 subunit in L-type Ca 2+current and EC
-        coupling in skeletal myotubes. Absence of the γ 
-        1 subunit slows inactivation and
-        produces a depolarizing shift in the Ca 2+current
-        inactivation vs. voltage curve, in agreement with results
-        from an independently produced γ 
-        1 knockout mouse [ 20]. However, absence
-        of γ 
-        1 does not affect the voltage dependence
-        or the magnitude of charge movements and Ca 2+transients.
-        Overall, the γ 
-        1 subunit appears to promote inhibition
-        of the Ca 2+channel function of the skeletal DHPR. While
-        this subunit is clearly non-essential for activation of the
-        L-type Ca 2+channel and for triggering skeletal-type EC
-        coupling, γ 
-        1 appears to specifically modulate the
-        Ca 2+channel function of the skeletal DHPR.
+        Knowing the differences in gene expression levels among
+        different tissues is of paramount interest in various areas
+        of biomedical research. These include, but are by no means
+        limited to, (i) comparisons of healthy and diseased tissue
+        in order to understand malfunctions in regulation and
+        identify genes essential for control, thus identifying
+        target molecules for the development of novel therapeutics
+        and (ii) the observation of changes in expression over time
+        after addition of a drug to elucidate the mechanism of
+        action of pharmaceuticals and predict their toxicology.
+        Experiments in that realm furthermore help to understand
+        the molecular basis of diseases, provide means for early
+        diagnostics, and facilitate monitoring of therapy.
+        Examples for analog techniques representing mRNA
+        expression patterns are subtractive cDNA libraries [ 1 2 3
+        4 5 6 7 8 ] and the Differential Display method and its
+        derivatives [ 9 10 11 12 ] . Macro- and microarrays [ 13 ]
+        are rapidly becoming the analog method of choice, mainly
+        due to their high throughput in data production which
+        allows complex biological questions to be addressed.
+        Digital methods for counting differences in gene
+        expression levels provide specific advantages. With the
+        expressed sequence tag (EST) approach [ 14 15 ] expression
+        patterns are analyzed by sequencing many clones from cDNA
+        libraries. Even limited sequence information on the cDNA
+        3'-end (tag sequences) permits unambiguous identification
+        of the cDNA and the corresponding gene. The different
+        frequencies of cDNAs in libraries derived from different
+        sources give evidence of possible changes in gene
+        expression. This approach provides accurate quantitative
+        information and has a flexible degree of sensitivity which
+        depends solely on the number of analyzed clones. However,
+        this is very labor-intensive. In order to analyze the
+        expression of low abundant cDNAs that represent mRNA in the
+        range of one copy per mammalian cell, more than 100.000
+        colonies have to be analyzed per library. Improvements in
+        sequencing automation and analysis such as capillary
+        electrophoresis have speeded up the process considerably
+        and recent developments such as a sequencing method based
+        on real-time pyrophosphate [ 16 ] , sequencing on
+        microchips [ 17 ] , and massive parallel signature
+        sequencing on microbead arrays [ 18 ] also contribute to
+        the speed and depth of EST gene expression analysis.
+        Oligonucleotide fingerprinting [ 19 ] characterizes
+        expressed genes via the hybridization of hundreds of
+        synthetic oligonucleotides to cDNA that produces unique
+        fingerprints of matching and non-matching oligonucleotides.
+        Another approach to increase throughput is the serial
+        analysis of gene expression (SAGE). Short defined cDNA
+        sequences are initially prepared from mRNA which are then
+        dimerized, multimerized, cloned, and sequenced [ 20 ] .
+        SAGE accelerated the process of gene expression analysis
+        more than an order of magnitude compared to the
+        conventional EST analysis and still is compatible with most
+        of the improvements of DNA sequencing mentioned above.
+        However, after the identification of differentially
+        expressed cDNA the full length gene has to be cloned
+        starting from minor sequence information (12 bp tag) which
+        hampers further functional analysis of the corresponding
+        protein, a complex task that requires the complete coding
+        sequence.
+        Each of these methods clearly has its specific
+        advantages, and often different subsets of differentially
+        expressed genes are identified employing a certain method.
+        For example, cDNAs that are not easily amplified by means
+        of PCR are inadequately represented in PCR-based methods.
+        DADA was designed in order to overcome specific
+        shortcomings of established differential expression
+        analysis technologies used today, e.g. the need to sequence
+        all of the examined genes or the involvement of PCR steps.
+        In addition, further cloning of the complete coding
+        sequence of the identified genes of interest is facilitated
+        by ending up with rather long (e.g. in comparison to the
+        SAGE method) and multiple corresponding cDNAs comprising at
+        least part of the coding sequence. DADA is a digital method
+        which identifies and counts the abundance of genes by means
+        of restriction fragment fingerprinting.
       
       
         Results and Discussion
         
-          Inactivation of the DHPR γ 1subunit by gene
-          targeting
-          Gene targeting was used to replace the entire coding
-          region of the γ 
-          1 gene with the 
-          neo gene, as described in Materials
-          and Methods (Fig. 1). Targeted ES cell clones were
-          injected into C57Bl/6J blastocysts and chimeras obtained.
-          After additional breeding, a line containing the γ 
-          1 targeted allele was obtained. Fig.
-          1Ashows Southern blots from DNA of control (+/+), γ 
-          1 het (+/-) and γ 
-          1 null (-/-) mice, after digestion
-          with 
-          Eco RI and hybridization to probe
-          1. The γ 
-          1 het and γ 
-          1 null mice show the predicted 12.5 kb
-          restriction fragment indicative of the targeted allele
-          (Fig. 1B). Similarly for the Southern blot of DNA
-          digested with 
-          Hind III and hybridized to probe 2,
-          the γ 
-          1 het and γ 
-          1 null mice show the predicted 3.5 kb
-          restriction fragment indicative of the targeted allele
-          (Fig. 1C). The γ 
-          1 het and γ 
-          1 null mice have no visible
-          abnormalities and are fertile. Western blots showing the
-          expression of the DHPR subunits are shown in Fig 1D. The
-          amount of the γ 
-          1 subunit present in control, γ 
-          1 het and γ 
-          1 null samples as a function of total
-          membrane protein was determined in two independent
-          membrane preparations. These data indicate that the
-          amount of γ 
-          1 expression in membranes from γ 
-          1 null muscle was not detectable above
-          background (no primary antibody) as expected from the
-          fact that the entire gene was deleted. In membranes
-          isolated from the γ 
-          1 het mice, the level of expression of
-          the γ 
-          1 subunit was 64% of control values
-          for each of the two independent determinations,
-          consistent with what might be expected from the loss of
-          one allele. Whether there is compensation by increased
-          expression of other γ subunits such as the γ 
-          6 and γ 
-          7 subunits, which were shown recently
-          to be present in skeletal muscle by RT-PCR [ 19], or
-          alteration of the amount of the other subunits remains to
-          be determined in the future.
+          1 - principle of the method
+          DADA distinguishes and identifies genes by their
+          specific patterns of cDNA fragments derived from digests
+          with 6 different restriction enzymes recognizing
+          sequences of 4 specific nucleotides. In order to avoid
+          detection of other fragments than the desired cDNA
+          fragments spanning from the 3', poly-A end towards the
+          nearest upstream restriction site, a special cloning
+          vector has been devised. It harbors a particular
+          combination of cleavage sites that permits cloning of a
+          nucleic acid in defined orientation and controlled
+          labeling of only the desired fragments with fluorescent
+          dyes (Figs. 1, 2, 3).
+          Double stranded cDNA was synthesized by a reverse
+          transcription reaction using isolated mRNA and an
+          anchored oligo dT primer (see material and methods). The
+          resulting cDNA pool containing a defined poly A stretch
+          of 16 nucleotides was cloned uni-directionally in the
+          vector, a cDNA library was constructed in E. coli and
+          plasmid DNA was isolated from the resulting colonies.
+          The part of the vector containing the cDNA fragment
+          was labelled by means of a simultaneous
+          restriction/ligation reaction [ 21 ] with double
+          stranded, fluorescently labeled oligonucleotides using
+          the Bgl I site (Fig. 1, Step 1) located adjacent to the
+          cloning site of the cDNA representing the 3'/poly-A end
+          of the corresponding mRNA. The labelled oligonucleotide
+          was only ligated to the cDNA end of the BglI restriction
+          site due to the non-palindrome nature of the overhang
+          (see Fig. 2). In addition, the other BglI site located
+          within the vector backbone (Bgl I*, Fig. 2) and virtually
+          all Bgl I sites (with the exception of sites with CCT
+          overhang) occasionally found in the inserted cDNA
+          sequences were not labelled, as the overhangs created by
+          the restriction digest were not compatible with the
+          overhang of the used oligonucleotides. In comparison, the
+          labelling of the Bgl I was less affected by artifacts
+          resulting from labelling of internal restriction sites
+          within the cDNA as compared to labeling of a NotI site in
+          a different vector construct, although Bgl I sites are
+          more often found in cDNAs compared to Not I sites (data
+          not shown).
+          In a second step, the plasmids were digested with
+          restriction enzymes recognizing 4 bp sequences (Alu I,
+          Bfa I, Dde I Dpn I, Hinf I, or Rsa I) in six separate
+          reactions (Fig. 1, step 2). This created labelled cDNA
+          fragments comprising the most 3' located site of each
+          restriction enzyme, respectively, towards a defined
+          stretch of the poly-A tail of the cDNA, a defined part of
+          the cloning vector and the labelled oligonucleotide. The
+          resulting fragments were separated by polyacrylamide gel
+          electrophoresis (ABI377 DNA analyzer) and the length of
+          the labelled fragments were analyzed by comparison to a
+          specially designed internal size marker (Fig. 1, step 3;
+          see material and methods for details). The pattern of
+          restriction fragment sizes generated by the procedure was
+          characteristic for each individual gene transcript and
+          represented an unique fingerprint of the corresponding
+          gene. Partial cDNA inserts and empty vectors represent a
+          substantial part of cDNA libraries that would hamper the
+          analysis of restriction fingerprints in standard cloning
+          vectors; e.g. the empty cloning vector itself would
+          generate a characteristic restriction fingerprint that
+          would overlay and disturb every analysis. To distinguish
+          fragments derived from restriction digests within the
+          cDNA inserts from fragments derived from restriction
+          digests within the vector resulting in mixed cDNA/vector
+          or vector only sequences, the DADA cloning vector
+          contains an engineered segment that is free from the
+          recognition sites used in the fragment analysis (Fig. 1)
+          and that is longer than the detection window of 45 to
+          approximately 900 bp (Figs. 3and 4). This extended the
+          restriction fingerprint of the empty vector to fragments
+          over 900 bp which were not detectable in the analysis. In
+          addition, the "restriction site-free" segment of the
+          vector guaranteed that all detected fragments within the
+          detection window stemmed from restriction sites within
+          the cDNAs. If a specific restriction site is not
+          contained within 900 bp of the 3' end of a cDNA, no
+          detectable fragment was generated.
+          There are 2 variations of the experimental procedure
+          for a given cDNA library (see Fig. 1and the detailed
+          description in Material and Methods). In (i) a single
+          clone analysis (SCA) the procedure was applied to only
+          one clone at a time, and yielded accurate fingerprints
+          for certain genes experimentally. This did not speed up
+          the process of expression analysis compared to sequencing
+          of clones from cDNA libraries (EST approach), but
+          generated the fingerprints used for the mixed analysis.
+          In (ii) the mixed analyses (MA) the procedure was applied
+          to pools of 96 cDNA clones multiplexing the plasmid
+          preparation, labelling and analysis, thereby speeded up
+          the process by nearly two orders of magnitude. In spite
+          of the multiplexing, already established fingerprints of
+          genes could be unambiguously identified in the
+          restriction fragment mixture derived from the pools (Fig.
+          1and 4). If the characteristic fingerprint of a certain
+          gene was identified in the fragment mixture, at least one
+          of the 96 colonies of the pool included a vector with the
+          corresponding cDNA. Therefore, the frequency of
+          occurrence of a fingerprint enabled us to count the
+          abundance of genes and to calculate expression levels
+          from cDNA libraries derived from different statuses at a
+          high throughput. The high throughput only applied to the
+          analysis of the abundance of fingerprints, as in contrast
+          to the SCA, no new fingerprints could be generated by the
+          mixed analysis.
         
         
-          Increase in Ca 2+current density and decrease in
-          inactivation in γ 1null and γ 1het myotubes
-          We examined the impact of the γ 
-          1 null mutation on DHPR properties
-          using electrophysiological techniques in primary cultures
-          of skeletal myotubes derived from mouse embryos. Fig.
-          2Ashows whole-cell Ca 2+currents in control, γ 
-          1 het and γ 
-          1 null myotubes in response to 500-ms
-          depolarizing voltage steps from a holding potential of
-          -40 mV. Current traces for only three voltage steps are
-          shown for clarity. All three cell types displayed the
-          slow, high-voltage activated L-type Ca 2+current typical
-          of skeletal myotubes. When the holding potential was -80
-          mV, we also observed a T-type Ca 2+current, which was
-          seen in approximately half of the cells tested (data not
-          shown). Ca 2+conductance vs. voltage curves were computed
-          in Fig. 2Bfor the three cell types. The sigmoidal lines
-          correspond to a Boltzmann fit to the population mean
-          while parameters fitted to each cell are shown in Table
-          1. These data show that the maximum conductance, G 
-          max , for both the γ 
-          1 het and γ 
-          1 null cells are significantly larger
-          (p<0.05) than the values for control cells. However,
-          the half-activation potential (V 
-          1/2 ) and the steepness of the curve
-          (factor k) were not significantly different (see Table
-          1). Thus, full or partial elimination of the γ 
-          1 subunit produced a significant
-          increase in the Ca 2+current density without a change in
-          the voltage-dependence of the Ca 2+conductance.
-          At intermediate potentials such as +30 mV (Fig. 2A),
-          the Ca 2+current of γ 
-          1 het and γ 
-          1 null cells inactivated more slowly
-          than that of control cells. To examine changes in
-          inactivation, we used the paired-pulse protocol shown in
-          Fig. 3A, which measured the Ca 2+current not inactivated
-          by the pre-pulse. It has been shown that inactivation of
-          skeletal L-type Ca 2+channels approaches steady-state
-          extremely slowly, on the time scale of tens of seconds [
-          21]. However, for comparative purposes and to be
-          consistent with previous measurements in Ca 2+channels
-          lacking γ 
-          1 [ 20, 22], we chose a much shorter
-          protocol. Cells were held at -80 mV, then stepped to a
-          series of depolarizing (pre-pulse) voltages for 2.5 s to
-          promote inactivation, then stepped to -50 mV for 100 ms
-          to close non-inactivated channels. The non-inactivated Ca
-          2+current was measured during a 200-ms test pulse to +20
-          mV. In control cells, there was almost complete
-          inactivation of the Ca 2+current when the pre-pulse
-          potential was in the positive range. This can be seen by
-          comparing the amplitude of the Ca 2+current during the
-          test pulse in traces 1, 2, and 3, corresponding to
-          pre-pulse potentials to -70 mV, +30 mV, and +60 mV,
-          respectively. In contrast, γ 
-          1 het and γ 
-          1 null cells showed less inactivation
-          during the pre-pulse, and thus a significantly larger Ca
-          2+current during the test pulse. Furthermore, pre-pulse
-          potentials larger than +30 mV did not promote additional
-          inactivation, which can be seen by comparing traces 2 and
-          3 in the γ 
-          1 het and γ 
-          1 null cells. Fig. 3Bshows the maximum
-          Ca 2+current during the test pulse plotted as a function
-          of the pre-pulse potential. In control cells,
-          inactivation was complete when the pre-pulse potential
-          was above +30 mV (-6.9 ± 0.8 pA/pF at -70 mV vs. -0.2 ±
-          0.2 pA/pF at +70 mV, n = 6 cells). In γ 
-          1 null cells, inactivation reached a
-          plateau when the pre-pulse potential was more positive
-          than +20 mV (-8.5 ± 0.9 pA/pF at -70 mV vs. -3.2 ± 0.7
-          pA/pF at +70 mV, n = 8 cells). Incomplete inactivation
-          was also seen in γ 
-          1 het cells, although this was less
-          pronounced than in γ 
-          1 null cells. Since the pre-pulse was
-          not sufficiently long for inactivation to reach
-          steady-state, we are not certain whether the observed
-          incomplete inactivation reflects a component of the γ 
-          1 null Ca 2+current that inactivates
-          extremely slowly or a "truly" non-inactivating component.
-          To compare the voltage-dependence of the inactivation
-          produced by the 2.5-second pre-pulse, the Ca 2+current
-          during the test pulse was normalized and fit to the
-          Boltzmann equation (Fig. 3C). The curves for γ 
-          1 het and γ 
-          1 null cells showed a significant
-          (p<0.05) shift to more positive potentials compared to
-          control cells. The same conclusion was reached by
-          comparing the Boltzmann parameters of individual cells in
-          Table 1. Since control cells had a more negative half
-          inactivation potential, the higher Ca 2+conductance of γ 
-          1 het and γ 
-          1 null cells reported in Fig. 2could
-          be explained by a larger steady-state inactivation of the
-          control Ca 2+current at the -40 mV holding potential. To
-          determine if this was the case, we measured the Ca
-          2+conductance during the pre-pulse for the same cells
-          analyzed in Fig 3B,C. The pre-pulse was delivered from a
-          holding potential of -80 mV, and therefore the pre-pulse
-          current should be less contaminated by steady-state
-          inactivation. G 
-          max at the peak of the Ca 2+current
-          during the pre-pulse was 146 ± 12 pS/pF for controls, 172
-          ± 18 pS/pF γ 
-          1 het and 186 ± 13 pS/pF for γ 
-          1 null cells with t-test statistical
-          significance for controls vs. γ 
-          1 null cells of p = 0.034 and for
-          controls vs. γ 
-          1 het cells of p = 0.064. Thus the
-          higher Ca 2+conductance of γ 
-          1 het and γ 
-          1 null cells persisted at the more
-          negative holding potential. These Ca 2+conductances were
-          approximately 10% higher than those at the -40 mV holding
-          potential reported in Table 1. The additional current
-          could have been contributed by T-type Ca 2+channels (not
-          shown), which are available at the -80 mV holding
-          potential but are inactivated at the more positive
-          holding potential. Also, since the T-type Ca 2+current
-          density was highly variable (see above), this could
-          explain the higher p values compared to those reported in
-          Table 1. In summary, decreasing the amount of the γ 
-          1 subunit protein or eliminating it
-          completely resulted in myotubes with a higher Ca
-          2+current density, a similar voltage-dependence of
-          activation, and a reduced rate of inactivation. These
-          results, with the exception of the change in Ca 2+current
-          density, are in remarkable agreement with those obtained
-          when L-type Ca 2+channel subunits are coexpressed without
-          the γ 
-          1 subunit in heterologous cells (see
-          below). They also are similar to results obtained
-          elsewhere in γ 
-          1 null myotubes using a 5-second
-          pre-pulse [ 20]. Furthermore, the incomplete inactivation
-          of the γ 
-          1 null Ca 2+current resembles that
-          observed in ts A201 cells expressing DHPRs specifically
-          lacking γ 
-          1 and using a 3-second inactivation
-          protocol [ 22].
-          The effect of the γ 
-          1 subunit on Ca 2+current kinetics has
-          been somewhat confusing until now, because it has not
-          been possible to examine its role using homologous
-          subunits and a homologous expression system. In amphibian
-          oocytes, γ 
-          1 was assayed in a complex with α 
-          1C , β 
-          1a and α 
-          2 -δ [ 23, 24]. These investigators
-          found γ 
-          1 produced a slight decrease in Ca
-          2+current density, no change in activation kinetics and a
-          positive shift in the peak Ca 2+current vs. voltage
-          curve. In HEK293 cells using the same subunit
-          composition, the γ 
-          1 subunit did not alter the kinetics
-          or density of Ca 2+currents [ 25]. However, in both
-          oocytes and HEK293 cells, the γ 
-          1 subunit increased the rate of Ca
-          2+channel inactivation and produced a large
-          hyperpolarizing shift in steady-state inactivation [ 23,
-          25, 26]. The results obtained here in skeletal muscle
-          demonstrate that absence of the γ 
-          1 subunit increases Ca 2+current
-          density, decreases the inactivation rate, and shifts the
-          voltage-dependence of inactivation in the depolarizing
-          direction. Freise et al. [ 20] showed that the increase
-          in Ca 2+current was not a result of changes in single
-          channel conductance and suggested the effects were due to
-          changes in channel open probability. However, this
-          remains to be tested directly. Expression of the γ 
-          2 subunit in BHK cells expressing α 
-          1A , α 
-          2 -δ and β 
-          1a also shifts the voltage-dependence
-          of inactivation ∼ 7 mV in the hyperpolarizing direction [
-          17]. In summary, the two γ subunits that have been
-          characterized to date, namely γ 
-          1 in the homologous skeletal myotube
-          system described here and γ 
-          2 described above in heterologous BHK
-          cells [ 17], appear to be inhibitory. In each case, the
-          presence of γ results in fewer Ca 2+channels available
-          for activation.
+          2 - obtaining patterns from a single clone
+          analysis
+          We randomly picked single clones of 96 colonies from a
+          murine wounded skin library and compared the analyzed
+          restriction fingerprints with the corresponding,
+          experimentally determined cDNA sequence of the vectors.
+          Vectors containing no cDNA inserts produced no signals in
+          the detection window of 45 to 900 base pairs and
+          incomplete or short cDNA inserts yielded only signals of
+          fragments derived from restrictions within the cDNA
+          sequence. This demonstrated that the restriction free
+          region next to the cDNA cloning site fulfills its
+          function in repressing misleading fragments and the
+          corresponding signals.
+          A thorough comparison of the analyzed fragment lengths
+          with the corresponding sequences of the clones resulted
+          in a good agreement of theoretical and experimental
+          fragment length for the 6 restriction enzymes. In
+          general, only those fragments were detected, that were
+          derived from the nearest restriction site of the
+          corresponding enzyme as judged by sequencing. However, in
+          several cases the first Alu I site was not recognized by
+          the enzyme despite the use of an at least 4-fold excess
+          of enzyme units compared to the amount of cDNA,
+          indicating site preferences of this restriction enzyme
+          that may depend on the context of the recognition
+          sequence [ 22 ] . This did not affect the analysis of
+          fingerprints in mixed clone analyses reported below as
+          the same site preference was also observed under these
+          conditions.
+          Another inherent discrepancy is the integer character
+          of the predicted values versus the non-integer values
+          stemming from the comparison to the size marker. The
+          average of the difference of the experimentally analyzed
+          length to the calculated length was 0.258 bp (median
+          0.115 bp) which means that the analyzed values were
+          generally a little longer than the predicted ones. About
+          95% of the analyzed lengths differed less than 1 bp and
+          about 50% differed less than 0.5 bp from the predicted
+          lengths which by far exceeded the experimental deviations
+          in repeated experiments (standard deviation of less than
+          0.2 bp, see below) and is in accordance to results from
+          other authors [ 23 24 ] . These data demonstrated, that
+          there is a reproducible but not yet predictable shift of
+          the fragments within the polyacrylamide gel run. Together
+          with the above mentioned site preference of AluI and
+          additional problems like the not well defined
+          polyadenylation-site in public database entries, this
+          hinders the construction of fingerprints solely based on
+          sequence data. Attempts to predict these shifts based on
+          the sequence composition of the fragments were not
+          successful in the first trials.
+          Experimentally determined fingerprints from single
+          clone analysis could be used for the analysis without any
+          of the above mentioned hindrances. The fragment lengths
+          from single clone analyses that by chance contained cDNAs
+          from the same gene reproduced very accurately. The
+          standard deviation from the average value was below 0.2
+          bp for fragments below 500 bp and increased with larger
+          fragment size. The range in which a band was accepted as
+          being the same as the search value was determined
+          empirically. Colonies of specific genes were mixed into
+          different pools of defined clone compositions and the
+          detection width was adjusted to be the best compromise
+          between not missing any real hits and counting false
+          ones. As assumed from the increasing peak width of the
+          analyzed fragments and the internal size marker, the
+          detection width varied with the length of the fragments
+          (see material and methods). The detection range was
+          increased above the determined 0.2 bp standard deviation
+          especially for the longer fragments. The broader
+          detection width that could in principle lead to false
+          positive identification of a fingerprint was
+          counterbalanced by the fact that the peak density is much
+          lower towards the longer fragments (Fig. 4).
         
         
-          Absence of changes in the EC coupling voltage
-          sensor of γ 1nullmyotubes
-          The impact of the γ 
-          1 null mutation on myotube EC coupling
-          was inferred from intramembrane charge movements, the
-          bulk of which have been shown to originate from the DHPR
-          voltage sensor [ 27, 28]. Additionally, we measured Ca
-          2+transients evoked by voltage (i.e., by the movement of
-          the voltage sensor) and compared these two sets of data.
-          To measure DHPR charge movements and to separate these
-          charge movements from those produced by other
-          voltage-gated channels, a) ionic currents were blocked;
-          b) the linear component of the cell capacity was
-          subtracted using a P/4 procedure and by analog
-          compensation; and c) we used a pulse protocol that
-          eliminated the immobilization-sensitive charge movements
-          from voltage-gated Na +channels and presumably also from
-          T-type Ca 2+channels. Previous studies in dysgenic (α 
-          1S null) myotubes transfected with α 
-          1S showed that the pulse protocol and
-          the internal and external solutions used here (see
-          Materials and Methods) detected charge movements of a
-          magnitude 5 to 8 fold larger than those present in
-          non-transfected dysgenic myotubes [ 28]. Thus we are
-          confident that the technique adequately measures
-          intramembrane charge movements in DHPR voltage sensors
-          present in the plasma membrane. Fig. 4Ashows
-          "gating-type" currents produced by charge movements in
-          response to 3 of 14 step voltages delivered to each cell
-          (-40, +10, and +70 mV). Charge movements did not occur at
-          -40 mV in any of the cell types. Traces at +10 mV and +70
-          mV show a transient current at the onset of the voltage
-          step, the ON charge, and an equal inverted current at the
-          end of the voltage step, the OFF charge. The
-          voltage-dependence of the OFF charge estimated by
-          integration is shown in Fig. 4B. The OFF transient was
-          usually less contaminated by ionic current than the ON
-          transient, and for that reason it provides a better
-          estimate of the total DHPR charge. The main contaminant
-          of the ON transient was a non-linear outward current,
-          presumably a K +channel that was not always completely
-          blocked by the pipette solution. The OFF charge increased
-          in a sigmoidal fashion and saturated at potentials more
-          positive than +60 mV in all cases. These data were
-          adequately fit by a Boltzmann equation shown by the
-          lines. We found that the fitted maximum charge (Q 
-          max ) expressed by the 3 cell types
-          was ∼ 5 fC/pF, in agreement with previous determinations
-          in normal myotubes [ 29]. Furthermore, Boltzmann
-          parameters determined for each cell and then averaged
-          were not significantly different in any of two-by-two
-          comparisons between control, γ 
-          1 het or γ 
-          1 null cells (Table 1). In summary,
-          the magnitude of intramembrane charge movements and its
-          voltage dependence were unaltered by partial or complete
-          removal of the γ 
-          1 subunit. Furthermore, in agreement
-          with previous data [ 29], no additional charges moved
-          when pulses were delivered from a holding potential of
-          -120 mV (data not shown). Thus, failure to detect changes
-          in the charge vs. voltage characteristics of γ 
-          1 null myotubes compared to controls
-          cannot be explained by charge movements in the γ 
-          1 null myotubes occurring at
-          potentials more negative than the chosen -80 mV holding
-          potential.
-          Absence of alterations in the voltage dependence of
-          charge movement in the γ 
-          1 null cells should also be reflected
-          in the voltage-dependence of Ca 2+transients. Changes in
-          intracellular Ca 2+were measured using confocal line-scan
-          imaging of fluo-4 fluorescence. Fig. 5Ashows a line-scan
-          image of a Ca 2+transient stimulated by a 50 ms
-          depolarization to +90 mV from a holding potential of -40
-          mV in each cell type. The scan direction was
-          perpendicular to the long axis of the myotube in a region
-          selected on the basis of a low resting fluorescence and a
-          high stimulated fluorescence (red/yellow color). The two
-          traces on top of each image correspond to the time course
-          of the fluo-4 fluorescence averaged across the entire
-          line-scan at -10 mV, which is close to the threshold, and
-          at +90 mV, which produced the maximum Ca 2+transient.
-          Increase in cytosolic Ca 2+started at the onset of the
-          depolarization and peaked ∼ 100 ms later in the three
-          cell types. For all cells, the peak fluorescence change
-          for the depolarization to +90 mV was >3 ΔF/Fo units,
-          which is equivalent to >4 times the resting
-          fluorescence. The relatively long recovery time following
-          the depolarization is due to the low Ca 2+buffering power
-          of the internal recording solution and is in agreement
-          with previous studies [ 27, 30]. The voltage dependence
-          of ΔF/Fo measured at the peak of the transient is shown
-          in Fig. 5B. All curves had the same profile which
-          consisted of a threshold for peak Ca 2+release at -10 mV,
-          an increase in peak Ca 2+with pulse potential from -10 mV
-          to +30 mV and a plateau at more positive potentials.
-          Furthermore, two-by-two comparisons of Boltzmann
-          parameters fitted to each cell did not reveal
-          statistically significant differences (see Table 1). In
-          summary, the voltage-dependence of Ca 2+transients and
-          the maximum cytosolic Ca 2+concentration during the
-          transient were not significantly affected by partial or
-          total absence of the γ 
-          1 subunit. However, we cannot rule out
-          changes in the rate of SR Ca 2+release since this
-          measurement requires an entirely different internal
-          solution [ 31]. A recent report indicates that the SR Ca
-          2+release rate is slightly higher in γ 
-          1 null myotubes [ 32].
-        
-        
-          Involvement of DHPR subunits in voltage sensing and
-          EC coupling
-          The α 
-          1S pore subunit of the skeletal DHPR
-          is the main determinant of charge movements and EC
-          coupling [ 4, 27, 28]. However, other subunits of the
-          DHPR are critical modulators of both functions. In
-          heterologous expression systems, the α 
-          2 -δ subunit was shown to affect the
-          rate of Ca 2+current inactivation and charge movement
-          immobilization [ 33]. Studies investigating the role of
-          the β subunit on charge movement vary with the expression
-          system used. In amphibian oocytes, β subunits increase
-          the coupling between charge movements and channel opening
-          [ 34, 35]. We have shown in skeletal muscle cells lacking
-          the β 
-          1 subunit that reintroduction of
-          variants of β 
-          1 has little effect on either charge
-          movement or the kinetics of activation of the expressed
-          Ca 2+current [ 15]. However, the carboxyl terminus of β1a
-          is an important determinant of the efficiency of the
-          coupling between charge movement and Ca 2+release [ 15].
-          In contrast to these results, earlier studies in which
-          similar β subunits were co-expressed with α 
-          1 subunits in oocytes indicated β
-          subunits had major effects on Ca 2+current density and
-          gating kinetics [ 36, 37]. While the reason for these
-          discrepancies is unknown, they highlight the fact that in
-          skeletal muscle, the gating characteristics of the L-type
-          Ca 2+channel might be controlled by interactions beyond
-          those taking place among subunits of the DHPR. For
-          example, a region of RyR1 has been shown to be essential
-          for L-type Ca 2+current expression [ 38]. Such
-          interaction is critical for skeletal DHPR function and is
-          unlikely to occur in heterologous expression systems.
+          3 - proof of concept
+          The differences in gene expression following treatment
+          of a tissue with an active compound was monitored using
+          two libraries of wound tissue derived from control
+          (phosphate buffer saline, PBS, normally healing) and
+          dexamethasone (DEX, badly healing) treated mice. Steroid
+          treatment is widely used as a model for impaired wound
+          healing [ 25 ] . From each library about 37.000 colonies
+          were analyzed in pools of 96 colonies each. The complete
+          analysis of 74.000 colonies required only 16 runs on an
+          ABI377 DNA analyzer (96 lanes with 96 colonies each, 2
+          gels of 3 enzymes each for the analysis of 6 different
+          enzymes). All calculated fragment sizes were analyzed and
+          stored in a relational database, representing nearly
+          500.000 data points from this analysis alone.
+          Applying the restriction fingerprints of the above
+          mentioned single clone analysis, we found several genes
+          that were up-regulated in wounds of dexamethasone treated
+          animals. Two genes are shown that were confirmed with
+          quantitative Real Time RT-PCR and represent intriguing
+          examples (Table 1). MCP-2 and Cystatin C cDNAs contain
+          all six restriction sites within 500 bp from the poly-A
+          tail (experimental fragment lengths including poly-A tail
+          and labelling oligonucleotides: MCP-2/Cystatin C: Dde I:
+          196.23/276.11 bp; Alu I: 67.51/118.08 bp; Hinf I:
+          349.88/274.51 bp; Bfa I: 531.02/270.83 bp; Dpn I:
+          245.02/265.17 bp; Rsa I: 254.23/89.18 bp, respectively).
+          These fingerprints are unambiguously related to their
+          cDNA as a search in the complete GenBank database (see
+          material and methods) showed only the corresponding
+          murine cDNA hits even though the search parameters were
+          loosened to account for the above mentioned differences
+          in experimentally derived fragment lengths to the real
+          sequence.
+          Finally, these two fingerprints were used for a
+          digital analysis of the DEX and PBS libraries. The
+          fingerprints of all six enzymes were used for the search
+          of the database from the 74.000 colonies. Each of the 768
+          subsets of the data representing a pool of 96 colonies
+          was analyzed by a computer program for the concurrent
+          appearance of the 6 fragments of a specific fingerprint.
+          The search for the appearance of the fingerprints from
+          MCP-2 and Cystatin C resulted in 3 and 4 counts,
+          respectively. Interestingly, the fingerprints were only
+          found in datasets/pools from the cDNA library derived
+          from DEX treated animals and not in the library from
+          control animals. The concluded induction of both
+          transcripts in wounds from badly healing animals compared
+          well to quantitative RT-PCR data (Table 1).
+          In order to explore the limitation of the method we
+          also computed all possible restricted fingerprints of
+          MCP-2 and Cystatin C containing only 5 different
+          restriction enzymes. Here we obtained the same results
+          when we used the five shortest fragments of the
+          fingerprints, but misleading results, if we left out for
+          example the restriction enzyme that produced the shortest
+          fragment. This observation can be easily explained, as
+          partial cDNA sequences derived from oligo dT synthesis
+          can lack the most 5' restriction site and include the
+          most 3' restriction site, but never vice versa. If the
+          numbers of fragments were reduced to the 4 shortest ones,
+          the results were perturbed by unspecific fingerprints
+          that were not derived from the specific cDNAs but were
+          erratically composed of fragments derived from different
+          cDNAs within the pool of 96 colonies. More of those
+          comparisons started to reveal significance limits such as
+          the number of fragments that should be contained in a
+          fingerprint. From the limited amount of comparisons it
+          would seem that having 6 different fragments in a pattern
+          and finding all of them works reliably even with low
+          abundant genes like MCP-2 and Cystatin C that were
+          induced to medium abundance by the treatment (3 to 4
+          transcripts within the 72.000 analyzed transcripts or
+          about 0.05%).. Finding only 3 to 4 fragments is
+          sufficient only for high abundant genes with a
+          significant differential expression. E.g., serum albumin
+          and SPR1a with abundances of about 0.5% in liver and skin
+          libraries, respectively [ 26 27 ] , could be identified
+          and quantified by using only 3 restriction enzymes in the
+          corresponding cDNA libraries [ 28 ]
+          The clones of MCP-2 and Cystatin C were examined more
+          closely regarding their length. They contained the
+          complete cDNA sequence. This is not the case for all
+          other genes, but the clones often contain substantial
+          parts of the coding regions and they almost always
+          prolong the public database cDNA entries toward the 3'
+          end. This supports the notion that DADA will also
+          facilitate a rapid full length cloning effort after
+          identification of interesting genes.
         
       
       
-        Conclusions
-        The ability of the γ 
-        1 subunit to selectively modulate the
-        pore function of the DHPR without modulation of charge
-        movements or the voltage dependence of Ca 2+transients is
-        unique, especially since other DHPR subunits participate in
-        both functions. In all likelihood, the charge movement
-        protocol failed to detect gating currents responsible for
-        opening the Ca 2+channel, which are quite small and are
-        only resolved for depolarizations >200 ms [ 39] compared
-        to the 25 ms used here (Fig. 4). A possible shift in the
-        voltage-dependence of these charges recruited by long
-        depolarizations would be consistent with the shift in Ca
-        2+current inactivation and remains to be resolved in γ 
-        1 null myotubes. However, the protocol
-        accurately measures the immobilization-resistant charge
-        movements that are known to be required for skeletal-type
-        EC coupling [ 31, 40]. Therefore, the γ 
-        1 subunit is unlikely to play a critical
-        role in the activation of SR Ca 2+release, in agreement
-        with a recent report [ 32]. However, shifts in voltage
-        dependence below the limit of resolution (see Materials and
-        Methods) and effects on charge movement and Ca 2+release
-        inactivation cannot be completely ruled out. The γ 
-        1 knockout mice provide a unique
-        resource to understand the function of this protein in
-        myotubes in molecular detail.
+        Conclusion
+        In conclusion, DADA is a digital method for analyzing
+        expression levels based on the counting of restriction
+        fingerprints of cDNA clones. It is built around a
+        specifically designed cloning vector that suppresses
+        misleading fingerprints derived from partial cDNAs or empty
+        vectors. The method yields quantitative data and absolute
+        figures that do not depend on amplification by polymerase
+        chain reaction. Compared to the sequencing of cDNA
+        libraries (conventional EST approach [ 14 ] ), it is
+        substantially faster and more economical. In comparison to
+        the SAGE method [ 20 ] it results in physical cDNA clones
+        of substantial length which speed up further analysis.
+        Within the limited number of examples, there is a good
+        correlation between the clear results from DADA and other
+        gene expression analysis methods such as quantitative real
+        time RT-PCR, RNase Protection Assays, and various
+        hybridization procedures (data not shown). A number of
+        additional genes with differential regulation discovered by
+        DADA and confirmed by independent methods are now under
+        investigations for the use as therapeutical targets
+        (unpublished observations). Some of the genes identified by
+        DADA including MCP-2 and Cystatin C were neither discovered
+        by means of subtractive hybridization [ 3 ] , nor by
+        differential display [ 9 ] , although these methods were
+        successfully used in comparable settings in our laboratory
+        and lead to a high number of differentially expressed
+        genes. Vice versa, DADA could not detect certain
+        differentially expressed genes, that were discovered by
+        standard methods. As an example, the injury-induced
+        differential expression of S100A9 could be detected by
+        subtractive hybridization [ 33 ] . The DADA fingerprint of
+        S100A9 was detected in both analyzed cDNA libraries.
+        However, as it occurs only once in each library, no
+        statistical significant differential expression could be
+        identified by the DADA method. Only a subset of genes was
+        identified by all methods. In general, the different
+        approaches can be seen as complementary rather than
+        competitive. The specific findings will certainly vary with
+        changes in the completeness and individual execution of the
+        respective screens. Additionally, DADA offers advantages
+        with regard to absolute and quantitative data at the level
+        of screening.
+        As of yet we can only perform digital analyses with
+        patterns experimentally analyzed from single clone
+        analysis. These fragment lengths reproduce accurately
+        enough to search and count them in mixed analyses applying
+        rigid queries. The usage of restriction fingerprints
+        computationally derived from sequence database entries is
+        hampered by the lack of predictability of gel positions
+        from sequences and the integer versus non-integer issue.
+        The experimental fingerprints, due to the narrower search
+        space, allowed for the identification of fingerprints in
+        mixtures of 96 colonies as demonstrated here. The broader
+        search space of sequence-based predictions allow only for
+        the identification of fingerprints in mixtures of about 10
+        colonies (data not shown). The one order of magnitude lower
+        throughput in the case of predicted fingerprints would
+        render the method non-superior to others.
+        The generation of experimental fingerprints is the
+        bottleneck of the procedure as described here. Once the
+        fingerprints are generated for a certain species they can
+        be rapidly applied in all possible settings. Therefore, we
+        are developing improvements of this step. In addition, the
+        use of a now available fifth fluorescent dye as a size
+        marker in sequencing lanes should allow for a fast
+        correlation between restriction fragment sizes (derived
+        from the sequence) and gel run behaviors of DNA fragments
+        (relative to the size marker). The latter improvement could
+        not only lead to a faster generation of experimental
+        fingerprints, but could also supply a large dataset to
+        improve the prediction of gel run behaviors of fragments
+        based on the sequence composition.
+        Another improvement could result from alternative DNA
+        separation and detection methods such as capillary
+        electrophoresis or mass spectrometry. This could further
+        improve the reproducibility of the fragment analysis and
+        lead to a reduction of the search space for every fragment.
+        As discussed above, this parameter is directly linked to
+        the throughput of the method. In addition, DADA would
+        profit from the higher throughput of capillary
+        electrophoresis compared to the gel electrophoresis used in
+        this study. On the other hand, values created by mass
+        spectrometry are precisely predictable from the sequence of
+        DNA fragments [ 29 ] . This would allow for the generation
+        of fingerprints from sequence data in silico and speed up
+        this limiting step of the procedure.
       
       
         Materials and Methods
         
-          Gene targeting
-          Bacteriophage clones containing portions of the γ 
-          1 gene were isolated from a mouse
-          129Sv genomic library (Stratagene, La Jolla, CA #946305).
-          To inactivate the γ 
-          1 gene, a 4.4 kb 
-          Bam HI/ 
-          Xho I fragment upstream of exon 1
-          was subcloned into a multiple cloning site 5' of the 
-          neo and Herpes virus TK gene that
-          was in pBluescript (Stratagene). A second 2.6 kb 
-          EcoR I/ 
-          BamH I fragment 3' of exon 4 of the
-          γ 
-          1 gene was cloned into a site between
-          the 
-          neo and TK genes (Fig. 1Aii). Thus,
-          the targeting vector contains 4.4 kb of identity with the
-          native γ 
-          1 gene 5', and 2.6 kb of identity 3'
-          of the 
-          neo cassette, respectively. The
-          targeting vector also contains the HSV TK gene to allow
-          for negative selection of non-recombinants. A unique 
-          Bam HI restriction site was used to
-          linearize the plasmid prior to its introduction into
-          mouse ES cells by electroporation. The γ 
-          1 gene contains 4 exons, and correct
-          targeting results in the deletion of all 4 exons, which
-          will inactivate the gene (Fig. 1Aiii). Probe 2 was used
-          for identification of targeted clones [ 41]. 5 μg of the
-          targeting vector was electroporated into 5 × 10 6AB1 ES
-          cells. G418 and FIAU
-          (1-(2'-deoxy-2'-fluoro-γ-D-arabinofuranosyl)-5-iodouracil)
-          resistant clones were analyzed by Southern blotting after
-          digestion with either 
-          Eco RI and hybridization to probe 1
-          or digestion with 
-          Hind III and hybridization to probe
-          2 (Fig. 1). Of three clones targeted on the 5' end, two
-          also were targeted on the 3' end. These were expanded and
-          used to produce germline chimeras. Mice homozygous for
-          the targeted allele were viable, with no apparent
-          abnormalities. Mice heterozygous and homozygous for the
-          targeted mutation are referred to as γ 
-          1 het and γ 
-          1 null, respectively.
+          Cloning vectors
+          The vector pUC19 (Yanisch-Perron et al., 1985) was cut
+          with Hind III and Aat II and the 2170 bp fragment
+          containing the β-lactamase gene and the ColE1 replication
+          origin was isolated, and two different synthetic double
+          stranded oligonucleotides were inserted (order of
+          restriction sites Hind III-Asc I-EcoR I-Xho I-Sfi I/Bgl
+          I-T7promoter-Aat II). To generate a restriction-free
+          region at the 5' side of the cDNA cloning site (EcoR
+          I-Xho I) a 860 bp long PCR fragment of human genomic DNA
+          (primers: CCCCAAGCTTGAGTATGAACAAATTTACTTTCTTCTTTC and
+          CCGGCGCGCCTCCTAAAGTGCTGGATTATAG) devoid of Alu I, Dpn I,
+          Dde I, Hinf I and Rsa I was inserted between the Hind III
+          and Asc I site of the vectors. The BfaI site originally
+          located in the PCR fragment from genomic DNA was deleted
+          by site directed mutagenesis (details available upon
+          request).
         
         
-          Western blots
-          Total microsomes were prepared from the forelimb and
-          hind limb muscles of control, γ 
-          1 het, and γ 
-          1 null adult mice as previously
-          described [ 42]. Total microsomes were washed twice with
-          0.6 M KCl buffer and 100 μg of total membrane protein was
-          applied to a 5-15% SDS polyacrylamide gel. Proteins were
-          transferred to PVDF membranes and analyzed with either
-          anti-α 
-          1S mAb IIC12 antibody [ 43], or anti-α
-          
-          2 -δ protein G-purified guinea pig
-          antibody #1 [ 13], or anti-β 
-          1a affinity-purified sheep #6 antibody
-          [ 44], or with anti-γ 
-          1 affinity-purified guinea pig #16
-          antibody and the appropriate secondary antibodies [ 11].
-          The subunits were visualized using SuperSignal ECL
-          reagent (Pierce, Rockford, IL). The images were captured
-          on a Chemi-Imager (Alpha Innotech, San Leandro, CA) set
-          to a level just below saturation.
+          cDNA library construction
+          mRNA was extracted from murine tissues (BALB/c mice:
+          Id wound of controls, 1d wound of mice treated with 0.5
+          mg Dexamethason per kg bodyweight twice a day for 5 days
+          before wounding) according to standard procedures [ 30 ]
+          . Methylated cDNA was synthesized from an anchored Xho
+          I-oligo-dT primer ((GA) 
+          10 ACTAGTCTCGAGT 
+          16 VN) that secured a defined start of
+          the cDNA synthesis at the cDNA-polyA border using the
+          Stratagene cDNA synthesis kit according to the
+          instructions of the supplier. EcoR I adapter was added,
+          the cDNA was digested by Xho I and the cDNA was inserted
+          between the EcoR I and Xho I sites of the vectors in a
+          directional fashion. cDNA libraries were constructed by
+          electroporation into E. coli SURE and single colonies
+          were picked either manually or by robots (Q-Pix,
+          GeneScreen) into 96 or 384 microtiter plates,
+          respectively.
         
         
-          Primary cultures of mouse myotubes
-          Primary cultures were prepared from hind limbs of day
-          18 embryos (E18) as described previously [ 45]. Dissected
-          muscles were incubated for 9 min at 37°C in Ca 2+/Mg
-          2+-free Hanks balanced salt solution (in mM: 136.9 NaCl,
-          3 KCl, 0.44 KH 
-          2 PO 
-          4 , 0.34 NaHPO 
-          4 , 4.2 NaHCO 
-          3 , 5.5 glucose, pH 7.2) containing
-          0.25% (w/v) trypsin and 0.05 % (w/v) pancreatin (Sigma,
-          St. Louis, MO). Mononucleated cells were resuspended in
-          plating medium containing 78% Dulbecco's modified Eagle's
-          medium (DMEM) with low glucose (Life Technologies,
-          Rockville, MD), 10 % horse serum (HS, Sigma, St. Louis,
-          MO), 10 % fetal bovine serum (FBS, Sigma, St. Louis, MO),
-          2% chicken embryo extract (CEE, Life Technologies,
-          Rockville, MD) and plated on plastic culture dishes
-          coated with gelatin at a density of ∼ 1 × 10 4cells per
-          dish. Cultures were grown at 37°C in 8 % CO 
-          2 . After the fusion of myoblasts (∼ 7
-          days), the medium was replaced with a FBS-free medium
-          (88.75 % DMEM, 10 % HS, 1.25% CEE) and cells were
-          incubated in 5% CO 
-          2 . All media contained 0.1 % v/v
-          penicillin and streptomycin (Sigma, St. Louis, MO). All
-          measurements were made when the cells had been in culture
-          for 7-10 days. During this time the maximal current
-          density did not change [ 45].
+          DNA preparation
+          For the single clone analysis, colonies were grown in
+          96 deep well plates. For the mixed clone analysis, 9216
+          single colonies were inoculated in 24 384-
+          microtiterplates in 50 μl of TYGPN-medium [ 31 ] and
+          grown for 48 hours at 37°C. The cultured medium of 96
+          colonies each was collected by means of a BIOMEK
+          pipetting robot (Beckman) and pooled in one well of a 96
+          deep well plate. DNA was prepared according to the REAL
+          DNA preparation kit (Qiagen) and dissolved at a
+          concentration of about 100 ng/μl in H 
+          2 O.
         
         
-          Electrophysiological measurements
-          Whole-cell recordings were performed as described
-          previously [ 29] using an Axopatch 200B amplifier (Axon
-          Instruments, Foster City, CA). Linear capacity and leak
-          currents were compensated with the circuit provided by
-          the manufacturer. Series resistance, Rs, was compensated
-          up to the point of amplifier oscillation with the
-          Axopatch circuit. Considering all cells in the present
-          study, the linear capacitance (mean ± SE) of control, γ 
-          1 null, and γ 
-          1 het myotubes was 256 ± 25 pF (38
-          cells), 246 ± 16 pF (34 cells) and 223 ± 24 (23 cells),
-          respectively. Rs of the same cells before analog
-          compensation was 7 ± 0.5 MΩ, 7.2 ± 0.4 MΩ, and 6.3 ± 0.5
-          MΩ, respectively. Following compensation, the effective
-          Rs was <2 MΩ in all cases measured, although this was
-          not measured systematically. Considering a mean cell
-          capacitance of 240 pF, a typical maximum current density
-          of 5 to 10 pA/pF (see Fig. 3B), and Rs (effective)<2
-          MΩ, the voltage error was <2.4 to <4.8 mV. All
-          experiments were performed at room temperature. Patch
-          pipettes had an open tip resistance of 1-2 MΩ when filled
-          with the pipette solution. Ca 2+currents were measured
-          from a holding potential of -40 mV. Test pulses of 500 ms
-          in 5 mV increments ranged from -40 mV to +60 mV. Ca
-          2+conductance vs. voltage curves were obtained by
-          extrapolation of the Ca 2+current to the reversal
-          potential of the cell. To measure inactivation, cells
-          were held at -80 mV, then stepped to a series of
-          depolarizing (pre-pulse) voltages, from -70 mV to +70 mV
-          in 10 mV increments, for 2.5 seconds to promote
-          inactivation, then stepped to -50 mV for 100 ms to close
-          non-inactivated channels, then stepped for 200 ms to the
-          test potential of +20 mV to measure Ca 2+currents, then
-          stepped to the -80 mV holding potential for 5 seconds to
-          permit recovery from inactivation. Charge movement was
-          measured using a protocol that eliminated
-          immobilization-sensitive components [ 15, 28, 29].
-          Voltage was stepped from a holding potential of -80 mV to
-          -35 mV for 750 ms, then to -50 mV for 5 ms, then to test
-          potential for 25 ms, then to -50 mV for 30 ms and finally
-          to the -80 mV holding potential. Subtraction of the
-          linear component was assisted by a P/4 procedure
-          following the pulse paradigm listed above. P/4 pulses
-          were separated by 500 ms and had a duration of 25 ms.
-          Previous studies showed this choice of pulse protocol and
-          internal and external solutions resulted in
-          nifedipine-sensitive charge movements of a magnitude ∼ 5
-          fold larger than those detected in dysgenic myotubes
-          lacking α 
-          1S [ 29].
+          Labelling of cDNA
+          Double stranded, fluorescently labelled (FAM, JOE, or
+          NED) oligonucleotides (5' labelled oligonucleotide:
+          CAGGAGATGCTGTTCGTAGG, unlabelled oligonucleotide:
+          ACGAACAGCATCTCCT, supplier: Applied Biosystems) were
+          annealed in 10 mM Tris pH 8.0, 10 mM NaCl, and 1 mM EDTA
+          (3 min. at 94°C, cooling to 20°C within 15 minutes). Two
+          times three labelling reactions were prepared in 6
+          different 96-microtiterplates (2×FAM, 2×JOE, and 2×NED,
+          respectively). 500 ng (FAM labelling) or 1 μg (JOE and
+          NED labelling) of the cDNA plasmid preparation was mixed
+          with 0.5 pmol labelled oligonucleotides, 0.25 (FAM) or
+          0.5 (JOE and NED) Units Bgl I, and 10 (FAM) or 20 (JOE
+          and NED) Units T4-DNA-ligase (New England Biolabs),
+          respectively, in 20 mM Tris-acetate (pH 7.9), 10 mM
+          magnesium acetate, 50 mM potassium acetate, 1 mM DTT, 100
+          μg/ml BSA, 1 mM ATP. The reactions were incubated over
+          night at 37°C and stopped by heating to 65°C for 10
+          minutes. The restriction enzymes for the second digest
+          (0.5 U Bfa I, 1.0 U Dde I, 1.5 U Dpn I, 2.0 U Alu I, 1.0
+          U Rsa I, or 2.0 U Hinf I) were diluted in 10 μl buffer
+          (20 mM Tris-acetate (pH 7.9), 10 mM magnesium acetate, 50
+          mM potassium acetate, 1 mM DTT, 100 μg/ml BSA) and added
+          separately to the six rections (FAM: Bfa I and Dde I,
+          JOE: Dpn I and Alu I, NED: Rsa I and Hinf I). After 2
+          hours at 37°C, the reactions were stopped by heating to
+          80°C for 20 minutes and the reactions Bfa I, Dpn I and
+          Rsa I as well as Dde I, Alu I and Hinf I were pooled,
+          respectively. The reaction products were purified by
+          means of three repeated gel chromatographies using water
+          saturated Sephadex G-50 in Millipore Multiscreen
+          ®filtration plates according to the instructions provided
+          by the supplier and dried under vacuum.
         
         
-          Solutions
-          The external solution in all cases was (in mM) 130 TEA
-          methanesulfonate, 10 CaCl 
-          2 , 1 MgCl 
-          2 , 10 HEPES titrated with TEA(OH) to
-          pH 7.4. For Ca 2+transients and Ca 2+currents, the
-          pipette solution was (in mM) 140 Ca 2+-Aspartate, 5 MgCl 
-          2 , 0.1 EGTA (Ca 2+transients) or 5 mM
-          EGTA (Ca 2+currents), and 10 MOPS-CsOH pH 7.2. For charge
-          movements, the pipette solution was (in mM) 120 NMG
-          (N-methyl glucamine)-Glutamate, 10 HEPES-NMG, 10 EGTA-NMG
-          pH 7.3. For charge movements, the external solution was
-          supplemented with 0.5 mM CdCl 
-          2 and 0.5 mM LaCl 
-          3 to block the Ca 2+current and 0.05
-          mM TTX to block residual Na +current.
+          Fragment analysis
+          The dried DNA was dissolved in 2 μl of loading buffer
+          (7 M Urea, 5 mM EDTA, 0.5% Blue Dextrane, pH 8.0)
+          containing a ROX-labelled size marker derived from
+          specifically designed λ-phage PCR fragments (45 bp, 80
+          bp, 120 bp, 160 bp, 200 bp, 240 bp, 280 bp, 320 bp, 360
+          bp, 400 bp, 450 bp, 500 bp, 550 bp, 600 bp, 650 bp, 700
+          bp, 750 bp, 800 bp, 850 bp, 900 bp). The fragments were
+          denaturated at 90°C for 6 minutes, loaded onto a 36 cm
+          long, 5% (29:1) polyacrylamid, 7 M urea gel, and
+          separated at 2000 V, 50 mA, and 51°C in a 96 lane ABI377
+          DNA analyzer. The fragment sizes of the FAM, JOE, and NED
+          labeled fragments between 45 and 900 bp were calculated
+          from the raw data relative to the ROX size marker by the
+          GeneScan program (Applied Biosystems) and exported as
+          text files. The data pertaining to the peaks (lane
+          number, height, area, colour, calculated length of
+          fragments) were imported into a relational database
+          scheme (Oracle 8.01 relational database management
+          system) and integrated with the information on the cDNA
+          library, the location of the colonies on the
+          microtiterplates, the colony composition of the DNA
+          preparation, the labelling reaction, and the gel
+          conditions.
+          Analysis of restriction fingerprints derived from
+          single clones - single clone analysis (SCA) A computer
+          program (written with the Microsoft Visual Studio 6
+          software suite) was designed that extracted fingerprints
+          from the raw data of single clone analysis. In one lane,
+          the peak for each restriction enzyme was chosen, that had
+          the maximum height (NewHeight) after applying the
+          following empirically determined formula in order to
+          account for the broadening in peak shape and the
+          resulting lower peak height that goes along with
+          increasing numbers of base pairs: NewHeight =
+          MeasuredHeight / ((CalculatedBasePairs / - Denominator) +
+          Addend), with Denominator = 3.0, Addend = 500. The
+          corresponding calculated lengths of the fragments were
+          stored as fingerprints in the database.
         
         
-          Ca 2+transient measurements
-          Ca 2+transients were measured using a confocal
-          microscope in line-scan mode as described previously [
-          46, 47, 48]. Cells were loaded with 4 mM fluo-4 (fluo-4
-          acetoxymethyl (AM) ester, Molecular Probes, Eugene, OR)
-          for 20 to 40 min at room temperature. Stocks of fluo-4 (1
-          mg/ml) were made in DMSO and stored frozen. All
-          experiments were performed at room temperature. Cells
-          were viewed with an inverted Olympus microscope with a
-          20X objective (N.A. = 0.4) and a Fluoview confocal
-          attachment (Olympus, Melville, NY). The 488 nm spectrum
-          line necessary for fluo-4 excitation was provided by a 5
-          mW argon laser attenuated to 20% with neutral density
-          filters. The fluorescence intensity, F, was calculated by
-          densitometric scanning of line-scan images and was
-          averaged over the entire width of the cell. The
-          background fluorescence intensity (Fo) was averaged in
-          the same manner from areas of the same image prior to the
-          voltage pulse. The fluorescence unit ΔF/Fo corresponds to
-          (F-Fo)/Fo. The limit of fluorescence detection, based on
-          microscope settings and the average resting fluo-4
-          fluorescence, was ∼ 0.1 ΔF/Fo units. That is, we could
-          detect a ∼ 10% change above the cell resting
-          fluorescence. Using a pseudo-ratiometric equation for
-          estimating the cytosolic free Ca 2+[ 48] and assuming a
-          resting free Ca 2+of 100 nM [ 48], the nominal limit of
-          resolution of free Ca 2+change was ∼ 200 nM.
+          Calculation of the abundance of fingerprints in
+          mixed clone analysis (MA)
+          A second computer program was designed that analyzed
+          the datasets from the mixed analysis for the frequency of
+          occurrence of the stored fingerprints. Each dataset
+          derived from a pool of 96 colonies (6 complex fragment
+          mixtures in 2 corresponding lanes on two corresponding
+          gels) was queried for the concurrent occurrence of the
+          peaks / fragments of each fingerprint, respectively (see
+          Fig. 4). As an example, for a certain cDNA fingerprint
+          the the peak from SCA for restriction enzyme DdeI was
+          determined at 326,5 bp. In one lane in a MA there are
+          multiple peaks stemming from DdeI digestion (50.3, 67.4,
+          98.5,.....326.7....500.1...). The computer program
+          checked if the peak for Dde I was contained in the
+          complex peak mixture derived from the Dde I digest,
+          considering a certain bandwidth. In the example above,
+          326.7 bp in the MA would be considered as a hit. The
+          computer program did the same for the other 5 restriction
+          enzymes. When all peaks are simultaneously present in one
+          dataset from a pool of colonies the counter for this
+          fingerprint/gene goes up by one. It is possible to adjust
+          the program to query the data with only a subset of the 6
+          restriction enzymes of the fingerprints.
+          The empirical determined allowed bandwidth for a peak
+          to be counted was set to the following parameters
+          fragments from 40 to 100 bp: bandwidth +-0.5 bp, 100-300
+          bp: +-0.3, 300-500 bp: +-0.7, 500-700 bp:+-2.0, 700-900
+          bp:+-5.0).
         
         
-          Data and error analysis
-          For each cell, or for the population average, the
-          voltage dependence of charge movements (Q), Ca
-          2+conductance (G), and peak intracellular Ca 2+(ΔF/Fo)
-          were fitted according to a Boltzmann equation A = A 
-          max /(1+exp(-(V-V 
-          1/2 )/k)) where A 
-          max was either Q 
-          max , G 
-          max or ΔF/Fo 
-          max ; V 
-          1/2 is the potential at which A = A 
-          max /2; and k is the slope factor. For
-          a fit of steady-state inactivation, the term (V-V 
-          1/2 ) in the equation above was
-          replaced by (V 
-          1/2 -V). Ca 2+conductance for each
-          cell was computed from the extrapolated reversal
-          potential and the maximal Ca 2+current at each voltage.
-          In all figures, the symbols and error bars correspond to
-          the population mean ± 1 SEM. The curves correspond to a
-          Boltzmann fit of the mean. In addition to Student t-tests
-          reported in Table 1, one-way ANOVA tests were conducted
-          among the 11 sets of Boltzmann parameters of control, γ 
-          1 het and γ 
-          1 null cells of Table 1. The null
-          hypothesis (equality of means) was not rejected at a
-          level of significance p<0.05 except in the two cases
-          also identified by t-tests, namely G 
-          max and V 
-          1/2 inactivation. An F-test, which
-          formally tests for the difference between the variances
-          of independent populations, was used to determine which
-          of the fitted Boltzmann parameters (A 
-          max , V 
-          1/2 , k) had the largest variance, and
-          thus the largest experimental error. The ranking order in
-          variance error was V 
-          1/2 >A 
-          max >k. Furthermore, the error in V
-          
-          1/2 was the largest for the
-          fluorescence measurement and the smallest for the
-          conductance measurement. This result was expected since
-          the size of the voltage step used in the V 
-          1/2 determination was 5 mV for
-          conductance, 10 mV for charge movements, and 20 mV for
-          fluorescence. The number of voltage steps in fluorescence
-          measurements was kept to a minimum to avoid rundown of
-          the Ca 2+transient due to photobleaching. The limit of
-          resolution of V 
-          1/2 , the parameter with the largest
-          error, was estimated with a z-test which formally tests
-          for the difference between the mean of a population and a
-          hypothetical mean. We determined the smallest difference
-          between a experimental and a hypothesized V 
-          1/2 resolvable at a level of
-          statistical confidence p<0.05. In the calculations, we
-          used the data with the largest V 
-          1/2 variance for each measurement
-          (conductance, charge movement and fluorescence). Also, we
-          assumed a hypothetical S.D. equal to the experimental
-          S.D. The estimated limits of statistical resolution were
-          ∼ 3.9 mV for conductance, ∼ 6.5 mV for charge movements,
-          and ∼ 8.5 mV for fluorescence measurements. Thus, a
-          difference in population mean V 
-          1/2 of less than the indicated limit
-          would not be statistically significant, given the
-          variance and the number of determinations of the present
-          study. Statistical analyses were performed with
-          Analyse-it software (Leeds, UK)
+          Pattern search in Database Sequences
+          Search strings of the form (eg. fingerprint MCP-2, Bfa
+          I, Hinf I, Rsa I, Dpn I, Dde I, Alu I) CTAGN 
+          177-181 GANTCN 
+          90-94 GTACN 
+          3-7 GATCN 
+          41-45 CTNAGN 
+          123-127 AGCT were derived from the
+          restriction fingerprints. The distances between the
+          restriction sites were set to be flexible (+/-2 bp of the
+          empirical length), because the experimentally analyzed
+          fragment lengths have non-integer numbers and do not
+          correspond to sequence length in base pairs better than
+          +/-1 bp. The strings served as an input to the Perl
+          script prosite_scan (author: Kay Hofmann
+          http://www.isrec.isb-sib.ch/ftp-server/prosite_scan/pattern_find)
+          searching the nucleotide section of GenBank (downloaded
+          April 12 th2000).
+        
+        
+          RNA Preparation and reverse transcription
+          Total RNA was extracted from the frozen mouse skin
+          biopsies of 30 animals as described by Chomczynski and
+          Sacchi (1987) [ 32 ] . The total RNA was digested by
+          RNase free DNaseI and phenol extracted in order to remove
+          genomic DNA contaminations. First strand cDNA was
+          synthesized from 1 μg of total RNA in a 100 μl reaction
+          volume using random hexamers as primer and Multiscribe
+          reverse transcriptase (TaqMan Reverse Transcription
+          Reagents Kit, PE Biosystems).
+        
+        
+          Real-time polymerase chain reaction (PCR)
+          Specific primers were designed using the
+          Primer-Express program (PE Biosystems) and synthesized by
+          Interactiva (Ulm, Germany). The sequences and necessary
+          concentrations in the PCR reaction are outlined in Table
+          2. The PCR mixture included 0.625 U AmpliTaq Gold DNA
+          polymerase in the 2× SYBR Green Master Mix (PE
+          Biosystems), the required concentration of specific
+          forward and reverse primers, 10 ng of cDNA template and
+          0.25 U AmpErase UNG (PE Biosystems) in a 25 μl reaction
+          volume. The quantification relative to the house keeping
+          gene GAPDH was carried out in MicroAmp Optical 96-well
+          reaction plates (PE Biosystems). On each plate a standard
+          curve was generated for both the GAPDH and target PCR
+          reactions by amplifying 5 different known amounts of cDNA
+          derived from total RNA. For each cDNA sample under
+          investigation triplicate reaction wells were set up for
+          both GAPDH and target amplification. The amplification
+          was carried out and analysed in the GeneAmp 5700 Sequence
+          Detection System (PE Biosystems). The efficiency of each
+          PCR was calculated from the slope of the standard curve
+          (E = 10 (-1/s)- 1). The abundance of the target relative
+          to GAPDH was calculated as: X 
+          n = (1 + E 
+          GAPDH ) Ct,gapdh/(1 + E 
+          target ) Ct,target, where C 
+          t is the threshold cycle determined
+          from the amplification curves, and the relative
+          abundances from one quantification were set into relation
+          with one another.
         
       
       
-        List of Abbreviations
-        AID (α subunit interaction domain); BID (β subunit
-        interaction domain); DMSO (dimethyl sulfoxide); EGTA
-        (ethylene glycol bis-aminoethylether tetraacetic acid);
-        HEPES (2-hydroxylethyl piperazine 2-ethane sulfonic acid);
-        MOPS (3N-Morpholino-propane sulfonic acid); PVDF
-        (polyvinylidene difluoride); TTX (tetrodotoxin); TEA
-        (tetraethylamonium).
+        List of abbreviations
+        cDNA - DNA complementary to ribonucleic acid (RNA), DNA
+        - deoxyribonucleic acid, PBS - phosphate buffer saline, DEX
+        - dexamethasone, EST - expressed sequence tag, SAGE -
+        serial analysis of gene expression, SCA - single clone
+        analysis, MA - mixed analysis, bp - base pairs, StDev -
+        Standard Deviation, RT-PCR - real-time polymerase chain
+        reaction. poly-A - polyadenylation, GAPDH - Glyceraldehyde
+        3-phosphate dehydrogenase
       
     
   

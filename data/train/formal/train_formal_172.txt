@@ -3,604 +3,525 @@
     
       
         Background
-        Metastasis of tumor cells is critically dependent on the
-        ability of cancer cells to adhere and migrate. The cell
-        surface expressed integrins can control this process by
-        physically interacting with the extracellular matrix
-        proteins and other cell surface proteins on endothelial
-        cells lining the blood vessel wall [ 1 ] . These integrins
-        signal adhesion and migration by communicating with several
-        tyrosine kinases inside the cell, including the Focal
-        Adhesion Kinase (FAK) and Src family kinases [ 1 2 ] . Src
-        kinases control the activation of FAK, as well as the
-        tyrosine phosphorylation of critical substrates that
-        regulate adhesion and migration [ 3 ] . Indeed, colon
-        cancer cells with high metastatic potential have elevated
-        levels of Src activity or activating mutations in the Src
-        gene [ 4 5 ] . One Src substrate that is involved in
-        regulating an important signaling node in this process is
-        the adaptor protein p130 
-        cas (Cas) [ 6 7 8 9 10 ] . Cas
-        appears to play a central role in the transformation
-        process by several oncogenes including ras, ornithine
-        decarboxylase (ODC), v-Src, v-crk, and Bcr-Abl, as these
-        tumors all have elevated levels of tyrosine phosphorylated
-        Cas [ 6 11 12 13 ] . Cells from mice that lack Cas have
-        much reduced migration and are resistant to transformation
-        by v-Src, while expression of Cas anti-sense RNA in cells
-        transformed with ras, v-Src or ODC result in reversion of
-        the transformed phenotype [ 11 14 15 ] . Furthermore,
-        increased expression of Cas can rescue cell migration and
-        adhesion in cells expressing the tumor suppressor PTEN, and
-        can enhance cell migration and adhesion in normal cells,
-        with a major role being played by the substrate domain [ 16
-        17 ] .
-        Cas is a protein which migrates with an apparent mass of
-        approximately 130 kDa, with a N-terminal SH3 domain, a
-        central substrate domain (SD) with up to 15 tyrosines which
-        can be phosphorylated, a C-terminal region with a
-        proline-rich region, and two tyrosine phosphorylation sites
-        capable of binding Src kinases (Src binding domain (SBD)) [
-        6 18 ] . The latter SBD domain regulates the ability of Src
-        to activate the serum response element, as well as in the
-        phosphorylation of the SD of Cas by Src [ 18 19 20 ] . The
-        substrate domain controls adhesion and migration and the
-        majority of the tyrosines within this domain are of the
-        sequence YQXP (5) or YDXP (10), which when phosphorylated,
-        bind to the adaptors c-crk, nck and AND-34 [ 16 21 22 23 ]
-        . The importance of these molecules in Cas function is
-        unclear, however c-crk seems to be critical in the
-        regulation of adhesion and migration mediated by Cas. In
-        addition, the SH3 domain of Cas mediates an interaction
-        with FAK, C3G, CMS, and the zinc finger containing protein
-        CIZ, while nephrocystin interacts with Cas via its SH3
-        domain and proline rich sequences in Cas [ 24 25 26 27 28
-        29 30 ] . The SH3 domain of Cas can also interact with the
-        tyrosine phosphatase PTP1B, and expression of PTP1B in
-        transformed cells reverts the phenotype, in part by
-        dephosphorylating Cas [ 31 32 ] .
-        Tyrosine phosphorylation of Cas is regulated by
-        adhesion, such that adherent and migrating cells have high
-        levels of tyrosine phosphorylated Cas, whereas cells in
-        suspension have reduced levels of Cas phosphorylation [ 10
-        33 ] . In addition, as mentioned above, transformed cells
-        that are able to grow in an anchorage independent manner
-        show increased tyrosine phosphorylation of Cas [ 10 33 ] .
-        These data suggest that tyrosine phosphorylation of Cas in
-        part regulates a switch from adhesion dependent growth to
-        adhesion independent growth. Whether mere tyrosine
-        phosphorylation or localization of Cas is more important
-        for its regulation of adhesion and migration is unclear.
-        Tyrosine phosphorylation of adaptor molecules such as Cas
-        is dependent on upstream signals that lead to the
-        phosphorylation of the adaptor, and with multiple pathways
-        leading from these upstream signals it is difficult to
-        tease out the events resulting from the phosphorylated
-        adaptor itself. We have tried to address this problem by
-        constructing a chimeric Cas molecule (Src*/Cas(SD)) that is
-        phosphorylated independently of upstream signals by fusing
-        the SD of Cas to a Src kinase domain that had been
-        attenuated by mutating the activation tyrosine (Y 416) to
-        phenylalanine. Such a mutant is inactive against exogenous
-        substrates [ 34 35 36 ] . We found that this Src*/Cas(SD)
-        molecule is constitutively tyrosine phosphorylated when
-        expressed either transiently or stably in cells, and acts
-        as a dominant negative mutant, attenuating v-crk mediated
-        transformation when expressed in cells transformed by this
-        oncogene. We also observed a reduction in basal JNK
-        activity in normal cells expressing this chimera and in
-        v-crk mediated activation of JNK in cell expressing both
-        v-crk and the chimera. By contrast, tyrosine
-        phosphorylation of endogenous Cas and FAK was unaffected by
-        the Cas chimera, indicating that these processes lie
-        upstream of the tyrosine phosphorylated Cas SD. Finally, we
-        show that this chimera can act as a decoy to selectively
-        disrupt signaling events downstream of the tyrosine
-        phosphorylated SD of endogenous Cas, acting as a dominant
-        negative mutant. We suggest that this approach and modified
-        versions of this approach can be a general method to
-        determine the role of tyrosine phosphorylated domains
-        without regard to upstream signals.
+        Most current methods of cancer early detection, such as
+        mammography or cervical cytology, are based on anatomic
+        changes in tissues or morphologic changes in cells.
+        Recently, various molecular markers, such as protein or
+        genetic changes have been proposed for cancer early
+        detection [ 1 2 3 4 ] . This has spurred many investigators
+        with long-term cohort studies to serially collect and store
+        blood or tissue specimens. The aim is to later perform a
+        nested-case control study, where specimens from subjects
+        with a particular type of cancer (cases) and specimens from
+        a random sample of subjects without the cancer (controls)
+        are tested for various molecular markers. Sometime this
+        sort of study is called a retrospective longitudinal study
+        [ 6 ] although retrospective longitudinal data could arise
+        in other ways, as well. Unlike cross-sectional study
+        designs, the markers are measured on specimens collected
+        well before the onset of clinical disease in cases. This
+        avoids the potential confounding effect of the target
+        disease on the marker.
+        For example, in the ATBC (alpha-tocopherol,
+        beta-carotene) [ 7 ] and CARET [ 8 ] studies, subjects were
+        randomized to placebo or drug to in a long-term study to
+        determine the effect of the drug on lung cancer mortality.
+        During the course of the trial serum was serially collected
+        and stored in a biorepository. In a subsequent nested
+        case-control study, stored serum samples from all cases of
+        prostate cancer and a random sample of controls were tested
+        for prostate-specific antigen (PSA).
+        Importantly the nested case-control study of early
+        detection biomarkers may be distinct from the original
+        long-term study from which serum were collected. It is
+        designed to answer a different question, it typically
+        studies subjects with a different disease, and it often
+        ignores the intervention in the original long-term
+        study.
+      
+      
+        Methods
+        We had three considerations in formulating appropriate
+        guidelines. First we wanted to link the analysis to the
+        goal of study, namely, to help decide on further study of
+        the biomarker as a trigger for early intervention. Second
+        we wanted to minimize possible biases in the selection of
+        cases and the controls and in the investigation of many
+        markers. Third, we wanted to extract as much information as
+        possible relevant to the evaluation.
       
       
         Results
+        We offer the following guidelines for the design and
+        analysis of nested case-control studies of early detection
+        cancer biomarkers.
         
-          Creation of a dominantly tyrosine phosphorylated
-          Cas substrate domain
-          The adaptor protein Cas has a N-terminal SH3 domain, a
-          large number of tyrosines that serve as potential kinase
-          substrates within its substrate domain and a C-terminal
-          Src binding domain (Fig. 1). Understanding the function
-          of this substrate domain and the tyrosines within it
-          could lead to a better understanding of the signaling
-          pathways regulated by this protein. Previously,
-          investigators have created dominant negative versions of
-          this protein lacking its substrate domain and shown that
-          it is required for cell adhesion and migration. However,
-          these studies depend on upstream signals and so it is not
-          clear which signals are directly emanating from the
-          substrate domain itself, as this domain requires the
-          activation of upstream kinases for its phosphorylation
-          and function. We have tried to address this problem by
-          attempting to create a dominant active substrate domain
-          of Cas, i.e. a Cas substrate domain that is
-          constitutively tyrosine phosphorylated and able to send
-          signals independently of upstream signals. We did this by
-          fusing the SD of Cas to a Src kinase domain that had been
-          attenuated by mutating the activation tyrosine (Y 416) to
-          phenylalanine (Src*/Cas(SD), Fig. 2). This Src mutant is
-          inactive against exogenous substrates [ 34 35 36 ] . We
-          also generated fusions of the Cas SD with a Src kinase
-          inactive mutant (K295M) that has no enzymatic activity
-          (Src KM/Cas(SD)), fusions of either the attenuated kinase
-          domain or kinase inactive domain to the 5' or 3' regions
-          of the Cas SD (Src*/Cas(5'SD), Src*/Cas(3'SD), Src
-          KM/Cas(5'SD), Src KM/Cas(3'SD)), as well as the
-          attenuated Src kinase (Src*) alone without the attached
-          Cas SD (Fig. 2). Transient expression of the Src*/Cas(SD)
-          in Cos-7 cells followed by analysis of total cell lysates
-          using anti-phosphotyrosine antibodies demonstrated that
-          while the attenuated Src kinase domain alone did not
-          increase total cellular tyrosine phosphorylated proteins
-          as expected, expression of the Src*/Cas(SD) fusion
-          resulted in tyrosine phosphorylation of a protein of the
-          expected size of the chimera, as well as other proteins
-          (Fig. 3a, 3b). Expression of the Cas(SD) or the Src
-          KM/Cas(SD), fusion did not result in any increase in
-          total phosphotyrosine containing proteins nor in the
-          tyrosine phosphorylation of the Cas SD (data not shown
-          and see Fig. 4).
+          1. For the clearest interpretation,
+          statistics for binary markers should be based on true and
+          false positive rates or predictive values based on the
+          true prevalence - not odds ratios, relative risks, or
+          predictive values based on the prevalence in the
+          study 
         
+        A promising marker should have a high degree of accuracy
+        in discriminating between subjects who are likely to get
+        cancer from those who are not. For a binary marker, which
+        is either positive or negative, the basic measures of this
+        type of accuracy are the true positive and false positive
+        rates. Consider the hypothetical data in the Table 1from a
+        nested case-control study of early detection biomarkers.
+        The true positive rate (TPR), or the test sensitivity, is
+        the probability the marker is positive given cancer. The
+        false positive rate (FPR), or 1 - specificity, is the
+        probability the marker is positive given no cancer. In
+        Table 1, TPR is estimated by 80/100 = .80, and FPR is
+        estimated by 10/1000 = 01. For a perfect test, TPR = 1 and
+        the FPR = 0. There is always a tradeoff between the TPR and
+        FPR, so it is meaningless to assess one without assessing
+        the other. For example, one could make the TPR equal to 1
+        simply by classifying every subject as positive for cancer.
+        But this would be a poor classification rule because the
+        FPR would also be 1.
         
-          The C-terminus of the Cas SD is involved in the
-          interaction with v-crk
-          Investigators have shown that v-crk interacts via its
-          SH2 domain with the substrate domain of Cas [ 6 ] .
-          Association of v-crk with endogenous Cas is believed to
-          protect the phosphorylation status of this molecule due
-          to protection from phosphatases [ 12 ] . Expression of an
-          unphosphorylated Cas SD along with v-crk should therefore
-          result in stable tyrosine phosphorylation of the Cas SD
-          if they interact. The Cas SD has two sets of potential
-          SH2 interacting tyrosines, the N-terminal subdomain
-          containing 4 YQXP motifs located between a.a. L 157to A
-          324and the C-terminal subdomain containing, 9 YDXP motifs
-          located between a.a. S 325to R 516. The v-crk SH2 domain
-          interacts with YXXP motifs upon phosphorylation,
-          suggesting that both of these regions may be able to
-          interact with v-crk [ 37 ] . Fusions of the kinase
-          inactive Src kinase domain and either the full Cas SD,
-          the 5' region of the Cas SD (Cas(5'SD), containing 4 YQXP
-          motifs) or the 3' of the Cas SD (Cas(3'SD), containing 9
-          YDXP motifs), are not stably tyrosine phosphorylated when
-          expressed alone in cells (data not shown and see Fig.
-          4b). We therefore used these fusions to determine which
-          region of the Cas SD interacts with v-crk. Initially, we
-          expressed the Src KM/Cas(SD) (entire Cas SD) in Cos-7
-          cells alone, or along with wild type (WT) v-crk, or v-crk
-          SH2 or SH3 mutants and assayed for tyrosine
-          phosphorylation and association by co-immunoprecipitation
-          (Fig. 4a). Figure 4ademonstrates that while the chimera
-          was not stably tyrosine phosphorylated when expressed
-          alone, expression of the Src KM/Cas(SD) chimera along
-          with either WT or an SH3 domain mutant of v-crk resulted
-          in its stable tyrosine phosphorylation and
-          co-immunoprecipitation with v-crk (Fig. 4a, lanes 2 &
-          4). However, co-expression of the Src KM/Cas(SD) chimera
-          along with a SH2 mutant of v-crk demonstrated that an
-          intact v-crk SH2 domain is required for association with
-          the tyrosine phosphorylated Src KM/Cas(SD) (Fig. 4a, lane
-          3). These data suggest that the kinase inactive fusion
-          with the Cas SD is either transiently tyrosine
-          phosphorylated in cells and v-crk protects them from
-          being dephosphorylated by interacting with them via its
-          SH2 domain, or alternatively, that v-crk induces their
-          tyrosine phosphorylation.
-          We then used the 5' and 3' fusions of the Cas SD to
-          determine which motif, YQXP or YDXP, interacts with the
-          v-crk SH2 domain. Expression of the Src KMfused to the
-          full length Cas SD, 5' N-terminal YQXP motifs or 3'
-          C-terminal YDXP motifs alone demonstrated that these
-          fusions were not stably tyrosine phosphorylated in cells
-          (Fig. 4b, lanes 1-3), although they can be stably
-          tyrosine phosphorylated when fused to the attenuated Src
-          kinase domain (data not shown and see Fig. 7a). By
-          contrast, co-expression of these fusions along with v-crk
-          results in stable tyrosine phosphorylation of the 3'
-          C-terminal YDXP motifs and the full length Cas SD
-          (carrying both motifs), but not the 5' N-terminal YQXP
-          motifs (Fig. 4b, lanes 4-6). These data indicate that the
-          v-crk SH2 domain interacts with the C-terminal YDXP
-          motifs, and as suggested by Birge et al, v-crk may be
-          able to protect them from dephosphorylation and/or
-          induces their phosphorylation [ 12 ] . They also suggest
-          that the YQXP motifs may be involved in binding to other
-          intracellular signaling molecules.
+          Guidelines for FPR and TPR 
         
+        Because the underlying prevalence of cancer is so low in
+        average risk populations, for acceptable cancer screening
+        of asymptomatic people, the FPR should be very small [ 9 ]
+        . As a starting point we recommend basing guidelines for
+        FPR and TPR on the FPR and TPR for mammography, which, as
+        discussed below, is FPR=.01 and TPR=.80. A mammogram is
+        analogous to a biomarker test for cancer but there is extra
+        information from various studies that makes it useful for
+        setting guidelines.
+        One reason for using FPR and TPR from mammography as a
+        standard is that, unlike biomarker measurements in nested
+        case-control studies, in mammography studies there is a
+        biopsy at the time of a positive test. This biopsy is the
+        gold standard for determining cancer status in subjects
+        with positive mammograms and is used for computing TPR in a
+        way not possible with biomarkers in nested case-control
+        studies. The TPR for mammography is the probability of a
+        positive biopsy as a direct result of mammography in women
+        with cancer and is estimated via mathematical models or
+        data collected after following subjects not biopsied. As
+        discussed in Baker and Pinsky [ 10 ] , estimates ranged
+        from .74 to 1.00 with .80 a conservative value.
+        Importantly the estimated TPR for mammography is not
+        likely to be affected by overdiagnosis, which means that
+        some screening-detected cancers would never have caused
+        medical problems during the patient's life [ 11 ] . This
+        would make the biomarker appear more promising than
+        actually the case. Results from the HIP screening trial of
+        mammography and clinical self-examination [ 12 ] suggest
+        that if there were overdiagnosis with mammography, it would
+        be relatively small. At the time of the last breast
+        screening in the HIP trial, there were more cancers in the
+        group randomized to screening than in the controls. But
+        with further follow-up the number of cancers in the control
+        group eventually equaled the number in the screened group,
+        which would not have occurred if there were substantial
+        overdiagnosis.
+        A second reason for using FPR and TPR from mammography
+        is that, based on various randomized trials with cancer
+        mortality endpoint, mammography is generally considered an
+        acceptable screening modality. The implication is that a
+        similar FPR and TPR for a biomarker would lead to an
+        acceptable screening modality. For a particular biomarker,
+        these target values of FPR and TPR from mammography may
+        need modification depending on various factors. One factor
+        is the invasiveness of a follow-up procedure to investigate
+        a positive test (e.g. needle biopsy of the prostate to
+        investigate an abnormal PSA versus laparotomy to
+        investigate an abnormal CA125). The more invasive the
+        follow-up procedure, the lower the FPR must be to gain
+        acceptance in practice. A second factor is additional
+        work-up prior to a biopsy. If a positive biomarker is
+        unlikely to trigger additional diagnostic work-ups prior to
+        biopsy, a higher FPR might be acceptable.
+        One caveat when using FPR from mammography is to be
+        careful as to its definition. The restricted definition is
+        the probability of a positive biopsy as a direct result of
+        mammography in women without cancer. The less restricted
+        definition is the probability of a suspicious mammogram
+        warranting additional diagnostic follow-up of any type in
+        women without cancer. Typically nested-case control studies
+        of early detection biomarkers do not provide information on
+        additional diagnostic follow-up. Therefore they cannot be
+        used to estimate a less restricted FPR involving diagnostic
+        follow-up. However, because nested case-control biomarker
+        studies provide data on cancer diagnosis, they can be used
+        to estimate a more restricted FPR based on unnecessary
+        biopsies. Therefore the target FPR is based on the more
+        restricted definition of FPR in mammography. For
+        mammography the more restricted FPR is estimated by the
+        fraction of women screened by mammography who received a
+        biopsy in which no cancer was detected. As discussed in
+        Baker and Pinsky [ 10 ] , estimates of FPR from three
+        studies ranged from .005 to .013 with a middle value of
+        around .010.
         
-          Suppression of v-crk mediated transformation by
-          tyrosine phosphorylated Cas SD
-          As our tyrosine phosphorylated Cas SD chimera can
-          interact with v-crk, we decided to find out if the
-          chimera would affect cell growth and/or transformation in
-          normal cells and those transformed with v-crk. NIH3T3
-          cells or those transformed with v-crk were stably
-          transfected with the Cas SD chimera (Fig. 5). Several
-          independent clones were obtained for each set of
-          transfections suggesting that expression of the tyrosine
-          phosphorylated Cas SD domain did not negatively affect
-          cell growth (data not shown). Figure 5ademonstrates that
-          stable expression of the Src*/Cas(SD) chimera resulted in
-          constitutive tyrosine phosphorylation of this protein in
-          NIH3T3 cells. Analysis of the effect of this chimera in
-          non-transformed NIH3T3 cells indicates that these cells
-          were not transformed and had normal morphology, although
-          they grew slightly slower than vector-transfected cells
-          (data not shown). Analysis of the growth of either
-          non-transformed or v-crk transformed NIH3T3 cells in soft
-          agar confirmed that expression of tyrosine phosphorylated
-          Cas SD chimera did not transform NIH3T3 cells as no
-          colonies of these cells grew in soft agar (data not
-          shown). Instead, expression of tyrosine phosphorylated
-          Cas SD chimera resulted in significant reduction in the
-          number of v-crk/NIH3T3 soft agar colonies as well as
-          their size (Fig. 5b), suggesting that the Src*/Cas(SD)
-          chimera blocked the ability of v-crk to transform these
-          cells.
+          Inappropriateness of odds ratio and
+          relative risk 
         
+        When evaluating binary early detection markers, it is
+        inappropriate to report an odds ratio or relative risk, as
+        is common in epidemiology or clinical trials. Because an
+        odds ratio or relative risk is a single number, it does not
+        capture the tradeoff between correctly classifying cancer
+        and incorrectly classifying non-cancers. Also the odds
+        ratio or relative risk can lead to an overoptimistic
+        impression of the performance of an early detection test if
+        the interpretation is based on experience in epidemiology
+        or clinical trials. In the latter settings an odds ratio of
+        3 is often considered large. Much larger odds ratio are
+        needed from early detection tests for useful application in
+        the screening setting [ 13 ] . For example, for the target
+        values of FPR = .01 and TPR = .80, the odds ratio equals
+        (TPR × (1-FPR)/ ((1-TPR) × FPR) = 396, as in Table 1.
         
-          Tyrosine phosphorylated Cas SD blocks JNK
-          activation by v-crk
-          The JNK pathway is regulated by interaction of c- or
-          v-crk with Cas via the substrate domain [ 38 ] . In
-          determining which pathways are affected in our stable
-          cell lines generated, we determined if JNK was activated
-          in the v-crk transformed cells, and if the tyrosine
-          phosphorylated Cas chimera was affecting this activation.
-          JNK was immunoprecipitated and tested for activity from
-          control NIH3T3 cells, those expressing the Cas chimera
-          and those expressing the Cas chimera and v-crk (Fig. 6a).
-          We found that while JNK activity was elevated in v-crk
-          transformed NIH3T3 cells, expression of the tyrosine
-          phosphorylated Cas chimera resulted in reduced activity
-          of JNK (Fig. 6a, cf. lanes 1, 5 and 7). Interestingly,
-          JNK activity was also lower in the NIH3T3 cells
-          expressing the tyrosine phosphorylated Cas chimera than
-          the vector transfected cells, suggesting that this
-          chimera also affected JNK activity in those cells (Fig.
-          6a, cf. lanes 1 and 4). These data suggest that the
-          tyrosine phosphorylated Cas chimera perturbs signaling
-          via v-crk and probably via endogenous c-crk to affect the
-          activation of the JNK pathway.
-          We also verified that the tyrosine phosphorylated Cas
-          chimera could affect the ability of v-crk to activate the
-          JNK pathway in transient transfection experiments (Fig.
-          6b). Transfection of v-crk along with gst-JNK into Cos-7
-          cells resulted in activation of the co-transfected JNK
-          (Fig. 6b, cf. lanes 1 and 2). However, co-transfection of
-          v-crk and gst-JNK with the tyrosine phosphorylated Cas
-          chimera blocked the activation of JNK induced by v-crk
-          (Fig. 6b, cf. lanes 2 & 3), confirming that tyrosine
-          phosphorylated Cas SD can inhibit the ability of v-crk to
-          activate the JNK pathway. Transient expression of the
-          Src* increased JNK activity slightly while expression of
-          the Src KM/Cas(SD) fusion did not affect JNK activity
-          (data not shown).
-          To determine if the tyrosine-phosphorylated Cas SD
-          chimera affected other signaling pathways, we tested
-          whether the association between c-crk and C3G was
-          affected in NIH3T3 cells expressing the chimera (Fig.
-          7a). Immunoprecipitating endogenous c-crk and probing for
-          associated C3G demonstrated that C3G association with
-          c-crk was reduced in the presence of the tyrosine
-          phosphorylated chimera (Fig. 7a, cf. lanes 3, 4 & 5).
-          In addition, we determined if tyrosine phosphorylation of
-          endogenous FAK and endogenous Cas was affected by the
-          presence of the chimera. This was not the case. Figure
-          7bdemonstrates that there was no difference in tyrosine
-          phosphorylation or association with tyrosine
-          phosphorylated proteins of either FAK or endogenous Cas
-          upon stable expression of the tyrosine phosphorylated Cas
-          SD chimera.
+          Appropriate computation of predictive
+          values 
         
+        It is sometimes useful to use the FPR and TPR to compute
+        the predictive value negative (PVN), the probability of no
+        disease if the marker is negative, and the predictive value
+        positive (PVP), the probability of disease if the marker is
+        positive. For cancer screening, it is the PVP that is most
+        important to the physician in clinical decision-making.
+        Because the likelihood of any individual cancer type in an
+        asymptomatic person is nearly always very low, a negative
+        early detection test usually adds little information to the
+        clinical impression. The computation of the PVN and PVP
+        depend on the prevalence of cancer as well as on the FPR
+        and the TPR, as shown below,
+        PVP = (TPR × prevalence) / (TPR × prevalence + FPR
+        (1-prevalence))
+        PVN = (1-FPR) × (1-prevalence) / ((1-TPR) × prevalence +
+        (1-FPR) (1-prevalence))
+        When the prevalence is small, as with cancer screening,
+        a small absolute change in FPR, but not TPR, can have a
+        large impact on the PVP. It is erroneous to directly
+        compute the prevalence from data in the nested case-control
+        study, as in Table 1, because the ratio of cases to
+        controls in the study is not the same as in the population.
+        For example suppose FPR = .01, TPR = .80, and prevalence =
+        .003. We obtain,
+        PVP = = (.8 × .003) /(.8 × .003 + .01 .997)= .19
+        PVN = (.99 × .997) / (.2 × .003 + .99 × .997) = .999
+        If we had incorrectly substituted the apparent
+        prevalence in Table 1of 100/1100 = .091, we would have
+        incorrectly computed PVP = .89 and PVN = .980. For this
+        reason, calculation and reporting of PVP and PVN using only
+        data from a nested case-control study is not useful or
+        appropriate.
         
-          Tyrosine phosphorylated Cas SD acts as a decoy for
-          v-crk and endogenous c-crk
-          As the tyrosine phosphorylated Cas substrate domain
-          acts as a dominant negative for v-crk mediated
-          transformation and JNK activation, and can also interact
-          with v-crk and c-crk (data not shown), we wanted to
-          determine if it could compete for binding of v- and c-crk
-          to endogenous Cas. We transfected v-crk alone or along
-          with the chimera of the attenuated Src kinase domain
-          fused to the C-terminal crk interacting region of the Cas
-          substrate domain (Src*/Cas(3'SD), carrying the YDXP
-          motifs) into Cos-7 cells and immunoprecipitated either
-          the chimera or v-crk and assayed for interacting tyrosine
-          phosphorylated proteins (Fig. 8a). Our analysis showed
-          that expression of this chimera resulted in expression of
-          the highly tyrosine phosphorylated Cas 3'SD chimera (Fig.
-          8a, lanes 2 (whole cell lysates) or lane 3, anti-chimera
-          immunoprecipitate). Expression of v-crk alone resulted in
-          its co-immunoprecipitation with endogenous tyrosine
-          phosphorylated Cas (Fig. 8a, lane 4). By contrast,
-          co-expression of v-crk with the chimera resulted in
-          reduction in the association of v-crk with endogenous Cas
-          and in induced association of v-crk with the tyrosine
-          phosphorylated Cas 3'SD (Fig. 8a, lane 5). To determine
-          if the tyrosine phosphorylated chimera could compete with
-          endogenous Cas for binding to endogenous c-crk, we
-          transfected either the isolated attenuated Src kinase
-          domain as control, or the tyrosine phosphorylated Cas
-          substrate domain (Src*/Cas(SD)) into Cos-7 cells, and
-          immunoprecipitated endogenous c-crk (Fig. 8b).
-          Immunoprecipitation of endogenous c-crk showed
-          association with endogenous Cas (Fig. 8b, lane 1), while
-          co-expression of the tyrosine phosphorylated Cas
-          substrate domain resulted in reduced association of
-          endogenous c-crk with endogenous Cas and association with
-          the tyrosine phosphorylated chimera (Fig. 8b, lane 2).
-          These data suggest that the tyrosine phosphorylated
-          substrate domain of Cas acts as a decoy for binding to v-
-          and c-crk thereby interfering with signaling to JNK
-          activation and transformation.
+          Extension to ordered categories via ROC
+          curves 
         
+        Many markers for the early detection of cancer can be
+        reported as ordered categories. Some markers, such as
+        sputum cytology, inherently involve ordered categories,
+        such as no evidence of cancer, slight atypia, moderate
+        atypia, severe atypia, and frank cancer. Other markers,
+        such as PSA, involve a continuous measure for which higher
+        values indicate a greater probability of cancer. Dividing
+        these continuous measures into ranges (either based on
+        predetermined values or percentiles) gives ordered
+        categories.
+        With ordered categories, the statistics should still be
+        based on FPR and TPR. Each ordered category is a possible
+        cutpoint, where values equal to or higher than the cutpoint
+        are called positive and values lower than the cutpoint are
+        called negative. For each cutpoint, one can compute FPR and
+        TPR (Table 2) and generate a receiver-operating
+        characteristic (ROC) curve, which is a plot of TPR versus
+        FPR for the various pairs [ 14 ] . (See Figure 1). The
+        higher and farther left the points on the ROC curve the
+        better the test performance. As mentioned previously,
+        acceptable cancer screening requires very small false
+        positive rates. Therefore, for evaluating cancer
+        biomarkers, we are only interested in the leftmost sliver
+        of the ROC curve in Figure 1.
+        
+          2. To avoid overdiagnosis bias, cases
+          should be diagnosed as a result of symptoms rather than
+          on screening 
+        
+        For the TPR in the biomarker study to reflect the true
+        TPR, cases should be diagnosed as a result of symptoms
+        rather than on screening. For example in the study of PSA
+        in the ATBC trial [ 7 ] , cases were subjects diagnosed
+        with prostate cancer as a result of symptoms. If the
+        prostate cancer cases were detected as the result of
+        screening, say with ultrasound, the TPR could be
+        artificially elevated if there were overdiagnosis, as
+        previously discussed.
+        
+          3. To minimized selection bias, the
+          spectrum of control conditions should be the same in
+          study and target screening populations 
+        
+        For the FPR in the nested case-control study to reflect
+        the true FPR in the target population, the spectrum of
+        control conditions should be the same as in the target
+        population. By control conditions, we mean characteristics
+        of the population, such as the presence of other diseases
+        or certain known risk factors that could elevate the false
+        positive rate.
+        The spectrum of conditions could differ considerably if
+        the retrospective biomarker study were embedded in a
+        randomized trial with strict eligibility requirements. For
+        example, consider a biomarker for the early detection of
+        lung cancer where the data comes from a biorepository
+        arising from a randomized trial of healthy subjects. It
+        would be inappropriate to apply the results to a population
+        with a high prevalence of chronic obstructive lung disease,
+        bronchitis, or viral pnuemonitis because these conditions
+        could increase the number of positive readings in subjects
+        without lung cancer. Because FPR is very small for
+        screening to be acceptable, this spectrum bias could have
+        important consequences in a clinical application.
+        It would not always be possible to identify all relevant
+        control conditions, but to the extent possible, the control
+        conditions should be similar in both populations.
+        
+          4. To extract additional information,
+          criteria for a positive test should be based on
+          combinations of individual markers and changes in marker
+          levels over time 
+        
+        Data from multiple markers present an opportunity to
+        extract potentially valuable information not available by
+        analyzing markers separately. Consider the hypothetical
+        data in Table 3. The left side corresponds to subjects
+        without cancer, and the right corresponds to subjects with
+        cancer. In our idealized circumstance, markers A and B are
+        independent for subjects without cancer and are perfectly
+        correlated for subjects with cancer. The indicated region
+        for A = 2 or A = 3 and B = 2 or B = 3 designates a positive
+        test that has FPR = .04 and the TPR = .80. Suppose that
+        marker A and marker B were evaluated separately. The
+        indicated region corresponding to A only, namely A = 2 or A
+        = 3 and the indicated region corresponding to B only,
+        namely B = 2 and B = 3, each designates a positive test
+        that has FPR=. 20 and TPR=. 80. Thus, in this particular
+        example, the combination of markers leads to a much better
+        test than the separate markers, with a smaller FPR (.04
+        versus .20) for the same TPR of .80. One could create a
+        similar example with any number of marker levels. For an
+        ideal test in which FPR = 0 and TPR = 1, the region would
+        encompass all subjects with cancer but no subjects without
+        cancer.
+        A real application of how marker combinations provide
+        extra information comes from a recent study by Mok et al [
+        15 ] on CA125 and Prostasin as markers for ovarian cancer.
+        Although the data are not from a nested case-control study
+        and have not been validated in subsequent studies, they are
+        useful for illustration. Based on Figure 5 of Mok et al [
+        15 ] with approximate values for the outpoints, we
+        investigated regions with FPR=.02. The combination for a
+        positive test of CA 125 greater than or equal to 40 U/ml
+        and Prostasin greater than or equal to 5 μg/ml had FPR =
+        .02 and TPR = .92. Evaluating CA 125 alone, the criterion
+        for a positive test of CA 125 greater than 80 U/ml had
+        FPR=.02 and TPR =.78. Evaluating Prostasin alone, the
+        criterion for a positive test of Prostasin greater than 15
+        μg/ml had FPR=. 02 and TPR=. 32. Thus, in this real
+        example, the combination of markers led to a better test
+        than the separate markers, with a larger TPR (.92 versus
+        .78 or .32) for the same FPR of .02.
+        To more generally compare performance of a combination
+        of markers with a single marker, we need to compare ROC
+        curves. Creating an ROC curve from a combination of markers
+        is different from creating an ROC curve from a single
+        marker. With a combination of markers, the number of
+        possible regions, as in Table 3a, for calling a marker
+        positive is extremely large. Some choices of regions
+        correspond to AND rules, for example A>1 and B>1, as
+        in Table 3a. Some choices of regions correspond to OR
+        rules, for example A>2 or B>2. Other choices are also
+        possible, but for biological reasons, one would usually
+        require all regions to be contiguous. A plot of the FPR and
+        TPR for each region would lead to a cloud of points, rather
+        than the smooth curve in Figure 1. To create the best ROC
+        curve, one should select those points that are highest and
+        farthest to the left, which is generally all that would
+        need to be presented and only for small false positive
+        rates. For complicated situations, Baker [ 16 ] proposed an
+        algorithm to select the regions creating the best ROC curve
+        without the need to enumerate all the regions.
+        Mathematically, in any sample of data, the best ROC curve
+        for a combination of markers must be as good or better than
+        the ROC curve for any of the markers evaluated separately.
+        The reason is that the set of possible regions for calling
+        a combination of markers positive includes as a special
+        case the regions for calling any single marker
+        positive.
+        Alternative approaches that do not directly optimize the
+        ROC curve include linear logistic regression or linear
+        discriminant analysis [ 17 ] , which choose regions based
+        on linear combinations of the markers, and neural networks
+        [ 18 ] , which choose regions in a very complicated
+        nonlinear manner. Due to the potential for overfitting (to
+        follow), it is not possible to make a blanket statement as
+        to which approach for choosing regions is best. If one
+        takes the set of regions for calling a combination positive
+        that gives a good ROC curve in a random sample of data, it
+        may give a poor ROC curve in another random sample of the
+        data, simply due to selecting chance patterns in the first
+        sample. As discussed in the section on overfitting, this
+        motivates splitting the data into two random samples,
+        training and test, and using the regions from the training
+        sample to compute the definitive ROC curve based on data in
+        the test sample.
+        Changes in marker values over time also provide
+        potentially valuable information not available when
+        examining markers at a single time point. With marker
+        measurements at two different times per subject (and
+        approximately the same interval between times), a common
+        summary measure is the slope. If investigators believe that
+        both slope and baseline level predict cancer, the
+        combination can be evaluated using the previously discussed
+        methods for evaluating multiple markers, namely, treating
+        baseline level and slope as two "separate" markers. With
+        measurements at more than two times per subject,
+        investigators may identify a more complicated feature, such
+        as whether or not there is a sudden increase in marker
+        levels [ 19 ] .
+        When biomarker measurements occur at regular time
+        intervals (and allowing different numbers of measurements
+        for each subject), one can estimate TPR and FPR by using a
+        first order Markov chain in reverse time, as described by
+        Baker and Tockman [ 20 ] for the analysis of precancerous
+        lesions for lung cancer.
+        
+          5. To avoid overfitting, the criteria for
+          a positive marker combination developed in a training
+          sample should be evaluated in a random test sample from
+          the same study and, if possible, a validation sample from
+          another study. 
+        
+        With a single marker and a large number of subjects,
+        there is usually no concern with overfitting. However with
+        many combinations of markers, overfitting could invalidate
+        results. Overfitting is often associated with step-wise
+        regression models [ 21 ] but it can occur in other
+        situations as well. Overfitting of a larger number of
+        markers to a relatively small number of subjects produces a
+        model that is overly sensitive to chance fluctuations in
+        the data. As a simple example, overfitting occurs when a
+        sports announcer reports that a baseball player had a very
+        high batting average against left-handed pitchers in
+        ballpark X over the past month. This average is not very
+        reliable for future predictions because the particular set
+        of factors, left-handed pitchers and ballpark X, were
+        selected to give a high average. In reality the high
+        average is more likely the result of chance factors that
+        coincided with left handed pitchers at ballpark X during
+        that particular month. One way to adjust for overfitting is
+        to apply the factors in another sample not used for initial
+        reporting. The first sample is known as the training
+        sample, and the second sample is known as the test sample.
+        For example, the prediction of the average against left
+        handed pitchers in the ballpark X could be tested on data
+        from a different month. Similarly, a standard statistical
+        approach to adjust for overfitting is to randomly split the
+        data into a training and test samples. This is called the
+        split-sample approach. Promising marker combinations are
+        identified in the training sample, but more reliable FPR
+        and TPR measurements are made in the test sample because it
+        involves different data. Baker [ 16 ] used the split-sample
+        approach to evaluate the performance of four markers for
+        prostate cancer.
+        More sophisticated adjustments for overfitting include
+        cross-validation and bootstrapping. Suppose the interest
+        lies in a single statistic, such as the area under the part
+        of the ROC curve corresponding to a small FPR. In a typical
+        cross-validation analysis (i) the data are randomly split
+        into ten samples each with 10% of the data, (ii) one of the
+        10% samples is deleted, (iii) the statistic is computed by
+        applying the classification rule recalculated from the
+        remaining 90% of the sample to the deleted 10% sample and
+        (iv) an average is taken of the statistic over all ten 10%
+        samples [ 22 ] . Although one could use a different
+        fraction than 10%, ROC computation it is not possible with
+        the most extreme version of cross-validation that involves
+        leaving out one subject at a time. With bootstrapping, (i)
+        the entire data set is resampled with replacement many
+        times, (ii) on each resampling the statistics is computed,
+        and (iii) the statistics from each resampling are combined
+        in a special way [ 22 ] . In a recent study comparing these
+        adjustments with other types of statistics in a different
+        setting, Steyerberg et al [ 22 ] found that the
+        split-sample approach tended to underestimate performance,
+        cross-validation performed poorly on some statistics that
+        were not normally distributed, and bootstrapping performed
+        best overall. For our purposes of estimating an entire ROC
+        curve rather than a summary statistic, more research is
+        needed for cross-validation and bootstrapping, as it is not
+        clear how best to combine ROC curves over different
+        samples.
+        Regardless of the method used to adjust for overfitting
+        in forming a classification rule, to obtain the most
+        reliable FPR and TPR measurements, the classification rule
+        should ideally be evaluated in a 
+        validation sample from a 
+        different study, as in Baker [ 16 ]
+        .
+        
+          6. To identify biomarkers with true and
+          false positive rates similar to mammography, the
+          training, test, and validation samples should each
+          include at least 110 randomly selected subjects without
+          cancer and 70 subjects with cancer (as based on FPR and
+          TPR for mammography) 
+        
+        The sample size is based on the need to determine if the
+        biomarker is sufficiently promising for investigation as a
+        trigger for early intervention in a future trial. As
+        discussed previously, based on considerations from
+        mammography, our target values are FPR = .01 and TPR= .80.
+        In most situations, we think it would be of interest to
+        specify a 95% confidence interval for TPR of (.70, .90).
+        Using a normal approximation the target standard error is
+        approximately .05. Setting the standard error of TPR, TPR ×
+        (1-TPR) / (square root of n), equal to .05 and solving for
+        the sample size n, we obtain n= 64, which we round up to
+        70. In addition we think that in most situations the
+        largest reasonable value of FPR would be .03 which is 3
+        times the number of false positives as with mammography
+        screening. Because FPR is so small, we do not use a normal
+        approximation. We specify a sample size of n = 110, so that
+        under the binomial distribution with FPR=.01, the upper
+        2.5% bound equals .03 × 110. Strictly, these sample sizes
+        apply only after a single criterion for a positive test has
+        been identified. For a training sample, one might consider
+        larger sample sizes.
       
       
-        Discussion
-        Adaptor proteins that regulate tyrosine kinase signaling
-        pathways fall into two major categories, those primarily
-        with protein/protein interaction domains such as SH2, SH3,
-        PTB, and PH domains, exemplified by the adaptor proteins
-        c-crk, nck and grb-2, and those that are primarily tyrosine
-        phosphorylated, exemplified by proteins such as Cas, Dok,
-        IRS-1 and 2, Slp-76, LAT, TRIM or SIT. The latter class may
-        also have protein/protein interaction domains. The former
-        class of adaptor proteins form complexes with downstream
-        effectors in a constitutive fashion via their SH3 domains.
-        Signals are initiated by tyrosine phosphorylation of
-        upstream effectors that recruit these adaptors to assemble
-        larger protein complexes by bringing downstream effectors
-        to the distinct cellular compartments for activation. Thus
-        c-crk interacts constitutively with downstream effectors
-        such as C3G via its SH3 domains, and interacts in a
-        phosphotyrosine dependent fashion with tyrosine
-        phosphorylated receptors using its SH2 domain [ 39 ] . To
-        analyze downstream signals regulated by these adaptor
-        proteins, investigators have developed methods that target
-        them to distinct cellular membrane compartments by using
-        heterologous targeting sequences. This leads to the
-        generation of constitutive signals by the adaptor proteins
-        in the absence of other upstream signals [ 40 ] .
-        The second class of phosphotyrosine dependent adaptors
-        exemplified by proteins such as Cas, Dok, IRS-1 and 2 or
-        Slp-76, as cytosolic adaptors, or LAT, TRIM or SIT as
-        membrane anchored adaptors, also require the activation of
-        upstream signals by tyrosine kinases for their function.
-        This second class of adaptor proteins is characterized by a
-        substrate domain with multiple tyrosines for
-        phosphorylation by upstream kinases. Phosphorylation of
-        these sites leads to recruitment of other proteins,
-        including the first class of adaptor proteins with SH2 or
-        PTB domains, and subsequent signal transmission (see [ 41 ]
-        for review). Analysis of the specific signals emanating
-        from the second class of adaptor proteins has been
-        difficult due to their dependence on upstream kinases for
-        tyrosine phosphorylation of the substrate domains for
-        subsequent assembly of downstream effectors. While these
-        upstream kinases lead to tyrosine phosphorylation of the
-        adaptor and activation of downstream effectors, they
-        usually also activate other signaling pathways that can
-        confound analysis of the specific role of the tyrosine
-        phosphorylated adaptor protein.
-        We describe a novel chimeric molecule approach that
-        allows the analysis of signaling events regulated by
-        adaptor proteins that require tyrosine phosphorylation by
-        upstream signals for which we used the Cas protein as a
-        model. The adaptor protein Cas has several domains that are
-        important for its function, an SH3 domain, a central
-        substrate domain with up to 15 tyrosines that can serve as
-        tyrosine kinase substrates for upstream kinases such as Src
-        and Abl [ 19 42 43 ] , and a C-terminal Src binding domain
-        with PXXP motifs for binding to the SH3 domain of Src, and
-        two tyrosines providing docking sites for the Src SH2
-        domain upon phosphorylation [ 6 ] . The substrate domain of
-        Cas has two major types of tyrosine motifs that can be
-        phosphorylated and bind downstream effectors, YQXP (4
-        copies) and YDXP motifs (9 copies), suggesting that at
-        least two classes of downstream effectors, one capable of
-        binding to YDXP motifs and the other capable of binding to
-        YQXP motifs, are assembled by this adaptor protein.
-        Tyrosine phosphorylation of the substrate domain leads to
-        the recruitment of other downstream adaptors such as crk
-        and nck, as well as other downstream effectors possessing
-        SH2 domains, and signaling events attributed to this domain
-        include activation of the JNK MAPK pathway and control of
-        adhesion and migration of cells [ 6 10 16 38 44 ] . We
-        constructed a chimera between a kinase that phosphorylates
-        Cas 
-        in vivo and the substrate domain of
-        Cas, in order to determine events regulated by this domain.
-        We constructed chimeras by placing the Cas SD at either the
-        N-terminus or C-terminus of the Src kinase domain. However,
-        we found that placing the Cas SD at the N-terminus of the
-        Src kinase domain was inferior to placing it at the
-        C-terminus with regards to tyrosine phosphorylation of the
-        Cas SD. Subsequently, in all our experiments reported, we
-        used chimeras of the Cas SD fused to the C-terminus of the
-        Src kinase domains. Rather than the WT kinase domain of
-        Src, we used an attenuated Src kinase domain (Y416F) as the
-        fusion partner for our chimera to avoid phosphorylation and
-        activation of other Src substrates that would occur with a
-        WT kinase domain (data not shown, [ 35 ] ). The attenuated
-        Src kinase domain has reduced kinase activity and does not
-        phosphorylate exogenous substrates [ 35 ] . We also used a
-        kinase inactive Src kinase domain as a control fusion
-        protein. The chimera of the Cas SD domain fused to the
-        attenuated Src kinase domain was highly tyrosine
-        phosphorylated in cells, and could bind known Cas binding
-        proteins in cells. In contrast, the chimera containing the
-        kinase inactive domain was not stably phosphorylated in
-        cells. These findings indicated that this approach would be
-        useful in analyzing the events that occur following
-        tyrosine phosphorylation of the Cas SD in the absence of
-        upstream signals that may activate other signaling
-        pathways. Our initial experiments were designed to
-        determine whether tyrosine phosphorylation of the SD of Cas
-        would lead to the assembly of protein complexes and
-        activation of downstream effectors.
-        Using different regions of the Cas SD containing either
-        the YDXP or the YQXP motifs, we could demonstrate that
-        v-crk specifically interacts with the C-terminal YDXP
-        motifs when tyrosine phosphorylated. Moreover, in the
-        absence of stable tyrosine phosphorylation as seen in the
-        Src kinase inactive fusions, v-crk could either induce
-        their phosphorylation, or protect transiently
-        phosphorylated YDXP motifs from dephosphorylation through
-        yet unknown mechanisms. Thus while both sets of motifs in
-        the Cas SD have been thought to interact with the v-crk SH2
-        domain, we demonstrated that this domain only interacts
-        with the YDXP motifs. Since crk is the major protein
-        reported to bind to the Cas SD, our data suggest that the
-        YQXP motifs may interact with other yet to be identified
-        downstream effectors.
-        We also found that while downstream effectors assemble
-        onto the tyrosine phosphorylated Cas SD domain, the
-        downstream signals were not activated. In particular, we
-        found that the tyrosine phosphorylated Cas SD domain
-        blocked v-crk mediated activation of the JNK pathway. In
-        addition, we found that expression of the tyrosine
-        phosphorylated Cas SD domain in v-crk transformed cells
-        reduced their ability to grow in soft agar, a measure of
-        their transformation. Furthermore, we found that the
-        tyrosine phosphorylated Cas SD competed effectively with
-        the endogenous Cas for binding to v-crk and endogenous
-        c-crk, while not affecting tyrosine phosphorylation of
-        proposed upstream proteins such as Fak and endogenous Cas.
-        Thus, our data suggest that the tyrosine phosphorylated Cas
-        SD acts as a decoy for endogenous Cas binding proteins and
-        blocks signaling via crk to the activation of JNK, as well
-        as transformation of cells by the oncogene v-crk. The
-        ability of the tyrosine phosphorylated Cas SD to act as a
-        decoy suggests that while tyrosine phosphorylation of the
-        substrate domain of Cas may be important for its function
-        in assembling downstream signals, specific localization of
-        Cas may also be critical for its downstream functions.
-        Indeed, phosphorylated endogenous Cas is localized to FAK
-        and the focal adhesions via its SH3 domain and/or its Src
-        binding domain in its distal C-terminus, both were excluded
-        from our chimera, suggesting that proper localization of
-        the tyrosine phosphorylated substrate domain may be
-        required for Cas activity [ 30 45 ] .
+        Conclusion
+        A major advantage of nested case-control studies for
+        early detection biomarkers is that they can be done quickly
+        if serum from a long-term study has been stored in a
+        biorepository. Importantly the retrospective aspect does
+        not compromise the validity. There are none of the usual
+        problems with retrospective studies such as recall bias.
+        Thus we anticipate that in the coming years, there will be
+        many reports in literature from studies of this design.
+        These guidelines should greatly help investigators
+        design and analyze nested case-control studies for early
+        detection biomarkers and help readers of the literature to
+        interpret them. It bears emphasis that these studies do not
+        prove clinical efficacy of the markers. Rather, they
+        suggest which markers or marker combinations are the most
+        promising candidates for further study as a trigger for
+        early intervention in definitive trials with
+        cancer-mortality endpoints.
       
       
-        Conclusions
-        A number of proteins have been identified that bind to
-        the substrate domain of Cas, however the large number of
-        tyrosines and potential binding sites for downstream
-        effectors suggest that there may be more. We propose that
-        our chimeric approach can be used to identify Cas binding
-        proteins in mammalian cells in the absence of specific
-        upstream signals normally required for tyrosine
-        phosphorylation of the Cas substrate domain. We can also
-        use this approach to ask which tyrosines within the SD of
-        Cas can act as decoys for specific downstream signals
-        attributed to the SD of Cas. Other uses for such a chimera
-        include screening approaches such as the yeast two-hybrid
-        screen to select proteins that interact with the tyrosine
-        phosphorylated Cas SD. Finally, we can theoretically target
-        this tyrosine phosphorylated chimera to specific areas of
-        the cell to determine which cellular localization will
-        recover the activation of downstream Cas functions. This
-        chimeric approach can also be extended to other adaptor
-        proteins that require upstream signals for tyrosine
-        phosphorylation, creating tyrosine phosphorylated decoys or
-        targeting tyrosine phosphorylated substrate domains or full
-        length adaptor proteins in transgenic cellular and animal
-        systems. We also propose that similar approaches could be
-        used for analyzing proteins that are phosphorylated on
-        serine or threonine and assemble complexes, such as 14-3-3,
-        for analysis of their downstream signals or identification
-        of binding proteins.
-      
-      
-        Materials and Methods
-        
-          Materials
-          Antibodies against the following proteins were
-          obtained from the following suppliers or individuals:
-          ant-phosphotyrosine, RC20-HRP (Transduction Laboratories,
-          Lexington, KY); anti-HA (Boehringer Mannheim,
-          Indianapolis, IN); anti-gag (Dr. R. Birge, New Jersey
-          Medical School, Newark, NJ); anti-JNK (NEB, Beverley,
-          MA); anti-c-crk (Santa Cruz Biotechnology, Santa Cruz,
-          CA); anti-C3G (Dr. Beatrice Knudsen, Weill Medical
-          College of Cornell University, NY, NY); anti-FAK and
-          anti-Cas (Transduction Laboratories, Lexington, KY).
-        
-        
-          Cloning and chimera construction
-          The kinase domains of the c-Src Y416F mutant (kind
-          gift of Dr. Joan Brugge, Harvard Medical School, Boston,
-          MA) or the kinase inactive c-Src (K295M, [ 46 ] ), were
-          amplified by PCR and cloned in pJ3H and pJ3M, two vectors
-          for HA- and Myc-tagging at the N-terminus of the protein
-          (kind gifts from Dr. J. Chernoff, Fox Chase Cancer
-          Center, Philadelphia, PA, [ 47 ] ). The pEBG-JNK was a
-          kind gift of Dr. Bruce Mayer (Harvard Medical School,
-          Boston, MA). The substrate domain of Cas (Fig. 1, a.a. L
-          157to R 516) was amplified by PCR and fused in frame to
-          the C-terminus of the attenuated SrcY416F kinase domain
-          (Src*), or to the C-terminus of the inactive SrcK295M
-          kinase domain (Src KM). Subfragments of the Cas substrate
-          domain were generated in the same fashion, with the
-          N-terminal subdomain (a.a. L 157to A 324, 1 YKVP motif
-          and 4 YQXP motifs) and the C-terminal subdomain (a.a. S
-          325to R 516, 9 YDXP motifs) of Cas amplified. Experiments
-          used the chimeras expressed either via the pJ3H vector,
-          or the HA-tagged chimera subcloned into the expression
-          vector pMEXneo [ 48 ] . The oncogene v-crk and its
-          mutants cloned into pMEXneo have been described [ 49 50 ]
-          .
-        
-        
-          Cell culture and transfection and soft agar
-          assays
-          Cos-7 and NIH3T3 cells were grown in DMEM containing
-          10% FCS and antibiotics at 37°C with 5% CO 
-          2 . Cos-7 cells were transfected by
-          calcium phosphate method, while the NIH3T3 cells were
-          transfected using Lipofectin (Gibco, BRL). Growth of
-          cells in soft agar was performed as described [ 51 ]
-          .
-        
-        
-          Cell Lysis, Immunoprecipitation and Kinase
-          Assays
-          Cell lysis, Immunoprecipitation, SDS-PAGE, and Western
-          blotting were performed exactly as described [ 48 ] .
-          Tyrosine phosphorylation of chimeras and other substrates
-          were determined following immunoprecipitation using the
-          indicated antibodies and probing with RC20-HRP
-          anti-phosphotyrosine antibodies. Expression of the
-          chimeras was determined with anti-HA antibodies. Western
-          blots were developed using ECL+ (Amersham Pharmacia).
-        
-      
-      
-        Author's contributions
-        AA carried out the construction of the Src/Cas chimeras,
-        and characterized the chimeras with the help of MK. AA also
-        performed JNK assays in transient transfections, analyzed
-        the association of the chimeras with crk and drafted the
-        manuscript. KHK generated stable cell lines carrying the
-        chimeras, and characterized these lines in soft agar
-        transformation assays, activation of JNK, tyrosine
-        phosphorylation of FAK, endogenous Cas and association of
-        C3G with endogenous crk. AA conceived of the study and HH
-        provided intellectual input. The manuscript was written
-        with the input of all the authors and all authors read and
-        approved the final version of the manuscript.
+        Competing interests
+        None declared
       
     
   

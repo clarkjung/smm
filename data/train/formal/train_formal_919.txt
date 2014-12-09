@@ -2,429 +2,178 @@
   
     
       
-        Background
-        Thiamine is a water-soluble, B-complex vitamin that
-        cannot be synthesized by mammals, and thus thiamine can be
-        obtained only from dietary intake. This can lead to severe
-        consequences in humans when thiamine is limiting; thiamine
-        deficiency may result in beriberi and the Wernike-Korsakoff
-        syndrome [ 1 2 ] . Being positively charged and present in
-        relatively low plasma concentrations, thiamine movement
-        across cellular membranes requires transporters. Upon being
-        taken up by a cell, thiamine is rapidly diphosphorylated by
-        thiamine diphosphokinase to give thiamine diphosphate
-        (ThDP) [ 3 ] . Thus, thiamine represents only a few percent
-        of the total cellular thiamine/thiamine phosphate
-        derivatives. ThDP serves as a cofactor for several enzymes
-        that are found both in the cytosol (transketolase) and
-        mitochondria (α-ketoglutarate dehydrogenase complex being
-        the most studied example). The intracellular concentration
-        of ThDP has been estimated at 30 μM, with only about 7
-        percent being free cytosolic and the remainder being
-        enzyme-bound with much of this within mitochondria [ 4 5 ]
-        . Previous findings indicate a complex, cell-type dependent
-        regulation of compartmentalization and intracellular pools
-        of thiamine and its phosphorylated derivatives in response
-        to fluctuating extracellular thiamine levels [ 4 5 6 ] .
-        Hence, thiamine transport, including that by mitochondria,
-        is of interest.
-        Thiamine entry into mammalian cells occurs by a
-        saturable, high affinity transporter that is deficient in
-        humans with thiamine-responsive megaloblastic anemia (TRMA)
-        [ 7 8 9 10 11 12 ] . Thiamine uptake by mitochondria has
-        been demonstrated [ 13 ] , yet thiamine diphosphokinase is
-        cytosolic and mitochondria cannot convert thiamine to ThDP
-        [ 14 15 16 ] . Barile and coworkers demonstrated saturable
-        uptake of ThDP by rat liver mitochondria characterized by a
-        K 
-        m of around 20 μM. Although the
-        estimated concentration, in mice and human cells, of
-        intracellular ThDP is about 30 μM, much of this is found in
-        a low turnover pool representing enzyme-bound ThDP [ 4 17 ]
-        . The estimated concentration of free cytosolic ThDP
-        available for intracellular transport is about 10% of the
-        total concentration and thus 2 to 3 μM [ 4 17 18 ] . Hence
-        the physiological significance of the mitochondrial ThDP
-        uptake just decribed is uncertain. Within mitochondria,
-        ThDP can be converted to thiamine monophosphate [ 19 ] .
-        Thiamine or ThDP entry into mitochondria from TRMA cells
-        has not been studied. Interestingly, ThDP-utilizing enzymes
-        in mitochondria are much less affected (as revealed by loss
-        of activity) upon progressive depletion of thiamine
-        available to TRMA cells than are ThDP-utilizing enzymes of
-        the cytosol [ 6 ] . For these reasons, we have examined the
-        uptake of thiamine and especially ThDP by mitochondria from
-        several human cell types, including cells from TRMA
-        patients.
+        
+        There has been a recent and dramatic rise in global funding for HIV/AIDS, from US$2.1
+        billion in 2001 to US$6.1 billion in 2004 [1], thanks to several new funding mechanisms
+        (Box 1). These funds, coupled with reduced drug costs, make it feasible to roll out
+        antiretroviral therapy (ART) even in resource-poor settings. Nevertheless, the total number
+        of people living with HIV rose in 2004 to reach its highest level ever: an estimated 39.4
+        million people are living with the virus, including 4.9 million who acquired it in 2004
+        [1]. Therefore, the debate over the appropriate distribution of money between prevention
+        efforts (such as voluntary counseling and testing [VCT], or behavior change) and treatment
+        efforts (the provision of ART) is now more topical than ever.
       
       
-        Results
-        
-          Uptake of thiamine by cells and mitochondria
-          Although our interests primarily were in mitochondrial
-          uptake of thiamine and its derivatives, we first examined
-          cellular uptake of thiamine by the lymphoblast cell lines
-          and found thiamine uptake properties typical of other
-          mammalian cells. Figure 1aindicates thiamine uptake by
-          normal lymphoblasts and lymphoblasts derived from a TRMA
-          patient. The high affinity transport of thiamine by
-          normal lymphoblasts is abolished in the presence of a 100
-          fold excess of unlabeled thiamine. Under such conditions,
-          some uptake continues from a low affinity (K 
-          m in the mM range) transport mechanism
-          [ 3 ] and/or from diffusion [ 20 ] that characterizes
-          thiamine uptake in all mammalian cells examined to date.
-          Using an expanded range of thiamine concentrations from
-          that shown in fig. 1in multiple experiments resulted in a
-          K 
-          m of 1.0 ± 0.9 μM for the high
-          affinity transport by normal lymphoblasts. As expected,
-          lymphoblasts derived from the TRMA patient showed no high
-          affinity thiamine transport as revealed by thiamine
-          uptake being the same in the absence and presence of
-          excess unlabelled thiamine.
-          Mitochondria isolated from normal lymphoblasts also
-          were found to take up thiamine (fig. 1b) in a manner
-          similar to that of cellular uptake, with both a high and
-          low affinity component. Using an expanded range of
-          thiamine concentrations in multiple experiments resulted
-          in a K 
-          m of 2.1 ± 0.4 μM for high affinity
-          thiamine uptake by normal lymphoblast mitochondria.
-          Interestingly, mitochondria from TRMA lymphoblasts did
-          not possess a "high affinity" thiamine transport capacity
-          as did mitochondria form normal lymphoblasts. No
-          difference in uptake of thiamine by TRMA mitochondria was
-          found in the presence and absence of excess unlabelled
-          thiamine (fig. 1b).
-          This finding suggests that cellular and mitochondrial
-          uptake of thiamine may be mediated by the same
-          transporter since TRMA is defined by mutation within the
-          thiamine transporter located on the plasma membrane [ 7 8
-          9 10 11 12 ] . Using antiserum specific for the human
-          thiamine transporter that is mutated in TRMA individuals,
-          western analysis consistently resulted in a faint but
-          detectable band within the isolated mitochondrial
-          suspension (fig. 1c), even after extensive and multiple
-          washing.
-        
-        
-          Uptake of ThDP by mitochondria
-          Although mitochondria from lymphoblasts (above) and
-          other mammalian cells [ 13 ] were found to take up
-          thiamine, the physiological significance of the uptake is
-          unknown given that thiamine diphosphokinase is cytosolic
-          and mitochondria cannot convert thiamine to ThDP [ 14 16
-          21 ] . We thus were interested in uptake of ThDP by
-          mitochondria, a possibility demonstrated previously with
-          rat liver [ 14 ] . Mitochondria from normal human
-          lymphoblasts were able to take up ThDP in a saturable,
-          biphasic manner (fig. 2) with a first saturation in the
-          submicromolar range (described below) and a second at
-          much higher concentrations of ThDP. Time course
-          experiments indicated ThDP uptake was linear for at least
-          20 minutes (data not shown), and uptake was linear with
-          the amount of mitochondrial protein added (inset of fig.
-          2).
-          Although the biphasic nature of the uptake is readily
-          seen in various plots of the data, the existence of the
-          high affinity component perhaps is best illustrated in
-          fig. 3in which the uptake at submicromolar concentrations
-          of ThDP is illustrated (open squares). Uptake of ThDP was
-          repeated in the presence of 30 μM non-radioactive ThDP, a
-          concentration that is 100 to about 40 fold excess over
-          the concentration of radioactive ThDP that was used.
-          Given the K 
-          m values for the high and low affinity
-          components (see below), this excess should abolish most
-          of the high affinity uptake but have little to no effect
-          on the low affinity uptake. The uptake due solely to the
-          low affinity component was calculated using the kinetic
-          parameters determined for this component and was plotted
-          as open triangles. As seen in fig. 3, uptake in the
-          presence of 30 μM non-radioactive ThDP (open circles) was
-          essentially identical to that calculated for the low
-          affinity component and abolition of the high affinity
-          uptake indeed was observed.
-          Using the data from 4 independent experiments resulted
-          in the determination of a K 
-          m of 0.38 μM for the high affinity
-          (table 1) and 115 μM for the low affinity uptake
-          components. The high affinity K 
-          m value compares favorably with the
-          estimated 2 to 3 μM intracellular concentration of free
-          ThDP.
-          Mitochondria isolated from TRMA lymphoblasts took up
-          ThDP in an essentially identical saturable, biphasic
-          fashion as uptake by normal mitochondria (fig. 4). The
-          inset compares the Lineweaver-Burk plot of the high
-          affinity uptake component for mitochondria of both cell
-          types. A high affinity K 
-          m of 0.60 (table 1) was calculated for
-          mitochondrial uptake of ThDP for TRMA lymphoblasts, a
-          value that is essentially the same as that for
-          mitochondria isolated from normal lymphoblasts. The
-          results indicate that although mitochondria from TRMA
-          lymphoblasts cannot take up thiamine with high affinity,
-          they can efficiently import ThDP, the active form of
-          thiamine.
-          Previous work has indicated that different cell types
-          may differentially regulate intracellular pools of
-          thiamine and/or its phosphorylated derivatives [ 6 ] .
-          Thus, we examined ThDP uptake by several other cell
-          types. As shown in table 1, high affinity uptake of ThDP
-          by mitochondria from fibroblasts and neuroblastoma cells
-          was essentially the same as that for normal and TRMA
-          lymphoblasts as revealed by the similar K 
-          m values. The apparent affinity for
-          ThDP characteristic of the high affinity uptake component
-          was essentially identical for all cell types examined,
-          however variation was seen in transport capacity, as
-          revealed by substantially different values for V 
-          max (table 1). Mitochondria from all
-          of the cell types examined also possessed the low
-          affinity uptake characterized by K 
-          m 's similar to that of normal
-          lymphoblasts but with a greater range of values being
-          found (20 to 115 μM).
-          The final entry in table 1is for ThDP uptake by
-          mitochondria isolated from 
-          glyB cells. 
-          GlyB cells are a Chinese hamster
-          ovary cell line that is deficient in the transport of
-          folate into mitochondria. For reasons discussed below,
-          ThDP uptake was examined in these cells. As seen in table
-          1, high affinity uptake was found with kinetic constants
-          similar to those of the human cell types. The low
-          affinity uptake component was also similar to that by
-          human mitochondria (data not shown).
-        
+        Balancing Prevention and Treatment
+        The scale of the proposed increase in the number of patients receiving ART raises
+        numerous questions about the treatment itself. Which drugs will be used? How much will it
+        cost? How will their quality be monitored and assured? How will they be distributed? Who
+        will be eligible? How will the desired level of treatment be sustained? Is there adequate
+        infrastructure and human resources to support the expanded services?
+        The commitment of substantial funding to treatment in resource-poor countries also has
+        implications for the prevention efforts in those same countries. In many Western countries
+        and Brazil (the sources of the majority of the available data on the subject), the
+        impressive drop in mortality due to HIV following increased access to ART is coupled with a
+        disheartening rise in the number of new cases of HIV, as emphasis and funding are shifted
+        from prevention to treatment [2]. Countries in which this pattern has been seen are
+        evidence of the pitfalls of failing to adapt prevention efforts once life-extending
+        treatment becomes widely available.
+        Of course, prevention and treatment are not mutually exclusive. Successful prevention
+        efforts mean fewer patients will need the costly drug treatment programs, helping extend
+        the sustainability of ART. In turn, the success of ART in prolonging healthy living helps
+        prevention efforts by reducing the stigma associated with self-education and responsible
+        behaviors.
       
       
-        Discussion + Conclusion
-        As has been reported for mitochondria of rat liver [ 13
-        ] , mitochondria from human lymphoblasts were found herein
-        to take up thiamine in a saturable manner characterized by
-        a K 
-        m of 2.1 μM. Upon entry into a cell,
-        thiamine is rapidly diphosphorylated to ThDP, resulting in
-        a low intracellular thiamine concentration [ 4 17 ] . The K
-        
-        m determined here is about an order of
-        magnitude greater than the estimated intracellular thiamine
-        concentration [ 4 ] , raising questions about the
-        efficiency of such uptake.
-        Surprisingly, mitochondria derived from TRMA
-        lymphoblasts lacked the high affinity uptake of thiamine.
-        TRMA is caused by mutations which destroy the high affinity
-        thiamine transporter of the plasma membrane [ 7 8 9 10 11
-        12 ] . The similar K 
-        m values found for cellular and
-        mitochondrial uptake of thiamine for normal lymphoblasts
-        and the lack of such uptake by TRMA mitochondria and TRMA
-        cells suggests that high affinity thiamine import into
-        mitochondria may be carried out by the same transporter or
-        a variant form, perhaps generated by differential splicing,
-        of that serving on the plasma membrane. Although western
-        analysis using anti-human transporter (that is mutated in
-        TRMA individuals) antiserum supports this interpretation,
-        further experiments need to be carried out to substantiate
-        the suggestion of a shared thiamine transporter between
-        these two membrane systems. Even if true, the physiological
-        significance of thiamine uptake by mitochondria is unknown
-        since mitochondria cannot form ThDP from thiamine [ 14 15
-        16 ] .
-        We find that mitochondria from a variety of human cell
-        types efficiently take up ThDP. Uptake is biphasic with a
-        high and a low affinity component. The K 
-        m values characteristics of the high
-        affinity uptake component (all around 0.4 μM) are
-        comparable to the estimated intracellular concentration of
-        free (non-enzyme bound) cytosolic ThDP of around 3 μM [ 4 ]
-        . This suggests that the high affinity uptake system is the
-        physiologically relevant mechanism responsible for ThDP
-        entry into mitochondria. Earlier work with rat liver
-        mitochondria identified a ThDP uptake system with an
-        estimated K 
-        m of around 20 μM [ 14 ] . This is of
-        the same order of magnitude that we find for the low
-        affinity component in the human cells examined herein. The
-        previous work used a less sensitive procedure of examining
-        ThDP uptake and did not examine uptake below 10 μM. This
-        would explain the lack of identification in the previous
-        work of the high affinity uptake component.
-        There is a high degree of amino acid similarity among
-        folate transporters and the thiamine transporter of the
-        plasma membrane [ 7 8 9 10 ] . Recently, it was found that
-        in murine cells there can be a substantial efflux of ThDP
-        mediated by the reduced folate carrier protein [ 22 ] . 
-        GlyB cells are a Chinese hamster
-        ovary cell line derivative that are deficient in the
-        transport of folates into mitochondria, and the responsible
-        mitochondrial transporter has recently been identified and
-        its gene cloned [ 23 ] . We wondered if the mitochondrial
-        folate transporter was responsible for uptake of ThDP into
-        mitochondria, making analogies to the ability of the plasma
-        membrane folate transporter being able to transport ThDP.
-        However, this is not the case as 
-        glyB cells that lack the
-        mitochondrial folate transporter were found to take up ThDP
-        with high affinity kinetics similar to that of mitochondria
-        of human cells.
-        Mitochondria from three human cell types - lymphoblasts,
-        fibroblasts, and neruoblastoma cells - all possessed a high
-        affinity ThDP uptake component characterized by equivalent
-        apparent affinity for ThDP as revealed by essentially
-        identical K 
-        m values. Previous studies indicate the
-        existence of a complex, cell-type dependent regulation of
-        compartmentalization and intracellular pools of thiamine
-        and/or its phosphorylated derivatives in response to
-        fluctuating extracellular thiamine levels [ 4 6 17 ] . The
-        cell lines used here were also used in the studies leading
-        to this conclusion. Clearly, differences in mitochondrial
-        transporter affinities do not contribute to the cell-type
-        dependent regulation of ThDP compartmentalization. However,
-        we did find significant differences in ThDP uptake capacity
-        with respect to cell type as revealed by variation in the V
-        
-        max values. Neuroblastoma mitochondria
-        possessed the largest uptake capacity, having a V 
-        max 4 to 30 fold higher than that of the
-        other cell types examined. Interestingly, of the three cell
-        types neuroblastoma cells also are the most resistant to
-        changes in mitochondrial ThDP-utilizing enzyme activity
-        upon progressive depletion of the thiamine made available
-        to the cells [ 6 ] . This suggests that cell-dependent
-        variation in ThDP uptake capacity by mitochondria may
-        contribute to the cell-dependent regulation of ThDP
-        compartmentalization. As such regulation was most clearly
-        revealed upon progressively depleting thiamine from cells [
-        6 ] , it will be of interest to examine possible changes in
-        mitochondrial transport capacity in response to thiamine
-        depletion.
-        Studies on the sensitivity of ThDP-utilizing enzymes to
-        progressive depletion of thiamine that is available to the
-        cell indicate that such enzymes in mitochondria are
-        significantly less sensitive than cytosolic enzymes in TRMA
-        cells [ 6 ] . This could be interpreted as efficient import
-        of thiamine/ThDP into mitochondria in TRMA cells even
-        though thiamine inefficiently enters these cells due to the
-        lack of the high affinity thiamine transporter. Although we
-        found a lack of mitochondrial uptake of thiamine in TRMA
-        cells, our finding of an intact, high affinity ThDP
-        transport mechanism for TRMA mitochondria is consistent
-        with and offers an explanation for such an
-        interpretation.
+        Measuring Prevention and Treatment Effects
+        In their study in the January 2005 issue of 
+        PLoS Medicine , “Integrating HIV Prevention and Treatment: From Slogans
+        to Impact,” Salomon and colleagues use mathematical modeling to assess the epidemiologic
+        impact of treatment and prevention efforts, and to quantify the opportunities and potential
+        risks of large-scale treatment roll-out. Using a variety of different scenarios, they
+        propose methods for establishing the most effective balance between spending on prevention
+        and spending on treatment.
+        Modeling is a technique used by many scientists, including epidemiologists and
+        statisticians, to create a mathematical equation that can be used to determine which
+        variables affect an outcome of interest, and to what extent. Once the influential variables
+        are determined, a baseline model is established that includes those variables and reflects
+        their relative importance to the outcome. The effect of changing the value of any of these
+        variables, or several of them, can then be tested, and new outcomes projected. HIV modeling
+        is inexact and requires far better data but can nevertheless provide important
+        insights.
+        Salomon and colleagues used mathematical modeling to assess the effect of changing
+        aspects of the HIV/AIDS “equation” on the future course of the HIV/AIDS epidemic. First, a
+        baseline model was created to fit expected HIV/AIDS projections for the year 2020 if there
+        were to be no change in the current epidemiologic trends—no ART scale-up, and no changes in
+        prevention efforts or behavior. Heterosexual contact is the predominant mode of HIV
+        transmission across Africa, and Salomon and colleagues' study modeled the disease only
+        within the heterosexual population. The model was also tailored to take into account
+        epidemiologic, demographic, and sociologic patterns in the eastern, central/western and
+        southern regions of Africa. Using the baseline models tailored to each region, the effects
+        of prevention and treatment efforts were then measured.
+        Two treatment-centered scenarios were tested in which the World Health Organization's “3
+        by 5” initiative (see Box 1) was achieved. In these treatment-centered scenarios, the
+        reduction of transmissibility, the number of partners of each patient, and condom use were
+        either optimal (reduced transmissibility, reduced partners, and increased condom use) or
+        less than optimal. The prevention-centered scenario tested the impact of a comprehensive
+        package of 12 prevention tools (such as VCT and peer counseling for sex workers), modeling
+        only partial effectiveness at the population level, to reflect weaker political and social
+        support for HIV control efforts. Finally, combined response scenarios were tested. In the
+        first scenario, treatment efforts strengthened prevention efforts as, for example, when the
+        availability of ART increases people's willingness to undergo testing. In the second, an
+        emphasis on treatment led to less effective implementation of prevention efforts.
+        Baseline projections in Salomon and colleagues' study showed that without any behavioral
+        change or ART scale-up, the HIV/AIDS prevalence rate would remain relatively stable, but
+        the number of new infections would increase by 52.3 million by 2020. Treatment-centered
+        scenarios reduced the total number of new infections through 2020 by a maximum of 3
+        million, or 6%, while indicating that the number of AIDS deaths through 2020 would decline
+        by 13%, to 32.4 million. A prevention-centered strategy would provide greater reductions in
+        incidence (36%) and similar mortality reductions by 2020, but more modest mortality
+        benefits over the next five to ten years.
+        The scenarios in which all of these statistics were most improved, however, were those
+        that combined both prevention and treatment efforts. In the scenario in which treatment
+        enhanced prevention, Salomon and colleagues projected 29 million averted infections (55%)
+        and 10 million averted deaths (27%) through the year 2020. However, if a narrow focus on
+        treatment scale-up leads to reduced effectiveness of prevention efforts, the benefits of a
+        combined response would be considerably smaller—9 million averted infections (17%) and 6
+        million averted deaths (16%) (Figure 1).
+        Combining treatment with effective prevention efforts could reduce the resource needs
+        for treatment dramatically in the long term. In the various scenarios the numbers of people
+        being treated in 2020 ranges from 9.2 million in a treatment-only scenario with mixed
+        effects, to 4.2 million in a combined response with positive treatment–prevention
+        synergies.
       
       
-        Materials and Methods
+        Moving Forward
+        The authors have demonstrated through mathematical modeling that the integration of
+        treatment and prevention is epidemiologically sound. However, an integrated and
+        comprehensive program (Figure 2) is not only logical but makes sense from the service
+        delivery point of view: it can be cost-effective and ideal for the community.
         
-          Radiochemicals
-          [ 3H]thiamine (1 Ci/mmol, radiochemical purity greater
-          than 97%) and [ 3H]thiamine diphosphate (1.4 Ci/mmol,
-          radiochemical purity greater than 98 %) were purchased
-          from Moravek Biochemical Inc (Brea, CA).
+        Effective prevention makes treatment more affordable and
+        sustainable. Effective prevention can lead to a substantial reduction in the number of
+        new infections and therefore ultimately will lead to a reduction in the number of people
+        who will need treatment. The reduction of adult HIV/AIDS prevalence in Uganda from 18.5% to
+        6% over the last several years has reduced the number of those eventually needing treatment
+        by nearly 68% [3]. Unless the incidence of HIV is sharply reduced, HIV treatment will not
+        be able to keep pace with all those who will need therapy [4]. Salomon and colleagues'
+        reaffirmation that only effective prevention will make treatment affordable is critically
+        important.
         
+        Successful treatment and care can make prevention more acceptable and
+        effective. Widespread access to treatment could bring millions of people into
+        health-care settings, providing new opportunities for health-care workers to deliver and
+        reinforce HIV prevention messages and interventions [4]. Improved access to HIV testing
+        provides an entry point to both prevention and treatment services and provides a unique
+        opportunity to identify and target the infected, vulnerable, and uninfected with more
+        appropriate interventions. All health-care settings, including HIV treatment sites, should
+        deliver HIV prevention services [4].
         
-          Cell culture
-          Normal lymphoblasts, TRMA lymphoblasts and fibroblasts
-          cell lines were obtained and have been characterized as
-          described [ 6 ] . The human neuroblastoma cells were an
-          SY-SY5Y cell line, a thrice-cloned subline of SK-N-SH [
-          24 ] . 
-          GlyB cells, a Chinese hamster ovary
-          K1 subline, are deficient in the transport of folate into
-          mitochondria [ 23 ] and were a kind gift from L. Chasin
-          (Columbia University). All cell types were growth at 37°C
-          in the presence of 10 μM thiamine in RPMI 1640 medium
-          supplemented with 10% heat-inactive fetal calf serum, 2
-          mM L-glutamine and 1 g/L penicillin/streptomycin, except 
-          glyB cells which were grown in MEM
-          medium. Cells were grown and used at late log phase or at
-          80-90% confluency.
+        Prevention can make treatment more accessible. The early establishment of
+        community-based prevention services in rural Ghana was instrumental in reducing the stigma
+        of AIDS and improving the knowledge and attitude of the community prior to the development
+        of ART and VCT services (K. Torpey, personal communication). This process also made it
+        easier for community and implementing agencies to identify and refer patients needing
+        treatment services.
         
+        Expanded care and prevention activities have synergistic
+        effects. Continued effective treatment, care, and prevention programs will reduce the
+        number of orphans and vulnerable children, reduce mother to child transmission of the
+        virus, and improve the lives of families and the strength of communities.
         
-          Cellular thiamine transport
-          Cells were harvested, washed four times with 40 ml of
-          ice-cold transport buffer (145 mM NaCl, 1 mM MgCl 
-          2 , 1 mM CaCl 
-          2 , 10 mM glucose, 10 mM HEPES, pH
-          7.4), titered, and preincubated for 30 min. at 37°C after
-          resuspending 3 × 10 7cells in 1 ml of transport buffer.
-          Various amounts of [ 3H]thiamine (to give submicromolar
-          and micromolar final concentrations) were added and the
-          reactions were incubated for 30 min. The specific
-          activity of the radioactive thiamine was the same for
-          each concentration used. The cells were collected by
-          rapid filtration onto glass fiber filters (type A/E,
-          Gelman Sciences, Ann Arbor, MI) and washed via filtration
-          with 10 ml of cold transport buffer. After thorough
-          drying (overnight at 60°C), the amount of labeled
-          thiamine taken up by the cells was determined by
-          scintillation counting [ 25 ] . For each concentration,
-          the uptake in the presence of a 100-fold excess of
-          unlabelled thiamine was performed to assess the
-          contribution to uptake from a low affinity (K 
-          m in the mM range) component [ 3 ]
-          and/or from diffusion [ 20 ] .
+        Integration ensures that prevention activities are not neglected. The
+        world has a unique opportunity, as ART services are launched and expanded, to
+        simultaneously bolster prevention efforts [4]. Experience in the United States indicates
+        that availability of treatment can lead to increased risk behavior [5]. In addition, the
+        improvement in the health, well-being, and longevity of people living with AIDS could
+        increase the opportunities for HIV transmission. Integration can help reduce these
+        potential negative impacts of treatment.
         
+        Integration can provide opportunities to address vulnerable groups more
+        effectively. A commitment to providing large-scale treatment helps to focus attention
+        on communities at greatest risk, particularly in lower prevalence contexts. This provides
+        an opportunity to address the prevention and treatment needs of vulnerable groups more
+        effectively.
         
-          Isolation of mitochondria
-          Mitochondria were isolated from about 3 × 10 8cells
-          according to published procedures [ 26 27 ] . The final
-          mitochondrial pellet was suspended in suspension buffer
-          (140 mM KCl, 0.3 mM EDTA, 5 mM MgCl 
-          2 , 10 mM HEPES, pH 7.4) to give a
-          protein concentration of 3-4 mg/ml. Protein concentration
-          was determined using the Bio-Rad DC Protein Assay Kit
-          (Bio-Rad Laboratories, Hercules, CA). The isolation and
-          purity of the mitochondrial preparations were monitored
-          by western analysis using anti-cytochrome C antiserum and
-          by microscopy. Western analysis also was performed on the
-          subcellular fractions using antiserum raised against a
-          human thiamine transporter-specific peptide. The
-          antiserum detects a protein of 55 KD (predicted size of
-          the plasma membrane thiamine transporter) that is not
-          detected in cells from TRMA individuals that possess a
-          premature stop codon within the transporter gene
-          (unpublished results).
+        Treatment resources can help improve infrastructure for prevention and other
+        health services. The training of health providers and improvements in laboratory
+        services, pharmacy, logistics, commodity management, and health information systems can
+        benefit both treatment and prevention services. Further, in many countries, a large number
+        of health-care workers are themselves infected. Treatment can help to preserve the lives
+        and productivity of these critically needed AIDS prevention and treatment workers, as well
+        as those of other health professionals.
         
+        A long-term decline in AIDS deaths may be preventing new infections. The
+        short-term decline in AIDS deaths is driven by effective care and treatment programs, but a
+        long-term decline may be driven by the prevention of new infections. Integrated and
+        comprehensive strategies are more likely to lead to affordable, sustainable programs.
         
-          Uptake of thiamine and ThDP by mitochondria
-          Uptake of thiamine and ThDP by mitochondria was
-          determined by a rapid filtration procedure [ 26 28 ] .
-          Incubations were performed at 37°C by rapidly mixing 30
-          μl of mitochondrial suspension (ca. 100 micrograms of
-          protein) with 220 μl of incubation buffer (140 mM KCl,
-          0.3 mM EDTA, 5 mM MgCl 
-          2 , 10 mM Mes, pH 6.5) containing
-          labeled thiamine or ThDP at various concentrations. The
-          uptake was stopped at 15 min. by the addition of 2 ml of
-          ice-cold stop buffer (100 mM KCl, 100 mM mannitol, 10 mM
-          potassium phosphate, pH 7.4) and the mitochondria were
-          collected by rapid filtration on 0.45 μM Millipore
-          membrane filters. The filters were immediately washed
-          with 5 ml of stop buffer via filtration, and they were
-          subsequently dried at 60°C overnight. The amount of
-          labeled thiamine or ThDP taken up by the mitochondria was
-          determined by scintillation counting. Background binding
-          was determined by using a 100 fold excess of unlabelled
-          thiamine or ThDP in parallel reactions.
+        Success requires dramatic expansion of both ART and prevention. Globally,
+        fewer than one in five people at high risk of infection have access to proven HIV
+        prevention interventions [6] and less than 10% have access to ART [1]. Unless there is a
+        substantial increase in commitment and resources for both prevention and ART, efforts to
+        control HIV/AIDS and mitigate its impact will only meet with partial and limited success.
+        In addition, to increase resources, intensified commitment is required to ensure every
+        opportunity is taken to integrate prevention and treatment. Future analysis and debate
+        should move from comparisons of prevention and treatment priorities to a sustained analysis
+        of how we can reciprocally integrate and strengthen prevention and care and use every
+        opportunity provided by one to reinforce the other. We must focus on the development of
+        training, monitoring, and quality assurance systems that ensure that prevention and care
+        are integrated whenever possible.
         
-      
-      
-        Authors' Contributions
-        QS carried out most of the experiments and participated
-        in writing the manuscript. CKS conceived of the study,
-        participated in its design and coordination, performed a
-        few of the thiamine uptake by cells experiments, and
-        participated in writing the manuscript.
-      
-      
-        Abbreviations
-        thiamine diphosphate (ThDP); thiamine-responsive
-        megaloblastic anemia (TRMA)
+        The results of Salomon and colleagues' model need to be
+        validated. Further operational research is needed to validate the findings of this
+        study.
       
     
   

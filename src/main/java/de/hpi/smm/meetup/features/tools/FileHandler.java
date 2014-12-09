@@ -68,6 +68,16 @@ public class FileHandler {
 		}
 	}
 	
+	static private boolean fileListContains(File[] listOfFiles, String fileName){
+		for (File file : listOfFiles) {
+			if (file.isFile()) {
+				String fileNameOnly = file.getName();
+				if (fileNameOnly.equals(fileName)) return true;
+			}
+		}
+		return false;
+	}
+	
 	static public List<String> getRandomSelectFiles(String filePath, int portionInPercentage){
 		int count = 0;
 		List<String> allFiles = new LinkedList<String>();

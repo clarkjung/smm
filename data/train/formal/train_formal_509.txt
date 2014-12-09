@@ -1,248 +1,472 @@
 
-  
-    
-      
-        
-        From Bob Clark's snug office in Boise, Idaho, where he manages the United States
-        government's Joint Fire Science Program (JFSP), he figures his computer provides fingertip
-        reach to just about everybody who's anybody in wildfire research. This points to a primary
-        need of nations worldwide in combating the scourge of recurrent wildfires: tools and
-        technology suited to the job. It's no small order in places as economically, socially, and
-        ecologically varied as, say, Brazil, South Africa, Australia, Indonesia, and the United
-        States, which are among the countries where wildfire creates the greatest havoc.
-        More than 750,000 acres (303,500 hectares) were burned in southern California alone
-        during last year's wildfires. The 2000 season was one of the country's worst on record,
-        destroying 8.4 million acres (3.4 million hectares), more than double the decade's 10-year
-        average. Australia's summer months around the turn of 2002–2003 brought perhaps the worst
-        drought in a century to the populous southeast and the biggest fire season for two decades.
-        Mountain forests were extensively burned and more than 500 houses were lost. In 2002,
-        Brazil suffered 217,000 wildfires, a number that is almost certainly too low because remote
-        imaging cannot detect many fires under the forest canopy. In Indonesia, wildfires that
-        burned for months during 1997–1998 were later estimated to have released the equivalent to
-        13%–40% of annual global carbon emissions from fossil fuels, inflicting smoke-related
-        ailments on thousands.
-        Where wildfire is concerned, the many differences between such countries can perhaps be
-        pinned down to two essentials. The first is whether a blaze occurs in temperate or tropical
-        forest, and the second is whether the nation is developed or developing.
-        “The science can be rock solid, but it can only go so far before social, economic, and
-        political pressures take over,” Clark says. “That's what a forest service manager's job is,
-        picking the best option based on all those considerations.”
-        Unfortunately, having science-based options that are applicable to local conditions is
-        largely a luxury for developed countries. Managers there can choose to let a fire burn
-        under hopefully contained conditions, a policy known in the United States as “wildland fire
-        use.” They can set experimental crown fires to study their effects, as was done recently
-        in"journal" Canada (Figure 1). And they can take preemptive measures, such as reducing fuel
-        in the forest to lower fire hazard.
-        The two main fuel-reduction methods are mechanical removal of combustible materials and
-        controlled or “prescribed” burning (Figure 2). During Bill Clinton's administration,
-        prescribed burns were encouraged in protected areas, but thinning was allowed only for
-        trees with trunks of nine inches (22.8 cm) in diameter or less. Under George W. Bush,
-        prescribed burning remains a choice, but the United States Department of Agriculture's
-        (USDA) Forest Service policy is much more focused on mechanical means. The argument runs
-        that there's been too much concern about removing trees, when what counts most is the
-        enhanced fire-resistance of the thinned habitat.
-        Fire hazard reduction methods must be tailored to an understanding of fuel
-        characteristics in a given area, says David Peterson of the Forest Service's Pacific
-        Wildland Fire Sciences Laboratory in Seattle, Washington. “There's no uniform way of doing
-        it, partly because, as scientists, we haven't given the management folks any quantitative
-        guidelines.” Working with other ecologists, social scientists, and economists, he's
-        currently producing just such guidelines for the dry interior forests of the Pacific
-        Northwest. “One thing we don't want to do is take choices out of the hands of field
-        managers working at the local level.”
-      
-      
-        Forecasting Tools: Models and Simulations
-        For those choices to be meaningful, managers need reliable information on the risk of
-        wildfire outbreaks and on the future behavior of existing fires. This requires models and
-        simulations that incorporate climatic conditions, particularly wind (Figure 3). At the
-        Forest Service's Fire Sciences Laboratory in Missoula, Montana, researchers have created a
-        “gridded wind” tool based on the engineering discipline of computational fluid dynamics.
-        The program maps wind speed and direction using a digital elevation model, which is a grid
-        of elevation points every 30–100 feet (9–30.5 meters) over a terrain 10–40 square miles
-        (25.9–103.6 square kilometers) in size. This map forms the floor of a box extending up to
-        five miles (eight kilometers) high, which is subdivided into a million or more cubes. Wind
-        flow from either real observations or estimates can be entered into the software, and the
-        layer of cubes nearest the grid floor is used to create surface wind maps at resolutions of
-        every 100 meters (109 yards) or less. In contrast, the usual resolution of weather
-        forecasts is 12 kilometers (7.5 miles), down to 4 kilometers (2.5 miles) in some urban
-        areas.
-        “Two or three years ago, we couldn't have done this simulation on a single-processor
-        laptop,” says one of its developers, physical engineer Bret Butler. “It would have taken
-        two or three days. Now we can do it in a matter of hours.”
-        The ability of these maps to show varying wind flow in valleys, at midslope and on
-        ridgetops, is just the beginning. The next step is to feed these data into models that
-        predict wildfire spread. Butler and colleagues have coupled their gridded wind technology
-        to a fire growth model and tested it against the actual spread of several wildfires,
-        including in Southern California last summer. Maps of actual and predicted surface winds
-        showed strong similarities, encouraging Butler to foresee an ideal scenario in which fire
-        fighting teams enter wind flow data online or by telephone to a central base where gridded
-        wind maps and fire growth simulations are generated within hours, before operational
-        decisions are made.
-        Yet he admits that challenges remain, including the current inability of fire behavior
-        simulation to account for diurnal winds in addition to cold front-driven flow. In
-        mountainous terrain, for example, winds often move up-canyon in the morning and down-canyon
-        in the evening. Moreover, the effect of vegetation on wind is not yet included in such
-        models.
-        Those issues and others are being addressed by researchers working on improvements to
-        the regional weather forecasts of so-called mesoscale models. At the Forest Service's Rocky
-        Mountain Research Center in Fort Collins, Colorado, meteorologist Karl Zeller and
-        colleagues are contributing calculations of biological processes to mesoscale weather
-        models. Their algorithms not only can account for diurnal winds but can predict the effects
-        on local weather when vegetation takes in carbon dioxide and releases water vapor. This
-        process can produce different fluxes of carbon dioxide drawn into the canopy and water
-        vapor coming out, depending largely on the type of vegetation and its canopy density.
-        Zeller's group has analyzed current mesoscale forecasts in the Rocky Mountains and found
-        that in the daytime, they often are too hot in the high country and too cold in the plains.
-        Water vapor estimates are too low in the mountains and too high in the plains, which Zeller
-        thinks is because the models feed off soil moisture estimates, not off vegetation. In
-        coupling his team's new biophysical interface to gridded wind and mesoscale forecast
-        models, Zeller says “point forecasts” are being developed that can focus on a prescribed
-        burn area or even a single house.
-      
-      
-        Wildfire and Species Diversity
-        Fitting the appropriate mix of strategies to a given situation is an issue that has also
-        received close attention in Australia. After the bushfires of 2002–2003, media commentators
-        called for increased “hazard reduction burning” in national parks, prompting ecologists
-        around the country to distribute a joint statement declaring that such a strategy would not
-        further reduce bushfire risk, but would actually threaten biodiversity. Australian species
-        are often well-adapted to fire, and researchers have learned that different fire
-        regimes—meaning the type of fire, its intensity, severity, extent, season, and
-        frequency—favor different species (Box 1). In the southeast of Australia, prescribed burns
-        of high frequency and low intensity can alter the habitat in ways that therefore threaten
-        survival of numerous plant and animal species.
-        “A generic problem or conundrum seems to be that species which do not prosper under
-        relatively frequent fires can be found in most fire-prone environments,” notes Ross
-        Bradstock, principal research scientist in the New South Wales Department of Environment
-        and Conservation. He says it's very difficult to determine how human interventions in
-        various habitats can foster the coexistence of species that have different fire regime
-        requirements.
-      
-      
-        Fire Suppression and Tropical Forests
-        As tough as such questions are to answer in developed countries, they pale compared to
-        the problems of tropical forest wildfire researchers and managers in developing countries.
-        In these countries, a destructive cycle of human behavior begins with land-clearing and
-        burning for farming, logging, mining, road-building, and other uses that open gaps in the
-        rainforest's canopy cover. This lets in sunlight and air, reducing the forest's ability to
-        smother fire by trapping moisture, and it encourages the growth of smaller, more fire-prone
-        plants. The first wildfires that occur are bad, but successive ones can eventually
-        transform tropical forest to scrub savanna (Figure 4). Of course, the remaining forest is
-        thereby broken into fragments that continue to suffer incursions at their edges, as the
-        cycle continues.
-        In a recent paper in Science, Michigan State University Amazon expert Mark Cochrane
-        pointed out that prescribed burning is ineffective in tropical forests, because the
-        collateral damage outweighs any benefits. Indeed, tools and technologies employed in
-        temperate conditions can seldom be applied usefully to tropical forests without significant
-        alterations.
-        “One of the main issues in fire science is that the U.S. has no capacity to develop new
-        tools,” charges Ernesto Alvarado, a research scientist at the University of Washington in
-        Seattle. He's been working for several years with United States Forest Service and
-        Brazilian scientists on field studies in Mata Grosso, the southernmost state of the
-        Brazilian Amazon. He says that fire prediction simulations developed decades ago have not
-        yet been replaced by ones that account for tropical wildfire extremes, including either
-        large-scale crown fires or surface fires, which often reach only 10 centimeters (3.9
-        inches) in height and move slowly but can burn for weeks and kill many trees.
-        Fire behavior models don't work for tropical surface fires because the physics are
-        different from those in temperate forests, he explains. A slow wind generated from the
-        unburned forest blows toward the fire, forcing the small flames to advance against, rather
-        than with, the wind. Another difference is that the fuel is mostly leaf litter, not conifer
-        needles or sticks.
-        Alvarado and colleagues light experimental fires in clear-cuts to determine factors
-        limiting ignition and spread. Such experimental work is rare in tropical forests, where
-        observation and description still predominate. But the team also monitors surface
-        wildfires, measuring fire length, spread, and heat release.
-        “We're trying to find applications that people can use to control fires or to explain
-        implications of fire policy,” he says. Most wildfires originate from deliberately set
-        burns. For example, many farmers still clear land by the ancient method of slash-and-burn,
-        in which forest is chopped, left to dry, and then burned. These farmers are now banned by
-        Brazilian federal law from burning at the height of the dry season, mid-July to
-        mid-September. They cut in May, but if the rains come early in September, they can't burn
-        after the ban ends and must wait until the next season, with nowhere to grow their crops in
-        the meantime. Alvarado thinks a more flexible burning schedule is a solution.
-        The challenge is to pass on technological understanding to decision-makers. For example,
-        even ranchers in Mata Grosso's economic elite usually haven't heard of fire management
-        techniques, says Amazonian ecologist Carlos Peres at the University of East Anglia in the
-        United Kingdom. Educational projects from nongovernmental organizations have helped to turn
-        some farmers away from heavy reliance on slash-and-burn techniques, but fire suppression
-        information remains to be distributed on the frontiers.
-        “What we really need are very large areas of primary forest that effectively serve as
-        fire breaks,” he says. Conservation plans have been made by the federal government in
-        collaboration with international agencies, but implementation remains a question,
-        particularly given the high level of economic pressure from multinational resource
-        developers eager to enter the Amazon. Major roads through the jungle are also on the
-        drawing board. “Different categories of conservation units can be gazetted on paper, but in
-        practice they're a long way from working. Someone draws lines on a map high in an office in
-        Brasilia, but when you go out to that place in the forest, no one knows it's a conservation
-        zone.”
-      
-      
-        Fire Prevention: Developing the Technology
-        Information transfer faces similar barriers in much of Southeast Asia, as Canadian
-        forestry researchers discovered during a five-year project (now winding up) to create a
-        computerized early warning tool for wildfire outbreaks. The program was instigated after
-        the 1997–1998 fires created a regional haze hazard, largely because of peat deposits up to
-        20 meters (21.8 yards) thick that had become susceptible to burning in swampy forests
-        drained and cleared for development.
-        Michael Brady, who managed the Canadian project in Jakarta, points out that headmen in
-        remote communities are still likely to believe that wildfires start spontaneously, by
-        grasses rubbing together or even by magic. A fire scientist whose doctorate is in tropical
-        forest peat dynamics, Brady sees the project as a medium to strengthen regional fire
-        ecology in general. “In some ways, that's more important to me than the tool itself.”
-        The tool is a variation of the Fire Danger Rating System used in Canada and, with
-        various permutations, in many other countries. The Canadian system has two components, one
-        for indexing fire weather and another predicting fire behavior. The weather component
-        models moisture input and output in fuels generically classed as fine, moderate, and heavy.
-        Brady and Indonesian university scientists grouped grasslands in the fine fuel category,
-        fallen leaves and litter as medium, and peat and woody materials as heavy. They spent three
-        years calibrating these fuels to local weather conditions, examining moisture dynamics and
-        performing ignition tests. In developed countries, fuels are further specified in numerous
-        classes for fire behavior prediction, but that requires decades of field work. Brady's team
-        concentrated instead on helping key agencies in seven Southeast Asian countries, especially
-        Indonesia and Malaysia, to obtain and use the appropriate computing tools.
-        Brady doesn't expect immediate results in terms of reducing acreage burned. “Canada and
-        the U.S. still have huge fire problems after working on it for a century.” But he does hope
-        for a change of thinking, away from a current fascination in the region with satellite
-        imaging of “hot spots” where fires are likely to be occurring. Fire danger rating
-        concentrates on where fires are most likely to begin. “It allows you to add prevention into
-        your management program.”
-      
-      
-        Beyond Prevention
-        In South Africa, “retention” is a conservation buzzword referring to strategies that, in
-        a sense, go beyond prevention of problems. What ecologists hope to retain is biodiversity
-        in the midst of changes that can't be stopped, and their methods are producing major
-        repercussions throughout government. The work is centered on the Cape Floristic Region of
-        Africa's southwestern tip. Almost 90,000 square kilometers (34,750 square miles) in area,
-        it's the world's smallest floral kingdom. A conservation plan was launched in 1998 that has
-        drawn cooperation from tourism, mining, water use, agricultural, and land use planning
-        groups.
-        The project has the ambitious goal of protecting not only the usual biodiversity
-        patterns of conservation areas but also the spatial components of evolutionary processes
-        that enable species to adapt to potentially harmful changes. This entails a complex effort
-        to determine which parts of developed and undeveloped lands are most necessary to such
-        processes, including rivers, sand movement corridors, gradients from uplands to coastal
-        lowlands, and major wilderness areas. University of Port Elizabeth botanist Richard
-        Cowling, one of the scheme's principal architects, estimates that it might require 60%–70%
-        of the region's landscape.
-        As in Australia, fires are important to the Cape's biodiversity, but too-frequent burns
-        are a problem. Cowling thinks that by consolidating mountainous megawilderness under the
-        project's plan and protecting spatial transitions between fire-prone areas and those that
-        resist fire, managers could move toward allowance of natural fire regimes. The current
-        problem, he says, is that protected areas usually stop short of the transition to
-        semidesert areas that are privately owned. When fire spreads from public to private land,
-        the government often gets sued. Under the evolving Cape plan, landowners will sit on
-        governing boards, and property that they contract for conservation will be tax-exempt.
-        The Cape plan has attracted millions of dollars in support from the World Bank and other
-        international sources, but Cowling regards that achievement as much less important than the
-        progress made in gaining support from various interest groups. “The key issue is the extent
-        to which you can get biodiversity concerns mainstreamed to other sectors,” he says. Threats
-        to habitat retention, not least of which is wildfire, endanger every species. “It's about
-        making people realize that biodiversity is the basis upon which all other things will
-        succeed.”
-      
-      
-        
-      
-    
-  
+
+
+
+Towards a General Postal Service Cost Function*
+Robert Cohen
+Postal Rate Commission
+Carla Pace
+Poste Italiane
+Antónia Rato
+CTT - Correios de Portugal
+Matthew Robinson
+Postal Rate Commission
+Ricardo Santos
+CTT - Correios de Portugal
+Gennaro Scarfiglieri
+Poste Italiane
+Vincenzo Visco Comandini
+Poste Italiane
+John Waller
+Postal Rate Commission
+Spyros Xenakis
+Postal Rate Commission
+*The views expressed in this paper are those of the authors and
+do not necessarilyrepresent the opinions of CTT - Correios de
+Portugal, Poste Italiane or the Postal RateCommission.
+
+1. INTRODUCTION
+Mailhandling activities in the posts of industrial countries are
+remarkably alike. Each of the major functions (delivery, mail
+processing, transportation, and window service) is conducted using
+similar methods and technologies. Therefore, it may be possible for
+a fairly simple model to explain total and unit cost differences
+between posts. Ideally, developing a cost model for the 20 plus
+industrial posts would involve collecting data on many individual
+cost elements from each and using regression analysis to estimate
+the coefficients of a cost function. In today's environment this is
+impossible because virtually all posts in industrial countries
+consider much of their operational cost data to be commercially
+sensitive and will not share them.
+In our previous paper, Cohen, et al. (2002), we developed a
+model that related unit costs to volume per capita. The model is
+based on U.S. costs. More specifically, it is based on the accrued
+cost of the major functions and their cost elasticities with
+respect to volume. A plot of that cost function reveals the classic
+hyperbolic shape with unit costs increasing more rapidly as volume
+per capita declines because of the loss of economies of scale. See
+Figure 1.
+In our previous paper, we made adjustments to the model to allow
+for comparison with Poste Italiane. In particular, adjustments were
+made for differences in labor cost, amount of worksharing, and mix
+of mail by shape.1 In this paper, we add an adjustment for counter
+costs.2 The resulting model estimate of Poste Italiane's unit cost
+is 74 cents versus the actual value of 79 cents. It must be pointed
+out that the cost model is used to estimate costs over an extreme
+range of volume. U.S. volume per capita in 1999 was 739 pieces
+while Italy's was 115 pieces per capita. Given this range, the
+authors are encouraged by the relatively small deviation of the
+estimate from actual.
+1
+See the Appendix to Cohen, et al. (2002).
+2
+The USPS has only 14 counters per 100,000 population, while
+Poste Italiane has 24 counters per 100,000 population.
+Figure 1: Model Estimates of Unit Cost
+Benchmarked by U.S. Costs and Volumes
+2.50
+2.00
+Cost per Piece ($US)
+1.50
+1.00
+0.50
+0.00 0 100 200 300 400 500 600 700 800
+
+Pieces per Capita
+In this paper we examine the hypothesis that the cost model
+provides reasonable estimates of the unit costs of other posts of
+industrialized countries.3 The hypothesis cannot, however, be
+directly confirmed because we do not have sufficient cost data on
+other countries to compare with the model results.
+We provide indirect confirming evidence of the hypothesis, using
+the fact that the model implies that mail processing and delivery
+costs will comprise specific percentages of total costs at specific
+per capita volume levels. We have obtained the actual percentages
+of mail processing costs and delivery costs relative to total costs
+for seven posts with which we compare the predicted percentages.
+Although the evidence is not conclusive, it confirms the
+hypothesis.
+We first present our model for total costs and unit costs. We
+next present the test of our hypothesis by comparing the predicted
+percentages for each of the seven posts with the actual
+percentages. We then produce a trend line through the data points
+and compare it with the model results. Finally, we compare actual
+unit revenues, and some derived unit costs, for the seven posts
+with the model's prediction of unit costs.
+The editors of the book in which our previous paper [Cohen, et
+al. (2002)] appears suggested that we examine the hypothesis that
+the cost model accurately describes the costs of other posts.
+
+
+2. THE COST MODEL
+The model is the same as that used by Cohen, et al. (2001)
+except that we now present it as a generalized cost function. The
+model assumes that there are two primary determinants of cost for a
+postal system: volume and size of the network. For each activity a
+post performs, there are volume-driven attributable costs and
+networkdriven institutional costs.
+To create a total cost function, we use FY 1999 U.S. Postal
+Service data to define the relationship between costs and cost
+drivers. Costs for each postal activity (mail processing, delivery,
+etc) that can be attributed to mail volumes, are divided by total
+volume to obtain an estimate of the marginal cost.4 The remaining
+costs are institutional costs that are primarily driven by the size
+of the network. Population is a reasonable proxy for the size of
+the network and therefore institutional costs are divided by the
+U.S. population to obtain the additional cost per person. This
+produces annual cost functions for each of the major postal
+activities and a total cost function.
+Since all costs are variable in the long run, it is reasonable
+that non-delivery institutional costs would decline over the large
+volume range we explore with this model. For purposes of this
+analysis we assume that 25 percent of non-delivery institutional
+costs would be volume variable.5
+No portion of delivery institutional costs is considered to be
+volume variable, however, because route structure generally does
+not change as volume drops. As long as coverage is relatively high,
+carriers will have to cover their entire route. Thus, fixed
+delivery costs would not be expected to drop until volume per
+capita were so low that the resulting very low coverage allowed
+carriers to skip parts of their routes.
+4
+Attributable costs using the PRC cost treatment are greater than
+volume variable costs. Consequently, the estimate is slightly
+higher than the true marginal cost.
+5
+The results are not very sensitive to this assumption as can be
+seen in Cohen, et al. (2001).
+The cost function in U.S. dollars is:
+
+
+Variable Institutional
+Mail Processing = 0.1032V + 2.10P Delivery = 0.0525V + 42.24P
+Transportation = 0.0200V + 0.92P Window Service = 0.0092V + 4.64P
+All Other costs = 0.0241V + 24.41P Total costs = 0.2089V + 74.31P
+where V = Volume and P = Population.
+It can be seen that the total cost of providing postal service
+in the U.S. for FY 1999 was 20.89 cents per piece plus $74.31 per
+person. The total cost for other countries can be estimated by
+substituting volume and population into the above formula.
+The total cost function can be used to estimate average unit
+cost by dividing the terms by V:
+Average Unit Cost = 0.2089 + (74.31 P / V). This can be restated
+in terms of V / P, or pieces per capita (ppc), as:
+Average Unit Cost = 0.2089 + (74.31 / ppc).
+The percent of total cost for each function included in the
+model and cost elasticity (with respect to volume) are shown in
+Table 1.
+The model assumes constant unit variable costs. Thus, when
+volume is reduced total variable cost is reduced by the same
+percentage. At lower per capita volumes, the ratio of fixed to
+variable cost increases and the cost elasticities decrease (because
+a greater proportion of total costs is fixed). Similarly, the model
+assumes a constant coefficient for population.
+Table 1: FY 1999 USPS Percent of Total Cost and Elasticity (with
+respect to Volume) of the Major
+
+a
+Source: Postal Rate Commission Docket R2000-1
+b
+Includes both in and out of office activities.
+c
+Does not include intra city transportation costs.
+The U.S. cost elasticities in Table 1, when applied to the
+accrued costs of each function, determine the coefficients in the
+cost function, which in turn generate the unique shape of the unit
+cost function (Figure 1). Further, these coefficients determine the
+percent of total cost that comes from mail processing and delivery
+at a specific volume per capita.
+The total cost for an individual country can be expressed as a
+function of pieces per capita by rewriting the above basic total
+cost equation as:
+Total Cost for country "i" = (0.2089 Pi)(V/Pi) + 74.31 Pi,
+where Pi = population for country "i",
+0.2089Pi = slope
+74.31Pi = intercept. The values of the slope (rate of increase
+in total costs) and intercept (institutional costs) are directly
+related to the population of the country. If country A has twice as
+many inhabitants as country B, then the slope and intercept of A's
+cost function will be twice as large as the slope and intercept of
+B's cost function.
+Figure 2 displays the total cost curves as functions of pieces
+per capita for each of the countries in the sample. The differences
+in slopes and intercepts reflect population differences. If total
+volume, instead of pieces per capita, were displayed on the
+vertical axis, then the Y-intercepts would remain unchanged but the
+cost curves would be parallel. Although Figure 2 shows a family of
+total costs curves, Figure 1 displays a single unit cost curve
+because the unit cost curve depends on only one variable, pieces
+per capita.
+Figure 2. Total Cost Functions for Sampled Posts
+Not Adjusted for Structural Differences
+
+0 100 200 300 400 500 600
+Pieces per Capita
+
+
+3. ADJUSTMENTS
+To estimate the cost of a post using the model, it is necessary
+to take into account labor cost differences between the U.S. Postal
+Service and the given post. The test of our hypothesis, however,
+does not involve predicting unit costs of other posts. It involves
+predicting the percentage of total cost devoted to mail processing
+and delivery. Thus, labor costs do not need to be adjusted.
+The total percentage of mail processing costs would have to be
+adjusted if worksharing, automation, or mail mix had significantly
+different impacts on mail processing costs. We have adjusted mail
+processing costs for La Poste and Posti Finland. Both France and
+Finland include the costs of cancellation and mail preparation in
+counter costs. Because the U.S. Postal Service classifies these
+costs as part of mail processing, we adjust the percentages of mail
+processing costs upward for France and Finland to reflect a similar
+treatment. This has no effect on total costs, and therefore only
+affects the mail processing percentage.
+The number of deliveries per week varies among the posts in the
+sample (Canada, Finland, and Portugal deliver five times per week,
+Great Britain delivers 12 times weekly in urban areas and six in
+rural areas). Consequently it is necessary to adjust the percentage
+of delivery costs for these posts to the level it would be with six
+deliveries per week (as in the U.S.) When the percentage of
+delivery cost is increased or decreased for a given post, the
+percentage of mail processing cost is decreased or increased
+accordingly.6
+
+
+4.
+CONFIRMING THE HYPOTHESIS
+
+
+4.1
+Data
+
+
+Canada Post, Consignia (Royal Mail), Posti Finland and La Poste
+supplied the percentages of delivery and mail processing costs to
+us. The authors supplied the data for CTT Correios de Portugal and
+Poste Italiane. Only La Poste delivers unaddressed mail separately
+from normal mail. Consequently, the volumes and percentages of
+total cost for La Poste do not include unaddressed mail.
+Unaddressed mail is included in the calculations for other
+posts.
+The cost percentages reflect labor and non labor costs, except
+for Germany. The Deutsche Post percentages are derived from
+workforce full time equivalents contained in its annual report for
+FY 2001 and an internal Post Italiane study on German delivery
+operations developed in part from meetings with Deutsche Post
+management. The Deutsche Post annual report provides the total
+number of full time equivalents involved in postal operations and
+the Poste Italiane document provides the number involved in
+delivery operations. While this is a proxy for labor and non labor
+costs, it is considered realistic since in the U.S., the use of
+workforce full time equivalents provide estimates within a few
+percentage points of those calculated with labor and non labor
+costs.
+6
+The population density (or more specifically the postal density
+-- the average time it takes to travel between addresses) of a
+country has an impact on street delivery costs. Ideally we could
+adjust for this if data were available. (See Bernard, et al.
+2002).
+4.2 Empirical Findings
+Empirical findings from the investigation are presented in
+Figure 3. The top line represents delivery cost percentage (of
+total cost) as a function of pieces per capita as predicted by our
+cost model. The bottom line represents the same for mail processing
+costs.
+Figure 3: Functional Percentage of Total Costs
+Benchmarked by U.S. Costs and Volumes
+Percentage of Total Costs
+70
+60
+50
+40
+30
+20
+10
+0 0 100 200 300 400 500 600 700 800
+
+Pieces per Capita
+With the exception of the lowest volume post (Poste Italiane)
+the model's predicted percentages are close to the actual
+percentages for delivery. We think Poste Italiane, a very low
+volume post, may have a somewhat lower percentage of delivery costs
+than predicted owing to low coverage on very low volume routes
+especially in rural areas. When carriers deliver to only a small
+number of stops on a route they tend to cover the route in a way
+more similar to a "traveling salesman" than following a fixed route
+past every stop. Thus, there may be less fixed costs on these
+routes than indicated by the elasticities embedded in the cost
+model based on U.S. costs, which reflect very high coverage levels.
+If this conjecture is correct, then Italy's delivery percentages
+could be adjusted upwards (by an unknown amount) towards the
+predicted value and their mail processing costs would then have to
+be adjusted downwards. A downward adjustment would also improve
+Italy's relation to the mail processing prediction but move
+Portugal further away. Some of the deviation for Italy and Portugal
+may be due to the fact that they have proportionally much larger
+retail operations involving collection and acceptance than the U.S.
+and other posts. For example, Portugal's retail post office
+operations account for 21 percent of total costs, while in the
+U.S. they account for approximately six percent. Poste Italiane
+also has a relatively large percentage of costs in collection and
+acceptance, 15 percent. Nevertheless, the authors cannot explain
+why Portugal's percentage of mail processing cost is so low in
+comparison to the other posts in the sample.
+A significant virtue of these curves is that they are
+independent of the price of labor. Thus, by using this evaluation
+technique, we are able to avoid the need for obtaining productive
+hourly costs translated into dollars using purchasing power
+parities.
+It appears that other factors, for which adjustments are not
+made, do not cause significant differences. This could be because
+these factors do not vary significantly from the U.S., do not drive
+costs significantly, or tend to cancel each other out.
+4.3 Trend Analysis
+The bold lines in Figure 4 display trend curves for the actual
+processing and delivery cost percentages from the test countries.7
+These curves were generated using Excel. They have virtually the
+same shape as the curves predicted by the model and further confirm
+the fit between the model and the data. The low delivery cost
+percentage of the low volume per capita country, Italy, pulls the
+delivery trend line down away from the predicted line. The fact
+that the actual mail processing percentages for Italy and Portugal
+are about equidistant below and above the predicted values causes
+the mail processing trend line to match the model line at low
+volumes despite relatively large errors. These disparities at low
+volumes between the trend and model lines reinforce our belief that
+the model is less useful in predicting costs for low per capita
+volume posts than it is for medium to high volume per capita posts.
+It is to be expected that the accuracy of predictions will diminish
+as the range over which the predictions are made increases.
+These trend lines were selected because they best fit the data.
+For delivery percentages, the trend line is y=46.943e-0.0004x with
+an R2 of 0.78. For mail processing percentages the trend line is
+y=10.869Ln(x) - 38.407 with an R2 of 0.69.
+Figure 4: Functional Percentage of Total Costs with Regression
+Curves
+70
+60
+Percentage of Total Costs
+50
+40
+30
+20
+10
+0 0 100 200 300 400 500 600 700 800
+
+Pieces per Capita
+5. ESTIMATED UNIT COSTS
+In order to compare unit costs, it is desirable to make the
+adjustments we have discussed above plus an adjustment for
+productive hourly wage in purchasing power parities (PPP). Data for
+these adjustments were not available, except for Italy. The
+U.S. values used in making adjustments for Poste Italiane data
+are listed in the appendix. In the absence of actual cost data, we
+compare model cost results to actual revenues.
+For the posts in our sample we have used the model to estimate
+unit costs and adjusted only for deliveries per week (Canada,
+Finland, U.K., and Portugal.) In Table 2, we compare these
+estimates with average revenue per piece converted to U.S. cents
+using OECD's PPP for 1999.
+Table 2: Comparison of Model Estimated Coststo Actual Revenue
+per Piece for 1999
+(U.S. cents)
+Model Cost Revenue Estimates per Piecea
+Canada 43 41 Finland 34 39 France 38b 40b Germany 50 57 Italy 90
+79c Portugal 62 54
+U.K. 46 50
+U.S. 31c
+a
+From annual reports and Posts of authors, 2000 for
+Portugal b Includes unaddressed mail
+c
+Actual cost per piece
+The largest discrepancy appears to be Italy. We know, however,
+that the Post Italiane productive hourly wage is three quarters of
+that of the U.S. Postal Service. As stated in the introduction,
+when we adjust for Italian labor costs, worksharing, mail mix, and
+number of counters, we get a modeled unit cost of 74 cents.
+6. CONCLUSIONS
+The principal conclusion is that empirical evidence corroborates
+the validity of this model because the predicted functional
+percentages of costs are reasonably close to actual values. See
+Figure 3. In particular, the general shape of the unit cost curve
+(with respect to per capita volume) appears to be valid for the
+posts of industrialized countries sampled. See Figure 1. The model,
+however, is a more accurate predictor of the cost behavior of
+medium to large per capita volume posts than for small per capita
+volume posts. The model also demonstrates that both volume and
+population are important explanatory factors of postal costs.
+Clearly, additional research is warranted. Regulators and
+operators in any industrialized country are encouraged to use the
+data in the appendix on U.S. cost characteristics to make
+adjustments to the model and determine if the model forecasts costs
+with reasonable accuracy. Of course, we would not expect exact
+correspondence even after adjustments are made owing to differences
+in efficiency and service quality.
+Appendix: FY 1999 USPS Operational Statistics
+
+
+•
+Productive hourly wage: $23.87644
+
+
+•
+Mail mix by shape: 72 percent letters and cards, 26
+percent flats, 1 percent parcels
+
+
+•
+Percentage of mail with some worksharing: 72
+
+
+•
+Percentage of letters barcoded by mailers: 56
+
+
+•
+Percentage of letters barcoded by USPS: 32
+
+
+•
+Percentage of flats barcoded by mailers: 38
+
+
+•
+Percentage of mail not delivered (i.e. Post Office Box
+mail): 21.4
+
+
+•
+Average postal density (addresses per fixed street hour):
+100.5
+
+
+•
+Counter Costs: 5.6 percent
+
+
+REFERENCES
+Bernard, Stephane, Robert Cohen, Matthew Robinson, Bernard Roy,
+Jöelle Toledano, John Waller, and Spyros Xenakis. 2002. "Delivery
+Cost Heterogeneity and Vulnerability." Paper presented at the 10th
+Conference on Postal and Delivery Economics, Potsdam, Germany.
+Cohen, Robert, William Ferguson, John Waller and Spyros Xenakis.
+2001 "The Impact of Using Worksharing to Liberalize a Postal
+Market." Paper presented at Wissenschaftliches Institut für
+Kommunikationsdienste GmbH, 6th Köenigswinter Seminar on Postal
+Economics, Liberalization of Postal Markets.
+Cohen, Robert, Carla Pace, Matthew Robinson, Gennaro
+Scarfiglieri, Vincenzo Visco Comandini, John Waller and Spyros
+Xenakis. 2002. "A Comparison of the Burden of Universal Service in
+Italy and the United States." In Postal and Delivery Services:
+Pricing, Productivity, Regulation and Strategy, edited by M.A. Crew
+and P.R. Kleindorfer. Boston, MA: Kluwer Academic Publishers.
+PRC Docket No. R2000-1 USPS LR-I-481, FY 1999 and TY Mail
+Processing Unit Costs by Shape with Piggyback Factors (Update to
+LR-I-81 & 464 Provided in Response to POR No. 116) Using FY 99
+Base Year and Alternative IOCS Methodology
+
+
+
+

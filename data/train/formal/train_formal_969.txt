@@ -2,829 +2,501 @@
   
     
       
-        Background
-        Vacuolar-type H +-ATPases are enzymes responsible for
-        the energization of membranes and the acidification of
-        compartments within the eukaryotic cell via the
-        establishment of proton and electrochemical gradients at
-        the expense of ATP. The vacuolar type H +-ATPase in plants
-        is a large multimeric enzyme complex whose function is to
-        pump protons across a membrane via primary active
-        transport. Vacuolar type ATPases are homologs of the F-type
-        ATP synthases and probably convert the free energy of
-        hydrolysis of the high-energy phosphate bond into
-        rotational motion [ 1 2 3 4 5 6 7 8 9 ] . Vacuolar type H
-        +-ATPases are critical for the maintenance of homeostasis
-        in eukaryotic cells [ 10 11 ] .
-        In plant cells V-ATPases are responsible for the
-        deacidification of the cytosol and the energization of
-        secondary transport processes across the tonoplast, as well
-        as in the endocytotic and secretory pathways [ 12 ] . In
-        addition, the vacuolar type ATPase is thought to be
-        primarily responsible for the acidification and expansion
-        of the large central vacuole [ 12 13 14 15 ] . In plants a
-        critical event in growth and development is the maturation
-        and expansion of the central vacuole. Upon maturation, the
-        vacuolar contents can comprise more than eighty percent of
-        the total cell volume [ 16 ] . Primarily filled with water,
-        the vacuole also is a repository for a wide variety of
-        solutes fulfilling numerous important metabolic functions.
-        The influx of water and metabolites into the vacuole is
-        dependent in part on the generation of a proton motive
-        force across the tonoplast.
-        Vacuolar type H +-ATPases are large, multimeric enzyme
-        complexes of 500-750 kDa consisting of 15 or more different
-        proteins. Structurally, they can be divided into integral
-        (V 
-        0 ) and peripheral (V 
-        1 ) membrane sectors [ 17 ] . The
-        peripheral membrane sector is located on the cytoplasmic
-        side of the membrane and is composed of at least five
-        different subunits including the catalytic subunit, subunit
-        A. The V 
-        1 peripheral sector is further divided
-        into a head group and stalk region. The V 
-        0 integral sector is embedded in the
-        membrane and consists of at least 4 different subunits.
-        Subunit A of the vacuolar-type H +-ATPase is the
-        catalytic subunit. The subunit A protein is approximately
-        70 kDa in most organisms studied and is a hydrophilic
-        peptide located in the head group of the V 
-        1 peripheral sector in three copies per
-        holoenzyme [ 18 ] . This subunit contains a nucleotide
-        binding motif and functions to bind and hydrolyze ATP [ 19
-        ] . In addition, subunit A contains a highly conserved
-        cysteine residue located within the enzymes' catalytic
-        center that may be involved in regulation of the holoenzyme
-        [ 20 21 22 23 ] . Cloning, sequencing and characteristics
-        of subunit A of the V-Type ATPase from 
-        Arabidopsis thaliana have been
-        previously reported [ 24 ] .
-        Small multigene families of V-ATPase subunit A are known
-        to exist in flowering plants and algae. The catalytic
-        subunit exists as two distinct genes with highly conserved
-        exons and intron boundaries in twelve species of plants [
-        25 ] . In the flowering plant 
-        Daucus carota (carrot) evidence
-        exists for two distinct isoforms for the catalytic subunit,
-        one of which is tonoplast specific while the other is
-        localized to the Golgi [ 26 ] . In addition, two distinct
-        mRNAs have been isolated from cotton ( 
-        Gossypium hirsutum ) [ 27 ] . Two
-        subunit A mRNAs are expressed in the unicellular alga 
-        Acetabularia acetabulum [ 28 29 ] .
-        Isoforms of other V-ATPase subunits are also known from
-        plants including subunit B [ 27 30 32 ] , the proteolipid
-        subunit [ 33 34 35 36 37 ] and subunits D and E [ 38 ]
+        Introduction
+        Osteoclasts are large, multinucleated bone-resorbing
+        cells derived from the monocyte-macrophage lineage [ 1 ] .
+        Their bone-resorbing capacity is unique; no other cell
+        shares this capability. Osteoclasts are critical for both
+        the continuous remodeling of normal bone tissue as well as
+        the repair of fractured bones [ 2 ] . During normal bone
+        remodeling, osteoclast-mediated bone resorption is balanced
+        by osteoblast-mediated bone formation, resulting in the
+        maintenance of skeletal bone mass. As a consequence,
+        osteoclast dysregulation leads to osteoporosis (decreased
+        bone mass caused by excess osteoclast activity) or to
+        osteopetrosis (increased bone mass caused by insufficient
+        osteoclast activity). Considering the tremendous morbidity
+        and cost of metabolic bone diseases [ 3 ] , improving our
+        molecular understanding of osteoclast development and
+        function is critical towards the design of therapies to
+        combat these prevalent diseases.
+        The molecular signals required for osteoclastogenesis
+        have recently been elucidated [ 1 4 5 ] .
+        Receptor-activator of NFκB ligand (RANKL), a tumor necrosis
+        factor superfamily ligand expressed by stromal cells,
+        osteoblasts, and activated T cells, binds to its cognate
+        receptor-activator of NFκB (RANK) receptor on
+        macrophages/monocytes, inducing a signal that gradually
+        transforms the macrophages into osteoclasts over a period
+        of several days [ 6 7 ] . While this interaction occurs
+        largely in the bone microenvironment, it has been shown
+        that monocytes from the spleen, peripheral blood, and
+        synovium are all capable of RANKL-dependent osteoclast
+        formation [ 8 ] . Convincing evidence has been generated
+        indicating that the RANK-RANKL interaction is absolutely
+        required for osteoclastogenesis [ 7 ] ; in the absence of
+        these molecules, osteoclastogenesis cannot occur [ 9 ]
         .
-        What is lacking in our knowledge of vacuolar type
-        ATPases is a sense of what purpose these multigene family
-        proteins may serve in the cellular milieu and how they
-        participate in the growth, development, and metabolism of
-        higher plants. It has been proposed that multigene families
-        might be encoding functionally distinct isoforms of
-        V-ATPase subunits. These isoforms may be required to
-        provide unique functions or regulatory constraints within
-        the varied micro-compartments requiring V-ATPases [ 26 27
-        34 39 43 ] . In addition, different isoforms may be
-        responsible for targeting to varied subcellular
-        compartments [ 10 26 28 36 41 44 47 ] . Furthermore, it is
-        possible that gene family members may behave in a
-        differential manner with respect to environmental stress [
-        36 ] .
-        Three enzymes are primarily responsible for the
-        maintenance of proton flux across the tonoplast in plants,
-        the vacuolar H +-ATPase, the H +pumping pyrophosphatase [
-        48 ] and the Na +/H +antiporter [ 49 50 ] . All three
-        enzymes have been implicated in allowing plants to cope
-        with environmental stress conditions.
-        Several studies have been conducted in an attempt to
-        evaluate the role vacuolar type ATPases play in allowing
-        plants to cope with environmental stress. These endeavors
-        have primarily concentrated on salt and cold stress. Cold
-        tolerant 
-        Brassica napus, a close relative of 
-        Arabidopsis thaliana, demonstrated an
-        increase in both subunit A mRNA and protein in response to
-        chilling at 2°C [ 50 ] . This chilling also resulted in a
-        concomitant increase in cell sap osmotic pressure and
-        endogenous ABA accumulation. These researchers indicated
-        that 
-        Arabidopsis also was a cold tolerant
-        plant which exhibited a similar response with respect to
-        V-ATPase subunit A mRNA, however they provided no data. In
-        rice ( 
-        Oryza sativa ) chilling plants at
-        10°C resulted in a two fold increase in vacuolar type
-        ATPase activity evaluated by in vitro assay of isolated
-        membranes [ 51 ] . This study did not analyze changes in
-        protein level in the isolated membranes in response to
-        chilling. Cold sensitive mung bean seedlings ( 
-        Vigna radiata ) subjected to chilling
-        at 4°C for 48 hours contrastingly showed no increase in
-        vacuolar type ATPase activity in isolated membranes [ 52 ]
-        . In addition, these researchers found no change in the
-        amount of V-ATPase protein levels in response to
-        chilling.
-        The facultative CAM plant 
-        Mesembryanthemum
-        crystallinum displays a differential organ level
-        response to salt stress while still engaged in C 
-        3 photosynthesis [ 53 ] . Subjecting
-        plants to 400 mM NaCl resulted in an approximately two fold
-        increase in the transcript levels of subunits A, B, and the
-        proteolipid in roots prior to the shift to Crassulacean
-        acid metabolism. Fully expanded leaves exhibited an
-        increase only for the proteolipid mRNA, an increase of
-        approximately three fold over non salt stressed plants [ 54
-        ] . Cell suspension cultures when subjected to salt stress
-        exhibited increase in activity of both P-Type and V-Type
-        ATPases without concomitant increase in protein levels [ 55
-        ] . Transcript levels of subunit E of the V-ATPase in 
-        Mesembryanthemum crystallinum were
-        recently shown to increase in leaves but not roots of salt
-        stressed plants with a concomitant increase in protein
-        levels in leaves [ 56 ] . On the other hand, subunit E in 
-        Hordeum vulgare showed no effect on
-        mRNA level in response to salt stress [ 57 ] . The effects
-        of salt stress on V-ATPases has also been investigated in
-        tobacco ( 
-        Nicotiana tabacum ) suspension cells.
-        Subjecting NaCl adapted cells to salt stress resulted in an
-        approximately four fold increase in both proton transport
-        and ATP hydrolysis on isolated membranes compared to
-        unadapted cells [ 58 ] . Remarkably this increase in
-        overall V-ATPase activity coincided with an apparent
-        reduction in the amount of enzyme on the tonoplast. This
-        apparently contradictory finding may be the result of
-        physical changes in the enzyme itself or changes in the
-        lipid environment [ 58 ] . Especially confounding is the
-        finding that mRNA levels for subunit A increase two to four
-        fold in response to the same levels of salt stress in
-        tobacco suspension cells [ 59 ] . Experiments with tomato (
-        
-        Lycopersicon esculentum ) showed
-        similar results with respect to induction of mRNA for
-        subunit A with an approximately two to four fold increase
-        seen with respect to salt stress [ 60 ] . Recent work in
-        the resurrection plant 
-        Tortula ruralis indicated that
-        transcript levels of the proteolipid (subunit c) increased
-        in response to salt stress but that there was no
-        corresponding increase in protein levels [ 61 ] .
-        The limited work done to evaluate the role of V-ATPases
-        in drought stress has provided conflicting results. Drought
-        stress in winter 
-        Brassica napus resulted in a very
-        similar response as cold stress, that is a dramatic
-        increase in subunit A mRNA [ 50 ] . However, drought stress
-        in 
-        Lycopersicon esculentum resulted in
-        no apparent increase in mRNA levels for subunit A [ 60 ]
-        .
-        None of the previously mentioned efforts into evaluating
-        the role of vacuolar type ATPases in environmental stress
-        acclimation take into account the fact that subunits A, B,
-        and the proteolipid are most certainly present as small
-        gene families in the plants studied. Furthermore, it is
-        possible that these gene family members may behave in a
-        differential manner with respect to stress. The only work
-        published previously on V-ATPase subunit isoforms and
-        stress is concerned with the proteolipid gene family in 
-        Arabidopsis thaliana. Three
-        proteolipid genes were evaluated for their response to salt
-        stress as well as etiolation [ 36 ] . All three genes
-        exhibited an approximately two fold increase in mRNA levels
-        in response to salt stress (50 mM). However, with respect
-        to etiolation two isoforms showed no response while the
-        third demonstrated an increase in mRNA levels.
-        A number of genes in plants have been found to contain
-        multiple poly (A) attachment sites yielding different
-        transcripts from a single gene. Several examples have
-        recently emerged where differentially polyadenylated genes
-        have transcripts that are post transcriptionally regulated
-        based on sugar sensing. In rice ( 
-        Oryza sativa ), two transcripts
-        generated off an α amylase gene exhibit differential
-        stability based on sucrose availability [ 65 ] . A cell
-        wall invertase gene ( 
-        Incw-1 ) in Maize ( 
-        Zea mays ) is expressed as two
-        transcripts differing in 3' ends. The two transcripts are
-        differentially expressed in response to sugars [ 66 ] . In
-        this study we explore the possibility that differentially
-        polyadenylated transcripts of the V-ATPase subunit A
-        encoding gene show different responses with respect to
-        etiolation, salt, or chilling stress.
-      
-      
-        Results and discussion
-        A vacuolar type H +-ATPase subunit A cDNA has been
-        previously identified and sequenced (GenBank accession
-        number U65638) [ 24 ] . The cDNA was identified as subunit
-        A of the vacuolar type H +-ATPase via identity with other
-        previously sequenced subunit A genes from other organisms.
-        The primary nucleotide and amino acid sequence of the 
-        A. thaliana subunit A cDNA showed a
-        high degree of identity with subunit A cDNA sequenced from
-        other organisms. This cDNA encoded a putative open reading
-        frame consistent with that of other subunit A genes and was
-        shown to have all the motifs common to subunit A [ 67 ] .
-        This high degree of conservation was evident across taxa as
-        diverse as animals, plants, fungi, and protozoa [ 68 ]
-        .
-        Genome blot analysis was utilized to determine the
-        number of genes in the 
-        A. thaliana genome corresponding to
-        subunit A of the vacuolar type ATPase. Genomic DNA was
-        isolated as described, subjected to restriction enzyme
-        digestion, and immobilized on a positively charged nylon
-        membrane. Ten single restriction enzyme digestions were
-        performed. Hybridization was conducted at moderate
-        stringency with a 300 base pair homologous 
-        A. thaliana cDNA probe corresponding
-        to subunit A of the vacuolar type ATPase. Results indicated
-        hybridization to only a single band for nine out of the ten
-        enzymes (Fig. 1). The 
-        Hae III digest showed faint
-        hybridization to a second band that was later shown to be
-        the result of a 
-        Hae III site located in the region of
-        the probe (results not shown).
-        All evidences acquired to date failed to indicate the
-        presence of a second V-ATPase subunit A gene in 
-        A. thaliana. Whole genome blot
-        analysis detected a single gene in the 
-        A. thaliana genome. Extensive
-        screening of a cDNA library derived from all organs and
-        multiple developmental stages of the plant revealed only a
-        single subunit A cDNA. A polymerase chain reaction based
-        screen failed to detect an intron length polymorphism
-        (results not shown) between two subunit A genes found to be
-        present in other plants [ 25 ] . Lastly, extensive database
-        searches of GenBank, the 
-        Arabidopsis EST database, and the 
-        Arabidopsis Genome Initiative (TAIR,
-        http://www.arabidopsis.org) report only a single subunit A
-        gene in the current version of the 
-        Arabidopsis genome (chromosome 1 BAC
-        F9K20).
-        This situation of a single subunit A gene appears to be
-        unusual in plants. Admittedly only a small subset of plants
-        has been examined in detail. Of the species examined to
-        date three have only a single subunit A gene detected, the
-        alga 
-        Coleochaete scutata, sugar beet ( 
-        Beta vulgarise [ 63 64 ] , and 
-        A. thaliana [ 25 ] . Flowering plants
-        shown to have at least two subunit A genes include oat ( 
-        Avena sativa ), carrot ( 
-        Daucus carota ), tobacco ( 
-        Nicotiana tabacum ), tomato ( 
-        Lycopersicon esculentum ), cotton ( 
-        Gossypium hirsutum ), magnolia ( 
-        Magnolia virginana ), 
-        Hydrastis canadensis, Chenopodium
-        rubrum, and clematis ( 
-        Clematis liguisticfolio ). In
-        addition, the unicellular alga 
-        Acetabularia acetabulum has two
-        V-ATPase subunit A genes.
-        RNA blot analysis was performed to determine the organ
-        level expression pattern of the subunit A gene. Vacuolar
-        type ATPases are housekeeping enzymes critical for the
-        maintenance of homeostasis. Therefore, it is expected that
-        all living plant cells require V-ATPase function. Since 
-        A. thaliana seemed to possess only a
-        single gene for subunit A of the V-ATPase it was expected
-        that this gene should be expressed in all organs tested.
-        Whole RNA was harvested from leaves, bolts, siliques,
-        flowers, axenically grown seedlings, and axenically grown
-        roots. RNA was denatured with glyoxal, fractionated via
-        agarose gel electrophoresis, and immobilized on a
-        positively charged nylon membrane. Hybridization was
-        conducted at high stringency with a 1700 base pair
-        homologous cDNA probe labeled with digoxigenin. In
-        agreement with our expectations, results indicated high
-        levels of expression in all organs tested (Fig. 2) with
-        slightly higher levels of subunit A mRNA present in
-        seedlings. This is most likely due to the fact that
-        seedlings are the most rapidly growing and metabolizing
-        stage of the plant tested. Seedlings are undergoing
-        dramatic and rapid vacuole biogenesis to allow for rapid
-        growth at this stage of development and therefore would be
-        expected to require a higher level of subunit A expression
-        than other more terminally differentiated organs. Roots,
-        leaves, bolts, and flowers showed approximately equivalent
-        amounts of signal with somewhat lower levels in
-        siliques.
-        Most eukaryotic mRNAs are characterized by the presence
-        of a poly (A) tail, a series of adenine residues post
-        transcriptionally attached to the 3' untranslated region.
-        The primary function of the poly (A) tail is thought to be
-        in message stability assisted by a series of poly (A)
-        binding proteins [ 69 ] . In addition, the poly (A) tail in
-        conjunction with the 5' cap may be required for efficient
-        translation of plant mRNAs [ 70 ] .
-        Subunit A of the vacuolar type H +-ATPase in 
-        A. thaliana was shown to exhibit
-        multi site polyadenylation. Sequencing the 3' ends of seven
-        independent clones isolated from the PRL-2 cDNA library and
-        one EST obtained through the 
-        Arabidopsis EST database revealed
-        four different length transcripts produced from the single
-        subunit A gene based on different poly (A) tail attachment
-        sites (Fig. 3). Multiple polyadenylation sites are fairly
-        common in plant mRNAs but this phenomenon is rare in animal
-        genes [ 71 72 ] . Since the 
-        A. thaliana V-ATPase subunit A gene
-        produced at least four different transcripts (all producing
-        the same protein) and is one of two flowering plants
-        observed to date not to have a multigene family for this
-        subunit, experiments were designed to determine if muiti
-        site polyadenylation might be a mechanism for gene
-        regulation in plants.
-        V-ATPase proteolipid isoforms were shown to exhibit
-        differential transcript expression levels in response to
-        environmental stresses [ 36 ] . This fact implies a
-        possible role for these isoforms in allowing the plant to
-        deal with stress. Experiments were designed to determine
-        if, in 
-        A. thaliana, differentially
-        polyadenylated transcripts could be regulated in response
-        to stress.
-        First, it was critical to confirm that subunit A
-        transcript levels were at all responsive to environmental
-        stress conditions. Three environmental stresses were chosen
-        including 100 mM NaCl, etiolation for four days, and
-        chilling at 6 degrees for four days. In all three
-        situations axenic, seven-day-old seedlings grown on agar
-        were evaluated. Seven day old seedlings were chosen for
-        their short growth time, limited space requirements, and
-        ease in culturing. In addition, the facts that they are
-        rapidly growing and metabolizing, were shown to produce
-        ample quantities of subunit A transcript, and possess
-        several organs including roots, hypocotyls, and cotyledons
-        made them an attractive choice for analysis.
-        Whole RNA blot analysis was used first to evaluate the
-        overall response of subunit A to stress conditions. RNA was
-        extracted from stress treated seedlings and non-treated
-        control plants. Hybridization was performed as previously
-        described. Results indicated a subunit A transcript
-        response to stress. An approximate 2-4 fold increase in
-        transcript level was detected in seedlings subjected to
-        salt and chilling stress compared to control plants (Fig.
-        4). Etiolated seedlings showed essentially equivalent
-        amounts of subunit A transcript compared to controls. Since
-        etiolation results in rapid elongation of seedlings it was
-        expected that there would be a concomitant increase in
-        subunit A messenger RNA as seen with proteolipid subunit
-        mRNA in 
-        A. thaliana [ 36 ] and subunit A
-        message levels in rapidly expanding cotton ( 
-        Gossypium hirsutum ) fibers [ 73 ] .
-        Equivalent loading of whole RNA was evaluated via
-        spectrophotometry measuring absorption at 260 nm using a
-        Perkin-Elmer Lambda-3 spectrophotometer and by visual
-        confirmation using non denaturing ethidium bromide stained
-        agarose gel electrophoresis (results not shown).
-        Having established that overall subunit A transcript
-        levels were responsive to environmental stress conditions
-        an assay was designed to examine the response of the four
-        individual lengthed transcripts to the same stress
-        conditions. The goal was to determine if any of the four
-        were differentially expressed in response to stress. A PCR
-        based approach was taken to evaluate transcript levels for
-        the four different subunit A mRNAs. Primer pairs were
-        designed (Table 1) that would only amplify one of the four
-        transcripts. This was accomplished by anchoring the
-        downstream primer in the poly (A) tail. The upstream primer
-        was located in the coding region of the subunit A cDNA.
-        Anchoring the downstream primer in the poly (A) tail
-        prevented that oligonucleotide from priming at any other
-        site since 10 out of 18 nucleotides were T's at the 5' end.
-        The primer pairs were designed such that the four
-        amplification products would differ in size by
-        approximately 100 base pairs for ease of visualization on
-        agarose gels and blots (Fig. 5and Fig. 6). Primer pair T-11
-        and T-12 corresponds to transcript-1 and produce an
-        amplification product of 579 base pairs. Primer pair T-21
-        and T-22 corresponds to transcript-2 and amplify a band of
-        455 base pairs. Primers T-31 and T-32 correspond to
-        transcript-3 and amplify a 362 base pair product. Lastly,
-        primer pair T-41 and T-42 corresponds to transcript-4 and
-        produce a 238 base pair amplification product. The
-        transcript-4 amplification product, which is the smallest
-        and nested within the other three, acted as probe to detect
-        all four transcripts. This nesting was accomplished to
-        avoid differences in signal during hybridization based on
-        different probe lengths and labeling efficiency.
-        A control experiment was performed prior to the actual
-        stress analysis to ensure that the primer pairs amplified
-        the correct transcript only and that the transcript-4 probe
-        would detect all four amplification products. Whole RNA was
-        extracted from seedlings and cDNA was generated using oligo
-        dT as described in materials and methods. Subunit A
-        transcripts were amplified from the generated cDNA with the
-        appropriate primer pairs and transferred to solid support.
-        Hybridization was performed at high stringency with the
-        transcript-4 amplification product as probe. The results of
-        this experiment indicated that all four primer pairs
-        amplified only a single band of the appropriate and
-        expected size and that the transcript-4 probe adequately
-        hybridized to all four amplification products (Fig. 5).
-        The differential expression of subunit A transcripts was
-        evaluated in response to salt, cold stress, and etiolation.
-        Complementary DNA's were generated from seven-day-old
-        seedlings subjected to individual stress conditions.
-        Transcripts 1-4 were evaluated via RT-PCR using transcript
-        specific primers. Amplification products were immobilized
-        on solid support and hybridized with the transcript-4
-        amplification product. The results of this experiment
-        indicate that all four transcripts behaved identically with
-        respect to individual stress conditions (Fig. 7). All four
-        transcripts showed approximately 2-4 fold increases in
-        response to 100 mM sodium chloride stress compared to
-        untreated controls. Similarly, treatment of plants at six
-        degrees for four days resulted in a similar increase in
-        signal for all four transcripts. Etiolation resulted in
-        slightly higher message levels for transcripts -1, -2, and
-        -3 compared to controls. The lesser degree of increase for
-        transcript-3 might be due to near saturation of the signal.
-        The latter might be due to the higher abundance of the
-        transcript, or due to more efficient amplification of the
-        transcript-3 primer set. Transcript-4 seems to show
-        slightly less signal than control plants but the
-        autoradiograph is somewhat under developed. These results
-        are in agreement with the whole RNA stress blot analysis.
-        Apparent quantitative differences in upregulation between
-        transcripts shown in (Fig. 7) might be due to differential
-        amplification efficiency of the four different primer sets
-        and do not necessarily represent true differential
-        upregulation of the four transcripts. The data can only be
-        evaluated quantitatively between samples amplified with the
-        same primer set. In summation, no significant differential
-        regulation of the four subunit A transcripts was detected
-        in seedlings in response to the three stress conditions
-        evaluated.
-      
-      
-        Conclusions
-        Evidence gathered to date indicates the presence of a
-        single gene encoding subunit A of the vacuolar type H
-        +-ATPase in 
-        A. thaliana. The search for
-        additional subunit A genes was conducted using whole genome
-        blot analysis, screening a lambda PRL-2 cDNA library,
-        intron length polymorphism analysis, and extensive computer
-        searches of the 
-        Arabidopsis Expressed Sequence Tag
-        database, GenBank, and the 
-        Arabidopsis Genome Initiative. Most
-        flowering plants evaluated to date have a small multigene
-        family encoding subunit A of the vacuolar type H +-ATPase.
-        The small size of the 
-        A. thaliana genome may be indicative
-        of a trend toward streamlining of DNA in this plant, which
-        may have eliminated a redundant subunit A gene over
-        evolutionary time. Subunit A genes and subsequently
-        proteins are highly conserved. Therefore, it is not likely
-        that a subunit A gene would have escaped the screen by
-        having a low degree of nucleotide identity.
-        Vacuolar type ATPases are housekeeping enzymes probably
-        needed in all living plant cells. The single 
-        A. thaliana subunit A gene was shown
-        by whole RNA blot analysis to be transcribed in all organs
-        of the plant tested. The organs analyzed included roots,
-        leaves, bolts, siliques, and flowers. In addition,
-        relatively high levels of transcript were found in whole
-        seedlings. These results support the notion of a single
-        subunit A gene in 
-        A. thaliana that is transcribed in
-        all cells of the plant.
-        Numerous examples are present in the literature [see [
-        14 ] and references therein] of changes in transcript,
-        protein, or activity levels of vacuolar type H +-ATPases in
-        response to environmental stress. These results indicate a
-        potential role for the vacuolar type H +-ATPase in
-        maintenance of homeostasis during times of environmental
-        stress. Whole RNA blot analysis performed on seedlings
-        exposed to environmental stress conditions indicated that
-        transcript levels of subunit A were responsive to salt and
-        cold stress treatments. Transcript levels were shown to
-        increase approximately 2-4 fold in seedlings treated with
-        cold and salt stress. Etiolation did not produce as
-        significant a change in transcript level as salt and cold
-        stress.
-        The single vacuolar type H +-ATPase subunit A gene
-        detected in 
-        A. thaliana can produce at least four
-        different length transcripts by using different
-        polyadenylation sites. These transcripts differ only in
-        their 3' untranslated region and produce identical
-        proteins. The presence of regulatory elements in the 3'end
-        of the subunit A gene could be a potential mechanism by
-        which this protein is post transcriptionally regulated.
-        However, the evidence gathered in this work indicates
-        that the four different transcripts generated off the
-        single subunit A gene are not significantly differentially
-        regulated in response to salt, chilling, or etiolation in
-        axenically grown seedlings. Multi site polyadenylation does
-        not appear to be a mechanism for posttranscriptional
-        control of gene expression for subunit A of the vacuolar
-        type H +-ATPase in 
-        A. thaliana for the stress conditions
-        and developmental stage tested.
+        While the RANK-RANKL signal is absolutely required for
+        osteoclastogenesis, the efficiency of this process is
+        influenced by cytokines. The proinflammatory cytokines
+        tumor necrosis factor alpha, IL-1, and IL-6 augment
+        osteoclastogenesis [ 9 10 11 ] , while IL-10, IL-12, IL-18,
+        and IFN-γ antagonize osteoclastogenesis 
+        in vitro [ 12 13 14 15 ] . It is
+        probable that cytokines play a vital role in the delicate
+        balance of bone remodeling, and that therapies based upon
+        their natural biological function can be designed.
+        IFN-γ is a cytokine secreted primarily by activated T
+        cells and NK cells whose role in bone biology is only
+        beginning to be clarified. It was originally characterized
+        as a powerful macrophage activator that upregulated nitric
+        oxide (NO) production and MHC expression in macrophages [
+        16 ] . It has since been shown to stimulate antiviral and
+        antibacterial activities, to differentiate Th0 cells toward
+        Th1 fates, and to activate endothelial cells for leukocyte
+        adhesion (reviewed in [ 17 18 ] ).
+        With respect to osteoclast formation, IFN-γ is known to
+        potently inhibit RANKL-mediated osteoclastogenesis in both
+        spleen-derived macrophage cultures and bone marrow
+        coculture systems [ 19 20 21 ] . It has also been
+        demonstrated that mice defective in IFN-γ signaling have a
+        more rapid onset of arthritis and bone resorption compared
+        with wild-type mice, suggesting a protective role of IFN-γ
+        in early arthritis [ 21 22 ] .
+        There are situations, however, in which the
+        anti-osteoclastogenic effects of IFN-γ are not so clear.
+        While IFN-γ is not highly expressed in joints of patients
+        with rheumatoid arthritis, diseases such as erosive
+        tuberculoid leprosy [ 23 24 ] and psoriatic arthritis [ 25
+        ] are associated with high Th1 cytokines such as IFN-γ [ 26
+        ] . In these conditions, tissue destruction has been shown
+        to correlate with Th1-mediated immune responses and the
+        production of IFN-γ, indicating that osteoclastogenesis may
+        occur in the presence of elevated IFN-γ [ 27 ] .
+        Furthermore, several clinical studies have failed to
+        demonstrate efficacy of IFN-γ administration as an
+        anti-osteoclastogenic agent to prevent bone loss [ 28 29 30
+        ] . There seem to be situations in which IFN-γ does not act
+        as an anti-osteoclastogenic agent. In particular, IFN-γ has
+        been shown to be efficacious in the treatment of
+        osteoporosis in humans [ 31 ] .
+        In the present study, we demonstrate that early exposure
+        to RANKL renders osteoclast precursors resistant to the
+        effects of IFN-γ, including inhibition of
+        osteoclastogenesis. These effects were irreversible and not
+        caused by inhibition of proximal signaling at the level of
+        STAT1 or TRAF6, suggesting that resistance to IFN-γ is
+        caused by a complex differentiation program specifying the
+        osteoclast fate. These data may help explain the
+        contradictory findings regarding the effects of IFN-γ as an
+        inhibitor of osteoclastogenesis, and also suggest a model
+        of erosive disease in the presence of IFN-γ whereby
+        osteoclast precursors are exposed to RANKL before they
+        enter the IFN-γ-rich environment.
       
       
         Materials and methods
         
-          Plant materials
+          Cytokines and growth factors
+          Murine IFN-γ, macrophage colony-stimulating factor,
+          tumor necrosis factor alpha, IL-1, IL-10 and IL-6 were
+          obtained from R&D Systems (Minneapolis, USA).
+          GST-mRANKL was generated as described later. Human RANKL
+          was a gift from Immunex (Seattle, USA) and was used to
+          verify the efficiency of GST-RANKL protein as verified by
+          splenic osteoclast induction.
+        
+        
+          Cell culture and animals
+          The RAW264.7 mouse macrophage cell line was obtained
+          from ATCC (Manassas, USA) and grown in a humidified 5% CO
           
-          Arabidopsis thaliana ecotype
-          Columbia seeds were obtained from the 
-          Arabidopsis Biological Resource
-          Center, Ohio State University, Columbus OH. Seeds were
-          germinated in 4-inch pots according to standard
-          protocols. Axenic seedlings, and soil grown plants were
-          maintained in a growth chamber at 23°C under a 16-hour
-          photoperiod until appropriate organs were mature. Axenic
-          seedling cultures were prepared by placing surface
-          sterilized seeds on 90 mm germination plates containing
-          1% agar and 4.4 g/L MS salts with minimal organics (Sigma
-          Chemical Co. St. Louis, MO), pH 6.0. Seedlings were
-          harvested when 7 days old. Axenic roots were obtained by
-          plating surface sterilized seeds on Nunc square Bio-Assay
-          dishes (Fisher Scientific, Pittsburgh, PA). Plates were
-          allowed to dry under a laminar flow hood, sealed with
-          paraflim and incubated vertically as above. Roots were
-          harvested 7-14 days later.
-          Growth effects of salt stress were evaluated by
-          germinating surface sterilized seeds on agar containing
-          various concentrations of sodium chloride. The optimal
-          concentration chosen to evaluate the effects of salt
-          stress on V-ATPase subunit A transcript levels was 100
-          mM. Higher concentrations resulted in failure to
-          germinate or extremely poor growth. At 100 mM salt most
-          seeds germinated but required more time to do so than
-          controls. Plantlets did grow but were less robust than
-          non-treated controls (results not shown). Seedlings were
-          harvested after seven days of growth.
-          In the case of etiolation stress, surface sterilized
-          seeds were germinated on agar for three days under light
-          and temperature conditions described above. After three
-          days the plates were placed in a light sealed box at the
-          same temperature conditions. Seedlings were harvested
-          four days later. Plantlets exhibited the typical
-          characteristics of etiolation, the hypocotyls were
-          lengthened and the cotyledons reduced compared to light
-          grown controls.
-          Cold stress was evaluated by germinating surface
-          sterilized seeds as described for three days under normal
-          light and temperature. Agar plates containing seedlings
-          were then transferred to a cold room at 6°C. Seedlings
-          were maintained at this temperature for four days before
-          being harvested.
+          2 environment at 37°C. Cultures were
+          maintained with DMEM (R&D Systems) supplemented with
+          10% fetal bovine serum and 1% penicillin/streptomycin.
+          RAW cell osteoclasts were generated by plating exactly
+          5000 RAW cells per well in a 96-well dish with 200 ng/ml
+          GST-RANKL or additional cytokines and culturing for 4-5
+          days. In some cultures, administration of IFN-γ was
+          delayed to allow for an early effect of RANKL.
+          Osteoclasts were large, multinucleated cells, and
+          expressed high levels of tartrate-resistant acid
+          phosphatase (TRAP). For western blots, RAW cells were
+          grown in six-well dishes at 100,000 cells/well with the
+          same cytokine treatments.
+          CBA/BL6 mice (Jackson Labs, Bar Harbor, USA) were
+          sacrificed at 6-8 weeks and spleens aseptically removed.
+          Splenocytes were mechanically dissociated by disruption
+          through steel mesh, and red blood cells were lysed using
+          a hypotonic ammonium chloride solution (82.9 g ammonium
+          chloride, 10 g potassium bicarbonate, 0.37 g EDTA, 1 l
+          sterile water for a 10× solution). The remaining white
+          cells were plated in 96-well plates at 200,000 cells/well
+          with 50 ng/ml murine macrophage colony-stimulating factor
+          (R&D Systems) to preferentially maintain monocyte
+          proliferation. Large, multinucleated, TRAP +osteoclasts
+          were generated by further addition of 200 ng/ml GST-RANKL
+          and culturing for 4-6 days. IFN-γ (10 ng/ml) was added on
+          various days in some cultures.
         
         
-          Isolation of nucleic acids
-          Genomic DNA was extracted from mature leaves using a
-          miniprep protocol [ 74 ] modified by the addition of a
-          CTAB extraction [ 75 ] . 
-          A. thaliana leaves were harvested,
-          hand washed and then ground to a fine powder in liquid
-          nitrogen. Ground material was used immediately for DNA
-          extraction or stored at -80°C. Post extraction samples
-          were treated with RNAse A at 37°C for 15 minutes to
-          remove contaminating RNA.
-          Organ specific whole RNA extraction was performed as
-          described [ 75 ] . Specific organs were harvested and
-          immediately ground to a fine powder in liquid nitrogen.
-          Special care was taken in the case of siliques and
-          flowers to harvest the organs directly into liquid
-          nitrogen to prevent degradation of the RNA. Standard
-          precautions were taken to eliminate ribonuclease
-          contamination in solutions and glassware including baking
-          all glassware at 200°C for six hours, and treating all
-          solutions (except those containing Tris) with 0.1%
-          diethylpyrocarbonate for 12 hours followed by
-          autoclaving.
-          Nucleic acids were quantitated by spectrophotometry
-          and via inspection of ethidium bromide stained agarose
-          gels.
+          TRAP staining and quantitation
+          Cultures were stained with the osteoclast-specific
+          marker TRAP using a kit from Sigma (St Louis, USA). In
+          osteoclast precursors, RANKL induced increasing TRAP
+          expression until virtually 100% of mononuclear cells were
+          highly TRAP-positive. Fusion and multinucleation
+          subsequently occurred in proportion to the magnitude of
+          the RANKL stimulus.
+          Osteoclasts were counted using three equivalent
+          methods, optimized for the extent of osteoclastogenesis.
+          For extremely robust osteoclast cultures, manual tracing
+          and digital quantitation of a photographed osteoclast
+          area was the best measure due to extensive fusion and
+          multinucleation between cells (Fig. 1). Less robust
+          cultures with 80-150 osteoclasts per well were more
+          accurately quantitated by counting individual osteoclasts
+          (Fig. 2). For cultures utilizing lower levels of RANKL
+          and low osteoclast numbers, densitometric quantitation of
+          TRAP was a more sensitive measure of osteoclastogenesis
+          (Fig. 2d).
         
         
-          Genome blot analysis
-          Genomic DNA (5-10 μg) was digested with restriction
-          enzymes according to the manufacturers recommendations.
-          Digested DNA was size fractionated via gel
-          electrophoresis in 12 cm gels containing 0.8% agarose run
-          in IX TAE or TBE at 25 volts for 12 hours. Fractionated
-          DNA in gels was depurinated, denatured, and neutralized
-          according to standard protocols [ 76 ] . DNA was
-          transferred to positively charged nylon membranes (Hybond
-          N +) (Amersham Pharmacia Biotech, Inc., Piscataway, NJ)
-          by the wick transfer method using 20X SSC overnight.
-          Membranes were baked at 80°C for 1.5 hours.
-          Hybridization was performed according to a procedure
-          from [ 77 ] modified as described below. Membranes were
-          first washed for 5 minutes in 5X SSC at room temperature
-          followed by 1 hour at 65°C in 1X SSC/0.1% SDS. Membranes
-          were then pre-wet for 10 minutes in wash buffer (20 mM Na
-          
-          2 HPO 
-          4 pH-7.2, 1 mM EDTA, 1% SDS).
-          Prehybridization was performed at 67°C for two hours in a
-          seal-a-meal bag (Dazey Corporation, Industrial Airport,
-          KS) with hybridization solution (0.25 M Na 
-          2 HPO 
-          4 pH-7.2, 1 mM EDTA, 20% SDS with 0.5%
-          blocking reagent-Boehringer Mannheim, Biochemical
-          Products, Indianapolis IN) at a volume of 125 μl/sq. cm.
-          of membrane and with formamide added to a final
-          concentration of 25% and 15 μg/ml boiled salmon sperm
-          DNA. Hybridization was performed overnight at 67°C in a
-          sealed bag with 125 μl/sq cm fresh hybridization solution
-          containing formamide and salmon sperm DNA as above with
-          the addition of 40 ng/ml digoxigenin labeled probe
-          denatured by boiling for 5 minutes. The probe utilized
-          was a 300 base pair digoxigenin labeled PCR product.
-          Membranes were washed after hybridization four times
-          at 65°C for 30 minutes each with vigorous agitation in
-          wash buffer. Membranes were then soaked for 10 minutes in
-          maleate buffer (0.1 M maleic acid, 3 M NaCl, 0.3% Tween
-          20, pH 8) at room temperature followed by blocking for
-          two hours at room temperature in maleate buffer with 0.5%
-          blocking reagent (Boehringer Mannheim, Biochemical
-          Products, Indianapolis IN). Blocked membranes were sealed
-          in a bag with 125 μl/sq. cm. of maleate buffer with 0.5%
-          blocking reagent to which was added anti digoxigenin Fab
-          fragment antibody (diluted 20,000:1) conjugated with
-          alkaline phosphatase (Boehringer Mannheim, Biochemical
-          Products, Indianapolis IN). After incubation for 30
-          minutes at room temperature membranes were washed in
-          maleate buffer four times for 15 minutes each at room
-          temperature. Next, membranes were soaked for 10 minutes
-          in substrate buffer (100 mM TRIS, 100 mM NaCl, 50 mM MgCl
-          
-          2 pH 9.5) at room temperature.
-          Incubation was then performed for ten minutes at room
-          temperature with CDP-Star chemiluminescent substrate
-          (Boehringer Mannheim, Biochemical Products, Indianapolis
-          IN) diluted 1:100 in substrate buffer. Membranes were
-          then exposed to X-ray film.
+          Purification of GST-RANKL
+          GST-RANKL was purified as described previously [ 32 ]
+          . Briefly, a fragment of murine RANKL cDNA was cloned
+          inframe into the pGEX-4T vector (Amersham Pharmacia,
+          Piscataway, USA) and expressed in BL21 bacteria (Amersham
+          Pharmacia) induced with 0.1 mM IPTG (Gibco) for 5 hours
+          at 30°C. Bacteria were lysed, and soluble proteins were
+          recovered using glutathione-agarose beads (Amersham
+          Pharmacia). Protein purity was assessed by SDS-PAGE with
+          Coomassie Blue by comparison with 99% pure BSA standards
+          (Sigma) and shown to of equivalent purity (Fig. 1a). The
+          bioactivity of GST-RANKL was verified by RAW cell
+          osteoclastogenesis and TRAP expression before
+          experimental use. A dose of 200 ng/ml GST-RANKL had
+          equivalent bioactivity to 100 ng/ml eukaryotically
+          expressed human RANKL protein (donated by Immunex).
         
         
-          Whole RNA blot analysis
-          RNA was fractionated via denaturing agarose gel
-          electrophoresis using glyoxal according to standard
-          protocols [ 76 ] . Immediately before use the glyoxal was
-          deionized by vortexing in the presence of mixed bed resin
-          beads (Sigma Chemical Co. St. Louis, MO) until the pH was
-          greater than 5. Determination of pH was made using
-          Hydrion pH sensitive paper (Fisher Scientific,
-          Pittsburgh, PA).
-          Agarose gels (0.8%, 12 cm) cast in 10 mM sodium
-          phosphate buffer were run for 2 hours at 100 volts with
-          the buffer recirculated by a peristaltic pump. RNA gels
-          were blotted using the same procedure as DNA gels
-          omitting the depurination, denaturation, and
-          neutralization steps. In addition, hybridization and
-          chemiluminescent immunodetection were also performed
-          using the same protocol for genome blot analysis except
-          for the following. Just prior to prewetting in wash
-          buffer for prehybridization RNA membranes were given two
-          deglyoxylation washes in 20 mM Tris pH 8 for twenty
-          minutes each at 65°C. The probe used for whole RNA blot
-          analysis was a 1700 base pair PCR product.
+          NO measurement
+          NO production was measured by the Greiss reaction
+          (Promega, Madison, USA), which spectrophotometrically
+          detects nitrite, a stable breakdown product of NO whose
+          accumulation reflects NO production. RAW cells were
+          plated in 96-well plates, and were stimulated with
+          GST-RANKL (200 ng/ml) and/or IFN-γ (10 ng/ml). Cell
+          supernatants were harvested and reacted with 1%
+          sulfanilamide and 0.1% naphthyl-ethylenediamine. A
+          standard curve was constructed using dilutions of sodium
+          nitrite, and the absorbance was measured at 550 nm.
+          Similar data were obtained from protein-normalized data
+          to control for variation in cell number or
+          proliferation.
         
         
-          Generation of complementary DNA
-          Synthesis of cDNA was accomplished using MMLV reverse
-          transcriptase (Gibco BRL Life Technologies, Bethesda, MA)
-          and oligo dT according to the manufacturers instructions.
-          Whole RNA was diluted to a concentration of 0.67 μg/μl in
-          a total volume of 10-15 μl. The sample was heated at 90°C
-          for 5 minutes and chilled on ice. The reverse
-          transcription reaction mixture included the following
-          components in a total volume of 20 μl. Nucleotides
-          (dNTP's) (Amersham Pharmacia Biotech, Piscataway, NJ)
-          were added to a final concentration of 0.5 mM. Forty
-          units of a ribonuclease inhibitor (RNAsin) (Promega,
-          Madison, WI) were added. Denatured, whole RNA (2 μg) was
-          added in a volume of 3 μl. Oligo dT primer (1.1 μl) was
-          added to a final concentration of 1.5 μM. Dithiothreitol
-          was added to a final concentration of 10 mM. Dilution
-          buffer (5X concentration, provided by the manufacturer)
-          was added to a final concentration of 1X. After all the
-          components were assembled, 200 units of MMLV reverse
-          transcriptase (Gibco BRL Life Technologies, Bethesda, MA)
-          were added. The sample was incubated at 42°C for 1 hour
-          followed by heat denaturation of the enzyme at 95°C for
-          10 minutes. Samples were stored at -20°C.
+          Western blotting
+          Cells were lysed with hypotonic lysis buffer with
+          protease inhibitors (Roche/Boehringer Mannheim,
+          Indianapolis, USA). Thirty micrograms of cytoplasmic
+          lysates or 20 μg nuclear lysates were loaded onto 12%
+          SDS-PAGE gels and immunoblotted using chemiluminescent
+          antibodies. Short exposures of blots were also performed
+          to verify that signals shown did not result from blot
+          overexposure. All antibodies were from Santa Cruz (Santa
+          Cruz, USA) except anti-actin, which was purchased from
+          Sigma.
         
         
-          Polymerase Chain Reaction amplifications
-          In general, PCR reactions were performed in a volume
-          of 50 μl with 50 picomoles of each primer, dNTP's
-          (Amersham Pharmacia Biotech, Inc., Piscataway, NJ) at a
-          final concentration of 0.5 mM, 1 μl of template, 1X PCR
-          buffer (10X PCR buffer contained 700 mM Tris pH 8.8, 20
-          mM MgCl 
-          2 , 1% Triton X-100, and 0.1% Tween
-          20) and Taq polymerase (Perkin-Elmer Inc., Wellesley MA)
-          diluted to the manufacturers recommendations. The
-          reaction components were assembled except Taq polymerase
-          and heated at 95°C for 5 minutes. Polymerase was added
-          and the PCR allowed to cycle for 1 minute at 94°C, 1
-          minute at 55°C and 1.5 minutes at 72°C for 30 cycles
-          followed by 10 minutes at 72°C.
-          All digoxigenin labeled probes for non-radioactive
-          detection were generated using the Polymerase Chain
-          Reaction. Probes were labeled using 10X PCR labeling mix
-          (Boehringer Mannheim, Biochemical Products, Indianapolis
-          IN) at a concentration of 1X replacing the normal dNTP
-          mix. In each case 1 μl of template was added to the
-          reaction mix. Template was created by amplifying a band
-          off an Expressed Sequence Tag (EST G 
-          5 B 
-          3 T 
-          7 ) from the 
-          Arabidopsis expressed sequence tag
-          database [ 78 ] , fractionating the product on a low
-          melting point agarose gel, and excising the band. The
-          excised, diluted band was re-amplified to ensure fidelity
-          of the PCR. After successful re-amplification the
-          template was utilized for probe generation.
-          A 300 base pair cDNA probe corresponding to nucleotide
-          residues 779-1078 of the 
-          A. thaliana vacuolar type H
-          +-ATPase subunit A gene was generated using primers SM-2
-          and SM-3 (Table 1). This probe was used for whole genome
-          blot analysis. An approximately 1700 base pair cDNA probe
-          corresponding to nucleotide residues 274-1981 of subunit
-          A was generated using primers VA-1 and VA-9. This probe
-          was used for multi organ RNA blot analysis and stress
-          response northerns. In both cases template was generated
-          off EST G 
-          5 B 
-          3 T 
-          7 . Cycling parameters for both probes
-          were identical to those described above.
-          Probes were precipitated by adding 1 μl of tRNA (10
-          mg/ml) or 1/50 thvolume of glycogen (10 mg/ml in sterile
-          distilled water) to the PCR reaction followed by 1/10
-          thvolume of sterile 4 M lithium chloride. Next, 3 volumes
-          of ice-cold absolute ethanol were added and the DNA
-          precipitated for 30 minutes at -80°C. DNA was pelleted by
-          centrifugation at 4°C for 15 minutes. Pellets were washed
-          with ice cold 70% ethanol, air dried for 15 minutes and
-          resuspended in 50 μl TE buffer/0.1 % SDS. Probes were
-          quantitated by fractionation of 1/10 thvolume in a 0.8%
-          agarose gel compared to a known quantity of 
-          Hind III digested lambda DNA.
-          Probes were stored at -20°C until use.
-          Four different subunit A transcripts were amplified
-          using RT-PCR. Primer pairs were designed with one
-          upstream coding region primer and one primer anchored in
-          the poly (A) tail of the transcript. In all four cases
-          template was 1 μl of seedling cDNA. Amplification
-          reaction mixtures were assembled as described, with PCR
-          buffer modified to contain only 1 mM magnesium chloride.
-          Transcript 1 was amplified using primers T-11 and T-12
-          (Table 1). Transcript 2 was amplified using primers T-21
-          and T-22. Transcript 3 was amplified using primers T-31
-          and T-32. Transcript 4 was amplified using primers T-41
-          and T-42. The PCR was allowed to proceed in each case for
-          30 cycles of 1 minute at 94°C, 1 minute at the annealing
-          temperature, and 1 minute at 72°C. Primers amplifying
-          transcripts 1 and 2 were annealed at 35°C, primers
-          amplifying transcripts 3 and 4 were annealed at 40°C.
-          Following 30 cycles, primer extensions were completed at
-          72°C for 10 minutes. PCR products were then fractionated
-          on 2.5% agarose gels.
-          The transcript 4 amplification product was used as
-          template for the generation of a digoxigenin labeled
-          probe for use in the subunit A transcript stress response
-          experiment. The transcript 4 amplification product was
-          purified via low melting point agarose gel
-          electrophoresis and used as template for probe
-          generation. The digoxigenin labeled probe was generated
-          as described using the transcript 4 cycling parameters
-          and primers T-41 and T-42.
-          DNA sequence of all PCR primers used in this research
-          can be found in Table 1. A diagrammatic representation of
-          the PCR amplification products generated from transcript
-          specific primers is shown in fig. 6.
+          Flow cytometry
+          After red blood cell lysis, a single cell suspension
+          was incubated with antimurine CD16/32 (Pharmingen, San
+          Diego, USA) to block Fc receptor-mediated antibody
+          binding. Cells were then labeled with
+          phycoerythrin-conjugated anti-CD11b antibodies
+          (Pharmingen) or fluorescein-conjugated RANKL (a gift from
+          M Tondravi, American Red Cross, Rockville, MD, USA) as
+          described previously [ 33 ] . Data were acquired using a
+          FACScalibur instrument (Beckton Dickenson, Bedford, MA,
+          USA) and were analyzed by Cellquest software (version
+          3.1, Beckton Dickenson). CD11b expression followed a
+          normal-type distribution in all groups indicative of one
+          population, and the mean fluorescent intensity was thus
+          the unit of measure. RANK staining indicated two
+          populations, and the relative size of the high RANK
+          expressing (RANKhi) population was thus expressed on a
+          percentage basis.
         
+      
+      
+        Results
+        
+          IFN-γ potently and irreversibly inhibits
+          RANKL-induced osteoclastogenesis
+          To evaluate the effects of IFN-γ on
+          osteoclastogenesis, we utilized the mouse macrophage cell
+          line RAW264.7 (RAW cells) or splenic macrophages from
+          CBA/BL6 mice as osteoclast precursors. These cells have
+          been demonstrated to recapitulate critical aspects of
+          osteoclast formation and activity, including bone
+          resorption, expression of calcitonin receptor,
+          multinuclear fusion, and TRAP expression [ 6 34 ] .
+          A dose of 200 ng/ml RANKL generated numerous large,
+          multinucleated osteoclasts. Lower doses induced the
+          osteoclast-specific marker TRAP in mononuclear cells but
+          generated substantially fewer osteoclasts (Fig. 1a,1b). A
+          24-hour exposure to IFN-γ was sufficient to potently and
+          irreversibly inhibit osteoclastogenesis in the presence
+          of maximal doses of RANKL (Fig. 2). The exposure also
+          induced a stellate cellular morphology consistent with
+          that of an activated macrophage (Fig. 2). The rapid and
+          irreversible effects of IFN-γ on osteoclast inhibition
+          indicate a dominant effect of this cytokine over RANKL
+          via induction of monocyte differentiation toward the
+          activated macrophage fate, as opposed to the osteoclast
+          fate, when concomitantly administered.
+        
+        
+          RANKL-pretreated RAW cells are resistant to the
+          anti-osteoclastogenic effect of IFN-γ
+          The different kinetics between IFN-γ-mediated
+          macrophage activation (<24 hours) and RANKL-medicated
+          osteoclastogenesis (4-5 days) prompted us to investigate
+          the effects of IFN-γ on RANKL-pretreated cells (Fig. 3).
+          Pretreatment of RAW cells with RANKL for 48 hours
+          rendered them resistant to IFN-γ; these mononuclear cells
+          formed multinuclear osteoclasts despite the presence of
+          maximally inhibitory doses of IFN-γ (10 ng/ml).
+          To characterize this RANKL-mediated resistance to
+          IFN-γ, we performed a series of dose-response and time
+          course experiments. Pretreatment with lower doses of
+          RANKL was unable to overcome IFN-γ inhibition, indicating
+          that resistance to IFN-γ required high levels of RANKL
+          pretreatment (Fig. 4a,4b). The duration of RANKL
+          pretreatment was also important; the longer the
+          pretreatment phase, the greater the resistance to IFN-γ
+          (Fig. 4c). Together these data show that pretreatment
+          with RANKL increases resistance to IFN-γ-mediated
+          osteoclast inhibition in a dose-dependent and
+          time-dependent manner.
+          The mechanism by which IFN-γ and RANKL reciprocally
+          inhibit each other in pre-osteoclasts is independent of
+          TRAF-6 and STAT1 signal transduction. Since it is well
+          established that RANK signaling is mediated primarily
+          through TRAF6 [ 35 ] and that IFN-γ signaling is mediated
+          primarily through STAT1 [ 36 37 ] , we examined their
+          expression by western blot. We failed to observe
+          significant degradation of TRAF6 after stimulation with
+          IFN-γ or RANKL in short-term or long-term cultures (Fig.
+          5a,5b).
+          Interestingly, IFN-γ-induced STAT1 phosphorylation and
+          nuclear translocation was retained in pre-osteoclasts
+          (Fig. 5c). This result was confirmed by electrophoretic
+          mobility shift assays and the absence of detectable
+          amounts of the STAT1 antagonists SOCS1 and SOCS3 (data
+          not shown). These results show that late pre-osteoclasts
+          are capable of signaling via JAK-STAT1, and suggest that
+          signaling events distal to TRAF6 and STAT1 modulate the
+          resistance of these cells to IFN-γ.
+        
+        
+          RANKL pretreatment inhibits IFN-γ-induced
+          macrophage activation
+          We next investigated whether other IFN-γ effects
+          besides osteoclast inhibition were blunted in
+          RANKL-pretreated cells. IFN-γ-induced NO production in
+          macrophages was blunted in osteoclasts, probably due to
+          specialization for bone resorption in the latter
+          differentiated cell (Fig. 6). Pretreatment with RANKL
+          inhibited IFN-γ-induced NO production in a dose-dependent
+          and time-dependent manner (Fig. 6b,6c).
+          To expand these findings, we investigated the
+          regulation of the cell surface markers CD11b and RANK in
+          response to induction by RANKL and IFN-γ (Fig. 7). Both
+          markers were strongly upregulated by IFN-γ. Consistent
+          with our prior results, concomitant treatment of IFN-γ
+          and RANKL showed dominance of the IFN-γ upregulation,
+          while pretreatment with RANKL for 2 days showed impaired
+          upregulation. These data support the hypothesis that
+          sensitivity to IFN-γ decreases with increasing osteoclast
+          differentiation and that the mechanism by which RANKL and
+          IFN-γ reciprocally inhibit each other in pre-osteoclasts
+          is mediating the irreversible commitment into the
+          osteoclast or activated macrophage lineages.
+        
+      
+      
+        Discussion
+        The role of cellular immunity (Th1) in inflammatory bone
+        loss such as that seen in osteomyelitis and erosive
+        arthritis remains unclear. The resolution of this issue is
+        further clouded by the apparent contradictory findings that
+        IFN-γ is an extremely potent anti-osteoclastogenic factor [
+        38 ] but it can be found at high levels in sites of
+        osteolysis [ 39 ] . To reconcile this controversy we
+        performed a series of experiments aimed at understanding
+        how IFN-γ could induce either bactericidal effects via
+        macrophage activation or osteoclastic bone resorption, by
+        influencing the same progenitor cell in the same bone
+        environment.
+        We demonstrate that pre-osteoclasts stimulated with
+        RANKL for 2 days are rendered resistant to the IFN-γ
+        induced inhibition of osteoclastogenesis, NO production,
+        and upregulation of CD11b and RANK surface expression.
+        Surprisingly, this resistance is not mediated by inhibition
+        of the JAK-STAT1 pathway, as STAT1 phosphorylation, nuclear
+        translocation, and DNA-binding capabilities are all
+        preserved in the late pre-osteoclast. Together this
+        evidence suggests that RANKL modifies IFN-γ effects
+        downstream of STAT1.
+        The present results predict that timing of IFN-γ
+        exposure will be an important determinant of its biological
+        function during 
+        in vivo osteoclastogenesis. In the
+        case of circulating or peripheral macrophages that have not
+        encountered osteoclastogenic quantities of RANKL, IFN-γ
+        rapidly induces macrophage activation and subsequent NO
+        production, recruiting these cells for immune responses.
+        The dominance of IFN-γ over RANKL, which we observed 
+        in vitro (1 ng IFN-γ counteracts 200
+        ng RANKL when simultaneously administered), probably allows
+        this macrophage activation to occur even in the presence of
+        RANKL expressed on circulating, activated T cells [ 20 40 ]
+        . In the bone microenvironment, however, more abundant
+        RANKL produced by osteoblasts/stromal cells may influence
+        certain monocytes to commit to the osteoclast lineage [ 41
+        42 ] .
+        The present results predict that IFN-γ will not activate
+        these cells, as they have received an early RANKL signal.
+        The strength of the early RANKL signal may be altered in
+        the setting of inflammatory bone diseases such as
+        rheumatoid arthritis, in which high levels of RANKL
+        expressed on either synovial cells or infiltrating T cells
+        [ 43 44 ] may induce osteoclast formation despite the
+        presence of exogenous or endogenous IFN-γ.
+        The potency of IFN-γ as a macrophage activator and
+        osteoclast inhibitor suggests a prominent role for T cells
+        and/or NK cells in the regulation of bone resorption, as
+        these cells constitute the major source of IFN-γ [ 18 ] . A
+        link between activated T cells and osteoclast inhibition by
+        IFN-γ has been highlighted in a report by Takayanagi 
+        et al ., providing the first 
+        in vivo evidence that the immune
+        system may influence osteoclastogenesis [ 38 ] .
+        Interestingly, other groups have demonstrated that
+        activated T cells induce osteoclastogenesis via
+        upregulation of surface RANKL, presenting a dilemma
+        regarding the role of activated T cells in
+        osteoclastogenesis [ 20 40 45 ] .
+        It is possible that RANKL and IFN-γ expression by
+        activated T cells may be a major mechanism by which T cells
+        control the fate of osteoclasts, and that relative
+        expression of both molecules will dictate whether
+        osteoclasts are induced or inhibited. The present results
+        suggest that the influence of activated T cells on
+        osteoclasts will probably change depending on when and
+        where the T cells encounter the osteoclasts. Bone-resident
+        macrophages pre-exposed to RANKL in the stromal environment
+        may be resistant to the immunoregulatory effects of IFN-γ,
+        and may thus be better suited for bone-remodeling tasks. In
+        contrast, peripheral blood macrophages not exposed to RANKL
+        may be more responsive to the macrophage-activating
+        immunoregulatory effects of IFN-γ, and may thus be better
+        suited for antimicrobial activities.
+        The molecular mechanisms underlying the contrasting
+        effects of IFN-γ and RANKL remain elusive. Based on the
+        phenotype of knockout mice, it has become clear that TRAF6
+        is the critical adapter molecule required for RANK
+        signaling during osteoclastogenesis [ 35 ] . The importance
+        of TRAF6 has been further explored in deletion studies,
+        which correlated its various domains with its
+        osteoclastogenic potential [ 46 ] . A link between IFN-γ
+        and RANK signaling via TRAF6 has also been demonstrated in
+        bone marrow cultures, in which IFN-γ was shown to
+        accelerate the degradation of TRAF6 [ 38 ] . In our
+        studies, however, we failed to observe this TRAF6
+        degradation, as its expression remained constant in both
+        short-term and long-term cultures under conditions where
+        IFN-γ completely inhibited osteoclastogenesis. While this
+        discrepancy could be explained by the possibility that RAW
+        cells represent a stage of pre-osteoclast differentiation
+        that is not sensitive to IFN-γ-mediated TRAF6 degradation,
+        the present studies clearly indicate that IFN-γ can inhibit
+        osteoclastogenesis via a completely different
+        mechanism.
+        The retention of Jak-STAT1 signaling in RANKL-stimulated
+        pre-osteoclasts is intriguing, given their demonstrated
+        insensitivity to IFN-γ. Since it is known that osteoclasts
+        express IFN-γ receptors [ 47 48 ] , it begs the question as
+        to why this pathway remains operant. One possibility is
+        that IFN-γ-induced STAT1 activation in osteoclasts leads to
+        the expression of a unique set of genes that is distinct
+        from that in macrophages. Future studies designed to
+        understand IFN-γ signaling in mature osteoclasts are needed
+        to resolve this issue.
+        It is noteworthy to point out that the
+        dominant/irreversible inhibitory effects of IFN-γ on
+        osteoclastogenesis are fundamentally different to the
+        transient/reversible inhibitory effects of IL-4 on this
+        process, which are mediated by STAT6 inhibition of NFκB
+        activation [ 49 50 ] . In the present article, we
+        demonstrate that RANKL-induced osteoclastogenesis cannot be
+        recovered following exposure to IFN-γ. In contrast, Wei 
+        et al . have demonstrated that
+        pre-osteoclasts do not lose their potential to
+        differentiate into mature osteoclasts following a similar
+        exposure to IL-4 [ 50 ] . It thus appears that IFN-γ
+        anti-osteoclast activity is mediated by inducing terminal
+        differentiation away from the osteoclast lineage, while
+        IL-4 directly interferes with RANKL signaling during
+        osteoclastogenesis. Collectively, these findings are
+        consistent with the observations that Th1 cells are
+        associated with erosive disease [ 39 50 51 ] , that IFN-γ
+        does not have antiresorptive activity [ 52 53 54 ] , and
+        that IL-4 inhibits bone resorption [ 55 56 57 ] .
+        The present results underscore the importance of
+        developing a complete understanding of osteoclastogenesis 
+        in vivo with regard to location,
+        time, and the signal transduction pathways involved. It is
+        probable that signals such as IFN-γ will be interpreted
+        differently by precursors at various stages of development,
+        with consequent effects on disease. Future studies in this
+        area are needed to better understand how T cells producing
+        both IFN-γ and RANKL mediate immunity and bone resorption,
+        and to better elucidate their role in the pathogenesis of
+        diseases such as osteomyelitis and erosive arthritis.
+      
+      
+        Conclusion
+        We have demonstrated, using 
+        in vitro methods, that osteoclast
+        precursors exposed to RANKL for 1-2 days can be rendered
+        resistant to maximal osteoclast-inhibitory doses of IFN-γ.
+        These IFN-γ-resistant pre-osteoclasts produced low levels
+        of NO upon IFN-γ stimulation and were resistant to
+        IFN-γ-induced, Mac-1-induced and RANKL-induced surface
+        expression, suggesting a broad resistance to the cellular
+        effects of IFN-γ. The Jak-Stat1 pathway was intact in these
+        cells, indicating that downstream transcriptional events
+        are involved in the inhibition. These results imply a model
+        for arthritic joints in which macrophage precursors
+        entering an inflamed joint are exposed to RANKL and are
+        subsequently rendered resistant to the
+        anti-osteoclastogenic effects of IFN-γ expressed by
+        activated T cells in the synovium.
       
       
         Abbreviations
-        H +-ATPase-proton pumping adenosine triphosphatase,
-        V-ATPase-vacuolar type proton pumping adenosine
-        triphosphatase, EST-expressed sequence tag, PCR-Polymerase
-        Chain Reaction, RT-PCR-reverse transcriptase-Polymerase
-        Chain Reaction.
+        BSA = bovine serum albumin; DMEM = Dulbecco's modified
+        Eagle's medium; FACS = fluorescence-activated cell sorting;
+        Fc = crystallizable fragment; FITC = fluorescein
+        isothiocyanate; IFN = interferon; IL = interleukin; MHC =
+        major histocompatibility complex; NF = nuclear factor; NO =
+        nitric oxide; RANK = receptor-activator of NFκB; RANKL =
+        receptor-activator of NFκB ligand; Th = T helper cells;
+        TRAP = tartrate-resistant acid phosphatase.
       
     
   

@@ -2,579 +2,614 @@
   
     
       
-        Introduction
-        Since the early 1990s, spiral computed tomography (CT)
-        scanners have permitted assessment of the entire pulmonary
-        parenchyma in a very short period of time [ 1, 2, 3]. In
-        patients with acute lung injury (ALI) injection of contrast
-        material is considered useful for differentiating
-        consolidated lung parenchyma from pleural effusion and for
-        diagnosing lung abscess. It is also required for diagnosis
-        of pulmonary embolism. As a consequence, injection of
-        contrast material is routinely performed in critically ill
-        patients undergoing a thoracic CT scan [ 4, 5].
-        In the presence of alterations in the blood-brain
-        barrier, injection of contrast material increases brain
-        oedema [ 6, 7, 8, 9]. This is due to the direct toxic
-        effects of the contrast material on nerve cells [ 10],
-        which result from its osmotic effect after intracellular
-        penetration. Similarly, in ALI breakdown of the
-        constituents of the alveolar-capillary barrier (pulmonary
-        epithelium or capillary endothelium) causes an increase in
-        lung permeability, which is accompanied by interstitial and
-        alveolar accumulation of water and proteins [ 11].
-        Alteration in the alveolar-capillary barrier could also
-        promote leakage of contrast material into the interstitial
-        and alveolar spaces, with a consequent increase in
-        extravascular lung water. Using CT, the latter may be
-        measured as an increase in lung tissue. However,
-        administration of contrast material creates a density
-        artifact that may lead to an overestimation of lung tissue.
-        The aim of the present study was to evaluate the effects of
-        intravenous injection of contrast material on CT
-        measurement of volumes of gas and lung tissue in patients
-        with ALI, and to test the hypothesis that administration of
-        contrast material increases extravascular lung water. In
-        addition, in order to estimate the range of error in
-        determining lung tissue that results from administration of
-        contrast material, a 'lung phantom' was filled with known
-        volumes of water containing increasing concentrations of
-        contrast material and was scanned to compare the calculated
-        increases in volume of water with the actual instilled
-        volume.
-      
-      
-        Materials and method
-        
-          Patients
-          Fourteen patients hospitalized in the Surgical
-          Intensive Care Unit of La Pitié-Salpétrière for ALI were
-          prospectively studied [ 12]. Inclusion criteria were as
-          follows: a ratio of arterial oxygen tension to fractional
-          inspired oxygen of less than 300 mmHg at zero
-          end-expiratory pressure; bilateral hyper-densities on a
-          bedside chest radiogram; and pulmonary capillary wedge
-          pressure below 18 mmHg and/or left ventricular ejection
-          fraction greater than 50%, as estimated by
-          transoesophageal echocardiography. Informed consent was
-          obtained from the patients' next of kin. In each patient,
-          a thoracic CT scan with injection of contrast material
-          was indicated clinically for diagnosing lung abscess,
-          pulmonary embolism or pleural effusion.
-        
-        
-          Spiral thoracic computed tomography scan: technical
-          characteristics
-          Each patient was transported to the Department of
-          Radiology (Thoracic Division) by two experienced
-          physicians. Patients were sedated and paralyzed with a
-          continuous intravenous infusion of 5 g/kg per hour
-          fentanyl, 0.1 mg/kg per hour midazolam and 0.05 mg/kg per
-          hour vecuronium. Mechanical ventilation was provided
-          using an Osiris ventilator (Taema, Antony, France), which
-          was specifically designed for delivering 100% oxygen
-          during transportation of critically ill patients.
-          Electrocardiography, pulse oxymetry and systemic arterial
-          pressure were monitored continuously using a Propaq 104
-          EL monitor (Protocol System, North Chicago, IL, USA).
-          Spiral lung scanning was performed at end-expiration
-          from the apex to the diaphragm using a Tomoscan SR 7000
-          (Philips, Eindhoven, The Netherlands). Disconnection from
-          the ventilator and 15 s apnoea were necessary to obtain
-          the CT sections, which resulted in a transient
-          desaturation in most patients, the lowest oxygen
-          saturation measured being 87%. All images were observed
-          and photographed at a window width of 1600 Hounsfield
-          units (HU) and a level of -700 HU. The exposures were
-          taken at 120 kV and 250 mA. The value of the pitch was 1.
-          In the present study, each voxel had a volume of 1.7 mm
-          3. As previously described [ 2, 3, 13, 14], we evaluated
-          contiguous axial CT sections 10 mm thick, which were
-          reconstructed from the volumetric data. On each CT
-          section, right and left lung parenchyma were delineated
-          using the roller ball of the computer. The
-          reproducibility of manual delineation was excellent, with
-          determinations of the overall lung volume by three
-          different operators showing a maximal difference of 25
-          ml. The respective volumes of gas and lung tissue, and
-          the distribution of lung aeration were compared before
-          and after injection of contrast material using the
-          Lungview ®(Institut National des Télécommunications,
-          Evry, France), as was previously described [ 2, 3, 4,
-          15].
-          Two groups of patients were studied; in group 1 ( 
-          n = 7) CT sections were acquired
-          before and 30 s after injection of contrast material, and
-          in group 2 ( 
-          n = 7) the CT sections were
-          obtained before and 15 min after injection of contrast
-          material. In both groups, a volume of 80 ml of contrast
-          material (iobitridol; Xenetix 350, Guerbet, Roissy,
-          France) was automatically injected into the superior vena
-          cava at a constant flow of 4 ml/s. In one patient, CT
-          sections acquired 30 s after the injection of contrast
-          material were repeated 15 min later.
-        
-        
-          Computed tomography measurement of lung volumes and
-          blood density
-          
-            Apparent lung volumes of gas and tissue
-            CT scans obtained before and after injection of
-            contrast material were analyzed using specially
-            designed software (Lungview ®), which is based on the
-            tight correlations that exist between radiological and
-            physical densities [ 16].
-            Before and after injection of contrast material, the
-            analysis was performed according to the following
-            principles. The CT number characterizing each
-            individual voxel is expressed in HU and is defined as
-            the attenuation coefficient of the radiogram by the
-            material being studied minus the attenuation
-            coefficient of water divided by the attenuation
-            coefficient of water. By convention, the CT number of
-            water is 0 (HU). The CT number is scaled by a factor
-            1000, the CT number of gas being -1000 HU. A lung area
-            characterized by a mean CT number of -500 HU is
-            considered to be composed of 50% gas and 50% tissue. A
-            lung area characterized by a mean CT number of -200 HU
-            is considered to be composed of 20% gas and 80% tissue.
-            Using this analysis, it was possible to compute the
-            volume of gas and tissue present in the lungs.
-            In the first step, the distribution of CT numbers
-            was measured on each CT section for 256 compartments
-            between -1200 HU and +200 HU, examining an interval of
-            5.47 HU per compartment. For each compartment of a
-            known number of voxels, the total volume and the volume
-            of gas and lung tissue were computed using the
-            following equations (in which 'CT' is the mean CT
-            number of the compartment analyzed):
-            Volume of the voxel = (size of the pixel) 2× section
-            thickness (1)
-            Total volume = number of voxels × volume of the
-            voxel (2)
-            Apparent volume of gas = (-CT/1000) × total volume,
-            if the compartment considered has a CT number below 0
-            (volume of gas = 0 if the compartment considered has a
-            CT number above 0) (3)
-            Apparent volume of tissue = ([1 + CT]/1000) × total
-            volume, if the compartment considered has a CT number
-            below 0 (4)
-            or, volume of tissue = number of voxels × volume of
-            the voxel, if the compartment considered has a CT
-            number above 0 (4')
-            In a second step, the volumes of gas and lung tissue
-            of each region of interest were calculated by adding
-            the values of all of the compartments present within
-            the region of interest considered. In a third step, the
-            volumes of gas and lung tissue of both lungs were
-            calculated by adding the volumes of all lung regions
-            (right lung + left lung). The total lung volume at
-            end-expiration was defined as the sum of gas and tissue
-            volumes. The overall volume of gas present at
-            end-expiration in both lungs was defined as functional
-            residual capacity.
-            The distribution of lung tissue along the
-            cephalocaudal axis was determined in patients by taking
-            into consideration all 10 mm thick CT sections between
-            the apex and the lung base. The distribution of gas and
-            lung tissue along the anteroposterior axis was
-            determined on five contiguous 10 mm thick CT sections
-            located around the tracheal carina (one located at the
-            carina level, and two above and two below the carina
-            level) by taking into consideration 10 contiguous
-            compartments of similar height between the sternum and
-            the vertebrae [ 17].
-          
-          
-            Maximal artifactual increase in lung
-            tissue
-            In each patient, blood density was measured in the
-            pulmonary artery before and after injection of contrast
-            material in order to determine the concentration of
-            contrast material present in the pulmonary circulation
-            30 s and 15 min after injection.
-            The maximal artifactual increase in lung tissue was
-            calculated as follows. First, it was hypothesized that
-            the 80 ml contrast material had penetrated into the
-            alveolar-interstitial compartment and had created a
-            gas-contrast material interface. It was assumed that
-            the alveolar-interstitial contrast material
-            concentration was equal to the concentration measured
-            within pulmonary arteries, a positive concentration
-            gradient between extravascular and vasular spaces being
-            very unlikely. The new CT number of the lung parenchyma
-            (CT 
-            new ) was then calculated as
-            follows:
-            
-            Where CT 
-            control = mean CT number of the lung
-            parenchyma before injection, volume 
-            tot control = total lung volume
-            before injection, and CT 
-            blood inj = CT number of the
-            pulmonary artery following injection. The apparent
-            volume of lung tissue following injection (V 
-            tissue 1) would have been calculated
-            as follows:
-            V 
-            tissue 1 = ([1 + CT 
-            new ]/1000) × volume 
-            tot inj (6)
-            Where volume 
-            tot inj = total lung volume
-            following injection. If the 80 ml contrast material had
-            been replaced by 80 ml plasma, then the new CT number
-            (CT 
-            80 ) and the calculated volume of
-            lung tissue (V 
-            tissue 2) would have been:
-            
-            V 
-            tissue 2 = ([1 + CT 
-            80 ]/1000) × volume 
-            tot inj 
-            Where CT 
-            blood control = CT number of the
-            pulmonary artery before injection. The maximal
-            artifactual increase in lung tissue following the
-            injection of contrast material was then calculated as V
-            
-            tissue 1 - V 
-            tissue 2, and the minimal actual
-            increase in lung tissue as the apparent increase in
-            lung tissue minus the maximal artifactual increase in
-            lung tissue.
-          
-        
-        
-          Preparation of the human lung phantom
-          The error resulting from the presence of contrast
-          material in the determination of gas and lung tissue
-          volumes was assessed on a lung phantom that was prepared
-          according to a technique proposed by Markarian and Dailey
-          in 1975 [ 18, 19]. This simple and easily implemented
-          method is aimed at producing a lung specimen that can be
-          stored for over 10 years without damage [ 20] and is
-          suitable for histopathology, radiography and CT
-          examinations.
-          In 1993, a postmortem left pneumonectomy was performed
-          in a 65-year-old man who died from acute respiratory
-          distress syndrome complicating postoperative
-          bronchopneumonia 5 days after surgical resection of a
-          thoracoabdominal aortic aneurysm. The pneumonectomy was
-          performed according to the French legislation (law no
-          781181, December 22, 1976, followed by the statutory
-          order no 78501 of March 31, 1978 and the implementation
-          order of April 3, 1978) and after obtaining informed
-          consent from the patient's relatives. A thoracotomy was
-          performed in the fifth left intercostal space at the
-          bedside under surgical conditions within 20 min after
-          death. After cessation of mechanical ventilation, both
-          lungs were then removed from the thorax, with the trachea
-          being sectioned immediately beneath the larynx. After
-          dissection (carefully avoiding lung laceration), both
-          lungs were separated by a tracheal section at the carina
-          level, leaving a long portion of the left main stem
-          bronchus; the pulmonary vessels were tied with strings;
-          and the left main stem bronchus was cannulated with an
-          endotracheal tube no 7.5. The left lung was then inflated
-          via the endotracheal tube by a fixative composed of
-          polyethylene glycol 400 (25%), ethyl alcohol 95% (10%),
-          formaldehyde 37% (10%) and water (55%). The fixative was
-          instilled by gravity at a pressure of 30 cmH 
-          2 O until the lung surface was firmly
-          distended and small amounts of fixative were weeping
-          through the pleural surface. The endotracheal tube was
-          clamped in order to prevent loss of fluid, and the lung
-          specimen was floated in a container filled with the same
-          fixative for 7 days.
-          The lung was then suspended from a ring stand over a
-          drip basin and the endotracheal tube was connected to a
-          source of air equipped with a continuous positive airway
-          pressure system set at a pressure of 30 cmH 
-          2 O. The air pressure causing the
-          fixative to weep from the pleural surface was maintained
-          over 3 days, and a dry left lung with spongy texture was
-          obtained. The lung was stored in a hermetically sealed
-          bag between 1993 and 1999 without detectable
-          deterioration.
-        
-        
-          Effects of contrast material on computed tomography
-          determination of lung volumes
-          The effect of contrast material on CT determination of
-          gas and lung tissue volumes was assessed according to a
-          technique recently described [ 15].
-          In a first step, the contrast material was diluted
-          with water to obtain solutions of increasing
-          concentrations: 0%, 0.1%, 0.5%, 1%, 1.5%, 2% and 5%. The
-          mean CT attenuation corresponding to each concentration
-          of contrast material was measured by scanning one
-          reservoir filled with water and six reservoirs filled
-          with the solutions of increasing concentrations. The CT
-          attenuation of pure contrast material was 3918 HU. As
-          shown in Fig. 1, CT attenuation increased linearly with
-          the concentration of contrast material in the
-          solution.
-          In a second step, assessment of the artifactual
-          changes in gas and tissue volume in the presence of
-          contrast material was performed on the lung phantom. The
-          volumes of the different aliquots instilled in the
-          phantom were compared with the volumes computed using
-          Lungview ®on the corresponding CT scans. Equation 4 above
-          (which does not take into consideration the presence of
-          contrast material) was used for this calculation. Eight
-          CT scans of the human lung phantom were performed
-          following successive bronchial instillations of water or
-          solution containing 5% iobitridol. The phantom was first
-          filled with three aliquots of water (50, 100 and 150 ml)
-          administered into the left mainstem bronchus. After each
-          aliquot, the phantom was weighed using an electronic
-          scale (Teraillon BE 201, Paris, France). The phantom was
-          then dried with a hair drier until its weight returned to
-          the initial dry weight. One week later, the phantom was
-          filled with three aliquots of a solution containing 5% of
-          iobitridol and weighed after each aliquot.
-          The volume of each aliquot of water was equivalent to
-          its weight (physical density = 1 mg/ml). The volume of
-          each aliquot (W 
-          aliq ) containing 5% contrast material
-          was lower than its weight (physical density = 1.2 g/ml).
-          As a consequence, the volume of the aliquot (V 
-          aliq ) was calculated as V 
-          aliq = 0.943. W 
-          aliq . The volume of each aliquot
-          measured from its weight was then compared with the
-          volume of the aliquot calculated using Lungview ®.
-        
-        
-          Statistical analysis
-          Results are expressed as mean ± SD. Lung volumes
-          before and after injection of contrast material were
-          compared using a Wilcoxon test. The measured and Lungview
-          ®-derived volumes of aliquots were compared by linear
-          regression analysis and using the Bland-Altman method [
-          21]. Statistical analysis was performed using Statview
-          5.0 (SAS Institute Inc., Cary, NC, USA), and 
-          P < 0.05 was considered
-          statistically significant.
-        
+        Background
+        Clozapine is a widely used atypical neuroleptic with
+        affinity for multiple receptors, including dopamine,
+        serotonin, alpha adrenergic, muscarinic and histaminergic
+        receptors [ 1 2 ] . Although clozapine is effective in the
+        treatment of schizophrenia refractory to traditional
+        antipsychotic medication, it also has a number of
+        significant side effects ranging from the potentially fatal
+        but rare agranulocytosis to weight gain, constipation,
+        seizures and urinary incontinence [ 3 ] . Urinary problems
+        have been reported in the clinical literature with
+        incontinence present in up to 44% of patients [ 4 ] and
+        enuresis in 27% of patients [ 5 ] . Since clozapine has
+        potent anti-muscarinic and anti-alpha adrenergic effects [
+        2 ] , it has been proposed that peripheral effects on the
+        lower urinary tract might be responsible for the
+        micturition disturbances [ 6 ] . Incontinence has also been
+        reported following therapy with other atypical neuroleptics
+        such as risperidone [ 7 8 9 ] and recently, olanzapine [ 10
+        ] .
+        We have previously shown that intravenous administration
+        of clozapine to anesthetized rats [ 11 12 ] altered several
+        micturition parameters including a decreased amount of
+        volume voided per micturition and a concomitant increase in
+        the residual volume. In addition, clozapine also inhibits
+        the external urethral sphincter. Other, newer, atypical
+        neuroleptics (e.g. olanzapine and risperidone; [ 13 ] )
+        were also found to have similar effects but with differing
+        potency compared to clozapine. Since risperidone has little
+        or no anti-muscarinic activity, a primary anti-muscarinic
+        peripheral effect may be ruled out as the cause of
+        micturition disturbances following risperidone
+        administration, and suggest a possible central role for
+        atypical neuroleptics in regulating micturition.
+        The purpose of the present study was to determine the
+        effects of clozapine administered centrally at two
+        different sites, spinal (L6-S1 spinal segments) vs.
+        supraspinal (lateral ventricle), on micturition and the
+        external urethral sphincter during cystometry in the
+        anesthetized rat. By limiting the application site to a
+        specific area of the central nervous system and comparing
+        the results with our previous findings after systemic
+        administration [ 12 ] it might be possible to determine
+        whether the effects of clozapine are mediated at a central
+        or peripheral level. Moreover, a comparison of the two
+        central routes might indicate whether the central effect
+        involves spinal or supraspinal structures. We report in
+        this study that most of the effects of clozapine on
+        micturition are mediated by its central effects.
+        Furthermore, there are differences in spinal versus
+        supraspinal effects.
       
       
         Results
         
-          Patients
-          The clinical and respiratory characteristics of the 14
-          patients are summarized in Table 1. No statistically
-          significant differences were found between the two
-          groups. Patients were admitted for ALI complicating major
-          vascular surgery ( 
-          n = 7), oesophageal surgery ( 
-          n = 1) and multiple trauma ( 
-          n = 6). All patients except one
-          were receiving norepinephrine (noradrenaline) for septic
-          shock. Eight patients met criteria for acute respiratory
-          distress syndrome [ 22].
+          Effects of central administration of clozapine on
+          urodynamic parameters during single cystometry (Table
+          1and 2)
+          Figures 1and 2show representative examples of the
+          effects of clozapine on single cystometry in anesthetized
+          rats after intrathecal (i.t.; L6-S1 spinal segment) and
+          intracerebroventricular (i.c.v.; lateral ventricle)
+          administration, respectively.
+          Bladder capacity was increased by clozapine given i.t.
+          or i.c.v. only at the highest dose tested (Fig 1G; 2G).
+          After 50 nmoles of clozapine i.t. the bladder capacity
+          was 0.47 ± 0.09 ml, compared to 0.29 ± 0.027 ml after
+          vehicle administration (Fig 3A). Similarly, after 50
+          nmoles of clozapine i.c.v the bladder capacity was 0.51 ±
+          0.11 ml, compared to 0.25 + 0.027 ml after vehicle
+          administration (Fig 3A).
+          Micturition volume was significantly decreased after
+          5.0 and 50 nmoles of clozapine i.t. (Fig 3B) to 0.11 ±
+          0.031 and 0.08 ± 0.019 ml, respectively compared to 0.18
+          ± 0.022 ml after vehicle. In the case of
+          intracerebroventricular administration, 0.5 nmoles of
+          clozapine decreased the micturition volume to 0.11 ± 0.02
+          ml compared to 0.16 ± 0.018 ml after vehicle (Fig 3B).
+          The effect of 0.5 nmoles of clozapine i.c.v. on
+          micturition volume was significantly different from the
+          effect of the same dose given i.t. Further reductions in
+          micturition volume were observed after 50 nmoles of
+          clozapine i.c.v.
+          Residual volume was significantly increased after 5.0
+          and 50 nmoles of clozapine i.t. to 69 ± 6.2% and 79 ±
+          4.3%, compared to 34 ± 7.5% after vehicle administration
+          (Fig 3C). Clozapine i.c.v. resulted in a significant
+          increase in the residual volume at all doses, including
+          0.5 nmoles. After 0.5 nmoles i.c.v. the residual volume
+          was 54 ± 8.5% compared to 33 ± 7.4% after vehicle. This
+          residual volume was not significantly different from the
+          one observed after the same dose i.t. Larger doses of
+          clozapine i.c.v. resulted in further increases in the
+          residual volume to 62 ± 3.8 and 80 ± 5.2% after 5.0 and
+          50 nmoles, respectively.
+          Clozapine i.t. or i.c.v caused an increase in the
+          pressure threshold only at the highest doses tested (Fig
+          1G; 2G; 4A). After 50 nmoles i.t. the pressure threshold
+          was 6.0 ± 0.86 compared to 3.4 ± 0.46 mm Hg after
+          vehicle, whereas after i.c.v. administration the same
+          dose increased the pressure threshold to 7.2 ± 1.46 mm Hg
+          compared to 2.9 ± 0.29 mm Hg after vehicle.
+          Clozapine i.t. or i.c.v had no effect on either peak
+          pressure or contraction time in the range of doses tested
+          (Fig 4B, 5A) in this study.
+          Expulsion time was significantly decreased by
+          clozapine at 5.0 and 50 nmoles either i.t. or i.c.v (Fig
+          5B). After vehicle i.t. the expulsion time was 2.4 ± 0.3
+          sec, which decreased to 0.7 ± 0.46 and 0.9 ± 0.93 sec
+          after 5 and 50 nmoles i.t. Similarly, after vehicle i.c.v
+          the expulsion time was 3.0 ± 0.28 sec and 5.0 and 50
+          nmoles of clozapine i.c.v decreased it to 1.8 ± 0.35 and
+          1.3 ± 0.39 sec, respectively. The effect of 5.0 nmoles of
+          clozapine i.t. on the expulsion time was significantly
+          different from the effect observed after i.c.v
+          administration of this dose (Fig 5B).
+          Clozapine also decreased the amplitude of (and in some
+          animals even abolished) the high frequency oscillations
+          (HFO) after i.t. administration (Fig 1; 5C). After 5.0
+          nmoles of clozapine the HFO were 0.4 ± 0.23 compared to
+          1.5 ± 0.1 mm Hg after administration of vehicle. In 4 of
+          the 6 animals in this group, 5 nmoles of clozapine i.t.
+          abolished the HFO. The reduction in amplitude observed at
+          this dose after i.t. administration of significantly
+          different from the effects observed after the same dose
+          i.c.v. (Fig 5C). A greater dose of clozapine did not
+          cause a larger effect although the amplitude of the HFO
+          after 50 nmoles of clozapine i.t. was still significantly
+          reduced (0.5 ± 0.19 mm Hg) when compared to vehicle
+          administration. Clozapine i.c.v decreased the amplitude
+          of the HFO only at 50 nmoles (0.6 ± 0.2 mm Hg compared to
+          1.6 ± 0.11 mm Hg after vehicle administration; Fig 2),
+          and the HFO were abolished in only 1/6 of the animals in
+          this group.
         
         
-          Effects of injection of contrast material on
-          volumes of gas and lung tissue
-          Table 2shows the CT number of pulmonary arteries
-          before and after injection of contrast material. The
-          pulmonary arterial concentration of contrast material
-          ranged between 0.3% and 2% at 30 s after the injection,
-          and between 0% and 0.07% at 15 min after the injection.
-          Figs. 2shows 3 representative CT sections acquired in one
-          patient at baseline, 30 s and 15 min following injection
-          of contrast material. Pulmonary vessels were opacified by
-          contrast material only on the CT sections taken 30 s
-          after injection, whereas lung parenchyma was opacified on
-          CT sections taken 30 s and 15 min after injection. The
-          corresponding apparent volumes of lung tissue were 1445
-          ml (baseline), 1555 ml (30 s) and 1553 ml (15 min).
-          As shown in Table 3, injection of contrast material
-          increased the apparent volume of lung tissue by 83 ± 57
-          ml in group 1 ( 
-          P = 0.02) and 102 ± 80 ml in group
-          2 ( 
-          P = 0.01), whereas the apparent
-          volume of gas decreased by 86 ± 102 ml in group 1 ( 
-          P = 0.03) and 90 ± 48 ml in group 2
-          ( 
-          P = 0.02). Total lung volume
-          remained unchanged in both groups. The changes in
-          apparent lung tissue volumes between the two groups did
-          not reach statistical significance ( 
-          P = 0.06).
-          As shown in Fig. 3, the individual increase in lung
-          tissue volume was variable from one patient to another,
-          ranging from 2% to 20% and with mean changes of 8 ± 6% in
-          group 1 and 7 ± 5% in group 2. Thirty seconds after the
-          injection, the maximal artifactual increase in lung
-          tissue represented 39 ± 35% of the apparent increase in
-          lung tissue (extremes 0 and 85%). Fifteen minutes after
-          the injection, the maximal artifactual increase in lung
-          tissue represented 45 ± 43% of the apparent increase in
-          lung tissue (extremes 6 and 100%).
-        
-        
-          Effects of contrast material on computed tomography
-          lung volume determination
-          As shown in Fig. 4, a close correlation was found
-          between the measured volumes of aliquots and the volumes
-          of aliquots calculated using Lungview ®. The mean bias
-          and precision were -0.7 and 9 ml when the fixed lung
-          model was instilled with water, and -8.8 and 3.8 ml when
-          a solution containing 5% of contrast material was
-          instilled, respectively. The presence of contrast
-          material in the aliquots was associated with an 8%
-          overestimation of the liquid volume by Lungview ®.
+          Effects of central administration of clozapine on
+          the activity of the external urethral sphincter during
+          single cystometry (Table 1and 2)
+          Clozapine i.t. did not have an effect on the activity
+          of the EUS during Phase 1 (the rising phase during a
+          contraction), and only the highest dose of clozapine
+          i.c.v (50 nmoles) was found to decrease the activity of
+          the EUS (Fig 6A) to 62 ± 14.9% of that seen during
+          administration of vehicle.
+          Phase 2 of the EUS EMG (occurring during the time of
+          HFO) was decreased by clozapine either i.t or i.c.v. 5
+          and 50 nmoles of clozapine i.t. decreased the EMG to 37 ±
+          24 and 40 ± 14% of that observed during administration of
+          vehicle, respectively (Fig 6B). In fact, in 4/6 animals,
+          5.0 nmoles of clozapine i.t. abolished the bursting
+          pattern of the EMG observed during phase 2 (Fig 1F).
+          Clozapine administered i.c.v at a dose of 0.5 nmoles
+          decreased the EUS EMG to 68 ± 13.9% of the activity
+          observed after vehicle administration (Fig 6B). Larger
+          doses (5 and 50 nmoles) of clozapine i.c.v further
+          reduced the EUS activity during this phase to 54 ± 8.4%
+          and 26 ± 9.9%. Clozapine i.c.v, however, was not observed
+          to abolish the bursting pattern during this phase (Fig
+          2), except in 1/6 animals.
+          Phase 3 of the EUS EMG (recorded during the falling
+          phase of a bladder contraction) was not affected by
+          clozapine administered intrathecally (Fig 6C). However,
+          the largest dose of clozapine given i.c.v (50 nmoles)
+          decreased the activity to 50 ± 14.9% of the activity
+          observed during vehicle administration.
+          Finally, the amplitude of the bursts observed during
+          phase 2 in the EUS EMG were decreased to 32 ± 20.5% by
+          5.0 nmoles of clozapine i.t. (Fig 6D). A similar dose of
+          clozapine i.c.v had no effect. However, 50 nmoles of
+          clozapine i.c.v. decreased the amplitude of the bursts to
+          65 ± 17.2% of that observed during vehicle
+          administration.
         
       
       
         Discussion
-        The present study shows an increase in the volume of
-        lung tissue at 30 s and at 15 min after injection of
-        contrast material in patients with ALI. This finding
-        probably results from a true increase in extravascular lung
-        water and from an artifactual increase in lung density
-        caused by the intrapulmonary diffusion of contrast
-        material. The former effect, which is not observed when the
-        lungs are healthy [ 2], probably depends on alteration in
-        the alveolar-capillary barrier that promotes extravascular
-        leakage of contrast material.
-        The accuracy of Lungview ®for measuring lung tissue
-        volume was recently assessed by instilling known volumes of
-        water and albumin into a fixed spongy textured human lung
-        phantom [ 15]. In the present study, using the same model,
-        we found that the administration of solutions containing 5%
-        of contrast material resulted in an 8% artifactual
-        overestimation of lung tissue volume. A 5% concentration
-        was chosen to mimic clinical conditions; as shown in Fig.
-        2, pulmonary vessels and lung parenchyma were opacified 30
-        s after injection of contrast material, and CT attenuations
-        measured in pulmonary arteries corresponded to low
-        concentrations of contrast material ranging between 0.3%
-        and 2%. In six patients the apparent increase in lung
-        tissue was either below or slightly greater than 8% of the
-        preinjection lung tissue volume, and could therefore be
-        artifactual. However, the concentration of contrast
-        material was less than 2% in all patients, and we
-        calculated the maximal artifactual increase in lung tissue
-        that would have resulted from a total leakage of the
-        contrast material into the lung parenchyma. As shown in
-        Table 4and Fig. 3, after eliminating the maximal
-        artifactual increase in lung tissue, a true increase in the
-        volume of lung tissue was observed in each individual. It
-        must be pointed out that the assumption that 100% of the
-        contrast material had penetrated into the lung parenchyma
-        30 s after the injection is unlikely to be valid. As a
-        consequence, the actual increase in lung tissue was in fact
-        much greater, depending on the amount of contrast material
-        that penetrated into the lungs. In healthy volunteers,
-        injection of contrast material did not produce any
-        detectable modification in the lung tissue volume
-        calculated using Lungview ®, probably because the contrast
-        material remained strictly intravascular in the presence of
-        an intact alveolar-capillary barrier and was rapidly
-        eliminated in the urine [ 2].
-        Fifteen minutes after injection pulmonary vessels were
-        no longer opacified, and CT attenuations measured in
-        pulmonary arteries corresponded to concentrations of
-        contrast material of 0.1% or less. In the patients with an
-        apparent increase in lung tissue of greater than 8% of the
-        preinjection lung tissue volume, the artifact created by
-        the presence of contrast material within the lung
-        parenchyma contributed far less than 25%. In other words, a
-        significant and clinically relevant increase in lung tissue
-        was observed 15 min after injection of contrast material in
-        four patients. This increase in lung tissue volume is
-        probably due to an increase in extravascular lung
-        water.
-        The injured lung is characterized by an excessive amount
-        of extravascular lung water that accumulates in
-        interstitial and alveolar compartments and by an
-        infiltration of lung structures by inflammatory cells.
-        Excessive oedema and lung inflammation are measured as
-        'tissue in excess' by the CT method [ 4]. In patients
-        ventilated for ALI, variations in lung tissue volumes and
-        aeration have been observed following changes of position
-        or administration of positive end-expiratory pressure [ 5,
-        23, 24, 25]. In patients with chronic renal failure,
-        haemodialysis-induced decrease in intravascular and
-        extravascular water is associated with a decrease in lung
-        CT attenuation [ 26]. In the present study, injection of
-        contrast material shifted the volumic distribution of CT
-        attenuation toward higher values, suggesting an increase in
-        extravascular lung water. A number of elements support a
-        true increase in the volume of extravascular lung water
-        rather than a simple density artifact resulting from the
-        presence of contrast material in the vascular space. First,
-        the increase in volume of lung tissue that was observed 30
-        s after injection of contrast material persisted 15 min
-        later, although the concentrations of contrast material
-        decreased below 0.1%, thereby creating a negligible density
-        artifact that is unable to account for the persisting
-        increase in lung tissue. Second, the mean increase in the
-        volume of lung tissue was 10-fold greater than the expected
-        increase in pulmonary blood volume resulting from injection
-        of 80 ml contrast material. Third, the majority of patients
-        had an ALI characterized by a lobar CT attenuation pattern
-        with a large predominance of nonaerated lung tissue.
-        Accordingly, the increase in lung tissue was computed for a
-        good part as the additional number of voxels with a CT
-        attenuation greater than 0. Consequently, the increase in
-        CT attenuation resulting from the intraparenchymal
-        diffusion of contrast material could not be the cause of a
-        major artifactual increase in lung tissue in non-aerated
-        lung regions. Indeed, counting a voxel with a CT
-        attenuation equal to 0 or +500 HU has the same significance
-        as a lung area with a mean CT attenuation close to 0.
-        The amplitude of the increase in lung tissue was
-        variable from one patient to another, depending on the
-        relative importance of the artifactual increase in lung
-        density and the true increase in extravascular lung water.
-        In fact, our findings partly invalidate a statement that we
-        made in a previous study [ 2] that the injection of
-        contrast material does not influence the distribution of CT
-        numbers in ALI; this statement is true in healthy
-        volunteers but it does not apply to patients with ALI.
-        Although we did not assess the clinical relevance of the
-        measured increase in lung tissue, it appears prudent to
-        restrict the indication of CT scans with contrast to
-        specific indications such as diagnosis of pulmonary
-        embolism. Based on the potential of contrast material to
-        worsen the respiratory condition of patients with ALI, its
-        administration to assist in differentiating between lung
-        consolidation and pleural effusion does not appear
-        justified.
+        In the present experiments, central application of
+        clozapine (intrathecally over the L6/S1 spinal segments or
+        intracerebroventricularly into the lateral ventricle)
+        resulted in a number of changes in the urodynamic
+        parameters of anesthetized rats. The major effect of
+        clozapine was to decrease the voiding efficiency of the
+        bladder by inhibiting expulsion parameters, such as
+        micturition volume, residual volume and expulsion time. In
+        addition, the activity of the EUS also decreased upon
+        central application of clozapine. One problem in delivering
+        substances centrally is the possibility that peripheral
+        spread may confound the results. Since clozapine crosses
+        the blood-brain barrier readily [ 14 ] , the maximum dose
+        selected in the present experiment was restricted to the
+        first appearance of a decrease in blood pressure as an
+        indication of possible peripheral alpha 1 antagonism due to
+        peripheral leakage. We compared the effects obtained in the
+        present study against those observed previously after
+        intravenous administration [ 12 ] expecting that central
+        effects would require significantly less application of
+        clozapine than systemic administration. We considered a
+        minimum difference of 10× magnitude in the central vs.
+        peripheral dose that elicited a significant effect as an
+        indication of possible central action. Our doses of 0.5, 5
+        and 50 nmoles of clozapine correspond to serum levels of 8,
+        80 and 800 ng/ml (assuming a blood volume of 8% of body
+        weight) and are in the range of therapeutic levels (260-387
+        ng/ml [ 5 15 ] ).
+        A second problem in administering a substance at a
+        particular central location is that of redistribution to
+        other parts of the central nervous system. Since
+        application of a substance at the lumbosacral spinal level
+        may travel to the brain after some time and vice versa, we
+        established two criteria to help determine a possible
+        central site of action: 1) the first dose to elicit a
+        significant effect by either i.t. or i.c.v administration;
+        2) significant differences at the same dose but different
+        routes (i.t. vs i.c.v).
+        Figure 7is a summary of our findings when interpreted in
+        light of the criteria stated above for determining (a)
+        central vs peripheral effects and (b) spinal vs supraspinal
+        site of action. The effects are presented as percent change
+        over the control (vehicle) dose, for each of the central
+        routes in the present experiment and our previously
+        reported findings for systemic administration [ 12 ] .
+        Theses changes are plotted at the dose (mg/kg) that first
+        yielded significant results. The route that we consider
+        most likely to be the site of action for clozapine is
+        italicized.
+        Bladder capacity was increased to a similar degree by an
+        equivalent dose of clozapine, regardless of route (Fig 7A;
+        3A), making a determination of most likely site of action
+        difficult. Given that the peripheral effects at low doses
+        were similar to the effects after the highest central dose
+        of clozapine (by either route) it appears likely that this
+        effect is due to peripheral actions of clozapine. Bladder
+        capacity was reported to increase following i.c.v.
+        administration of muscarinic antagonist (atropine [ 16 ] )
+        or i.t. alpha2 antagonists (yohimbine [ 17 ] ; atipemazole
+        [ 18 ] ). Given clozapine's strong affinity for muscarinic
+        and alpha2 receptors [ 2 ] it is possible that central
+        effects are also contributing to the increase in bladder
+        capacity.
+        Micturition volume, on the other hand, showed a
+        reduction after smaller doses of clozapine i.c.v or i.t.
+        when compared to the i.v. dose (Fig 7B; 3B). Therefore,
+        central effects of clozapine in controlling micturition
+        volume are likely. Furthermore, when comparing the effects
+        of i.t. vs. i.c.v administration, a 5 nmoles dose of
+        clozapine i.c.v. elicited a reduction in micturition volume
+        that was significantly greater from the effects observed
+        after the same dose i.t. (Fig. 3B). Therefore, supraspinal
+        effects of clozapine in regulating micturition volume are
+        likely with spinal effects perhaps contributing. Clozapine
+        i.t. also decreased the micturition volume, however the
+        dose that first showed a significant effect was higher than
+        the i.c.v. but smaller than the i.v. dose. Spinal
+        antagonism of either alpha1 or alpha2 adrenergic receptors
+        was reported to increase micturition volume [ 17 ] in
+        anesthetized rats. However, intrathecal atipamezole (alpha2
+        antagonist) increased residual volume in awake rats [ 18 ]
+        . Therefore, it is difficult to interpret clozapine's
+        effects on micturition volume in terms of spinal alpha
+        adrenoceptor antagonism and possibly the supraspinal
+        effects predominate.
+        Clozapine given i.t. or i.c.v. also increased the
+        residual volume (Fig 7C; 3C). Since the effects were
+        observed at doses that were lower than those after i.v.
+        administration, a peripheral effect of clozapine to
+        increase residual volume appears unlikely. The smallest
+        dose of clozapine given i.c.v. (0.5 nmoles) increased
+        residual volume to 160% (Fig 7C), suggesting that
+        supraspinal effects predominate with possible contributing
+        effects from spinal sites. Ishiura et al. [ 16 ] reported a
+        decrease in voiding efficiency (comparable to an increase
+        in residual volume) following atropine i.c.v. or i.t.
+        suggesting that muscarinic receptors at supraspinal and
+        spinal sites are involved and may account for our effects
+        after clozapine i.t. or i.c.v. A decrease in residual
+        volume has been reported following spinal antagonism of
+        alpha2 receptors with yohimbine [ 17 ] but atipamezole
+        produced an increase in the residual volume [ 18 ] ,
+        similar to our findings with clozapine i.t.
+        Clozapine increased pressure threshold after i.c.v. or
+        i.t. administration only after 50 nmoles (Fig 7D; 4A). It
+        should be noted that both central doses were at the range
+        observed to result in cardiovascular changes and therefore
+        the possibility of peripheral leakage of clozapine must be
+        considered. Still the effective central doses are
+        approximately 14× less than the first dose observed to
+        produce significant results intravenously, and suggests a
+        possible central site of action.
+        Peak pressure was not changed by clozapine after either
+        route in the present study after central administration,
+        consistent with our findings afer intravenous
+        administration [ 12 ] . Ishiura et al. [ 16 ] reported a
+        decrease in maximal voiding pressure (equivalent to our
+        peak pressure) after atropine i.v., i.c.v or i.t. in awake
+        rats undergoing continuous cystometry. Given that clozapine
+        has a relatively high affinity for muscarinic receptors [ 1
+        2 ] it is surprising that we have not seen an effect on
+        peak pressure. Clozapine, and also olanzapine [ 11 13 ]
+        were able to decrease the contraction amplitude after
+        electrical stimulation of the pelvic nerve. Since the
+        contraction pressures observed during cystometry were
+        smaller than those observed after electrical stimulation of
+        the pelvic nerve (and against a closed urethra) it is
+        possible that the antimuscarinic effects of clozapine on
+        bladder contraction pressure are not detected because
+        during cystometry maximal bladder pressures are not
+        necessary for emptying.
+        Contraction time was not affected by clozapine i.c.v or
+        i.t. (Table 1and 2; Fig 5A) however it was clearly
+        decreased after intravenous administration [ 12 ] .
+        Therefore, we suspect that solely peripheral effects may
+        explain the effects of clozapine on contraction time.
+        Antimuscarinic agents have been show to decrease
+        contraction time (e.g. atropine [ 19 ] ) and since
+        clozapine has high affinity for muscarinic receptors it is
+        likely that peripheral anti-muscarinic effects of clozapine
+        are responsible for the reduction in contraction time after
+        systemic administration.
+        Expulsion time was reduced by clozapine after i.t. or
+        i.c.v. administration at much smaller doses than were
+        observed to produce similar results i.v. (Fig 7E; 5B).
+        Therefore, central effects of clozapine are likely
+        responsible for the reduction in expulsion time. Since the
+        intrathecal effects were greater than those observed after
+        i.c.v. administration it is possible that a spinal action
+        predominates with possible contribution from supraspinal
+        sites.
+        The amplitude of the high frequency oscillations
+        observed during the expulsion time in the rat micturition
+        cycle [ 20 21 ] was reduced by clozapine i.t. at a dose of
+        5 nmoles (Fig 8F). This dose was 10× smaller than the first
+        i.c.v. dose observed to have a significant effect and
+        approximately 142× smaller than the first i.v. dose to show
+        a significant effect. Therefore, a spinal site mediating
+        the effects of clozapine on the amplitude of high frequency
+        oscillations appears likely. Previous results [ 12 ]
+        suggest that D2 receptors modulate the amplitude of the
+        HFO, since raclopride (selective D2 antagonist) decreased
+        the amplitude of the HFO by 30%.
+        In addition to clozapine's effects on urodynamic
+        parameters, the EMG recorded from the external urethral
+        sphincter also showed changes after clozapine i.t. or
+        i.c.v. The EMG during phase 1 of the contraction only
+        showed a reduction after the largest dose of clozapine
+        i.c.v.. This dose is equivalent to our lowest dose i.v. and
+        in fact all doses i.v. previously showed a significant
+        reduction [ 11 ] . Intrathecal administration had no effect
+        on the EMG at phase 1.
+        The EMG during phase 2, corresponding to the period of
+        high frequency oscillations was decreased by clozapine
+        after i.t. or i.c.v administration at doses that were much
+        lower than those necessary to produce an effect after i.v.
+        Therefore, the effects of clozapine in reducing the EMG
+        during this phase appear to be central in origin. Since the
+        first significant effect was obtained after i.c.v.
+        administration (Fig 7H) it is possible that supraspinal
+        effects predominate with spinal sites contributing.
+        The EMG during phase 3 (closing phase) of the
+        contraction was decreased only after the highest dose of
+        clozapine (50 nmoles) i.c.v. (Fig 6C). This dose was still
+        14× smaller than the first significant dose i.v. and
+        therefore a central effect of clozapine is probable.
+        Finally, the amplitude of the individual bursts of EMG
+        recorded from the external urethral sphincter during phase
+        2 of the contraction also decreased after clozapine i.t. or
+        i.c.v. (Fig 6D). Since the doses that yielded significant
+        reductions were smaller than those observed after i.v.
+        admnistration, a central effect is likely. Moreover, since
+        5 nmoles of clozapine i.t. produced a significant reduction
+        when compared to the same dose i.c.v., a spinal effect of
+        clozapine in mediating the reduction of the burst amplitude
+        of the EMG is possible.
+        In the anesthetized rat, the external urethral sphincter
+        contracts and relaxes during the expulsion phase in a
+        manner that is complimentary to the high frequency
+        oscillations observed in the bladder pressure record [ 19 ]
+        whereas in humans the external sphincter not active during
+        voiding. Pharmacological blockade of the external urethral
+        sphincter in the rat resulted in decreased micturition
+        volume and increased residual volume [ 20 21 22 23 ]
+        suggesting that the activity of the external urethral
+        sphincter contributes to efficient voiding in the rat.
+        Therefore, central administration of clozapine, by reducing
+        the activity of the EUS, contributes to the decrease in
+        voiding efficiency by reducing micturition volume and
+        increasing residual volume.
+        Alpha1 adrenergic antagonists have been shown to inhibit
+        pudendal reflexes in anesthetized cats [ 24 25 26 ] .
+        However, a systemic dose of prazosin (alpha1 antagonist)
+        did not inhibit the EUS EMG activity during high frequency
+        oscillations in the rat [ 27 ] . Thus, although alpha1
+        antagonism has been shown to modulate pudendal reflexes in
+        the cat, their role in modulating the activity of the EUS
+        during micturition in the rat appears unclear.
+        In summary, our results in the present experiments
+        suggest that most of the effects of clozapine on urodynamic
+        parameters can be ascribed to central effects. Expulsion
+        parameters, such as micturition volume, residual volume,
+        expulsion time, and amplitude of the high-frequency
+        oscillations, appear to be mediated by the central action
+        (spinal or supraspinal) of clozapine. The activity of the
+        EUS also appears to decrease after central application of
+        clozapine. Therefore, central effects of clozapine appear
+        to decrease the voiding efficiency of the bladder in the
+        rat. Contraction time clearly showed a peripheral effect
+        only, whereas changes in bladder capacity were difficult to
+        explain from central effects and probably reflect
+        peripheral effects of clozapine.
+        Clozapine is metabolized mainly at the liver resulting
+        in several metabolites [ 5 14 ] . One of the major
+        metabolites, N-desmethylclozapine has been shown to have
+        pharmacological activity both in vitro [ 28 ] and in vivo
+        in rats [ 29 ] . In addition, N-desmethylclozapine is found
+        in large concentrations in the serum of schizophrenic
+        patients [ 5 15 ] and in rats [ 30 ] . The contribution of
+        N-desmethylclozapine to clozapine's central effects has
+        been questioned recently, since the levels of
+        N-desmethylclozapine in the brain were much lower than
+        those of clozapine [ 30 ] suggesting that
+        N-desmethylclozapine does not cross the blood-brain barrier
+        as readily as clozapine. Since we observed effects from
+        central application of clozapine, we consider it unlikely
+        that the effects of metabolites contributed significantly.
+        However, whether any of the major clozapine metabolites
+        also have a role in regulating micturition remains to be
+        determined.
       
       
-        Key messages
-        • In patients with ALI, administration of contrast
-
-        material induces an apparent increase in lung tissue
-        • This apparent increase in lung tissue results from a
-        true increase in extravascular lung water and from an
-        artifactual increase in lung density resulting from leakage
-        of contrast material into the lung parenchyma
-        • The increase in extravascular lung water persists 15
-        min after injection
-        • Because injection of contrast material may worsen lung
-        injury, it appears prudent to limit this procedure to
-        specific indications in patients with ALI undergoing a
-        thoracic CT scan
+        Conclusions
+        Atypical neuroleptics are useful in treating patients
+        that are refractory to "traditional" antipsychotic
+        medication and produce fewer extrapyramidal side effects.
+        However, other side effects still occur with varying
+        severity and frequency [ 31 ] and continue to pose a
+        challenge to effective treatment. Urinary disturbances as a
+        result of clozapine therapy have been well documented, and
+        include incontinence, enuresis and urgency [ 4 5 32 ] .
+        Other atypical antipsychotics, such as risperidone [ 7 ]
+        and olanzapine [ 10 ] have been reported to produce urinary
+        incontinence.
+        We have previously shown [ 11 12 13 ] that systemic
+        administration of clozapine, olanzapine and risperidone to
+        anesthetized rats reduced voiding efficiency. Risperidone
+        had smaller maximal effects than olanzapine and clozapine
+        and had no direct (peripheral) inhibitory effects on the
+        amplitude of bladder contractions. In the present study we
+        show that clozapine acts at supraspinal and spinal sites to
+        inhibit certain urodynamic parameters and the external
+        urethral sphincter of the rat resulting in decreased
+        voiding efficiency.
+        If these effects also occur in patients, they may
+        contribute to the urinary disturbances reported following
+        clozapine therapy. The exact receptor types (or combination
+        of receptor types) responsible for clozapine's central
+        effects on micturition were not investigated in the present
+        study. However, isolating particular receptors that
+        contribute to the effects of clozapine might be useful in
+        designing neuroleptics that may avoid these side effects or
+        in providing an adjunct therapy to relieve some of the side
+        effects.
       
       
-        Competing interests
-        None declared.
+        Materials and Methods
+        
+          Surgical procedures
+          The experiments were conducted in compliance with the
+          USDA Animal Welfare Act and amendments thereto and the
+          revised Guide for the Care and use of Laboratory Animals
+          DHEW (NIH) and were approved by the Animal Studies
+          Subcommittee of the Bay Pines Veterans Administration
+          Medical Center.
+          Surgical procedures have been described in detail
+          elsewhere [ 12 ] . Rats (female Sprague-Dawley; n = 16;
+          230-270 g; Harlan; IN) were anesthetized with halothane
+          and placed on a heating pad. A catheter (PE-50) was
+          introduced into the jugular vein to administer urethane
+          (1.1 g/kg) over a period of 20 minutes while decreasing
+          the level of halothane to prevent respiratory depression.
+          Rats were instrumented with either an intrathecal cannula
+          placed over the L6/S1 spinal segment or a cannula into
+          the right lateral ventricle.
+          An incision was made over the dorsal aspect of the
+          neck and the overlying muscles were retracted to expose
+          the atlanto-occipital membrane. An intrathecal catheter
+          (PE 10) was introduced through a small slit in the
+          atlanto-occipital membrane and positioned over the L6/S1
+          spinal cord segments [ 33 ] . Saline soaked gelfoam was
+          placed around the catheter and the neck muscles and skin
+          were sutured. Spinal segmental location of the catheter
+          was verified post-mortem by performing a laminectomy.
+          Following a small craniectomy, a stainless-steel
+          cannula (27 ga) was placed in the lateral ventricle at
+          the following coordinates: AP - 1.0, ML = 1.2; V= 3.2 mm
+          [ 34 ] . The cannula was held in place with skull screws
+          and dental acrylic. At the end of the experiment, 5 μl of
+          fast-green (1%) was infused through the cannula while
+          observing the CSF though a small slit in the
+          atlanto-occipital membrane. Almost immediate
+          visualization of the fast-green in the fourth ventricle
+          was taken to indicate appropriate placement of the
+          cannula into the lateral ventricle.
+          After an abdominal incision, both ureters were tied
+          distally and cut centrally and allowed to drain onto
+          cotton gauzes that were directed outside the animal. A
+          catheter (PE-90) was introduced into the bladder dome and
+          tied in place with a purse string suture. A catheter
+          (PE-50) was introduced into the right femoral artery for
+          blood pressure recording. Stainless-steel wires (0.003
+          in.; A-M Systems; WA) insulated except at the tip were
+          introduced into the external urethral sphincter for EMG
+          recording (DAM 50; WPI; bandwidth= 3 to 3 kHz; gain:
+          1000-10,000).
+        
+        
+          Urodynamic studies
+          In pilot animals, the dose and duration of effects was
+          determined by administering clozapine (saline,
+          0.5,5,50,100 nmoles) at 10 min intervals either
+          intrathecally (n = 2) or intracerebroventricularly (n =
+          2) during continuous cystometry (infusion rate = 0.11
+          ml/min) while recording bladder pressure, external
+          urethral sphincter EMG, and blood pressure. Fifty (50)
+          nmoles of clozapine administered by either route resulted
+          in a decrease in arterial pressure (mean decrease in MAP
+          was 20 ± 2 and 15 ± 3 mm Hg for intrathecal and
+          intracerebroventricular administration, respectively. The
+          onset time ranged from 1-1.5 min from the start of the
+          infusion). Since clozapine has alpha1 antagonist effects
+          [ 2 ] it is possible that the blood pressure decreases
+          were due to spread of clozapine into the periphery
+          following central administration. Doses smaller than 50
+          nmoles did not elicit a drop in arterial pressure. In
+          addition, 50 nmoles represents a dose close to the
+          smallest intravenous dose used previously (0.1 mg/kg [ 12
+          ] ). Therefore, during single cystometry, the dose range
+          was limited to 0.5 to 50 nmoles in order to reduce
+          possible peripheral spread of clozapine.
+          Single cystometry studies were conducted as follows.
+          The bladder was emptied and allowed to equilibrate to air
+          pressure for 5 minutes before beginning each
+          cystometrogram. Room temperature saline was infused into
+          the bladder (0.11 ml/min) while recording bladder
+          pressure and the infusion was stopped when a contraction
+          occurred. Volume expelled was determined by placing
+          cotton gauze at the urinary meatus and weighing before
+          and after micturition. External urethral sphincter EMG
+          (EUS-EMG) was recorded throughout the cystometrogram and
+          for some time after the filling had stopped. Increasing
+          doses of clozapine (Sigma, vehicle, 0.5, 5, 50 nmoles in
+          a volume of 5 μl; followed by a 7 μl saline wash) were
+          administered through the intrathecal catheter (n = 6;
+          Mean weight = 245 gm) or through the
+          intracerebroventricular cannula (n = 6; Mean weight = 245
+          gm) at approximately 10-minute intervals. Clozapine was
+          dissolved in a minimal amount of 0.1 N hydrochloric acid,
+          and brought up to volume with saline (final pH = 6).
+          Cystometrograms were started approximately 3 minutes
+          after each drug administration. At the end of the
+          experiment the rat was euthanized with an overdose of
+          urethane (3.0 mg/kg; i.v.).
+        
+        
+          Data analysis
+          Bladder pressure, EUS-EMG and blood pressure during
+          the single cystometrograms were displayed in an
+          electronic chart recorder (RC Electronics; Goleta, CA)
+          and analyzed off-line (Dataview, W.J. Heitler, U. St
+          Andrews, Scotland). The following parameters were
+          examined from the cystometrogram as described in detail
+          earlier [ 12 ] : bladder capacity (amount of fluid
+          infused to elicit a contraction); micturition volume
+          (amount of fluid expelled); residual volume ([bladder
+          capacity-micturition volume]/[bladder capacity] ×100);
+          pressure threshold (pressure at which contraction
+          begins); peak pressure (maximal pressure during
+          contraction); contraction time; expulsion time (time
+          between peak pressure and end of high frequency
+          oscillations); amplitude of high frequency oscillations.
+          The EMG activity was examined by dividing the bladder
+          contraction into three phases in a modification of the
+          technique of Chien et al. [ 19 ] a contraction phase
+          (phase 1); an expulsion phase (phase 2) and a closing
+          phase (phase 3).
+          The raw EMG was rectified, integrated (0.5 second bin)
+          and the area under curve of the EMG corresponding to each
+          phase of the bladder contraction was measured (Sigma
+          Scan/Image; Jandel Scientiflcs, San Rafael, Ca). Drug
+          effects for the EMG were calculated as percent of
+          control.
+          Values are presented as Mean + S.E.M. Repeated
+          measures ANOVA (GB Stat; Dynamic Microsystems; MD) were
+          performed on all parameters and when statistical
+          significance (p<0.05) was obtained, comparisons
+          between control and different drug dosages and between
+          different routes (i.t. vs. i.c.v.) were made using
+          Fisher's protected t-test [ 35 ] .
+        
       
       
-        Abbreviations
-        ALI = acute lung injury; CT = computed tomography; HU =
-        Hounsfield units.
+        List of Abbreviations
+        CMG = cystometrogram
+        EMG = electromyogram
+        EUS = external urethral sphincter
+        HFO = high frequency oscillations
+        i.c.v. = intracerebroventricular
+        i.t. = intrathecal
+        i.v. = intravenous
       
     
   

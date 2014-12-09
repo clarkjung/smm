@@ -2,389 +2,349 @@
   
     
       
-        Background
-        Radiotherapy treatment planning is, in broad terms, the
-        process of planning the delivery of a prescribed dose to a
-        tumor or target volume while minimizing dose to the
-        surrounding critical structures. Prior to the modern
-        radiotherapy treatment planning era, the 'optimum' plan was
-        decided upon using qualitative criteria, or by estimating
-        the inhomogeneity of the dose in the target or in critical
-        regions. With the advent of CT-based planning, the planning
-        process could be done with increased precision, as
-        3-dimensional structures representing the target and
-        critical structures could be defined more accurately and
-        reproducibly. One of the most useful tools which emerged in
-        the 3-dimensional planning era that could be used in
-        establishing the acceptability or unacceptability of a
-        treatment plan is the dose-volume histogram (DVH) [ 1 ]
-        .
-        The DVH is used ubiquitously and plots delivered dose on
-        the x-axis and percent volume of the structure of interest
-        on the y-axis. The general shape and area under the DVH
-        curve is instrumental in determining adequate coverage and
-        homogeneity of dose in the target volume as well as in
-        determining acceptable dose to critical structures. Indeed,
-        the DVH has occupied a central role in modern treatment
-        planning [ 2 3 4 5 ] .
-        The DVH is not without its limitations, however. First,
-        there is an inherent loss of spatial information with the
-        construction of a DVH plot. Second, the dose plotted on the
-        x-axis of a conventional DVH (C-DVH) is conventional dose,
-        which does not take into account many factors influencing
-        the effects of the dose on the given tissue. Among them are
-        the α/β of the structure (which can vary considerably for
-        early vs late reacting tissues and for early vs late
-        reactions within the same tissue), time taken to deliver
-        treatment, fraction size, and length of treatment
-        interruptions. For this reason, the concept of
-        biological-effective dose (BED) was developed [ 6 7 ] and
-        has been studied extensively by the radiobiology community.
-        Because the BED incorporates factors related to delivery of
-        treatment and tissue factors, it is a better representation
-        of the dose delivered to a given tissue than conventional
-        dose [ 6 7 8 ] .
-        The application of BED has particular importance to
-        radiation treatment planning for prostate cancer. The
-        prostate, more so than any other disease site, has been the
-        focus of advances in treatment delivery technique. The
-        prostate has been the paradigm site for treatment planning
-        efforts related to conformal therapy [ 9 10 11 12 ] and
-        intensity modulated radiotherapy (IMRT)/inverse planning [
-        13 14 ] . Also, the prostate has been the leading disease
-        site for efforts related to improving daily setup [ 15 ]
-        and incorporating organ motion into the delivery strategy [
-        16 ] . These above efforts have allowed for dose escalation
-        of the prostate while minimizing early and late treatment
-        toxicity [ 9 10 11 12 13 14 17 ] .
-        In view of the lead role the prostate has taken in
-        understanding treatment planning, patient setup, and dose
-        escalation, incorporation of treatment-related information
-        into the DVH - to further facilitate advances in reduction
-        of rectal or urinary toxicity - is highly appropriate. The
-        purpose of the current investigation is to compare C-DVH's
-        of the bladder and rectum in those patients who developed
-        late treatment toxicity versus those patients who did not
-        develop such toxicity, and, using the same groups of
-        patients, to determine whether the biological-effective DVH
-        (BED-DVH) can potentially serve as a better tool for such
-        toxicity comparisons than the C-DVH.
+        Introduction
+        The evidence that adolescent diet may affect the risk of
+        breast cancer derives from several lines of evidence [ 1 ]
+        . Rates of breast cancer among Asian immigrants to the
+        United States do not approach those of US white women until
+        the second or third generation, suggesting that exposures
+        during childhood and adolescence are important in
+        establishing a higher risk of breast cancer [ 2 3 ] .
+        Norwegian women who were adolescents during World War II,
+        when average caloric intake decreased by 22%, have a
+        reduced incidence of breast cancer, suggesting that energy
+        restriction might affect risk [ 4 ] . Similarly, in animal
+        models, energy restriction in the peripubertal period
+        inhibits mammary tissue proliferation and reduces the
+        subsequent risk of mammary tumors [ 5 6 ] . Exposure of
+        rats to carcinogens before first pregnancy increases the
+        incidence of mammary tumors compared with exposure after
+        first pregnancy [ 7 ] . After differentiation of the
+        mammary gland at the time of first full-term pregnancy of
+        the rat, the rate of cell division decreases and length of
+        the cell cycle increases, allowing more time for DNA repair
+        [ 8 ] . This biologic phenomenon might explain the apparent
+        vulnerability of the adolescent breast tissue to
+        carcinogenic exposures. Among atomic bomb survivors and
+        women exposed to ionizing radiation as part of their
+        treatment for Hodgkin's disease, the risk of breast cancer
+        increases with younger age at exposure [ 9 ] .
+        Although this analysis was principally an exploratory
+        analysis to guide prospective studies, the authors had
+        previously proposed that certain elements of adolescent
+        diet might be protective against future risk of breast
+        cancer [ 10 ] . For instance, we and others have proposed
+        that fiber might be protective by lowering endogenous
+        estrogen levels and that folate might be protective owing
+        to its role in DNA methylation.
       
       
         Methods
-        A generalized theoretical model for determination of
-        biological effective dose has been developed and reported
-        extensively [ 6 7 8 ] . Recently, our group has applied
-        this model for use with any combination of short-lived
-        interstitial brachytherapy and external beam radiotherapy
-        for prostate cancer (unpublished/submitted data, 2003). For
-        external beam radiotherapy, the generalized BED model
-        reduces to the familiar equation:
-        BED = [n*d(1 + d/(α/β))] - [(0.693*T)/(α*Tp)] (1)
-        where n = number of treatments, d = dose per fraction, T
-        = treatment time, α/β = 3 Gy(for late effects), and Tp
-        (potential doubling time) and α (linear component of cell
-        killing) were estimated from the published literature [ 6 7
-        8 ] , [ 18 19 ] to be 34 days and 0.3/Gy, respectively. The
-        first term in Equation (1) accounts for dose fractionation
-        and the second term accounts for repopulation. The authors
-        recognize that there is considerable controversy in the
-        exact values used for α/β, α, and Tp for prostate cancer in
-        the reported literature.
-        The charts of 190 consecutive patients with T1 or T2
-        prostate cancer treated with external beam radiotherapy at
-        our institution between 1996-1999 were reviewed. During
-        this period, external beam radiotherapy was delivered using
-        6-field technique, once daily, 5 times a week, using 180
-        cGy or 200 cGy fractions, to a final dose of 7000-7200 cGy
-        (minimum PTV dose). The conformal techniques at our
-        institution have been previously reported [ 20 ] - the
-        prostate, seminal vesicles, rectum, and bladder were
-        outlined routinely on all patients, and uniform guidelines
-        were adhered to in order to minimize inter-observer
-        variability in the definition of these structures. In
-        particular, with regard to the rectum, our institution
-        followed routine Radiation Therapy Oncology Group (RTOG)
-        guidelines for definition - from the anus at the level of
-        the ischial tuberosities {lower border} to the rectosigmoid
-        junction {upper border} [ 21 ] . The bladder was contoured
-        from the apex to the dome, again as outlined per RTOG
-        guidelines. The planning target volume (PTV) was the
-        prostate + seminal vesicles + 1 cm margin for the initial
-        phase; after 4500-5000 cGy, the PTV was the prostate + 1 cm
-        margin. Corresponding DVH's were computed for the PTV,
-        entire rectum (i.e., not the rectal wall or rectal
-        surface), and entire bladder (again, not the bladder wall
-        or bladder surface). The dose-fractionation and total
-        treatment time for each patient were recorded to obtain
-        values for n, d, and T in Equation (1) above.
-        No charts for those patients treated after 1999 were
-        reviewed to ensure long minimum follow-up. At each routine
-        follow-up, the GI and GU complications using definitions
-        and grading as stated by the RTOG [ 22 ] were recorded.
-        Thus, the charts were reviewed to identify those patients
-        with significant (RTOG grade 3 or grade 4) late GI (large
-        bowel) or GU (bladder) complications.
-        Of the 190 patients, 6 patients (3.2%) were found to
-        have late grade 3 rectal toxicity and 6 patients (3.2%)
-        were found to have late grade 3 urinary toxicity. No
-        patients were found to have grade 4 GI or GU toxicity. A
-        matched-pair group of patients (6 GI and 6 GU) with grade 0
-        toxicity having similar pretreatment (age, stage, grade,
-        and PSA) and treatment (technique and dose) characteristics
-        were identified from the same patient database. The
-        characteristics of the groups are shown in comparison with
-        the groups of patients demonstrating toxicity in Tables
-        1and 2. The limitations and potential biases inherent to a
-        matched-pair comparison are well-understood by the authors;
-        however, as these tables demonstrate, there is no
-        difference in the pretreatment and treatment
-        characteristics between the groups demonstrating and not
-        demonstrating GI [Table 1] and GU [Table 2] toxicity.
-        The C-DVH's were already constructed (prior to
-        undertaking the current investigation) for the patients in
-        each of the four groups (grade 0 - rectal, grade 3 -
-        rectal, grade 0 - bladder, grade 3 - bladder) - these are
-        the C-DVH's that were approved by the attending radiation
-        oncologist prior to delivering the external beam treatment.
-        Then, these C-DVH's derived from each of the individual
-        dose distributions were averaged over the six patients in
-        each of the four groups (grade 0 - rectal, grade 3 -
-        rectal, grade 0 - bladder, and grade 3 - bladder) to
-        produce average C-DVH's.
-        Using equation (1), the time-dose fractionation
-        parameters were incorporated to transform the conventional
-        dose to BED at each conventional dose level. This allowed
-        for the construction of the BED-DVH's for all of the
-        patients. Then, in a process similar to that for the
-        C-DVH's, the BED-DVH's derived from each of the individual
-        dose distributions were averaged over the six patients in
-        each of the four groups (grade 0 - rectal, grade 3 -
-        rectal, grade 0 - bladder, and grade 3 - bladder) to
-        produce average BED-DVH's. The authors are aware of the
-        recent efforts regarding advanced modeling concepts for
-        evaluating the relationship between physical irradiation
-        and biological damage on normal structures - in particular,
-        BED provides a measure of biological effect at a point at
-        which it is calculated - measuring the absolute biological
-        effect over a volume having a non-uniform dose distribution
-        formally requires the computation of the equivalent uniform
-        dose (EUD) [ 23 ] . However, this caveat does not apply
-        directly to the current task, because the goal of the
-        current investigation is to use the DVH (constructed using
-        either conventional dose or BED) as a 
-        relative measure of biological
-        response, not as an absolute measure, and in this context
-        constructing a DVH from BED computations and averaging the
-        DVH's (both C-DVH's and BED-DVH's) over a patient
-        population was felt to be an appropriate methodology.
-        After construction of the C-DVH's and BED-DVH's, it was
-        clear that the general shape of the two were slightly
-        different, as would be expected by the non-linear
-        transformation in Equation (1) above. In order to perform
-        comparison of the individual matched pairs in an objective,
-        reproducible, and systematic manner, the following measure
-        of normalized difference in the average DVH was
-        computed:
         
-        Equation (2) represents an attempt to compress the DVH
-        difference information into a single quantity, and was felt
-        to be a valid quantity as the DVH's did not 'cross' - that
-        is, the grade 3 DVH's were above and to the right of the
-        grade 0 DVH's at all dose (or BED) levels. Furthermore,
-        this approach was felt to be valid biologically, as
-        integral dose to critical structures has been correlated by
-        many investigators with late treatment toxicity [ 24 25 26
-        27 28 29 30 ] . The authors are also aware of the special
-        problems related to applying the DVH for tubular and
-        surface structures (such as the rectum and bladder) [ 28 31
-        ] . However, because C-DVH's of the whole organs were used
-        as the basis for the original clinical decision making on
-        the patient population under consideration (i.e., those
-        treated before 1999), it was felt that integral dose to the
-        entire rectum and entire bladder would be appropriate as
-        one measure for clinical comparison of the use of BED-DVH's
-        versus C-DVH's.
-        Equation (2) was applied to compute the δ 
-        AUC 's (both for the C-DVH's and for the
-        BED-DVH's) for each of the six matched-patient pairs in the
-        rectal toxicity category and to each of the six
-        matched-patient pairs in the bladder toxicity category. In
-        order to perform a statistical comparison between these
-        matched-pair δ 
-        AUC 's obtained using C-DVH's and those
-        obtained using BED-DVH's, the student's t-test was
-        used.
-        Although the treatment decisions were made with
-        knowledge of the integral dose delivered to the critical
-        structures, the authors recognize that there is controversy
-        with regard to the classification of biological response of
-        the normal structures under study in the current
-        investigation. In particular, many recent reports (e.g., [
-        32 ] ) suggest that the bladder and rectum may be serial
-        rather than parallel structures with regard to their
-        biological response to radiation injury. Thus, an
-        alternative measure of merit was chosen to complement the
-        AUC analysis above. Specifically, the percent volume
-        receiving above a set high dose level (in this study, 60
-        Gy) was analyzed. The analogous expression to Equation (2)
-        is the following:
+          Study population
+          This study was conducted among the participants of the
+          Nurses' Health Study, a prospective cohort of 121,700
+          women who have completed biennial questionnaires on
+          medical events and lifestyle factors since the initiation
+          of the study in 1976, when the women were 30-55 years of
+          age [ 11 ] . The study has been approved by the
+          institutional review board at the Brigham and Women's
+          Hospital, Boston.
         
-        Equation (3) was applied in exactly the same manner as
-        above to compute δ 
-        V60 's for the C-DVH's and BED-DVH's for
-        both the bladder and rectum. It should be noted that when
-        applying Equation (3) to the BED-DVH's, the 60 Gy
-        conventional dose transforms [using Equation (1), assuming
-        once-daily 2 Gy fractions] to approximately 100 Gy; thus,
-        V60 on the C-DVH's corresponds to V100 on the BED-DVH's.
-        The statistical comparison between the matched-pair δ 
-        V60 's obtained between C-DVH's and
-        BED-DVH's was performed using the student's t-test.
+        
+          High school food-frequency questionnaire
+          In 1986, when participants were 40-65 years of age,
+          they completed a 24-item food-frequency questionnaire
+          (FFQ) about diet between the ages of 12 and 18 years. The
+          FFQ was designed to include foods that account for major
+          sources of fat, antioxidant vitamins, and carotenoids.
+          For each food item on the FFQ, a unit or portion size was
+          specified. Subjects were asked how often, on average,
+          they had consumed the specified amount of each item. Nine
+          possible responses were provided ranging from 'never' to
+          'six or more per day'.
+          Nutrient intakes were computed for each subject by
+          assigning a weight proportional to the frequency of use
+          of each food, multiplying this weighting by the nutrient
+          value for the specified portion size, and summing the
+          contributions of all foods. The nutrient database used in
+          this study was derived from the US Department of
+          Agriculture's handbook [ 12 ] with additional information
+          from McCance and Widdowson [ 13 ] and also from data
+          obtained from food manufacturers. The database
+          incorporates research on the historical trends in the
+          enrichment of the food supply, such as the addition of
+          vitamin D to milk (beginning in about 1932) and vitamin A
+          to margarine (in about 1941). For vitamin A, women born
+          before 1942 were assigned 'unenriched' values; women born
+          after 1942 were assigned 'enriched' values. The
+          questionnaire has been shown to be highly reproducible
+          and not significantly correlated with current diet as an
+          adult ( 
+          r = 0.25) [ 14 ] .
+          Participants who had completed the high school diet
+          assessment section of the 1986 follow-up questionnaire
+          and who also had reported current diet in 1980 were
+          eligible for the study. Incident cases of breast cancer,
+          confirmed by medical record review, diagnosed after the
+          report of current diet in 1980 and before the return of
+          the 1986 questionnaire on which high school diet was
+          reported, were eligible for inclusion in the study ( 
+          n = 1313). The analysis included
+          both 
+          in situ and invasive cases of
+          breast cancer. One hundred and thirty-six cases died
+          before the mailing of the 1986 questionnaire, 69 cases
+          did not return the 1986 questionnaire, and 175 cases did
+          not fill out the high school diet section of the 1986
+          questionnaire. Cases were excluded from the analysis if
+          the total calories reported on high school diet were
+          implausible, i.e. less than 500 or greater than 4500 ( 
+          n = 16), if the reported age at
+          menarche was greater than 21 years ( 
+          n = 9), or if they had previously
+          been diagnosed with cancer other than breast cancer ( 
+          n = 65). The final case pool ( 
+          n = 843) included 64% of the cases
+          diagnosed between 1980 and 1986. Included cases had a
+          later age at menarche, were more likely to be
+          premenopausal, and were more likely to report a family
+          history of breast cancer than cases excluded from the
+          analysis (data not shown). Controls were matched to cases
+          by month and year of birth in a 10:1 ratio. The exclusion
+          criteria for controls were the same as for cases.
+        
+        
+          Statistical analysis
+          Controls were assigned the date of diagnosis of their
+          matched case. The risk factor status of both cases and
+          controls was updated from the questionnaire most recently
+          completed before date of diagnosis (controls were
+          assigned the date of diagnosis of their matched case).
+          Risk factors that were updated included menopausal
+          status, family history, diagnosis of benign breast
+          disease, and postmenopausal hormone use. All tests of
+          significance were two-sided. Differences in risk factor
+          status between cases and controls were tested with χ 2or 
+          t -tests.
+          Foods were analyzed as continuous variables based on
+          the number of servings per day. Nutrients were analyzed
+          using quintiles of nutrient intake, according to the
+          distribution in the control population. Multiple logistic
+          regression was used to estimate relative risks as odds
+          ratios (and 95% confidence intervals [CIs]) while
+          controlling simultaneously for potentially confounding
+          variables. Trends across quintiles were tested with the
+          use of the logistic model. Relative risks were estimated
+          as odds ratios (and 95% CIs) while controlling
+          simultaneously for potentially confounding variables.
+          Trends across quintiles were tested with the use of the
+          logistic model. Relative risks (RR) were calculated by
+          comparing the highest and lowest quintiles of nutrient
+          intake (Q 
+          5 versus Q 
+          1 ). Multivariate models included age
+          at diagnosis, family history of breast cancer in mother
+          or sister, diagnosis of benign breast disease (BBD), age
+          at menarche (in quintiles), body mass index at age 18 (in
+          deciles), adult height (in quartiles), reproductive
+          history (categorical), and vitamin A intake (continuous)
+          in 1980 [ 15 ] . Current vitamin A intake was included in
+          the model because we have previously shown in this cohort
+          of women that lower intake of vitamin A is positively
+          associated with an increased risk of breast cancer.
+          Reproductive history was represented by dummy variables,
+          indicating whether the subject had children, and, if so,
+          the number of children (one, two, or more than two
+          children) and the age at which the first child was born
+          (before age 24, between ages 25 and 29 inclusive, or age
+          30 or older).
+        
       
       
         Results
-        As expected, the DVH's (both C-DVH's and BED-DVH's) were
-        predictive of rectal and urinary toxicity - that is, those
-        that developed late GI or GU toxicity had DVH's that
-        demonstrated more integral dose to the rectum or bladder
-        than those patients who did not develop such toxicity. This
-        reinforces and validates the well-known and widespread use
-        of DVH's in evaluating external beam [ 5 24 25 26 27 28 29
-        ] and interstitial [ 33 ] treatment plans for prostate
-        cancer patients.
-        Figure 1shows the comparison for the case of the
-        conventional DVH's of the rectum. In this figure, the
-        average C-DVH of the rectum was computed for the 6 patients
-        in the grade 3 group as well as the 6 patients in the grade
-        0 group. The average DVH's are displayed - as is
-        demonstrated, the grade 3 curve is to the right of and
-        above the grade 0 curve. Similar analyses were done for the
-        BED-DVH-Rectum (as demonstrated in Figure 2), for the
-        C-DVH-Bladder (as demonstrated in Figure 3) and for the
-        BED-DVH-Bladder (as demonstrated in Figure 4). It should be
-        noted that in all cases, the average grade 3 DVH's -
-        conventional or BED - were consistently above and to the
-        right of the corresponding grade 0 curve at each dose (or
-        BED) level from zero to maximum, again validating the
-        uniform comparison approach summarized in Equations (2) and
-        (3).
-        Table 3shows the results of the detailed matched-pair
-        AUC analysis. In this table, the δ 
-        AUC 's obtained using the C-DVH's and
-        BED-DVH's for each of the matched-patient pairs is
-        displayed. The students' t-test was used to obtain a
-        p-value for each of the rectal toxicity and bladder
-        toxicity categories. As Table 3displays, the δ 
-        AUC analysis demonstrates a p-value of
-        0.036 for the rectal toxicity comparison, and a p-value of
-        0.065 for the bladder toxicity comparison, suggesting that
-        [when using AUC as the measure of merit] the BED-DVH's were
-        significantly better-correlated (than the corresponding
-        C-DVH's) with rectal toxicity, and marginally
-        better-correlated with bladder toxicity.
-        Table 4displays the results of the matched-pair V60
-        analysis. In this table, the δ 
-        V60 's obtained using the C-DVH's and
-        BED-DVH's for each of the matched-patient pairs is
-        displayed. This table demonstrates a p-value of 0.021 for
-        the rectal toxicity comparison, and a p-value of 0.021 for
-        the bladder toxicity comparison, suggesting that [when
-        using V60 as the measure of merit] the BED-DVH's were
-        significantly better-correlated (than the corresponding
-        C-DVH's) with rectal toxicity and with bladder
-        toxicity.
+        Breast cancer cases had later age at first birth, lower
+        parity, increased adult height, and higher incidence of
+        BBD, and were more likely than controls to have a family
+        history of breast cancer. Cases also reported lower vitamin
+        A intake and higher alcohol intake in 1980 than did
+        controls (data not shown).
+        Increased consumption of eggs was associated with
+        decreased risk of breast cancer (RR = 0.82 per increase of
+        one serving per day; 95% CI 0.67-0.99) (Table 1).
+        Consumption of butter was positively associated with
+        increased risk of breast cancer (RR = 1.06; 95% CI
+        1.00-1.13). RR values for individual foods were generally
+        similar for premenopausal and postmenopausal women. Foods
+        were grouped according to type (fruits, vegetables, dairy,
+        red meat, chicken, fish), but none of the groupings was
+        significantly related to risk of breast cancer.
+        Nutrient analysis, controlling for other established
+        risk factors, showed that greater consumption of vegetable
+        fat (RR [Q 
+        5 ] = 0.85, 
+        P [trend] = 0.05) and dietary fiber
+        (RR [Q 
+        5 ] = 0.78; 
+        P [trend] = 0.09) were related to a
+        reduced risk of breast cancer (Table 2). No other
+        associations between nutrient intake and risk of breast
+        cancer were observed. Inclusion versus exclusion of adult
+        height, which might be on the causal pathway between
+        adolescent diet and adult health, did not substantially
+        alter the results reported.
       
       
-        Conclusions
-        The values for δ 
-        AUC and δ 
-        V60 are higher for the BED-DVH's of the
-        rectum and bladder than for the counterpart C-DVH's.
-        Because the AUC and V60 are dosimetric endpoints used
-        routinely for the evaluation of radiation treatment plans,
-        this analysis suggests that BED-DVH's for the rectum and
-        bladder correlate better with late toxicity than C-DVH's
-        and should be considered when attempting to minimize late
-        GI and GU toxicity after radiotherapy for prostate cancer.
-        Because this analysis was performed with two independent
-        measures of merit of the DVH's - the AUC and the V60, the
-        early results reported herein appear promising for the use
-        of BED-DVH's.
-        Because the patient population having late grade 3/4
-        toxicity (which is a small population but was chosen as the
-        target population that is most likely to benefit from the
-        incorporation of BED-DVH's into the process of treatment
-        planning) was the focus of this initial investigation, the
-        number of patients in the current study is understandably
-        small. Six cases of late grade 3/4 GI toxicity represent
-        approximately 3% of the study population - this low
-        incidence also applies to the six cases of late grade 3/4
-        GU toxicity. Assuming that the same low rate of late
-        toxicity is maintained, the number of cases of such late
-        complications will not increase significantly with a
-        significant increase in size of the study population. Thus,
-        while the results are encouraging for the correlation of
-        BED-DVH's to rectal toxicity, the correlation to bladder
-        toxicity using the integral dose/AUC endpoint did not reach
-        statistical significance, likely due to the limitations in
-        sample size. However, because the integral dose/AUC
-        analysis did reach significance for the rectum, and because
-        the V60 analysis did reach statistical significance for
-        both the bladder and rectum, the results of the current
-        investigation represent initial success with the
-        application of the BED-DVH concept.
-        As one means of avoiding the statistical problems posed
-        by evaluating late toxicity, analyzing early grade 3/4
-        toxicity, which has a higher incidence, may allow for
-        greater statistical power in validating the BED-DVH
-        concept. However, because the modeling for the Tp, alpha,
-        and alpha/beta is altogether different for early vs late
-        structures and because the transformation between late to
-        early parameters in Equations (1-2) above are nonlinear,
-        the results of the current analysis (and corresponding
-        conclusions) may be completely different from such an early
-        toxicity analysis. For these reasons, the use of BED-DVH's
-        for evaluating and predicting early GI and GU toxicity will
-        be the subject of a separate communication.
-        The results of the current investigation are encouraging
-        - the well-known conventional DVH can be successfully
-        expanded to include treatment delivery, tissue biology, and
-        time/fractionation-related information that better
-        represents the true effect of the treatment on critical
-        structures. Other investigators have expanded the C-DVH to
-        include functional and spatial information [ 4 34 35 ] ,
-        but 
-        the current investigation is the first
-        report correlating a DVH which has been expanded to include
-        BED parameters with late treatment toxicity for prostate
-        cancer irradiation .
-        Although the initial focus of this investigation was the
-        study of late radiation effects on the rectum and bladder,
-        there is no conceptual limitation to the use of the
-        techniques described herein to study early effects of
-        treatment (for acute toxicity assessment) or to study
-        target structures (for outcome/survival analysis) at any
-        anatomic site. The results of the current investigation,
-        while encouraging, are preliminary and require validation
-        by other investigators - because of the low incidence of
-        late grade 3/4 complications, such an analysis might be
-        better undertaken at a multi-institutional level.
+        Discussion
+        In this nested case-control study, the relation of
+        adolescent diet to risk of breast cancer was evaluated
+        among participants in the Nurses' Health Study who had
+        completed a 24-item FFQ about diet during high school.
+        Increased consumption of eggs was inversely associated with
+        risk of breast cancer. Eggs are rich sources of essential
+        amino acids, minerals and vitamins. For instance, one egg
+        contains 11.5% of the recommended daily allowance for
+        folate and 6.5% of that for vitamin D [ 16 ] . Conversely,
+        increased consumption of butter was associated with a
+        slight increase in risk. Neither animal fat, total fat, nor
+        unsaturated fat was associated with increased risk on
+        nutrient analysis; however, another nutrient in butter
+        might confer increased risk, or the consumption of butter
+        might be a proxy for another risk factor.
+        When specific nutrients were examined, increased
+        consumption of both vegetable fat and dietary fiber was
+        associated with a decreased risk of breast cancer. Fiber
+        might affect the risk of breast cancer by decreasing
+        estrogen levels; fiber binds estrogen excreted into the
+        gastrointestinal tract and reduces enterohepatic
+        circulation [ 17 18 ] . In addition, higher dietary fiber
+        intake has been associated with higher plasma levels of
+        sex-hormone-binding globulin, which can reduce the
+        bioavailability of estrogens [ 19 ] . The potential
+        mechanism of a protective effect of vegetable fat is more
+        speculative: vegetable fat is a composite of multiple forms
+        of fatty acids, some of which have been proposed to
+        increase risk (such as C 
+        18:2 n-6) whereas other specific fatty
+        acids have been proposed to decrease risk (such as C 
+        18:1 , the primary fatty acid in olive
+        oil) [ 20 ] . More detail on the type and composition of
+        the vegetable oil used is necessary to pursue this relation
+        with greater precision.
+        Several limitations to the study exist. First, the
+        validity of diet data recalled from 22 to 47 years in the
+        past is unknown. Although we have shown that this recall is
+        reproducible and is not highly correlated with current diet
+        [ 14 ] , we can only infer validity. Potischman 
+        et al. [ 21 ] have shown that there
+        is a strong degree of concordance between the report of
+        mother and the report of daughter about foods consumed
+        during this age period, although others have shown that
+        recall of diet from the distant past is imprecise [ 22 ] .
+        However, in the absence of dietary data actually collected
+        during adolescence, recall of high school diet provides the
+        best estimate of possible relationships between diet during
+        adolescence and the risk of breast cancer.
+        Second, the 24-item FFQ is too short for complete
+        assessment of total energy intake or specific nutrients.
+        For instance, the intake of folate calculated from high
+        school FFQ is much lower than the range seen in adult women
+        [ 23 ] ; median intake group in the top quintile of intake
+        during high school was only 238 μg per day. Given the
+        restricted list of foods from which the nutrients were
+        derived, more emphasis should be placed on the analysis of
+        foods than of nutrients when interpreting these data.
+        A third limitation of the current study is the
+        possibility of recall bias because high school diet history
+        was obtained after diagnosis of breast cancer. The most
+        prevalent, although apparently incorrect, dietary
+        hypothesis among the general population in 1986 was the
+        notion that increased fat consumption significantly
+        increased risk. Nevertheless, in this study the lack of
+        association of fat intake suggests that recall bias was
+        probably not a major factor. However, the brevity of this
+        questionnaire might not have permitted complete recording
+        of all sources of fat.
+        A further limitation is the possibility of survivor
+        bias. Only cases alive in 1986 who had completed the high
+        school diet portion of the questionnaire were included in
+        the analysis. If adolescent diet in any way increases the
+        risk of mortality from breast cancer, women with these
+        adverse dietary patterns would not be included in analysis,
+        and the relation would be distorted. Finally, there remains
+        the possibility of residual confounding by unmeasured
+        factors, for instance socioeconomic status during childhood
+        and its impact on dietary composition.
+        Four other studies of the relation between childhood
+        diet and breast cancer have been reported previously. Pryor
+        
+        et al. [ 24 ] conducted a
+        case-control study of adolescent diet and breast cancer in
+        Utah. Recall of diet was assessed by a modification of the
+        Block questionnaire, selecting for foods higher in fat and
+        fiber. No data were presented on the foods themselves; only
+        possible relations between fat and fiber, stratified by
+        menopausal status, were reported. Higher intake of fat from
+        dairy sources was associated with a decreased risk of
+        breast cancer for both premenopausal and postmenopausal
+        women. This conclusion contrasts with the finding of our
+        study in which a higher intake of butter was associated
+        with a small increase in risk. A higher intake of fiber
+        decreased risk in premenopausal women, whereas a higher
+        intake of fiber was associated with an increased risk of
+        breast cancer in postmenopausal women, analogous to a
+        finding of the present study.
+        Hislop 
+        et al. [ 22 ] conducted a
+        case-control study in British Columbia among 846 incident
+        cases of breast cancer between 1980 and 1982. Women were
+        asked to recall their dietary intake of 31 foods during
+        early childhood (up to age 13 years). In premenopausal
+        women, consumption of meat with visible fat during
+        childhood was associated with an increased risk of breast
+        cancer (RR ['three or more times per week' compared with
+        'less than once per month'] = 2.69; 95% CI 1.26-5.80)
+        Consumption of vegetable oils was associated with a reduced
+        risk in premenopausal women (RR = 0.48; 95% CI 0.25-0.89).
+        We also observed an inverse relationship between the intake
+        of vegetable fat and the risk of breast cancer.
+        Potischman 
+        et al. [ 21 ] conducted a
+        case-control study among 1647 cases who had been diagnosed
+        with breast cancer at less than 45 years of age.
+        Participants were asked during a telephone interview to
+        quantify their intake of 29 foods at ages 12-13 years. The
+        mothers of the participants were also asked to recall their
+        daughter's intake of foods at ages 12-13 years. The
+        response of each mother was highly correlated with the
+        daughter's report. The authors reported that increased
+        consumption of high-fat meats was associated with an
+        increased risk of breast cancer, whereas increased
+        consumption of fruits and vegetables was associated with a
+        non-significant but consistent decrease in risk of breast
+        cancer.
+      
+      
+        Conclusion
+        The present study revealed that increased consumption of
+        eggs was associated with a decreased risk of breast cancer,
+        whereas increased consumption of butter was associated with
+        a slight increase in risk. In addition, increased intake of
+        vegetable oils and dietary fiber seemed to be inversely
+        related to risk of breast cancer. Future studies of the
+        relation between adolescent diet and risk of breast cancer
+        are warranted and should include a more complete assessment
+        of diet.
       
       
         Competing interests
-        None Declared
+        None declared.
       
       
-        Authors' contributions
-        ABJ designed and coordinated the investigation and
-        drafted the manuscript. CMH, CAP, and JCR constructed and
-        implemented the software code for which the dose volume
-        histograms could be computed and averaged. LK and SV were
-        responsible for maintaining the patient database - in
-        addition SV provided general methodological and clinical
-        guidance. All authors have read and approved the final
-        manuscript.
+        Abbreviations
+        BBD = benign breast disease; CI = confidence interval;
+        FFQ = food-frequency questionnaire; Q = quintile; RR =
+        relative risk.
       
     
   

@@ -2,945 +2,389 @@
   
     
       
-        Background
-        RNA viruses are important pathogens in humans, animals,
-        and plants. Their short generation time and high mutation
-        rates allow them to adapt rapidly to changing environmental
-        conditions, and make them ever-changing targets for
-        anti-viral therapies or vaccinations. RNA viruses form
-        highly polymorphic clouds of mutants, so-called
-        quasispecies [ 1 2 3 ] . At viral loads of 10 8or more
-        virions in an infected host, viral quasispecies 
-        in vivo often contain all possible
-        single-point mutants from the consensus sequence, as well
-        as a sizeable fraction of two- or three-point mutants [ 4 ]
-        . Besides their importance as pathogens, RNA viruses have
-        in recent years also become one of the main tools for
-        experimental verification of theoretical population
-        genetics and evolutionary theory in general (reviewed in [
-        3 ] ). This line of research can draw on a substantial body
-        of literature on the theory of quasispecies dynamics and
-        its relation to standard population genetics [ 5 6 7 8 9 10
-        11 12 13 14 15 16 ] .
-        The quasispecies theory has been useful to understand
-        RNA virus evolution, but the assumptions underlying the
-        model do not always reflect the biology of RNA viruses. In
-        some instances the original model has been corrected to
-        account for discrepancies, such as infinite vs. finite
-        population sizes [ 7 9 16 ] . However, other factors need
-        to be considered as well. For instance, the standard
-        quasispecies model assumes low multiplicity of infection
-        (m.o.i.), that is, each cell is assumed to be infected by
-        at most one virion. At high m.o.i., when several virions
-        coinfect a single cell, the virions can recombine [ 17 18
-        19 ] or reassort (for segmented viruses) [ 20 21 22 23 24
-        25 ] . Second, the model assumes that the genotype of a
-        virion fully determines its fitness. However, this
-        assumption is not always justified, since many viral
-        functions can be provided in trans - an effect referred to
-        as complementation. Thus, the phenotype of a virion may not
-        reflect its genotype [ 26 27 28 29 ] . Phenotypic mixing
-        and hiding is a particular case of complementation
-        involving surface proteins (above citations). It occurs
-        either at high m.o.i., when two or more different mutants
-        or virus strains freely exchange genetic sequences and
-        surface proteins inside a cell, or at low m.o.i., when a
-        mutant offspring is encapsidated by its parent's
-        proteins.
-        No general theory is available for the evolutionary
-        dynamic of a viral quasispecies under the influence of
-        virus density as it changes with changing m.o.i. However,
-        some particular cases have been studied [ 30 31 32 ] ,
-        mostly related to recombination and reassortment [ 33 34 35
-        36 ] and to the dynamic of defective interfering particles
-        [ 37 38 39 40 41 ] . In this paper, we modify the
-        quasispecies model by incorporating phenotypic hiding
-        between wild-type virus and a deleterious mutant. We assume
-        that the mutant differs from the wild type in a surface
-        protein necessary for cell entry, so that the fitness
-        difference between two virions is solely determined by the
-        surface proteins, and not by the particular genomes they
-        carry. We show that phenotypic hiding of the mutant genome
-        behind wild-type capsids increases the mutant frequency
-        above the level predicted by the standard quasispecies
-        model. This increase in mutant frequency is most pronounced
-        at high m.o.i., but exists also at very low m.o.i.
-        Moreover, we show that the decrease of mutant frequency
-        from an initially high level down to the level of
-        mutation-selection balance is slowed down substantially at
-        high m.o.i. because of phenotypic hiding.
-        We propose that our model may explain some of the
-        quantitative differences observed between theoretical
-        predictions of the quasispecies model and experimental data
-        published in the literature [ 42 43 44 45 ] .
-        Foot-and-mouth disease virus (FMDV) has been one of the
-        most productive models of viral quasispecies dynamics
-        (reviewed in [ 46 ] ). FMDV belongs to the Picornaviridea
-        family. It has a non-segmented, positive strand genome of
-        approximately 8.5 Kb encapsidated by viral proteins, VP1,
-        VP2, VP3 and VP4. A conserved Arginine-Glycine-Aspartic
-        acid (RGD) triplet in βG-βH loop of VP1 recognizes the
-        αvβ3, αvβ6 or αvβ1 integrin as viral receptor (reviewed in
-        Ref. [ 47 ] ), the first necessary step for virus entry.
-        Work carried out with different RGD virus mutants and mimic
-        peptides [ 48 49 50 51 52 ] clearly demonstrates the
-        critical role that the RGD triplet has in virus entry, and
-        its little tolerance to variation. Among the few RGD
-        mutants that have been isolated, on is RED, a low fitness
-        mutant in which the glycine is replace by glutamic acid [
-        53 ] . Ruíz-Jarabo and co-workers found that after
-        revertant RGD genomes became dominant, and mutant genomes
-        were no longer detected in the consensus sequence, RED was
-        able to remain in the population for very long times and at
-        surprisingly high frequencies [ 42 43 44 45 ] . There is a
-        qualitative agreement between the predictions of the
-        quasispecies model and this result, but there is also a
-        quantitative discrepancy. RED memory genomes can be
-        observed at much higher frequency than expected. However,
-        phenotypic hiding promotes a decelerated decay of mutant
-        genomes in the population, and this decelerated decay could
-        be interpreted as a memory effect, in agreement with the
-        results by Ruíz-Jarabo et al. The research design of the
-        original work [ 42 43 44 45 ] does not allow us to
-        conclusively accept or reject our model as the correct
-        explanation for their observations, but the values of
-        mutant frequencies predicted by our model are consistent
-        with the experimental data.
+        Introduction
+        Antiretroviral therapy (ART) has been a milestone in the treatment of HIV infection.
+        Current treatment guidelines for HIV-1 infection in the United States recommend the
+        initiation of ART in patients with CD4 T cell counts of less than 350 cells/μl [1]. In
+        implementing these guidelines, health-care providers face the ongoing challenge of
+        developing treatment strategies that minimize drug-related toxicity and adverse effects
+        while retaining effective control of viral replication. Furthermore, treatment-associated
+        costs (particularly in resource-poor areas), difficulty in maintaining long-term optimal
+        adherence [2], and the emergence of viral resistance [3,4,5] have limited the feasibility
+        of life-long ART-mediated viral suppression, increasing the need for alternative treatment
+        strategies. Intermittent therapy strategies, consisting of alternating cycles on and off
+        ART, have increasingly emerged as a potential intervention to address limitations of
+        continuous ART [6,7,8,9]. Therapy interruption (TI) studies in ART-treated patients with
+        suppressed HIV infection [10] have addressed the general questions as to whether such
+        strategies can achieve greater viral control through increased antiviral responses
+        (autoimmunization hypothesis) or simply serve as a strategy to reduce cost of long-term
+        therapy and drug-associated toxicity. While pilot studies and uncontrolled (or incomplete)
+        trials in patients with chronic HIV infection have addressed viral and immune outcomes of
+        fixed-length TI and fixed on-drug cycles [11,12,13,14,15,16], no completed randomized,
+        controlled trial has yet addressed by intent-to-treat analysis the outcome during an
+        open-ended TI of sequential TIs versus continuous treatment in patients with confirmed
+        suppression. The largest study to date in this area is the prospective single-arm
+        Swiss–Spanish Intermittent Trial (SSITT) conducted in 133 recruited patients undergoing
+        sequential 2-wk TIs and showing a lack of impact of this strategy on achieving sustained
+        viral loads of less than 5,000 copies/ml off therapy in those that completed the study
+        [11]. However, the lack of a control arm in this study has left unanswered questions about
+        the impact of multiple TIs on time to rebound, immune reconstitution, therapy failure, and
+        viral resistance when analyzed against a randomized control arm of continuous treatment
+        followed for equal time before a single open-ended interruption.
+        We completed a randomized, controlled trial on the outcome of repeated 2- to 6-wk TIs in
+        patients with chronic infection in which the comparator group maintained continuous therapy
+        and then an open-ended interruption period was applied in both treatment groups. The study
+        addressed the potential for repeated interruptions of therapy to delay time to viral
+        rebound as a primary outcome and analyzed secondary outcomes regarding study-defined safety
+        criteria, viral suppression and resistance, and retention of immune reconstitution.
       
       
-        Model
-        We assume that the virus is propagated under serial
-        transfer, and model the change in mutant concentrations
-        from passage to passage. We assume that the difference
-        between wild type and mutant lies in the capsid proteins,
-        such that the mutation affects the ability of the virus to
-        enter a cell, but not the viability of the virus inside the
-        cell. Under phenotypic mixing and hiding, there are four
-        types of virions that can occur: wild-type genotype with
-        wild-type phenotype, wild-type genotype with mutant
-        phenotype, mutant genotype with wild-type phenotype, and
-        mutant genotype with mutant phenotype. We will call virions
-        whose genotype coincides with their phenotype as pure, and
-        virions for which genotype and phenotype do not coincide as
-        mixed. In the following paragraphs, we outline the
-        derivation of a set of deterministic equations that
-        describe the change in relative concentrations of the
-        different pure and mixed virions in an infinite virus
-        population. More details are given in the Methods section.
-        Our model is similar to models studied by Szathmáry [ 38 39
-        ] .
-        The probability 
-        p 
+        Methods
         
-          ww 
-         that an offspring virion is pure wild type is 
-        p 
+          Participants
+          Between August 2000 and December 2003, we enrolled 42 patients infected with HIV who
+          were older than 18 y and on ART; eligibility criteria included CD4 counts of greater than
+          400 cells/μl on ART with a nadir of no less than 100 cells/μl, ART-mediated suppression
+          (< 500 copies/ml) for more than 6 mo and less than 50 copies/ml at recruitment on any
+          antiretroviral regimen. Approval of the study protocol was obtained from the
+          institutional review board (IRB) of the Philadelphia Field Initiating Group for HIV
+          Trials (Philadelphia, Pennsylvania, United States). Written informed consent was obtained
+          from all patients. Human experimentation guidelines of the United States Department of
+          Health and Human Services and of the authors' institutions were followed. The study
+          protocol, including the patient consent form, the CONSORT form, and the IRB approval, can
+          be found in Protocols S1–S4.
         
-          ww 
-         = (1 - 
-        r ) 
-        x 
         
-          w 
-         + 
-        r [Methods section, Eq. (14)], where 
-        x 
+          Randomization and Study Design
+          Forty-two eligible patients from the Jonathan Lax Immune Disorder Clinic in
+          Philadelphia, Pennsylvania, were randomized via sealed envelopes in a 1:1 fashion to a
+          first phase (phase I) of either (1) three successive TIs of 2, 4, and 6 wk, respectively,
+          or (2) maintenance of ART for 40 wk before a final interruption of therapy in both arms
+          (phase II) subject to therapy reinitiation criteria as described below. Phase II
+          consisted of an open-ended interruption to allow for virological and immunological
+          comparisons between the groups off therapy. Study visits were every 2 wk for the repeated
+          interruptions group and every 4 wk for the continuous ART group during phase I. Both
+          groups were followed every 2 wk during phase II. We followed a study design with
+          step-wise increases in the length of TI cycles to address potential safety concerns
+          (resuppression was confirmed after shorter TIs before longer interruptions were
+          initiated) and the hypothesis that sequential viral replication intervals would stimulate
+          viral control and a delay in time to viral rebound.
+          Phase I procedures for the repeated interruptions group included the following. (1)
+          Interruption of therapy was individually timed to occur after two HIV RNA measurements of
+          less than 50 copies/ml without any viral load measurements greater than 400 copies/ml in
+          between; these interruptions increased from 2 to 4 to 6 wk sequentially. (2) If a 0.5-log
+          or greater reduction in viral load did not occur by 6 wk of reinitiated therapy or less
+          than 50 copies/ml was not achieved within 20 wk of reinitiated therapy, patients were
+          withdrawn as therapy failures and a resistance test was performed. (3) Patients were also
+          withdrawn as therapy failures if (a) the CD4 cell number declined by more than 45% of the
+          baseline CD4 count, (b) participants developed an opportunistic infection, even if
+          retaining required CD4 count levels, or (c) a viral load of greater than 500,000
+          copies/ml occurred once, with or without development of acute retroviral syndrome as
+          defined by fever, skin lesions, and pharyngitis.
+          Phase I procedures for the continuous therapy arm included the following: (1) patient
+          monitoring if detected viremia was between 50 and 999 copies/ml, with the patient
+          withdrawn if their viral load did not return to less than 50 copies/ml immediately prior
+          to phase II, and (2) patient study withdrawal as therapy failure if during the 40-wk ART
+          period viral load rebounded to more than 1,000 copies/ml at two consecutive time
+          points.
+          Phase II procedures for both arms included the following: (1) monitoring for patient
+          study withdrawal criteria as described in phase I, (2) determining time to primary end
+          point of a viral load greater than 5,000 copies/ml, (3) monitoring until the time of
+          therapy reinitiation at a viral load greater than 30,000 copies/ml for three consecutive
+          time points, and (4) after reinitiation of therapy, follow-up on therapy to confirm
+          resuppression to less than 50 copies/ml at 6, 10, and 14 wk on therapy. Clinical and
+          laboratory parameters (CD4 count and viral load) were monitored at each visit, and venous
+          blood was collected for additional secondary outcomes during selected study visits.
+          In both phase I and II, participants taking non-nucleoside reverse-transcriptase
+          inhibitors (NNRTIs) were instructed to stop them a day earlier than the remaining drugs
+          in the regimen.
         
-          w 
-         is the probability with which a particular virion that
-        infects a cell contains the wild-type genome, and 
-        r is a parameter related to the
-        multiplicity of infection. Likewise, the probabilities 
-        p 
         
-          wm 
-         and 
-        p 
+          Primary and Secondary Outcomes
+          The primary outcome was time to confirmed virological rebound during phase II. Rebound
+          was defined as first time point with greater than 5,000 copies/ml. Viral replication
+          magnitude as defined by mean HIV-1 plasma RNA area under the curve (AUC
+          HIV RNA ) was measured as a secondary outcome at weeks 12 and 20 of
+          phase II based on reinitiation-of-therapy criteria outlined above.
+          Additional secondary outcomes included (1) safety outcomes (serious adverse events
+          [SAEs] and patient withdrawal based on criteria defined above), (2) retention of
+          ART-mediated immune reconstitution, and (3) detection of viral resistance. Retention of
+          immune reconstitution was analyzed by (1) same-day whole blood flow-cytometry-based
+          analysis of CD4 and CD8 T cells, including total and naïve (CD62 l/CD45RA) and memory
+          (CD45RO) subsets as described [17], and (2) same-day recall response analysis of
+          peripheral blood mononuclear cell lymphoproliferative responses to 
+          Candida albicans as described [17]. Viral resistance mutations
+          were retrospectively analyzed on cryopreserved plasma samples by genotyping of first
+          available sample with viral load greater than 100 copies/ml following each interruption
+          using the TruGene Assay (Visible Genetics, Toronto, Canada) at the Gladstone Institute of
+          Virology and Immunology (San Francisco, California, United States) as previously
+          described [18,19].
         
-          mw 
-         that an offspring virion is mixed of either type are 
-        p 
         
-          wm 
-         = 
-        p 
+          Sample Size
+          The sample size required was calculated using PS [20] software, and based on a type I
+          error of 0.05, with 90% power, to detect a difference of 4 wk or more in time to viral
+          rebound between arms. Eighteen patients per group resulted in sufficient power (18 for
+          90%, 13 for 80%) to determine a difference of 4 wk or greater between groups in time to
+          rebound of virus during the open-ended interruption. Assuming a loss to follow-up of 15%,
+          we targeted 21 patients per group, or 42 total.
         
-          mw 
-         = 
-        rx 
         
-          w 
-         
-        x 
-        
-          m 
-         [Eq. (15)], where 
-        x 
-        
-          m 
-         = 1 - 
-        x 
-        
-          w 
-         , and the probability 
-        p 
-        
-          mm 
-         that an offspring virion is pure mutant is 
-        p 
-        
-          mm 
-         = (1 - 
-        r ) 
-        x 
-        
-          m 
-         + 
-        r . The formula that relates the
-        parameter 
-        r to the multiplicity of infection,
-        Eq. (13), is somewhat unwieldy. For reference, and in order
-        to provide an intuitive meaning for 
-        r , we have tabulated 
-        r (which we will call in the
-        following also the mixing parameter) versus the m.o.i. in
-        Table 1.
-        The probabilities 
-        x 
-        
-          w 
-         and 
-        x 
-        
-          m 
-         depend on the composition of the types of free virions
-        on infection. Assume that 
-        y 
-        
-          ww 
-         is the concentration of pure wild-type virions at
-        passage 
-        t , 
-        y 
-        
-          wm 
-         that of mixed virions with wild-type genotype and
-        mutant phenotype, 
-        y 
-        
-          mw 
-         that of mixed virions with mutant genotype and
-        wild-type phenotype, and 
-        y 
-        
-          mm 
-         that of pure mutant virions. Further, assume that
-        virions with wild-type phenotype infect cells at a rate γ 
-        
-          w 
-         , while virions with mutant phenotype infect at a rate
-        γ 
-        
-          m 
-         < γ 
-        
-          w 
-         . Then, the total rate at which cells are infected
-        with wild-type genomes is γ 
-        
-          w 
-         
-        y 
-        
-          ww 
-         + γ 
-        
-          m 
-         
-        y 
-        
-          wm 
-         . Likewise, the total rate at which cells are infected
-        with mutant genomes is γ 
-        
-          w 
-         
-        y 
-        
-          mw 
-         + γ 
-        
-          m 
-         
-        y 
-        
-          mm 
-         . Therefore, we have 
-        x 
-        
-          w 
-         = (γ 
-        
-          w 
-         y 
-        
-          ww 
-         + γ 
-        
-          m 
-         
-        y 
-        
-          wm 
-         )/[γ 
-        
-          m 
-         ( 
-        y 
-        
-          wm 
-         + 
-        y 
-        
-          mm 
-         )]. The probability 
-        x 
-        
-          m 
-         follows from 
-        x 
-        
-          m 
-         = 1 - 
-        x 
-        
-          w 
-         .
-        Using the various formulas given in the previous two
-        paragraphs, we find that the virion concentrations at
-        passage 
-        t + 1 (primed quantities) are given
-        by
-        
-        We now introduce mutations into this model. We assume
-        that the wild type mutates into the mutant with probability
-        μ. For simplicity, we assume that back mutations occur at
-        the same rate. (It is safe to make this assumption, because
-        the rate of back mutations from deleterious to advantageous
-        mutants tends to have little effect on mutation-selection
-        balance.) Mutations will typically not affect the phenotype
-        of the offspring virion, which is determined by the
-        distribution of mutant or wild-type capsid proteins in the
-        cell. The extended model with mutations therefore
-        becomes
+          Statistical Analysis
+          The primary analysis was an intent-to-treat analysis in which dropouts were assigned a
+          week 0 rebound time (e.g., maximum failure to delay rebound). In secondary analyses,
+          these dropouts were excluded. The log-rank test was used to test the null hypothesis of
+          no difference between arms in the number of weeks from initiation of the open-ended TI to
+          reaching viral rebound as defined. Patients not reaching end point at 26 wk after the
+          beginning of the open-ended TI were censored. Wilcoxon rank sum tests were used to
+          compare baseline and week 0 of the open-ended interruption between groups. Wilcoxon
+          signed rank tests were used to test for no change from baseline to week 0 of phase II.
+          Finally, Wilcoxon rank sum tests were employed to test between groups for equality of the
+          mean AUC
+          HIV RNA up to 12 and 20 wk. In all cases, a two-sided alpha level of
+          0.05 was used to define statistical significance. Unless otherwise stated, results are
+          presented as median (interquartile range) in text and tables.
         
       
       
         Results
         
-          Extinction of mutant for μ = 0
-          In order to evaluate whether the mutant can coexist
-          with the wild type or will ultimately go extinct if it is
-          not constantly regenerated through mutations, we have to
-          analyze the fixed points of Eqs. (1a)-(1d). There are two
-          trivial fixed points, corresponding to the cases in which
-          all virions are either pure wild-type or pure mutant. We
-          could not find any non-trivial fixed points. Since the
-          expressions involved are extremely unwieldy, we searched
-          for non-trivial fixed points only numerically (using the
-          function NSolve of Mathematica [ 54 ] ).
-          A linear expansion around the fixed points tells us
-          whether the mutant can invade an established wild-type
-          population or vice versa. If we introduce a small amount
-          ε of mutant virions into an established wild-type
-          population, the total amounts of wild-type genomes 
-          Y 
-          
-            w 
-           = 
-          y 
-          
-            ww 
-           + 
-          y 
-          
-            wm 
-           and mutant genomes 
-          Y 
-          
-            m 
-           = 
-          y 
-          
-            mm 
-           + 
-          y 
-          
-            mw 
-           after the next passage become to first order in
-          ε:
-          
-          As long as γ 
-          
-            m 
-           /γ 
-          
-            w 
-           < 1 (as we assume throughout this paper), the
-          amount of mutant genomes in the population decreases in
-          the first passage, which implies that the mutant cannot
-          invade. Likewise, if we introduce a small amount ε of
-          wild-type virions into an established mutant population,
-          the total amounts of mutant and wild-type genomes after
-          the next passage become to first order in ε:
-          
-          In this case, the amount of the invading wild-type
-          genomes in the population increases, which implies that
-          the wild-type can invade an established mutant
-          population. The invasion of a mutant population by a
-          small amount of wild-type virions is shown in Fig. 1.
-          The preceeding analysis shows that Eqs. (1a)-(1d) have
-          only a single stable fixed point, the one in which the
-          whole population consists of pure wild-type virions. The
-          mutant will therefore always go extinct eventually.
-          The rate at which the mutant disappears depends on the
-          m.o.i. Figure 2shows the ratio between mutant and
-          wild-type concentrations as a function of passage, for
-          various m.o.i. Concentrations are measured with respect
-          to the genotype, that is, mutant and wild-type
-          concentrations are 
-          Y 
-          
-            m 
-           and 
-          Y 
-          
-            w 
-           , respectively. In the example given, we have γ 
-          
-            m 
-           /γ 
-          
-            w 
-           = 0.3. At low m.o.i., the mutant-to-wild-type ratio
-          drops from 1 at passage zero to values of 10 -2and lower
-          after four passages. At high m.o.i., the reduction in
-          mutant concentration proceeds much slower. For example,
-          at an m.o.i. of three, the mutant-to-wild-type ratio is
-          only 10 -1after four passages. An interesting aspect of
-          Fig. 2is that the reduction in mutant frequency during
-          the first passage is independent of the m.o.i. This
-          effect is a consequence of our assumption that the mutant
-          has impaired ability of cell entry. In the first round of
-          infection, when all virions are pure wild type or pure
-          mutant, the mutant virions cannot benefit from phenotypic
-          hiding. Therefore, their frequency will decrease
-          corresponding to the true fitness difference to the wild
-          type, independent of the m.o.i. From the second passage
-          onward, the balance between pure and mixed virions is
-          established, and further reduction of the mutant
-          frequency is slowed down at high m.o.i.
-          Figure 3shows the individual concentrations of the
-          various pure and mixed virions at an m.o.i. of five. We
-          observe that the concentration of pure mutant virions
-          decreases much faster than that of mixed virions with
-          mutant genomes. After ten passages both concentrations
-          are equal, and after fifty passages, there are more than
-          twice as many mixed virions with mutant genomes than
-          there are pure mutant virions. When the mutant is rare,
-          it is mostly hiding behind wild-type capsids, which slows
-          down its extinction. Interestingly, the fraction of
-          mutant genomes encapsidated with wild-type protein is
-          equal to the fraction of wild-type genomes encapsidated
-          with mutant protein at zero mutation rate. This symmetry
-          is a consequence of the symmetry of equations (1b) and
-          (1c), and disappears for μ > 0.
+          Patient Flow and Discontinuations
+          Trial patient flow is summarized in Figure 1. Between August 2000 and December 2003,
+          42 patients at the Jonathan Lax Immune Disorder Clinic at the Philadelphia Field
+          Initiating Group for HIV Trials were enrolled, randomized, and followed as shown in
+          Figure 2. In the continuous therapy/single interruption arm, 16 of 21 patients reached
+          the open-ended interruption. Reasons for study discontinuation in this arm were loss to
+          follow-up (
+          n = 1; patient moved away) and virological failure during continuous
+          therapy (
+          n = 4; further discussed below). In the repeated interruptions arm, 18
+          of 21 patients reached the open-ended interruption following three TIs of 2, 4, and 6 wk
+          duration, with median peak rises in viral loads of 136 (50–2,590), 13,651 (180–222,589),
+          and 18,887 (3,893–96,101) copies/ml, respectively. Median time to less than 50 copies/ml
+          after resumption of therapy was 2 (0–4), 3 (1.8–12), and 9.5 (2–12) wk, respectively,
+          with 9, 18, and 20 wk as the maximum time needed to achieve suppression in 100% of
+          patients before reaching the open-ended interruption. Study discontinuation in the
+          repeated interruptions arm was due to protocol violation (
+          n = 1; patient restarted therapy during interruption out of protocol),
+          loss to follow-up (
+          n = 1; patient imprisoned), and virological failure during on-therapy
+          period (
+          n = 1; further discussed below).
         
         
-          Mutation-selection balance for positive μ
-          We now turn to the general case of a positive mutation
-          rate μ. We first consider the case of vanishingly low
-          m.o.i., 
-          r = 0. When we set 
-          r = 0, Eq. (2) becomes the
-          discrete-time version of a model of maternal effects in
-          quasispecies evolution [ 55 ] . In Ref. [ 55 ] , the
-          fitness of a virion is assumed to be the product of a
-          contribution from the genotype of the virion's parent and
-          one from the virion's own genotype. The situation here is
-          simpler, because we assume that fitness is only
-          determined by the phenotype (efficiency of cell entry).
-          In the language of Ref. [ 55 ] , this means we have 
-          b 
-          
-            i 
-           = 1 for all genotypes 
-          i. From Eqs. (5) and (6) in Ref. [
-          55 ] , we obtain the steady-state concentrations of pure
-          and mixed virions (neglecting back mutations from mutant
-          to wild type):
-          
-          We mentioned in the previous section that 
-          y 
-          
-            wm 
-           = 
-          y 
-          
-            mw 
-           for μ = 0. Clearly, this symmetry does not exist for
-          μ > 0. For 0 < μ << 1, the ratio in
-          concentration of the two classes of mixed virions is 
-          y 
-          
-            mw 
-           / 
-          y 
-          
-            wm 
-           = (1 - μ - γ 
-          
-            m 
-           /γ 
-          
-            w 
-           )/μ ≈ 1/μ. There will typically be several orders of
-          magnitude more mutant genomes encapsidated in wild-type
-          protein than wild-type genomes encapsidated in mutant
-          protein. Note, however, that this result holds only under
-          the assumption of vanishingly low m.o.i. As the m.o.i.
-          increases, the mixed virions with mutant genomes will
-          still be at higher concentration than the mixed virions
-          with wild-type genomes, but the ratio between the two
-          will be much smaller than 1/μ. The ratio of mixed virions
-          with mutant genomes to pure mutant virions is 
-          y 
-          
-            mw 
-           / 
-          y 
-          
-            mm 
-           ≈ 1 - γ 
-          
-            m 
-           /γ 
-          
-            w 
-           < 1 at low m.o.i., that is, there are more pure
-          virions than mixed virions with mutant genomes in
-          equilibrium. We found numerically that at high m.o.i.,
-          this relationship is reversed, and there are
-          substantially more mixed than pure mutants.
-          For the total amount of mutant genomes in the
-          population, we obtain after summing Eqs. (5c) and
-          (5d):
-          
-          For comparison, the standard quasispecies model
-          (without phenotypic hiding) predicts:
-          
-          This expression is equivalent to the one given by
-          Ruíz-Jarabo et al. in their analysis of quasispecies
-          memory [ 44 ] . Equations (6) and (7) differ only in the
-          factor 2(1 - μ) - γ 
-          
-            m 
-           /γ 
-          
-            w 
-           . This factor is larger than one for small mutation
-          rates, that is, as long as
-          μ < (1 - γ 
-          
-            m 
-           /γ 
-          
-            w 
-           )/2. (8)
-          If the mutant has a substantial fitness disadvantage
-          in comparison to the wild type (say at least 10%), then μ
-          will always be small enough to satisfy this condition.
-          Therefore, phenotypic hiding will lead to an increase in
-          mutant genomes even at low m.o.i. The increase is at most
-          a factor of two (for μ << 1 and γ 
-          
-            m 
-           /γ 
-          
-            w 
-           << 1) in comparison to the prediction of the
-          standard quasispecies model.
-          For the case of positive mutation rate and high
-          m.o.i., there is no analytic solution available, and we
-          have to resort to numerical simulations. Figure 4shows
-          the decay of mutant genomes over time, starting from an
-          initial state where mutant and wild type are present in
-          equal concentrations. We have displayed trajectories for
-          a wide range of m.o.i., and we have also displayed the
-          corresponding trajectory generated by the standard
-          quasispecies model. All trajectories show the same
-          qualitative behavior: The mutant frequency decays quickly
-          during the initial passages, and then levels off in
-          mutation-selection balance. As discussed in the previous
-          paragraphs, the level of mutant genomes in
-          mutation-selection balance is always higher in our model
-          than in the standard quasispecies model. Moreover, the
-          level of mutant genomes increases with increasing m.o.i.
-          The initial decay of mutant genomes is also influenced by
-          the m.o.i., and slows down with increasing m.o.i. In
-          general, the initial decay of mutant genomes for μ > 0
-          is identical to the one for μ = 0, as described in the
-          previous subsection. It is interesting to note that
-          phenotypic hiding influences the equilibrium
-          concentration of mutant genomes at low m.o.i., but not
-          the speed at which equilibrium is attained. The initial
-          decay of mutant genomes is identical for our model at low
-          m.o.i. and for the standard quasispecies model.
+          Baseline Criteria and Follow-Up
+          The demographic and clinical characteristics of the two groups at baseline are
+          summarized in Table 1. Seventy-five percent of participants were on their second to
+          fourth regimen while 25% were in their first regimen
+          . No significant difference was found in baseline parameters between
+          arms, with 33%–47% of patients on protease-inhibitor-containing and 61%–71% on
+          NNRTI-containing regimens. Owing to the high participation of patients on NNRTI-based
+          regimens and concerns about TI and safety in general, patient outcomes and treatment
+          failure were reviewed monthly by the IRB of this study during the first 8 mo of study,
+          quarterly for the following 4 mo, and semi-annually thereafter. Figure 2 shows study
+          design for both arms, with a median follow-up of 41 (41–42) wk during phase I for the
+          continuous therapy/single interruption arm and 42 (30–51) wk for the repeated
+          interruptions arm. Follow-up during phase II had a median duration of 27 wk in both arms
+          (continuous therapy/single interruption arm, 27 [8.75–47]; repeated interruptions arm, 27
+          [16.5–35]). Following reinitiation of therapy after phase II, patients suppressed viral
+          replication to less than 50 copies/ml by a median time of 10 (6–12) wk in both arms,
+          excluding for two patients in the continuous therapy/single interruption arm who elected
+          to stay off ART indefinitely and one patient from the repeated interruptions arm who
+          reported nonadherence following regimen reinitiation yet reached 52 copies/ml before
+          withdrawing from additional follow-up.
+        
+        
+          Primary Outcome
+          An intent-to-treat analysis of the time to viral rebound (>5,000 copies/ml) in the
+          open-ended interruption showed no difference between groups (continuous therapy/single
+          TI, median = 4 [1–8] wk, 
+          n = 21; repeated TI, median = 5 [4–8] wk, 
+          n = 21; 
+          p = 0.36). Figure 3 (top panel) shows the probability of plasma HIV-1
+          RNA remaining less than 5,000 copies/ml for the two groups (
+          n = 21 per group). Exclusion of drop-outs in an as-treated analysis did
+          not alter conclusions (single TI, median = 5 [4–9] wk, 
+          n = 18; repeated TI, median = 6 [4–8] wk, 
+          n = 16; 
+          p > 0.05). Additional secondary analysis of the magnitude of viral
+          load as shown in Figure 3 (second panel) showed similar viral replication as determined
+          by mean AUC
+          HIV RNA analysis at week 12 (single TI, median = 124,621
+          [23,326–262,348] AUC
+          HIV RNA ; repeated TI, median = 100,400 [47,221–365,731] AUC
+          HIV RNA ; 
+          p > 0.05) or week 20 (single TI, median = 114,550 [31,829–362,628]
+          AUC
+          HIV RNA ; repeated TI, median = 153,097 [67,427–515,421] AUC
+          HIV RNA ; 
+          p > 0.05).
+        
+        
+          Secondary Outcomes SAEs and patient discontinuation
+          No patient discontinuation in either group was due to study-defined changes in CD4
+          cell count (reviewed further below) or due to study-associated SAEs (disease progression
+          or acute retroviral syndrome). However, four non-study-related SAEs occurred: two
+          patients from the continuous therapy/single interruption arm were hospitalized, one for a
+          cholecystectomy and one for acute rectal bleeding, during the 40-wk ART period; a patient
+          from the repeated interruptions arm died of liver cancer during week 26 of the open-ended
+          interruption after previously reaching a viral load greater than 5,000 copies/ml yet
+          electing to stay off ART; and a patient from the repeated interruptions arm developed a
+          transient ileitis.
+        
+        
+          Immune reconstitution
+          No significant difference was observed between groups in CD4 T cell counts at the
+          start of phase II, as illustrated in Figure 4. In addition, no difference in the
+          percentage of naïve CD4 cells or decrease of recall response to 
+          C. albicans was observed, confirming the absence of
+          significant differences in the retention of baseline immune reconstitution correlates
+          between arms. However, a significant decrease in the abundance of CD4 cells relative to
+          other T cell types as summarized in CD4% (but not in absolute CD4 count ) was present in
+          the repeated TI arm, corresponding to a significant increase in CD8 T cell count. In
+          spite of fluctuations in CD4 T cell count levels between the start and end of each
+          monitored TI, a recovery of CD4 count levels was achieved upon resuppression following
+          each TI in conjunction with a retention of lymphoproliferative responses against 
+          C. albicans before, during, and after each TI, as illustrated
+          in Figure 5.
+        
+        
+          Viral resistance mutations and therapy failure
+          An intent-to-treat analysis of the combined number of patients per arm with detected
+          resistance mutations irrespective of therapy failure in phase I and during the final TI
+          in phase II showed no significant difference between arms (continuous therapy/single TI,
+          7/21; repeated TI, 10/21; 
+          p > 0.05).
+          Study-defined criteria for therapy failure of a previously suppressive regimen were
+          met by 4/21 patients in the continuous therapy/single interruption arm (patients S37,
+          S47, S52, and S59) in association with self-reported nonadherence to therapy and
+          detection of resistance mutations in phase I, as listed in Table 2. One patient in the
+          repeated interruptions arm (1/21; patient S56) failed therapy after 20 wk following the
+          third TI by maintaining a viral load between 50 and 999 copies/ml in the presence of
+          previously undetected resistance mutations.
+          In patients who reached phase II in the absence of therapy failure, a total of 12
+          patients were identified to have resistance mutations at the first viremic time point
+          (continuous therapy/single TI, 3/16; repeated TI, 9/18; 
+          p = 0.06). A greater number of resistance mutations was detected in the
+          repeated interruption arm, as summarized in Table 3. In ten out of these 12 patients, a
+          change in resistance patterns was observed when comparing the first viremic time point to
+          the last. All 11 of 12 patients in Table 3 who reinitiated therapy retained suppressive
+          ability of their respective regimens, as did all other patients who did not show
+          resistance mutations in phase II. In the repeated interruptions arm, analysis of newly
+          detected resistance mutations in phase II, as defined by a lack of detection during
+          viremic time points in phase I, identified 3/18 patients (patients S4, S22, and S43) with
+          this pattern (see notations in Table 3).
         
       
       
         Discussion
-        Ruíz-Jarabo et al. measured the frequency of the
-        minority FMDV RED mutant up to passage 50, and found that
-        the frequency was still declining at passage 50 [ 44 ] .
-        They observed mutant frequencies at passage 50 between 6.6
-        × 10 -4and 10 -3. These results are in agreement with our
-        model of phenotypic hiding if we use a relative fitness of
-        0.4 for the RED mutant as compared to the wild type [ 42 44
-        ] , and assume that (1) the fitness disadvantage is fully
-        explained by impaired entry, (2) the mutation rate is μ =
-        10 -4, and (3) the m.o.i. is approximately five (Fig. 4).
-        The m.o.i. in Ref. [ 44 ] was between one and five.
-        Ruíz-Jarabo et al. noted that mutant concentrations around
-        10 -3would follow from equilibrium state of the standard
-        quasispecies model if the mutation rate were μ = 10
-        -3rather than μ = 10 -4. However, the standard quasispecies
-        model predicts that the mutation-selection balance should
-        be reached around passage 10 (Fig. 4), which is at odds
-        with the observation that the frequency of RED mutants
-        continued to decline up to passage 50.
-        It is important to note that capsid proteins can be
-        provided in trans during the production of infectious FMDV
-        particles [ 51 ] , and phenotypic hiding has been known for
-        many years in a variety of picornaviruses [ 56 57 58 ] .
-        Other factors may enhance or reduce the effects of
-        complementation. For instance, compartimentalization or
-        physical localization should prevent to some degree the
-        free exchange of genomes and products.
-        In order to test fully the predictions of our model, we
-        would need data on the decay of the mutant frequency from
-        replicate populations propagated at different m.o.i.
-        Unfortunately, such data does not exist. Although
-        Ruíz-Jarabo et al. propagated their populations at an
-        m.o.i. of 0.1 in their initial study [ 42 ] and at an
-        m.o.i. between one and five in their follow-up study [ 44 ]
-        , we cannot compare the mutant frequencies reported in
-        these two studies, because the method of screening for RED
-        mutants was changed in the follow-up study ( [ 44 ] , Table
-        1, Note b). Moreover, a caveat applies to the comparison of
-        the experimental data to our model: Ruíz-Jarabo et al.
-        determined the frequency of RED mutants by first screening
-        for monoclonal antibody (MAb SD6) resistant virions, and
-        then determining the fraction of RED mutants among them
-        from sequence data. While this method successfully prevents
-        against counting MAb-resistant mutants that are not RED, it
-        does not measure the fraction of RED mutants that hide
-        behind RGD capsids. If phenotypic hiding plays an important
-        role in this system, then the fraction of hiding RED
-        mutants could be substantial, and the reported mutant
-        frequencies would likely represent underestimates. In
-        summary, the experimental data are consistent with our
-        model, but do not allow us to either accept or reject it
-        with certainty. We have shown in the present paper that
-        phenotypic hiding can increase equilibrium frequencies by
-        factors of two to five, or even higher, for high m.o.i. It
-        is conceivable that other types of complementation can have
-        similar effects [ 59 ] .
-        Phenotypic hiding can bias fitness determinations if the
-        phenotype, rather than the genotype, is quantified. This
-        bias occurs simply because a fraction of mutant genomes
-        will hide behind wild-type envelopes and will be missed, an
-        effect that has been previously reported [ 29 60 ] . As a
-        byproduct of our study, we predict two phases of mutant
-        frequency decay specific to phenotypic hiding. In the first
-        round of infection, all virions are pure wild type or pure
-        mutant, so that the mutant virions cannot benefit from
-        complementation. Therefore, their frequency will decrease
-        corresponding to their true fitness and independently of
-        the m.o.i. From the second passage onward, the balance
-        between pure and mixed virions is established, and further
-        reduction of the mutant frequency proceeds much slower if
-        the m.o.i. is sufficiently high, as illustrated in Figure
-        2. As a consequence, if fitness competitions are halted
-        after the first passage, measurements of the phenotype will
-        not bias fitness determinations. These effect should not be
-        observed in other forms of complementation, but should be
-        characteristic of any situation in which the phenotype is
-        determined by envelope proteins. Host range will often
-        belong to this category, since receptor recognition is one
-        of its main determinants. Other examples include antibody
-        resistant mutants and escape mutants when the antiviral
-        drug targets entry, such as rimantidine and
-        amantidine-resistant influenza strains or WIN
-        compound-resistant picornaviruses [ 61 ] . Thus, phenotypic
-        hiding can keep a relatively large frequency of mutants in
-        the absence of selective pressure that can provide a quick
-        response when such selective pressure is restored.
-        Complementation can also complicate the interpretation
-        of other experimental results involving competition between
-        two (or more) strains. For instance, Miralles et al. [ 62
-        63 ] tested the effect of clonal interference in VSV
-        populations by changing the population size in competitions
-        between wild type and a MARM mutant. This MARM mutant
-        carries a point mutation that confers resistance to I1 Mab,
-        but it is neutral otherwise [ 64 ] . Clonal interference
-        occurs in asexual organisms when population sizes are large
-        enough to allow the simultaneous generation of more than
-        one advantageous mutation, so that the best mutation has to
-        compete not only with an inferior wild type but also with
-        the other fitter mutants [ 65 ] . Thus, while the best
-        possible mutation should always be the one becoming
-        dominant, the rate at which it does so should be slowed
-        down in large populations. The VSV competition experiments
-        were carried out at increasing viral population sizes, but
-        the number of infected cells was held constant, that is,
-        the m.o.i. was increased alongside the population size.
-        Therefore, complementation may also have contributed to the
-        slowdown of the speed of adaptation at large population
-        sizes, and the relative contributions of complementation
-        and clonal interference to the slowdown would be hard to
-        disentangle. The only phenotypic hiding effect that the
-        authors could avoid were related to the determination of
-        changes in MARM C frequencies, and these only correlate to
-        the changes in beneficial mutation frequencies if the
-        beneficial mutation mapped to the G glycoprotein.
-        Many infections in plants and animals are probably
-        initiated by one or few viral particles, thus corresponding
-        to a situation of low m.o.i. As replication proceeds and
-        titers rise, the likelyhood of coinfection increases. The
-        best evidence for multiple infections 
-        in vivo comes from the observation of
-        natural recombinants. In the case of HIV-1, for instance,
-        rampant recombination has been reported, even among
-        different subtypes [ 66 67 ] , and the number of proviruses
-        per cell was estimated to be approximately three. Another
-        well known example is influenza virus, for which
-        reassortment is a major mechanism of evolutionary change [
-        68 ] . As in the case of HIV, reassortment depends of
-        coinfection, and once coinfection occurs, complementation
-        is as likely to ensue as reassortment.
+        Earlier reports on TI strategies in patients with chronic HIV infection include multiple
+        pilot or single-arm study designs centered on the effects on viral control by comparison
+        with pre-therapy periods, detection of resistance mutations without parallel follow-up of a
+        continuously treated arm, and inclusion of variable criteria regarding viral resuppression
+        before proceeding with repeated TIs [11,12,14,16]. In contrast, our strategy mandated
+        resuppression of viral replication to less than 50 copies/ml before each TI and presents
+        the first comparison of viral replication during a final open-ended interruption of therapy
+        between patients randomized to complete three sequential TIs or stay under continuous
+        therapy. Our data, based on intent-to-treat analysis, did not show that repeated TIs
+        resulted in a clinically significant virological benefit as measured by the time to viral
+        rebound to more than 5,000 copies/ml (see Figure 3). Secondary as-treated analysis on viral
+        replication magnitude also indicated a lack of difference between arms. Consistent with the
+        findings of SSITT [11], analysis of our data by the categorical classification of a
+        “responder” as a patient with viral load less than 5,000 copies/ml at week 12 off therapy
+        showed no significant difference in this frequency between arms (single TI, 5/18; repeated
+        TI, 5/16), suggesting the presence of “responders” irrespective of previous
+        protocol-mandated TIs.
+        Based on secondary outcome measures, the incidence of adverse events (SAEs, therapy
+        failure, and patient discontinuation) or clinical disease progression (as indicated by CD4
+        count on therapy or opportunistic infections) was not observed to be different between
+        arms. Prospective safety outcomes in our study are in accordance with reports from a
+        retrospective analysis of 1,290 patients who interrupted treatment at least once (< 3
+        mo) without an increased risk of HIV-associated morbidity or mortality (with the exception
+        of patients in Center for Disease Control and Prevention stage C during first interruption
+        only) [21]. In regards to immunological outcomes, a concern associated with interruption of
+        suppressive therapy is the potential for irreversible, viral-mediated CD4 T cell loss
+        leading to disease progression [6,22]. We did not observe a decrease in CD4 cell numbers or
+        lymphoproliferative responses against 
+        C. albicans when measured between arms before the open-ended TI
+        (see Figure 4), nor following resuppression after monitored TI reinitiation cycles in the
+        repeated interruptions arm (see Figure 5). The latter is consistent with observations by
+        others and does not support an immediate immunological “cost” to short-term TIs
+        [12,14,15,16,23]. However, we do show that monitoring CD4 cell numbers by percentage could
+        lead to misinterpreting a significant loss of CD4 cells as a result of a significant
+        increase in CD8 count following TIs, even though absolute CD4 count numbers remained
+        unchanged (see Figure 4). Interestingly, the increase in CD8 T cell number also
+        corresponded with an increase in HIV-specific responses as measured by interferon-gamma
+        expression (data not shown), which in light of an absence of effect on viral load between
+        arms further supports that TI strategies alone may not significantly alter the pre-existing
+        balance between viral replication and host antiviral responses [14,16,23,24].
+        Importantly, no evidence for an increase of viral resistance in association with therapy
+        failure was present in the repeated interruptions arm (See Table 2). We did not observe a
+        greater clinical failure of NNRTI-based regimens in the repeated interruption arm due to
+        “single drug” periods as predicted by recently redefined drug half-life estimates and the
+        presence of viral replication during each interruption [25,26,27]. However, the percentage
+        of patients with resistance mutations detected in this study in the repeated interruption
+        arm (47%) is higher than the 17% observed in the SSITT cohort [11], in which patients with
+        prior treatment failures were excluded [28]. We interpret this difference to mean that the
+        resistance detected off drug in both our and their cohorts is likely associated with the
+        greater number of drug-experienced patients in our cohort (75%) and the detection of prior
+        archived resistance mutations as supported by Metzner et al. [29], who documented in 14/25
+        (56%) SSITT patients the presence of minor populations of M184V occurring at least once off
+        drug during interruption of therapy.
+        In spite of the lack of difference in the total number of patients with resistant
+        mutations detected on therapy during phase I and off therapy in phase II (7/21 [33%] versus
+        10/21 [47%], respectively) in both arms, we do report in similarity to others a greater
+        detection of resistance mutations in the TI arm when restricting analysis to the last
+        off-drug period only [29,30] as three of 16 (18%) had mutations detected off drug in the
+        continuous therapy/single interruption arm compared to nine of 18 (50%) in the repeated
+        interruption arm. However, based on the lack of association between viral resistance
+        detected off-drug shortly after TI and resuppression by the same regimen in all patients,
+        it remains undetermined to what extent TIs favor the detection of archived mutations in
+        chronically suppressed patients and to what extent these mutations are a signal for a
+        future therapy failure. The latter is best exemplified by the data we collected on patients
+        on NNRTI-based regimens in the repeated interruptions arm where two patients (S19 and S43)
+        showed K103N detection (only during the off-drug periods) in the absence of therapy failure
+        while maintaining the same regimen after each TI, including post-study follow-up (Table
+        S1). On the other hand, virological failure in the continued presence of an NNRTI-based
+        regimen in phase I was associated with detection of K103N, as observed in one patient (S56)
+        in the repeated interruption arm and three patients (S37, S52, and S59) in the continuous
+        therapy arm with self-reported non-adherence.
+        Drug resistance that occurs during virological drug failure predicts virological
+        responses to salvage treatment [31,32,33]. In contrast, the clinical implications of drug
+        resistance mutations that appear shortly after TI in chronically suppressed patients are
+        not clear. Case reports in this cohort of patients have demonstrated that drug-resistant
+        variants that appeared during TIs may not persist in subsequent time points even after
+        repeated use of the same antiretroviral regimen [19,34]. We now observe that drug
+        resistance appearing during TIs can be transient since 50% and 33% of patients listed in
+        Table 3 showed complete and partial reversion to wild type, respectively, when comparing to
+        resistance at the last available viremic time point in phase II (See Table 3). Further, we
+        observed durable resuppression of plasma viral RNA level in many patients who had
+        drug-resistance mutations off therapy that would otherwise be expected to affect part of
+        their treatment regimen when reinitiated (see Table S1). Virus populations that expand
+        shortly after TI may lack all of the adaptations required to achieve high levels of plasma
+        viremia in the presence of drug during continuous treatment. These adaptations may include
+        the resistance-associated mutations, which were detected, as well as secondary mutations
+        that may increase the viral replication capacity [35,36] or envelope adaptations required
+        to escape concurrent humoral immune responses [37,38]. It is of interest to note that
+        despite the large amount of research activity on TIs in patients with suppressed chronic
+        infection and the hundreds of monitored interruptions studied to date, only limited cases
+        of development of clinical resistance (as evidenced by a lack of viral resuppression
+        following therapy reinitiation) have emerged, in contrast to the multiple reports of
+        detection of viral sequences off ART associated with resistance as shown in this study and
+        others [11,19,29,30,39,40].
+        Taken together, while our data show no clinically significant benefit for repeated TIs
+        of less than 1.5 mo in patients with CD4 counts greater than 400 on therapy with regard to
+        viral control as defined by time to rebound, secondary outcomes document no significant
+        difference in levels of retention of immune reconstitution between arms and no increased
+        incidence of virological failure as a consequence of TIs. While our data indicate that this
+        TI strategy should not be pursued outside of a clinical trial setting, we argue that it
+        will be important to collect additional data on the potential benefits of drug-sparing
+        regimens (such as reduced long-term toxicity and reduced cost) and to define long-term
+        outcomes in comparison with continuous therapy.
       
       
-        Conclusions
-        We have shown that phenotypic hiding has substantial
-        influence on the equilibrium frequencies of mutants in
-        selection-mutation balance, and on the speed at which
-        deleterious mutants are lost from the population. Our
-        theory makes five predictions that can be tested
-        experimentally:
-        1. The rate at which the mutant disappears should
-        decrease and the equilibrium concentration of the mutant
-        should increase with increasing m.o.i.
-        2. A substantial fraction of mutant genomes should be
-        encapsidated with wild-type protein.
-        3. The ratio of mutant genomes encapsidated in wild-type
-        protein to wild-type genomes encapsidated in mutant protein
-        should decrease with increasing m.o.i.
-        4. Even at low m.o.i., the fraction of mutant present in
-        mutation-selection balance should be larger (up to a factor
-        of two) than predicted by the standard quasispecies model
-        if the mutant fitness is low compared to the wild-type
-        fitness.
-        5. The decrease of mutant frequency during the first
-        passage should be independent of the m.o.i., and equal to
-        that measured for later passages at very low m.o.i.
-        Future experiments can be designed to test these
-        predictions, and can thereby clarify whether phenotypic
-        hiding is a major contributor to viral memory and elevated
-        equilibrium frequencies of mutants.
-      
-      
-        Methods
-        In this section, we present some calculations that form
-        the basis of the derivation of our model equations.
-        We first calculate the probability that a virion
-        produced by an 
-        n -fold coinfected cell is pure.
-        Assume a cell is infected by 
-        k virions with wild-type genotype,
-        and by 
-        n - 
-        k virions with mutant genotype. Then,
-        the probability that an offspring virion is pure wild-type
-        is the probability that it has wild-type genotype, which is
-        
-        k / 
-        n , times the probability that it has
-        wild-type phenotype, which is again 
-        k / 
-        n . Thus, the total probability is ( 
-        k / 
-        n ) 2. If we want to know the
-        probability that an offspring virion is pure for a number
-        of coinfected cells with different ratios in their
-        multiplicity of infection of wild-type and mutant
-        genotypes, then we have to sum over the different
-        contributions of all the individual cells. In practice, we
-        will not know exactly which cells are infected with what
-        virions. However, it is reasonable to assume that we know
-        the overall probabilities with which cells are infected
-        with either mutant or wild-type genotype. Assume that 
-        x 
-        
-          w 
-         is the probability that a cell is infected with
-        wild-type genotype, and 
-        x 
-        
-          m 
-         = 1 - 
-        x 
-        
-          w 
-         likewise for the mutant genotype. Then, the number of
-        wild-type genomes 
-        k in a cell is binomially
-        distributed, and therefore the overall probability ξ 
-        
-          ww 
-         ( 
-        n ) that an offspring virion from a
-        cell infected by 
-        n virions is pure wild-type becomes [
-        38 ]
-        
-        Likewise, we find for the probability ξ 
-        
-          mm 
-         ( 
-        n ) that an offspring virion is pure
-        mutant ξ 
-        
-          mm 
-         ( 
-        n ) = 
-        x 
-        
-          w 
-         
-        x 
-        
-          m 
-         / 
-        n + .
-        Now we consider mixed virions. Assume again that a cell
-        is infected by 
-        k virions with wild-type genotype,
-        and by 
-        n - 
-        k virions with mutant genotype. In
-        analogy to the considerations for a pure virion, we find
-        that the probability of a mixed virion is 
-        k ( 
-        n - 
-        k )/ 
-        n 2, regardless of whether the
-        genotype is wild-type and the phenotype is mutant or vice
-        versa. The probabilities ξ 
-        
-          wm 
-         ( 
-        n ) and ξ 
-        
-          mw 
-         ( 
-        n ) that an offspring virion is mixed
-        of either type are then
-        
-        Equations (9) and (10) are valid if all cells have
-        exactly the same multiplicity of infection. However,
-        infection is a Poisson process, and some cells will end up
-        being infected by more virions than other cells. Assume
-        that λ is the multiplicity of infection of the whole
-        population. Then, the probability that a single infected
-        cell is infected by 
-        k virions is 
-        e -λλ 
-        k /[(1 - 
-        e -λ) 
-        k !]. The factor 1 - 
-        e -λin the denominator corrects for
-        the 
-        e -λcells that will not be infected
-        at all. We obtain the overall probabilities to find a pure
-        or mixed offspring virion by summing over all possible
-        combinations of infections, with their respective
-        probabilities. For example:
-        
-        After taking the sum, we find:
-        
-        p 
-        
-          ww 
-         = + 
-        cx 
-        
-          w 
-         
-        x 
-        
-          m 
-         , (12)
-        where the constant 
-        c is given by
-        
-        Here, Ei( 
-        z ) is the exponential integral, ,
-        and γ is the Euler constant, γ ≈ 0.577216. Finally, by
-        making use of 
-        x 
-        
-          w 
-         = 1 - 
-        x 
-        
-          m 
-         ; we arrive at
-        
-        p 
-        
-          mm 
-         = 
-        cx 
-        
-          w 
-         + (1 - 
-        c ) . (14)
-        Similarly, for a mixed virion, we find
-        
-        We obtain 
-        p 
-        
-          mm 
-         and 
-        p 
-        
-          mw 
-         from Eqs. (14) and (15) by interchanging w and m in
-        all subscripts. Equations (14) and (15) show that the
-        mixing parameter 
-        r used in the main body of this paper
-        is related to 
-        c via 
-        r = 1 - 
-        c .
-      
-      
-        Authors' contributions
-        COW was responsible for the analytic calculations. Both
-        authors contributed substantially to the design of the
-        study and the writing of the manuscript. Both authors read
-        and approved the final manuscript.
+        Supporting Information
+        Registration of randomized trial at clinicaltrials.gov under identifier NCT00051818.
       
     
   

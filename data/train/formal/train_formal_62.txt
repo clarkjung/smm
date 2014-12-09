@@ -2,564 +2,945 @@
   
     
       
-        Introduction
-        The Golgi complex is an elaborate cytoplasmic organelle
-        that has a prominent function in the processing,
-        transporting, and sorting of intracellular proteins.
-        Autoantibodies directed against the Golgi complex were
-        first identified in the serum of a Sjögren's syndrome
-        patient with lymphoma [ 1 ] . Subsequent reports described
-        anti-Golgi complex autoantibodies (AGA) in patients with
-        systemic rheumatic diseases such as systemic lupus
-        erythematosus [ 2 ] , rheumatoid arthritis [ 3 ] , and
-        Wegener's granulomatosis [ 4 ] . Immunoblotting and
-        immunoprecipitation studies have shown that there was
-        heterogeneity of reactivity among AGA [ 5 ] .
-        Within the past several years, our laboratories and
-        others have cloned and identified novel Golgi autoantigens
-        (golgins) [ 6 ] . This has been achieved primarily by
-        expression cloning using human autoantibody probes. The
-        identified autoantigens referred to are golgin-160/GCP170 [
-        7 8 ] , golgin-95/gm130 [ 7 ] , golgin-97 [ 9 ] ,
-        golgin-245/ p230 [ 10 11 12 ] , giantin/macrogolgin/GCP372
-        [ 13 14 ] , and golgin-67 [ 15 ] . These proteins are
-        characterized by predominant α-helical coiled-coil domains,
-        except for N-termini and C-termini. It has been reported
-        that some golgins are localized to the cytoplasmic face of
-        Golgi membranes [ 16 ] . Functions of the golgins have been
-        proposed in vesicular transport and in maintaining
-        structural integrity of the Golgi complex [ 17 18 19 ] .
-        The potential implication is that these Golgi proteins may
-        have common biochemical characteristics that may make them
-        targets of autoimmune responses in certain disease
-        states.
-        It is not clear why and how the immune system is able to
-        recognize or target intracellular autoantigens. One
-        possible explanation is that they may be recognized as
-        surface structures on cytoplasmic organelles that are
-        released to the immune system in aberrant disease states
-        associated with unregulated cell death (apoptosis or
-        necrosis) resulting from injury or infection, or defective
-        clearance of dying cells. A variety of autoantigens are
-        cleaved into signature fragments during apoptosis and
-        necrosis [ 20 ] . Other cell death post-translational
-        modifications in autoantigens include hyperphosphorylation,
-        (de)ubiquitination, methylation, citrullination, and
-        transglutaminase crosslinking [ 21 22 ] .
-        The emerging view is that modified forms of autoantigens
-        generated during cell death might stimulate autoantibody
-        responses if presented to the immune system in a
-        proinflammatory context [ 23 ] . Since the fate of the
-        Golgi complex during cell death has not been extensively
-        explored, we investigated whether the Golgi complex and
-        associated autoantigens are altered during apoptosis and
-        necrosis. Using AGA as probes, we observed that the Golgi
-        complex undergoes dynamic changes during apoptosis distinct
-        from those observed in necrosis. Immunoblotting analysis
-        showed distinct cleavage fragments of Golgi autoantigens
-        generated during apoptosis and necrosis. Since the cleaved
-        Golgi autoantigen fragments are antigenic, they may play a
-        role in sustaining autoantibody production in autoimmune
-        disease states.
+        Background
+        RNA viruses are important pathogens in humans, animals,
+        and plants. Their short generation time and high mutation
+        rates allow them to adapt rapidly to changing environmental
+        conditions, and make them ever-changing targets for
+        anti-viral therapies or vaccinations. RNA viruses form
+        highly polymorphic clouds of mutants, so-called
+        quasispecies [ 1 2 3 ] . At viral loads of 10 8or more
+        virions in an infected host, viral quasispecies 
+        in vivo often contain all possible
+        single-point mutants from the consensus sequence, as well
+        as a sizeable fraction of two- or three-point mutants [ 4 ]
+        . Besides their importance as pathogens, RNA viruses have
+        in recent years also become one of the main tools for
+        experimental verification of theoretical population
+        genetics and evolutionary theory in general (reviewed in [
+        3 ] ). This line of research can draw on a substantial body
+        of literature on the theory of quasispecies dynamics and
+        its relation to standard population genetics [ 5 6 7 8 9 10
+        11 12 13 14 15 16 ] .
+        The quasispecies theory has been useful to understand
+        RNA virus evolution, but the assumptions underlying the
+        model do not always reflect the biology of RNA viruses. In
+        some instances the original model has been corrected to
+        account for discrepancies, such as infinite vs. finite
+        population sizes [ 7 9 16 ] . However, other factors need
+        to be considered as well. For instance, the standard
+        quasispecies model assumes low multiplicity of infection
+        (m.o.i.), that is, each cell is assumed to be infected by
+        at most one virion. At high m.o.i., when several virions
+        coinfect a single cell, the virions can recombine [ 17 18
+        19 ] or reassort (for segmented viruses) [ 20 21 22 23 24
+        25 ] . Second, the model assumes that the genotype of a
+        virion fully determines its fitness. However, this
+        assumption is not always justified, since many viral
+        functions can be provided in trans - an effect referred to
+        as complementation. Thus, the phenotype of a virion may not
+        reflect its genotype [ 26 27 28 29 ] . Phenotypic mixing
+        and hiding is a particular case of complementation
+        involving surface proteins (above citations). It occurs
+        either at high m.o.i., when two or more different mutants
+        or virus strains freely exchange genetic sequences and
+        surface proteins inside a cell, or at low m.o.i., when a
+        mutant offspring is encapsidated by its parent's
+        proteins.
+        No general theory is available for the evolutionary
+        dynamic of a viral quasispecies under the influence of
+        virus density as it changes with changing m.o.i. However,
+        some particular cases have been studied [ 30 31 32 ] ,
+        mostly related to recombination and reassortment [ 33 34 35
+        36 ] and to the dynamic of defective interfering particles
+        [ 37 38 39 40 41 ] . In this paper, we modify the
+        quasispecies model by incorporating phenotypic hiding
+        between wild-type virus and a deleterious mutant. We assume
+        that the mutant differs from the wild type in a surface
+        protein necessary for cell entry, so that the fitness
+        difference between two virions is solely determined by the
+        surface proteins, and not by the particular genomes they
+        carry. We show that phenotypic hiding of the mutant genome
+        behind wild-type capsids increases the mutant frequency
+        above the level predicted by the standard quasispecies
+        model. This increase in mutant frequency is most pronounced
+        at high m.o.i., but exists also at very low m.o.i.
+        Moreover, we show that the decrease of mutant frequency
+        from an initially high level down to the level of
+        mutation-selection balance is slowed down substantially at
+        high m.o.i. because of phenotypic hiding.
+        We propose that our model may explain some of the
+        quantitative differences observed between theoretical
+        predictions of the quasispecies model and experimental data
+        published in the literature [ 42 43 44 45 ] .
+        Foot-and-mouth disease virus (FMDV) has been one of the
+        most productive models of viral quasispecies dynamics
+        (reviewed in [ 46 ] ). FMDV belongs to the Picornaviridea
+        family. It has a non-segmented, positive strand genome of
+        approximately 8.5 Kb encapsidated by viral proteins, VP1,
+        VP2, VP3 and VP4. A conserved Arginine-Glycine-Aspartic
+        acid (RGD) triplet in βG-βH loop of VP1 recognizes the
+        αvβ3, αvβ6 or αvβ1 integrin as viral receptor (reviewed in
+        Ref. [ 47 ] ), the first necessary step for virus entry.
+        Work carried out with different RGD virus mutants and mimic
+        peptides [ 48 49 50 51 52 ] clearly demonstrates the
+        critical role that the RGD triplet has in virus entry, and
+        its little tolerance to variation. Among the few RGD
+        mutants that have been isolated, on is RED, a low fitness
+        mutant in which the glycine is replace by glutamic acid [
+        53 ] . Ruíz-Jarabo and co-workers found that after
+        revertant RGD genomes became dominant, and mutant genomes
+        were no longer detected in the consensus sequence, RED was
+        able to remain in the population for very long times and at
+        surprisingly high frequencies [ 42 43 44 45 ] . There is a
+        qualitative agreement between the predictions of the
+        quasispecies model and this result, but there is also a
+        quantitative discrepancy. RED memory genomes can be
+        observed at much higher frequency than expected. However,
+        phenotypic hiding promotes a decelerated decay of mutant
+        genomes in the population, and this decelerated decay could
+        be interpreted as a memory effect, in agreement with the
+        results by Ruíz-Jarabo et al. The research design of the
+        original work [ 42 43 44 45 ] does not allow us to
+        conclusively accept or reject our model as the correct
+        explanation for their observations, but the values of
+        mutant frequencies predicted by our model are consistent
+        with the experimental data.
       
       
-        Materials and methods
+        Model
+        We assume that the virus is propagated under serial
+        transfer, and model the change in mutant concentrations
+        from passage to passage. We assume that the difference
+        between wild type and mutant lies in the capsid proteins,
+        such that the mutation affects the ability of the virus to
+        enter a cell, but not the viability of the virus inside the
+        cell. Under phenotypic mixing and hiding, there are four
+        types of virions that can occur: wild-type genotype with
+        wild-type phenotype, wild-type genotype with mutant
+        phenotype, mutant genotype with wild-type phenotype, and
+        mutant genotype with mutant phenotype. We will call virions
+        whose genotype coincides with their phenotype as pure, and
+        virions for which genotype and phenotype do not coincide as
+        mixed. In the following paragraphs, we outline the
+        derivation of a set of deterministic equations that
+        describe the change in relative concentrations of the
+        different pure and mixed virions in an infinite virus
+        population. More details are given in the Methods section.
+        Our model is similar to models studied by Szathmáry [ 38 39
+        ] .
+        The probability 
+        p 
         
-          Antibodies
-          Human prototype serum containing highly specific
-          antipolyADP-ribose polymerase (PARP) antibody and AGA
-          sera were obtained from the serum bank of the WM Keck
-          Autoimmune Center, The Scripps Research Institute, CA,
-          USA. Rabbit antibodies to Golgi autoantigens were
-          produced in New Zealand White rabbits [ 7 9 10 ] .
-          Briefly, recombinant human Golgi autoantigens were
-          produced using the expression plasmid pET28 system in 
-          Escherichia coli (Novagen, Madison,
-          WI, USA). Recombinant golgin-160 (amino acids 787-1348,
-          GenBank accession number BAA23661), giantin (amino acids
-          851-1496, GenBank accession number NP_004478), gm130
-          (amino acids 370-990, GenBank accession number AAF65550),
-          and golgin-97 (amino acids 1-767, GenBank accession
-          number AAB81549) proteins were purified by affinity
-          nickel column chromatography. They were then used to
-          immunize one or two rabbits separately by subcutaneous
-          injection of recombinant proteins in an equal volume of
-          Freund's complete adjuvant. After booster immunizations,
-          the immune sera were prepared and stored at -20°C. The
-          appearance and titers of antibodies were monitored by
-          indirect immunofluorescence and immunoblotting
-          analysis.
+          ww 
+         that an offspring virion is pure wild type is 
+        p 
         
+          ww 
+         = (1 - 
+        r ) 
+        x 
         
-          Induction of cell death
-          Human Jurkat and HEp-2 cells were obtained from
-          American Type Culture Collection (Rockville, MD, USA) and
-          were cultured in RPMI 1640 and Dulbecco's modified
-          Eagle's medium (Life Technologies, Rockville, MD, USA),
-          respectively, containing 10% fetal bovine serum under
-          standard conditions. Induction of cell death was
-          performed essentially as described elsewhere [ 20 ] with
-          some modifications.
-          Apoptosis was induced in Jurkat T cells (10 6/ml) by
-          exposure to 1 μM staurosporine (STS) (ALEXIS, San Diego,
-          CA, USA) for up to 4 hours. Apoptosis in HEp-2 cells was
-          induced by exposure to 2 μM STS at 37°C for up to 6
-          hours. Necrosis was induced in these cells by exposure to
-          10 μM STS for up to 24 hours or by treatment with 0.1%
-          hydrogen peroxide (H 
-          2 O 
-          2 ) (Fisher Scientific, Pittsburgh,
-          PA, USA) for 3 hours. Necrosis was quantified using the
-          trypan blue exclusion assay, which measures loss of
-          cytoplasmic membrane integrity, as described previously [
-          20 24 ] .
-          At least 300 cells were counted in triplicate in three
-          independent experiments. In some experiments, Jurkat
-          cells were incubated for 1 hour in the presence of the
-          pancaspase inhibitor
-          benzylocarbonyl-Val-Ala-Asp-fluromethyl-ketone (zVAD-fmk)
-          (ALEXIS), used at 100 μM, prior to addition of STS.
-          Treated and control cells, and their extracts, were
-          analyzed by indirect immunofluorescence and/or
-          immunoblotting analysis. Spontaneous cell death prior to
-          the experiments was minimized by maintaining exponential
-          cell growth. Cell viability was quantified by trypan blue
-          exclusion analysis at the beginning of every experiment
-          to ensure that cell cultures used in the experiments were
-          healthy (alive cells >95%).
+          w 
+         + 
+        r [Methods section, Eq. (14)], where 
+        x 
         
+          w 
+         is the probability with which a particular virion that
+        infects a cell contains the wild-type genome, and 
+        r is a parameter related to the
+        multiplicity of infection. Likewise, the probabilities 
+        p 
         
-          Indirect immunofluorescence microscopy
-          Indirect immunofluorescence was performed as reported
-          previously [ 7 10 25 ] . HEp-2 cells were grown on
-          eight-chamber vessel tissue culture slides (Becton
-          Dickinson, Franklin Lakes, NJ, USA) and treated with 2 or
-          10 μM STS for up to 6 hours. Cells were fixed by methanol
-          and acetone (1:3, -20°C) for 2 min. Sera containing AGA
-          were used in dilutions of 1:200 to 1:10,000. The
-          secondary antibodies were Alexa™ 488 conjugated goat
-          anti-rabbit IgG or anti-human IgG reagents (ALEXIS).
-          Cells were counterstained with
-          4',6-diamidino-2-phenylindole nuclear stain prior to
-          immunofluorescence microscopy. The estimation of the
-          percentage of cells at each morphological stage described
-          in the following for Golgi staining in apoptotic cells
-          was obtained by scoring 300-500 cells in each
-          experiment.
+          wm 
+         and 
+        p 
         
+          mw 
+         that an offspring virion is mixed of either type are 
+        p 
         
-          Immunoblotting analysis of cell lysates
-          After incubation in the presence of
-          cell-death-inducing reagents, Jurkat cells were
-          centrifuged at 200 × 
-          g for 30 min, followed by one wash
-          at 1000 × 
-          g for 10 min in PBS containing
-          Complete Protease Inhibitor cocktail (Roche, Mannheim,
-          Germany). Cell pellets (10 7) were then resuspended
-          directly in lysis buffer containing 150 mM NaCl, 1 mM
-          MgCl 
-          2 · 6H 
-          2 O, 80 mM Tris-HCl and 0.1%
-          NP-40.
-          The lysates were passed several times sequentially
-          through 18-gauge to 27-gauge needles to shear the DNA,
-          and protein concentrations in the lysates were determined
-          by Protein DC Assay Kit (Bio-Rad, Hercules, CA, USA) to
-          ensure equal loading of proteins in each SDS-PAGE lane.
-          After determination of the protein concentration, lysates
-          were mixed with an equal volume of 2 × gel sample buffer
-          containing 6% sodium dodecyl sulfate, 20% glycerol, 10%
-          β-mercaptoethanol, 0.02% bromphenol blue and Complete
-          Protease Inhibitor cocktail. Lysates were stored at -80°C
-          until use.
-          The equivalent of 1.5 μg total lysate protein was
-          loaded onto each lane of 10% SDS-PAGE gels, separated by
-          electrophoresis, and transferred to nitrocellulose
-          membranes using a Semi-Dry Trans-Blot apparatus
-          (Bio-Rad). Immunoblotting was performed as described
-          previously [ 7 10 24 ] using human anti-PARP specific
-          antibody (1:250) and AGA (1:250). Detection of bound
-          antibodies was achieved using horseradish
-          peroxidase-conjugated goat anti-human or anti-rabbit IgG
-          antibody (CALTAG, San Francisco, CA, USA), used at 1:5000
-          dilution, in combination with enhanced chemiluminescence
-          (Super Signal; PIERCE Products, Rockford, IL, USA).
+          wm 
+         = 
+        p 
+        
+          mw 
+         = 
+        rx 
+        
+          w 
+         
+        x 
+        
+          m 
+         [Eq. (15)], where 
+        x 
+        
+          m 
+         = 1 - 
+        x 
+        
+          w 
+         , and the probability 
+        p 
+        
+          mm 
+         that an offspring virion is pure mutant is 
+        p 
+        
+          mm 
+         = (1 - 
+        r ) 
+        x 
+        
+          m 
+         + 
+        r . The formula that relates the
+        parameter 
+        r to the multiplicity of infection,
+        Eq. (13), is somewhat unwieldy. For reference, and in order
+        to provide an intuitive meaning for 
+        r , we have tabulated 
+        r (which we will call in the
+        following also the mixing parameter) versus the m.o.i. in
+        Table 1.
+        The probabilities 
+        x 
+        
+          w 
+         and 
+        x 
+        
+          m 
+         depend on the composition of the types of free virions
+        on infection. Assume that 
+        y 
+        
+          ww 
+         is the concentration of pure wild-type virions at
+        passage 
+        t , 
+        y 
+        
+          wm 
+         that of mixed virions with wild-type genotype and
+        mutant phenotype, 
+        y 
+        
+          mw 
+         that of mixed virions with mutant genotype and
+        wild-type phenotype, and 
+        y 
+        
+          mm 
+         that of pure mutant virions. Further, assume that
+        virions with wild-type phenotype infect cells at a rate γ 
+        
+          w 
+         , while virions with mutant phenotype infect at a rate
+        γ 
+        
+          m 
+         < γ 
+        
+          w 
+         . Then, the total rate at which cells are infected
+        with wild-type genomes is γ 
+        
+          w 
+         
+        y 
+        
+          ww 
+         + γ 
+        
+          m 
+         
+        y 
+        
+          wm 
+         . Likewise, the total rate at which cells are infected
+        with mutant genomes is γ 
+        
+          w 
+         
+        y 
+        
+          mw 
+         + γ 
+        
+          m 
+         
+        y 
+        
+          mm 
+         . Therefore, we have 
+        x 
+        
+          w 
+         = (γ 
+        
+          w 
+         y 
+        
+          ww 
+         + γ 
+        
+          m 
+         
+        y 
+        
+          wm 
+         )/[γ 
+        
+          m 
+         ( 
+        y 
+        
+          wm 
+         + 
+        y 
+        
+          mm 
+         )]. The probability 
+        x 
+        
+          m 
+         follows from 
+        x 
+        
+          m 
+         = 1 - 
+        x 
+        
+          w 
+         .
+        Using the various formulas given in the previous two
+        paragraphs, we find that the virion concentrations at
+        passage 
+        t + 1 (primed quantities) are given
+        by
+        
+        We now introduce mutations into this model. We assume
+        that the wild type mutates into the mutant with probability
+        μ. For simplicity, we assume that back mutations occur at
+        the same rate. (It is safe to make this assumption, because
+        the rate of back mutations from deleterious to advantageous
+        mutants tends to have little effect on mutation-selection
+        balance.) Mutations will typically not affect the phenotype
+        of the offspring virion, which is determined by the
+        distribution of mutant or wild-type capsid proteins in the
+        cell. The extended model with mutations therefore
+        becomes
         
       
       
         Results
         
-          Induction of apoptosis and necrosis in HEp-2
-          cells
-          HEp-2 cells exposed to 2 and 10 μM STS exhibited
-          apoptotic-like fragmentation into multiple round bodies
-          after 6 hours of treatment (Fig. 1c,1d). Interestingly,
-          cells exposed to 10 μM STS showed a more pronounced loss
-          of cytoplasmic membrane integrity (Fig. 1e), indicating
-          that this STS concentration drove cell death more rapidly
-          into necrosis. As control, cells treated with levels of H
+          Extinction of mutant for μ = 0
+          In order to evaluate whether the mutant can coexist
+          with the wild type or will ultimately go extinct if it is
+          not constantly regenerated through mutations, we have to
+          analyze the fixed points of Eqs. (1a)-(1d). There are two
+          trivial fixed points, corresponding to the cases in which
+          all virions are either pure wild-type or pure mutant. We
+          could not find any non-trivial fixed points. Since the
+          expressions involved are extremely unwieldy, we searched
+          for non-trivial fixed points only numerically (using the
+          function NSolve of Mathematica [ 54 ] ).
+          A linear expansion around the fixed points tells us
+          whether the mutant can invade an established wild-type
+          population or vice versa. If we introduce a small amount
+          ε of mutant virions into an established wild-type
+          population, the total amounts of wild-type genomes 
+          Y 
           
-          2 O 
-          2 (0.1%) previously shown to provoke
-          massive necrotic cell death [ 20 ] exhibited a
-          characteristic necrotic morphology (Fig. 1b) associated
-          with rapid loss of cytoplasmic membrane (Fig. 1e).
+            w 
+           = 
+          y 
+          
+            ww 
+           + 
+          y 
+          
+            wm 
+           and mutant genomes 
+          Y 
+          
+            m 
+           = 
+          y 
+          
+            mm 
+           + 
+          y 
+          
+            mw 
+           after the next passage become to first order in
+          ε:
+          
+          As long as γ 
+          
+            m 
+           /γ 
+          
+            w 
+           < 1 (as we assume throughout this paper), the
+          amount of mutant genomes in the population decreases in
+          the first passage, which implies that the mutant cannot
+          invade. Likewise, if we introduce a small amount ε of
+          wild-type virions into an established mutant population,
+          the total amounts of mutant and wild-type genomes after
+          the next passage become to first order in ε:
+          
+          In this case, the amount of the invading wild-type
+          genomes in the population increases, which implies that
+          the wild-type can invade an established mutant
+          population. The invasion of a mutant population by a
+          small amount of wild-type virions is shown in Fig. 1.
+          The preceeding analysis shows that Eqs. (1a)-(1d) have
+          only a single stable fixed point, the one in which the
+          whole population consists of pure wild-type virions. The
+          mutant will therefore always go extinct eventually.
+          The rate at which the mutant disappears depends on the
+          m.o.i. Figure 2shows the ratio between mutant and
+          wild-type concentrations as a function of passage, for
+          various m.o.i. Concentrations are measured with respect
+          to the genotype, that is, mutant and wild-type
+          concentrations are 
+          Y 
+          
+            m 
+           and 
+          Y 
+          
+            w 
+           , respectively. In the example given, we have γ 
+          
+            m 
+           /γ 
+          
+            w 
+           = 0.3. At low m.o.i., the mutant-to-wild-type ratio
+          drops from 1 at passage zero to values of 10 -2and lower
+          after four passages. At high m.o.i., the reduction in
+          mutant concentration proceeds much slower. For example,
+          at an m.o.i. of three, the mutant-to-wild-type ratio is
+          only 10 -1after four passages. An interesting aspect of
+          Fig. 2is that the reduction in mutant frequency during
+          the first passage is independent of the m.o.i. This
+          effect is a consequence of our assumption that the mutant
+          has impaired ability of cell entry. In the first round of
+          infection, when all virions are pure wild type or pure
+          mutant, the mutant virions cannot benefit from phenotypic
+          hiding. Therefore, their frequency will decrease
+          corresponding to the true fitness difference to the wild
+          type, independent of the m.o.i. From the second passage
+          onward, the balance between pure and mixed virions is
+          established, and further reduction of the mutant
+          frequency is slowed down at high m.o.i.
+          Figure 3shows the individual concentrations of the
+          various pure and mixed virions at an m.o.i. of five. We
+          observe that the concentration of pure mutant virions
+          decreases much faster than that of mixed virions with
+          mutant genomes. After ten passages both concentrations
+          are equal, and after fifty passages, there are more than
+          twice as many mixed virions with mutant genomes than
+          there are pure mutant virions. When the mutant is rare,
+          it is mostly hiding behind wild-type capsids, which slows
+          down its extinction. Interestingly, the fraction of
+          mutant genomes encapsidated with wild-type protein is
+          equal to the fraction of wild-type genomes encapsidated
+          with mutant protein at zero mutation rate. This symmetry
+          is a consequence of the symmetry of equations (1b) and
+          (1c), and disappears for μ > 0.
         
         
-          Changes of the Golgi complex during
-          apoptosis
-          Changes in the Golgi complex during apoptosis were
-          examined by immunostaining with AGA in HEp-2 cells
-          treated with 2 μM STS. Apoptosis was defined by
-          stereotypic morphological changes, especially evident in
-          the nucleus, where the chromatin condenses and compacts,
-          and assumes a globular, crescent-shaped morphology [ 26 ]
-          . Figure 2shows a composite of four apoptotic stages,
-          provisionally called stages I-IV (Fig. 2b,2c,2d,2e), that
-          are classified on the basis of progression of apoptotic
-          nuclear change (middle panels) and corresponding staining
-          for golgin-97 (left panels).
-          About 50-60% of cells appeared unaffected after 2
-          hours of incubation in the presence of STS, as evidenced
-          by perinuclear Golgi staining identical to untreated
-          cells (Fig. 2a). Interestingly, 'swelling' of the Golgi
-          complex with vesicular staining (stage I) was observed in
-          10-20% of cells, and is most strikingly demonstrated in
-          Fig. 2b. It is estimated that the area occupied by the
-          swelled Golgi can be ~ 5-10 times the normal size for
-          Golgi complex in HEp-2 cells. Slight changes in the shape
-          of some nuclei were observed, as shown in the middle
-          panel, but most cells with Golgi swelling exhibited no
-          change in nuclear size and shape.
-          About 10% of cells appeared to be in stage II (Fig.
-          2c) where there was elongation of the nucleus, appearing
-          kidney or crescent shaped (middle panel). A
-          characteristic of stage II was that the Golgi complex was
-          condensed at the concave or indented region of the
-          crescentic nucleus (right panel). Stage III (Fig. 2d) was
-          seen in 3-5% of cells with defined nuclear fragmentation
-          into two approximately equal fragments (middle panel) and
-          golgin-97 primarily located at the cleavage zone between
-          the two nuclear fragments (right panel). About 10-15% of
-          the cells were considered to be at stage IV (Fig. 2e),
-          where their nuclei were fragmented into more than two
-          pieces (middle panel) and golgin-97 staining appeared as
-          vesicular structures. This was the final stage when
-          remnants of the Golgi complex could be detected.
-          Evaluation of cells after 6 hours of incubation with 2
-          μM STS showed all four stages described (data not shown).
-          At this time, up to 50% of cells were in stage I, 20%
-          were in stage II, 2-3% were in stage III, and 25% of
-          cells were in stage IV. These data suggested that
-          STS-treated cells do not enter the apoptotic pathway at
-          the same time, which is consistent with the notion that
-          apoptosis is a relatively asynchronous process.
-          Similar staining patterns to those seen with golgin-97
-          were observed when apoptotic HEp-2 cells were stained
-          with antibodies to golgin-95, golgin-160, golgin-245, and
-          giantin (data not shown). These results were also
-          reproduced in HeLa S3 and mouse J774A.1 cells treated
-          with 2 μM STS (data not shown). The amount of Golgi
-          swelling observed in stage I varied in different
-          experiments, but the characteristics for stages II-IV
-          were highly reproducible in all the experiments we have
-          conducted. Our observations of Golgi swelling during
-          apoptosis are supported by previous studies. For
-          instance, in neurons undergoing apoptosis, morphologic
-          changes were characterized by a highly ordered sequence
-          of organelle abnormalities, with swelling of endoplasmic
-          reticulum and Golgi vesiculation that preceded most
-          nuclear changes or mitochondrial disruption [ 27 28 ]
-          .
-        
-        
-          Changes of the Golgi complex during necrosis
-          In contrast to the Golgi swelling already described,
-          striking fragmentation of the Golgi complex was observed
-          during necrosis in HEp-2 cells treated with 10 μM STS
-          (Fig. 2f). As shown in Fig. 1b,1e, approximately 50% of
-          cells treated with this STS concentration, while
-          initially showing apoptotic-like fragmentation into
-          multiple bodies, gradually died by necrosis. Figure
-          2fshows Golgi fragments clearly visible (arrows) in cells
-          with condensed nuclei after 6 hours of treatment with 10
-          μM STS. Note the absence of nuclear fragmentation in
-          these cells compared with apoptotic cells (Fig. 2e),
-          consistent with previous observations showing that
-          necrotic nuclei exhibit condensation but not
-          fragmentation [ 20 ] . In this treatment, designed to
-          drive apoptotic cells more rapidly into necrosis, changes
-          in the Golgi complex similar to the four stages observed
-          in apoptosis were not detected. Similar results were also
-          obtained for other Golgi autoantigens, including
-          golgin-160, giantin, and golgin-95 (data not shown).
-          No Golgi staining was observed in HEp-2 cells treated
-          with 10 μM STS for 24 hours or with 0.1% H 
-          2 O 
-          2 (data not shown), presumably due to
-          the extensive cytoplasmic damage associated with
-          necrosis. These results suggested that the Golgi complex
-          is affected differently in apoptosis and in necrosis,
-          prompting us to examine whether specific Golgi proteins
-          are targeted for proteolysis in these modes of cell
-          death.
-        
-        
-          Golgi autoantigens are cleaved during apoptosis and
-          necrosis
-          It is well established that specific intracellular
-          autoantigens are cleaved into different fragments in
-          Jurkat T cells and other cell types undergoing apoptosis
-          and necrosis [ 20 ] . Mancini 
-          et al . reported that golgin-160
-          (native protein, 160 kDa) was cleaved into a 140 kDa
-          fragment during apoptosis [ 29 ] . We therefore performed
-          an immunoblotting analysis using extracts from Jurkat
-          cells treated with apoptosis-inducing reagent (1 μM STS)
-          or necrosis-inducing reagent (0.1% H 
-          2 O 
-          2 ) to investigate whether Golgi
-          autoantigens are cleaved in the two major types of cell
-          death. PARP (110 kDa protein) was selected as a positive
-          control to monitor the cleavage of proteins during
-          apoptosis and necrosis because its cleavage products in
-          Jurkat cells undergoing apoptosis (89 kDa) and undergoing
-          necrosis (60 and 50 kDa) are well established [ 20 24 30
-          ] .
-          Figure 3shows the results of immunoblotting analysis
-          using antibodies to PARP and four Golgi autoantigens. In
-          cells treated with STS (Fig. 3, left) or H 
-          2 O 
-          2 (Fig. 3, right), PARP was cleaved
-          into an 89 kDa polypeptide (apoptotic fragments) or 60
-          and 50 kDa polypeptides (necrotic fragments),
-          respectively, with complete degradation of native protein
-          as previously described [ 24 ] . Golgin-160 was cleaved
-          into 140 and 80 kDa fragments in apoptotic cells,
-          consistent with published observations [ 29 ] . In
-          contrast to the apoptotic fragments, a 70 kDa fragment
-          was detected in necrotic cells. Giantin was cleaved into
-          three major apoptotic fragments (150, 80, and 60 kDa),
-          and these fragments were clearly different from the 75
-          and 50 kDa fragments derived from necrosis.
-          Interestingly, while apoptotic fragments of golgin-95 and
-          golgin-97 were not detected, necrotic fragments at 50 and
-          70 kDa were detected for both proteins. A summary of the
-          Golgi protein fragments generated during apoptosis and
-          necrosis is presented in Table 1.
-        
-        
-          Proteolysis of Golgi autoantigens induced by
-          apoptosis is caspase dependent
-          The caspase family of proteases plays a central role
-          in apoptosis by participating in a cascade of cleavage
-          events that result in the apoptotic phenotype [ 31 ] . We
-          investigated whether the proteolysis of Golgi
-          autoantigens caused by treatment with STS was caspase
-          dependent. Jurkat cells were treated with 1 μM STS for 4
-          hours after preincubation with the pan-caspase inhibitor
-          100 μM zVAD-fmk. The generation of proteolytic fragments
-          from Golgi autoantigens was completely blocked in Jurkat
-          cells pretreated with zVAD-fmk (Fig. 4), indicating that
-          cleavage of Golgi autoantigens during apoptosis is
-          mediated by caspases.
+          Mutation-selection balance for positive μ
+          We now turn to the general case of a positive mutation
+          rate μ. We first consider the case of vanishingly low
+          m.o.i., 
+          r = 0. When we set 
+          r = 0, Eq. (2) becomes the
+          discrete-time version of a model of maternal effects in
+          quasispecies evolution [ 55 ] . In Ref. [ 55 ] , the
+          fitness of a virion is assumed to be the product of a
+          contribution from the genotype of the virion's parent and
+          one from the virion's own genotype. The situation here is
+          simpler, because we assume that fitness is only
+          determined by the phenotype (efficiency of cell entry).
+          In the language of Ref. [ 55 ] , this means we have 
+          b 
+          
+            i 
+           = 1 for all genotypes 
+          i. From Eqs. (5) and (6) in Ref. [
+          55 ] , we obtain the steady-state concentrations of pure
+          and mixed virions (neglecting back mutations from mutant
+          to wild type):
+          
+          We mentioned in the previous section that 
+          y 
+          
+            wm 
+           = 
+          y 
+          
+            mw 
+           for μ = 0. Clearly, this symmetry does not exist for
+          μ > 0. For 0 < μ << 1, the ratio in
+          concentration of the two classes of mixed virions is 
+          y 
+          
+            mw 
+           / 
+          y 
+          
+            wm 
+           = (1 - μ - γ 
+          
+            m 
+           /γ 
+          
+            w 
+           )/μ ≈ 1/μ. There will typically be several orders of
+          magnitude more mutant genomes encapsidated in wild-type
+          protein than wild-type genomes encapsidated in mutant
+          protein. Note, however, that this result holds only under
+          the assumption of vanishingly low m.o.i. As the m.o.i.
+          increases, the mixed virions with mutant genomes will
+          still be at higher concentration than the mixed virions
+          with wild-type genomes, but the ratio between the two
+          will be much smaller than 1/μ. The ratio of mixed virions
+          with mutant genomes to pure mutant virions is 
+          y 
+          
+            mw 
+           / 
+          y 
+          
+            mm 
+           ≈ 1 - γ 
+          
+            m 
+           /γ 
+          
+            w 
+           < 1 at low m.o.i., that is, there are more pure
+          virions than mixed virions with mutant genomes in
+          equilibrium. We found numerically that at high m.o.i.,
+          this relationship is reversed, and there are
+          substantially more mixed than pure mutants.
+          For the total amount of mutant genomes in the
+          population, we obtain after summing Eqs. (5c) and
+          (5d):
+          
+          For comparison, the standard quasispecies model
+          (without phenotypic hiding) predicts:
+          
+          This expression is equivalent to the one given by
+          Ruíz-Jarabo et al. in their analysis of quasispecies
+          memory [ 44 ] . Equations (6) and (7) differ only in the
+          factor 2(1 - μ) - γ 
+          
+            m 
+           /γ 
+          
+            w 
+           . This factor is larger than one for small mutation
+          rates, that is, as long as
+          μ < (1 - γ 
+          
+            m 
+           /γ 
+          
+            w 
+           )/2. (8)
+          If the mutant has a substantial fitness disadvantage
+          in comparison to the wild type (say at least 10%), then μ
+          will always be small enough to satisfy this condition.
+          Therefore, phenotypic hiding will lead to an increase in
+          mutant genomes even at low m.o.i. The increase is at most
+          a factor of two (for μ << 1 and γ 
+          
+            m 
+           /γ 
+          
+            w 
+           << 1) in comparison to the prediction of the
+          standard quasispecies model.
+          For the case of positive mutation rate and high
+          m.o.i., there is no analytic solution available, and we
+          have to resort to numerical simulations. Figure 4shows
+          the decay of mutant genomes over time, starting from an
+          initial state where mutant and wild type are present in
+          equal concentrations. We have displayed trajectories for
+          a wide range of m.o.i., and we have also displayed the
+          corresponding trajectory generated by the standard
+          quasispecies model. All trajectories show the same
+          qualitative behavior: The mutant frequency decays quickly
+          during the initial passages, and then levels off in
+          mutation-selection balance. As discussed in the previous
+          paragraphs, the level of mutant genomes in
+          mutation-selection balance is always higher in our model
+          than in the standard quasispecies model. Moreover, the
+          level of mutant genomes increases with increasing m.o.i.
+          The initial decay of mutant genomes is also influenced by
+          the m.o.i., and slows down with increasing m.o.i. In
+          general, the initial decay of mutant genomes for μ > 0
+          is identical to the one for μ = 0, as described in the
+          previous subsection. It is interesting to note that
+          phenotypic hiding influences the equilibrium
+          concentration of mutant genomes at low m.o.i., but not
+          the speed at which equilibrium is attained. The initial
+          decay of mutant genomes is identical for our model at low
+          m.o.i. and for the standard quasispecies model.
         
       
       
         Discussion
-        
-          Apoptotic changes of the Golgi complex
-          Lane 
-          et al . reported recently that the
-          Golgi complex in HeLa cells is fragmented into scattered
-          vesicles by caspases due to interference of Golgi
-          reassembly and abnormalities of the 65 kDa stacking
-          protein GRASP65 [ 32 ] . In the present report, we
-          describe characteristic changes of the Golgi complex
-          during the progression of apoptosis. It is not known
-          whether the Golgi complex functions as a stress sensor
-          involved in the regulation of apoptosis. Mancini 
-          et al . reported that caspase-2 was
-          localized at the Golgi complex and generated a unique
-          cleavage product of golgin-160 [ 29 ] . Furthermore,
-          these investigators proposed that the Golgi complex
-          transduces proapoptotic signals [ 29 ] . A precedent for
-          this hypothesis was provided by Nakagawa 
-          et al ., who reported that
-          caspase-12 is localized to the endoplasmic reticulum and
-          mediates an endoplasmic reticulum-specific apoptosis
-          pathway [ 33 ] . In the present study, we have found that
-          all Golgi autoantigens examined were cleaved in apoptosis
-          in a caspase-dependent manner, as evidenced by studies
-          showing that the pan-caspase inhibitor zVAD-fmk
-          completely blocked the apoptotic fragmentation of these
-          antigens. Although the requirement for specific caspases
-          was not examined here, it is possible that caspases
-          localized in the Golgi complex (including caspase-2)
-          transduce death signals during the early stages of
-          apoptosis that are associated with fragmentation of
-          specific Golgi proteins.
-          It has been reported that apoptotic death receptors
-          such as CD95 [ 34 ] , tumor necrosis factor-related
-          apoptosis inducing ligand receptor 1, tumor necrosis
-          factor-related apoptosis inducing ligand receptor 2 [ 35
-          ] , and tumor necrosis factor receptor 1 [ 36 ] are
-          enriched in the Golgi complex prior to transport to the
-          plasma membrane, thus suggesting that the Golgi complex
-          may play an important role in apoptotic signalling. We
-          now provide evidence for characteristic alterations in
-          the Golgi complex corresponding to nuclear change during
-          the progression of apoptosis. Swelling of the Golgi
-          complex was particularly detected in the early stages of
-          apoptosis. It could be speculated that apoptotic
-          alterations of the Golgi complex may facilitate the
-          transportation of death receptors from the Golgi complex
-          to the plasma membrane, and may amplify the apoptotic
-          events once apoptosis was initiated. Additional studies
-          are needed to examine the precise function of the Golgi
-          complex during apoptosis.
-        
-        
-          Role of apoptotic or necrotic fragments in
-          autoantibody production
-          Analysis of post-translational modifications in
-          intracellular autoantigens associated with apoptosis and
-          necrosis should provide important insights into the
-          possible role of cell death in the generation of
-          potentially autoantigenic forms of cellular antigens.
-          Casciola-Rosen and coworkers have proposed that
-          modifications of autoantigens during cell death,
-          particularly proteolytic cleavage, might be crucial for
-          the generation of autoantibodies in autoimmune diseases [
-          23 37 ] . Unique proteolytic fragments of α-fodrin and
-          type 3 muscarinic acetylcholine receptor have been
-          implicated in the generation of autoantibody responses in
-          primary Sjögren's syndrome [ 38 39 ] .
-          Although direct evidence that autoantigen cleavage
-          fragments produced during cell death elicit autoantibody
-          responses is still scarce, Pollard 
-          et al . reported that immunization
-          of B10.S mice (H-2 s) with a 19 kDa proteolytic cleavage
-          fragment of fibrillarin (derived from nonapoptotic cell
-          death) elicited antibodies that are comparable with human
-          anti-fibrillarin autoantibodies and those derived from
-          mice exposed to mercury [ 40 ] . In a study using human
-          sera, Greidinger 
-          et al . reported that the
-          recognition of apoptosis-derived and oxidatively modified
-          forms of the 70 kDa subunit of U1 small nuclear
-          ribonucleoprotein autoantigen was associated with
-          distinct disease manifestations [ 41 ] . Furthermore,
-          Oriss 
-          et al . demonstrated that a
-          combination of antigen-processing cells and a fragment of
-          DNA topoisomerase I efficiently elicited autoreactive
-          T-cell proliferation, whereas the full-length
-          topoisomerase I required additional stimulus of exogenous
-          interleukin-2 [ 42 ] .
-          These data point to a crucial role for fragments of
-          autoantigens in the generation of autoantibody responses.
-          In the present study, several Golgi autoantigens were
-          detected cleaved into distinctive fragments during
-          apoptosis and necrosis. It has been speculated that these
-          modified forms of autoantigens may have enhanced
-          immunogenicity through exposure of immunocryptic epitopes
-          that are not generated during antigen processing [ 21 23
-          37 43 ] . These epitopes could trigger autoimmune
-          responses if presented to the immune system under
-          proinflammatory conditions [ 44 ] , and they may be
-          recognized as surface structures on cytoplasmic
-          organelles that are released to the immune system in
-          aberrant disease states.
-          Autoantibody responses could be amplified and
-          maintained on repeated stimulation if the exposure of
-          intracellular antigens to the immune system is associated
-          with defective clearance of apoptotic cells, prolonged
-          necrosis (primary or secondary), T-cell cytotoxicity
-          associated with chronic infection, or even antigen
-          mutation or overexpression. It would be important not
-          only to assess the immunogenic potential of subcellular
-          particles and proteolytic fragments released during cell
-          death, but also to continue investigating possible
-          defects leading to aberrant apoptosis or phagocyte
-          function and/or aberrant antigen expression in systemic
-          autoimmune diseases.
-        
-        
-          Kinetics of degradation of golgins and generation
-          of apoptotic fragments
-          Although only well-defined apoptotic fragments of
-          golgin-160 and giantin, not of golgin-95 and golgin-97,
-          were detected after 2 or 4 hours of incubation with STS,
-          total disappearance of intact proteins was detected with
-          all Golgi autoantigens and complete blockage was observed
-          in the presence of z-VAD-fmk. These results suggested
-          that there might be differences in the kinetics of
-          degradation among the golgins, with golgin-95 and
-          golgin-97 perhaps being more sensitive to proteolysis and
-          being targeted very early during apoptosis. While the
-          absence of apoptotic fragments for golgin-95 and
-          golgin-97 suggests that total degradation of these
-          proteins occurred without generation of intermediate
-          protease-resistant fragments, it cannot be ruled out that
-          the intact proteins were released from apoptotic cells or
-          that their apoptotic fragments were not recognized by
-          autoantibodies.
-          In the present study, Jurkat cells were relatively
-          sensitive to the treatment with STS such that the
-          kinetics of degradation of different golgins relative to
-          that of PARP could not be accurately differentiated.
-          Since HEp-2 cells grown as a monolayer were observed to
-          be more resistant to apoptosis compared with Jurkat
-          cells, we used HEp-2 cells to investigate more precisely
-          the relative kinetics of degradation for the native
-          golgins during apoptosis.
-          An identical pattern of fragmentation was essentially
-          observed for all the Golgi autoantigens examined except
-          that the overall kinetics of native protein degradation
-          was slower (data not shown). The integrity of native
-          golgin-95 and golgin-97, in which apoptotic fragments
-          were not detected, was almost completely maintained at 12
-          hours after the addition of STS (data not shown). In
-          contrast, native golgin-160 and giantin were degraded
-          into their respective fragments 12 hours after the
-          addition of STS. The processing of golgin-160 and giantin
-          occurred as early as that for PARP, suggesting that these
-          proteins are cleaved during the onset of apoptosis (data
-          not shown). Cleavage of golgin-160 and giantin may thus
-          play a potentially important role in the early stages of
-          apoptosis.
-          Although we did not determine which golgins are
-          substrates for specific caspases, further studies aimed
-          at defining the caspases responsible for golgin cleavage,
-          the cleavage sites, and the biological consequences of
-          these cleavages should provide important insights into
-          the possible role of some of the Golgi autoantigens in
-          apoptosis.
-        
+        Ruíz-Jarabo et al. measured the frequency of the
+        minority FMDV RED mutant up to passage 50, and found that
+        the frequency was still declining at passage 50 [ 44 ] .
+        They observed mutant frequencies at passage 50 between 6.6
+        × 10 -4and 10 -3. These results are in agreement with our
+        model of phenotypic hiding if we use a relative fitness of
+        0.4 for the RED mutant as compared to the wild type [ 42 44
+        ] , and assume that (1) the fitness disadvantage is fully
+        explained by impaired entry, (2) the mutation rate is μ =
+        10 -4, and (3) the m.o.i. is approximately five (Fig. 4).
+        The m.o.i. in Ref. [ 44 ] was between one and five.
+        Ruíz-Jarabo et al. noted that mutant concentrations around
+        10 -3would follow from equilibrium state of the standard
+        quasispecies model if the mutation rate were μ = 10
+        -3rather than μ = 10 -4. However, the standard quasispecies
+        model predicts that the mutation-selection balance should
+        be reached around passage 10 (Fig. 4), which is at odds
+        with the observation that the frequency of RED mutants
+        continued to decline up to passage 50.
+        It is important to note that capsid proteins can be
+        provided in trans during the production of infectious FMDV
+        particles [ 51 ] , and phenotypic hiding has been known for
+        many years in a variety of picornaviruses [ 56 57 58 ] .
+        Other factors may enhance or reduce the effects of
+        complementation. For instance, compartimentalization or
+        physical localization should prevent to some degree the
+        free exchange of genomes and products.
+        In order to test fully the predictions of our model, we
+        would need data on the decay of the mutant frequency from
+        replicate populations propagated at different m.o.i.
+        Unfortunately, such data does not exist. Although
+        Ruíz-Jarabo et al. propagated their populations at an
+        m.o.i. of 0.1 in their initial study [ 42 ] and at an
+        m.o.i. between one and five in their follow-up study [ 44 ]
+        , we cannot compare the mutant frequencies reported in
+        these two studies, because the method of screening for RED
+        mutants was changed in the follow-up study ( [ 44 ] , Table
+        1, Note b). Moreover, a caveat applies to the comparison of
+        the experimental data to our model: Ruíz-Jarabo et al.
+        determined the frequency of RED mutants by first screening
+        for monoclonal antibody (MAb SD6) resistant virions, and
+        then determining the fraction of RED mutants among them
+        from sequence data. While this method successfully prevents
+        against counting MAb-resistant mutants that are not RED, it
+        does not measure the fraction of RED mutants that hide
+        behind RGD capsids. If phenotypic hiding plays an important
+        role in this system, then the fraction of hiding RED
+        mutants could be substantial, and the reported mutant
+        frequencies would likely represent underestimates. In
+        summary, the experimental data are consistent with our
+        model, but do not allow us to either accept or reject it
+        with certainty. We have shown in the present paper that
+        phenotypic hiding can increase equilibrium frequencies by
+        factors of two to five, or even higher, for high m.o.i. It
+        is conceivable that other types of complementation can have
+        similar effects [ 59 ] .
+        Phenotypic hiding can bias fitness determinations if the
+        phenotype, rather than the genotype, is quantified. This
+        bias occurs simply because a fraction of mutant genomes
+        will hide behind wild-type envelopes and will be missed, an
+        effect that has been previously reported [ 29 60 ] . As a
+        byproduct of our study, we predict two phases of mutant
+        frequency decay specific to phenotypic hiding. In the first
+        round of infection, all virions are pure wild type or pure
+        mutant, so that the mutant virions cannot benefit from
+        complementation. Therefore, their frequency will decrease
+        corresponding to their true fitness and independently of
+        the m.o.i. From the second passage onward, the balance
+        between pure and mixed virions is established, and further
+        reduction of the mutant frequency proceeds much slower if
+        the m.o.i. is sufficiently high, as illustrated in Figure
+        2. As a consequence, if fitness competitions are halted
+        after the first passage, measurements of the phenotype will
+        not bias fitness determinations. These effect should not be
+        observed in other forms of complementation, but should be
+        characteristic of any situation in which the phenotype is
+        determined by envelope proteins. Host range will often
+        belong to this category, since receptor recognition is one
+        of its main determinants. Other examples include antibody
+        resistant mutants and escape mutants when the antiviral
+        drug targets entry, such as rimantidine and
+        amantidine-resistant influenza strains or WIN
+        compound-resistant picornaviruses [ 61 ] . Thus, phenotypic
+        hiding can keep a relatively large frequency of mutants in
+        the absence of selective pressure that can provide a quick
+        response when such selective pressure is restored.
+        Complementation can also complicate the interpretation
+        of other experimental results involving competition between
+        two (or more) strains. For instance, Miralles et al. [ 62
+        63 ] tested the effect of clonal interference in VSV
+        populations by changing the population size in competitions
+        between wild type and a MARM mutant. This MARM mutant
+        carries a point mutation that confers resistance to I1 Mab,
+        but it is neutral otherwise [ 64 ] . Clonal interference
+        occurs in asexual organisms when population sizes are large
+        enough to allow the simultaneous generation of more than
+        one advantageous mutation, so that the best mutation has to
+        compete not only with an inferior wild type but also with
+        the other fitter mutants [ 65 ] . Thus, while the best
+        possible mutation should always be the one becoming
+        dominant, the rate at which it does so should be slowed
+        down in large populations. The VSV competition experiments
+        were carried out at increasing viral population sizes, but
+        the number of infected cells was held constant, that is,
+        the m.o.i. was increased alongside the population size.
+        Therefore, complementation may also have contributed to the
+        slowdown of the speed of adaptation at large population
+        sizes, and the relative contributions of complementation
+        and clonal interference to the slowdown would be hard to
+        disentangle. The only phenotypic hiding effect that the
+        authors could avoid were related to the determination of
+        changes in MARM C frequencies, and these only correlate to
+        the changes in beneficial mutation frequencies if the
+        beneficial mutation mapped to the G glycoprotein.
+        Many infections in plants and animals are probably
+        initiated by one or few viral particles, thus corresponding
+        to a situation of low m.o.i. As replication proceeds and
+        titers rise, the likelyhood of coinfection increases. The
+        best evidence for multiple infections 
+        in vivo comes from the observation of
+        natural recombinants. In the case of HIV-1, for instance,
+        rampant recombination has been reported, even among
+        different subtypes [ 66 67 ] , and the number of proviruses
+        per cell was estimated to be approximately three. Another
+        well known example is influenza virus, for which
+        reassortment is a major mechanism of evolutionary change [
+        68 ] . As in the case of HIV, reassortment depends of
+        coinfection, and once coinfection occurs, complementation
+        is as likely to ensue as reassortment.
       
       
-        Conclusion
-        The present study has shown overall morphologic changes
-        of the Golgi complex during apoptosis and necrosis, with
-        distinct fragmentation patterns of its associated
-        autoantigens. We propose that cleavage of golgin-160 and
-        giantin may play a role in early events in apoptosis. We
-        also speculate that Golgi fragmentation in cell death might
-        participate in sustaining autoantibody response to the
-        Golgi complex in aberrant disease states characterized by
-        unregulated cell death resulting from injury or infection
-        or defective clearance of dying cells.
+        Conclusions
+        We have shown that phenotypic hiding has substantial
+        influence on the equilibrium frequencies of mutants in
+        selection-mutation balance, and on the speed at which
+        deleterious mutants are lost from the population. Our
+        theory makes five predictions that can be tested
+        experimentally:
+        1. The rate at which the mutant disappears should
+        decrease and the equilibrium concentration of the mutant
+        should increase with increasing m.o.i.
+        2. A substantial fraction of mutant genomes should be
+        encapsidated with wild-type protein.
+        3. The ratio of mutant genomes encapsidated in wild-type
+        protein to wild-type genomes encapsidated in mutant protein
+        should decrease with increasing m.o.i.
+        4. Even at low m.o.i., the fraction of mutant present in
+        mutation-selection balance should be larger (up to a factor
+        of two) than predicted by the standard quasispecies model
+        if the mutant fitness is low compared to the wild-type
+        fitness.
+        5. The decrease of mutant frequency during the first
+        passage should be independent of the m.o.i., and equal to
+        that measured for later passages at very low m.o.i.
+        Future experiments can be designed to test these
+        predictions, and can thereby clarify whether phenotypic
+        hiding is a major contributor to viral memory and elevated
+        equilibrium frequencies of mutants.
       
       
-        Abbreviations
-        AGA = anti-Golgi complex autoantibodies; H 
-        2 O 
-        2 = hydrogen peroxide; PARP =
-        polyADP-ribose polymerase; PBS = phosphate-buffered saline;
-        STS = staurosporine; zVAD-fmk =
-        benzylocarbonyl-Val-Ala-Asp-fluromethylketone.
+        Methods
+        In this section, we present some calculations that form
+        the basis of the derivation of our model equations.
+        We first calculate the probability that a virion
+        produced by an 
+        n -fold coinfected cell is pure.
+        Assume a cell is infected by 
+        k virions with wild-type genotype,
+        and by 
+        n - 
+        k virions with mutant genotype. Then,
+        the probability that an offspring virion is pure wild-type
+        is the probability that it has wild-type genotype, which is
+        
+        k / 
+        n , times the probability that it has
+        wild-type phenotype, which is again 
+        k / 
+        n . Thus, the total probability is ( 
+        k / 
+        n ) 2. If we want to know the
+        probability that an offspring virion is pure for a number
+        of coinfected cells with different ratios in their
+        multiplicity of infection of wild-type and mutant
+        genotypes, then we have to sum over the different
+        contributions of all the individual cells. In practice, we
+        will not know exactly which cells are infected with what
+        virions. However, it is reasonable to assume that we know
+        the overall probabilities with which cells are infected
+        with either mutant or wild-type genotype. Assume that 
+        x 
+        
+          w 
+         is the probability that a cell is infected with
+        wild-type genotype, and 
+        x 
+        
+          m 
+         = 1 - 
+        x 
+        
+          w 
+         likewise for the mutant genotype. Then, the number of
+        wild-type genomes 
+        k in a cell is binomially
+        distributed, and therefore the overall probability ξ 
+        
+          ww 
+         ( 
+        n ) that an offspring virion from a
+        cell infected by 
+        n virions is pure wild-type becomes [
+        38 ]
+        
+        Likewise, we find for the probability ξ 
+        
+          mm 
+         ( 
+        n ) that an offspring virion is pure
+        mutant ξ 
+        
+          mm 
+         ( 
+        n ) = 
+        x 
+        
+          w 
+         
+        x 
+        
+          m 
+         / 
+        n + .
+        Now we consider mixed virions. Assume again that a cell
+        is infected by 
+        k virions with wild-type genotype,
+        and by 
+        n - 
+        k virions with mutant genotype. In
+        analogy to the considerations for a pure virion, we find
+        that the probability of a mixed virion is 
+        k ( 
+        n - 
+        k )/ 
+        n 2, regardless of whether the
+        genotype is wild-type and the phenotype is mutant or vice
+        versa. The probabilities ξ 
+        
+          wm 
+         ( 
+        n ) and ξ 
+        
+          mw 
+         ( 
+        n ) that an offspring virion is mixed
+        of either type are then
+        
+        Equations (9) and (10) are valid if all cells have
+        exactly the same multiplicity of infection. However,
+        infection is a Poisson process, and some cells will end up
+        being infected by more virions than other cells. Assume
+        that λ is the multiplicity of infection of the whole
+        population. Then, the probability that a single infected
+        cell is infected by 
+        k virions is 
+        e -λλ 
+        k /[(1 - 
+        e -λ) 
+        k !]. The factor 1 - 
+        e -λin the denominator corrects for
+        the 
+        e -λcells that will not be infected
+        at all. We obtain the overall probabilities to find a pure
+        or mixed offspring virion by summing over all possible
+        combinations of infections, with their respective
+        probabilities. For example:
+        
+        After taking the sum, we find:
+        
+        p 
+        
+          ww 
+         = + 
+        cx 
+        
+          w 
+         
+        x 
+        
+          m 
+         , (12)
+        where the constant 
+        c is given by
+        
+        Here, Ei( 
+        z ) is the exponential integral, ,
+        and γ is the Euler constant, γ ≈ 0.577216. Finally, by
+        making use of 
+        x 
+        
+          w 
+         = 1 - 
+        x 
+        
+          m 
+         ; we arrive at
+        
+        p 
+        
+          mm 
+         = 
+        cx 
+        
+          w 
+         + (1 - 
+        c ) . (14)
+        Similarly, for a mixed virion, we find
+        
+        We obtain 
+        p 
+        
+          mm 
+         and 
+        p 
+        
+          mw 
+         from Eqs. (14) and (15) by interchanging w and m in
+        all subscripts. Equations (14) and (15) show that the
+        mixing parameter 
+        r used in the main body of this paper
+        is related to 
+        c via 
+        r = 1 - 
+        c .
+      
+      
+        Authors' contributions
+        COW was responsible for the analytic calculations. Both
+        authors contributed substantially to the design of the
+        study and the writing of the manuscript. Both authors read
+        and approved the final manuscript.
       
     
   

@@ -3,498 +3,295 @@
     
       
         Background
-        In the past 10 years we have witnessed an almost
-        exponential growth of genomic sequence data [ 1, 2]. This
-        dramatic increase creates unique opportunities for
-        comparative analysis leading to new insights into the
-        behavior of living microorganisms. One of the burning
-        questions of modern genomics research is the need to assign
-        annotations to new genes whose biological function is yet
-        to be understood. Computational tools based on sequence
-        homology have proved to be most broadly applicable for
-        effective and accurate functional annotations of genes in
-        newly sequenced genomes. Among them, BLAST and PSI-BLAST [
-        3] are widely used to assign functions to newly sequenced
-        open reading frames (ORFs) in genome sequence. However, one
-        of the most surprising outcomes of genome research is that
-        roughly 20-40% of genes in newly sequenced genomes do not
-        have statistically significant matches to functionally
-        annotated sequences and are annotated as 'hypothetical
-        proteins' [ 4].
-        Accordingly, several non-homology-based computational
-        methods have been introduced recently in an attempt to
-        provide putative functional assignments for those
-        'hypothetical proteins'. For example, among the most
-        reliable methods, the Rosetta stone technique [ 5, 6]
-        detects functional associations based on protein-domain
-        fusion events. Other methods include the chromosomal
-        proximity method and the phylogenetic profile method.
-        The chromosomal proximity method of Overbeek 
-        et al. [ 7] is a popular technique
-        that utilizes chromosomal proximity information to discover
-        putative functional linkages between genes close to each
-        other on the chromosome. When two genes appear as a
-        neighboring gene pair in the genomes of several distantly
-        related organisms (that is, they form a conserved gene
-        cluster) it suggests the possibility that the genes might
-        be functionally related [ 7]. In fact, the analysis of
-        current data suggests that a cluster of two or more genes
-        that appears in four or more distantly related
-        microorganisms has a more than 90% probability of being
-        involved in the same broad functional category (Y.Z.,
-        unpublished data).
-        Another seminal approach for establishing functional
-        links between genes based on their coevolution patterns in
-        different organisms was proposed and popularized by
-        Pellegrini 
-        et al. [ 8]. Similar proposals have
-        been made by Gaasterland 
-        et al. [ 9] and other groups. This
-        method constructs a genetic phylogenetic profile for each
-        gene. A phylogenetic profile of a gene indicates the
-        presence or the absence of this gene in each organism by an
-        entry of 1 or 0 in a long vector. In other words, each gene
-        is assigned a binary vector of length 
-        N, where 
-        N is the number of organisms used to
-        construct the phylogenetic profiles. The 
-        i th bit of the vector is set to 1 if
-        a homologous gene exists in the 
-        i th genome; otherwise it is set to
-        0. Several variants of phylogenetic profiles have been
-        described in the literature [ 10, 11]. The functional
-        linkage is established when two genes have similar
-        phylogenetic profiles, that is, they show a correlated
-        pattern of inheritance across the genomes examined.
-        Here we propose a new simple method for inferring
-        functional linkages based on the phylogenetic profiles of
-        gene clusters. This method simultaneously takes advantage
-        of chromosomal proximity information and phylogenetic
-        coevolution information. We demonstrate an enhanced ability
-        to annotate a number of previously uncharacterized genes
-        that are not yet functionally annotated and appear to
-        resist the application of other computational
-        techniques.
-        Our new method constructs gene cluster phylogenetic
-        profiles by recording the conservation pattern of a gene
-        cluster that contains two or more neighboring genes in a
-        set of reference genomes. In this paper, we will focus on
-        gene clusters of size two, that is, gene pairs. For a given
-        gene pair AB (A and B are separate genes and are encoded
-        continuously on the chromosome) in the target genome, the
-        presence of AB in a reference genome is recorded when we
-        detect the presence of either an A'B' or a B'A' gene
-        cluster, where gene A' is a homolog of gene A and gene B'
-        is a homolog of gene B. There are many established methods
-        for detecting homology or orthology, for example,
-        membership in the same COG (Clusters of Orthologous Genes)
-        [ 12]. In this paper, homologs are detected by BLASTP with
-        an 
-        E -value lower bound of 1e-10 to
-        filter out statistically insignificant matches.
-        The implementation of the chromosomal proximity method
-        does not strictly require successive ORFs in the genome. An
-        important discovery in comparative genomics is that local
-        gene rearrangements happen quite often during evolution,
-        disrupting gene order in gene clusters [ 13]. To account
-        for possible gene insertion and rearrangement events during
-        evolution, a natural extension is to consider gene clusters
-        with ORF gaps. That is, we extend the detection of A'B'
-        clusters to include A'xB' and A'xyB' clusters in the
-        reference genomes, where x and y are inserted genes (a
-        maximum of two) and A' and B' are homologs of genes A and
-        B. Similarly, to be symmetric, we allow the gapped gene
-        pairs in the target genome, that is, AxB or AxyB pairs
-        where x and y are genes between A and B in the target
-        genome. The implementation of the gapped version of the
-        gene cluster phylogenetic profile method increases the
-        number of putative functional linkages between genes and
-        thus improves the sensitivity of the method. Here we report
-        results from the gapped version of the method. From now on,
-        we will refer to a single gene phylogenetic profile as SGPP
-        and to a gene pair phylogenetic profile as GPPP.
+        Today, the use of mobile phones is widespread and the
+        number of users is increasing rapidly. It is generally
+        known that an electromagnetic field of adequate intensity
+        and frequency may interfere with implanted devices. Mobile
+        phones are regarded as a potential source of
+        electromagnetic interference with pacemakers [ 1 ] - [ 18 ]
+        and defibrillators [ 6 19 20 ] . An extensive review of the
+        literature [ 21 22 ] demonstrated that up to now no
+        examinations on electromagnetic compatibility aspects of
+        deep brain stimulators (DBS) and mobile phones have been
+        published. The malfunctions (inhibition, switch to the
+        safety modus, i.e. stimulation with a fixed rate, and
+        stimulation with a false signal) reported with pacemakers [
+        1 ] - [ 18 ] due to the use of mobile phones may lead to
+        discomfort and in rare cases to menacing situations for the
+        pacemaker patient. These malfunctions depend on various
+        parameters: frequency, transmitting power, modulation
+        principle of the mobile phone system, distance between
+        mobile phone and pacemaker, implantation depth, operating
+        mode of the pacemaker as well as the interference immunity
+        of the pacemaker. For older pacemakers a safety distance of
+        6 inches (15 centimeters) is sufficient to avoid
+        malfunctions, although some publications recommend less
+        than 6 inches. The use of the mobile phone on the opposite
+        side of the pacemaker's location reduces the probability of
+        interference. Subsequently, pacemaker patients should not
+        carry the mobile phone in the breast pocket close to the
+        pacemaker or, if the pacemaker is located in the abdomen,
+        not on a belt, when it is switched on. Defibrillators seem
+        to be less sensitive than pacemakers regarding
+        electromagnetic fields emitted by mobile phones. Generally,
+        the same precautions (6 inches or 15 centimeter minimum
+        distance) as in the case of pacemakers should be
+        encouraged. If these precautions are adhered to the
+        possibility of interference with defibrillators can be
+        minimized.
+        The increasing use of neurostimulators and mobile
+        phones, and the lack of information on possible disturbance
+        of DBSs due to exposure from mobile phones motivated us to
+        carry out this study. We studied the interference of the
+        DBS ITREL-III from Medtronic Inc. (Minneapolis, MN, USA)
+        with GSM mobile phones operating at 900 MHz and 1800 MHz
+        and with broadband diploes in the frequency range from 500
+        MHZ up to 2400 MHz. Unlike pacemakers and defibrillators,
+        DBSs have no sensing inputs and therefore they should be
+        more robust regarding electromagnetic interference.
+        However, stimulation leads could act as antenna, picking up
+        radio frequency (RF) currents and leading them into the
+        device. Feed through filters should be able to handle this
+        problem. However, the manufacturer did not disclose
+        information of the implant design, the electronic circuit
+        design, whether feed though filters where used or not and
+        which other electromagnetic compatibility precautions were
+        taken.
+        Neurological pulse generators are used as DBSs in the
+        treatment of Parkinson's disease or as spinal cord
+        stimulators. This study deals only with the ITREL-III as a
+        DBS. Located in the chest region under the skin, the DBS
+        stimulates certain areas of the brain, namely the thalamus
+        or subthalamus [ 23 24 ] . Due to its superior programming
+        possibilities, the ITREL-III and ITREL-II are the DBSs
+        preferred by our center for neurosurgery. A programming
+        device can telemetrically adjust the stimulation parameters
+        such as frequency, amplitude, and pulse duration. Two
+        critical locations of the phone in respect of interference
+        that correspond to typical use scenarios can be found: The
+        region around the ear due to the closeness of the mobile
+        phone antenna to the leads of the DBS and the breast region
+        due to the potential closeness of the mobile phone to the
+        DBS.
       
       
-        Results and discussion
+        Methods
         
-          Examples of functional dependences revealed by
-          GPPP
-          We carried out an exhaustive grouping of the 
-          Escherichia coli gene pairs based
-          on sharing the same GPPP (Hamming distance equal to
-          zero). In 
-          E. coli, our non-gapped GPPP method
-          detects 57 gene-pair clusters. These gene-pair clusters
-          include 351 genes. Low-quality profiles, which refer to
-          profiles with a norm of less than 4, are excluded. The
-          norm of the profile is calculated by summing the 1s and
-          0s in the profile vector (see Figure 1legend for the
-          definition of profile norm). By using the gapped GPPP
-          method, we were able to detect 176 functionally related
-          gene clusters containing 738 genes. A two-dimensional
-          representation of these clusters and their relationships
-          is shown in Figure 1. As a result, by using the GPPP
-          method, we could establish functional linkages among
-          about 17% of the 
-          E. coli genome.
-          In many cases the GPPP method is able to establish
-          functional linkages that are missed by the application of
-          the SGPP method or the chromosomal proximity method
-          independently. There are numerous examples where gene
-          pairs share a common GPPP and have a functional linkage,
-          although the individual genes may not have similar SGPPs.
-          Our method provides a new way to establish functional
-          linkages between distant coevolved gene clusters on the
-          chromosome, enhancing the ability to assign gene
-          functions consistently in a broader genomic context. One
-          such example consists of the 
-          E. coli gene pairs:
-          b1129(gi|1787374)/b1130(gi|1787375) and
-          b4398(gi|1790860)/b4399(gi|1790861). These two gene pairs
-          share the same GPPP (Figure 2), whereas individual genes
-          do not have the same SGPP (Figure 2). Hamming distances
-          between the individual genes are shown in Table 1.
-          The gene pair b1129/b1130 in 
-          E. coli encodes a two-component
-          regulatory system PhoP-PhoQ [ 14, 15]. This two-component
-          system is also present in several other Gram-negative
-          bacteria and is associated with virulence, adaptation to
-          Mg 2+-limiting environments and other cellular activities
-          [ 15]. The gene b4399 has been annotated as a 'catabolite
-          repression sensor kinase for PhoB, an alternative sensor
-          for PhoB', although it is far from 
-          phoB (b0399) on the chromosome. In
-          fact, PhoB forms another two-component system with the
-          product of its neighboring gene, PhoR (b0400), which is
-          responsible for phosphate regulation [ 15]. The gene
-          b4398 has been assigned a general function as a catabolic
-          regulation response regulator. As these two gene pairs
-          b4398/b4399 and b1129/b1130 share the same coevolution
-          pattern, revealed by the gene-pair phylogenetic profiles,
-          we suggest that the gene pair b4398/b4399 probably
-          encodes another two-component system in 
-          E. coli. This two-component system
-          may be functionally closer to the PhoP-PhoQ system than
-          to the PhoB-PhoR system. Interestingly, as no individual
-          gene has a similar SGPP (see Table 1), relying on SGPP
-          would miss this highly coupled functional linkage.
-          Functional dependence between genes as a selective
-          pressure sometimes favors gene clusters over random gene
-          arrangement along the chromosome [ 16]. The chromosomal
-          proximity method aims to detect local functional
-          dependences ('intracluster' dependences) established by
-          conserved proximity among distantly related genomes.
-          However, functional dependencis between distant gene
-          clusters ('intercluster' functional dependences) on the
-          chromosome usually cannot be resolved by the chromosomal
-          proximity method. Instead, GPPP can reveal even distant
-          functional dependences between gene clusters that
-          participate in closely coupled processes or pathways. An
-          example is the 
-          E. coli murG cluster (b0089, b0090,
-          b0092) and the 
-          lpxD cluster (b0177, b0179) which
-          share the same GPPP; their current annotations are shown
-          in Table 2. They are both present in 
-          Chlamydophila pneumoniae, Chlamydia
-          trachomatis, Xylella fastidiosa, Haemophilus influenzae,
-          Neisseria meningitidis and 
-          Pseudomonas aeruginosa and are
-          absent in all the other genomes included. MurG, the last
-          enzyme in the intracellular phase of peptidoglycan
-          synthesis, is essential for the production of the layers
-          of peptidoglycan that protect cells from rupturing under
-          high internal osmotic pressure [ 17]. LpxD is a key
-          enzyme in lipid A biosynthesis [ 18]. Lipid A is a
-          glucosamine-based phospholipid that makes up the
-          monolayer of the outer membrane outside the peptidoglycan
-          layers. None of the genes in these clusters is homologous
-          to any of the others by BLASTP. The conventional
-          non-homology-based chromosomal proximity method can imply
-          functional dependences inside each cluster separately.
-          For example, as b0089, b0090, b0092 are conserved among
-          the six organisms above, we can infer functional linkage
-          and interpret the collective function as cell-membrane
-          maintenance from their current annotations (Table 2).
-          However, with additional information from GPPP, we can
-          establish a distant intercluster functional dependence in
-          addition to the intracluster dependences found by the
-          chromosomal proximity method. As both clusters are
-          associated with the outer membrane of the cell and are
-          essential for survival of the bacteria [ 19, 20], this
-          dependence may suggest an inherent functional linkage
-          between them. Noticing there is a hypothetical protein
-          (b0177) in the 
-          lpxD gene cluster, we then carried
-          out sequence analysis on this gene and its encoded
-          protein, expecting that it might be associated with the
-          outer membrane of the cell. A simple BLASTP search tells
-          us it has significant homology ( 
-          E -value 0.0) to the outer-membrane
-          antigen present in many other bacteria. Given that the
-          lipid A layer provides anchoring sites for bacterial
-          surface antigens such as lipopolysaccharide (LPS), this
-          discovery again supports the reliability of our
-          prediction.
+          Tests of commercially available mobile
+          phones
+          The electromagnetic compatibility behavior of the
+          ITREL-III was examined while exposing the ITREL-III to
+          the fields of 10 different types of GSM 900 MHz mobile
+          phones and 10 different GSM 1800 MHz mobile phones. Every
+          mobile phone was tested in three different positions next
+          to the phantom, using 2 different electrode
+          configurations and 8 different stimulation parameters,
+          SeeFF Table 1. Altogether, 960 different test
+          configurations were examined. The power control of the
+          handsets was adjusted at 900 MHz and 1800 MHz using the
+          GSM tester "CMD 55" from Rhode & Schwarz. The maximum
+          radiated peak power was 2 W (+/- 2 dB) at 900 MHz and 1 W
+          (+/- 2 dB) at 1800 MHz, respectively.
+          Different spatial configurations of the implant
+          lead-shape and lead-size, can affect the interference due
+          to different RF-behavior. Particularly, loops in the
+          leads are able to pick up more RF currents. With respect
+          to RF-behavior two significantly different lead
+          configurations were chosen: the "loop" and the "meander."
+          Figure 5shows the two different lead configurations for
+          interference testing.
+          All mobile phones were tested in three positions next
+          to the phantom: 1. in front of the chest - directly over
+          the implant with the mobile phone touching the phantom;
+          shown in Figure 6.
+          2. next to the ear - in a typical position while
+          making a telephone call. This position is defined in [ 26
+          ] as the "cheek" or "touch" position; shown in Figure
+          7.
+          3. in a non-typical position in front of the skull
+          directly over the loop or meander; shown in Figure 8.
+          To observe the function of the ITREL-III the output
+          signal at the connection of the lead to the implant case
+          was monitored via a shielded cable on an oscilloscope.
+          Interference with the field of the mobile phone and the
+          monitoring cable was prevented by routing the monitoring
+          cable out of the phantom to the oscilloscope on the
+          opposite side (back of the phantom) of the interference
+          source.
+          Different mobile phones have different types of
+          antennas and each antenna has its own current
+          distribution. The current distribution on the antenna and
+          the antenna location on the mobile phone case affects the
+          field distribution in the patient and therefore the
+          interference behavior. Another major difference between
+          mobile phones is the emitted peak power due to the GSM
+          specifications which allow a peak power tolerance of +/-
+          2 dB. To get a representative coverage we tested 20
+          different GSM mobile phones indicated in Table 4.
+          Ad hoc testing of electronic implants with special
+          types of mobile phones only gives reliable results for
+          the tested phones. To know the safety margin for possible
+          interference it is necessary to perform tests with more
+          general interference sources. Therefore broadband dipoles
+          were used to find out which power levels, depending on
+          the frequency would cause interference.
         
         
-          Previously uncharacterized genes in E. coli
-          By applying the GPPP method, a number of previously
-          uncharacterized genes in 
-          E. coli with hypothetical or
-          unknown annotation can now be functionally linked to
-          characterized gene pairs. Some of these genes have not
-          been assigned a function because of the lack of
-          sufficient data at the time of annotation. We then
-          carried out additional sequence analyses of these genes
-          using BLAST, Pfam [ 21] and COG to confirm our
-          prediction. A number of previously unknown genes that can
-          be annotated by our method and can be confirmed by
-          additional analysis are listed in Table 3. It can be seen
-          in Table 3that many of the predictions made by GPPP agree
-          with more detailed sequence analysis.
-        
-        
-          Accuracy of the GPPP method
-          We have compared the accuracy of GPPP with that of the
-          SGPP method using COG's broad-function classification
-          system [ 12]. Genes in each cluster grouped by the same
-          profile are labeled using COG's 18 broad functional
-          categories excluding category R (general function) and
-          category S (function unknown). A good method for
-          establishing functional linkages will tend to cluster
-          genes within the same broad functional category. To this
-          end, we devised two separate procedures to compare the
-          effectiveness of GPPP and SGPP, with the results
-          summarized below. Because it is hard to calculate the
-          number of false negatives, which are functionally
-          dependent genes or gene clusters that do not show a
-          common coevolution pattern, we did not compare the
-          sensitivities of these methods.
-          The first accuracy measure is based on the proportion
-          of 'pure' clusters among all the clusters. We defined
-          satisfying pure clusters heuristically, considering the
-          intrinsic vagueness of the concept 'broad category' and
-          the fact that it is difficult to classify proteins'
-          functional roles precisely using a one-dimensional
-          classification schema [ 22]. If more than 80% of the
-          members in a cluster stay within a certain COG broad
-          functional category, which means that they might be
-          involved in the same biological process, we consider this
-          cluster as a pure cluster. The proportion of such pure
-          clusters among the total clusters serves as a coarse
-          measure of the specificity of the phylogenetic profile
-          method.
-          We plotted this measure versus the norm of the profile
-          for both GPPP and SGPP (Figure 3a). To account for the
-          possible systematic bias of this measure toward sizes of
-          the clusters, we also plotted the average cluster size
-          versus the norm of the profile (Figure 3b). Figure
-          3bshows that except at the very ends of the norm axis
-          (norm = 1, 2, 30) the average cluster sizes from both
-          GPPP and SGPP are close to each other.
-          In the other experiment to compare accuracy, we simply
-          examined all pairs of proteins that end up in the same
-          cluster and calculated the frequency with which two such
-          proteins are from the same functional category. This
-          measure is essentially the same as the Jaccard
-          coefficient ( 
-          C ) referred to in [ 10]. Given a
-          gene cluster, let 
-          N be the number of all pairs of
-          genes chosen from this cluster and 
-          S be the number of all pairs of
-          genes that are chosen from this cluster and are from the
-          same COG category. Then the Jaccard coefficient is
-          calculated by 
-          C = 
-          S / 
-          N . 
-          C varies from zero to one and is
-          less dependent on cluster size, unlike the previous
-          measure. 
-          C is plotted versus the norm of the
-          profile in Figure 4. In both experiments (Figures 3a, 4),
-          we see that GPPP achieves a higher accuracy (an increase
-          of 10% on average) than the conventional SGPP method,
-          especially in the norm range 5 to 20.
-          From the information theory perspective, we know that
-          the predictive quality of a profile is reflected by its
-          mutual information:
-          
-          where 
-          P ( 
-          i ) is the probability of seeing 
-          i ( 
-          i = 0,1) in the profile vector and 
-          P ( 
-          i,j ) is the probability of seeing
-          ( 
-          i,j ) jointly in two aligned
-          profiles 
-          I and 
-          J. In theory, the predictive value
-          is maximized when half the entries in a profile are 1s
-          and the others are 0s (high mutual information (MI)
-          regions). The bell-like accuracy curve for the profile
-          methods (Figures 3a, 4) can be explained by considering
-          the information content of profiles, which is low when
-          the norm of a profile is close to 0 (a vector with all
-          entries 0) or 
-          N (a vector with all entries 1)
-          (low-MI regions). Intuitively, the fact that certain gene
-          clusters appear in every organism or appear in only one
-          organism does not necessarily indicate functional
-          relationship. We can see that when the profiles are near
-          these low-MI regions, the size of the clusters tends to
-          increase dramatically, suggesting the corruption of
-          coevolution signals (Figures 3b, 5b). It is important to
-          realize which regions our functional linkages are
-          established from when we use these phylogenetic profile
-          methods.
-          As more and more fully sequenced genomes of
-          microorganisms have become available, it is natural to
-          ask whether the accumulation of new genomes will help us
-          improve the accuracy of the phylogenetic profile methods.
-          With more than 77 sequenced genomes now available, we
-          were able to expand the phylogenetic profile analysis to
-          a larger set of organisms. Using total 68 microorganisms,
-          in Figure 5awe plot the accuracy versus the norm and in
-          Figure 5bwe plot the average size distribution for both
-          GPPP and SGPP. We can see that the accuracy of the GPPP
-          method is improved about 5% on average when more genomes
-          are included and the cluster sizes tend to become
-          smaller. However, we did not see dramatic improvements
-          when using the larger set of genomes, which made us think
-          there may be an upper limit to the accuracy of the
-          phylogenetic profile method. When more genomes are
-          included, both the coevolution signal and the noise
-          signal are 'amplified', so we would not expect the
-          accuracy of the phylogenetic method to improve
-          dramatically when a larger, randomly selected genome set
-          is sampled unless a clever sampling strategy is used. All
-          accuracy curves (Figures 3a, 4, 5a) show that the GPPP
-          method outperforms the SGPP method. The improved accuracy
-          makes GPPP a possible complementary annotation tool to
-          aid conventional homology-based sequence comparison.
-          To measure the robustness of the GPPP method for a
-          larger sample of genomes, we also examined whether the
-          functional linkages previously established by
-          30-dimensional profiles can still be recovered by
-          67-dimensional profiles. We find that the previously
-          reported functional linkages can be completely
-          reconfirmed (data not shown), which suggests that the
-          true coevolution patterns of certain gene clusters are
-          robust when a wider range of genomes are sampled and
-          appear to resist the noise due to evolutionary diversity
-          that could be introduced when more genomes are used.
-          Additionally, the GPPP method using 68 genomes generates
-          additional putative functional associations (see [ 23]
-          for a complete list). As some microorganisms are closely
-          related to each other (for example, different strains of
-          the same organism), it is important to realize that the
-          number of 'informative' genomes is less than the number
-          of genomes included. The discriminative power of
-          phylogenetic profiles will be improved when a proper
-          strategy for sampling organisms in different taxa is
-          developed.
-          In summary, gene cluster phylogenetic profiles combine
-          and improve on the chromosomal proximity method and the
-          single-gene phylogenetic profile method. A gene cluster
-          phylogenetic profile with a large norm simply states the
-          fact that this gene cluster is highly conserved across
-          different organisms, which is equivalent to the
-          chromosomal proximity method. By clustering gene clusters
-          with the same phylogenetic profiles, we are able to
-          detect functional linkages between distant genomic
-          regions on the chromosome based on their pattern of
-          coevolution. A phylogenetic profile of a single gene
-          could be corrupted by many genomic events during
-          evolution, such as gene duplication or the possible loss
-          of gene functions after speciation [ 24], which
-          introduces noise into the coevolution patterns. As the
-          requirement for the presence of a gene cluster is
-          stricter than for the presence of a single gene, the pair
-          profiles help to obtain an improvement in the accuracy of
-          functional linkage detection.
-          Genes in microorganisms are known to form operons,
-          two-component systems, paralogous gene clusters, and
-          other functionally related genomic clusters. As described
-          in here, the implementation of GPPPs gives us a tool for
-          establishing functional linkages between these genomic
-          elements even when they are not physically close on the
-          chromosome. In some cases, these functional associations
-          can help us understand the dependencies between gene
-          clusters in biological processes, such as the 
-          murG and 
-          lpxD clusters described in this
-          paper.
-          In addition to GPPPs, we could naturally develop
-          software for detecting higher-order profiles of bigger
-          gene clusters; however, we would expect to see a smaller
-          coverage with a possibly higher accuracy. In fact, we
-          observed that some gene pairs with the same phylogenetic
-          profile reside in a close proximity on the chromosome,
-          which suggests a longer conserved gene cluster (for
-          example, ribosomal gene clusters). Ultimately, all these
-          techniques are based on the identification of gene
-          clusters that show similar inheritance patterns across
-          genomes.
-          Homology-based annotation tools aim to detect sequence
-          similarity between new genes and known genes by following
-          a one-by-one gene annotation methodology. The GPPP,
-          however, detects functional relationship between clusters
-          of genes on the basis of their coevolution patterns
-          across genomes, and is able to assign gene functions in
-          groups by considering a wider genomic context. With the
-          accumulation of fully sequenced genomes, the information
-          content in gene cluster phylogenetic profiles is expected
-          to increase, as does the accuracy of the proposed
-          methodology. The GPPPs, and possibly higher-order gene
-          cluster phylogenetic profiles, together with other
-          non-homology methods, are likely to substantially
-          increase our ability to assign function to a large number
-          of putative genes.
+          Susceptibility tests using broadband dipoles
+          The purpose was to determine the interference level of
+          the ITREL-III in the frequency range from 500 MHz to 2400
+          MHz. We used broadband dipoles shown in Figure 9. The
+          dipole consists of two equilateral triangles with a
+          length L of a quarter of the wavelength. We used two
+          different broadband dipoles with dimensions for 900 MHz
+          and 1800 MHz. Dipoles were mounted on the surface of the
+          phantom directly over the implant and driven by an RF
+          amplifier. The RF signal was a continuous wave (CW). The
+          dipole touched the surface of the phantom and had a
+          distance of 13 mm to the surface of the ITREL-III (3 mm
+          phantom plastic shell and 10 mm phantom liquid, see
+          Figure 9).
+          Such a scenario corresponds to the situation when a
+          patient carries a mobile phone in his jacket. At each
+          examined frequency, the transmitting power of the dipole
+          was increased until the implant showed an influence. This
+          power level is defined as the interference level. Special
+          diligence was taken to measure the radiated power
+          (forward minus reflected power). Generally, RF
+          transmitter frequency tests were performed in frequency
+          steps of 5 MHz. The frequency increment was reduced to 1
+          MHz only in bands where low interference levels were
+          observed.
+          To estimate the electric field (E field) inside the
+          phantom at the position of the implant we modeled, at 900
+          MHz and 1800 MHz, a simplified test setup using the
+          Finite Difference Time Domain (FDTD) method with a grid
+          size of 3 mm. A half-wavelength dipole was placed
+          directly on a 3 mm thick flat plastic layer. Behind the
+          flat plastic layer we modeled the liquid phantom material
+          with dielectric properties for "Muscle tissue" given in
+          Table 3. The model with the resulting E field
+          distribution at 1800 MHz is shown in the results section
+          in Figure 11.
         
       
       
-        Materials and methods
-        We initially chose 31 fully sequenced microbial genomes,
-        including 8 archaeal genomes and 23 bacterial genomes.
-        While this work was in progress the number of fully
-        sequenced microbial genomes grew to more than 70. We then
-        expanded our study to a total of 68 organisms to estimate
-        the robustness of the phylogenetic profile method and
-        present the results on accuracy evaluation. All protein
-        sequences were retrieved from the National Center for
-        Biotechnology Information (NCBI) genome repository. We
-        chose 
-        E. coli K12 as the target genome for
-        functional linkage detection and the other genomes as
-        reference genomes for constructing the gene cluster
-        phylogenetic profiles. We performed pairwise
-        one-against-all BLAST searches to identify all homologous 
-        E. coli genes in other organisms.
-        By determining the presence or absence of all possible
-        neighboring 
-        E. coli gene-pair clusters in 30
-        other genomes, we were able to get a set of 30 × 1 binary
-        profile vectors that are similar in spirit to the ones
-        obtained by the SGPP method. The profile of a gene cluster
-        is simply a binary vector that has a 1 in coordinate 
-        K if the gene cluster occurs in the 
-        K th genome; otherwise it has 0 in
-        that coordinate. To measure the similarity between two
-        phylogenetic profiles, we use the Hamming distance, simply
-        expressed by the number of vector entries that need to be
-        changed to obtain one profile from the other profile. Other
-        natural techniques can include mutual information (MI) or
-        correlation coefficients (CC) that measure the statistical
-        dependence of two discrete distributions of coevolution
-        patterns.
-        The list of possible functionally linked gene clusters
-        reported by both the gapped and non-gapped versions of GPPP
-        can be accessed at [ 23].
+        Results
+        No influence on the ITREL-III was found during tests
+        with GSM mobile phones despite a maximum transmission peak
+        power of 1 W (1800 MHz) and 2 W (900 MHz). No inhibition or
+        changes in the shape of the stimulation pulse occurred.
+        Tests with broadband dipoles and different power levels
+        showed that the output signal of the ITREL-III abruptly
+        failed (inhibition) when the interference level was
+        exceeded. The inhibition was complete, which means no
+        output signal was detected and the ITREL-III stopped
+        working. The ITREL-III returned to normal operation after
+        reducing the transmit power below the interference level.
+        The primary settings and programming parameters, like the
+        amplitude and the pulse repetition rate of the output
+        signal of the ITREL-III remained unchanged. This kind of
+        implant behavior was found at all tested frequencies.
+        Figure 10shows the frequency dependence of the interference
+        level.
+        The observed interference level at 900 MHz was 1.24 W
+        (CW) or 100 V/m inside the liquid at the location of the
+        implant and 0.14 W (CW) or 30 V/m inside the liquid at the
+        location of the implant at 1800 MHz. A variation of the
+        stimulation parameters does not lead to any essential
+        change of the threshold value. The extremely low
+        interference level at 1500 MHz should be noted. In this
+        frequency range a few milli-watts (3 - 10 V/m) were
+        sufficient to inhibit the ITREL-III. Tests on other
+        locations of the dipole relative to the phantom (near the
+        ear, the loop or the meander) showed no influence up to a
+        maximum available radiation power of 6 W. The uncertainty
+        of the transmitting power measurement was less than ± 30%,
+        and is basically composed of the uncertainty of the power
+        measurement itself and the uncertainty of the direction
+        coupler parameters.
+        Figure 11shows the E field distribution for 1800 MHz at
+        a transmit power of 0.14 W, which corresponds to the
+        observed interference level at 1800 MHz. The magnitude of
+        the E field at the location of the implant (dashed
+        rectangle) is about 30 V/m. The calculation at 900 MHz
+        shows an E field of about 100 V/m at the location of the
+        implant for a transmit power of 1.24 W.
+      
+      
+        Conclusions
+        The examinations have shown that the exposure of the
+        ITREL-III to electromagnetic fields of GSM 900 MHz and 1800
+        MHz mobile phones does not result in inhibition or changes
+        in the shape of the stimulation pulses. The investigations
+        performed with mobile phones did not indicate a direct risk
+        for ITREL-III patients while using the tested mobile phones
+        in positions corresponding to the intended use. Tests with
+        increased transmitting power have shown that an inhibition
+        of the ITREL-III is caused at frequency dependent power
+        levels. An "On/Off" switching of the reed switch of the
+        implant could not be observed. Both interference levels
+        found with CW signals using broadband dipoles (1.24 W or
+        100 V/m at 900 MHz and 0.14 W or 30 V/m at 1800 MHz) are
+        below the maximum nominal peak power of GSM mobile phones.
+        The GSM specifications allow a +/- 2dB offset from the
+        nominal output power of 2 W at 900 MHz or 1 W at 1800 MHz,
+        respectively. Even the lower boundary of the GSM power
+        specifications (1.25 W at 900 MHz and 0.63 W at 1800 MHz)
+        are above the interference levels found with CW signals
+        using broadband dipoles. The question of why we could not
+        find interference with real GSM phones although the
+        interference levels found with broadband dipoles are below
+        the emissions of GSM specifications remains open. A
+        possible explanation is that a mobile phone is covered with
+        a plastic case with losses which absorb energy and
+        therefore reduce the emitted fields. Our broadband dipoles
+        were not covered with plastic. Furthermore the plastic case
+        of the mobile phone prevents the antenna or other metallic
+        parts from touching the phantom shell as with the broadband
+        dipoles we used. Particularly low interference levels were
+        observed in the frequency range around 1500 MHz. This
+        frequency range is used by Japanese mobile phones. Further
+        examinations including mobile phones operating in this
+        frequency band are recommended. A major finding was the
+        strong frequency dependent interference level. Due to lack
+        of information about the implant, particularly details
+        about the electronic circuit design, the reason for the
+        strong frequency dependence of the interference level and
+        the very low interference level around 1500 MHz could not
+        be determined. Other types of neurological stimulators
+        could also have a frequency dependent interference level
+        but with interference levels below the emissions of mobile
+        phones at other frequencies. Unfortunately such
+        neurological stimulators (e.g. ITREL-II, Soletra, Kinetra)
+        were not available to perform similar tests. The assumption
+        that the implant with a low battery level would be more
+        susceptible to electromagnetic fields proved to be wrong.
+        Both tested implants showed the same interference level.
+        Regarding mobile phone safety of neurological pulse
+        generators Medtronic only has information about the "Activa
+        System" ( 
+        Medtronic Web Site ,
+        http://www.medtronic.com/neuro/et/fields.html: 
+        Most of the electrical devices that
+        people are around in a normal day will not harm the Activa
+        System. This includes household appliances, computers,
+        office machines, cellular phones, and personal radios.
+        Special circuits inside the neurostimulator protect it from
+        extreme electrical stress ). Until information is
+        available about the mobile phone compatibility of other
+        neurological implants, especially older models, and there
+        is a clarification of the ITREL-III interference below the
+        emissions of GSM mobile phones, we recommend the following
+        precautions based on investigations with cardiac
+        pacemakers: 1. To use the phone at the ear opposite the
+        side of the implant and 2. To carry the cell phone on the
+        opposite side of the implant when it is in use or in
+        "stand-by" modus. Due to the fact we were not aware of any
+        investigations on DBS and mobile phones using other
+        technologies as Universal Mobile Telecommunications System
+        (UMTS) we suggest that patients with DBS should take into
+        account the safety recommendations given above.
       
     
   

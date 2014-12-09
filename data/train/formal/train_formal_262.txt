@@ -2,473 +2,363 @@
   
     
       
-        
-        Angiogenesis is the growth of blood vessels from a
-        pre-existing vessel bed. Clinical interest in the control
-        of angiogenesis arises from two distinct quarters. In one
-        case, the goal is to block the growth of new vessels as a
-        means to suppress and/or regress tumor growth, or to
-        suppress vessel proliferation in pathologies such as
-        diabetes. In the second case, the objective is to induce or
-        stimulate vessel growth in patients with conditions
-        characterized by insufficient blood flow, such as ischemic
-        heart disease and peripheral vascular diseases. The latter
-        applications are the focus of this review. We discuss some
-        of the recent efforts to induce new vessel growth and we
-        highlight challenges that have arisen regarding the means
-        of delivery and efficacy of angiogenesis induction.
+        Background
+        The human immunodeficiency virus type 1 aspartic
+        protease (HIV-1 PR) is an important enzyme due to its key
+        role in viral maturation. Inactivation of the enzyme causes
+        the production of immature, noninfectious viral particles.
+        The enzyme therefore is an attractive target in anti-AIDS
+        drug design, and the effect of binding various inhibitors
+        on the protease structure is currently the focus of
+        intensive research [ 1 2 3 ] .
+        To obtain information about the position and energy of
+        binding between an inhibitor and the corresponding protein,
+        several automated docking programs have been developed [ 4
+        5 6 ] . Given recent improvements in search algorithms and
+        energy functions, computational docking methods have become
+        a valuable tool to probe the interaction between an enzyme
+        and its inhibitors. These methods can contribute
+        significantly to the understanding of structural and
+        energetic basis of enzyme-substrate interactions [ 7 8 9 ]
+        .
+        Protein-ligand docking methods aim to predict the
+        binding energy of the protein-ligand complex given the
+        atomic coordinates. In such calculations, both the protein
+        and ligand can be treated as rigid bodies [ 10 11 ] ;
+        alternately, the ligand, the protein, or both molecules,
+        can be completely or partially flexible [ 12 13 ] .
+        One advantage of incorporating flexibility is that it
+        enables a search without bias introduced by the initial
+        model. This bias normally influences both the orientation
+        and conformation of the ligand in the active site, which
+        usually represents a local minimum conformation [ 14 ] .
+        More importantly, the lock and key concepts used to
+        evaluate enzyme-substrate binding, in reality, refer to
+        flexible locks and keys that are both in constant dynamic
+        (thermal) motion [ 15 ] . For example, an analysis of
+        conformational changes upon complex formation for a
+        representative set of 39 pairs of ligand-free and
+        ligand-bound structures showed that 50% of these proteins
+        undergo substantial main-chain and side chain
+        conformational changes when the ligand is bound [ 15 ]
+        .
+        Several techniques have been developed to predict the
+        binding energies of HIV-1 protease-inhibitor complexes [ 16
+        17 18 19 20 21 ] . Head RD 
+        et al ., 1996 [ 16 ] used an approach
+        that calculates physicochemical properties of the ligands
+        and the receptor-ligand complexes to estimate the free
+        energy of binding. The enthalpy of binding is calculated by
+        molecular mechanics, while properties such as complementary
+        hydrophobic surface area are used to estimate the entropy
+        of binding through heuristics. Gohlke H 
+        et al ., 2000 [ 17 ] developed
+        DrugScore, a knowledge-based scoring function, to
+        discriminate between well-docked ligand binding modes and
+        those largely deviating from the native structure.
+        Schapira M 
+        et al ., 1999 [ 20 ] used the finite
+        difference Poisson-Boltzmann implementation of the
+        electrostatic term, in conjunction with appropriate surface
+        and entropy terms to predict the binding energy of 13 HIV-1
+        protease-inhibitor complexes. The predicted binding
+        energies had a correlation coefficient of 0.66 with the
+        experimental data. Recently, Österberg F 
+        et al ., 2002 used AutoDock 3.0, a
+        ligand flexible docking program, together with combining 21
+        protease structures into a single representative grid of
+        interaction energies for incorporating the side chain
+        motion into a docking simulation protocol [ 21 ] . The
+        correlation coefficient between experimental and calculated
+        binding energies produced by this technique was 0.79.
+        Since most current docking programs treat the receptor
+        and/or ligand as rigid objects, this represents an
+        important cause of failure to predict the correct binding
+        enzyme-substrate energies [ 18 ] . We address this problem
+        by performing Molecular Dynamic (MD) simulations on HIV-1
+        protease-inhibitor complexed and using the resulting
+        structures to calculate the binding energies by AutoDock, a
+        ligand flexible docking program.
       
       
-        Angiogenic stimuli
+        Results and discussion
         
-          Fibroblast growth factor
-          The fibroblast growth factor (FGF) family consists of
-          an ever-increasing number of peptide growth factors with
-          diverse cellular targets and biological effects [ 1]. Two
-          family members, acidic fibroblast growth factor (FGF-1)
-          and FGF-2, have a strong affinity for heparin and have
-          been studied for their effects on vascular cells,
-          including endothelial cells and smooth muscle cells.
-          Extensive evidence indicates that both FGF-1 and FGF-2
-          are potent angiogenic factors, providing support for
-          their use as stimuli for therapeutic angiogenesis 
-          in vivo . It is also important to
-          note that many cell types express one of the four FGF
-          receptors, and that FGF has been shown to have biological
-          effects in a number of cell systems including induction
-          of neurite outgrowth, suppression of skeletal muscle
-          differentiation, induction of bone formation and
-          neuroprotection, to name just a few.
-        
-        
-          Vascular endothelial growth factor-A
-          VEGF-A is the prototypic member of a family of
-          secreted, homodimeric glycoproteins with endothelial
-          cell-specific mitogenic activity and the ability to
-          stimulate angiogenesis 
-          in vivo [ 2]. VEGF-A also increases
-          vascular permeability, with an effect 10,000 times more
-          potent than that of the vasoactive substance histamine;
-          VEGF-A was originally purified based on this property,
-          and was named vascular permeability factor [ 3]. The
-          VEGF-A family of polypeptides consists of a number of
-          biochemically distinct isoforms (three isoforms in the
-          mouse and up to five in humans) that are generated
-          through alternative mRNA splicing of a single gene [ 4,
-          5]. The isoforms are named by the number of amino acids
-          that comprise the proteins; the human isoforms include
-          VEGF121, VEGF145, VEGF165, VEGF189, and VEGF206.
-        
-      
-      
-        Preclinical studies
-        Current clinical trials of angiogenesis factors were
-        preceded by a large number of studies using animal models
-        of cardiac or peripheral ischemia. Early studies involved
-        protein administration, whereas later efforts began to
-        employ gene therapy. In one early study using recombinant
-        protein, a single intra-arterial injection of 500-1000 μg
-        VEGF165 into rabbits with severe experimental hind limb
-        ischemia increased collateral vessels, as detected by
-        angiography and histological analysis [ 6]. Naked plasmid
-        DNA injected directly into the skeletal muscle in a later
-        study, using the same hind limb ischemia model, also
-        yielded increased collateral vessels, as determined by
-        angiography and improved perfusion [ 7].
-        Although such reports of increased vessel growth and
-        functional improvement in response to exogenously
-        administered angiogenic factors are encouraging, it is
-        essential to note that animal models such as the ischemic
-        hind limb model have definite limitations. Whereas the
-        ischemia in the animal models is acute (produced by
-        surgical procedure), the ischemia that characterizes the
-        human disease often arises over an extended time and occurs
-        in the context of complex atherosclerotic processes. The
-        responses seen in the experimental models may thus be quite
-        different in terms of the kinetics of vessel growth as well
-        as the nature of the resultant vessels.
-        In a study assessing the effects of VEGF-A on myocardial
-        ischemia in a porcine model of progressive coronary artery
-        occlusion, VEGF-A was delivered by osmotic pump and
-        magnetic resonance mapping revealed a reduction in the size
-        of the ischemic zone and improved cardiac function [ 8]. A
-        single bolus injection was also found to produce
-        significant improvements in myocardial blood flow and
-        function [ 9]. Myocardial ischemia in animals has also been
-        treated with FGF. Delivery of FGF-2 via implantation of
-        heparin-alginate beads led to an 80% reduction in infarct
-        size and improved cardiac function in pigs with
-        experimentally induced coronary artery constrictions, as
-        compared with untreated controls [ 10]. These studies were
-        followed closely by the demonstration of gene therapy in a
-        porcine model of stress-induced myocardial ischemia.
-        Intracoronary injection of a recombinant adenovirus
-        expressing another member of the FGF family, human FGF-5,
-        led to improvements in stress-induced function and blood
-        flow that were maintained for 12 weeks [ 11].
-      
-      
-        Clinical trials
-        
-          Fibroblast growth factor
-          In one study, human recombinant FGF-2 was administered
-          intraoperatively to areas of the coronary artery in 20
-          patients who were undergoing surgical revascularization [
-          14]. Angiographic analysis revealed evidence of
-          collateralization. Local sustained release of high dose
-          (but not low dose) FGF-2 to ischemic areas, in 24
-          patients during bypass surgery, led to a reduction in
-          stress defect size [ 15]. In a recent study involving 59
-          patients with coronary disease, the response to
-          intravenous or intracoronary human recombinant FGF-2 was
-          monitored by single photon emission computed tomography
-          (SPECT) imaging [ 16]. Perfusion was monitored at
-          approximately 1, 2, and 3 months after growth factor
-          administration. Analysis of global stress perfusion or
-          inducible ischemia revealed a consistent and sustained
-          reduction in the extent and severity of stress-inducible
-          ischemia, as well as an improvement in resting perfusion
-          in areas where there was a risk of ischemia.
+          Correlation between experimentally determined and
+          calculated binding energy
+          The primary objective of this study was to determine
+          whether protein relaxation would improve prediction of
+          protein-ligand binding energies. Table 1shows that the
+          correlation coefficient of the experimentally determined
+          and calculated binding energies from AutoDock for the
+          twenty-five protease-inhibitor complexes after
+          protein-rigid docking was 0.38. The correlations after
+          0.01, 0.1, 1, and 10 picoseconds (ps) of MD simulations
+          were 0.53, 0.87, 0.79, and 0.74 respectively. These
+          correlations are plotted in Figure 1. One outlier (from
+          1hvi) was noticed in Figure 1B; after it is eliminated,
+          the correlation coefficient changes from 0.53 to 0.72
+          after 0.01 ps of simulation.
+          All these correlations represent a significant
+          improvement over the protein-rigid docking results. The
+          best results were obtained from the structures at the 0.1
+          ps MD simulation time point. These structures also have
+          low (≅ 0.3 Å) average all-atom root mean square
+          deviations (RMSD) relative to the experimental results.
+          Table 2shows the all-atom RMSD between each simulated
+          complex and the corresponding protease-inhibitor x-ray
+          structure. The average all-atom RMSD for the complexes
+          increases from 0.18 Å at 0.01 ps to 2.92 Å at the end of
+          10 ps of simulation time. Similar results are
+          consistently observed regardless of the five starting
+          seeds used in the MD simulations.
+          When a constant value of 6.5 is subtracted from the
+          predicted energies after 0.1 ps MD, the binding energies
+          of almost all of the predictions were within 2.0 kcal/mol
+          of the experimental values. Three complexes, 1hvi, 1hvr,
+          and 1hte had poor predicted energies, with an average
+          error of 4.34, 4.31, and 5.09 kcal/mol, respectively.
+          Among these, one (1hvi) had better predicted energies
+          when compared to the results of protein-rigid
+          docking.
         
         
-          Vascular endothelial growth factor
-          In an early phase I trial to test the safety and
-          bioactivity of VEGF-A, naked VEGF165 DNA was injected
-          into the myocardium of five patients who had failed
-          standard therapy. SPECT imaging demonstrated reduced
-          ischemia [ 17]. Adenoviral delivery of VEGF121 to the
-          myocardium of 21 patients by direct injection, either as
-          an adjunct to coronary bypass grafting or as the sole
-          therapy, led to improvement in the area injected, as
-          measured by angiography; angina was also reduced [ 18].
-          Administration of recombinant VEGF121 improved function,
-          as detected by SPECT [ 19]. Furthermore, this study
-          revealed a dose-dependent improvement in both stress
-          perfusion and rest perfusion; there was an infrequent
-          response in patients who received low dose VEGF and an
-          improvement in five out of six patients who received high
-          dose VEGF. In a different approach, VEGF cDNA was
-          delivered via liposomes by catheter to coronary arteries
-          following angioplasty [ 20]. While this phase I safety
-          trial did not show an effect of VEGF-A on the degree of
-          coronary ischemia, it did prove that the treatment was
-          well tolerated.
-          It is important to note that no phase II controlled
-          studies using defined and quantifiable endpoints have
-          demonstrated efficacy of therapeutic angiogenesis. This
-          highlights the main obstacles for assessing a therapeutic
-          response to angiogenesis therapy, the reliability of the
-          assessment methods and the possible complications of the
-          placebo effect. There is thus a critical need for more
-          controlled trials and for the development of better
-          defined and more quantifiable endpoints.
-        
-      
-      
-        Modes of delivery
-        
-          Protein therapy
-          At present, the administration of protein seems to be
-          preferable to gene therapy [ 12]. This is mainly because
-          dosage modulation in most clinical settings is far easier
-          with purified protein than with gene therapy, which is
-          hampered by the lack of a regulable expression vector.
-          Although protein therapy has many advantages, there are
-          nevertheless technical problems associated with protein
-          administration, including optimization of purification
-          and formulation of delivery for single and/or multiple
-          angiogenic factors.
-          Recent advances in drug delivery methods using
-          bioerodible polymer matrices will allow long-term
-          sustained release of the growth factors [ 24]. This will
-          resolve one of the major problems associated with protein
-          administration; namely, the limited tissue half-life of
-          the purified angiogenic factors in patients. An important
-          consideration, however, is that protein therapy is
-          limited to secreted factors. Delivery of intracellular
-          modulators for therapeutic angiogenesis, including
-          transcription factors that control angiogenesis such as
-          hypoxia inducible factor-1 alpha (HIF-1α), is only
-          possible through gene therapy.
+          Influence of the protease flap movement on
+          calculated binding energy
+          The beta-strand flap is the most flexible region in
+          the HIV-1 protease. It is normally 7 Å RMSD from the
+          active site and is in an open conformation in the native
+          state [ 22 23 ] . The protease undergoes significant
+          structural changes on binding to an inhibitor. The two
+          flaps fold over the inhibitor to form a tunnel-shaped
+          active site and are held in this close position by
+          hydrogen bonding from Ile50 and Ile50' NH groups of the
+          enzyme to a water molecule, which in turn is hydrogen
+          bonded to the P2 and P1' CO groups of the inhibitor [ 24
+          ] . The bonding stabilizes the flaps in a closed position
+          and inhibits the activities of the enzyme.
+          MD simulation has been used to study the movement of
+          the flap region of HIV-1 protease with a ligand [ 25 26
+          27 28 29 30 ] . The flaps initially opened to an all-atom
+          RMSD of 25 Å within 200 ps and became completely open at
+          the end of a 10 ns simulation. In this study (Figure 2),
+          the flaps opened up and moved away from the x-ray
+          structure from 0.54 Å at 0.1 ps to 3.30 Å RMSD at 10 ps
+          (the flap RMSD was calculated from residue 40 to 60 of
+          each protein chain). These movements, after 0.1 ps of
+          simulation, are inversely correlated with the quality of
+          the binding energy prediction. As shown in Table 1, the
+          correlation coefficient significantly decreased from 0.87
+          at 0.1 ps to 0.74 at 10 ps as the all-atom flap RMSD
+          increased from 0.54 to 3.30 at 0.1 and 10 ps,
+          respectively.
+          Complementarity between the ligand and the binding
+          site is the basic concept behind ligand binding. This is
+          manifest as steric complementarity, i.e. the shape of the
+          ligand is mirrored in the shape of the binding site,
+          allowing molecular interactions between two molecules [
+          31 ] . MD simulations allow rearrangement of the protease
+          side chain, especially on the active site surface, which
+          improves the interacting surface complementarities of the
+          complex. As shown in Table 2, after 0.1 ps, the time
+          scale that produced the best correlation coefficient, the
+          average all-atom RMSD of the complex was only 0.35 Å,
+          while the average all-atom RMSD of the flap region was
+          0.54 Å.
         
         
-          Gene therapy
-          Viral vectors have been the most commonly used means
-          of gene delivery for both VEGF-A and FGF-2. Gene therapy
-          presents an attractive alternative to purified proteins
-          because it offers the possibility of sustained production
-          of one or more factors following a single administration.
-          Furthermore, tissue-specific and highly localized
-          production of the therapeutic factor is possible, through
-          the use of tissue-specific promoters.
-          However, a variety of issues have implications for the
-          use of viral vectors in gene therapy. Obvious potential
-          concerns are the immune and inflammatory responses to
-          viral vectors. Patients who received VEGF121 via an
-          adenoviral vector had increased levels of serum
-          anti-adenoviral neutralizing antibodies, but there was no
-          report on an inflammatory response in these patients [
-          19]. The use of adenovirus-mediated gene therapy in
-          treating brain tumors has been reported to lead to active
-          brain inflammation as well as persistent (up to 3 months
-          after treatment) transgene expression [ 25].
-          The lack of regulable gene expression is another
-          potential barrier. Some systems for inducible gene
-          expressions have proved to be effective and safe in
-          animal models [ 26], but have not yet been tested in
-          humans. Recent advances in stem cell research provide the
-          possibility of combining gene therapy with 
-          ex vivo gene transfer into stem
-          cells for angiogenesis therapy, as will be discussed
-          later. If successful, this approach may overcome most of
-          the obstacles presented by gene therapy.
+          Influence of MD simulation duration on ligand
+          binding
+          Ligand docking revealed a consistent set of recurring
+          binding modes. For all MD time scales, well-clustered
+          docking results could be obtained. Generally, the lowest
+          binding energy clusters are associated with the lowest
+          all-atom RMSDs of the ligands. The best results in terms
+          of lowest binding energy are located in a similar
+          position of the x-ray structure at the active site. Table
+          3shows the number of docking solutions in a cluster ( 
+          N ) along with the all-atom ligand
+          RMSD for each MD time scale.
+          A small 
+          N value indicates strong
+          specificity of binding, with all of the solutions
+          resembling one of only a small number of binding
+          conformations and orientations. On the other hand, if 
+          N is large, the experiment
+          indicates a low specificity of binding, since the
+          solutions are composed of many different binding
+          conformations or orientations.
+          In this study, the clustering result of ligands had an
+          average 
+          N of 10.72 for docking without any
+          MD, 8.36, 4.12, 5.88, and 7.16 for docking with 0.01,
+          0.1, 1, and 10 ps MD simulation, respectively. On
+          average, the lower number of docking solutions in the
+          cluster for all MD simulation time scales indicates that
+          the ligands bind to their binding pocket with high
+          specificity. The docked ligands after 10 ps MD simulation
+          exhibited a wide range of RMSDs (0.87 Å to 3.86 Å) with
+          an average RMSD of 2.52 Å, which indicates the failure of
+          the ligands to recognize and specifically bind to the
+          binding site with the protease flaps open.
         
       
       
-        Considerations for the future
+        Conclusions
+        In this study, we illustrate the importance of taking
+        dynamics into account to predict the structure and
+        energetics of protein-ligand interactions. It is clear that
+        relaxation of HIV-1 protease for 0.1 ps MD simulations is
+        enough for rearrangement of the surface-binding pocket to
+        produce good correlations between calculated and
+        experimental binding energies. The binding energies of all
+        protease molecules bound to different inhibitors were
+        influenced by the movement of the flap regions with the
+        correlation coefficient decreasing as the flaps moved away
+        from the experimental structure. The differences in these
+        correlations may reflect biological features of the
+        dynamics of HIV-1 protease-inhibitor complexes.
+        Future work with larger data sets, different energy
+        functions, different docking and binding energy evaluation
+        methods, and more starting seeds, is necessary to determine
+        the optimal parameters to robustly predict
+        protein-substrate binding energies 
+        in silico .
+      
+      
+        Methods
         
-          Interpatient variability
-          It is not clear why some individuals develop a
-          collateral circulation sufficient to compensate for their
-          ischemic vascular disease whereas others do not.
-          Certainly, features such as the extent of the disease and
-          the time frame over which the ischemia develops are
-          contributing factors. However, other previously
-          unconsidered variables appear to play important
-          roles.
-          Collateral vessel development, as measured by blood
-          pressure, angiography, and vessel density, was
-          significantly reduced in old (4-5 years old) versus young
-          (6-8 months old) animals [ 27], in a rabbit model of hind
-          limb ischemia. Endothelial cell dysfunction and reduced
-          VEGF-A levels were the reasons suggested for the reduced
-          collateral response. A subsequent study, demonstrating an
-          age-dependent reduction in HIF-1α activity, provides one
-          explanation for the lower VEGF-A expression in response
-          to hypoxia in aged animals [ 28]. A reduced response to
-          hypoxia might translate into a weaker angiogenic
-          response. This is supported by the fact that the extent
-          of hypoxic induction of VEGF-A in monocytes correlates
-          strongly with the presence of collateral vessels in
-          patients [ 29].
-          It is possible that genetic variability may also play
-          a significant role in an individual's ability to generate
-          collateral vessels in response to ischemia, as well as
-          their capacity to respond to an exogenous angiogenic
-          agent. Not surprisingly, a recent report that assessed
-          the angiogenic response in a murine corneal pocket model
-          to a fixed dosage of FGF-2 in various strains of mice
-          suggested that genetic backgrounds may influence
-          angiogenic response [ 30]. A nearly 10-fold range of
-          response to the fixed dosage of FGF-2 was observed among
-          different inbred strains of mice, suggesting that genetic
-          variability may indeed play a significant role in
-          determining the magnitude of angiogenic response to
-          FGF-2.
-        
-        
-          Systemic effects
-          If VEGF-A delivery leads to significant circulating
-          levels, as has been observed following myocardial
-          transfection with VEGF-A cDNA [ 31], then it may possibly
-          affect angiogenesis elsewhere [ 32]. As plaque
-          progression might be dependent on angiogenesis [ 33],
-          investigators were prompted to examine the effect of
-          VEGF-A administration on this process. Mice that were
-          double deficient in apolipoprotein E and apolipoprotein β
-          100 were treated with a single intraperitoneal injection
-          of VEGF165 recombinant human protein (2 μg/kg). This led
-          to significant increases in plaque area compared with
-          untreated controls [ 34]. In contrast, there has been no
-          evidence of disease progression, to date, in 42 patients
-          treated with intra-arterial gene transfer of naked VEGF-A
-          cDNA. This has been delivered either to promote
-          therapeutic angiogenesis (12 patients) or to accelerate
-          re-endothelization (30 patients) [ 35]. Although these
-          observations suggest that human sensitivity to VEGF-A may
-          be lower than in animal models, it will be necessary to
-          study a larger cohort of patients, with appropriate
-          controls, over a longer time period to confirm this [
-          36].
-          VEGF has also been shown to mediate the vessel growth
-          that characterizes tumor expansion as well as the
-          neovascularization that is associated with diabetic
-          retinopathy. Although VEGF is produced locally in both of
-          these circumstances, it is not known whether systemic
-          administration of the factor could exacerbate these
-          conditions by further stimulating vessel growth.
-          Selection of the patient population that may benefit from
-          angiogenic therapy may thus have to involve screening for
-          coexisting conditions that could be activated or worsened
-          by exposure to proangiogenic agents.
-          VEGF-A, FGF-1, and FGF-2 have all demonstrated
-          systemic vascular effects. FGF-1 and FGF-2 have been
-          shown to reduce blood pressure in a dose-dependent manner
-          in rats [ 37]. Similarly, VEGF-A has been reported to
-          cause hypotension and death in pigs following an
-          intracoronary bolus administration [ 38]. Subsequent
-          studies have revealed that VEGF-A administration causes
-          greater vasodilatation of coronary vessels than serotonin
-          or nitroglycerin, and also causes tachyphylaxis via a
-          nitric oxide-dependent mechanism [ 39]. VEGF-A
-          administration to the extremities of patients has also
-          been associated with hypotension and edema [ 40]. These
-          side effects can be partly explained by the fact that
-          VEGF-A is a potent vascular permeability factor.
+          Molecular Dynamics simulations
+          MD simulations of all complexes were carried out with
+          the NAMD software version 2.5b1 [ 53 ] using the X-PLOR
+          force field [ 54 ] . Missing atoms in 1heg, 1hte and 5hvp
+          were added by using the guesscoord command in NAMD. The
+          van der Waals, bond, angle, dihedral, and improper
+          dihedral parameters for all the ligands were adopted from
+          the Hetero-compound Information Centre-Uppsala HIC-Up
+          http://xray.bmc.uu.se/hicup [ 55 ] . The water molecule
+          under the flaps present in all complexes was included in
+          all steps throughout this study except for 1hvr, where
+          the structural water was removed in the preparation of
+          the protease to be docked with the ligand (the ligand of
+          1hvr, which is a urea-based inhibitor, does not bind a
+          water molecule in this position). The water molecules
+          were added to the binding site of 1hvs because all the
+          water molecules were absent in the experimental
+          structure. Protein protonation states were modeled as in
+          the related HIV-1 protease MD simulation study [ 56 ] .
+          All protein residues were modeled in their charged state
+          except for one of the two aspartic acid groups (Asp 25
+          and Asp 25') in the active site since previous studies [
+          57 58 59 ] have shown that at least one of these two
+          aspartic acids is protonated. We used a protonated Asp
+          25' and deprotonated Asp 25 for all HIV-1 protease-ligand
+          complexes. The terminal residues of both monomers were
+          also protonated (Pro 1, Pro 1', Phe 99 and Phe 99').
+          The complexes were immersed in a 20 Å radius sphere of
+          TIP3-water using the program SOLVATE [ 60 ] to allow the
+          protein-ligand complexes to relax in an aqueous
+          environment. One hundred steps of energy minimization of
+          the protein-ligand-water complex were initially
+          performed, followed by 10 ps MD simulation at 300 K, with
+          an atom-based shifted distance-dependent dielectric
+          constant, ε = 4r; a switch function on van der Waals
+          interaction, and a time step of 1 femtosecond (fs). The
+          nonbonded interaction list was updated every 20 time
+          steps. The van der Waals interactions were truncated at a
+          distance of 12 Å. The simulations were repeated with five
+          different starting seeds. The structures at 0.01 ps, 0.1
+          ps, 1 ps and 10 ps were recorded and processed in the
+          docking step.
         
         
-          VEGF-A isoforms in angiogenesis therapy
-          The five VEGF-A protein isoforms in humans (and at
-          least three major isoforms in the mouse) have different
-          biochemical and biological properties [ 41]. It is
-          therefore important to determine whether different VEGF-A
-          isoforms give rise to different quality or quantity of
-          vessels. Expression of the various isoforms during
-          development is modulated both spatially and temporally [
-          42], and observations from gene knockout studies have
-          proven that these isoforms do not have equivalent
-          biological functions during vessel development [ 42, 43].
-          Furthermore, there is considerable variability in the
-          phenotype of vessels in tumors expressing different
-          isoforms [ 44]. For example, vessels within tumors
-          expressing predominantly the VEGF189 isoform, which has a
-          strong heparin-binding affinity and thus is highly
-          localized, are much less leaky than the vessels in tumors
-          expressing the more diffusible VEGF165 and VEGF121
-          isoforms [ 45]. It will be interesting and important to
-          determine whether these observations from experimental
-          systems can help predict the results of clinical trials,
-          which primarily employ the VEGF165 isoform. Finally,
-          since multiple VEGF-A isoforms are expressed during
-          vascular development [ 42], it will also be important to
-          determine whether the use of multiple isoforms in
-          angiogenesis therapy will be necessary to replicate 
-          in vivo conditions.
+          Preparation of protease-inhibitor complexes
+          To calculate the binding energy with AutoDock, we
+          first prepared the protein complexes by separating each
+          snapshot recorded from MD simulations into one file
+          containing the protease and the water molecules, and one
+          file containing only the ligand. Polar hydrogens were
+          then added to the protein coordinates with the PROTONATE
+          utility from AMBER [ 61 ] . AMBER united atom force field
+          charges were assigned, and solvation parameters were
+          added using the ADDSOL utility. The 3D affinity grid
+          fields were created using the auxiliary program AutoGrid.
+          The center of protein mass was chosen as the grid center.
+          In this stage, the protein was embedded in the 3D grid
+          and a probe atom was placed at each grid point. The
+          affinity and electrostatic potential grid was calculated
+          for each type of atom in the protease molecule. The
+          number of grid points in x, y, z-axis was 60 × 110 × 60
+          with grid points separated by 0.375 Å.
+          Ligands that had a peptide-like N- or C-terminal end
+          were assigned a charge. Hydrogen atoms were added to fill
+          all empty valences, and Kollman united-atom charges [ 62
+          ] were also assigned to the ligands. Rotatable dihedrals
+          in the ligands were assigned using the program AutoTors
+          and were allowed to rotate freely. The nonpolar hydrogens
+          were removed and the partial charges from these were
+          added to the carbon that held the hydrogen. The atom type
+          for the aromatic carbons was reassigned to be handled by
+          the aromatic carbon grid map. These preparations were
+          done for each ligand using the AutoTors module.
+        
+        
+          Automated docking
+          Docking calculations were carried out using AutoDock,
+          version 3.0.5 [ 4 ] . Three binding energy terms were
+          taken into account in the docking step: the van der Waals
+          interaction represented as a Lennard-Jones 12-6
+          dispersion/repulsion term, the hydrogen bonding
+          represented as a directional 12-10 term, and the
+          Coulombic electrostatic potential.
+          Docking runs were performed using the Larmarckian
+          genetic algorithm (LGA) [ 4 ] as previously described [
+          63 64 ] with some modifications of the docking
+          parameters. The LGA describes the relationship between
+          the protein and the ligand by the translation,
+          orientation, and conformation of the ligand. These "state
+          variables" are the ligand's genotype, and the resulting
+          atomic coordinates together with the interaction and
+          intermolecular energies are the ligand's phenotype. The
+          environmental adaptation of the ligand's phenotype was
+          reverse transcribed into its genotype and became
+          heritable traits.
+          Docking began with a population of random ligand
+          conformations in random orientations and at random
+          translations. Each docking experiment was derived from
+          100 different runs that was set to terminate after a
+          maximum of 1,500,000 energy evaluations or 27,000
+          generations, yielding 100 docked conformations. The
+          population size was set to 50. The elitism number, the
+          rate of gene mutation and the rate of gene crossover were
+          1, 0.02 and 0.8 respectively. A pseudo-Solis and Wets
+          local search was then used to minimize energy of the
+          population. The probability that docking solution in the
+          population would undergo a local search was set to 0.06
+          and the constraint was set to a maximum of 300 iterations
+          per search. The maximum number of successes or failures
+          before changing the size of local search space (rho) were
+          both set to 4. The starting conformations of the ligand
+          were set to random positions. Translations were set to
+          have a maximum limit of 2 Å/step and the orientation step
+          size for the angular component and the torsions had a
+          maximum limit at 50 degrees/step.
+          At the end of a docking job with multiple runs,
+          AutoDock performed cluster analysis. Docking solutions
+          with ligand all-atom RMSDs within 1.0 Å of each other
+          were clustered together and ranked by the lowest energy
+          representative. The lowest-energy solution of the lowest
+          ligand all-atom RMSD cluster was accepted as the
+          calculated binding energy.
         
       
       
-        Achieving vessel stability
-        The induction of new vessels to supply ischemic tissues
-        is the primary goal of angiogenic therapy. Reaching this
-        objective is, however, highly complex. Vessels formed in
-        response to artificial angiogenic stimuli are prone to
-        regression unless they are remodeled into mature, stable
-        vessels [ 46]. Thus, as the level of knowledge regarding
-        the mechanisms of vessel growth and stabilization
-        increases, there is increasing concern that the simple
-        application of a bolus of angiogenic factor may be
-        insufficient for stable vessel formation, or may even be
-        dangerous.
-        Early studies involving the administration of VEGF-A
-        showed angiographic evidence of new vessel formation, but
-        these vessels did not persist and they regressed within 3
-        months [ 40]. It was recently reported that continuous
-        delivery of VEGF-A into murine hearts by retroviral
-        transfer led to the formation of aberrant vessels and
-        hemangioma-like structures [ 23]. One of the major problems
-        encountered in the use of VEGF-A is that vessels formed are
-        unstable and leaky [ 47]. It has been speculated that
-        VEGF-A alone may not be sufficient to form stable, mature
-        vessels that are characterized by the recruitment of the
-        perivascular mural cells, such as pericytes or smooth
-        muscle cells [ 48]. This process of vessel maturation is
-        called arteriogenesis and is arguably the ideal way to form
-        stable vessels for therapeutic purposes [ 49].
-      
-      
-        Administration of multiple factors
-        Various growth factors such as angiopoietin (ang)-1,
-        platelet-derived growth factor, transforming growth
-        factor-β as well as VEGF-A are also involved in
-        arteriogenesis, and it may therefore be necessary to use
-        combinations of these factors to obtain stable and mature
-        vessels (Fig. 1). Indeed, when VEGF-A and ang-1 are
-        administered together in animal models, the resulting
-        vessels are much more stable and less leaky than those that
-        are induced by VEGF-A alone [ 50]. Similarly,
-        administration of submaximal doses of ang-1 and VEGF-A in a
-        rabbit ischemic hind limb model led to a stronger effect on
-        resting and maximal blood flow and capillary formation than
-        either of the agents alone [ 51].
-      
-      
-        Using a master switch gene
-        Another approach that addresses the involvement of
-        multiple factors in therapeutic angiogenesis is the use of
-        a so-called 'master switch gene' of angiogenesis, such as
-        HIF-1α [ 52]. This transcription factor can activate a
-        collection of different genes that are involved in
-        angiogenesis, including those encoding VEGF-A, VEGF
-        receptor 1 (Flt-1), and ang-2 [ 53, 54]. It is hoped that
-        using a 'master switch gene' will result in more stable
-        vessels, because the processes by which they are formed
-        would resemble more closely those of normal vessel
-        development.
-      
-      
-        Stem cells in therapeutic angiogenesis
-        The existence of circulating endothelial precursor (CEP)
-        cells in adults has been reported [ 55, 56]. It has also
-        been demonstrated that similar precursor cells may give
-        rise to both endothelial cells and perivascular mural cells
-        [ 57]. Furthermore, in an 
-        in vitro model of angiogenesis,
-
-        normal vascular development has been shown to require the
-        presence of the CD45 +/c-Kit +/CD34 +hematopoietic stem
-        cells [ 58], which are similar and may be related to adult
-        CEP cells.
-        It has been reported that CEP cells are able to
-        participate in new vessel growth in a variety of animal
-        models, including the rabbit ischemic hind limb model [
-        59]. In patients with inoperable coronary disease,
-        increased circulating VEGF-A resulting from transfection of
-        myocardium with VEGF165 cDNA led to a significant
-        mobilization of CEP cells [ 31]. Another recent publication
-        has shown that granulocyte-colony stimulating factor
-        mobilized CD34 +cells, including endothelial cell
-        precursors with phenotypic and functional characteristics
-        of embryonic angioblasts [ 60]. When injected into rats
-        with experimental myocardial infarction, these CD34 +cells
-        contributed to new vessel growth, which led to decreased
-        cardiomyocyte apoptosis, to reduced remodeling, and to
-        improved cardiac function.
-        Further studies of how CEP cells are released from bone
-        marrow and to what extent they participate in postnatal
-        angiogenesis will certainly provide valuable information
-        regarding the therapeutic potential of CEP cells. The
-        possibility of using CEP cells, both alone and in
-        combination with different angiogenic growth factors,
-        represents a promising means of obtaining stable vessels.
-        Finally, since the use of CEP cells would allow easy 
-        ex vivo gene transfer, combining
-        growth factor-induced therapeutic angiogenesis with gene
-        therapy delivered via CEP should also be a promising
-        approach.
-      
-      
-        Conclusion
-        As research into therapeutic angiogenesis progresses,
-        new information regarding the control of vessel remodeling
-        and stability will be incorporated into treatment
-        strategies. Better designed studies and clinical trials
-        that consider the issues discussed, coupled with
-        well-defined and quantitative endpoints, will facilitate
-        the development of novel and effective therapeutic
-        approaches for ischemic diseases.
-      
-      
-        Competing interests
-        None declared.
-      
-      
-        Abbreviations
-        ang = angiopoietin; CEP = circulating endothelial
-        precursor; FGF = fibroblast growth factor; FGF-1 = acidic
-        fibroblast growth factor; FGF-2 = basic fibroblast growth
-        factor; HIF-1α = hypoxia inducible factor-1 alpha; SPECT =
-        single photon emission computed tomography; VEGF = vascular
-        endothelial growth factor.
+        Author's contributions
+        EJ performed Molecular Dynamics simulations, docking,
+        evaluated the results, and drafted the manuscript. RS
+        helped with evaluation of the results produced, refining
+        the manuscript, and provided intellectual guidance and
+        mentorship. All authors read and approved the final
+        manuscript.
       
     
   

@@ -2,297 +2,342 @@
   
     
       
-        Introduction
-        Breast cancer is the leading female malignancy in the
-        world and is now the most common cancer in Nigeria [ 1 2 3
-        ] . Despite this, there is a sixfold variation in incidence
-        when Western countries are compared with the developing
-        countries of Africa and Asia, and immigrants from low
-        incidence countries tend to acquire the rate of their new
-        environments [ 2 4 ] . Some of this variation may be due to
-        demographic factors such as longer life expectancy, better
-        reporting of disease and improved access to clinical care.
-        There is increasing interest, however, in the relative
-        importance of environmental and genetic factors as
-        explanations for this difference.
-        In general, African breast cancer patients tend to
-        present at a young age, with large tumors and multiple
-        nodal involvements, and have poorer clinical and
-        pathological prognostic factors compared with Caucasian
-        patients. These characteristics are somewhat similar to
-        that of African-Americans but are in contrast with those of
-        non-Hispanic Whites in the USA, thus heightening the
-        interest in the role of genetic factors in the etiology of
-        breast cancer in general, and in people of African origin
-        in particular [ 3 5 ] .
-        One of the often cited reasons for the difference in
-        breast cancer incidence in Africa compared with Western
-        countries is the difference in environmental risk factors
-        such as diet and physical activity (both contributing to
-        obesity), use of hormones/other medications, and
-        obstetric/gynecological practices [ 6 ] . In the current
-        paper, we present the results of the first study of the
-        association between waist-hip ratio (WHR) and breast cancer
-        in an indigenous African population.
-        The WHR has emerged as an important metameter of the
-        association between central adiposity and many
-        obesity-related diseases. Positive correlations have been
-        seen with coronary heart disease, adult-onset diabetes
-        mellitus and stroke [ 7 ] . However, the result with breast
-        cancer has been inconsistent [ 8 ] . Abdominal obesity may
-        be related to breast cancer through aberrant insulin
-        signaling leading to increased endogenous androgen and
-        estrogen levels [ 9 ] .
-      
-      
-        Methods
-        
-          Case ascertainment
-          All consecutive cases of breast cancer, regardless of
-          previous history, seen at presentation and later
-          confirmed histologically in the Departments of Surgery
-          and Radiotherapy of the University College Hospital,
-          Ibadan, Nigeria, from March 1998 to August 2000 were
-          recruited at their first clinic presentation, after
-          obtaining informed consent. Nurse interviewers asked them
-          which risk factors did apply at the time when they were
-          last well. The interviewer then measured the height,
-          weight, and hip circumference at its widest diameter.
-          Waist circumference was measured according to the
-          guidelines in the World Health Organization MONICA
-          Project manual [ 10 ] .
-          There were 312 cases, of which 73 indicated that they
-          had lived predominantly in a rural area and were
-          excluded. There were five refusals and no further
-          information was available from these, leaving 234
-          cases.
-        
-        
-          Control ascertainment
-          During the period of case recruitment, a community
-          adjoining the hospital was randomly selected by ballot
-          based on comparability with the hypothetical catchment
-          area of the hospital. Community consent was sought from
-          the Chief-in-Council and approval for the study was
-          communicated to members of the community through heads of
-          households. The census register of the people living in
-          the community was obtained and community consent sought
-          for the study. Names were then randomly selected from the
-          community register and the people were invited to visit a
-          clinic set up in the community for the study.
-          Inclusion criteria for the controls were females aged
-          older than 18 years, absence of any type of cancer at
-          recruitment, predominant urban residence for most of
-          their lives and the ability to give informed consent. No
-          matching of controls to cases was performed. After
-          explaining the project to the potential participant, a
-          complete physical examination was carried out. A trained
-          nurse then interviewed the participants, measured their
-          height, their weight, their hip circumference at its
-          widest diameter and their waist circumference 1 inch
-          below the navel, and completed the questionnaires. A
-          total of 278 subjects were interviewed, of which 273 were
-          recruited; there were three refusals, and two people were
-          not recruited on account of a diagnosis of cancer (head
-          of the pancreas cancer in one and colorectal cancer in
-          the other).
-        
-        
-          Data collection and analysis
-          The information obtained from the cases and controls
-          include age, self-reported social status based on family
-          income and other baseline demographic information.
-          Obstetric and gynecological history such as age of onset
-          of menarche, menstrual cycle history, whether periods had
-          usually been regular, age at onset of menopause (natural
-          or otherwise) and history of previous breast disease, as
-          well as smoking, drug and alcohol use history, were
-          obtained from the subjects. Other information obtained
-          included first-degree family history of breast cancer,
-          history of ever using estrogen-containing contraceptives
-          and where they had lived most of their lives (whether in
-          a rural or urban setting). No information about
-          postmenopausal hormonal use was obtained as this is an
-          uncommon practice in Nigeria.
-          The body mass index (BMI) (weight [kg]/height [m 2];
-          obesity = BMI ≥ 30) and WHR were computed (waist
-          circumference [cm]/hip circumference [cm]), and four
-          subjects with WHR > 1.2 and WHR < 0.6 were
-          excluded. The rest were divided into tertiles and treated
-          as categories. Statistical analysis of the data was
-          carried out with SAS version8.0 (SAS Institute, Inc.,
-          Cary, NC, USA) separately for premenopausal and
-          postmenopausal women. Univariate analysis was used to
-          identify variables to be included in multivariable
-          analysis using 
-          P ≤ 0.10. Purposeful stepwise
-          multivariable logistic regression models were built to
-          identify statistically significant variables at 
-          P = 0.05, and a 10% or greater
-          change in the β-coefficient was used to identify
-          confounders. In addition, automated stepwise multivariate
-          logistic regression models were run as an adjunct to the
-          aforementioned method.
-          Continuous variables were examined for assumption of
-          linearity; age and age at onset of regular menstrual
-          periods were found to be nonlinear. Age was subsequently
-
-          divided into 5-year categories while age at onset of
-          regular menstrual periods was left as it was because the
-          range of values was narrow, but it was subsequently
-          modeled as a categorical variable.
-        
+        Background
+        Although intense efforts are being directed toward the
+        development of safe and effective viral vectors that permit
+        the introduction of foreign genes into mammalian cells,
+        chemical transfection continues to attract interest, not
+        only because chemicals are less difficult to use from a
+        technical standpoint, but also because this form of gene
+        transfer may prove less toxic and immunogenic from a
+        therapeutic perspective [ 1]. Synthetic vectors include
+        cationic polymers such as polyethyleneimine (PEI) and
+        polylysine, as well as cationic lipids such as
+        Lipofectamine [ 2] and negatively charged liposomes [ 3].
+        The unique chemical properties of PEI underscore its
+        potential as a vector for gene delivery. For example, PEI
+        has a very high cationic charge density, making it useful
+        for binding anionic DNA within the physiological pH range [
+        4] and forcing the DNA to form condensates small enough to
+        be effectively endocytosed [ 5], which is the primary mode
+        of the PEI/DNA complex into the cell [ 1, 6, 7]. Via the
+        endosomal compartment, PEI/DNA complexes travel to the
+        nucleus, whereupon the plasmid DNA is expressed within 5
+        hours after the initial attachment of the complexes to the
+        cell surface [ 7]. Another property of PEI that makes it
+        suitable as a DNA vector is its structure, in which every
+        third atom is a protonatable amino nitrogen that allows the
+        polymer to function as an effective buffering system for
+        the sudden decrease in pH from the extracellular
+        environment to the endosomal/lysosomal compartment. This
+        feature is important for the protection of genetic material
+        as it travels to the nucleus [ 4, 7].
+        Over 30 cell lines have been successfully transfected
+        using PEI, including COS-7 cells [ 8], rat hepatocytes [
+        3], human dendritic cells [ 9, 10], and mouse mammary
+        epithelial cells [ 11]. Especially exciting is the ability
+        of PEI to introduce foreign genetic material into fully
+        differentiated, postmitotic cells 
+        in vitro . Such examples include
+        mouse myotubes [ 2] and chick embryonic neurons [ 4].
+        Lambert et al. [ 12] also demonstrated PEI-mediated uptake
+        of nucleic acids in rat sympathetic neuronal/glial
+        cocultures in serum-supplemented media. In this report, we
+        describe the application of PEI in the transfection of
+        postmitotic rat sympathetic neurons in serum-free,
+        glia-free conditions, thereby showing the capability of PEI
+        as a method for studying the effects of targeted genetic
+        manipulation in a rigorously defined cell culture system.
+        In addition, we show that foreign genetic material can also
+        be introduced into human retinal neurons that are decades
+        old.
       
       
         Results
         
-          Premenopausal women
-          Tables 1and 2present the results of age-adjusted
-          analysis. Increasing age and age at first full-term
-          pregnancy were positively associated with risk of breast
-          cancer, while increasing age at onset of menarche was
-          protective. Overall, categories of WHR were not
-          significantly associated with the risk of breast cancer
-          but there was a marginally significant test of trend for
-          a positive association between increasing WHR and breast
-          cancer risk. There was no association with total number
-          of pregnancies, height, obesity (BMI ≥ 30) weight, BMI,
-          waist and hip circumferences, family history of breast
-          cancer, having ever breastfed and use of oral
-          contraceptives. In multivariable logistic regression
-          analysis, adjusted for age, age at menarche, age at first
-          pregnancy and height, there was no significant
-          association between the WHR and breast cancer risk (Table
-          3).
+          Expression of β-galactosidase in SCG neurons
+          Transfection conditions were optimized using cultures
+          of postmitotic sympathetic neurons that had been treated
+          with a DNA synthesis inhibitor to remove nonneuronal
+          cells. Neurons were transfected on the fifth day 
+          in vitro .
+          Three days after transfection, β-galactosidase (β-gal)
+          activity was detected in a subpopulation of sympathetic
+          neurons (Figure 1Aand 1B). Labeling was present in both
+          the soma and processes. Labeled axons could be followed
+          for many millimeters, and growth cones were consistently
+          labeled. β-gal protein could also be detected using
+          immunocytochemical methods, and the labeling pattern was
+          identical to that detected using X-gal (Figure 1C).
+          Another gene that is commonly used to identify
+          transfected cells, EGFP, was also successfully introduced
+          into sympathetic neurons using PEI (Figure 1D). As with
+          β-gal, EGFP was detected throughout the neurons,
+          including synaptic varicosities and growth cones.
+          Pretreatment of our cultures with
+          cytosine-D-arabinofuranoside prior to transfection almost
+          completely eliminates the presence of nonneuronal cells [
+          13]. To further demonstrate that the transfected cells in
+          our cultures are neurons, we transfected cultures with
+          the plasmid encoding EGFP, and then immunostained them
+          using an antibody for microtubule-associated protein 2
+          (MAP2), a neuron-specific marker. Ninety-five out of 100
+          EGFP +cells were also MAP2 +(Figure 2), indicating that
+          the vast majority of transfected cells in our cultures
+          are neurons. Those few cells that expressed EGFP but not
+          MAP2 possessed a clearly distinct morphology from the
+          neurons, such as smaller size and shorter processes, and
+          thus were easily distinguished from neurons in subsequent
+          experiments.
         
         
-          Postmenopausal women
-          On the other hand, in age-adjusted logistic regression
-          models among postmenopausal women (Tables 4and 5),
-          increasing age was associated with a reduced breast
-          cancer risk, while increasing height, waist circumference
-          and obesity (BMI ≥ 30) were positively associated with
-          breast cancer risk. There was a significant association
-          with the highest tertile of WHR but the likelihood ratio
-          test (LRT) for trend ( 
-          P = 0.07) was not significant. The
-          association with having ever breastfed could not be
-          ascertained because of an inadequate sample size. In
-          multivariable logistic regression analysis, adjusted for
-          age and height, there was a significant association
-          between the highest tertile of WHR and breast cancer risk
-          (LRT 
-          P = 0.10; Table 6).
+          Transfection efficiency is dependent on DNA: PEI
+          ratio and concentration
+          Consistent with previous results [ 4, 8, 9, 15, 16,],
+          we found that the β-gal transfection efficiency varied
+          according to the ratio of DNA to PEI (Figure 3). Peak
+          yield was observed at a ratio of 1 μg plasmid DNA to 5 μg
+          PEI (concentration of PEI stock is 1 μg/μl) in 1 ml
+          culture media, producing ∼ 9% transfected cells. As the
+          number of protonatable nitrogens on the linear 22 kD
+          ExGen 500 PEI polymer at physiological pH is roughly
+          equal to 5.47 nmol per μg PEI, and 1 μg DNA corresponds
+          to 3 nmol phosphate groups, this means that the peak
+          yield observed was at a PEI nitrogen: DNA phosphate (N/P)
+          ratio of ∼ 9. Thus, the most suitable N/P ratio for 
+          in vitro sympathetic neurons
+          appears to be around 9, creating positively charged
+          DNA/PEI complexes [ 17].
+          The percentage of β-gal +neurons varied according to
+          the total amount of DNA/PEI complex added to the
+          cultures. Keeping the 1: 5 DNA: PEI ratio constant, lower
+          yields were obtained at 0.2: 1 and 0.5: 2.5 DNA: PEI
+          (Figure 4). Toxicity increased at higher overall amounts
+          of DNA/PEI (Figure 5).
+        
+        
+          Kinetics of foreign gene expression
+          Sympathetic neurons were transfected with β-gal
+          plasmid and PEI (1 μg: 5 μg ratio). At various times
+          thereafter (6 h, 1 d, 3 d, 5 d, 10 d, 21 d), cells were
+          fixed and assayed for the presence of β-galactosidase
+          activity. β-gal +neurons were detected as soon as 6 h
+          post-transfection (Figure 6), a finding consistent with
+          previous work [ 7]. A maximum of ∼ 9% β-gal +neurons were
+          observed at 3 d post-transfection with 1: 5 DNA: PEI,
+          followed by a progressive decrease from 3 d to 10 d.
+          During this time, many β-gal +neurons appeared to either
+          die or cease expression of the foreign gene. However, the
+          percent of cells expressing β-galactosidase at 10 d
+          (4.8%) was similar to the percent at 21 d (4.7%). This
+          suggests that the neurons that still expressed
+          β-galactosidase by 10 d continued to do sothrough 21 d.
+          Therefore, PEI-mediated β-gal expression in a certain
+          percent of neurons is persistent.
+        
+        
+          Co-transfection of β-gal, EGFP
+          To determine how efficiently co-transfection occurred
+          with PEI, we used β-gal and EGFP together in a 1: 1
+          ratio, with the overall DNA: PEI ratio at 2 μg plasmid
+          DNA: 5 μg PEI/ml culture media. Neurons expressing EGFP
+          were also found to express β-galactosidase (Figure 7). 23
+          out of 24 transfected neurons examined clearly
+          demonstrated expression of both plasmids, indicating that
+          co-transfections are reliable using this method.
+        
+        
+          PEI-mediated transfection in cultured human retinal
+          ganglion cells
+          Cultures of cells dissociated from adult human retina
+          were transfected with plasmid encoding EGFP after 1-4
+          weeks 
+          in vitro using the same protocol
+          developed for sympathetic neurons. A variety of cells
+          were transfected, most notably glia (Figure 8A). Smaller,
+          process-bearing cells expressing EGFP were also detected
+          (Figures 8Aand 8B); these cells possess a morphology that
+          strongly suggests a neuronal origin. Similar types of
+          cells were able to express the β-gal plasmid as well (not
+          shown).
         
       
       
         Discussion
-        The earliest reports of the positive association between
-        energy balance and breast cancer date back to 1942 [ 11 ] .
-        Numerous case-control and cohort studies have subsequently
-        supported this association. However, the strength of the
-        association and the category of patients in whom the
-        association was seen varied from study to study. In
-        addition, there are methodological concerns about the most
-        appropriate measure of obesity, and which component or type
-        of obesity is etiologically significant.
-        The WHR, a measure of central adiposity, is gaining
-        increased use as a measure of etiologically significant
-        obesity and is thought to be more closely related to
-        pathology, especially coronary heart disease, diabetes
-        mellitus and stroke [ 7 ] . The metabolic changes that
-        accompany obesity include peripheral hyperinsulinemia,
-        hyperglycemia and glucose intolerance,
-        hypertriglyceridemia, decreased serum low-density
-        lipoprotein, increased serum very low-density lipoprotein,
-        increased serum leptin, dyslipidemia, increased serum
-        cortisol clearance, increased serum C-peptide level,
-        downregulation of insulin receptors and an exaggerated
-        insulin response to an oral glucose load [ 12 13 14 15 ] .
-        These changes, especially when they occur in early
-        adulthood, may be of fundamental importance in the
-        development of breast cancer [ 9 16 ] .
-        Obesity is also associated with significant hormonal
-        changes such as decreased serum estradiol and sex hormone
-        binding globulin (SHBG) levels, increased peripheral fat
-        conversion of estrogens to progesterone and increased serum
-        testosterone levels that may be associated with an
-        increased risk of breast cancer [ 17 ] . Estrogens are
-        necessary for normal breast development, and they induce
-        and promote mammary tumor growth in animal studies [ 18 ] .
-        In addition, the close association between increased risk
-        of breast cancer and certain reproductive factors such as
-        early menarche and late menopause [ 19 ] , as well as the
-        fall off in the rate of increase in the incidence of
-        disease at menopause [ 20 ] and the lowered risk of breast
-        cancer in oophorectomized women and those taking
-        antiestrogens [ 21 22 ] , all support the role of estrogen
-        in breast carcinogenesis.
-        The results from cohort studies about the association
-        between WHR and the risk of breast cancer are inconsistent.
-        In the Nurses' Health Study, the adjusted risk for the
-        highest quintile compared with the lowest quintile of WHR
-        among postmenopausal women who had never used hormone
-        replacement therapy was 1.85 (95% confidence interval =
-        1.25-2.74) [ 23 ] . Kaaks 
-        et al . reported a risk ratio of 2.63
-        (95% confidence interval = 1.09-6.35) comparing the highest
-        quintile with the lowest quintile of WHR [ 24 ] . These are
-        similar to the results obtained in the present study. In
-        contrast, the Iowa Women's Health Study showed no
-        association with WHR, and an earlier report of interaction
-        with family history appeared to have attenuated with time [
-        25 26 ] . In the New York University Women's Health Study,
-        the multivariable analysis showed an association between
-        the lowest quintile and the highest quintile of WHR and
-        breast cancer of 1.72 (95% confidence interval = 1.0-3.1)
-        among premenopausal women, but there was no association
-        among postmenopausal women [ 27 ] .
-        Most case-control studies have found an association
-        between WHR and the risk of postmenopausal breast cancer [
-        28 29 30 31 32 33 34 35 36 37 ] , and most report either
-        null or weakly positive association with premenopausal
-        breast cancer. In the present study, there was no
-        statistically significant association between breast cancer
-        and WHR for premenopausal women.
-        Studies of WHR and the risk of breast cancer are limited
-        by systematic bias in the measurement of WHR across studies
-        [ 36 ] , which may have been controlled somewhat in this
-        study by using nurse interviewers and adhering to the World
-        Health Organization MONICA guidelines [ 10 ] . In
-        case-control studies like the present one, selection and
-        recall bias can be problematic. While we restricted our
-        analysis to urban dwellers, finer adjustment based on the
-        community of residence or the restriction of cases to only
-        those from the community from which controls were selected
-        would have increased the validity of the result. The
-        finding of two cases of cancer among the controls may be
-        due to chance.
-        The prevalence of obesity in the cases and controls also
-        appears higher than expected but this may be consistent
-        with the increasing rate of obesity in developing
-        countries, especially in the urban areas [ 38 ] .
-        Preclinical weight loss is not usually a problem in breast
-        cancer [ 39 ] , and sub-analysis of our data confirmed
-        this. Inclusion of obesity in the multivariate analysis did
-        not change the result, and obesity was not a significant
-        predictor of outcome in multivariate regression analysis.
-        Other limitations of this study include the absence of
-        information about breastfeeding and the features of a
-        'Western lifestyle' such as physical activity, diet and use
-        of postmenopausal hormones and other medications.
-        In conclusion, the present study is consistent with
-        findings in other environments that central adiposity is a
-        risk factor for breast cancer in postmenopausal women.
+        Our data demonstrate the utility of polyethyleneimine as
+        a vector for exogenous gene delivery in cultured neurons.
+        Although the sources of the neurons varied widely in age
+        and species, PEI was nonetheless able to facilitate the
+        expression of at least two foreign genes, LacZ and EGFP, in
+        each of the experimental settings. This finding underscores
+        the versatility of PEI as a method for introducing genes
+        into postmitotic populations of cells, particularly as our
+        previous efforts to transfect sympathetic neurons using
+        lipid-based reagents (Lipofectamine and Lipofectin) had
+        been unsuccessful.
+        From a technical standpoint, PEI is relatively
+        straightforward, as commercial preparations are sterile and
+        ready for use. There are, however, important factors to
+        consider while striving for optimal results. The first is
+        maximizing yield and minimizing toxicity. Although the
+        reasons for PEI toxicity are not completely clear, it
+        appears to involve the disruption of the endosome/lysosome
+        complex [ 4, 6]. In our experimental conditions, the
+        optimal density for transfection of rat sympathetic neurons
+        is around 30 neurons/mm 2, in contrast to a typical culture
+        density of 10 neurons/mm 2[ 13]. This allows for sufficient
+        numbers of transfected cells and appears to lessen the PEI
+        burden per neuron, yet does not preclude detailed
+        morphological analyses of individual neurons. Another
+        factor is the presence of serum. Based on our unpublished
+        observations, rat sympathetic neurons that are transfected
+        in the absence of serum show much greater toxicity than
+        those in which 2.5% serum is temporarily added for the
+        transfection process (data not shown). Furthermore, the
+        presence of serum does not seem to greatly interfere with
+        the transfection process of either rat sympathetic or human
+        retinal neurons, although in other cell types it sometimes
+        does [ 18, 19]. Rinsing the cultures immediately after
+        centrifugation is also a critical step in mitigating the
+        toxic effects of PEI. Increasing the number and volume of
+        rinses improves cell survival, but decreases the yield of
+        transfected cells (data not shown). Clearly, such
+        parameters must be tailored to the specific type of cell
+        under investigation.
+        Altering the ratio of DNA to PEI also affects the yield.
+        In our neuronal cultures it appears that the DNA: PEI ratio
+        of 1 μg: 5 μg, or 0.2, which produces complexes that bear a
+        net positive charge, produces the highest yield. This is in
+        contrast to previously published data showing that
+        positively charged complexes and neutral complexes produce
+        comparable yields in lung epithelial cells [ 17]. However,
+        considering that the optimal DNA: PEI ratio may vary from
+        cell line to cell line [ 19], this is not an unexpected
+        finding.
+        Perhaps the most attractive aspect of PEI-mediated gene
+        delivery is the flexibility of the method. For example, a
+        DNA/PEI ratio of 0.4 also produces reasonable numbers of
+        transfected neurons in our system, meaning that the
+        measurement of the DNA and PEI solutions need not be
+        rigorously accurate for the transfection process to work.
+        The applications can vary greatly, as well. PEI may be used
+        in conjunction with adenovirus vectors [ 2, 9, 11, 18, 19]
+        and can be conjugated to various ligands for targeted gene
+        delivery [ 10, 16] or to minimize nonspecific interactions
+        with blood when injected into the circulatory system [ 20].
+        It also has been shown to be effective as a vector for 
+        in vivo transfection in the mouse
+        brain [ 21, 22] and lung [ 17, 21], as well as a potential
+        way to target therapeutic genes to tumors [ 20].
+        Our results confirm the findings of others that show the
+        possibility of transfecting post-mitotic, fully
+        differentiated cells using PEI [ 2, 23]. In addition, we
+        show that adult human retinal neurons, which have been
+        fully differentiated as long as seven decades, are capable
+        of expressing foreign genes when administered in this
+        manner. As the eye is considered to be the most accessible
+        part of the central nervous system, any method of gene
+        transfer that works on human retinal neurons 
+        in vitro presents an attractive
+        avenue of research for potential 
+        in vivo applications.
       
       
-        Competing interests
-        None declared.
-      
-      
-        Abbreviations
-        BMI = body mass index; LRT = likelihood ratio test; SHBG
-        = sex hormone binding globulin; WHR = waist-hip ratio.
+        Materials and Methods
+        
+          Tissue Culture
+          Sympathetic neuronal cultures were obtained by
+          dissociating superior cervical ganglia from perinatal (21
+          day embryos to 1 day postnatal) Holtzman rats (Harlan
+          Sprague-Dawley, Indianapolis), using previously described
+          methods [ 13]. Neurons were plated at ∼ 30 cells/mm 2onto
+          coverslips coated with poly-D-lysine (200 μg/ml).
+          Cultures were maintained in a serum-free medium [ 13]
+          containing β-nerve growth factor (β-NGF, 100 ng/ml). In
+          order to eliminate nonneuronal cells, cultures were
+          treated with the DNA synthesis inhibitor
+          cytosine-β-D-arabinofuranoside (2 μM) for 48 h beginning
+          on day 2.
+          Adult human donor eye tissue was obtained postmortem
+          from Upstate New York Transplant Services (Buffalo, NY)
+          with approval from the Health Sciences Institutional
+          Review Board. Familial consent for donation and research
+          was also obtained. Tissue was rejected if harvesting did
+          not occur within 7 hours postmortem and 48 hours of
+          storage on ice, or if the donor had a history of eye
+          disease. Dissociated human retinal cultures were derived
+          from adult donor tissue using a protocol adapted from
+          goldfish retinal explant studies [ 14]. Retinal isolates
+          were diced into 0.3 × 0.3 mm pieces using a tissue
+          chopper (Brinkman Instruments, Westbury, NY), followed by
+          sequential treatment with 0.1% hyaluronidase/0.05%
+          collagenase and 0.25% trypsin (GIBCO, Grand Island, NY)
+          in Ca 2+/Mg 2+-free HBSS. After several
+          rinsing/centrifugation cycles, a flame-polished pipette
+          was used to dissociate the cells. Cells were then
+          pelleted, resuspended, and plated onto 18 mm glass
+          coverslips coated with poly-D-lysine (100 μg/ml) and
+          laminin (10 μg/ml). Culture medium consisted of 1:1
+          DMEM/F12 supplemented with 10% FCS, insulin (10 μg/ml),
+          transferrin (20 μg/ml), 0.1 units/ml penicillin, and 0.1
+          μg/ml streptomycin.
+        
+        
+          Transfection
+          Transfection took place on the fifth day 
+          in vitro for sympathetic neurons,
+          1-4 weeks 
+          in vitro for retinal cultures.
+          Sympathetic neurons were treated with 2.5% fetal calf
+          serum immediately prior to transfection. The total volume
+          of media in each 20 mm well was ∼ 1 ml. The two plasmids
+          used encoded either a 1.6 Kb β-galactosidase gene
+          sequence from 
+          E. coli or the enhanced green
+          fluorescence protein (EGFP) gene (Calbiochem, Palo Alto),
+          and were purified by the CsCl method. Various
+          concentrations of plasmid and PEI (ExGen 500, MBI
+          Fermentas, Hanover, MD) were prepared, using 150 mM NaCl
+          in sterile water as the diluent. PEI and plasmid were
+          mixed together and incubated for 10 minutes at room
+          temperature to allow for adequate binding of the plasmid
+          to the PEI. One hundred μl of plasmid: PEI solution was
+          added to each 20 mm well and the 12 well plate was
+          centrifuged at 500 x 
+          g for 5 min. After centrifugation,
+          the cultures were washed once with 0.5 ml DMEM, treated
+          with 0.5 ml serum-free media containing 0.1 units/ml
+          penicillin and 0.1 μg/ml streptomycin, and returned to
+          the incubator.
+        
+        
+          X-gal staining
+          Detection of enzymatic activity within cells
+          transfected with the β-galactosidase gene was similar to
+          that described by Galileo et al. [ 15]. Briefly, cells
+          were fixed for 20 minutes in 4% paraformaldehyde. After
+          rinsing with PBS, cells were incubated in the dark (20 h
+          at 37°C) in a buffer containing X-gal substrate (1
+          mg/ml), potassium ferricyanide (100 mM), and potassium
+          ferrocyanide (100 mM). Coverslips were washed in PBS and
+          mounted on slides using an elvanol-based medium [
+          13].
+        
+        
+          Immunocytochemistry
+          Cultures were fixed in 4% paraformaldehyde for 20
+          minutes. Cells were then permeablilized in 0.1% Triton in
+          PBS for 3 minutes and blocked in a 10% goat serum, 5%
+          bovine serum solution for 20 minutes. Mouse monoclonal Ab
+          5B88 to β-galactosidase (GIBCO) was used at a
+          concentration of 2.5 g/ml, followed by
+          rhodamine-conjugated, affinity-purified goat anti-mouse
+          IgG antibody (Boehringer Mannheim, Indianapolis, IN).
+          Mouse monoclonal Ab SMI52 to microtubule-associated
+          protein 2 (Sternberger Monoclonals, Baltimore, MD) was
+          used at a concentration of 2 μg/ml, followed by the
+          rhodamine goat anti-mouse secondary.
+        
       
     
   

@@ -2,351 +2,698 @@
   
     
       
-        Background
-        A synthetic form of EPO, human recombinant EPO, has been
-        successfully used to treat anemia in patients with chronic
-        renal failure and HIV [ 1 ] . Some randomized trials (RCT)
-        assessed the role of EPO in anemia related the cancer [ 2 3
-        ] . However, many of these trials were underpowered and
-        failed to identify clinically meaningful benefits of EPO
-        treatment. As a result, there has been persistent
-        uncertainty about the efficacy of EPO as a treatment for
-        cancer-related anemia, despite the introduction of EPO in a
-        clinical practice almost a decade ago. Systematic reviews
-        (SR) are the best way to offer synthesis of evidence and
-        are of special utility in settings where many small trials
-        fail to achieve a significant result [ 4 ] .
-        A recent comprehensive SR [ 5 6 ] addressed the role of
-        EPO in treatment-related anemia in cancer patients. This SR
-        included non-randomized studies and performed a
-        meta-analysis (MA) of 12 RCTs showing a significant effect
-        of EPO in reducing the need to transfuse patients who are
-        receiving chemotherapy. Although comprehensive, some issues
-        were not addressed in this previous SR/MA: a formal
-        quantitative synthesis (meta-analysis) was not performed
-        according to different clinical aspects and to main
-        methodological quality dimensions empirically linked to
-        bias [ 7 ] .
-        In contrast to this previous report [ 5 6 ] , in this SR
-        we evaluated only data from randomized studies. We also
-        investigated a broad range of clinical issues, including
-        EPO use according to the level of hemoglobin (hb),
-        platinum-based chemotherapy and tumor type. Finally, to
-        investigate the stability of our conclusions, a broad
-        methodological appraisal of the quality of the trials was
-        performed, specifically examining those dimensions that
-        have been empirically linked to bias [ 7 ] .
-        We also performed a conservative cumulative
-        meta-analysis (CMA) [ 8 ] to determine the earliest point
-        in time when the use of EPO versus placebo reached a such
-        statistical significance after which the uncertainty [ 9 ]
-        about the effect of EPO in cancer-related anemia could have
-        been considered resolved.
+        Introduction
+        Tumor necrosis factor (TNF) has been implicated in the
+        development and pathogenicity of infectious diseases and
+        autoimmune disorders, such as septic shock, arthritis, and
+        hypotension [ 1 2 3 4 ] . It plays a pivotal role in the
+        inflammatory cascade and, together with IL-1 and IL-6, has
+        been shown to mediate the acute-phase response [ 5 6 ] .
+        Confirmation of its significance in disease comes from the
+        success of clinical trials using anti-TNF therapy to treat
+        rheumatoid arthritis and Crohn's disease [ 7 8 9 10 ] .
+        Bacterial lipopolysaccharide (LPS), or endotoxin, is
+        found only in Gram-negative bacterial cell walls; it can on
+        its own induce the acute inflammatory response and the
+        clinical characteristics associated with sepsis. After
+        administration of LPS, TNF and other inflammatory mediators
+        are released [ 11 12 ] . Infusion of TNF initiates an
+        inflammatory process leading to a phenotype that is
+        indistinguishable from bacterial sepsis [ 13 14 ] .
+        Recent work on tristetraprolin (TTP) has provided a new
+        perspective on the regulation of TNF biosynthesis. TTP
+        (also referred to as NuP475, TIS11, or GOS24) is a member
+        of the family of zinc-finger proteins that was originally
+        identified through genetic screens designed to identify
+        immediate early response genes [ 15 16 17 18 ] . TTP was
+        shown to be an unusually proline-rich protein with a
+        predicted molecular weight of 33.6 kDa. Its name derives
+        from the presence of three PPPPG amino acid repeats that
+        are conserved across species. There are two Cys-Cys-Cys-His
+        (CCCH) zinc fingers, which are responsible for RNA binding
+        [ 17 19 ] . There are no studies of the subcellular
+        localization or the regulation of expression of native TTP
+        in freshly isolated cells or tissue. Transfection studies
+        using nonhematopoietic cell lines or prolonged cell culture
+        have suggested that TTP is found in both cytoplasm and the
+        nucleus [ 20 21 22 23 24 ] .
+        A deficiency of TTP is associated with a profound
+        proinflammatory phenotype. TTP-deficient mice exhibit
+        cachexia, with dermatitis, medullary and extramedullary
+        hyperplasia, erosive polyarthritis, and autoimmunity with
+        autoantibodies [ 25 ] . This phenotype is similar to that
+        observed in mice that overexpress TNF [ 26 ] . In agreement
+        with these data, TTP-deficient mice were shown to
+        overproduce TNF, and weekly injections of a neutralizing
+        antibody to TNF eliminated the predominant features of this
+        phenotype. In addition, mice with the double deletion of
+        TTP and TNF receptor (TNFR)-1 do not manifest the
+        aggressive inflammation observed in TTP-deficient mice. In
+        contrast, mice deficient in TTP and TNFR-2 show a more
+        severe phenotype, suggesting a protective role for this
+        receptor [ 27 ] .
+        The increase in TNF biosynthesis in TTP-deficient mice
+        is associated with increased mRNA stability [ 23 ] . TTP
+        binds to the AU-rich element (ARE) in the 3' untranslated
+        region of TNF mRNA, which regulates TNF mRNA turnover 
+        in vivo [ 28 ] . The interaction
+        between TTP/TNF and the ARE promotes the turnover of TNF
+        mRNA. TTP also regulates the stability of GM-CSF
+        (granulocyte/macrophage-colony-stimulating factor) mRNA
+        through the ARE, and therefore TTP deficiency is associated
+        with increased production of GM-CSF and with myeloid
+        hyperplasia. This is not a TNF-dependent effect, since the
+        phenotype is not affected by the removal of either TNFR-1
+        or -2 or by the addition of TNF antibody [ 27 ] . Recent
+        studies have suggested a potential interaction between TTP
+        and both IL-3 and IL-8 via the ARE in their mRNA [ 29 30 ]
+        .
+        All studies of TTP expression to date have relied on
+        transfected cells and cell lines; there have been no
+        studies on the localization of expression of human TTP, or
+        on its regulation 
+        in vivo or in freshly isolated normal
+        cells. To examine the kinetic relation between TNF
+        production and TTP expression in models of septic shock, we
+        developed an intracellular flow cytometric assay. By this
+        method, expression of TTP was determined in peripheral
+        blood leukocytes after the response to 
+        in vitro stimulation with LPS. TTP
+        was initially upregulated in all the cells in response to
+        LPS, as shown by flow cytometry and confocal microscopy.
+        The contribution of TNF to this LPS-induced upregulation
+        was confirmed using a humanized monoclonal antibody to TNF.
+        The kinetics of TTP production was also examined in four
+        individuals infused with LPS. After 
+        in vivo exposure to LPS, the initial
+        rise in TTP expression correlated with the plasma TNF
+        level. We also observed secondary increases in some
+        individuals, without parallel increments in TNF. These
+        observations suggest that there are multiple factors
+        involved in the regulation of TTP.
       
       
-        Methods
-        A previous SR served as a basis for location of the
-        articles of interest [ 5 ] . We also performed a search of
-        MEDLINE, LILACS and CANCERLIT databases, last update in
-        July of 2001, using the optimal search strategy for RCT for
-        use in MEDLINE [ 10 ] and LILACS [ 11 ] with the additional
-        terms related to this review - (epoetin OR Erythropoietin)
-        and (cancer OR neoplasm), in all fields.
-        We included only RCTs that compared EPO versus no
-        therapy or placebo in cancer related anemia. We excluded
-        studies related to transplant setting and myelodysplastic
-        syndrome, since the physiopathology of these diseases is
-        different, more linked to pancytopenia than to anemia [ 1 ]
-        . We also excluded trials that used EPO with the primary
-        objective to magnify hb to improve the efficacy of
-        radiotherapy.
-        Four trials described more than one comparison of
-        different doses of EPO with only one control group [ 12 13
-        14 15 ] . We approached these multi-arm studies in two
-        different ways: in the first, each EPO arm was compared to
-        the control arm. In the second we combined all active arms
-        in one, by adding all EPO treated patients, and analyzed it
-        against the control. Both combinations achieved virtually
-        the same result and data are presented using the second
-        method.
-        Data were abstracted on patient characteristics, type of
-        tumor, treatment details and the major methodological
-        quality dimensions [ 4 7 ] (see Additional file 1). The end
-        point studied was the number of patients requiring
-        transfusions. Results in a conventional meta-analysis were
-        pooled using the Peto's Odds Ratio (OR) and relative risk
-        (RR), both in a fixed effect model [ 16 ] . We also
-        extracted data on adverse effects of the use of EPO.
-        Additional file
-        Table 1: Characteristics of included studies.
-        Click here for file
-        Heterogeneity among trials was assessed using chi-square
-        test (chi). The possibility of publication bias was
-        assessed using the funnel plot method [ 17 ] . To assess
-        the reasons for any heterogeneity found, we performed a
-        meta-regression [ 4 ] . Sensitivity and subgroup analyses
-        according to the main methodological quality dimensions [ 7
-        ] and a number of clinical criteria were also performed
-        (see fig 2and 3). The results were calculated with
-        corresponding 95% confidence interval (95%CI). When the
-        results from pooled data were significant, we calculated
-        the number of patients need to treat (NNT) [ 18 ] in order
-        to prevent one transfusion. However, the readers are
-        advised to exercise due caution because NNT and NNH (number
-        of patients to harm) are more influenced by the baseline
-        risk in a control group than the odds ratio.
-        The qualitative conclusion of the authors was assessed
-        using the method described by Gilberts and Colditz [ 19 20
-        ] and adapted to a six point scale, where 1 = control group
-        highly preferred, 2 = control preferred to EPO treatment, 3
-        = about equal, EPO a disappointment, 4 = about equal, EPO a
-        success, 5 = EPO preferred to control and 6 = EPO highly
-        preferred.
-        Finally, we performed a cumulative meta-analysis (CMA) [
-        8 ] using a conservative approach, setting the α error at
-        1%, with a two tailored "p" in a random effects model [ 21
-        ] . The CMA allowed us to determine the point when the
-        results achieved a level of statistical significance after
-        which we should expect no changes in the effect by
-        performing new trials, and after which placebo controlled
-        trials should not have been performed. In other words: CMA
-        allowed us to determine the threshold point after which
-        uncertainty about this question should have been considered
-        resolved [ 9 ] .
+        Materials and methods
+        
+          Generation of antihuman TTP polyclonal
+          antibody
+          A peptide corresponding to the C terminus (amino acids
+          302-328) of human TTP was synthesized, purified by HPLC,
+          and coupled to KLH (keyhole limpet hemocyanin;
+          Macromolecular Resources, Fort Collins, CO, USA).
+          Anti-human TTP polyclonal antibody was generated by
+          immunization of New Zealand white rabbits with the
+          KLH-coupled TTP C-terminal peptide (GeneMed, San
+          Francisco, CA, USA). The rabbit antiserum obtained was
+          affinity-purified by passage over a Sulfolink column
+          (Pierce, Rockford, IL, USA) to which disulfide linkage of
+          the peptide had been used to immobilize the peptide.
+          Specificity in Western blotting and flow cytometry was
+          evaluated by detection of exogenous TTP in transfected
+          293 cells and by blocking this activity with peptide [ 24
+          ] .
+        
+        
+          Generation of TTP vector constructs
+          Human TTP cDNA was generated by RT-PCR from THP-1 RNA
+          and cloned into the pcDNA 3.1His-C vector (Invitrogen,
+          Carlsbad, CA, USA), which encodes a histidine and epitope
+          (EXPRESS-TAG) at the N-terminus of the protein.
+          Orientation of the cloned DNA and the integrity of the
+          DNA sequences were confirmed by sequencing with the ABI
+          Prism Dye Terminator Cycle Sequencing kit (PerkinElmer,
+          Wellesley, MA, USA), and searched against the published
+          sequence (TTP accession no. M63625) on the NCBI Database
+          using the BLAST search program.
+        
+        
+          Transient transfection
+          Human embryonic kidney 293 cells (ATCC, Manassas, VA,
+          USA) were plated at a density of 160,000 cells per cm 2in
+          6-well plates (Costar, Cambridge, MA, USA). TTP (1 μg) or
+          the TTP parental vector pcDNA3.1 His-C (control) was
+          mixed with 50 μl of serum-free RPMI (Roswell Park
+          Memorial Institute) medium. The DNA was mixed with 2 μl
+          of Lipofectamine 2000 reagent (Life Technologies,
+          Rockville, MD, USA) in a total volume of 50 μl of
+          serum-free RPMI per cm 2of cells, incubated for 3 hours,
+          and followed by the addition of an equal volume of media
+          containing 20% fetal calf serum.
+        
+        
+          Cell preparation
+          THP-1 (generously provided by Dr P Guyre, Dartmouth
+          Medical School), Jurkat (ATCC), and 293 cell lines were
+          cultured in RPMI complete medium (CM), consisting of RPMI
+          1640 with 10% heat-inactivated fetal bovine serum, 0.1 ml
+          of sodium pyruvate, 2.0 mmol/l of L-glutamine, 25 mmol/l
+          of 1 M HEPES
+          (N-2-hydroxyethylpiperazine-N'-2-ethanesulfonic acid),
+          0.1 mmol/l of nonessential amino acids, 0.25 μg/ml of
+          amphotericin, 50 μg/ml gentamicin (all from BioWhittaker,
+          Walkersville, MD, USA) and 5 × 10 -5M 2-mercaptoethanol
+          (Sigma, St Louis, MO, USA). Transfected and
+          nontransfected 293 cells were harvested using trypsin
+          (Life Technologies), washed twice with CM, resuspended to
+          a concentration of 5 × 10 6cells/ml, and fixed with 4%
+          methanol-free formaldehyde (Polysciences Inc, Warrington,
+          PA, USA). THP-1 cells were incubated with and without
+          LPS, 0.1 μg/ml ( 
+          Escherichia coli 055:B5, Sigma), or
+          with and without TNF (100 U/ml). In addition, infliximab
+          (Remicade ®), 100 μg/ml (Centocor Inc, Malvern,
+          Pennsylvania, USA), was also incubated with and without
+          LPS or TNF to determine how much effect TNF has on TTP
+          induction. Preliminary studies on TNF-induced IκBα
+          phosphorylation determined the optimum concentration for
+          inhibition with infliximab. After incubation, the cells
+          were washed in staining buffer and fixed with 1%
+          formaldehyde.
+          Leukocytes from healthy donors were isolated by
+          dextran sedimentation from heparinized peripheral blood.
+          In some experiments, blood was combined 1:1 with RPMI CM
+          and incubated with or without 0.1 μg/ml LPS. At the
+          indicated times, blood was mixed 1:1 with 2% dextran (150
+          kDa; Polysciences) in prewarmed RPMI and left at 37°C for
+          20 min to sediment the red blood cells preferentially.
+          The white-cell supernatant was then aspirated,
+          centrifuged, and mixed 1:5 with CM. After centrifugation,
+          the cell pellet was resuspended with staining buffer
+          (prechilled to 4°C) consisting of phosphate-buffered
+          saline solution with 0.2% BSA and 1 μg/ml sodium azide.
+          The white cells were then counted using Turks solution
+          (0.01% crystal violet and 3% acetic acid in distilled
+          water), washed as before, and resuspended to a
+          concentration of 5 × 10 6cells/ml with staining
+          buffer.
+        
+        
+          Immunofluorescence staining
+          To detect extracellular antigens, cells were pipetted
+          into a 96-well polypropylene plate (Costar), and the
+          plate was centrifuged at 400 
+          
+            g 
+           for 5 min. The cells and reagents were kept at 4°C
+          for the remainder of the experiment. The supernatant was
+          aspirated, and the cells were resuspended in 6% human IgG
+          (Sigma) in staining buffer to block nonspecific binding.
+          Allophycocyanin (APC)-conjugated CD14 (Becton, Dickinson
+          and Co, San Jose, CA, USA) was added, and the cells were
+          incubated for a further 20 min in the dark. The cells
+          were then washed once in staining buffer and residual red
+          blood cells lysed with FACS' Lysing solution (Becton
+          Dickinson). After 5 min the cells were washed twice with
+          staining buffer and fixed overnight in 1%
+          formaldehyde.
+          To detect intracellular TTP, fixed cells were washed
+          twice in permeabilization buffer (consisting of staining
+          buffer with the addition of 1 μg/ml saponin), centrifuged
+          as before, and incubated for 30 min at 4°C in blocking
+          buffer, consisting of 3% IgG with 3% nonfat powdered milk
+          for leukocytes in permeabilization buffer. The plate was
+          centrifuged, the supernatant was aspirated, and 3.8 μg
+          per 5 × 10 5cells of anti-TTP rabbit polyclonal or
+          control antibody (DAKO A/S, Glostrup, Denmark) was added
+          for 45 min more. After incubation, the cells were washed
+          in permeabilization buffer and resuspended in
+          FITC-conjugated F(ab') 
+          2 (antigen-binding fragment) donkey
+          antirabbit IgG (25 μg/ml, Jackson ImmunoResearch, West
+          Grove, PA, USA) for 45 min at 4°C. Cells were washed with
+          permeabilization buffer and then with staining buffer.
+          They were resuspended with 1% formaldehyde and stored in
+          the dark at 4°C until analysis. For the infliximab
+          inhibition experiments, a goat polyclonal antibody to TTP
+          was used (Santa Cruz Biotechnology Inc, Santa Cruz, CA)
+          with a secondary swine antigoat FITC-conjugated IgG
+          antibody (Sigma). Preliminary experiments showed that the
+          affinity of this antibody for TTP was equivalent to that
+          of the rabbit polyclonal antibody.
+          In the LPS infusion study, TruCount ®calibration beads
+          (Becton Dickinson) were quantitatively added to the
+          stained cells. Enumeration of individual leukocyte counts
+          was then completed using Cell Quest ®software.
+        
+        
+          FACS analysis and confocal microscopy
+          Analysis by flow cytometry was completed using a
+          FAC-SCalibur (Becton Dickinson). Contaminants, such as
+          red cells and cell debris, were removed by forward and
+          side scatter gating; in addition, CD14 versus side
+          scatter was used to create gates to differentiate
+          lymphocytes, monocytes, and neutrophils. Fluorescein
+          fluorescence was detected through the FL-1 channel, APC
+          fluorescence was assessed using the FL-4 channel, and
+          data were acquired and analyzed using the CellQuest
+          ®application on a Power Macintosh G3 computer. For each
+          sample, at least 2000 monocytes were collected and the
+          mean fluorescence intensity was evaluated. Calibration
+          was done using Rainbow Microspheres (Spherotech Inc,
+          Libertyville, IL, USA), with final values expressed as
+          the milliequivalents of soluble fluorescein (MESF) [ 31 ]
+          .
+          293 cells were sorted for the brightest FITC
+          fluorescence using a FACStar Plus flow cytometer (Becton
+          Dickinson). Cells were collected into tubes containing
+          100 μl fetal calf serum, centrifuged, and resuspended in
+          1% formaldehyde. The cells were stored overnight at 4°C
+          in the dark. TTP/FITC-stained white blood cells or THP-1
+          cells were centrifuged and resuspended in formaldehyde as
+          for 293 cells. Nuclear staining was done using propidium
+          iodide 0.01 mg/ml (Sigma). For confocal microscopy, cells
+          were pipetted from the base of the settled cell
+          suspension and placed onto a glass slide with Prolong
+          ®Antifade (Molecular Probes, Eugene, OR, USA) to inhibit
+          quenching. The cells were then covered with a cover slip
+          protected with clear nail polish.
+          Microscopy for FITC-conjugated TTP analysis was
+          completed using a BioRad MRC1024 laser scanning confocal
+          microscope (BioRad, Hercules, CA, USA). Cells were
+          scanned for fluorescence using the 488-nm line from a
+          15-mW Kr/Ar laser and two photodetectors (522/32-nm
+          dichroic for FITC fluorescence and 585-nm longpass for
+          propidium iodide fluorescence). A 63× Plan-APO 1.4 NA
+          objective (Carl Zeiss Inc, Thornwood, NY, USA) was used
+          in conjunction with an iris setting of 2.5, which allowed
+          for detection of optical sections of the fluorescence
+          image that were approximately 0.5 μm thick.
+          Representative images were selected from the slices
+          though the center of the cells after sectioning through
+          the entire cell.
+        
+        
+          LPS infusion
+          Consenting volunteers were given an intravenous bolus
+          of endotoxin in accordance with a protocol approved by
+          the Institutional and Scientific Review Boards of the
+          Dartmouth-Hitchcock Medical Center and Norris Cotton
+          Cancer Center, Lebanon, NH, USA. One month before
+          admission and again just before admission, the
+          volunteers' physical wellbeing and health were assessed,
+          and current medications were noted. The infusion was
+          conducted in the intensive care unit at
+          Dartmouth-Hitchcock Medical Center with continuous
+          supervision for the first 12 hours. Blood pressure, heart
+          rate, and body temperature were evaluated throughout this
+          period.
+          Clinical Center reference endotoxin (CCRE), lot O:133,
+          derived from 
+          E. coli (United States Pharmacopeia
+          Convention Inc, Rockville, MD, USA [ 32 ] ), was injected
+          intravenously at a dose of 4 ng/kg. Three consecutive
+          baseline blood samples were taken, at 15, 10, and 5 min
+          before infusion, and samples were taken at 0.45, 1, 2, 4,
+          8, 12, 24, 48, and 72 hours after infusion, from a
+          peripheral, indwelling, venous catheter directly into a
+          heparinized syringe (Becton Dickinson). Blood was
+          sedimented in dextran, extracellularly stained for CD14,
+          and fixed with 1% formaldehyde. The cells were stored
+          overnight at 4°C and then stained for intracellular TTP.
+          A human TNF ELISA kit (R&D Systems, Minneapolis, MN,
+          USA) was used to determine the concentration of TNF in
+          plasma from peripheral blood, in accordance with the
+          manufacturer's instructions. The TNF-α standard was made
+          up as directed to read a maximum concentration of 1000
+          pg/ml and a minimum of 15.6 pg/ml.
+        
+        
+          Statistical analysis
+          Analysis was by one-way analysis of variance (ANOVA)
+          with post hoc Bonferroni adjustment (all-means
+          comparison) test, using the Graphpad ®Prism version 3.00
+          for Windows (Graphpad Software, San Diego, CA, USA).
+        
       
       
         Results
-        Thirty-seven randomized articles addressing the use of
-        EPO in cancer related anemia were located and retrieved for
-        full text appraisal. Twenty one papers fit our inclusion
-        criteria. Two articles describing two small trials [ 22 23
-        ] with a total of 79 patients were excluded from our
-        analysis because they did not provide information regarding
-        our end point of interest.
-        Nineteen articles [ 2 3 12 13 14 15 24 25 26 27 28 29 30
-        31 32 33 34 35 36 ] describing 21 trials (see Additional
-        file 1) fit our inclusion criteria. One paper [ 3 ]
-        described three different trials, two of which [ 24 26 ]
-        were reported later, in separate papers. We included data
-        from these latest papers only. Therefore, we included 19
-        trials from 19 articles with 1896 patients in cancer
-        related anemia. Fourteen trials with a total of 1511
-        patients described the use of EPO in patients with hb level
-        < 11.5 g/dl and five trials with 369 patients related to
-        hb level >= 11.5 g/dl. Of the latter ones, one trial [
-        14 ] included patients with hb ranging from 10.6 to 12.0
-        g/dl. The analysis did not change when we excluded this
-        trial in the sensitivity analysis.
-        The possibility of publication bias was considered
-        unlikely according to the visual inspection of the funnel
-        plot [ 17 ] . The results of the critical appraisal
-        according to the most important methodological quality
-        dimensions of each article are shown in (see Additional
-        file 1). No single trial met all methodological quality
-        criteria. All trials scored five or six on the six point
-        Gilbert [ 19 ] and Colditz [ 20 ] scales, denoting strong
-        qualitative support in favor of EPO ((see Additional file
-        1)).
-        The meta-analysis of the 19 trials (Fig 1and 3) showed a
-        significant beneficial effect of EPO in diminishing the
-        number of patients requiring transfusion [OR = 0.41; 95%CI:
-        0.33 to 0.5 ; p < 0.00001], without statistical
-        heterogeneity [chi = 23.46; df = 18; p > 0.1]. When we
-        used relative risk (fig 3) as a summary point estimate in
-        the meta-analysis, the results remained significant [RR =
-        0.61; 95% CI: 0.54 to 0.68; p < 0.00001], but now with
-        significant statistical heterogeneity: [chi = 37.56; df =
-        18; p = 0.0044]. However, when the study by Porter et al [
-        29 ] was removed from the analysis, heterogeneity
-        disappeared from the analysis, and the analysis according
-        to OR or RR did not differ. This is likely because in this
-        small study including 10 patients in each group, event rate
-        was so high with all but one patient receiving
-        transfusion.
-        To further explain heterogeneity, we also performed a
-        metaregression [ 4 ] . The variables related to the design
-        and clinical features which possible could affect the
-        treatment effect of EPO were entered in the equation (see
-        Additional file 1) We found no statistically significant
-        association between any of the variables with the treatment
-        effect of EPO when all data were simultaneously entered in
-        a multiregression equation(data not shown). However, when a
-        stepwise regression model was used, two variables emerged
-        of the potential significance which could explain most the
-        heterogeneity of our results: (in)adequacy of allocation
-        concealment (p = 0.026) and Hb cut-off value of 11.5 g/dl
-        (p = 0.046). The between study variation (tau2 estimate)
-        was 0.0372 for the model containing no variables (i.e. the
-        simple meta-analysis); this was reduced to almost zero in
-        the final model. In addition, most likely explanation of
-        heterogeneity seen in our study is related to a small
-        sample size of the individual trials resulting in random
-        fluctuation of the effect between the studies. When we
-        divided the trials according to the hb level, using 11.5
-        g/dl as a cut-off point, the results remained essentially
-        unchanged (i.e. highly significant in favor of EPO) (fig
-        2and 3).
-        Thus, it appears that the effect of EPO is a rather
-        robust despite heterogeneity noted in the meta-analysis
-        Sensitivity and subgroup analyses according to clinical
-        and methodological quality dimensions (Fig 2and 3) showed
-        consistency in the results, favoring the use of EPO.
-        Statistical heterogeneity was noted for some of these
-        comparisons (see fig 2and 3). It was related to the
-        magnitude of the treatment effect and not to its
-        significance, since in all trials the point estimate of the
-        effect favored EPO. A stepwise metaregression analysis did
-        point to the possibility that treatment effect could have
-        been exaggerated by inadequacy in allocation concealment
-        and that larger treatment effects are seen at hb level <
-        11.5 g/dl. The heterogeneity was more common when we used
-        RR than when we used OR.
-        The overall result by pooling all trials indicates that
-        for each 5 cancer patients (95% CI: 4 to 7) using EPO, one
-        patient will avoid transfusion. This result is maintained
-        when we separately analyzed the trials that included
-        patients with hb level < 11.5 g/dl (NNT = 5; 95% CI: 4
-        to 8) and Hb > 11.5 g/dl (NNT = 5; 95% CI: 3 to 9).
-        These NNT should be analyzed carefully, since they were
-        calculated from a pool of data that in some analysis were
-        not homogeneous.
-        We also performed a CMA, (fig 4) using a conservative
-        approach (i.e. setting α error at 1%). Our CMA demonstrated
-        that by 1995 a high level of significance [OR = 0.52;
-        99%CI: 0.28 to 0.97; p = 0.0068]; [RR = 0.69; 99%CI: 0.53
-        to 0.90; p = 0.0003] about the benefit of EPO on reducing
-        the use of blood transfusions had been achieved. Beyond
-        this point, all new trials only improved the precision,
-        without adding any additional useful information. We
-        estimated that 1240 patients, representing 65% of the total
-        number of cancer patients who participated in EPO studies,
-        were enrolled in 13 placebo-controlled randomized studies
-        that were reported after 1995.
-        The previous SR [ 5 ] concluded that it was impossible
-        to reasonably distinguish between adverse events related to
-        EPO and concurrent treatments. We also tried to extract
-        data on adverse events, but were unable to make a
-        reasonable approach due to the poor reporting. Therefore,
-        we decided not to tabulate data on adverse events and
-        perform quantitative pooling.
+        
+          Optimization and specificity of the TTP polyclonal
+          antibody
+          To determine the optimal working concentration of the
+          TTP antibody, 293 cells transfected with TTP were fixed,
+          permeabilized, and stained at various concentrations of
+          antibody or IgG control. There was a
+          concentration-dependent increase in fluorescence (Fig.
+          1a), which was standardized using fluorescent
+          microspheres in order to compare different experiments
+          and cell types [ 31 ] . The optimum concentration of
+          antibody was determined to be 3.8 μg per 5 × 10 5cells,
+          where the intensity curve began to flatten. At higher
+          concentrations, the MESF value for the control sera
+          increased concordantly, indicating nonspecific binding.
+          Specificity of the TTP antibody was determined by
+          blocking with the identical peptide sequence used to
+          generate the polyclonal antibody. In the presence of
+          blocking TTP peptide, at concentrations either 10 or 50
+          times the amount of TTP antibody used, the detection of
+          the TTP protein within the transfected cells was nearly
+          eliminated (Fig. 1b).
+          Confocal sectioning of transfected 293 cells showed
+          that the presence of TTP protein was primarily in the
+          cytoplasmic fraction (Fig. 1c). Z sections taken every
+          0.5 μm through the cell showed little, if any, TTP within
+          the nucleus. In nontransfected 293 cells, a small amount
+          of TTP was detected by flow cytometry and confirmed by
+          confocal microscopy. Transfected 293 cells expressed nine
+          times as much TTP as the untransfected cells at the
+          optimal working concentration of antibody. Preincubation
+          of the nontransfected 293 cells with TTP peptide blocked
+          the activity, confirming its identity. These results
+          confirmed our previously published data in which Western
+          blot analysis showed that TTP was localized in the
+          cytoplasmic extract of 293 cells [ 24 ] .
+        
+        
+          Induction of TTP in the THP-1 cell line
+          Since TNF biosynthesis in macrophages is rapidly
+          triggered by treatment with LPS, the effects of this
+          endotoxin on TTP expression were examined. THP-1 cells, a
+          human myelomonocytic cell line, were incubated with and
+          without LPS (0.1 μg/ml) for up to 24 hours. At
+          representative time points, a sample was removed and
+          stained with either anti-TTP or the IgG control, as
+          described in Materials and methods. The addition of LPS
+          rapidly increased the expression of TTP by THP-1 cells
+          (Fig. 2a). Increases in TTP were detectable 1 hour after
+          stimulation and were still evident in the cytosol 4 hours
+          after LPS treatment. Analysis of the cells by confocal
+          microscopy (Fig. 2b) confirmed the upregulation and
+          indicated that the TTP was expressed intracellularly,
+          relatively homogeneously but confined to the cytoplasm.
+          These data show that LPS stimulation rapidly increases
+          human TTP protein expression in the cytoplasm. The
+          kinetics of induction by LPS parallels that seen with TTP
+          mRNA in bone-marrow-derived murine macrophages [ 23 ]
+          .
+        
+        
+          In vitroTTP induction with LPS in peripheral blood
+          leukocytes
+          Modulation of TTP expression by LPS was subsequently
+          examined in normal peripheral leukocytes. Whole blood
+          from eight healthy volunteers was incubated at 37°C alone
+          or with LPS (0.1 μg/ml) for up to 24 hours. At periodic
+          time points, a sample was taken and leukocytes were
+          purified by dextran sedimentation, fixed, permeabilized,
+          and then stained with either anti-TTP or control
+          antibody. In leukocytes, constitutive expression of TTP
+          ranged from approximately 9 × 10 3to 35 × 10 3MESF.
+          Monocytes constitutively expressed over three times as
+          much TTP as either lymphocytes or neutrophils (Table 1).
+          Stimulation with LPS 
+          in vitro produced an increase in
+          TTP expression in all leukocyte subpopulations. This was
+          maximal 2 hours after stimulation. TTP levels increased
+          to a higher maximal level in monocytes than in other
+          leukocytes (+8.5 × 10 3MESF; Fig. 3a). Two-color flow
+          cytometry indicated that CD4 +and CD8 +T lymphocytes
+          expressed equivalent amounts of TTP (data not shown). The
+          kinetics of TTP induction with LPS was consistent and
+          monophasic in all leukocytes (Fig. 3i). The change in TTP
+          expression was greatest in neutrophils and least in
+          lymphocytes. Since lymphocytes lack Toll-like receptor 4
+          and express little or no CD14 [ 33 ] , we conclude that
+          the induction of TTP in these cells was occurring
+          indirectly, presumably through stimulation with TNF,
+          although other cytokines, including IL-1, IL-6, and IL-8,
+          could contribute to this response.
+          LPS-induced TTP upregulation was confirmed in all cell
+          types by confocal microscopy. Analysis confirmed an
+          increase in TTP in neutrophils 2 hours after stimulation
+          (Fig. 3). Similar data were obtained for lymphocytes and
+          monocytes (data not shown). Distribution in resting
+          levels and after stimulation with LPS was primarily
+          cytosolic, which is in accord with our data for 293 and
+          THP-1 cells.
+        
+        
+          Correlation of in vivoTTP production with TNF after
+          LPS bolus
+          To study the kinetics of TTP induction 
+          in vivo , we infused 4 ng/kg of
+          clinical-grade endotoxin at time 0 in four volunteers.
+          Blood was drawn before the infusion and at specified
+          intervals afterwards, and aliquots were analyzed for
+          leukocyte cell counts, TTP expression, and plasma TNF
+          levels.
+          The cell counts of all the leukocyte subpopulations in
+          all the volunteers fell rapidly, as seen 1 hour after
+          infusion in all volunteers (Fig. 4a,4b,4c), in
+          concordance with published data [ 34 35 36 ] . Beyond the
+          1-hour time point, the neutrophil cell count increased,
+          reaching a peak at 12 hours. It then decreased to
+          baseline values at 24 hours (Fig. 4a). Lymphocyte and
+          monocyte data showed similar initial kinetics. The
+          lymphocyte and monocyte curves were biphasic, peaking at
+          4 hours, dropping to baseline at 12 hours, and beginning
+          a second increase at 48 hours.
+          Plasma TNF levels were analyzed throughout the study.
+          The circulating TNF level increased to a peak at 2 hours
+          after infusion (Fig. 4d). After 12 hours, there was no
+          detectable TNF in any of the four volunteers. This
+          monophasic peak was consistent with findings in other
+          studies [ 37 ] .
+          Analysis of TTP expression in leukocyte populations
+          before and after LPS infusion revealed a biphasic
+          induction, with an initial peak occurring within 4 hours
+          and a second after 12 hours (Fig. 5a,5b,5c). Baseline and
+          maximum TTP expression in each cell type for each
+          volunteer is presented in Table 2. The expression and
+          initial upregulation of TTP in response to LPS in all
+          leukocyte populations was consistent with the data found 
+          in vitro . Neutrophils responded
+          rapidly to LPS infusion, reaching an initial peak within
+          an hour of infusion, although the average increase in the
+          four volunteers appears to be moderate (50%). Analysis of
+          monocytic TTP showed an increase in expression, peaking
+          at 2 hours (Fig. 5b). Lymphocyte TTP expression peaked at
+          4 hours, which was later than the initial peak response
+          of neutrophils and monocytes (Fig. 5c). A second, more
+          dramatic, rise, which did not parallel changes in plasma
+          TNF levels (Fig. 5d), was observed 12 hours after
+          infusion in all leukocyte populations.
+        
+        
+          TNF contribution in LPS induction of TTP
+          The human 
+          in vivo studies described here show
+          increases in circulating plasma TNF that preceded TTP
+          induction in all the leukocyte types investigated. This
+          observation is consistent with the hypothesis that LPS
+          mediates induction of TTP through the production of TNF.
+          However, this hypothesis does not explain the second rise
+          in TTP we observed 
+          in vivo , which was not associated
+          with TNF. To examine this phenomena in more detail, THP-1
+          cells were cultured with LPS or TNF in the presence of
+          blocking TNF antibody. The antibody sequesters TNF in the
+          supernatant, preventing its interaction with TNF
+          receptors. LPS induced greater TTP expression than TNF
+          (Fig. 6a,6b). When THP-1 cells were stimulated with LPS
+          in the presence of the blocking TNF antibody, the TTP
+          response was reduced but not eliminated (Fig. 6a). In
+          fact, the initial induction of TTP detectable during the
+          first hour was unaffected, suggesting that TNF was not
+          solely responsible for the LPS-induced rise. In contrast,
+          TNF induction of TTP by THP-1 cells was completely
+          blocked in the presence of the blocking TNF antibody
+          (Fig. 6b).
+        
       
       
         Discussion
-        According to our overall analysis, administration of EPO
-        is related to an average 59% reduction in odds of requiring
-        a transfusion. A previous SR [ 5 6 ] pooled 12 trials that
-        used subcutaneous EPO (all also included in our analysis)
-        in a Bayesian MA reached results similar [OR = 0.38; 95%CI:
-        0.28 to 0.51] to ours. We could also demonstrate
-        consistency of the results when analyzed according to OR,
-        RR, various quality dimensions and many different clinical
-        settings (fig 2and 3).
-        Due to these EPO effects, patients with cancer are
-        expected to have direct benefits through fewer transfusions
-        and lower exposure to anemia effects. Furthermore, all
-        patients will benefit indirectly through conservation of
-        the blood supply.
-        The use of RR as summary statistics is less robust than
-        OR [ 4 ] and in this case resulted in greater heterogeneity
-        than the analysis based on OR (see fig 2and 3). The
-        estimate the effects of EPO using RR indicated a smaller
-        effect than OR but both results were significant (p <
-        0.0001 in both analysis). However, when events are common,
-        the OR may overestimate the effect of treatment [ 4 ] . Due
-        to these characteristics of the analysis, we choose to show
-        both (OR and RR) as a summary statistics. Nevertheless, we
-        should mention (see the RESULTS) that the most of
-        heterogeneity could be explained by high transfusion rates
-        in the trial by Porter et al. and inadequacy of allocation
-        concealment in EPO trials. Similarly, it appears that the
-        larger treatment effects are seen when EPO is given in the
-        patients with hb > 11.5 g/dl.
-        Because it was not possible to extract data on quality
-        of life (QOL), this issue was not addressed here. However,
-        a recent systematic review by Bottomley et al [ 37 ]
-        indicated that solid evidence about the effect of EPO on
-        this end point is lacking. We should also mention that the
-        high cost of EPO has deterred its widespread acceptance [ 5
-        ] and more studies using economic analysis should be done
-        to address the issue if the use of EPO is
-        cost-effective.
-        A previous SR [ 5 6 ] found no increased incidence of
-        adverse events of EPO when compared with controls. We also
-        did not find any side effect of EPO consistently reported
-        among trials.
-        Our main goal here is to stress that the basic ethical
-        requirement to randomize patients in clinical trials is
-        that physicians and patients must not have preferences for
-        any of the therapies considered i.e. they should be in the
-        state of uncertainty or equipoise [ 9 ] . If uncertainty
-        does not exist, it is felt to be unethical to ask patients
-        to participate in RCTs [ 9 ] .
-        To assess if uncertainty regarding a clinical question
-        exists, researchers should evaluate the totality of
-        pre-existing knowledge: if we already knew that one
-        treatment is superior to another, nothing new could be
-        learned and we would unnecessarily expose our patients to
-        already known inferior treatment by performing a new trial.
-        We showed here that if a SR/CMA had been used to formally
-        address the uncertainty regarding the effect of EPO in
-        cancer patients, this uncertainty could have been
-        conservatively considered resolved (Fig 4) since 1995. Our
-        findings suggest that 65% of the cancer patients included
-        in this SR participated in placebo controlled clinical
-        trials that were reported after EPO was shown to be
-        superior to placebo. Had a CMA been performed
-        prospectively, it is possible that clinical trialists may
-        have decided against initiating 13 clinical trials. We
-        should note that we analyzed trials according to date of
-        their report. It is conceivable that some trials were
-        initiated before 1995, but were reported after 1995.
-        However, this only means that the uncertainty about the
-        role of EPO could have been solved even earlier (if these
-        patients were available for CMA or a large RCT). For
-        example, if all 656 patients included in randomized studies
-        up to 1995 had participated in only one, large, randomized
-        study, the uncertainty about EPO could have been solved
-        earlier. An alternative approach to large studies in
-        solving uncertainty is to use CMA to monitor accumulation
-        of treatment effects in clinical trials [ 38 ] . The
-        technique of CMA is a powerful scientific instrument to
-        assess the significance of accumulated knowledge [ 8 38 ] .
-        In more than 100 CMA performed, there has never been a
-        single case where the point estimate switched to indicate
-        the opposite effect, once the difference between treatments
-        reached statistical significance [ 8 ] .
+        This study is the first to evaluate the expression and
+        regulation of endogenous human TTP in myeloid and lymphoid
+        cells. It is the first to examine the subcellular
+        localization of native TTP protein in freshly isolated
+        cells, since all previous studies relied on prolonged cell
+        culture or transfection/overexpression approaches using
+        cell lines [ 20 21 22 24 25 ] . We show that endogenous
+        human TTP is expressed in neutrophils, lymphocytes, and
+        monocytes. They are significant in their demonstration that
+        native human TTP is totally cytoplasmic; there was little
+        evidence of nuclear localization in these studies, an
+        observation that is consistent with previous work with
+        human TTP, in which immunoblotting showed cytoplasmic
+        localization [ 24 ] .
+        The discrepancy between our findings and findings of
+        nuclear localization of TTP may be due to several factors [
+        20 21 22 24 25 ] . First, most of those studies did not
+        measure endogenous TTP but usually relied on transfection
+        of cell lines, perhaps resulting in mislocalization due to
+        the presence of an epitope tag or overexpression [ 20 21 22
+        24 25 ] . Second, by definition, those cells were largely
+        cycling and thus were not representative of normal
+        hematopoietic cells. Third, mouse or rat TTP was used in
+        those studies [ 20 21 22 25 ] . Although highly conserved,
+        it is possible that human TTP is subtly different from
+        rodent TTP. We think this unlikely, as immunoprecipitation
+        studies of bone-marrow-derived murine macrophages show
+        murine TTP predominantly in the cytoplasmic fraction [ 23 ]
+        . This matter requires further analysis once improved
+        antibodies to murine TTP are generated.
+        Our studies clearly showed human TTP in lymphocytes and
+        neutrophils, in addition to monocytes. Early work by
+        Carballo and colleagues [ 38 ] showed the importance of
+        macrophages, not lymphocytes, in the development of the
+        phenotype associated with TTP deficiency. This highlights
+        the importance of macrophages in the production of TNF,
+        supported by current hypotheses on the pivotal role of this
+        cell type in TNF overproduction in autoimmune diseases [ 39
+        ] . Thus, our findings suggest that TTP serves an entirely
+        different role in other leukocytes, relative to their role
+        in regulating cytokine production by macrophages, and that
+        TNF production is not simply regulated by TTP.
+        Despite these potential differences in the function of
+        human TTP based on cell type, our studies show a common
+        pattern of induction by LPS in monocytes, neutrophils, and
+        lymphocytes. The upregulation of human TTP occurs rapidly,
+        within the first hour of stimulation. This is consistent
+        with murine data demonstrating that upregulation occurs
+        within 30 min of LPS stimulation, remaining high for 4
+        hours [ 23 ] . Using confocal imaging, we found TTP was
+        primarily detected in the cytoplasmic fraction, confirming
+        our earlier immunoblotting studies [ 24 ] .
+        LPS stimulation of peripheral blood leukocytes 
+        in vitro revealed TTP-induction
+        kinetics analogous to that observed for THP-1 cells. We
+        used a whole blood assay, since the cytokines produced
+        after 
+        in vitro incubation with LPS are
+        analogous to those produced after 
+        in vivo infusion, providing an
+        important model of sepsis [ 40 ] . Baseline expression of
+        TTP was higher in monocytes than in either lymphocytes or
+        neutrophils. Lymphocytes responded the least to LPS
+        stimulation, whereas monocytes responded the most.
+        Monocytes were not followed beyond 4 hours after
+        stimulation with LPS, because of the low numbers of cells
+        retrieved, probably due to upregulation of adhesion
+        molecules (ICAM-1) [ 41 ] .
+        The induction of TTP expression by either LPS or TNF has
+        not been studied in an 
+        in vivo system before. In this study,
+        four human volunteers were infused with LPS and the
+        subsequent changes in leukocyte cell count, TTP expression
+        in leukocyte subpopulations, and levels of TNF were
+        followed over a 72-hour period. Although there was some
+        individual variability in the overall kinetics, basal
+        levels and the initial induction of TTP by LPS were within
+        the range observed 
+        in vitro (Tables 1and 2). All cell
+        types showed an increase in TTP expression within the first
+        hour. Interestingly, TTP was induced by LPS 
+        in vivo more slowly (after 4 hours vs
+        1-2 hours) and to a lesser degree in the lymphocyte
+        population than in neutrophils or monocytes. The absence of
+        LPS-signal transducers (CD14, Toll-like receptor 4) on most
+        lymphocytes relative to monocytes and neutrophils may
+        account for this altered expression [ 42 43 ] . Since
+        lymphocytes express TNF receptors and TNF itself can induce
+        TTP mRNA expression [ 38 ] , these data are consistent with
+        the interpretation that TTP induction in lymphocytes is
+        transduced not by LPS binding, but by TNF produced by
+        monocytes and/or neutrophils acting on lymphocytes.
+        The initial fall in leukocyte cell count observed 
+        in vivo is in accord with published
+        data [ 34 35 36 ] . The numbers of monocytes and
+        neutrophils dropped within the first hour, by approximately
+        98% and 76%, respectively, and of lymphocytes, by 80% after
+        4 hours. This decrease is consistent with data suggesting
+        that the reduction in leukocytes results from a decrease in
+        granulocytes and monocytes as they become activated,
+        migrating and adhering to vascular endothelium [ 44 ] .
+        This drop in cell numbers was followed by an increase in
+        all leukocyte populations, beginning at 12 hours and
+        continuing through the 72-hour time point. This raises the
+        issue of whether the apparent changes in TTP expression
+        were due, in part, to differential rates of margination by
+        leukocyte subpopulations. Since the levels of TTP induction
+        seen in the first hour 
+        in vivo approximate those seen 
+        in vitro , we believe that this
+        induction reflects the increased synthesis and expression
+        of TTP by all leukocyte subpopulations and is consistent
+        with the kinetics of their mRNA induction [ 23 ] .
+        TTP and TNF are reportedly involved in a
+        negative-feedback loop, in which increases in TNF
+        concentration are associated with induction of TTP [ 23 ] .
+        In these studies, LPS, which induces the release of TNF [
+        45 ] , produced a rise in TTP within 4 hours of
+        stimulation. Although the initial rise in TTP 
+        in vivo paralleled a rapid and
+        considerable increase in plasma TNF, the second, late
+        increases in intracellular TTP did not reflect TNF levels.
+        This change may have been mediated by other cytokines
+        (IL-1β, IL-8) whose levels have been shown to increase with
+        kinetics that parallel this rise in TTP [ 40 46 47 ] .
+        Alternatively, the late rise in cytoplasmic TTP may be due
+        to release from the bone marrow of leukocytes that have
+        high levels of TTP or an adaptive response to
+        endotoxemia.
+        TNF overproduction mediates both sepsis and chronic
+        inflammatory disorders such as RA. Its production may be
+        modulated at transcriptional, post-transcriptional, and
+        post-translational levels [ 48 49 50 ] . Many of the
+        effects observed after LPS stimulation can be attributed to
+        subsequent production of TNF. Moreover, infusion of TNF
+        initiates inflammatory processes, with a resulting
+        phenotype that is indistinguishable from bacterial sepsis [
+        13 14 ] . We investigated the contribution of TNF in the
+        LPS-mediated induction of TTP in THP-1 cells using a
+        blocking TNF antibody. TNF induction of TTP expression was
+        almost completely eliminated by incubation with the TNF
+        inhibitor, proving the direct effect of TNF on TTP
+        induction. LPS, however, induced much greater levels of TTP
+        in THP-1 cells than TNF did. In the presence of blocking
+        TNF antibody, LPS induction of TTP was initially unaffected
+        but began to decline after 1 hour, suggesting that LPS
+        itself may mediate the initial increases in TTP and showing
+        that the prolonged induction of TTP is dependent on
+        TNF.
       
       
         Conclusion
-        EPO is highly effective for cancer-related anemia. This
-        effect could have been detected in 1995 if CMA had been
-        performed at that time. The techniques of CMA should be
-        used more frequently in the future to preserve "the
-        uncertainty principle" [ 9 ] and protect patients who
-        consent to be randomized in clinical trials.
+        We have shown through an intracellular staining assay
+        that human TTP expression is modulated by LPS and TNF.
+        LPS-induction of TTP was partly dependent on the production
+        of TNF. The ability of LPS to induce TTP independently of
+        TNF may account for the earlier response observed in
+        neutrophils and monocytes that have LPS-signaling
+        transduction molecules. In contrast, lymphocytes
+        demonstrate a delayed and lower TTP response and are
+        probably responding to TNF, or other cytokines, produced by
+        myeloid cells. In addition, a second rise in TTP expression
+        was observed 
+        in vivo , which did not correlate
+        with any detectable rise in TNF concentration, implying
+        that there are additional factors involved in the
+        regulation of this intracellular protein. TNF is a
+        predominant proinflammatory cytokine, particularly in
+        sepsis and chronic inflammatory disorders suggesting that
+        the role of its negative regulator, TTP, may be of
+        functional importance in the development and pathogenesis
+        of disease. Investigating any potential abnormalities in
+        expression or regulation may prove to be a valuable
+        therapeutic intervention.
       
       
         Competing interests
-        No funding or honoraria were provided for this work to
-        any of the authors. CB and BD served as consultants for the
-        US manufacturers of erythropoietin (Amgen, Ortho) and also
-        received their unrestricted support for organization of
-        educational seminars unrelated to the use of
-        erythropoietin.
+        None declared.
       
       
-        Authors' contributions
-        OC conceptualized the study, defined the protocol,
-        extracted and analyzed data, wrote the draft and approved
-        the final version of the paper. JRD extracted data,
-        contributed to the protocol writing, extracted and analyzed
-        data, contributed to the drafts and approved the final
-        version of the paper. CLB analyzed data, took an active
-        participation on the writing of all versions of the draft
-        and approved the final version of the paper. BD
-        conceptualized the study, defined the protocol, extracted
-        and analyzed data, wrote the draft and approved the final
-        version of the paper.
+        Abbreviations
+        APC = allophycocyanin; ARE = AU-rich element; CM =
+        complete media; ELISA = enzyme-linked immunosorbent assay;
+        FACS = fluorescence-activated cell sorting; FITC =
+        fluorescein isothiocyanate; IL = interleukin; KLH = keyhole
+        limpet hemocyanin; LPS = lipopolysaccharide; MESF =
+        milliequivalents of soluble fluorescein; RPMI = Roswell
+        Park Memorial Institute [medium]; RT-PCR = reverse
+        transcriptase polymerase chain reaction; TNF = tumor
+        necrosis factor; TNFR = TNF receptor; TTP =
+        tristetraprolin; WBC = white blood cell.
       
     
   

@@ -3,571 +3,641 @@
     
       
         Background
-        Maitotoxin (MTX), one of the most potent marine toxins
-        known, is found in the "red-tide" dinoflagellate, 
-        Gambierdiscus toxicus, and is
-        responsible in part for Ciguatera seafood poisoning. In all
-        cells examined to date, MTX at subnanomolar concentrations
-        causes a profound increase in cytosolic free Ca
-        2+concentration ([Ca 2+] 
-        i ) [ 1]. This occurs, not by release of
-        Ca 2+from internal stores, but rather from activation of a
-        ubiquitously-expressed, non-selective, Ca 2+-permeable
-        cation channel (CaNSC), present in the plasmalemma [ 2, 3,
-        4, 5, 6, 7, 8]. Channel activation is followed after a
-        short lag by the activation or formation of large
-        endogenous pores that allow organic molecules with
-        molecular weights of <800 Da to cross the plasma
-        membrane [ 8]. The activation of these pores can be
-        determined experimentally by following the uptake of
-        ethidium and propidium-based vital dyes. These dyes, of
-        varying molecular weights, are normally excluded from the
-        cytoplasm of intact viable cells, but gain access to the
-        cell interior following pore formation where they bind to
-        nucleic acids with a concomitant increase in dye
-        fluorescence. The large pores activated by MTX have been
-        referred to as cytolytic/oncotic pores, or COP, since their
-        activation ultimately leads to the release of lactate
-        dehydrogenase (LDH), an indication of necrotic or oncotic
-        cell death [ 9].
-        The cell death cascade activated by MTX is not unique to
-        this toxin. Stimulation of P2X purinergic receptors by ATP
-        causes similar changes in cytosolic Ca 2+and vital dye
-        uptake [ 10, 11, 12, 13, 14, 15, 16, 17] suggesting that
-        MTX activates a cell death cascade that is physiologically
-        relevant, although the exact role of either the P2X- or
-        MTX-induced cascade in normal cellular biology remains
-        unknown. For the P2X receptor it has been suggested that
-        the Ca 2+-permeable channels grow in size to form the
-        dye-permeable pores through either aggregation of channel
-        subunits or through dilation of the existing channel pore
-        structure [ 12, 18, 19, 20, 21]. In support of this model
-        it has been found that the kinetics of ATP-induced pore
-        formation in HEK cells, heterologously expressing the P2X 
-        7 receptor, appears to depend on
-        molecular size of the permeating ionic species [ 19].
-        However, we recently showed that although MTX and ATP
-        activate distinct channels, the characteristics of the ATP-
-        and MTX-activated COP are indistinguishable [ 9]. These
-        results suggest that the channel and COP are unique
-        molecular structures. The aggregation or dilation model
-        make specific predictions concerning the kinetics of dye
-        uptake. In particular, this model predicts a delay between
-        channel activation and dye uptake and this delay should be
-        directly proportional to the molecular size of the
-        permeating dye. Furthermore, if pores grow in size, dye
-        uptake should be nonlinear with time. In contrast, if
-        channel activation causes the formation or activation of a
-        molecularly unique COP with fixed pore dimensions, the
-        delay between channel activation and dye uptake should be
-        independent of molecular size, but the subsequent rate of
-        dye uptake should be linear and inversely proportional to
-        molecular weight. To distinguish between these two models,
-        the effect of MTX on [Ca 2+] 
-        i , vital dye uptake and LDH release was
-        examined in bovine aortic endothelial cells, a cell line
-        particularly sensitive to the cytolytic effects of MTX. The
-        results of the present study are consistent with the
-        activation of an endogenous COP of fixed pore
-        dimensions.
-        The opening of large pores in the plasmalemma is
-        expected to cause a dramatic change in the ionic
-        concentration gradients that normally exist between the
-        extracellular and intracellular milieus, i.e., loss of K +,
-        and gain of Na +, Ca 2+, and Cl -by the cell. The
-        concomitant flow of water into the cell as a result of this
-        ionic redistribution, will drive the cell towards the
-        Gibbs-Donnan equilibrium. The change in osmotic pressure
-        will produce cell swelling and ultimately membrane rupture
-        and release of large macromolecules from the cytoplasm.
-        This final phase in the cell death cascade can be monitored
-        experimentally by measuring the release of the ubiquitous
-        cytosolic enzyme, LDH. The role of COP and the biophysical
-        mechanism associated with this rather violent cellular
-        event remains unknown. However, many cell types undergo
-        membrane blebbing in response to changes in osmotic
-        pressure. Such membrane blebbing, which may in a sense
-        represent a cellular safety valve, has been reported during
-        both ATP- and MTX-induced cell death [ 19, 22], but it is
-        unclear if blebbing occurs before, during, or after COP
-        formation or LDH release. In the present study, the effect
-        of MTX on vital dye uptake in BAECs was correlated with
-        changes in cell morphology using single cell fluorescence
-        videomicroscopy. The videos presented demonstrate that COP
-        activation as indicated by vital dye uptake correlates in
-        time with the formation of membrane blebs, and that
-        membrane lysis, i.e., LDH release, is associated with
-        dramatic bleb dilation.
+        Microarrays are tools for functional genomics research
+        that are manufactured by depositing spots of DNA onto a
+        glass or nylon substrate [ 1 2 ] . The spots' DNA are often
+        obtained from many different clones in a cDNA library, each
+        of which may contain a stretch of polyA originating from
+        the mRNA in the pool from which the library was derived.
+        Because first strand cDNA probes that are hybridized to
+        such microarrays usually consist of poly(T)-containing
+        molecules, which are produced by the reverse transcription
+        of some tissue's poly(A) +RNA mixture, there is the
+        potential for promiscuous polyA/polyT cross-hybridization
+        between the first strand cDNA probes and the microarray DNA
+        spots. In fact, when microarrays were first being
+        developed, investigators described situations in which
+        their microarray hybridization data were dominated by this
+        artifactual "polyA effect" (or its converse when polyA
+        tails are in the labeled probe) [ 3 4 ] . To reduce the
+        polyA effect, it is therefore common practice to add
+        unlabeled polyA to the hybridization mixture to bind to the
+        polyT segments of the hybridization probe, thus competing
+        with the polyA segments in the microarray spots.
+        Despite the use of unlabeled polyA as a blocking agent,
+        when microarray hybridization results obtained using probes
+        derived from mRNA from two different sources are nearly the
+        same, one cannot be certain that the similarity of the
+        results is due to the similarity of the different mRNA
+        source material, rather than to incomplete blockage of the
+        polyA effect in both of the hybridizations. We were faced
+        with this issue in connection with the similarity of
+        microarray results that we obtained in a comparison between
+        skeletal muscle mRNA from two related strains of rats. As a
+        result, we undertook a search for the presence of the polyA
+        effect, in which we made a spot-by-spot comparison of a
+        microarray that was hybridized with an oligo(dT) probe,
+        versus the same microarray hybridized using a first strand
+        cDNA probe produced from skeletal muscle mRNA. Our
+        expectation was that if the polyA effect was present, there
+        would be a strong spot-to-spot correlation between the
+        signals generated with these two probes. We were surprised
+        to find that there appear to be prominent artifacts related
+        to promiscuous polyA/polyT hybridization 
+        only with very strongly expressed
+        genes , which might be due to the formation of
+        hybridization heteropolymers at the corresponding
+        microarray spots.
       
       
-        Results and Discussion
+        Results
         
-          MTX increases [Ca 2+] iin BAECs
-          Fura-2-loaded BAECs were suspended in HBS, placed in a
-          cuvette at 37°C, and the response to extracellular
-          application of MTX was recorded as a function of time
-          (Fig. 1). MTX produced an immediate,
-          concentration-dependent increase in [Ca 2+] 
-          i . At the highest concentration of
-          MTX examined (3 nM), [Ca 2+] 
-          i rapidly increased within 1-2 minutes
-          from a mean ± SE resting level of 63 ± 4 nM to an
-          apparent [Ca 2+] 
-          i value close to fura-2 saturation. We
-          previously showed that MTX-induced activation of COP
-          allows leakage of fura-2 from human skin fibroblasts [
-          8]. Thus, the apparent saturation of the fluorescence
-          ratio observed in BAECs reflects, at least in part, a
-          contribution from extracellular fura-2. This is
-          particularly true at later times. Nonetheless, the major
-          effect of increasing MTX concentration was on the rate of
-          change of [Ca 2+] 
-          i , and the apparent ED 
-          50 was approximately 0.3 nM MTX. MTX
-          had no effect on BAEC [Ca 2+] 
-          i in the absence of extracellular Ca
-          2+(data not shown), demonstrating that MTX activates Ca
-          2+influx, but does not cause the mobilization of Ca
-          2+from internal stores. These results are similar to
-          those obtained in human skin fibroblasts, mouse THP-1
-          monocytes, and human embryonic kidney (HEK) cells [ 8, 9]
-          and supports the conclusion that the MTX-activated CaNSC
-          is ubiquitously expressed.
+          Hybridization to the microarray
+          Fig. 1shows background-subtracted images of a
+          microarray that has been hybridized with first strand
+          cDNA derived from skeletal muscle mRNA. Also shown in
+          Fig. 1are the background-subtracted images of the array
+          after hybridization with end-labeled oligo(dT), performed
+          in order to measure accessible PolyA in the spots.
         
         
-          MTX activates COP in BAECs
-          To evaluate MTX-induced activation of COP in BAECs,
-          the uptake of ethidium (M 
-          w 314 Da), YO-PRO-1 (M 
-          w 375 Da) and POPO-3 (M 
-          w 715 Da) was examined at various
-          concentrations of MTX (Fig. 2). After a short lag, MTX
-          produced a biphasic, concentration-dependent increase in
-          ethidium, YO-PRO, and POPO-3 uptake into the cells. The
-          lag-time for a given concentration of MTX was the same
-          for each dye (Fig 2Dand 2E; first dashed lined), but the
-          rate of dye uptake during the initial phase was inversely
-          proportional to molecular weight. Furthermore, at the
-          highest concentration of MTX examined, the uptake of
-          ethidium, YO-PRO, and POPO-3 during the initial phase was
-          linear (Fig. 2D). These results suggest that the first
-          phase reflects activation of a large pore (i.e.,
-          activation of COP) that exhibits finite permeability for
-          each of the dyes tested and is distinct from the CaNSC
-          activated by MTX. The molecular mechanisms responsible
-          for the delay between MTX addition and COP formation
-          (i.e., vital dye uptake) is unknown. The delay, which was
-          also observed in fibroblasts, HEK cells, and THP-1
-          monocytes [ 8, 9] suggests that there may be several
-          biochemical steps between channel activation and COP
-          formation or that the concentration of a critical second
-          messenger must reach a threshold level before COP opens.
-          This could explain the temperature sensitivity of vital
-          dye uptake, previously noted for both MTX- [ 8, 9] and
-          purinergic receptor-induced [ 12, 15] vital dye uptake.
-          During the second phase, dye uptake was all-or-nothing
-          and once initiated the rate of dye uptake was independent
-          of dye molecular weight, i.e., ethidium, YO-PRO, and
-          POPO-3 all enter the cell at the same time and at the
-          same rate for each concentration of MTX examined. These
-          results suggest that the second phase of dye uptake is
-          related to cytolysis.
+          Search for artifacts from the PolyA effect
+          As shown in the scatterplot provided in Fig. 2, there
+          is only a weak correlation between the hybridization
+          signals of spots with first strand cDNA from rat muscle,
+          versus hybridization of the spots with oligo(dT). Among
+          the 567 microarray spots having muscle gene-expression
+          signals in the range that could be detected (as defined
+          in the Methods section), the Pearson correlation between
+          the muscle signals and the signals obtained using the
+          oligo(dT) probe is only 0.46, and the correlation is even
+          weaker (0.37) when the correlation calculation is
+          restricted to microarray spots having a muscle signal
+          greater than the median value of 7682 phosphorimager
+          units. We therefore conclude that a polyA effect is not
+          readily apparent in these data, presumably because we had
+          added unlabeled polyA to the hybridization mixture as a
+          blocking agent.
+          Spots at random locations throughout the array did not
+          bind significantly to the oligo(dT) probe, almost all of
+          which correspond to spots at which there was also no
+          binding of muscle cDNA. Such spots do not appear to
+          represent defects in the manufacturing of the array
+          filter at which no DNA was deposited, because at the end
+          of the experiment, we looked for DNA in those spots
+          directly by staining them with the fluorescent nucleic
+          acid dye acridine orange, followed by imaging of the
+          spots with a fluorimager. Spots that gave no signal with
+          the oligo(dT) probe nevertheless had a corresponding
+          fluorescence signal, except for the deliberately vacant
+          positions in the right hand side of each of the
+          microarray matrices shown in Fig. 1. Furthermore, there
+          was one spot at which binding to the oligo(dT) probe was
+          undetectable, but at which there was nevertheless a very
+          strong binding to the muscle probe. That spot (field 1d,
+          column 11, row 21 in Fig. 1and position 14511,0 in Fig.
+          2) corresponds to the enteric smooth muscle form of gamma
+          actin (Accession number T60048), which according to
+          GenBank's annotation for that accession number is a
+          possible reversed clone because polyT (or polyA in its
+          complementary strand) was not found within it.
         
         
-          MTX induces LDH release
-          To test the hypothesis that the second phase of dye
-          uptake reflects a large change in membrane permeability
-          indicative of cytolysis, the uptake of ethidium and
-          release of LDH (Mw 140,000 Da) were compared in parallel
-          experiments performed on the same batch of cells (Fig 3).
-          MTX again produced a biphasic increase in ethidium uptake
-          into the cells. No LDH release was observed during the
-          first phase of ethidium uptake consistent with the
-          hypothesis that activation of COP occurs prior to release
-          of LDH. Extracellular LDH was measurable 7 minutes after
-          MTX addition and subsequently increased in parallel with
-          the second phase of ethidium uptake. These results
-          suggest that the second phase of dye uptake reflects a
-          loss of membrane integrity and provides an explanation
-          for the all-or-nothing uptake of ethidium, YO-PRO, and
-          POPO-3, during this time frame. Note that more than 90%
-          of the cell associated LDH is released within 15 minutes
-          of MTX (0.3 nM) addition. For comparison, we previously
-          reported that treatment of human skin fibroblasts for 10
-          minutes with 1 nM MTX caused release of 28% of
-          cell-associated LDH [ 8]. Thus, BAECs are particularly
-          sensitive to the cytolytic effects of MTX.
+          Observation of outlier microarray spots
+          Although there is generally little correlation between
+          the hybridization values obtained with oligo(dT) and
+          muscle cDNA, this may not be true for spots that show the
+          greatest binding to oligo(dT). For the spots showing
+          oligo(dT) hybridization values greater than 12000
+          (phosphorimager units), the corresponding value of the
+          muscle cDNA hybridization is always 24000 or more
+          (phosphorimager units). This result was obtained for the
+          same eight microarray spots, when microarray
+          hybridizations were performed using muscle mRNA from both
+          fa/fa and Fa/Fa Zucker rats. In contrast, spots with
+          oligo(dT) hybridization values less than the threshold
+          value of 12000 exhibit corresponding values for the
+          muscle probe hybridization that may be anywhere between
+          zero and the upper range of values.
+          The finding is not likely to be a chance happenstance
+          for the following reason. If the null hypothesis is that
+          the muscle-probe hybridization values for spots with
+          polyA values > 12000 have the same statistical
+          distribution as spots with polyA values < 12000, then
+          the probability that all eight of them have values
+          greater than the median is (1/2) 8= 0.0039, and the
+          probability that all eight of them have a value greater
+          than 24000 is less than (52/567) 8which is less than 10
+          -8, because only 52 of the 567 detectable spots have
+          values greater than 24000. Thus, we reject the null
+          hypothesis and conclude that the statistical distribution
+          of muscle-probe values among spots having polyA values
+          greater than the threshold of 12000 is significantly
+          different than that for the remainder of the spots.
+          The question then arises as to whether there is
+          anything unusual about the clones used to generate the
+          DNA for those eight outlier microarray spots that 
+          a priori would have allowed us to
+          flag them as potential concerns? As now described,
+          distinguishing features of the clones might be that (1)
+          they have unusually short inserts or (2) they may contain
+          an unusually large fraction of bases that might be
+          expected to bind to oligo(dT), namely, the bases that lie
+          within a sequence run of AAAAAA... .
         
         
-          MTX produces similar changes in dye uptake in
-          single BAECs
-          The ethidium uptake experiments shown in Figs. 2and
-          3reflect the average response of the entire population of
-          BAECs within the cuvette. It is possible that the
-          biphasic kinetics observed reflects, at least in part,
-          heterogeneity within the cell population. To test this
-          hypothesis, the effect of MTX was examined at the single
-          cell level using fluorescence microscopy (Fig 4). BAECs
-          were sparsely seeded on glass coverslips and mounted on
-          the stage of an inverted fluorescence microscope. The
-          epifluorescence in each cell was measured using a CCD
-          camera and image analysis software. The uptake of
-          ethidium by single BAECs, as indicated by the change in
-          single cell fluorescence, was biphasic (Fig 4). The rate
-          of ethidium uptake during the first phase was
-          concentration-dependent, but the second phase appeared to
-          be all-or-nothing as was seen in the cuvette experiments.
-          Likewise, the delay between addition of MTX and the
-          second phase of ethidium uptake, although variable from
-          cell to cell, was concentration-dependent. Thus, the
-          overall profile observed at the single cell level
-          recapitulated the results obtained in the population
-          experiments. One interesting difference between the
-          cuvette and single cell experiments is the time at which
-          the second phase begins. As seen in Fig 2A, the second
-          phase of dye uptake started approximately 5 minutes after
-          addition of 1 nM MTX. At the single cell level, the
-          second phase is clearly delayed and on average begins
-          approximately 10-12 minutes after 1 nM MTX addition (Fig
-          3D). Although we do not know the reason for this
-          difference, the population studies were performed on
-          dispersed cells in a cuvette whereas, the single cell
-          studies were performed on BAECs attached to glass
-          coverslips. Thus, adherent cells may be resistant to the
-          gross changes in membrane structure that occurs during
-          the second phase of the response to MTX.
-          Previous studies suggested that ATP-induced pores in
-          HEK cells heterologously expressing the P2X 
-          7 purinergic receptor, were formed
-          either by dilation of the channel structure or by
-          aggregation of channels subunits [ 19]. However, these
-          studies relied on shifts in the reversal potential of
-          whole-cell membrane currents. Although this is a
-          sensitive technique for determining the time course of
-          pore formation, these experiments do not eliminate the
-          possibility that COP and the P2X channel are separate
-          entities. In the present study, the effect of MTX on
-          membrane permeability occurred in three distinct phases.
-          The first phase reflects the activation of a CaNSC and a
-          large and rapid increase in [Ca 2+] 
-          i . After a short lag, the activation
-          of COP allowed uptake of vital dyes into the cell and the
-          lag was independent of dye molecular weight. At the
-          highest concentration of MTX examined, dye uptake via COP
-          was linear and inversely proportional to molecular
-          weight. These results suggest that COP does not increase
-          in size as a function of time, as would be predicted by
-          the dilation or aggregation model. Furthermore, these
-          results strongly suggest that the CaNSC and the COP are
-          unique molecular structures.
+          Relation between clone sequence and oligo(dT) probe
+          hybridization signal
+          A search of GenBank reveals that only partial
+          sequences are available for the clones corresponding to
+          the eight outlier spots. One of the clones has a partial
+          sequence containing a polyA stretch consisting of 41
+          bases (Accession H94857 (3') and H94912 (5') = GCN5
+          general control of amino-acid synthesis 5-like 1 = spot
+          1e6,28 in Fig. 1= point 33211,15102 in Fig. 2). Five of
+          the others have stretches of A or T between 15 and 26
+          bases, which are not unusual (Accession R52548 (3') and
+          R52604 (5') = Superoxide dismutase 1 = spot 1c1,21 in
+          Fig. 1= point 24216,12384 in Fig. 2; AA460830 (3') and
+          AA461132 (5') = RNA polymerase II polypeptide J = spot
+          1b11,3 in Fig. 1= point 48345,12055 in Fig. 2; AA434115
+          (3') and AA434048 (5') = Cartilage glycoprotein 39 = spot
+          1b7,20 in Fig. 1= point 30221,14554 in Fig. 2; AA490256
+          (3') and AA490356 (5') = Guanine nucleotide-binding
+          protein G(K) alpha subunit = spot 1f,7,19 in Fig. 1=
+          point 24195,14273 in Fig. 2; and H93118 (3') and H93246
+          (5') = EST = spot 1c12,26 in Fig. 1= point 42177,15785 in
+          Fig. 2). The other two clones contain stretches of A no
+          longer than 6 bases (Accession AA456352 (5') and AA454703
+          (3') = DEAD/H Asp-Glu-Ala-Asp/His box peptide 38 = spot
+          1f4,14 in Fig. 1and point 32545,14353 in Fig. 2; and
+          N92646 (3') and N99582 (5') = granulocyte-macrophage
+          colony stimulating factor receptor 1 = spot 1f5,21 in
+          Fig. 1= point 41079,15760 in Fig. 2). However, N92646
+          contains an A-rich stretch of 30 base pairs with 23 A
+          bases, and AA454703 contains more than one stretch of 6-A
+          bases. Because stable hybridization duplexes have been
+          reported with oligonucleotides as short as 7 bases [ 5 ]
+          , and because such stable duplexes may be formed even if
+          there are base-pair mismatches [ 6 ] , it is conceivable
+          that the oligo(dT) probe could have hybridized to the
+          A-rich regions in the 3' or 5' ends of the DNA in each
+          the outlier spots.
+          The oligo(dT) probe could also have hybridized to the
+          unknown sequences between the 3' and 5' ends of these
+          clone inserts, so we sought their complete sequences. For
+          purposes of comparison, we also sought the complete
+          sequences of all clone inserts for which the muscle cDNA
+          gave a hybridization signal in the range exhibited by the
+          outlier clones (>24000 phosphorimager units). We
+          sought the full sequences by using the clustering tool
+          "IMAGEne" available at the IMAGE Consortium web page
+          http://image.llnl.gov. This tool attempts to match the 5'
+          and 3' partial sequences of a clone insert with the
+          sequences of all other IMAGE clone inserts, as well as
+          with all RefSeq reference sequences [ 7 ] . If matches
+          are found, the entire clone insert sequence may then be
+          constructed by piecing together overlapping matches of
+          the contiguous sequences. Among the 52 clones for which
+          the muscle cDNA gave a hybridization signal in the range
+          exhibited by the outlier clones (>24000 phosphorimager
+          units), it was possible to construct the entire insert
+          sequence of 18 clones (see Additional File 1). Three of
+          these clones are among the outlier group for which the
+          polyA signal is greater than 12000 phosphorimager
+          units.
+          Additional File 1
+          
+          Complete DNA sequences of 18 clone
+          inserts . This file contains complete DNA sequences
+          of 18 clone inserts. The clones correspond to microarray
+          spots for which the muscle cDNA probe signal is greater
+          than 24000 phosphorimager units. The sequences were
+          constructed using the clustering tool IMAGEne at the
+          IMAGE Consortium web site http://image.llnl.gov. For each
+          sequence, we also provide the IMAGE clone ID, Genbank
+          accession numbers for the 5' and 3' partial sequences,
+          the RefSeq or IMAGE Consortium cluster ID that is used to
+          join the 5' and 3' partial sequences, the microarray
+          location of the corresponding spot, the strength of the
+          corresponding signal from hybridizing to the oligo(dT)
+          probe, the strength of the corresponding signal from
+          hybridizing to the muscle cDNA probe, and the sequence
+          length.
+          Click here for file
+          We then noted two features of the sequence data that
+          may explain in part the large signals that the outlier
+          microarray spots exhibited when hybridized to the
+          oligo(dT) probe. The first feature is that the
+          hybridization signal is generally inversely proportional
+          to sequence length, and two of the outlier clones have
+          unusually short lengths. As seen in Fig. 3, the two
+          outlier clones having insert lengths of less than 400
+          base pairs give the strongest hybridization signals.
+          Because each microarray spot has the same total amount of
+          DNA (5 ng), the microarray spots associated with these
+          clones must have an unusually large number of short,
+          densely deposited target molecules, and should therefore
+          produce a proportionately large signal. The third outlier
+          spot had an oligo(dT) hybridization signal only barely
+          larger than the threshold of 12000 phosphorimager units
+          and has a somewhat longer insert length (622 base pairs).
+          The second noteworthy feature of the sequence data is
+          that outlier spots may contain an unusually large
+          fraction of bases that might be expected to bind to
+          oligo(dT), namely, the bases that lie within a sequence
+          run of seven or more As (AAAAAAA). As seen in Fig. 4, for
+          two of the outlier clones, the fraction of such bases
+          have relatively high values of 0.028 and 0.040. The third
+          outlier spot has an oligo(dT) hybridization signal only
+          barely larger than threshold of 12000 phosphorimager
+          units and has a more typical fraction of 0.020.
         
-        
-          MTX causes biphasic membrane blebbing
-          During the final phase of MTX-induced effects, there
-          is a gross change in membrane integrity which allows
-          rapid uptake of vital dyes, independent of dye molecular
-          weight. This final phase is associated with release of
-          LDH which is indicative of oncotic cell death. However,
-          over the course of the single cell experiments we noticed
-          that BAECs treated with MTX not only accumulate vital
-          dyes, but also undergo an enormous reorganization of the
-          plasma membrane to form giant membrane blebs. An example
-          of MTX-induced membrane blebs is shown in the micrograph
-          in Fig 5which was obtained with Hoffman optics and
-          simultaneous bright-field and fluorescence illumination.
-          After 50 minutes of MTX treatment at room temperature,
-          YO-PRO staining is prominent in the nucleus as expected,
-          but is also visible in giant membrane blebs seen
-          surrounding each cell in the field of view. At the
-          present time, we do not know the composition of the
-          membrane that comprise each bleb, or the structural
-          features of the cell that would allow evagination or
-          expansion of these membrane structures at specific sites
-          on the cell surface. However, blebbing presumably
-          requires a change in osmotic pressure within the cell and
-          so we reasoned that the blebs may be associated with the
-          second phase of vital dye uptake. To test this
-          hypothesis, we compared the morphological changes at the
-          cell surface with dye uptake at the single cell level
-          using time-lapsed videomicroscopy. A montage showing
-          bright-field and fluorescence image pairs is shown in Fig
-          6and the complete time-lapsed video sequence is shown in
-          Fig 1of the 
-          Additional Data Files section (
-          Montage.avi). As can be seen, the first phase of ethidium
-          uptake is associated with the formation of membrane blebs
-          (Fig 6, yellow arrows) with an average diameter of
-          approximately 4 microns. Blebs begin to form within 3
-          minutes of MTX addition to the bath solution and remain
-          at essentially a fixed size until approximately time 22
-          minutes. As seen in the graphic presentation of
-          fluorescence in each cell (Fig 6, bottom right), bleb
-          formation correlates with the initial phase of dye
-          uptake. From time 28 to 38 minutes, the second phase of
-          dye uptake is observed, and this phase is associated with
-          large bleb dilation (Fig 6, red arrows). These results
-          demonstrate that COP activity is associated with initial
-          bleb formation, whereas LDH release (i.e., cytolysis) is
-          associated with dramatic bleb dilation.
-          File 1: Montage.avi
-          EB uptake and membrane blebbing in BAECs.
-          BAECs on glass cover-slips were perfused with HBS at
-          37°C. A phase (left) and fluorescence (right) image pair
-          was obtained every 30 sec for 40 min. MTX (0.3 nM) was
-          added to the bath solution at time 5 min. The time-lapse
-          video was created from the captured images as described
-          in 
-          Material and Methods , with a time
-          compression of 3.5 minutes (i.e., 7 images) per
-          second.
-          movie 1
-          To better appreciate the dynamic nature of bleb
-          formation and to clearly observe the rapid nuclear
-          staining associated with bleb dilation, we created
-          time-lapsed movies in which the bright-field and
-          fluorescence images were merged into a single video (Fig
-          2, EB.aviand Fig 3, YO-PRO.avi; 
-          Additional Data Files section). By
-          setting your video viewer to continuously loop (i.e.,
-          auto replay), and by focusing during each sequence on a
-          single cell within the field of view, it can be seen that
-          fluorescence increases slowly during bleb formation, but
-          that intense rapid dye staining occurs during the bleb
-          dilation phase. As seen in Fig 5, and in each of these
-          videos, MTX-induced blebbing results in an enormous
-          increase in membrane surface area which may represent
-          stretching of the membrane or an evagination of existing
-          caveolar structures associated with the plasmalemma of
-          endothelial cells. Endothelial cells are also known to
-          have an extensive system of intracellular vesicles which
-          are used for transporting substances from the blood to
-          the interstitial space, i.e., transcytotic vesicles.
-          Thus, membrane blebbing could reflect a massive
-          exocytotic event. Why this would occur at selective sites
-          on the plasmalemma remains unknown. Interestingly, the
-          videos show several examples of blebs forming on the
-          surface of pre-existing blebs during the dilation phase.
-          Thus, the structural element(s) that are required for
-          localized evagination of membrane appears to be
-          membrane-associated and/or "pulled" from the cytoplasm
-          during the initial bleb formation. Irrespective of the
-          exact mechanism, the experiments reported in the present
-          study are the first to correlate MTX-induced vital dye
-          uptake with alterations in cell morphology.
-          File 2: EB.avi
-          EB uptake and membrane blebbing in BAECs.
-          BAECs on glass cover-slips were perfused with HBS at
-          37°C. A phase and fluorescence image pair was obtained
-          every 30 sec for 40 min. MTX (0.3 nM) was added to the
-          bath solution at time 5 min. The time-lapse video was
-          created from the captured images as described in 
-          Material and Methods , with a time
-          compression of 3.5 minutes (i.e., 7 images) per second.
-          For this movie, the phase and EB fluorescence images were
-          merged into a single video. EB fluorescence is given a
-          red pseudocolor.
-          movie 2
-          File 3: YO-PRO.avi
-          Yo-PRO-1 uptake and membrane blebbing in BAECs.
-          BAECs on glass cover-slips were perfused with HBS at
-          37°C. A phase and fluorescence image pair was obtained
-          every 30 sec for 40 min. MTX (0.3 nM) was added to the
-          bath solution at time 5 min. The time-lapse video was
-          created from the captured images as described in 
-          Material and Methods , with a time
-          compression of 3.5 minutes (i.e., 7 images) per second.
-          For this movie, the phase and YO-PRO fluorescence images
-          were merged into a single video. YO-PRO fluorescence is
-          given a green pseudocolor.
-          movie 3
-        
-        
-          MTX-induced membrane blebbing requires Ca 2+
-          Previous studies on human skin fibroblasts showed that
-          MTX had no effect on [Ca 2+] 
-          i , vital dye uptake, or fura-2 efflux
-          when the cells were challenged in the absence of
-          extracellular Ca 2+[ 8]. Although elevating [Ca 2+] 
-          i with ionomycin had no effect on
-          vital dye uptake, preliminary experiments in which
-          fibroblasts were loaded intracellularly with the Ca
-          2+chelator BAPTA, showed that MTX-induced responses were
-          significantly delayed, suggesting that a rise in [Ca 2+] 
-          i is necessary, but not sufficient for
-          MTX-induced COP formation. To determine if extracellular
-          Ca 2+is also required for MTX-induced membrane blebbing,
-          changes in cell morphology were correlated with ethidium
-          uptake in the presence of Ca 2+-free extracellular buffer
-          (Fig. 7; the video showing the merged phase and
-          fluorescence images for this experiment is given in the 
-          Additional Data Files section; see
-          Ca-free.avi). MTX had no effect on BAECs incubated in Ca
-          2+-free buffer. Importantly, no dye uptake or membrane
-          blebbing was observed for 30 min after the addition of
-          MTX to the bath solution. Subsequent readmission of Ca
-          2+to the bath produced an increase in ethidium uptake
-          that again followed a biphasic time course, virtually
-          identical to the profile observed when MTX was added to
-          cells incubated with normal Ca 2+-containing medium. As
-          seen in Fig 7and the video, dramatic membrane blebbing
-          and ethidium uptake is observed 25 min after re-addition
-          of Ca 2+to the bath. Control experiments in which Ca
-          2+was removed and added back to BAECs in the absence of
-          MTX showed that these responses were dependent on the
-          presence of MTX, i.e., no dye uptake or blebbing was
-          detected in the absence of MTX (Fig 7). These results
-          demonstrate that extracellular Ca 2+is necessary for
-          MTX-induced COP formation and membrane blebbing, and
-          suggest that both responses require Ca 2+influx and a
-          concomitant rise in [Ca 2+] 
-          i .
-          File 4: Ca-free.avi
-          Effect of Ca 2+on ethidium uptake and membrane
-          blebbing in BAECs.
-          BAECs on glass cover-slips were perfused with Ca
-          2+-free HBS at 37°C. A phase and fluorescence image pair
-          was obtained every 30 sec for 60 min. MTX (0.3 nM) was
-          added to the bath solution at time 5 min and Ca 2+was
-          re-added to the bath solution at time 35 min. The
-          time-lapse video was created from the captured images as
-          described in 
-          Material and Methods , with a time
-          compression of 3.5 minutes (i.e., 7 images) per second.
-          For this movie, the phase and ethidium fluorescence
-          images were merged into a single video. Ethidium
-          fluorescence is given a red pseudocolor.
-          movie 4
-        
+      
+      
+        Discussion
+        When microarrays were first being developed,
+        investigators described situations in which their
+        microarray hybridization data were dominated by the "polyA
+        effect", in which poly(T)-containing molecules, which are
+        produced by the reverse transcription of a poly(A) +RNA
+        mixture, bind promiscuously to the poly(A) stretches of the
+        DNA in microarray spots. As illustrated by Nguyen et al. [
+        4 ] , when this artifact is pronounced, the amount of
+        hybridization at a particular microarray spot is an
+        indication of the accessible polyA content of the DNA at
+        the spot, rather than of the amount of the particular
+        nucleic acid species in the hybridization solution that one
+        intends to hybridize gene-specifically to that spot. Thus,
+        when the polyA effect is pronounced, the hybridization of
+        the reverse transcription product made from 
+        any poly(A) +RNA mixture will be
+        essentially the same, namely, the hybridization that would
+        be obtained with an oligo(dT) probe alone. This is because
+        the binding of poly(T)-containing molecules in the
+        hybridization solution to the polyA stretches in the
+        microarray spots dominates the hybridization results,
+        overwhelming the signal produced by gene-specific
+        hybridization [ 4 ] .
+        To reduce the polyA effect, it has become common
+        practice to add unlabeled polyA to the hybridization
+        mixture, to bind to the polyT segments of the hybridization
+        probe, thus competing with the polyA segments in the
+        microarray spots. Despite the use of this blocking
+        procedure, when microarray hybridization results obtained
+        using probes derived from mRNA from two different sources
+        are nearly the same, one cannot be certain that the
+        similarity of the results is due to the similarity of the
+        different mRNA sources, rather than to incomplete blockage
+        of the polyA effect in both of the hybridizations. We were
+        faced with this issue when we obtained nearly identical
+        microarray hybridizations using skeletal muscle mRNA from
+        lean (Fa/Fa) versus obese (fa/fa) Zucker rats at an age of
+        6 weeks (the age at which phenotypic differences between
+        fa/fa and Fa/Fa are thought to begin). Among the more than
+        5000 genes on the microarray, only one was possibly
+        expressed differentially (the sarcomeric isoform of the
+        mitochondrial creatine kinase gene, sMtCK, which appeared
+        to have higher expression in the lean muscle). We therefore
+        conducted the experiment, with the results shown in Figs.
+        1and 2, in order to see whether we would obtain the same
+        hybridization results using only end-labeled oligo(dT) as a
+        probe, thereby providing evidence whether the polyA effect
+        caused the two muscle cDNA hybridizations to produce
+        similar results.
+        Our main results are the scatterplot showing microarray
+        hybridization signals using a probe derived from muscle
+        mRNA, versus the signals using only an oligo(dT) probe
+        (Fig. 2). The scatterplot exhibits only a weak correlation
+        between these two hybridization results, for the vast
+        majority of microarray spots. Furthermore, we did not see a
+        simple additive effect, which might have been identified as
+        follows. Let the signal obtained at spot number 
+        i from hybridization with the probe
+        derived from muscle mRNA be denoted as H 
+        i . It may be represented as the sum of
+        a background signal B 
+        i due to hybridization solely to the
+        polyA segment in the spot, plus the gene-specific
+        hybridization H 
+        i ', i.e., H 
+        i = B 
+        i + H 
+        i '. If we knew the background polyA
+        hybridization B 
+        i , for example, by inferring its value
+        from hybridization with the oligo(dT) probe, we could
+        subtract the polyA background to obtain a corrected
+        gene-specific hybridization signal, i.e. H 
+        i ' = H 
+        i - B 
+        i . However, looking along the vertical
+        axis of the scatterplot, we were surprised to see that
+        there are many spots at which H 
+        i is nearly zero, indicating that B 
+        i must also be nearly zero, even when
+        there is a significant polyA signal.
+        The unexpected exception to this observation occurs when
+        the polyA signal is greater than a threshold of about 12000
+        phosphorimager units. As seen in Fig. 2, for those eight
+        microarray spots, the value of the background polyA
+        hybridization B 
+        i appears to be much larger than the
+        median value of H 
+        i among all spots, i.e., if the polyA
+        signal is greater than 12000, then the value of H 
+        i will always be greater than ~24000
+        phosphorimager units. Furthermore, as described in the
+        Results section, the statistical distribution of H 
+        i among spots having polyA values
+        greater than the threshold of 12000 is significantly
+        different than that for the remainder of the spots.
+        Regarding the question of whether there is anything
+        unusual about the clones used to generate the DNA for those
+        eight outlier microarray spots, we found that
+        distinguishing features of the clones might be that (1)
+        they have unusually short inserts of less than 400 base
+        pairs, and (2) they may contain an unusually large fraction
+        of bases that might be expected to bind to oligo(dT),
+        namely, the bases that lie within a sequence run of polyA.
+        Investigators might therefore use these as criteria for the
+        potential existence of a polyA effect artifact, and
+        manufacturers of microarrays may use these criteria in
+        deciding which clones not to use.
+        However, apart from using empirical observations like
+        those shown in Figs. 3and 4, we have no suggestion for how
+        to predict the magnitude of the oligo(dT) hybridization
+        signal from the known sequences. According to Southern and
+        colleagues [ 8 ] , the factor that determines the magnitude
+        of oligonucleotide hybridization signals is not the
+        stability of the duplexes that may be formed through
+        hybridization, but rather the rate of forward reaction,
+        which is determined by the rate of hybrid nucleation. Their
+        work indicates that the availability of nucleation sites in
+        the immobilized target molecule will be determined by
+        secondary structure, which is not predictable in any
+        obvious way from the primary DNA sequences. Ongoing
+        research into this problem interprets hybridization data
+        not only in terms of Watson-Crick base pairing, but also in
+        terms of base stacking interactions, loops, bridges, and
+        dangling ends - and in the case of DNA immobilized on nylon
+        membranes - in terms of diffusion of solvents into and out
+        of membrane pores, multiple interactions within pores, and
+        details of the way in which the DNA is attached to its
+        membrane support [ 8 ] .
+        Finally, consider why there is a threshold oligo(dT)
+        probe signal, above which hybridization by an mRNA-derived
+        probe invariably produces a signal much larger than the
+        median among the remainder of the microarray spots. We
+        suspect that the most important reason for the existence of
+        a threshold signal is related to the formation of
+        hybridization networks at these spots, which are also known
+        as hyperpolymers [ 9 ] . If the polyT tail of a
+        reverse-transcribed probe molecule binds promiscuously to
+        the polyA in one of these spots, the remainder of the
+        anchored probe molecule may hybridize to another labeled or
+        unlabeled probe molecule in the hybridization solution,
+        which in turn may hybridize to yet another probe molecule
+        in the solution, etc., forming a network of hybridized
+        probe molecules. If a threshold density of accessible polyA
+        in the microarray spot's DNA is needed in order to form a
+        stable anchor for such a network, this would provide a
+        mechanistic explanation for our observation.
       
       
         Conclusions
-        In conclusion, MTX treatment of BAECs causes a specific
-        sequence of events (i.e., a cell death cascade) that is
-        triggered by the activation of CaNSC and a rise in [Ca 2+] 
-        i . This is followed by formation or
-        activation of COP which is correlated with the formation of
-        membrane blebs. COP appears to be a unique molecule
-        associated with the plasma membrane and to have a fixed
-        pore geometry and conductance for each vital dye examined.
-        Furthermore, activation of COP provides the initial driving
-        force for osmotic swelling and bleb formation. LDH release,
-        indicative of the final phase of MTX-induced cell death, is
-        associated with massive bleb dilation. Although, the
-        molecular mechanisms associated with each step in the cell
-        death cascade remain unknown, MTX may prove to be an
-        important tool for understanding the biochemical and
-        biophysical links between channel activation, COP
-        formation, and membrane blebbing.
+        The PolyA effect may be more subtle than simply a
+        hybridization signal that is proportional to the PolyA
+        content of each microarray spot. It may instead be present
+        only in spots that hybridize oligo(dT) greater than some
+        threshold level. The strong signal generated at these
+        "outlier" spots by cDNA probes might be due to the
+        formation of hybridization heteropolymers.
       
       
-        Materials and Methods
+        Methods
         
-          Solutions and reagents
-          Unless otherwise indicated, HEPES-buffered saline
-          (HBS) contained 140 mM NaCl, 5 mM KCl, 1 mM MgCl 
-          2 , 10 mM D-glucose, 1.8 mM CaCl 
-          2 , 15 mM HEPES, 0.1% bovine serum
-          albumin, pH adjusted to 7.40 at 37°C with NaOH. Ca
-          2+-free HBS contained 0.3 mM EGTA and the same salts as
-          HBS without added CaCl 
-          2 . Fura-2 acetoxymethyl ester
-          (fura-2/AM), ethidium bromide, YO-PRO-1 and POPO-3 were
-          obtained from Molecular Probes (Eugene, OR, USA).
-          Maitotoxin, obtained from LC Laboratories (Woburn, MA) or
-          Wako Bioproducts (Richmond, VA), was stored at -20°C in
-          ethanol. All other salts and chemicals were of reagent
-          grade.
+          Housing and care of animals
+          Female lean (Fa/Fa) and obese (fa/fa) Zucker rats, 5
+          wk of age, were purchased from the Animal Model CORE
+          Facility of the University of California at Davis. They
+          were housed in the Animal Resource Center of the
+          University of Texas at Austin under standard laboratory
+          conditions. All procedures were approved by the
+          University of Texas at Austin Animal Use Committee.
         
         
-          Cell Culture
-          Bovine aortic endothelial cells were cultured as
-          previously described [ 23] using Dulbecco's modified
-          Eagles medium (GIBCO) supplemented with 10% fetal bovine
-          serum (Hyclone, Logan UT), 100 μg/ml streptomycin and 100
-          μg/ml penicillin (complete-DMEM). All cultures
-          demonstrated contact-inhibited cobblestone appearance
-          typical of endothelial cells.
+          Tissue samples
+          Rats were quickly anesthetized by intravenous
+          injection of sodium pentobarbital (50 mg/kg). Red
+          quadriceps muscles from one leg of each animal were
+          removed and freeze clamped as rapidly as possible with
+          tongs that had been cooled in liquid N 
+          2 . Samples were stored at -70°C for
+          later use.
         
         
-          Measurement of the apparent cytosolic free Ca
-          2+concentration
-          [Ca 2+] 
-          i was measured using the fluorescent
-          indicator, fura-2, as previously described [ 24].
-          Experiments were performed with cells in the twelfth to
-          twentieth passage and 2-3 days post-confluency. Briefly,
-          cells were harvested and re-suspended in HBS containing
-          20 μM fura-2/AM. Following 30 min incubation at 37°C, the
-          cell suspension was diluted ∼ 10-fold with HBS, incubated
-          for an additional 30 min, washed and resuspended in fresh
-          HBS. Aliquots from this final suspension were subjected
-          to centrifugation and washed twice immediately prior to
-          fluorescence measurement. Fluorescence was recorded using
-          an SLM 8100 spectrophotofluorometer; excitation
-          wavelength alternated between 340 and 380 nm and
-          fluorescence intensity was monitored at an emission
-          wavelength of 510 nm. All measurements were performed at
-          37°C.
+          Extraction of total and messenger RNA
+          Tissue samples were homogenized in an acid-phenol
+          reagent, with the volume of the tissue not exceeding 10
+          percent of the volume of the reagent used. Total RNA was
+          then obtained from the homogenate by the procedure
+          recommended by the reagent's supplier (TRI-reagent, Sigma
+          #T9424). This was followed by selection of poly(A) mRNA
+          from the total RNA by hybridizing the RNA with oligo(dT)
+          magnetic microparticles, then isolating the mRNA
+          magnetically (mRNA Isolation Kit, Miltenyi Biotec
+          #751-02). The spectrophotometric 260/280 ratios for mRNA
+          from the obese and lean tissues were 1.95 and 1.99,
+          respectively, which were sufficiently close to 2.0 that
+          an additional round of oligo(dT) selection was not
+          performed.
         
         
-          Measurement of vital dye uptake
-          An aliquot (2 ml) of dispersed cells suspended in HBS
-          at 37°C was placed in a cuvette. Following addition of
-          ethidium bromide (final concentrations of 5 μM),
-          fluorescence was recorded as a function of time with
-          excitation and emission wavelengths of 302/560 nm,
-          respectively. All ethidium bromide fluorescence values
-          are corrected for background (extracellular) dye
-          fluorescence and expressed as a percentage relative to
-          the value obtained following complete permeabilization of
-          the cells with 50 μM digitonin. Uptake of POPO-3 and
-          YO-PRO-1 was determined as described for ethidium with
-          excitation/emission wavelengths of 530/565 and 468/510
-          nm, respectively.
-          For single cell measurement of vital dye uptake, BAECs
-          in complete-DMEM were sparsely seeded on circular glass
-          coverslips and used within 2-3 days of seeding. The
-          coverslips were mounted in temperature-controlled
-          perfusion chambers and placed on the stage of Nikon
-          Diaphot inverted microscope. The cells were illuminated
-          with light from a 75 watt xenon lamp using a O-5717
-          filter cube obtained from Molecular Probes.
-          Epifluorescence was recorded using a Hamamatsu
-          intensified CCD camera (model XC-77) and images were
-          acquired and analyzed using Image-1 software (Universal
-          Imaging, West Chester, PA). During each experiment, image
-          pairs were collected at thirty second intervals. Images
-          (8-bit gray scale) were stored as averages of sixteen
-          video frames (phase images) or as accumulations of four
-          video frames (fluorescent images) with shutter
-          controllers switching between light and fluorescent
-          illumination. The fluorescence images were used to
-          determine dye uptake as a function of time. Using Image-1
-          software, regions were defined over single cells and the
-          average fluorescence intensity of the region was
-          quantified. The phase images were contrast enhanced using
-          Debabelizer Pro software (Equilibrium, Sausalito, CA) and
-          merged with the corresponding fluorescent images using
-          Spot ™camera software (Diagnostic Instruments, Sterling
-          Heights, MI). Time-lapse videos were created using
-          Debabelizer Pro software with ethidium and YO-PRO
-          epifluorescence displayed as red and green pseudocolor
-          images, respectively.
+          Preparation of first strand cDNA
+          Complementary DNA was made using 200 ng of purified,
+          oligo(dT) primed mRNA and SuperScript II RNase H- reverse
+          transcriptase (BRL Life Technologies #18064-014). The
+          cDNA was made radioactive by incorporation of 33P-dCTP
+          (ICN #58201) using the procedure described at
+          http://www.resgen.com/gf200pro.html, except that 33 mM of
+          dATP, dTTP, and dGTP (Pharmacia #27-2035-01) and 1 U/μl
+          of a ribonuclease inhibitor (Ambion #2690) were added.
+          Unincorporated nucleotides were separated from the
+          labeled cDNA using a push column (Stratagene
+          #400701).
         
         
-          Measurement of lactate dehydrogenase (LDH)
-          release
-          Aliquots of dispersed cells (2 ml) were incubated at
-          37°C for various lengths of time in the presence and
-          absence of MTX. The cells were pelleted by centrifugation
-          for 15 sec at 12,000 rpm in an Eppendorf centrifuge
-          (model 5415 C). The supernatants were removed, and placed
-          on ice. Enzyme activity in aliquots (50 μl) of the
-          supernatants was determined using the LD-L kit from
-          Sigma. All values are expressed as percent LDH released
-          relative to the value obtained following permeabilization
-          of the cells with 50 μM digitonin.
+          Hybridization to array membrane
+          A high density DNA array membrane was used to measure
+          the level of expression of each of 5,184 genes (Research
+          Genetics, GENEFILTER #GF200, Lot #980611-21).
+          Hybridization of the membrane with radioactive cDNA was
+          performed by the procedures described at
+          http://www.resgen.com/gf200pro.html, except that the last
+          room temperature wash was performed in 2X SSC. The
+          hybridization solution included 0.5 μg/ml poly(dA)
+          (Research Genetics #POLYA.GF) and 0.5 μg/ml cot1 DNA (BRL
+          #15279-011) as blocking agents. Stripping the filter, in
+          order to reprobe it, was done by placing the filter in a
+          boiling 1% SDS solution, as recommended by the
+          manufacturer. The stripped filter was used to expose a
+          phosphorimager plate, which was then scanned. The
+          resulting image had < 0.005 remaining from the image
+          that was obtained before stripping. We obtained nearly
+          identical microarray hybridizations using cDNA prepared
+          from skeletal muscle mRNA from lean (Fa/Fa) versus obese
+          (fa/fa) Zucker rats at an age of 6 weeks (the age at
+          which phenotypic differences between fa/fa and Fa/Fa are
+          thought to begin). Only one gene was possibly expressed
+          differentially (the sarcomeric isoform of the
+          mitochondrial creatine kinase gene, sMtCK, which appeared
+          to have higher expression in the lean muscle). We
+          confirmed the sMtCK result with a Northern blot, but did
+          not do so for any of the other genes, which may be
+          considered a limitation of our experiment.
         
+        
+          Quantifying the hybridization results
+          Radioactivity in hybridized filters was imaged using a
+          phosphorimager (Model 445 SI, Molecular Dynamics). The
+          resulting image files were then processed using custom
+          software, as shown in Fig. 5. Each of the membrane's
+          sixteen 12 × 30-spot arrays was extracted from the
+          original image file, along with a border of pixels
+          corresponding to one spot width. A background value was
+          then estimated for each pixel in each of these images, as
+          follows. If a pixel was situated in the region between or
+          adjacent to DNA spots, and if the spatial derivative of
+          the image at that pixel indicated that it was not part of
+          the overlap region between two intense spots, that pixel
+          was defined to be a background pixel. If a pixel was
+          situated within the region corresponding to a spot of
+          DNA, or if it was situated in the region between two
+          overlapping intense spots, the background value for that
+          pixel was set equal to the value of the nearest
+          background pixel, as defined above. A
+          background-subtracted image of the radioactivity was then
+          obtained by subtracting the background value for each
+          pixel from the original image.
+          The intensity of spots in an image is a function of
+          how long the phosphorimager plate was exposed, as well as
+          factors such as the efficiency of probe labeling.
+          Therefore, in order to be able to compare
+          background-subtracted images of the same 12 × 30 spot
+          array for successive hybridizations, normalization was
+          performed as follows. The image for one of the
+          hybridizations was selected to be the reference, and
+          corresponding pixels in the other image were normalized
+          by substituting them into a quadratic polynomial
+          normalization function (of the pixel value), the
+          coefficients of which were estimated by singular value
+          decomposition (SVD) [ 10 ] . This quadratic model allows
+          for some compensation in the event that the response of
+          the phosphorimager changes between measurements. We found
+          that the fitted second order coefficients were always
+          very close to zero, and the constant offset coefficients
+          were also very close to zero. Thus, normalization of
+          background-subtracted images of the same array for
+          different hybridizations was accomplished essentially by
+          multiplying all pixels in the non-reference image by a
+          constant scale-factor, the value of which had been
+          estimated by SVD. Note that the phosphorimager data have
+          units related to the voltage of its phototube, which are
+          not related in any obvious way to nucleic acid
+          concentrations or amounts. Some investigators rescale the
+          data such that the average signal per microarray spot
+          equals 1, but we did not do so.
+          The distance between spots on the array is only 0.75
+          mm, and as a consequence, many of the adjacent intense
+          spots overlap one another. When integrated intensity
+          within a specified region about the center of the spot is
+          used to represent the magnitude of hybridization, it is
+          then useful to model the image as the sum of superimposed
+          two-dimensional spot functions. This was done using
+          two-dimensional gaussian functions to represent the
+          spots, as shown in Fig. 5, with the location, amplitude,
+          and standard deviation coefficients all estimated
+          automatically from the background-subtracted image in two
+          dimensions, using the Levenberg-Marquardt method [ 10 ] .
+          The similarity between background-subtracted and fitted
+          spot images (Fig. 5bvs. 5c) indicates that much of the
+          spread of the intense spots appears to be gaussian, which
+          might be attributed to the gaussian shape of the laser
+          beam that scans the phosphorplate. When the spot
+          intensity was close to the noisy background level, this
+          model cannot be used to fit the data, due to near
+          singularity of the matrix equations that had to be solved
+          to perform the fitting. In that case, the method that we
+          used to estimate the intensity of each spot was to sum
+          the nine adjacent pixels in the center of each spot of
+          the background-subtracted image. The correlation between
+          the values so obtained and the corresponding value of the
+          integrated spot intensity from successful gaussian curve
+          fitting was 0.99.
+          A histogram was constructed from the logarithm of the
+          values of all the spot values. As observed in [ 11 ] ,
+          the histogram for our muscle data was bimodal, consisting
+          of a gaussian-like distribution of low-intensity spots,
+          overlapping an adjacent distribution of moderate and
+          high-intensity spots. The transition between these two
+          distributions occurred within a clearly recognizable
+          range of values, 1550 to 1800 phosphorimager units. We
+          therefore followed the conservative practice recommended
+          in [ 11 ] by considering all spot values less than a
+          value of 1800 to define undetectable hybridizations.
+          According to this criterion, 567 of the spots were
+          detectable.
+        
+        
+          Search for promiscuous hybridization to polyA
+          segments
+          To investigate the polyA effect as a potential
+          artifact, we performed the following experiment, using
+          essentially the approach described in [ 4 ] . Oligo(dT)
+          (10-20 mer mixture, Research Genetics cat. # POLYT.GF)
+          was end labeled with T4 kinase (Life Technologies
+          #10476-018) and (γ- 33P)ATP (ICN #58000). The array
+          filter was then hybridized with this probe in Hybrisol I
+          (Oncor #S4040) for 10 hours at 42°C, then washed twice at
+          room temperature for two minutes in 6X SSC and 0.1% SDS.
+          It was then used to expose a phosphorplate for 12 hours,
+          which was scanned using a phosphorimager (Model 445 SI,
+          Molecular Dynamics) to identify the array spots having
+          long stretches of poly(dA). Quantifying of the spot
+          intensities was performed as indicated above.
+        
+        
+          Staining of the microarray filter with a
+          fluorescent nucleic acid indicator
+          After all hybridizations of the microarray filter had
+          been performed, we stained the filter with a fluorescent
+          dye that is specific for nucleic acids. We did so in
+          order to determine whether the absence of hybridization
+          signals for some microarray spots was due to the absence
+          of any DNA there, which would indicate a defect in the
+          manufacturing of the microarray at those spots. The
+          filter was stained with 1 μg/ml acridine orange (Sigma
+          A6014) for 10 minutes at room temperature, rinsed in
+          distilled water, then imaged with a fluorimager
+          (Molecular Dynamics). The dye was excited by the 488 nm
+          argon laser line of the fluorimager, and emission was
+          detected with a narrowband filter centered at 530 nm.
+        
+      
+      
+        Authors' contributions
+        SJP participated in the conception, design, and
+        coordination of the study; conducted the animal,
+        hybridization, and fluorescence studies; assisted with the
+        computer-related aspects of the study; and wrote parts of
+        the manuscript. DRR participated in the conception, design,
+        and coordination of the study; conducted the
+        computer-related aspects of the study; assisted with the
+        hybridization and fluorescence studies; and wrote parts of
+        the manuscript. JLI participated in the conception, design,
+        and coordination of the study and edited the manuscript.
+        All authors read and approved the final manuscript.
       
     
   

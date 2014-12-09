@@ -2,458 +2,564 @@
   
     
       
-        Synopsis
-        
-          Introduction
-          A complete understanding of the genetic events
-          involved in breast tumorigenesis and their heterogeneity
-          in relation to stage specificity will be critical to the
-          development of successful treatments. This laboratory and
-          other workers recently reported the presence of a novel
-          LOH region in band 18p11.3 in non-small cell lung
-          carcinomas, glioblastomas and invasive breast carcinomas
-          [ 1, 2]. This current study uses informative loci in
-          18p11.3 to investigate the stage specificity and extent
-          of molecular heterogeneity exhibited by this locus in
-          breast cancer progression. These results are analyzed in
-          conjunction with other LOH data available for markers on
-          3p, 11p, 13q, 16p, 17p, and 17q in an effort to place
-          chromosome 18p alterations on the breast cancer
-          progression pathway.
-        
-        
-          Materials and methods
-          The material used in this study, consisting of
-          formalin-fixed, paraffin-embedded tissue from the
-          archives of the Armed Forces Institute of Pathology, has
-          been previously described [ 3]. Tumors were selected at
-          random for those with the presence of lesions
-          representing multiple stages of breast disease within
-          individual patient samples. Ninety-six foci representing
-          normal, intraductal and infiltrating tumor were
-          microdissected from 30 tumors. Matching normal and tumor
-          DNA were subjected to polymerase chain reaction
-          (PCR)-based LOH analysis using two 18p11.3 markers
-          (D18S59 and D18S481) and one 18p11.2 marker (D18S452).
-          Forward primers were synthesized with either a
-          fluorescent FAM tag (D18S481 and D18S452) or a
-          fluorescent TET tag (D18S59) on the 5' end. PCR reactions
-          were performed in 10 μl with aliquots of normal and tumor
-          DNA using a PCR protocol consisting of 94°C for 30 s,
-          55°C for 30 s, and 72°C for 1 min for a total of 40
-          cycles. Horizontal ultrathin, high throughput
-          fluorescence-based DNA fragment gel electrophoresis
-          (GTI-9600; Genesys Technologies, Inc, Sauk City, WI, USA)
-          was applied to the separation and analysis of
-          PCR-generated alleles as previously described [ 4].
-          Allelic ratios were calculated and expressed as a
-          percentage of loss of intensity for the tumor allele
-          compared with the corresponding normal allele (D-value)
-          after normalization.
-        
-        
-          Results
-          A total of 96 foci were analyzed for LOH at several
-          polymorphic markers in 18p11.3. The overall frequency of
-          LOH in 18p11.3 was 63% (27/43). When analyzed by tumor
-          stage, LOH on 18p was found in 56% (9/16) of ductal
-          carcinoma 
-          in situ (DCIS) foci, 67% of
-          invasive ductal carcinoma (IDC) foci (14/21), and 67%
-          (4/6) of metastatic disease. A schematic diagram of these
-          results appears in Figure 1.
-          We also examined the extent of heterogeneity
-          associated with chromosome 18p LOH (Fig. 2). In tumors
-          where information was attainable for two or more disease
-          stages, 73% (11/15) displayed a pattern of classic clonal
-          progression. LOH first appeared in the DCIS stage for the
-          majority. Four tumors (27%) were, however, interestingly
-          identified with genetic heterogeneity for chromosome 18p
-          events where DCIS-identified events were not found in
-          associated invasive foci. Genetic events involving
-          chromosome 18p sequences thus do not follow a classic
-          progression paradigm in 27% of tumor cases analyzed as
-          part of this study.
-        
-        
-          Discussion
-          Significant LOH on chromosome 18p11.3 (63%) suggests
-          the presence of a putative tumor suppressor gene(s) with
-          an important role in the pathogenesis of breast cancer.
-          These measured allelic deletions represented alterations
-          confined to 18p11.3 and not whole chromosome 18 loss
-          based on results using marker D18S452, although the
-          presence of simultaneous but independent LOH on 18q was
-          not examined. It was discovered, by analyzing multiple
-          foci occurring simultaneously within individual tumors,
-          that chromosome 18p events occur at a significant
-          frequency (56%) early in the tumorigenic process, making
-          LOH at chromosome 18p one of the most common known events
-          in DCIS tumors. A slightly higher frequency of LOH in IDC
-          tumors (67%) as well as in the small number of metastatic
-          samples studied further supports this early event
-          hypothesis. The majority (73%) of these breast tumors
-          progressed in a clonal fashion. Four cases (27%) were,
-          however, representative of genetic heterogeneity. Such
-          heterogeneity at multiple loci may account for treatment
-          failure, and a combinatorial histological and genetic
-          approach with sufficient information on survival and
-          response profiles may provide more effective disease
-          prevention and cure in the future.
-        
+        Background
+        The synthesis of the neurotransmitter acetylcholine
+        (ACh) 1in cholinergic neurons is dependent on the
+        availability of its precursor, choline, most of which is
+        derived from the circulation (reviewed in [ 1 ] ) and
+        enters cholinergic neurons via a process catalyzed by a
+        specific transporter [ 2 3 ] . Some of the choline used for
+        ACh synthesis is stored in membrane phosphatidylcholine
+        (PC). Previous studies have shown that this choline is
+        liberated from PC in a one-step reaction, thus indicating
+        that it is produced by a phospholipase D (PLD, EC 3.1.4.4)
+        -an enzyme that hydrolyzes the phospholipid into choline
+        and phosphatidic acid (PA) [ 4 ] . However, the molecular
+        identity of this PLD remains to be determined.
+        There are two distinct PC-specific mammalian PLDs,
+        designated as PLD1 and PLD2 and encoded by separate genes [
+        5 6 ] . The two enzymes share 50% amino-acid identity,
+        however, regulation of their activity and cellular
+        localization are different. PLD1 is an extracellular
+        signal-activated phospholipase; its activity rises when
+        receptors for certain hormones, growth factors,
+        neurotransmitters, cytokines, and other mediators are
+        activated, and upon treatment of cells with phorbol esters
+        (reviewed in [ 7 8 ] ). Studies using recombinant PLD1
+        tagged with green fluorescent protein or Flu-epitopes
+        indicate that it is localized in the endoplasmic reticulum,
+        Golgi apparatus, late endosomes, and plasma membrane ( [ 6
+        ] , reviewed in [ 7 ] ). In vitro, basal PLD1 activity is
+        usually low and can be stimulated by a variety of factors,
+        including phosphatidylinositol 4, 5-bisphosphate (PIP 
+        2 ), protein kinase C (PKC), and several
+        small GTPases, e.g. ADP ribosylation factors (ARF) and Rho
+        (reviewed in [ 7 8 ] ). Regulation of PLD2 is less well
+        understood. The enzyme exhibits a high constitutive
+        activity in vitro, but it too can be activated by ARF
+        (reviewed in [ 7 ] ), and by phorbol esters, in intact
+        cells [ 6 9 ] . Several reports have suggested that PLD2 is
+        mainly localized to the plasma membrane [ 6 10 ] , possibly
+        in lipid rafts and caveolar membrane microdomains [ 11 12 ]
+        . Most studies on the physiological functions of PLDs have
+        focused on the product PA, a second messenger involved in
+        mitosis, cellular morphological changes and vesicular
+        trafficking (reviewed in [ 7 13 ] ). However, the
+        downstream events that occur as a consequence of
+        PLD-generated PA production, and the identity of target
+        proteins that are directly regulated by PA remains to be
+        determined. PA can be further metabolized to diacylglycerol
+        (DAG) and lysophosphatidic acid by PA phosphohydrolase and
+        phospholipase A 
+        2 , respectively. DAG is an activator of
+        certain isozymes of PKC and lysophosphatidic acid acts as
+        an intercellular messenger for many cell types.
+        The second product of PLD-catalyzed PC hydrolysis,
+        choline, is used by all cells as a precursor of PC, and
+        uniquely by cholinergic neurons as precursor of ACh.
+        Previous studies have shown that choline derived from PC is
+        indeed used for ACh synthesis [ 4 14 15 16 ] and that this
+        choline is generated by a PLD [ 4 14 ] . This pathway may
+        become particularly important when extracellular
+        circulating choline concentrations are low (e.g. during
+        dietary choline deficiency) or when ACh synthesis and
+        release are accelerated by high neuronal activity, thus
+        generating a high demand for choline [ 16 ] .
+        In the present study, we used a cholinergic cell line,
+        SN56 [ 17 ] , which is derived from the fusion of septal
+        neurons of postnatal day 21 mice with N18TG2 murine
+        neuroblastoma cells, as a model for cholinergic neurons, in
+        order to determine the possible role of PLD 1 and PLD2 in
+        generating choline for ACh synthesis. We found that the
+        cells express exclusively PLD2 and that downregulating PLD2
+        expression reduces ACh synthesis, while overexpressing
+        and/or stimulating PLD2 activity increases the synthesis of
+        the neurotransmitter, indicating that PLD2-catalyzed
+        hydrolysis of PC generates choline for ACh synthesis in
+        cholinergic cells.
       
       
-        Full article
+        Results
+        PLD2 mRNA was present in SN56 cells (Fig. 1A) while PLD1
+        message was undetectable either by Northern blot (Fig. 1A)
+        or RT-PCR (data not shown). Consistent with these results
+        an approximately 90 kDa PLD2 protein was found in SN56
+        cells by Western blot; however, no PLD1 protein could be
+        detected (Fig. 1B). Positive controls for these studies
+        showed that our PLD1 probe and antibody were robust in
+        detecting this PLD isoform in rat brain (Fig. 1). These
+        data show that SN56 cells express exclusively PLD2 and thus
+        experimental manipulations of the activity of this PLD
+        isoform were subsequently employed to determine if this
+        enzyme is capable of producing choline for ACh synthesis in
+        cholinergic cells. In order to reduce PLD2 activity in SN56
+        cells, we sought to inhibit its expression. The cells were
+        treated with a 25-mer antisense oligonucleotide at
+        different concentrations and PLD2 mRNA levels were
+        measured. Northern blot showed that PLD2 mRNA expression
+        was reduced by the antisense oligonucleotide in a
+        concentration-dependent manner (Fig. 2A), and that, at the
+        maximally-effective concentration of the oligo (200 nM),
+        this inhibition reached 34% (Fig. 2B,C). In contrast, the
+        control oligomer was inactive (Fig. 2B,C). Consistent with
+        these findings. Western blot showed that the antisense
+        oligomer decreased the PLD2 protein level by about 28%,
+        whereas the control oligomer had no significant effect on
+        PLD2 protein expression (Fig. 2D,E). Given the fact that
+        the transfection efficiency obtained in these experiments
+        was approximately 30% (as determined with fluorescent
+        dye-labeled oligonucleotides; data not shown), the results
+        indicate that, in cells that had taken up the antisense
+        oligomer, the inhibition of PLD2 expression was
+        complete.
+        Treatment of a variety of cell types with phorbol esters
+        activates PLD2 [ 6 12 18 19 ] . Thus we hypothesized that
+        activation of PLD with PMA in SN56 cells would elevate
+        intracellular concentrations of its product, choline, and
+        result in increased ACh production. We tested the effects
+        of PMA on PLD activity and ACh content in SN56 cells
+        incubated in a choline-free medium. Under these conditions
+        the choline precursor used for the synthesis of ACh is
+        derived entirely from the intracellular pool, which
+        includes the choline in PC [ 4 15 ] . Consistent with
+        previous studies, treatment of the cells with PMA activated
+        PLD (Fig. 3A). The maximal effects of PMA (3.3 fold
+        increase in the amount of its product [
+        3H]phosphatidylpropanol relative to controls) was observed
+        after 45 minutes (data not shown), a time period employed
+        in subsequent studies. Free choline accumulation was also
+        significantly increased by PMA. The magnitude of this
+        effect tended to be small (approximately 15%), presumably
+        because free choline is a rapidly turning over metabolic
+        intermediate that does not accumulate in cells (Fig. 3B).
+        Moreover, PMA stimulated ACh accumulation by 26% (Fig. 3C),
+        in the cells. The fact that PMA increased both PLD activity
+        and ACh content provided the initial evidence for a
+        relationship between the endogenous PLD activity (i.e.
+        PLD2) and ACh production. In control studies performed in
+        the presence of choline (15 μM) in the medium PMA had no
+        effect on ACh levels (data not shown), indicating that it
+        did not stimulate the process of ACh synthesis but only the
+        supply of choline.
+        Next the effect of downregulation of PLD2 activity on
+        ACh levels was studied in cells transfected with either
+        control or antisense oligomer and treated with PMA. In the
+        absence of PMA, the antisense oligomer decreased PLD2
+        activity by 19%. Although small, this change was
+        statistically significant (p < 0.05). In the presence of
+        PMA, antisense oligomer decreased PLD2 activity by 27%
+        (Fig. 3A). Concomitantly the cellular choline content was
+        decreased by 30% both in the presence and absence of PMA by
+        the antisense oligomer (Fig. 3B). Moreover, the antisense
+        oligomer decreased the cellular ACh content by
+        approximately 30% compared to control oligomer treated
+        cells both in the presence and absence of PMA (Fig. 3C).
+        These results indicate that downregulation of PLD2 activity
+        by antisense oligomers in SN56 cells decreases not only the
+        endogenous PLD2 activity but also the intracellular choline
+        and ACh content. These results are consistent with the
+        hypothesis that PLD2 can generate choline for ACh synthesis
+        in SN56 cells.
+        To further confirm this hypothesis, we transiently
+        transfected the cells with a mouse PLD2 expression plasmid.
+        Overexpression of PLD2 for 48 hours in the cells caused a
+        74% increase of basal PLD2 activity and this activity was
+        further increased by PMA by 3.2-fold (Fig. 4A). To examine
+        the ACh synthesis and choline turnover in these PLD2
+        transfectants, the cells and the media were collected and
+        ACh and choline content were measured. In the absence of
+        PMA, overexpression of PLD2 alone increased intracellular
+        ACh levels by 26% and choline concentrations in the medium
+        by 57%. In the presence of PMA, intracellular ACh levels
+        and choline concentration in the medium rose further in the
+        PLD2 transfectants reaching values more than two-fold
+        higher than those in the control cells (Fig. 4B,C).
+        Together with the data presented above, these results show
+        that up-regulation of PLD2 activity by overexpression
+        and/or stimulation with PMA increases intracellular ACh
+        levels.
+        A recent immunohistochemical study of PLD1 expression in
+        rat brain showed that this PLD isoform was expressed in
+        neurons in medial septum, cranial motor nuclei and ventral
+        spinal cord [ 20 ] , all areas of the central nervous
+        system enriched with cholinergic neurons. These data raised
+        the possibility that certain populations of cholinergic
+        neurons may express PLD1 in addition to, or instead of,
+        PLD2. Therefore we transfected SN56 cells with PLD1
+        expression construct, in order to determine if choline
+        generated by this enzyme could be used as ACh precursor.
+        Transfection of PLD1 into SN56 cells resulted in increased
+        PLD activity and ACh synthesis in a fashion similar to that
+        observed in PLD2 transfectants (Fig. 5) indicating that
+        choline generated by PLD1 was converted to ACh.
+      
+      
+        Discussion
+        In the present study, we sought to establish which PLD
+        isoform is the endogenous enzyme that generates the choline
+        precursor for ACh synthesis in cholinergic neurons using,
+        as a model, the SN56 basal forebrain cell line. We found
+        that these cells expressed exclusively PLD2, a property
+        that facilitated subsequent experiments. First, antisense
+        oligonucleotides were used to down-regulate endogenous PLD2
+        activity. Although only 30% of the cells took up the
+        oligonucleotides, PLD2 mRNA, protein expression, and
+        activity were reduced proportionally to the transfection
+        efficiency of the antisense oligomer, demonstrating high
+        efficacy of this technique in the transfected cells.
+        Significantly, intracellular choline and ACh content were
+        similarly decreased by the antisense oligonucleotides,
+        indicating that PLD2-catalyzed hydrolysis of PC provides
+        choline for ACh synthesis. Next, PLD2 activity was
+        up-regulated by either overexpressing a mouse PLD2 protein
+        and/or by stimulation with PMA. Both PLD2 overexpression
+        and stimulation with PMA increased PLD activity, choline
+        production, and ACh accumulation. Moreover, PLD2
+        transfection and PMA treatment had a synergistic effect on
+        PLD activity and ACh levels.
+        Our observation that PLD2 but not PLD1 was present in
+        SN56 cells raised the possibility that the former might be
+        preferentially expressed in cholinergic neurons. The data
+        are consistent with the report that a variant of PC12 cells
+        also express exclusively PLD2 [ 18 ] and this expression is
+        stimulated by nerve growth factor [ 18 ] , a treatment
+        known to upregulate the cholinergic phenotype of PC12 cells
+        [ 21 22 ] . PLD2 mRNA is abundant in many regions of the
+        adult rodent central nervous system [ 6 23 ] , including
+        cerebellum, frontal cortex, hippocampus, hypothalamus,
+        midbrain, brainstem, striatum, and spinal cord [ 24 ] . The
+        latter three regions are enriched with cell bodies of
+        cholinergic neurons. PLD1 is also highly expressed in brain
+        tissue [ 6 23 25 ] , notably in neurons in medial septum,
+        cranial motor nuclei and ventral spinal cord [ 20 ] , all
+        of which are likely cholinergic. However, no data are
+        currently available on the possible coexpression of PLD1
+        and/or PLD2 and cholinergic markers (e.g. choline
+        acetyltransferase) in vivo. Transfection of PLD1 into SN56
+        cells resulted in increased PLD activity and ACh production
+        suggesting that PLD1, like PLD2, could potentially be used
+        to supply choline for ACh synthesis. Thus, while the
+        catalytic activities of both PLD1 and PLD2 appear to be
+        equivalent in generating choline for ACh synthesis in
+        transfected cells, it is possible that the modes of
+        regulation of their activity might specify which one is
+        expressed in a particular population of cholinergic neurons
+        in vivo. It will be important to determine the mechanisms
+        that control the expression of the two PLD isoforms and
+        their possible relationships with the mechanisms that
+        regulate the cholinergic phenotype.
+        Stimulation of PLD activity by PMA and the resulting
+        increase of ACh synthesis from PLD-generated choline
+        indicates that this pathway is regulated by PMA-responsive
+        PKC isozymes. In vivo, this form of regulation of ACh
+        synthesis would be controlled by neurotransmitters released
+        by neurons that innervate particular cholinergic cells.
+        There are multiple neurotransmitters whose receptors are
+        coupled to PKC-dependent activation of PLD [ 7 ] , and thus
+        this mode of regulating the availability of choline for ACh
+        synthesis is likely to be widespread. Significantly, among
+        the five subtypes of muscarinic ACh receptors (MAChRs), Ml
+        and M3 receptors have been shown to efficiently activate
+        PLD (and PKC) in various cell types [ 26 27 28 29 30 ] ,
+        whereas activation of PLD by M2 and M4 receptors is less
+        robust [ 26 ] . These observations suggest that in a
+        cholinergic synapse, ACh released into the synaptic cleft
+        might stimulate PLD activity leading to a release of
+        choline that could be used for ACh synthesis. Since these
+        MAChRs may be present on the pre- and postsynaptic neurons
+        [ 31 ] , this choline may be derived from PC residing in
+        the membranes of either. However, while the
+        presynaptically-derived choline released into the cytoplasm
+        can be converted directly to ACh, the choline released by
+        the postsynaptic cell must be initially taken up by the
+        cholinergic nerve terminals. Our previous results in
+        cholinergic human neuroblastoma LA-N-2 cells indicated that
+        the choline moiety from PC breakdown was released directly
+        into the cytoplasm [ 4 ] and a kinetic study using [
+        3H]choline in BHK cells also showed that choline was
+        initially released inside the cells by PMA-activated PLD
+        and then rapidly appeared in the medium [ 32 ] . Consistent
+        with the latter study, we also observed a rise in the
+        medium choline levels in SN56 cells transfected with either
+        PLD1 or PLD2 and treated with PMA.
+        Although it is clear that the PLD-generated choline is
+        efficiently utilized by cholinergic cells (LA-N-2 and SN56)
+        as a precursor of ACh, the quantitative significance of
+        this pathway and mechanisms that regulate it remain to be
+        fully determined. Studies on a variety of preparations
+        indicate that most of the choline used for ACh synthesis is
+        derived from the extracellular space (reviewed in [ 1 ] )
+        and therefore the PLD pathway has to be considered as an
+        accessory process. Interestingly, PLD activity is
+        upregulated in the hippocampus of rats whose mothers
+        consumed a choline-supplemented diet during pregnancy [ 33
+        ] . Given that prenatal choline supplementation improves
+        memory and attention [ 34 ] , two cognitive functions that
+        require the hippocampal cholinergic system, it is possible
+        that the upregulated PLD pathway underlies, at least in
+        part, the cognitive enhancement observed in the prenatally
+        choline-supplemented animals.
+        Abnormalities in the PLD-mediated release of choline
+        would be expected to result in an impairment of cholinergic
+        neurotransmission and/or in a generalized malfunction of
+        cholinergic cells. Alzheimer's disease (AD) is
+        characterized by such a malfunction together with
+        degeneration of basal forebrain cholinergic neurons, and it
+        is thought that memory loss in this disease is partly
+        caused by this cholinergic lesion [ 35 ] . In vitro studies
+        point to two novel mechanisms that might cause
+        dysregulation of PLD2 activity in AD. The first is based on
+        observations that PLD2 is inhibited by α-synuclein [ 36 ] ,
+        a protein of unknown function that accumulates in the
+        amyloid deposits in AD brain. Normally α-synuclein is
+        present in the synaptic nerve terminals (including those of
+        cholinergic neurons [ 37 38 ] ) but in AD its processing is
+        altered, causing it to be abnormally deposited in plaques
+        composed primarily of aggregates of β-amyloid peptide [ 39
+        ] . However, how this abnormal turnover of α-synuclein
+        contributes to the pathophysiology of AD remains to be
+        determined. Recent in vitro observations that α-synuclein
+        is phosphorylated by G protein-coupled receptor kinases,
+        and that this phosphorylation relieves its inhibitory
+        action on PLD2 [ 40 ] , suggest a novel mechanism by which
+        neurotransmitter receptors (including muscarinic receptors)
+        might modulate PLD2 activity. Since multiple receptor
+        classes are affected by the pathophysiological processes of
+        AD [ 41 ] , abnormal phosphorylation of α-synuclein may
+        contribute to both altered α-synuclein turnover and
+        abnormal regulation of PLD2 activity. The second set of
+        observations indicate that reactive oxygen species (ROS)
+        activate PLD2 in a PKC-dependent manner [ 9 ] . There is
+        much evidence that ROS generation is upregulated in AD
+        brain [ 42 ] . Thus, it is possible that PLD2 may be
+        activated in this disease resulting, perhaps, in
+        dysregulation of PC metabolism. Indeed evidence of an
+        accelerated PC turnover has been repeatedly observed in
+        post-mortem samples of AD brain [ 43 44 45 46 47 ] as well
+        as in an in vitro model of this disease characterized by
+        the generation of ROS [ 48 ] .
+      
+      
+        Conclusions
+        Most of the previous studies on the physiological
+        functions PLDs have concentrated on the role of its
+        product, PA [ 7 ] . Our data show that PLD has a dual
+        function in cholinergic cells, as the second product of its
+        activity, choline, is used as a metabolic precursor of ACh,
+        and suggest that this pathway may be regulated by the type
+        of PLD isoform expressed in a particular class of
+        cholinergic neurons. In our basal forebrain-derived SN56
+        cells, this isoform is PLD2. However, our observations that
+        PLD1 overexpression increases ACh production form
+        endogenous sources suggest that PLD1 may serve the same
+        function as PLD2 in other cholinergic cells. Moreover, the
+        data showing that this pathway is stimulated by PMA,
+        suggest that it is subject to regulation by PKC-activating
+        neurotransmitters. The physiological, and possible
+        pathophysiological significance in neurological diseases,
+        of this pathway remains to be determined. It will also be
+        important to determine how cholinergic cells regulate the
+        metabolism of PA - a compound with multiple signaling and
+        structural functions - when the PLD pathway is stimulated
+        to meet the demand for choline.
+      
+      
+        Materials and Methods
         
-          Introduction
-          The molecular pathogenetic pathway of breast tumor
-          progression is not yet clearly defined. Although LOH at
-          chromosomes 1, 3p, 6q, 7q, 8p, 9p, 10q, 11, 13q, 16q, 17,
-          18q, 22q, and X have all been reported [ 5, 6], their
-          relationship to known genes and, more specifically, to
-          different stages of breast disease is still under
-          investigation. Studies in benign fibroadenomas and
-          fibrocystic disease showed no LOH on 1p, 3p, 7q, 11p,
-          17p, 17q or 18q [ 7]. However, 37% of ductal hyperplasias
-          and 42% of atypical ductal hyperplasias exhibit LOH [ 8],
-          suggesting that these foci are benign lesions resulting
-          from the alteration of tumor suppressor genes.
-          Furthermore, the discovery that morphologically normal
-          terminal duct-lobule units adjacent to breast cancers
-          exhibit LOH in up to 60% of cases when analyzed with
-          chromosome 3p markers indicates these genetic events can
-          be cryptically present before histopathological
-          abnormalities are identifiable [ 9].
-          These aforementioned studies and other research
-          support the idea that events affecting tumor suppressors
-          can occur early and that preinvasive DCIS can be a direct
-          precursor of invasive carcinoma, a paradigm supported
-          pathologically by the frequency of DCIS lesions found in
-          areas adjacent to invasive breast cancer [ 10]. These
-          same analyses also confirm the complexity of this
-          disease. Examination of multiple lesions from individual
-          tumors, for example, reveals the presence of intratumoral
-          heterogeneity [ 11, 12, 13]. Markers on chromosome 9p, in
-          one study, demonstrate loss of opposite alleles in
-          different ducts while examples of ducts retaining both
-          alleles were also found [ 14]. An extensive analysis of
-          markers on chromosome 11p15 showed LOH early in breast
-          disease (DCIS), although examples of late stage LOH
-          without concomittant DCIS involvement were also found [
-          3]. This indicates that different components from an
-          individual tumor can represent genetically divergent
-          clones, even at the preinvasive stage of DCIS. The
-          heterogeneous nature of breast cancer alterations could
-          have important implications for the development of
-          targeted therapies.
-          If LOH events define a localized region of increased
-          risk for carcinoma, the presence of LOH may be clinically
-          important. A complete understanding of all the genetic
-          events involved in breast tumorigenesis and their
-          heterogeneity in relation to stage specificity will
-          therefore be critical to the development of successful
-          treatments. This laboratory and other workers have
-          reported the presence of a previously unidentified region
-          of LOH in band 18p11.3 in non-small cell lung carcinomas,
-          glioblastomas and a small series (14) of invasive breast
-          carcinomas [ 1, 2]. The current study uses informative
-          loci in 18p11.3 to investigate, in microdissected
-          material, the stage specificity and extent of molecular
-          heterogeneity exhibited by chromosome 18p11 in breast
-          cancer progression. A series of 30 tumors from which 96
-          multiple stages of disease have been microdissected,
-          including normal, DCIS and IDC material, were studied.
-          Associated metastases were also examined in some cases.
-          These results were analyzed in conjunction with other LOH
-          data available for markers on 3p, 11p, 13q, 16p, 17p, and
-          17q in an effort to place chromosome 18p alterations on
-          the breast cancer progression pathway.
+          Materials
+          Dulbecco's modified Eagle's medium (DMEM), fetal
+          bovine serum (FBS) and Lipofectamine Plus reagents were
+          from Gibco BRL Life Technologies (Grand Island, NY).
+          Phosphatidylpropanol (PP) was from Avanti Polar Lipids
+          (Alabaster, AL). Silica LK6 Thin Layer Chromotography
+          (TLC) plates were from Whatman. [ 3H]Myristic acid and
+          [α- 32P]dCTP were from Dupont-NEN (Boston, MA). Molecular
+          biology reagents (except as noted) were from Sigma (St.
+          Louis, MO) and phorbol 12-myristate 13-acetate was from
+          Calbiochem (La Jolla, CA). Polyclonal anti-human PLD2-
+          and anti-mouse PLD1 antibodies were kindly provided by
+          Dr. Yoshinori Nozawa (Gifu International Institute of
+          Biotechnology, Japan).
         
         
-          Materials and methods
-          
-            Patient material
-            The material used in this study, consisting of
-            formalin-fixed, paraffin-embedded tissue from the
-            archives of the Armed Forces Institute of Pathology,
-            has been previously described [ 3]. Tumors were
-            selected at random for those with the presence of
-            lesions representing multiple stages of breast disease
-            within individual patient samples. Ninety-six foci
-            representing normal, intraductal and infiltrating tumor
-            were microdissected from 30 tumors. One-half of the
-            patient samples contained both DCIS and IDC components.
-            Seven patients had metastatic tumor tissue available in
-            addition to both DCIS and IDC material, while five
-            patients had invasive component material with
-            corresponding metastatic disease. Aliquots of DNA from
-            these microdissected lesions were used as the source
-            template for PCR-based LOH analysis.
-          
-          
-            LOH analysis
-            Matching normal and tumor DNA were subjected to
-            PCR-based LOH analysis using two 18p11.3 markers
-            (D18S59 and D18S481) and one 18p11.2 marker (D18S452).
-            These markers define a region on chromosome 18p
-            previously shown to undergo LOH in invasive ductal
-            breast carcinomas as well as non-small cell lung
-            carcinomas and glioblastomas [ 1, 2]. Forward primers
-            were synthesized with either a fluorescent FAM tag
-            (D18S481 and D18S452) or a fluorescent TET tag (D18S59)
-            on the 5' end. PCR reactions were performed in 10 μl
-            with aliquots of normal and tumor DNA using a PCR
-            protocol consisting of 94°C for 30 s, 55°C for 30 s,
-            and 72°C for 1 min for a total of 40 cycles.
-          
-          
-            Horizontal ultrathin gel electrophoresis
-            Horizontal ultrathin, high throughput
-            fluorescence-based DNA fragment gel electrophoresis
-            (GTI-9600; Genesys Technologies, Inc) was applied to
-            the separation and analysis of PCR-generated alleles as
-            previously described [ 4]. One microliter of amplified
-            material was combined with 2 μl formamide loading dye
-            (Amersham Inc, Piscat-away, NJ, USA) prior to
-            electrophoresis. ROX 350 fluorescent size markers (0.7
-            μl; ABI, Foster City, CA, USA) were added to amplified
-            tumor DNA to allow sizing of alleles. Samples were
-            heated to 95°C, loaded on the 70 μm, 5% horizontal
-            polyacrylamide gel and electrophoresed for 1 h and 15
-            min at 30 W in 1 × TBE using the GTI-9600. Data were
-            collected while running the electrophoresis and stored
-            using the accompanying Cartographer data analysis
-            software program, which extracts the pixel intensity of
-            individual peaks present in a lane trace, allowing for
-            sizing of alleles and quantitation of fluorescent peak
-            areas. In determining whether allelic deletion had
-            occurred at individual markers, allelic ratios were
-            calculated and expressed as a percentage of loss of
-            intensity for the tumor allele compared with the
-            corresponding normal allele (D-value) after
-            normalization. When the allelic ratio in the tumor DNA
-            was reduced by greater than 40% (DO.40) from that found
-            in the normal DNA, the sample was denoted as having LOH
-            at that locus.
-          
+          Cell culture
+          Mouse septal neuron x neuroblastoma hybrid SN56 cells
+          were maintained at 37°C in an atmosphere of 95% air, 5%
+          CO 
+          2 in DMEM supplemented with 10% FBS.
+          The medium was changed every 2-3 days. Cells of passage
+          10 to 40 were used.
         
         
-          Results
-          
-            Chromosome 18p11 LOH in breast cancer
-            progression
-            A total of 96 foci were individually microdissected
-            from 30 breast tumor cases and analyzed for LOH at the
-            polymorphic markers D18S59 and D18S481 spanning
-            18p11.3. These microdissections resulted in normal,
-            DCIS and IDC material from most tumors. The overall
-            frequency of LOH in 18p11.3, as measured for any stage
-            of disease using D18S481 and/or D18S59, was 63%
-            (27/43). This is significantly higher than the 21%
-            frequency originally reported using non-microdissected
-            IDC samples [ 1], suggesting that allelic deletion
-            events may have been masked by contaminating normal
-            stroma in earlier studies. A low frequency (3/96) of
-            microsatellite instability was also detected at marker
-            D18S59. These microsatellite instability results were
-            confirmed in at least two independent experiments and
-            correspond to previous published results for this
-            marker [ 2].
-            LOH on 18p was found, when analyzed by tumor stage,
-            in 56% (9/16) of DCIS foci, 67% of IDC foci (14/21),
-            and 67% (4/6) of metastatic disease. A schematic
-            representation of all tumor foci studied appears in
-            Figure 1. The magnitude of LOH detected indicates that
-            alterations in this region generally occur early in
-            breast cancer progression. In four cases (cases 6, 18,
-            27, and 28), however, LOH was not detected until the
-            invasive stage, and in two cases (cases 1 and 2) LOH
-            was only detected in metastatic disease (Fig. 1). This
-            suggests that allelic deletion in 18p11.3 may also
-            arise late in progression, albeit with less frequency.
-            Such heterogeneity in the stage specificity of genetic
-            events has also been shown for other chromosomal
-            regions harboring tumor suppressor loci [ 11, 12,
-            13].
-            The extent to which LOH is specific to band 18p11.3
-            was determined by analysis with marker D18S452. This
-            marker resides at the border between bands 18p11.3 and
-            18p11.2, approximately 12 cM proximal to D18S481. Of
-            the 15 tumor foci with LOH at 18p11.3 and for which
-            D18S452 was informative, 73% (11/15) retained
-            heterozygosity at this 18p11.2 marker. The majority of
-            measured deletion events being detected are thus
-            intrachromosomal events rather than loss of the entire
-            chromosome 18.
-          
-          
-            Heterogeneity of 18p LOH in breast cancer
-            progression
-            Previous genetic studies have shown that
-            heterogeneous pathways exist for breast cancer
-            progression [ 15, 16]. We could examine, by studying
-            multistage individually microdissected tumor components
-            from the same specimen, the extent of heterogeneity
-            associated with chromosome 18p LOH (Fig. 2). In tumors
-            where allelic loss information was attainable for two
-            or more disease stages, 73% (11/15) displayed a pattern
-            of LOH indicative of a classic clonal progression. LOH
-            first appeared in the DCIS stage for the majority of
-            these cases (cases 3, 9, 31, 39, 47, 51 and 53). Four
-            tumors were, however, interestingly identified with
-            genetic heterogeneity for chromosome 18p events. LOH
-            detected in the DCIS component was not found in the
-            associated IDC component in two cases (tumors 21 and
-            44), suggesting that the invasive foci arose from cells
-            other than those associated with the analyzed DCIS
-            focus. Microsatellite instability and LOH distinguish
-            multiple pathways of progression in the remaining two
-            tumors (cases 2 and 27). Thus, although genetic events
-            involving chromosome 18p sequences most often follow a
-            classic progression paradigm, a significant proportion
-            (27%) do not.
-          
-          
-            Correlations of allelic loss in chromosome
-            18p
-            Realizing that loss on 18p is only one part of the
-            complex genetic profile for breast cancer, we sought to
-            discover whether genetic alteration on this chromosome
-            correlated with LOH in other regions known to undergo
-            allelic deletion in cancer. These tumors had previously
-            been shown to have undergone allelic deletion on
-            chromosomes 3p (77%), 9p (75%), 11p (37%), 13q (39%),
-            16q (85%), 17p (100%) and 17q (71%). The LOH results
-            specifically for those tumors also showing detectable
-            chromosome 18p LOH are presented in Figure 3. In every
-            instance where information was available, LOH on
-            chromosomes 3p (region C13-CA373-D3S1300), 9p (region
-            D9S171-D9S1748), 17p (region D17S1832-D17S1788
-            including p53) and 17q (region THRA1-D17S928 including
-            nm23) was present when 18p LOH occurred. Chromosome 16q
-            LOH (region D16S496-D16S513), in contrast, was only
-            found in 81%, chromosome 13q (D13S260-D13S263) in 55%,
-            and chromosome 11p (region D11S922-D11S988 including
-            TH) in 48% of tumors also having 18p LOH. These
-            frequencies suggest that alterations on chromosome 18p
-            occur more often in the presence of alterations
-            affecting regions containing such tumor suppressors as
-            p16 (9p) [ 17] and p53 (17p) [ 18], while events on
-            chromosomes 13q, 16q and 11p occur more
-            independently.
-          
+          Transient transfection with plasmids or antisense
+          oligonucleotides
+          The pCGN expression vector containing the cDNAs of
+          mouse PLD2 (mPLD2) or human PLD1 (hPLD1) driven by the
+          CMV promoter were described previously [ 5 6 ] . An
+          influenza-epitope (hemagglutinin-tag) is inserted in the
+          pCGN vector and is expressed at the N-terminus of the
+          PLDs. The SN56 cells were grown to about 50-70%
+          confluence, then transiently transfected with these
+          plasmids using Lipofectamine Plus reagent according to
+          the manufacturer's instructions. The cells were assayed
+          48 hours after transfection. Additional cultures were
+          transfected with a β-galactosidase expression plasmid and
+          were stained on the day of the experiment (using staining
+          kit from Invitrogen) to estimate transfection efficiency.
+          The overall transfection efficiency was about 10-15%.
+          A mouse PLD2 antisense oligonucleotide was purchased
+          from Sequitur, Inc. (Natick, MA). The sequence of the
+          anti-mPLD2 oligonucleotide was
+          5'-CAUGUGCAACUGGCUGGAGUUCAGA-3' and corresponded to the
+          sequence of mouse PLD2 cDNA (GeneBank accession number
+          U87557) starting at position 180. A reversed control
+          oligonucleotide was also used and its sequence was
+          5'-AGACUUGAGGUCGGUCAACGUGUAC-3'. SN56 cells were grown to
+          50-60% confluence and washed once with Opti-MEM (Gibco
+          BRL). The oligonucleotides were diluted in 100 μl
+          Opti-MEM to various concentrations, mixed with 100 μl of
+          Opti-MEM containing 6 μl of Lipofectamine and incubated
+          at room temperature for 20 minutes. The mixture was then
+          added to 800 μl of serum-free DMEM and the cells were
+          incubated in this medium for 4 hours at 37°C and then
+          cultured in normal growth medium for two days before
+          assay. A fluorescent-dye labeled oligonucleotide was also
+          purchased from Sequitur Inc. and used as a control to
+          monitor transfection efficiency. The transfection
+          efficiency was about 30-40%.
         
         
-          Discussion
-          Current knowledge about the progression of breast
-          cancer reveals that, by analogy to colon and brain
-          tumors, genetic aberrations can occur in a disease stage
-          or grade specific manner. Clonal evolution is, however, a
-          dynamic process from which clones that are not
-          necessarily committed to a malignant phenotype can also
-          emerge, resulting in genetic heterogeneity in the tissue.
-          Such genetic heterogeneity has been described for
-          multiple loci in breast cancer [ 3, 11, 16, 19, 20],
-          providing an understanding of the complex picture of
-          breast cancer pathogenesis. Such an understanding is
-          necessary if detection of LOH or other genetic
-          abnormalities will ever allow for consistent and useful
-          identification of preinvasive breast lesions at higher
-          risk of progression.
-          The present study investigated stage specificity and
-          level of genetic heterogeneity of LOH events in a new
-          region (18p11.3) involved in breast cancer. Significant
-          LOH for chromosome 18p11.3 (63%) was discovered using
-          microdissected foci, suggesting the presence of a
-          putative tumor suppressor gene(s) on 18p with an
-          important role in the pathogenesis of breast cancer. The
-          frequency reported in the present study (63%) is
-          significantly higher than the original reported frequency
-          of 21% [ 1] and most probably reflects the superior
-          separation of tumor cells from normal contaminating
-          tissue using a microdissection protocol. A series of
-          unrelated microdissected DCIS tumors for which no
-          invasive component was present also show this high LOH
-          frequency (58%) when measured at 18p11.3 (data not
-          shown), suggesting the 63% frequency reported in the
-          present study is not a consequence of analyzing samples
-          containing multiple stages of disease. These measured
-          allelic deletions represent alterations specific to
-          18p11.3 and not entire chromosome 18 events based on
-          results using marker D18S452, although the presence of
-          simultaneous but independent LOH on 18q was not
-          examined.
-          It was discovered, by analyzing multiple foci
-          occurring simultaneously within individual tumors, that
-          chromosome 18p events occur at a significant frequency
-          (56%) early in the tumorigenic process, making LOH at
-          chromosome 18p one of the most common known events in
-          DCIS tumors. For 73% of the cases in which multiple
-          stages of disease arose simultaneously and for which
-          information on at least one marker was available, 18p11.3
-          LOH in the DCIS component could also be found in the
-          invasive component isolated for analysis (Fig. 2). This
-          suggests that the majority of breast tumors progress in a
-          clonal fashion. Four cases (27%) were, however,
-          consistent with genetic heterogeneity at this chromosomal
-          region. These latter observations argue that invasive
-          foci of an individual tumor can represent genetically
-          divergent clones rather than progressive stages of the
-          disease. Such conclusions are further supported by flow
-          cytometric and comparative genomic hybridization analyses
-          on primary and metastatic disease components [ 19, 20].
-          In the comparative genomic hybridization study [ 20], 69%
-          of metastatic lesions showed a high degree of clonal
-          progression from the primary tumor, whereas 31% did not.
-          These frequencies parallel the 70% clonal/30%
-          heterogeneous progression frequencies reported for
-          chromosome 18p events in the present study.
-          We are not yet at a stage in our understanding of
-          breast disease such that genetic alterations can
-          substitute for the histopathology of the lesion. A
-          combinatorial histological and genetic approach with
-          sufficient information on survival and response profiles
-          may, however, make for more effective disease prevention
-          and cure in the future. The power of genetic profiles in
-          prognostic relevance has recently been shown by Emi 
-          et al [ 21]. Studying 15 loci in
-          264 women, Emi 
-          et al found that LOH at markers
-          1p34, 13q12, 17p13.3 and 17q21.1, as well as two pairs of
-          markers (1p34/17p13.3 and 13q12/17p13.3), had significant
-          prognostic value and carried significant relative risk of
-          death. It would be interesting, given the high frequency
-          of LOH discovered for chromosomal region 18p11.3 in this
-          report, to include this marker along with these regions
-          to determine its usefulness as a predictive risk marker
-          in breast cancer.
-          To that extent, it was interesting to view a partial
-          genetic profile for other regions of LOH in these tumors
-          when chromosome 18 LOH was present. Chromosome 18p LOH
-          always occurred in conjunction with LOH on 3p, 9p, 17p
-          and 17q independent of tumor stage, suggesting this group
-          of loci were critical to the development of breast
-          cancer. Allelic deletion on chromosomes 16q, 13q and 11p
-          occurred less consistently (81, 55 and 46%,
-          respectively), suggesting these regional events are more
-          varied depending on the stage and/or type of tumor foci
-          analyzed. Of further interest is the putative tumor
-          suppressor gene, DAL-1, which has recently been mapped to
-          chromosome band 18p11.3 [ 22]. It will be important to
-          learn more about the function of this gene and its
-          potential mutational profile in breast cancer. Future
-          studies will determine whether this or another tumor
-          suppressor gene is the target of the high frequency of
-          allelic deletion measured in this study for breast
-          cancer.
+          Northern blot analysis
+          Northern blot analysis was carried out essentially as
+          described previously [ 25 ] using 20 μg of total RNA per
+          lane and 1% formaldehyde-agarose gel containing ethidium
+          bromide. The RNA was size-fractionated by electrophoresis
+          and transferred to a nylon membrane (HyBond, Amersham).
+          The PLD probes were: PLD1 661 bp human PLD1 cDNA fragment
+          (GenBank accession number U38545, pos. 951-1611) isolated
+          from HeLa cell cDNA by PCR, and PLD2 (GenBank accession
+          number U87557) excised from the pCGN-mPLD2 plasmid using
+          endonuclease Xbal and Smal (3000 bp). DNA probes were
+          labeled with [α- 32P]dCTP with the random primer labeling
+          kit (Pharmacia Biotech Inc., NJ). Prehybridization and
+          hybridization steps were carried out at 65°C in Rapid-Hyb
+          solution according to manufacturer's instructions. The
+          blots were washed and exposed to an x-ray film (Kodak
+          BioMax MS-2 film, Sigma) with an intensifying screen at
+          -80°C for 4 days. Signal intensities were quantified with
+          ImageQuant software (Molecular Dynamics) or NIH Image
+          1.62. Following Northern hybridization with these probes,
+          the blots were stripped and re-probed with a mouse G3PDH
+          probe for normalization purposes. For these experiments
+          the results are expressed as units of band intensity
+          normalized with G3PDH.
+        
+        
+          Western blotting of PLD isoforms
+          Protein lysates from whole cells and tissues were
+          prepared with a buffer, which contained 50 mM Tris, pH
+          7.5, 150 mM NaCl, 1% (v/v) Nonidet P40 (NP40), 2 mM
+          4-(2-aminoethyl)benzenesulphonyl fluoride, 1 μg/ml
+          leupeptin, 2 μg/ml aprotinin and 2 μg/ml pepstatin.
+          Lysates were mixed vigorously, incubated on ice for 15
+          minutes and cleared by brief centrifugation. The
+          extracts, normalized for total protein content, were
+          separated by SDS/PAGE and transferred to a polyvinylidene
+          difluoride membrane (Immobilon-P, Millipore Corp.). The
+          membrane was blocked with 5% non-fat milk in
+          Tris-buffered saline containing 0.15% Tween-20. The
+          polyclonal anti-human PLD2 antibody and anti-mouse PLD1
+          antibody were used to detect PLD2 and PLD1, respectively.
+          The membrane was then incubated with anti-rabbit IgG
+          peroxidase conjugates, and proteins were visualized using
+          the chemiluminescence method (Luminol reagent, Santa Cruz
+          Biotechnology) and Kodak BioMax light film (Fisher
+          Scientific). Some blots were stripped by incubating them
+          at 55°C for 30 min in a solution containing Tris-HCl 62.5
+          mM, pH 6.7, 2% SDS and 100 mM β-mercaptoethanol, and then
+          probed with anti-mouse actin antibody (Sigma, St. Louis,
+          MO) for normalization purposes. Signal intensities of
+          protein bands were quantified with NIH Image 1.62.
+          Approximate molecular weights were estimated using
+          prestained standards (NEN, Boston, MA).
+        
+        
+          In vivo assay of PLD activity
+          For 
+          in vivo assay, the cells were grown
+          to subconfluence and prelabeled with 2 μCi/ml [
+          3H]myristic acid in DMEM containing 10% FBS overnight.
+          Labeled cells were incubated in 1 ml HEPES-buffered
+          saline solution (HBS, composition in mM: NaCl, 145; KCl,
+          5; MgSO 
+          4 , 1; CaCl 
+          2 , 1.8; glucose, 10; HEPES, 10; pH
+          7.4) at 37°C for 30 min twice to wash out the
+          unincorporated label. The labeled cells were then
+          incubated in the presence or absence of 1.5% 1-propanol
+          with or without 100 nM PMA at 37°C for 45 min. The
+          reaction was terminated by adding ice-cold methanol and
+          the lipids were extracted in a solution containing
+          methanol/chloroform/water (1:1:1 v/v). The lipids were
+          dried and separated by TLC in a mobile phase, composed of
+          the upper phase of a mixture of ethyl
+          acetate/isooctane/acetic acid/water (130:20:30:100 v/v),
+          and the phospholipids were visualized with
+          l,6-diphenyl-l,3,5,-hexatriene in hexane. The spots
+          comigrating with the appropriate phospholipid standards
+          were scraped off and their radioactivity was measured by
+          liquid scintillation spectrophotometry and expressed as a
+          percentage of the radioactivity present in the total
+          lipids.
+        
+        
+          Acetylcholine measurements
+          The cells were preincubated for 20 minutes in a
+          choline-free physiological salt solution (pH 7.4)
+          consisting of 135 mM NaCl, 5 mM KCl, 1 mM CaCl 
+          2 , 0.75 mM MgCl 
+          2 , 10 mM glucose and 10 mM HEPES. The
+          cells were then incubated in the same buffer supplemented
+          with 50 μM neostigmine (to inhibit acetylcholinesterase)
+          with or without 100 nM PMA for 45 minutes. The media were
+          collected for subsequent assays of ACh and choline. The
+          cells were scraped into 1 ml of methanol and this mixture
+          transferred to a tube containing 100 μl 1 M formic acid,
+          vortex mixed and centrifuged. The pellet was collected
+          for protein assay while ACh was extracted by mixing the
+          supernatant fluid with chloroform and water (1:2:1 v/v).
+          The samples were vortex mixed and centrifuged for 5
+          minutes at 3,000 rpm. The aqueous phase (containing ACh)
+          was collected and dried under a vacuum. ACh content was
+          determined by high performance liquid chromatography with
+          an enzymatic reactor containing acetylcholinesterase and
+          choline oxidase and an electrochemical detector using a
+          commercial kit (Bioanalytical Systems, Inc.) based on the
+          method of Potter et al. [ 49 ] as described previously [
+          50 ] . Protein concentration was determined by the method
+          of Smith et al. [ 51 ] .
+        
+        
+          Statistical Analysis
+          Data presented in the figures were derived from 3-9
+          independent experiments and were analyzed using Systat
+          5.2.1 (SPSS Inc., Chicago, Ill) by t-test or analysis of
+          variance as appropriate. Tukey or Fisher LSD were used
+          for post hoc tests. Differences were considered to be
+          significant at p < 0.05.
         
       
       
         Abbreviations
-        DCIS = ductal carcinoma 
-        in situ ; IDC = invasive ductal
-        carcinoma; LOH = loss of heterozygosity; PCR = polymerase
-        chain reaction.
+        1ACh, acetylcholine; ARF, ADP-ribosylation factor; DAG,
+        diacylglycerol; G3PDH, glyceraldehyde 3-phosphate
+        dehydrogenase; MAChR, muscarinic acetylcholine receptor;
+        PA, phosphatidic acid; PC, phosphatidylcholine; PIP 
+        2 , phosphatidylinositol 4,
+        5-bisphosphate; PKC, protein kinase C; PLD, phospholipase
+        D; PMA, phorbol 12-myristate 13-acetate; PP,
+        phosphatidylpropanol; ROS, reactive oxygen species; TLC,
+        thin layer chromatography.
       
     
   

@@ -2,1026 +2,293 @@
   
     
       
-        Background
-        RNA polymerase II (pol II) transcription factor TFIID
-        comprises the TATA-binding protein (TBP) and a set of
-        TBP-associated factors (TAF 
-        II s) [ [ 1 2 3 ] ]. At least 12 TAF 
-        II s have been identified in TFIID and
-        cloning of their cDNAs has shown an evolutionary
-        conservation of TAF 
-        II s from yeast to mammals [ [ 4 5 6 7 ]
-        ]. TAF 
-        II s are not only components of the
-        TFIID complex, but a subset of TAF 
-        II s are also found in the SAGA, PCAF,
-        TFTC/STAGA complexes which lack TBP [ [ 8 9 10 11 12 ]
-        ].
-        TAF 
-        II function in living cells has been
-        studied in yeast where the use of temperature sensitive
-        (TS) mutants has shown that many TAF 
-        II s are required for transcription of
-        the majority of yeast genes [ [ 13 14 15 16 17 ] ]. In
-        contrast, TS lesions in TAF 
-        II 145, TAF 
-        II 150, and TAF 
-        II 90 have a less dramatic effect
-        affecting the expression of only a specific subset of genes
-        mainly involved in the cell cycle [ [ 18 19 ] ] (for
-        reviews see [ 3, 20].
-        In mammalian cells, a TS mutation in TAF 
-        II 250 shows that one of the functions
-        of this protein is cell cycle regulation [ [ 21 22 23 24 ]
-        ]. Genetic experiments indicate that TAF 
-        II 30 is required for the viability of
-        mouse F9 embryonal carcinoma cells as well as for their
-        differentiation into parietal endoderm [ 25]. In the
-        absence of TAF 
-        II 30, undifferentiated F9 cells die
-        through apoptosis, but TAF 
-        II 30 is not required for survival of
-        retinoic acid differentiated F9 cells.
-        Several studies have also focused on TAF 
-        II 135. TAF 
-        II 135 comprises 1083 amino acids and
-        contains multiple functional domains. At least four
-        glutamine-rich domains have been described. Sp1 and CREB
-        interact with distinct glutamine-rich domains of TAF 
-        II 135 and TAF 
-        II 135 acts as a coactivator 
-        in vitro for these activators. In
-        transfected cells, subdomains of TAF 
-        II 135 can act as dominant negative
-        repressors of CREB activity [ [ 26 27 28 ] ]. It has
-        further been suggested that some neurodegenerative diseases
-        may result from sequestration of TAF 
-        II 135 by expanded polyglutamine domains
-        and consequent interference with CREB activity [ 29]. TAF 
-        II 135 also contains two conserved
-        regions, CR-I and CR-II, which are shared with the 
-        Drosophila homologue dTAF 
-        II 110 and mammalian TAF 
-        II 105 [ 27, 30] The CR-II region is
-        also shared with the yeast homologue yTAF 
-        II 48 [ 31, 32] and contains a histone
-        fold domain required for heterodimerisation with hTAF 
-        II 20/yTAF 
-        II 68 [ 33, 34]. The CR-II domain plays
-        an essential role in the ability of TAF 
-        II 135 to potentiate ligand-dependent
-        transactivation by the the receptor for all-trans retinoic
-        acid (RAR) in transfected mammalian cells [ 5, 33]. Aside
-        from these studies, little is known concerning the role of
-        TAF 
-        II 135 in more physiological
-        situations.
-        An increasing body of evidence indicates that targeted
-        26S proteasome-mediated proteolysis of transcription
-        factors is an integral part of the transactivation process.
-        There is a very tight relationship between the potency of
-        activation domains and their stability [ [ 35 36 37 38 ] ].
-        Activation domains and sequences required for degradation
-        overlap and mutations in the VP16 activation domain which
-        impair its function result in enhanced protein stability [
-        35]. Similarly, ligand-dependent targeted proteolysis of
-        several nuclear receptors has been observed [ [ 39 40 41 42
-        ] ]. In the estrogen receptor, the RARα, and the RXRα,
-        deletion of the α-helix H12 of the ligand binding domain
-        which is essential for ligand-dependent activation
-        stabilises these proteins showing that proteolysis and
-        transactivation are intimately linked [ [ 42 43 44 ] ]. In
-        the case of nuclear receptors, their targeted proteolysis
-        in the presence of ligand may be a mechanism for
-        attenuating the physiological response to the ligand. It
-        has also been suggested that targeted proteolysis is a
-        means of regulating other physiological responses, such as
-        signaling through STAT factors [ 45] and heat shock [
-        46].
-        Although targeted proteolysis of transcriptional
-        activators has been investigated, it is not known whether
-        components of the basal transcription apparatus are subject
-        to this type of regulation in response to physiological
-        stimuli. We show here that TBP and TAF 
-        II 135 are selectively depleted in
-        extracts from T-RA differentiated F9 cells and from
-        differentiated C2C12 cells. This depletion is due to the
-        selective targeting of TBP and TAF 
-        II 135 for proteolytic degradation since
-        depletion is blocked when cells are treated with proteasome
-        inhibitors. During F9 cell differentiation, degradation of
-        TBP and TAF 
-        II 135 is concomitant with that of the
-        RARγ2, a critical activator in primitive endoderm
-        differentiation. These results reveal a novel pathway
-        controlling the intracellular levels of these two TFIID
-        components and show that in F9 cells RA not only induces
-        targeted proteolysis of the RARγ2, but also of the basal
-        transcription factors which mediate transcriptional
-        activation. We further show that stable ectopic expression
-        of TAF 
-        II 135 in F9 cells delays the targeted
-        degradation of endogenous TAF 
-        II 135, TBP, and the RARγ2 in response
-        to T-RA. The cells have an enhanced growth rate and their
-        differentiation into primitive endoderm is impaired at an
-        early stage, but they readily differentiate into parietal
-        endoderm. Treatment of these cells with T-RA also induces
-        the appearance of a population of cells with an atypical
-        elongated morphology, distinct from that of the primitive
-        endodermal cells, which have not been previously documented
-        with wild type F9 cells, and which are resistant to
-        differentiation with bt2cAMP.
+        Introduction
+        The protective effects of antibody to pneumococcal capsular polysaccharides have been
+        appreciated since the development of serum therapy, in which passively transferred,
+        serotype-specific antipneumococcal serum reduced mortality from pneumococcal pneumonia by
+        half [1]. The development of pneumococcal polysaccharide vaccines for adults [2] and the
+        efficacy of pneumococcal polysaccharide–protein conjugate vaccines in infants and children
+        [3,4] have confirmed that active immunity to the polysaccharide can provide excellent
+        protection against invasive disease from pneumococci of the same serotype, and in some
+        cases protection against cross-reacting serotypes within the same serogroup.
+        While the ability of passive or vaccine-induced anticapsular antibodies to protect
+        against pneumococcal disease is clear, less is known about the natural development of
+        immunity to pneumococcal disease in unimmunized persons. In unimmunized populations, the
+        incidence of invasive disease follows a well-known age distribution, peaking in the first 2
+        y of life, declining by more than an order of magnitude by the second and third decades of
+        life, and then rising at an accelerating pace, with incidence in persons over 70 y
+        approaching that in infants [5]. The reason for the decline in incidence has not been
+        conclusively determined, yet it is often suggested that the acquisition of anticapsular
+        antibodies plays a critical role in this decline [6,7]. Indeed, it has been proposed that
+        the human immune system sees each serotype of 
+        Streptococcus pneumoniae as a distinct, independent pathogen
+        [8].
+        The hypothesis that protection from invasive pneumococcal disease is caused by the
+        acquisition of anticapsular antibodies directed against each of the pneumococcal serotypes
+        yields two simple predictions about the age-specific epidemiology of pneumococcal disease.
+        First, it predicts that the age-specific timing of the decline in invasive disease should
+        be different for different serotypes: those that are rare, poorly immunogenic, or both
+        should decline later in life than those that are common and immunogenic. Second, it
+        predicts that protection against invasive disease from a given serotype should coincide
+        temporally with the acquisition of anticapsular antibody to that serotype, both at an
+        individual level and at a population level. We tested these predictions using data from the
+        United States, Finland, and Israel.
+      
+      
+        Methods
+        
+          United States Dataset
+          Incidence of invasive pneumococcal disease was measured in eight sites around the
+          United States participating in the Centers for Disease Control and Prevention's Active
+          Bacterial Core Surveillance between 1994 and 1999. The data used here are restricted to
+          those periods during which serotyping was routinely performed: 1994–1999 for the Georgia
+          site, 1995–1999 for the Minnesota site, and 1998–1999 for all other sites [5]. Data were
+          not available on the timing of anticapsular antibody acquisition in these same
+          populations, but we compared the timing of the decline in pneumococcal disease against
+          previously published data on age-specific prevalence of anticapsular antibody levels
+          greater than 0.2 mcg/ml [9].
+        
+        
+          Israel Dataset
+          Antibody concentrations were measured by enzyme-linked immunosorbent assay (ELISA)
+          (with absorption by cell wall polysaccharide but not by 22F polysaccharide) in blood
+          samples that were obtained from 130 toddlers at enrollment and at approximately 12 and 24
+          mo after enrollment in a double-blind, controlled trial of a nine-valent pneumococcal
+          conjugate vaccine. The toddlers analyzed for this study were those in the control group,
+          which received meningococcal C conjugate vaccine; the details of the trial [10] were
+          previously described. Preliminary analyses of these data confirmed previous findings [11]
+          that ELISA measurements were highly correlated (and therefore likely revealed
+          cross-reactions) for all pairs of serotypes, except for type 14, for which correlations
+          were minimal, consistent with previous findings of little cross-reaction. For this
+          reason, we chose to analyze age trends only in serotype 14 antibodies.
+        
+        
+          Finland Dataset
+          Mandatory reporting from all microbiological laboratories in Finland to the National
+          Register of Infectious Disease (http://www3.ktl.fi/stat/) identified all blood and
+          cerebrospinal fluid isolates of 
+          S. pneumoniae obtained in the years 1995–2001. Incidence
+          within 6-mo age groups was calculated using population denominators obtained from
+          Statistics Finland (Helsinki, Finland). Since the primary purpose of examining incidence
+          in Finland was to compare age-specific rates against published distributions of antibody
+          concentrations for the same age groups [12], we restricted our attention to serotype 14
+          and serogroup 6, for which subsequent investigations suggested antibody measurements in
+          Finland were relatively unaffected by cross-reactions [13] (ELISA measurements for
+          published data from Finland used a special type 6B polysaccharide that was found to
+          minimize cross-reactions [13]).
+        
       
       
         Results
         
-          TBP and TAF II135 are selectively depleted in
-          extracts from T-RA differentiated F9 cells
-          F9 cells are a well characterised model for cellular
-          differentiation. In the presence of T-RA, F9 cells
-          differentiate into primitive or visceral endoderm, and
-          into parietal endoderm in the presence of T-RA and bt 
-          2 cAMP [ [ 47 48 ] ]. Differentiation
-          is accompanied by growth inhibition, characteristic
-          changes in cell morphology, targeted degradation of
-          RARγ2, induction of marker genes, and increased
-          apoptosis.
-          To determine whether components of basal transcription
-          factor TFIID were subject to regulation during F9 cell
-          differentiation, immunoblotting with monoclonal
-          antibodies against TBP and a number of TAF 
-          II s, was used to monitor the levels
-          of the respective proteins in differentiated cell
-          extracts (see Materials and Methods).
-          No significant changes in the levels of TAF 
-          II 100, TAF 
-          II 55, TAF 
-          II 20, TAF 
-          II 30, and TAF 
-          II 18, or the largest subunit of RNA
-          polymerase II were observed between 3 and 10 days of T-RA
-          treatment (Fig. 1A, lanes 1-6 and data not shown). In
-          striking contrast, TAF 
-          II 135 and TBP were strongly and
-          selectively depleted in extracts made from cells
-          differentiated with T-RA for more than 3 days (Fig.
-          1Alanes 1-2) and remained at low levels up until at least
-          day 10 (lanes 2-5). No such changes were observed in
-          vehicle treated control cultures (Fig. 1A, lanes 7-12).
-          In these experiments, TAF 
-          II 135 and TBP were detected using two
-          different monoclonal antibodies directed against distinct
-          epitopes (see Materials and methods). The relevant
-          extracts from T-RA treated cells were also analysed by
-          staining with Coomassie Brilliant Blue showing that there
-          was no overall change in the protein profile (Fig. 1B).
-          Therefore, there is a selective depletion of these two
-          TFIID components in extracts from differentiating
-          cells.
-          To evaluate the levels of TBP and TAF 
-          II 135 in extracts from primitive
-          endodermal cells we performed titration experiments using
-          serial dilutions of undifferentiated F9 cell extract.
-          Upon prolonged exposure, TAF 
-          II 135 could still be detected in a
-          20-fold dilution of the F9 cell extract, whereas it was
-          virtually undetectable in extracts from day 7
-          differentiated cells (Fig. 1C, lanes 1-5 compared with
-          lane 6). Similarly, TBP was readily detected in the
-          20-fold dilution of F9 cell extract, while the levels
-          detected in the differentiated cell extracts were
-          significantly lower (compare lanes 5 and 6).
-          The above experiments were performed with total cell
-          extracts made in the presence of 0.5 M KCl. We also asked
-          whether the depletion of TBP and TAF 
-          II 135 would be observed in nuclear
-          extracts from differentiated F9 cells where the nuclei
-          were extracted with 1.0 M KCl to ensure efficient protein
-          extraction. As observed in total cell extracts, TAF 
-          II 135 and TBP were selectively
-          depleted in nuclear extracts from differentiated cells
-          (Fig. 1D).
-          TBP and TAF 
-          II 135 were strongly and selectively
-          depleted in extracts from visceral endoderm
-          differentiated F9 cells analogous to what was observed in
-          primitive endodermal cells (data not shown). When F9
-          cells were treated with T-RA and bt 
-          2 cAMP to induce parietal endoderm
-          differentiation, a selective depletion of TBP and TAF 
-          II 135 also took place between day 3
-          and day 5 (Fig. 1Elanes 1, 2 and 6), however, TBP, but
-          not TAF 
-          II 135, reappeared in parietal
-          endodermal cell extracts around day 9 (lanes 4-5).
-          Together the above results indicate that there is a
-          specific regulation of TBP and TAF 
-          II 135 during F9 cell
-          differentiation.
+          United States Findings
+          Figure 1 shows the age-specific incidence of invasive pneumococcal disease, by
+          capsular serogroup, obtained from population-based active surveillance in the United
+          States prior to the introduction of the conjugate vaccine. Figure 2 shows age-specific
+          incidence by type of infection, for the same age range.
+          Incidence peaks between the ages of 9 and 15 mo, and falls in an approximately
+          parallel fashion thereafter, for each of the seven most important serogroups (which are
+          those included in the seven-valent conjugate vaccine) and for the remaining serogroups
+          put together. The same pattern is observed for both pneumonia and bacteremia. For each
+          serogroup, incidence by age 24 mo is approximately half that in the peak age group, and
+          by 36 mo, incidence for each serogroup has fallen to 10%–25% of its peak.
+          The consistent timing of the pattern across multiple serogroups argues for a common
+          mechanism, rather than for independent acquisition of immunity to each serogroup as a
+          separate event. Since most individuals do not suffer from invasive pneumococcal disease
+          in this age range, carriage or mucosal disease (otitis media) from pneumococci may be the
+          immunizing event for anticapsular antibodies in the general population [12] (although in
+          principle immunity to some serogroups could be generated in response to cross-reacting
+          antigens from other bacterial species or other sources [14]). Different serogroups have
+          vastly different frequencies among pneumococci isolated from carriage [12,15,16,17] and
+          otitis media [12,18]; for example, serogroups 4 and 18 and the non-vaccine serogroups are
+          isolated far less commonly than several of the other pneumococcal types identified in
+          Figure 1. One could postulate that these differences in frequency of carriage are offset
+          by differences in immunogenicity; however, there is little evidence that serotypes 4 or
+          18C are more immunogenic than other, far more common serotypes [4,15]. One could also
+          postulate that the frequency of isolation of serotypes from carriage depends on duration
+          as well as incidence, so that the serotypes for which carriage appears rare are simply
+          carried for a shorter duration. While the data to address this speculation are limited,
+          the duration of carriage of types 4 and 18C seems to be comparable to that of other, more
+          frequently carried serotypes [15,16]. Thus, the most parsimonious interpretation of the
+          data on the timing of the decline in age-specific susceptibility is that one or more
+          common mechanisms are responsible for the decline in disease from all serotypes.
+          Testing the second prediction against data is hampered by the fact that, to our
+          knowledge, no study has characterized the age-specific distribution of antibody
+          concentration in a large population using the currently accepted methodology, which
+          includes absorption with both cell wall polysaccharide and serotype 22F polysaccharide
+          [13,19]. Analyses by Soininen and colleagues have found that antibodies measured by
+          standard ELISA in unimmunized children are highly cross-reactive between different
+          serotypes, and that cross-reactive antibodies lack opsonophagocytic function and often
+          appear in the absence of any documented exposure to a given capsular serotype. As a
+          result, age-specific antibody concentration data for any given serotype are
+          “contaminated,” to a greater or lesser degree, by cross-reactive antibodies with other
+          specificties.
+          The most important exception to this problem occurs for antibodies to serotype 14, for
+          which cross-reaction is minimal [11]. A recent publication describes the age-specific
+          proportion of children in the United States with anti-type-14 polysaccharide antibody
+          concentration exceeding the putative protective concentration of 0.2 μg/ml (Figure 3 of
+          [9]). At 12 mo, 90%–95% of the population falls below this level, and at 24 mo, 80%–85%
+          remains below it—despite a 40%–50% drop in disease incidence from 12 mo to 24 mo. At 36
+          mo, 75% of children remain below the putative protective level, although by this age
+          incidence has fallen more than 80% from its 12-mo peak. In summary, if the 0.2-μg/ml
+          concentration were truly the threshold for “protection,” the 20%–30% reduction in the
+          unprotected population between ages 12 and 36 mo would be inadequate to explain the 90%
+          decline in disease incidence. Clearly, 0.2 μg/ml is not a precise dividing line between
+          being “protected” and “unprotected,” a threshold that (if it exists) may vary by
+          serotype, but given the available data, there is reason to doubt that anti-type-14
+          antibody alone is responsible for the decline in disease in this age range.
         
         
-          Depletion of TBP and TAF II135 is not observed in
-          F9 cells which are refractory to T-RA.
-          To determine whether the depletion of TBP and TAF 
-          II 135 was intimately linked to the
-          differentiation process, we examined the regulation of
-          these proteins in mutant F9 cells with altered
-          differentiation properties. F9 cells in which the
-          retinoid X receptor α gene has been disrupted by
-          homologous recombination (RXRα -/-cells) are impaired in
-          their response to T-RA [ 49]. When these cells are
-          treated with T-RA, the depletion of TBP and TAF 
-          II 135 observed in the cell extracts
-          is delayed by almost 4 days and takes place only between
-          days 7 and 9 rather than between days 3 and 5 in
-          wild-type cells (Fig. 2A), while no such depletion is
-          seen in extracts from vehicle treated cells (Fig. 2B). In
-          contrast, no significant change in TBP and TAF 
-          II 135 is seen in extracts from T-RA
-          treated RXRα -/-RARγ -/-cells, in which the RARγ gene has
-          also been disrupted [ 50, 51] and which are known to be
-          refractory to T-RA induced differentiation (Fig. 2C).
-          Thus, the selective depletion of TBP and TAF 
-          II 135 requires that the F9 cells
-          respond, at least partially, to T-RA, but does not
-          require full differentiation to take place.
+          Israel Findings
+          To assess whether the limitations of the United States antibody described above—i.e.,
+          the availability of only one cutoff point for antibody concentrations—might be providing
+          an incomplete picture of the distribution of antibody levels by age, we examined an
+          additional dataset from Israeli toddlers. For the reasons described above, we examined
+          only antibodies to serotype 14, for which the distribution of concentrations by age is
+          shown in Figure 3. These data indicate that between the ages of 12–17 and 36–41 mo, the
+          median antibody concentration increases by about 2-fold. These data are broadly
+          consistent with those published for the United States; antibody levels rise very
+          gradually, though detectably, during the second and third years of life. It is difficult
+          to believe—albeit not impossible—that the dramatic declines in disease incidence over
+          these years are explained simply by this small rise in antibody concentrations.
         
         
-          Depletion of TBP and TAF II135 is due to targeted
-          proteolytic degradation
-          The depletion of TBP and TAF 
-          II 135 in extracts from day 3-10 T-RA
-          treated cells could result from transcriptional or
-          post-transcriptional events. Semi-quantitative
-          reverse-transcription PCR (RT-PCR) experiments using
-          exon-specific oligonucleotide primers showed that there
-          were no significant changes in the TAF 
-          II 135 or TBP mRNA levels during
-          differentiation (data not shown). This suggests that
-          disappearance of TBP and TAF 
-          II 135 in extracts from differentiated
-          cells does not occur at the transcriptional level, but
-          rather results from a post-transcriptional event.
-          The peptide aldehyde proteasome inhibitors MG132 and
-          ALLN have previously been used to investigate the
-          post-transcriptional regulation of proteins during
-          physiological processes [ 52, 53]. To determine whether
-          the depletion of TAF 
-          II 135 and TBP observed in the
-          extracts from late T-RA treated F9 cells was due to their
-          selective proteolysis, we treated T-RA differentiated
-          cells with these inhibitors on days 3, 4, 5, 6, and 7.
-          After an overnight exposure, extracts were prepared (day
-          4, 5, 6, 7 and 8 extracts in Figs. 3Aand 3B). In the
-          absence of MG132 or ALLN, TBP and TAF 
-          II 135 disappeared in the
-          differentiated cell extracts (middle panel Figs. 3Aand
-          3Blanes 6-10). In contrast, in the presence of the
-          inhibitors both proteins were readily detected even at
-          late times where they are normally not observed (lanes
-          1-5). The levels were nevertheless lower than those
-          detected in undifferentiated cell extracts. The level of
-          TAF 
-          II 55, which remains constant during
-          differentiation, is only mildly increased by the addition
-          of MG132 or ALLN (Figs. 3Aand 3Blower panel, lanes 1-5
-          and 6-10). The addition of MG132 or ALLN to
-          non-differentiated cells also resulted in only a small
-          increase in TBP and TAF 
-          II 135 levels (Figs. 3Aand 3B, top
-          panel compare lanes 1-5 and 6-10). The above results
-          indicate that when proteolysis is inhibited the depletion
-          of TBP and TAF 
-          II 135 is no longer observed showing
-          that it is due to T-RA-induced proteolytic
-          degradation.
-          We also prepared extracts from differentiated cells
-          where MG132 was added only at the time of extract
-          preparation. Extracts made in this way are a measure of
-          the intracellular level of these proteins since synthesis
-          and degradation are both stopped at the same time.
-          Comparison of the TBP and TAF 
-          II 135 levels in extracts from day 7
-          differentiated cells prepared in the presence of MG132
-          showed that they were indeed significantly reduced
-          compared to undifferentiated cells or day 3
-          differentiated cells (approximately 3 fold, Fig. 3C,
-          lanes 1, 4 and 5, similar results were obtained in the
-          presence of ALLN data not shown). Nevertheless, these
-          proteins do not disappear completely as they do in the
-          absence of MG132 (lanes 2-3). Therefore, the complete
-          disappearance of these proteins seen in the absence of
-          protease inhibitors indicates that there is further
-          degradation in the extracts which exaggerates the
-          differences between differentiated and undifferentiated
-          cells. Although, less TBP could be immunopurified from
-          the MG132 blocked differentiated cell extracts using the
-          anti-TBP antidody 2C1, when equal amounts of
-          immunopurified TBP from differentiated and
-          undifferentiated cells was loaded, equivalent amonts of
-          TAF 
-          II 135 were detected in the TFIIDs
-          (data not shown). Thus, while the overall level of TFIID
-          is diminished through the reduction in TBP and TAF 
-          II 135, the relative stoichiometry of
-          the remaining TFIID is not significantly altered. The
-          apparently larger decrease in TAF 
-          II 135 seen in Fig. 3Cresults from the
-          lower efficiency of the antibody (see also Fig. 1C.)
-          Taken altogether, the above results show that the
-          intracellular level of TBP and TAF 
-          II 135 and consequently TFIID is
-          significantly reduced in differentiated cells through
-          T-RA-induced proteolytic degradation.
-        
-        
-          Coordinate degradation of TBP, TAF II135, and the
-          RARgamma2 receptor during F9 cell differentiation
-          It has previously been shown that the RARγ2 is subject
-          to degradation beginning 48 hours after T-RA-induced
-          differentiation of F9 cells [ 42]. To determine whether
-          there is a coordinate degradation of RARγ2, TBP and TAF 
-          II 135, we examined extracts made at
-          these early times. After 24 hours of T-RA treament the
-          levels of RARγ2, TBP and TAF 
-          II 135 were unchanged (Fig. 3D, lanes
-          1-2). However after 48 hours, there was a T-RA-dependent
-          reduction in the amount of RARγ2 and TBP and a
-          significant shift in the electrophoretic mobility of TAF 
-          II 135 (lanes 3-4). By 4 days the
-          levels of all three proteins were strongly reduced (lanes
-          5-6). These results indicate that the onset of
-          degradation of TBP and TAF 
-          II 135 is concomitant with that of the
-          RARγ2 suggesting that these events are
-          interdependent.
-        
-        
-          Constitutive ectopic expression of TAF II135
-          impairs F9 cell primitive endoderm differentiation
-          The above results show that the level of TAF 
-          II 135 and TBP is strictly controlled
-          during the differentiation of F9 cells by a
-          post-transcriptional mechanism involving targeted
-          proteolysis. To test whether artificially increasing the
-          level of TAF 
-          II 135 would affect the proper
-          differentiation of F9 cells, we established cell lines
-          which constitutively express flag-tagged versions of
-          human TAF 
-          II 135 [fTAF 
-          II 135(372-1083) and fTAF 
-          II 135(805-1083) see Materials and
-          methods]. TAF 
-          II 135(372-1083) contains all the
-          known functional domains, but lacks an unconserved
-          proline-alanine-rich region whereas, TAF 
-          II 135(805-1083) comprises only the
-          CR-II region.
-          For fTAF 
-          II 135(372-1083) 12 cell lines were
-          examined and we chose two, lines A and B, since they
-          expressed the highest levels of the fTAF 
-          II 135 protein. Immunoblotting with an
-          anti-flag monoclonal antibody showed a significantly
-          higher expression level in line A compared to line B
-          (Fig. 4A, lanes 1-2). This result is confirmed by
-          immunoblotting with monoclonal antibody 20TA which
-          detects both the endogenous and ectopically expressed TAF
-          
-          II 135 proteins (Figs. 4Band 4C, lane
-          1). In line A, the level of the ectopically expressed
-          protein is higher than that of the endogenous protein,
-          while in line B both the exogenous and the endogenous
-          proteins are expressed at similar levels. For fTAF 
-          II 135(805-1083) which contains only
-          the conserved C-terminal domain, 8 cell lines were
-          examined of which 3 expressed the fTAF 
-          II 135 protein (Fig. 6A). Both of the
-          cell lines expressing fTAF 
-          II 135(372-1083) showed an
-          approximately 2-fold accelerated growth rate compared to
-          wild type cells while no significant increase was seen in
-          the fTAF 
-          II 135(805-1083) expressing cells
-          (Fig. 4E, and data not shown, note that the apparent
-          slowing of growth between day 8 and 10 for lines A and B
-          is due to their reaching confluence).
-          We first verified whether treatment of these cells
-          with T-RA would lead to the depletion of the ectopically
-          expressed TAF 
-          II 135. In line A, both the
-          ectopically expressed TAF 
-          II 135 and the endogenous TAF 
-          II 135 were depleted with the same
-          kinetics (Fig. 4B, lanes 1-5). TBP was also concomitantly
-          depleted in these extracts, and all three proteins were
-          stabilised when cells were treated with MG132 (lanes
-          6-8). Importantly however, the disappearance of all three
-          proteins was clearly delayed by 48 hours compared to
-          wild-type cells (compare Figs. 4Band Fig. 1Aor Fig. 3C).
-          In line B, there was also coordinate disappearance of TBP
-          and the exogenous and endogenous TAF 
-          II 135 (Fig. 4C), although no obvious
-          delay such as that seen in line A is observed. In
-          contrast, no depletion of fTAF 
-          II 135(805-1083) was seen following
-          T-RA treatment, while the endogenous TBP and TAF 
-          II 135 were depleted normally between
-          days 3 and 5 (Fig. 6B, and data not shown).
-          As the targeted proteolysis of TBP and TAF 
-          II 135 is linked to the
-          differentiation process, the delayed depletion in line A
-          suggests that T-RA induced differentiation may be
-          perturbed. Their differentiation was therefore compared
-          to that of the wild-type cells.
-          In wild type cells, the degradation of RARγ2 begins at
-          day 2 and the protein is strongly depleted from extracts
-          made at day 3 (Fig. 4D, lane 3). At later times, low
-          levels of only the unphosphorylated form of RARγ2 can be
-          seen in the extracts (lanes 4-6). In contrast, in line A,
-          elevated levels of RARγ2 are observed even at day 5 (Fig.
-          4D, lanes 3-4). In line B, an intermediate situation is
-          observed since high levels of RARγ2 are seen at day 3
-          which decrease by day 5 (lanes 3-4). In all cases, low
-          levels of only the unphosphorylated RARγ2 are detected by
-          days 7-9 (lanes 5-6). These results indicate that
-          proteolytic degradation of RARγ2 is delayed in lines A
-          and B suggesting that an early event in the
-          differentiation process has been perturbed.
-          Comparison of the growth rate of line A with that of
-          wild-type cells in the presence of T-RA, shows that line
-          A is less sensitive to the anti-proliferative effect of
-          T-RA than wild-type, however growth is eventually slowed
-          compared to undifferentiated cells (Fig. 4E). Line B also
-          grows faster than wild-type over the first 4-6 days, but
-          subsequently its growth slows and is considerably
-          retarded compared to undifferentiated cells (Fig. 4E).
-          Together these observations show that line A is poorly
-          sensitive to T-RA-induced growth arrest and retains an
-          essentially undifferentiated morphology, while growth of
-          line B slows after 4-6 days of T-RA treatment and
-          morphological differentiation is retarded.
-          We determined whether fTAF 
-          II 135(372-1083) expression modified
-          T-RA induced apoptosis. The proportion of early apoptotic
-          cells in lines A, B, and wild-type was determined by flow
-          cytometry in the presence of propidium iodide and annexin
-          V-FITC [ 25, 54, 55]. In wild-type cells, the proportion
-          of early apoptotic cells increased from 13% in the
-          absence of T-RA to 26% after 5 days of T-RA treatment
-          (Fig. 5). In line A, spontaneous apoptosis was lower than
-          wild type (7% compared to 13%) and only a mild increase
-          (9%) was seen by day 5 (Fig. 5). In line B, spontaneous
-          apoptosis was also lower than wild type (6% compared to
-          13%), while in the presence of T-RA the proportion rose
-          to 16% (Fig. 5). Thus, line A is resistant to T-RA
-          induced apoptosis, while line B shows reduced sensitivity
-          to T-RA induced apoptosis.
-          Differentiation of lines A and B was further assessed
-          from changes in cellular morphology. 6-8 days after the
-          addition of T-RA, wild-type F9 cells adopt a typical
-          flattened primitive endodermal morphology (see upper
-          panel of Fig. 7). In contrast, line A cells retain an
-          essentially undifferentiated morphology even after 8 days
-          of T-RA treatment (centre panel Fig. 7). The
-          differentiation of line A is severely impaired, as the
-          cells never adopt a differentiated morphology even after
-          10-12 days of RA-treatment (data not shown). Similarly,
-          line B cells appear essentially undifferentiated after 6
-          days of T-RA treatment (lower panel, Fig. 7). After 8
-          days, a fraction of the cells begin to adopt a primitive
-          endodermal type morphology, although the cells are much
-          less flattened than wild-type cells, and the majority of
-          the cells retain an undifferentiated morphology (Fig. 7).
-          Only after 10 days of T-RA treatment did the majority of
-          the cells adopt a differentiated morphology (data not
-          shown).
-          F9 cell differentiation is characterised by the
-          induction of different marker genes. We used reverse
-          transcription coupled-PCR (RT-PCR) to compare the
-          induction of some of these genes in lines A and B with
-          that observed in wild-type cells. The RARβ2 gene is a
-          marker which is rapidly induced in wild-type cells
-          normally, after 12-24 hours [ [ 49 50 51 ] , 56]. In
-          agreement with this, the RARβ2 mRNA is fully induced by
-          day 3 in wild-type cells. Expression persists until day 5
-          and decreases only by day 7 (Fig. 8A, lanes 2-5, note
-          that the small increase in lane 5 in this experiment is
-          not reproducibly observed). In contrast, in lines A and
-          B, RARβ2 expression is weak at day 3, peaks only at day
-          5, and drops off by day 7 (lanes 7-10 and 12-15). Thus,
-          induction of RARβ2 is severely retarded and transient in
-          lines A and B. In the same RNA samples, constant
-          expression levels of HPRT were observed in differentiated
-          and undifferentiated cells. In contrast to the RARβ2
-          gene, induction of the collagen IVα1 and laminin B1 mRNAs
-          was almost identical in the wild-type and mutant cells
-          (Fig. 8Band data not shown) showing that the delay in
-          induction is specific to RARβ2.
-          After 6 days of T-RA treatment, bt 
-          2 cAMP was added to induce parietal
-          endoderm differentiation. Addition of bt 
-          2 cAMP induced the rapid appearance of
-          rounded cells with typical parietal endoderm morphology
-          for both the wild type cells and lines A and B (Fig. 9).
-          Thus, while primitive endoderm differentiation of lines A
-          and B is impaired, they readily differentiate into
-          parietal endoderm.
-          In lines A and B, we noticed after 6-8 days of T-RA
-          treatment the appearance of a novel cell type
-          characterised by elongated tightly packed cells (Fig.
-          10A). The morphology of these cells was completely
-          different from those of undifferentiated or primitive
-          endoderm cells. Although the majority of the cell
-          population differentiates when bt 
-          2 cAMP is added to these cultures, the
-          elongated cells persisted even after several days of bt 
-          2 cAMP treatment (Fig. 10B) showing
-          that these cells are refractory to the differentiating
-          effect of bt 
-          2 cAMP. Cells with this atypical
-          morphology were not observed when wild-type cells or fTAF
-          
-          II 135(805-1083) expressing cells are
-          differentiated either with T-RA or T-RA and bt 
-          2 cAMP. Therefore, ectopic expression
-          of fTAF 
-          II 135(372-1083) has induced a novel
-          differentiation pathway leading to the appearance of
-          atypical elongated cells.
-          Taken altogether, the above results show that
-          primitive endoderm differentiation of F9 cells is blocked
-          in line A expressing the highest level of TAF 
-          II 135(372-1083) and is significantly
-          retarded in line B cells which express lower levels of
-          TAF 
-          II 135(372-1083). In contrast, all
-          three fTAF 
-          II 135(805-1083) expressing cell lines
-          and several control lines picked at the same time all
-          showed a normal T-RA response with respect to growth
-          inhibition, differentiated cell morphology, and targeted
-          depletion of TAF 
-          II 135 and TBP (Fig. 6Band data not
-          shown).
-        
-        
-          TAF II135 and TBP are depleted in extracts from
-          differentiated C2C12 cells
-          To determine whether the down regulation of TBP and
-          TAF 
-          II 135 is specific to F9 cell
-          differentiation we asked whether this phenomenon could be
-          observed in an unrelated cell type. C2C12 are mouse
-          skeletal muscle myoblasts which differentiate into
-          multinucleated myotubes [ 57]. This differentiation
-          process does not require the addition of retinoic acid,
-          but takes place spontaneously when cultures are grown to
-          high density and undergo growth arrest.
-          In extracts from differentiating C2C12 cells, a
-          progressive decrease in TAF 
-          II 135 and TBP can be seen beginning
-          on day 6 such that these proteins are strongly depleted
-          from the extracts by day 11 (Fig. 11A, lanes 1-5 compare
-          with lane 6). In contrast, the levels of TAF 
-          II 55 remain constant (Fig. 11A). The
-          observed depletion of TBP and TAF 
-          II 135 was not observed when the cells
-          on day 10 were treated with MG132 for 12 hours prior to
-          extract preparation on day 11 (Fig. 11B, lanes 1-3).
-          These results indicate that TBP and TAF 
-          II 135 are also targetted for
-          proteolytic degradation during C2C12 cell
-          differentiation.
+          Finland Findings
+          Incidence of serogroup 6 and serotype 14 invasive pneumococcal disease by 6-mo age
+          groups in Finland, shown in Figure 4, is broadly similar to that found in the United
+          States, albeit with lower absolute incidence for both serogroups. Peak incidence occurs
+          in the 12–17-mo age group, and incidence declines to 25%–30% of its peak rate by 24–29 mo
+          of age. This decline in incidence may be compared against the cumulative distributions of
+          antibody concentrations in Finnish toddlers shown in Figure 2 of [12]. Between ages 12
+          and 24 mo, there is a discernible increase in the concentration of antibodies in the
+          population, but the median concentration increases by only about 2-fold in this period.
+          Moreover, the proportion of the population with antibody concentration below any
+          particular threshold that may indicate protection changes little in this period. For
+          example, the proportion of the population with anti-type-14 antibody concentrations less
+          than 0.2 μg/ml declines from approximately 55% to approximately 40%, and the proportion
+          with less than 0.5 μg/ml is reduced from about 95% to about 80%. Similar patterns are
+          seen in the Finnish antibody data for type 6B [12]. Thus, as in the Israeli data, only a
+          very small shift in the distribution of type-specific anti-polysaccharide antibody
+          concentration is observed during the second year of life, yet incidence of invasive
+          disease from the serotypes in question declines substantially.
         
       
       
         Discussion
-        
-          Post-transcriptional regulation of TAF II135 and
-          TBP in differentiated F9 cells
-          We show here that targeted proteolysis of TBP and TAF 
-          II 135 is an integral part of the T-RA
-          response in F9 cells. This process is specific for TBP
-          and TAF 
-          II 135 as it is not observed with the
-          other TFIID components analysed, and is induced
-          concomitantly with that of the RARγ2. In F9 cells with
-          constitutive ectopic expression of TAF 
-          II 135, targeted degradation is
-          delayed, primitive endodermal differentiation is impaired
-          and a novel differentiation pathway is induced. Hence,
-          targeted degradation of TAF 
-          II 135 and TBP is a prerequisite for
-          proper F9 celll differentiation.
-          TAF 
-          II 135 and TBP progressively disappear
-          from whole cell or nuclear extracts made from T-RA
-          differentiated F9 cells. This depletion does not result
-          from altered transcription of these genes, since no
-          significant changes in the corresponding mRNA levels were
-          observed during differentiation. In lines A and B, the
-          ectopic expression of f-TAF 
-          II 135 is driven by a synthetic
-          promoter, yet coordinate depletion of the exogenous and
-          endogenous TAF 
-          II 135 is observed further confirming
-          that this is indeed a post-transcriptional event.
-          In contrast, TBP and TAF 
-          II 135 are readily detected in
-          extracts made from differentiated cells treated with
-          MG132, ALLN, and the proteasome-specific inhibitor
-          lactacystin (our unpublished data) showing that their
-          disappearance is due to selective proteolysis. In the
-          presence of the inhibitors, the detected levels are
-          significantly lower than those seen in equivalent
-          extracts made from undifferentiated cells. Addition of
-          the protease inhibitors only during the extraction
-          procedure is another way to measure of the intracellular
-          level of TBP and TAF 
-          II 135. In these extracts also, the
-          levels of TBP and TAF 
-          II 135 are significantly reduced in
-          differentiated cells compared with undifferentiated
-          cells. Therefore, the intracellular levels of TBP and TAF
-          
-          II 135 and consequently TFIID are
-          reduced in differentiated cells through selective
-          proteolysis.
-          Targeted degradation of TAF 
-          II 135 does not require amino acids
-          1-372 since deletion mutant (372-1083) is targeted along
-          with the endogenous protein in lines A and B. In
-          contrast, mutant (805-1083) is not degraded during
-          differentiation indicating that the sequences required
-          for targeting are located between amino acids 372-805.
-          Many of proteins which are targeted for proteolytic
-          degradation contain signal sequences such as PEST or
-          cyclin destruction boxes which mediate their proteolysis,
-          however no recognised destabilising motifs are present in
-          TBP and TAF 
-          II 135 and indeed these proteins are
-          stable in non-differentiated F9 cells and in many other
-          cell types. It will therefore be interesting to identify
-          the sequences are required for degradation of TBP and TAF
-          
-          II 135 in differentiating F9 cells. In
-          this respect we note that we have not been able to
-          recover F9 cell lines significantly overexpressing TBP
-          suggesting that TBP overexpression is toxic.
-          In F9 cells, RARγ2 plays a key role in primitive
-          endoderm differentiation [ [ 58 59 ] ]. 48 hours after
-          addition of T-RA degradation of this protein begins such
-          that by 3-4 days most of the protein is depleted [ 42].
-          The onset of RARγ2 degradation coincides with that of TBP
-          and TAF 
-          II 135 suggesting that these events
-          are causaly related. This idea is supported by the fact
-          that in line A degradation of TBP, TAF 
-          II 135, and RARγ2 are all delayed to
-          similar extents. A lesser delay in degradation of RARγ2
-          in line B was also observed. If the corresponding delay
-          in TBP and TAF 
-          II 135 degradation in line B was less
-          than two days, it would be missed since we prepared
-          extracts at two day intervals. All of these observations
-          are consistent with the idea that upon exposure to T-RA
-          there is an early transcriptional response in which a
-          RARγ2/RXR heterodimer activates genes required for
-          differentiation. As a consequence, the RARγ2, and the TAF
-          
-          II 135 and TBP components of the basal
-          transcription machinery are down-regulated through
-          proteolytic degradation. It has been suggested that
-          degradation of the RARγ2 or the ER is a means of
-          regulating the cellular response to these ligands both in
-          terms of magnitude and time [ 42, 44]. The coordinate
-          degradation of RARγ2, TBP, and TAF 
-          II 135 in response to T-RA indicates
-          that the cellular T-RA response is not only regulated
-          through degradation of the activator, but also through
-          degradation of components of the basal transcription
-          machinery.
-          The differentiation of C2C12 myoblasts into myotubes
-          does not require T-RA, but is induced by growth
-          inhibition and serum starvation. Despite the important
-          differences between these cells and F9 cells, targeted
-          degradation of TBP and TAF 
-          II 135 is also observed when C2C12
-          cells differentiate. Hence, targeted degradation can be
-          induced by stimuli other than T-RA. Our report is the
-          first showing that basal transcription factors can be
-          regulated in this way in response to different
-          physiological stimuli.
-          As described in the Introduction, recent studies
-          indicate that the activation process is linked to
-          targeted proteolysis of transcriptional activators. In
-          the case of the RARγ2, degradation requires a
-          constitutive phosphorylation of the AF-1 domain,
-          heterodimerisation with RXR, and the presence of ligand
-          indicating that the receptor has to be transcriptionally
-          active to be degraded [ 42]. Under these conditions the
-          receptor is ubiquitinated and degraded. While we have not
-          been able to directly detect ubiquitination of TBP or TAF
-          
-          II 135 in extracts where
-          ubiquitination of RARγ2 can be detected (our unpublished
-          data), at early times we do observe a significant shift
-          in the electrophoretic mobility of TAF 
-          II 135 which may correspond to a
-          polyubiquitinated intermediate While the molecular events
-          involved in degradation of transcription factors are in
-          general poorly understood, it is noteworthy that both NRs
-          and TBP have been reported to interact with the
-          proteasome component SUG1 [ [ 60 61 ] ] which may act to
-          target these proteins for degradation. In addition, other
-          components of the proteasome/ubiquitin degradation
-          pathway have also been shown to interact with either
-          nuclear receptors or components of the preinitiation
-          complex (for review see [ 38]). Further experiments will
-          be required to determine whether TBP and TAF 
-          II 135 are modified directly to allow
-          targeting, or whether they are targeted indirectly
-          through the formation of transcriptionally active
-          complexes with the RARγ2 which, as it is itself degraded,
-          acts to recruit the degradation machinery.
-          A decreased level of TBP in differentiated F9 cells
-          has previously been noted [ 62, 63]. These studies did
-          not address the mechanism underlying its down-regulation,
-          but they revealed a down-regulation of the pol III TAF
-          BRF and the pol I TAF 
-          I 48 and TAF 
-          I 95 proteins and diminished
-          transcription by the corresponding polymerases in T-RA
-          differentiated F9 cells. In the light of the present
-          study, it is possible that the BRF, TAF 
-          I 48, and TAF 
-          I 95 proteins are also
-          post-transcriptionally down-regulated by targeted
-          proteolysis in the same way as TBP and TAF 
-          II 135. This pathway may therefore be
-          used to more generally regulate the activity of all three
-          RNA polymerases during differentiation.
-        
-        
-          TAF II135 plays a key role in F9 cell growth and
-          differentiation
-          We show here that T-RA-induced primitive endoderm
-          differentiation is impaired in cell lines constitutively
-          expressing ectopic TAF 
-          II 135(372-1083) as judged from,
-          retarded targeted degradation of RARγ2, cell morphology,
-          growth inhibition, apoptotic response, and induction of
-          the RARβ2 marker gene. The effects are most pronounced in
-          line A cells which express the highest level of ectopic
-          TAF 
-          II 135 and do not show a
-          differentiated cell morphology even upon prolonged
-          exposure to T-RA. An intermediate, but significant,
-          effect is seen using all criteria tested in line B cells,
-          where fTAF 
-          II 135(372-1083) expression is lower.
-          In contrast, cells expressing fTAF 
-          II 135(805-1083) differentiate
-          normally.
-          The RARβ2 gene is normally fully induced by 12-24
-          hours [ 56] and elevated expression persists up until day
-          5. In lines A and B, induction was seen only after 5 days
-          and this induction was transient compared to wild-type
-          cells. As the RARβ2 gene is important for T-RA-induced
-          growth arrest [ 64], its delayed induction in lines A and
-          B may in part explain the phenotype of these cells.
-          Nevertheless, the collagen IVα1 and laminin B1 genes (as
-          well as several other known marker genes, our unpublished
-          data), are induced normally in lines A and B by day 3-5
-          even when no obvious morphological differentiation is
-          observed. This differential induction of the RARβ2 versus
-          other marker genes has not been previously noted in the
-          various RAR and RXR knock out cell lines analysed. The
-          phenotype generated by ectopic TAF 
-          II 135 expression is therefore
-          distinct from that seen in these knock out cell lines.
-          Most of the currently identified marker genes are not
-          appropriate for the analysis of the phenotype of these
-          lines. A detailed understanding of how ectopically
-          expressed TAF 
-          II 135 blocks primitive endoderm
-          differentiation will require the identification of novel
-          marker genes whose expression is significantly altered in
-          lines A and B and which may be directly regulated by TAF 
-          II 135.
-          Despite the fact that primitive endoderm
-          differentiation of these lines is perturbed, they
-          differentiate normally into parietal endoderm. This shows
-          that, in contrast to what has previously been assumed,
-          differentiation into parietal endoderm does not require
-          the cells to first be fully differentiated into primitive
-          endoderm since line A cells go from an essentially
-          undifferentiated morphology to a parietal morphology.
-          However, even line A is not totally refractory to T-RA,
-          since several marker genes are induced and they have
-          become bt 
-          2 cAMP responsive. Again, the
-          phenotype of these cells is not the same as that of the
-          RXRα -/-RARγ -/-cells where none of these events take
-          place.
-          Our results rather indicate that ectopic TAF 
-          II 135 expression acts at an early
-          stage to impair primitive endoderm differentiation, but
-          does not prevent the T-RA-induced changes which render
-          the cells bt 
-          2 cAMP responsive. The initial
-          elevated TAF 
-          II 135 expression in lines A and B
-          impairs both the T-RA transcriptional response and its
-          associated degradation of RARγ2, TBP, and TAF 
-          II 135 prolonging the period of
-          elevated expression of these proteins resulting in a
-          subsequent block of primitive endoderm differentiation.
-          It has previously been shown that phosphorylation of the
-          RARγ2 AF-1 is indispensable for primitive endoderm
-          differentiation [ 59]. When F9 cells expressing the RARγ2
-          in which the phosphorylation site has been mutated are
-          treated with T-RA, no degradation of this protein is
-          observed. There is therefore an intimate relationship
-          between differentiation and RARγ2 degradation suggesting
-          that proper RARγ2 degradation is essential for
-          differentiation [ 42]. This idea is supported by our
-          present results since we show that TAF 
-          II 135 overexpression impairs both
-          RARγ2 degradation and primitive endoderm differentiation.
-          It is therefore probable that the increased stability of
-          the RARγ2 in lines A and B is the major cause of their
-          impaired primitive endoderm differentiation. It is
-          interesting to note that the TAF 
-          II 135(805-1083) deletion mutant is
-          not degraded in response to T-RA and its expression does
-          not interfere with differentiation. This suggests that
-          TAF 
-          II 135 is only targeted for
-          degradation if it contributes functionally to the T-RA
-          response.
-          The severity of the phenotype observed in lines A and
-          B correlates with the expression level of the exogenous f
-          TAF 
-          II 135(372-1083) protein, a version of
-          TAF 
-          II 135 in which the N-terminal
-          proline-alanine rich region has been deleted. The deleted
-          region is not conserved in hTAF 
-          II 105 and dTAF 
-          II 110, is not involved in
-          interactions with other TAF 
-          II s, SP1, or CREB [ 26, 27, 33], and
-          has no known function. In agreement with this, the fTAF 
-          II 135(372-1083) [and the fTAF 
-          II 135(805-1083)] protein can be
-          coprecipitated with the endogenous TFIID of lines A and B
-          (our unpublished data). It is likely therefore that the
-          phenotype of lines A and B results from the TAF 
-          II 135 overexpression 
-          per se , although we cannot exclude
-          the possibility that the effects are not due only to the
-          elevated expression levels, but that they may
-          additionally reflect a dominant negative property of this
-          mutant. Investigation of this has been hampered by the
-          fact that we have not been able to isolate F9 cell lines
-          stabley expressing full length TAF 
-          II 135.
-          Treatment of lines A and B with T-RA induces a
-          fraction of the cells to adopt an atypical elongated cell
-          morphology, which to our knowledge has not been
-          previously seen upon differentiation of F9 cells. Unlike
-          the other cells in the population, these cells do not
-          differentiate into parietal endoderm showing that they
-          are refractory to bt 
-          2 cAMP. These observations suggest
-          that ectopic TAF 
-          II 135 expression promotes T-RA
-          induction of genes which are normally not activated in F9
-          cells leading to a novel differentiation pathway. It is
-          also possible that TAF 
-          II 135 expression modulates the
-          activity of transcription factors in addition to the RARs
-          leading to the appearance of this novel cell type.
-        
-      
-      
-        Conclusions
-        We report for the first time that components of the
-        basal transcription machinery are subject to regulation by
-        targeted proteolysis in response to a physiological
-        stimulus. Our results point to a critical role of TAF 
-        II 135 in F9 cell physiology. It is
-        downregulated during F9 cell differentiation and expression
-        of TAF 
-        II 135 at elevated levels promotes cell
-        growth, impairs the normal T-RA response, and induces a
-        novel differentiation pathway.
-      
-      
-        Materials and methods
-        
-          F9 and C2C12 cell culture and
-          differentiation
-          Wild-type and mutant F9 cells were grown as described
-          [ 25, 49]. Differentiation was induced by addition of 1.0
-          μM all-trans retinoic acid (T-RA) with or without 250 μM
-          di-butaryl bt 
-          2 cAMP. In most experiments an
-          appropriate number of 10 cm plates were seeded with 10
-          5cells and after 24 hours (day 0) T-RA was added and
-          protein or RNA extracts were made from one plate of cells
-          on each of the indicated days. Stably transformed cell
-          lines were isolated by electroporating plasmid pXJ-fTAF 
-          II 135(372-1083) along with the
-          puromycin resistance gene under the control of the SV40
-          promoter. Puromycin resistant cell clones were selected
-          in the presence of 1μg/ml of puromycin, amplified, and
-          the presence of exogenous fTAF 
-          II 135(372-1083) was detected by
-          immunoblotting and immunofluoresence (data not shown).
-          Aliquots of each clone were frozen after the minimum
-          number of passages and three independent differentiation
-          experiments giving analogous results were started from
-          the frozen stocks. For cell growth rates, 3 cm plates
-          were seeded with 10 3cells and after 4-10 days cells were
-          counted with a particle counter (Coulter Z2). C2C12 cells
-          were maintained undifferentiated by growth at low
-          density. C2C12 cells were differentiated by plating at
-          high density and growth in 0.1% serum for the number of
-          days indicated on the figures. Morphological
-          differentiation was clearly seen by light microscopy.
-        
-        
-          Extract preparation and immunoblotting
-          Protein extracts from cells were made essentially as
-          previously described [ 4, 65]. Briefly, cells were washed
-          and harvested with ice cold phosphate buffered saline.
-          Cells were then resuspended in buffer A (50 mM Tris-HCl
-          pH 7.5, 20% glycerol, 1 mM Dithiothreitol, 0.2% Nonidet
-          P-40) with 0. 5 M KCl and subjected to two rounds of
-          freeze-thaw followed by a 30 min incubation on ice. The
-          cell debris was then removed by centrifugation and the
-          soluble protein fraction was frozen in liquid nitrogen
-          and stored at -80°C. Nuclear extracts were prepared by
-          first lysing the cells for 10 minutes in 1 ml of isotonic
-          buffer (50 mM KCl, 50 mM Tris-HCl, pH 7.9, 0.2% NP40, 0.5
-          mM EDTA and 1.5 mM MgCl2). The nuclei were then recovered
-          by centrifugation at 2000 rpm for 5 minutes and the
-          supernatant containing the cytoplasmic proteins was
-          discarded. Nuclear protein was then extracted from the
-          purified nuclei with buffer A containing 1.0 M KCl.
-          Protein concentrations were determined by the method of
-          Bradford using a Biorad protein assay kit. Equal amounts
-          of protein, normally 10 μg unless otherwise stated, were
-          then subjected to SDS PAGE and immunoblotting. TBP was
-          detected using monoclonal antibodies 3G3 and 2C1 [ [ 66
-          67 68 ] ]. TAF 
-          II 135 was detected using monoclonal
-          antibody 20TA [ 5] which recognizes an epitope in the
-          conserved C-terminal domain and monoclonal antibody 32TA
-          raised against peptide P1 in the N-terminal region as
-          described in [ 5]. TAF 
-          II 100, TAF 
-          II 55, TAF 
-          II 30, and TAF 
-          II 20, were detected using the
-          previously described monoclonal antibodies ([ 4, 69, 70]
-          and refs therein). RARγ2 was detected using the
-          previously described antibody [ 42]. Anti-flag monoclonal
-          antibody was puchased from Sigma. Blots were revealed
-          using peroxidase conjugated goat anti-mouse IgG antibody
-          and chemiluminescence with an ECL kit (Amersham).
-          Protease inhibitors MG132 (Cbz-leu-leu-leucinal) and ALLN
-          (acetyl-leu-leu-norleucinal) were purchased from
-          CalBiochem and ICN Biochemicals respectively. Each was
-          resuspended in DMSO and added to cells or extracts at a
-          final concentration of 50 μM.
-        
-        
-          RT-PCR and flow cytometry
-          Total cellular RNA was isolated using Trizol Reagent
-          (Life Technologies) from F9 cells grown in parallel with
-          those used for making protein extracts. 1 μg of total RNA
-          was then analysed by RT-PCR performed as described [ 50]
-          Control reactions (not shown) contained all components
-          except reverse transcriptase. Details of the
-          exon-specific primers for HPRT, TBP, and TAF 
-          II 135, are available upon request.
-          The primers used for RARβ2, laminin B1 and collagen IVa1
-          were as previously described [ 49]. Southern blotting and
-          hybridisation for RARβ2 were performed by standard
-          procedures. Flow cytometry was performed as described by
-          Metzger et al., (1999) using a final concentration of 25
-          μg/ml of propidium iodide and FITC-labelled annexin V
-          (CALTAG Laboratories). Samples were analysed on a FACScan
-          (Becton Dickinson) equipped with a single aron laser. A
-          minimum of 10 5cells per sample were analysed with the
-          CELLQuest software.
-        
+        We have assessed two lines of epidemiological evidence, analyzed ecologically, that bear
+        on the role of anticapsular polysaccharide antibody as the determinant of protection
+        against invasive disease that develops during the second and third year of life. The
+        simultaneous and approximately parallel nature of the decline in disease incidence for the
+        seven most important serogroups in the United States suggests that one mechanism, rather
+        than seven independent mechanisms, account for the declines in invasive disease from these
+        serogroups. Moreover, only a slight increase in anticapsular antibody concentration is
+        measurable in Finnish, United States, and Israeli toddlers during the same age range. As we
+        discuss below, each of these lines of evidence is subject to caveats, but we believe that,
+        taken together, these observations make a strong case for the importance of one or more
+        factors other than acquisition of anticapsular antibodies in the development of protection
+        against pneumococcal disease.
+        There are several possible candidates for mechanisms that could explain this age-related
+        decline in pneumococcal disease. These include the following: acquisition of antibodies or
+        cellular immune responses to noncapsular pneumococcal “species” antigens; age-related
+        changes in host biology that are not related to acquired immunity, such as maturation of
+        the innate immune system or changes in anatomy or receptors for pneumococcal attachment;
+        changes in other risk factors, such as exposure; or changes related to other
+        microorganisms, including changes in the resident flora or changes in the incidence of
+        viral infections.
+        Systemic antibodies to several pneumococcal protein antigens, which are conserved across
+        pneumococcal strains and serotypes, develop following pneumococcal carriage and otitis
+        media and are present by the beginning of the second year of life [20,21]. In both Finland
+        [20] and Kenya [21], there is an increase in the concentration of antibodies to the
+        pneumococcal proteins pneumolysin and pneumococcal surface protein A over the first two or
+        more years of life. In Kenya, antibodies to another conserved protein, pneumococcal surface
+        adhesin A, showed similar distributions in the first, second, and subsequent years of life,
+        while in Finland, levels of these antibodies were already high (equivalent to adult levels)
+        in the first year of life, and increased above these levels in the second year. In mice,
+        either passively transferred human serum IgG against pneumococcal surface protein A or
+        vaccine-induced antibodies to pneumococcal surface protein A and/or pneumolysin are
+        protective against invasive disease. Such data are consistent with the hypothesis that
+        antibodies to these, or perhaps other, conserved pneumococcal proteins are in part
+        responsible for the decline in invasive disease in the second and subsequent years of
+        life.
+        A number of investigators have tested the hypothesis that antibodies to the pneumococcal
+        teichoic acid, known as cell wall polysaccharide (CWPS), are capable of protecting
+        individuals against pneumococcal invasive disease. While studies in animals [22] and humans
+        [23] have failed to find a protective effect of antibodies to CWPS or its components, a
+        recent study showed that passive transfer of human IgG against phosphorylcholine, a
+        component of CWPS, could protect mice against invasive pneumococcal infections [24].
+        Notably, such antibodies might be elicited by a number of bacteria in addition to
+        pneumococci, such as 
+        Haemophilus influenzae, which also produce phosphorylcholine. We are
+        unaware of studies on the timing of acquisition of anti-CWPS antibodies.
+        We have recently shown that mice that are exposed thrice at weekly intervals to
+        intranasal colonization with encapsulated pneumococci are protected against subsequent
+        carriage, that this protection is effective for heterologous as well as homologous capsular
+        types, and that it is effective even in MuMT mice, which lack the ability to produce
+        antibodies (Malley R, Trzcinski K, Srivastava A, Thompson CM, Anderson PW, et al.,
+        unpublished data). We have also shown that intranasal immunization with unencapsulated,
+        killed pneumococci protects against nasopharyngeal colonization, in a fashion that is
+        independent of antibody but requires CD4+ T cells at the time of challenge. The relevance
+        of cellular immune mechanisms in protecting humans against pneumococcal colonization or
+        disease is not known.
+        Another candidate for a factor that may be changing with age is susceptibility to viral
+        infections, especially influenza, which may predispose to pneumococcal colonization [25] or
+        disease [26,27]. Recent evidence from clinical trials of pneumococcal conjugate vaccines
+        shows that the vaccines can reduce the incidence of infections such as bronchiolitis that
+        are usually associated with viruses [28] and of documented, virus-associated pneumonia
+        [27]. These findings raise the possibility that the decline in pneumococcal disease with
+        age reflects, in part, a decline in the incidence or severity of viral infections, so that
+        fewer such infections lead to secondary pneumococcal disease.
+        Exposure to pneumococci probably changes in some fashion over the first 5 y of life.
+        However, for changes in exposure to account for the sharp drop in disease incidence
+        following the first birthday, it would be necessary for exposure also to drop severalfold
+        per year over this age range. Studies of pneumococcal carriage do show gradual changes in
+        the prevalence and serotype composition of the nasopharyngeal flora in these years, but the
+        prevalence of carriage changes much more gradually than the incidence of invasive disease
+        [29].
+        We are not aware of data that bear strongly on the plausibility of other possible
+        mechanisms for the age-related decline in pneumococcal disease, such as changes in anatomy,
+        physiology, receptor expression, or resident bacterial flora. However, factors other than
+        antibody—such as innate or acquired cellular immune responses, age-related anatomical
+        changes, or changes in exposure to pneumococci—cannot be ruled out, and more than one
+        factor may be involved. Indeed, the peak of pneumococcal meningitis incidence in the 3–6-mo
+        age group (see Figure 2) suggests that the mechanism of protection against meningitis may
+        differ from those against pneumonia and bacteremia.
+        Although we suggest that anticapsular antibody is not primarily responsible for the
+        age-specific decline in invasive pneumococcal disease, there is no question that the
+        capsule is an important virulence factor that interacts with the innate and acquired immune
+        system in a number of ways. It is clear that the pneumococcal capsule interferes with
+        various host clearance mechanisms [30]. It would be unsurprising if different capsular
+        types were differentially effective in permitting pneumococci to evade phagocytosis and
+        other host defenses [31] (M. Melin, H. Jarva, S. Meri, and H. Käyhty, unpublished data). If
+        this were the case, then one could envision that certain capsular types might in fact
+        follow a different age-specific incidence. In particular, recent analyses suggest that
+        serotypes 1 and 5 have relatively stable incidence over a range of age groups (W. P.
+        Hausdorff, D. R. Feikin, and K. P. Klugman, unpublished data).
+        The evidence adduced here is subject to several limitations. With respect to the
+        relative timing of acquisition of protection against different serotypes, one could
+        postulate that because some of the most common pneumococcal serotypes, such as 6B, 19F, and
+        23F, are also among the least immunogenic [12], the effective exposure of the immune system
+        is more consistent across serogroups than it appears from serogroup frequency alone.
+        However, this pattern is not general; for example, serotype 14 is both very common and
+        highly immunogenic [12]. With respect to the absolute timing of protection relative to the
+        acquisition of antibody, one could argue that low levels of anticapsular antibody, perhaps
+        of low affinity, may be present and even active at levels below those that can be reliably
+        detected by current assays, or that B cell memory may be present and protective at an
+        earlier age than that at which high levels of antibody are measurable. Inferences about
+        protective antibody concentrations from animal studies and from concentrations achieved by
+        vaccines suffer from several uncertainties. Making allowances for all of these limitations,
+        we nonetheless believe the data suggest that mechanisms other than anticapsular antibody
+        are primarily responsible for the age-specific decline in pneumococcal invasive disease
+        that starts at the age of 1 y.
+        The likelihood that mechanisms other than anticapsular antibody confer immunity to
+        pneumococcal disease has important implications with respect to vaccine design. As
+        experience with conjugate pneumococcal vaccines in children unfolds, it is becoming
+        increasingly clear that such a strategy suffers from several limitations, including the
+        possibility of serotype replacement (already confirmed in several clinical trials), a
+        modest effect on nasopharyngeal colonization, limited serotype coverage, cost, and
+        difficulties in production that have led to shortages since licensure. A better
+        understanding of the mechanisms that underlie natural immunity to pneumococcus could pave
+        the way for the development of more effective, species-specific pneumococcal vaccines.
       
     
   

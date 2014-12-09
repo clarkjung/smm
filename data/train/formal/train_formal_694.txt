@@ -2,247 +2,753 @@
   
     
       
+        Background
+        Development of the male genitalia is largely controlled
+        by cells in the urogenital mesenchyme that express androgen
+        receptors (AR) [ 1 2 ] . Germline mutations of the 
+        AR gene produce a spectrum of
+        developmental abnormalities in 46,XY individuals ranging
+        from infertility or mild hypospadias to complete
+        feminization, which are collectively referred to as the
+        androgen insensitivity syndrome (AIS). In general, the
+        degree of genital ambiguity correlates with the level of
+        compromise of AR function: 46,XY individuals with
+        AR-inactivating mutations are completely feminized despite
+        high levels of serum testosterone [ 3 4 5 ] .
+        The molecular events responsible for AR-dependent male
+        genital morphogenesis are poorly understood. We
+        hypothesized that the AR-dependent mesenchymal programs
+        underlying male external genitalia development might be
+        illuminated by comparing the transcriptional profile of
+        mesenchyme-derived stromal cells from normal males to those
+        from individuals affected with AIS. As cultured genital
+        fibroblasts originate from the urogenital mesenchyme and
+        retain expression of the AR 
+        in vitro , we compared
+        gene-expression patterns in cultured genital fibroblasts
+        from normal 46,XY males and from 46,XY females with severe
+        or complete AIS, using DNA microarrays representing 32,968
+        distinct human genes. We found striking differences in the
+        gene expression profiles of genital fibroblasts cultured
+        from normal and AIS patients, but no transcriptional
+        response to androgen was detectable in any of the cultured
+        genital fibroblasts.
+      
+      
+        Results
         
-        HIV/AIDS has reached alarming proportions in Southeast Asia [1]. The magnitude of the
-        epidemic is projected to exceed that of sub-Saharan Africa in the 21st century [2]. More
-        than 7 million South Asians are currently infected with HIV [3], nearly 5 million of whom
-        are in India [3].
-        Nepal has had a comparatively lower prevalence of HIV/AIDS compared to other countries
-        in Southeast Asia. Seasonal migration and sexual trafficking across a porous Indian border
-        [4], fuelled by a bloody Maoist conflict (see Sidebar), has raised Nepal's HIV prevalence
-        to the second highest in the region after India.
-        In this essay, we characterize the current HIV epidemic in Nepal, look at the ways in
-        which the conflict may be fuelling the infection rate, and discuss the current local and
-        international response from the health and development community. We argue that there is
-        currently a short window of opportunity to take action to control the HIV epidemic in
-        Nepal—and that inaction will lead to HIV becoming the biggest killer of the young and
-        middle-aged in the next decade.
+          Baseline gene transcription in genital
+          fibroblasts
+          To gain insights into the role of androgen in genital
+          morphogenesis, we compared basal transcriptional patterns
+          in genital fibroblasts from 46,XY individuals with either
+          wild-type AR or germline inactivation of the AR as a
+          result of mutation. We could not identify mutations in
+          the 
+          AR gene in two phenotypically
+          female individuals with complete AIS. However, genital
+          skin fibroblasts of both subjects failed to express AR
+          protein and did not show androgen binding (Table 1).
+          Initially, we restricted our analysis to genital skin
+          fibroblasts grown from the foreskin of nine normal males
+          and from the labia majora of five AIS-affected, 46,XY
+          individuals with female external genitalia. The AR status
+          of all genital fibroblasts was confirmed by 
+          AR gene sequencing and
+          hormone-binding assays (Table 1). To determine basal
+          gene-expression patterns, mRNA was isolated from
+          growth-arrested (G 
+          0 ) confluent cells and analyzed using
+          DNA microarrays of approximately 43,000 cDNAs
+          representing 32,968 genes. Distinct differences in the
+          basal expression profiles of normal and AIS-derived
+          fibroblasts allowed these two groups to be distinguished
+          on the basis of their expression patterns by unsupervised
+          hierarchical clustering analysis (Figure 1). We then
+          identified 404 unique transcripts (represented by 487
+          total cDNAs) with significant differences in expression
+          levels between normal and AIS genital fibroblasts using
+          the significance analysis of microarrays (SAM)-procedure
+          [ 6 ] , with a false discovery rate of less than 0.92%
+          (percent of genes identified by chance alone).
+          We used the list of the 487 cDNAs from the SAM
+          analysis for hierarchical clustering analysis of 24
+          different primary fibroblast lines from normal and AIS
+          affected individuals (Figure 2). In addition to the 14
+          genital-skin fibroblast lines used to generate the SAM
+          list, we included five gonadal fibroblast lines from
+          46,XY females with complete AIS, a prostate fibroblast
+          cell line from a normal male (analyzed twice), abdominal
+          skin fibroblasts from a normal male, forearm fibroblasts
+          from a normal male, and genital fibroblasts from two AIS
+          46,XY females who had documented AR mosaicism (ARD364,
+          ARD 465, Table 1). The ARD364 and ARD465 lines express
+          wild-type AR and were derived from individuals who were
+          mosaics for wild-type AR and AR with a premature stop
+          codon [ 7 ] . Hierarchical cluster analysis, based on the
+          expression of 472 of the 487 previously identified
+          transcripts with measurable expression across at least
+          80% of 24 experiments, separated the fibroblasts into
+          those with gene-expression patterns resembling normal
+          male foreskin fibroblasts and a second group with an
+          expression pattern more similar to labial skin
+          fibroblasts from AIS-affected individuals (Figure 2). The
+          latter group contained all five gonadal fibroblast lines
+          from complete AIS females as well as the fibroblast lines
+          from abdominal and forearm skin. The prostate
+          fibroblasts, on the other hand, displayed expression
+          patterns largely similar to the normal male foreskin
+          cells. Notably, the two mosaic AIS cell lines ARD364 and
+          ARD465 showed gene-expression patterns that most
+          resembled normal male foreskin (Figure 2).
+          Comparison of expression patterns in genital
+          fibroblasts from normal and AIS-affected individuals, and
+          fibroblasts from extragenital sites, offers possible
+          insights into the programs that underlie genital
+          development. For instance, transcripts encoding homeobox
+          A13 protein (HOXA13) and T-box proteins (TBX) showed
+          striking differences in their expression levels between
+          the 'male genital' and 'AIS/extragenital' fibroblasts. 
+          HOXA13 was expressed at high levels
+          in normal male foreskin fibroblasts and at low levels in
+          all AIS and extragenital fibroblasts (Figure 2). T-box
+          gene 3 ( 
+          TBX3 ) was expressed at higher
+          levels in the fibroblasts from genital skin, extragenital
+          skin or prostate from males than in genital skin
+          fibroblasts from AIS 46,XY females (Figure 2). 
+          TBX2 showed an almost identical
+          expression profile to 
+          TBX3 , whereas high 
+          TBX5 expression appeared to be
+          restricted to foreskin fibroblasts from normal males
+          (including those from the phenotypically female mosaic
+          patient ARD364). 
+          BMP4 (bone morphogenetic protein 4)
+          was predominantly expressed in foreskin fibroblasts from
+          normal males and in prostate fibroblasts (Figure 2). 
+          WNT2 (wingless-type MMTV
+          integration site family member 2) was part of a small
+          gene cluster with high expression in normal male foreskin
+          fibroblasts that distinguished these samples from all
+          other fibroblasts (Figure 2).
+          Compared to genital and gonadal fibroblasts from 46,XY
+          females, fibroblasts from normal male genital tissues
+          showed pronounced differences in expression of cell
+          adhesion and extracellular matrix genes. For example,
+          cadherin 13 ( 
+          CDH13 ), versican ( 
+          CSPG2 ), collagen 8A1 ( 
+          COL8A1 ), collagen 12A1 ( 
+          COL12A1 ), 
+          P4HA2 (encoding a
+          procollagen-modifying enzyme) all showed relatively low
+          expression in the genital skin fibroblasts of normal
+          males, whereas tenascin XB ( 
+          TNXB ), nidogen 2 ( 
+          NID2 ), laminins ( 
+          LAMA3 , 
+          LAMA4 ) and tissue inhibitor of
+          metalloproteinase 1 ( 
+          TIMP1 ) all showed relatively high
+          expression levels compared to AIS-derived fibroblasts
+          (Figure 2). Several of the differentially expressed
+          genes, including aldo-keto reductase 1C1 ( 
+          AKR1C1 ), aldehyde dehydrogenase
+          1A1 ( 
+          ALDH1A1 ), and alcohol
+          dehydrogenase 1B ( 
+          ADH1B ), function in sex steroid
+          and retinoic acid metabolism (Figure 2). Other
+          differentially expressed genes, such as mitogen-activated
+          protein kinase 14 ( 
+          MAP3K14 ), and STAT-induced STAT
+          inhibitors 2 and 3 ( 
+          STATI2 , 
+          SSI-3 ), encode proteins involved
+          in intracellular signal transduction.
+        
+        
+          Transcriptional response of cultured genital
+          fibroblasts to androgen treatment
+          We tested the responses of normal and AIS genital
+          fibroblasts to dihydrotestosterone (DHT), under culture
+          conditions similar to those that were reported to produce
+          aromatase induction in these cells [ 8 ] . Cells were
+          treated with DHT (100-1,000 nM) both at confluency (G 
+          0 ) and during exponential growth, and
+          transcript levels were assessed using DNA microarrays.
+          Unsupervised hierarchical clustering did not disclose any
+          obvious differences in gene-expression patterns between
+          DHT-treated and ethanol-treated fibroblasts, either in
+          normal controls or in AIS-derived cell lines. We treated
+          LNCaP prostate cancer cells with androgen under similar
+          conditions and readily identified nearly 500 transcripts
+          modulated by androgen with unsupervised hierarchical
+          clustering analysis and with supervised methods ( [ 9 ]
+          and data not shown). A supervised analysis comparing
+          gene-expression patterns of DHT-treated fibroblasts to
+          ethanol-treated controls was carried out using the SAM
+          procedure. Again, no genes could be identified that were
+          significantly induced or repressed by DHT treatment.
+          Additional experiments using physiological concentrations
+          of androgen (for example, 0.01 - 1 nM methyltrienolone)
+          also failed to disclose any androgen-responsive genes
+          (data not shown). In contrast, SAM analysis identified
+          1,664 transcripts that differed significantly between
+          proliferating and confluent cells, and 1,232 transcripts
+          that differed between fibroblasts derived from
+          AIS-affected individuals and normal male foreskin.
+          Hierarchical cluster analysis of these experiments
+          clearly showed the distinct differences in
+          transcriptional profiles between AIS-derived and normal
+          male fibroblasts and between proliferating and normal
+          fibroblasts (Figure 3). Cells derived from the same
+          individual and cultured under the same conditions always
+          showed highly similar gene-expression patterns,
+          suggesting that the differences in expression between
+          individuals are stable and reproducible despite passage 
+          in vitro (Figure 3).
+        
       
       
-        The Current HIV Epidemic in Nepal
-        The first case of AIDS was reported in Nepal in 1998 [5]. Most cases of HIV infection in
-        Nepal are HIV-1, although HIV-2 was also recently reported [6]. As of February 2005, the
-        National Center for AIDS and STD Control in Nepal reported that there were 4,755
-        HIV-positive people and 856 confirmed cases of AIDS in Nepal [7]. However, because of the
-        poor surveillance systems and the lack of access to quality voluntary counselling and
-        testing services coupled with antiretroviral treatment, these prevalence figures are likely
-        to be a gross under-estimate [2].
-        A dramatically higher estimate comes from UNAIDS, which estimated that 62,000 out of a
-        population of 24.1 million in Nepal were living with HIV/AIDS in 2003 [8]. One in 200
-        (0.5%) people aged 15–49 years are living with HIV/AIDS in Nepal [8]. About 30% of those
-        infected are female [8]. WHO/UNAIDS estimates that 940 children are living with HIV and
-        that nearly 13,000 children were orphaned in Nepal due to AIDS at the end of 2003 [5]. The
-        prevalence in the general population may still be low, but it masks an increasing
-        prevalence in several risk groups—the prevalence of HIV/AIDS consistently exceeds 5% in
-        injecting drug users, commercial sex workers, and migrant workers [5].
+        Discussion
+        We found consistent, characteristic differences in
+        baseline gene expression patterns between genital skin
+        fibroblasts from normal males and 46,XY female patients
+        with AIS. Many of these differences between normal and
+        AIS-derived fibroblasts were also observed in gonadal
+        fibroblasts, suggesting that these differences are not
+        purely due to differences in the anatomical site of origin
+        of the fibroblasts. Interestingly, fibroblasts derived from
+        abdominal and forearm skin, regions with relatively little
+        sexual dimorphism, showed gene-expression patterns similar
+        to the labial skin fibroblasts of AIS patients. Together,
+        these data suggest that the AR is involved in determining a
+        stable and stereotypical program of gene expression in
+        genital fibroblasts that does not require the continuing
+        presence of androgen for its maintenance.
+        A critical question raised by these results is whether
+        the observed differences between genital fibroblasts from
+        males and AIS females reflect cell-autonomous effects of
+        androgen exposure during development, or indirect effects
+        of the AR-dependent genital morphogenetic program. One
+        possible interpretation of these data is that the distinct
+        patterns of expression could have been due to differences
+        in the origin or the developmental milieu of foreskin
+        fibroblasts, derived from the genital tubercle, as opposed
+        to the labial fibroblasts, derived from the genital
+        swellings [ 10 ] . The differences in gene expression we
+        observed in AIS fibroblasts of gonadal origin compared to
+        those of labial origin support this view (Figure 3). We
+        have observed consistent and characteristic differences in
+        the gene-expression patterns of skin fibroblasts derived
+        from different locations on the body [ 11 ] . However, the
+        current set of experiments suggests that the androgen
+        receptor has a cell-autonomous role which contributes to a
+        stable androgen-independent gene-expression pattern in
+        genital fibroblasts. Expression patterns in cultured labial
+        skin fibroblasts derived from two different individuals
+        with AR mosaicism suggested that the cell-autonomous AR
+        status was a relevant determinant of baseline gene
+        expression in genital skin fibroblasts. Both these
+        fibroblast lines, although derived from morphologically
+        female genitalia in phenotypically female 46,XY individuals
+        mosaic for AR-inactivating mutations, expressed wild-type
+        AR in the cultured cells. These female AIS-affected
+        individuals are thought to have acquired their 
+        AR gene mutations post-zygotically [
+        12 ] . ARD364, which showed AR protein expression and
+        binding in the range of normal male foreskin fibroblasts (
+        [ 7 ] and see Table 1), despite its origin from
+        anatomically female genitalia, had a gene-expression
+        pattern indistinguishable from foreskin fibroblasts of
+        normal males (Figure 2). The second fibroblast line from an
+        AR mosaic patient, ARD465 (Table 1), had very low wild-type
+        AR expression and showed baseline gene-expression patterns
+        that were nevertheless more similar to normal male foreskin
+        and prostate fibroblasts than to any of the AIS-derived
+        cell lines (Figure 2).
+        The discrepancy between the female phenotype of these
+        mosaic individuals despite expression of the wild-type AR
+        in cultured genital skin fibroblasts is not resolved to
+        date [ 7 ] . It may be explained by a time-dependent rise
+        of an originally small fraction of cells containing the
+        wild-type 
+        AR allele in the mosaic genital
+        mesenchyme during prenatal and postnatal development, or by
+        differences between 
+        in vivo and 
+        in vitro conditions. Yet, the
+        documented expression of the wild-type AR in cultures of
+        these labial cells supports the idea that the AR status of
+        the fibroblast was an important intrinsic determinant of
+        the basal transcription patterns we identified. Therefore,
+        the AR appears to be involved in setting long-lasting
+        gene-expression patterns in genital skin fibroblasts.
+        Comparison of gene-expression patterns in genital
+        fibroblasts from normal and AIS-affected individuals, and
+        in fibroblasts from extragenital sites, may offer clues to
+        the programs that underlie external genital development.
+        Both cell adhesion and connective tissue remodeling are
+        indispensable for normal development and maintenance of
+        tissue integrity [ 13 14 15 ] . The differential expression
+        of proteoglycans, collagens and cell adhesion molecules
+        (for example cadherin 13) might be involved in genital
+        morphogenesis and later stability of sexually dimorphic
+        traits of the external genitalia. Some genes expressed in
+        wild-type AR cells could influence androgen signaling. For
+        instance, aldo-keto reductase 1C1 is specifically involved
+        in cellular androgen metabolism [ 16 ] and thus may
+        modulate the spectrum of cellular androgenic steroids
+        available for activation of the AR. Structurally different
+        androgens elicit different patterns of response from
+        several androgen-responsive promoters, suggesting that the
+        type of ligand present could affect cellular response [ 17
+        ] . Mitogen-activated protein kinase 14, and STAT-induced
+        STAT inhibitors 2 and 3 were expressed at significantly
+        higher levels in cells with wild-type AR. Both MAP kinase
+        and STAT pathways are involved in AR-dependent regulation
+        and in ligand-independent activation of the AR [ 18 ] .
+        Differential expression of aldehyde dehydrogenase 1A1 and
+        alcohol dehydrogenase 1B, enzymes that affect retinoic acid
+        biosynthesis, suggest that other signaling pathways may
+        participate in the AR-initiated programs of external
+        genital differentiation [ 19 20 ] .
+        Several genes expressed specifically in the normal male
+        foreskin fibroblasts have been previously implicated in
+        male genital development, including 
+        HOXA13 , the T-box genes, 
+        BMP4 and 
+        DWnt2 . Mutations in 
+        HOXA13 can cause distal limb and
+        urogenital-tract malformations such as male hypospadias in
+        hand-foot-genital syndrome [ 21 ] . T-box genes ( 
+        TBX ) are essential early regulators
+        of limb development and also appear to be involved in male
+        genital development [ 22 23 ] . Mutations in 
+        TBX3 cause the ulnar-mammary syndrome
+        characterized by limb, apocrine, and genital developmental
+        abnormalities [ 23 ] . Expression of T-box genes 2, 3, and
+        5 was significantly higher in normal male foreskin
+        fibroblasts than in AIS genital fibroblasts. 
+        BMP4 has been implicated in ductal
+        budding and branching during prostate development [ 24 ]
+        and a potential role of BMP4 in external genital
+        development has also been postulated [ 25 ] . 
+        DWnt2 has been found to have roles in
+        sex-specific cell determination in the gonads and genital
+        disc of 
+        Drosophila [ 26 ] . Thus, mutations
+        in genes characteristically expressed in normal male
+        foreskin fibroblasts can, in some cases, lead to defective
+        genital development. The data from these experiments
+        therefore provide candidate genes for further investigation
+        in patients with genital malformations.
+        As normal genital skin fibroblasts of 46,XY male
+        individuals express the AR 
+        in vitro (see Table 1and [ 4 7 ] ),
+        we had anticipated that androgen treatment would elicit a
+        transcriptional response program that could provide
+        additional insights into the role of androgen in genital
+        development. We have previously used a similar approach to
+        delineate the transcriptional programs activated in
+        prostate cancer cells in response to androgen [ 9 ] . We
+        had hoped that comparison of transcriptional responses of
+        normal fibroblasts to those from AIS-affected individuals
+        with varying degrees of genital ambiguity would provide
+        still further insights into androgen's role in genital
+        morphogenesis. However, we were unable to detect any
+        significant changes in gene-expression patterns in
+        cultured, AR-expressing genital fibroblasts or in
+        AIS-derived fibroblasts in response to androgens. Although
+        two previous reports have shown increases in aromatase
+        enzymatic activity in genital skin fibroblasts treated with
+        dihydrotestosterone (DHT) [ 8 27 ] , others have failed to
+        observe changes in aromatase activity in response to
+        androgen [ 28 ] . In agreement with our findings, Elmlinger
+        
+        et al . found significantly different
+        baseline expression levels of insulin-like growth factor
+        (IGF) and insulin-like growth factor binding protein
+        (IGFBP) between normal and AIS-derived genital skin
+        fibroblasts, and could not detect changes in transcript
+        levels in response to androgen treatment [ 29 ] . In normal
+        genital fibroblasts, androgen-responsive reporter genes can
+        only be activated by expression of co-transfected AR in the
+        presence of ligand [ 30 ] . Therefore, endogenous AR
+        expression itself may be insufficient in genital skin
+        fibroblasts to elicit a transcriptional response. Moreover,
+        the lack of detectable changes in transcript levels for any
+        of the 30,000 genes in the AIS-fibroblasts virtually
+        excludes the possibility that DHT or R1881 could be acting
+        through other steroid receptors or other signaling
+        pathways.
+        The differences in androgen responsiveness we have
+        observed between normal genital fibroblasts and prostate
+        cancer epithelial cells 
+        in vitro might reflect the responses
+        seen 
+        in vivo . Prostate epithelial cells
+        retain exquisite sensitivity to androgen throughout life.
+        Androgen deprivation produces profound involution of the
+        prostate, particularly of the epithelial component, but
+        little or no change in the external genitalia. It is
+        possible that genital mesenchymal cells are only capable of
+        responding to androgen at discrete stages in development in
+        their specific 
+        in vivo environment. In mice, stromal
+        androgen responsiveness is restricted to the earliest
+        stages in prostate development, and later the epithelial
+        compartment becomes responsive and remains so [ 1 ] . This
+        responsiveness may be mediated through the expression of
+        specific AR co-regulators. Compared to LNCaP cells, normal
+        male genital fibroblasts show distinctly lower baseline
+        expression of several AR co-regulators (such as NCOA2
+        (GRIP-1), NCOA3 (TRAM-1), ARA54 (RNF14), data not shown).
+        Thus, genital fibroblasts may express critical AR
+        co-regulators at discrete times during development that
+        allow them to respond by setting up long-lasting
+        transcriptional programs that underlie the genesis and
+        maintenance of genital morphology.
       
       
-        High-Risk Groups
-        Among injecting drug users—estimated to be about 30,000 in Nepal—about 40% are
-        HIV-positive [9]. Needle sharing and risky sexual behaviour is common in this group. The
-        figures are particularly alarming in Kathmandu, the capital city, where nearly 68% of
-        injecting drug users are HIV-positive [10]. A subtype C virus with restricted genetic
-        diversity is thought to have caused this epidemic in Kathmandu [11]. Concomitant hepatitis
-        C infection is a contributing factor to the rapidity and severity of disease progression in
-        injecting drug users, and 94% of users in Kathmandu have tested positive for hepatitis C
-        [12].
-        The predominant mode of transmission of HIV in Nepal is heterosexual contact with
-        commercial sex workers. HIV prevalence rates are about 4% among sex workers in the Terai
-        regions of Nepal and about 1.5% in their clients (which is more than five times the
-        national average prevalence) [13]. In Kathmandu, nearly 17% of sex workers are HIV-positive
-        [8]. There are about 25,000 sex workers in Kathmandu [4] and an estimated 200,000 Nepalese
-        women working in Indian brothels. About 5,000 to 10,000 Nepalese sex workers are trafficked
-        every year [4], numbers that are likely to increase as a result of the conflict. One
-        striking estimate is that nearly 70% of sex workers returning from India are HIV-positive
-        [8].
-        As in India, a major contributor to the spread of HIV in Nepal has been Nepal's mobile
-        population, including truckers and migrant workers. About half of the estimated cases of
-        HIV are in 29 highway districts of Nepal [14]. A 1999 survey indicated that 75% of the
-        truckers surveyed had had sex with a sex worker and that only 70% of the truckers had used
-        a condom during their last sexual encounter [15].
-        Men who have sex with men still account for only a small proportion of those affected
-        with HIV in Nepal. But the recent detention and subsequent release of 39 male transvestite
-        members of the Blue Diamond Society, a local organization that provides sexual health,
-        HIV/AIDS, and advocacy services to sexual minorities, highlights the challenges faced by
-        sexual minorities in Nepal [16].
+        Conclusions
+        Our data suggest that in addition to
+        androgen-independent positional influences on fibroblast
+        phenotypes, the AR is originally involved in establishing
+        stable and reproducible patterns of gene expression in
+        stromal cells during genital differentiation, which are
+        reflected in the differences in global gene-expression
+        patterns between fibroblasts cultured from the genital skin
+        of normal individuals and females affected by AIS.
+        Comparison of the expression patterns of genital
+        fibroblasts from 46,XY normal males and 46,XY females with
+        inactivated AR provides a window on the AR-dependent
+        gene-expression programs within the urogenital mesenchyme,
+        which contribute to the development and structural
+        integrity of male and female genitalia. For further
+        discrimination of androgen-independent positional effects
+        from prenatal androgen actions on expression phenotypes of
+        genital fibroblast strains, comparative expression
+        profiling of homologous genital tissues is needed. The
+        apparent lack of response of genital fibroblasts to
+        androgen 
+        in vitro , despite expression of a
+        normal AR, has important implications for future research
+        in defining the role of androgen in genital development and
+        the pathogenesis of ambiguous genitalia. Transcriptional
+        profiling of the early stages of genital development 
+        in vivo in the presence and absence
+        of androgen may provide further insights into the role of
+        androgen in genital development.
       
       
-        The Role of Conflict in Fuelling the Epidemic
-        Several factors contribute to the propagation of HIV in times of conflict (Box 1) [17].
-        While accurate numbers are hard to come by, the recent conflict may have contributed to the
-        propagation of HIV/AIDS by fuelling displacement [18]. As the insurgency drags on, seasonal
-        and long-term migration of labourers to neighbouring countries, such as India, is becoming
-        critical to the economic survival of many households. Young men have left the country “en
-        masse” for fear of execution and migrated to the high-prevalence areas in India. UNAIDS
-        estimates at least 10% of the 2 million to 3 million Nepalese migrant workers in India are
-        HIV-positive [19]. These men are now infecting spouses and others in many parts of the
-        country. By pushing rural residents from war-torn areas to the capital, Kathmandu, the
-        conflict may have helped spread HIV/AIDS.
-        Some 200,000 to 400,000 people may have been displaced in Nepal since the beginning of
-        the conflict [20]. Migrations within the country and internationally, coupled with a
-        general lack of awareness and knowledge about risk factors, is likely to have contributed
-        to the propagation of the epidemic. The far western regions of the country, which are less
-        economically developed and which are the hotbed of the current insurgency, are more prone
-        to migration. These regions have one of the fastest growth rates of HIV in South Asia.
-        Migrants are more likely to practice high-risk sexual behaviour [21]. About 8% of
-        migrant male workers returning from Mumbai and examined in western Nepal were infected with
-        HIV [22]. The epidemiological impact on women in migrant communities has yet to be
-        realized, as only 0.5% of 900 women in the Kailali district in western Nepal were
-        HIV-positive, although more than 30% had some form of STD [23].
-        Sex traffickers have shifted their trade from Sindhupalchowk and Nuwakot in central
-        Nepal to Rukum and Rolpa (the hotbeds of the insurgency) in the mid-west, taking undue
-        advantage of the socio-economic conditions borne by conflict and violence. The low
-        socio-economic status of women along with the current conflict makes the women in this
-        region particularly vulnerable [24]. Save the Children Norway's recent study, 
-        Impacts of Armed Conflict Pushing Women and Girls Into Sexual Abuse and Sex
-        Trade , revealed that about 19% of female sex workers stated they had entered the sex
-        trade directly because of the conflict [25].
-        While the number of people infected has risen, HIV prevention and awareness work has
-        declined in Nepal as a result of the conflict. Save the Children's work in the Accham
-        district of western Nepal has been hindered by fighting between the Maoist rebels and
-        government forces since early 2002 [26]. Offices of nongovernmental organizations (NGOs)
-        have been burned, and volunteers are afraid to work [26]. Médecins Sans Frontières was
-        forced to curtail its activities last year in Jumla, one of the poorest districts in the
-        Midwest, due to the conflict. Local activists fear that the situation will continue to
-        deteriorate if NGOs are not allowed to work in Jumla. People living with HIV/AIDS in rural
-        Nepal are desperate for care and support.
+        Materials and methods
+        
+          Cell strains
+          Primary cultures of genital fibroblasts were
+          established from genital skin biopsies (labia majora) or
+          gonadal biopsies in female AIS patients and from the
+          foreskin of normal males undergoing circumcision.
+          Abdominal skin fibroblasts were derived from the midline
+          above the mons pubis of a fertile male during abdominal
+          surgery. Forearm skin fibroblasts from a normal male were
+          a gift from H. Chang (Department of Biochemistry,
+          Stanford University). Peripheral zone prostate
+          fibroblasts were a gift from D. Peehl (Department of
+          Urology, Stanford University) and were established from a
+          histologically normal region of a patient undergoing
+          prostatectomy for prostate cancer who had not been
+          previously treated with hormonal therapy. Hormone-binding
+          assays using methyltrienolone (R1881,
+          17β-hydroxy-17α-methyl-4,9,11-estrotrien-3-one) and
+          androgen receptor sequencing have been described
+          previously [ 7 ] .
+        
+        
+          Cell culture and hormone treatment
+          For determination of basal gene-expression profiles
+          without androgen stimulation, fibroblasts were cultured
+          on 150-mm plastic dishes at 37°C with 5% CO 
+          2 . To eliminate possible artifacts
+          due to differing states of proliferation, cells were
+          grown to confluence, at which point they enter G 
+          0 arrest [ 31 ] . They were maintained
+          in phenol-red-free DMEM F12 (Dulbecco's modified Eagle
+          Medium with the nutrient mix F12; Gibco) containing
+          L-glutamine, 15 mM Hepes buffer, penicillin/streptomycin
+          (Gibco) and 12.9% of a constant lot of certified fetal
+          calf serum (FCS; Gibco). The pH was adjusted to 7.4 with
+          1 N NaOH and the medium was exchanged every 48 h. At day
+          13 the last media exchange was carried out and 96 h later
+          cells were scraped and mRNA harvested directly.
+          Androgen stimulation of genital fibroblasts was
+          carried out under two different culture conditions
+          similar to those previously reported to produce induction
+          of aromatase enzymatic activity in these cell lines [ 8
+          27 ] . In the first, cells were grown to confluence as
+          described above using phenol-red-free DMEM F12 containing
+          L-glutamine, 15 mM Hepes buffer, penicillin/streptomycin
+          (Gibco) with 12.9% charcoal-stripped, steroid-free FCS
+          (D/S-FCS) (Hyclone) to ensure androgen-depleted
+          conditions in control cells. With every media exchange
+          every 48 h, cells received either ethanol in a final
+          dilution of 1:100,000 or 100 nM dihydrotestosterone (DHT)
+          dissolved in ethanol. The last DHT treatment was
+          administered with the last media exchange 96 h before
+          lysate preparation. In total, six doses of either ethanol
+          or 100 nM DHT were given.
+          In the second set of experiments, cells were cultured
+          to confluence for 14 days as described above. They were
+          then trypsinized and seeded at a density of 3,000 cells
+          per cm 2in 150-mm plates. Twenty-four hours later, medium
+          was removed, and cells were washed three times with new
+          media containing 12.9% D/S-FCS, then cultured for another
+          24-h interval in the absence of androgens. Cells were
+          then treated with either 1:100,000 ethanol, 100 nM or
+          1,000 nM DHT dissolved in ethanol. After 24 h incubation,
+          exponentially growing cells were harvested. LNCaP cells,
+          passaged and treated under similar conditions, were used
+          as a positive control for androgen reponsiveness.
+        
+        
+          RNA isolation and cDNA labeling
+          Protocols for mRNA preparation and cDNA labeling are
+          available online [ 32 ] . mRNA (2 μg) from single
+          experiments was reverse transcribed and labeled with Cy5
+          (pseudo-coloured red) and pooled reference mRNA was
+          labeled with Cy3 (pseudo-coloured green). Reference mRNA
+          contained equal mixtures of fibroblast mRNA (pooled from
+          confluent and proliferating cultures of normal and AIS
+          genital skin fibroblasts) and a 'common reference' of
+          mRNAs isolated from 11 different proliferating cultured
+          tumor cell lines that we have described previously [ 33 ]
+          .
+        
+        
+          Microarrays and hybridizations
+          Microarrays with approximately 43,000
+          sequence-validated PCR-amplified human cDNAs representing
+          32,968 UniGene clusters were manufactured as described [
+          32 ] . Hybridizations were performed using equal amounts
+          of Cy3- and Cy5-labeled cDNAs according to previously
+          published protocols [ 32 ] . Hybridized microarrays were
+          scanned using a GenePix4000 array scanner and analyzed
+          with GenePix Pro 3.0 software (Axon Instruments, Union
+          City, CA).
+        
+        
+          Microarray data analysis
+          Only spots with fluorescence signals 1.5-fold greater
+          than background in either the experimental or reference
+          samples were included in the analysis. To correct for
+          variations in cDNA labeling efficiency, we normalized the
+          Cy5/Cy3 fluorescence ratios for all genes in each array
+          hybridization to obtain an average log 
+          2 (ratio) of 0. We restricted our
+          analysis to genes with measurable expression in 80% of
+          the samples we analyzed. We used the SAM procedure [ 6 ]
+          to identify genes with statistically significant
+          differences in baseline expression levels between normal
+          and AIS genital fibroblasts. The SAM procedure computes a
+          two-sample T-statistic (for example for normal vs AIS
+          cell lines) for the normalized log ratios of
+          gene-expression levels for each gene. It thresholds the
+          T-statistics to provide a 'significant' gene list and
+          provides an estimate of the false discovery rate (the
+          percent of genes identified by chance alone) from
+          randomly permuted data. Gene-expression data were
+          clustered [ 34 35 ] and results were visualized using
+          TreeView software [ 35 ] .
+          To identify the effects of androgen treatment on gene
+          expression in genital fibroblasts, we carried out a set
+          of 21 DNA microarray analyses of mRNA from normal and AIS
+          genital fibroblasts. This dataset included cells treated
+          at confluence (G 
+          0 ) or during exponential
+          proliferation as described above. Raw data were filtered,
+          normalized and centered as described above. We used the
+          SAM procedure to identify transcripts with significant
+          differences in expression with reference to the origin of
+          the fibroblast lines, whether the cells were confluent or
+          proliferating, and whether they had been treated with
+          androgen.
+        
       
       
-        Condom Use
-        In a study of young men in Nepal in 2001, only 42% of men used a condom consistently
-        [27]. The vast majority of young men, about 80%, who had sex with non-regular partners felt
-        they were not at risk of contracting any form of sexually transmitted disease or HIV [27].
-        The reasons for non-use included fear of losing sexual pleasure, embarrassment over buying
-        condoms, and a belief that careful selection of partners offers sufficient protection [27].
-        Monitoring of behavioural trends has shown that condom use during the last sexual encounter
-        as reported by female sex workers has markedly increased from 63% in 1998 to 90% in 2002
-        [28].
-        However, consistent use of condoms as reported by female sex workers (54%) still needs
-        improvement [28]. Many female sex workers are young children and lack the power to
-        negotiate safe sex [29]. Many of the young girls are considered free of disease by clients
-        who see no need to use condoms. These girls command a high price as “virgins” for brothel
-        owners who do not want to disturb the situation by requiring condom use [29]. Further, the
-        weakening of traditional socio-cultural constraints in times of conflict makes the girls
-        more prone to sexual abuse and exploitation and more likely to engage in high-risk sexual
-        behaviour.
-      
-      
-        The Local and International Response to the Epidemic
-        Nepal's National Center for AIDS and STD Control has received support from WHO, UNAIDS,
-        UNDP, and USAID. But it lacks substantive funding to complete the necessary studies and
-        interventions that are the key to HIV control. National efforts aimed at awareness of HIV
-        are complicated by the ethnic diversity of Nepal, where some 75 different ethnic groups
-        exist, speaking more than 50 languages.
-        A network of about 1,600 NGOs is now working on HIV/AIDS in Nepal. Local organisations
-        are doing their best to reach out to those living with HIV/AIDS, but due to the
-        urban-centric nature of most funding, funds available for the rural areas are scarce. Most
-        donor representatives lack direct knowledge of the rural areas and rely on the instructions
-        provided by NGOs in Kathmandu to dispense funds.
-        Foreign aid, which accounts for nearly 60% of Nepal's development budget, may have
-        paradoxically contributed to lopsided development in Nepal. While aid money has favoured
-        urban development and centralized power, the rural–urban gap has widened over the years. In
-        Nepal, weak linkages between urban and rural areas, and lack of roads, communications,
-        infrastructure, and appropriate skills among the rural poor mean that this urban bias has
-        led to centralization of effective power on the one hand and maintenance of the economic,
-        social, and political status quo on the other [30]. Urban biases inevitably play a
-        deterrent role, discouraging poor patients from seeking help. The poor see very little of
-        the aid money, since most of it is used for prevention, information, and awareness in urban
-        centres rather than for care and support in rural areas.
-        In our experience, some donors consider HIV care and support to be too expensive to
-        fund, arguing that Nepal lacks the kind of infrastructure—clinics, district hospitals, and
-        distribution units—needed to provide effective antiretroviral treatment, and that
-        antiretrovirals are a priority only in countries with a high prevalence of HIV/AIDS (1% or
-        more) in the general population [31].
-        Harm-reduction interventions have been shown to slow the course of HIV among intravenous
-        drug users (IDUs) in many developed countries [32], but in Nepal the concept of harm
-        reduction is still new. Few harm-reduction programs are government-supported or integrated
-        into mainstream service delivery. Organisations such as the Lifesaving and Lifegiving
-        Society, a street-based NGO established in Nepal in 1991, have been providing education,
-        counselling, and primary health care—as well as bleach, sterile water, condoms, and new
-        needles and syringes—to IDUs to lower their risk of acquiring blood-borne diseases [33].
-        The prevalence of HIV infection among IDUs who were in regular contact with the program
-        from 1991 to 1994 was low, at 1.6% [33].
-        However successful, these programs have not reached the border zones with India where
-        HIV infection has risen dramatically among IDUs. This dramatic rise is not surprising since
-        research has shown that cross-border drug-use patterns in areas of Nepal bordering India
-        are particularly conducive to risky needle sharing [34]. Unlike IDUs in other Nepalese
-        towns, very few of the IDUs in border towns belong to stable “injecting groups.” Sharing of
-        contaminated injecting equipment in border towns is widespread, in part because of the
-        makeshift arrangements in which the cross-border injecting takes place. Users often share
-        their small amounts of money to buy drugs. Sexual intercourse with casual partners occurs,
-        with inconsistent condom use [34]. Effective intervention would therefore require complex
-        cross-border collaborative efforts [34].
-        People living with HIV/AIDS are stigmatized and face discrimination at all societal
-        levels—in the community, at health facilities, and, most importantly, within the family
-        [35]. In a recent survey by CARE-Nepal, almost half of those who came to the voluntary
-        counselling and testing centre at the Doti District Hospital in Silgadhi, a
-        conflict-affected area, during June–July 2004 tested positive for HIV, and almost all of
-        those tested positive were widows in their twenties and thirties [35]. About 60% of them
-        were breast-feeding their infants. These young widows faced rejection from their families,
-        discrimination at work, and difficulty in coping with their life circumstances [35].
-        One important development in recent years has been within the area of condom promotion
-        for HIV/AIDS prevention. A national research study found that 76.6% of retail outlets
-        surveyed had never sold a condom in 2002 [36]. Population Services International began a
-        national condom promotion program in early 2002 [37] using a three-pronged approach: (1) a
-        national media campaign promoting condoms (Figure 1); (2) increased widespread condom
-        availability within the private sector to destigmatize condom use; and (3) targeted condom
-        promotion to high-risk groups such as sex workers [38]. The impact of such efforts on
-        condom sales has been dramatic. Total sale of condoms jumped from 11.9 million units in
-        2002 to 23.1 million units in 2004, and sales continue to climb [39]. Creating long-term
-        behaviour change and making condoms accessible in the private sector and affordable through
-        subsidy to high-risk groups such as female sex workers appears to be increasing the uptake
-        of condoms in Nepal.
-      
-      
-        A Window of Opportunity
-        There is a window of opportunity to combat HIV/AIDS in Nepal. If trends continue, AIDS
-        will be the leading cause of death among 15–49-year-olds in the next ten years [8]. 100,000
-        to 200,000 young adults could be infected, and 10,000 to 15,000 annual AIDS deaths could
-        occur in the next ten years [8]. What steps must be taken to prevent Nepal from being
-        devastated by the infection?
-        First, we must gather better data on HIV seroprevalence, on sexual behaviour in the
-        general population, and on sexual networking [40]. We have argued in this essay that the
-        extent of the AIDS epidemic in Nepal will depend upon rates at which sexual partners are
-        exchanged by commercial sex workers and the men who regularly visit them, as well as the
-        proportion of the general population that has multiple and concurrent sexual partners.
-        There are extensive migration patterns both within the country and internationally, fuelled
-        by the recent conflict, which provide the potential for considerable sexual networking.
-        Better knowledge of this networking is crucial for our HIV control efforts.
-        Second, the government must recognize and acknowledge the needs of high-risk groups—drug
-        users, commercial sex workers, migrant workers, and men who have sex with men. Plans to
-        create more behaviour changes are needed within these groups. The 2002–2006 HIV/AIDS
-        strategy proposed by the government [41], which adopts a multisectoral approach focusing on
-        prevention among vulnerable groups, on control, care and support, and on voluntary
-        counselling, hopes to address some of these issues.
-        Third, information campaigns should focus on changing attitudes that create barriers to
-        regular use of condoms. Condoms should be readily available, and research should focus on
-        the impact of mass media on perceptions of risk, negative attitudes toward condoms, and
-        risky behaviour [27]. A culturally specific approach to HIV prevention is needed that
-        includes education of clients and brothel owners about condoms.
-        Fourth, the various players involved in addressing HIV and who are working in closely
-        adjacent fields need to interact more and partner with each other, and there needs to be
-        greater inclusion of civil society in campaigns to raise HIV/AIDS awareness and reduce
-        stigma.
-        Finally, successful national programs that have the scale to alter the course of the
-        epidemic in Nepal should be expanded.
-      
-      
-        Conclusion
-        HIV/AIDS is no longer only a health issue, it is also a development issue. Tackling the
-        epidemic will require not only prevention and control of HIV infection among vulnerable and
-        risk groups, but a multi-sectoral approach addressing the lack of access by risk groups to
-        health care and education and recognition of the populations at risk [42]. People living
-        with HIV and AIDS should be brought to the forefront in the fight against HIV/AIDS [35].
-        Family members, local communities, civil society organizations, donors, and the government
-        all have their own important role to play [35]. The status of women must change so that
-        they are considered autonomous individuals who can make their own decisions [29].
-        As with all international declarations on HIV/AIDS, there is an absolute need to take a
-        strong human rights approach to combating the epidemic. This approach includes recognizing
-        fundamental rights such as access to health care and information, addressing gender equity,
-        and a concerted effort to reduce sex trafficking. It further requires addressing the root
-        causes of poverty and inequality, which give rise to the phenomenon of migration and
-        trafficking as well as propagate violent uprisings. Only such efforts will prevail in
-        mitigating the effects of both HIV and conflict in Nepal.
+        Additional data files
+        The following files are available: a figure (Additional
+        data file 1) showing the complete dataset for Figure 1,
+        with associated array tree correlations (atr), complete
+        data table (cdt) and gene tree correlations (gtr) files
+        (Additional data files 2, 3and 4); a figure (Additional
+        data file 5) showing the complete dataset for Figure 2,
+        with associated atr, cdt and gtr files (Additional data
+        files 6, 7and 8); a figure (Additional data file 9) showing
+        the complete dataset for Figure 3, with associated atr, cdt
+        and gtr files (Additional data files 10, 11and 12). Figure
+        3 contains 686 transcripts whose log 
+        2 red/green ratio differed from the mean
+        expression level across all experiments by at least 1.5 in
+        at least three experiments of the treatment series. The
+        analysis was based on 2,862 transcripts that differed
+        significantly between proliferating and confluent cells and
+        between fibroblasts derived from AIS-affected individuals
+        and normal male foreskin, respectively, as identified by
+        SAM analysis of the treatment series. The complete 2,862
+        genes are displayed in two further figures (Additional data
+        files 13and 14) with associated atr, cdt and gtr files
+        (Additional data files 15, 16and 17). All files are also
+        available online at [ 36 ] .
+        Additional data file 1
+        An additional figure showing the complete dataset for
+        Figure 1
+        Unsupervised hierarchical cluster analysis of genes and
+        experiments of 9 normal genital skin fibroblast lines
+        (penile foreskin) and 5 AIS genital skin fibroblast lines
+        (labia majora). Only transcripts whose log2 red / green
+        ratio differed from the mean expression level across all
+        ex-periments by at least 1.1 in at least three experiments
+        are displayed (620 cDNAs). The dendro-gram of the array
+        experiments reflects the similarity of the samples with
+        respect to their gene expression patterns. F = female
+        external genitalia, M = normal male external genitalia,
+        NORM = normal male control, AIS4 = AIS with predominantly
+        female phenotype (slight enlargement of the clitoris), CAIS
+        = complete androgen insensitivity syndrome. Increasing red
+        intensity cor-responds to increased gene expression levels
+        compared to the mean log2 red/green ratio for each gene;
+        increasing green intensity corresponds to decreased gene
+        expression levels. The scale ranges from -8 to +8 in log2
+        space. (Complete dataset for Figure 1.).
+        Click here for additional data file
+        Additional data file 2
+        Array tree correlations for Figure 1
+        Array tree correlations for Figure 1.
+        Click here for additional data file
+        Additional data file 3
+        Complete data table for Figure 1
+        Complete data table for Figure 1.
+        Click here for additional data file
+        Additional data file 4
+        Gene tree correlations for Figure 1
+        Gene tree correlations for Figure 1.
+        Click here for additional data file
+        Additional data file 5
+        An additional figure showing the complete dataset for
+        Figure 2
+        Hierarchical cluster analysis of genes and experiments
+        based on cDNAs identified as being significantly different
+        in expression between normal genital skin fibroblasts and
+        genital skin fibroblasts of female patients with AIS. The
+        left panel shows an overview of 472 of the total of 487
+        significant transcripts that showed measurable expression
+        across at least 80% of 24 ex-periments. The color code of
+        the dendrogram and the sample names represent the origin of
+        the fibroblast strains. The scale ranges from -4 to +4 in
+        log2 space. (Complete dataset for Figure 2.)
+        Click here for additional data file
+        Additional data file 6
+        Array tree correlations for Figure 2
+        Array tree correlations for Figure 2.
+        Click here for additional data file
+        Additional data file 7
+        Complete data table for Figure 2
+        Complete data table for Figure 2.
+        Click here for additional data file
+        Additional data file 8
+        Gene tree correlations for Figure 2
+        Gene tree correlations for Figure 2.
+        Click here for additional data file
+        Additional data file 9
+        An additional figure showing the complete dataset for
+        Figure 3
+        Hierarchical cluster analysis of genes and experiments
+        with different DHT treatment regimens. Shown are the 2862
+        transcripts that distinguish between normal genital skin
+        fibroblasts and gonadal fibroblasts from 46, XY female AIS
+        patients, and between proliferating and confluent
+        fibroblasts. The color code in the dendrogram depicts the
+        origin of the fibroblast cultures. The gray and white bars
+        on top of the cluster indicate the proliferation state of
+        the samples. On the right, the regions of the cluster
+        diagram are indicated which differentiate between normal
+        and AIS-derived fibroblasts, and proliferating and
+        confluent cells, respectively. No differences in transcript
+        levels could be discerned between DHT treated and control
+        cells in either normal foreskin fibroblasts or fibroblasts
+        from AIS affected 46, XY females. The scale ranges from -8
+        to +8 in log2 space. (Complete dataset for Figure 3.)
+        Click here for additional data file
+        Additional data file 10
+        Array tree correlations for Figure 3
+        Array tree correlations for Figure 3.
+        Click here for additional data file
+        Additional data file 11
+        Complete data table for Figure 3
+        Complete data table for Figure 3.
+        Click here for additional data file
+        Additional data file 12
+        Gene tree correlations for Figure 3
+        Gene tree correlations for Figure 3.
+        Click here for additional data file
+        Additional data file 13
+        Hierarchical cluster analysis of genes and experiments
+        with different DHT treatment regimens
+        Upper half of Figure. Hierarchical cluster analysis of
+        genes and experiments with different DHT treatment
+        regimens. Shown are the 2862 transcripts that distinguish
+        between normal genital skin fibroblasts and gonadal
+        fibroblasts from 46, XY female AIS patients, and between
+        proliferating and confluent fibroblasts. The color code in
+        the dendrogram depicts the origin of the fibroblast
+        cultures. The gray and white bars on top of the cluster
+        indicate the proliferation state of the samples. On the
+        right, the regions of the cluster diagram are indicated
+        which differentiate between normal and AIS-derived
+        fibroblasts, and proliferating and confluent cells,
+        respectively. No differences in transcript levels could be
+        discerned between DHT treated and control cells in either
+        normal foreskin fibroblasts or fibroblasts from AIS
+        affected 46, XY females. The scale ranges from -8 to +8 in
+        log2 space. Complete dataset from which Figure 3 was
+        created.
+        Click here for additional data file
+        Additional data file 14
+        Hierarchical cluster analysis of genes and experiments
+        with different DHT treatment regimens.
+        Lower half of Figure. Hierarchical cluster analysis of
+        genes and experiments with different DHT treatment
+        regimens. Shown are the 2862 transcripts that distinguish
+        between normal genital skin fibroblasts and gonadal
+        fibroblasts from 46, XY female AIS patients, and between
+        proliferating and confluent fibroblasts. The color code in
+        the dendrogram depicts the origin of the fibroblast
+        cultures. The gray and white bars on top of the cluster
+        indicate the proliferation state of the samples. On the
+        right, the regions of the cluster diagram are indicated
+        which differentiate between normal and AIS-derived
+        fibroblasts, and proliferating and confluent cells,
+        respectively. No differences in transcript levels could be
+        discerned between DHT treated and control cells in either
+        normal foreskin fibroblasts or fibroblasts from AIS
+        affected 46, XY females. The scale ranges from -8 to +8 in
+        log2 space. Complete dataset from which Figure 3. was
+        created.
+        Click here for additional data file
+        Additional data file 15
+        Array tree correlations for the entire dataset
+        Array tree correlations for the entire dataset.
+        Click here for additional data file
+        Additional data file 16
+        Complete data table for the entire dataset
+        Complete data table for the entire dataset.
+        Click here for additional data file
+        Additional data file 17
+        Gene tree correlations for the entire dataset
+        Gene tree correlations for the entire dataset.
+        Click here for additional data file
       
     
   

@@ -3,613 +3,331 @@
     
       
         Introduction
-        The murine CD5 protein (Ly-1), a 67 kD
-        membrane-associated glycoprotein found on all T cells and
-        at low levels on B-1a cells, a CD5-expressing subset of B
-        lymphocytes [ 1, 2, 3, 4]. CD5 levels on the developmental
-        and functional subsets range are ordered in a
-        characteristic fashion: Thymic CD4 +T > Splenic CD4 +T
-        > Thymic CD8 +T > Splenic CD8 +T > Thymic CD4 +CD8
-        +T >> B-1a cells [ 5, 6]. The CD5 surface and mRNA
-        expression levels in these subsets are highly correlated,
-        suggesting that CD5 expression is primarily regulated at
-        the transcriptional level.
-        Structurally, CD5 belongs to the scavenger receptor
-        family of proteins based on the homology of its three
-        extracellular scavenger receptor cysteine-rich (SRCR)
-        domains to other family members [ 7]. Several potential CD5
-        ligands have been reported so far: the pan-B cell marker,
-        CD72 [ 8]; an as yet unidentified lymphocyte specific
-        inducible glycoprotein [ 9]; and, VH framework determinants
-        on immunoglobulins [ 10]. While none of these potential
-        ligands have been unequivocally shown to physiologically
-        interact with CD5, these potential CD5 receptor/ligand
-        pairs suggest that CD5 may play a role in T-B or B-1a-B
-        cell-cell communication.
-        CD5 has been shown to be physically associated with the
-        T cell receptor (TCR)/CD3 complex in T cells and with B
-        cell receptor (BCR) in B-1a cells [ 11, 12, 13]. Although
-        several laboratories reported that crosslinking CD5 on the
-        surface augments T cells signaling by inducing calcium flux
-        and enhancing mitogenic response [ 14, 15, 16], recent
-        studies using CD5-deficient mice indicate that CD5 may be
-        more important as a negative modulator of TCR and BCR
-        signal transduction [ 17, 18]. Consistent with this idea,
-        the positive and negative selection in the thymus of
-        CD5-deficient mice is altered in that their thymocytes are
-        hyperresponsive and hyperproliferative to activation
-        induced by anti-CD3 antibodies [ 17]. Similarly,
-        CD5-deficient B-1a cells show higher proliferative
-        responses to surface IgM ligation than heterozygote
-        littermates [ 18].
-        CD5 most likely exerts its negative modulation of
-        receptor signal transduction by associating with
-        SH-2-containing signaling molecules. This association could
-        be directed by an imperfect immunoreceptor tyrosine-based
-        activating motif (ITAM) [ 19] or by a motif similar to
-        immunoreceptor tyrosine-based inhibitory motif (ITIM)
-        located in the CD5 cytoplasmic domain [ 20]. Consistent
-        with SH-2 interaction, CD5 cytoplasmic tyrosine residues
-        are phosphorylated by p56 
-        lck kinases upon TCR/CD3 ligation and
-        serve as targets for association with proteins containing
-        SH2 domains in both T and B-1a cells [ 12, 21, 22].
-        In human Jurkat cells and phytohemagglutinin-expanded T
-        lymphoblasts, the CD5 ITIM-like motif is crucial for
-        association with SHP-1, a cytosolic tyrosine phosphotase
-        implicated in the negative regulation of antigen
-        receptor-mediated signaling [ 23]. However, in murine B
-        lymphoma cells, the CD5 pseudo-ITAM motif mediates its
-        inhibitory action via a SHP-1 independent mechanism [
-        24].
-        Several studies have examined the CD5 promoter.
-        Comparison of the sequences of the CD5 promoters cloned
-        from man and mouse [ 25, 26] revealed conserved
-        transcription factor binding sites. In addition, deletion
-        analysis of the murine CD5 promoter indicated the presence
-        of lymphoid-specific regulatory elements [ 25].
-        Here, we present a detailed analysis of the CD5
-        promoter. Using unstimulated EL4 thymoma cells as a model
-        system, we demonstrate that a CD5 expression is regulated
-        by a 43 bp region (-172 to -215 bp) upstream of the
-        methionine start codon for CD5. The presence of the Ets
-        binding site in this regulatory region is particularly
-        interesting because levels of Ets-1, a lymphoid-specific
-        member of the Ets family [ 27, 28], have been shown to
-        closely resemble the mRNA and protein levels observed for
-        CD5 in different T cell subsets [ 29] [ 5, 6]. In addition,
-        CD5 surface protein expression is greatly reduced in 
-        ets- 1 -/-T cells [ 30, 31].
-        We show here that Ets-1 protein recognizes and binds the
-        Ets site in the 43 bp regulatory region and that CD5
-        expression is positively correlated with Ets-1 levels in
-        co-transfection studies. Thus, we closely link Ets-1 to CD5
-        regulation. In addition, we show that two other
-        evolutionarily conserved regions located close to the Ets
-        site (provisionally named CD5X and CD5Y) play a role in CD5
-        expression. Based on these data, we propose a model for CD5
-        transcriptional control in resting T cells that includes
-        interaction between CD5X, CD5Y and Ets-1.
+        In June 2001, heads of state and government convened a United Nations Special Session on
+        HIV/AIDS and adopted unanimously the “Declaration of Commitment on HIV/AIDS” [1]. In
+        preparation for that session, Schwartländer et al. published an estimate of the resource
+        needs for an expanded global response to the epidemic, which called for around US$10
+        billion for the fight against HIV/AIDS in 2005 [2]. In 2002, on the occasion of the 14th
+        International AIDS conference in Barcelona, Spain, Stover et al. showed that such an
+        immediate and expanded response in low- and middle-income countries could reverse the
+        course of the HIV/AIDS epidemic and avert nearly 30 million infections through 2010 [3].
+        Today, more resources are available for the fight against HIV than ever before, but global
+        efforts to confront the epidemic continue to disappoint. Worldwide in 2004, more people
+        were living with HIV and more people died of AIDS than in any previous year [4]. In
+        sub-Saharan Africa, home to two-thirds of all people living with HIV/AIDS, and three out of
+        four people dying from AIDS [4], only one in 50 persons with advanced disease had access to
+        life-saving medicines at the beginning of 2004 [5].
+        The theme of the 15th International AIDS Conference in Bangkok last summer was timely
+        and relevant. “Access for All” calls for extending to all of those in need both sufficient
+        resources and a set of proven interventions to prevent new infections and save lives
+        through effective treatment. Recent developments in HIV treatment, with simple combination
+        therapies priced at less than US$150 per year—unthinkable just a short time ago—were a
+        major driver of discussions during the conference. Widespread access to effective
+        antiretroviral therapy (ART) for people living with HIV/AIDS is now conceivable even in
+        countries with severely limited resources.
+        The World Health Organization and its partners in the Joint United Nations Programme on
+        HIV/AIDS have defined an ambitious “3 by 5” target of 3 million people on ART—half of those
+        in most urgent need—by the end of 2005. The potential epidemiologic impact of large-scale
+        roll-out of treatment programs, however, remains uncertain. Experience to date is limited,
+        and comes mostly from Western countries and Brazil. While declines in AIDS mortality in the
+        industrialized world have been impressive [6,7,8], many of these success stories have been
+        accompanied by a resurgence in HIV incidence due to increasing risk behavior as emphasis
+        shifted from prevention to treatment in the 1990s [9,10,11]. Will the extension of ART to
+        millions who suffer from AIDS in developing countries be the long-awaited breakthrough in
+        the response to HIV, or will the emphasis on treatment detract from prevention efforts, and
+        thus hamper AIDS control in the medium and long term? The experience in high-income
+        countries underscores the potential perils of failing to adapt prevention strategies to an
+        environment in which life-saving treatment becomes available on a large scale; however,
+        more favorable outcomes in some settings [12,13] indicate that rising risk behavior is not
+        an inevitable outcome of increased treatment access.
+        In our previous analysis of the potential benefits of a comprehensive package of
+        preventive interventions [3], we noted that these prevention effects would be achieved only
+        in the presence of wide-scale treatment and political support. The two intervening years
+        have seen a dramatic rise in both momentum and financial resources for ART scale-up, but
+        the potential epidemiologic impact of treatment in the context of a broader strategy for
+        HIV/AIDS control has not yet been examined. In this paper, we quantify the opportunities
+        and potential risks of large-scale treatment roll-out. The results of this analysis will be
+        informative for all regions and countries, independent of the level and stage of the
+        epidemic. However, since three of four deaths from AIDS occur in sub-Saharan Africa,
+        successes and failures in rolling out treatments immediately will have the most dramatic
+        effects in this region. We therefore focus our analyses and discussions in this paper on
+        the HIV epidemics in sub-Saharan Africa
+        .
+      
+      
+        Methods
+        
+          Projections of HIV Epidemics in Sub-Saharan Africa
+          Baseline projections of HIV epidemics in sub-Saharan Africa have been developed by the
+          Joint United Nations Programme on HIV/AIDS and the World Health Organization based on the
+          most current data available, and in collaboration with epidemiologic experts and analysts
+          within the countries assessed [4]. These “business as usual” forecasts from 2004 to 2020
+          are characterized by the absence of behavioral change or ART scale-up in future years.
+          Combined with the natural dynamics of the epidemic, these assumptions result in a
+          relatively stable HIV prevalence rate.
+          To simulate the effects of prevention and treatment on HIV/AIDS incidence, prevalence,
+          and mortality, we first adapted the analytic approach used in the previously described
+          Goals model [3] to allow explicit modeling of treatment effects, and calibrated the model
+          to the baseline projections for three African regions (East, West/Central, and Southern)
+          (see Protocol S1 for more details). In line with the predominant epidemiologic pattern in
+          sub-Saharan Africa of HIV spreading through heterosexual contact, the model divides the
+          sexually active population into five different interacting risk groups: single men,
+          single women, married men, married women, and female sex workers. In sub-Saharan Africa
+          HIV is transmitted via other modes at comparatively low levels, and these modes were
+          therefore not considered in our analyses.
+          The model includes underlying regional demography, acquisition of HIV and other
+          sexually transmitted infections (STIs), progression from HIV to AIDS, and progression
+          from AIDS to death. Annual risks of HIV infection in each risk group depend on the number
+          of partnerships, the number of sex acts per partnership, HIV prevalence among partners
+          and condom use. These risks are magnified by the presence of other STIs [14] and also
+          vary as a function of the time since infection, with the highest risks during acute
+          infection, followed by lower levels that persist until viral loads rise with the onset of
+          clinical AIDS [15,16,17].
+          The regional models were calibrated as follows: first, plausible ranges were specified
+          for model parameters governing sexual behavior and biological factors (e.g., transmission
+          risks and cofactor effects of other STIs) based on review of published studies and survey
+          results; second, multiple simulations were undertaken by sampling values from each of the
+          ranges and recalculating the model for each set of sampled parameter values; third, model
+          fit was assessed by comparing modeled prevalence for adult males and females separately
+          to baseline projections through 2020; and fourth, the best-fitting parameter set in each
+          regional model was selected for the purpose of scenario analysis (see Protocol S1).
+        
+        
+          Alternative Scenarios for Prevention and Treatment
+          Potential impacts of prevention efforts at a given coverage level were based on
+          previously published estimates [3] for a comprehensive package of 12 interventions that
+          included mass media campaigns, voluntary counseling and testing, peer counseling for sex
+          workers, school-, youth- and workplace-based programs, condom promotion and distribution,
+          treatment for STIs, and prevention of mother-to-child transmission. The comprehensive
+          package described by Stover and colleagues also included interventions such as harm
+          reduction for injecting drug users and peer outreach for men who have sex with men, which
+          we have not modeled for sub-Saharan Africa. Impacts were captured in terms of changes in
+          condom use, sexual partnerships, treatment-seeking for STIs, and age at first sex. The
+          impacts of treatment included increased survival by a median of 3 y, reductions in
+          transmission probabilities given contact with an infected partner, and behavior
+          change.
+          We examined a range of alternative scenarios based on various levels and effectiveness
+          of prevention interventions, with and without successful attainment of the 3 by 5
+          treatment target for sub-Saharan Africa:
+          
+            Baseline (“business as usual”).
+            Risk behaviors are maintained at current levels, and no treatment scale-up occurs.
+            This is simply the baseline scenario that produces a relatively stable prevalence rate
+            over the duration of the projection, with the number of people living with HIV and the
+            number of new infections rising slowly over time because of population growth.
+          
+          
+            Treatment-centered response.
+            In two alternative scenarios, the 3 by 5 target of 50% coverage of those in need of
+            treatment by the end of 2005 is attained, and scale-up continues to reach 80% ART
+            coverage of those in need by 2010, maintained at 80% thereafter. In an “optimal ART
+            effects” scenario, we assumed that treatment reduces transmissibility by 99%, and that
+            those under treatment have 50% lower annual partnership numbers and two times higher
+            condom use than other adults. With a response that focuses primarily on treatment, it
+            is assumed that behavior in the general community of infected and uninfected adults is
+            unchanged from the baseline. In an alternative “mixed ART effects” scenario, less
+            optimistic assumptions were made: that treatment reduces transmissibility only to the
+            same levels as in asymptomatic infected individuals (two-thirds reduction from no
+            treatment), and that behavior in treated patients is the same as in other adults. To
+            capture the possibility of behavioral disinhibition in response to treatment
+            availability, we assumed that condom use declines by 10% in both treated patients and
+            the general community, with other behaviors unchanged. The potential for disinhibition
+            is suggested primarily by experience in some developed countries, where condom use
+            increased dramatically in the populations at highest risk prior to the introduction of
+            ART but then declined; the likelihood and magnitude of reductions in condom use in
+            sub-Saharan Africa, where such prevention-induced changes generally are much less
+            prominent today, might be questioned. We therefore considered in sensitivity analyses a
+            variant of this scenario that excludes disinhibition but preserves all other
+            assumptions.
+          
+          
+            Prevention-centered response.
+            In the absence of wide availability of treatment, reflecting weaker political and
+            social support for HIV control efforts, we modeled a scenario in which the
+            comprehensive prevention package described previously [3] has only partial
+            effectiveness at the population level, and no ART scale-up occurs. As evidence about
+            the magnitude of treatment–prevention interactions remains limited, we considered a
+            reduction of 50% from the full impact as a base case and examined a range of reductions
+            from 25% to 75% in sensitivity analyses.
+          
+          
+            Combined response.
+            We examined two scenarios combining treatment and prevention efforts, reflecting
+            either optimistic or pessimistic possibilities. In the optimistic scenario, treatment
+            strengthens prevention efforts. ART coverage is the same as in the two
+            treatment-centered scenarios, with optimal assumptions about treatment impact on
+            transmissibility and patient behavior. It is assumed that widespread availability of
+            treatment enables the full impact of prevention efforts to be attained as described by
+            Stover et al. [3]. In a more pessimistic scenario, an emphasis on treatment leads to
+            less effective implementation of prevention. This scenario includes the mixed
+            assumptions about ART effects (excluding disinhibition in the general community), and
+            assumes only 25% attainment of the maximum potential impact of prevention efforts.
+            Additional scenarios could include pessimistic assumptions about limited ART
+            scale-up levels and timing, emergence of large-scale drug resistance resulting from low
+            adherence, or other possible unintended outcomes of wider treatment. Certainly,
+            large-scale treatment efforts will demand close monitoring of adverse effects. However,
+            experience with treatment programs in developing countries has been encouraging thus
+            far, with reported adherence levels that are at least as high as those in developed
+            countries [18,19].
+          
+        
       
       
         Results
-        
-          Characterization of regions on the CD5 promoter
-          necessary for CD5 transcription
-          We constructed luciferase reporter constructs
-          containing progressively deleted fragments of a 3 kb
-          genomic DNA clone which contains the CD5 promoter [ 1,
-          32] (Figure 1a). Each deletion (luciferase) construct and
-          a control LacZ reporter construct (pON405) were
-          co-transfected into the EL4 T cell line and lysates
-          prepared after cells were grown for 36-48 hours were
-          assayed for luciferase activity.
-          Results show that the 3 kb fragment induces a large
-          increase in luciferase activity, which we define as the
-          full level of CD5 expression in resting T cells (Figure
-          1b). Transfections with constructs containing successive
-          deletions of the 3 kb fragment show that removal of DNA
-          regions upstream of a StuI site (at -215, relative to the
-          CD5 protein initiation methionine codon) does not
-          significantly decrease luciferase expression from the
-          level obtained with the full length fragment. However,
-          the deletion of an additional 43 bp (from StuI to HincII
-          site at -172) reduces the reporter activity by more than
-          five-fold to basal level, which is somewhat higher than
-          the background level obtained with a promoterless
-          luciferase construct (GLB = pGLBasic). Additional
-          deletion from the HincII to the HinfI site at -67 further
-          reduced the basal reporter activity down to the
-          background level. These deletion constructs define two
-          regions as important for CD5 expression: a minimal/core
-          promoter region (HincII to HinfI site) that is required
-          for basal activity and a regulatory region necessary for
-          the full CD5 expression (StuI to HincII) site in resting
-          T cells.
-        
-        
-          The Ets binding site is important for full CD5
-          expression
-          Three potential transcription factor binding sites -
-          CCAAT, κE2, and Ets - were previously identified by
-          database sequence comparison in the 43 bp region
-          described above (StuI to HincII) [ 25]. However, only the
-          κE2 and Ets site are conserved between mouse and human [
-          26]. To determine which of these potential transcription
-          factor binding sites is responsible for regulating normal
-          CD5 expression, we performed site-directed mutagenesis on
-          the CCAAT (mutC), κE2 (mutK) and Ets (mutE) sites from
-          the StuI B reporter construct. Wild-type control and the
-          mutant constructs were tested for their promoter activity
-          in EL4 cells. As figure 2shows, mutations in the CCAAT or
-          κE2 binding site resulted in minor reductions in reporter
-          activity. In contrast, the mutation in the Ets binding
-          site completely abolished the full induction of
-          transcription and reduced the luciferase activity to the
-          basal level.
-        
-        
-          The Ets binding site is recognized by Ets-1
-          protein
-          The above experiments demonstrate that a potential Ets
-          binding site on the CD5 promoter is necessary for the
-          full induction of transcription. Since Ets-1 is
-          lymphoid-specific, and its expression levels in T cell
-          subsets correlate with the CD5 expression levels, we
-          focused our study on Ets-1 interaction with this Ets
-          binding site.
-          For the following experiments we used an Ets-1
-          expression plasmid (pEVRF-ets-1) which encodes Ets-1
-          protein [ 33, 34]. We then performed electrophoretic
-          mobility shift assays (EMSA) using radiolabelled Ets
-          oligonucleotide with nuclear extracts prepared from
-          pEVRF-ets-1 transfected M12 cells (figure 3a, lane 3-9).
-          This olignucleotide corresponds to the Ets binding site
-          in the 43 bp regulatory region of the CD5 promoter. It
-          has the core Ets binding concensus with and additional 6
-          bases on each side.
-          The pEVRF-ets-1 transfected M12 nuclear extracts form
-          an additional protein:DNA complex (complex 1, figure 3,
-          lane 3) compared with the nuclear extracts from M12 cells
-          transfected with the control plasmid, pEVRF0 (figure 3,
-          lane 2). This complex is easily competed away by
-          increasing amount of unlabeled Ets oligos (figure 3,
-          lanes 4 and 5) but not by increasing amounts of
-          irrelevant κE2 oligos (figure 3, lanes 6 and 7).
-          Furthermore, its formation is prevented by pre-incubating
-          the nuclear extract with anti-Ets-1 polyclonal
-          antibodies, which recognize the Ets-1 DNA binding domain
-          (figure 3, lane 8), but not by pre-incubation with
-          pre-immune polyclonal antibodies (figure 3, lane 9).
-          Thus, this complex represents true Ets-1 binding.
-          We observed two additional endogenous complexes
-          (complex 2 and 3) that were competed away with increasing
-          amount of unlabeled Ets oligos. However, these two
-          complexes were also competed away with increasing amounts
-          of irrelevant κE2 oligos. Furthermore, complex 1 and 2
-          are not inhibited by pre-incubation with anti-Ets-1
-          antibodies. Therefore, we conclude that complex 1 and 2
-          are not Ets-1 specific.
-          These competition and inhibition experiments
-          demonstrate that Ets-1 specifically binds to the
-          oligonucleotide used for these studies. As indicated
-          above, this olignucleotide corresponds precisely to the
-          Ets binding site in the 43 bp regulatory region of the
-          CD5 promoter with the core Ets binding concensus and only
-          an additional 6 bases on each side. Therefore, we
-          conclude that Ets-1 binds to the Ets site in the 43 bp
-          regulatory region of the CD5 promoter or very closely to
-          that site.
-        
-        
-          Ets-1 affects CD5 expression in T cells
-          To understand the effect of Ets-1 on CD5 expression,
-          we co-transfected EL4 cells with increasing amounts of
-          Ets-1 expression plasmid (pEVRF-ets-1) along with a StuI
-          B reporter construct containing either the wild type (S)
-          or mutated Ets binding site (E). As figure 4shows, the
-          luciferase reporter activity from the wild type StuI B
-          reporter construct increased in a dose-dependent fashion
-          with increasing amounts of Ets-1 expression plasmid
-          (lanes 1-4). Importantly, the increase in reporter
-          activity from Ets-1 expression was mediated by the Ets
-          binding site on the CD5 promoter, as the increase in
-          reporter expression did not occur when the Ets binding
-          site on the CD5 promoter was mutated (lane 4 and 5).
-          Based on these transfections results and the EMSA
-          observations described above, we conclude that Ets-1
-          regulates CD5 expression by binding to the Ets site
-          located with in the 43 bp regulatory region.
-        
-        
-          The CD5Y region is essential for basal
-          transcription in T cells
-          Using the Intelligenetics sequence analysis program to
-          compare the human and murine CD5 minimal promoter
-          regions, we found two conserved regions, provisionally
-          designated CD5X (-172 to -154) and CD5Y (-133 to -119)
-          (figure 5a), that abut the Ets binding site. These
-          sequences did not show any homology to known
-          transcription factor binding sites. Transfection studies
-          show that deletion upstream of CD5X abolishes the
-          regulatory promoter activity but does not hamper the
-          basal promoter activity. In contrast, deletion of the
-          region containing CD5X and CD5Y eliminates both the
-          regulatory and basal promoter activity (figure 1b).
-          To determine whether the CD5X or CD5Y site is
-          responsible for basal level expression, we generated
-          three mutations encompassing the CD5X region (Xmut1,
-          Xmut2, and Xmut3) and two mutations on the CD5Y region of
-          the HincII B reporter plasmid (Ymut1 and Ymut2). These
-          mutant reporter constructs were transiently transfected
-          into EL4 cells and subsequently analyzed for luciferase
-          reporter activity.
-          None of the three mutated sites on the CD5X region had
-          any effect on the basal level of transcription (figure
-          5b). In contrast, both mutations in the CD5Y region
-          resulted in reduction of the reporter activity. In fact,
-          the luciferase activity was reduced almost to background
-          levels with the Ymut1 mutation. Thus, we conclude that
-          the CD5Y, particularly the Ymut1 site, is important for
-          basal transcription.
-        
-        
-          Both CD5X and CD5Y regions affect full CD5
-          expression
-          To determine whether either the CD5X or the CD5Y
-          region can affect the full level of transcription
-          controlled by the 43 bp CD5 regulatory promoter, we
-          generated the mutations described above in the CD5X and
-          CD5Y regions in the StuI B reporter construct. The Xmut2
-          mutation had a measurable effect (2-fold decrease) on the
-          full level of transcription and the Ymut2 mutation
-          reduced the reporter activity by more than three-fold
-          (figure 5c). However, the Ymut1 mutation decreased the
-          luciferase activity more than five fold, and brought the
-          transcription activity to slightly below basal levels of
-          CD5 transcription (figure 5c). These results demonstrate
-          that both CD5X and CD5Y regions contribute to overall CD5
-          transcription by modifying the transcriptional activation
-          from the 43 bp regulatory region and that the most
-          important regulation comes from the CD5Y region.
-        
-        
-          EMSA analysis revealed specific proteins binding to
-          the CD5X and CD5Y regions
-          We performed EMSA using oligonucleotide probes
-          containing either the CD5X or the CD5Y region to
-          characterize protein binding to the respective regions.
-          As figure 6a shows, several protein complexes can be seen
-          binding to the 32P-labeled CD5X oligo (lane 2).
-          Competition with 100-fold excess unlabeled CD5X oligo
-          eliminated complexes 1-3 (figure 6a, lane 3). These
-          complexes are specific to the CD5X probes, as they can
-          not be competed away with the addition of excess
-          irrelevant oligos, CD5Y, CK, and KE (figure 6a, lanes
-          4-6).
-          Similarly, several protein:DNA complexes can be seen
-          in EMSA with 32P-labeled CD5Y oligo (figure 6b, lane 2).
-          Competition analysis demonstrated that complex 1 can
-          specifically be competed away by excess unlabeled CD5Y
-          oligo (figure 6b, lane 3) but not by excess, irrelevant
-          CD5X, CK, and KE oligos (figure 6b, lanes 4-6).
-          Thus we conclude that there are distinct intracellular
-          proteins that specifically bind to CD5X and CD5Y and
-          likely mediate the transcriptional activity of these
-          newly recognized sites.
-        
+        In the baseline projections for sub-Saharan Africa, the annual number of new adult HIV
+        infections rises from 2.4 to 3.7 million between 2004 and 2020, and adult AIDS mortality
+        rises from 1.8 to 2.6 million (Figure 1). If scale-up of ART reaches the 3 by 5 target and
+        eventually expands to 80% coverage, without any behavior change in the broader community
+        (treatment-centered response/optimal ART effects), the annual number of new infections
+        could be reduced by up to 6% compared to baseline by 2020. Mortality would initially
+        decline by 33% but long-term trends would converge toward the baseline. We note that total
+        annual death numbers indicate broad trends in mortality but mask more subtle health gains
+        in the form of years added to individuals' lives.
+        With less optimistic assumptions (treatment-centered response/mixed ART effects), the
+        number of new infections rises, to 4.3 million per year by 2020 (a 14% increase); mortality
+        trends are similar to the optimistic scenario in the short term, but worse in the long
+        term, even compared to the baseline. Excluding the assumption of reduced condom use through
+        disinhibition from the treatment-centered/mixed effects scenario has minimal effect on the
+        results, lowering the number of new infections in 2020 by only 2% compared to the scenario
+        that includes disinhibition.
+        A prevention-centered response would have greater impact on the number of new
+        infections, lowering annual incidence by more than half by 2020. The long-term mortality
+        trend is more favorable in the prevention-centered scenario than in the treatment-centered
+        scenario because of reduced incidence, but prevention would produce negligible mortality
+        benefits in the near- and mid-term future in comparison to strategies that include ART.
+        Alternative assumptions regarding overall effectiveness in a prevention-centered response
+        produce results that scale as expected, with reductions in annual incidence of 34% to 64%
+        and reductions in annual mortality of 20% to 42% by 2020.
+        If treatment and effective prevention are scaled up jointly in a combined response, the
+        benefits in terms of both infections and deaths averted could be substantially higher. In
+        an optimistic scenario in which treatment programs support expanded prevention, the annual
+        number of new infections would be 74% lower and annual mortality would be 47% lower by
+        2020, compared to baseline. It is worth noting that the long-term decline in AIDS deaths is
+        driven more by prevention of new infections than by direct survivorship benefits from ART.
+        In a pessimistic scenario in which a more narrow treatment focus limits effective
+        prevention, the overall benefits are much more modest, with 26% and 16% reductions,
+        respectively, in new infections and mortality by 2020 compared to the baseline.
+        Prevalence rises by 7% in the optimal and by 27% in the mixed treatment-centered
+        scenarios by 2020, as longer survival for treated patients offsets reductions in new
+        infections through reduced transmissibility (and risk reductions among treated patients in
+        the more optimistic scenario) (Figure S1). In scenarios that include prevention efforts,
+        prevalence declines by 41% in the prevention-centered scenario, by 53% in the optimistic
+        combined response, and by 6% in the pessimistic combined response by 2020.
+        The total number of infections averted through a combined response would be 29 million
+        over the period 2004 to 2020 if treatment enhances prevention, a benefit that is ten times
+        greater than that of a strategy which focuses on treatment only, even with optimal
+        assumptions, and 51% greater than that of a strategy which focuses on (less effective)
+        prevention alone (Table 1). If a treatment focus limits the effectiveness of prevention, on
+        the other hand, the total number of averted infections between 2004 and 2020 would be 9
+        million. Similarly, the benefits of a combined response in terms of mortality reductions
+        are considerably higher under optimistic circumstances than the benefits of either
+        treatment only or prevention only, with 10.1 million deaths averted (27%) through 2020 when
+        treatment enhances prevention, compared to 5.0 million (13%) in the optimal-effects
+        treatment only scenario, 3.5 million (9%) in the mixed-effects treatment only scenario, and
+        4.8 million (13%) with prevention only. Under more pessimistic assumptions about
+        treatment–prevention interactions, the combined response would avert 5.8 million deaths
+        (16%). Table 1 also reports total benefits of the various strategies over the shorter term,
+        in which the ranking of alternatives is similar with regard to the total number of
+        infections averted, but mortality reductions are attributable almost exclusively to
+        treatment.
+        Combining treatment with prevention efforts will reduce the resource needs for treatment
+        substantially in the long term (Figure 2). In the various scenarios the numbers of people
+        being treated in 2020 ranges from 9.2 million in the treatment only (mixed effects)
+        scenario, to 4.2 million in the optimistic combined response scenario.
       
       
         Discussion
-        Studies here define the regions within the CD5 promoter
-        that control transcriptional regulation in resting
-        (unstimulated) T cells growing in culture. By constructing
-        a deletion series of CD5 promoter constructs using
-        luciferase as the reporter gene, we demonstrate that a 43
-        bp region between the StuI and HincII sites at -215 to -172
-        is necessary for normal, resting CD5 expression level in T
-        cells. Further, we show that this region contains an Ets
-        binding site that regulates CD5 transcription, two
-        previously unrecognized regions that also control CD5
-        expression, one of which is responsible for controlling
-        basal expression of the promoter.
-        Weichert and Schwartz [ 25] have also reported a
-        deletion analysis of the CD5 promoter. Several of their
-        deletions overlap the deletions we report. For those
-        constructs which were similar in both studies, our results
-        agree. However, these workers observed negative regulation
-        with a construct that that we did not have. None of our
-        constructs showed negative regulation. We investigated
-        three potential transcription factor binding sites (CCAAT,
-        κE2, and Ets) within the 43 bp regulatory promoter region
-        and showed that only the Ets binding site influences CD5
-        expression in EL4 T cells. Further, we showed that the
-        Ets-1 protein binds to the Ets site and that overexpression
-        of Ets-1 leads to increased promoter activity. Thus we
-        conclude that Ets-1 positively regulates CD5 expression
-        levels in T cells.
-        Theses findings are consistent with previous evidence
-        showing that Ets-1 levels in T cell subsets correlate with
-        the expression of CD5 on these subsets (see Introduction to
-        this paper). In addition, they are consistent with evidence
-        demonstrating that CD5 expression is drastically reduced in
-        gene targeted mice in which the Ets-1 locus is disrupted.
-        While the possibility that the decreased CD5 surface
-        expression that was demonstrated in the gene targeted mice
-        is due to post-translational rather than transcriptional
-        effects, our co-transfection studies with the Ets-1
-        expression plasmid and the CD5 promoter constructs
-        demonstrate argue that Ets-1 is regulating transcription in
-        all cases. Thus, the weight of our findings, in combination
-        with findings with presented by others, leads us to
-        conclude that the distinctive CD5 expression levels
-        observed in T cell subsets is due to the different amounts
-        of Ets-1 protein in the cells in these subsets. This
-        conclusion does not eliminate the possibility that Ets
-        family members other than Ets-1 also participate in the
-        regulation of CD5 expression. PU.1, for example, could be
-        important in the regulation of CD5 expression on B-1 cells,
-        since it is predominantly expressed in B cells and
-        macrophages [ 35, 36]. In fact, preliminary evidence from
-        our laboratory suggests that this may indeed be the case.
-        Ets-2, which is ubiquitously expressed, could also
-        contribute to CD5 regulation [ 29, 37, 38]. However, the
-        data from Ets-1 gene targeted mice argues against this
-        possibility since disruption of the Ets-1 gene is
-        sufficient to prevent CD5 expression on T cells. Therefore,
-        Ets-1 is the likely regulatory molecule in T cells.
-        We also characterized two regions (CD5X and CD5Y) that
-        contribute to CD5 expression. These two regions, which
-        contain previously unrecognized transcription binding
-        factor sequence, are conserved between mouse and human. Our
-        results showed that the CD5Y region is necessary for basal
-        level of CD5 transcription. Computer analysis of the CD5Y
-        region did not reveal any potential transcription factor
-        binding site or a canonical TATA box for establishing the
-        typical RNA polymerase II transcription complex. However,
-        the Ymut1 site contains a very weak homology to the TdT/ML
-        intiator consensus sequence, 5'-PyPyCAPyPyPyPyPy-3' [ 39].
-        The Ymut2 site, which is the most important site for
-        controlling basal expression, overlaps a potential
-        initiator site fitting the consensus (5' CTT CCC TTT TCC
-        3') for the ribosomal protein Inr family with only one
-        mismatched base [ 40]. Interestingly, both Ymut1 and Ymut2
-        are positioned near the most upstream transcriptional start
-        site [ 25].
-        The initiator (Inr) element has been shown to be
-        critical in positioning RNA polymerase II complex for
-        transcription initiation in TATA-less promoters [ 39].
-        Since the CD5 promoter does not contain a TATA box, these
-        initiator binding sites may play a more important role in
-        establishing transcription initiation.
-        Several Inr binding protein have been identified: TFII-I
-        [ 41], YY1 [ 42, 43], and a 150 kDa TATA binding protein
-        (TBP) associated factor (TAF 
-        II 150) [ 44]. Recognition of the Inr
-        element by these Inr binding proteins (ITF) provides a way
-        for formation of transcription competent complex via their
-        interaction with TBP or with other subunits of RNA
-        polymerase II. Thus we suggest that CD5Y region interacts
-        with these ITFs to regulate transcription.
-        Like CD5Y, CD5X region does not contain any consensus
-        transcription factor binding sites. This region is not
-        necessary for basal CD5 transcription but it affects the
-        overall level of CD5 transcription obtained with the full
-        length 3 Kb promoter. At least three specific protein:DNA
-        complexes are formed in EMSA using the CD5X
-        oligonucleotides. We speculate that proteins binding to the
-        CD5X region may interact with other upstream transcription
-        factors, e.g., Ets-1, rather than with proteins binding to
-        the CD5Y region. This interaction, we suggest, acts to
-        stabilize a transcriptional competent complex and thereby
-        to increase the CD5 expression to normal levels.
-        This suggestion underlies the model proposed in figure 6
-        for regulating CD5 expression in T cells. In this model,
-        the CD5Y region sets up the basal transcription machinery
-        by interacting with components in the RNA polymerase II
-        transcription complex and/or with transcription initiators,
-        since CD5 lacks a TATA box for establishing a typical RNA
-        polymerase II trancription initiation complex. The CD5X
-        region recruits transcription factors to the upstream 43 bp
-        region identified as necessary for overall CD5
-        expression.
-        The proteins binding to the CD5X region in this model
-        recruit Ets-1 protein (and perhaps other Ets family
-        members) to the Ets binding site. Alternatively, these
-        proteins help to alleviate the internal Ets-1 inhibition
-        domains and stabilize the binding of Ets-1 to its cognitive
-        site [ 33, 34, 45]. In any event, they facilitate the
-        interaction of Ets-1 with other factors to form activate
-        transcription and increase it from the basal to the overall
-        level.
-        Our studies here focus on characterizing the promoter
-        elements responsible for regulating the constitutive CD5
-        expression in unstimulated T cells. These elements, we have
-        shown, exist in a region proximal to the translation start
-        and quite distant from an enhancer element shown in other
-        studies [ 46, 47, 48] to regulate the activation of CD5
-        expression in BCR-stimulated LPS-induced B cell blasts.
-        This enhancer element, located at approximately 2 kb
-        upstream of the translation start on the CD5 promoter, is
-        dependent on NF-AT activation to induce CD5 expression in
-        anti-IgM stimulated primary splenic cells cultured with LPS
-        for 3 days [ 48]. It is reported to interact with proteins
-        in the proximal region of the CD5 promoter, which contains
-        the all three regions characterized here.
-        An Ets binding site also has been implicated in the
-        activity of the enhancer discussed above. In addition, this
-        CD5 response to BCR stimulation has been shown to be
-        mediated in part by vav-2, which activates of NF-AT [ 49].
-        Our studies with constitutive expression of CD5 on B cells
-        are still in progress. However, preliminary evidence
-        suggests that unlike the stimulated CD5 expression in these
-        other studies, the low-level constitutive expression of CD5
-        on the M12 B cell line is enabled by the same 43 bp
-        regulatory region that we have shown here is sufficient to
-        induce full constitutive CD5 expression on T cells.
+        In this paper, we have examined the potential epidemiologic impact of global HIV/AIDS
+        control efforts under a range of alternative scenarios reflecting varying implementation of
+        strategies for prevention and treatment. Although we focus in particular on population
+        health outcomes and epidemiologic trends, we recognize that there are numerous other
+        social, economic, and individual health effects of interventions including ART that are
+        beyond the scope of this analysis. We also restrict our focus in this paper to sub-Saharan
+        Africa, where the overwhelming majority of people living with and dying from HIV/AIDS
+        reside; however, our findings have broader applicability and more general implications in
+        the worldwide fight against HIV/AIDS, which we highlight here.
+        
+          The Potential for Treatment to Enhance Prevention Must Be Exploited
+          Effective prevention requires more than having sufficient funds to offer information
+          and services. It also requires an environment that encourages people to internalize
+          messages about risky behavior and to adopt actual behavior change, and allows people to
+          utilize services such as testing and counseling without fear of stigma or discrimination.
+          Stoneburner and Low-Beer have argued that the supportive social and political environment
+          in Uganda allowed people to discuss AIDS with family members and close friends, which led
+          to greater behavior change than in Kenya or Zambia where most people received information
+          from mass media only [20]. People have little reason to seek HIV testing when a positive
+          result brings only negative consequences, whereas widespread availability of treatment
+          provides a major incentive for people to learn their serostatus.
+          Involving communities and family members in the delivery of treatment—for example, as
+          treatment monitors—offers unique entry points for effective prevention activities and a
+          lever for population-wide behavior change. Experience with community roll-out of
+          treatment programs has shown, for example, that uptake of voluntary counseling and
+          testing increased by 300% in one year of roll-out in Haiti, and by a factor of 12 in
+          Khayelitsha, South Africa, after treatment introduction [21,22]. A study targeting nine
+          commuter sites in South Africa found the highest levels of condom use, willingness to use
+          a female condom, and willingness to have an HIV test in Khayelitsha, a difference that
+          may be attributed largely to the availability of ART and comprehensive AIDS care [23]. If
+          increased uptake of voluntary counseling and testing is indicative of broader prevention
+          effectiveness where ART is available, we estimate that over 50% more new infections and
+          more than twice as many deaths could be avoided through a combined response compared to
+          prevention alone. In contrast, if a narrow treatment scale-up leads to reduced
+          effectiveness of prevention, short-term mortality reductions will come at the expense of
+          longer-term progress in stemming the tide of the epidemic.
+          During most of the past 15 years, efforts to address the AIDS epidemic in sub-Saharan
+          Africa have focused on prevention. There have been successes in some countries, but
+          overall these efforts have not achieved their goals. The advent of vastly expanding
+          treatment programs in the coming years, if opportunities to capitalize on broadened
+          political support and community mobilization can be seized, offers the potential to
+          enhance prevention effectiveness and avert many new infections and deaths.
+        
+        
+          Only Effective Prevention Will Make Treatment Affordable in the Long Run
+          While prevention programs are unlikely to achieve full impact in the absence of
+          treatment, so too is the impact of treatment programs reduced if vigorous prevention
+          efforts are absent. Without effective prevention, the number of people requiring care and
+          treatment will grow each year. As more and more people are kept alive with ART the
+          treatment burden will become enormous unless effective prevention reduces the number of
+          people becoming newly infected.
+          Without effective prevention programs, we project that the number of people receiving
+          treatment will grow to 6.3 million by 2010 and up to 9.2 million by 2020 in Africa alone
+          to achieve 80% coverage of those in urgent need. Meeting this need would require a
+          tremendous increase in financing, human capacity and infrastructure that might not be
+          attainable.
+          If effective prevention programs are combined with treatment programs, the same level
+          of 80% ART coverage would be achieved by treating 5.8 million in 2010 and 4.2 million in
+          2020. In other words, the same goal could be attained at a far lower treatment cost and
+          with a much greater chance of sustainability.
+        
+        
+          A Successful Global Response Cannot Rely on Either Prevention or Treatment
+          Alone
+          Over the long term, it is effective prevention that will reduce the burden of illness
+          due to AIDS and the number of people in need of ART. The lessons learned in the
+          industrialized world have to be taken on board. The availability of treatment and the
+          shift in focus away from very effective prevention programs has led to increases in
+          unsafe sexual behavior, STIs, and HIV transmission in some settings [9,10,11]. There is
+          no doubt that effective therapy can extend and improve the quality of life for those who
+          are treated, but it also must be integrated into a comprehensive community response to
+          HIV so that it can enhance the effectiveness of prevention efforts. Long-term, sustained
+          progress in the fight against AIDS demands more than an exclusive focus on either
+          prevention or treatment alone. Prevention makes treatment affordable, and treatment can
+          make prevention more effective.
+          Countries in sub-Saharan Africa are faced with the most devastating epidemic of our
+          times. We now have the unique opportunity to derive the maximum impact from available
+          resources. The results from our analyses show how potential synergies between prevention
+          and treatment could be translated into considerable health benefits at the population
+          level. But synergies do not mean simply that prevention and treatment are pursued in
+          parallel. When whole communities become involved in the scale-up of treatment access—as
+          will be necessary to achieve the ambitious treatment targets defined by the 3 by 5
+          campaign—crucial opportunities can be created for increasing their involvement in
+          prevention activities. Only if interactions with patients, family, and community members
+          occasioned by the provision of treatment are also used to reinforce prevention, and only
+          if prevention workers have an opportunity to refer those in need to care and treatment,
+          will we move at last from slogans to impact.
+        
       
       
-        Materials and Methods
-        
-          Plasmids
-          The reporter constructs were created as follows: The 3
-          kb genomic fragment upstream of the CD5 translation start
-          was excised by restriction digest with HindIII and NcoI
-          from p12-1 [ 32], a genomic DNA plasmid containing the
-          first two CD5 exons and the 3 kb upstream region. Various
-          deletion constructs were created by first digesting the 3
-          kb genomic fragment (HindIII-NcoI) with various
-          restriction enzymes, blunted with Klenow DNA polymerase,
-          and then cloned into pGL2Basic luciferase reporter
-          plasmid. The resulting deletion reporter plasmids were
-          further modified by mutating the blunted Nco I sites to
-          Bgl II sites. The structure of all reporter constructs
-          were confirmed by DNA sequencing (Amplitaq sequencing
-          kit, Perkin-Elmer).
-          The Ets-1 expression plasmid, pEVRF-ets-1, contains
-          the parental expression plasmid pEVRF0 and the insertion
-          of the Ets-1 cDNA. The control expression plasmid,
-          pEVRF0, contains the human CMV enhancer/promoter, the
-          translation initiation from HSV thymidine kinase,
-          splicing and polyadenylation signals from the rabbit
-          β-globin gene, and the SV40 origin of replication in the
-          pSP65 bacterial plasmid.
-          For internal control in transient transfections, we
-          used PON405, which contains LacZ under the
-          transcriptional control of human CMV promoter. The
-          resulting β-galactosidase activity was used to normalize
-          transient transfection results. Mutagenized constructs
-          based on StuI B or HincII plasmid are described in the
-          site-directed mutagenesis section.
-        
-        
-          Cell culture
-          Murine thymoma EL4 cells and murine CD5+ B cells, M12,
-          were maintained in RPMI 1640 medium supplemented with 10%
-          (v/v) 1:1 fetal calf serum and horse serum, 2 mM
-          glutamine, 100 U/ml penicillin, 0.05 mM streptomycin, and
-          50 nM 2-mercaptoethanol. All cell cultures were
-          maintained at 37°C with 7% CO 
-          2 .
-        
-        
-          Transient transfections
-          EL4 or M12 cells were grown to 1 - 2 × 106 cells per
-          ml, centrifuged and resuspended at a concentration of 107
-          cells/300 μl in complete RPMI medium. Each aliquot (300
-          μl) of the cells was electroporated along with 15 μg of
-          reporter constructs and 5 μg of PON405, in a Bio-Rad gene
-          pulser at 250 volts with 960 μD capacitance. The
-          electroporated cells were diluted in 3 ml of complete
-          RPMI 1640 medium and maintained at 37°C for 36-48 hours.
-          At the time of analysis, 1.5 ml of the transfected cells
-          were transferred to eppendorf tubes, centrifuged and
-          lysed in 320 μl of lysis buffer (60 mM Na2HPO4, 40 mM
-          NaH2PO4, 10 mM KCl, 1 mM MgSO4, and 0.1% Triton X-100 at
-          pH7).
-          Luciferase activity was measured using a luminometer
-          (Analytical Luminescence Laboratory). The β-galactosidase
-          activity in each cell lysate was measured in the
-          4-Methylumbelliferyl-β-D-Galactoside (MUG) assay and was
-          used to normalize the luciferase activity analyzed in
-          each cell lysate. The reported values represent the
-          average of three independent transfections, with standard
-          deviation as error bars. Each experiment was repeated at
-          least twice.
-        
-        
-          Nuclear extract isolation
-          Nuclear extracts were isolated from EL4 and M12 as
-          follows. The cultured cells were grown to 1-2 × 10
-          6cells/ ml, then collected and hypotonically swollen in
-          buffer A (10 mM Hepes pH7.9, 10 mM KCl, 2 mM MgCl 
-          2 , 0.1 mM EDTA, 1 mM DTT, and 1 mM
-          PMSF) before lysis with NP40. The nuclear proteins were
-          extracted by resuspending the nuclear pellet with buffer
-          C (50 mM Hepes pH7.9, 300 mM NaCl, 50 mM KCl, 0.1 mM
-          EDTA, 10% glycerol, 1 mM DTT, and 1 mM PMSF). Nuclear
-          extracts were quantitated using Bio-Rad protein assay
-          (Bio-Rad Laboratories, CA).
-        
-        
-          Sequence analysis and site-directed
-          mutagenesis
-          The consensus transcription factor binding sites were
-          identified by comparing the CD5 promoter sequences
-          against Transcription Factor Database using Quest program
-          (Intelligenetics Corporation). The mutagenesis primers
-          corresponding to each of the five regions, Ets (mutE),
-          κE2 (mutK), CCAAT (mutC), CD5X (Xmut1, 2, and 3), and
-          CD5Y (Ymut1 and 2) were synthesized at the Protein and
-          Nucleic Acid Facility, Stanford University. The mutC,
-          mutK, mutE, Xmut, and Ymut mutagenesis primers were first
-          PCR amplified with GL2 primer (5' CTT TAT GTT TTT GGC GTC
-          TTC CA 3') using StuI B plasmid as template to generate
-          megaprimers. For the HincII B plasmid, Xmut and Ymut
-          mutagenesis primers were used in conjunction with GL2 for
-          PCR amplification.
-          The mutagensis primers were as follows: for mutC, 5'
-          GCTCGACCT CCA TTC TAA 
-          TG T GGG CAG GTG GTT TCA CAG 3';
-          mutK, 5' CCA TTC TAA TTG GGG C 
-          TT TTT GTT TCA CAG GGA GGA AGT 3';
-          mutE, 5' TTT CAC AGG GA 
-          C CTT GTT GAC AGT TCA ACT TCA AAC 3';
-          Xmut1, 5' CAC AGG GAG GAA GTT 
-          CTG TCA TCA ACT TCA AAC AGG 3';
-          Xmut2, 5' GAG GAA GTT GAC AGT 
-          CTA AGA CT A AAC AGG GTT GGC AGT 3';
-          Xmut3, 5' TGA CAG TTC AAC TTC 
-          GTT AGT GGT TGG CAG TGA CAC 3';
-          Ymut1, 5' TGG CAG TGA CAC AGG 
-          TGT ACT CTG CCT GCT TCC CCT 3'; and
-          Ymut2, 5' ACA CAG GCC CAC ACT G 
-          AT GCG TTC CCC TTT CCA CCC CTG 3'.
-          The underlined sequences denote the consensus
-          transcription factor binding site. Boldfaced sequences
-          indicate the mutated base pairs.
-          Each of the megaprimers was purified and subsequently
-          amplified with GL1 primer (5' TGT ATC TTA TGG TAC TGT AAC
-          TG 3'), using StuI B or HincII B plasmid as a template.
-          The resulting PCR products were gel isolated, digested
-          with BglII and MluI, and cloned into the pGLBasic
-          luciferase reporter construct. E. coli clones carrying
-          the mutagenized plasmids were identified by colony lifts
-          and each mutagenized plasmid was sequenced to confirm the
-          mutations.
-        
-        
-          EMSA
-          The double stranded oligonucleotide probes were
-          end-filled with Klenow DNA polymerase and α- 32P-dGTP.
-          The double stranded oligos used were as follows: for the
-          Ets binding site on the CD5 promoter, 5' CGC GTA CAG GGA
-          GGA AGT TGA CCT CGA 3'; for the oligonucleotides
-          containing the CD5X region, 5' AGG CCT AAG TTG ACA GTT
-          CAA CTT CAA ACA CTC GAG 3'; and for the CD5Y oligo, 5'
-          AGG CCT CAC AGG CCC ACA CTG CCT GCT TCC CTG GAG 3'. The
-          probes were purified using the Qiaquick nucleotide
-          removal kit (Qiagen, Germany), and 5 × 10 5cpm of the
-          probe were incubated with nuclear extracts at room
-          temperature for 30 minutes. Competitor oligonucleotides
-          or inhibition antibodies were added 20 minutes before the
-          addition of the radiolabeled probe DNA.
-          The competitor oligos are as follows: CD5 κE2, 5' GTA
-          CCT AGG GGC AGG TGG TTT CAC GCG 3'; CD5 CK, 5' CCT CCA
-          TTC TAA TTG GGG CAG GTG GTT TCA CAG G 3'; and CD5 KE, 5'
-          AGG CCT GGG GCA GGT GGT TTC ACA GGG AGG AAG TTC TCG AG
-          3'. The CK oligo contains CD5 κE2 and CCAAT sites. The KE
-          oligo contains κE2 and Ets sites. The binding reaction
-          consisted of 10 mM Hepes pH7.9, 10 mM Tris-HCl pH 7.5,
-          100 mM NaCl, 15 mM KCl, 0.5 mM EDTA, 1 mM dithiothreitol,
-          10% glycerol, and 2 μg dIdC.
-          The protein:DNA complexes were resolved by
-          electrophoresis through 5% nondenaturing polyacrylamide
-          gels in 0.25 X TBE buffer. Electrophoresis was conducted
-          for 2 1/2 hours at 150 V. The gels were then vacuum dried
-          and exposed to X-ray film overnight with an intensifying
-          screen screen at -80°C.
-        
+        Supporting Information
       
     
   

@@ -3,114 +3,112 @@
     
       
         
-        Grafting is an ancient technique used by farmers and gardeners to combine desired
-        attributes of the rootstock with those of the donor plant shoot, or scion. Grafting
-        essentially saved European wine making: when the insect 
-        Dactylosphera vitifoliae devastated European grapewine varieties
-        over the course of the late 1800s and early 1900s, the varieties were saved by grafting
-        them onto resistant rootstocks from the New World. Since then, these rootstocks have been
-        used to maintain the susceptible Old World cultivars. But grafting is also an excellent
-        tool for scientists studying systemic signals traveling between the rootstock and distal
-        parts of the plants, and vice versa. For example, two important studies (Palauqui et al.
-        1997; Voinnet et al. 1998) used grafting to demonstrate the spreading of RNA silencing in
-        plants. However, it was a subsequent paper (Crete et al. 2001) that followed up on certain
-        inconsistencies in the grafting results that pointed to subtleties important for both
-        experimental design and understanding systemic signaling in plants.
-        RNA silencing (termed posttranscriptional gene silencing in plants, quelling in fungi,
-        and RNA interference in animals) refers to the phenomenon whereby specific gene transcript
-        levels are reduced in the presence of a related RNA. From studies of RNA silencing in
-        several systems, much is now known about the mechanisms involved (Matzke 2002; Mlotshwa et
-        al. 2002), but the systemic spreading in plants is still a bit of a mystery.
-        Posttranscriptional gene silencing spreads systemically throughout the individual plants in
-        a very characteristic manner reminiscent of viral spread. This has led to the hypothesis of
-        a systemic silencing signal that is produced in the tissues where silencing is initiated
-        and is then transmitted to the distant parts of the plant where it can initiate silencing
-        in a sequence-specific manner. The sequence specificity of the silencing strongly implies
-        that the signal is a nucleic acid, most likely an RNA, but the identity of the signal
-        remains unknown. Silencing spreads mainly in the direction from carbon source to carbon
-        sink, that is, from tissues such as leaves that export the sugar products of
-        photosynthesis, to tissues such as roots that import these products, and it can take up to
-        several weeks until it is established in the whole plant (Palauqui et al. 1997; Palauqui
-        and Vaucheret 1998; Voinnet et al. 1998; Sonoda and Nishiguchi 2000).
-        As expected, the discovery of this process triggered a quest for the “systemic inducer”
-        of the process: a signal that travels through the plant and is able to initiate silencing
-        in a remote location within the plant. Grafting was an obvious tool to use in the quest for
-        this signal, as it allowed silencing source and sink tissues to be of different origin.
-        Palauqui et al. (1997) were the first to unambiguously demonstrate that silencing
-        spreads from a silenced rootstock to a nonsilenced scion. They used as a stock a transgenic
-        tobacco carrying an additional copy of the endogenous nitrate reductase gene, 
-        Nia . Some of the transgenic lines generated always showed higher levels
-        of 
-        Nia transcripts than the wild type—as expected from the presence of an
-        additional gene—and were termed class I lines. However, other transgenic lines had
-        undergone silencing for both the endogenous and exogenous 
-        Nia genes and those were termed class II lines. Pallaqui et al. (1997)
-        found that silenced class II rootstocks were able to silence class I scions. This was true
-        even in a “sandwich graft,” where a wild-type (nontransgenic) segment was grafted between
-        the silenced stock and the nonsilenced scion. Spreading of silencing was unidirectional
-        from stock to scion. Though not explicitly stated, it was implied that it took more than 3
-        wk after grafting for systemic silencing to occur in the scion. The reported rate of
-        transmission was 100%.
-        Related experiments by Voinnet et al. (1998) used scions that transgenically expressed
-        green fluorescent protein grafted onto plants with established silencing of the same
-        transgene. There, too, silencing spread through the graft to the nonsilenced scion, even
-        when a wild-type section was grafted between transgenic rootstock and scion. Unlike the 
-        Nia transgene, which has an endogenous counterpart in the wildtype plant,
-        green fluorescent protein has no homolog in nontransgenic lines. Therefore, silencing
-        spreading in the wild-type “spacer” in the sandwich grafts could not be assisted by an
-        endogenous sequence. Rather, the systemic signal must have traveled all the way to the
-        scion and induced gene silencing there. The establishment of systemic silencing took 4 wk
-        in the “direct” grafts and 6 wk in the sandwich grafts. However, silencing spread to the
-        scion only in some of the grafts: in ten out of 16 direct grafts and five out of 11
-        sandwich grafts.
-        I found these papers were very important not only for what they proved—the existence of
-        a systemic signal of silencing—but also because they gave an unequivocal answer to the
-        scientific questions they posed, using relatively simple methodology. Although excited by
-        these successful examples of the transmission of silencing, I kept coming back to two
-        questions: (1) what prevents transmission in some of grafts, and (2) why does it take
-        longer to transmit silencing to the scion than it takes systemic silencing to reach the
-        most remote parts of an intact plant?
-        When we started working on the silencing signal ourselves, we repeated some of the above
-        experiments but found somehow lower efficiencies in the initiation of silencing in the
-        scions. We soon realized that our results were influenced by the developmental stage of our
-        scions. A paper from Jeff Meins's laboratory in Switzerland shed light on some aspects of
-        the grafting puzzle. Researchers there introduced additional chitinase genes using
-        bolistics, in sense or antisense orientation under the control of a strong promoter (35S)
-        into chitinase transformant lines of tobacco that never exhibited spontaneous gene
-        silencing (Crete et al. 2001). In lines bombarded late in plant development, triggering of
-        silencing was rarely observed. However, when the transgene was introduced earlier in
-        development, a large portion of the lines showed a substantial decrease and eventually full
-        suppression of the chitinase mRNA levels. Lines that showed silencing were used as
-        rootstocks and nonsilencing lines were used as scions in three types of grafting
-        experiments. In the first type of grafting experiment, called top grafting, a 5-cm scion
-        cut into a wedge at the bottom was inserted into the vascular ring at the cut surface of a
-        50-cm-high rootstock (Figure 1A). In the second type of experiment, reciprocal transverse
-        grafts of 50-cm-tall plants were exchanged between class I and class II plants (Figure 1B).
-        Finally, the third type of experiment involved plug grafts, which were made by exchanging
-        transverse plugs of stems cut with a 5-mm-diameter cork borer from an internode
-        approximately in the middle of a 50-cm plant (Figure 1C).
-        Surprisingly, only top grafting resulted in scions that were systemically silenced by a
-        rootstock signal. Furthermore, even transmission after top grafting was less effective than
-        expected; in one stock/scion combination only 27 out of 71 grafts exhibited transmission of
-        the silencing signal. The authors also found that antisense-induced silencing was never
-        transmitted to the scion. These findings do not answer the many questions about the
-        mechanisms underlying systemic silencing, but they point us in certain directions.
-        The individual parts of a whole plant are, in terms of import and export, in an
-        equilibrium that changes with development. When grafting takes place, how this equilibrium
-        is altered depends on the individual “parts” that contribute to the “new” whole plant. In
-        addition, there is now indirect evidence (Fagard and Vaucheret 2000) that what is source
-        tissue and what is sink tissue in terms of sugar transport affects what is source and what
-        is sink in terms of the systemic silencing signal. Taking into account the above findings
-        and choosing the right combination of stock/scion, we have managed to significantly
-        increase the efficiency of graft-transmitted silencing, a prerequisite for continuing the
-        search for the systemic signal.
-        From the grafting experiments to date, it is now evident that the transporting capacity
-        of the vascular tissue bypass that is formed at the graft junction does not fully reach the
-        level of the original vascular tissue. The basis for these restrictions is not known. In a
-        way, the graft interface functions as an unintentional filter. If the specificities of this
-        “filter” were known, it would help us comprehend some transmission inconsistencies. Keeping
-        in mind these limitations, grafting remains an invaluable tool in the search for the
-        systemic silencing signal.
+        Despite the significant progress in increasing our understanding of the immune
+        mechanisms of multiple sclerosis (MS), in improving clinical classification and brain
+        imaging, and in developing new treatments, the factors that determine the course of the
+        disease are mostly unknown [1]. Currently, it is nearly impossible to predict the course of
+        MS, its severity in terms of disability progression, or when a relapse will happen.
+        The most commonly used disease-modifying therapies are interferon β (IFNβ) [2] and
+        glatiramer acetate [2,3]. Despite initial excitement, these therapies have beneficial
+        effects in some, but not all, patients [2,3]. Because of the potential favorable effects of
+        these therapies, it has been suggested that they should be initiated as early as possible
+        to maximize neuroprotection [4]. Additionally, it has been recommended that patients should
+        be monitored closely to determine whether and when it is necessary to modify treatment in
+        order to maximize the benefit [5]. The recommended monitoring is based on annual rate of
+        relapses, neurological deterioration, and evidence of disease activity on brain magnetic
+        resonance imaging scans. However, given the destructive nature of the disease, if we rely
+        solely on clinical or radiological manifestations (such as a relapse or a new lesion on a
+        scan) to determine a patient's response to therapy, we will probably be responding too
+        late.
+      
+      
+        Gene Expression Patterns in Affected Organs
+        The diagnosis and management of disease could be transformed thanks to the completion of
+        the human genome project, the availability of sequence information for nearly every gene,
+        and the advent of novel high throughput technologies (microarrays—see Glossary) that allow
+        parallel profiling of thousands of genes. By definition, nearly every aspect of a disease
+        phenotype should be represented in gene expression signatures of multiple genes in the
+        affected organ. Indeed, studies that analyze affected tissues (mostly in cancer) clearly
+        show that it is possible to predict prognosis, to identify new classes of diseases, and
+        potentially to determine response to therapy [6,7,8].
+        In diseases that do not require tissue resection for diagnosis or therapy, it is rare to
+        obtain tissues for analysis. This problem is even more pronounced in diseases like MS, in
+        which the target organ is the very inaccessible brain and spinal cord. Despite these
+        limitations, several groups used microarrays to analyze brain tissues obtained posthumously
+        from patients who had MS and identified genes that characterized either acute or chronic
+        lesions [9,10,11]. However, although these studies identified some potential genes that may
+        be involved in the local pathogenesis of the disease, they did not produce any information
+        that could be used for identifying biomarkers associated with disease activity.
+      
+      
+        Diagnostic Peripheral Blood Mononuclear Cell Gene Expression Signatures
+        In MS, looking for markers of disease activity in the much more accessible peripheral
+        blood does not require a significant leap of faith. MS is an autoimmune disease, and it is
+        possible that some of the cells involved in the pathogenesis of the disease will be found
+        in the bloodstream. Abnormal T cell populations have repeatedly been observed in the
+        peripheral blood of patients with MS [12,13,14]. While these results supported looking at
+        the easily accessible peripheral blood mononuclear cells (PBMCs) for potential markers that
+        reflect the disease, some doubts persisted. These revolved around two very strong
+        arguments. The first argument was that if the signal comes from a minority of the cells
+        within the bloodstream it will be too low to be detected. The second was that interpersonal
+        variability, added to the inherent noisy nature of gene expression data, will make the data
+        impossible to reproduce.
+        Fortunately, recent observations suggest that these doubts are unfounded. Bomprezzi et
+        al. [15] determined that gene expression patterns can distinguish patients with MS from
+        controls and suggested that at least some of the differences identified were derived from
+        activated T cells. Achiron et al. [16] analyzed the expression of 12,000 genes in patients
+        with relapsing–remitting MS. Gene expression patterns clearly distinguished patients with
+        MS from controls as well as relapse from remission. Mandel et al. [17] compared patients
+        with systemic lupus erythematosus and MS, and identified a common autoimmunity signature as
+        well as disease-specific gene expression signatures. Interestingly, similar findings were
+        recently described for pulmonary arterial hypertension [18].
+      
+      
+        Could PBMC Gene Expression Signatures Be Used for Predicting Response to
+        Therapy?
+        Weinstock-Guttman et al. [19] analyzed the acute transcriptional response of 4,000 genes
+        in peripheral blood lymphocytes to IFNβ. They identified increases in known
+        interferon-inducible genes, and in genes involved in antiviral activity and interferon
+        signaling. Using complementary DNA (cDNA) arrays, Sturzebecher et al. [20] identified gene
+        expression signatures that distinguished IFNβ responders from nonresponders.
+        And now, in a new study published in last month's 
+        PLoS Biology , Baranzini et al. [21] provide compelling evidence that
+        these PBMC gene expression signatures can be used to predict response to therapy (Figure
+        1). They studied the expression of 70 genes selected for their presumed biological function
+        in 52 patients with MS, followed up for at least two years after initiation of IFNβ
+        therapy. Instead of using microarrays that carry probes for thousands of genes, they chose
+        to use real-time PCR. This method is highly sensitive, specific, and reproducible across
+        different laboratories. It is often used to verify microarray findings. Baranzini et al.
+        identified MX1 (interferon-inducible protein p78), a known interferon-inducible gene, as
+        the marker of treatment with IFNβ. They did not find overall differences between responders
+        and nonresponders, but they did, using supervised classification methods, identify triplets
+        of genes that distinguish IFNβ responders and nonresponders.
+        Interestingly, individual and pairs of genes did not perform that well, and all three
+        genes in a triplet were required for the highest accuracy (about 80%–90%). The minimal
+        combinatorial number of genes that contains the most predictive information is not
+        available since combinations of more than three genes were not performed. Although the
+        results were not tested on an independent dataset, as is frequently requested [22], the
+        authors applied an array of cross-validation strategies that convincingly suggested that
+        the identified predictive signal was robust.
+      
+      
+        Implications of the Study
+        What could Baranzini and colleagues' findings mean? Clearly, the most obvious conclusion
+        is that the lack of response did not result from the deactivation of IFNβ. The effect of
+        IFNβ on MX1, IFNAr1, and STAT2 was observed for two years in all patients, suggesting that
+        the response did not depend on IFNβ bioavailability. Considering that PBMCs represent an
+        admixture of multiple cell types, the most plausible explanation is a simple lack of shift
+        in subcellular populations.
+        However, the importance of Baranzini and colleagues' study lies not in its mechanistic
+        insights, but in its clinical relevance. The careful design of the experiment, the use of
+        reproducible real-time PCR instead of microarrays, the meticulous analysis, and the
+        previous observations [15,16,17,19,20] support the notion that PBMCs express clinically
+        relevant gene expression signatures in MS and probably in other organ-confined diseases. To
+        further prove this notion will require a significant investment in large studies that
+        prospectively test the utility of these signatures in guiding the management of MS. Only
+        when direct evidence shows that therapy guided by markers expressed in PBMCs improves
+        patient outcome will PBMC gene expression patterns take their place as biomarkers at the
+        center stage of monitoring MS progression and response to therapy.
       
     
   

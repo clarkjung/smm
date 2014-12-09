@@ -2,721 +2,799 @@
   
     
       
-        Introduction
-        The Sperm Adhesion Molecule 1 (SPAM1 or PH-20) is a
-        glycosyl-phosphatidylinositol (GPI)-linked protein found on
-        all mammalian spermatozoa that have been examined, and has
-        been reported to play multiple roles in fertilization [ 1 ]
-        . Although a recent gene targeting study indicates that in
-        mice, which have four active non-somatic hyaluronidases,
-        Spam1 is not essential for fertilization [ 2 ] ; this is
-        unlikely to be the case in humans where SPAM1 is the only
-        such hyaluronidase present. In primates SPAM1 has been
-        shown to play a role in three functions during
-        fertilization: (1) hyaluronidase enzyme activity necessary
-        for penetrating the cumulus [ 3 ] and for which it is best
-        known [ 4 ] , (2) zona pellucida binding [ 3 ] , and (3) Ca
-        2+signaling-associated acrosomal exocytosis [ 5 6 7 ] .
-        Unlike somatic ubiquitous hyaluronidases that are active
-        only at acidic pH [ 8 ] , SPAM1 has hyaluronidase activity
-        at both neutral and acidic pHs, which arise from two
-        different regions within the hyaluronidase domain [ 4 ] .
-        The neutral enzyme activity, which is predominant in
-        insoluble membrane-bound SPAM1, is necessary for sperm to
-        penetrate the hyaluronic acid (HA)-rich extracellular
-        matrix of the cumulus cells surrounding the oocyte. The
-        acidic enzyme activity is present in soluble SPAM1 that is
-        generated during the acrosome reaction (AR), after cleavage
-        at its carboxy terminus [ 9 ] . In primate sperm where
-        SPAM1 is a 64-kDa protein, the proteolytically cleaved
-        secretory form that is released after the AR is 53 kDa [ 9
-        ] .
-        Our lab reported a significant increase of Spam1 in
-        caudal mouse sperm compared to caput ones [ 10 ] . This
-        finding led to the discovery that 
-        Spam1 is also expressed in all three
-        regions of the mouse epididymis: epididymal Spam1 and its
-        transcript were found in both wild-type and sperm-free
-        mutant (germ cell-deficient) mice as well as in cultured
-        epididymal epithelial cells, completely eliminating the
-        possibility that the protein is merely being transported
-        into the epididymis [ 11 12 ] . Expression was shown to be
-        in the principal cells of the epididymal epithelium and to
-        occur preferentially in the distal regions of the tract.
-        Additionally, Zhang and Martin-DeLeon (2001) found evidence
-        that mouse epididymal Spam1 is secreted 
-        in vivo and 
-        in vitro and that the gene is
-        differentially regulated in testis and epididymis.
-        Consistent with epididymal expression, putative androgen
-        responsive elements (AREs) were discovered in the murine 
-        Spam1 5'-flanking region [ 12 ] .
-        Since 
-        SPAM1 is widely conserved among
-        mammals [ 13 ] it is likely that its pattern of expression
-        may also be conserved. Therefore, human SPAM1 might also be
-        expressed in the epididymis, where it could play an
-        important role in sperm maturation. For this reason, it was
-        thought worthwhile to investigate the presence of SPAM1 in
-        the human epididymis and vas deferens for which a possible
-        role in sperm maturation has been proposed [ 14 ] . Because
-        of the difficulty in obtaining fresh human tissue we
-        included in our study tissues of 
-        cynomolgus macaque which is a primate
-        model for studying human sperm maturation [ 15 ] .
-      
-      
-        Materials and Methods
+        Background
+        Engagement of antigen receptors on lymphocytes leads to
+        the rapid sequential activation of non-receptor tyrosine
+        kinases, including well-studied members of the Src and the
+        ZAP-70/Syk families [ 1, 2]. Recently, the Tec kinases have
+        also been implicated as important components of signaling
+        from antigen and other lymphocyte cell surface receptors
+        (reviewed in [ 3, 4, 5].) This subfamily includes six
+        members: Btk, Tec, Itk/Tsk/Emt, Bmx/Emt, Dsrc29, and
+        Rlk/Txk [ 3, 6, 7]. The importance of the Tec kinases in
+        antigen receptor signaling was first demonstrated by the
+        observation that mutations in BTK result in the human
+        disease X-linked agammaglobulinemia (XLA) and the murine
+        counterpart X-linked immunodeficiency ( 
+        xid ). These severe B cell
+        immunodeficiencies are characterized by diminished numbers
+        of mature B cells and reduced immunoglobulin levels
+        associated with impaired PLC-γ activation and Ca
+        ++mobilization in response to surface IgM stimulation
+        (sIgM) [ 8, 9, 10, 11]. Btk kinase activity and tyrosine
+        phosphorylation increase upon stimulation of sIgM as well
+        as the IL-5 and IL6 receptors in B cells, and upon
+        crosslinking of the high affinity IgE receptor (FcεRII) in
+        mast cells [ 12, 13, 14, 15]. It is now clear that the
+        other Tec kinases participate in similar signaling cascades
+        in multiple cell-types. Itk, a Tec family kinase that is
+        predominantly expressed in T cells, is tyrosine
+        phosphorylated and activated after stimulation of either
+        the T cell receptor (TCR) or CD28 in T cell lines, and
+        FcεRII in mast cells [ 12, 16, 17, 18]. Recently, we have
+        found that Rlk/Txk can also be phosphorylated after TCR
+        engagement [ 19]. Furthermore, we have found that combined
+        mutation of Rlk and Itk leads to profound defects in TCR
+        signaling associated with impaired activation of PLC-γ [
+        20]. Such data suggest that members of this family may
+        function similarly in signaling pathways downstream from
+        these cell surface antigen receptors.
+        Several lines of evidence indicate that, in these
+        signaling cascades, Tec family members act downstream of
+        Src kinases. Src kinases are activated within seconds of
+        sIgM stimulation in B cells, while Btk is activated within
+        minutes [ 14]. Moreover, Src family kinases have been found
+        to phosphorylate and activate Btk, Itk, Tec and Rlk when
+        co-expressed [ 16, 19, 21, 22, 23]. Phosphopeptide mapping
+        and mutational analyses of Btk have identified Y551 in the
+        activation loop of the kinase domain as the major
+        Src-transphosphorylation site. Phosphorylation of Y551 and
+        a putative autophosphorylation site Y223 in the SH3 domain
+        of Btk [ 23, 24] are observed following BCR activation,
+        suggesting that these tyrosine phosphorylations are
+        functionally important for antigen receptor signaling.
+        Although physical binding of full length Btk to Src family
+        kinases 
+        in vivo has not been reported, 
+        in vitro interactions have been
+        demonstrated between proline-rich motifs in the
+        amino-terminal sequence of Btk and the Src homology (SH) 3
+        domains of Src family kinases [ 25, 26].
+        Recently, it has been found that the activation of Btk
+        and Itk by Src family kinases is potentiated by and
+        requires the activity of Phosphoinositide 3-kinase (PI3K),
+        the products of which interact with the PH domains of Tec
+        kinases [ 27, 28]. This interaction helps localize Tec
+        family kinases to the membrane where phosphorylation by Src
+        kinases can occur. Data suggest that, for Itk, this
+        membrane association specifically targets the protein to
+        glycolipid enriched detergent-insoluble membrane
+        microdomains known as "RAFTs" and that both this
+        association and the activation of Itk requires the PH
+        domain [ 29].
         
-          Procurement of human and macaque tissues
-          Human specimens were collected from five (5)
-          individuals of various ages. The first was a surgical
-          specimen from the human proximal corpus epididymis. It
-          was obtained from a 45-year old man (Subject #1) of known
-          fertility who underwent surgical excision of the
-          epididymis because of a large spermatocele (a cystic
-          swelling) at the level of the corpus epididymis. After
-          surgical removal, a portion (about 1 cm in length) of the
-          intact, non-dilated corpus epididymis was placed in PBS
-          for the experiment. It was then washed in PBS, embedded
-          in OCT medium, and stored at -80°C. Eight and 12-μm thick
-          sections were made from the frozen specimen using a Leica
-          Cryostat 3050 S.
-          Post-mortem reproductive tissues were obtained from
-          four males. One was a 42-year-old who had died from a
-          myocardial infarction and was not known to have any
-          reproductive problems (Subject #2). The tissues (testis,
-          epididymis, and vas deferens) were obtained through the
-          National Disease Research Interchange (NDRI;
-          Philadelphia, PA) and were either snap frozen in liquid
-          nitrogen or embedded in OCT or paraffin for sectioning.
-          Tissues from Subject #3 and 4, who were 27 and 68 years
-          old, were obtained in the form of slides made from
-          paraffin-embedded sections of testis, epididymis, vas
-          deferens, and seminal vesicles through Novagen (Madison,
-          WI). The tissues were analyzed by a pathologist and found
-          to be morphologically normal and there were no known
-          reproductive problems or medical pathologies that could
-          affect reproductive function. Similarly morphologically
-          normal tissues were used for epididymal sections from a
-          56 year-old male (Subject #5), and the slides were
-          obtained from the histology core at the University of
-          North Carolina Medical School. None of the subjects were
-          known not to be on hormone therapy prior to death.
-          Macaque ( 
-          cynomolgus ) reproductive issues
-          were obtained from Covance (Alice, TX) from two 2 males
-          who were 5 years old and of known fertility. Testis,
-          epididymis, and vas deferens from each animal were snap
-          frozen in liquid nitrogen, embedded in OCT or paraffin
-          after standard formaldehyde fixation for sectioning.
+        rlk/TXK encodes a kinase expressed in
+        T cells and mast cells that closely resembles members of
+        the Btk/Tec family of kinases [ 30, 31, 32]. However, in
+        contrast to the other Tec family members, Rlk lacks a
+        pleckstrin homology domain. Instead, we have found that the
         
-        
-          Laser Microdissection (LM)/RT-PCR
-          To analyze the mRNA expression of 
-          SPAM1 in the epididymal epithelium,
-          frozen sections from Subjects #1 and #2 and
-          paraffin-embedded sections from Subject #3 were used. For
-          macaques, frozen sections of the corpus were obtained
-          from Animal #1 and paraffin-embedded sections of the
-          cauda were from the Animal #2. All paraffin-embedded
-          sections were fixed with 4% paraformaldehyde. The PALM
-          Microbeam system (PALM Microlaser Technologies AG,
-          Bernreid, Germany) was used for laser cutting and
-          separation of selected tissue regions. Immediately prior
-          to microdissection, water was removed from frozen
-          sections by soaking the slides in 100% ethanol for 5 min
-          followed by air-drying for 5 min. Paraffin-embedded
-          sections were treated to remove the paraffin with xylene,
-          prior to the ethanol treatment. Once the tissues were
-          air-dried, the target cells, (epididymal epithelial
-          cells) were carefully laser-microdissected according to
-          the manufacturer's instructions with the cells being
-          collected in mineral oil. The microdissection was
-          performed with care to exclude sperm present in the lumen
-          (Fig. 1). In addition to microdissection of the
-          epithelial cells, stromal cells were also microdissected
-          from the sections to be used as a negative control (Fig.
-          1). LM conditions were as follows: laser focus 67-69,
-          laser energy 72-76 cut speed 8. These values varied
-          slightly depending on the thickness (8-12 μm) of the
-          sections. The total areas of epididymal cells that were
-          microdissected ranged from approximately 350,000 to
-          450,000 μm 2. The samples in mineral oil were kept at
-          -80°C until RNA extraction was performed.
-        
-        
-          RNA Extraction and Reverse Transcription-Polymerase
-          Chain reaction (RT-PCR)
-          RNA was extracted from LM samples using the Ambion
-          Cells-to-DNA II Kit (Ambion Inc., Austin, Texas)
-          according to the manufacturer's protocol. Briefly, cells
-          were lysed in Cell Lysis II Buffer after incubation at
-          75°C for 10 min. DNase I was added and the lysate
-          incubated at 37°C for 15 min. After inactivation of the
-          DNase at 75°C for 5 min 5 μl of the lysate was used for
-          first strand synthesis under the conditions recommended
-          by the manufacturer. Control experiments were performed
-          simultaneously without the addition of reverse
-          transcriptase (RT). Two microliters of each reverse
-          transcription product was subjected to PCR amplification
-          using a pair of primers (forward: nt 1524-1543; reverse
-          1827-1843) designed from the last exon and the 3' UTR of
-          the human 
-          SPAM1 cDNA sequence (GenBank
-          Accession No. 003117), to yield a product of 320 bp. The
-          identical primer set was used for both humans and
-          macaques. As an added negative control, primers (forward:
-          nt 268-285; reverse 360-377, yielding a 110 bp product)
-          for the transcript of the human Protamine1 gene, 
-          PRM1 (GenBank Accession No. NM
-          002761), which is spermatid-expressed and so should be
-          sperm-specific, were used to attempt to amplify the cDNA
-          from the epithelial cells. Amplification of the 110 bp
-          fragment of this cDNA would indicate contamination of the
-          epididymal cells with sperm. Human genomic DNA was used
-          as a positive control.
-          The PCR reactions for 
-          SPAM1 were performed under the
-          following conditions: 94°C for 2 min: 39 cycles at 94°C
-          for 1 min, 59°C for 2 min, 72°C for 2 min, 72°C for 10
-          min, and 4°C hold. For 
-          PRM1 they were 94°C for 2 min, 35
-          cycles at 94°C for 1 min, 57°C for 2 min, 72°C for 2 min,
-          72°C for 10 min, and 4°C hold. The PCR products were
-          resolved on 1% agarose gel and stained with ethidium
-          bromide, and the experiments were repeated.
-        
-        
-          Sequencing of the RT-PCR product
-          The gel-purified PCR products were cloned into either
-          a pSTBlue-1 vector (Novagen, Madison, WI) or pCR 4-TOPO
-          TA vector (Invitrogen, Carlsbad, CA), according to the
-          manufacturer's protocol. Several clones were isolated and
-          sequenced in our core facility.
-        
-        
-          In situ transcript hybridization
-          
-          In situ transcript hybridization
-          was performed on tissue sections as described by Deng et
-          al. [ 11 ] . Antisense and sense RNA probes generated
-          from PCR of a 320-bp fragment (nt 1524-1843) from the
-          last exon including the 3' UTR of human 
-          SPAM1 were labeled with
-          digoxigenin-11-UTP (DIG) using an in vitro transcription
-          system [Riboprobe ®System, (Promega, Cat. No. P1440)] in
-          accordance with the manufacturer's protocol. Tissue
-          sections were fixed for 30 min in 4% paraformaldehyde in
-          DEPC-treated PBS, washed twice for 15 min in PBS
-          containing 0.1% active DEPC, and equilibrated for 15 min
-          in DEPC-treated 5x SSC. Sections were prehybridized for 2
-          h at 54°C in 500 μl hybridization buffer (50% formamide,
-          5x SSC, 40 μg/ml salmon sperm DNA) before hybridization
-          with heat denatured RNA probes which had been diluted to
-          400 ng/ml in hybridization buffer.
-          After hybridization, slides were washed for 30 min in
-          2x SSC at room temperature, 10 min in 2x SSC at 65°C, 10
-          min in 1x SSC at 65°C and 10 min in 0.1x SSC at 65°C.
-          Slides were equilibrated for 5 min in TBS pH 7.5 (100 mM
-          Tris, 150 mM NaCl), and then incubated for 2 h with
-          alkaline phosphate-conjugated anti-digoxigenin antibody
-          (Roche, Cat No. 1093274) diluted 1:5000 in TBS containing
-          1% BSA. Slides were then washed twice for 15 min in TBS,
-          and equilibrated for 5 min in TBS pH 9.5 (100 mM Tris,
-          100 mM NaCl, 50 mM MgCl 
-          2 ). They were then stained in
-          NBT/BCIP solution (Pierce, Cat No. 34042) until a dark
-          purple color was visible (up to 6.5 h). The reaction was
-          stopped simultaneously for both test and control by
-          rinsing with TE buffer (10 mM Tris, 1 mM EDTA, pH 8.0)
-          for 15 min. Non-specific background was removed by
-          washing in 95% ethanol as needed (20 - 40 s) and slides
-          were rinsed in water for 15 min. They were then
-          counter-stained in 1% neutral red, dehydrated in an
-          ethanol series, cleared in xylene, and mounted in
-          permount. Imaging was done using a Zeiss Axioskop and a
-          Kodak MDS digital camera using proprietary interface
-          software and Adobe Photoshop.
-        
-        
-          Preparation of protein extracts
-          Protein extracts from tissue and sperm were prepared
-          based on the methods of Cherr et al. [ 16 ] and Deng et
-          al. [ 11 ] . Epididymis and vas deferens tissues were
-          minced in PBS, shaken, and allowed to gravity settle
-          before the supernatant was carefully removed. This was
-          repeated at least six times or until the washing was
-          sperm-free, by microscopic examination. Supernatant was
-          retained and sperm pelleted from it by centrifugation at
-          1,000×g for 10 min. Protein extracts were prepared by
-          lysing sperm or homogenized tissues with a solubilization
-          buffer (62.5 mM Tris-HCl, 10% glycerol, 1% SDS, pH 6.8)
-          containing protease inhibitor (1 mM PMSF) at 4°C. The
-          suspension was vortexed and then centrifuged at 10,000×g
-          for 10 min, and the supernatant containing proteins was
-          retained.
-        
-        
-          SDS-PAGE and Western blot
-          Western blot was performed to detect SPAM1 in protein
-          extracts. An equal mass of each protein sample was
-          subjected to reducing conditions (99°C for 5 min in 100
-          mM dithiothreitol (DTT)), separated on a 15% SDS-PAGE,
-          and transferred to nitrocellulose membrane according to
-          standard protocols. The protein was detected using a
-          1:1000 dilution of rabbit polyclonal antibody generated
-          against recombinant macaque SPAM1 (a generous gift from
-          Dr. James Overstreet, UC Davis) and the WesternBreeze
-          Chemiluminescent Western Blot Immunodetection Kit
-          (Invitrogen, Cat No. WB7106) according to the
-          manufacturer's protocol. A Dot blot was also performed to
-          compare the intensities of the protein staining in the
-          different regions of the epididymis and the testis, when
-          equal amounts of protein were loaded. Protein amounts
-          were measured using a BCA assay kit (Pierce, #23227) and
-          spectrophotometry.
-        
-        
-          Hyaluronic Acid Substrate Gel
-          Electrophoresis
-          Hyaluronidase activities in tissues were measured
-          using HASGE performed as described by Deng et al. [ 11 ]
-          . Briefly, hyaluronic acid from bovine vitreous humor was
-          added to 15% SDS-polyacrylamide gel at a final
-          concentration of 0.15 mg/ml. Gel was run at 15 mAmps
-          constant current until the leading dye band (bromophenol
-          blue) migrated near the bottom. After electrophoresis,
-          gels were incubated at room temperature for 2 h in PBS
-          containing 3% Triton X-100 on a rocking platform to
-          remove SDS. They were then incubated in 100 mM sodium
-          acetate (pH 7.0) at 37°C for 24-48 h. To visualize the
-          digestion of the hyaluronic acid, gels were stained with
-          0.5% Alcian blue in 3% acetic acid for at least 2 h,
-          destained in 7% acetic acid, and then counterstained with
-          Coomassie brilliant blue G-250. Undigested hyaluronic
-          acid is stained with Alcian blue and shows a dark blue
-          background against an unstained area with digested
-          hyaluronic acid. The gels were scanned with a laser
-          densitometer. Images showing the results of the digestion
-          of the hyaluronic acid by hyaluronidase activity present
-          were captured by scanning the gels.
-        
-        
-          Immunohistochemistry
-          To confirm the results obtained from the Western
-          analysis and to verify the SPAM1-expressing cell type,
-          immunohistochemistry was performed. Paraffin-embedded
-          slides were dewaxed with three washes in xylene followed
-          by dehydration in ethanol. After dewaxing, some of the
-          human tissue sections were stained with 0.5% toluidine
-          blue for 5 min to quench autofluorescence. Tissue
-          sections were fixed with 4% paraformaldehyde in 1x PBS
-          (or alternatively methanol) for 30 min and blocked for 60
-          min in 2% BSA in 1x PBS. In some sections antigen
-          unmasking or retrieval was performed by boiling slides in
-          a microwave for 10 min in 0.01 M citrate buffer, pH 6 [
-          17 ] . Sections were incubated for 1 h at room
-          temperature in rabbit polyclonal antibody against
-          recombinant macaque SPAM1 (diluted 1:500 in the blocking
-          solution), and then washed three times for 5 min each in
-          1x PBS. Preimmune rabbit serum was used in place of SPAM1
-          antibody as a control. Sections were then incubated for
-          30 min at 4°C in fluorescein isothiocynate
-          (FITC)-conjugated anti-rabbit antibody (Sigma) diluted
-          1:500 in blocking solution, and then washed three times
-          for 5 min each in 1x PBS. They were then mounted in
-          p-phenylenediamine antifade (1 mg/ml) with or without
-          propidium iodide (1.5 μg/ml) or DAPI (1.5 μg/ml) and
-          viewed on a Zeiss axiophot fluorescence microscope with
-          images taken with a CCD cooled camera, or with a Zeiss
-          LSM 510 NLO multiphoton confocal microscope using the 488
-          nm and 647 nm lines of the Ar/Kr laser for FITC.
-        
-        
-          In silico analysis of transcription factor binding
-          sites
-          The 5' flanking sequence of human 
-          SPAM1 gene was analyzed using the
-          TESS program [ 18 ] . This web-based program searches for
-          putative transcription factor binding sites listed in the
-          TRANSFAC database [ 19 ] . Statistically significant
-          transcription factor binding site matches were returned.
-          Those factors that are known to function in the testis or
-          epididymis were recorded.
-        
+        rlk gene encodes a distinctive
+        palmitoylated cysteine-string motif near its
+        amino-terminus. Furthermore, we have found that an internal
+        translational start-site, downstream of the region encoding
+        the cysteine-string motif, gives rise to a second isoform
+        that lacks the palmitoylated cysteine string and that can
+        be localized in the nucleus [ 19]. Although these
+        distinctive features suggest that Rlk may have atypical
+        functions, Rlk shares with Btk kinases the homologous
+        proline-rich motif that binds the SH3 domains of Src
+        kinases and the tyrosines at equivalent sites in the SH3
+        and kinase domains.
+        We have recently shown that Rlk can be phosphorylated
+        and activated by the Src family kinase Fyn. However,
+        consistent with the lack of a pleckstrin homology domain,
+        activation of Rlk is independent of PI3K activity [ 19]. To
+        further characterize the mechanism of activation of
+        Rlk/Txk, we studied the nature of Rlk's localization and
+        interaction with Src family kinases. We report here a
+        physical association of Rlk with Fyn both 
+        in vitro and when co-expressed in
+        293T cells. Similar to Btk and Itk, we find that a
+        conserved tyrosine in the activation loop of the Rlk kinase
+        domain, Y420, mediates specificity for transphosphorylation
+        of Rlk by Src family kinases. This tyrosine is also
+        critical for in vivo activation of Rlk, since mutation of
+        Y420 to phenylalanine (Y420F) reduces phosphorylation of
+        Rlk upon co-expression with Fyn or after engagement of the
+        TCR. Furthermore, we have observed that the phosphorylation
+        of Rlk by Fyn increases Rlk turnover, consistent with the
+        increased turnover observed with other TCR signaling
+        molecules following activation. In contrast, localization
+        of Rlk does not appear to rely on tyrosine phosphorylation
+        or kinase activity of Rlk. Instead, we find a constitutive
+        association of a fraction of the full-length Rlk with a
+        detergent-insoluble RAFT fraction. Association with the
+        RAFT compartment does not depend on tyrosine
+        phosphorylation, nor on PI3K activation, but rather on the
+        presence of the cysteine string motif. Thus, despite
+        lacking a pleckstrin homology domain, Rlk is localized in
+        RAFTs, is phosphorylated by Src family kinases, and may
+        transduce signals downstream of Src family kinases during T
+        cell activation.
       
       
         Results
         
-          SPAM1 mRNA is Present in the Epididymal Epithelium
-          of Humans and Macaques
-          In all LM epididymal samples from humans (Subjects 1
-          and 3 corpus, Subject 2 caput/corpus) and macaques (#1,
-          corpus and 2, cauda) the expected 320 bp 
-          SPAM1 cDNA fragment was amplified
-          in the RT-PCR reactions. The control RT (-) reactions for
-          the epithelium as well as the cDNA from the stromal cells
-          of Subject #2 gave no 320 bp product, unlike the test
-          samples and the positive control which was from human
-          genomic DNA (Fig. 2A). The 320 bp band was verified to be
-          a human 
-          SPAM1 fragment by sequencing.
-          Absence of a 
-          SPAM1 cDNA band from the stromal
-          cells demonstrates that epididymal 
-          SPAM1 mRNA is localized to the
-          tubule epithelium.
-          The primers for 
-          PRM1 amplified the expected 110 bp
-          product only in the genomic DNA. The absence of this
-          sperm-specific band in the cDNA from the epithelial cell
-          lysate (Lane 11) verifies that the epithelial cells were
-          free from sperm contamination and that the cDNA amplified
-          from the cells is endogenous to the epididymis. In Fig.
-          2Bthe results for macaques, which differ from humans at
-          only one nucleotide in the expected 320 bp fragment, show
-          a positive band only in RT (+) reactions, indicating the
-          absence of DNA contamination from the samples.
-          Importantly, sequencing verified the products to be 
-          SPAM1. These results clearly show
-          that 
-          SPAM1 mRNA is synthesized in the
-          human caput/corpus and the macaque corpus and cauda
-          epididymides.
-          
-          In situ transcript hybridization
-          was performed on human caput/corpus epididymis (Subject
-          #2; Fig. 3) to confirm the presence of 
-          SPAM1 transcript detected by
-          LM/RT-PCR. The analysis indicates that the transcript is
-          present in the epithelial cells where the purple label
-          can be seen (Fig. 3A). The mRNA was located predominantly
-          in the perinuclear region of the principal cells. Unlike
-          test sections hybridized with the antisense probe, the
-          control sections probed with the sense riboprobe showed
-          only the neutral red staining (Fig. 3B). The purple label
-          seen in the connective tissue in control and test
-          sections may result from endogenous alkaline phosphatase
+          Rlk Interacts with Fyn
+          Rlk/Txk is a Tec related kinase that is predominantly
+          expressed in cells of the T cell lineage [ 30, 31, 32].
+          We have recently demonstrated that Rlk is phosphorylated
+          following stimulation of the Jurkat T cell line by
+          crosslinking of the CD3ε chain of the TCR [ 19]. We have
+          further observed that Rlk can be phosphorylated and
+          activated by co-expression with the Src family kinase,
+          Fyn, in a PI3K-independent fashion. In contrast,
+          activation of Btk and Itk by Src family kinases is
+          PI3K-dependent. To further characterize the mechanism of
+          Rlk activation by Src family kinases, we examined
+          potential interactions of Rlk with Src kinases both 
+          in vitro and 
+          in vivo .
+          The proline-rich region of Btk has been found to bind
+          to SH3 domains of Src family kinses in vitro. To
+          determine whether the amino-terminus of Rlk/Txk interacts
+          with Src family SH3 domains 
+          in vitro , we performed 
+          in vitro filter binding analyses.
+          GST fusions encoding the Rlk amino-terminal and SH3
+          domains or the amino-terminus alone (containing the
+          cysteine string and proline-rich region) bound
+          biotinylated GST fusions of the SH3 domains of Fyn, Hck,
+          and Lyn, but not those of Src or Lck, despite the ability
+          of these constructs to bind other proline rich sequences
+          (Fig. 1Band data not shown) [ 25, 33]. The Rlk fusion
+          proteins also failed to efficiently bind SH3 domains from
+          other kinases, including Abl, Csk and Btk. A weaker but
+          detectable binding to the SH3 domain of Grb2, however,
+          was observed. These data agree both with two-hybrid
+          experiments and 
+          in vitro filter binding assays that
+          have demonstrated specific binding of the proline-rich
+          region near the amino-terminus of BTK and Tec to the SH3
+          domains of the Src family kinases Fyn, Lyn and Hck [ 22,
+          25, 26].
+          Because Fyn is expressed in T cells and Hck and Lyn
+          are not, we pursued the connection between Rlk and the T
+          cell-specific isoform p59 FynT. Co-immunoprecipitation
+          demonstrated an interaction between these proteins in
+          extracts of cells in which both Rlk and Fyn were
+          expressed (Fig. 1C). Anti-Rlk serum precipitated Fyn from
+          lysates only when Rlk was expressed (Fig. 1C, lane 4).
+          Likewise, anti-Fyn serum could precipitate Rlk only when
+          both Rlk and Fyn were produced (data not shown). This
+          interaction was not dependent on the activity of either
+          kinase, as co-immunoprecipitation was observed with
+          either wild-type (WT) or kinase-inactive versions of the
+          two proteins. Furthermore, both isoforms of Rlk were also
+          able to co-precipitate with Fyn (data not shown).
+          Finally, we have not observed co-precipitation of
+          full-length Rlk with several other proteins involved in
+          TCR signaling (unpublished observations).
+        
+        
+          Rlk co-localizes with a portion of Fyn
+          To further examine potential interactions between Rlk
+          and Fyn we compared the subcellular distribution of Rlk
+          to that of p59 FynT. For these and subsequent analyses,
+          we utilized Green Fluorescent Protein (GFP)-tagged
+          versions of Rlk. We have previously demonstrated that
+          these fusion proteins are kinase-active and exhibit
+          localization patterns similar to those observed by
+          indirect immunofluorescence for wild type Rlk .
+          Furthermore, we have found that, like WT Rlk, they
+          co-precipitate with Fyn (data not shown). However, unlike
+          WT Rlk, Rlk-GFP does not co-migrate with immunoglobulin
+          heavy chain. Since these GFP fusions behaved similarly to
+          wildtype Rlk in all known respects except for
+          electrophoretic mobility, we used GFP fusions of mutant
+          and wild type versions of Rlk to facilitate studies of
+          Rlk localization and activation.
+          We co-transfected Fyn and Rlk-GFP expressing
+          constructs into HeLa cells, and visualized Fyn with
+          anti-Fyn serum and Texas-red conjugated secondary
+          antibody (Fig. 2). Examination of cells expressing both
+          kinases demonstrated that a portion of Fyn co-localized
+          with a portion of the Rlk protein as indicated by the
+          yellow staining in overlapping images (center panel).
+          Thus, Fyn and Rlk can reside in similar compartments
+          within the cell, further supporting a potential
+          interaction between these two molecules.
+        
+        
+          Fyn phosphorylates and activates Rlk: A Conserved
+          Tyrosine (Y420) Provides Specificity For Phosphorylation
+          of Rlk By Src Kinases
+          To further examine the consequences of the interaction
+          between Rlk and Src Family kinases, we examined tyrosine
+          phosphorylation of Rlk by Fyn using co-expression
+          studies. As previously demonstrated, co-expression of
+          kinase-active Fyn and Rlk-GFP in 293T cells led to a
+          marked increase in the tyrosine phosphorylation and
+          kinase activity of wild type Rlk-GFP (Fig. 3A, lane 1 and
+          2; 3B, lane 1 and 2). This was not observed in cells
+          transfected with kinase-inactive Fyn, and the increase in
+          kinase activity on enolase appeared to be due to Rlk
+          rather than Fyn, since we barely detect phosphorylation
+          of enolase when WT Fyn is co-expressed with
+          kinase-inactive Rlk [ 19]. Thus, the phosphorylation of
+          Rlk appears to cause an increase in Rlk kinase
           activity.
+          Like other Btk family members, Rlk contains a highly
+          conserved tyrosine (Y420) within a consensus sequence for
+          phosphorylation recognized by Src family tyrosine kinases
+          [ 23]. This site corresponds to the location of the
+          autophosphorylation site in the activation loop of
+          Src-related kinases [ 34]. To determine whether this
+          tyrosine is required for Rlk activation by Src family
+          kinases, we mutated it to phenylalanine (Y420F). In
+          contrast to WT Rlk-GFP, tyrosine phosphorylation and
+          kinase activity of the RlkY420F mutant was not
+          significantly increased by co-expression with Fyn (Fig.
+          3A, Band data not shown). These results suggest that Y420
+          is a major site of phosphorylation by Fyn and that
+          phosphorylation at this site leads to activation of the
+          Rlk kinase. Furthermore, since baseline tyrosine
+          phosphorylation and kinase activity of the Y420F mutant
+          is also lower than WT (Fig. 3Band data not shown), it is
+          possible that phosphorylation by endogenous Src family
+          kinases may contribute to the activity of Rlk in 293T
+          cells, although we cannot exclude the possibility that
+          this mutant lowers kinase activity for other reasons.
+          The major autophosphorylation site in Btk maps to Y223
+          within the SH3 domain [ 24]; an analogous tyrosine is
+          conserved in Rlk (Y91). Mutation of this tyrosine (Y91F)
+          reduced tyrosine phosphorylation of Rlk approximately
+          two-fold when the Y91F mutant was expressed alone or with
+          Fyn (Fig. 3A). However, Fyn still significantly enhanced
+          the phosphorylation of Rlk (Y91F), consistent with use of
+          an intact transphosphorylation site (Y420) (Fig. 3A). The
+          
+          in vitro kinase activity of
+          Rlk-Y91F was also lower (about half that of wild type);
+          however, the kinase activity was still augmented by the
+          presence of Fyn (Fig. 3C). These results suggest that
+          tyrosine 91 may be required for optimal phosphorylation
+          and kinase activity of Rlk, but is distinct from the
+          major site phosphorylated by Src family kinases.
+          Finally, since the larger isoform of Rlk consistently
+          exhibits higher levels of tyrosine phosphorylation (see
+          Fig. 3A), we mutated the single tyrosine (Y6) not found
+          on the shorter isoform. Mutation of Y6 did not greatly
+          reduce the tyrosine phosphorylation of Rlk, either in the
+          presence or absence of co-expressed Fyn (Fig. 3D).
+          Significantly, the larger isoform still exhibited a
+          higher level of tyrosine phosphorylation than the shorter
+          form of Rlk. Thus, the increased tyrosine phosphorylation
+          of the larger isoform cannot be attributed solely to a
+          phosphorylation site present on the larger protein
+          species.
         
         
-          SPAM1 Protein is Present in the Primate Epididymis
-          and Vas Deferens
-          SPAM1 protein was detected by Western blot analysis in
-          extracts from testis, epididymis, vas deferens and sperm
-          of Subject #2 and of macaque (Fig. 4A). The intact
-          protein (~64 kDa) was found in each sample studied.
-          Partial degradation products (~60 kDa) appear in
-          epididymal sections. Proteolytically cleaved SPAM1 (~53
-          kDa) was seen in human sperm samples. Also, a low
-          molecular weight band (<50 kDa) was seen in vas
-          deferens in both species. In macaque where all three
-          regions of the epididymis were studied, the levels of the
-          protein in the epididymis were approximately equal to
-          that seen in the testis, and the distal regions tended to
-          have stronger bands than the caput. The Dot blot which
-          showed that the corpus has the highest level of
-          expression (Fig. 4B) confirmed this tendency. Due to the
-          limited availability of fresh human tissue, only the
-          caput epididymis was studied. The vas deferens of both
-          species seemed to have lower amounts of SPAM1 than the
-          epididymis.
+          Rlk localizes in RAFTs
+          Since the relative increase in tyrosine
+          phosphorylation of the larger form of Rlk did not result
+          solely from an additional site for tyrosine
+          phosphorylation, it was possible that this increased
+          phosphorylation of the longer isoform of Rlk may result
+          from preferential localization close to Src family
+          kinases. Like other proteins modified by palmitoylation,
+          the Src family kinase Fyn is found localized in RAFTs, a
+          membrane microdomain fraction enriched in signaling
+          molecules that can be isolated by sucrose gradient
+          fractionation. To examine whether Rlk is also associated
+          with RAFTs, we performed sucrose gradiant fractionation
+          of lysates from Jurkat lymphoma cell lines transfected
+          with Rlk-GFP. Upon such fractionation, we observe the Src
+          family kinase Fyn constitutively associated with the RAFT
+          fraction (Fig. 4A). In contrast, PLC-γ was not found in
+          the RAFT fraction constitutively, but a portion became
+          inducibly associated with RAFTs upon activation. Similar
+          to Fyn, a portion of Rlk was also found constitutively
+          associated with RAFTs. Notably, this association
+          consisted primarily of the larger form of Rlk which
+          contains the cysteine-string and is palmitoylated.
+          Furthermore, the association of Rlk with RAFTs only
+          marginally increased upon stimulation through the
+          TCR.
+          Upon TCR signaling, many molecules have been found to
+          show markedly increased association with RAFTs. Since we
+          have found that Rlk can be phosphorylated by Src family
+          kinases leading to activation of its kinase, we evaluated
+          whether phosphorylation could influence RAFT association.
+          Neither mutation of a conserved lysine in the kinase
+          domain, which rendered Rlk kinase inactive, nor mutation
+          of the Src family kinase phosphorylation site, tyrosine
+          420, prevented association with the RAFT fraction. Thus,
+          phosphorylation and activation of Rlk does not appear to
+          contribute to its association with RAFTs (Fig. 4B).
+          A key mechanism of targeting proteins to RAFTs is
+          lipid modification. Since the long form of Rlk is
+          palmitoylated on its cysteine string motif and
+          palmitoylated proteins can be associated with RAFTs, we
+          examined the localization of a mutant version of RlkCM in
+          which the cysteine string is mutated, thereby preventing
+          palmitoylation of the long form of Rlk. The
+          cysteine-string mutant demonstrated marked reduction in
+          RAFT association (Fig. 4B). Indeed, while a small amount
+          of the Rlk cysteine-string mutant was still found
+          associated with the RAFT fraction, the amount of the long
+          isoform of RlkCM in the RAFT fraction was equivalent to
+          that of the short isoform. This observation suggests that
+          the cysteine-string may be a major mechanism of targeting
+          full-length Rlk to lipid RAFTs. However, the localization
+          of a small portion of both the short and long isoforms of
+          the cysteine string mutant to RAFTs suggests that other
+          targeting mechanisms may also contribute to the
+          localization of this kinase in RAFTs.
+          Recent data suggests that both Itk and Btk can also be
+          associated with lipid RAFTs [ 29, 35]. For Itk, this
+          association requires the PH domain and products of PI3K.
+          For example, in the Jurkat lymphoma cell line, which is
+          deficient in the inositol phosphatase PTEN, Itk is
+          constitutively associated with the membrane [ 36]. Since
+          our RAFT analyses of RLK were performed in Jurkat cells,
+          we also examined the effects of PI3K inhibition on Rlk
+          localization. Treatment of Jurkat cells with Wortmannin
+          had no effect on Rlk association with RAFTs (Fig. 4C).
+          Thus, RAFT localization of Rlk, like its activation by
+          Src family kinases, appears to be independent of the
+          activity of PI3K.
         
         
-          Epididymal SPAM1 Demonstrates Hyaluronidase
-          Activity
-          Using HASGE, neutral hyaluronidase activity (pH 7.0)
-          was demonstrated in protein extracts from the epididymis,
-          with testis and sperm serving as positive controls.
-          Hyaluronidase activity was demonstrated by a non-staining
-          area corresponding to the size of the intact protein at
-          ~64 kDa (Fig. 5). In samples from the human caput, human
-          sperm and macaque corpus there was also a narrow band
-          with a higher MW (>114 kDa, as indicated by the
-          smaller arrow) which may represent dimerization of the
-          molecule. This experiment was repeated multiple times,
-          and the results seen in Figure 5are a concatenation of
-          bands from several HASGE gels.
+          Fyn alters the half life of Rlk in the detergent
+          soluble fraction of transfected cells
+          In experiments with Rlk, we often observed a change in
+          the relative ratio of the two isoforms of Rlk when
+          co-expressed with Fyn. Furthermore, activation of Jurkats
+          appeared to be associated with a loss of Rlk from
+          non-RAFT fractions (see Fig. 4A). Since phosphorylation
+          of Rlk did not seem to affect association with RAFTs, we
+          examined whether Fyn altered other properties of the Rlk
+          protein. To start to address this issue, we measured the
+          effect of Fyn on the protein stability of Rlk. Rlk was
+          expressed in 293T cells, either in the absence or the
+          presence of Fyn; the cells were labeled for 15 minutes
+          with 35S methionine and cysteine, then incubated for
+          increasing times with unlabelled methionine and cysteine.
+          When expressed alone, labeled Rlk appeared stable in the
+          detergent-soluble fraction for 90 minutes (Fig. 5A, top
+          panel). When co-expressed with Fyn, however, Rlk
+          disappeared from the soluble fraction at a significantly
+          faster rate (Fig. 5A, lower panel, half-life between 30
+          and 60 minutes). The change in half-life was particularly
+          noticeable for the larger form of Rlk. In the presence of
+          kinase-inactive Fyn, the half-life of Rlk was not
+          altered, suggesting that the phosphorylation of Rlk by
+          Fyn is necessary for the decrease in half-life of Rlk
+          (Fig. 5B). Similarly, co-transfection of wild type Fyn
+          with RlkY420F did not alter the half-life of RlkY420F in
+          the soluble fraction (data not shown), again arguing that
+          phosphorylation of Rlk by Fyn is required for this
+          increased turnover in the soluble fraction.
+          Since this analysis included only Rlk protein in the
+          soluble fractions of detergent lysates, these results may
+          represent changes in protein stability, or subcellular
+          localization and detergent solubility, factors that all
+          can contribute to changes in intracellular signaling. In
+          particular, since Rlk can be associated with
+          detergent-insoluble RAFTs, it is possible that a change
+          in subcellular localization or associations may
+          contribute to the decrease in Rlk protein. To address
+          these possibilities, we performed similar analyses after
+          lysing cells under harsh detergent conditions (using 1%
+          SDS), then diluting the samples before performing
+          immunoprecipitations. Consistent with our observation
+          that the phosphorylation status of Rlk does not
+          significantly contribute to its association with RAFTs,
+          we still observed a decreased half-life of Rlk
+          co-expressed with Fyn when lysed under these harsh
+          conditions (data not shown), arguing that phosphorylation
+          by Fyn specifically accelerates Rlk turnover.
         
         
-          SPAM1 is Immunolocalized in the Principal Cells of
-          the Epididymal Epithelium
-          SPAM1 protein was localized within the human corpus
-          (Subject #4, Fig. 6) caput and cauda epididymis (Subject
-          #5, Fig. 6), using immunohistochemistry. The images were
-          taken in the red confocal channel to visualize the
-          morphology of the tissues while eliminating the effects
-          of autofluorescence. The control slides (A, D, and F)
-          contain no (or little) green staining, the SPAM1 signal,
-          in the epithelium. For the corpus, epithelial staining is
-          seen in the test samples (B and C). In C the slide is
-          stained with propidium iodide to dye the nuclei red and
-          therefore enhance the visualization of the yellow-green
-          signal. Note that the yellow-green signal is of a lighter
-          hue and is specific for the epithelium compared with the
-          darker green autofluorescence seen in the stroma. Testis
-          sections on the corpus slides were used as positive
-          controls and showed the same color pattern as the
-          epididymis for the presence and absence of the signal
-          (data not shown).
-          The epithelium in the caput and cauda test sections, E
-          and G, are differentially stained compared to the
-          controls (D and F); although the presence of
-          autofluorescence in G masks some of the green color.
-          However, immuno-staining of the sperm in the lumen of the
-          cauda sections (F and G) serves as an internal control,
-          being similar in color to the epithelium for the presence
-          and absence of the signal.
-          For Subject #4 where the slides contained sections
-          from the vas deferens and seminal vesicle (included by
-          Novagen, the commercial supplier), the epithelia of these
-          tissues were also immuno-stained, indicating the presence
-          of SPAM1 (data not shown).
-          In the two animals studied the epididymal epithelia
-          and the sperm in the lumen of test slides were
-          consistently a brighter green (Fig. 7B) than those of
-          control (Fig. 7A). In the latter the autofluorescence is
-          high due to the nature of fixation. In the epididymides
-          of both humans and macaques the protein was localized to
-          the principal cells of the epithelium and in the heads of
-          maturing sperm (positive control).
-        
-        
-          SPAM1 Protein is Predominantly Found at the
-          Posterior Head of Immature Human and Macaque Epididymal
-          Sperm
-          Immunohistochemistry analysis of the proximal corpus
-          epididymal sections offered a unique opportunity to
-          observe SPAM1 localization in immature human and macaque
-          sperm (Fig. 7C). This analysis revealed that SPAM1 is
-          predominantly found in the posterior head of immature
-          sperm from the caput/corpus epididymis, unlike the case
-          of ejaculated sperm where it is distributed across the
-          whole or entire head.
-        
-        
-          Transcription Factor Binding Sites in the SPAM1 5'
-          Flanking Region
-          An 
-          in silico analysis of the human 
-          SPAM1 5' flanking region was
-          performed on the sequence of a 700 bp genomic fragment
-          previously isolated and cloned in our lab from promoter
-          walking, and on the human genome database sequence
-          through NCBI. Several putative transcription factor
-          binding sites were found which may be used for 
-          SPAM1 expression in the epididymis,
-          and these sites are likely distinct from those used in
-          the testis (Table 1). SRY and CRE (cAMP-responsive
-          element) sites were found in the more proximal promoter
-          region: these are markers for germ cell expression in the
-          testis. Particularly interesting is the presence of
-          putative androgen responsive elements (AREs), to which
-          androgen receptor transcription factors bind in response
-          to androgens. These results underscore the finding of 
-          SPAM1 expression in the
-          epididymis.
+          Rlk phosphorylation in response to TCR engagement
+          requires Tyrosine 420
+          The ability of Src family kinases to activate Rlk and
+          to promote Rlk protein turnover suggests that Rlk may
+          function downstream of Src family kinases in T cell
+          receptor (TCR) signaling. To determine the requirements
+          for Rlk activation downstream from the TCR, we introduced
+          constructs expressing Rlk-GFP or Rlk-GFPY420F into the
+          Jurkat-Tag cell line. Stimulation of the cells with an
+          antibody directed against CD3, OKT3, increased tyrosine
+          phosphorylation of Rlk (Fig. 6). However, phosphorylation
+          of the Y420F mutant was markedly reduced relative to WT
+          Rlk-GFP. These results suggest that Rlk can be
+          phosphorylated on Y420 in response to TCR stimulation,
+          supporting a role for Rlk downstream of Src kinases in
+          signaling from the TCR, analogous to Btk's role in
+          signaling from sIgM.
         
       
       
         Discussion
-        Although human 
-        SPAM1 mRNA expression is detected by
-        Northern analysis only in the testis [ 20 ] , RT-PCR assays
-        reveal that the gene is also transcribed in somatic tissues
-        where the message is rare. Rare 
-        SPAM1 transcripts are however not
-        ubiquitous as revealed by their absence from human ovary,
-        spleen, and liver [ 21 ] and murine skeletal muscle [ 22 ]
-        . Both rare and abundant 
-        SPAM1 transcripts have been found in
-        neoplastic breast tissue [ 23 ] and in a number of other
-        cancers including pharyngeal [ 24 ] , metastatic melanomas
-        and gliomas [ 25 ] . In normal somatic cells rare
-        transcripts have been found in breast tissue [ 23 ] and in
-        fetal, placental, and prostate cDNA libraries [ 21 ] .
-        Expression in the prostate is relevant to our findings
-        in the present study where transcripts were detected in the
-        human caput/corpus epididymis using LM/RT-PCR. This
-        technique which has been effectively used to procure
-        homogeneous populations of cells from tissue sections [ 26
-        27 28 ] revealed that 
-        SPAM1 mRNA is confined to the
-        epididymal epithelium. 
-        In situ hybridization demonstrated
-        that the transcript is localized in the principal cells,
-        confirming its epithelial location, similar to that
-        reported for the mouse [ 11 12 ] . It must be stressed that
-        because the probes used in the hybridization were generated
-        from the unique 3' UTR of 
-        SPAM1 cDNA the possibility of
-        cross-hybridization to paralogous hyaluronidases is highly
-        unlikely. This conclusion is supported by unique BLAT
-        assignment of the probe sequence to the human genome [ 29 ]
-        .
-        SPAM1 protein was found to be present in both the human
-        and macaque reproductive tracts. This indicates that in the
-        epididymis and vas deferens 
-        SPAM1 is both transcribed and
-        translated. The results from Western analysis of protein
-        extracts from the epididymis, which like the vas deferens
-        were thoroughly washed to remove sperm, show conclusively
-        that intact SPAM1 protein is synthesized in all three
-        epididymal regions in macaques. It is noteworthy that the
-        ~53 kDa band, representing proteolytically cleaved SPAM1
-        was seen only in sperm and not in the epididymis or the vas
-        which had their own unique degradation products at ~60 kDa
-        and <50 kDa, respectively. This suggests that the
-        Western results may reveal an isoform that is endogenous to
-        each tissue. It also indicates and that sperm is not the
-        source of epididymal SPAM1. Also in macaque the intensity
-        of the epididymal bands was equal to, or greater than, that
-        of the testis. This also makes it highly unlikely that
-        SPAM1 is present in the epididymis merely because it is
-        transported there from the testis.
-        Western blot analysis also suggests that SPAM1 protein
-        is expressed at higher levels in the distal regions of the
-        epididymis, with the highest level of expression in the
-        corpus, a region associated with a lower volume of sperm.
-        This is supported by the Dot blot, with equal protein
-        loading, showing the macaque corpus to have the highest
-        amount of SPAM1. This observation not only argues against
-        the mere transportation of SPAM1 into the epididymis, but
-        also suggests a region-dependent expression of the gene.
-        This finding is consistent with that reported in the mouse
-        [ 11 12 ] where there is differential expression of the
-        protein in the epididymis with the highest expression in
-        the corpus. Expression in the extratesticular pathway seems
-        to be lowest in the vas deferens in both human and macaque.
-        However, its presence prompted us to examine the vas in the
-        mouse where it had not been previously studied: both the
-        transcript and protein were found (Martin-DeLeon et al,
-        unpublished results). Thus there seems to be a conservation
-        of the pattern of expression of SPAM1 in the
-        extratesticular pathways of mice and primates.
-        The finding from the Western blots was corroborated by
-        those from immunohistochemistry. The latter indicates that
-        SPAM1 is associated with the principal cells of the
-        epithelium, consistent with the localization of the
-        transcript and with findings in the mouse [ 11 12 ] . The
-        finding of human SPAM1 in the seminal vesicle, which was
-        examined only because it was included in the tissue series
-        on the slides from Novagen, was unexpected but not
-        surprising. CD52, a well-known human epididymal protein, is
-        also known to be expressed in the seminal vesicle [ 30 ] .
-        While the expression of human SPAM1 in the seminal vesicle
-        remains to be confirmed, data from our lab have shown that
-        the murine 
-        Spam1 gene is both transcribed and
-        translated in this tissue (Martin-DeLeon, unpublished
-        results).
-        HASGE shows that epididymal SPAM1 has neutral
-        hyaluronidase activity (Fig. 5), which is typical only of
-        sperm hyaluronidase. This further supports the identity of
-        the protein expressed in the epididymis. In general, the
-        expression of the enzyme activity was less robust in the
-        epididymis compared to the testis, and inconclusive for the
-        vas deferens. The latter is not surprising because (1)
-        Western analysis showed SPAM1 levels to be the lowest in
-        the vas deferens and (2) it is reasonable to expect that
-        HASGE is less sensitive than Western analysis. More
-        importantly, it is possible that the hyaluronidase activity
-        in cells from non-testicular origin may be lower than that
-        of the testis due to differences in the pattern of
-        glycosylation. Variations in glycosylation patterns have
-        been shown to exist among tissues [ 31 ] and glycosylation
-        levels have been reported to influence hyaluronidase
-        activity of SPAM1 in the mouse and horse [ 10 32 ] . Note
-        that in the mouse, tissue differences in glycosylation
-        patterns have been reported for the testis and epididymis [
-        33 ] . It is possible that in the epididymis and vas
-        deferens instead of hyaluronidase activity, a more
-        important role of SPAM1 (which is a glycosidase) may be to
-        modify surface proteins of sperm during their maturation.
-        Taken together, the data from tissues of 5 men and 2
-        macaques show that SPAM1 is both transcribed and translated
-        in the epididymal epithelium of primates.
-        The finding of conserved expression patterns of
-        epididymal SPAM1 between humans and mice is supported by
-        the findings in the promoter of the human gene. Table
-        1reveals that in human 
-        SPAM1 there is a CRE transcription
-        factor binding site, a site that was shown to be functional
-        in the murine 
-        Spam1 promoter region [ 34 ] as well
-        as putative AREs which are also present in the mouse [ 12 ]
-        . Of special interest are the relative locations of the
-        AREs which are associated with genes expressed in the
-        epididymis [ 35 ] and the prostate at -661 and -763; and a
-        CRE (cyclic-AMP responsive element) which is consistent
-        with haploid expression in the testis at -207 [ 34 ] . The
-        relative location of these elements are consistent with the
-        findings of Hsia et al. [ 36 ] who observed that within the
-        promoter regions of genes expressed in both the testis and
-        the epididymis, the testis-expression elements are more
-        proximal to the transcription start site than those
-        mediating epididymal expression.
-        It should be mentioned that CRE and SRY are likely to be
-        responsible for increasing the basal transcriptional level
-        of 
-        SPAM1 , leading to the robust
-        expression of the mRNA that is detectable with Northern
-        analysis only in the testis. Note that the relevant
-        transcriptional binding factor and/or co-activator for CRE
-        (CREM and ACT) and for SRY in the adult (SRY) are
-        testis-specific [ 37 38 ] . Future studies are necessary to
-        determine if the transcriptional binding sites revealed by
-        this study are functional in humans.
-        In the immunohistochemical studies the sperm
-        concentrations in some of the lumen of the tubules in
-        sections of the caput/corpus epididymis were low enough to
-        allow the observation of SPAM1 localization on immature
-        sperm. Observations of sperm from Subject #1, the
-        45-year-old male of known fertility with an obstruction in
-        his corpus epididymis, as well as macaques, revealed that
-        SPAM1 is concentrated in the posterior and deficient in the
-        anterior head of immature primate sperm. This localization
-        is quite different from that reported for ejaculated human
-        sperm where SPAM1 is found uniformly over the entire head
-        surface [ 39 ] . Our finding suggests that SPAM1 undergoes
-        redistribution on the sperm head during epididymal
-        maturation in primates as it does in guinea pigs and mice [
-        40 10 ] , albeit with a reverse order going from a
-        regionalized to uniform pattern.
-
-        The finding that SPAM1 with enzymatic activity is
-        expressed in the epididymides of three species (mice,
-        humans and macaques) in two classes of mammals indicates
-        that epididymal SPAM1 is functionally important. It is
-        likely that SPAM1 may play a role in sperm maturation,
-        since its expression is highest in the corpus where a
-        number of maturational changes occur [ 41 42 ] . Thus, this
-        study increases the biomedical significance of findings
-        regarding Spam1 in the mouse model. For example, it is
-        reasonable to believe that like the mouse, human SPAM1 is
-        secreted from the epididymal epithelium with an intact
-        lipid anchor [ 12 33 ] and may impact sperm maturation. It
-        should also be noted that a study of the glycosylation and
-        2D-gel patterns of Spam1 from the epididymis and testis of
-        mice indicates that epididymal Spam1 may be a unique
-        isoform rather than a redundant protein [ 33 ] . Such a
-        unique isoform may play a specific role in sperm maturation
-        in humans where SPAM1 is the only reproductive
-        hyaluronidase in the cluster on 7q31. Currently studies are
-        underway to determine the function of epididymal Spam1 in
-        the mouse.
+        By several criteria, Rlk appears to be a member of the
+        Tec family of tyrosine kinases, yet significant differences
+        exist between Rlk and the other kinases in this family. To
+        elucidate functional similarities and differences between
+        Rlk and other Tec kinases in signaling from antigen
+        receptors, we investigated the interactions of Rlk with Src
+        family kinases. Our data suggest that such interactions
+        occur and that the phosphorylation events leading to the
+        activation of Rlk are analogous to those required for the
+        other Tec family kinases. However, our data also suggest
+        that the regulation of Rlk has distinct properties.
+        First, we have observed an 
+        in vitro interaction of the
+        amino-terminus of Rlk with the SH3 domains of Src family
+        kinases. Second, we have demonstrated interactions between
+        these molecules in cells co-expressing both Rlk and the Src
+        family kinase, Fyn. The two kinases can be
+        immunoprecipitated when co-expressed. Moreover,
+        co-expression with Fyn, as well as other Src family kinases
+        (data not shown), leads to increased phosphorylation of Rlk
+        and activation of the Rlk kinase, in agreement with
+        observations made with other Tec family members.
+        It has been proposed that Src kinases activate Btk
+        through phosphorylation of a tyrosine, Y551 in the
+        activation loop of Btk, leading to increased kinase
+        activity and autophosphorylation of a tyrosine in the SH3
+        domain. These patterns of Btk phosphorylation have been
+        observed upon cross-linking of IgM, arguing that this
+        pathway is functional in the signal transduction from
+        antigen receptors [ 23, 37, 38]. Our mutational analysis of
+        Rlk supports a similar mechanism for activation of Rlk by
+        Src family kinases downstream of the TCR. Rlk kinase
+        activity is increased by Src family kinase-mediated
+        phosphorylation of a conserved tyrosine, Y420, equivalent
+        to Y551 in the activation loop of the kinase domain of Btk.
+        Mutation of this site causes a reduction in tyrosine
+        phosphorylation and kinase activity of Rlk, which is not
+        substantially enhanced upon co-expression with Fyn or upon
+        TCR stimulation. Thus, this Src kinase phosphorylation site
+        appears to be important for activation after TCR
+        stimulation. Mutation of a second tyrosine, equivalent to
+        the putative autophosphorylation site of Btk, slightly
+        reduces tyrosine phosphorylation and kinase activity of
+        Rlk. However, phosphorylation and kinase activity of this
+        mutant still can be enhanced after co-expression with Fyn.
+        Thus, despite its unique amino terminus, Rlk utilizes a
+        transphosphorylation activation mechanism similar to other
+        Btk family members.
+        Although our original SH3 domain binding experiments
+        suggested a specific interaction between Tec kinases and
+        the Src kinases Fyn, Lyn and Hck, we have been able to
+        observe both activation by and co-precipitation with other
+        Src family kinases including Lck and Src in 293T cells
+        (data not shown). Thus, in vivo, interactions with Rlk may
+        not be restricted to a particular subset of Src family
+        kinases. Indeed, we have found that mutation of the
+        proline-rich region did not abolish Rlk co-precipitation
+        with either Fyn or Lck (data not shown), suggesting that
+        interactions between these kinases may not occur solely
+        through an SH3 mediated interaction, at least in the 293T
+        expression system. Nonetheless, whether there is a specific
+        connection between Rlk and the Src family kinase Fyn in T
+        cells remains an interesting question. Recent data suggests
+        that phosphorylation of the T cell adaptor molecule SLP-76
+        occurs after stimulation of T cells with altered peptide
+        ligands in a Fyn-dependent manner that is independent of
+        the adaptor molecule LAT [ 39, 40]. Notably, Rlk has also
+        been found to be capable of phosphorylating SLP-76 [ 41].
+        It will be of interest to determine whether Rlk
+        participates in this novel activation pathway.
+        While Rlk is phosphorylated similarly to Btk and Itk,
+        there are marked differences between these two kinases.
+        Perhaps the most obvious of these differences is the lack
+        of the pleckstrin homology domain in Rlk. Data suggest that
+        membrane association of Itk and Btk requires the
+        interaction of their PH domains with products of PI3K,
+        thereby facilitating phosphorylation by Src family kinases
+        [ 27, 28]. In contrast, we have recently demonstrated that
+        PI3K inhibitors do not alter activation of Rlk by Fyn,
+        suggesting that the requirements for activation of Rlk by
+        Src family kinases are distinct from the other Tec kinases.
+        It is also of note that we can reproducibly
+        co-immunoprecipitate Rlk and Fyn, perhaps due to their
+        association with RAFTs, whereas we have been unable to
+        co-precipitate Itk with Src family kinases when
+        co-expressed in 293T cells (data not shown), again
+        demonstrating distinct properties of the Rlk protein
+        compared to certain other members of the Btk family. The
+        combination of similar and distinct features is further
+        supported by the observation that 
+        TXK can rescue phospholipase C-γ
+        activation in BTK deficient DT40 cells, but fails to rescue
+        a defect in apoptosis [ 42].
+        Interestingly, we also find that the full-length form of
+        Rlk has a higher basal level of tyrosine phosphorylation
+        and kinase activity than Itk when expressed in heterologous
+        cells, consistent with potentially different localizations
+        and upstream interactions (unpublished observations). The
+        full-length isoform of Rlk also exhibits higher tyrosine
+        phosphorylation and kinase activity than the short isoform.
+        This differential phosphorylation does not appear to result
+        solely from a distinct phosphorylation site on the
+        full-length Rlk, since mutation of the only additional
+        tyrosine found in the full-length Rlk (Y6) does not greatly
+        reduce the phosphorylation or activity of Rlk when
+        expressed either alone or in conjunction with Fyn. Instead,
+        the increased phosphorylation may result in part from
+        distinct properties of full-length Rlk. Indeed, we report
+        here that the palmitoylated cysteine-string is responsible
+        for the targeting of Rlk to RAFTs: detergent-insoluble,
+        glycolipid-enriched membrane microdomains that contain many
+        signaling molecules, including Src family kinases. Our data
+        may provide the first demonstration that a cysteine-string
+        motif can lead to protein association with RAFTs. Of note,
+        Itk and Btk have been found to be associated with lipid
+        RAFTs upon activation of antigen receptors [ 29, 35].
+        However, the association of Itk with RAFTs requires its PH
+        domain and is dependent on the products of PI3K. Indeed, in
+        Jurkat cells, which are deficient in the inositol
+        phophatase PTEN, Itk is constitutively associated with the
+        membrane unless the cells are treated with inhibitors of
+        PI3K or transfected with PTEN [ 36]. In contrast, we have
+        found that Rlk association with RAFTs, like its activation
+        by Src family kinases, is PI3K independent. Thus, although
+        Rlk, like Itk and Btk, is activated by phosphorylation by
+        Src family kinases and can be found in RAFTs, its
+        requirements for this activation may be unique.
+        Co-expression of Rlk and Fyn also led to a rapid
+        disappearance of Rlk from the detergent soluble fraction as
+        measured by pulse-chase analysis (Fig. 5). This phenomenon
+        could result from either a change in protein location to a
+        detergent-insoluble fraction or increased turnover of Rlk.
+        Activation of tyrosine kinases and other signal
+        transduction molecules is associated both with changes in
+        subcellular distribution and with changes in protein
+        stability. For example, crosslinking of the T-cell receptor
+        results in a transition of the receptor complex to a
+        detergent-insoluble fraction [ 43, 44, 45], as well as to
+        increased turnover of TCR components [ 46]. Nonetheless,
+        the decreased half-life of Rlk in both detergent-soluble
+        and insoluble fractions argues that activation of Rlk leads
+        to increased degradation of the Rlk protein, similar to
+        that observed for other components of the TCR complex, but
+        not previously reported for Tec family kinases. The
+        dependence of this increased turnover on phosphorylation of
+        Rlk suggests that a phosphotyrosine-dependent association
+        with another molecule may be required for this process,
+        reminiscent of the increased degradation of the PDGF
+        receptor and Syk caused by association with the ring-finger
+        protein Cbl [ 47, 48, 49] or the Lck-dependent degradation
+        of the TCR [ 50].
+        Recent evidence from gene-targeted mice suggests that
+        Rlk may synergize with Itk in signaling from the T cell
+        receptor to activate phospholipase C-γ [ 20]. The
+        similarity of the phosphorylation of Rlk by Src family
+        kinases to that which activates other Tec kinases suggests
+        that Rlk also functions downstream of Src kinases in TCR
+        signal transduction pathways. Rlk and Itk, may therefore
+        function together in these TCR signaling events in a
+        fashion similar to Btk in BCR signaling. Recent data argue
+        that Itk interacts directly with Slp-76 and Grb2 to
+        participate in a LAT-nucleated T cell signaling complex
+        involved in PLC-γ activation [ 5, 29]. It will be of
+        interest to examine the interactions of Rlk with other
+        components of this complex. Indeed, the potential in vitro
+        binding of the amino-terminus of Rlk to the SH3 domain of
+        Grb2 hints of similar protein interactions. Thus, although
+        Rlk appears to be distinct among the Tec kinases in the
+        lack of a PH domain, the presence of a palmitoylated
+        cysteine string and the existence of a shorter isoform that
+        can localize to the nucleus, Rlk may contribute to similar
+        signaling pathways. Indeed, our data suggest that the
+        cysteine string may serve as a surrogate to the PH domain
+        for targeting Rlk to RAFTs. It is also notable that recent
+        data suggest that Btk can translocate to the nucleus upon B
+        cell activation, similar to the nuclear translocation we
+        have reported for Rlk [ 19, 51]. Nonetheless, the PI3K
+        independence of the activation of Rlk activation and its
+        association with RAFTs suggests that Rlk may also have
+        distinct contributions to these signaling pathways.
       
       
-        Authors' Contributions
-        EAE participated in the design, generated the
-        riboprobes, performed the cryosections, the in situ
-        hybrdizations, and immunohistochemistry, and drafted the
-        manuscript. HZ carried out the RT-PCR, Westerns,
-        immunohistochemistry, and the HASGE. PAM-D conceived of the
-        study, participated in its design, performed the laser
-        microdissections, and directed and coordinated the
-        investigation.
+        Materials and Methods
+        
+          Cell Culture and Reagents
+          293T and HeLa cells were maintained in Dulbecco's
+          modified Eagle's medium (DMEM) supplemented with 10%
+          fetal calf serum, penicillin, streptomycin, and 10 mM
+          glutamine. Jurkat cells expressing SV40 large T antigen
+          (Jurkat Tag) were a generous gift from Dr. Gerald
+          Crabtree (Stanford) and were maintained in RPMI 1640
+          supplemented with 10% fetal calf serum, penicillin,
+          streptomycin, glutamine, and 50 μM 2-mercaptoethanol.
+          Anti-murine Rlk was previously described. Anti-Fyn (FYN3)
+          was purchased from Santa Cruz Biotechnology (Santa Cruz,
+          CA); anti-phosphotyrosine (4G10) from Upstate
+          Biotechnologies (Lake Placid, New York).
+        
+        
+          Transfections
+          Constructs were introduced into 293T cells by calcium
+          phosphate transfection in medium containing 25 μM
+          chloroquine (Sigma) [ 52]. 2-5 μg of each plasmid was
+          used for each transfection (2 × 10 6cells); the cells
+          were harvested 24 to 36 hours later. Transfections into
+          HeLa cells were performed identically, without the
+          addition of chloroquine. Jurkat Tag cell lines (10
+          7cells) were transfected by electroporation using a
+          Biorad electroporator at 250 V and 960 μF or by square
+          wave electroporation on a BTX 830 using settings of 300 V
+          and 10 ms. 24 hours later, cells were stimulated with
+          OKT3, lysed and Rlk analyzed as below.
+        
+        
+          Constructs and Mutagenesis
+          Full-length Rlk cDNA expression constructs pCIR,
+          pcDNA3Rlk and Rlk-GFP have been described previously [
+          19]. Point mutations were introduced into Rlk-GFP by a
+          PCR based strategy [ 53] with oligonucleotides encoding
+          the required mutations (Mutated residues are in bold):
+          Y420F (GGAC GAT GAA T 
+          TC ATC AGT TCT TCT G), Y91F (GTC AAG
+          GCT CTT T 
+          T T GAC TTC CTG CC). All mutations
+          were confirmed by dideoxy sequencing. pLNCX-FynT was a
+          generous gift from Dr. Cliff Lowell (USCF, San Francisco,
+          CA). Glutathione S-Transferase (GST) fusion constructs
+          were previously described [ 19].
+        
+        
+          In vitro filter binding assays
+          GST-Rlk fusion proteins were grown and induced as
+          previously described [ 19]. Bacteria were sonicated in
+          phosphate-buffered saline (PBS), Ph7.4 with 0.1% Triton
+          X-100, insoluble material removed by centrifugation for
+          10 minutes at 14,000 rpm and soluble GST fusion proteins
+          purified with GST-Sepharose beads (Pharmacia).
+          Approximately 2 μg of GST fusion proteins were separated
+          by SDS-PAGE, transferred to Nitrocellulose and probed
+          with biotinylated SH3-GST fusion proteins as previously
+          described [ 25].
+        
+        
+          Immunofluorescence
+          HeLa cells were transfected with Rlk and Fyn
+          expression constructs, 20 hours later passed onto
+          coverslips and 12-24 hours later fixed with 1%
+          paraformaldehyde for 10 minutes at room temperature.
+          Cells were stained with Fyn3 antiserum at 1: 500, washed
+          with PBS and stained with Texas Red conjugated
+          anti-Rabbit Goat serum (Cappel). Nuclei were
+          counterstained with DAPI, cells were visualized on a
+          Zeiss Axioplan microscope with a Charge Coupled Device
+          (CCD) camera.
+        
+        
+          Western Blotting and Immunoprecipitation
+          24 hours following transfection cells were washed once
+          with PBS and lysed in NP40 Lysis Buffer (0.5% Nonidet-P
+          40, 50 mM HEPES pH 7.4, 5 mM EDTA, 50 mM NaCl, 10 mM NaPO
+          
+          4 , 50 mM NaF, 1 mM sodium
+          orthovanadate, 1 mM AEBSF, 2 ug/ml aprotinin) for 10
+          minutes on ice. Total protein extracts were directly
+          mixed with 2X SDS protein sample buffer (1X: 50 mM Tris
+          pH 6.8, 2% SDS, 10% glycerol, 0.1% Bromphenol Blue plus
+          5% B-mercaptoethanol). Alternatively, lysates were
+          clarified by centrifugation and detergent-soluble protein
+          was analyzed. Equivalent amounts of protein were boiled
+          in SDS sample buffer and separated by 10% SDS-PAGE and
+          transferred onto nitrocellulose (Schleicher and Schuell).
+          The membranes were blocked in TBST (10 mM Tris-HCl pH
+          8.0, 150 mM NaCl, 0.1% Tween-20) with 5% nonfat dry milk
+          (w/v). The membranes were incubated with the appropriate
+          primary antibody at 1/2000 (anti-Rlk and 4G10,
+          anti-phosphotyrosine) or 1:1000 (anti-Fyn) dilution
+          overnight at 4°C or 1-2 hours at room temperature.
+          Membranes were washed in TBST, incubated with the
+          appropriate secondary antibody at 1/10000 dilution
+          (Boehringer Mannheim) for 1 hr and protein was visualized
+          by enhanced chemiluminescence (Amersham).
+          For immunoprecipitation studies, equivalent amounts of
+          detergent soluble protein were incubated with affinity
+          purified anti-Rlk sera for 2-4 hours at 4°C. The
+          complexes were recovered with Protein A-Sepharose (Sigma)
+          and washed two times with ice cold NP40 wash buffer (1%
+          NP40, PBS, 1 mM sodium orthovanadate) and analyzed by
+          Western blotting using either anti-Rlk serum or anti-Fyn
+          serum (1:1000).
+        
+        
+          In Vitro Kinase Assays
+          Cell extracts were prepared in NP40 Lysis Buffer and
+          immunoprecipitated as described above. Complexes were
+          recovered with Protein A Sepharose, washed twice with ice
+          cold NP40 wash buffer, washed twice with ice cold Rlk
+          kinase buffer (30 mM HEPES pH 7.4, 150 mM NaCl, 5 mM MgCl
+          
+          2 , 5 mM MnCl 
+          2 , 100 μM sodium orthovanadate). The
+          kinase reaction was carried out in kinase buffer
+          supplemented with 1 μg acid denatured enolase and 10 μCi
+          of [γ- 32P] ATP (Redivue, Amersham) for 5 minutes at room
+          temperature. The reaction was quenched with SDS sample
+          buffer, boiled and separated by 10% SDS-PAGE.
+          Phosphorylated proteins were detected by autoradiography
+          or quantified on a PhosphoImager. The level of Rlk
+          protein was analyzed by immunoblotting.
+        
+        
+          Raft Isolation
+          Jurkat Tag cells were transfected by square wave
+          electroporation using the parameters of 300 V and 10 ms.
+          For each condition 8 cuvettes containing 10 7cells in 0.5
+          ml were electroporated with 25 μg of the appropriate DNA.
+          Cells were grown over night in RPMI containing 20% fetal
+          calf serum. In some experiments, cells were pretreated
+          with Wortmannin (100 nM) for 3 hrs prior to
+          fractionation. For TCR stimulation, cells for each
+          condition were concentrated into 0.5 ml, warmed to 37°C
+          for 10 minutes and then treated with 10 μg OKT3. Ice cold
+          PBS was added to the cells after 2 minutes OKT3 treatment
+          and the cells were quickly pelleted and lysed in 0.5 ml
+          TENV (10 mM Tris 7.5, 150 mM NaCl, 5 mM EDTA, 1 mM Na 
+          3 VO 
+          4 ) containing 1% Triton X-100. The
+          cells were homogenized with 12 strokes in 2 ml Dounce
+          homogenizers after 30 minutes of incubation on ice.
+          Homogenates were adjusted to 40% sucrose by addition of
+          TENV containing 80% sucrose. The lysate was transferred
+          to a TLS55 ultracentrifuge tube, over-layered
+          sequentially with 30% and 5% sucrose in TENV. Sucrose
+          gradients were centrifuged at 200,000 g for 16 hours and
+          200 μl fractions were removed from the top of the
+          gradient for analysis by SDS-PAGE.
+        
+        
+          Metabolic Labeling and Pulse Chase
+          5 × 106 293T cells were transfected with 10 μg of the
+          indicated Rlk construct and 10 μg of empty vector or the
+          indicated Fyn construct. Twenty four hours after
+          transfection, the cells were split equally among five to
+          seven plates and grown in complete DMEM for another 24
+          hours. The cells were placed in serum-free Met(-), Cys(-)
+          DMEM for 1 hour prior to pulse labeling. Cells were pulse
+          labeled with 0.5 mCi of Trans- [ 35S]-Label (ICN) in 0.5
+          ml of Met(-)Cys(-) medium for 15 minutes at 37°C. After
+          15 minutes, the monolayers were chased with complete DMEM
+          supplemented with 20 mM unlabeled methionine and cysteine
+          (Sigma) at 37°C. At the indicated chase time, the cells
+          were lysed with 1 ml cold NP40 Lysis Buffer and the
+          lysates were clarified by centrifugation. Rlk was
+          immunoprecipitated with affinity purified anti-Rlk
+          antibody for 3 hours at 4°C and immune complexes were
+          recovered with Protein A-Sepharose, washed as described
+          above, and boiled in SDS-sample buffer. Labeled proteins
+          were separated by 10% PAGE, and analyzed by
+          fluorography.
+        
+      
+      
+        Abbreviations
+        PH, pleckstrin homology; PI3K, phosphoinositide
+        3-Kinase; SH2, Src homology-2, SH3, Src homology-3; XLA,
+        X-linked agammaglobulinemia; 
+        xid ; x-linked immunodeficiency; TCR,
+        T cell receptor; sIgM, surface immunoglobulin M; (GAP),
+        GTPase-Activating Protein; GST, Glutathione S-Transferase;
+        SDS, Sodium Dodecyl Sulfate; PBS, phosphate buffered
+        saline; NP40, Nonidet P-40; PAGE, polyacrylamide gel
+        electrophoresis.
       
     
   

@@ -1,255 +1,182 @@
 
-
-
-
-Section G:
-Summary of the Models used for the Analysis
-
-
-
-Description of the Integrated Planning Model (IPM)
-Analytical Framework of IPM
-• EPA uses the Integrated Planning Model (IPM) to analyze the
-projected impact of environmental policies on the electric power
-sector in the 48 contiguous states and the District of Columbia.
-Developed by ICF Resources Incorporated and used to support public
-and private sector clients, IPM is a multi-regional, dynamic,
-deterministic linear programming model of the U.S. electric power
-sector.
-• The model provides forecasts of least-cost capacity
-expansion, electricity dispatch, and emission control strategies
-for meeting energy demand and environmental, transmission,
-dispatch, and reliability constraints. IPM can be used to evaluate
-the cost and emissions impacts of proposed policies to limit
-emissions of sulfur dioxide (SO2), nitrogen oxides (NOx), carbon
-dioxide (CO2), and mercury (Hg) from the electric power
-sector.
-• IPM was a key analytical tool in developing the President's
-Clear Skies proposal.
-IPM Is Well Suited to Model Multi-Emission Control Programs
-• Among the factors that make IPM particularly well suited to
-model multi-emissions control programs are (1) its ability to
-capture complex interactions among the electric power, fuel, and
-environmental markets, (2) its detail-rich representation of
-emission control options encompassing a broad array of retrofit
-technologies along with emission reductions through fuel switching,
-changes in capacity mix, and electricity dispatch strategies, and
-(3) its capability to model a variety of environmental market
-mechanisms, such as emissions caps, allowances, trading, and
-banking.
-• IPM is particularly well suited for modeling Clear Skies
-because the program relies on the operation of an allowance market,
-the availability of a broad range of emissions reduction options,
-and empowerment of economic actors to achieve emission limits.
-Extensive documentation of the IPM is available at
-http://www.epa.gov/airmarkets/epa-ipm/index.html.
-
-
-Description of Air Quality Modeling
-• The results for fine particle concentrations, visibility,
-sulfur deposition, and nitrogen deposition are based on the
-Regional Modeling System for Aerosols and Deposition (REMSAD).
-• REMSAD is an Eulerian air quality model developed to simulate
-regional-scale distributions, sources, formation, transport, and
-removal processes for fine particles and other airborne pollutants.
-This analysis used REMSAD version 6.4 with meteorological inputs
-previously developed for 1996 using the Mesoscale Meteorological
-Model (MM-5).
-• The results for ozone concentrations are based on the
-Comprehensive Air Quality Model with Extensions (CAMx).
-• CAMx is an Eulerian air quality model developed to simulate
-local and regional-scale distributions, sources, formation
-transport, and removal processes for ozone and other photochemical
-pollutants. This analysis used CAMx version 3.1 with meteorological
-inputs previously developed using the Regional Atmospheric Modeling
-System (RAMS) for episodes in June, July, and August 1995.
-• The Integrated Planning Model (IPM) was used to derive all
-future projections of electricity generation source emissions.
-• Emissions inputs for non-electric generating facilities for
-REMSAD and CAMx were derived from the 1996 National Emissions
-Inventory (NEI). In addition, inventories prepared for the Heavy
-Duty Diesel Engine rulemaking were the basis for future year
-emissions projections.
-• For the most part, the modeling results are analyzed in terms
-of the change in future year air quality relative to predictions
-under baseline conditions. In this way, effects of any
-uncertainties in emissions forecasts and air quality modeling are
-minimized.
-• Results for projected annual PM2.5 and 8-hour ozone
-nonattainment were determined by "rolling back" current air quality
-levels. This was based on the change in air quality between the
-1996 Base Year and each future year scenario. Since no ozone
-modeling was performed for the Western U.S., future ozone
-nonattainment in the West was determined through an emissions
-scaling analysis that used forecast changes in NOx emissions in the
-West coupled with the response of ozone to emissions changes, as
-modeled in the East.
-• Maps which display the impacts on PM2.5 concentrations and
-deposition are reported as a percent reduction. A positive percent
-reduction (e.g. 30%) is a decrease in concentration or deposition
-compared to current conditions (an improvement); a negative percent
-reduction (e.g. -30%) is an increase in concentration or deposition
-compared to current conditions.
-• Visibility results are reported as a change in deciviews.
-"Perfect" visibility is represented by a deciview of zero, so a
-decrease in deciview is an increase or improvement in visibility.
-An increase in deciview is a decrease in visibility.
-
-
-Description of Benefits Modeling
-• The Criteria Air Pollutant Modeling System (CAPMS) is used to
-quantify human health benefits due to the changes in a population's
-exposure to fine particulate matter and ozone.
-• Using the air quality modeling results, the change in
-pollutant concentration based on modeling for each CAPMS grid cell
-is determined. This is the level at which the population living in
-that grid cell is assumed to be exposed.
-• Concentration-response functions from epidemiological studies
-are applied to each grid cell to predict the changes in incidences
-of health outcomes (e.g. asthma attacks) that would occur with the
-projected changes in air quality.
-• The grid cells are aggregated to estimate the health impact
-of the change in air quality across the study region.
-• The estimated economic value of an avoided health outcome
-(e.g. $41 per asthma attack day) is multiplied by total change in
-events to determine the health benefits of air quality improvements
-for the entire region.
-• For visibility, benefits were calculated based on changes in
-fine particle concentrations, presented as deciviews, which are
-provided by the REMSAD air quality model.
-• Individuals place a value on visibility improvements in
-recreational areas, such as National Parks and wilderness
-areas
-• The economic value that people place on improved visibility
-on a day that they visit a Class I area is applied to the predicted
-deciview changes and projected number of park visitors affected to
-attain recreational visibility monetary benefits.
-
-
-Description of Freshwater Modeling
-• The Model of Acidification of Groundwater in Catchments
-(MAGIC) is used to examine changes in surface freshwater chemistry
-as indicated by changes in acid neutralizing capacity (ANC) in the
-waterbody.
-• ANC represents the ability of a lake or stream to neutralize,
-or buffer, acid. The condition of a lake or stream improves as the
-the ANC increases, moving from chronically acidic � episodically
-acidic � not acidic.
-• Episodically acidic lakes (ANC of 0-50 µeq/l) have a greater
-capacity to neutralize acid deposition than chronically acidic
-ones. However, these lakes remain susceptible to becoming
-chronically acidic if acid deposition increases.
-• Watershed characteristics (e.g., soils, bedrock type,
-geologic history) affect the rate of water chemistry response to
-acid deposition.
-• "Direct response" lakes or streams manifest changes more
-quickly, whereas "delayed response" lakes or streams manifest
-changes over a longer period of time.
-• MAGIC results show the distribution of lakes and streams (by
-percentage) over the three ANC classes
-• Three regions were modeled (the Adirondacks, the Northeast
-(including the Adirondacks), and the Southeast).
-• Results are reported for current conditions (2000) and in
-2030 under the Base Case and the Clear Skies Act.
-Results are based on a model called the "Model of Acidification
-of Groundwater in Catchments" (MAGIC) used by the National Acid
-Precipitation Assessment Program (NAPAP) to estimate the long-term
-effects of acidic deposition (sulfur) on lakes and streams. The
-model simulates the size of the pool of exchangeable base cations
-in the soil. As the fluxes to and from the pool change over time
-due to changes in atmospheric deposition, the chemical equilibria
-between soil and soil solution shift to give changes in surface
-water chemistry. Changes in surface water chemistry are
-characterized by changes in Acid Neutralizing Capacity (ANC) - the
-ability of a waterbody to neutralize strong acids added from
-atmospheric deposition.
-
-
-Description of the Technology Retrofit and Updating Model
-
-Uses of the Technology Retrofit and Updating Model
-• At this time, IPM does not model price elasticity of demand
-and the effect of multiple allowance allocation mechanisms. To
-study the effect of these variables on electricity prices and
-markets, ICF developed a macro-driven spreadsheet program termed
-the "technology retrofit and updating model."
-• The model is used to discern trends in marginal costs and
-retrofits, the approximate magnitudes of those trends, and the
-reasons for those trends.
-Modeling Approach
-• The technology retrofit and updating model consists of a set
-of approximately six hundred "sample" generating units with varying
-characteristics. The mix of generation types and sizes was chosen
-to mirror, in general terms, the nationwide mix of capacities. Each
-unit is assumed to choose emission control retrofit options, fuels,
-and generation levels so as to maximize its own net profit in
-response to fuel prices, emission allowance prices, and prices of
-electricity for various demand segments. Prices of fuels can be
-adjusted in the model in response to demand; prices of electricity
-by demand segment is set in the model so as to meet demand; and
-allowance prices can be adjusted to cause the industry to meet
-given caps.
-• To simulate the effects of demand elasticity, the quantity of
-electricity demanded in each segment can be set as a function of
-electricity prices using an elasticity value that is entered as an
-input to the model. Finally, to simulate the effects of allowance
-updating, the value of reallocated allowances can be calculated and
-subtracted from each unit's cost of generation - thereby inducing
-each unit to change its profit-maximizing level of generation in
-response to a given set of fuel, allowance, and electricity prices.
-Readjusting the allowance prices to meet the same emission caps
-then generates results showing the costs of meeting given caps with
-and without updating.
-• An important limitation of this model is that it does not
-simulate changes over time in the demand for electricity, prices,
-technology, or other factors considered within IPM. Instead, it is
-run as though every year is the same as every other year and is
-therefore static in its outlook. In addition, it does not recognize
-the distinctions among electricity demand regions and the
-transmission constraints that can keep them separate. Thus, only
-one price of electricity is determined for each demand segment for
-the entire set of sample plants.
-
-
-Description of the Retail Electricity Price Model
-Primary Attributes of the Model
-• The Model provides a forecast of average retail electricity
-prices from 2005 to 2020 for 13 regions and the contiguous U.S.,
-and considers areas of the country that (1) will have competitive
-pricing of power generation and, (2) are likely to price retail
-power based on a cost-of-service basis.
-• Combines IPM and EIA information with data from the National
-Regulatory Research Institute and Center for Advanced Energy
-Markets regarding the restructuring of the power industry.
-• "Main Case" is EPA's forecast of "likely deregulation"
-considering areas of the country that should price generation
-services for retail customers competitively and those that most
-likely to use cost-of-service pricing principles.
-• The Model readily analyzes alternative multi-pollutant and
-base case scenarios modeled with IPM, alternative assumptions on
-deregulation and future savings/costs, and the implications of
-different allowance allocation approaches. The strongest
-application of the Calculator occurs from examining the relative
-price differences between two or more scenarios.
-The Limitations of the Model Include
-• The Model combines IPM and EIA cost elements that use similar
--- but not identical -- assumptions on capital recovery and
-aggregate cost data in a similar -- but not identical -- regional
-manner that needs adjustment.
-• The Model assumes public and private companies seek the same
-return and have the same tax treatment, which overstates prices in
-areas where there are large amounts of public power.
-• The Model focuses on major costs. It assumes for
-cost-of-service areas (where most of power sales are likely to
-occur) that allowance allocations will not alter pricing of
-electricity.
-• Uses EIA's limited (but best available) data in some areas
-(e.g. rate base with stranded assets).
-• The Model cannot address the uncertainty of deregulation
-created by California's experience -- where competition may
-increase or decrease in the future. With the phasing in of
-competition and limited experience, the full benefits and costs of
-deregulation still remain unknown.
-
-
-
+  
+    
+      
+        
+        The AIDS crisis has brought to public notice what has always been generally true—that
+        the existing business model for drug development leads to high prices and unequal access.
+        There is now widespread dissatisfaction with drug prices in both the developed (Families
+        USA 2003) and developing world (Correa 2000). Governments and health insurers are finding
+        ways to deny access to the newest and priciest products. In the United States and other
+        countries without a universal public health system, the uninsured simply cannot afford the
+        newest medicines. In developing countries, life-saving medicines are priced beyond the
+        reach of most people, a morally offensive outcome (TrueVisionTV 2003). Huge publicity
+        surrounds negotiated price reductions for specific drugs in specific developing countries,
+        yet the effect on the overall access problem is tiny.
+        Today's high drug prices are a direct consequence of a business model that uses a single
+        payment to cover both the cost of manufacture of a drug and the cost of the research and
+        development (R&D) carried out by manufacturers to discover it. A 20-year patent-based
+        marketing monopoly is then granted to the drug's developers to prevent their prices being
+        undercut by ‘generic’ copies produced by manufacturers who do not have R&D costs to
+        recover. Preventing such ‘free riding’ on R&D has become a global trade issue at the
+        World Trade Organisation (WTO) (Drahos and Braithwaite 2002). The implementation of the
+        TRIPS (Trade-Related Aspects of Intellectual Property Rights) agreement and a growing
+        number of regional and bilateral agreements on intellectual property require most countries
+        to implement tough patent systems that discourage or eliminate competition from
+        manufacturers of generic medicines (Box 1).
+        Unfortunately, monopoly-based business models have unpleasant side effects. Since the
+        primary responsibility of any company is to maximise return on investment, it is
+        unsurprising that there is pressure on pharmaceutical companies to set drug prices to
+        whatever level gives the highest return, excluding those individuals who cannot afford to
+        pay, rather than maximising the number of patients treated. There is also pressure to
+        misuse the power given by patents, using them as anticompetitive weapons to block
+        innovation and extend marketing monopolies. And there are growing fears that the huge
+        growth in the use of patents is in itself starting to inhibit research (CIPR 2002;
+        Anonymous 2003; Royal Society 2003). Something that is less well recognised is that this
+        system is an enormously inefficient way of purchasing R&D. There is a considerable lack
+        of transparency in pharmaceutical R&D investment, but the available data indicate that
+        only about 10% of drug sales go towards R&D on new products. Only about one-quarter of
+        new drug approvals are rated by the United States Food and Drug Administration (FDA) to
+        have therapeutic benefit over existing treatments (NIHCM 2002; see Figure 1). Measured by
+        investment, only about one-fifth of the 10% is invested in innovative products (Love
+        2003a). There is also very little research for diseases that primarily afflict the poor
+        (Trouiller et al. 2001; WHO 2003).
+        Propping up the present structure for financing R&D (Figure 2A) is the widely held
+        belief that the private sector plays a key role in the development of new medicines and
+        that it is necessary to grant patents to incentivise private-sector financing. If this were
+        true, it would make sense to tolerate all sorts of bad outcomes, because the fruits of
+        R&D eventually benefit everyone. But granting a 20-year marketing monopoly on a
+        patented invention is only one way to finance R&D, and the shortcomings of the present
+        system are increasingly hard to ignore. Suggestions for alternatives are beginning to come
+        from many quarters (Baker and Chatani 2002; CGSD 2003; Hubbard and Love 2003; Weisbrod
+        2003). In this essay, we present practical proposals to modify trade rules based solely on
+        intellectual property so that alternative policy instruments can be used to encourage
+        innovation.
+      
+      
+        A New Trade Framework
+        Analysis of worldwide drug expenditure shows that spending varies, but is close to 1% of
+        the gross domestic product (GDP) in most developed and developing countries (Love 2003b).
+        Assuming that about a tenth of the revenue from the sale of drugs is ploughed back into
+        R&D on new products, that means that countries already indirectly contribute about 0.1%
+        GDP to support this. This contribution is enforced by trade agreements, which require the
+        granting of patents to prevent ‘free riding’ via the purchase of generic drugs (see Box 1).
+        Suppose the World Health Organisation (WHO) developed an R&D contribution ‘norm’ based
+        upon this or a more appropriate figure and that there was international agreement that
+        countries evaluated as meeting this norm would no longer be regarded as ‘free riding’.
+        Trade rules could then be modified to allow countries to meet this norm 
+        by any means , not just by the implementation of strict TRIPS
+        intellectual property rules, as at present.
+        Countries that met the norm would then be free to decide whether they wanted to follow a
+        strictly patent-based system as at present, with high drug prices for 20 years, or
+        experiment with new models based on the creation of separate competitive markets for sales
+        and R&D (Figure 2B). Countries adopting the latter system would remove patents on final
+        drug compounds, placing them in the public domain. This would allow them to become a freely
+        traded commodity, creating a competitive manufacture and sales market with low generic
+        prices. At the same time, in order to meet the required R&D contribution norm, they
+        would have to create an efficient R&D virtual market alongside. However, the costs of
+        this would be more than offset by the reduction in drugs prices, making substantial savings
+        for that country overall.
+      
+      
+        Business Models for an Effective Virtual R&D Market
+        The existing system (Figure 2A), despite its failings, does lead to the development of
+        new drugs. The challenge in creating a virtual R&D market is to find viable business
+        models for successful drug development in the absence of marketing monopoly incentives.
+        One obvious approach is direct funding of drug development. For example, the National
+        Institutes of Health (NIH), the national agency in the United States, already spends $27
+        billion per year on research, a substantial amount of which is directed towards drug
+        development, including clinical trials. The NIH already has a track record in developing
+        important drugs for severe illnesses, such as cancer or AIDS, showing that this is a viable
+        model. It is also widely recognised that much of the research carried out across the world
+        by similar agencies underpins the existing commercial research that leads to new drugs.
+        Governments could expand direct funding for drug development, either through the
+        existing structures in academia or through funding R&D arms of existing companies to
+        carry out specific drug R&D. Such directed drug development funding could be similar to
+        existing nonprofit development projects, such as those currently resourced to address
+        treatments for neglected diseases like malaria and tuberculosis (TB). Examples of such
+        projects are the Medicines for Malaria Venture (www.mmv.org), the Global Alliance for TB
+        Drug Development (www.tballiance.org), the International AIDS Vaccine Initiative
+        (www.iavi.org), the Drugs for Neglected Diseases Initiative (Butler 2003b) (www.dndi.org),
+        and the Institute for One World Health (www.oneworldhealth.org).
+        Many are doubtful that increased direct funding would generate sufficient incentives or
+        be managed efficiently enough. An alternative market-based approach is one in which R&D
+        organisations compete for rewards for specific R&D output, referred to by economists as
+        a prize model (Wright 1983; Kremer 1998; Shavell and van Ypersele 2001). In a simple
+        formulation, governments would place large sums into a fund that would be allocated every
+        year to firms that bring new products to market. This could work with or without patents.
+        If products were protected by patents or other intellectual property claims, the government
+        could grant compulsory licenses (a procedure allowed by trade agreements to override
+        monopoly rights on a patent, in return for compensation to rights owners; see Box 1) and
+        permit rapid introduction of generic competition. The reward system could be a lump-sum
+        payment, eliminating any incentive to continue to market the product, or a long-term payout
+        structure, which would depend upon evidence of both usage and efficacy. Prize systems could
+        be designed to be fairly similar to the current system, with big payoffs for successful
+        entrepreneurs, but even with this approach, there would be huge opportunities to improve
+        welfare. The reward system could be more rational than the existing system, allocating
+        greater rewards for innovative products and less for ‘me too’ products that do not work
+        better than existing products. Premiums could be given for therapies that address treatment
+        gaps or for inventions that pave the way to new classes of drugs.
+        Organisations competing for prizes might be expected to behave secretly to ensure that
+        they are the ones to obtain ‘credit’ for the fruits of their work. However, progress in
+        research is also driven by free exchange of information. It may be possible to design
+        models that both reward R&D outputs and at the same time encourage complete and
+        continuous openness with intermediate research outputs. There are now a number of examples
+        of open collaborative public goods models (Cukier 2003), such as those used for the Human
+        Genome Project. The proponents of such models point to the success of GNU/Linux in the
+        software field as evidence that major projects can be undertaken with radically different
+        business models. One of the benefits of complete openness is that it allows independent and
+        open evaluation of R&D outputs, which helps in the allocation of ‘credit’ whether in
+        the form or prizes or new research grants. The open-access publishing movement (Brown et
+        al. 2003) has the potential to help in this process by allowing independent analysis of
+        published science, which will help research funding agencies measure research outputs.
+      
+      
+        Competitive Intermediators
+        An R&D contribution norm, established by treaty, would ensure that the amount of
+        money being spent on R&D is maintained. However, new mechanisms would be needed to
+        collect the money to finance the R&D, as it would no longer come via drug sales. This
+        could be via general taxation, although in countries with a private health insurance system
+        this may be anathema. Many will also worry that a centralised national drug development
+        agency taking decisions on R&D priorities and allocation of funds (via prizes or grants
+        as discussed above) could easily become bureaucratic and inefficient.
+        As a possible alternative, we propose a competitive financing scheme that would work
+        through R&D investment intermediators. These R&D funds would be licensed and
+        regulated (like pension funds). Their role would be to manage R&D assets on behalf of
+        consumers. Individuals (or employers) would be required to make minimum contributions into
+        R&D funds, much as there are mandatory contributions to social security or health
+        insurance or to pension funds. Government would set the required contribution, but the
+        individual (or employer) would be free to choose the particular intermediator that received
+        their contributions. Intermediators would compete to attract funds to invest in R&D on
+        the basis of their prowess for drug development and upon their priorities. Different
+        business models for financing R&D could be tested in such a market, with intermediators
+        experimenting with prize systems, direct investments in profit or nonprofit entities, open
+        collaborative public good models, or other approaches.
+      
+      
+        A Change for the Common Good
+        We believe the economics of a change in the paradigm for funding R&D are highly
+        favourable. Taken together, the two core steps of changing the trade framework and moving
+        away from marketing monopolies can change the world in a positive way. We can raise global
+        R&D levels as a matter of policy and ensure that resources flow into the areas of the
+        greatest need, and we can do so knowing that the poor and the rich will have access to new
+        inventions at marginal cost. Policy-makers will be weaned from their current unhealthy
+        addiction to ever-higher levels of intellectual property rights as the only instrument to
+        raise R&D levels, a path that has increasingly reached diminishing returns or become
+        counterproductive. With new instruments to address the overall levels of R&D
+        investment, policy-makers can more constructively address the well-known inefficiencies in
+        the patent system without the fear that global R&D levels will suffer and explore
+        alternative models (Butler 2003a). At the same time, the system of prescribing medicines
+        will be transformed by a substantial reduction in the distorting influences of the current
+        multibillion-dollar industry of marketing medicines to doctors and (increasingly) directly
+        to the public. Similarly, without marketing monopolies to protect, there will be far less
+        spent to influence the governments that set the rules that regulate such monopolies. If
+        implemented worldwide, one of our most vexing ethical dilemmas can be resolved in a manner
+        that actually promotes the Doha Declaration on TRIPS and Public Health mandate to encourage
+        access to medicine for all.
+      
+      
+        
+      
+    
+  

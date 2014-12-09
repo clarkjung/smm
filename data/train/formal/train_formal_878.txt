@@ -3,469 +3,478 @@
     
       
         Background
-        The detection of microbial life in extraterrestrial
-        locations is an important goal of human exploration of
-        space because of ecological and health concerns about
-        possible contamination of other planets with earthly
-        organisms, and 
-        vice versa [ 1 2 ] . Several indirect
-        methods for detecting extraterrestrial life have been
-        proposed in the prior literature. These include (a)
-        examining the ratios of stable isotopes in important
-        elements such as carbon and sulphur for discrimination
-        against heavy isotopes and selective use of the lighter
-        isotopes, (b) microscopic observations of highly organized
-        or specifically-shaped structures [ 3 4 ] , (c) examination
-        of soils for the presence of specific types of organic
-        moieties [ 5 ] , and (d) the detection of chiral molecules
-        in extraterrestrial samples [ 6 7 8 9 10 11 12 ] .
-        Previously we suggested a thermodynamic approach to the
-        detection of life. Since living entities require a
-        continual source of usable energy, we should be able to
-        detect a chemical signature of life in the form of mixtures
-        of redox molecules such as porphyrins, quinones, and
-        flavins that transport electrons along redox gradients
-        between electron donors and acceptors [ 13 ] . We examined
-        methods to extract and detect the components of electron
-        transport chains that might be used to indicate the
-        presence of life on site in extraterrestrial locations. Our
-        experiments showed this to be a promising approach, though
-        instrument development and miniaturization for this purpose
-        will be challenging [ 14 ] .
-        Here we discuss the possibility of a related, but
-        simpler approach for detecting life that will measure the
-        actual existence of functioning electron transport chains.
-        This can theoretically be done remotely and on site using
-        robotically collected extraterrestrial soil samples. The
-        method involves detection of actual activity of respiratory
-        electron transport using artificial electron acceptors such
-        as DCIP and tetrazolium dyes such as XTT. DCIP, for
-        example, couples directly with NADH or NADPH to form DCIPH 
-        2 and NAD +or NADP +, making it an ideal
-        electron transport chain indicator [ 15 ] . XTT has been
-        used to measure microbial respiratory activity in complex
-        natural environments [ 16 ] . Respiratory dyes have been
-        used commercially for many years in the Biolog™ system to
-        help identify pure cultures of microorganisms by their
-        patterns of oxidation of multiple organic substrates [ 17 ]
-        . Biolog™ also has been used to characterize oxidation
-        capabilities of soil microbial communities [ 18 ] .
-        Rodriquez, et al. [ 19 ] used the redox dye
-        5-cyano-2,3-ditolyl tetrazolium chloride (CTC) for direct
-        epifluorescent microscopic enumeration of respiring
-        bacteria in environmental samples. The oxidized form of CTC
-        is nearly colorless and non-fluorescent. Oxidized CTC was
-        observed to be reduced by biological electron transport
-        systems, forming a fluorescent, insoluble CTC-formazan. The
-        formazan accumulated intracellularly and could be
-        visualized by epifluorescence microscopy in wet-mount
-        preparations, on polycarbonate membrane filter surfaces, or
-        directly in some biofilms. Thus, coupled with more limited
-        analyses for specific electron transport molecules (e.g.,
-        porphyrins or quinones), the use of respiratory dyes for
-        detection of active electron transport in the biological
-        redox range could provide very convincing evidence for life
-        in extraterrestrial locations. This approach would
-        obviously only detect presently living entities, but these
-        could include dormant life forms such as spores that might
-        germinate and grow using added nutrients.
-      
-      
-        Results
-        
-          Examination of the presence of a chemical signature
-          of life in various soils
-          Figure 1presents the results of a comparison of
-          supercritical carbon dioxide extractions of control (heat
-          treated at 600°C) and life-positive (unheated Idaho red
-          sand) soils. We confirmed the structures of the compounds
-          shown as marked peaks by their respective UV-VIS and mass
-          spectra. The supercritical carbon dioxide (SCCO 
-          2 ) extracts of Idaho red sand (Figure
-          1) and a Lake Boney Basin Antarctica soil, which
-          contained relatively few bacteria (Table 1), showed
-          detectable signature molecules in the extracted samples
-          using either a diode array detector or an amperometric
-          detector (Figure 1). The sterile soil, after heat
-          treatment, did not yield significant amounts of our
-          targeted redox signature molecules: nicotinamide,
-          riboflavin, Q 
-          0 , FMN, FAD, and porphyrin (Figure
-          1). To confirm that soil samples yielding negative
-          results and those yielding signatures of redox moieties
-          were different because of the presence and absence of
-          biological entities, we counted viable organisms and
-          extracted DNA from the heated control sand, a Beacon
-          Valley Antarctic soil, a Lake Boney Basin Antarctic soil,
-          and the Idaho red sand (Table 1). There were small
-          amounts of organic compounds in the extract of the Beacon
-          Valley soil, but none matching our standards (no redox
-          signature). At a detection limit of 1 ng per gram of
-          soil, DNA was absent from the control and the Beacon
-          Valley soil, as were cultivable bacteria. Soils that
-          contained electron transport moieties (e.g., the Idaho
-          red sand and Lake Boney Basin soil) also contained both
-          DNA and cultivable bacteria.
-        
-        
-          Redox dye reduction by various soils
-          Figure 2illustrates the color change seen when a soil
-          microbial community reduces the dye XTT. Figure 3shows
-          results of measurement of DCIP reduction in an autoclaved
-          control soil and an extraterrestrial surrogate soil
-          (Idaho red sand). Figure 4shows results of XTT reduction
-          by the control soil and the life-positive Idaho red sand.
-          Figure 5shows results of XTT reduction by the control and
-          the life-positive Boney Basin, Antarctica soil. The
-          Beacon Valley, Antarctica soil did not reduce either dye.
-          As another control, Figure 6shows the reduction of XTT by
-          a pure culture of 
-          Pseudomonas putida .
-        
-      
-      
-        Discussion
-        Energy use by living organisms directs our experimental
-        design for seeking signs of extraterrestrial life. In
-        terrestrial biological systems, energy is tapped via
-        stepwise electron transport between electron donors and
-        acceptors via an 
-        electron transport chain . Applying
-        this principle universally, we should be able to detect the
-        chemical components of electron transport chains or
-        electron transport itself as a signature of life.
-        Our assumptions about the centrality of electron
-        transport processes to life led us to a direct experimental
-        approach for detection of life. We were able to measure
-        actual electron transport in the redox range between -1.0
-        and +1.0 V in a microbe-poor soil, in the presence of air,
-        and both with and without additions of an electron donor
-        (dilute nutrient broth). The respiratory electron-accepting
-        dyes DCIP and XTT were used to "short-circuit" microbial
-        electron transport, and this was observed (dye reduction)
-        by visible spectroscopy. This method might entail some
-        site-specific challenges in environments that are different
-        from those on Earth, especially in developing appropriate
-        controls for abiotic processes. NASA learned this lesson
-        from the Viking biology mission to Mars. In the Viking's
-        gas exchange experiment, water vapor exposed to the Martian
-        soil released O 
-        2 , but possibly only as a result of the
-        activity of powerful soil oxidants that also might have
-        been responsible for the chemical reactivity seen in other
-        Viking biology experiments [ 20 ] . A molecule such as DCIP
-        or XTT might be destroyed by oxidation in the presence of
-        such soils. However, soil samples taken from borings
-        beneath the surface, which is exposed to high energy,
-        oxidant-generating ultraviolet radiation, or from other
-        protected areas, might not be so destructive of organic
-        compounds. Such stability problems should not be of such
-        concern for extraterrestrial sites such as Europa or Titan.
-        Thus, our ability, confirmed here, to detect actual
-        electron transport within the redox potential range of life
-        processes, and to observe simultaneously some of the
-        signature chemical structures involved, offers a promising
-        direct approach to detecting the capability of living
-        entities in soil on Earth or elsewhere in our solar system
-        to move electrons between universal donors and acceptors
-        and obtain energy to support replication.
-        Since we are not yet able to test this approach
-        extraterrestrially, we validated our proposed detection
-        method using pure microbial cultures and microbe-poor soils
-        collected on Earth. A select group of signature chemicals
-        were extracted from an organic-poor soil (Figure 1) and
-        identified with instruments that eventually can be
-        miniaturized for use on space exploration missions [ 13 21
-        22 ] . Actual electron transport by living cells was
-        confirmed by use of two specific dyes (DCIP and XTT) that
-        short-circuit respiratory electron transport chains. This
-        was demonstrated using a pure strain of the common earthly
-        soil microorganism, 
-        Pseudomonas putida (Figure 6), and
-        with native soil microorganisms within two
-        nutrient-supplemented soil matrixes (Figures 3, 4, 5). We
-        easily detected a signature of biological electron
-        transport within a biologically poor, sandy soil containing
-        about 30,000 cultivable cells per gram (Idaho red sand),
-        and also from a soil from the extreme environment of Lake
-        Boney Basin, Antarctica (Table 1). Though the Boney Basin
-        soil readily reduced XTT, it only very slowly reduced DCIP
-        (data not shown), and the rate of reduction was not
-        significantly different between untreated soil and killed
-        controls. Since DCIP and XTT have different redox
-        potentials, and XTT in our work appears to generally be
-        more easily reduced by soil microbial communities, this
-        shows a need to use more than one respiratory dye in this
-        type of experiment.
-        Our observations also indicate that in soils from
-        extreme environments, one may expect differences in their
-        patterns of dye reduction that probably reflect differences
-        in their community phylogenetic compositions. A soil from
-        Beacon Valley, Antarctica that showed no DNA at our
-        detection limit also showed no dye reduction activity with
-        either dye. This soil appears to be sterile by our method
-        of life detection; certainly it contains fewer microbial
-        cells than our detection limit. Further investigations of
-        this soil are thus warranted. For the Idaho red sand,
-        assuming 30,000 cells represent about 1% of actual biomass
-        in the soil, the detection limit of our method should be
-        about 3,000,000 cells/g. Though the amount of DNA observed
-        in the Lake Boney Basin soil was actually higher than seen
-        in the Idaho red sand, the microbial counts were lower
-        (Table 1). This shows once again the limitation of viable
-        counts, which only count organisms that grow on the
-        specific medium employed. It is well known that most
-        bacteria in nature cannot be cultured. Our work indicates
-        there is probably a more dominant non-cultivable microbial
-        community in the Antarctic soil compared to the Idaho soil,
-        since DNA analysis indicated high numbers of microorganisms
-        that were not reflected in viable count data.
-        We need to improve the current detection limit for
-        organic moieties (Figure 1), estimated at 3 × 10 6cells per
-        gram of soil. Processing larger quantities of soil could
-        easily increase sensitivity for detection of redox
-        molecules. Supplementing soils with appropriate electron
-        donors and acceptors could stimulate extensive growth of
-        low numbers of indigenous organisms. In theory, even a few
-        cells/gram of soil might be detected using this approach.
-        The former procedure might be accomplished by using a
-        "flow-through" soil extractor that could receive multiple
-        soil additions and concentrate the extracted residues prior
-        to downstream analysis. The latter procedure could be
-        implemented by using a microtiter plate format similar that
-        employed by Biolog™, where hundreds of potential electron
-        donors could be examined simultaneously and the results
-        (dye reduction) read by an on-board UV-visible spectral
-        scanner designed for scanning microtiter plates. Examples
-        of donor-acceptor combinations might include: simple sugars
-        and/or amino acids or other organic molecules in the
-        presence of oxygen or nitrate (organisms capable of
-        heterotrophic respiration), hydrogen and ferric ions or
-        oxidized iron minerals (chemoautotrophic hydrogen
-        oxidizers), organic acids and ferric ions or oxidized iron
-        minerals (heterotrophic iron reducers),
-        bicarbonate/carbonate and trace minerals in the presence
-        and absence of light (photosynthetic organisms), carbon
-        dioxide and a reduced metal such as ferrous ions
-        (chemoautotrophs), ammonium ion and bicarbonate/carbonate
-        (ammonia oxidizers), etc. The combinations could be adapted
-        to the environment under study, such as Mars (perhaps an
-        iron-dominated energy system).
-        In this work, we emphasized that during validation on
-        Earth of any life detection method there is a requirement
-        for control measurements that corroborate earthly results
-        of assays that might be carried out remotely on other
-        planets. We chose measurements of DNA (present in all
-        earthly life) and readily cultivable bacteria (present in
-        most earthly soils) for validating our specific redox
-        chemistry based approach. In the future, as we and others
-        work to increase the sensitivity of this life detection
-        approach toward values needed for the extreme environments
-        on Earth and places such as the regolith of Mars, the
-        simple controls we used should be supplemented by a number
-        of others. These could include controls such as direct
-        microscopic counts of active and inactive bacteria [ 19 ] ,
-        extraction and quantitation of ATP [ 23 ] , extraction and
-        analysis of fatty acids [ 24 ] , real-time PCR of universal
-        16S rDNA markers [ 25 ] , and/or use of a larger variety of
-        culture media, including dilute organic media, in place of
-        or in addition to plate count agar [ 26 ] . All of these
-        approaches also have problems, such as the possible
-        presence in soil of biological molecules that are not
-        associated with living cells, the always-present inability
-        of microbiologists to culture most of the bacteria present
-        in soil, and the often unpredictable performance of PCR
-        primers. However, the sum of such multiple controls would
-        build toward ultimate confidence in the sensitivity of this
-        or any other life detection technique.
-        Because there is great diversity among habitats for
-        microbial life on the Earth, and sterility of an earthly
-        soil is rare, it would be desirable to examine as many as
-        possible of these environments to determine the absolute
-        reliability of our techniques for use extraterrestrially.
-        Unfortunately, we cannot sample all possible terrestrial
-        environments on Earth, or even a small fraction of them. We
-        feel the diversity we have examined is sufficient to
-        indicate the value of our approach, particularly since one
-        of these extreme environments we did examine (Beacon
-        Valley, Antarctica) appears to be sterile. We also cannot
-        examine all known heterotrophic bacteria stored in culture
-        collections to confirm that all or most of them effect dye
-        reduction. However, the many years of experience using the
-        Biolog™ system, which employs respiratory dyes to indicate
-        microbial metabolism [ 17 18 ] , is strong support for our
-        hypothesis that respiratory dye reduction is a robust and
-        conclusive assay for heterotrophic life in soil. Further
-        validation efforts may show that observation of redox
-        cycling of artificial electron acceptors of appropriate
-        redox potentials may be sufficient in itself as a signature
-        of life, greatly simplifying instrumentation requirements
-        for extraterrestrial missions in our solar system and
-        beyond.
-      
-      
-        Conclusions
-        Coupled with limited analyses for specific electron
-        transport molecules (e.g., porphyrins and/or quinones), the
-        use of respiratory dyes for detection of electron transport
-        in the biological redox range could provide very convincing
-        evidence for life in extraterrestrial locations.
+        In 1990 the National Institutes of Health Consensus
+        Development Conference [ 1 ] concluded that breast
+        conserving surgery (BCS) followed by radiation is an
+        appropriate method of primary treatment for the majority of
+        women with early stage breast cancer (AJCC stages [ 2 ] I,
+        IIA, and IIB). Numerous clinical studies have shown that
+        survival after BCS followed by radiation therapy is
+        equivalent to survival following mastectomy for women in
+        these stages [ 3 4 5 ] . Some absolute indicators for
+        mastectomy remain [ 6 7 ] , in particular widespread
+        malignant-type microcalcifications, previous radiotherapy,
+        and a relation of tumor size to breast size that would not
+        allow a cosmetically satisfactory result. Although there
+        has been an increase in the use of BCS since the early
+        1990s, an apparent under-utilization of BCS among women for
+        whom such treatment was not contraindicated has been
+        documented [ 8 ] . Geographic location, type of hospital
+        and health plan, and personal preferences have been
+        investigated as possible factors to explain the continued
+        use of mastectomy [ 9 10 11 12 ] . Comorbidity [ 13 ] has
+        been found to be an important predictor among older
+        women.
+        The Surveillance, Epidemiology and End Results (SEER)
+        cancer registries do not collect sufficient detail to
+        examine some of these issues and medical records reviews
+        are time consuming. Insurance claims data are a
+        cost-effective alternative; they have already been
+        collected and put into an electronic format by the
+        insurance carriers. They cover large segments of the
+        population, allow follow-up, use standardized codes [ 14 15
+        ] , and do not rely on subject recall. In cancer research,
+        insurance claims data have been used to estimate the
+        effectiveness of cervical cancer screening [ 16 ] , to
+        assess the role of screening practices in the incidence of
+        prostate cancer [ 17 ] , and to estimate mammography
+        participation [ 18 ] . Medicare enrollees in Seattle and
+        San Francisco who received care from a Health Maintenance
+        Organization (HMO) were found to receive more BCS than
+        women in Fee-For-Service (FFS) plans [ 19 ] . Whereas a
+        Medicare/SEER registry linked data set has been used
+        extensively to examine treatment and screening issues in
+        individuals 65 years and older [ 20 ] , linking of
+        insurance claims data from private health plans in younger
+        populations has been more difficult because of the large
+        number of health plans in most geographic areas. However,
+        Hawaii provides unique opportunities for insurance claims
+        research because the majority of medical care is received
+        within the state and more than 90% of the population [ 21 ]
+        are covered by a limited number of health plans. As a pilot
+        project, we were able to link data from the Hawaii Tumor
+        Registry and from a health plan in Hawaii. The objectives
+        of this analysis were to describe breast cancer treatment
+        and comorbid conditions using the insurance claims data and
+        to examine possible determinants of BCS 
+        vs. mastectomy for breast cancer
+        patients with stage I and II disease.
       
       
         Methods
         
-          Signature chemicals
-          As detailed in our prior work [ 13 ] , the following
-          compounds were used as representative examples of
-          electron transport chain components. Protoporphyrin IX,
-          hemin, hematin, and nicotinamide (vitamin B 
-          3 ) were purchased from Aldrich
-          (Milwaukee, WI). Nicotinamide-adenine dinucleotide (NAD),
-          riboflavin (vitamin B 
-          2 ), flavin mononucleotide (FMN),
-          flavin adenine dinucleotide (FAD), and DCIP were
-          purchased from Sigma (St. Louis, MO).
-          2,3-Dimethoxy-5-methyl-,4-benzoquinone (coenzyme Q 
-          0 ) was purchased from Fluka (Buchs,
-          Switzerland). XTT was purchased from TCI America, Inc.
-          (Portland, OR). The other chemicals and solvents used
-          were of the highest available purity.
+          Data Sources
+          The HTR has maintained a database of all cases of
+          cancer diagnosed in the State of Hawaii since 1960 and
+          became part of the SEER program in 1973. The HTR record
+          contains demographic characteristics such as age,
+          ethnicity, marital status, island of residence, as well
+          as information on tumor size, extent of disease, lymph
+          node involvement, and tumor grade. From medical records
+          in hospitals and physicians' offices, information is
+          collected on the initial course (six months in the Hawaii
+          Tumor Registry) of cancer-directed treatment following
+          diagnosis. Quality control reviews have shown that
+          case-ascertainment through HTR has been virtually
+          complete [ 22 ] . Over 99% of cancer cases reported to
+          the registry are histologically confirmed. The HTR also
+          maintains a link with Hawaii Department of Health, which
+          allows for death information to be captured in the HTR
+          database.
         
         
-          Soils
-          Natural sand from dune areas of southern Idaho (Idaho
-          red sand), poor in organic content and rich in oxidized
-          iron minerals, was used as a life-positive soil and
-          surrogate for extraterrestrial soils. As a control we
-          used cleaned, highly pure silica sand purchased from
-          Fisher Scientific. These soils are described in our
-          previous paper [ 13 ] . Other extraterrestrial surrogate
-          soils were collected from Beacon Valley and Lake Boney
-          Basin, Antarctica. The soil from Beacon Valley was from
-          an area where higher organisms such as nematodes have
-          never been observed.
+          Linking
+          The insurance claims for this study were obtained from
+          a local insurer who was a party to the memorandum of
+          agreement. The linked data set contained cancer cases
+          diagnosed from 1995 through 1998. During the linking
+          process, a list of health plan members who had at least
+          two cancer diagnostic codes in their claims history were
+          matched against the HTR using a probabilistic method. For
+          each matched record, the health plan furnished all claims
+          data for that period. They also indicated whether the
+          individual was enrolled in a Fee-For-Service (FFS) or a
+          capitated (HMO) plan, a choice provided by the insurer.
+          However, the majority of linked cancer cases belonged to
+          the FFS plan and the HMO plan provided by this insurer
+          differs considerably from a typical HMO. Individuals aged
+          65 years and older were included only if they were still
+          working and had primary coverage through the health plan
+          or if they were covered under Medicare but also had
+          secondary coverage through the health plan. The dataset
+          furnished by the health insurer contained all claims
+          processed for cancer patients in this study. The data
+          elements included: date of service, International
+          Classification of Disease, version 9 (ICD-9) diagnosis
+          codes [ 14 ] , Current Procedural Terminology (CPT) codes
+          [ 15 ] , and the provider specialty code. The dataset
+          contained claims for services from physicians,
+          laboratories, freestanding facilities, as well as
+          outpatient services provided by hospital facilities.
         
         
-          Extraction of soil organic moieties
-          Soil samples of 5 to 15 g were used for supercritical
-          fluid extraction (SFE) with supercritical CO 
-          2 (SCCO 
-          2 ). Samples were first hydrolyzed in
-          5 to 10 ml of acetone containing 2 M NH 
-          4 OH under ultrasound agitation (water
-          bath at 160 watts) for 1 h at room temperature. Nitrogen
-          blown over the sample then evaporated the solvents. The
-          SFE extraction was performed with the dry sample within
-          one day to avoid any degradation of redox compounds. A
-          piece of Whatman glass fiber filter paper (1.0 μm pore
-          size) was cut into a 0.8 cm diameter circle and placed at
-          the outlet end of a 10-ml SFE extraction cell to retain
-          large particles. A hydrolyzed sample (10 ml) was then
-          packed into the vessel until it was full. Exactly 1.0 ml
-          of 25% (v/v) trimethylamine in methanol as modifier was
-          added to the sample, and the vessel was immediately
-          connected to the SFE system. The extraction pressure was
-          set at 300 atm, the oven temperature at 35°C, and the
-          outlet valve temperature at 60°C. After a 15 min static
-          extraction, a dynamic extraction was started until
-          approximately 30 ml of liquid CO 
-          2 passed through the SFE cell [ 27 ] .
-          The flow rate was controlled at 5 to 10 ml/min by the
-          outlet valve. In order to achieve maximum recovery, the
-          SFE procedure was repeated again under identical
-          conditions.
+          Data set
+          Breast cancer cases accounted for 16.6% of all cancer
+          cases recorded in the HTR during the period from 1995 to
+          1998. In the linked dataset, 27.7% of the cases were
+          breast cancer cases. Using the ICD-9-CM code range [ 14 ]
+          for breast cancer (174.0 to 174.9), we identified 1,377
+          female breast cancer cases. We then excluded 265 cases
+          diagnosed after June 30, 1998 because we would not have a
+          complete history of claims data covering at least six
+          months of treatment. We also identified 30 women who had
+          been recorded twice in the linked dataset because breast
+          cancer was diagnosed in both breasts, as identified by
+          the laterality codes. For 24 women, the diagnosis date
+          was identical, in which case we considered the two
+          diagnoses as one case. For the six cases with different
+          diagnoses dates, we retained both records because there
+          was a separate completed course of treatment for the
+          cancer in each breast. We eliminated one case that was in
+          the linked dataset and had inpatient data but no
+          outpatient data, resulting in a dataset containing 1,088
+          breast cancer cases.
         
         
-          Chromatography
-          Separations were performed using a Hewlett Packard
-          HP-1090 HPLC (Avondale, PA). Samples of 20 to 50 μL were
-          injected onto a Discovery Amide C16 or Discovery C18
-          reverse phase column (15 cm × 4.6 mm, 5 μm, Supelco,
-          Bellefonte, PA), and analytes were separated using the
-          ion-pair chromatographic method. Solvent A was 5 mM
-          tetrabutylammonium phosphate, 30 mM KH 
-          2 PO 
-          4 , and 4% acetonitrile (V/V). Solvent
-          B was 100% acetonitrile. Runs were performed over 35 min
-          with gradient elution of 0 to 40% B, then with static
-          elution over 35 to 40 min with 60% A/40% B, followed by
-          40 to 42 min with 100% A and a post-run wash of 5 min at
-          a flow rate of 1.0 ml/min [ 28 ] . Detectors used were a
-          tandem diode array detector (DAD) and dual carbon
-          electrode amperometric detector (ECD).
+          Staging
+          We used the HTR information in the Extent of Disease
+          (EOD-10) field [ 23 ] to determine the American Joint
+          Committee on Cancer (AJCC) TNM stage [ 2 ] , where T
+          represents the primary tumor size, N refers to lymph node
+          involvement, and M refers to presence of metastases. In
+          cases where the tumor size was unknown, we assigned a
+          stage only if the size was not a determinant in the TNM
+          grouping. If the extension was unknown, we equated it to
+          extension 10 (confinement to breast tissue and fat). For
+          the small number of cases (N = 8) for whom lymph node
+          involvement code was unknown, we considered this the same
+          as no lymph node involvement because the tumor size was
+          so small for these cases that a lymph node dissection was
+          not considered necessary at the time of this study. The
+          results of the TNM staging agreed well with the SEER
+          summary stage codes.
         
         
-          Electrospray tandem mass-spectrometry
-          The identities of signature species present in
-          extracts were confirmed by negative or positive
-          electrospray ionization tandem mass spectrometry (Quattro
-          II, Micromass Ltd., UK). Samples were delivered into the
-          source at a flow rate of 5 μl/min using a syringe pump
-          (Harvard Apparatus, South Natick, MA) or directly from a
-          HPLC column, with effluent from the column split 1:100. A
-          potential of 2.5 to 3 kV was applied to the electrospray
-          needle. The sample cone was kept at an average of 15 V.
-          The counter electrode, skimmer, and RF (radio frequency)
-          lens potentials were tuned to maximize the ion beam for a
-          given solvent. The resolution of the detector was 15,000,
-          and the source temperature was kept constant at 80°C. The
-          instrument was calibrated using a polyethylene glycol
-          solution. All spectra were an average of 10 to 15
-          scans.
+          Cancer treatment
+          We used the CPT codes [ 15 ] in the claims dataset to
+          identify the type of surgery performed. For mastectomies,
+          we included codes for simple and subcutaneous
+          mastectomies (19180 and 19182), radical mastectomies
+          (19200 and 19220) and modified radical mastectomy
+          (19240). BCS was identified by the CPT codes for partial
+          mastectomies (19160, 19162). We also included codes for
+          excision of breast cysts or lesions (19120 and 19125) as
+          these codes meet the definition of a lumpectomy, although
+          we recognize that some surgeons may have billed these
+          codes for excisional biopsies as a diagnostic procedure.
+          If BCS was initially performed, but followed by a
+          subsequent mastectomy, the subject was classified in the
+          mastectomy group. This situation would have occurred when
+          the BCS code was actually used for a diagnostic biopsy
+          and the subsequent surgical treatment was a mastectomy or
+          in situations where a lumpectomy was first selected, but
+          a mastectomy became necessary because pathological
+          examination revealed cancerous cells in the margins of
+          the excised tissue. CPT codes 77261 to 77799 were
+          selected to determine whether radiation therapy was
+          received. Several CPT codes and also a number of other
+          codes used by the health plan for billing were considered
+          evidence of chemotherapy treatment.
         
         
-          Biomass and DNA analysis in soil
-          The numbers of cultivable soil microorganisms were
-          estimated by standard plate count and serial dilution
-          methods. Standard plate count medium (PCM) was used to
-          culture bacteria from soil samples [ 29 ] . DNA was
-          extracted from different soils using the FastPrep DNA
-          spin kit from Qbiogene, Inc. (Carlsbad, CA). The
-          concentration of DNA was estimated by measuring
-          fluorescence at 520 nm. Fluorescence was measured after
-          staining the sample with Pico Green fluorescent dye
-          (Molecular Probes, Eugene, OR). Our detection limit was
-          about 1 ng of DNA in 1 g of soil.
+          Comorbidities
+          Information on the existence of comorbidities was
+          extracted from the claims data using the occurrence of
+          ICD-9 codes associated with comorbid conditions included
+          in the Charlson Index [ 24 ] . We also analyzed data for
+          conditions that were not included in that index, but
+          occurred at a high enough frequency to warrant
+          examination as possible comorbidities, in particular
+          hypertension and lipid disorders. We included the
+          following twelve comorbid conditions into our index:
+          diabetes with complications, diabetes w/o complications,
+          hypertension, heart disease, cerebrovascular disease,
+          chronic pulmonary disease, peripheral vascular disease,
+          kidney disease, liver disease, rheumatological diseases,
+          hypothyroidism, and lipid metabolism disorders.
+          Comorbidities were based on physicians' claims with the
+          respective ICD-9 code [ 14 ] during the 12-months period
+          preceding the month in which the cancer was diagnosed.
+          The month of diagnosis was excluded to avoid identifying
+          as comorbidities any complications or conditions directly
+          resulting from cancer treatment. Laboratory, radiology,
+          and other diagnostic services were excluded from the
+          comorbidity identification process because tests may have
+          been done to rule out the condition. Each subject was
+          assigned a comorbidity score of 0 (no condition), 1 (one
+          condition), or 2 (two or more conditions).
         
         
-          DCIP and XTT reduction assays
-          Working in a sterile laminar flow hood, we added 2.0 g
-          of soil, 16.0 mL of sterile 100 mM phosphate buffer (pH
-          7.5), 2 mL of 100X Nutrient Broth as a biological
-          reductant (Difco), and 1.0 mL of 1 mM DCIP to a sterile
-          25 mL serum bottle. Bottles were plugged and capped with
-          sterile closures and shaken at room temperature for
-          required experimental time. Periodically, samples (1.0
-          mL) were removed aseptically and centrifuged to remove
-          solids. The absorbance of the filtrate was measured at
-          600 nm. Concentrations of DCIP (oxidized) were calculated
-          using a molar extinction coefficient of ε = 21.0 × 10 3M
-          -1cm -1. Reoxidation of DCIPH 
-          2 was negligible under our
-          experimental conditions. Samples were run in
-          triplicate.
-          Reduction of XTT was monitored similarly as described
-          for DCIP, except we measured the increase in absorbance
-          at 465 nm resulting from reduction of the colorless
-          oxidized dye to an orange product [ 16 ] .
+          Other variables
+          In addition to stage at diagnosis and size of tumor,
+          we examined several other variables that were possible
+          determinants in the utilization of BCS 
+          vs. mastectomy in early stage
+          breast cancer, including age at diagnosis, ethnicity,
+          island of residence, and marital status. For ethnicity,
+          we used the five major groups in Hawaii (Japanese,
+          Caucasian, Hawaiian, Filipino, and Chinese). All other
+          ethnicities were grouped into an "Other" category. The
+          specific island of residence was coded in the HTR, but
+          since close to 80% of the population resides on Oahu [ 25
+          ] , we classified residence as either Oahu or non-Oahu.
+          For marital status, we grouped all women who were
+          identified as single, separate, divorced or widowed in
+          the unmarried category. Women under age 50 were
+          considered pre-menopausal and women 50 years and older
+          were classified as postmenopausal. Tumor grade
+          information from the HTR record was grouped into grade I
+          (well-differentiated cells) 
+          vs. all other grades (II, III, IV
+          and unknown).
+        
+        
+          Statistical analysis
+          All analyses were performed with SAS version 8.00 for
+          Windows (SAS Institute, Cary, NC). Simple Kappa
+          statistics (κ) was calculated to validate the treatment
+          information from the insurance claims and the HTR [ 26 27
+          ] . BCS was used as reference group throughout the
+          analysis. It was defined as the dependent (outcome)
+          variable and coded as a dichotomous variable, with 1
+          indicating BCS received and 0 indicating mastectomy
+          received. Age was entered in units of ten years and tumor
+          size was grouped into units of ten millimeters (one
+          centimeter). For analyses of ethnicity as a predictor of
+          treatment selection, Caucasian was used as the control
+          group and indicator variables for all other ethnic groups
+          were created. Logistic regression [ 28 ] was used to
+          explore the influence of each variable on the use of BCS 
+          vs. mastectomy. First, we
+          considered each independent variable by itself in a model
+          and then we entered all variables simultaneously in a
+          logistic regression model. Odds Ratios (OR) [ 29 ] with
+          corresponding 95% Confidence Intervals (CI) were
+          calculated to measure the degree of influence of
+          variables on the utilization of BCS 
+          vs. mastectomy.
         
       
       
-        Authors' contributions
-        All authors worked within a multidisciplinary team. RLC
-        conceived the study, and participated in its design and
-        coordination. AP directed the analytical chemistry work
-        reported and interpreted the analytical data. QL performed
-        the SCCO 
-        2 extractions. DPE and LBA performed the
-        dye reduction experiments and provided ideas for
-        improvements of methods. GC and TJA designed the SCCO 
-        2 soil extraction cell. FC provided
-        expertise on voltammetric detection of analytes. CW, BB,
-        RW, TA, and MM provided input regarding data analyses and
-        overall life detection system design for potential future
-        use on extraterrestrial missions.
-        All authors read and approved the final manuscript.
+        Results
+        Based on the TNM stages, we identified 722 women who had
+        stage I, IIA, or IIB breast cancer (66.4% of the 1,088
+        breast cancer cases in the linked data set). These 722
+        cases represented 32.8% (722 of 2,203 cases) of all early
+        stage breast cancer cases recorded in the HTR during the
+        study period. Approximately two-thirds of the women in the
+        study population (Table 1) were diagnosed in stage I of the
+        disease and only 24% and 12% in stage IIA and IIB,
+        respectively. Approximately 30% of the study subjects were
+        aged less than 50 years, close to half were 50 to 64 years
+        old, and 21% were 65 years and older. Three out of four
+        women resided on the island of Oahu. Overall, 52.8% of the
+        women had received BCS. Of the cases diagnosed at stage I,
+        57% of the women had received BCS and 47% a mastectomy.
+        This decreased to 50% for stage IIA and to 34% for stage
+        IIB. Among women, 65 years and older, 56% had BCS, compared
+        to 50% of those under 50 years of age and 53% of the 50-64
+        year old women. While 56% of women on Oahu underwent BCS,
+        only 43% of the women residing on the outer islands
+        received BCS. We observed no statistically significant
+        differences between the BCS and mastectomy group in terms
+        of ethnicity, comorbidity count, menopausal status, marital
+        status, and insurance plan. We found very high agreement
+        between HTR data and claims data in identifying BCS [κ =
+        0.91 (95% CI 0.88, 0.94)], only 32 women were
+        misclassified. For the majority of women who received BCS
+        (92.1%), the lumpectomy was followed by radiation therapy.
+        Additional chemotherapy was given to 34.1% and 42.5% of the
+        women who had a lumpectomy or a mastectomy,
+        respectively.
+        In the univariate models (Table 1), we found that tumor
+        size and grade, island of residence, age, and stage at
+        diagnosis were predictors of breast cancer treatment. Women
+        residing on Oahu were considerably more likely to have BCS
+        than women living on all other islands in the state. For
+        each one-centimeter increase in tumor size, there was a 3%
+        lesser chance of undergoing BCS. Since size of tumor
+        correlates to breast cancer stage, this also decreased the
+        likelihood for women in stage IIA and IIB to receive BCS.
+        Women with well-differentiated tumor grades were 50% more
+        likely to undergo BCS as compared to women with all other
+        grades. We found that for each ten-year increment in age,
+        the chances of having BCS increased by 1%. We also observed
+        that average tumor size was inversely related to age. Mean
+        tumor sizes (in cm) with standard deviations were 1.82 ±
+        1.1, 1.59 ± 1.2, 1.39 ± 0.94 for women younger than 50
+        years, 50 to 64 years, and 65 years and older,
+        respectively. Therefore, the smaller tumor sizes may
+        account for the greater likelihood of BCS among older
+        women.
+        In a combined model with all independent variables in a
+        logistic regression, island of residence remained the only
+        significant predictor of BCS in this population. Women
+        living on Oahu were 67% more likely to have BCS than women
+        on the outer islands. Although all other variables lost
+        their statistical significance, associations for age, TNM
+        stage, tumor size, and tumor grade remained similar in
+        magnitude as in the univariate models. Although none of the
+        ethnicity variables was significant, it appeared that
+        Filipino women were less likely to receive BCS than women
+        from all other groups. Residence on outer islands did not
+        explain this observation. Women with a TNM stage of IIB
+        were still 40% less likely to receive BCS than women
+        diagnosed at stage I, but the relation lost its statistical
+        significance due to the small number of cases. Menopausal
+        or marital status, type of health plan, or the number of
+        comorbidities were not related to the type of surgery.
+      
+      
+        Discussion
+        The place of residence at the time of diagnosis was the
+        most important predictor for receiving BCS in this dataset
+        of health plan members. Women with early stage breast
+        cancer living on Oahu were 70% more likely to have BCS than
+        women living on outer islands. Age at diagnosis and tumor
+        size were also related to breast cancer treatment although
+        they were not statistically significant in the combined
+        model. Contrary to our expectation and a previous
+        publication [ 13 ] , the number of comorbid conditions did
+        not effect treatment in this analysis. The importance of
+        geographic location can be explained by the availability of
+        radiation facilities on the different Hawaiian Islands.
+        Whereas on Oahu treatment facilities can be reached within
+        one hour, distances on the outer islands are much farther.
+        Only the Island of Hawaii and Maui have a radiation
+        facility, but they are hard to reach from many parts of the
+        islands. Women residing on Kauai, Molokai, and Lanai have
+        to fly to Honolulu daily to receive the course of treatment
+        or they have to remain there temporarily. Because this may
+        be not be economically feasible for some women, as well as
+        physically and psychologically challenging, it is possible
+        that many women choose to undergo a mastectomy instead.
+        Alternatively, patients and physicians in rural areas may
+        favor mastectomy because of differences in education or
+        cultural attitudes toward medical advances. We do not have
+        information to explain why a small proportion of women who
+        underwent BCS (6.9%) did not receive radiation. However,
+        compared to other reports [ 13 30 31 ] , the proportion of
+        women who received radiation is very high. An interview
+        study with cancer patients [ 32 ] showed that some patients
+        decide against their physicians' recommendation for
+        radiation because they fear the treatment or hold certain
+        beliefs about cancer. For other patients, radiation may
+        have been contraindicated due to comorbid conditions.
+        In 1994, a national BCS rate of 42.6% was reported [ 33
+        ] with a rate of 46.7% for the Pacific region (Hawaii,
+        California, Alaska, Washington, and Oregon). Our results
+        for 1995 to 1998 indicate a slightly higher rate for Hawaii
+        (52.8%). Geographic differences in BCS use have repeatedly
+        been described in the literature. In western Washington [
+        34 ] , women residing outside the Seattle area were less
+        likely to have BCS than women residing inside the county,
+        in particular if radiation therapy facilities were not
+        available in their county. Comparing rates across the
+        country showed that BCS was much more common in the
+        Northeast than in the South [ 33 ] . Low BCS rates were
+        also found in rural areas, such as North and South Carolina
+        [ 10 ] , Minnesota [ 35 ] , and the Southwest [ 36 ] . An
+        analysis of 1991-1992 SEER data [ 37 ] demonstrated a
+        strong association between BCS and distance to the next
+        radiotherapy facility. The likelihood of undergoing BCS was
+        50% lower among women living more than 15 miles from the
+        next radiotherapy facility.
+        In contrast to our results, a number of studies have
+        shown that the likelihood of BCS decreases with increasing
+        age [ 11 30 33 ] , possibly due to less concern about
+        cosmetic results. Because of the relatively small
+        proportion (21%) of women 65 years and older and the fact
+        that the women 65 years and older in our study had a health
+        plan other than Medicare, they were not directly comparable
+        to the populations in the published literature. Therefore,
+        our ability to observe an effect among older women was
+        limited. In particular, we were not able to examine the
+        treatment of women 80 years and older who have been
+        described as receiving more BCS than women age 65 to 79
+        years [ 13 ] . Our findings of lower BCS in smaller and
+        well differentiated tumors agree with previous studies [ 33
+        ] , but the absence of an effect of comorbid conditions
+        disagrees with a study in older women [ 13 ] that showed a
+        higher rate of BCS in women with comorbidities. Type of
+        health plan did not predict type of treatment in our study
+        probably because the majority of women in this data set had
+        a FFS plan. In previous analyses with a larger variety of
+        health plans, HMO members were considerably more likely to
+        receive BCS in San Francisco and in Seattle [ 19 ] .
+        Medicare and Medicaid patients received more BCS in a North
+        Carolina hospital [ 7 ] . However, a study using
+        administrative data [ 38 ] described lower BCS use among
+        Medicaid patients and treatment was similar by health plan
+        [ 39 ] in Northern California.
+        Our study had several limitations, including the
+        possibility of incomplete claims histories if patients
+        changed health plans during the course of treatment, but
+        the high agreement with HTR information indicates that the
+        validity of insurance claims information was high.
+        Continuing efforts by the health plan through feedback
+        loops has improved diagnostic coding [ 40 ] in Hawaii, but
+        as documented for Medicare claims, problems remain [ 41 ] .
+        As discussed above, our study sample of breast cancer
+        patients does not represent the population of the state,
+        excluding in particular Medicare and Medicaid recipients,
+        members of a typical HMO, and the relatively small number
+        of uninsured patients. The exclusion of Medicare claims
+        lead to a younger population, whereas the lack of Medicaid
+        claims biased the cases toward a higher socioeconomic
+        status. On the other hand, the study population represented
+        the population quite well in terms of ethnicity (Hawaii
+        Department of Business 1998 1705 /id). Because our data set
+        included 42.4% of all breast cancer cases under 65 years
+        diagnosed during the study period, the results represents
+        this population much better than the population of older
+        women. Also, we were unable to measure some factors that
+        have been found to be important in other reports, in
+        particular, influence of physician age [ 11 ] , physician
+        specialty [ 42 ] , type of hospital (teaching hospitals and
+        hospitals with radiation facilities, private, county and
+        public) [ 36 38 39 43 ] , socio-economic status and
+        education [ 42 ] , tumor-breast ratio and the expected
+        cosmetic results [ 7 9 ] , physician/patient interactions
+        before surgery [ 42 ] , and psychological factors, such as
+        fear of radiation or cancer [ 9 ] . The strengths of using
+        of insurance claims data for this analysis were twofold.
+        First, we had more detailed treatment information available
+        than collected by the tumor registry. Second, the
+        diagnostic codes in the claims data allowed us to estimate
+        the number of comorbid conditions before the cancer
+        diagnosis.
+        The results of this pilot study combining tumor registry
+        and insurance claims data raises an important issue for
+        cancer practice in the State of Hawaii and elsewhere.
+        Health care providers and insurance plans need to work with
+        other agencies to develop viable solutions to facilitate
+        access to radiation facilities for women residing in remote
+        locations, such as islands with no radiation facility.
+        Attitudes of patients and physicians living in rural areas
+        may be important in the choice of treatment, but could not
+        be investigated in this project. Future research that
+        includes interviews with patients and physicians may
+        investigate attitudes toward certain types of treatment and
+        identify additional barriers to BCS, such as psychological
+        problems. In order to understand how treatment decisions
+        were made in practice, qualitative information from
+        physicians and breast cancer patients should be collected
+        and examined in detail. Further validation of treatment and
+        comorbidity from insurance claims data would strengthen
+        this type of research in the future. The inclusion of a
+        larger proportion of breast cancer cases is needed to
+        establish the validity of our findings for the population
+        at-large.
+      
+      
+        Competing interests
+        None declared.
       
     
   

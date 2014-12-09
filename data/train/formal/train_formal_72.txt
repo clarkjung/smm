@@ -3,504 +3,495 @@
     
       
         Introduction
-        Transforming growth factor (TGF)-β is a dimeric protein
-        of 25 kDa molecular weight, originally isolated from
-        platelets [ 1 2 ] . There are three distinct mammalian
-        isoforms, TGF-β1, TGF-β2 and TGF-β3, with TGF-β1 being the
-        most abundant isoform. Almost all cell types express TGF-β,
-        but the highest level of expression of TGF-β is in
-        platelets and bone [ 3 ] . Mature TGF-β1 consists of two
-        identical peptide chains, each containing 112 amino acids,
-        linked via nine disulfide bonds [ 4 ] . TGF-β1 is
-        synthesized as part of a large, latent protein complex,
-        unable to bind to cellular receptors, with mature active
-        TGF-β1 produced by cleavage [ 5 ] .
-        TGF-β1 is a mutifunctional cytokine that plays an
-        important role in immunomodulation, inflammation and tissue
-        repair [ 6 ] . Many studies have suggested that TGF-β could
-        be a potential therapeutic reagent for the repair of soft
-        tissue and bone, and following ischemic injury. It may also
-        have applications for the treatment of chronic inflammatory
-        fibrotic and autoimmune diseases [ 7 8 ] . In contrast,
-        other studies have demonstrated that TGF-β1 can cause
-        inflammation and fibrosis [ 9 10 ] . The potential use of
-        TGF-β1 for the treatment of human disease thus remains
-        controversial [ 11 ] .
-        Rheumatoid arthritis is a systemic, autoimmune disease.
-        It is characterized by a chronic, erosive inflammation of
-        painful and debilitating joints, with progressive
-        degradation of cartilage and bone accompanied by
-        proliferation of the synovium [ 12 ] . Rheumatoid arthritis
-        remains incurable and, in many patients, difficult to
-        treat. As a novel approach to therapy, we and other workers
-        have focused on developing the methods for local transfer
-        of genes encoding therapeutic agents to the joint [ 13 14
-        15 16 17 18 19 ] . This strategy also can be applied to the
-        treatment of osteoarthritis and for aiding the repair of
-        the cartilage and other intra-articular tissues.
-        Since TGF-β1 has anti-inflammatory properties as well as
-        being able to stimulate new matrix synthesis by
-        chondrocytes, it represents a possible therapeutic agent
-        with which to treat pathologies associated with rheumatoid
-        arthritis and osteoarthritis by local gene delivery. Other
-        workers and ourselves have previously examined the effects
-        of TGF-β1 gene transfer on matrix synthesis in chondrocyte
-        cultures, demonstrating a significant stimulation in the
-        production of proteoglycans [ 9 ] . In addition, we have
-        demonstrated that the TGF-β1 gene was able to overcome the
-        inhibitory effects of IL-1β on matrix metabolism in
-        chondrocytes in culture [ 20 ] .
-        To examine the effect of TGF-β1 on joint pathology, we
-        used adenovirus-mediated intra-articular gene delivery to
-        confer sustained, intra-articular TGF-β1 expression in both
-        naïve and arthritic rabbit knee joints. Intra-articular
-        injection of adenoviral vector expressing human
-        transforming growth factor (Ad.TGF)-β1 resulted in a high
-        level of TGF-β1 accumulation in the synovial fluid.
-        Intra-articular TGF-β1 expression was anti-inflammatory,
-        inhibiting white blood cells. However, TGF-β1 expression
-        also induced significant pathology in the rabbit knee as
-        well as in the adjacent muscle, including stimulation of
-        glycosaminoglycan (GAG) release and nitric oxide synthesis,
-        and enhancement of fibrogenesis and muscle edema. These
-        results suggest that, although TGF-β1 may have
-        anti-inflammatory effects, sustained expression of TGF-β1
-        has adverse effects on joint pathology.
-      
-      
-        Materials and methods
+        Cancer evolves from the accumulation of mutations and
+        the deregulation of two classes of genes, oncogenes and
+        tumor suppressor genes. The large majority of breast
+        cancers arise in epithelia of the breast, and they are
+        thought to evolve from hyperplasia with atypia to carcinoma
+        in situ, invasive carcinoma, and, finally, metastatic
+        disease. The molecular mechanisms leading to breast
+        malignancies are unclear, but many genetic abnormalities
+        and epigenetic factors have been implicated, including
+        changes affecting known tumor suppressor genes ( 
+        p53 , 
+        BRCA1, BRCA2 , 
+        PTEN/MMAC1/TEP1) and proto-oncogenes 
+        (neu/ErbB2/HER2 , 
+        ErbB1/EGFR , 
+        PRAD-1/cyclin D1 , 
+        Mdm2 , and 
+        c-myc) [reviewed in ref. 1].
+        The gene product of 
+        PTEN ( 
+        phosphatase and 
+        tensin homolog deleted from
+        chromosome 10) is a lipid phosphatase that reverses the
+        activities of phosphatidylinositol 3-kinase (PI3K) by
+        dephosphorylating the D3 position of its lipid products,
+        phosphatidylinositol-3, 4 bis-phosphate (PtdIns(3,4)P2),
+        phosphatidylinositol-3,5 bis-phosphate (PtdIns(3,5)P2), and
+        3,4,5-tri-phosphate (PtdIns(3,4,5)P3) [ 2, 3], the elevated
+        levels of which are linked to the transforming ability of
+        PI3K [reviewed in ref. 4].
+        PtdIns(3,4)P2 and PtdIns(3,4,5)P3 recruit AKT (also
+        known as protein kinase B [PKB]) to the membrane through
+        the N-terminal pleckstrin homology (PH) domain of AKT
+        [reviewed in ref. 5]. Membrane localization renders AKT
+        permissive to phosphorylation by phosphatidyl
+        inositol-dependent kinases, PDK1 and PDK2, at Thr308 within
+        the activation loop and at Ser473 near the carboxyl
+        terminus. Phosphorylation activates the kinase domain of
+        AKT, which, in turn, phosphorylates target proteins on
+        serine and threonine residues. Substrates of AKT include
+        glycogen synthase kinase 3 (GSK3), p70/S6 kinase, BAD,
+        Caspase 9, 4E-BP1, IκB kinase α and members of the Forkhead
+        transcription family [reviewed in ref. 6, 7]. Constitutive
+        membrane localization of AKT leads to its deregulated
+        activation and can induce oncogenic transformation [ 8,
+        9].
+        All three human members of the AKT family are
+        over-produced in various human cancers. 
+        AKT1 is over-expressed in gastric
+        adenocarcinomas and breast cancer cell lines, 
+        AKT2 is amplified and over-expressed
+        in pancreatic, ovarian, and breast cancers, and 
+        AKT3 is upregulated in estrogen
+        receptor-deficient breast cancer and in
+        androgen-independent prostate cell lines [reviewed in ref.
+        6].
+        Consistent with the role of PTEN as a lipid phosphatase,
         
-          Vector construction
-          The recombinant adenoviral vector used in the present
-          study originates from replication-deficient type 5
-          adenovirus lacking E1 and E3 loci [ 21 ] . The human
-          TGF-β1 cDNA was inserted in place of the E1 region in the
-          shuttle plasmid pAd-Lox [ 22 ] , where expression is
-          driven by the cytomegalovirus promoter.
-          The recombinant Ad.TGF-β1 virus was generated by
-          Cre-Lox-driven recombination in Cre 8 cells [ 22 ] .
-          Briefly, a confluent 10 cm 2dish of Cre 8 cells (1.6 × 10
-          7) was split into five 6 cm 2dishes. Transfection of
-          these cells with pAd-Lox-human TGF-β1 was performed by
-          the calcium phosphate precipitation method with 3 μg
-          pAd-Lox-human TGF-β1 construct digested with 
-          Sfi I and 3 μg ψ5 helper virus DNA.
-          The transfected Cre 8 cells were fed daily until there
-          were visible plaques. The cells were harvested and
-          exposed to three cycles of freeze/thaw. The recombinant
-          virus was purified and amplified by infecting two 10 cm
-          dishes of Cre 8 cells using 100 μl lysate. The Ad.TGF-β1
-          virus was purified using cesium chloride gradient
-          ultracentrifugation at 154,000 
-          g (30,000 rpm) and 4°C, and then
-          dialyzed three times against Tris-buffered saline.
-          The titer was determined by measuring the viral DNA at
-          optical density 260 nm (OD 
-          260 nm ) using the formula: viral
-          particles = OD 
-          260 nm × dilution / 9.09 × 10 -13. The
-          adenovirus expressing luciferase was kindly provided by J
-          Kolls (LSU Medical Center, New Orleans, LA, USA).
-        
-        
-          Animals and experimental arthritis
-          New Zealand white rabbits, weighing 4-5 kg, were
-          purchased from Myrtles Rabbitry (Thompson Station, TN,
-          USA). To establish antigen-induced arthritis (AIA),
-          rabbits were sensitized to ovalbumin by intradermal
-          injections of 5 mg ovalbumin emulsified in Freund's
-          complete adjuvant. Arthritis was initiated in both hind
-          knees of rabbits 3 weeks later by the intra-articular
-          injection of 5 mg ovalbumin dissolved in 0.5 ml Gey's
-          saline. The different adenoviral vectors were injected
-          intra-articularly 24 hours after injection of
-          antigen.
-        
-        
-          Experimental protocol
-          Twenty-four hours after induction of AIA, adenoviral
-          particles encoding either the human TGF-β1 or luciferase
-          were suspended in 0.2 ml Gey's saline and injected into
-          the joint space of the knee through the patellar tendon.
-          Different doses of virus (1 × 10 7, 1 × 10 8and 1 × 10 9)
-          viral particles were injected intra-articularly into
-          three rabbits per group for analysis of the effects of
-          TGF-β1 on naïve joint pathology, and the treated rabbits
-          were sacrificed 7 days postinfection to observe the
-          dose-response effects. Another group of three naïve
-          rabbits was injected with 1 × 10 9viral particles and
-          sacrificed 17 days postinfection for long-term
-          observation.
-          There were two groups of AIA rabbits used in the
-          study. The first group of three rabbits was injected with
-          1 × 10 8viral particles, and the second group of six
-          rabbits was injected with 1 × 10 9viral particles. Each
-          rabbit received the indicated dose of TGF-β1 virus in one
-          knee and the same amount of the adenoviral vector
-          expressing luciferase (Ad.Luc) virus in the opposite knee
-          as the control.
-          To lavage the rabbit knee joints, 1 ml Gey's saline
-          was injected into the joint space through the patellar
-          tendon. After manipulation of the joint, the needle was
-          reinserted and the fluid was aspirated. Leukocytes in
-          recovered lavage fluids were counted using a
-          hemocytometer. The levels of TGF-β1 in conditioned media,
-          lavage fluids and sera were measured using an ELISA kit
-          (R & D Systems, Minneapolis, MN, USA) as directed by
-          the supplier. The levels of sulfated GAGs in lavage
-          fluids were determined using a colorimetric dye-binding
-          assay using 1,9-dimethylmethylene blue [ 23 ] . The
-          levels of total nitrite in lavage fluids were measured
-          with Nitric Oxide Assay kits (Calbiochem ®; Biosciences
-          Inc, La Jolla, CA, USA).
-          Articular cartilage fragments shaved from the femoral
-          condyles were placed into 1 ml Neuman-Tyell serum-free
-          medium (Gibco, New York, USA) to measure the rate of
-          proteoglycan synthesis. The fragments were then incubated
-          with 35SO 
-          4 2-(20 μCi) for 24 hours at 37°C, and
-          the media harvested and stored at -20°C. Proteoglycans
-          were extracted from the cartilage by incubation for 48
-          hours in 1 ml of 0.5 M NaOH at 4°C with gentle agitation.
-          Following chromatographic separation of unincorporated
-          35SO 
-          4 2-using PD-10 columns (Pharmacia,
-          Uppsala, Sweden), the levels of radiolabeled GAGs
-          released onto the culture media or recovered by alkaline
-          extraction were quantitated by scintillation counting [
-          24 ] .
-        
-        
-          Histology
-          For histological analyses, tissues harvested from
-          dissected knees were first fixed in 10% formalin. The
-          fixed tissues were imbedded in paraffin, sectioned at 5
-          μm, and stained with H & E.
-        
-        
-          Statistical analysis
-          All data collected are expressed as mean ± standard
-          error. Statistical significance was analyzed by analysis
-          of variance and Student's 
-          t test. Correlation coefficients ( 
-          r ) were calculated using Pearson's
-          method.
-        
+        PTEN -deficient human and mouse cells
+        have elevated levels of intracellular PtdIns(3,4,5)P3 [ 10,
+        11] and demonstrate constitutive activation of AKT in the
+        absence of growth factors [ 12, 13, 14]. The relationship
+        between components of this pathway is also conserved in
+        flies and worms.
+        A germline mutation in 
+        PTEN is associated with
+        multi-neoplastic, autosomally dominant syndromes in humans,
+        such as Cowden disease and Bannayan-Zonana syndrome (also
+        known as Bannayan-Riley-Ruvalcaba syndrome), and 20-50% of
+        affected females in these families develop breast cancer [
+        15, 16, 17]. The 
+        PTEN gene is also frequently deleted
+        or mutated in a variety of sporadic human malignancies,
+        such as glioblastoma and carcinomas of the prostate,
+        endometrium and breast. Although somatic mutations in the
+        gene have been detected in only about 1% of breast cancers,
+        loss of heterozygosity (LOH) at the 
+        PTEN locus (10q23) is frequently
+        found (approximately 40%), and 33% of breast tumors have no
+        detectable, or reduced, levels of the protein product [ 18,
+        19, 20, 21, 22].
+        Three independent mouse lines carrying inactivating 
+        Pten mutations have been made [ 23,
+        24, 25]. All mice homozygous for these 
+        Pten mutations die during early
+        embryogenesis. By 6 months of age, heterozygous mice
+        develop tumors of the lymphoid system, colon, uterus, and
+        adrenal medulla with very high penetrance, and tumors of
+        the prostate and thyroid with lower penetrance. While
+        benign mammary lesions, usually fibroadenomas, are found in
+        female mice after 7 months of age, few animals develop
+        ductal carcinomas [KP and RP, unpublished; 26], which
+        account for over 85% of human breast cancers.
+        In an effort to develop a model for studying the effects
+        of 
+        Pten inactivation in mammary
+        oncogenesis, we have introduced an additional genetic
+        alteration, an MMTV- 
+        Wnt-1 transgene, by breeding 
+        Pten heterozygotes [ 25] with MMTV- 
+        Wnt-1 transgenic (TG) mice [ 27].
+        Female mice harboring the 
+        Wnt-1 transgene develop extensive
+        mammary hyperplasia early in life, and 50% of them develop
+        mammary ductal carcinomas by 6 months of age [ 27]. This
+        transgene has been shown to collaborate with 
+        Fgf-3 and inactivation of 
+        p53 to accelerate the appearance of
+        mammary tumors [ 28, 30]. After a mutant allele of 
+        Pten was crossed into 
+        Wnt-1 TG mice, we found that ductal
+        carcinomas appeared earlier than either alteration alone
+        and that LOH at the 
+        Pten locus occurred in the majority
+        of these tumors, suggesting a selective growth advantage in
+        cells that lack 
+        Pten functions.
       
       
         Results
         
-          Expression of TGF-β1 after intra-articular
-          injection of Ad.TGF-β1
-          To test the effects of adenoviral-mediated human
-          TGF-β1 gene expression in naïve and AIA rabbit joints, 1
-          × 10 7, 1 × 10 8and 1 × 10 9particles of Ad.TGF-β1 were
-          injected into either naïve or arthritic rabbit knees. The
-          same amounts of Ad.Luc were injected into the
-          contralateral knees. Lavages were performed on day 3, day
-          7 and day 17, and the levels of TGF-β1 were determined by
-          ELISA (Fig. 1).
-          TGF-β1 expression was detected in all knee joints
-          receiving either 1 × 10 8or 1 × 10 9viral particles, with
-          higher levels detected in the arthritic knees. A
-          significant drop in TGF-β1 expression was observed after
-          17 days of post-viral injection. No significant levels of
-          TGF-β1 were detected in the 1 × 10 7viral particle
-          injection group and in the contralateral joints receiving
-          the different doses of luciferase virus. Furthermore, no
-          significant expression of TGF-β was detected in the
-          serum.
-          It is important to note that detection of TGF-β1 in
-          the synovial fluid required acid activation, suggesting
-          that the protein is in its latent form. Moreover, there
-          were no observed therapeutic or adverse effects following
-          intra-articular injection of the low dose (1 × 10
-          7particles) of Ad.TGF-β1.
-        
-        
-          Alterations in joint anatomy after intra-articular
-          Ad.TGF-β1 injection
-          Three days after injection of Ad.TGF-β1, the knees
-          receiving the highest dose of virus became enlarged with
-          a reduction in joint movement. In addition, the muscles
-          adjacent to the joints showed signs of swelling and
-          reduced movement. The animals were sacrificed on day 7
-          post-injection, and the joints were analyzed. The size of
-          the joints and the adjacent muscles increased
-          dramatically both in naïve rabbits (1.5 × contralateral
-          knees, 
-          P < 0.05) and in AIA rabbits
-          (1.25 × contralateral knees, 
-          P < 0.01) (Fig. 2).
-          The movement of joints was also severely limited, with
-          the Ad.Luc contralateral knees moving freely at 180°
-          whereas the knees treated with Ad.TGF-β1 virus could only
-          move at 90-120°. The limitation to joint movement was not
-          due to the enlarged muscles since, when the muscles were
-          cut away, the limitation of movement was still observed.
-          In addition, when the joints were analyzed 17 days after
-          viral injection, at a time when the muscle size returned
-          to normal, the joint still could not move freely. The
-          limitation to joint movement could thus be due to
-          possible synovial hyperplasia or effects on ligaments or
-          cartilage metabolism.
-          It is important to note that we did observe an
-          increase in creatine kinase levels in the serum that
-          would suggest muscle damage (data not shown). In contrast
-          to the high-dose TGF-β1 group, only a very mild effect
-          was observed on the gross joint structure in the group
-          receiving 1 × 10 8viruses and no changes were observed in
-          the group receiving 1 × 10 7viruses.
-        
-        
-          Effect of TGF-β1 on cartilage metabolism
-          To determine whether overexpression of TGF-β1 had
-          effects on cartilage metabolism in naïve and AIA rabbit
-          joints, GAG synthesis by articular cartilage and GAGs
-          released into synovial fluid as a result of proteoglycan
-          breakdown were measured. The rabbit joints receiving
-          Ad.TGF-β1 had significant higher levels of GAG release,
-          compared with the contralateral Ad.Luc joints, in lavage
-          fluids at day 3, day 7 and day 17 for the naïve rabbits
-          and at day 7 for the AIA rabbits (Fig. 3A,3B,3C). GAG
-          release levels correlated linearly with the levels of
-          TGF-β1 in lavage fluids ( 
-          r = 0.937) in the naïve rabbits. In
-          addition, only the highest dose of Ad.TGF-β1 was able to
-          stimulate GAG synthesis in the naïve rabbit joints from
-          day 7 and day 17, but the stimulation was marginal. There
-          was no statistically significant difference between GAG
-          synthesis by the naïve rabbits with the two lower doses
-          of viral injections and in the AIA rabbits (Fig.
-          3D,3E,3F).
-          Taken together, these results suggest that
-          intra-articular expression of TGF-β1 stimulated cartilage
-          matrix degradation while having only a minor effect on
-          the promotion of new matrix synthesis. This is in
-          contrast to the results observed on matrix synthesis in
-          chondrocytes in culture, where TGF-β1 was able to
-          stimulate significant new matrix synthesis as well as
-          overcome the suppressive effects of IL-1β on matrix
-          metabolism [ 21 25 ] .
-        
-        
-          Inhibition of white blood cell infiltration and
-          elevation of nitric oxide synthesis
-          To determine whether TGF-β1 expression could inhibit
-          the mild inflammation induced by intra-articular
-          injection of high doses of adenovirus or the severe
-          inflammation occurring in the AIA model, the levels of
-          white blood leukocytic infiltrate in the synovial lavage
-          fluids were determined (Fig. 4).
-          The joints of naïve rabbits receiving the highest dose
-          of Ad.TGF-β1 adenovirus had significantly lower levels of
-          white blood cell infiltration in lavage fluids at day 3,
-          day 7 and day 17. The white blood cell infiltration in
-          the naïve joints directly correlated with TGF-β1
-          expression levels in the lavage fluids ( 
-          r = 0.954). In the AIA rabbit knee
-          joints, there was a reduction in the infiltration at day
-          3 and day 7 compared with the contralateral control
-          Ad.Luc joints, consistent with TGF-β1 having an
-          anti-inflammatory effect. Surprisingly, TGF-β1 expression
-          elevated nitrate levels in the joints receiving high-dose
-          injections of TGF-β1 adenovirus at day 3, day 7 and day
-          17 for naïve rabbits and at day 7 for the AIA rabbits,
-          compared with the control joints (Fig. 4D,4E,4F). The
-          nitrate levels also directly correlated with the levels
-          of TGF-β1 in lavage fluids ( 
-          r = 0.945) for naïve rabbits.
-          These results suggested that TGF-β1 is indeed
-          anti-inflammatory in arthritic knees, but is able to
-          induce production of nitric oxide through an unknown
-          mechanism.
-        
-        
-          Histological analysis of the intra-articular
-          effects of TGF-β1
-          The naïve and AIA rabbit knee joints receiving
-          Ad.TGF-β1 and Ad.Luc were also examined by histology.
-          There was significant fibroblast proliferation around the
-          myofibers in the naïve rabbits joint receiving Ad.TGF-β1.
-          There was also mild hyperplasia of the synovial lining,
-          but without any evidence of inflammatory cells being
-          observed (Fig. 5A,5B). There were some inflammatory cells
-          in the contralateral synovial lining, but no evidence of
-          synovitis (Fig. 5C,5D). The synovium from the TGF-β1
-          virus treated joints was highly fibrotic 17 days after
-          viral injection, with evidence of osteometroplasia found
-          in the synovium (Fig. 5E,5F) but with no evidence of
-          inflammation or angiogenesis (Fig. 5F).
-          There was mild inflammation under the synovium in the
-          contralateral joints receiving Ad.Luc (Fig. 5G,5H). The
-          synovium in the Ad.TGF-β1-treated AIA rabbits showed
-          evidence of hyperproliferation with mild inflammation
-          (Fig. 5I,5J), compared with the contralateral control
-          joints that had severe inflammation (Fig. 5K,5L). In the
-          muscle tissue adjacent to Ad.TGF-β1-treated joints, there
-          was evidence of both fibroblast and myofibroblast
-          proliferation between myofibers with intracellular edema,
-          but there was no evidence of inflammation or myonecrosis
-          (Fig. 5M,5N). In contrast, the muscle tissue from the
-          contralateral controls knees was normal (Fig. 5O,5P).
-          There was also mild fibroblast proliferation and synovial
-          inflammation in the 1 × 10 8Ad.TGF-β group, but no
-          significant histological changes were observed in the 1 ×
-          10 7viral group.
-          These data taken together suggest that TGF-β1 is able
-          to stimulate fibrogenesis and to suppress inflammation.
-          Moreover, the results suggest that elevated TGF-β1 levels
-          result in chondrogenesis within the synovial tissue.
-        
+        Wnt-1 TG mice have been used to
+        assess the functions of a number of genetic lesions in
+        breast carcinogenesis because tumors appear with
+        predictable kinetics. The median age at which tumors are
+        detected is 5-6 months in MMTV- 
+        Wnt-1 TG females [ 27, 28, 30, 31].
+        After one mutated allele of 
+        Pten was bred into this transgenic
+        line, tumors appeared significantly earlier than in sibling
+        females harboring only a MMTV- 
+        Wnt-1 transgene (P < 0.001, Fig.
+        1A). Fifty percent of 
+        Pten +/-, 
+        Wnt-1 TG female mice formed tumors by
+        3.5 months, 2.5 months earlier than 
+        Wnt-1 TG mice (Fig. 1A). While it
+        took one year for the entire cohort (15) of 
+        Wnt-1 TG females with a wild type 
+        Pten background to develop tumors,
+        all 
+        Wnt-1 TG, 
+        Pten +/- females showed tumors by 5
+        months of age. Five each of 
+        Pten +/- mice without a 
+        Wnt-1 transgene were monitored for 7
+        months and 10.5 months, but none developed any palpable
+        mammary lesions. These observations differ from a recent
+        report that one of the other two 
+        Pten +/- lines develops fibroadenomas
+        and adenocarcinomas in the mammary tissue after 7 months of
+        age [ 26]. The lack of a mammary phenotype in our studies
+        could be due to differences in the targeting constructs,
+        the genetic backgrounds, or even environmental agents.
+        By one year of age, approximately 15% of 
+        Wnt-1 TG males have been reported to
+        develop mammary tumors [ 27, 28, 31]. In our cross, one of
+        the four tumors from 
+        Wnt-1 TG males, in an otherwise wild
+        type background, was a mammary carcinoma; the other three
+        tumors were salivary in origin, with a similar
+        histopathology to the mammary lesion. The appearance of
+        tumors was greatly accelerated in the 
+        Pten heterozygous background (Fig.
+        1B). Fifty percent of males developed tumors by 5.5 months
+        of age, and all developed tumors within 10 months. As in
+        the case of 
+        Wnt-1 TG male mice without 
+        Pten mutations, the majority of
+        tumors (14/22) arose in the salivary tissue; only a small
+        number of tumors (2/22) were mammary in origin, and,
+        interestingly, some (6/22) were bilateral or unilateral
+        muzzle tumors of epithelial origin, similar
+        histopathologically to lesions found in mammary and
+        salivary tissues.
+        To determine if the wild type allele of 
+        Pten was inactivated in tumors
+        arising in a 
+        Pten +/- background, 11 tumors from 
+        Wnt-1 TG, 
+        Pten +/- mice were examined for LOH
+        by Southern hybridization. Seven tumors had lost the wild
+        type 
+        Pten allele (see Fig. 2for an example
+        of the analysis). This result suggests that, in
+        tumorigenesis, cells that lack a functional allele of 
+        Pten have a significant proliferative
+        advantage over the cells that retain the normal copy of 
+        Pten .
+        Histological examination showed that tumors from 
+        Wnt-1 TG mice, regardless of 
+        Pten status, were adenocarcinomas
+        with cribriform, cystic and focal papillary growth
+        patterns. However, 3 of the 6 tumors that were 
+        Wnt-1 TG, 
+        Pten +/- with LOH appeared to have a
+        higher nuclear grade, more cellular stroma and a more
+        infiltrative pattern compared to the tumors without a 
+        Pten defect (Fig. 3), suggesting a
+        more aggressive phenotype.
+        In human cancer, a tumor suppressor gene can be
+        inactivated by mutations, chromosomal loss, promoter
+        silencing, and other means. To determine if the Pten
+        protein was produced in 
+        Wnt-1 TG, 
+        Pten +/- tumors that did not undergo
+        LOH, sections were analyzed using an immunohistochemical
+        assay with a polyclonal rabbit antibody. Abundant amounts
+        of Pten were detected in mammary ducts from wild type mice.
+        Pten was detected, at reduced levels, in both hyperplastic
+        ducts and mammary tumors that did not have LOH at the 
+        Pten allele (Fig. 4), suggesting that
+        Pten was, indeed, made from the second allele. Similar low
+        levels of Pten were also detected in mammary ductal
+        epithelial cells in 
+        Pten heterozygous mice that did not
+        have a 
+        Wnt-1 transgene, suggesting that the 
+        Wnt-1 transgene does not influence 
+        Pten expression. As expected, Pten
+        was not detected in tumors that had undergone LOH at the 
+        Pten locus (Fig. 4E).
+        Inactivation of 
+        Pten promotes membrane recruitment of
+        AKT and its subsequent activation by phosphorylation at
+        Ser473 and Thr308 [ 10, 11, 13]. All three human isoforms
+        of AKT have been found to be deregulated in human breast
+        cancer cells [ 32, 33, 34]. To determine if activated AKT
+        was increased in tumors that had a 
+        Pten defect, these sections were
+        stained using an antibody that specifically detects AKT1
+        phosphorylated at Ser 473 (and AKT2 and AKT3 phosphorylated
+        at equivalent sites). Tumors that were 
+        Wnt-1 TG, 
+        Pten +/- with LOH displayed staining
+        of phosphorylated AKT (Fig. 5A). Surprisingly, the staining
+        was patchy, suggesting additional factors may be required
+        for AKT activation. As expected, phosphorylated AKT was
+        undetectable in hyperplastic ducts, in tumors from 
+        Wnt-1 TG, 
+        Pten +/+ mice, and tumors from 
+        Wnt-1 TG, 
+        Pten +/- mice that retained the wild
+        type allele (Fig. 5B & C).
+        Several apoptotic pathways may be inhibited upon
+        activation of AKT, promoting maintenance and survival of
+        tumor cells. Cellular proliferation may also be enhanced by
+        activated AKT, which inhibits p27 and GSK-3 (leading to
+        stabilization of cyclin D1) [ 35]. However, tumors from 
+        Wnt-1 TG, 
+        Pten +/+ mice have low apoptotic
+        rates (40 ± 16 per digital camera field using a 20x
+        objective) and high proliferation rates (53% ± 11). Neither
+        apoptotic nor proliferation rates were affected by the
+        status of 
+        Pten when measured by the TUNEL
+        (terminal deoxynucleotidyltransferase-mediated UTP end
+        labeling) assay, which labels the ends of fragmented DNA
+        present in apoptotic cells, and immunohistochemical
+        staining for Ki67, a cell proliferation marker (data not
+        shown).
+        Most 
+        Wnt-1 TG mice (38/49) developed only
+        one palpable tumor regardless of 
+        Pten status. Fifty-three of 55 single
+        sections from 
+        Pten +/+ glands that were free of a
+        palpable mass did not show any lesions more advanced than
+        ductal hyperplasia. However, at the time of sacrifice, the
+        majority (50/56) of glands from 
+        Wnt-1 TG 
+        , Pten+/- mice had intra-ductal
+        squamous lesions of various sizes (Fig. 3D). These squamous
+        lesions were usually multi-focal and located both at the
+        periphery of the adenocarcinomas and in other mammary
+        glands free of adenocarcinomas.
+        Since 
+        Pten mutations are usually found in
+        advanced tumors, and the protein has been suggested to
+        inhibit cell spreading, migration, and invasion [ 36, 37],
+        it is possible that the tumors from 
+        Wnt-1 TG, 
+        Pten +/- mice may have a higher
+        potential to metastasize than those from mice carrying a 
+        Wnt-1 transgene in a wild type 
+        Pten background. 
+        Wnt-1 TG mice occasionally show
+        lymphoid or pulmonary metastasis [ 27], and serial
+        sectioning of lung tissues from the animals reported here
+        revealed microsocopic metastatic foci in two of five lungs
+        from 
+        Wnt-1 TG mice bearing primary tumors
+        1.5-2.0 cm in size. However, 
+        Wnt-1 TG mice and the 
+        Wnt-1 TG, 
+        Pten +/- mice harbored metastatic
+        foci at similar frequencies (5/10). (Statistical evaluation
+        was not performed because the sample sizes were too
+        small.)
       
       
         Discussion
-        TGF-β1 is a mutifunctional cytokine that plays an
-        important role in immunomodulation, inflammation and tissue
-        repair. Given that TGF-β1 is able to induce new matrix
-        synthesis from chondrocytes in culture as well as able to
-        block inflammation 
-        in vivo , it has been proposed that
-        local intra-articular gene transfer of TGF-β1 could be
-        therapeutic for the treatment of rheumatoid arthritis as
-        well as osteoarthritis. To examine the effects of TGF-β1 on
-        joint pathology, we used adenovirus-mediated
-        intra-articular gene delivery to confer sustained
-        intra-articular TGF-β1 expression in both naïve and
-        arthritic rabbit knee joints. Intra-articular injection of
-        Ad.TGF-β1 virus into the rabbit knee resulted in
-        dose-dependent elevated levels of expression of TGF-β1 in
-        the synovial fluid, but not in the serum.
-        Intra-articular TGF-β1 expression resulted in
-        dose-dependent biological effects in the rabbit knee as
-        well as in adjacent muscle. In particular, local
-        intra-articular expression in naïve joints stimulated
-        cartilage breakdown, as measured by synovial GAG levels,
-        without enhancing new matrix synthesis. In addition, TGF-β1
-        expression stimulated nitric oxide production. Similarly,
-        in arthritic joints where TGF-β1 expression inhibited white
-        blood cell infiltration, it also stimulated GAG release and
-        nitric oxide production. Although there was a reduction in
-        inflammation in arthritic joints, TGF-β1 expression induced
-        fibrogenesis and muscle edema. In addition, TGF-β1
-        expression in the adenovirally infected synovial lining
-        also resulted in induction of chondrogenesis in the
-        synovium. Elevated TGF-β1 expression in the synovial fluid
-        thus resulted in a variety of adverse pathological
-        changes.
-        A previous study examined the effect of Ad.TGF-β1 in the
-        knee joints of naïve C57/Bl/6 mice where gene transfer of
-        TGF-β1 to the mouse knee resulted in hyperplasia of the
-        synovium as well as in chondro-osteophyte formation at the
-        chondrosynovial junctions [ 10 ] . The present experiments
-        have shown similar effects on synovial proliferation, but
-        also have extended the murine studies to examine the
-        effects of TGF-β1 in both diseased knee joints and normal
-        knee joints in the rabbit. Similar to the previous report,
-        we have observed evidence for intra-synovial chondrogenesis
-        as well as osteometroplasia following TGF-β1 gene transfer.
-        Whether TGF-β1 directly or indirectly stimulates
-        proliferation of synovium is unclear, but this pathology
-        apparently is mediated through an IL-1β-independent
-        mechanism.
-        It has been speculated that intra-articular delivery of
-        TGF-β1 would result in enhanced synthesis of new matrix [ 9
-        ] . Indeed, we have reported previously that the TGF-β1
-        gene is more effective than insulin-like growth factor type
-        1 and bone morphogenetic protein type 2 genes in
-        stimulating new matrix synthesis from rabbit chondrocytes
-        in culture. We have also demonstrated that TGF-β1 is able
-        to partially overcome the inhibition of new matrix
-        synthesis by IL-1β in cultured chondrocytes. The results
-        presented in the present article, however, suggest that
-        TGF-β1 expression is unable to enhance new matrix synthesis
+        Mouse models are valuable research tools for the study
+        of the molecular mechanisms of oncogenesis and for the
+        testing and screening of cancer therapeutic agents targeted
+        to specific oncogenic lesions. In order to produce such a
+        model for studying the effects of 
+        Pten mutations in breast cancer, we
+        have crossed 
+        Wnt-1 TG mice to mice heterozygous
+        for 
+        Pten . Mice transgenic for MMTV- 
+        Wnt-1 and heterozygous for 
+        Pten developed mammary
+        adenocarcinomas much earlier than mice carrying either
+        lesion alone. The majority of tumors in 
+        Wnt-1 TG, 
+        Pten +/- mice had lost the wild type
+        allele of 
+        Pten , suggesting that the complete
+        inactivation of 
+        Pten function provides an additional
+        growth advantage to these tumors. LOH at the 
+        Pten locus has recently been reported
+        in mammary tumors arising in 
+        Pten heterozygous mice [ 26], but
+        only 4% of the mice developed tumors before the age of 30
+        weeks, and, in our cross, none of the 
+        Pten +/- mice without the 
+        Wnt-1 transgene had a palpable
+        mammary tumor before the age of 30 weeks. LOH at the 
+        Pten locus has also been reported in
+        adrenal and lymphatic tumors, but not in uterine tumors and
+        prostate lesions in 
+        Pten +/- mice [KP & RP,
+        submitted; 38].
+        Activated AKT was more abundant in tumors that were 
+        Wnt-1 TG, 
+        Pten +/- with LOH, as has been shown
+        for uterine tumors in 
+        Pten heterozygous mice (KP, RP,
+        submitted). The presence of areas unstained with antibody
+        specific for phosphorylated AKT suggests that additional
+        factors other than Pten may influence the activation of
+        AKT.
+        Neither apoptosis nor proliferation, as determined by
+        the TUNEL assay and KI67 staining, was significantly
+        different between tumors heterozygous for 
+        Pten (with or without LOH) and those
+        without a 
+        Pten defect. This result may seem
+        paradoxical since increased phosphorylated AKT, due to
+        inactivation of 
+        Pten , suppresses apoptosis and
+        promotes proliferation. However, tumors in 
+        Wnt-1 TG mice in a wild type 
+        Pten background already have highly
+        suppressed apoptosis and accelerated proliferation rates,
+        and any incremental changes, if present, may be difficult
+        to detect with our current assays. Nonetheless, a seemingly
+        minor difference in either apoptosis or proliferation could
+        have a dramatic impact on tumor growth over time.
+        Accelerated appearance of mammary adenocarcinomas in the
+        presence of a 
+        Pten mutation suggests a synergy
+        between 
+        Pten inactivation and the 
+        Wnt-1 transgene. The apparent
+        cooperation of these two genetic factors is further
+        strengthened by our finding that the majority of tumors
+        arising in a 
+        Pten +/- background have lost the
+        wild type allele. To date, heterozygous inactivation of any
+        of the other tumor suppressor genes implicated in breast
+        cancer, including 
+        P53, Brca1, Brca2 , and 
+        Rb , has failed to cooperate with 
+        Wnt-1 in promoting the appearance of
+        mammary tumors [reviewed in ref. 39]. Therefore, it is
+        possible that the signal pathway controlled by 
+        Pten is one of the preferred partners
+        of the 
+        Wnt-1 pathway in cancer progression,
+        although it remains possible that LOH at the 
+        Pten locus is more likely to occur
+        than for the other alleles crossed into 
+        Wnt- 1 TG mice. Even though 
+        Wnt-1 has not been directly
+        implicated in human cancers, many components of the Wnt
+        signaling pathway (such as β-catenin, APC, 
+        c-myc, and 
+        cyclin D 1) are involved in human
+        tumors including breast cancer [reviewed in ref. 40].
+        One of the goals of mouse modeling efforts is to provide
+        an opportunity for pre-clinical testing of generalized or
+        mechanism-specific therapeutics in a defined genetic
+        setting. Many human breast tumors have reduced levels of
+        PTEN, hence inhibitors of the cell signaling pathways
+        affected by PTEN could be tested in the model we have
+        developed. One such candidate is the rapamycin analog
+        CCI779, which has been suggested to inhibit the AKT
+        signaling pathway, probably through inhibition of mTOR
+        (target of rapamycin), a potential target of AKT [reviewed
+        in ref. 41]. CCI779 has been shown to have inhibitory
+        effects on the growth of 
+        Pten -deficient tumors in the uterus
+        and prostate in mice (KP & RP, submitted; M. Neshat
+        & C. Sawyers, submitted). Since tumors arise rapidly
+        after a copy of 
+        Pten is inactivated, and with
+        predictable kinetics, this model may be useful for testing
+        the efficacy of these therapies.
+        Results presented here and published earlier [ 15, 16,
+        17, 18, 26] have clearly demonstrated the significant
+        impact of 
+        Pten on mammary oncogenesis. Future
+        testing will examine the tumorigenic effects caused by
+        other kinds of genetic damage in the signaling pathways
+        affected by Pten. The TVA-directed gene delivery system
+        [reviewed in ref. 42] can be used to introduce viral
+        vectors carrying genes encoding an activated form of PI3K,
+        AKT, or candidate substrates for AKT into the mammary
+        tissue of 
+        Wnt-1 TG mice. This would allow the
+        testing of therapeutic interventions directed to specific
+        steps of the signaling pathway regulated by Pten.
+      
+      
+        Materials and methods
         
-        in vivo in either naïve joints or, in
-        particular, in diseased joints. Moreover, it appears as if
-        TGF-β1 confers adverse effects by stimulating cartilage
-        degradation through an unknown mechanism. In contrast to
-        the adverse effects of intra-articular adenoviral gene
-        transfer of TGF-β1, we have shown that gene transfer of
-        insulin-like growth factor type 1 to the rabbit knee
-        results in an increase in new matrix synthesis without any
-        adverse effects [ 17 ] .
-        Taken together, these results suggest that increasing
-        the intra-articular levels of TGF-β1 has no therapeutic
-        effect on cartilage metabolism, resulting instead in higher
-        rates in cartilage degradation. Use of the synovium as a
-        target tissue for TGF-β1 gene transfer, resulting in
-        elevating the intra-articular level, is thus not
-        appropriate for the enhancement of repair of cartilage
-        defects. Instead, for TGF-β1 gene therapy to be effective
-        in promoting repair of damaged cartilage, the level of
-        TGF-β1 will need to be highly regulated as well as
-        expression localized. TGF-β1 expression would need to be
-        targeted, at the appropriate levels, to the site of
-        cartilage damage, such as through gene transfer to
-        chondrocytes or stem cells involved in repairing the
-        damaged tissues.
-        TGF-β1 has been shown to be therapeutic in several
-        different animal models when expressed systemically from
-        muscle tissue [ 26 27 ] . This suggests that elevated serum
-        levels of TGF-β1 can reduce general inflammation as well as
-        inhibit IL-1β and tumor necrosis factor alpha production,
-        resulting in a systemic therapeutic effect. In addition,
-        TGF-β1 has been shown to be therapeutic in murine models of
-        collagen-induced arthritis following delivery in
-        genetically modified T cells [ 28 ] . This observation
-        suggests that targeting TGF-β1 to certain sites of
-        inflammation through the use of arthogenic T cells also can
-        be therapeutic. However, our results suggest that local
-        expression of TGF-β1, unlike systemic expression, is not
-        therapeutic due to adverse pathologies associated with
-        elevated intra-articular TGF-β1 expression.
-        Although our results do not preclude the development of
-        gene therapy approaches to express regulated TGF-β1
-        systemically to downmodulate the immune response, the
-        results suggest that any clinical application of local
-        TGF-β1 gene transfer should proceed with caution. TGF-β1 is
-        clearly a potent cytokine, able to confer multiple effects
-        when expressed intra-articularly 
-        in vivo .
-      
-      
-        Conclusion
-        Gene transfer represents a novel method for obtaining
-        high intra-articular levels of therapeutic agents for the
-        treatment of arthritis. TGF-β1 is able to stimulate new
-        matrix synthesis by chondrocytes in culture as well as able
-        to reduce inflammation 
-        in vivo . In this report, the effects
-        of intra-articular expression on both naïve and arthritic
-        rabbit knee joint pathology were examined by
-        adenoviral-mediated intra-articular gene transfer of
-        TGF-β1. The results suggest that elevated TGF-β1 expression
-        confers adverse joint pathology including an increase in
-        cartilage matrix degradation without stimulating new matrix
-        synthesis. In addition, TGF-β expression induces muscle
-        edema and fibrogenesis.
-        Although TGF-β1 may have certain anti-inflammatory
-        properties, it is unable to stimulate repair of damaged
-        cartilage, and even stimulates cartilage degradation.
-        Moreover, elevated TGF-β1 expression also induced muscle
-        edema and fibrogenesis. Gene transfer of TGF-β1 to the
-        synovium is thus not suitable for treating intra-articular
-        pathologies, such as the repair of damaged cartilage,
-        associated with rheumatoid arthritis and
-        osteoarthritis.
-      
-      
-        Competing interests
-        None declared.
-      
-      
-        Abbreviations
-        Ad.Luc = adenoviral vector expressing luciferase; Ad.TGF
-        = adenoviral vector expressing human transforming growth
-        factor; AIA = antigen-induced arthritis; ELISA =
-        enzyme-linked immunosorbent assay; GAG = glycosaminoglycan;
-        H & E = hematoxylin and eosin; IL = interleukin; TGF =
-        transforming growth factor.
+          Mice
+          MMTV- 
+          Wnt-1 TG mice [ 27] and those that
+          carry a mutant allele of 
+          Pten [ 25] have been described.
+          Male 
+          Wnt-1 TG mice (a mixture of FVB,
+          SJL, and C57BL/6) were crossed with 
+          Pten heterozygous females (a
+          mixture of C57BL/6 and 129SvJ) to generate all three
+          genotypes used in this paper: 
+          Wnt-1 TG, 
+          Pten +/-; 
+          Wnt-1 TG, 
+          Pten +/+; and 
+          Pten +/-. Genotyping for the 
+          Wnt-1 transgene was done using PCR
+          as described [ 27]; PCR using primers from the neo
+          cassette was performed to detect the 
+          Pten knockout allele. Mice were
+          monitored weekly for tumor formation by visual inspection
+          and/or palpation; most tumors were found when they were
+          approximately 0.5 cm. Most of tumors were harvested for
+          further analysis when they were 1.5 cm in diameter.
+          Tissues were fixed in 10% buffered formalin and
+          paraffin-embedded. For histological survey, one H-E
+          section per block was analyzed.
+        
+        
+          Immunohistochemical staining and TUNEL assay
+          Formalin-fixed and paraffin-embedded sections were
+          deparaffined and rehydrated in several changes of xylene,
+          ethanol, and water. Antigen-unmasking was achieved by
+          boiling the slides for 15 minutes in citrate buffer, pH
+          6.0, or 1 mM EDTA. Endogenous peroxidase activity was
+          inactivated by a 5 minute incubation in 3% hydrogen
+          peroxide, when needed. Immunohistochemical stainings were
+          performed using Vector ABC kits (Vector Laboratories)
+          following the manufacturer's recommendations and as
+          described [ 25]. Rabbit antibodies against Pten, Ki67,
+          and AKT phosphorylated at Ser 473 were from Neomarkers,
+          Dako, and New England BioLabs, respectively. The TUNEL
+          assay was performed as described [ 25].
+        
+        
+          Southern hybridization
+          DNAs extracted from tissues and tumors were digested
+          with 
+          Pst I, followed by electrophoresis,
+          and blotted to Nylon+ membrane. Hybridization was done in
+          ExpressHyb solution (Clontech) at 60°C using a 32P
+          dCTP-labeled probe that was synthesized from a 0.9 Kb
+          template located in intron 5 of 
+          Pten [ 25] using the RTS RadPrime
+          DNA labeling system (Life Technologies). The probe was
+          incubated with Cot-1 DNA (Life Technologies) at 70°C for
+          10 minutes before addition to the hybridization
+          solution.
+        
       
     
   

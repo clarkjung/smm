@@ -3,483 +3,587 @@
     
       
         Background
-        The statistical model proposed in [ 1] for one probe set
-        in multiple oligonucleotide arrays has the form
-               (1)
-        It states that the perfect match (PM)/mismatch (MM)
-        difference in array 
-        i, probe 
-        j of this probe set is the product of
-        model-based expression index (MBEI) in array 
-        i (θ 
         
-          i 
-         ) and probe-sensitivity index of probe 
-        j ( 
-        
-          j 
-         ) plus random error. Here 
-        J is the number of probe pairs in the
-        probe set. Fitting the model, we can identify
-        cross-hybridizing probes ( 
-        
-          j 
-         with large standard error (SE), which are excluded
-        during iterative fitting) and arrays with image
-        contamination at this probe set (θ 
-        
-          i 
-         with large SE), as well as single outliers (image
-        spikes) which are replaced by the fitted values. In effect
-        the estimated expression index θ 
-        
-          i 
-         is a weighted average of PM/MM differences:
-        
-        with larger weights given to probes with larger . The
-        image of outliers (array and single outliers) identified
-        through model-fitting can be used to assess the quality of
-        an experiment and to identify unexpected problems such as a
-        misaligned corner of a DAT file [ 1].
-        We have investigated several important properties of the
-        model, including the reliability and stability of the
-        fitted parameters MBEI (θ) and probe sensitivity indexes (
-        ), the performance of MBEI compared to the commonly used
-        average difference (AD), and how the availability of SE
-        facilitates downstream comparative and clustering
-        analysis.
-      
-      
-        Results and discussion
-        
-          Probe-sensitivity indexes are stable across tissue
-          types
-          In practice, in an array experiment, a researcher
-          hybridizes tissue or cell line samples, corresponding to
-          different treatments or conditions, to a batch of arrays.
-          Ideally, the probe-sensitivity index ( ) should be
-          independent of the tissue type. This condition, however,
-          may not hold for those probes that have
-          cross-hybridization affinity to non-target genes.
-          Nevertheless, assuming that a non-target gene
-          cross-hybridizes only to a few probes of a probe set, and
-          its expression levels across arrays do not correlate with
-          the target gene, the iterative probe-excluding procedure
-          in [ 1] may be able to exclude cross-hybridizing probes,
-          regardless of the tissue type hybridized. In addition,
-          the relative probe-sensitivity indexes of the good probes
-          called by the model are likely to be similar across sets
-          of arrays hybridizing to different tissue samples.
-          The stability of the probe-sensitivity index is
-          studied using 226 HU6800 arrays. We apply the model
-          (equation 1) independently to six sets of HU6800 arrays
-          (21 leukemia, lymphoma and mantle cell samples, 20
-          prostate cancer cell lines, 17 brain tumor samples, 55
-          cancer cell lines, 58 brain samples, and 55 lung tumor
-          samples). Figure 1ashows the values fitted for probe set
-          6457 (used in Figure 1and 2of [ 1]) in the six array
-          sets. The patterns resemble each other greatly, showing
-          that the probe-sensitivity index is an inherent property
-          of these non-cross-hybridizing probes and can be
-          consistently identified from different sets of arrays.
-          Figure 1bshows the patterns for another probe set. It is
-          noteworthy that the probe 11 in array set 5 is likely to
-          be cross-hybridizing, making its relative strength (here
-          MM is consistently larger than PM and this leads to a
-          negative ) dissimilar to the probe 11 in other array
-          sets. The model identifies this probe as a
-          'probe-outlier' only for array set 5 and excludes it when
-          calculating MBEI ( 
-          0 ) for array set 5.
-          In Figure 1a,bthe target gene is present in most
-          samples of all array sets. For a probe set whose target
-          gene is mostly absent throughout samples (Figure 1c),
-          many probes are identified as probe-outliers because of
-          their negative indexes. Here, we cannot obtain correct
-          probe-sensitivity indexes because of the absence of the
-          target gene. Nevertheless, the PM-MM values for these
-          probes are random fluctuations around zero, leading to a
-          correct expression index close to zero. If the target
-          gene becomes available for a future array set, the
-          correct probe-sensitivity indexes will be recovered and
-          these probes will be used for expression calculation.
-          Occasionally, a responsive probe set may give rise to
-          very different estimates in two array sets. In Figure 1b,
-          probes 8 and 13 have different relative responses in
-          array set 1 and 4, leading to different probe-response
-          patterns. This might be due to the possibility that the
-          probes in this probe set are differentially
-          cross-hybridized in different array sets, or that the
-          same probe in different batches of arrays may
-          systematically behave differently. Identification and
-          flagging such probe sets is desirable and essential if we
-          want to compare arrays hybridized to different tissue
-          samples.
-          Figure 2shows the boxplots of average pairwise
-          correlations of values between two array sets, stratified
-          by average lower presence proportion in the two sets. In
-          general, when a gene is present in many samples of two
-          array sets, the patterns estimated from the two sets are
-          very similar. The target gene's presence in many arrays
-          of an array set allows the probe-sensitivity index to be
-          estimated accurately.
+          Back propagation NN (BPNN)
+          The back propagation NN (BPNN) is one of the most
+          commonly usedNN [ 22 ] and is the NNchosen for many
+          genetic epidemiology studies [ 4 5 6 7 8 9 10 11 12 ] .In
+          this study, we used a traditional fully-connected,
+          feed-forwardnetwork comprised of one input layer, zero,
+          one, or two hidden layers,and one output layer, trained
+          by back propagation. The softwareused, the NICO toolkit,
+          was developed at the Royal Institute ofTechnology,
+          http://www.speech.kth.se/NICO/index.html.
+          Defining the network architecture is a very important
+          decisionthat can dramatically alter the results of the
+          analysis [ 23 ] . There are a variety of
+          strategiesutilized for selection of the network
+          architecture. The featuresof network architecture most
+          commonly optimized are the number of hiddenlayers and the
+          number of nodes in the hidden layer. Many of
+          theseapproaches use a prediction error fitness measure,
+          such that theyselect an architecture based on its
+          generalization to new observations [ 23 ] , while others
+          use classification error,or training error [ 24 ] . We
+          chose to useclassification error rather than prediction
+          error as a basis forevaluating and making changes to the
+          BPNN architecture because weuse prediction error to
+          measure the overall network fitness. Webegan with a very
+          small network and varied several parameters includingthe
+          number of hidden layers, number of nodes in the hidden
+          layer,and learning momentum (the fraction of the previous
+          change in aweight that is added to the next change) to
+          obtain an appropriatearchitecture for each data set. This
+          trial-and-error approach iscommonly employed for
+          optimization of BPNN architecture [ 24 25 ] .
         
         
-          Model-based analysis for PM-only arrays
-          From Figure 1of [ 1], one can see that some MM probes
-          may respond poorly to the changes in the expression level
-          of the target gene. This phenomenon raised questions on
-          the efficiency of using MM probes, and led some
-          investigators to design custom arrays that use PM probes
-          exclusively (R. Abagyan and Yingyao Zhou, personal
-          communication; B.R. Conklin, personal communication), and
-          others to calculate fold changes using only PM probes (F.
-          Naef, personal communication). This design greatly
-          increases the number of genes that can be studied on one
-          array. To investigate the relative performance of PM/MM
-          versus PM-only designs, we exploited the model to
-          estimate gene expression levels using only PM probes, and
-          compared it to the MBEI using both PM and MM probes.
-          The full intensity model (equation 1 of [ 1])
-          specifies the relationship of PM probe responses and
-          expression level θ:
-                 (2)
-          where 
-          v 
-          
-            j 
-           is the baseline response of probe pair 
-          j due to nonspecific hybridization,
-          and ' 
-          
-            j 
-           is the sensitivity of PM probe of the probe pair 
-          j . The parameter estimates can be
-          obtained by iteratively fitting θ 
-          
-            i 
-           and 
-          v 
-          
-            j 
-           , ' 
-          
-            j 
-           , regarding the other set as known. The same outlier
-          exclusion procedure in [ 1] is applied. The MM probe
-          responses have a similar form as equation 2 except for
-          different probe-sensitivity indexes. We fit a PM-only and
-          an MM-only model to obtain expression values of all
-          20-probe probe sets using array set 1. For comparison, we
-          also used half of the probe pairs (by alternatively
-          picking one out of every two probes) in a 20-probe probe
-          set to fit to the difference model (equation 1). For each
-          probe set, these three sets of expression values were
-          compared with the expression values of the original
-          difference model using 20 probes, in terms of correlation
-          of θs obtained by two methods across the 21 arrays. We
-          assumed the 20-probe difference model provides the most
-          accurate expression estimates. If, for a probe set, a
-          simplified model (PM-only, MM-only or 10-probe difference
-          model) performs reasonably well, we expect its θ
-          estimates to correlate with that from the 20-probe
-          difference model.
-          Figure 3shows the histogram and Figure 4the boxplot of
-          correlations of θs estimated from the 20-probe difference
-          model and θs estimated from the 10-probe difference model
-          (a), the 20-probe PM-only model (b) and the 20-probe
-          MM-only model (c). For probe sets with high presence
-          proportion, both the 10-probe difference model and the
-          PM-only model correlate well with the 20-probe difference
-          model. The MM-only model yields noticeably lower
-          correlations, however. We note that this comparison is
-          intrinsically biased in favor of the 10-probe difference
-          model because the 'truth' is constructed from PM-MM
-          differences.
-          This comparison corroborates the basic notion of the
-          technology: the PM probes hybridize more strongly to the
-          target signals than MM probes and contain most of the
-          information. We stress that, whereas the above analysis
-          illustrates the applicability of model-based analysis to
-          PM-only arrays, the assessment presented here is only
-          tentative because of the limited information provided by
-          the HU6800 arrays on the comparisons. Definitive
-          comparisons of the efficiency of the designs must await
-          the availability of data from PM-only arrays.
+          A Genetic Programming Neural Network (GPNN)
+          Strategy
+          We developed a GP-optimized NN (GPNN) in an attempt to
+          improveupon the trial-and-error process of choosing an
+          optimal architecturefor a pure feed-forward BPNN. The
+          GPNN optimizes the inputs froma larger pool of variables,
+          the weights, and the connectivity ofthe network including
+          the number of hidden layers and the numberof nodes in the
+          hidden layer. Thus, the algorithm attempts to
+          generateappropriate network architecture for a given data
+          set. Optimizationof NN architecture using GP was first
+          proposed by Koza and Rice [ 14 ] .
+          The use of binary expression trees allow for the
+          flexibility ofthe GP to evolve a tree-like structure that
+          adheres to the componentsof a NN. Figure 3shows an
+          exampleof a binary expression tree representation of a NN
+          generated byGPNN. Figure 4shows the sameNN that has been
+          reduced from the binary expression tree form tolook more
+          like a common feed-forward NN. The GP is constrained
+          insuch a way that it uses standard GP operators but
+          retains the typicalstructure of a feed-forward NN. A set
+          of rules is defined priorto network evolution to ensure
+          that the GP tree maintains a structurethat represents a
+          NN. The rules used for this GPNN implementationare
+          consistent with those described by Koza and Rice [ 14 ] .
+          The flexibility of the GPNN allowsoptimal network
+          architectures to be generated that contain the
+          appropriate inputs,connections, and weights for a given
+          data set.
+          The GP has a set of parameters that must be
+          initialized beforebeginning the evolution of NN models.
+          First, a distinct set of inputsmust be identified. All
+          possible variables can be included as optionalinputs,
+          although the GP is not required to use all of them.
+          Second,a set of mathematical functions used in weight
+          generation must bespecified. In the present study, we use
+          only the four basic arithmetic operators.Third, a fitness
+          function for the evaluation of GPNN models is definedby
+          the user. Here, we have designated classification error
+          as thefitness function. Finally, the operating parameters
+          of the GP mustbe initialized. These include initial
+          population size, number ofgenerations, reproduction rate,
+          crossover rate, and mutation rate [ 14 ] .
+          Training the GPNN begins by generating an initial
+          random populationof solutions. Each solution is a binary
+          expression tree representationof a NN, similar to that
+          shown in Figure 3.The GP then evaluates each NN. The best
+          solutions areselected for crossover and reproduction
+          using a fitness-proportionateselection technique, called
+          roulette wheel selection, based on theclassification
+          error of the training data [ 26 ] .A predefined
+          proportion of the best solutions will bedirectly copied
+          (reproduced) into the new generation. Another
+          proportionof the solutions will be used for crossover
+          with other best solutions.Crossover must take place such
+          that the rules of network constructionstill apply. Next,
+          the new generation, which is equal in size tothe original
+          population, begins the cycle again. This continuesuntil
+          some criterion is met at which point the GPNN stops.
+          Thiscriterion is either a classification error of zero or
+          the maximumnumber of generations has been reached. In
+          addition, a "best-so-far"solution is chosen after each
+          generation. At the end of the GP run,the one
+          "best-so-far" solution is used as the solution to the
+          problem [ 14 16 ] .
+          While GPNN can be effective for searching highly
+          nonlinear, multidimensionalsearch spaces, it is still
+          susceptible to stalling on local minima [ 14 ] . To
+          address this problem, GPNN canbe run in parallel on
+          several different processors. Several
+          isolatedpopulations, or demes, are created and a periodic
+          exchange of bestsolutions takes place between the
+          populations. This is often referredto as an "island
+          model" [ 27 ] . This exchangeincreases diversity among
+          the solutions in the different populations.Following the
+          set number of generations, the best-so-far solutionsfrom
+          each of the 
+          n processors are compared and a
+          singlebest solution is selected. This solution has the
+          minimum classificationerror of all solutions generated [
+          28 ] .
         
         
-          MBEI reduces variability for low expression
-          estimates
-          The array set 5 has 29 pairs of arrays [ 2]. Each pair
-          consists of two arrays hybridizing to samples replicated
-          at total mRNA level (the total mRNA sample is split and
-          then amplified and labeled separately, and hybridized to
-          two different arrays). The differences between the
-          expression values of the two replicate arrays in a pair
-          are due to the variation introduced in experimental steps
-          after the split, the array manufacturing difference and
-          analytical methods such as normalization and expression
-          calculation. This difference provides a lower bound of
-          biological variation that can be detected between two
-          independently amplified samples, and serves as a good
-          statistic for comparing different analytical methods.
-          The agreement of MBEI between two replicate arrays is
-          shown in Figure 5a. For comparison, we also used the
-          method in [ 3] to calculate ADs for all probe sets and
-          plot them in Figure 5b(AD is based on normalized probe
-          values, see Methods and materials section for the
-          normalization method. Also note that GeneChip software
-          excludes probes whose PM/MM difference is outside three
-          standard deviations (SDs) of all probe differences in
-          either of the two arrays in the comparison; here, as we
-          are comparing multiple arrays at the same time, when
-          calculating ADs a probe is excluded if its difference is
-          an outlier in the above sense in any of the arrays, until
-          a minimum of five probes is reached, where all five
-          probes will be used). Both the MBEI and the AD method
-          yielded some expression values differing by more than a
-          factor of two, especially for genes at low expression
-          level. This might be explained by the relatively larger
-          amplification variation for weakly expressed genes, given
-          a constant success rate of amplifying a sequence by a
-          certain fold.
-          Researchers often use 'log ratio' between expression
-          values of a gene in two arrays as the criterion for
-          identifying differentially expressed genes. Between
-          duplicate arrays, we expect these log ratios of
-          expression values based on a good expression index (AD or
-          MBEI) to be close to zero. Thus for every probe set we
-          calculated its average absolute log (base 10) ratio of 29
-          pairs of duplicates as a statistic to compare the
-          variation in expression levels between duplicates using
-          the AD or the MBEI method. Figure 6presents the results
-          of the comparison. The average absolute log ratio
-          distribution of the MBEI method is significantly lower
-          than that of the AD method when expression level is low
-          (and thus probe sets have a low proportion of detections
-          of the target gene across arrays). As expression level
-          becomes higher (when the target gene of a probe set is
-          detected in more arrays), the AD method shows a rapid
-          improvement in performance, approaching the level of the
-          MBEI method. The same boxplots (Figure 7) for another set
-          of 60 human U95A arrays consisting of 30 replicate pairs
-          conveys similar information. These results suggest that
-          the MBEI method is able to extend the reliable detection
-          limit of expression to a lower mRNA concentration.
-        
-        
-          Confidence interval for fold change
-          After obtaining expression indexes using AD or MBEI,
-          fold changes can be calculated between two arrays for
-          every gene and used to identify differentially expressed
-          genes. Usually, low or negative expressions are truncated
-          to a small number before calculating fold changes, and
-          GeneChip also cautions against using fold changes when
-          the baseline expression is absent.
-          The availability of SEs for the model-based expression
-          indexes allows us to obtain confidence intervals for fold
-          changes. Suppose
-          
-          where θ 
-          1 and θ 
-          2 are the real expression levels in
-          the sample, and 
-          1 and 
-          2 are the model-based estimates of
-          expression levels. We substitute the model-based SEs for
-          δ 
-          1 and δ 
-          2 Letting 
-          r = θ 
-          1 
-          /θ 
-          2 be the real fold change, then
-          inference on r can be based on the quantity
-          
-          It can be shown that Q has a Χ 2distribution with 1
-          degree of freedom irrespective of the values of θ 
-          1 and θ 
-          2 [ 4]. Thus Q is a pivotal quantity
-          involving r. We can use Q to construct fixed-level tests
-          and to invert them to obtain confidence intervals (CI)
-          for fold changes [ 5].
-          Table 1presents the estimated expression indexes (with
-          SEs) in two arrays and the 90% confidence intervals of
-          the fold changes for 14 genes. Although all genes have
-          similar estimated fold changes, the confidence intervals
-          are very different. For example, gene 1 has fold change
-          2.47 and a tight confidence interval (2.06, 3.02). In
-          contrast, gene 11 has a similar fold change of 2.48 but a
-          much wider confidence interval (0.96, 18.18). Thus the
-          fold change around 2.5 for gene 11 is not as trustworthy
-          as that for gene 1. Further examination reveals that this
-          is due to the large SEs relative to the expression
-          indexes for gene 11. This agrees with the intuition that
-          when one or both expression levels are close to zero for
-          one gene, the fold change cannot be estimated with much
-          accuracy. In addition, when image contamination results
-          in unreliable expression values with large SEs, the fold
-          changes calculated using these expression value are
-          attached with wide CIs. In this manner, the measurement
-          accuracy of expression values propagates to the
-          estimation of fold changes.
-          In practice, we find it useful to sort genes by the
-          lower confidence bound ('Lower CB' in Table 1), which is
-          a conservative estimate of the fold change. When an
-          expression index is negative (as a result of taking PM/MM
-          differences), we do not calculate the confidence
-          intervals. In such a case, it is more helpful to filter
-          genes by presence calls.
-        
-        
-          Standard errors help to assess clustering
-          results
-          Cluster analysis is a popular method for analyzing the
-          data of a series of microarrays [ 6, 7]. If two genes are
-          co-regulated at the transcription level, their expression
-          values across samples are likely to be correlated.
-          Clustering algorithms use these correlations (or monotone
-          transformation of correlations) to cluster co-regulated
-          genes together. The correlation based on the estimated
-          expression levels may, however, be different from that
-          based on the real but unobserved expression levels. Also,
-          the commonly used hierarchical clustering algorithm is an
-          irreversible process: once two genes or nodes are merged,
-          they will stay together, even if later on there is good
-          reason to adjust previous clustering. Thus there is a
-          need to assess the reliability of clusters.
-          A global way of using SE in hierarchical clustering is
-          to resample or bootstrap [ 8] the whole 'gene by sample'
-          data matrix and redo the clustering, then investigate the
-          overall properties emerging from this repertoire of
-          clustering trees. In Bittner 
-          et al. [ 9], the data matrix coming
-          from cDNA microarray experiments is resampled using the
-          estimated variation derived from the median SD of log
-          ratios for a gene across samples. As we now have SEs for
-          all data points, we can resample each expression value
-          from a normal distribution with mean equal to the
-          estimated expression value and SD equal to the attached
-          SE.
-          Figure 8ashows a hierarchical clustering tree of 225
-          selected genes with presence proportion > 0.5 and
-          coefficient of variation (SD/mean) > 0.7 across the 20
-          samples in array set 2. In trying to interpret this tree,
-          we may be interested in the gene cluster colored in blue
-          and the reliability of the gene members belonging to this
-          cluster. The whole data matrix is resampled, and the
-          clustering is performed again (Figure 8b). We notice that
-          some blue genes (genes in the original cluster are
-          colored blue) are clustered with other non-blue genes,
-          and some non-blue genes are mixed into the main body of
-          the blue genes. After each resampling, we identify a
-          cluster that contains more than 80% of all the blue
-          genes, but as few non-blue genes as possible (measured as
-          a percentage of all genes in this cluster). This cluster
-          is considered to be the cluster that corresponds to the
-          original one in Figure 8a. In Figure 8bthe root node of
-          the 'corresponding cluster' is marked with small
-          horizontal line intersecting the vertical line
-          (representing the range of the cluster) on the right of
-          the clustering picture. Then, for each of all the 225
-          genes, if it belongs to this 'corresponding cluster', we
-          increase its 'in-cluster' count by 1. After resampling 30
-          times, the in-cluster counts are indicated in gray-scale
-          on the left side of the original clustering (Figure 8c),
-          with black representing 30 and white representing zero. A
-          high 'in-cluster' count indicates a gene 'remains' in the
-          original cluster in most of the resampled clustering
-          trees.
-          We can see from Figure 8cthat most genes in the
-          original cluster are reliable members, whereas a few
-          genes at the bottom of the cluster are not (in fact they
-          are merged into the original cluster last).
-          Interestingly, some genes originally not in the original
-          cluster group with the 'corresponding clusters' during
-          resampling many times and have gray 'in-cluster' marks.
-          These genes may be related to the original cluster in
-          some way. In summary, this method can help us to
-          distinguish reliable and unreliable gene members of a
-          cluster, as well as draw our attention to related genes
-          originally clustered somewhere else because of the
-          accidental nature of hierarchical clustering.
+          Cross-Validation
+          While NN are known for their ability to model
+          nonlinear data,they are also susceptible to over-fitting.
+          To evaluate the generalizabilityof BPNN and GPNN models,
+          we used 10 fold cross-validation [ 29 30 ] (CV).Here, the
+          data are divided into 10 parts of equal size. We use
+          9/10of the data to train the BPNN or the GPNN, and we use
+          the remaining 1/10of data to test the model and estimate
+          the prediction error, whichis how well the NN model is
+          able to predict disease status in that1/10 of the data.
+          This is done 10 times, each time leaving outa different
+          1/10 of data for testing [ 29 30 ] .A prediction error is
+          estimated as an average across the 10
+          cross-validations.Cross-validation consistency is a
+          measure of the number of timeseach variable appears in
+          the BPNN or GPNN model across the 10 cross-validations [
+          21 31 32 ] . That is, we measuredthe consistency with
+          which each single nucleotide polymorphism (SNP)was
+          identified across the 10 cross-validations. The
+          motivation forthis statistic is that the effects of the
+          functional SNPs shouldbe present in most splits of the
+          data. Thus, a high cross-validationconsistency (~10)
+          lends support to that SNP being important forthe
+          epistasis model. Further detail regarding the
+          implementationof cross-validation can be found in the
+          Data Analysis section ofthe paper.
         
       
       
-        Methods and materials
+        Results
         
-          Software
-          We have developed a software package DNA-Chip Analyzer
-          (dChip [ 10]) to perform invariant-set normalization (see
-          below), calculation of MBEI [ 1], computation of
-          confidence intervals of fold changes, and hierarchical
-          clustering with resampling.
-          Our experience is that more than 10 arrays are
-          appropriate for model training, outlier detection and
-          MBEI calculation. Researchers with fewer than 10 arrays
-          may seek arrays of the same chip type and hybridizing to
-          similar tissue samples, and combine them in a single
-          dChip analysis session. We are exploring model-based
-          meta-analysis of many arrays of the same chip type but
-          hybridizing to a heterogeneous set of tissues samples,
-          and will present such analysis in future work.
+          Trial-and-error procedure for the back propagation
+          NN (BPNN)
+          The results of our trial-and-error optimization
+          technique forselecting the traditional BPNN architecture
+          indicate the importanceof selecting the optimal NN
+          architecture for each different epistasismodel. Table
+          1shows the resultsfrom the traditional BPNN architecture
+          optimization technique onone data set from each epistasis
+          model generated with the two functionalSNPs only. A
+          schematic for each of the best architectures selectedis
+          shown in Figure 5. Note thatthe optimal architecture
+          varied for each of the epistasis models.For example, the
+          optimal architecture for Model 1 was composed of2 hidden
+          layers, 15 nodes in the first layer and 5 nodes in
+          thesecond layer, and a momentum of 0.9. In contrast, for
+          Model 2 theoptimal architecture included 2 hidden layers,
+          20 nodes in the firstlayer and 5 nodes in the second
+          layer, and a momentum of 0.9. Differentarchitectures were
+          optimal for models 3, 4, and 5 as well. Similarresults
+          were obtained using the simulated data containing the
+          twofunctional and eight non-functional SNPs as well (data
+          not shown).This provides further motivation for
+          automating the optimizationof the NN architecture in
+          order to avoid the uncertainty of
+          trial-and-errorexperiments.
         
         
-          Normalization of arrays based on an 'invariant
-          set'
-          As array images usually have different overall image
-          brightness (Figure 9a), especially when they are
-          generated at different times and places, proper
-          normalization is required before comparing the expression
-          levels of genes between arrays. Model-based expression
-          computation requires normalized probe-level data (from
-          Affymetrix's DAT or CEL files). For a group of arrays, we
-          normalize all arrays (except the baseline array) to a
-          common baseline array having the median overall
-          brightness (as measured by the median CEL intensity in an
-          array).
-          A normalization relation can be understood as a curve
-          in the scatterplot of two arrays with the baseline array
-          drawn on the 
-          y -axis and the array to be
-          normalized on the x-axis. A straight line running through
-          the origin is a multiplicative normalization method
-          (GeneChip's scaling method), and a smoothing spline
-          through the scatterplot can also be used (Figure 9a, also
-          see [ 11]).
-          We should base the normalization only on probe values
-          that belong to non-differentially expressed genes, but
-          generally we do not know which genes are
-          non-differentially expressed (control or housekeeping
-          genes may also be variable across arrays). Nevertheless,
-          we expect that a probe of a non-differentially expressed
-          gene in two arrays to have similar intensity ranks (ranks
-          are calculated in two arrays separately). We use an
-          iterative procedure to identify a set of probes (called
-          the invariant set), which presumably consists of points
-          from non-differentially expressed genes (Figure 9b).
-          Specifically, we start with points of all PM probes
-          (about 140,000 for HU6800 array). If a point's proportion
-          rank difference (PRD, absolute rank difference in two
-          arrays divided by 
-          n = 140,000) is small enough, it is
-          kept for the new set. Here the threshold of being small
-          is PRD < 0.003 when a points's average intensity ranks
-          in the two arrays is small and PRD < 0.007 when it is
-          large, accounting for fewer points at high-intensity
-          range; and the threshold is interpolated in between. We
-          chose these parameters empirically to make the selected
-          points in the invariant set thin enough to naturally
-          determine a normalization relation. In this way we may
-          obtain a new set of 10,000 points, and the same procedure
-          is applied to the new set iteratively, until the number
-          of points in the new set does not decrease anymore. A
-          piecewise linear running median line is then calculated
-          and used as the normalization curve. After normalization,
-          the two arrays have similar overall brightness. (Figure
-          9c). Figure 10shows another pair of arrays where the
-          normalization relationship is non-linear.
+          Modeling gene-gene interactions
+          Table 2summarizes the averageclassification error
+          (i.e. training error) and prediction error(i.e. testing
+          error) for the BPNN and GPNN evaluated using 100 datasets
+          for each of the five epistasis models with only the two
+          functionalSNPs in the analyses. GPNN and the BPNN
+          performed similarly inboth training the NN and testing
+          the NN through cross-validation.In each case, the NN
+          solution had an error rate within 4 percentof the error
+          inherent in the data. Due to the probabilistic natureof
+          the penetrance functions used to simulate the data,there
+          is some degree of noise simulated in the data. The
+          average errorin the 100 datasets generated under each
+          epistasis model are 24%,18%, 27%, 36%, 40% for Model 1,
+          2, 3, 4, and 5, respectively. Therefore,the error
+          estimates obtained by the BPNN or GPNN are very closeto
+          the true error rate. There is also little opportunity for
+          either methodto over-fit the data here, since only the
+          functional SNPs are presentin the analysis. These results
+          demonstrate that the BPNN and GPNNare both able to model
+          the nonlinear gene-gene interactions specifiedby these
+          models.
         
+        
+          Detecting and modeling gene-gene
+          interactions
+          Table 3shows the average classificationerror and
+          prediction error for the BPNN and GPNN evaluated using100
+          data sets for each of the five epistasis models with the
+          two functionaland eight non-functional SNPs. GPNN
+          consistently had a lower predictionerror than the BPNN,
+          while the BPNN consistently had a lower
+          classificationerror. The lower classification error seen
+          with the BPNN is due toover-fitting. These results show
+          that when non-functional SNPs arepresent, the BPNN has a
+          tendency to over-fit the data and thereforehave a higher
+          prediction error than GPNN. GPNN is able to
+          modelgene-gene interactions and develop NN models that
+          can generalizeto new observations.
+          Table 4shows the power todetect the two functional
+          SNPs for GPNN and the BPNN using 100 datasets for each of
+          the five epistasis models with both the two functionaland
+          eight non-functional SNPs in the analyses. For all five
+          models,GPNN had a higher power than the BPNN to detect
+          both SNPs. Theseresults demonstrate the high power of
+          GPNN in comparison to a BPNNwhen attempting to detect
+          gene-gene interactions in the presenceof non-functional
+          SNPs.
+        
+      
+      
+        Discussion
+        We have implemented a NN that is optimized by GP using
+        the approachoutlined by Koza and Rice [ 14 ] . Based on
+        theresults of the trial and error architecture
+        optimization, wehave shown that the selection of optimal NN
+        architecture can alterthe results of data analyses. For one
+        example data set from eachof the epistasis models, the best
+        architecture was quite different,as shown in Table 1and
+        Figure 5for functional SNP only data. This wasalso the case
+        for data containing functional and non-functionalSNPs (data
+        not shown). Since we only tried 27 different
+        architectures,there may have been more appropriate
+        architectures for these datasets. In fact, since
+        enumeration of all possible NN architecturesis impossible [
+        24 ] , there is no wayto be certain that the global best
+        architecture is ever selected.Thus, the ability to optimize
+        the NN architecture using GPNN maydramatically improve the
+        results of NN analyses.
+        Using simulated data, we demonstrated that GPNN was able
+        to modelnonlinear interactions as well as a traditional
+        BPNN. These resultsare important because it is well known
+        that traditional BPNN areuniversal function approximators [
+        22 ] .When given the functional SNPs, one would expect the
+        BPNN to accuratelymodel the data. Here, we have shown that
+        GPNN is also capable ofaccurately modeling the data. This
+        demonstrates that GPNN is ableto optimize the NN
+        architecture such that the NN evolved is ableto model data
+        as well as a BPNN.
+        GPNN had improved power and predictive ability compared
+        to aBPNN when applied to data containing both functional
+        and non-functionalSNPs. These results provide evidence that
+        GPNN is able to detectthe functional SNPs and model the
+        interactions for the epistasismodels described here with
+        minimal main effects in a sample size of200 cases and 200
+        controls. In addition, these are the two criteriawe
+        specified for considering GPNN an improvement over the
+        BPNN.Therefore, in situations where the functional SNPs are
+        known andthe user is attempting to model the data, either
+        GPNN or a BPNN wouldbe equally useful. However, in
+        situations where the functional SNPsare unknown and the
+        user wants to perform variable selection aswell as model
+        fitting, GPNN may be the preferable method. This
+        distinctioncan be made due to the increase in power of GPNN
+        and the fact thatGPNN does not over-fit the data much like
+        the traditional BPNN.
+        We speculate that GPNN is not over-fitting because while
+        theGPNN is theoretically able to build a tree with all of
+        the variablesas inputs, it is not building a fully
+        connected NN. This may bepreventing it from over-fitting
+        the way that the BPNN has done.Secondly, it is possible
+        that the strong signal of the correct solutionin the
+        simulated data caused the GP to quickly pick up that
+        signal,and propagate trees with components of that model in
+        the population.Because we have mutation set to 0%, there is
+        never a large changeto the trees to lead them to explore in
+        the other areas of the searchspace. As a result, the GPNN
+        converges quickly on a small solutioninstead of exploring
+        the entire search space. We plan to explorewhether GPNN
+        over-fits in certain situations and if so, to
+        developstrategies to deal with this issue, such as the
+        three-way data split discussedby Roland [ 33 ] .
+        In an attempt to estimate the power of these NN methods
+        for arange of genetic effects, we selected epistasis models
+        with varyingdegrees of heritability. Heritability, in the
+        broad sense, is theproportion of total phenotypic variance
+        attributable to geneticfactors. Thus, higher heritability
+        values will have a stronger geneticeffect. The five disease
+        models we used varied in heritability from0.008 to 0.053.
+        To calculate the heritability of these models, we usedthe
+        formula described by Culverhouse et al. [ 34 ] .
+        Heritabilityvaries from 0.0 (no genetic component) to 1.0
+        (completely genetically-specified).
+        We selected models with varying heritability values to
+        obtaina more accurate comparison of the two NN methods in
+        the presenceof different genetic effects. Interestingly,
+        the results showedthat GPNN had greater than 80% power for
+        all heritability valuestested in the range of 0.012 to
+        0.053. In addition, GPNN had 100%power for all models with
+        a heritability of 0.026 or greater.However, the BPNN had
+        greater than 80% power only for heritabilityvalues greater
+        than 0.051. Therefore, the BPNN has low power todetect
+        gene-gene interactions that have an intermediate to
+        weakgenetic effect (i.e. heritability value in the range
+        from 0.008to 0.026), while GPNN maintains greater than 80%
+        power, even foran epistasis model with a relatively weak
+        genetic effect (i.e. 0.012). Thepower of GPNN falls below
+        80% for a heritability value that is verysmall (i.e.
+        0.008). Thus, GPNN is likely to have higher power thanthe
+        BPNN for detecting many gene-gene interaction models with
+        intermediateto small genetic effects.
+        While GPNN has improved power and predictive ability
+        over theBPNN, there are some advantages and disadvantages
+        to this approach.An advantage of GPNN is its modeling
+        flexibility. With commercialBPNN software, such as the BPNN
+        used here, the user must definethe inputs, the initial
+        values of the weights, the number of connections eachinput
+        has, and the number of hidden layers. Often, the
+        algorithmparameters that work well for one data set will
+        not be successfulwith another data set, as demonstrated
+        here. With the GP optimization,the user only needs to
+        specify a pool of variables that the networkcan use and the
+        GP will select the optimal inputs, weights, connections,and
+        hidden layers. An important disadvantage of GPNN is the
+        requiredcomputational resources. To use GPNN effectively,
+        one needs accessto a parallel processing environment. For a
+        BPNN, on the other hand, adesktop computer is the only
+        requirement. Another disadvantage isthe interpretation of
+        the GPNN models. The output of GPNN is a NNin the form of a
+        binary expression tree. A NN in this form can bedifficult
+        to interpret, as it can get quite large (up to 500
+        nodes).
+        While we have demonstrated the ability of GPNN to model
+        and detectgene-gene interactions, further work is needed to
+        fully evaluatethe approach. For example, we would like to
+        know whether using alocal search algorithm, such as back
+        propagation or simulated annealing [ 35 ] , to refine the
+        weights of a GPNN modelis useful. This sort of approach has
+        been employed for a geneticalgorithm approach to optimizing
+        NN architecture for classificationof galaxies in astronomy
+        [ 36 ] . However, as describedabove, a local search could
+        lead to increased over-fitting. Next,the current version of
+        GPNN uses only arithmetic operators in thebinary expression
+        trees. The use of a richer function set, includingBoolean
+        operators and other mathematical operators, may allow
+        moreflexibility in the NN models. Third, we would like to
+        evaluate thepower of GPNN for a variety of high order
+        epistasis models (suchas three, four, and five locus
+        interaction models). Finally, wewould like to develop and
+        distribute a GPNN software package.
+      
+      
+        Conclusions
+        The results of this study demonstrate that GP is an
+        excellentway of automating NN architecture design. The NN
+        inputs, weights,and interconnections are optimized for a
+        specific problem whiledecreasing susceptibility to
+        over-fitting which is common in thetraditional BPNN
+        approach. We have shown that GPNN is able to model
+        gene-geneinteractions as well as a BPNN in data containing
+        only the functionalSNPs. We have also shown that when there
+        are nonfunctional SNPsin the data (i.e. potential false
+        positives), GPNN has higher powerthan a BPNN, in addition
+        to lower prediction error. We anticipatethis will be an
+        important pattern recognition method in the searchfor
+        complex disease susceptibility genes.
+      
+      
+        Methods
+        
+          Data simulation
+          The goal of the data simulation was to generate data
+          sets thatexhibit gene-gene interactions for the purpose
+          of evaluating theclassification error, prediction error,
+          and power of GPNN and atraditional BPNN. As discussed by
+          Templeton [ 1 ] ,epistasis, or gene-gene interaction
+          occurs when the combined effectof two or more genes on a
+          phenotype could not have been predictedfrom their
+          independent effects. Current statistical approaches
+          inhuman genetics focus primarily on detecting the main
+          effects and rarelyconsider the possibility of
+          interactions [ 1 ] .In contrast, we are interested in
+          simulating data using different epistasismodels that
+          exhibit minimal independent main effects, but producean
+          association with disease primarily through interactions.
+          We simulateddata with two functional single nucleotide
+          polymorphisms (SNPs)to compare GPNN to a BPNN for
+          modeling nonlinear epistasis models.In this study, we use
+          penetrance functions as genetic models.
+          Penetrance functions model the relationship between
+          genetic variationsand disease risk. Penetrance is defined
+          as the probability of diseasegiven a particular
+          combination of genotypes. We chose five epistasismodels
+          to simulate the data. The first model used was
+          initiallydescribed by Li and Reich [ 37 ] and later by
+          Culverhouseet al. [ 34 ] and Moore et al. [ 38 ] (Table
+          5).This model is based on the nonlinear XOR function that
+          generatesan interaction effect in which high risk of
+          disease is dependenton inheriting a heterozygous genotype
+          ( 
+          Aa ) from one SNPor a heterozygous
+          genotype from a second SNP ( 
+          Bb ), butnot both. The high-risk
+          genotype combinations are 
+          AaBB , 
+          Aabb , 
+          AABb ,and 
+          aaBb with disease penetrance of 0.1
+          for all four. Thesecond model was initially described by
+          Frankel and Schork [ 39 ] and later by Culverhouse et al.
+          [ 34 ] and Moore et al. [ 38 ] (Table 6).In this model,
+          high risk of disease is dependent on inheriting twoand
+          exactly two high-risk alleles, either " 
+          a " or " 
+          b "from two different loci. For
+          this model, the high-risk genotypecombinations are 
+          AAbb , 
+          AaBb , and 
+          aaBB withdisease penetrance of 0.1,
+          0.05, and 0.1 respectively.
+          The subsequent three models were chosen from a set of
+          epistasismodels described by Moore et al. [ 38 ] (Table
+          7, 8, 9). All five models were selected becausethey
+          exhibit interaction effects in the absence of any main
+          effectswhen allele frequencies are equal and genotypes
+          are generated usingthe Hardy-Weinberg equation. In
+          addition, we selected models withina range of
+          heritability values. As mentioned previously,
+          heritability,in the broad sense, is the proportion of
+          total phenotypic varianceattributable to genetic factors.
+          Thus, higher heritability valueswill have a stronger
+          genetic effect. We selected models with
+          varyingheritability values to obtain a more accurate
+          comparison of thetwo NN methods in the presence of
+          varying genetic effects. The heritabilitiesare 0.053,
+          0.051, 0.026, 0.012, and 0.008 for Models 1, 2, 3, 4,and
+          5 respectively. Although the biological plausibility of
+          thesemodels is unknown, they represent the worst-case
+          scenario for adisease-detection method because they have
+          minimal main effects.If a method works well with minimal
+          main effects, presumably themethod will continue to work
+          well in the presence of main effects.
+          Each data set consisted of 200 cases and 200 controls,
+          each withtwo functional interacting SNPs. SNPs generally
+          have two possiblealleles, and in our study, they were
+          simulated with equal allelefrequencies ( 
+          p = 
+          q = 0.5). We used a dummy
+          variableencoding for the genotypes where 
+          n-1 dummy variables areused for 
+          n levels [ 40 ] . We simulated
+          100data sets of each epistasis model with two functional
+          SNPs. Basedon the dummy coding, these data would have
+          four variables and thusfour NN inputs. Next, we simulated
+          100 data sets of each model witheight non-functional SNPs
+          and two functional SNPs. Based on the dummycoding, these
+          data would have 20 variables and thus 20 NN inputs.These
+          two types of data sets allow us to evaluate the abilityto
+          either model gene-gene interactions or to detect
+          gene-gene interactions.
+        
+        
+          Data analysis
+          In the first stage of analysis, we posed the following
+          question:Is GPNN able to model gene-gene interactions as
+          well or better thana traditional BPNN? First, we used a
+          fully connected, feed-forwardBPNN to model gene-gene
+          interactions in the simulated data containingfunctional
+          SNPs only. The BPNN was trained for 1000 epochs.
+          Althoughthere are an effectively infinite number of
+          possible NN architectures,for each data set we evaluated
+          the classification ability of 27different architectures.
+          We chose the best architecture as the onethat minimized
+          the classification error and was most parsimonious(i.e.
+          simplest network) in the event of two or more with equal
+          classificationerror. We began with a very small network
+          (4 inputs: 1 output)and varied the number of hidden
+          layers (0,1,2), number of nodesin the hidden layers (5:0,
+          10:0, 15:0, 20:0, 5:5, 10:5, 15:5, 20:5),and learning
+          momentum (0.1, 0.5, 0.9). We used this
+          optimizationprocedure to analyze 100 data sets of each
+          epistasis model. We used 10fold cross-validation to
+          evaluate the predictive ability of theBPNN models. After
+          dividing the data into 10 equal parts, the
+          architectureoptimization procedure is run on the first
+          9/10 of the data toselect the most appropriate
+          architecture. Next, the best architectureis used to test
+          the BPNN on the 1/10 of the data left out. Thisis done 10
+          times, each time leaving out a different 1/10 of thedata
+          for testing. We then estimated the prediction error based
+          onthe average predictive ability across the 10
+          cross-validations forall 100 data sets generated under
+          each epistasis model.
+          Next, we used the GPNN to analyze the same 100 data
+          sets foreach of the five epistasis models. The GP
+          parameter settings included10 demes, migration of best
+          models from each deme to all otherdemes every 25
+          generations, each deme had a population size of 200,50
+          generations, a crossover rate of 0.9, reproduction rate
+          of 0.1,and mutation rate of 0.0. Fitness was defined as
+          classificationerror of the training data. As with the
+          BPNN, GPNN was requiredto use all four inputs in the NN
+          model for this stage of the analysis.Again, we used 10
+          fold cross-validation to evaluate the predictiveability
+          of the GPNN models. We then estimated the prediction
+          errorof GPNN based on the average prediction error across
+          the 10 cross-validationsfor all 100 data sets for each
+          epistasis model.
+          The second aspect of this study involves answering the
+          followingquestion: In the presence of non-functional SNPs
+          (i.e. potentialfalse-positives), is GPNN able to detect
+          gene-gene interactionsas well or better than a
+          traditional BPNN? First we used a traditionalBPNN to
+          analyze the data with eight non-functional SNPs and
+          twofunctional SNPs. We estimated the power of the BPNN to
+          detect the functionalSNPs as described below. In this
+          network, all possible inputs areused and the significance
+          of each input is calculated from its inputrelevance, R_I,
+          where R_I is the sum of squared weights for thei thinput
+          divided by the sum of squared weights for allinputs.
+          Next, we performed 1000 permutations of the data to
+          determinewhat input relevance was required to consider a
+          SNP significantin the BPNN model. The range of critical
+          relevance values for determiningsignificance was 10.43% -
+          11.83%.
+          Next, we calculated cross-validation consistency [ 21
+          31 32 ] . That is, we measuredthe consistency with which
+          each SNP was identified across the 10cross-validations.
+          The basis for this statistic is that the functional
+          SNPs'effect should be present in most splits of the data.
+          Thus, a highcross-validation consistency (~10) lends
+          support to that SNP beingimportant for the epistasis
+          model. Through permutation testing,we determined an
+          empirical cutoff for the cross-validation consistencythat
+          would not be expected by chance. We used this cut-off
+          valueto select the SNPs that were functional in the
+          epistasis model for eachdata set. For the BPNN, a
+          cross-validation consistency greater thanor equal to five
+          was required to be statistically significant. Weestimated
+          the power by calculating the percentage of datasets
+          wherethe correct functional SNPs were identified. Either
+          one or bothof the dummy variables could be selected to
+          consider a locus presentin the model. Finally, we
+          estimated the prediction error based onthe average
+          predictive ability across 100 data sets for each
+          epistasismodel.
+          Next, we used the GPNN to analyze 100 data sets for
+          each of theepistasis models. In this implementation, GPNN
+          was not requiredto use all the variables as inputs. Here,
+          GPNN performed randomvariable selection in the initial
+          population of solutions. Throughevolution, GPNN selects
+          those variables that are most relevant.We calculated the
+          cross-validation consistency as described above.
+          Permutationtesting was used to determine an empirical
+          cut-off to select theSNPs that were functional in the
+          epistasis model for each data set.For the GPNN, a
+          cross-validation consistency greater than or equalto
+          seven was required to be statistically significant. We
+          estimatedthe power of GPNN as the number of times the
+          functional SNPs wereidentified in the model divided by
+          the total number of runs. Again,either one or both of the
+          dummy variables could be selected to considera locus
+          present in the model. We also estimated the prediction
+          errorof GPNN based on the average prediction error across
+          100 data setsper epistasis model.
+        
+      
+      
+        Authors' contributions
+        JSP, LWH, and BCW performed the computer programming of
+        the software.MDR participated in the design of the study,
+        statistical analyses,and writing of the manuscript. JHM
+        participated in the design andcoordination of the study and
+        preparation of the final draft ofthe manuscript. All
+        authors read and approved the final manuscript.
       
     
   

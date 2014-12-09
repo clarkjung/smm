@@ -2,536 +2,613 @@
   
     
       
-        Background
-        Obesity is rapidly becoming one of the most important
-        medical and public health problems of our time. Obesity is
-        associated with a high rate of morbidity and early
-        mortality if left untreated [ 1 2 3 4 ] . Studies indicate
-        that the presence of obesity increases the risk for
-        developing cardiovascular diseases and diabetes [ 5 6 7 8 ]
-        . Its role as a health hazard in adults has been well
-        recognized for some time [ 1 2 3 4 5 6 7 8 9 10 11 12 13 ]
-        but little attention has been paid to childhood and
-        adolescent obesity [ 14 15 16 17 ] .
-        The prevalence of obesity among US children is
-        approximately of 22-30% and has increased at an
-        accelerating rate in the past several years [ 18 19 20 ] ;
-        the prevalence of obesity is > 30% in some pediatric
-        populations [ 20 21 ] . Obesity in childhood is associated
-        with obesity in adulthood [ 22 23 24 25 ] , and is a
-        predictor of all causes of obesity-associated mortality
-        during adulthood, particularly mortality from
-        cardiovascular diseases, which are independent of adult
-        weight [ 24 25 ] . Epidemiologic evidence supports the
-        theory that the relation between obesity and disease risk
-        begins early in life. For instance, adolescents who died in
-        accidents had fatty streaks in the coronary arteries and
-        aorta that were found at, autopsy, and were associated with
-        blood lipid profile, blood pressure, and obesity status
-        obtained at one or more points antemortem [ 26 27 ] .
-        Moreover, a recent longitudinal study indicated that the
-        occurrence of overweight, hypertension, and dyslipidemia in
-        young adults (aged 19-32 y) was associated with these same
-        risk factors in childhood. Data from the Children's
-        Hospital Medical Center in Cincinnati have shown that the
-        incidence of type 2 diabetes among adolescents increased
-        10-fold from 1982 to 1994, and virtually all diagnosed
-        cases of type 2 diabetes occurred in obese individuals [ 28
-        ] . These observations are likely to reflect national
-        trends and certainly deserve both confirmation, and a
-        sharper focus.
-        To test the hypothesis that being an overweight or obese
-        adolescent is associated with early appearance of glucose
-        and lipid profile abnormalities, we performed a
-        case-control study quantifying the odds ratio of overweight
-        and obesity on these abnormalities through different
-        Tanner's stages. The association between glucose and lipid
-        profiles and the distribution of adipose tissue was also
-        tested in this study. The objective of the second study was
-        to determine. from a retrospective-prospective longitudinal
-        study of overweight and obese male and females having
-        abnormal glucose and/or lipid profiles at which age obesity
-        in adolescence can be predictive of adult obesity and its
-        obesity-associated cardiovascular risk factors.
+        Introduction
+        Arthritic diseases are characterized by a progressive
+        loss of extracellular matrix (ECM), which may ultimately
+        lead to frank tissue loss and gross joint damage. The
+        conditions under which chondrocytes can be induced to
+        replenish or repair a depleted matrix (and thereby prevent
+        or slow the disease process) remain unclear. If these
+        conditions were known, then in principal one could design a
+        therapeutic strategy that takes into account the capacity
+        (or absence thereof) for chondrocytes to repair their
+        matrix naturally.
+        A number of model systems have provided some insights.
+        For instance, IL-1-degraded cartilage tissues and cell
+        suspensions are frequently employed as model systems to
+        study cartilage metabolism under osteoarthritis-like
+        conditions [ 1 2 3 4 ] and to assess the efficacy of
+        various drug therapies [ 5 6 7 8 9 ] . IL-1 signals cells
+        via cell surface receptors to upregulate proteases, matrix
+        metalloproteinases and aggrecanase, while downregulating
+        matrix metalloproteinase inhibition and proteoglycan
+        synthesis [ 10 11 ] . The ultimate effect of these
+        metabolic changes include damage to the ECM, loss of ECM
+        components (especially proteoglycan), and alteration of the
+        normal balance of catabolic and anabolic processes that
+        regulate cartilage ECM composition.
+        With regard to the repair phase, following IL-1-induced
+        cartilage damage, relatively little is known, but partial
+        to complete recovery appears possible [ 1 3 ] . In studies
+        of repair, investigators focused on glycosaminoglycan (GAG)
+        - an important and abundant cartilage macromolecule - and
+        used histologic, biochemical, and/or radiolabel
+        incorporation methods to measure GAG concentration ([GAG])
+        and/or GAG synthesis rates at selected time points.
+        Although these data suggest that repair might be possible,
+        our understanding is limited because of the uncertainty in
+        the temporal changes in matrix composition for a given
+        sample. This uncertainty is a direct consequence of the
+        inherently destructive nature of histologic and biochemical
+        methods; these techniques therefore do not permit
+        monitoring of the spatial and temporal evolution of matrix
+        macromolecules within individual samples/animals. Having to
+        infer temporal spatial information from a cross-section of
+        samples confounds efforts to conduct a detailed analysis of
+        responses in these model systems.
+        The delayed Gadolinium-Enhanced Magnetic Resonance
+        Imaging of Cartilage (dGEMRIC) method overcomes these
+        problems in that it is nondestructive and can be used to
+        assess quantitatively the spatial distribution of cartilage
+        [GAG] [ 12 13 ] . We and others previously reported on the
+        use of dGEMRIC to monitor GAG regeneration in living
+        cartilage tissue over time in trypsin-depleted bovine
+        cartilage [ 14 ] and in cell-laden polymer matrices (tissue
+        engineered cartilage) [ 15 ] . Those studies clearly
+        demonstrated that dGEMRIC is feasible for long-term [GAG]
+        monitoring, and that its sensitivity is sufficient to
+        permit observation of the spatiotemporal evolution of
+        [GAG]. Each of those studies began with a homogeneously
+        proteoglycan-deficient matrix, in which GAG was replenished
+        over a 5- to 8-week period to levels considered to be
+        within the normal range.
+        In young bovine articular cartilage (a tissue that many
+        investigators have used to investigate the impact of
+        physical and biochemical factors on ECM metabolism [ 14 16
+        17 18 19 20 21 ] ), IL-1 induces a characteristic spatially
+        heterogeneous depletion of GAG. This young tissue still
+        contains blood vessels, and it is in the perivascular
+        regions that IL-1-induced GAG depletion is most severe. We
+        know from studies investigating the recovery of
+        trypsin-induced homogeneous GAG depletion in young bovine
+        cartilage that the inherent ability of chondrocytes to
+        replenish the matrix is relatively uniform [ 14 ] . In the
+        present study, we take advantage of the characteristic
+        spatial heterogeneity of IL-1-induced GAG depletion to
+        study the relative replenishment rates between regions of
+        varying severity of GAG depletion. Accordingly, our goal
+        was to use dGEMRIC to determine whether bovine cartilage
+        explants briefly exposed to IL-1 would recover GAG at a
+        uniform rate, or at a rate that depended on the degree of
+        IL-1-induced GAG depletion. Specifically, we sought to
+        examine recovery after relatively mild and modest
+        degradation - conditions that did not induce a complete
+        loss of tissue GAG.
       
       
-        Methods
+        Method
         
-          Study 1
-          The first investigation was designed as a case-control
-          study and was performed in hospitals associated with
-          Montreal and McGill Universities. Many of the subjects
-          were also directly recruited from nursery schools. This
-          study was conducted to determine the relationship between
-          various indicators of adiposity and risk factors for
-          cardiovascular diseases in Caucasian normal, overweight,
-          and obese male and female adolescents. The prevalence and
-          odds ratio of being overweight or obese on glucose and
-          lipid profiles was also determined. Each Tanner stage is
-          associated with important changes in genital development
-          and sexual hormone profiles, which could have an impact
-          on adipose tissue distribution and glucose and lipid
-          profiles. Informed written consent was obtained from the
-          parents and/or of all participating subjects. The
-          participants were recruited from local and national
-          advertising. To be included in the study, adolescents and
-          adults had to meet the following criteria: 1) be of
-          Caucasian ethnicity; 2) be free from diagnosed endocrine
-          conditions that could lead to obesity, and 3) not taking
-          any medication affecting body weight. They were selected
-          for the study on the basis of their body mass index.
-          Standing height was measured with a wall-mounted tape,
-          and weight was measured with the same standard balance
-          scale.
-          Adolescents were classified according to BMI; ≥ 85
-          thpercentile as overweight, and ≥ 95 thpercentile for age
-          and sex as obese [ 29 30 31 32 ] . Recent workshops
-          concluded that the BMI has been validated by studies on
-          total body fat [ 32 ] . The standards used to identify
-          overweight and obesity in children and adolescents should
-          agree with the standards used to identify grade 1 and
-          grade 2 overweight (BMI of 25 and 30, respectively) in
-          adults [ 33 ] . Adolescents with a BMI < 85
-          thpercentile were classified as controls (Group 1), Group
-          2 were overweight (BMI > 85 thpercentile and < 95
-          thpercentile) and group 3 were obese (BMI ≥ 95
-          thpercentile). Adults with a BMI < 25 were classified
-          as controls, between 25 and 30 as overweight and ≥ 30 as
-          obese. Sexes were grouped separately.
-          WC:AC was calculated from the ratio of waist
-          circumference to arm circumference and used as a measured
-          of fat distribution analogous to waist to hip ratio, on
-          the assumption that a higher ratio of waist to arm
-          circumference is an indicator of a more central pattern
-          of adiposity. We used this measure in preference to waist
-          to hip ratio, because a study which determined peripheral
-          and abdominal adipose tissue content in children using
-          magnetic resonance imaging found that WC:AC correlated
-          positively with intra-abdominal adipose tissue (r ± 0.63,
-          P = 0.001) while waist to hip ratio did not (r = 0.11) [
-          34 ] . Two other indices of central adiposity were
-          calculated from skinfolds: Central-peripheral (CPR) as
-          subscapular skinfold + suprailliac skinfold) / (triceps
-          skinfold+ thigh skinfold) and ratio of subscapular to
-          triceps skinfold (STR). STR is an index of relative
-          distribution of central subcutaneous adiposity. The sum
-          of the four skinfolds (SUM) was calculated from triceps,
-          subscapular, suprailliac and thigh skinfolds in the total
-          sample. The SUM provides a single measure of subcutaneous
-          adiposity. Anthropometric measurements were done by the
-          same experienced evaluator to reduce variability which
-          was measured at less than 0.5%.
-          Genital development was evaluated with the criteria of
-          Tanner [ 35 ] , and was performed with a questionnaire
-          and physical exam by an experienced physician, in which
-          stage 1 is prepubertal, stage 2 is initial development of
-          the genitalia, stages 3 and 4 are intermediate, and stage
-          5 is mature. Stage of sexual maturation in the girls was
-          determined on the basis of a combination of menarcheal
-          status and breast and pubic hair development [ 36 ] . The
-          stages of sexual maturation were performed with a
-          questionnaire and physical exam done by an experienced
-          physician as follow: premenarcheal with no secondary
-          sexual development (stage 1). Premenarcheal with some
-          secondary sexual development (stage 2); premenarcheal at
-          the time of study but attained menarche within 6 months
-          (stage 3); postmenarcheal with secondary sexual
-          development not yet mature (stage 4); and postmenarcheal
-          with secondary sexual development (stage 5).
-          The subjects were instructed to arrive to the clinic
-          at 8:00 AM after 12-hour overnight fast. BMI was measured
-          and a venous blood sample was taken followed by a
-          breakfast. Fasting blood samples were stored at 4C. Serum
-          glucose and insulin levels and lipid profile were
-          determined. They completed a questionnaire on risk
-          factors for atherosclerosis including family history of
-          coronopathy, smoking, high blood pressure, personal
-          history of coronopathy or myocardial infarct, history of
-          cerebrovascular disease or occlusive peripheral disease.
-          Most overweight and obese subjects had at least two risk
-          factors for atherosclerosis.
-          The diagnostic criteria for glucose profile were those
-          approved by the American Diabetes Association [ 37 ] .
-          Diabetes is defined as a fasting serum glucose equal or
-          higher than 7 mmol/L (126 mg/dl) and impaired fasting
-          glucose with values between 6.0 and 7.0 mmol/L. Subjects
-          with high fasting glucose levels were referred to their
-          own physicians for further clinical evaluation.
-          Lipid profile was also performed on the fasting blood
-          sample. The blood lipid variables investigated were
-          triglyceride (TRG), total cholesterol (TC), high-density
-          lipoprotein (HDL) cholesterol concentrations, low-density
-          lipoproteins (LDL) cholesterol concentrations and the
-          ratio of total:HDL cholesterol (T:HDLC) [ 38 ] . All
-          biochemical measurements were performed in an accredited
-          hospital laboratory.
+          Culture and degradation protocols
+          Cartilage-bone cores of 5mm or 7mm in diameter were
+          harvested from young bovine femoropatellar groove
+          articular cartilage within 24 hours of slaughter. After
+          removing the articular surface, three or four 1-mm-thick
+          discs were sliced parallel to the articular surface. A
+          flat edge was made on some of the discs to ease
+          orientation and registration during imaging and analysis.
+          The discs were weighed, and then immediately placed in
+          2ml sterile culture media in 24-well culture plates. All
+          explants were incubated at 37°C throughout the study.
+          Culture medium was prepared with low-glucose
+          Dulbecco's modified Eagle medium with 10mmol/l HEPES
+          (GIBCO BRL, Grand Island, NY, USA), 0.1mmol/l
+          nonessential amino acids (Sigma Chemical, St. Louis, MO,
+          USA), 0.4 mmol/l L-proline (Sigma Chemical), and 1mmol/l
+          gadolinium-DTPA (Magnevist, Berlex Imaging, Wayne, NJ,
+          USA). Supplements including: 1% fetal calf serum (GIBCO
+          BRL, Grand Island, NY), 1% l-glutamine (Sigma Chemical),
+          1% ascorbic acid (Sigma Chemical) and 1% penicillin and
+          streptomycin (Sigma Chemical) were added immediately
+          prior to use. Media was was collected daily and analyzed
+          for GAG release by the dimethylmethylene blue (DMMB)
+          assay using purified shark chondroitin sulfate (Sigma
+          Chemical) as the reference standard.
+          All samples were cultured in basal media for at least
+          3 days after harvest. To create samples that have
+          heterogeneously-degraded ECM, samples were exposed to
+          IL-1β (Cistron Biotechnology, Pine Brooks, NJ, USA),
+          which was added each day to the culture medium. Two
+          series of experiments were conducted, each with its own
+          set of controls. In the first series, samples were
+          exposed to 10 ng/ml IL-1 for 3 and 6 days (incurring
+          'mild' degradation; 
+          n =4). The addition of IL-1 to the
+          media began at days 6 and 3, respectively, after harvest,
+          such that all samples began the 'recovery phase' on day 9
+          after harvest. Control samples were cultured in basal
+          media for the entire experiment. In the second series,
+          samples were exposed to 20 ng/ml IL-1 ( 
+          n =10) for 6 and 9 days and
+          incurred 'moderate' degradation. In this group the
+          addition of IL-1 addition to the media for all samples
+
+          started at 3 days after harvest, and therefore samples
+          began the recovery phase at day 9 or 12 after harvest.
+          Again, control samples were cultured in basal media for
+          the entire experiment. Control samples are referred to as
+          'mild controls' or 'moderate controls', according to the
+          IL-1 series with which they were cultured ( 
+          n =2 and 2).
+          Following IL-1 exposure, the samples were transferred
+          to sterile flat-bottomed 10mm nuclear magnetic resonance
+          (NMR) tubes (Wilbur Scientific, Boston, MA, USA) that
+          were custom cut to a length of 5cm, where they were
+          cultured in basal media for the duration of the recovery
+          experiment.
+          In summary, the experiment comprised three periods: an
+          initial period (before any exposure to IL-1), an exposure
+          period (during which tissue was exposed to IL-1 in
+          preparation for the recovery phase), followed by a
+          recovery period (during which there was no IL-1
+          present).
         
         
-          Study 2
-          The second investigation was designed as a
-          retrospective-prospective longitudinal study from 1974 to
-          2000 and was performed from hospitals associated with
-          Montreal and McGill Universities. This study was
-          conducted to determine the age of apparition of abnormal
-          glucose and lipid profiles in a group of overweight and
-          obese young Caucasians adults presenting abnormal glucose
-          and/or lipid profiles. The study was performed from chart
-          review of participants. 2000 charts were pre-selected by
-          the archivists. To be included in the study, young adults
-          had to meet the following criteria: 1) be of Caucasian
-          ethnicity; 2) be between the ages of 32-38 y; 3) be free
-          from diagnosed endocrine conditions that could have led
-          to obesity, 4) not having taken any medication affecting
-          body weight, 5) presenting a BMI ≥ 25 at adult age; 6)
-          presenting abnormal glucose and/or lipid profiles; 7)
-          presenting at least 2 risk factors for cardiovascular
-          diseases as explained earlier, and having been seen by
-          their physicians between 1974 to 2000. Among the 2000
-          charts, only 128 males and 112 females were having
-          pertinent data at the different 7 age-groups, permitting
-          longitudinal study of all the subjects used in this
-          study. These charts were reviewed by 2 reviwers. A sample
-          of 20 charts were reviewed by the two reviewers to
-          determine variability between reviewers. The inter-chart
-          reviewer differences was less than 0.2%. Data from the
-          subjects were presented by specific age group, which we
-          think may approximate the criteria of Tanner [ 35 ] for
-          genital development. WC:AC ratio was removed from the
-          anthropometric measurements because the concept of waist
-          circumference, waist to hip ratio or waist circumference
-          to arm circumference was unknown or not used to quantify
-          central adiposity.
+          Imaging protocols
+          For imaging, the shortened NMR/culture tubes were
+          joined to full-length NMR tubes via a sterilized rubber
+          stopper inserted into the open ends of both tubes.
+          All images were acquired on a Bruker 8.45 T magnetic
+          resonance microimaging system (Bruker Instruments,
+          Billerica, MA, USA) with a standard 10mm radiofrequency
+          coil. T1-weighted images in the axial orientation with
+          respect to explant cylindrical geometry were measured
+          weekly post-IL-1 exposure with either an inversion
+          recovery sequence ('mild' series) or a saturation
+          recovery sequence ('moderate' series). The saturation
+          recovery protocol consisted of 10 T1-weighted images
+          measured with time-to-repeat times of 25, 75, 125, 175,
+          275, 375, 475, 600, 900, and 1800ms. For inversion
+          recovery measurements, images were acquired with nine
+          inversion delays of 16.7, 33.3, 50, 66.7, 100, 150, 250,
+          400, and 600ms. Both pulse sequences used a time-to-echo
+          of 8.5ms, section thicknesses of 0.5mm, in-plane
+          resolutions of 100μm, and two averages, for a total
+          imaging time of less than 1 hour per sample.
+          Analysis of GAG release throughout these experiments
+          suggested that, within the range of sensitivity provided
+          by our dimethylmethylene blue assay, GAG release patterns
+          were unaffected by removal from incubation at 37°C to
+          room temperature for 3-6 hours of imaging each week
+          (because all the plugs were out of the incubator for the
+          imaging session).
+          Tissue T1s without contrast agent were determined
+          spectroscopically using an inversion delay pulse sequence
+          with 12 delays ranging from 0.2 to 10s and a 10mm
+          broadband radiofrequency probe. At the conclusion of each
+          experimental series, two samples (one control and one
+          treated) were equilibrated in gadolinium-free medium,
+          then extracted from media and blotted dry, and placed in
+          an NMR tube. As had previously been observed, we found
+          very little difference in T1 between samples of the same
+          series (<5%) or across series (<10%) [ 12 ] .
+          Therefore, the T1 times in the absence of contrast agent
+          of samples from the same series were averaged and these
+          averages used as the reference tissue T1 for all other
+          samples within the same experiment series.
         
         
-          Statistical procedures
-          SAS PROC MIXED version 6.11 (SAS Institute, Cary,
-          North Carolina) was used to analyze longitudinal and
-          correlated data. The analyses were interpreted using P
-          < 0.01 as the level of significance. An unpaired
-          T-test was used to analyze the difference between male
-          and female for each variables measured at each Tanner
-          stages. Pearson correlations were computed to evaluate
-          the relationship between specific continuous variables.
-          Odds ratios were used to quantify risk in our
-          population.
+          Image processing
+          MATLAB (The Math Works, Natick, MA, USA) was used to
+          create a T1 map by curve-fitting each T1-weighted image
+          series on a voxel-by-voxel basis. T1 maps were then
+          processed into GAG maps with MATLAB using equations
+          derived from a modified ideal Donnan theory. This dGEMRIC
+          method of relating measured T1 and cartilage [GAG] was
+          previously validated and reported [ 12 13 22 ] .
+          The mean [GAG] for a sample at a given time point was
+          computed as the mean [GAG] calculated across all
+          cartilage-containing pixels of the image. The rate of
+          [GAG] accumulation (i.e. the tissue's recovery rate) was
+          calculated as the difference in the mean [GAG] values at
+          specified time points divided by the elapsed time.
+          As expected, qualitative assessment of images from
+          samples exposed to IL-1 exhibited the characteristic
+          heterogeneity in degree of GAG depletion. In order to
+          quantitate objectively the time course of GAG recovery
+          relative to the degree of GAG depletion, GAG maps were
+          registered using Adobe Photoshop (Adobe Systems, Inc, San
+          Jose, CA, USA) in order to allow chosen regions of
+          interest to be automatically analyzed across multiple
+          images from successive imaging sessions. Registered
+          images were segmented so that tissue regions of
+          relatively high, medium, or low [GAG] were identified in
+          images taken after 3 weeks of recovery. The [GAG] and
+          location of these pixels were tracked in time. High,
+          medium, and low [GAG] regions of the 3-week images were
+          discerned according to the following definitions:
+          Pixel assigned to 'high' GAG region if:
+          [GAG] 
+          pixel > (mean [GAG] 
+          all pixels + 0.5 × SD 
+          all pixels )
+          Pixel assigned to 'low' GAG region if:
+          [GAG] 
+          pixel < (mean [GAG] 
+          all pixels - 0.5 × SD 
+          all pixels )
+          Pixel assigned to 'medium' GAG region if not assigned
+          to high or low region
+        
+        
+          Statistical analysis
+          Magnetic resonance imaging derived group mean [GAG]
+          changes were assessed using repeated-measures oneway
+          analysis of variance with a compound symmetry variance
+          structure using SAS (SAS Institute Inc., Cary, NC, USA)
+          to test the hypothesis that mean [GAG] in a given sample
+          or regions of a given sample did not change with time.
+          This technique analyzed the significance of time as an
+          effect on weekly [GAG] measurements (or weekly changes in
+          [GAG]) taken from the same samples (or same region of a
+          sample) each week. Paired two-sample Student's 
+          t -tests (Microsoft Excel) were
+          used to determine the degree of [GAG] recovery observed
+          with respect to initial [GAG], before exposure to
+          IL-1.
         
       
       
         Results
         
-          Study 1
-          Table 1shows the main anthropometric measurements of
-          our study population. Pubertal status was appropriate for
-          age in all subjects; all girls over 14 y had reached
-          menarche and all boys over 14 y had Tanner Stage grades
-          of 3 or more. The distribution of obese and overweight
-          adolescents in our study did not differ from that
-          expected in an average North American population. As
-          defined in methods WC:AC ratio which is an indicator of
-          central adiposity was significantly higher in both (P
-          < 0.01) overweight and (P < 0.001) obese
-          adolescents in comparison with controls, either in
-          adolescents of different Tanner's stages or adults of
-          both sexes. The CPR value which is representative of
-          central-peripheral obesity was also significantly higher
-          (P < 0.01) in both overweight and (P < 0.001) obese
-          adolescents. The same is true for the STR and SUM values.
-          For all the anthropometric measurements there were no
-          significant differences between sexes.
-          Table 2indicates that the prevalence of impaired
-          glucose and lipid profiles were highest among those with
-          a BMI above the 95 th. The prevalence of impaired fasting
-          glucose is already significant at Tanner stage 1 with
-          percentage prevalence of 11.1% and 44.1% for overweight
-          and obese subjects respectively. The prevalence was
-          significantly higher in both (P < 0.01) overweight and
-          (P < 0.001) obese adolescents in comparison with
-          controls, either in adolescents of different Tanner's
-          stages or adults of both sexes. The prevalence of
-          impaired fasting glucose did not differ significantly
-          between adolescents and adults, either in male or female.
-          Adolescents with BMI exceeding the 85 thpercentile are at
-          increased risk of being classified as having diabetes or
-          impaired fasting glucose. Also the prevalence of lipid
-          profile abnormalities was highest among those above the
-          95 thpercentile for BMI. Adolescents with BMI exceeding
-          the 85 thpercentile are at increased risk of having
-          abnormal lipid profiles. Again, the difference between
-          the three groups was already present at Tanner stage 1.
-          The presence of an abnormal lipid profile was observed
-          from Tanner stages III and above.
-          Sensitivity refers to the percentage of obese or
-          overweight participants who were correctly predicted to
-          be at risk for either glucose or lipid profiles
-          abnormalities. Specificity refers to the percentage of
-          participants who were correctly predicted to be in the
-          remaining groups. BMI > 85 thpercentile were chosen as
-          cutoff point for identifying overweight adolescents and
-          BMI < 85 thpercentile were considered as normal
-          subjects. Table 3shows that the sensitivity and
-          specificity to predict impaired fasting glucose at Tanner
-          stages III and above were at least 60% and 80%,
-          respectively. With use of this cutoff point, the odds
-          ratio of being at risk for impaired fasting glucose
-          varied from 11.7 to 23.7 for males and females.
-          Table 4shows that the sensitivity and specificity to
-          predict an impaired lipid profiles at Tanner stages III
-          and above were from 47.5% to 83% (males) and from 84.8%
-          to 91.2% (females), respectively. Using a BMI at the 85
-          thpercentile as a cutoff point, the odds ratio for
-          impaired lipid profiles varied from 9.1 to 15.2 for males
-          and females.
-          The associations between anthropometric measurements,
-          fasting glucose and insulin levels, and lipid profiles,
-          at each Tanner stage are presented in Tables 5and
-          6respectively, with (P < 0.01 and less) for each
-          group. Regression analyses were not required to establish
-          significance.
+          Glycosaminoglycan release into media
+          The release of GAG into the media was measured daily
+          as a surrogate for monitoring the effect of IL-1 exposure
+          and of ECM stability following IL-1 withdrawal. Control
+          samples from each series had a small rate of release
+          throughout (0.4 ± 0.2 μg/mg initial wet-weight/day),
+          except for a slightly higher release rate (0.7±0.2μg/mg
+          initial wet-weight/day) during the first 2-3 days after
+          harvest. Assuming an initial [GAG] of approximately 5% of
+          wet-weight, this steady-state release rate corresponds to
+          a loss of about 0.6-1%/day.
+          As expected, during the IL-1 exposure period the
+          exposed samples lost significantly more GAG than did
+          controls, in accordance with the severity of the IL-1
+          exposure. Those in the 'mild' and 'moderate' groups lost
+          148±49μg and 433±98μg GAG, respectively, as compared with
+          the 81±5μg and 103±58μg lost during the same period by
+          the control samples. The GAG release rates never dropped
+          to negligible levels during the exposure period,
+          indicating that GAG was not totally depleted from the
+          disks at these exposure levels. Turning to the recovery
+          period, within 1-2 days after cessation of IL-1 exposure
+          the GAG release rates dropped to levels comparable with
+          those of control samples. GAG release persisted at this
+          level (0.3±0.1 and 0.5±0.3μg/mg initial wet-weight/day
+          for 'mild' and 'moderate' groups, respectively)
+          throughout the remainder of the study.
         
         
-          Study 2
-          Table 7shows the main anthropometric measurements of
-          our study population at 7 different interval age groups
-          from 9 to 38 years old. The BMI adjusted for age and sex
-          was appropriate at each interval age group. CPR STR and
-          SUM were significantly increased (P < 0.01) with age
-          corresponding with a higher fat mass with growth. For all
-          the anthropometric measurements there were no significant
-          gender differences.
-          Table 8presents the incidence of impaired glucose and
-          lipid profile between age groups. The incidences of
-          impaired glucose and lipid profiles were already high at
-          the first age group with incidences of approximately 30 %
-          for both. The incidence increases progressively with
-          age.
-          Fasting plasma glucose level (results not shown),
-          HbA1c and fasting plasma insulin levels were
-          significantly increased (P < 0.01) through puberty and
-          growth. There were no significant differences between
-          sexes. TRG, TC, LDL and T:HDLC were also significantly
-          increased (P < 0.01) with growth. The reverse was
-          observed for HDL.
-          BMI values at the 85 thpercentile for 13-15 year old
-          group were chosen as cutoff points for identifying
-          overweight at age 35 y. The sensitivities were 77.7% and
-          83.3%, and the specificities 80.0% and 80.0%, for males
-          and females respectively. With use of the cutoff point of
-          the 85 thpercentile at this age group, the odds ratios
-          for overweight at age 35 y were 12.8 for males and 20.0
-          for females (Table 9).
-          Table 10presents the sensitivity, specificity and odds
-          ratios for the selected cutoff point for predicting
-          impaired fasting glucose (IFG) values at the 85
-          thpercentile at 13-15 year old group, at age 35. The
-          sensitivities were 77.8% and 71.4%, and the specificities
-          76.4% and 77.6% for males and females respectively. The
-          odds ratios for abnormal IFG at age 35 y were 11.3 for
-          males and 8.6 for females.
-          Table 11presents the sensitivity, specificity and odds
-          ratios for predicting impaired lipid profiles (ILP) at
-          the 85 thpercentile at 13-15 year old group, for age 35.
-          The sensitivities were 80.0% and 75%, and the
-          specificities 77.7% and 79.2%, for males and females
-          respectively. With use of the cutoff point of the 85
-          thpercentile at 13-15 year old group, the odds ratios of
-          ILP at age 35 y were 14.0 for males and 11.4 for
-          females.
+          Tissue glycosaminoglycan concentration over
+          time
+          Use of dGEMRIC allowed for the actual [GAG] in the
+          tissue to be followed over time. The images of the
+          control samples showed relatively stable [GAG] over the
+          culture period (Fig. 1a,1c), with the coefficient of
+          variation (SD/mean over time) for 'bulk' GAG (i.e. GAG
+          averaged over the entire cartilage image slice) ranging
+          from 2% to 12%. One can also see that the bulk [GAG] was
+          considerably different for the 'mild' and 'moderate'
+          control samples. This is probably a reflection of
+          differences between the animals used for each series, a
+          conclusion supported by considering measurements made
+          before IL-1 exposure on a subset of samples (92±11mg/ml
+          for the 'mild' series and 57±6mg/ml for the 'moderate'
+          series; 
+          n =6 for each). To provide a
+          relative reference, the mean and SD of untreated samples
+          are represented by the shaded regions in Fig. 2a,2b.
+          Images of the exposed samples acquired immediately
+          following cessation of IL-1 revealed a much lower [GAG]
+          than the initial values, and the [GAG] in exposed samples
+          increased with time of recovery (Figs 1and 2). Over the
+          3-week recovery period following IL-1 exposure, [GAG]
+          increased in all samples exposed to IL-1 (Fig. 1b,1dand
+          Fig. 2, 
+          n = 14; 
+          P < 0.0001). In the 'mild' group
+          the [GAG] increased by 19 ± 5 mg/ml ( 
+          n = 4; 
+          P = 0.06) whereas in the 'moderate'
+          group [GAG] increased by 26 ± 11 mg/ml ( 
+          n = 10; 
+          P < 0.0001).
+          Given the variation in initial [GAG], we evaluated the
+          percentage degree of recovery only for those samples for
+          which we obtained an 'initial' image before any exposure
+          to IL-1 ( 
+          n =4 'mild' and 
+          n =4 'moderate'). In these cases
+          the [GAG] after 3 weeks of recovery did not reach the
+          initial levels. The [GAG] in the 'mild' group reached 77
+          ± 19% of initial [GAG] ( 
+          n =4; 
+          P =0.019) and the 'moderate' group
+          reached 49 ± 11% of initial [GAG] ( 
+          n =4; 
+          P = 0.00003).
+        
+        
+          Regional analysis of glycosaminoglycan
+          concentration recovery
+          The mean rate of [GAG] recovery (increase in
+          [GAG]/time) averaged across all pixels of IL-1-degraded
+          samples remained steady throughout 3 weeks of
+          post-IL-1-exposure culture at a rate of 1-2 mg/ml per day
+          (1.2±0.9mg/ml per day). However, looking specifically at
+          the spatial distribution of [GAG], considerable
+          differences in weekly [GAG] recovery are clearly evident
+          across different regions of the same samples.
+          In both the 'mild' and 'moderate' groups,
+          heterogeneous degradation patterns prevailed, with
+          greatest degradation occurring in perivascular regions
+          (Fig. 1c,1d), although the degradation in the 'moderate'
+          group was more severe and homogeneous than in the 'mild'
+          group (the control images and abundant experience with
+          this model system supports the implicit assumption here
+          that the initial [before IL-1] distribution of GAG was
+          homogeneous).
+          From a qualitative examination of the recovery images,
+          it can also be appreciated that the regions with
+          relatively low [GAG] after 3 weeks are also the regions
+          that had relatively low [GAG] at the beginning of the
+          recovery period, immediately after IL-1 exposure (Figs
+          1and 3).
+          To examine this observation more quantitatively and to
+          assess whether the rates of GAG accumulation were
+          correspondingly heterogeneous, we examined separately the
+          [GAG] accumulation in three 'regions', namely those with
+          'high', 'medium' and 'low' [GAG] at week 3 (as specified
+          above, under Image processing), which is illustrated for
+          one sample in Fig. 3a. Interestingly, regions of 'low'
+          [GAG] appeared to recover at the same rate as did regions
+          of 'medium' or 'high' [GAG] during the first 2 weeks of
+          post-IL-1-exposure culture. In the first 2 weeks of
+          recovery, all regions recovered at a rate of 10-15mg/ml
+          per week. During the third week the recovery patterns for
+          the three regions differed significantly ( 
+          P <0.001), with the 'low'
+          regions showing negligible [GAG] accumulation and the
+          'high' regions the greatest accumulation (Fig.
+          3a,3c).
         
       
       
         Discussion
-        
-          Study 1
-          The rationale underlying this part of the study is
-          that the stage of sexual maturation is an important
-          variable in applying anthropometric measurements as
-          predictors of risk for cardiovascular diseases. On
-          average, BMI seems to increase with stage of genital
-          maturation in boys relative to fatness, and then, in
-          contrast, decreases in the later stages of maturation
-          reflecting the rapid growth of fat free mass with
-          puberty. BMI in girls also increases with stage of sexual
-          maturation, but relative fatness is variable, especially
-          in girls who just attaining menarche (stage III). To
-          obviate this bias, we preselected our subjects according
-          to their BMI. For instance a BMI ≥ 85 thpercentile (for
-          age and sex) was classified as being overweight, and
-          those with a BMI ≥ 95 thpercentile as obese [ 29 30 31 32
-          ] . Recent workshops concluded that the BMI is an index
-          of choice for evaluating obesity in adolescents, because
-          it has been validated by studies of total body fat [ 32 ]
-          . The criteria used to identify overweight and obesity in
-          children and adolescents agree with those used for grade
-          1 and grade 2 overweight (BMI of 25+ and 30+,
-          respectively) in adults [ 33 ] . Using a representative
-          sample from the general North American Caucasian
-          population, we demonstrate that the BMI is also a good
-          indicator for obesity in adolescents, however the
-          readily-measured WC:AC, CPR, and STR, indices of central
-          obesity, and SUM, a single measure of subcutaneous
-          adiposity, are stronger predictor of both fasting glucose
-          and insulin levels and lipid profiles, than BMI. We also
-          demonstrated that each anthropometric variable taken
-          separately can significantly predict fasting glucose and
-          insulin levels and lipid profile in adolescents of both
-          sexes with a probability of P < 0.01. Our results are
-          in accordance with others of children aged 5 and 16, in
-          whom, indicators of fatness such as weight-for-height,
-          BMI and skinfold thicknesses have been associated with
-          higher total and LDL cholesterol, lower HDL cholesterol,
-          and higher triglyceride concentrations [ 40 41 42 43 ]
-          .
-          Our overweight and obese adolescents had higher
-          fasting glucose, and insulin levels for BMI than subjects
-          with BMI in the healthy range. Furtheremore, the
-          prevalence of obesity was comparable between boys and
-          girls. In both sexes the prevalence of diabetes and
-          impaired fasting glucose increased relative to
-          chronological age in both overweight ( 
-          P < 0.01) and obese subjects ( 
-          P < 0.001). Previous study in
-          Aboriginal children recognized to be at high risk for
-          type II diabetes has shown that obesity is associated
-          with high fasting glucose and fasting insulin levels.
-          They also demonstrated that children with BMI exceeding
-          the 85 thpercentile are at increased risk of diabetes or
-          impaired fasting glucose, odds ratio of 5.1 with 95%
-          coefficient interval 1.5, 17.0 [ 39 ] . With use of the
-          cutoff point of the 85 thpercentile we demonstrated that
-          adolescents of Tanner stage III and higher, of both
-          sexes, are at increased risk of having impaired fasting
-          glucose, with odds ratios of 11.7 and higher.
-          Our overweight and obese adolescents had higher TC,
-          LDL, TRG and lower HDL values which correlated with BMI,
-          and other measures of fatness. In both sexes the
-          prevalence of impaired lipid profile increased relative
-          to chronological age in both overweight ( 
-          P < 0.01) and obese subjects ( 
-          P < 0.001) l. Adolescents of
-          both sexes, with BMI ≥ 85 thare at increased risk of
-          impaired fasting lipid profiles, with odds ratios of 9.1
-          and higher.
-        
-        
-          Study 2
-          The goal of the second study was to determine the
-          childhood age of abnormal glucose and lipid profiles from
-          overweight adults. By using a retrospective-prospective
-          longitudinal study design we were able to track BMI,
-          glucose and lipid profiles from late childhood and
-          adolescent ages to adulthood in a white Caucasian
-          populations. Then we were able to correlate their
-          subsequent risk of obesity and its associated impaired
-          glucose and lipid profiles There is general agreement on
-          the use of BMI with selected cutoff points as guidelines
-          for desirable weight [ 44 45 46 47 48 ] . This study
-          provided a basis for prediction of overweight and obesity
-          in adults from their 13-15 year old group, suggesting
-          that this simple measurement could be applied to the
-          prediction of obesity in public health programs. The
-          results presented here were comparable to those observed
-          in a previous study showing that with use of the cutoff
-          point of the 60 thpercentile at age 18 y, the odds ratios
-          of overweight at age 35 y were of 15 for males and 27 for
-          females, with corresponding SEs of 1.9 and 3.5
-          respectively. Previous data on 8-18 y olds in Project
-          Heart-Beat demonstrated that the odds ratio of overweight
-          in adulthood for those with childhood BMI values at the
-          95 thpercentile were 2-6 and 1.5 to 5 times as great as
-          for those with a BMI values at the 75 thpercentile for
-          males and females respectively [ 49 ] .
-          The incidence of impaired glucose profile was
-          comparable between boys and girls. In both sexes the
-          incidence of diabetes and impaired fasting glucose
-          increased significantly ( 
-          P < 0.001) relative to
-          chronological age in comparison to adults. The
-          sensitivity of the selected cutoff point for BMI values
-          at the 85 thpercentile at 13-15 years old for identifying
-          impaired glucose profile at age 35 y was 76.4% and 77.6%
-          for both male and female, respectively. Therefore, at
-          least 75% of male and female adolescents aged between 13
-          and 15 years old who were having a BMI ≥ 85 thwere
-          correctly predicted to have impaired glucose profile at
-          35 y. On the other hand, 77.8% of male and 71.4% of
-          female adolescents of this age group who were having a
-          BMI ≤ 85 thwere correctly predicted to have normal
-          glucose profile at 35 y. As stated in the introduction
-          obesity in childhood is associated with obesity in
-          adulthood [ 22 23 24 25 ] , and is a predictor of all
-          cause of obesity-associated mortality during adulthood,
-          particularly mortality from cardiovascular diseases,
-          which is independent of adult weight [ 24 25 ] . The
-          results of the present study agreed with a previous study
-          [ 50 ] indicating that the metabolic alterations caused
-          by excess body fat are expressed early in the natural
-          history of obesity. Such alterations seem clinically
-          important even in children, as evidenced by an increase
-          in glucose profile abnormalities in obese adolescents.
-          These observations underscore the need for research
-          efforts directed at the development of effective
-          interventions for obese adolescents.
-          The incidence of impaired lipid profile was comparable
-          between boys and girls. In both sexes the incidence of
-          impaired lipid profile increased significantly ( 
-          P < 0.001) relative to
-          chronological age in comparison to adults. The
-          sensitivity of the selected cutoff point for BMI values
-          at the 85 thpercentile at 13-15 years old for identifying
-          impaired lipid profile at age 35 y was 77.7% and 79.2%
-          for both male and female, respectively. The specificity
-          was 80.0% and 75.0%, for both male and female,
-          respectively. If we consider that most of the subjects
-          having a BMI ≥ 85 thwere also presenting more than 2 risk
-          factors for cardiovascular disease, this means that they
-          are at increased risk for developing cardiovascular
-          diseases. Few studies have examined the long-term effects
-          of adolescent obesity on adult disease. Nonetheless,
-          obesity present in childhood or adolescence seems to
-          increase the likelihood of adult morbidity and mortality
-          [ 51 ] . In the present study we demonstrated that in
-          both men and women obese during adolescence, risk of
-          cardiovascular diseases and diabetes were increased.
-          These effects seems related both to the persistence of
-          obesity and to the effects of childhood or adolescent
-          obesity on the quantity and location of body fat
-          distribution. The risk factors for adult disease that are
-          associated with obesity in children and adolescents
-          persist into adulthood or increase in prevalence if
-          weight gain occurs. Although both total body fat and
-          regional fat deposition could account for the association
-          of childhood or adolescent obesity with adult disease, no
-          studies to date have examined cardiovascular risk factors
-          and related them to visceral fat.
-        
+        The present study clearly demonstrates that bovine
+        cartilage explants can, at least partially, recover from
+        IL-1-induced degradation by synthesizing new GAG but that
+        the ultimate rate of recovery may be dependent on the
+        degree of initial depletion. By monitoring the spatially
+        localized changes in [GAG] over a 3-week recovery period,
+        we showed that [GAG] increases significantly with time in
+        post-IL-1-exposure culture, with the early recovery (first
+        2 weeks) being independent of absolute [GAG] but the later
+        recovery (third week) occurring only in regions with higher
+        [GAG].
+        With respect to the spatial heterogeneity in recovery
+        rates, we are not aware of any histologic (or other) data
+        describing the apparent dependence of the rate of [GAG]
+        replenishment on the initial state of the ECM. We
+        previously showed that spontaneous recovery from complete
+        trypsin-induced GAG loss occurs uniformly throughout the
+        tissue, showing no significant spatial heterogeneity in
+        recovery rates and nearly complete recovery to the initial
+        state in approximately 5 weeks [ 14 ] . Those data suggest
+        that the capacity for cells to synthesize new matrix is
+        uniform throughout the tissue. Thus, the differential
+        response seen here is presumably due to the state of the
+        ECM immediately after IL-1 exposure.
+        Here, we consider [GAG] as a surrogate for defining the
+        ECM state immediately following IL-1 exposure. [GAG] itself
+        is one direct measure of ECM state. In the context of the
+        present study, [GAG] might also serve as a surrogate for
+        the state of other ECM macromolecules, such as collagen.
+        Given the broad spectrum of IL-1-induced enzymes, we
+        consider that regions of the tissue where [GAG] is more
+        severely affected by IL-1 may also be regions that
+        experience greater damage to the collagen network, as
+        compared with regions that are more resistant to the
+        effects of IL-1. Our finding that the regions that
+        experienced the least recovery were those most severely
+        affected by IL-1 could be a consequence of these same
+        regions sustaining more significant damage to the ECM
+        network. This conclusion is consistent with findings
+        regarding IL-1-induced degradation in rabbits, in which
+        recovery rates decreased with apparent severity of
+        degradation [ 1 ] .
+        Interestingly, it is in the latter phase of recovery
+        that a discrepancy in recovery rates becomes evident.
+        During the early phases of recovery, the rate of [GAG]
+        accumulation in the regions with the lowest [GAG] was
+        comparable to the rates of recovery in regions with the
+        highest [GAG]. The mechanism for this heterogeneity is
+        unclear. It could be a manifestation of a corresponding
+        distribution of IL-1-induced changes in chondrocyte
+        metabolism or viability [ 23 ] , or it could be a
+        manifestation of a corresponding distribution of damage to
+        the collagen scaffold, which in turn limits the ability to
+        replenish [GAG]. Kruijsen 
+        et al . [ 24 ] showed that both the
+        severity and chronicity of antigen-induced inflammation
+        determined the degree of chondrocyte killing in their 
+        in vivo murine model of arthritis.
+        Their studies showed that chondrocyte death was most highly
+        correlated with the degree of joint inflammation present 14
+        days after arthritis induction. That finding suggests that
+        sustained exposure to IL-1, a proinflammatory agent, may
+        also cause chondrocyte death. However, the fact that the
+        early recovery phase in the present study showed no
+        heterogeneity makes cell death a less likely cause of
+        limited [GAG] replenishment.
+        A limitation (and obvious next step) to this study is
+        that we do not have independent information about the
+        integrity of the collagen matrix. Magnetic resonance
+        imaging techniques are actively being developed to image
+        the collagen component of tissue, which can be incorporated
+        into future studies [ 25 ] . Human osteoarthritic tissue
+        is, by histologic measures, spatially heterogeneous in both
+        collagen damage and degree of proteoglycan depletion. The
+        notion that the differential ability to replenish GAG fully
+        is related to the differential state of the collagen matrix
+        has been suggested by others, based in part on the finding
+        that GAG depletion corresponds with regions that are
+        positive for the col3/4 epitope, which is indicative of
+        collagen damage [ 6 26 ] . Although we lack specific
+        information on the state of the collagen matrix, the
+        differences observed in the present study (and, indeed, the
+        demonstrated ability to evaluate regional differences in
+        response) suggest that dGEMRIC and model systems such as
+        these may be useful for establishing a better understanding
+        of the capacity of cartilage to repair osteoarthritis-like
+        degradation.
+        The rate of GAG replenishment observed in this study
+        compares well with published synthesis data. Using sulfate
+        incorporation over periods of less than 24 hours, we and
+        others have reported sulfate incorporation ratios between
+        0.06 and 0.13nmol/mg wet-weight/hour for young bovine
+        cartilage [ 27 28 29 ] . These incorporation rates imply
+        GAG synthesis rates of 6-13 mg/ml tissue water per week
+        (assuming 1 sulfate per disaccharide, 502 g/mol
+        disaccaride, and 0.8ml tissue water/g wet-weight). By
+        comparison, we observed GAG accumulation rates of 4-14mg/ml
+        per week, as inferred from the change in [GAG]. These
+        values also compare well with the 2-7.3mg/ml per week rates
+        of GAG replenishment seen in young bovine cartilage
+        explants recovering from trypsin-induced GAG depletion [ 14
+        ] . Comparison of these GAG accumulation rates with the
+        rate of GAG release into the culture medium clearly
+        suggests that at least 75% of the newly synthesized GAG is
+        retained by the tissue. (By contrast, in control tissue the
+        amount of GAG synthesized is roughly equivalent to the
+        amount released into the medium.)
+        We do not have the ability to determine the regional
+        variations in synthesis and loss. Although we clearly
+        observed regional variations in [GAG] accumulation, it is
+        important to appreciate that these differences could arise
+        by regional differences in synthesis or in loss, or
+        both.
+        Looking more generally at attempts to evaluate [GAG]
+        recovery in IL-1-degraded cartilage, our data are
+        consistent with the temporal progression seen in other
+        model systems in which recovery occurs and is measurable
+        within the first few weeks after a [GAG]-depleting
+        intervention. For example, Takegami 
+        et al . [ 9 ] reported [GAG] recovery
+        in alginate cultures of human intervertebral disc cells
+        pre-exposed to 0.5ng/ml IL-1 for 3 days. During the first 2
+        weeks of post-IL-1-exposure culture, those investigators
+        observed [GAG] recovery rates of approximately 4%/day with
+        very little change in [GAG] observed during the third week,
+        when [GAG] levels reached about 85% of the control level.
+        In an 
+        in vivo rabbit knee joint subjected
+        to intra-articular injections of IL-1, Page Thomas 
+        et al . [ 3 ] used SO 
+        4 uptake and toluidine blue staining to
+        observe GAG losses of 25-60% in several cartilage sites
+        within the knee, with gradual recovery over the subsequent
+        3-4 weeks. Arner [ 1 ] also examined 
+        in vivo GAG synthesis and
+        accumulation in rabbits following intra-articular
+        injections of IL-1. Using dimethylmethylene blue assay and
+        sulfate incorporation, Arner found that both single and
+        multiple injections of IL-1 led to an initial depression in
+        GAG synthesis rate and a slight drop in tissue [GAG] for 4
+        days after IL-1 exposure. These changes were followed by
+        enhanced synthesis (relative to controls), with a
+        commensurate increase in tissue [GAG] over the subsequent 2
+        weeks as the content of GAG in the tissue approached 90% of
+        control levels. In those 
+        in vivo systems it appears that GAG
+        loss continues for 4-7 days after IL-1 exposure [ 1 ] .
+        This is longer than the 1-2 days seen in the present study
+        (in which GAG loss into the medium returned to control
+        levels), and is probably a consequence of IL-1 clearing
+        more quickly from the 
+        in vitro environment.
+        Thus, in widely different model systems - including that
+        reported here - it appears that after an IL-1-induced
+        GAG-depleting intervention tissue can reaccumulate GAG and
+        does so most rapidly during the first few weeks. However,
+        unlike the study described here, in which both spatial and
+        temporal changes in [GAG] were monitored, in the studies
+        described above it was not possible to derive more specific
+        spatial information because the destructive nature of the
+        [GAG] measurements required that time course information be
+        inferred from averages of separate animals/samples
+        harvested at different time points.
+        Our data can also be compared with those from other
+        studies in which magnetic resonance methods were used to
+        monitor changes in cartilage tissue during culture. Our
+        group previously observed spatially uniform recovery of
+        explants following trypsin-induced GAG depletion using
+        dGEMRIC, with the increases in [GAG] occurring most rapidly
+        during the first week and slowing considerably after 3
+        weeks [ 14 ] . Williams 
+        et al . [ 15 ] used the same method
+        to monitor GAG accumulation in tissue engineered cartilage
+        over 6 weeks, and observed relatively steady GAG
+        accumulation over the entire period, with the bulk of the
+        accumulation occurring at the periphery of the explant. The
+        initial state of the cell/polymer construct was presumably
+        uniform, and the heterogeneous [GAG] accumulation was
+        attributed to differences in the biophysical environment.
+        Potter 
+        et al . [ 30 ] observed the growth of
+        tissue engineered over a period of 4 weeks using proton NMR
+        without any additional contrast agent. The relative changes
+        in T1 and T2 times of those studies tracked the histologic
+        finding that GAG increased for the first 3 weeks and then
+        remained relatively constant. Collectively, those studies
+        and the present one illustrate spatial and temporal
+        variations in GAG accumulation in native, treated, and
+        tissue engineered cartilage. Much work, of course, remains
+        if we are to begin to understand the biochemical,
+        biophysical, and structural factors that underlie the
+        differential behavior. Furthermore, much work remains to
+        determine the generalizability of the behavior in these
+        model systems involving young tissue to behavior of
+        cartilage 
+        in vivo in older humans.
       
       
         Conclusion
-        The strengths of the study include the use of large
-        samples of both genders, a wide age range, subjects
-        representative of the population being studied, precise
-        measurements of body composition and the use of
-        well-accepted BMI classifications of overweight and
-        obesity. By using a retrospective-prospective design in the
-        second part of the study we were able to obtain the
-        longitudinal data required to answer the questions
-        addressed. In conclusion our study confirms the hypothesis
-        that overweight and obese adolescents have higher fasting
-        plasma glucose and insulin levels, and an abnormal lipid
-        profile relative to their lean peers. This study highlights
-        the critical importance of early identification and
-        intervention of adolescent obesity to avert the long-term
-        consequences of it and to protect adolescent against the
-        risk of cardiovascular diseases. There is an urgent need to
-        follow cohorts at-risks children and adolescents to
-        investigate cofactors acting in concert with obesity that
-        are responsible for the early onset of risk factors for
-        cardiovascular diseases, a phenomenon increasingly being
-        observed in many populations.
+        In the present study we demonstrated that chondrocytes,
+        in a matrix degraded by IL-1 exposure, partially
+        replenished the GAG, and the most severely degraded regions
+        replenished less fully than did other regions. Future
+        studies are underway to examine whether heterogeneity in
+        replenishment rate is seen in human osteoarthritic tissue.
+        The study provides additional evidence that the 
+        in vitro dGEMRIC method is a
+        practical means for studying GAG homeostasis and events
+        that disturb it. Ultimately, such studies provide the
+        foundation for evaluating the effects of therapeutic
+        interventions on [GAG] degradation or regeneration 
+        in vitro or 
+        in vivo [ 13 ] .
       
       
         Competing interests
         None declared.
+      
+      
+        Abbreviations
+        dGEMRIC = delayed gadolinium enhanced magnetic resonance
+        imaging of cartilage; ECM = extracellular matrix; GAG =
+        glycosaminoglycan; IL = interleukin; NMR = nuclear magnetic
+        resonance.
       
     
   

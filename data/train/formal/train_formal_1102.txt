@@ -2,469 +2,459 @@
   
     
       
-        Background
-        Primary care physicians, by virtue of their position and
-        function in healthcare, are key to the delivery of
-        preventive care [ 1 ] . However, routine integration of
-        primary prevention into practice has been sub-optimal,
-        resulting in lost opportunities to decrease morbidity and
-        mortality [ 2 ] . For example, though the Preventive
-        Services Task Force [ 3 4 ] recommends that preventive
-        services be a part of every medical visit, studies report a
-        compliance rate of only 20% to 60% [ 5 6 7 ] .
-        Studies of barriers to implementation of preventive
-        services have concluded that a) changing physician
-        practices requires altering their routine practice
-        environment [ 8 ] and b) the integration of a systematic
-        well-organized methodology into the primary practice
-        environment is key to increasing the rate of prevention
-        services delivery [ 9 ] . The long-term goal of this study
-        is a web-based primary care practice tool to facilitate
-        physician-delivered health behavior counseling. The
-        organization of the tool's printed output will assist the
-        physician in risk identification and prioritization and
-        delivery of patient-tailored evidence-based health behavior
-        recommendations at the time of the clinic visit. Previous
-        studies have shown that the introduction of appropriate
-        support and tools has resulted in physician-reported
-        increased self-efficacy in changing patient behavior [ 10
-        11 ] and increased rates of risk counseling [ 12 13 ] . An
-        efficient integrated practice tool could also advance
-        physicians and patients to view chronic and acute care
-        visits, in addition to well care visits, as opportunities
-        to deliver preventive services.
-        When developing such a tool, sole reliance on past
-        studies of barriers [ 14 15 16 17 18 ] is not advised, as
-        barriers in one setting may not be generalizable to another
-        [ 19 ] . Formative assessment is necessary to identify
-        barriers, universal and indigenous, in the intended
-        environment. In addition, before any intervention tool can
-        be developed and introduced, its claims of benefit and
-        relevancy to the intended practice environment must be
-        evidence-based. Finally, whether the conceptual credibility
-        of the intervention can produce behavioral change is
-        largely dependent on its ability to translate to real world
-        application and benefit in the context of the intended
-        user's environment. The "sell of health" as the product has
-        not been sufficient, as evidenced by the lack of routine
-        preventive care delivery. To overcome attitudes and office
-        systems that often emphasize treatment versus preventive
-        care, the tool must be developed and "sold" on points
-        salient and compelling to physician values, beliefs, and
-        experiences [ 20 21 ] . In sum, a comprehensive assessment
-        of the targeted environment is essential to the process of
-        intervention development and application.
-        The PRECEDE-PROCEED model [ 22 ] , a comprehensive
-        health promotion-planning model, provided the framework for
-        this study's incremental progression towards intervention
-        visualization, development, and adoption. Physician
-        formative involvement in the tool development began with
-        the convening of a focus group of 12 peer-identified
-        primary care physician Opinion Leaders. The aims of the
-        focus group were to a) identify conceptual themes that
-        characterize primary care physician attitudes, deterrents,
-        and practice environments regarding preventive care and, on
-        the basis of the findings, b) establish the conceptual
-        framework of an intervention tool that will best meet the
-        needs of primary care practices.
+        Introduction
+        In diarthodial joints, cartilage provides a smooth
+        surface that enables joints to articulate and to withstand
+        compressional and shear stress [ 1 ] . Embedded in the
+        cartilage are chondrocytes that respond to biochemical and
+        physical stimuli to maintain this tissue. Cartilage is
+        primarily composed of type II collagen and proteoglycan,
+        which are synthesized by the chondrocytes. In addition,
+        chondrocytes produce enzymes, such as the matrix
+        metalloproteinases (MMPs), that degrade the cartilage [ 2 ]
+        . In arthritis, an imbalance of these processes in favour
+        of degradation results in a loss of cartilage. For the
+        patient, this is manifested as a degeneration of joint
+        function, loss of mobility and concomitant increased
+        morbidity and mortality [ 3 4 ] . For the clinician, this
+        imbalance identifies a need for therapeutic agents to
+        prevent cartilage loss [ 5 ] .
+        In identifying targets for therapeutic intervention, it
+        is important to note that the loss of collagen, rather than
+        proteoglycan, is correlated with disease severity [ 6 ] .
+        Furthermore, whereas lost proteoglycan is replaced rapidly,
+        degraded collagen is resynthesized very slowly [ 7 8 ] .
+        Consequently, understanding collagen degradation and
+        providing therapeutics to prevent it are valuable aims.
+        Within the MMP family, MMP-1 (collagenase-1) and MMP-13
+        (collagenase-3) are expressed in arthritic joints, and
+        efficiently degrade type II collagen [ 9 ] . MMP-13 is more
+        effective than MMP-1 in cleaving type II collagen, but it
+        is debated which is the principal collagenase 
+        in vivo [ 10 11 ] . These enzymes
+        have been implicated in the pathology of rheumatoid
+        arthritis (RA) and osteoarthritis (OA), and have long been
+        therapeutic targets [ 12 ] . Historically, inhibition of
+        MMP-active sites has been a strategy; however, with
+        wide-ranging side-effects and lack of efficacy, these
+        studies are proving unfruitful in providing an effective
+        drug [ 13 ] .
+        Although the etiologies and pathologies of RA and OA
+        differ, it is clear that in both of these diseases
+        pro-inflammatory cytokines are present, resulting in an
+        inflammatory state as well as cartilage degradation [ 14 ]
+        . As further evidence for the role of pro-inflammatory
+        cytokines in RA, anti-tumor necrosis factor-α (anti-TNF-α)
+        and anti-interleukin 1 (anti-IL-1) therapies can reduce
+        inflammation and retard the progression of disease as
+        assessed radiographically [ 15 16 ] . However, side-effects
+        with these approaches, such as the development of lymphomas
+        in patients using anti-TNF-α therapies, demonstrate that
+        alternative therapies are needed [ 17 ] .
+        An alternative approach to the prevention of cartilage
+        degradation is the inhibition of MMPs by targeting either
+        the expression of their genes or the synthesis of the
+        proteins. Triterpenoids are a novel family of steroid-like
+        compounds with weak anti-inflammatory properties [ 18 ] .
+        Synthetic triterpenoids have been produced with the aim of
+        achieving increased potency [ 19 20 ] .
+        2-Cyano-3,12-dioxoolean-1,9-dien-28-oic acid (CDDO) is a
+        synthetic triterpenoid that has been shown to inhibit
+        expression of the inflammatory genes inducible nitric oxide
+        synthase and cyclo-oxygenase-2 [ 20 21 22 ] . In a recent
+        report, MMP-1 and MMP-13 expression were induced with IL-1,
+        a known pro-inflammatory mediator 
+        in vivo in joint tissues [ 23 ] . It
+        was shown that CDDO could inhibit the IL-1-induced
+        expression of these pro-inflammatory MMPs. These findings
+        make CDDO an attractive molecule to study as a potential
+        anti-arthritic agent.
+        Here we report quantification of the effects of CDDO on
+        gene expression in the human chondrosarcoma cell line
+        SW-1353 with the use of real-time reverse-transcriptase
+        polymerase chain reaction (RT-PCR). To ensure that the
+        chondroprotective effects of CDDO are not limited to this
+        cell line, we studied its effects on human primary
+        chondrocytes. We found that, at concentrations that do not
+        induce apoptosis, CDDO effectively inhibits the induction
+        of both MMP-1 and MMP-13 gene expression by IL-1 in these
+        cells. Whereas the inhibition of MMP-1 by CDDO requires
+        pretreatment, inhibition of MMP-13 does not. We have
+        recently reported the role of the inhibitor of NF-κB (IκB)
+        family member Bcl-3 in IL-1-induced MMP-1 expression [ 24 ]
+        . Here we show that overexpression of Bcl-3 can partly
+        abrogate CDDO's inhibitory effects on MMP-1 in SW-1353
+        cells, suggesting that Bcl-3 might be a target for
+        CDDO.
       
       
-        Methods
+        Materials and methods
         
-          Focus group methods
-          The Primary Care Advisory Board of Western New York
-          (WNY) represents over 500 physicians associated with 13
-          primary care practices throughout WNY. The Department of
-          Family Medicine (DFM) of the State University of New York
-          at Buffalo School of Medicine and Biomedical Sciences is
-          a leading provider of medical care to the underserved and
-          underrepresented populations in WNY. Members of the
-          Advisory Board and DFM applied their knowledge of the
-          regional physician community and assisted in the
-          identification of 19 Opinion Leaders among WNY Family
-          Practice, Internal Medicine, and General Practice primary
-          care physicians (PCP) to be invited to participate in a
-          semi-directed audio-taped focus group discussion. Opinion
-          Leaders were used to establish a communications channel
-          into the existing regional physician social network, and
-          in acknowledgement of the mediating effects of Opinion
-          Leaders on the diffusion and acceptance of new ideas and
-          products, such as the future practice tool [ 23 ] .
-          Opinion Leader sampling was used to obtain the sought
-          significant conceptual variation that stems from the
-          Opinion Leaders' vast experience and influence [ 24 25 ]
-          . To enhance the likelihood of variation among the
-          identified Opinion Leaders, the Advisory Board members
-          and DFM were directed to provide names of Opinion Leaders
-          physicians from a range of practice locations (i.e.,
-          urban, suburban, rural), patient population
-          characteristics (e.g., age, insurance status), primary
-          care specialty, and both genders, in addition to
-          considering the physicians' perceived stature among
-          peers. Each Opinion Leader was mailed an invitational
-          letter that briefly explained the study and the general
-          intent of the physician discussion. One week following
-          the mailing, the lead researcher called each physician's
-          office to answer any questions and determine physician
-          availability for participation. Twelve physicians
-          consented and participated in the single focus group (63%
-          participation rate). Each participant was provided either
-          an honorarium or a Palm IIIxe organizer at the conclusion
-          of the focus group. The 2-hour audio-taped focus group
-          was conducted at a focus group research facility in
-          Buffalo, New York in March 2001. Seven male and five
-          female physicians participated and represented family
-          medicine (n = 7) and internal medicine (n = 5)
-          specialties.
-          A professional moderator led the group using a
-          semi-structured interview guide developed by the
-          researchers. The participants were asked about their
-          views on the nature and goals of preventive medicine, use
-          of primary prevention in the region, and existing tools
-          to assist in the delivery of primary prevention. To avoid
-          channeling the discussion, study descriptors provided to
-          the PCP and the focus group moderator never used the
-          phrase "cancer prevention". The Roswell Park Cancer
-          Institute Institutional Review Board approved this
-          research protocol.
+          Materials, cells and cell culture
+          CDDO was kindly provided by Dr Tadashi Honda and Dr
+          Gordon Gribble (Dartmouth College, Hanover, NH, USA).
+          Human SW-1353 chondrosarcoma cells were purchased from
+          the American Type Culture Collection (Rockville, MD,
+          USA). Stable SW-1353 cell lines carrying a pBkRSV vector
+          with a Bcl-3 expression insert were created as described
+          previously [ 24 ] . Freshly excised, macroscopically
+          normal cartilage and synovium from OA patients undergoing
+          knee replacement surgery were obtained from a local
+          orthopedic unit (Dartmouth Hitchcock Memorial Hospital,
+          Lebanon, NH, USA). These tissues constitute waste from
+          the operations. Under our current protocol with the
+          Committee for Human Subjects as mandated by HIPPA, we did
+          not collect subject information. We therefore made no
+          selection on the basis of age or sex. Cartilage and
+          synovium were degraded in 4 mg/ml collagenase (Sigma, St
+          Louis, MO, USA) for 16 hours at 37°C, with shaking at 90
+          r.p.m., and cells were cultured to one passage
+          (chondrocytes) or four passages (synovial
+          fibroblasts).
+          SW-1353 cells (normal or stably transfected with
+          pBkRSV-Bcl-3), human primary chondrocytes, or synovial
+          fibroblasts were cultured in Dulbecco's modified Eagle's
+          medium (DMEM) supplemented with 10% fetal bovine serum
+          (Hyclone, Logan, UT, USA), penicillin/streptomycin and
+          L-glutamine (Cellgro; Mediatech, Herndon, VA, USA) before
+          use in experiments.
         
         
-          Analysis
-          The focus group audiotape was transcribed verbatim.
-          Primary data analysis was based on grounded theory
-          methodology [ 24 25 ] . Transcripts were analyzed
-          line-by-line, coding the text with labels that
-          encapsulated the substantive meaning inherent in the
-          participants' testimonies. Similar codes were clustered
-          to rebuild the data into conceptual categories within the
-          data. Initial categories were then subsumed into more
-          encompassing categories. These broader categories were
-          abstract characterizations of the data, as they accounted
-          for numerous instances of a certain phenomena under one
-          theoretical concept. Theoretical memos were written
-          throughout the analysis, which provided a record of the
-          analytic process as themes were developed. The
-          researchers discussed the development of the themes
-          throughout the analysis, reaching consensus on eight
-          final emergent themes. Three of the themes focusing on
-          perspectives of primary prevention are presented in this
-          paper (Table 1).
+          Assay of CDDO's effects on chondrocytes and
+          fibroblasts
+          At the beginning of each experiment, chondrocytes or
+          OA synovial fibroblasts were washed three times with
+          Hanks balanced salt solution (Cellgro) to remove traces
+          of serum, and placed in DMEM containing 0.2% lactalbumin
+          hydrolysate (Invitrogen, Carlsbad, CA, USA). Cells were
+          cultured for 24 hours with CDDO as a pretreatment, or
+          CDDO was added at the same time as 10 ng/ml recombinant
+          IL-1β at time 0 (Promega, Madison, WI, USA). After a
+          further 18 hours of culture with IL-1, total RNA was
+          harvested with TRIzol (Invitrogen) and assayed for MMP-1,
+          MMP-13, and Bcl-3 expression by using quantitative
+          real-time RT-PCR. Glyceraldehyde-3-phosphate
+          dehydrogenase (GAPDH) was assayed to normalize data.
+          Reverse transcription and quantitative real-time PCR
+          methods were as described previously [ 24 ] . MMP-13
+          primers used were as follows: upper,
+          5'-TGGCATTGCTGACATCATGA-3' ; lower,
+          3'-GCCAGAGGGCCCATCAA-5'. The product size was 76 base
+          pairs. A plasmid containing MMP-13 cDNA (provided by Dr
+          Carlos Lopez-Otin, Oviedo, Spain) was used to generate an
+          MMP-13 standard curve. Primers and standards for MMP-1,
+          Bcl-3, and GAPDH were as described previously [ 24 ] .
+          The generation and use of standard curves were as
+          described previously [ 24 ] .
+        
+        
+          Measurement of programmed cell death by staining
+          with Hoechst 33342
+          SW-1353 and human primary chondrocytes were seeded at
+          5 × 10 4cells per well in 24-well plates (Becton
+          Dickinson, Franklin Lakes, NJ, USA). At 60-90%
+          confluence, cells were treated with CDDO (10 nM to 10 μM)
+          for 24 hours, followed by IL-1 for 18 hours. Hoechst
+          33342 (Sigma) (1 μg/ml) was then added to each well to
+          detect cells with condensed chromatin, a hallmark of
+          programmed cell death. After 30 minutes of incubation at
+          37°C, cells were examined under a fluorescent microscope
+          as described previously [ 24 ] .
+        
+        
+          Statistical analysis
+          Analyses of real-time PCR data were performed with
+          unpaired two-tailed Student's 
+          t -tests on triplicate wells
+          cultured simultaneously.
         
       
       
         Results
         
-          Theme 1: physicians' perspectives about primary
-          prevention
-          This theme emerged from physicians' perspectives about
-          what constituted primary prevention and preventive
-          medicine in the health care arena. Physicians offered
-          three models of prevention: a traditional model based on
-          their medical training, a public health model, and a
-          contemporary wellness model.
-          The first model, a traditional conception of
-          preventive medicine, highlighted primary, secondary, and
-          tertiary levels of care. This "textbook" definition of
-          prevention was learned in medical school and guided the
-          physician's role in disease prevention and
-          management:
-          "Three levels of prevention: primary, secondary and
-          tertiary. A-M-A: 
-          A void disease, 
-          M odify disease, 
-          A meliorate disease."
-          The physicians unanimously stated that, of the levels
-          of preventive care, secondary prevention was most
-          stressed in their medical training. Their training
-          focused on the diagnosis and treatment of presenting
-          conditions, which tangentially de-prioritized primary
-          prevention in clinical care:
-          "We were trained to use intervention rather that
-          prevention."
-          The second model offered a population-level approach
-          to primary prevention. This public or community health
-          model was based on early epidemiological advances, such
-          as the prevention of infectious diseases through
-          government sanitation and vaccination efforts. The main
-          implication of the public health model was that
-          governmental public health agencies, not clinical
-          practices, were the bodies responsible for delivery of
-          primary prevention. Participants also noted that
-          community level prevention could be particularly
-          difficult to achieve in certain populations due to
-          socioeconomic factors, such as age, ethnicity, income,
-          and existing level of disease burden. Physicians felt
-          relatively unprepared to deal with underlying factors
-          affecting primary prevention that they perceived to be
-          outside their realm of control.
-          Physicians noted the importance of the contemporary
-          model of wellness that went beyond traditional notions of
-          medical care or public health. Wellness, not simply a
-          matter of being disease-free, was characterized as a
-          state of high functioning that integrated mind, body, and
-          spirit. Primary prevention, though an important factor of
-          wellness, was only one component in a more abstract
-          conception of good health:
-          "Wellness is the goal of prevention, essentially, and
-          wellness is not just the absence of disease, it's the
-          presence of satisfaction with one's mental and physical
-          well being at the same time. So wellness is an outgrowth
-          of prevention."
-          As much as wellness was an ideal health status,
-          physicians believed that wellness was a difficult and
-          complex status to achieve:
-          "...we throw that terminology out a lot, but it's
-          really quite complicated to keep people healthy....for
-          the physician, for the patient, for the society as a
-          whole."
-          Wellness was expressed as a broad concept that went
-          beyond most physicians' medical school training and
-          education.
+          Effects of CDDO in SW-1353 cells
+          Previous work suggested that preincubation with CDDO
+          was required for the effective inhibition of IL-1-induced
+          MMP gene expression in SW-1353 cells [ 23 ] . To quantify
+          the effect of altering the period of CDDO preincubation,
+          300 nM CDDO was added to SW-1353 cells simultaneously
+          with IL-1, or 24 hours before treatment with the
+          cytokine. We found that SW-1353 cells expressed very low
+          basal levels of MMP-1 and MMP-13, and that these were not
+          significantly affected by incubation with CDDO (Fig. 1).
+          IL-1 induced the expression of MMP-1 and MMP-13, and
+          these were significantly inhibited when the cultures were
+          pretreated with CDDO for 24 hours, the respective
+          decreases being 55% for MMP-1 ( 
+          P < 0.1) and 66% for MMP-13 ( 
+          P < 0.01). In addition, when
+          added simultaneously with the cytokine, CDDO
+          significantly inhibited the IL-1-induced expression of
+          MMP-13, but not that of MMP-1. Under these circumstances,
+          MMP-13 expression was decreased by 41% ( 
+          P < 0.05). The different
+          profiles for MMP-1 and MMP-13 inhibition when CDDO was
+          added simultaneously with the cytokine suggest a
+          difference in the action of the inhibitor on the
+          expression of each enzyme.
+          Previously, with the use of Northern blotting,
+          dose-response assays in SW-1353 cells showed that 300 nM
+          was the lowest dose of CDDO sufficient to decrease the
+          IL-1-induced expression of MMP-1 and MMP-13 [ 23 ] . This
+          was confirmed by using quantitative real-time PCR. Doses
+          below 300 nM did not decrease MMP expression, whereas
+          those above 1 μM resulted in poor RNA harvests and low
+          expression of the MMPs (data not shown). This effect at
+          higher doses might be due to the reported apoptotic
+          effects of CDDO [ 25 26 ] . To examine for such effects,
+          SW-1353 cells were treated for 24 hours with CDDO under
+          serum-free conditions, and then IL-1 was added for a
+          further 18 hours. Cells were stained with Hoechst 33342
+          and examined under a fluorescent microscope. Doses of 300
+          nM and 1 μM CDDO, with or without IL-1, did not increase
+          apoptosis compared with control (medium alone) or IL-1
+          (data not shown). However, a dose of 5 μM caused
+          apoptosis in SW-1353 cells, as seen in lower cell
+          numbers, changed morphology and an increased number of
+          fluorescing cells. These data demonstrate that at 300 nM
+          and 1 μM, doses that inhibit MMP gene expression, CDDO
+          does not cause programmed cell death.
         
         
-          Theme 2: PCP view of patients' perspectives of
-          preventive care
-          Patients sought care with an existing frame of mind
-          that dictated their expectations of the office visit.
-          According to the PCPs, patients typically entered
-          examination rooms seeking treatment for acute or chronic
-          conditions; few specifically sought primary preventive
-          care. The relatively small number of proactive requests
-          for preventive care was often limited to patients with
-          memberships in HMO's that promoted wellness visits.
-          The physicians reported the lay media (i.e.,
-          television, advertisement, print, Internet) to be a
-          significant influencer of patients' perspectives and
-          mindsets about their health care needs. Patients were
-          increasingly informed and predisposed by consumer-direct
-          marketing and popular ideas about health, which often
-          lead to patients' media-skewed perceptions of health
-          needs and goals:
-          "...Yes, it's a very vogue, in thing right now...to
-          get the total body CT scan. It only costs seven-hundred
-          dollars and they're doing it in California, and so that
-          sets a thought process in a patient's mind that 'Well, if
-          I do this and everything is okay, I must be well', and
-          that's completely off base."
-          Health information retrieved through the lay media had
-          also produced patients' risk perceptions that were at
-          times in conflict with the patients' best medical
-          interests. For example, one physician noted the
-          following:
-          "You have patients who come in who have a cholesterol
-          of 350, and they are more concerned that they are going
-          to have a liver side effect if they take a medicine ...
-          than their cholesterol of 350. And so media plays a huge
-          role in what patient's perception of what is important to
-          them."
-          The physicians observed that the media had enhanced
-          patients' expectation of a "silver bullet" cure. Some
-          patients not willing to commence exercise or stop smoking
-          were willing users of nutritional supplements, despite
-          the convincing evidence of benefit for the former and
-          less evidence for the latter. A perceived quick fix, such
-          as a pill, avoided the more difficult issue of behavior
-          change, and justified patients' satisfaction or
-          complacency with their non-healthy behaviors.
-          Physicians stated that patients who were satisfied
-          with their current level of health did not feel the need
-          to change their behaviors because they were healthy for
-          the moment. "Ignorant bliss" was a frequent basis for
-          patients' lack of interest in changing behaviors
-          associated with an increased risk of disease later in
-          life.
-          Physicians had to contend with the reality that
-          patients' agendas often were in conflict with their own.
-          The disparity between patients' and physicians' health
-          care expectations and wants deterred the delivery of
-          primary prevention.
+          CDDO time-course in human primary
+          chondrocytes
+          As described in the Introduction, the aim of studying
+          the triterpenoids is to develop a therapeutic agent for
+          the treatment of arthritis. We were therefore interested
+          in studying the effects of CDDO in human primary cells.
+          Quantitative real-time RT-PCR revealed that human
+          chondrocytes expressed low levels of MMP-1 and MMP-13 in
+          the absence of IL-1, and increased levels with addition
+          of the cytokine (Figs 2a,2b). Pretreatment of cultures
+          with 300 nM CDDO for 24 hours resulted in a decreased
+          expression of IL-1-induced MMP-1 and MMP-13. MMP-1
+          expression was decreased by 99% ( 
+          P < 0.01) and MMP-13 by 96% ( 
+          P < 0.01). As was observed with
+          SW-1353 cells, MMP-13 expression was significantly
+          decreased when CDDO was added simultaneously with the
+          cytokine: we observed a decrease of 67% ( 
+          P < 0.1). MMP-1 expression was
+          not significantly inhibited by CDDO added simultaneously
+          with IL-1.
         
         
-          Theme 3: focusing on behavioral change
-          Throughout the discussion, behavioral change was often
-          cited as a central issue for the promotion of wellness
-          and primary prevention. Behavioral change was a difficult
-          task for both patient and physician, though one that
-          primary prevention and wellness were dependent upon. The
-          PCPs believed that implementing behavioral change
-          required changing the patients' mindsets, including
-          leading patients to accept more personal responsibility
-          for their wellness. It would be virtually impossible to
-          initiate behavioral change if a patient expressed no
-          interest or willingness to change, regardless of methods
-          employed to motivate the patient.
-          The physicians perceived that patients self-selected
-          for behavioral change. Patients who were willing to
-          change would change. Patients resistant to change would
-          not. Perception of patient behavior as a dichotomy of
-          compliant versus not compliant, however, seemed to thwart
-          physician consideration of more subtle issues related to
-          health behaviors and behavioral change.
-          It was reported that patients' receptivity to health
-          promotion discussion was dynamic, and times of openness
-          were opportunities to be capitalized upon. Physicians
-          needed to take advantage of a willing patient, though
-          willingness to change was characterized as random - "you
-          never know which patient is going to listen".
-          Other significant barriers to behavioral change were
-          attributed to physicians themselves. They acknowledged
-          their lack of training, knowledge, and skill in
-          behavioral change process and recommendation conveyance.
-          Participants expressed a desire for tools that could help
-          with patient behavioral change, but often had to create
-          approaches of their own:
-          "I don't think that we were trained when we were in
-          medical school, in residency, at least I was not, in
-          effective ways of changing patient behavior. We were not
-          trained in that. You learn it by successes and
-          failures."
-          Physician acceptance of the concept and worth of
-          promoting health behaviors was ideal, but there were
-          considerable barriers to physician delivery,
-          recommendation, and the follow-up of these behaviors with
-          their patients.
+          Effects of CDDO on expression of Bcl-3 in human
+          primary chondrocytes
+          In the same time-course experiment, we assayed for the
+          presence of Bcl-3, an IκB family member that we have
+          previously shown to have a role in MMP-1 expression. We
+          found that Bcl-3 was inducible with IL-1 in human primary
+          chondrocytes, and that CDDO significantly inhibited this
+          expression (Fig. 2c). In a similar manner to MMP-1
+          inhibition, the decreased expression was observed only
+          after preincubation of the cells with CDDO for 24 hours
+          (Figs 2a,2c). This was in contrast to MMP-13, whose
+          inhibition was possible without pretreatment with CDDO
+          (Fig. 2b). These results present further evidence of a
+          link in MMP-1 and Bcl-3 expression, and indicate that
+          both molecules are similarly affected by CDDO.
         
         
-          Significant emergent concepts
-          In addition to the themes, several significant
-          concepts emerged from the focus group. In the forefront
-          was the observation that physicians do not perceive the
-          purported power [ 26 ] of their recommendations in
-          motivating patient behavioral change. The physicians
-          generally lacked a sense of behavioral capability,
-          expectation, and self-efficacy [ 27 ] regarding their
-          ability to successfully recommend, produce, and sustain a
-          change in patient health behaviors. Secondly, the
-          diseases emphasized by the physicians were non-malignant
-          chronic conditions, such as diabetes and heart disease,
-          which reflected the conditions typically managed on a
-          daily basis. Cancer was mentioned only briefly. Thirdly,
-          the underscored health risk behaviors were tobacco use,
-          weight control, dietary intake, and exercise. Fourth,
-          time was the essential element for tuning-in to the
-          patient to ensure preventive care was received, while
-          simultaneously a constraint to offering care. Physicians
-          did not get reimbursed for patient counseling services
-          delivered in less than 15 minutes. Reportedly, there was
-          no clear financial incentive for physicians to provide
-          behavioral counseling within the context of typical
-          visits. Fifth, existing tools to aid the delivery of
-          preventive care, particularly written educational
-          materials, were seen as only partially effective.
-          Physicians were interested in finding truly effective
-          aids:
-          "We do not have unlimited time, so anything that aids
-          us technologically, check lists or whatever, is something
-          that's going to help us with prevention."
-          Though awareness and use of existing tools and aids
-          was minimal, physicians felt that thoughtfully engineered
-          tools would be of great assistance. The potential of such
-          tools is supported by observations that suitable tools
-          have lead to increased physician self-efficacy [ 10 11 ]
-          and rate of risk counseling [ 12 13 ] .
-          The study analysis, based in grounded theory, was an
-          exhaustive process that maximized the data obtained from
-          the session. This method suited the preliminary aims of
-          formative PCP involvement and the identification of
-          conceptual themes to begin the characterization of PCP
-          perceptions regarding primary prevention. Of note, the
-          emergent concepts concurred with many of those observed
-          in larger studies [ 19 ] and reports, such as that done
-          by the Center for the Advancement of Health (CFAH) [ 28 ]
-          . The CFAH collected data nationwide from 141 clinicians,
-          researchers, program directors, and organizations in an
-          effort to understand impediments to routine delivery of
-          preventive care. Findings of physician and patient
-          resistance to change in traditional roles, insufficient
-          training and low self-efficacy in behavioral counseling,
-          low patient motivation, and lack of relevant counseling
-          resources corroborated those reported in this study.
-          Nevertheless, the use of multiple focus groups would have
-          enhanced this study's confidence in the initial
-          characterization and generalizability. The identified
-          concepts will be applied towards the development of a
-          survey that will be mailed to a randomized sample,
-          stratified by county, practice specialty, and physician
-          gender, of WNY PCP to test and refine the
-          characterization of regional perceptions and experiences.
-          The focus group and survey findings will then be applied
-          in the development of the practice tool.
+          CDDO dose-response study in human primary
+          chondrocytes
+          To examine the effects of increasing doses of CDDO in
+          human primary chondrocytes, cells were preincubated for
+          24 hours with CDDO (300 nM to 5 μM), or with medium
+          alone, before the addition of IL-1 for 18 hours. Figure
+          3shows that human primary chondrocytes have low basal
+          expression of MMP-1, MMP-13 and Bcl-3, and that they are
+          increased in the presence of IL-1. Increasing doses of
+          CDDO resulted in a decreased expression of each gene. For
+          example, MMP-1 expression was inhibited by 36% ( 
+          P < 0.1) with 300 nM CDDO, by
+          49% ( 
+          P < 0.01) with 1 μM CDDO, and by
+          83% ( 
+          P < 0.01) by 5 μM CDDO. Similar
+          patterns emerged for MMP-13 (63%, 81%, and 99%) and Bcl-3
+          (33%, 61%, and 86%) in response to the respective doses
+          of CDDO, all results being significant. Using Hoechst
+          33342, we assayed for potential toxicity of CDDO in human
+          primary chondrocytes: we found decreased cell numbers and
+          increased apoptosis at or above 5 μM CDDO (data not
+          shown). Lower concentrations did not result in
+          apoptosis.
+        
+        
+          Inhibition of MMP-1, MMP-13, and Bcl-3 in OA
+          synovial fibroblasts
+          In parallel with the study on human primary
+          chondrocytes, we examined the effects of 300 nM CDDO on
+          synovial fibroblasts excised from OA synovium. There were
+          low basal expressions of MMP-1, MMP-13, and Bcl-3, which
+          were increased in the presence of IL-1 and inhibited by
+          CDDO, following the trends observed in SW-1353 and human
+          primary chondrocytes (data not shown).
+        
+        
+          Effect of overexpression of Bcl-3 on the inhibition
+          of MMP-1 by CDDO
+          To examine further the role of Bcl-3 in IL-1-induced
+          MMP-1 and MMP-13 expression, we used SW-1353 cells stably
+          transfected with a Bcl-3 expression construct. These
+          cells were pretreated with 300 nM CDDO for 24 hours and
+          then cultured with IL-1 for 18 hours. In the presence of
+          empty vector, IL-1 induced both MMP-1 and MMP-13, and
+          their expression was decreased by CDDO by 48% and 46%,
+          respectively (Fig. 4). In cells stably transfected with
+          the Bcl-3 expression plasmid, IL-1 induced MMP-1
+          expression to levels 3.4-fold higher than in the cells
+          transfected with empty vector (Fig. 4a). In comparison,
+          MMP-13 expression was not significantly altered by the
+          overexpression of Bcl-3 (Fig. 4b). Furthermore, the
+          presence of exogenous Bcl-3 sustained MMP-1 expression in
+          the presence of CDDO in comparison with cells expressing
+          empty vector. When cultured in the presence of IL-1 and
+          CDDO, cells transfected with Bcl-3 expressed 3.6-fold
+          more MMP-1 than did cells transfected with the empty
+          vector (Fig. 4a). In contrast, Bcl-3 did not sustain
+          MMP-13 expression in CDDO-treated cells (Fig. 4b). Thus,
+          Bcl-3, which is repressed by CDDO, preferentially
+          contributes to MMP-1 gene expression.
         
       
       
         Discussion
-        It is apparent from the focus group and literature [ 29
-        ] that the delivery of non-reimbursed, but critical, health
-        behavior counseling is dependent upon the complex
-        relationship among physicians, patients, practice
-        characteristics, and office systems. On the basis of the
-        emergent themes and concepts, it is concluded that the
-        future tool will need to meet the following criteria to
-        increase the probability of the tool's perceived benefit
-        and integration into primary care practice:
-        1) A tool whose design, content, and clinical saliency
-        address the behavioral capability, expectation, and
-        self-efficacy deficits of physicians, as these constructs
-        are significant mediators of physician behavior;
-        2) A tool that produces health behavior, not
-        disease-specific, assessments and recommendations that
-        acknowledge and emphasize the overlapping behavioral risks
-        among non-malignant and malignant diseases for which a
-        given patient may be at risk; to explicate the connection
-        between health behaviors and a number of presenting or
-        potential illnesses;
-        3) A tool that presents primary prevention as a
-        component of the broader concept of wellness; to increase
-        the perceived relevancy or fit of primary prevention within
-        typical visits that are predominantly viewed as occasions
-        for secondary prevention;
-        4) A tool whose health behavior risk assessment and
-        recommendations are tailored to each patient's health
-        status and attitude toward health behavior change; the tool
-        feedback could provide an avenue for change, and/or act as
-        a contract between physician and patient;
-        5) A tool that assists the physician or other health
-        professionals to deliver tailored health behavior
-        recommendations and strategies in 1-3 minutes during
-        typical clinic visits;
-        6) A web-based tool maintained by an outside
-        organization, not the practice, that could be easily
-        updated to sustain scientific accuracy and keep attuned to
-        patient concerns prompted, in part, by lay media;
-        7) A tool that would act as an aid, not a replacement or
-        add-on, to the physician-patient relationship.
-        If these criteria are met, the integrated practice tool
-        could facilitate physicians and patients to view more
-        typical clinic visits as opportunities for primary
-        preventive care. Again, this view would be advanced if the
-        tool more expansively framed the visit as an opportunity
-        for wellness. The goal of wellness, a status determined by
-        and aims tailored to the patient's situation and abilities,
-        inherently acknowledges that human behavior is not linear
-        and uniform, but dynamic and variable. Physician and
-        patient success would be measured in terms of incremental
-        progressive changes [ 30 ] versus the absolute of success
-        or failure. Risk reduction, as well as risk elimination,
-        would contribute to increased perceptions of behavioral
-        capability, expectation, and self-efficacy by physicians
-        and patients alike. Outcomes of this type of success may
-        help establish the worth of and, thereby, the market for
-        the routine provision of primary preventive care in all
-        clinic visits.
+        In a previous study, Northern blot analysis showed that
+        treating SW-1353 cells with 300 nM CDDO for 24 hours before
+        treatment with IL-1 inhibited the expression of MMP-1 and
+        MMP-13 [ 23 ] . In the present study we used quantitative
+        real-time RT-PCR to examine the action of CDDO on the
+        expression of MMP-1 and MMP-13 in SW-1353 cells and in two
+        primary cultures: human primary chondrocytes and OA
+        synovial fibroblasts. We have shown in a quantitative
+        manner that in all three cell types, MMP-1 and MMP-13 are
+        inducible with IL-1, and that CDDO inhibits the expression
+        of these collagenases, with optimal inhibition being
+        observed after 24 hours of pretreatment with CDDO.
+        Differing effects were found on the two enzymes: MMP-13 was
+        inhibited more than MMP-1. In addition, significant
+        inhibition of MMP-13 did not require the pretreatment of
+        cells with CDDO. In addition, the observation that synovial
+        fibroblasts respond to CDDO in a similar manner to
+        chondrocytes suggests that the inhibitor can act in all
+        cells of the joint to decrease the expression of MMP-1 and
+        MMP-13.
+        In the human primary chondrocytes and OA synovial
+        fibroblasts, we assayed for CDDO's effects on Bcl-3
+        expression. We have recently described the role of Bcl-3,
+        an IκB family member, in the signaling pathways of IL-1
+        leading to MMP-1 expression in SW-1353 cells and rabbit
+        synovial fibroblasts [ 24 ] . We found that IL-1 could
+        induce the expression of Bcl-3, and that Bcl-3 had a direct
+        effect on MMP-1 expression through cooperation with
+        NF-κB1/p50. In the present study we found that Bcl-3
+        expression was inducible by IL-1 in human primary
+        chondrocytes and in OA synovial fibroblasts. In addition,
+        we found that pretreatment with CDDO decreased the
+        IL-1-induced expression of Bcl-3 in these cells.
+        Furthermore, with the use of SW-1353 cells stably
+        transfected with a Bcl-3 expression plasmid, Bcl-3 could
+        sustain the expression of MMP-1, but not that of MMP-13,
+        against inhibition by CDDO. These data show that Bcl-3 gene
+        expression is a target of CDDO in chondrocytes and suggest
+        that this might contribute to decreased MMP-1 expression.
+        Consistent with this model is the finding that pretreatment
+        with CDDO for 24 hours is required for the inhibition of
+        MMP-1, unlike that for MMP-13. We speculate that, during
+        this period, the inhibitor is entering the cell and
+        altering the expression of components of the IL-1
+        signalling pathway. Bcl-3 is decreased by CDDO during this
+        preincubation period, and it might be one of several
+        proteins involved in MMP expression whose own expression is
+        lowered by CDDO.
+        In all cell types, CDDO inhibited the IL-1-induced
+        expression of MMP-13 mRNA more effectively than that of
+        MMP-1. This might be due to the much lower MMP-13
+        expression in all tissues examined. There is disagreement
+        over which collagenase predominates in cartilage
+        degradation 
+        in vivo [ 10 11 ] . It is therefore
+        of interest to find the levels of MMP-1 expressed compared
+        with that of MMP-13 in SW-1353 and human primary
+        chondrocytes. For example, in human primary chondrocytes
+        (Figs 3a,3b), IL-1 induced MMP-1 to 14 molecules per
+        molecule of GAPDH, whereas MMP-13 was expressed at 0.06
+        molecules per molecule of GAPDH, a more than 200-fold
+        difference. These results suggest that MMP-1 expression
+        might be a dominant target for IL-1 in chondrocytes.
+        It is interesting to note that there was significant
+        variation of both MMP-1 and MMP-13 expression in the
+        primary human chondrocyte experiments. In excising
+        chondrocytes from the extracted knees of OA patients, great
+        care was taken to remove only tissue that seemed
+        macroscopically normal, with the aim of excluding cells of
+        diseased tissue. When these cells were cultured with medium
+        alone, they expressed low levels of MMP-1 and MMP-13,
+        similar to those found in unstimulated SW-1353 cells. These
+        results support the contention that the cells were in a
+        basal state, unaffected by the environment of the diseased
+        knee from which they had been extracted. Furthermore, both
+        enzymes were consistently increased by IL-1 and inhibited
+        by CDDO. Thus, the observed variation of MMP expression is
+        probably due to genetic variability and not to experimental
+        artifacts.
+        Naturally occurring triterpenoids, such as ursolic acid,
+        have been found to have mild anti-inflammatory effects [ 18
+        27 ] . These have been improved with the development of
+        synthetic triterpenoids such as CDDO, offering a potential
+        therapeutic tool for the treatment of arthritis and other
+        diseases [ 19 20 21 ] . Furthermore, it has been reported
+        that CDDO at high doses (5-10 μM) can have pro-apoptotic
+        effects, ideal for the treatment of leukemia but of concern
+        with regard to chondrocyte cell death [ 25 26 ] . However,
+        we found that CDDO, at concentrations that decrease MMP-1
+        and MMP-13 expression (namely 300 nM and 1 μM), did not
+        cause cell death. The inhibitory effect of CDDO on MMP-1
+        and MMP-13 expression, as well as that of Bcl-3, is very
+        encouraging for future applications of triterpenoids in
+        arthritic disease. CDDO is an early-generation synthetic
+        triterpenoid, and further modifications continue to be
+        made. Further analysis of these compounds will provide
+        additional information about their mechanisms and potential
+        as therapeutic agents.
+      
+      
+        Conclusion
+        Inhibition of collagen loss is crucial to minimizing
+        cartilage destruction in the arthritides. MMP-1 and MMP-13
+        have been identified as the significant enzymes involved in
+        this process 
+        in vivo . We examined a novel,
+        synthetic triterpenoid, CDDO, as a potential inhibitor of
+        collagenase expression. We found that CDDO inhibited the
+        expression of these enzymes in a chondrocyte cell line,
+        human primary chondrocytes and synovial fibroblasts.
+        Furthermore, CDDO decreased the expression of the
+        pro-inflammatory mediator Bcl-3, suggesting one possible
+        mechanism of action. CDDO is an early-generation
+        therapeutic agent with great potential for the treatment of
+        the arthritides and other inflammatory diseases.
       
       
         Competing interests
         None declared.
       
       
-        Authors' contributions
-        ALM designed and coordinated the study, participated in
-        the analysis, and drafted the manuscript. GPB performed the
-        analysis and participated in manuscript preparation. CK
-        participated in the study coordination and manuscript
-        preparation. MCM participated in the study coordination and
-        manuscript preparation.
-        All authors read and approved the final manuscript.
+        Abbreviations
+        CDDO = 2-cyano-3,12-dioxoolean-1,9-dien-28-oic acid;
+        DMEM = Dulbecco's modified Eagle's medium; GAPDH =
+        glyceraldehyde-3-phosphate dehydrogenase; IκB = inhibitor
+        of NF-κB; IL = interleukin; MMP = matrix metalloproteinase;
+        OA = osteoarthritis; RA = rheumatoid arthritis; RT-PCR =
+        reverse-transcriptase polymerase chain reaction; TNF-α =
+        tumor necrosis factor-α.
       
     
   

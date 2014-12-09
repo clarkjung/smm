@@ -3,523 +3,883 @@
     
       
         Background
-        During last two decades, the contribution of specialized
-        mesenchymal cells, i.e., fibroblast-derived vascular
-        pericytes, monocyte-derived cells (MDC), and lymphocytes,
-        to the proliferation, differentiation, and aging of
-        tissue-specific cells in various epithelial, parenchymal,
-        and muscle tissues has gained increasing interest [ 1, 2,
-        3, 4, 5, 6, 7, 8, 9, 10]. Recent developments in the
-        understanding of the role of mesenchymal cells and their
-        products in regulation of proliferation and differentiation
-        of tissue cells were initiated more than seventy years ago,
-        when Alexis Carrel demonstrated that leukocyte extracts,
-        like embryonic tissue extracts, stimulate multiplication of
-        fibroblasts 
-        in vitro, and suggested that
-        leukocytes can bring growth- activating substances to
-        tissue-specific cells [ 11]. Later, in the 1960s and 1970s,
-        lymphocytes were shown to promote tissue growth and
-        regeneration (reviewed in Ref. [ 12]). In spite of these
-        achievements, our understanding of the interactions between
-        mesenchymal and tissue-specific cells is still in its
-        beginning. While a lot of work has been done on the role of
-        various growth factors and cytokines produced by
-        mesenchymal cells on the cell cycle and death 
-        in vitro [ 13, 14, 15, 16, 17, 18],
-        little is known about interactions between mesenchymal and
-        tissue-specific cells 
-        in vivo. 
-        The role of mesenchymal cells in homeostasis of normal
-        tissues (and cancer) is still poorly understood. Our
-        studies [ 1, 2, 9, 10], and those of others [ 3, 4, 5, 6,
-        7, 8], demonstrate that the interaction between mesenchymal
-        cells and tissue-specific cells is complex. The nature of
-        the interactions may depend on the tissue type, e.g.,
-        liver, brain and muscle with very long lived differentiated
-        cells, vs. epidermis, ectocervix and vagina, where cells
-        growth and die at a relatively rapid rate. Alternatively,
-        it may depend on the prevention ("stop effect") or
-        allowance/stimulation of differentiation of cells into the
-        suicidal state (apoptosis) by mesenchymal cells in a given
-        epithelium [ 10]. The relationship of mesenchymal and
-        epithelial cells appears to be tissue-specific and
-        established during the critical period of development,
-        which coincides with the end of the immune adaptation [ 9].
-        Specialized mesenchymal cells, such as pericytes, MDC and T
-        lymphocytes, may significantly influence the
-        differentiation and aging of epithelial cells. The extent
-        to which epithelial cells are stimulated to differentiate
-        by mesenchymal cells is dependent on the extent to which
-        the particular tissue differentiates during the critical
-        period of development [ 9]. We have also suggested that
-        advanced differentiation of epithelial cells may require
-        certain cytokines released from T cells and DC undergoing
-        suicide [ 9].
-        The terminal stage of cell differentiation is apoptosis,
-        during which cells undergo DNA fragmentation and die.
-        Apoptosis is an active process, and it is induced by p53,
-        which inhibits cell growth and activates and represses gene
-        transcription [ 19]. Proapoptotic function of p53 appears
-        to be regulated by 
-        ras proto-oncogene. Cells transformed
-        with mutated 
-        ras exhibit a defect in the signal
-        transduction pathway regulating p53 function and alteration
-        in the expression of apoptotic (bax) or anti-apoptotic
-        proteins (bcl-2) [ 20].
-        In human ectocervix, the interactions between cells of
-        mesenchymal origin and these of epithelial origin change
-        when examined in a cross section from the basal (immature)
-        layer, where stem cells reside, to the outermost layers,
-        where the epithelial cells are oldest and highest
-        differentiated. Hence the ectocervix represents a suitable
-        model for the investigation of mesenchymal cell association
-        with the differentiating and aging epithelial cells 
-        in vivo. 
-        The data presented here indicate that phylogenetically
-        and ontogenetically developed hierarchy of mesenchymal
-        cells (MDC, pericytes, T cells) and immunoglobulins (IgM,
-        IgG) accompanies differentiation of epithelial cells from
-        immature into the mature and aged phenotype.
-        Intraepithelial T lymphocytes and mature DC exhibit
-        suicide, and immunoglobulins are associated with aging and
-        apoptosis of epithelial cells.
+        Carcinoma of cervix uteri (cervical cancer, CC) is a
+        leading cause of cancer-related mortality in women
+        worldwide [ 1 2 ] . CC arises by distinct morphologic
+        changes from normal epithelium and progresses to carcinoma
+        through a series of well-defined preinvasive lesions.
+        Histologically, CC presents as either squamous cell
+        carcinoma (SCC) or adenocarcinoma (AC) [ 3 ] with SCC
+        predominating. Converging evidence from epidemiological and
+        molecular studies suggests that infection of genital human
+        papillomavirus (HPV) is causally linked to the development
+        of CC [ 4 ] . Since only a small fraction of HPV-infected
+        cervical intra-epithelial neoplastic (CIN) lesions progress
+        to invasive cancer, these studies further suggest that in
+        addition to HPV, other host genetic factors play a role in
+        cervical carcinogenesis [ 5 ] . A number of molecular
+        studies have identified genetic alterations in these two
+        histologic types of CC and at various stages of precursor
+        lesions [ 6 7 8 ] . Despite this molecular
+        characterization, the genetic basis of CC initiation and
+        progression is still very poorly understood. Therefore,
+        identification of the underlying genetic changes may
+        provide further insight into the molecular basis of CC.
+        Epigenetic hypermethylation in the promoter regions of a
+        number of genes has been recognized as an important change
+        in the development of human cancer [ 9 ] . A growing number
+        of cancer-related genes have been identified to harbor
+        methylation of cytosine residues in CpG-rich promoter
+        sequences. The pattern of such promoter methylation has
+        been noted to be non-random in various tumor types, while
+        certain genes are commonly methylated in diverse tumor
+        types [ 10 11 ] . The extent of aberrant promoter
+        hypermethylation and its association with loss of gene
+        function in cancer suggests that CpG island methylation is
+        an important mechanism in inactivating tumor suppressor
+        genes (TSGs).
+        The role of epigenetic gene inactivation in cervical
+        tumorigenesis is poorly understood. A few previously
+        published reports on CC and its precursor lesions showed
+        promoter methylation of specific genes [ 12 13 ] . However,
+        these studies were limited by the small number of genes and
+        tumors examined. To investigate the role of promoter
+        methylation in detail in cervical tumorigenesis, we
+        evaluated CpG methylation of 16 genes in 90 CC specimens
+        and cell lines. We found 86.6% of CC patients exhibiting
+        promoter methylation. The 
+        CDH1 , 
+        DAPK , 
+        RARB , and 
+        HIC1 gene promoters were frequently
+        methylated. Methylation status was correlated with clinical
+        and histologic characteristics, and microsatellite
+        instability (MSI). We also found evidence that promoter
+        methylation inactivates gene expression in CC and exposure
+        to methylation and/or histone deacetylase (HDAC)-inhibiting
+        agents reactivate the gene expression.
       
       
-        Results and discussion
+        Results
         
-          Mesenchymal cells
-          The stratified epithelium of uterine ectocervix
-          consists of four layers of epithelial cells (Fig. 1A).
-          The basal layer ( 
-          b ) is formed by a single row of
-          basal or stem cells. Parabasal layer ( 
-          pb ) is formed by several layers of
-          parabasal (young) epithelial cells. Intermediate layer ( 
-          im ) consists of multiple layers of
-          mature epithelial cells. Superficial layer ( 
-          s ) is formed by several layers of
-          aged cells. These four morphologically distinct layers
-          are divided by three interfaces - b/pb, pb/im, and im/s
-          interface. The parabasal and intermediate layers can be
-          divided into the lower, mid, and upper layers, the
-          superficial layer into the lower and upper layers.
-          Mesenchymal cells are present in the lamina propria
-          and some invade among epithelial cells. Staining for CD14
-          (Fig. 1A) shows small primitive MDC in lamina propria but
-          not within the epithelium. Detail, Fig. 1B, shows
-          association of CD14 cells with the basement membrane and
-          extension among basal epithelial cells. Recent study has
-          shown that CD14, a lipopolysaccharide receptor, is itself
-          involved in the stimulation of cell proliferation [ 21].
-          Similar association of CD14 primitive MDC with
-          proliferating Ki67 epithelial cells was detected in
-          ovarian cancers (unpublished data). In ectocervix, the
-          staining for Ki67 (inset, Fig. 1A) shows that this marker
-          of proliferation is expressed in the nuclei of parabasal
-          cells adjacent to the b/pb interface. This indicates that
-          in the stratified epithelium of ectocervix, the Ki-67 is
-          still expressed in the postmitotic cells leaving the
-          basal layer and entering differentiation.
-          Fig. 1Cshows staining for Thy-1 glycoprotein, also
-          called Thy-1 differentiation protein [ 22], of
-          fibroblasts and pericytes associated with
-          microvasculature (arrows) adjacent to the basement
-          membrane. Detail of Thy-1 staining (Fig. 1D) shows that
-          pericytes secrete intercellular vesicles, which migrate
-          among basal epithelial cells to the b/pb interface, where
-          they collapse into empty structures ("spikes"). Fig. 1E,
-          and detail 1F, show that major histocompatibility complex
-          (MHC) class I molecules are not expressed by basal
-          epithelial cells, but they are strongly expressed
-          throughout the parabasal layer, including lower parabasal
-          cells. Hence, targets for Thy-1 vesicles appear to be
-          parabasal cells adjacent to the b/pb interface, i.e.,
-          epithelial cells expressing MHC class I and entering
-          differentiation.
-          The intercellular Thy-1 vesicles have been shown by
-          immunoelectron microscopy to exhibit Thy-1 surface
-          expression and to contain a substance lacking Thy-1
-          staining [ 23]. They may represent a unique paracrine
-          mechanism, so called "targeted delivery," by which
-          certain growth factor (vesicle content) is delivered by
-          chemotaxis to certain type/stage specific target cells
-          expressing receptor for Thy-1 ligand. However, the
-          receptor for Thy-1 has not been yet identified.
-          Targeted delivery of some growth factors by
-          intercellular Thy-1 vesicles can be enabled by tissue
-          specificity of Thy-1 glycoprotein carbohydrate moieties [
-          24]. Thy-1 differentiation protein consists of a single
-          Ig domain and represents one of the most primitive and
-          ancestral members of immunoglobulin (Ig) superfamily. The
-          Ig-related molecules have a diversity of functions, but
-          in most cases the common denominator is a recognition at
-          the cell surface [ 22].
-          It has been suggested that the involvement of
-          Ig-related molecules in tissue interactions is more
-          primitive than their involvement in the immune system and
-          the immune functions evolved from the sets of molecules
-          mediating tissue interactions [ 25]. Also, the only
-          function of Thy-1 and other Ig-related molecules is to
-          mediate recognition, with the consequences of recognition
-          being due to the differentiated state of the cells. It
-          requires that the correct ligand and receptor are
-          expressed on the appropriate cells at the right time [
-          25].
-          MHC class I and class II molecules are other members
-          of Ig superfamily. Fig. 2Ashows that large quantities of
-          HLA-DR molecules are secreted by precursors of dendritic
-          cells (DC) among epithelial cells in the mid parabasal
-          layer (arrows). This site-specific HLA-DR secretion is
-          particularly evident when DC precursors are compared with
-          inactive MDC in lamina propria (Ip) or mature DC in
-          intermediate epithelial layers (arrowheads).
-          T cells expressing CD8, which is another member of Ig
-          superfamily, accumulate in lamina propria, enter
-          epithelium, and migrate through parabasal epithelial
-          layers (arrow. Fig. 2B) expressing MHC class I (Fig. 1E),
-          toward the pb/im interface (dashed line). T cells
-          entering lower intermediate layers exhibit fragmentation
-          (arrowheads). No T cells were detected in the mid
-          intermediate layers or at the epithelium surface.
-          CD68 epitope of MDC, mucin-like molecule belonging to
-          the lysosomal-associated membrane protein family [ 26],
-          was expressed by MDC in the lamina propria (Fig. 2C).
-          However, within epithelium, the CD68 appeared during
-          transformation of DC precursors into mature DC, in the
-          upper parabasal layers (arrow). Mature DC (black
-          arrowheads) secreted CD68 among intermediate epithelial
-          cells, and CD68 mucin-like molecules accompanied aging of
-          epithelial cells (white arrowheads) including surface
-          layers.
-          Staining for CD1a, an Ig-related molecule
-          characteristic for Langerhans' cells, was not detected in
-          lamina propria (Fig. 2D). Dendritic cell precursors
-          (arrows) and mature DC (black arrowheads) were stained.
-          Mature DC reaching mid intermediate layers exhibited
-          fragmentation (white arrowheads) similar to that of T
-          cells in lower intermediate layers.
-          Fig. 1Aand 2A, Cand 2D, show that MDC associated with
-          stratified epithelium of ectocervix exhibit
-          differentiation associated with morphological changes and
-          show changes in immunohistochemical features.
-          Interestingly, although lamina propria of ectocervix
-          showed the presence of primitive (CD14) moderately
-          (HLA-DR) and well differentiated MDC (CD68), the
-          monocyte-derived cells entering epithelium appear to
-          initiate a new differentiation associated with CD1a
-          expression and HLA-DR and CD68 secretion.
+          CDH1, DAPK, RARB and HIC1 gene promoters are
+          frequently methylated in CC
+          We examined the status of promoter hypermethylation of
+          16 genes ( 
+          CDH1 , 
+          DAPK , 
+          RARB , 
+          HIC1 , 
+          FHIT , 
+          RASSF1A , 
+          APC , 
+          CDKN2A , 
+          MGMT , 
+          BRCA1 , 
+          TP73 , 
+          TIMP3 , 
+          GSTP1 , 
+          MLH1 , 
+          p14 
+          ARF , and 
+          RB1 ) in eight specimens of normal
+          cervical squamous epithelia and 90 CC specimens. Promoter
+          hypermethylation was not found in the DNA isolated from
+          normal cervical smears for any of the tested genes.
+          However, hypermethylation was detected in one or more
+          genes in 79 of 90 (87.8%) CC specimens. The frequency of
+          promoter hypermethylation for individual genes was: 
+          CDH1 , 51.1%; 
+          DAPK , 43.3%; 
+          RARB , 33.3%; 
+          HIC1 , 22.2%; 
+          FHIT , 11.1%; 
+          RASSF1A , 10%; 
+          APC , 10%; 
+          CDKN2A , 8.9%; 
+          MGMT , 6.7%; 
+          BRCA1 , 5.6%; 
+          TP73 , 2.2%; 
+          TIMP3 , 1.1%; 
+          GSTP1 , 1.1%; and 
+          MLH1 , 1.1% (Table 1). The
+          remaining two genes ( 
+          p14 
+          ARF and 
+          RB1 ) did not show promoter
+          methylation. Seventy-one of 82 (86.6%) primary tumors and
+          8 of 8 (100%) cell lines exhibited methylation. Although
+          the patterns are similar, primary tumors had a higher
+          frequency of methylation of 
+          CDH1 and 
+          DAPK genes as compared to cell
+          lines, while 
+          RARB , 
+          HIC1 , 
+          RASSF1A , 
+          MGMT , and 
+          TP73 genes had higher prevalence in
+          cell lines as compared to primary tumors (Table 1). A
+          high frequency of promoter methylation was detected in
+          primary tumors for 
+          CDH1 (54.9%; 45 of 82 tumors) and 
+          DAPK (45.1%; 37 of 82 tumors). 
+          RARB (29.3%) and 
+          HIC1 (18.3%) genes were less
+          frequently methylated in primary tumors. Other genes, 
+          FHIT (11%), 
+          APC (11%), 
+          CDKN2A (8.5%), 
+          RASSF1A (7.3%), 
+          BRCA1 (6.1%), 
+          MGMT (4.9%), and 
+          TIMP3 (1.2%), were rarely
+          methylated in primary CC (Table 1, Fig. 1).
         
         
-          Immunoglobulins
-          Natural autoantibodies are present in the blood of
-          normal healthy individuals, and they are almost
-          exclusively IgM antibodies, although some IgG and IgA
-          natural autoantibodies can also be detected, that bind to
-          a variety of self-antigens, including self IgG [ 4, 27].
-          When compared to IgG, the IgM molecules appear earlier in
-          phylogeny and ontogeny [ 28, 29].
-          Staining of ectocervical epithelium for IgM is shown
-          in Fig. 2E. Basal and lower parabasal layers were
-          unstained but IgM binding increased toward the pb/im
-          interface (#1, Fig. 2E). In the intermediate layers,
-          similar increase of IgM binding was detected toward the
-          im/s interface (#2). In the superficial layers most
-          prominent staining was found at the epithelium surface
-          (#3). Hence, there was a high affinity of IgM toward the
-          upper cells in the parabasal, intermediate and surface
-          layers (white arrowheads).
-          The IgG did not bind to the basal, parabasal or
-          intermediate cells, but showed binding to the entire
-          superficial layer (arrowhead, Fig. 2F). These data
-          indicate that natural autoantibodies exhibit a
-          stage-specific binding to epithelial cells. Similar
-          stage-specific binding to epidermis was also detected for
-          natural IgM and IgG autoantibodies in normal human sera [
-          3].
+          Analyses of HPV and microsatellite
+          instability
+          Eighty-six of 90 (95.6%) tumors were positive for HPV
+          DNA. The remaining four tumors were HPV negative. HPV 16
+          alone or in combination with other HPV types was found in
+          55 (61.1%). HPV 18 was found in eight (8.9%) tumors,
+          while other HPV types (20 different types) in 23 (25.6%)
+          tumors.
+          Of the 82 primary tumors studied for promoter
+          methylation, 48 tumors were also examined for
+          microsatellite instability (MSI) using 49 di- or
+          tetra-nucleotide markers [ 14 15 16 17 ] . We found 9 of
+          48 (18.8%) tumors had MSI-H, and 9 of 48 (18.8%) tumors
+          exhibited MSI-L phenotype. The remaining tumors did not
+          show MSI (Table 2).
         
         
-          Dual color immunohistochemistry experiments
-          Basal and parabasal layers of normal ectocervical
-          epithelium show the presence of T cells and MDC. A
-          possibility exists that, beside interaction with
-          epithelial cells, these mesenchymal cell types may
-          interact themselves. Hence, we employed dual color
-          immunohistochemistry for HLA-DR and CD8 epitopes. Fig.
-          3Ashows distribution of HLA-DR MDC (dark field visible
-          light) and Fig. 3Balso demonstrates CD8 T cells (dark
-          field fluorescence). It is apparent that MDC interact
-          with epithelial cells adjacent to the basement membrane
-          (open white arrow) and migrate from lamina propria into
-          the epithelium (white arrowhead). Migration of T cells
-          through the basement membrane is also evident (yellow
-          arrowheads).
-          T cells invading epithelium accumulate in the basal
-          layer, and some of them enter parabasal layer with the
-          assistance of MDC (solid white arrows). Under the pb/im
-          interface (dashed line) T cells are associated with the
-          differentiation of mature DC (solid yellow arrow). The T
-          cells passing pb/im interface exhibit HLA-DR expression
-          (open short yellow arrows). In the lower intermediate
-          layers, the T cells exhibit diminution in size (open long
-          yellow arrow). These data indicate that MDC and T cells
-          continuously migrate into the epithelium, interact among
-          themselves in the parabasal layer, and show dramatic
-          changes at the pb/im interface.
-          Fig. 4shows pb/im interface in detail, with HLA-DR MDC
-          (A), CD8 T cells (B) and both (C). Under interface, the T
-          cells assist differentiation of DC (white arrowheads) and
-          exhibit an unusual elongated shape accompanied by HLA-DR
-          expression (white arrows). Above interface, the mature DC
-          (yellow arrowhead) accompany fragmentation of T cells
-          (yellow arrows). These data indicate that transition of
-          parabasal into intermediate epithelial cells at the pb/im
-          interface is associated with transformation of DC
-          precursors into mature DC with the assistance of
-          activated (HLA-DR) T cells. The T cells entering
-          intermediate layers show a loss of HLA-DR expression and
-          commit suicide with apoptotic fragmentation under the
-          assistance of mature DC.
+          Promoter hypermethylation in relation to
+          histological, clinical and genetic characteristics
+          To evaluate the relationship between promoter
+          hypermethylation and clinico-pathologic features, as well
+          as other genetic changes, methylation status was
+          correlated with histology, age, stage and size of the
+          tumor, clinical outcome, HPV type, and microsatellite
+          instability. Table 2shows the results of univariate
+          analyses examining the associations between methylation
+          and these characteristics. Although both squamous cell
+          carcinoma (SCC; 85.7%) and adenocarcinoma (AC; 100%)
+          exhibited an overall high rate of promoter methylation,
+          we found statistically significant differences in various
+          genes in these two histologic subsets (Table 2). Promoter
+          methylation of the 
+          CDH1 , 
+          RARB , 
+          FHIT , and 
+          MGMT genes was noted only in SCC,
+          whereas the AC exhibited significantly higher frequency
+          of promoter methylation of 
+          HIC1 (60% in AC vs. 15.6% in SCC), 
+          APC (80% in AC vs. 6.5% in SCC),
+          and 
+          BRCA1 (40% in AC vs. 3.9% in SCC)
+          (Table 2).
+          A significant correlation was observed between the
+          overall frequency of methylation and the tumor stage (P =
+          0.001). Higher stage (stages II-IV) tumors exhibited an
+          increased overall frequency of promoter methylation
+          (Table 2). However, the differences were not
+          statistically significant when individual genes examined.
+          On the other hand, 
+          RASSF1A methylation was associated
+          with low-grade tumors (P = 0.003). Tumor size has no
+          effect on the overall frequency of methylation. Age also
+          has no influence on overall frequency of promoter
+          methylation. However, 
+          RARB gene was more frequently
+          methylated in younger patients (34.7% in below 50 years
+          and 21.2% in above 50 years age) (P = 0.02). Promoter
+          methylation of 
+          APC (2.0% in patients below 50
+          years vs. 24.2% in patients above 50 years age) (P=
+          0.001) and 
+          BRCA1 (4.1% in below 50 years and
+          9.1% in patients above 50 years) (P = 0.05) genes were
+          significantly higher in older patients.
+          In order to assess the prognostic role, we also
+          correlated treatment response and clinical outcome with
+          promoter methylation. The overall frequency of
+          methylation was higher in patients who died of cancer
+          (DOC) (95.3%) as compared to those who were alive with
+          recurring disease or complete remission (76.9%) (Table 2)
+          (P = 0.015). Although statistically not significant, all
+          the patients whose tumors showed promoter methylation of 
+          MGMT (4 tumors) and 
+          BRCA1 (5 tumors) genes DOC within
+          1-21 months of follow-up after the initial diagnosis.
+          Promoter methylation of the remaining genes did not show
+          such differences in relation to the outcome. To assess
+          the role of radiation and/or chemotherapy treatment on
+          outcome, we correlated methylation with response in
+          patients with at least 5 months follow up after
+          treatment. No significant differences in the overall
+          promoter methylation were found in patients with complete
+          remission (CR) compared to patients who DOC or had only
+          partial response (PR). In this group, all the patients
+          that showed methylation of 
+          MGMT and 
+          BRCA1 genes failed to respond to
+          the treatment suggesting promoter methylation of these
+          genes may be a bad prognostic indicator (Table 2).
+          Promoter methylation of 
+          RARB gene was also predicted a
+          worse prognosis as 80% of the patients with methylation
+          were either DOC or only partial responders compared to
+          only 20% patients with CR exhibited methylation of this
+          gene (Table 2).
+          Table 3summarizes the results from multivariate Cox
+          Survival models. Overall, after adjusting for age,
+          treatment, tumor size, stage and HPV type, neither total
+          number of methylated genes nor presence of methylation of
+          each specific gene were statistically significantly
+          related to survival. However, methylation of 3 genes did
+          suggest a doubling ( 
+          RASSF1A and 
+          MGMT ) or tripling ( 
+          BRCA1 ) of risk compared to those
+          who did not have these genes methylated. These
+          differences were not statistically significant due to
+          small number of tumors analyzed and need to be confirmed
+          using a larger sample size.
+          Type of HPV infection had no association with the
+          status of promoter methylation (Table 2). Although the
+          MSI phenotype also had no significant correlation with
+          overall promoter methylation, the 
+          HIC1 (P = 0.02) and 
+          APC (P = 0.08) genes were
+          frequently methylated in patients exhibiting MSI-H
+          phenotype (Table 2).
         
         
-          Apoptosis-associated proteins in ectocervical
-          epithelium
-          In addition to CD8, we also studied changes of CD3 T
-          cell marker. Fig. 5A, and detail in 5B, show
-          fragmentation of T cells (arrowheads) among lower
-          intermediate layers. Fig. 5Cdemonstrates a lack of T
-          cells at the epithelium surface. In contrast to T cells,
-          fragmentation of mature DC occurred more distantly from
-          the pb/im interface, among mid intermediate layers (Fig.
-          5Dand 5E). No dendritic cells were detected at the
-          epithelium surface (Fig. 5F).
-          Apoptotic cell death is accompanied by expression of
-          p53 and ras proteins [ 19, 20]. Arrowheads in Fig.
-          5Gindicate p53 staining of cell fragments at the pb/im
-          interface, and dashed box and Fig. 5Hcell fragments among
-          mid layers of intermediate epithelial cells, p53
-          expression was also detected in epithelial cells
-          undergoing apoptosis at the surface (Fig. 5I). Staining
-          for ras (Fig. 5J,K,L) showed similar features.
-          Altogether, these observations indicate that
-          intraepithelial T cells and mature DC underwent apoptotic
-          fragmentation among differentiating epithelial cells.
-          Except epithelium surface, no p53 and ras expression was
-          detected in differentiating epithelial cells.
+          CDH1 and RARB expression in CIN
+          To examine the role of 
+          CDH1 and 
+          RARB genes in CC progression, we
+          carried out immunohistochemical analysis in 39 CIN
+          specimens (Nine low-grade and 30 high-grade). None of the
+          low-grade CINs showed down-regulated expression, while
+          only 2 of 30 (6.7%) showed absent or reduced expression
+          suggesting that 
+          CDH1 inactivation is a later event
+          in CC development. The expression pattern of RARB in
+          normal epithelium is complex since the staining
+          intensities are highly variable between nuclear and
+          cytoplasmic compartments. There was no normal epithelium
+          to evaluate the expression in most CIN cases studied.
+          However, all the cases that we evaluated for RARB
+          immunoreactivity showed some positive mesenchymal cells.
+          We evaluated the intensity of nuclear staining in 34
+          cases of paraffin-embedded tissues. One (11.1%) of the
+          nine low-grade CINs showed decreased nuclear expression,
+          whereas, 15 (60%) of 25 evaluable high-grade CIN lesions
+          showed complete lack of nuclear expression (Fig. 2). If
+          confirmed, the down-regulated RARB expression in
+          high-grade CINs suggests that this occurs early in
+          progression and plays a role in the development of
+          CC.
         
         
-          Complete and restricted mesenchymal-epithelial
-          network
-          It is here shown that mesenchymal-epithelial
-          interactions in stratified epithelium of ectocervix
-          exhibit stage-specific interactions between mesenchymal
-          and epithelial cells. They also include interactions of
-          mesenchymal cells themselves either in lamina propria, in
-          association with microvasculature adjacent to the
-          basement membrane, or in epithelium, in association with
-          particular stage of differentiation of epithelial
-          cells.
-          The stratified epithelium of ectocervix exhibits
-          morphologically distinct stages of differentiation with
-          well defined interfaces, and parabasal, intermediate and
-          superficial layers can be subdivided further (lower, mid
-          and upper layers of parabasal and intermediate cells, and
-          lower and upper layers of surface cells). Hence, the
-          mesenchymal-epithelial interactions should involve
-          epithelial-epithelial interactions between and within
-          epithelial layers. Some of these interactions, like
-          diminution of contact inhibition, can be considered as
-          downstream initiators of tissue regeneration.
-          We speculate that activation of basal (stem) cells
-          toward proliferation is not a spontaneous process
-          resulting from diminution of contact inhibition, but
-          requires an involvement of so called basic "Tissue
-          Control Unit" 
-          (TCU) of the Tissue Control System [
-          23]. The TCU is associated with microvasculature and
-          consists of three elements: perivascular MDC, pericytes,
-          and autonomic innervation. Extensions of MDC among basal
-          epithelial cells (see Fig. 1B) indicate that they may be
-          involved in the recognition of demands of epithelium for
-          regeneration. Perivascular MDC interact with pericytes [
-          30], which are accompanied by autonomic innervation [
-          31]. The innervation is involved in the regulation of
-          tissue quantity, possibly through the regulation of
-          activity of pericytes [ 23]. From this point of view, one
-          should consider an involvement of epithelial-mesenchymal
-          and mesenchymal-neural interactions as components of
-          mesenchymal-epithelial network.
-          In the ectocervix, epithelial cells differentiate from
-          immature toward aged cells, which undergo apoptosis with
-          p53 and ras expression (Fig. 5Iand 5L). This is
-          accompanied by mesenchymal cells, which interact
-          themselves and undergo differentiation and apoptotic
-          fragmentation within epithelium, and by binding of IgM
-          and IgG. Such situation can be viewed as a "complete
-          mesenchymal-epithelial network" (Fig. 6).
-          On the other hand, epithelial, parenchymal and muscle
-          cells in many other tissues are somehow prevented from
-          apoptosis, yet most of them do not exhibit infiltration
-          by T cells and apoptosis of mesenchymal cells under
-          physiological conditions. They do, however, contain basic
-          TCUs associated with microvasculature. In addition to
-          tissue regeneration, the TCU is supposed to regulate
-          differentiation of endothelial cells involved in homing
-          of tissue committed T cells and MDC (Fig. 7). The latter
-          have been proposed to carry epigenetically encoded "stop
-          effect" which stimulates differentiation of adult tissues
-          to certain stage, but prevents advanced differentiation
-          and aging (see Ref. [ 9, 10]). Such "restricted
-          mesenchymal-epithelial network" still allows
-          regeneration, but ensures preservation of tissue cells in
-          the optimal stage of differentiation.
-          Epigenetic programing of the "stop effect" appears to
-          depend on the extent of differentiation of tissue cells
-          during critical period of development, such as
-          termination of the immune adaptation. In simple terms, if
-          the differentiation of tissue cells is suppressed,
-          immature cells will persist during adulthood (muscular
-          dystrophy), and if it is accelerated, premature aging
-          will occur (degenerative diseases) [ 9].
+          Gene expression is down regulated by promoter
+          hypermethylation and reactivated by demethylation
+          To examine the biological role of promoter methylation
+          in CC, we assessed the levels of mRNA by
+          semi-quantitative RT-PCR in eight cell lines and compared
+          with the respective control values obtained from the
+          averages calculated from 2 normal cervix after
+          normalization against 
+          ACTB . This analysis was performed
+          on 7 genes ( 
+          CDH1 , 
+          DAPK , 
+          RARB , 
+          HIC1 , 
+          MGMT , 
+          RASSF1A , 
+          and MLH1 ) that exhibited
+          methylation in one or more cell lines and primary tumors
+          (Fig. 3). 
+          RARB gene showed either complete
+          absence of or down regulated expression in all cell lines
+          (6 methylated and 2 unmethylated). Of the six cell lines
+          with 
+          RARB gene methylated, three (HT-3,
+          MS751, and ME-180) exhibited reactivation upon treatment
+          with 5-Aza-2' deoxycytidine or n-butyrate alone or the
+          combination of the two. Three cell lines (C4-I, CaSki,
+          and SW756) that had promoter methylation of 
+          RARB did not reactivate expression
+          after treatment with these drugs (Fig. 4). One of the two
+          unmethylated cell lines also reactivated the expression
+          of 
+          RARB .
+          The 
+          CDH gene exhibited a complete
+          absence of expression in one cell line (SW756) that
+          showed promoter hypermethylation and two other cell lines
+          (C-33A and SiHa) without evidence of methylation (Fig.
+          3). The SW756 cell line with methylation and one of the
+          two unmethylated cell lines showed reactivated expression
+          upon treatment with 5-Aza-2' deoxycytidine or in
+          combination with n-butyrate, but not with n-butyrate
+          alone. The remaining five cell lines neither showed
+          evidence of decreased mRNA nor any effect of
+          demethylating or HDAC-inhibiting agents on expression
+          levels.
+          The 
+          DAPK gene showed a complete absence
+          of expression in five and down regulated expression in
+          one of the 8 CC cell lines studied (Fig. 3). Of the six
+          cell lines with down regulated expression, 2 had promoter
+          methylation and 4 had unmethylated promoter of the 
+          DAPK gene. Both methylated cell
+          lines (HT-3 and SiHa) and three (C-33A, MS751, and
+          ME-180) of the four unmethylated cell lines showed
+          reactivation upon exposure to 5-Aza-2' deoxycytidine or
+          in combination with n-butyrate. One of the unmethylated
+          cell lines (SW756) that showed a complete absence of
+          expression did not reactivate after treatment.
+          The 
+          HIC1 gene was methylated in 5 of 8
+          cell lines. Three of the methylated cell lines (C-4I,
+          SiHa, and ME-180) and one of the three unmethylated cell
+          lines (MS751) showed down regulated expression. Treatment
+          of 5-Aza-2' deoxycytidine or n-butyrate alone or the
+          combination of both activated gene expression in all the
+          cell lines, whether or not promoter had detectable
+          methylation (Fig. 4).
+          The 
+          RASSF1A gene was methylated in 3
+          cell lines and all three showed a complete lack of
+          expression. None of the unmethylated cell lines showed
+          evidence of down-regulated expression of 
+          RASSF1A mRNA. Two of three cell
+          lines with 
+          RASSF1A methylation and complete
+          lack of expression reactivated upon treatment with
+          5-Aza-2' deoxycytidine alone or in combination with
+          n-butyrate. One of the methylated cell lines (HT-3),
+          however, did not reactivate gene expression after
+          treatment. The unmethylated cell lines showed normal
+          expression and the treatment had no effect on
+          expression.
+          
+          MGMT was methylated in two cell
+          lines. One of the two methylated cell lines (CaSki)
+          showed a complete absence of expression while the other
+          methylated cell line (SW756) showed normal levels of
+          expression. Treatment with demethylating and
+          deacetylating inhibitor did not activate the expression
+          in any cell line regardless of promoter methylation. 
+          MLH1 gene was methylated in one
+          cell line (SW756) but we found no evidence of
+          down-regulated expression in this cell line (data not
+          shown).
         
+      
+      
+        Discussion
+        Genetic alterations play an important role in the
+        development of CC [ 4 7 8 ] . Our extensive molecular
+        analyses identified a number of specific genetic changes in
+        invasive CC and its precursor lesions [ 6 14 15 16 17 18 19
+        ] . However, epigenetic alteration in cervical
+        tumorigenesis is not well characterized [ 12 13 ] . In the
+        present study, we identified an overall methylation in
+        87.8% CC cases. Previous studies by Dong et al (79%) and
+        Virmani et al (72.4%) have also reported a similar overall
+        high frequency of promoter methylation [ 12 13 ] . We
+        identified promoter methylation in >25% cases in 
+        CDH1 , 
+        DAPK , and 
+        RARB genes, while it was less
+        frequent (10-25% cases) in 
+        HIC1 , 
+        FHIT , 
+        RASSF1A , and 
+        APC genes in CC patients. The
+        promoters of 
+        CDKN2A , 
+        MGMT , 
+        BRCA1 , 
+        TP73 , 
+        TIMP3 , 
+        GSTP1 , and 
+        MLH1 genes were rarely (<10%
+        cases) methylated.
+        
+        CDH1 is the most commonly methylated
+        gene in the present study showing promoter methylation in
+        51.1% of CC cases. Dong and co-workers have shown earlier
+        that the 
+        CDH1 promoter is methylated in 28% of
+        invasive CC [ 13 ] . E-cadherin, 
+        CDH1 , is a major adhesion component
+        of epithelial cells, which plays an important role as an
+        invasion suppressor gene. Loss of function of 
+        CDH1 gene has been shown to occur in
+        widespread of epithelial tumor types by mutational or
+        promoter hypermethylation mechanisms [ 11 20 ] . We have
+        also identified loss of expression of 
+        CDH1 gene in 37.5% of CC cell lines
+        analyzed. Thus, these data suggest that inactivation of the
+        
+        CDH1 gene by promoter methylation
+        plays a major role in CC tumorigenesis. However, our
+        immunohistochemical analysis of E-cadherin protein showed
+        no evidence of decreased expression in precursor CIN
+        lesions. Therefore, these data indicate that the
+        methylation of 
+        CDH1 gene is a late event in the
+        development of CC.
+        
+        DAPK gene is methylated in 43.3%
+        cases in the present study. Dong and co-workers also
+        previously showed promoter methylation in 51% of CC [ 13 ]
+        . 
+        DAPK is a positive mediator of the
+        programmed cell death induced by gamma-interferon [ 21 ] .
+        Loss of 
+        DAPK expression has been shown to
+        occur in a number of human malignancies, primarily by
+        promoter hypermethylation [ 11 ] . It has also been shown
+        that loss of 
+        DAPK gene expression was associated
+        with aggressive and metastatic phenotype in many tumor
+        types [ 22 ] . In the present study, in addition to showing
+        high frequency of promoter methylation of 
+        DAPK gene, we found a complete lack
+        of expression in two of the methylated cell lines and four
+        of 6 unmethylated cell lines. Thus, our results suggest
+        that loss of expression occurs in CC cell lines by
+        mechanism other than complete promoter methylation.
+        Therefore, our data further suggest a role for 
+        DAPK in CC tumorigenesis.
+        The third most commonly methylated gene in the present
+        study is 
+        RARB . A previous study also has
+        reported promoter methylation in 33.3% of invasive CC, and
+        11% and 29% of low- and high-grade CIN lesions,
+        respectively [ 12 ] . These authors suggest that 
+        RARB methylation is an early event in
+        multistage cervical carcinogenesis. Our semi-quantitative
+        analysis of 
+        RARB gene expression by RT-PCR showed
+        down-regulated expression in all the eight cell lines
+        analyzed whether or not the promoter methylated (Fig. 3).
+        In addition, our immunohistochemical analysis of RARB
+        showed lack of expression in 60% of high-grade CINs. It has
+        been reported that 
+        RARB mRNA is down regulated in a
+        number of tumor types [ 23 ] , including cervical cancer [
+        24 ] . Taken together, these data support the concept that 
+        RARB play an important role early in
+        cervical cancer progression. The direct role of 
+        RARB in regulating gene expression
+        and its retinoid-mediated antiproliferative,
+        differentiative, immuno-modulatory, and apoptotic-inducing
+        properties may offer a therapeutic target in the future for
+        CC treatment [ 25 ] .
+        As reported in a previous study, we also found promoter
+        methylation of 
+        HIC1 in 22.2% of CC [ 13 ] . 
+        HIC1 is a zinc finger transcription
+        factor that is transcriptionally silenced by promoter
+        methylation in several types of human cancer [ 26 ] .
+        Heterozygous 
+        Hic1 mouse with promoter methylation
+        of wild type allele develop carcinomas, sarcomas and
+        lymphomas, suggesting that this gene acts as a tumor
+        suppressor gene [ 27 ] . 
+        HIC1 gene was down regulated in
+        majority of the CC cell lines examined by us and this
+        down-regulated expression was reactivated upon treatment
+        with demethylating and HDAC-inhibiting agents. These
+        results support the tumor suppressor role of 
+        HIC1 and its inactivation by promoter
+        methylation in CC may be a critical epigenetic change in
+        tumor development.
+        The present methylation profile of CC identified
+        significant differences in the methylated genes between SCC
+        and AC. We found that methylation of 
+        HIC1 , 
+        APC , and 
+        BRACA1 genes was more common in AC
+        while 
+        CDH1 promoter methylation was seen
+        only in SCC. Such differences in the two major histologies
+        have also been reported previously for 
+        DAPK , 
+        HIC1 , and 
+        APC genes [ 13 ] . However, we found 
+        CDH1 promoter methylation restricted
+        to SCC in the present study, while Dong et al found
+        methylation in both histological types [ 13 ] . This
+        difference may be due to small number of AC patients we
+        studied. Distinct patterns of promoter methylation between
+        SCC and AC, however, suggest that epigenetic pathways of
+        tumor suppression may be different in these histologic
+        subtypes. Contrary to the previous reports, we found a low
+        frequency of 
+        p16/CDKN2A gene promoter methylation
+        [ 12 13 28 29 ] . The reason for these differences is
+        currently unclear.
+        Our statistical correlative analysis of promoter
+        methylation with clinicopathologic parameters, HPV type,
+        and microsatellite instability identified significant
+        associations. A most significant finding was that overall
+        promoter hypermethylation is associated with the
+        progression and predicts significantly poor disease-free
+        survival. This was most evident in 
+        BRCA1 and 
+        MGMT genes, where all the patients
+        with promoter methylation were dead (Table 2). The
+        multivariate Cox regression analysis showed that promoter
+        methylation is an independent predictor of outcome for 
+        BRCA1 (3-fold risk) and 
+        MGMT (2.3 fold risk) genes. Promoter
+        methylation of cancer-related genes has been reported to
+        predict patient prognosis for a number of genes [ 30 31 ] .
+        
+        BRCA1 plays a critical role in DNA
+        repair and recombination, cell cycle checkpoint control,
+        and transcription. This gene has been shown to be
+        hypermethylated in tumors arising from breast-ovarian
+        cancer syndrome [ 32 ] . Although we detected complete
+        promoter methylation of 
+        BRCA1 gene in only 6% of primary
+        tumors, other mechanisms that inactivate this gene might
+        exist. The present MSP data and its relation to poor
+        clinical outcome warrants a further study of 
+        BRCA1 role in CC. 
+        MGMT gene encodes
+        O(6)-methylguanine-DNA methyltransferase and this enzyme
+        effectively removes DNA adducts formed by alkylating agents
+        [ 33 ] . Epigenetic gene silencing of 
+        MGMT confers enhanced sensitivity to
+        alkylating-based chemotherapy, and lack of methylation
+        associates with failure to respond to chemotherapy [ 34 35
+        ] . On the contrary, all patients that had 
+        MGMT promoter methylation were dead
+        within 21 months of initial diagnosis, which predicts a
+        poor prognosis. A possible explanation for this failure to
+        respond may be that all the four patients in the present
+        study were treated only with radiotherapy with or without
+        combination of surgery. The standard treatment for
+        advanced-stage cervix cancer has been the combination of
+        radical surgery and radiotherapy [ 36 ] . The utility of
+        cytotoxic chemotherapy in patients with advanced CC has
+        been recognized recently [ 37 ] . Thus, the epigenetic gene
+        silencing of 
+        MGMT , although in a small
+        proportion, may serve as indicator of responsiveness to
+        treatment with chemotherapeutic drugs that cause DNA
+        adducts in CC.
+        Most patients in the present study population were
+        treated with traditional radiation and surgery treatment
+        protocols. To assess the impact of promoter methylation on
+        treatment, we compared the patients followed for more than
+        5 months after treatment. This analysis suggests that 
+        RARB methylation predict a worse
+        prognosis (P = 0.02). Twelve of the 15 (80%) patients with 
+        RARB methylation were DOC or did not
+        respond to the current treatment, while only 3 of the 15
+        (20%) patients with 
+        RARB methylation exhibited complete
+        response. Since 
+        RARB functions as a tumor suppressor
+        gene and its chemopreventive effects are purely based on
+        retinoid induced reactivation, the patients that received
+        radiation therapy will have no effect on these tumors. Our
+        data, therefore, suggest that the CC patients showing 
+        RARB promoter methylation may benefit
+        from targeted chemopreventive treatment of combination of
+        retinoic acid, demethylating, and chromatin modifying
+        agents that reactivate the gene expression. An
+        understanding of the exact mechanisms of 
+        RARB loss of function in CC is
+        essential for such a strategy.
+        Microsatellite instability (MSI) is hallmark of mismatch
+        repair-deficient cancers, which has been observed in all
+        cancers arising from Hereditary Non-polyposis Colorectal
+        Cancer (HNPCC) syndrome, some sporadic colorectal and other
+        cancers [ 38 ] . MSI is generally associated with germ-line
+        mutations in one of two MMR genes, 
+        hMLH1 and 
+        hMSH2 . Epigenetic inactivation of
+        promoter hypermethylation of 
+        APC and 
+        HIC1 also results in MSI phenotype in
+        sporadic colorectal cancers [ 39 40 ] . Accumulating
+        evidence supports the view that promoter methylation of
+        mismatch repair genes may be related to MSI phenotype [ 41
+        42 ] . A number of previous studies have shown the
+        existence of MSI phenotype in CC [ 43 44 ] . In the present
+        study, we found that MSI-H occurs at an increased frequency
+        in tumors with 
+        HIC1 and 
+        APC promoter hypermethylation.
+        Association of 
+        APC promoter methylation with MSI
+        phonotype has been previously reported in endometrial
+        cancer [ 45 ] . Although the significance of these results
+        is currently unclear, we believe that inactivation of these
+        genes by promoter methylation causes microsatellite
+        instability and may contribute to the development of
+        CC.
+        Aberrant promoter methylation changes that occur in
+        cancer are associated with transcriptional repression and
+        loss of function of the methylated gene [ 9 ] . Since we
+        found evidence of down-regulated expression of several
+        methylated genes in CC cell lines, we tested to see if this
+        down-regulation could be reactivated by methylation and
+        HDAC-inhibiting agents. Transcriptional silencing of genes
+        resulting from DNA hypermethylation of CpG islands is
+        reversed by treatment with the hypo-methylating agent
+        5-aza-2'-deoxycytidine and HDAC-inhibiting agent n-butyrate
+        in a dose and duration-dependent manner. We found that
+        5-Aza-2'-deoxycytidine treatment alone or in combination
+        with n-butyrate resulted in reactivation of gene expression
+        in most cell lines that showed promoter methylation. In
+        some cell lines, exposure to n-butyrate alone has resulted
+        in reactivation of the gene expression, for example in 
+        HIC1 gene (Fig. 4). These data,
+        therefore, suggest that other epigenetic mechanisms
+        involving defects in chromatin modification factors such as
+        acetylation and methylation of histone proteins may also
+        play role in gene silencing. Thus, our data also suggest
+        that epigenetic changes that accompany methylation are
+        common in CC and play critical role in CC development.
       
       
         Conclusions
-        Our observations indicate that the phylogenetically and
-        ontogenetically developed hierarchy of mesenchymal cells
-        (MDC, pericytes, T cells) and immunoglobulins (IgM, IgG)
-        accompanies differentiation of epithelial cells from
-        immature into the mature and aged phenotype. In agreement
-        with views of others [ 25], we propose that the complex of
-        interactions involved (Fig. 6) is not uniquely concerned
-        with immunity, but it includes basic interactions which
-        stimulate differentiation of mesenchymal and epithelial
-        cells. Involvement of immune system-related elements (MDC,
-        T cells and B cells) in regulation of epithelium
-        differentiation represents a basic mechanism of immune
-        physiology toward self, from which the immune surveillance
-        toward nonself has evolved. Accordingly, when required, the
-        intraepithelial mesenchymal cells regulating tissue
-        differentiation may be converted into effectors of immunity
-        against infected epithelial cells. Further studies of the
-        mesenchymal-epithelial network may bring novel approaches
-        to the prevention and therapy of tissue dysfunctions
-        characterized by permanent tissue immaturity (muscular
-        dystrophy) or accelerated aging (degenerative
-        diseases).
+        The present study identified promoter methylation in a
+        number of genes in CC. The most frequently methylated genes
+        were 
+        CDH1 , 
+        DAPK , 
+        RARB , and 
+        HIC1 . We have also shown that
+        promoter methylation of these genes result in
+        transcriptional repression. Furthermore, 
+        RARB gene expression is down
+        regulated in high-grade CINs. These data suggest that some
+        of the methylated genes may play a role early in the
+        progression of cancer. Here we showed that promoter
+        methylation is associated with advanced stage of the
+        disease, 
+        RARB and 
+        BRCA1 promoter methylation predict a
+        worse prognosis, and the 
+        HIC1 and 
+        APC promoter methylation is
+        frequently associated with MSI. This knowledge of
+        epigenetic changes in CC may have implications in our
+        understanding of the role they play in CC development.
+        Particularly, if the present results are replicated and
+        identified in precancerous lesions, this may be useful in
+        predicting the high-risk lesions to progression and serve
+        as targets of treatment.
       
       
-        Materials and methods
+        Methods
         
-          Tissues
-          Fresh samples from uterine ectocervix were obtained
-          from women admitted to the University of Tennessee
-          Medical Center for medically indicated surgical
-          procedures. The specimens were collected from twelve
-          patients who were having a hysterectomy for benign
-          conditions such as fibroids or pelvic pain. Patients with
-          a history of malignancy, endometriosis, or pelvic
-          infections were excluded from the study. All patients
-          gave informed consent prior to their participation in the
-          study, which had been prior approved by the Institutional
-          Review Board.
-        
-        
-          Peroxidase Immunohistochemistry
-          Biopsy samples were mounted in 15 × 15 × 5 mm vinyl
-          specimen molds (Tissue-Tek Cryomold biopsy, Miles Inc.
-          Diagnostic Division, Elkhart, IN), embedded in O.C.T.
-          compound (Miles), frozen in liquid nitrogen, and stored
-          in a freezer at -80°C until use. Frozen tissues were
-          sliced into 7 μm serial sections, dried, and stored at
-          4°C. The immunohistochemical procedure [ 32] has been
-          done within one week. All steps were performed at room
-          temperature. Universal DAKO LSAB ®2 Peroxidase Kit (DAKO
-          Corporation, Carpinteria, CA), was employed. Briefly,
-          cryostat sections were fixed with acetone, dried, and
-          rinsed in phosphate buffered saline (PBS). Primary
-          antibody, negative control reagent (DAKO), or PBS were
-          applied for 15 minutes. Slides were washed in PBS, and
-          link solution (biotinated anti-mouse immunoglobulin
-          antibody) was applied for 15 minutes. After wash in PBS,
-          slides were incubated with streptavidin-peroxidase
-          conjugate and washed again. Slides were incubated in
-          substrate-chromogen solution, rinsed with PBS, washed in
-          distilled water, counterstained with Harris hematoxylin,
-          dehydrated and mounted.
-        
-        
-          Primary Antibodies
-          Primary antibodies were diluted to obtain a final
-          concentration of 5-10 μg/ml of immunoglobulins. The
-          following primary monoclonal antibodies were purchased
-          from DAKO Corporation, Carpinteria, CA: CD1a Langerhans'
-          cell (clone NA1/34), CD3 T cell (PC3/188A), CD8
-          suppressor /cytotoxic T cell (DK25), CD14 Monocyte
-          (TUK4), CD68 Macrophage (KP1), HLA-ABC Antigen/ MHC class
-          I (W6/32), IgG (A57H), IgM (R1/69), and Ki67
-          Proliferating cells (Ki67). Antibodies p53 (PAb1801) and
-          pan- 
-          ras (F132-62) were purchased from
-          Oncogene Science, Cambridge, MA. Thy-1 (F15-42-01)
-          antibody [ 33] was kindly supplied by Dr. Rosemarie
-          Dalchau. HLA-DR (MEM 12) [ 34] was kindly supplied by Dr.
-          Ivan Hilgert and Dr. Vaclav Horejsi.
+          Patients, Tumor tissues, and cell lines
+          A total of 82 tumor biopsies derived from previously
+          untreated primary invasive CCs and eight cell lines were
+          used. The tumor biopsies were ascertained from patients
+          evaluated at the Instituto Nacional de Cancerologia
+          (Santa Fe de Bogota, Colombia) and from the Department of
+          the Obstetrics and Gynecology of Friedrich Schiller
+          University, Jena, Germany after appropriate informed
+          consent and approval of protocols by institutional review
+          boards. The primary tumors were clinically classified as
+          FIGO stage IB (17 tumors), IIB (19 tumors), IIIB (43
+          tumors), and IV (3 tumors). Histologically, 77 tumors
+          were classified as squamous cell carcinoma (SCC) and five
+          as adenocarcinoma (AC). Clinical information such as age,
+          stage and size of the tumor, follow-up after treatment
+          was collected for all patients. Patient follow-up data
+          was collected from the review of institutional medical
+          records, and by contacting outside physicians and
+          institutions. The follow up ranged from 1-72 months.
+          Thirty-nine cervical intraepithelial neoplastic lesions
+          derived from 37 patients were also obtained as
+          formalin-fixed and paraffin-embedded archival tissues
+          from Columbia University and Instituto Nacional de
+          Cancerologia (Santa Fe de Bogota, Colombia). Eight normal
+          cervical swabs, diagnosed on Pap smear as normal squamous
+          epithelium, were collected in phosphate buffer saline
+          from the patients attending Gynecology Clinic at the
+          Columbia Presbyterian Medical Center, New York after
+          appropriate informed consent. Cell pellets obtained from
+          the swabs were used to isolate DNA. CC cell lines SiHa,
+          SW756, C-4I, Ca Ski, C-33A, HT-3, MS751 and ME-180 were
+          obtained from the American Type Culture Collection
+          (Manassas, VA), and grown in tissue culture according to
+          the supplier's recommendations. Frozen tumor tissues or
+          cell pellets were utilized for isolating DNA and/or RNA
+          by standard methods.
         
         
-          Microscopy and Video Images
-          Evaluation was performed on a Leitz DM RB (Leica Inc.,
-          Wetzlar, Germany) microscope equipped with differential
-          interference contrast and a DEI-470 CCD Video Camera
-          System (Optronics Engineering, Goleta, CA) with detail
-          enhancement. Video images were captured via a CG-7 Frame
-          Grabber (Scion Corporation, Frederick, MD) into the HP
-          Kayak XU800 PC Workstation (Hewlett-Packard Company,
-          Grenoble, France). The captured color images were
-          processed with Scion Image analysis program (Scion
-          Corporation) based on NIH Image software (Wayne Rasband,
-          NIH, Bethesda, MD). To obtain figures, the captured video
-          images were copied into the Microsoft ®Power-Point ®97
-          SR-2 (Microsoft Corporation, Redmont, WA) PC software and
-          size reduced to allow multiple pictures per page. Each
-          figure was assigned with descriptive letters and symbols,
-          and saved in portable network graphic format.
+          Methylation Specific PCR (MSP)
+          Genomic DNA was treated with sodium bisulphite as
+          previously described [ 46 ] . Placental DNA treated in
+          vitro with 
+          Sss I methyltransferase (New
+          England Biolabs, Beverly, MA) and similarly treated
+          normal lymphocyte DNA were used as controls for
+          methylated and unmethylated templates, respectively. The
+          primers used for amplification of methylated and
+          unmethylated promoters of genes 
+          RARB , 
+          TIMP3 , 
+          CDKN2A , 
+          p14 
+          ARF , 
+          MGMT , 
+          DAPK , 
+          CDH1 , 
+          GSTP1 , 
+          APC promoter 1A, 
+          RB1 , 
+          MLH1 , 
+          TP73 , 
+          BRCA1 , 
+          FHIT , and 
+          HIC1 have been described previously
+          http://pathology2.jhu.edu/pancreas/prim0425.htm#MSP; [ 32
+          47 48 49 ] . Methylated (MF and MR) and unmethylated (UF
+          and UR) primers for 
+          RASSF1A promoter were designed
+          according to Herman et al [ 46 ] and as described earlier
+          [ 50 ] . PCR products were run on 2% agarose gels and
+          visualized after ethidium bromide staining. Purified MSP
+          products were sequenced in representative specimens by
+          direct sequencing to confirm the methylation identified
+          on agarose gels.
         
         
-          Dual-Color (Peroxidase/Fluorescence)
+          5-Aza-2' deoxycytidine and n-butyrate treatment,
+          and analysis of gene expression
+          Cell lines were treated with demethylating agent
+          5-Aza-2' deoxycytidine (Sigma) for five days at a
+          concentration of 2 to 5 μM, HDAC-inhibiting agent
+          n-butyrate at a final concentration of 5 μM for the last
+          24 hours or a combination of both. Total RNA isolated
+          from treated and untreated cell lines, and the total RNA
+          and poly A +RNA from normal cervix obtained from Ambion
+          (Austin, TX) was reverse transcribed using random primers
+          and the Pro-STAR first strand RT-PCR kit (Stratagene, La
+          Jolla, CA). A semi-quantitative analysis of gene
+          expression was performed in replicate experiments using
+          26-28 cycles of multiplex RT-PCR with β-actin ( 
+          ACTB ) as control and gene specific
+          primers spanning at least 2 exons. The primers used for 
+          CDH1 , 
+          MGMT , 
+          MLH1 , and 
+          RARB have been described earlier [
+          50 ] . The gene primers used for 
+          DAPK and 
+          RASSF1A and their positions in
+          respective cDNAs were:
+          
+          DAPK-F 5'-CAGTTTGCGGTTGTGAAGAA-3'
+          (403-422 bp)
+          
+          DAPK-R 5'-CCTGCAACGAGTTCCAAGAT-3'
+          (610-629 bp)
+          
+          RASSF1A-F
+          5'- GACCTCTGTGGCGACTTCAT-3' (232-251 bp, exon 1A)
+          
+          
+          RASSF1A-R 5'-GCTGTTGATCTGGGCATTGT-3' (461-480 bp)
+          The PCR products were run on 1.5% agarose gels,
+          visualized by ethidium bromide staining and quantitated
+          using the Kodak Digital Image Analysis System (Kodak, New
+          Haven, CT).
+        
+        
+          Microsatellite analysis
+          High-molecular weight DNA from frozen tumor and the
+          corresponding peripheral blood specimens was isolated as
+          previously described [ 14 ] . A panel of 49 sequence
+          tagged repeat polymorphic (STRP) (24 markers mapped to
+          chromosome 2q, nine on 5p, 11 on 6p, and five on 11q)
+          markers, previously analyzed for LOH, was chosen for
+          scoring MSI [ 14 15 16 17 ] . The criterion for analysis
+          and classification of MSI has been described earlier [ 51
+          52 ] .
+        
+        
+          Detection of HPV
+          PCR amplification with PGMY09/11 L1 consensus HPV L1
+          primers followed by reverse line blot hybridization was
+          used to detect 38 genital HPV types as described earlier
+          [ 53 54 ] . Appropriate control experiments were set up
+          using bulk master mix components to eliminate potential
+          contamination. Individual assay sensitivity was analyzed
+          by the use of serial dilutions of SiHa cell line crude
+          cell digest, targeting 10 4, 10 3, 10 2, 10 1, and 10
+          0input copies of HPV-16. A no template negative control
+          was set up in all experiments.
+        
+        
           Immunohistochemistry
-          Dual-color immunohistochemistry [ 35] experiments were
-          performed by using two unlabeled primary antibodies and
-          the combined peroxidase/fluorescein isothiocyanate (FITC)
-          technique. This was done by visualization of the first
-          unlabeled antibody (HLA-DR) by the peroxidase-conjugated
-          antibody as above [ 32], without hematoxylin
-          counterstain. The slides were then incubated with the
-          second unlabeled antibody, washed, incubated with
-          FITC-conjugated second antibody, washed again and mounted
-          in aqueous medium [ 35]. The antibody reagents in the
-          second labeling sequence do not react with those in the
-          first sequence because the latter are altered by the
-          reaction product of diaminobenzidine [ 36].
-          Peroxidase-FITC technique allows separate visualization
-          of peroxidase in visible light (either transmitted or
-          dark-field illumination), visualization of FITC alone in
-          incident fluorescence, and combined visualization of
-          peroxidase/FITC in dark-field transmitted fluorescence.
-          Microphotography was performed using color negative
-          films, and negatives scanned to obtain positive images
-          ported into the Power-Point and processed as above.
+          Four μ-thick sections were cut from paraffin-embedded
+          blocks and immuno-stained following deparaffinization and
+          antigen retrieval using citrate buffer at pH 6.0.
+          Following incubation with antibodies against E-cadherin
+          (Dako, Carpinteria, CA) and RARB (NeoMarkers, Fremont,
+          CA), signal was detected with the Envision plus (DAKO,
+          Carpenteria, CA) system, using diaminobenzidine as a
+          chromogen. Tumors were considered positive for E-cadherin
+          when cells showed membrane staining. For RARB, staining
+          in normal epithelium either nuclear or cytoplasmic or
+          both were considered positive. Normal epithelium and
+          mesenchymal cell expression were used as internal
+          controls.
+        
+        
+          Statistical Analysis
+          We first assessed associations between presence of
+          promoter methylation for each gene and various clinical,
+          demographic, and genetic characteristics using Chi-Square
+          test [ 55 ] and Fisher's Exact test (for small cell
+          counts) [ 56 ] . Characteristics that we examined
+          included: histology, stage, tumor size, patient's age,
+          clinical outcome, treatment response, HPV type, and
+          microsatellite instability. Cox Proportional Hazard
+          Models [ 57 ] were further applied to assess the relative
+          hazard (risk) of dying associated with each methylated
+          gene after adjusting for age, treatment status, tumor
+          size, stage, and HPV type.
         
       
       
-        Abbreviations
-        MDC, monocyte-derived cells; b, basal layer; pb,
-        parabasal layers; im, intermediate layers; s, superficial
-        layers; Ip, lamina propria; MHC, major histocompatibility
-        complex; Ig, immunoglobulin; DC, dendritic cells; TCU,
-        tissue control unit; PBS, phosphate-buffered saline; FITC,
-        fluorescein-isothiocyanate; IHC, immunohistochemistry.
+        Authors ' contributions
+        Author 1 (GN) performed cell culture, MSP and gene
+        expression analysis. Author 2 (HAP) participated in the
+        collection of tumors, clinical follow-up data, and
+        performed HPV typing. Author 3 (SK) participated in MSP and
+        MSI analyses. Author 4 (HV) participated in collection of
+        tumor material and clinical information. Author 5 (FFZ)
+        participated in statistical analysis. Author 6 (JV)
+        participated in collection of normal cervical specimens.
+        Author 7 (AS) participated in collection of cervical cancer
+        specimens and clinical information. Author 8 (MBT)
+        participated in statistical analysis and interpretation of
+        the data. Author 9 (MM) participated in histologic
+        diagnosis and immuno-histochemical analysis. Author 10
+        (VVM) has conceived and coordinated the study. All authors
+        read and approved the final manuscript.
       
     
   

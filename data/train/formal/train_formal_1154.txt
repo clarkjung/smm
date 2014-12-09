@@ -3,460 +3,417 @@
     
       
         Background
-        During positive inotropy there is an increase in ATP
-        utilization and thus myocardial oxygen consumption related
-        to increased cross-bridge cycling and calcium handling [ 1
-        ] . Heat measurements of isolated heart muscle have
-        assigned approximately 50% of total energy consumption to
-        cross-bridge cycling and 20% to calcium cycling [ 2 ] .
-        However, recently, studies in both isolated hearts and
-        myocytes [ 3 4 ] , examining the energetic effects of
-        increasing inotropy with the calcium sensitizing agent EMD
-        57033 have suggested that the energetic cost associated
-        with increasing inotropy is largely related to calcium
-        cycling. In these studies EMD 57033 resulted in only small
-        increases in myocardial oxygen consumption and this was
-        felt related to the ability of EMD 57033 to increase
-        inotropy without increasing calcium cycling (though
-        intracellular calcium was not directly measured).
-        Consistent with this Brandes et al [ 5 ] have studied the
-        contribution of mechanical work and calcium cycling to
-        total mitochondrial ATP hydrolysis as measured by NADH
-        levels using fluorescent spectroscopy of rat cardiac
-        trabeculae. They concluded that there was an equal
-        contribution of mechanical work and calcium cycling to
-        total ATP hydrolysis. In the present study, we hypothesized
-        that energy consumption during altered inotropy is largely
-        to related calcium handling. To study this we directly
-        measured developed pressures, myocardial oxygen consumption
-        and used a newly developed technique to measure
-        intracellular calcium in perfused mouse hearts with the
-        calcium sensitive fluorescent dye rhod-2 [ 6 7 ] during
-        calcium-induced inotropy and with dobutamine. In addition
-        we studied the perfused mouse heart, as the ability to
-        manipulate the murine genome will likely provide important
-        information about the molecular determinants of energy
-        consumption in the heart.
-        The mechanisms controlling calcium-induced inotropy are
-        probably several fold, and include activation of protein
-        kinase C [ 8 ] , of which several isoforms are calcium
-        dependent. Protein kinase C decreases maximal actomyosin
-        MgATPase activity through phosphorylation of troponin I [ 9
-        ] . This would be predicted to result in a reduction in
-        force (or developed pressure) relative to intracellular
-        calcium resulting in an energetically inefficient state.
-        Thus, we predicted that high perfusate calcium positive
-        inotropy would result in lower developed pressures relative
-        to both intracellular calcium and myocardial oxygen
-        consumption compared to dobutamine, and that high perfusate
-        calcium would be associated with evidence of protein kinase
-        C activation, though not dobutamine.
-      
-      
-        Results
-        During increases in perfusate calcium (1.5 - 3.5 mM)
-        there were stepwise increases in developed pressure, and
-        developed pressures with dobutamine were significantly
-        higher than perfusate calcium 3.5 mM (Figure 1A). Peak
-        systolic intracellular calcium increased minimally between
-        1.5 and 2.5 mM despite significant increases in developed
-        pressures indicating increased myofilament responsiveness
-        to calcium at perfusate calcium 2.5 compared to 1.5 mM
-        (Figure 1B). Also, indicating reduced myofilament
-        responsiveness to perfusate calcium 3.5 mM compared to
-        dobutamine, levels of peak intracellular calcium were
-        similar for these 2 interventions despite higher developed
-        pressure with dobutamine. Increases in myocardial oxygen
-        consumption reflected the changes in peak intracellular
-        calcium, in that there were minimal changes between 1.5 and
-        2.5 mM perfusate calcium, and myocardial oxygen consumption
-        was not significantly different between perfusate calcium
-        3.5 mM and dobutamine (Figure 1C). Thus, the ratio of
-        developed pressure to myocardial oxygen consumption, an
-        index of economy of contraction, significantly increased
-        between 1.5 and 2.5 mM perfusate calcium and was
-        significantly higher with dobutamine compared to high
-        perfusate calcium (Figure 1D).
-        To further explore the differences between dobutamine
-        and high calcium positive inotropy, analysis of pressure
-        and calcium transient waveforms and phase-plane plots
-        relating pressure to calcium was performed. Pressure
-        waveforms were significantly abbreviated with dobutamine
-        compared to high perfusate calcium (total waveform
-        duration: 100 ± 15 vs 125 ± 0 ms, p < 0.01). The time
-        from onset of the pressure waveform to peak pressure was
-        not significantly different between dobutamine and high
-        calcium (45 ± 3 vs 52 ± 7 ms, p=NS), though the time from
-        peak pressure to fall to baseline was significantly shorter
-        with dobutamine compared to high calcium (55 ± 12 vs 73 ± 7
-        ms, p < 0.05). An example of a normalized pressure
-        waveform is shown in Figure 2. No significant differences
-        were seen with calcium transient durations at any level of
-        perfusate calcium or dobutamine (examples Figure 3A,Band
-        3C). Total transient duration at 3.5 mM perfusate calcium
-        was 106 ± 20 ms and with dobutamine was 93 ± 22 ms (p=NS),
-        and there was also no significant difference in the time
-        from onset of the transient to peak (3.5 mM perfusate
-        calcium 33 ± 8 vs dobutamine 38 ± 14 ms, p=NS), or
-        difference in the duration between the peak of the
-        transient to return to baseline (3.5 mM perfusate calcium
-        72 ± 25 vs dobutamine 60 ± 25 ms, p=NS). Phase-plane plots
-        illustrate that high perfusate calcium results in a similar
-        increase in intracellular calcium compared to dobutamine
-        though relatively smaller increase in pressure (Figure
-        3D,E, and 3F). Thus, the ratio of pressure to calcium at
-        the point of peak systolic pressure is significantly higher
-        with dobutamine compared to high perfusate calcium (0.103 ±
-        0.009 vs 0.081 ± 0.012 mmHg/nM, p < 0.05, Figure 4). The
-        increase in the 'dynamic trajectory' of the phase-plane
-        plot between peak calcium and peak pressure may relate to
-        underlying changes in the steady-state force-calcium
-        relationship as proposed by Hunter [ 10 ] .
-        The specific protein kinase C inhibitor chelerythrine
-        significantly inhibited high calcium positive inotropy (2.5
-        to 3.5 mM, p < 0.05), though had no effects on
-        dobutamine, or with lower levels of perfusate calcium (1.5
-        to 2.5 mM) (Figure 5A). The effects of chelerythrine were
-        mediated through preventing the expected increase in
-        systolic and diastolic intracellular calcium (figure 5B).
-        The difference in myocardial oxygen consumption between 2.5
-        and 3.5 mM perfusate calcium was significantly reduced with
-        the addition of chelerythrine (Δ 2.5 to 3.5 mM alone: 9.1 ±
-        2.8 vs Δ 2.5 to 3.5 mM + chelerythrine: 5.4 ± 1.2
-        μmoles/min/g dry wt., p < 0.05). Also, chelerythrine had
-        no significant effects on developed pressures at a constant
-        perfusate calcium of 2.5 mM (53 ± 9 to 50 ± 10 mmHg,
-        p=NS).
-      
-      
-        Discussion
         
-          Measurement of intracellular calcium and myocardial
-          oxygen consumption in the perfused mouse heart
-          Isolated perfused mouse heart measurements of
-          intracellular calcium and energetics have been performed
-          using other methods by other investigators [ 17 18 ] .
-          The unique aspects of the present study are that we use
-          the calcium sensitive fluorescent dye rhod-2 to measure
-          intracellular calcium [ 6 7 ] , and that we have related
-          these measurements to both myocardial oxygen consumption
-          and developed pressure. An appreciation of the strengths
-          and limitations of these techniques is required to
-          critically evaluate the results. For instance,
-          measurements of intracellular calcium are taken from the
-          outer layers of the left ventricular free wall, though
-          our measurements of myocardial oxygen consumption and
-          developed pressures are global measurements. Differences
-          between the epicardium and endocardium have been
-          described [ 19 ] and our measurements of intracellular
-          calcium do not take this into account, and regional
-          differences in myocardial strains and oxygen consumption
-          are also not accounted for. However, one advantage of
-          using rhod-2 is that its long excitation and emission
-          wavelengths relative to other calcium sensitive dyes
-          results in minimal filtering of excitation and emission
-          light and autofluorescence [ 7 20 ] . At these visible
-          range wavelengths light may penetrate between 0.3 and 0.4
-          mm into the myocardium [ 21 ] which may be significantly
-          deeper than shorter wavelength dyes. This is
-          approximately 50% of the total wall thickness in the
-          mouse [ 22 ] , and thus our measurements are from the
-          outer 50% of the myocardium.
-          Measurements of intracellular calcium and myocardial
-          oxygen consumption have been performed in different
-          hearts due to the difficulty in obtaining these
-          measurements in a single experiment, and this may
-          introduce variability into the results. We have also
-          performed only 2 interventions per heart. The time taken
-          to obtain stable measurements of effluent oxygen
-          saturations used in the calculation of myocardial oxygen
-          consumption is approximately 30 minutes and the mouse
-          heart preparation is usually not stable beyond 80
-          minutes, so that only 2 interventions can be obtained.
-          Furthermore, when comparing different inotropes such as
-          high calcium and dobutamine, it is desirable not to use
-          the same heart. As we have postulated that different
-          signaling pathways may be activated by these inotropes,
-          serially administering these to a single heart may result
-          in persistent activation of a protein kinase even after
-          washout of that agent.
-          Coronary flow does not increase with inotropes in this
-          study, though other studies with perfused mouse hearts
-          have shown an increase [ 23 ] . The reason for this is
-          unclear, though oxygen delivery to the heart is not
-          compromised. We have the advantage with the use of the
-          absorbance spectrum between 500 and 600 nm, used in the
-          calculation of intracellular calcium, that this is also
-          sensitive to the presence of deoxy- or oxygenated
-          myoglobin [ 7 ] . With our technique the myoglobin
-          spectrum is invariably consistent with full oxygenation
-          and any (rare) hearts that do not show this pattern are
-          discarded. By using physiological heart rates and
-          temperatures we have attempted to reproduce normal murine
-          physiological conditions. As the mouse heart has a
-          negative force-frequency response at physiological heart
-          rates [ 24 ] , developed pressures in our studies are
-          lower than might be expected with lower heart rates.
-          Nevertheless, the developed pressures in this study are
-          quite consistent with other studies [ 17 24 25 ] . That
-          pressures in perfused mouse heart studies are generally
-          low may relate to the resistance of the murine myocardium
-          to extracellular calcium [ 26 ] . Diastolic calcium
-          levels are relatively high with this method especially
-          with dobutamine or 3.5 mM perfusate calcium (table 1).
-          This appears at least in part related to the limited
-          sampling of 8 time points per beat in the current paper,
-          and may also relate to motion artifact associated with
-          the positive inotropes. These limitations are especially
-          prominent in the small and rapid beating mouse heart.
-          Recently, improved analogue to digital capabilities and
-          software acquisition has significantly improved our
-          ability to record many more time points during the
-          cardiac cycle, and with this we have noted slightly
-          higher differences between peak and diastolic calcium
-          levels (MacGowan and Koretsky, unpublished data). It
-          appears unlikely that this is related to a calcium
-          overload state as diastolic pressures do not rise with
-          high perfusate calcium or dobutamine, and pressure
-          waveforms abbreviate with dobutamine.
+        Bacillus anthracis contains a 96.2 kb
+        plasmid, pXO2, that is required to cause the disease
+        anthrax [ 1 ] . Complete sequencing and annotation
+        (GeneMark.hmm) of pXO2 predicted 85 open reading frames
+        (ORFs) [Genbank accession NC_002146]. Little is known about
+        the identity and function of pXO2 ORFs beyond the virulence
+        genes associated with the 
+        B. anthracis capsule ( 
+        dep, capACB, acpA ) [ 2 3 4 5 ] . The
+        goal of this study was to determine if many of the novel
+        pXO2 ORFs were unique to 
+        B. anthracis , or were conserved in
+        other closely related 
+        Bacillus cereus and 
+        Bacillus thuringiensis isolates.
+        Conservation of plasmid sequences can provide clues about
+        the origin of the pXO2 plasmid and about potentially
+        conserved gene functions. Identification of ORFs that are
+        specific to 
+        B. anthracis are potentially useful
+        as markers for detection of the pathogen in clinical and
+        forensic applications.
         
+        B. anthracis is a member of the 
+        B. cereus/B.
+        thuringiensis phylogenetic group [ 6 ] . The members of
+        this group are nearly indistinguishable by 16S rDNA
+        analysis [ 7 8 ] . Plasmids in the 
+        B. cereus/B. thuringiensis isolates
+        vary greatly in number and size, and many of the phenotypic
+        differences among 
+        B. cereus , 
+        B. thuringiensis , and 
+        B. anthracis isolates are conferred
+        by plasmid encoded genes [ 9 10 11 12 ] . Horizontal
+        plasmid transfer among bacteria, including isolates of the 
+        B. cereus/thuringiensis group has
+        been documented [ 12 13 14 15 16 ] .
+        Amplified fragment length polymorphism (AFLP) analysis
+        of over 350 
+        B. cereus, B. thuringiensis , and 
+        B. anthracis isolates, identified
+        several distinct isolate groups [ 17 18 ] . Eight of the 
+        B. cereus/B. thuringiensis isolates
+        were found to be very closely related to all 
+        B. anthracis isolates and formed a
+        distinct cluster. In the present study, 
+        B. cereus and 
+        B. thuringiensis isolates that vary
+        in AFLP-based genomic relatedness to 
+        B. anthracis were examined for the
+        presence of DNA sequence similar to pXO2, to determine
+        whether portions of this plasmid are conserved in closely
+        related 
+        Bacillus isolates, and to determine
+        whether the conservation of pXO2 sequences correlated with
+        genomic relatedness established by AFLP comparisons [ 17 18
+        ] .
+      
+      
+        Results and Discussion
+        PCR was performed using template DNA from 11 
+        Bacillus isolates that vary in
+        relatedness to 
+        B. anthracis with primer sets
+        designed to amplify DNA fragments from 47 different pXO2
+        ORFs. This method was chosen to detect sequences with
+        potential similarity to pXO2 because it is rapid and the
+        reaction products can be readily sequenced. Table 1lists
+        the isolates tested, their genomic relatedness to 
+        B. anthracis as determined by Jaccard
+        distances calculated from AFLP profile comparisons [ 17 18
+        ] , and the number of positive PCR reactions obtained for
+        each isolate. DNA sequencing of the amplified PCR products
+        revealed a high degree of sequence similarity to pXO2 ORFs
+        [Genbank accession numbers AF547271-AF547318]. BLAST
+        (blastn) e-values were 6 × 10 -13or less for each ORF
+        fragment detected, which corresponded to sequence
+        similarity of 80% or greater. In a previous study, a
+        similar approach was used to demonstrate that many of the
+        ORFs from pXO1, the toxin-encoding plasmid of 
+        B. anthracis , were highly conserved
+        in other isolates from the 
+        B. cereus/B. thuringiensis group [ 19
+        ] .
+        The number of plasmid ORFs detected in a 
+        Bacillus isolate did not correlate
+        directly with phylogenetic relationship to 
+        B. anthracis as determined by AFLP.
+        The isolates most closely related to 
+        B. anthracis as determined by AFLP
+        produced no more than two PCR products each. However, two
+        of the more distantly related isolates, 
+        B. thuringiensis 33679 and 
+        B. thuringiensis AWO6, produced 10
+        and 16 positive PCR reactions, respectively. Neither of
+        these isolates is known to be a human or animal
+        pathogen.
+        Table 2lists the 47 pXO2 ORFs that were tested in the
+        PCR assay, their putative functions or similarities to
+        other genes (blastp), and the PCR results obtained in this
+        experiment. Nineteen different pXO2 ORF fragments were
+        detected among the 11 
+        Bacillus isolates. Eight of the
+        conserved ORFs were similar to sequences contained in
+        public databases; 11 were unidentified. The only pXO2 ORFs
+        found in common with the isolates most closely related to 
+        B. anthracis (Jaccard distance of
+        0.55 or less) were ORFs 47 and 48. These ORFs have sequence
+        similarity to a conserved hypothetical protein found in
+        several bacterial genera and the 
+        tetR family of transcriptional
+        repressors, respectively.
+        A 25.3 kb region that contains the capsule-associated
+        genes has sequence characteristics that are different from
+        the rest of the plasmid. This region of pXO2 spans
+        nucleotides 48242-73500 and includes ORFs 53 through 65 (13
+        ORFs). In comparison to the rest of pXO2, this region has a
+        larger average gene size (818 bases 
+        vs. 725 bases), a lower gene density
+        (0.5 gene 
+        vs. 1.0 gene per kb of sequence), and
+        larger average intergenic spaces (1125 bases 
+        vs. 260 bases). The region also has a
+        slightly lower percent G+C (~28%) than the rest of the
+        plasmid (~31%). Although the region is not bracketed by 
+        IS elements or tRNAs that are
+        characteristic of pathogenicity islands (PAIs), it bears
+        features that are similar to the putative PAI identified in
+        the 
+        B. anthracis plasmid pXO1 [ 20 ] .
+        Bacterial sequences with similarity to the 
+        B. anthracis cap genes are present in
+        sequence databases. However, the capsule-associated genes (
+        
+        capABC, dep, acpA ) were not detected
+        by PCR in the tested 
+        Bacillus isolates. The pXO2 ORF
+        sequences detected in 
+        B. thuringiensis 33679 and 
+        B. thuringiensis AWO6 were
+        distributed across the entire plasmid sequence, except in
+        the 25.3 kb 
+        cap gene-containing region, which
+        appeared to be unique to 
+        B. anthracis .
+        
+        B. thuringiensis strain AWO6 produced
+        the most products in the PCR assay. A hybridization assay
+        was performed using total genomic DNA from this isolate as
+        a probe against pXO2 DNA targets amplified using the 47
+        primer sets from the PCR assay (Table 3). The hybridization
+        assay complimented the PCR analysis by identifying nine
+        additional conserved ORF sequences that might not have had
+        exact matches to the PCR primer sequences. Total genomic
+        DNA from 
+        B. thuringiensis strain AWO6
+        hybridized with 23 pXO2 ORF fragments, including all ORFs
+        tested in the region between ORF 5 and ORF 38 (Table 3).
+        ORFs in the 25.3 kb pXO2 
+        cap gene-containing region did not
+        hybridize with 
+        B. thuringiensis strain AWO6 DNA.
+        
+        B. thuringiensis AWO6 is a strain
+        containing a 70 kb plasmid designated pAW63 [ 12 21 ] .
+        This strain was derived from 
+        B. thuringiensis HD73 by curing of
+        its crystal toxin bearing plasmid, pHT73 [ 12 21 ] . The
+        pAW63 plasmid contains a replication complex that is
+        classified as a member of the pAMB-1 family of theta
+        replicating plasmids that are present in a broad range of
+        Gram positive species [ 22 ] . Plasmid pXO2 also appears to
+        be a pAMB1-like theta replicating plasmid [ 23 ] and
+        elements surrounding the replication complex are present in
+        both pXO2 and pAW63 (see pXO2 ORFs 35, 37, 38, 39 in Tables
+        2and 3). ORFs 35, 37, and 38 were sufficiently conserved
+        between pXO2 and pAW63 to allow detection by PCR or
+        hybridization (see Tables 2and 3).
+        Pulsed field gel electrophoresis was used to separate
+        plasmid and chromosomal DNA in 
+        B. thuringiensis AWO6, and a Southern
+        hybridization blot using a mixed pool of pXO2-derived
+        probes (ORFs 6, 10, 50, 63, 72, 81) was performed to
+        determine if any of the ORFs were present on the pAW63
+        plasmid (Figure). A DNA fragment estimated to be 72 kb in
+        size hybridized to the mixed pXO2 probe, which is slightly
+        larger, but within 3% of the reported size of pAW63 (70
+        kb). This same PFGE protocol produced a similarly accurate
+        measurement of the size of the 
+        B. anthracis plasmid pXO1 as
+        determined by complete DNA sequencing [ 19 ] . The
+        detection of sequences similar to pXO2 ORFs on pAW63
+        suggests that other pXO2 genes, in addition to those
+        involved with replication, are also located on the pAW63
+        plasmid.
       
       
         Conclusions
-        In the perfused mouse heart, high perfusate calcium
-        positive inotropy compared to dobutamine results in reduced
-        myofilament calcium responsiveness, decreased energetic
-        efficiency and is dependent in part on protein kinase C
-        activation. It must be recognized that agents that increase
-        the amplitude of the calcium transient through activation
-        of protein kinase A, such as phosphodiesterase inhibitors
-        are associated with adverse outcomes in congestive heart
-        failure patients [ 27 ] , and so our findings with
-        dobutamine are unlikely to translate into clinical benefit.
-        Nevertheless, these results illustrate the importance of
-        calcium handling in the energetic efficiency of an
-        inotrope, and these methods will be useful in studying
-        genetically engineered mouse models with altered
-        myofilament calcium responsiveness.
+        The presence of pXO2 ORF sequences in 11 
+        Bacillus isolates did not correlate
+        with their genomic relatedness to 
+        B. anthracis as determined by AFLP
+        comparisons. A similar observation was made in previous
+        work that examined the conservation of the 
+        B. anthracis plasmid pXO1 among
+        closely related bacteria [ 19 ] .
+        This study explored the extent of sequence conservation
+        between pXO2 ORFs and total DNA from other 
+        Bacillus isolates, and detected
+        similar sequences that may be located on the chromosome or
+        any of several plasmids in each isolate. The two isolates
+        with the most sequence conservation with pXO2 ORFs, 
+        B. thuringiensis isolates 33679 and
+        AWO6, are known to contain large plasmids [ 12 19 ] . Four
+        ORFs with high sequence similarity to 
+        B. thuringiensis AWO6 plasmid pAW63
+        were detected [ 22 ] , and a mixed pXO2 ORF probe
+        hybridized with a PFGE fragment similar in size to pAW63.
+        The presence of considerable sequence conservation in more
+        distantly related isolates rather than among close
+        relatives, combined with the observations stated above, is
+        a pattern consistent with the potential plasmid location of
+        these sequences. Comparative sequence analysis of these
+        large plasmids with pXO2 could determine if the observed
+        sequence conservation was located on these plasmids.
       
       
-        Materials and methods
+        Methods
         
-          The isolated perfused mouse heart and myocardial
-          oxygen consumption
-          Experiments were performed in 2 groups. In one group,
-          developed pressure and myocardial oxygen consumption were
-          measured in the perfused mouse heart. In another group of
-          perfused hearts intracellular calcium and developed
-          pressure were measured. Male mice (129/SV ter strain,
-          mean weight 26.9 ± 2.6 g) were used. Anesthesia was
-          induced with 1.5 to 3.0 mg of intraperitoneal
-          pentobarbital sodium, and the animal was anticoagulated
-          with 100 units of heparin. The heart was removed from the
-          chest and the aorta was cannulated with a 23 gauge
-          needle. Retrograde coronary perfusion at a constant
-          perfusion pressure of 55 mmHg with oxygenated modified
-          Krebs solution was started. The Kreb's solution consisted
-          of (mM): NaCl 112, KCl 4.7, MgSO 
-          4 1.2, Na-EDTA 0.5, NaHCO 
-          3 28.0, Glucose 5.5, Pyruvate 5.0,
-          CaCl 
-          2 2.5, 50 μM octanoate, and pH was
-          adjusted to 7.4. For some studies the concentration of
-          calcium was varied to produce an inotropic effect. The
-          concentration of NaCl was adjusted accordingly for these
-          experiments to maintain osmolality. To eliminate the
-          effects of cathecholamine release by pacing esmolol (0.1
-          μM) (Du Pont, Wilmington, DE) was added to the perfusate.
-          The temperature of the perfusate entering the heart was
-          set at 37°C. Flow was monitored with a glass flow meter.
-          A rubber latex balloon on the end of a plastic cannula,
-          was inserted into the left ventricle through an incision
-          in the left atrium. This was then connected to a Gould
-          pressure recorder (Gould, Cleveland, Ohio) for
-          measurement of left ventricular pressure. The left
-          ventricular diastolic pressure was set at 0 - 5 mm Hg
-          using a micro-syringe. Hearts were paced at 8 Hz which is
-          physiological heart rate for the mouse, using a
-          stimulator with one lead inserted into the right
-          ventricle and the other adjacent to the epicardium. In
-          the myocardial oxygen consumption experiments, the
-          perfused mouse heart was placed in a glass, water
-          jacketed chamber, which was sealed at the top. Myocardial
-          oxygen consumption was determined from influent and
-          effluent oxygen content (measured by blood gas analyzer,
-          ABL-30, Copenhagen, Denmark) and flow rate.
+          Bacterial isolates and DNA isolation
+          The genomes of the 11 
+          Bacillus isolates selected for
+          study were found by AFLP analysis to vary in relatedness
+          to 
+          B. anthracis . Isolates with
+          Jaccard distances of less than 0.55 formed a distinct
+          cluster with all of the 
+          B. anthracis isolates (P.J.
+          Jackson, unpublished data) while the other 4 isolates
+          were present in less closely related clusters (Table
+          1).
+          Bacteria were grown in Nutrient Broth (NB; DIFCO
+          Laboratories, Franklin Lakes, NJ) or on NB agar plates at
+          28°C. Total DNA (including chromosomal and plasmid DNA)
+          was extracted as described by Robertson 
+          et al. [ 24 ] with slight
+          modifications. Cultures grown for 16 h in Nutrient Broth
+          were centrifuged into a pellet, washed in TE (10 mM Tris
+          pH 7.5/1 mM EDTA pH 8.0), and suspended in 10% sucrose.
+          Cells were incubated at 37°C in lysozyme solution (5
+          mg/ml lysozyme, 50 mM Tris pH 7.5, 10 mM EDTA pH 8.0),
+          followed by addition of 20% SDS containing 0.3%
+          beta-mercaptoethanol. A potassium acetate precipitation
+          was performed to further clarify lysed cells [ 25 ] . DNA
+          was purified by organic extraction and ethanol
+          precipitation. Purified DNA was quantified by UV
+          spectrophotometry. DNA from a 
+          B. anthracis isolate 91-213C-1
+          provided by P.J. Jackson was included as a positive
+          control.
         
         
-          Measurement of Intracellular Calcium
-          The methods used to measure intracellular calcium with
-          rhod-2 in perfused hearts have been previously
-          extensively described [ 6 7 20 ] . Rhod-2 (Molecular
-          Probes, OR, 100 μg) was dissolved with dimethylsulfoxide
-          (DMSO, 4 μL) and dH 
-          2 O (200 μL), and loaded through the
-          coronary perfusate. After the washout period serial
-          measurements of fluorescence alternating with absorbance
-          were taken. Fluorescence scans were taken at high time
-          resolution to allow quantification of changes in
-          fluorescence during the cardiac cycle. Excitation at 524
-          nm and emission at 589 nm was used for fluorescence
-          measurements.
-          Quantification of the relative amount of rhod-2 in the
-          heart using absorbance measurements, was done by taking
-          the ratio of absorbance at 524 nm (rhod-2 sensitive) to
-          589 nm (rhod-2 insensitive) which eliminated the effect
-          of motion as both wavelengths would be equally affected
-          by motion, though only 524 reflected the concentration of
-          rhod-2 [ 7 ] . These wavelengths (524, 589 nm) were
-          chosen as these were isosbestic points not effected by
-          changes in absorbance of myoglobin induced by oxygen
-          desaturation [ 7 ] . In solution maximal rhod-2
-          absorbance is at 554 nm. However, this wavelength is
-          effected by changes in oxygen saturation, the relative
-          absorbance compared to 524 nm is decreased due to inner
-          filter effects and it does not adequately correct for
-          changes in scattering [ 7 ] . Dye absorbance (A 
-          rhod2 ) was calculated according to
-          the formula:
-          A 
-          rhod2 = log{(R 
-          524 /R 
-          589 ) 
-          0 (R 
-          524 /R 
-          589 ) 
-          rhod2 }     (1)
-          where R 
-          524 is the reflectance intensity at
-          the rhod-2 sensitive point of 524 nm, and R 
-          589 is the rhod-2 insensitive point,
-          before () 
-          0 and after () 
-          rhod2 loading.
-          At the end of the perfusion protocol, maximal
-          fluorescence, used in the calculation of [Ca 2+]i was
-          determined by tetanizing the heart with a bolus of
-          calcium chloride (20 mM) without any energy substrate,
-          and with cyclopiazonic acid (Sigma Chemical Co., 10 μM),
-          which is a potent inhibitor of Ca 2+-ATPase and thus
-          blocks calcium uptake by the sarcoplasmic reticulum [ 28
-          ] . Fluorescence and pressure were monitored
-          continuously, and the point of maximal fluorescence was
-          taken as the point were pressure stabilized at a steady
-          state. To account for changes in light scattering
-          properties from the heart during tetanization, the
-          maximal fluorescence was corrected by multiplying by the
-          ratio of R 
-          524 pre-tetanization to R 
-          524 during tetanization [ 7 ] .
-          Intracellular calcium was calculated using the
-          formula:
-          [Ca 2+]i = K 
-          d (F 
-          t - F 
-          o )/(F 
-          max - F 
-          t )     (2)
-          where K 
-          d is the dissociation constant for
-          rhod-2 and calcium (determined by in-vitro calibration
-          with rhod-2 and myoglobin by del Nido et al, ref [ 20 ] ,
-          and confirmed by in-vivo manganese quenching, ref [ 29 ]
-          ) and is 710 nM, F 
-          t = fluorescence at time t, F 
-          max =maximal fluorescence from
-          tetanized heart, and the fluorescence from the heart
-          assuming rhod-2 had no calcium bound is given by F 
-          0 = F 
-          b + 
-          a (F 
-          max - F 
-          b ), where F 
-          b is the background counts from the
-          heart prior to dye loading, and 
-          a = rhod-2 fluorescence in the
-          absence of calcium / rhod-2 fluorescence in the presence
-          of saturating calcium. For rhod-2 the value of 
-          a is approximately 0, thus for
-          rhod-2, F 
-          0 was assumed to be equal to F 
-          b .
-          To account for changes in dye concentration, formula 2
-          needs to be modified to account for changes in absorbance
-          (A 
-          rhod-2 , formula 1) due to dye
-          leakage.
-          [Ca 2+]i = K 
-          d ((F 
-          t - F 
-          o )/At)/(((F 
-          max - F 
-          o )/A 
-          max ) - ((F 
-          t - F 
-          o )/A 
-          t ))(3)    
-          where A 
-          t = dye absorbance at time t, A 
-          max is dye absorbance just prior to
-          tetanizing the heart. A 
-          max is not determined when heart has
-          tetanized because of the marked influence of the shape
-          change and desaturation of myoglobin on the reflectance
-          spectrum.
+          pXO2 PCR primer sets
+          Oligonucleotide primer sets were identified for 47
+          pXO2 ORFs. PCR primer sets were typically positioned 20
+          to 50 bases from ORF termini unless A/T richness of the
+          DNA sequence prohibited the design of primers in that
+          region. Primer sequences are located at
+          http://bdiv.lanl.gov/databases/databases.html. The
+          remaining 38 pXO2 ORFs were not included in the present
+          survey due to sub-optimal A/T richness, amplicon size,
+          and thermodynamic characteristics of the candidate primer
+          sets.
         
         
-          Interventions
-          For each heart only a baseline and one intervention
-          was used, and N = 4-6 for all groups. The time to achieve
-          a stable state (particularly with respect to effluent PO 
-          2 concentrations) or load rhod-2, and
-          then acquire baseline data and perform 1 intervention is
-          60-90 minutes, beyond which the preparation is not stable
-          and so more than 1 intervention per mouse heart was not
-          undertaken. In the developed pressure/oxygen consumption
-          experiments, the following interventions were used: 1)
-          varying perfusate calcium from baseline 2.5 mM to 3.5; 2)
-          baseline perfusate calcium 1.5 mM to 2.5 mM; 3) baseline
-          perfusate calcium 2.0 mM and then addition of dobutamine
-          0.9 μM.; 4) to antagonize the effects of protein kinase
-          C, the specific antagonist chelerythrine (ref 30; 10 nM,
-          Calbiochem-Novabiochem Intl, La Jolla, CA) was added to
-          the perfusate when inducing positive inotropy. In all of
-          these the chelerythrine was added to the perfusate
-          containing the higher level of perfusate calcium or
-          dobutamine. This dose was chosen to reduce the expected
-          increase in pressure with perfusate calcium 3.5 mM by 50%
-          after dose ranging studies (1 nM to 1000 nM). In addition
-          in another group of experiments during constant infusion
-          of perfusate calcium 2.5 mM, chelerythrine was added
-          without changing perfusate calcium concentration. In all
-          experiments, the control period was followed by the
-          intervention, and repeated measurements of both developed
-          pressure and myocardial oxygen consumption were taken for
-          a period of approximately 30 minutes. Measurements of
-          intracellular calcium were performed 1) at perfusate
-          calcium concentrations at baseline of 2.5 mM increasing
-          to 3.5 mM, 2) decreasing from 2.5 to 1.5 mM, and 3) 2.0
-          mM baseline with subsequent addition of dobutamine 0.9
-          μM. The effects of chelerythrine on intracellular calcium
-          was only determined for those interventions with which
-          chelerythrine had significant effects on myocardial
-          oxygen consumption and developed pressure.
+          PCR assays and amplicon sequencing
+          PCR assays to detect each of the 47 individual pXO2
+          ORFs were conducted using DNA from each bacterial isolate
+          (Table 1) as template. Fifty μl PCR reactions contained
+          1X Perkin Elmer PCR buffer with 1.5 mM MgCl 
+          2 , 0.8 mM each dNTP, 1.25 U AmpliTaq
+          DNA polymerase (Perkin Elmer), and 45 μM of each primer.
+          A PTC-200 Peltier Thermocycler (MJ Research, Watertown,
+          MA) was used for 35-cycle reactions (94°C, 2 min for
+          first cycle only; 94°C, 30 s.; 48°C, 30 s.; 72°C, 30 s).
+          Reactions were resolved on 2% agarose gels that were
+          stained with ethidium bromide and viewed using a UV
+          trans-illuminator. A reaction was considered positive if
+          the amplified fragment was abundant and was the expected
+          size DNA fragment.
+          The majority of PCR products were sequenced using
+          dye-terminator chemistry (ABI Prism FS, PE Applied
+          Biosystems, Boston, MA). Sequencing primers were the same
+          as those used in PCR amplification reactions. Sequencing
+          reactions were resolved on 48 cm polyacrylamide gels (4%,
+          19:1 acrylamide:bisacrylamide, Bio-Rad Laboratories)
+          using an ABI model 373 fluorescence sequencer (Applied
+          Biosystems, Inc.). DNA sequence was analyzed using
+          Lasergene software (DNASTAR, Inc., Madison, WI).
+          Sequences were deposited in GenBank as accession numbers
+          AF547271 to AF547318.
         
         
-          Data and Statistical Analysis
-          One way analysis of variance with the Scheffe test was
-          used to test significance of differences between groups.
-          Developed pressure data from the myocardial oxygen
-          consumption and intracellular calcium experiments were
-          combined as this was obtained under the same experimental
-          conditions. The ratio of developed pressure to myocardial
-          oxygen consumption was derived as an index of economy of
-          contraction. Data are expressed as mean ± standard
-          deviation.
+          Hybridization assay
+          A dot-blot hybridization assay was performed using DNA
+          from 
+          B. thuringiensis strain AWO6 as
+          probe against PCR-amplified pXO2 ORF DNA applied to a
+          nylon membrane. Ten ng of each pXO2 ORF fragment was
+          denatured by adding 0.1 volume of 1 M NaOH and incubation
+          for 5 min at 37°C. An equal volume of 20X SSC (3 M NaCl,
+          0.3 M sodium citrate, adjusted to pH 7.0 with 1 M HCl)
+          was added and samples were quickly placed on ice for 2
+          min. The DNA was then applied to a Hybond-N+ membrane
+          (Amersham, Arlington Heights, IL) pre-soaked in 10X SSC
+          using a HYBRI-DOT Manifold (Life Technologies, Inc.,
+          Rockville, MD). The membrane was exposed to 1200 mjoules
+          of ultraviolet light in a UV-STRATALINKER 1800
+          (STRATAGENE, LaJolla, CA) to crosslink DNA to the
+          membrane. Total DNA extracted from 
+          B. thuringiensis AWO6 was used to
+          synthesize probe by incorporating [α- 32P]dCTP (6000
+          μCi/mMol) (NEN, Boston, MA) into randomly primed DNA
+          synthesis reactions using the Megaprime DNA Labeling
+          System (Amersham-Pharamacia Biotech, Piscataway, NJ)
+          according to the manufacturer instructions. The membrane
+          was incubated at 50°C in hybridization buffer (0.5 M
+          NaHPO 
+          4 , 1 mM EDTA pH 8.0, 7% SDS [28]) for
+          60 min, followed by hybridization with probe for 16 h at
+          50°C. After hybridization, the membrane was washed twice
+          for 10 min at 30°C in 2X SSC containing 0.1% SDS and
+          twice for 10 min at 45°C in 0.2X SSC containing 0.1% SDS.
+          Results were viewed using a Fugi Phosphorimager.
         
+        
+          Pulsed-field gel-electrophoresis (PFGE)
+          A 15 ml culture of 
+          B. thuringiensis AWO6 was grown in
+          NB overnight at 37°C with shaking. Chloramphenicol was
+          added at a concentration of 180 μg/ml and the culture was
+          incubated for 60 min. Cells were incubated on ice for 10
+          min, then centrifuged at 2500 × 
+          g for 5 min. Cell pellets were
+          suspended in 1 ml TE buffer that contained 2 mg/ml
+          lysozyme and incubated for 5 min at 37°C.
+          Lysozyme-treated cells were washed in 1 ml of Buffer NT
+          (1 M NaCl, 50 mM Tris pH 7.5) and were suspended in
+          Buffer NT to a final volume of 200 μl.
+          Agarose plugs containing bacterial cells were prepared
+          in a 1 ml syringe by combining cells with an equal volume
+          of 2% SeaKem Gold agarose (FMC BioProducts, Rockland, ME)
+          melted in water. Plugs were allowed to solidify at 4°C
+          for 2 h. Thin agarose slices (1-3 mm) containing embedded
+          bacteria were incubated for 16 h in 500 μl Buffer NTE
+          (100 mM NaCl, 50 mM Tris pH 7.5, 100 mM EDTA pH 8.0)
+          containing 2% lysozyme at 37°C. The lysozyme/Buffer NTE
+          solution was replaced with Buffer NTE that contained 2
+          mg/ml Proteinase K and incubated for 16 h at 50°C. Slices
+          were then incubated in Buffer NTES (100 mM NaCl, 50 mM
+          Tris pH 7.5, 100 mM EDTA pH 8.0, 1% SDS) for 16 h at
+          50°C. Before electrophoresis, slices were incubated twice
+          for 30 min in 1.0 mM phenylmethylsulfonyl fluoride (PMSF)
+          (Sigma. St. Louis, MO) diluted in TE and twice in 0.5X
+          TBE (45 mM Tris-borate (1:1), 1 mM EDTA).
+          Treatment of agarose slices linearized the plasmid DNA
+          and allowed for plasmid size determination using a
+          concatomerized bacteriophage lambda standard (New England
+          BioLabs, Beverly, MA) (5). DNA from agarose slices was
+          resolved on a gel of 1% SeaKem Gold agarose melted in
+          0.5X TBE. Electrophoresis conditions were 175 V in 0.5X
+          TBE at 6°C for 21 h in a CHEF-DR II Pulsed Field
+          Electrophoresis System (BIORAD, Hercules, CA) with a
+          field switch ramp of 5 to 40 s. Gels were stained with
+          ethidium bromide and viewed using a UV
+          trans-illuminator.
+        
+        
+          Southern hybridization
+          The pulsed field gel was sequentially soaked in 0.25 N
+          HCl for 30 min; 3 M NaCl, 0.4 M NaOH for 60 min; and 0.5X
+          TBE for 15 min. Electro-transfer of the DNA to a nylon
+          membrane was performed using a Mini Trans-Blot
+          Electrophoretic Transfer Cell (Bio-Rad, Hercules, CA)
+          according to the manufacturer instructions. DNA was
+          crosslinked to the membrane by exposure to 1200 mjoules
+          of ultraviolet light in a UV-STRATALINKER 1800
+          (STRATAGENE, LaJolla, CA). The membrane containing 
+          B. thuringiensis AWO6 DNA was
+          hybridized using a [α- 32P]dCTP-labeled probe prepared
+          from a mixture of six PCR-amplified pXO2 ORF fragments
+          (pXO2 ORFs 6, 10, 50, 63, 72, 81). Care was taken to
+          avoid the IS elements present on the plasmid. Probe
+          synthesis, hybridization conditions, and wash regimen
+          were performed as described above for hybridization
+          reactions. Results were viewed using a Fugi
+          Phosphorimager.
+        
+      
+      
+        Authors' Contributions
+        JP was responsible for experimental design, protocols,
+        and data management. RTO designed the pXO2
+        oligonucleotides. EW performed PCR reactions and DNA
+        sequencing. RS conducted the hybridization reactions and
+        DNA sequencing. LOT provided AFLP data and statistical
+        analysis. CRK was the principal investigator who began the
+        study and coordinated the work. All authors contributed to
+        preparation of this manuscript.
       
     
   

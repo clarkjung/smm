@@ -3,583 +3,413 @@
     
       
         Background
-        Rapid, robust and reversible induction of transgene
-        expression would significantly facilitate certain
-        applications of gene therapy and the study of cancer
-        biology. Several inducible systems have been developed to
-        regulate gene expression at the transcriptional level in a
-        temporal and quantitative manner. [ 1 2 3 4 ] These include
-        systems based on heat shock, heavy metal ion, tetracycline,
-        steroid, or ecdysone hormone induction. For in vivo
-        applications, tetracycline, steroid, rapamycin and,
-        ecdysone responsive systems have been studied most and in
-        recent years. Currently the most popular inducible system
-        is based on components of the tetracycline resistance
-        operon, which has seen use in both tumors [ 2 5 ] as well
-        as transgenic animals. [ 6 ] However, these systems have
-        limitations the most important being the significant
-        background expression. Recently, the development of an
-        inducible system based on the insect steroid ecdysone and
-        the nuclear receptor that mediates its effect [ 7 ] has
-        provided an alternative that may circumvent these
-        limitations. The use of ecdysone inducible transgene
-        expression in vitro [ 8 9 ] and in transgenic mice [ 10 ]
-        has recently been demonstrated. The use of this system in
-        vivo has several potential advantages over other regulatory
-        systems. The ecdysone hormones do not affect mammalian
-        physiology like glucocorticoids or progestins and are not
-        known to be toxic or teratogenic like tetracycline [ 11 ]
-        allowing their use in both developmental studies with
-        transgenic animals as well as in the context of gene
-        therapy and tumor biology studies in mature animals.
-        The popularity of the ecdysone inducible gene switch
-        system has led us to investigate its characteristics as a
-        regulator of transgene expression in tumor xenografts since
-        to our knowledge, this has not yet been reported. Prior to
-        evaluating this in vivo, we have thoroughly examined the
-        kinetics of this switch in vitro in 2 different tumor cell
-        lines using 2 different reporters in order to evaluate the
-        generality of these observations. The in vivo evaluation
-        was carried out in a model of highly aggressive murine
-        bladder cancer, which has previously been used for testing
-        various therapeutic interventions. [ 12 13 ] These bladder
-        cell lines were transfected with a novel ecdysone system
-        regulating the expression of firefly luciferase and then
-        injected subcutaneously into syngeneic hosts. Treatment of
-        the animals with ecdysone analog
-        A/-(3-methoxy-2-ethylbenzoyl)-A/'-(3,5-dimethylbenzoyl)-A/'-tert-butyl
-        hydrazine (GS-E) was then carried out with subsequent
-        evaluation of in vivo gene expression. Our data suggests
-        that in vivo induction of tumor transgene expression is
-        feasible and reversible using an ecdysone switch and opens
-        the avenue for the efficient functional characterization of
-        many newly discovered genes as well as novel gene therapy
-        approaches.
+        Spermatogenesis is a complex developmental process in
+        which male germ cells progress through mitotic
+        proliferation, meiotic division and dramatic morphological
+        changes to form mature sperm. This process is vital for the
+        propagation of a species, and involves a large portion of
+        the genome of an organism to ensure the quality and
+        quantity of the final products. It is estimated that
+        mutations in up to 11% of all genes in 
+        Drosophila might lead to male
+        sterility [ 1 ] . This is likely to be true for humans
+        also, considering the extremely high incidence (4-5%) of
+        infertility in men [ 2 ] . Among the genes associated with
+        male infertility is the 
+        DAZ (Deleted in Azoospermia) gene
+        family. The family includes the Y-linked 
+        DAZ genes that are present only in
+        great apes and old world monkeys [ 3 ] , and the autosomal 
+        DAZL1 (DAZ-like 1) and BOULE genes [
+        4 5 ] in all mammals. Deletion of the 
+        DAZ genes is found in about 10% of
+        infertile males with idiopathic azoospermia [ 2 ] , and
+        disruption of 
+        Dazl1 causes infertility in both male
+        and female mice [ 6 ] . Mutations in the 
+        DAZ family members of 
+        Drosophila [ 7 ] , 
+        C. elegans [ 8 ] , and 
+        Xenopus [ 9 ] also affect the
+        fertility in either males, females, or both sexes.
+        The 
+        DAZ gene family encodes RNA binding
+        proteins that are expressed specifically in germ cells. DAZ
+        and DAZL are expressed in the nucleus and cytoplasm of
+        primordial germ cells and spermatogonia, and in the
+        cytoplasm of meiotic spermatocytes [ 6 10 ] . BOULE is
+        expressed later, in the cytoplasm of pachytene
+        spermatocytes [ 5 ] . Genetic and biochemical studies
+        suggest a role for the DAZ family in the regulation of mRNA
+        translation. 
+        Drosophila Boule mutants was
+        defective in the translation of the meiosis-specific CDC25
+        homologue, Twine [ 11 ] , and DAZL was found to be
+        associated with polyribosomes in mouse testes [ 12 ] . More
+        recently, DAZL was shown both 
+        in vitro and in a yeast three-hybrid
+        system to bind specifically to oligo(U) stretches
+        interspersed by G or C residues, including a U-rich segment
+        in the 5' UTR of mouse 
+        Cdc25C mRNA [ 13 ] .
+        In an attempt to elucidate the function of the 
+        DAZ gene family and to understanding
+        the mechanisms of its action, we used a yeast two-hybrid
+        system to isolate two human genes encoding DAZ associated
+        proteins (DAZAPs) [ 14 ] . One of them, 
+        DAZAP1, is expressed predominantly in
+        testes. It encodes a protein with two RNA binding domains
+        and a proline rich C-terminal portion. The DAZAP1 protein
+        interacted with both DAZ and DAZL 
+        in vitro. It also bound to RNA
+        homopolymers. We now report our characterization of the
+        mouse 
+        Dazap1 gene and its protein product.
+        The subcellular localization of DAZAP1 suggests that it is
+        not involved directly in mRNA translation.
       
       
         Results
         
-          Derivation of mouse tumor cell lines containing a
-          novel gene regulatory mechanism
-          A description of the plasmids encoding the two
-          components of an ecdysone inducible transcription
-          activation system was reported previously [ 14 ] . The
-          plasmids pGAL4-EcR and pVP16-mRXR encode proteins which
-          heterodimerize and regulate transcription upon the
-          addition of ecdysone type ligands (Figure 1A). Using
-          these plasmids as a starting point, a novel indicator of
-          the inducible gene expression system was constructed as
-          follows. The CMV promoter and enhancer were removed from
-          the mammalian expression vector pCI-neo (Promega).
-          Inserted in its place were five copies of the GAL4
-          binding site followed by the minimal promoter region of
-          the major late promoter from adenovirus (from pG5-luc
-          (Promega)) and the coding region for the enhanced green
-          fluorescent protein (EGFP) gene (from pEGFP-N1)
-          (Clontech). The control plasmid, pRL-TK (Promega),
-          expresses the Renilla luciferase gene under the control
-          of the HSV thymidine kinase (TK) promoter. This plasmid
-          provides constitutively high gene expression and we use
-          it as an indicator of the number of tumor cells present
-          in the tissue samples harvested from mice in the in vivo
-          experiments.
-          MBT-2 cells, a mouse urothelial cancer cell line, or
-          Panc02, a mouse ductal adenocarcinoma, were transfected
-          by electroporation with a mixture of the four plasmids;
-          the two components of the gene expression system,
-          pVP16-mRXR and pGAL4-EcR; the indicator and selection
-          plasmid, pGAL4-EGFP-SV40-neo; and the internal control
-          plasmid, pRL-TK. Stably transfected MBT-2 cells were
-          selected in media containing 500 μg/ml G418 and Panc02
-          cells in 700 μg/ml G418 for three weeks after which there
-          were many large cell colonies on each transfection plate.
-          The drug resistant cells were harvested by
-          trypsinization, pooled, and cloned to single cells by
-          limiting dilution in 96 well plates. When colonies had
-          grown in a subset of the wells in the 96 well plate,
-          fresh media containing GS-E was added to all wells to a
-          final GS-E concentration of 5 μM. Cells were treated for
-          24 hours and all wells were visualized with the
-          fluorescent microscope to detect EGFP expression.
-          At least 96 clones of MBT-2 or Panc02 clones
-          demonstrating fluorescence were trypsinized and expanded
-          into 24 well plates. When the clones had reached at least
-          50% confluence in the 24 well plate, GS-E was again added
-          to 5 μM to verify the earlier observation of induced EGFP
-          expression. Four clones of each cell line exhibiting high
-          levels of EGFP expression were expanded for further
-          analysis. Each cell line was transiently transfected with
-          1 μg pFR-luc and carrier DNA. Luciferase activity in the
-          DMSO treated wells was similarly low in all wells of the
-          triplicates of the eight transfections. After treatment
-          with 15 μM GS-E, three of the four MBT-2 clonal cell
-          lines had a two-fold or lower increase in luciferase
-          activity. Clone #2 had 8.4-fold higher luciferase
-          activity with GS-E treatment. This clone, designated
-          MBT2+RheoSwitch-2, was used for further development. In a
-          similar analysis, Panc02+RheoSwitch-3 and -4 demonstrated
-          induction levels of 366- and 428-fold respectively. No
-          significant change in the Renilla luciferase activity was
-          observed with GS-E treatment in all cell lines.
+          Characterization of the mouse Dazap1cDNA
+          Mouse 
+          Dazap1 cDNA clones were isolated by
+          library screening, and the 5' end of the cDNA was
+          isolated by 5' RACE [ 15 ] . The near fall length cDNA
+          consists of a 53 bp 5' untranslated region (UTR), an open
+          reading frame for a protein of 405 amino acid residues,
+          and a 362 bp 3' UTR (GenBank Accession No: AF225910). The
+          coding region shares 89% similarity with that of the
+          human orthologue. The 3' UTR sequence is remarkably
+          conserved. It contains three segments of 35 bp, 133 bp
+          and 90 bp that share 85%, 90%, and 97% similarity with
+          segments in the human 3' UTR, respectively. These
+          segments probably contain regulatory elements.
+          The DAZAP1 protein contains two RNA-binding domains
+          (RBDS) and a C-terminal portion that is rich in proline
+          (Figure 1). It is highly conserved evolutionarily. The
+          mouse and the human proteins differ in 9 amino acids
+          only, with 7 substitutions and two deletions/insertions.
+          The mammalian proteins shares 89% similarity and 81%
+          identity with 
+          Xenopus Prrp (for proline-rich RNA
+          binding protein) [ 16 ] . The two RBDs are especially
+          highly conserved. They share 98% and 97% similarity and
+          97% and 92% identity, respectively, between DAZAP1 and
+          Prrp. These proteins may therefore have a similar RNA
+          binding specificity. The C-terminal proline-rich portions
+          of DAZAP1 and Prrp are less conserved (81% similarity and
+          71% identity). There is an insertion of a 58 bp segment
+          in Prrp cDNA that causes a change of reading frame and
+          results in a shorter Prrp with a different C-terminal end
+          sequence.
         
         
-          Stable introduction of inducible reporter genes
-          into the RHeoSwitch tumor cell lines
-          The MBT-2+RHeoSwitch-2 cell line containing the
-          RHeoSwitch expression system was used for the
-          introduction of two different reporter gene systems. The
-          plasmid, pG5-luc, contains the GAL4 response element
-          expressing the luc+ gene (Figure 1B). The vector
-          pGAL4-SEAP containing the GAL4 response element and the
-          coding region for the SEAP protein, a unique, second
-          reporter gene, was also used. Each of these vectors was
-          linearized and co-transfected with linearized pSV40-Zeo
-          by electroporation into the MBT-2+RHeoSwitch-2 cells.
-          Cells were selected in media containing 400 μg/ml Zeocin
-          until colonies appeared in each of the plates. Zeocin
-          resistant cells were trypsinized, pooled, and single cell
-          cloned by limited dilution in 96 well plates. Aliquots of
-          the pooled cells used for cloning were also plated in
-          triplicate, treated with GS-E or DMSO for 24 hrs. Assays
-          for the appropriate reporter in each cell pool showed
-          induction ratios of 17-fold for the luciferase
-          transfected cells and 22-fold for the SEAP transfected
-          cells. This verified the presence of the GS-E inducible
-          reporter genes (luciferase or SEAP) in the cloned pool of
-          cells.
-          Clones were grown in Zeocin containing media until
-          colonies appeared. Eighty-four luciferase transfected
-          clones and 113 SEAP transfected clones were transferred
-          from the 96 well plates and duplicate wells of each were
-          treated with either DMSO or 15 μM GS-E in DMSO for 24
-          hours. Each pair of wells was assayed for reporter
-          protein activity and clones demonstrating basal levels of
-          activity in the DMSO treated sample and high levels in
-          the GS-E sample were further expanded for additional
-          testing. These cell clones were plated in a six well
-          plate and triplicate wells were treated with DMSO or 15
-          μM GS-E for 48 hours. Luciferase clone
-          MBT-2+RHeoSwitch-2+luc-5B3 was chosen to be used for a
-          more detailed analysis of the properties of the gene
-          induction system.
-          The inducible reporter gene plasmids, pG5-luc and
-          pGAL4-SEAP, were transfected into the Panc02+RHeoSwitch-3
-          and -4 cells and stable transfectants were isolated as
-          they were into the MBT-2+RHeoSwitch cells. Multiple
-          Zeocin resistant cell clones from the four transfections
-          (36 Panc02+RHeoSwitch-3+luc, 75 Panc02+RHeoSwitch-4+luc,
-          8 Panc02+RHeoSwitch-3+GAL4-SEAP, 98
-          Panc02+RHeoSwitch-4+SEAP) were plated in duplicate and
-          treated with DMSO or 15 μM GS-E. A sample of clones with
-          basal level of reporter in the DMSO treated sample and
-          the highest level of reporter in the GS-E treated sample
-          were selected to be expanded and further tested.
-          Multiple assays in triplicate on the GAL4-SEAP
-          transfected clones gave induction levels ranging from
-          118- to 551-fold for the best five Panc02+RHeoSwitch-3
-          clones and from 52- to 486-fold for the best twelve
-          Panc02+RHeoSwitch-4 clones. Clones
-          Panc02+RHeoSwitch-3+GAL4-SEAP-5 and -8 and
-          Panc02+RHeoSwitch-4+GAL4-SEAP-8 and -9 were used for
-          further characterization. Multiple assays in triplicate
-          on the pG5-luc transfected clones yielded induction
-          levels ranging from 32- to 51-fold for the four best
-          Panc02+RHeoSwitch-3 clones and from 7- to 94-fold for the
-          four best Panc02+RHeoSwitch-4 clones. Clones
-          Panc02+RHeoSwitch-3+luc-3C1 AND -1B1 and
-          Panc02+RHeoSwitch-4+luc-3A1 and -4B3 were used for
-          further characterization. These clones do not exhibit the
-          high levels of induced GFP expression that was seen in
-          the initial RHeoSwitch transfected cells. This may be
-          explained by the fact that they were selected on the
-          basis of the induction level of the reporter gene
-          expression, however, contrary to the initial screen, the
-          level of induction of GFP was not used as a selection
-          criteria and cell clones in which the expression of GFP
-          has variegated were isolated. A summary flowchart of the
-          cell line selection and characterization is shown in
-          figure 2.
+          Genomic structure of Dazap1and chromosomal
+          mapping
+          Several overlapping lambda clones containing mouse 
+          Dazap1 genomic sequences were
+          isolated. The locations of exons were determined by PCR
+          amplification across exon-intron boundaries following by
+          sequencing. All but the first exon were isolated and
+          mapped. The genomic structure of the human 
+          DAZAP1 gene was also determined by
+          blasting the human genome sequence at National Center for
+          Biotechnology Information with the human 
+          DAZAP1 cDNA sequence. The mouse and
+          the human genes have very similar structures, consisting
+          of 12 exons spanning about 28 kb. All intron insertion
+          sites are conserved (Table 1). The two RBDs are encoded
+          by exons 1-4 and 5-8, respectively.
+          A pair of PCR primers was designed from 
+          Dazap1 intronic sequences that
+          amplified mouse but not hamster genomic sequences. Using
+          a panel of mouse-hamster radiation hybrids, the mouse 
+          Dazap1 gene was mapped to
+          chromosome 10 placed 27.84 cR from D10Mit260 (lod >
+          3.0) (data not shown). This region is syntenic to human
+          19p13.3 where the human 
+          DAZAP1 gene is located [ 14 17 ] .
+          It contains no known mutant alleles that are associated
+          with infertility.
         
         
-          Characterization of the novel gene regulatory
-          mechanism in vitro
-          Treatment of luciferase clone 5B3 with 15 μM GS-E for
-          48 hours consistently induced luciferase levels from near
-          background with only DMSO added, to nearly 150-fold
-          (Table 1) when adjusted for non specific R-Luc induction
-          which was approximately 1.2 fold. In order to understand
-          the induction kinetics of the inducible system, cell
-          clone MBT-2+RHeoSwitch-2+luc-5B3 was treated with GS-E
-          and cells were harvested at different times to determine
-          the time course of gene induction. At each time point,
-          the control and treated cells were collected in passive
-          lysis buffer and dual luciferase assays performed. Data
-          were plotted as a GS-E (RLU1/RLU2)/Control (RLU1/RLU2)
-          ratio (as in Table 1) fold induction over the 0 time
-          point which was set empirically as 1. This data shown in
-          Figure 3Aindicates that gene expression is increased by 8
-          hours and reaches maximum induction by 24 hours. The
-          internal control, Renilla luciferase, increase steadily
-          with time, reflecting the increase in cell number, but
-          the increase was the same with DMSO or GS-E treatment
-          (raw data not shown but effect accounted for in the
-          calculation as defined above).
-          The sensitivity of the gene expression system to
-          varying doses of GS-E was determined by treating
-          duplicate samples of clone MBT-2+RHeoSwitch-2+luc-5B3
-          with varying concentrations of GS-E for 24 or 48 hours
-          and dual luciferase assays were performed on the cell
-          lysates (Figure 3B). Data were plotted as a
-          GS-E(RLU1/RLU2)/Control(RLU1/RLU2) ratio (as in Table 1)
-          fold induction over the 0 drug concentration which was
-          set empirically as 1. These results show an increase in
-          gene inducing activity with increasing GS-E
-          concentrations up to 10 μM. A significant increase was
-          seen with as little as 1 μM GS-E. No change was seen in
-          the level of the internal control Renilla luciferase with
-          varying concentrations of GS-E (raw data not shown but
-          effect accounted for in the calculation as defined
-          above).
-          The decay characteristics of the induction were also
-          studied. After a 24 hour incubation, the medium
-          containing GS-E was removed and the cells washed three
-          times with complete medium without GS-E. The cells were
-          then re incubated for various durations. At set intervals
-          replicate wells were removed and dual luciferase assays
-          were performed on the cell lysates (Figure 4A). This data
-          indicates that the GS-E mediated induction is completely
-          reversible and that this occurs within 48 hours.
-          Similar dose response and time course of induction of
-          gene expression experiments were performed on the Panc02
-          cells containing the RHeoSwitch and the inducible
-          reporter genes. The time course of gene induction
-          demonstrated for four independent
-          Panc02+RHeoSwitch+luciferase cell clones each showed an
-          increase within 12 hours of GS-E treatment and reached
-          the maximum induction by 24 hours. Four independent
-          Panc02+RHeoSwitch+SEAP clones also induced expression by
-          12 hours but the level of SEAP activity continued to
-          increase for 72 hours, possibly due to the accumulation
-          of the enzyme in the cell culture media over the entire
-          treatment time. Treatment of five of these independent
-          Panc02+RHeoSwitch+reporter gene clones with varying doses
-          of GS-E consistently yielded a significant induction in
-          gene expression with 1 μM GS-E (23.5-fold induction over
-          DMSO treatment alone) and a maximal induction with 15 μM
-          GS-E (80.2-fold induction over DMSO). The dose response
-          and time course of induction in the Panc02 cells were
-          similar to the results seen in experiments on the MBT-2
-          cells. These results show that the RHeoSwitch gene
-          induction system gives consistent results independent of
-          the cell type being used, the reporter gene used to
-          assess the activity, as well as the chromosomal
-          integration site of the DNA encoding the RHeoSwitch
-          components (compare Panc02+RHeoSwitch-3 and -4 described
-          above) or the integration site of the reporter gene DNA
-          (compare multiple reporter clones from each of three
-          RHeoSwitch clones described above).
+          Expression of Dazap1
+          Northern analyses of adult mouse tissues showed the
+          presence of two 
+          Dazap1 transcripts of 1.75 kb and
+          2.4 kb, respectively (Figure 2). Only the shorter
+          transcript has been isolated in cDNA clones. 
+          Dazap1 was expressed most
+          abundantly in the testis, much less in liver, heart and
+          brain, and even less in other tissues. This pattern of
+          expression is similar to that of the human 
+          DAZAP1 (14). RT-PCR analyses showed
+          that 
+          Dazap1 mRNA was already present in
+          fetal testes at embryonic day 15, similar to 
+          Dazl1 mRNA (Figure 3). The
+          expression of both 
+          Dazl1 and 
+          Dazap1 persisted throughout testes
+          development, in both the prenatal and postnatal periods. 
+          Dazl1 and 
+          Dazap1 transcripts were also
+          present in the testes of W v/W vmutant mice which
+          contained diminished number of germ cells [ 18 ] .
+          However, only 
+          Dazap1 was expressed in a mouse
+          germ cell line GCl-spg [ 19 ] and a Sertoli cell line
+          MT4. The results suggest that 
+          Dazap1 is expressed in both somatic
+          and germ cells in the testis.
+          To study the expression of the DAZAP1 protein, two
+          antibodies against mouse DAZAP1 were generated. The anti
+          DAZAP1-C antibody was raised against a recombinant
+          protein containing the C-terminal proline-rich portion,
+          and the anti DAZAP1-P antibody was raised against an
+          oligopeptide containing the last 19 amino acid residue at
+          the C-terminus. Both antibodies recognized 
+          in vitro synthesized DAZAP1 in an
+          immunoprecipitation assay (data not shown). Western
+          blotting of mouse tissue extracts detected a 45 kD
+          protein that was present most abundantly in the testis,
+          and to a lesser degree in spleen, liver, lung and brain
+          (Figure 4). The protein was also present in the ovary.
+          The expression of DAZAP1 during germ cell development
+          paralleled that of DAZL (Figure 5). It is present at a
+          low level in the testes of 6 days old mice which
+          contained only primitive type A spermatogonia. The
+          expression of DAZAP1 increased afterward, as the testes
+          contained increasing number of proliferating and meiotic
+          germ cells.
         
         
-          In vivo results
-          The potency and favorable kinetics of GS-E as an
-          ecdysone-system inducer in vitro in both the pancreatic
-          and bladder cell lines led us to evaluate its performance
-          in vivo in a bladder xenograft model. To measure the
-          pharmacokinetics of GSE mediated gene induction in
-          animals, we inoculated the MBT-2 murine bladder cancer
-          cell line into syngeneic mice and after the tumors
-          reached 0.4-0.5 mm in diameter, the mice were treated
-          with GS-E. At 6,12 and 24 hour intervals following
-          inoculation, the tumors were excised and analyzed for
-          luciferase induction. Luciferase protein was chosen
-          primarily because its 3-4 hour half-life in mammalian
-          cell allows precise kinetic studies [ 15 ] . The renilla
-          luciferase was used as an internal control in addition to
-          untreated mice. Data shown in Figure 4Bindicates that
-          induction of luciferase activity in tumor xenografts is
-          prompt, peaking between 6-12 hours. In addition, decay of
-          the effect occurs swiftly and baseline expression levels
-          are reached by 12-24 hours. Although available to us, the
-          identification of cell specific expression within the
-          tumor using the induction of GFP in these tumor cells was
-          complicated by the decrease in the level of GFP
-          expression (data not shown), presumably due to position
-          effect variegation of the transfected DNA as well as poor
-          quantitation ability.
+          Subcellular localization of DAZAP1
+          Our previous fractionation of mouse testis extracts
+          showed that most DAZL were present in the post
+          mitochondrial fraction, and some of them were associated
+          with polyribosomes [ 12 ] . Similar analyses showed that
+          a majority of DAZAP1 in adult mouse testes was also
+          present in the cytoplasmic fraction (data not shown).
+          However, sucrose gradient analyses of the post-
+          mitochondria fraction showed that, unlike DAZL, DAZAP1
+          did not co-sediment with polyribosomes (Figure 6).
         
       
       
         Discussion
-        Methods devised to control gene expression must allow
-        for rapid, robust, precise, and reversible induction of
-        gene activity. Because steroids are small lipophilic
-        molecules that penetrate all tissues and are quickly
-        metabolized and cleared, they appear to be ideal inducers
-        for developing gene regulation systems that fulfill these
-        criteria. To exploit the pharmacokinetics of steroids while
-        eluding the potential complications of the use of a
-        mammalian hormone as the inducer, the Evans laboratory
-        developed an inducible system based on the insect steroid
-        ecdysone and the nuclear receptor that mediates its
-        effects. [ 7 ] This system is comprised of a chimeric
-        protein composed of the VP16 activation domain (Vg) fused
-        to an ecdysone receptor (EcR) with altered DNA-binding
-        specificity heterodimerizes with the retinoid X receptor
-        (RXR) and binds a unique synthetic response element not
-        recognized by natural nuclear hormone receptors. Upon
-        exposure to the ecdysone analog muristerone A (murA), the
-        VgEcR/RXR complex efficiently induces the expression of
-        reporter genes in mammalian cells and transgenic animals.
-        In the RHeoSwitch gene expression system, the properties of
-        the chimeric receptors have been optimized through the
-        analysis of a series of truncation and site-directed
-        mutations (Palli, et.al., manuscript in preparation). This
-        study demonstrates the utility of a first generation system
-        in vitro and in vivo and subsequent modified versions of
-        the RHeoSwitch will be sensitive to lower concentrations of
-        ligand and result in higher levels of induced gene
-        expression (see www.RHeoGene.com).
-        The popularity of the ecdysone-inducible gene switch led
-        to the unexpected rapid depletion of murA stocks, the
-        primary inducer used in the system. MurA was isolated in
-        the early 1970s from the seeds of kaladana (Ipomoea
-        calonyction), a plant native to the southern slopes of the
-        Himalayas. [ 10 ] The difficulty in obtaining kaladana
-        seeds prompted efforts to seek alternative inducers derived
-        from more common plants or synthetic analogs such as GS-E.
-        GS-E is one of a family of diacylhydrazines that have been
-        found to act as non-steroidal ecdysone mimics that can
-        function as gene inducers [ 16 ] .
-        The avalanche of new genes resulting from completion of
-        the genome project has accentuated the need to develop
-        methods to determine gene function. The requirement for
-        tight regulation, easy titration and minimal background
-        expression is particularly important in the study of genes
-        such as tumor suppressors or cell cycle regulatory genes
-        for which cell lines stably expressing the product can
-        rarely be made. In addition, deliberate manipulation of
-        gene activity is also an indispensable tool for clinical
-        applications such as gene therapy. The strengths of the
-        ecdysone-inducible system appear to be its tight
-        regulation, its dose responsiveness, and the favorable
-        uptake and clearance kinetics of the inducer, which results
-        in rapid gene switching. Thus it appears ideal for both the
-        in vitro and in vivo study of newly characterized genes in
-        their role in tumor formation and progression. In vitro
-        data indicates that our constructs when used in combination
-        with GS-E, offer an excellent induction profile and rapid
-        decay of gene expression when the compound is removed from
-        in vitro culture. Importantly, we have demonstrated similar
-        kinetics for 2 different cancer cell lines with 2 different
-        reporters (F-luc and SEAP) thus validating the generality
-        of the observed results. In addition, these constructs are
-        also associated with a low baseline gene expression level
-        allowing the study of genes whose expression may be
-        incompatible with the generation of constitutively
-        expressing clones. A recent report showed that the
-        expression of nonmuscle myosin heavy chain-B induced by
-        Muristerone A in vitro [ 8 ] suppressed the subsequent
-        tumorigenicity of the implanted cells in vivo.
-        The potency and favorable kinetics of the cell lines we
-        developed in conjunction with GS-E as an ecdysone-system
-        inducer in vitro in both the pancreatic and bladder cell
-        lines led us to evaluate the performance of this system in
-        vivo in a bladder cancer xenograft model. The advantages of
-        the MBT-2 murine bladder tumor model are several fold.
-        First, it was derived by chemical carcinogenesis, the most
-        common known etiologic factor in bladder cancer. Second,
-        when inoculated orthotopically it reproduces the biology of
-        human muscle invasive bladder cancer. Thirdly, it has been
-        widely used as a model system of various therapeutic
-        interventions in bladder cancer. [ 12 13 ] Interestingly,
-        our data indicates that the kinetics of induction of tumor
-        luciferase in response to GS-E mirror those observed with
-        transgenic mice in response to PonA. [ 10 ] This finding
-        may indicate that despite their use in a malignant context,
-        the ecdysone constructs behave with similar kinetics to
-        that in normal cells thus implying a general utility in
-        studies of various histological tumor types. In addition,
-        comparison of the in vivo (Figure 4B) and in vitro (Figure
-        3A) induction curves reveals roughly similar time to peak
-        induction despite the fact that the in vivo experiments
-        were carried out with a mixture of GS-E in sesame seed oil,
-        which purportedly slows its delivery. [ 9 ]
-        Although available to us, the identification of cell
-        specific expression within the tumor using the induction of
-        GFP in these tumor cells was complicated by the decrease in
-        the level of GFP expression, presumably due to position
-        effect variegation of the transfected DNA. In addition, the
-        utility of GFP for the localization of gene expression in
-        vivo, particularly in conditions of hypoxia, such as
-        tumors, has been recently been questioned [ 17 ] . Finally,
-        quantitative analysis of tumor GFP induction is difficult
-        and less reliable than other reporters such as luciferase.
-        Therefore we have limited our in vivo experiments
-        determining the general level of gene induction within the
-        tumor by using a luciferase reporter which has been proven
-        to be reliable in vivo.
+        RNA-binding proteins have been found to participate in
+        many cellular functions, including RNA transcription,
+        pre-mRNA processing, mRNA transport, localization,
+        translation and stability [ 20 ] . A role for the DAZ
+        family in the regulation of mRNA translation is supported
+        by lines of circumstantial evidence, including the
+        association of DAZL with polyribosomes [ 12 ] . The absence
+        of DAZAP1 from polyribosomes indicates that it is not
+        directly involved in protein synthesis. This finding is
+        different from two RNA-binding proteins, FXR1P and FXR2P,
+        that were identified through their interaction with another
+        polysomal-associated RNA-binding protein, the fragile X
+        mental retardation protein [ 21 ] . Both FXR1P and FXR2P
+        are associated with the polyribosomes [ 22 ] .
+        The significance of the interaction between DAZAP1 and
+        DAZL/DAZ remains to be defined. These proteins may act
+        together to facilitate the expression of a set of genes in
+        germ cells. For example, DAZAP1 could be involved in the
+        transport of the mRNAs of the target genes of DAZL.
+        Alternatively, DAZL and DAZAP1 may act antagonistically to
+        regulate the timing and the level of expression. Such an
+        antagonistic interaction between two interacting
+        RNA-binding proteins is exemplified by the neuron-specific
+        nuclear RNA-binding protein, Nova-1. Nova-1 regulates the
+        alternative splicing of the pre-mRNAs encoding neuronal
+        inhibitory glycine receptor α2 (GlyR α2) [ 23 ] . The
+        ability of Nova-1 to activate exon selection in neurons is
+        antagonized by a second RNA-binding protein, brPTB
+        (brain-enriched polypyrimidine tract-binding protein),
+        which interacts with Nova-1 and inhibits its function [ 24
+        ] . DAZAP1 could function in a similar manner by binding to
+        DAZL and inhibiting its function. Comparing the phenotypes
+        of 
+        Dazl1 and 
+        Dazap1 single and double knock-out
+        mice may provide some clues to the significance of their
+        interaction. 
+        Dazl1 knock-out mice have already
+        been generated and studied [ 6 ] . The spermatogenic defect
+        in the male becomes apparent only after day 7 post partum
+        when the germ cells are committing to meiosis (H. Cooke,
+        personal communication). The genomic structure of 
+        Dazap1, delineated here, should
+        facilitate the generating of 
+        Dazap1 null mutation.
+        DAZAP1 was shown to bind RNA homopolymers 
+        in vitro, with a preference for poly
+        U and poly G. Its natural substrates have not been
+        identified. Recently, the 
+        Xenopus orthologue of DAZAP1, Prrp,
+        was identified and characterized [ 16 ] . Prrp binds to a
+        340 nt sequence in the 3' UTR of 
+        Xenopus Vg1 mRNA. This Vg1
+        localization element (VLE) is sufficient for the migration
+        and clustering of 
+        Vg1 mRNA to the vegetal cortex of
+        mature oocyte. Prrp also interacts through its proline-rich
+        domain with two microfilament-associated proteins profilin
+        and Mena, which may facilitate the anchoring of 
+        Vg1 mRNA to the vegetal cortex. The 
+        Vg1 RNA encodes a member of the
+        transforming growth factor-β family that is required for
+        generating dorsal mesoderm at the blastula stage of 
+        Xenopus embryogenesis [ 25 ] .
+        Sequence conservation between the RBDs of DAZAP1 and Prrp
+        suggests that these proteins may bind to similar RNA
+        sequences. However, a BLAST search of the GenBank for the
+        340 nt VLE sequence failed to identify any mammalian
+        sequences with significant homology. Further mapping of the
+        RNA sequence within VLE that binds Prrp, and possibly
+        DAZAP1, may help to identify the natural substrates of
+        DAZAP1.
       
       
         Conclusions
-        We have used a modified ecdysone reporter system which
-        has favorable baseline and induction kinetics in response
-        to a novel ecdysone analog GS-E in murine tumors in vitro.
-        We have demonstrated the general applicability of this
-        system by demonstrating its use in two different mouse
-        tumor cell lines, integration of the RHeoSwitch DNA
-        components at multiple chromosomal locations, as well as
-        with 2 different gene reporters, luciferase, and SEAP. We
-        have presented data that is the first demonstration of
-        tumor cell lines stably transfected with an ecdysone
-        inducible constructs tested in vivo demonstrating that in
-        vivo these constructs coupled with GS-E allow rapid and
-        robust induction of gene expression in tumor xenografts.
-        Finally, due to the rapid decay of gene expression
-        following maximal activation, this system can be easily
-        titrated for the duration of the induction necessary by
-        using slow release formulations such as ALZET mini pumps [
-        18 ] . The postgenomic era has accentuated the need to
-        develop methods to determine in vivo gene function in
-        cancer and this ecdysone system may be a useful approach to
-        address this.
+        DAZAP1 is an evolutionarily conserved RNA-binding
+        protein. It is present at variable levels in many tissues.
+        Its predominant expression in testes suggests a role in
+        spermatogenesis. In mouse testes, DAZAP1 was found both in
+        the nuclei and in the cytoplasm. Its absence from
+        polyribosomes indicates that it is not directly involved in
+        mRNA translation.
       
       
-        materials and methods
+        Materials and methods
         
-          Cell culture and plasmid DNA constructs
-          MBT-2 murine urothelial cancer cells and their culture
-          conditions for passage were previously described. [ 12 ]
-          The murine ductal cell pancreatic adenocarcinoma cell
-          line, Panc02 [ 19 ] , was kindly provided by Dr. James
-          Nelson, MD Anderson Cancer Center. Plasmid DNA was
-          prepared by the "EndoFree Plasmid Maxi kit" from Qiagen
-          (Valencia, CA) using the manufacturer's procedure. Cells
-          were simultaneously co-transfected by electroporation
-          (Gene Pulser, Bio-Rad Inc.) with pGAL4-EcR, pVP16-mRXR,
-          pRL-TK (Renilla luciferase) and pGAL4-EGFP. The plasmids
-          pGAL4-EcR encodes a fusion protein between the yeast GAL4
-          DNA binding domain and the ligand binding domain of the
-          ecdysone receptor from the spruce budworm, Choristoneura
-          occidentalis. Plasmid pVP16-mRXR encodes a fusion protein
-          between the transcriptional transactivator VP16 from
-          Herpes simplex virus (HSV) and the mouse RXR protein. The
-          vector pRL-TK (Promega), expressing the Renilla
-          luciferase enzyme from the HSV thymidine kinase (TK)
-          promoter, was included as an uninduced constitutively
-          expressed internal control. The vector pGAL4-EGFP was
-          constructed from pCI-neo (Promega) by replacing the CMV
-          promoter and enhancer with a fragment from pG5-luc
-          (Promega) containing the 5 × GAL4 recognition sequences
-          and the minimal promoter from the adenoviral late
-          promoter and the EGFP gene from pEGFP (Clontech). In
-          addition to the GAL4-EGFP expression cassette, this
-          plasmid contains the neomycin resistance gene under the
-          control of the SV40 promoter and enhancer for selection
-          of transfected cells in G418.
+          Isolation of mouse Dazap1cDNA clones
+          
+          Dazap1 cDNA clones were isolated
+          from a mouse testis cDNA library (#937308, Stratagene, La
+          Jolla, CA) using a human 
+          DAZAP1 cDNA as a probe. The 5' end
+          of the cDNA was isolated by 5' RACE [ 15 ] , using
+          prdap11 (ttgcgggccatatccttg, #749-732) as the primer for
+          cDNA synthesis from mouse testis RNA, and prdap37
+          (ttgttgccacgtgggcg, #734-718) and an adaptor primer as
+          the primers for PCR amplification. The PCR products were
+          cloned into a TA cloning vector pCR2.1-TOPO (Invitrogen,
+          Carlsbad CA). 
+          Dazap1 clones were identified by
+          colony hybridization and sequenced. The 5' RACE clone
+          with the longest 5' UTR region and the cDNA clone P21
+          were ligated together through a unique 
+          Pml I site at # 722 to generate a
+          cDNA clone (Dazap1-C) with a near full-length insert.
         
         
-          Transfection and isolation of clones stably
-          transfected with inducible reporter gene plasmids
-          Cells were transfected by electroporation with
-          mixtures of the four plasmids which had been linearized
-          by restriction enzyme digestion. Following transfection,
-          cells were allowed to recover for 24 h prior and were
-          then selected in 500 μg/ml G418 for MBT-2 cells and 700
-          μg/ml G418 for Panc02 cells for three weeks. Cells were
-          then cloned by limited dilution into 96 well plates.
-          Expression of green fluorescent protein (GFP) was induced
-          by addition of GS-E
-          (A/-(3-methoxy-2-ethylbenzoyl)-A/'-(3,5-dimethylbenzoyl)-A/'-tert-butylhydrazine).
-          GS-E is a member of the bisacylhydrazine chemical family
-          which has been shown to have no adverse effects over a
-          broad dosage range in mammals. [ 11 ] The 96 well plates
-          were visualized under a fluorescent microscope before and
-          after addition of the compound. Clones exhibiting low
-          background of green fluorescence prior to addition of the
-          compound and high levels following the addition were
-          selected for further transfections.
-          Cell clones were transiently transfected using
-          Superfect reagent with 1 μg per well of 6 well plate with
-          either pFR-luc (Promega) or pGAL4-SEAP (secreted alkaline
-          phosphatase) (provided by Dr. R. Herzig, Rheogene Inc.)
-          and 3 μg carrier DNA (pLITMUS, New England Biolabs). To
-          three wells, DMSO was added to a final concentration of
-          0.3% v/v. GS-E in DMSO was added to the remaining three
-          wells to a final GS-E concentration of 15 μM and DMSO
-          concentration of 0.3%. Cells were treated for 24 hours,
-          at which time they were collected in Passive Lysis Buffer
-          and the activity of firefly and Renilla luciferase in the
-          cell extract was determined. The clone exhibiting the
-          highest level of induced gene expression was then used
-          for further development. These cells where in turn
-          co-transfected with pSV40/Zeo2 (Invitrogen) and pG5-luc
-          (Promega), encoding firefly luciferase or pGAL4-SEAP and
-          MBT-2 cells were selected in 400 μg/ml Zeocin and Panc02
-          cells in 500 μg/ml Zeocin. Zeocin resistant cells were
-          then cloned by limiting dilution into 96 well plates.
-          Replica plates were then created and induction of
-          luciferase activity in response to GS-E carried out as
-          for GFP. Clones exhibiting low background luciferase
-          expression prior to addition of the compound and high
-          levels following the addition were selected for further
-          in vivo and in vitro study.
+          Chromosomal mapping of Dazap1
+          
+          Dazap1 genomic clones were isolated
+          from a mouse 129SV genomic library (#946305, Stragagene),
+          and sequences flanking each exons were determined. PCR
+          primers (prdap25: cacctccaggatgtgttagc and
+          prdazp26:gtcaccaagggtgtctgaag) were designed from
+          intronic sequences flanking 
+          Dazap1 exon 8. These primers
+          amplified a 271 bp fragment from mouse but not hamster
+          genomic DNA. DNA samples of a panel of 100 radiation
+          hybrids containing mouse chromosome fragments in a
+          hamster background were purchased from Research Genetics
+          (Huntsville, AL). The presence of mouse 
+          Dazap1 in the radiation hybrids was
+          determined by PCR and the results were sent to the MIT
+          server www.gonome.wi.mit.edu/mouse_rh/index.hlmlfor
+          computerized physical mapping of the gene.
         
         
-          Measurement of reporter protein levels in vitro and
-          in vivo
-          To determine the luciferase activity, cells or tissues
-          were lysed in Passive Lysis Buffer (Promega) and assayed
-          for firefly (F-luc) and Renilla (R-Luc) luciferase
-          according to the Promega Luciferase assay kit
-          instructions in a Turner Designs (Sunnyvale, CA) TD-20/20
-          or a PharMingen Monolight 3010 luminometer. The
-          luciferase activity was recorded as Relative Light Units
-          (RLU).
-          For the determination of SEAP levels, cells were
-          treated with DMSO or GS-E for 48 hours. Media was removed
-          from all cultures and either assayed or stored at -20
-          degrees until assayed. Assays were performed using the
-          chemiluminescent SEAP assay procedure as described by the
-          manufacturer in the Great EscAPe SEAP Assay system
-          (Clontech). The chemiluminescent signal was measured with
-          a PharMingen Monolight 3010 luminometer and recorded as
-          Relative Light Units (RLU).
+          Expression of Dazap1transcripts
+          Northern hybridization was carried out according to
+          standard procedures [ 26 ] using a mouse Multiple Tissue
+          Northern Blot #7762-1 from Clontech (Palo Alto, CA). The
+          blot was hybridized sequentially with 
+          DAZAP1 and β-actin cDNA probes,
+          with stripping of the bound probes in between.
+          Reverse transcription-polymerase chain reaction
+          (RT-PCR) was carried out as preciously described using an
+          annealing temperature of 54°C [ 27 ] . The primers were
+          prdap35: agctcagggagtacttcaaga and prdap24
+          :ggagcttgattcttgctgtcc for 
+          Dazap1 which generated a product of
+          211 bp, and prdaz71: atcgaactggtgtgtcgaagg and prdaz72:
+          ggaggctgcatgtaagtctca for 
+          Dazl1 which generated a product of
+          245 bp. Both primer pairs annealed across intron
+          insertion sites.
         
         
-          In vivo tumor assays
-          Six-to-8 week-old C3H/He origin mice were obtained
-          from Taconic Farms ( www.taconic.com) and maintained
-          strictly according to approved Institutional Animal Care
-          and Use Committee protocols. Food and water were provided
-          ad libitum. Cohorts of mice were given injections in the
-          anterior flank (2 sites per mouse) with 10 6tumor cells
-          suspended in 0.1 ml of serum free medium. Mice were
-          examined every week, and tumors were measured with
-          calipers in the greatest 2 diameters. When tumors reached
-          5 mm in greatest diameter, mice were injected
-          intraperitoneally with either 45 milligrams of GS-E
-          dissolved in 90 μl of DMSO and 360 μl of sesame oil or
-          with equivalent volumes of DMSO and 360 μl of sesame oil
-          alone. Cohorts of 3 mice were euthanized 6, 12 and 24
-          hours following drug administration and cohorts of 2 mice
-          euthanized 6 and 24 hours following vehicle
-          administration and tumors processed for luciferase
-          activity as described above. To evaluate the reporter
-          induction, the ratio of RLU from firefly (F-luc) and
-          Renilla (R-Luc) luciferase was evaluated
-          (RLU{F-luc}/RLU{R-luc}). This time course was based on
-          the pharmacokinetics of PonA following this route of
-          administration. [ 10 ]
+          Generation of anti-DAZAP1 antibodies
+          Antibodies were generated against both a recombinant
+          protein produced in 
+          E. coli and an oligopeptide
+          synthesized 
+          in vitro. The insert of a 
+          Dazap1 cDNA clone P21, which
+          encoded the C-terminal portion of DAZAP1 (starting from
+          aa #197), was cloned in-frame into the 
+          Eco RI/ 
+          Xho I sites of an expression vector
+          pET32b (Novagen, Madison, WI). Sequences at the junctions
+          were verified by DNA sequencing. Milligrams of fusion
+          proteins between thioredoxin and DAZAP1 were prepared and
+          purified on His-Bind metal chelation resins (Novagen,
+          Madison, WI). The proteins were mixed with Freund's
+          adjuvant and injected into rabbits to generate the
+          anti-DAZAPl-C antibody. An oligopeptide containing the
+          last 19 ammo acid residues of the mouse DAZAP1 was
+          synthesized 
+          in vitro using the services of
+          Bethyl Laboratories (Montgomery, TX). The peptide was
+          conjugated to KLH as carrier and injected into a goat.
+          The anti-DAZAP1-P antibody thus produced was purified on
+          an affinity column containing the oligopeptide
+          antigen.
         
         
-          Statistical analysis
-          All in vitro assays were performed using duplicate or
-          triplicate samples and error bars represent one standard
-          error from the mean. Figures consist of a representative
-          experiment carried out at least 2-3 times with similar
-          results. Data were plotted and statistical analysis was
-          accomplished using the STATISTICA for Windows computer
-          program (StatSoft, Inc. Tulsa, OK).
+          Western blotting
+          Mouse tissues were homogenized in the RIPA lysis
+          buffer (150 mM NaCl, 1.0% NP-40, 0.5% DOC, 0.1% SDS, 50
+          mM Tris, pH 8.0) at a concentration of 0.2 g tissue per
+          ml of buffer. The homogenized samples were cleared of
+          debris by centrifugation at 10,000 × g for 10 minutes.
+          Protein concentration of the tissue extracts was
+          determined by the Bradford method using the Bio-Rad
+          Protein Assay system (Bio-Rad, Hercules, CA). About 50 μg
+          of tissue extracts were separated on 10%
+          SDS-polyacrylamide gels and blotted with either the
+          anti-DAZAP1-C antibody (at a 1/2,000 dilution) or the
+          anti-DAZAP1-P antibody (at a 1/5,000 dilution). After
+          incubation with horseradish peroxidase-conjugated
+          secondary antibodies, the binding of antibodies was
+          detected using the ECL Western Blotting System (Amersham
+          Pharmacia Biotech, Piscataway, NJ).
+        
+        
+          Fractionation of mouse testicular extracts
+          Adult mouse testes were homogenized in a buffer
+          containing 20 mM Tris, pH 7.5, 100 mM KCl, 5 mM MgCl 
+          2 , 0.3% NP-40, 40 U/ml of Rnasin
+          ribonuclase inhibitor (Promega, Madison, WI), and a
+          mixture of 10 protease inhibitors provided in the
+          Protease Inhibitors Set (Roche Molecular Biochemicals,
+          Indianapolis, IN). Homogenates were centrifuged at 1,000
+          × g for 10 minutes to pellet cell debris and nuclei.
+          After an additional centrifugation at 10,000 × g for 10
+          minutes to pellet the mitochondria, aliquots of the
+          supernatant were applied to 15-45% sucrose gradients in
+          20 mM Tris, 100 mM KCl and 5 mM MgCl 
+          2 and centrifuged in a Beckman SW41
+          rotor at 39,000 rpm for 2 hours at 4°C. Fractions of 0.5
+          ml were collected from the bottom of the tubes and
+          analyzed by western blotting.
         
       
     

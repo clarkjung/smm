@@ -2,505 +2,411 @@
   
     
       
-        Introduction
-        Rheumatoid arthritis (RA) is characterized by synovial
-        tissue leukocyte infiltration and angiogenesis [ 1 ] . The
-        neovascularization process in RA is dependent on the
-        balance between angiogenic mediators and inhibitors. The
-        angiogenic mediators include growth factors, cytokines,
-        chemokines, adhesion receptors and proteolytic enzymes [ 2
-        ] . These factors, which are released by endothelial cells
-        and macrophages, have been shown to play an important role
-        in the pathogenesis of RA [ 2 ] .
-        Tie receptors constitute a family of endothelial
-        tyrosine kinase receptors [ 3 4 ] . There are two members
-        in this receptor family, termed Tie1 and Tie2 (also known
-        as Tek). Tie1 is an orphan receptor, whereas the ligands of
-        Tie2 receptor have been identified as angiopoietin (Ang)-1
-        and Ang-2 [ 5 6 ] . Ang-1 has been shown to be responsible
-        for recruiting and sustaining periendothelial support cells
-        [ 7 ] . It has been reported that Ang-2 disrupts blood
-        vessel formation in the developing embryo by antagonizing
-        Ang-1-induced autophosphorylation of Tie2 [ 6 ] .
-        Transgenic mouse models of Tie2/Ang-1 result in embryonic
-        lethality due to absence of remodeling and sprouting of
-        blood vessels [ 7 8 ] . The physiologic roles of the Tie2
-        receptor and its ligands are limited to angiogenic
-        processes that occur subsequently to the earlier
-        vasculogenic and angiogenic actions of vascular endothelial
-        growth factor (VEGF) and its receptors [ 7 ] . VEGF and the
-        Tie family orchestrate optimal blood vessel formation [ 9
-        10 ] .
-        Little is known about the role of Tie receptors and the
-        ligands Ang-1 and Ang-2 in RA synovial tissue. To determine
-        which of these angiogenic factors may play a role in RA, we
-        investigated both the distribution and the levels of mRNA
-        for Tie1, Tie2, Ang-1 and Ang-2 in synovial tissue obtained
-        from RA patients, compared with that from subjects with
-        osteoarthritis (OA) and normal tissues.
-      
-      
-        Materials and methods
+        Background
         
-          Antibodies and immunohistochemistry
-          Synovial tissues (4 μm) were fixed in cold acetone for
-          20 minutes. Endogenous peroxidase was quenched by
-          treatment with 3% H 
-          2 O 
-          2 for 5 minutes. Synovial tissues were
-          pretreated with either 3% horse or goat serum for one
-          hour at 37°C before application of primary antibody.
-          Indirect immunoperoxidase staining was performed at 37°C
-          for one hour using Vector Elite ABC kits (Vector,
-          Burlingame, CA, USA) and diaminobenzidine (Kirkegaard and
-          Perry, Gaitherburg, MD, USA) as a chromogen [ 11 12 ] .
-          The polyclonal antibodies, goat antihuman Ang-1 and
-          Ang-2, and rabbit antihuman Tie1 and Tie2, were purchased
-          from Santa Cruz Biotechnology (Santa Cruz, CA, USA).
-          Additionally, goat antihuman Tie1 and Tie2 antibodies
-          were purchased from R&D Systems (Minneapolis, MN,
-          USA). Antibodies did not cross-react with other members
-          of the Tie family.
-          Macrophage identity was confirmed by reactivity of
-          cells with the mouse antihuman mAb, CD11c (Becton
-          Dickinson, Mountain View, CA, USA). Rabbit antihuman von
-          Willebrand factor (Dako, Carpinteria, CA, USA) was used
-          to identify endothelium. Isotype-specific IgG was used as
-          a negative control.
-        
-        
-          Cell culture, RNA quantification and western blot
-          analysis
-          Cell culture, RNA purification, reverse transcription,
-          standard dilution preparation, real-time reverse
-          transcription polymerase chain reaction (RT-PCR)
-          quantification (TaqMan) and western blot analysis are
-          detailed in the supplementary material.
-        
+        Chlamydia pneumoniae is an obligate
+        intracellular bacterium that infects and causes disease in
+        the respiratory tract [ 1 2 ] and has recently been
+        associated with heart disease [ 3 ] . Approximately 10% of
+        pneumoniae cases and 5% of bronchitis and sinusitis cases
+        in the U.S. are attributed to 
+        C. pneumoniae infection. Pathogenic
+        mechanisms utilized by 
+        C. pneumoniae to replicate and
+        disseminate within hosts remain unclear.
+        Little is known about strain-specific determinants of 
+        C. pneumoniae. Isolates of 
+        C. pneumoniae are virtually
+        indistinguishable using 16s rRNA [ 4 ] , restriction
+        fragment length polymorphism [ 5 ] , and amplification
+        fragment length polymorphism analysis [ 6 ] . Unlike 
+        C. trachomatis , only a single
+        serotype or genotype of 
+        C. pneumoniae has been identified by
+        any of the above methods.
+        Recently, three genomes of 
+        C. pneumoniae have been completed and
+        published. These include CWL029
+        http://chlamydia-www.berkeley.edu:4231/ [ 7 ] , AR39
+        http://www.tigr.org/ [ 8 ] , and J138
+        http://w3.grt.kyushu-u.ac.jp/J138/ [ 9 ] . Comparative
+        analysis suggests that overall genomic organization and
+        gene order in each 
+        C. pneumoniae genome is highly
+        conserved [ 8 9 ] . Given this conservation, the study of
+        individual regions of sequence variation will provide
+        insight into strain-specific virulence, genetic diversity,
+        and adaptive responses within and among 
+        C. pneumoniae populations.
+        Genomic analyses have recently revealed a large gene
+        family of 21 polymorphic outer membrane proteins (Pmps)
+        with predicted outer membrane localization in 
+        C. pneumoniae [ 7 10 11 ] . The
+        function of this gene family in chlamydial growth and
+        development remains unknown. Several studies have examined
+        genetic variation and strain differentiation of Pmp
+        proteins, which may be important for genetic flexibility
+        and adaptive response. Recently, it has been reported that
+        interstrain and intrastrain variation of gene expression
+        and protein productions of 
+        pmpG 6 and 
+        pmpG 10 are modulated by deletion of
+        tandem repeats in 
+        pmpG 6 [ 9 11 ] and variation in the
+        length of polyguanosine tract in 
+        pmpG 10 [ 12 13 ] . This evidence
+        suggests that variation may be an important requisite for
+        the function of this gene family in the biology of 
+        Chlamydiae .
+        Examination of the 
+        C. pneumoniae genome sequences by
+        Daugaard et al. [ 14 ] demonstrated that a unique and
+        related family of genes is found within the 
+        C. pneumoniae genome, and that
+        variation among strains leads to differences within several
+        members of the gene family. Gene products of these
+        paralogous genes contained a unique bi-lobed hydrophobic
+        domain, which is a predictive marker for localization to
+        the inclusion membrane [ 15 ] . In this study, we further
+        characterize this family by examining variation in sequence
+        of the family members both within and among different 
+        C. pneumoniae isolates.
       
       
         Results
         
-          Ang-1
-          Ang-1, was expressed on synovial lining cells in RA
-          patients (33%) to a significantly higher degree than in
-          OA (10%) and normal (1%) cells ( 
-          P < 0.05) (Fig. 1). Ang-1
-          staining on macrophages was also significantly higher in
-          RA (39%) compared to OA (10%) and normal cells (0%) ( 
-          P < 0.05). The Ang-1 staining
-          present on vascular endothelium was upregulated in RA
-          (86%) compared to OA (8%) and normal synovial tissues
-          (6%). The inflammatory and vascularity scores were higher
-          in RA synovial tissue in comparison to OA and normal. In
-          accordance with the staining data, RA synovial tissue
-          demonstrated significantly higher Ang-1 mRNA expression
-          compared to OA and normal tissues. Ang-1 mRNA expression
-          was not detected in RA fibroblasts (Fig. 1).
+          Bioinformatic analysis of the Cpn 1054 gene
+          family
+          The Cpn 1054 gene family consists of 11 
+          C. pneumoniae -specific genes or
+          gene pairs: Cpn 07, 08/09, 010/010.1, 011/012, 041/042,
+          043/044, 045/046, 0124/0125, 0126,1054 and 1055/1056.
+          Family members indicated with slashes have deletions or
+          internal shifts in reading frame that interrupt otherwise
+          related coding sequences (Figure 1). The size of the
+          paralogous repeat unit ranges from approximately 1,500 bp
+          (1055/1056) to approximately 2,800 bp (Cpn 007). Family
+          members are located in four separate regions on the
+          chromosome including contig 1.0-1.1 (Cpn 007-Cpn
+          011-012), contig 1.5-1.6 (Cpn 041-Cpn 046), contig 2.5
+          (Cpn 0124-126) and contig 13.0-13.1 (Cpn 1054-Cpn 1056).
+          The nucleotide sequence identity of the Cpn 1054 gene
+          family members ranged between 20-99% (Figure 1, Table 1).
+          Although in some cases the overall sequence similarity
+          among family members is low, many share extensive regions
+          of identity at the predicted 5' end (Figure 2). This
+          region of identity includes a polyC tract within each
+          paralogous locus. The CWL029 genome sequence has
+          predicted GTG codons as a translational initiation site
+          for several family members (Cpn 08, 010, 041, 045 and
+          1055; Figure 2).
         
         
-          Ang-2
-          The expression of Ang-2 was detected on synovial
-          lining cells, macrophages and vascular endothelium (Fig.
-          2). The data demonstrate that Ang-2 was expressed on
-          macrophages (30%) and the vascular endothelium (78%) in
-          synovial tissue of RA patients more strongly than in the
-          tissue of OA patients (macrophages 11%, endothelium 66%)
-          and normal subjects (macrophages 12%, endothelium 15%).
-          Additionally, Ang-2 was detected in the synovial vascular
-          smooth muscle cells (13%) from RA patients only.
-          The Ang-2 mRNA expression pattern was similar to Ang-2
-          immunostaining on vascular endothelium. The Ang-2 mRNA
-          expression in RA synovial tissue was similar to that from
-          OA patients, and both were significantly higher than
-          normal. Interestingly, in RA synovial tissue fibroblasts,
-          Ang-2 mRNA was expressed at low levels compared to that
-          found in whole RA, OA or normal synovial tissue (Fig.
-          2).
+          The conserved hydrophobic domain of the Cpn 1054
+          gene family
+          In a previous study, we demonstrated that a bi-lobed
+          (50-60 amino acid) hydrophobic domain is a predictive
+          marker for protein localization to the inclusion membrane
+          (Inc proteins; [ 15 ] ). Consequently, 68 
+          C. pneumoniae proteins, including
+          several members of the Cpn 1054 family (Figure 3), were
+          identified as putative inclusion membrane-associated
+          proteins. The nucleotide sequence found at the 5' end of
+          each paralogous repeat unit represents the region of
+          highest identity among most family members (Figure 2).
+          This includes the sequences that encode the major
+          hydrophobic domain of each repeat unit (Figure 4A). In
+          some cases (Cpn 007, 124, 126) the hydrophobic domain
+          represents the primary reason the gene is included in the
+          Cpn1054 gene family (Figure 4A,4B; Figure 5). Three
+          nearly identical copies of this domain are found within
+          Cpn 007 (Figure 3), a protein that is otherwise not
+          similar to other family members.
         
         
-          Tie1
-          Tie1 expression was found to be significantly higher
-          in RA and OA synovial tissue lining cells (RA 79%, OA
-          81%) and macrophages (RA 69%, OA 66%) compared to normal
-          synovial tissue (lining cells 24%, macrophages 22%) using
-          antibodies from Santa Cruz Biotechnology (Fig. 3). Tie1
-          immunostaining on endothelial cells was significantly
-          higher in RA synovial tissue (75%) in comparison to OA
-          (3%) and normal (9%) synovial tissue. The Tie1 positive
-          immunostaining on vascular smooth muscle cells was
-          similar in all test groups (RA 74%, OA 78%, normal 71%).
-          Additionally, all disease groups demonstrated minimal
-          percentages of Tie1 cell staining on synovial tissue
-          lymphocytes (RA 1%, OA 2%, normal 6%) and fibroblasts (RA
-          18%, OA 18%, normal 30%).
-          Immunohistochemistry studies using the goat antihuman
-          Tie1 antibody purchased from R&D Systems showed
-          predominantly endothelial cell staining, and minimal
-          staining on macrophages and fibroblasts. Tie1 mRNA
-          expression was significantly higher in RA synovial tissue
-          compared to OA synovial tissue (3-fold), normal synovial
-          tissue (9.5-fold) and RA synovial tissue fibroblasts
-          (6-fold). Western blot analysis also confirmed the same
-          pattern of expression.
+          Homopolymeric cytosine (poly C) tract and the
+          variations of the length of poly C tracts in the Cpn 1054
+          gene family
+          Genomic analysis of the Cpn 1054 gene family revealed
+          a repeat sequence of 6 to 15 homopolymeric cytosine
+          residues, positioned either upstream or immediately
+          within the predicted 5' end of Cpn 008, 010, 041, 043,
+          045, 1054, and 1055 (Figure 2). Analysis of each
+          sequenced genomes indicated that three Cpn 1054 gene
+          family members had identical polyC tracts in each of the
+          respective genomes: Cpn 041 (CCCCCCTCCCC), Cpn 043 (12C),
+          and Cpn 045 (CCCCCC). In each of the other family members
+          however, the length of the polyC tract varies in the
+          published genomes. These analyses were expanded to
+          examine the polyC tracts in several clinical isolates.
+          Sequence data collected directly from amplification
+          products of several Cpn 1054 family members showed that
+          polymorphisms within the polyC tract were present in all
+          tested family members except Cpn 041 and Cpn 045 (not
+          shown). Therefore, the polyC tract in Cpn 041 and Cpn 045
+          appear to be conserved among isolates, a result
+          consistent with the data in the genome sequences. In
+          order to examine the clonal variation within other Cpn
+          1054 family members, sequences surrounding the polyC
+          tracts were amplified from selected genes and the
+          products cloned into plasmids. The polyC tract was then
+          examined through nucleotide sequence analysis of a
+          selection of independent plasmid constructs. Sequence
+          variation within the polyC tract was first examined for
+          Cpn 043, Cpn 1054, and Cpn 1055 of 
+          C. pneumoniae AR39. Sequence
+          analysis of independent recombinant plasmids showed
+          variability in the length of the polyC tract of each
+          tested gene (Figure 6A). We next examined variation
+          within a single gene, Cpn 1055, using genomic DNAs from
+          strains AR39, AR 458 and PS 32 as template. Variation in
+          the length of polyC was observed in this gene from each
+          tested isolate (Figure 6B).
+          Two approaches were used to demonstrate that the
+          observed variation in length of the polyC tract was not a
+          function of PCR errors during the analysis. First, two
+          different thermostable polymerases ( 
+          Taq and 
+          Pwo polymerase) were used to
+          generate the primary amplification products for cloning
+          and subsequent sequence analysis. Amplifications with
+          each enzyme resulted in clones with variation in the
+          length of the polyC tract (Figure 6C). A second approach
+          for examination of the possibility of PCR errors was to
+          reamplify the polyC tract from a single plasmid template,
+          and examine the sequence of the polyC tract directly in
+          these amplification products. No variation of the length
+          of the polyC tract of Cpn 043, 1054, and 1055 was
+          identified in these PCR products (not shown). These
+          results support the conclusion that the variability in
+          the length of the polyC tracts is not an artifact of the
+          amplification process, and thus the observed variability
+          reflects differences at these loci within individual
+          isolates.
         
         
-          Tie2
-          Tie2 was significantly upregulated in RA and OA
-          synovial tissue lining cells (RA 71%, OA 68%),
-          macrophages (RA 71%, OA 72%) and smooth muscle cells (RA
-          71%, OA 66%) compared to normal synovial tissue ( 
-          P < 0.05) using the Santa Cruz
-          antibodies (Fig. 4). Endothelial cells showed relatively
-          high Tie2 positive staining in all disease groups (RA
-          71%, OA 66%, normal 49%). Only synovial tissue from RA
-          patients demonstrated positive staining for Tie2 on
-          lymphocytes. RA and OA patients had similar patterns of
-          Ang-2 (on cell lining and endothelial cells), Tie1 (on
-          lining cells, macrophages, smooth muscle cells,
-          lymphocytes and fibroblasts) and Tie2 (on lining cells,
-          macrophages, endothelial cells and vascular smooth muscle
-          cells) expression on various synovial tissue components.
-          The anti-Tie2 antibody from R&D Systems demonstrated
-          positive staining mainly on endothelial cells and minimal
-          staining on macrophages and fibroblasts. Tie2 mRNA levels
-          were significantly higher in RA synovial tissue compared
-          to OA synovial tissue (1.9-fold), normal synovial tissue
-          (4-fold) and RA synovial tissue fibroblasts (9.6-fold).
-          Tie2 protein expression by western blotting followed the
-          same pattern as the mRNA expression (Fig. 4).
+          Allelic differences within Cpn 010-010.1
+          Analysis of published genomic sequence of several 1054
+          family members identified polymorphisms within several
+          genes. Two examples of these polymorphisms can be found
+          in Cpn 010/10.1 and Cpn 1054, family members that are
+          over 98% identical at the nucleotide level [ 14 ] .
+          Analysis of the published genome sequences indicates that
+          these two genes likely duplicated through nonreciprocal
+          exchanges or by gene conversion [ 16 ] . Comparative
+          analysis of the three genomes showed that the short
+          sequence polymorphisms are present in Cpn 010/10.1, Cpn
+          043, and Cpn 1054 [ 14 ] . Cpn 10/10.1 and Cpn 1054 are
+          especially interesting, as the two genes differ by only a
+          few nucleotides over a 2,400 base pair coding sequence.
+          The primary differences between these genes are 1) a
+          single nucleotide polymorphism (SNP) that alters the
+          reading frame in 10/10.1 [ 14 ] , and, 2) a region of
+          diversity at the 3' end of each gene (Figure 7). Daugaard
+          et al. [ 14 ] identified an RFLP marker that exploits the
+          SNP, and other candidate RFLPs can be identified in the
+          3' region of diversity (Figure 7). Short sequence
+          polymorphisms were examined in Cpn 010/10.1 by PCR
+          amplification and nucleotide sequencing in 12 
+          C. pneumoniae isolates. Variability
+          at both polymorphisms was observed between strains. The
+          frameshift mutation leading to the truncated sequence of
+          Cpn 010 was identified in CWL029 and 4 other isolates:
+          AR388, AR231, KA5C and KA66 (not shown). The 3'
+          polymorphism that distinguishes Cpn 10/10.1 from Cpn 1054
+          was found within Cpn 10.1 in two isolates: AR39 and AC43
+          (Figure 7). There was no apparent linkage between the
+          central frameshift mutation and the 3' polymorphism, as
+          the two regions varied independent of one another. There
+          was also no evidence that these sequences vary within
+          individual 
+          C. pneumoniae isolates.
         
       
       
         Discussion
-        The Tie receptors and the ligands Ang-1 and Ang-2 appear
-        to be involved in the later stages of vessel growth and
-        remodeling [ 8 13 ] . Transgenic mice with gene deletions [
-        7 8 13 ] or overexpression of Ang-2 [ 6 ] exhibit early
-        embryonic lethality secondary to defects in the developing
-        vasculature.
-        Ang-1 was more highly expressed in synovial tissue from
-        RA patients than in either OA or normal synovial tissues;
-        expression in OA tissue was similar to normal. Positive
-        cells included lining cells, macrophages and endothelial
-        cells. In RA, Ang-1 was most upregulated on endothelial
-        cells. The results obtained from RT-PCR analysis confirmed
-        that RA synovial tissue had significantly higher Ang-1 mRNA
-        expression than OA and normal synovial tissue. Hence, no
-        Ang-1 mRNA expression was detected in RA fibroblasts (Fig.
-        1). The Tie receptor family is known to be expressed on
-        endothelial cells [ 5 ] . Otani 
-        et al [ 14 ] reported Ang-1 and Ang-2
-        positive staining on macrophages and endothelial cells in
-        choroidal neovascular membranes. Macrophages are key
-        angiogenesis effector cells that produce a number of growth
-        factor stimulators and inhibitors, proteolytic enzymes and
-        cytokines that can activate one or more steps in the
-        angiogenesis cascade [ 15 16 17 ] . Recent studies have
-        shown that angiopoietins promote postnatal
-        neovascularization by potentiating angiogenic cytokines
-        such as VEGF [ 9 10 ] .
-        
-        In situ hybridization and
-        immunohistochemical analyses of RA synovial biopsies
-        revealed that VEGF mRNA and protein localized to
-        subsynovial macrophages, lining cells, vascular smooth
-        muscle cells and fibroblasts within the pannus, which are
-        the putative target of this cytokine [ 18 19 ] . The
-        localization of Ang-1 is similar to that of VEGF, which
-        further supports the crucial role of the interaction
-        between these two pathways. Ang-1 modulates VEGF-stimulated
-        reorganization of endothelial cells and promotes vascular
-        network maturation [ 9 20 ] . Additionally, both Ang-1 and
-        VEGF are chemotactic and are involved in recruiting
-        endothelial cells to initiate and accelerate
-        endothelialization of blood vessels [ 21 22 ] .
-        We detected Ang-2 immunopositive cells in synovial
-        lining, macrophages and vascular endothelium. Vascular
-        smooth muscle immunostaining was found only in RA. In
-        agreement with our finding, it has been reported that
-        primary cultured macrophages and precursor macrophage cell
-        lines mainly express Ang-2 mRNA [ 23 ] . In contrast to
-        Ang-1, Ang-2 was distributed in a similar pattern in RA and
-        OA compared to normal synovial tissues (Fig. 2). The
-        dominance of Ang-2 over Ang-1 mRNA and protein in OA
-        synovial tissue are in agreement with the inactive VEGF
-        receptor 1 pathway (angiogenic pathway) in OA [ 24 ] . The
-        Ang-2 mRNA expression pattern correlates with the Ang-2
-        immunostaining detected on endothelial cells. In RA
-        synovial tissue, Ang-2 showed a lower percentage of
-        staining in all the cell types compared to Ang-1. Low Ang-2
-        mRNA expression was also detected on RA fibroblasts.
-        Interestingly Ang-2 acts as an agonist for Tie2 receptors
-        expressed on fibroblasts [ 6 ] . Since the
-        neovascularization process is dependent on the dominance of
-        angiogenic mediators over inhibitors, the higher Ang-1 mRNA
-        and protein expression compared to Ang-2 in RA synovial
-        tissue is of importance. It has been shown that increasing
-        amounts of Ang-2 can block the chemotactic activity of
-        Ang-1 in endothelial cells [ 21 ] . Ang-2 alone did not
-        stimulate corneal neovascularization, but the combination
-        of Ang-2 and VEGF resulted in longer vessels with greater
-        circumferential extent than those seen with VEGF alone [ 9
-        ] . This suggests that Ang-2 expression in the absence of
-        VEGF leads to vessel regression, whereas expression of
-        Ang-2 in the presence of VEGF potentiates angiogenesis.
-        Using the Santa Cruz Biotechnology antibody, Tie1
-        expression was detected on all cell components examined,
-        including a percentage of synovial lining cells,
-        macrophages and smooth muscle cells in RA and OA. Synovial
-        tissues from normal subjects, and those with OA, had
-        considerably lower positive immunostaining on endothelial
-        cells compared to RA tissues. Immunohistochemical analysis
-        performed with anti-Tie1 from R&D Systems in synovial
-        tissues supports its expression mainly on endothelial
-        cells. However, western blot analysis for Tie1 also
-        performed with an antibody from R&D Systems, showed
-        higher relative abundance of Tie1 in whole RA and OA
-        synovial tissue homogenates compared to RA fibroblasts
-        (Fig. 3). In accordance with the protein data, the mRNA
-        levels of Tie1 in RA synovial tissue were upregulated
-        compared to OA synovial tissue, normal synovial tissue and
-        RA fibroblasts. Since the ligand for the Tie1 receptor is
-        not known, it is difficult to speculate if there is any
-        correlation between this receptor and Tie2 and its ligands.
-        In agreement with previous studies, the Tie1 receptor was
-        detected on vascular endothelial cells [ 4 25 ] and
-        recently on synovial lining cells [ 26 ] . It has been
-        shown that tumor necrosis factor-α and VEGF activate
-        membrane-associated metalloproteinases that release soluble
-        Tie1 from the cell surface of endothelial cells and thereby
-        decrease membrane-bound Tie1 expression [ 27 ] . The
-        upregulation of Tie1 mRNA and protein expression in RA is
-        not consistent with these findings and this may be due to
-        the fact that the inflammatory milieu in RA synovial tissue
-        is far more complex than the 
-        in vitro system.
-        Using the Santa Cruz Biotechnology antibody we showed
-        that Tie2 expression was significantly upregulated both in
-        RA and OA synovial tissue lining cells, macrophages,
-        endothelial cells and vascular smooth muscle compared to
-        normal synovial tissue. In accordance with Otani 
-        et al. [ 14 ] and Uchida 
-        et al. [ 26 ] we detected Tie2
-        immunostaining on endothelial cells and fibroblasts in all
-        disease groups. Tie2 immunostaining using antibody from
-        R&D Systems confirmed the expression of this antigen
-        mainly on endothelial cells. Tie2 mRNA and protein
-        expression followed the same pattern of expression as Tie1.
-        There are some possible reasons why the
-        immunohistochemistry studies performed with Santa Cruz
-        Biotechnology/R&D Systems antibodies differ. The Santa
-        Cruz Biotechnology antibodies detected epitopes on the
-        carboxy terminus whereas the R&D Systems antibodies
-        recognized the extracelluar domain (N terminus or the
-        ligand binding domain) of Tie1 and Tie2. There is also some
-        variability between individual RA patient samples, however,
-        we attempted to use the same RA patient samples in
-        performing immunohistochemistry with the two different
-        antibodies. Additionally, the results obtained from the
-        RT-PCR and western blot analysis confirm our findings.
+        Relatively little is known about molecular pathogenesis,
+        genetic diversity and adaptive strategy of 
+        C. pneumoniae . Although the genomic
+        organization of these independent strains is very similar
+        (over 99.9% identical), there are regions of variation
+        within each isolate [ 8 ] . In the present study, we have
+        identified a paralogous gene family within 
+        C. pneumoniae , designated as the Cpn
+        1054 gene family. This family consists of eleven paralogous
+        loci, with single repeat elements consisting of single ORFs
+        or ORF pairs. The identity of the predicted polypeptide
+        sequences shared among family members ranges from 20-99%.
+        It is likely that the diversity of these genes arose
+        through gene duplication and subsequent diversification. It
+        appears that certain duplications were relatively recent,
+        as at least two of the repeated loci- Cpn 010/10.1 and Cpn
+        1054- are nearly identical. Analysis of the three genomes
+        also demonstrates that apparent gene conversion has
+        occurred between 10/10.1 and 1054 in strain AR39 [ 16 ] ,
+        and that an intact 1054 ORF is found within each sequenced
+        genome [ 14 ] . However, its location varies between the
+        two loci. The redundant nature of the Cpn 1054 family
+        members is somewhat unusual against the generally reductive
+        evolutionary strategy of the chlamydiae [ 17 ] . There is
+        no evidence that the Cpn 1054 gene family is found outside
+        of 
+        C. pneumoniae , and thus the members
+        of the family may be important in the unique biological
+        traits of this species.
+        Gene duplication and subsequent genetic drift are the
+        likely means by which variation is manifested between
+        members of the Cpn 1054 gene family. Variation is also
+        observed within individual family members, both between
+        strains [ 14 ] and, as shown in this report, within
+        individual isolates. Several gene family members, including
+        Cpn 008, 010, 043, 1054, and 1055, contain homopolymeric
+        cytosine repeats either upstream or at the predicted 5' end
+        of the coding region. In 
+        C. pneumoniae , variation of the
+        short repeat of homopolymeric nucleotides was first
+        identified in the 
+        pmp family. Comparative genomic
+        analysis and cloning expression showed that the length of
+        the polyG tract of 
+        pmpG 10 varies between strains and
+        within an isolate [ 12 13 ] . Furthermore, variation of the
+        length of polyG has been demonstrated that it plays a role
+        in the differential expression of PmpG 10 [ 12 ] .
+        Variability in short nucleotide repeats generated via
+        slipped strand mispairing are key elements in the
+        generation of phenotypic diversity within many pathogenic
+        microorganisms [ 18 ] . Further investigation will be
+        required to determine if the expression of members of the
+        Cpn 1054 gene family is affected by the observed
+        variability in length of the polyC tract.
+        Although the proteins in the Cpn 1054 gene family are
+        classified as candidate inclusion membrane proteins [ 15 ]
+        , their subcellular locations and role in infection and
+        disease remain to be identified. It is also not yet known
+        whether the Cpn 1054 gene family is expressed individually
+        or coordinately, or to what extent each gene is expressed
+        during the course of an infection. However, the variation,
+        both within and between strains, is a potential requisite
+        for this gene family that may contribute to the unique
+        biology of 
+        C. pneumoniae. 
       
       
-        Conclusion
-        It is noteworthy that the activating ligand, Ang-1 is
-        exclusively higher than Ang-2 at the mRNA and protein
-        levels in RA synovial tissue compared to that from patients
-        with OA and normal subjects. Hypothetically, in RA synovial
-        tissue the dominating Ang-1 induces the Tie2 pathway,
-        whereas in normal synovial tissue higher Ang-2 presence
-        blocks Ang-1 binding to Tie2 and inhibits its
-        autophosphorylation.
-        In conclusion, the dominance of Ang-1 over Ang-2
-        expression favors active neovascularization in RA synovial
-        tissue. Multiple pathways are probably required to regulate
-        angiogenesis. It may be that the inhibition of the VEGF and
-        Tie2 pathways might be an effective therapeutic modality in
-        RA.
+        Conclusions
+        The 
+        C. pneumoniae genome contains a gene
+        family (the Cpn 1054 gene family) consisting of 18
+        different genes in 11 paralogous loci. Variation is
+        observed both within and among isolates. This variation may
+        be useful for the biotyping of 
+        C. pneumoniae clinical isolates, and
+        may be important in phenotypic diversity within the
+        species.
       
       
-        Abbreviations
-        Ang = angiopoietin; BSA = bovine serum albumin; FBS =
-        fetal bovine serum; HMVEC = human microvascular endothelial
-        cell; OA= osteoarthritis; PCR = polymerase chain reaction;
-        RA = rheumatoid arthritis; RT-PCR = reverse transcription
-        polymerase chain reaction, SE = standard error; Tie =
-        receptor tyrosine kinase; VEGF = vascular endothelial
-        growth factor.
+        Methods
+        
+          Bacterial strains, plasmids and C.
+          pneumoniaegenomes
+          All experiments were conducted using a collection of
+          independent clinical isolates from a strain library
+          (Table 1). Genomic DNA of 
+          C. pneumoniae was isolated from
+          purified EBs using the methods of Campbell et al. [ 19 ]
+          . Extracted DNA was stored at -20C. Genomics analyses
+          were conducted using sequences from the genome websites
+          listed in the introduction. Open reading frames,
+          nucleotide positions and contig numbering were annotated
+          based upon the 
+          C. pneumoniae CWL029 genome [ 7 ]
+          .
+        
+        
+          Bioinformatics analysis of the Cpn 1054 gene family
+          of C. pneumoniaegenomes
+          DNA and polypeptide sequences were aligned using
+          CLUSTALW analysis (Mac Vector™ 6.0; Oxford Molecular,
+          Genetics Computer Group, Inc. Madison, WI). Each gene and
+          each predicted gene product was also subjected to gap
+          BLASTX and BLASTN respectively
+          http://www.ncbi.nlm.nih.gov/BLAST/ [ 20 ] . The
+          similarity between two different DNA sequences was
+          determined using the BLAST 2 sequence program from
+          http://www.ncbi.nlm.nih.gov/blast/bl2seq/bl2.html [ 21 ]
+          . Hydrophilicity profiles of the gene product of each Cpn
+          1054 family member was determined using hydropathy plot
+          analysis ( [ 22 ] MacVector™).
+          Phylogenic analyses of both DNA and amino acid
+          sequences were performed using PAUP* [ 23 ] . In this
+          study Cpn 0186 (IncA), and four additional candidate
+          inclusion membrane proteins, Cpn 0284, Cpn 0285, Cpn 0829
+          and Cpn 0830, were selected as members of an outgroup for
+          analysis. Phylogenic trees were inferred by
+          neighbor-joining to estimate evolutionary distances.
+          Bootstrap values were obtained from a consensus of 100
+          neighbor-joining trees.
+        
+        
+          DNA amplification, and sequence analysis of the
+          CP1054 gene family
+          Purified genomic DNA of selected isolates (Table 1)
+          were amplified using specific oligonucleotide primers
+          flanking the DNA region of interest (Table 2). The
+          amplification products were purified using a Qiaquick PCR
+          purification spin column kit (Qiagen, Valencia CA).
+          Purified PCR products were sequenced using an ABI PRISM
+          377 (Perkin-Elmer, Norwalk, CT) through the Oregon State
+          University Center for Gene Research and
+          Biotechnology.
+        
+        
+          Examination of variation within isolates through
+          cloning of PCR products
+          The variation of the length of the polyC tract within
+          Cpn 043, 1054 and 1055 was determined through sequence
+          analysis of purified amplification products and through
+          sequencing of amplification products following cloning
+          into plasmids. Both 
+          Taq polymerase (Promega, Madison,
+          WI) and 
+          Pwo polymerase (Roche Diagnostic
+          Corporation, Indianapolis, IN) were used in these
+          studies. Amplification products generated with 
+          Pwo polymerase were cloned using
+          the Zeroblunt system, while products generated with 
+          Taq were cloned into pCRII
+          (Invitrogen, Carlsbad, CA). Both cloning systems were
+          used according to the manufacturer's instructions.
+          Plasmid DNA of 8-10 different positive recombinant clones
+          was isolated and sequenced. Variations of the length of
+          the polyC tract of Cpn 043, Cpn 1054 and Cpn 1055 within 
+          C. pneumoniae AR39 were determined
+          for 8-10 recombinant clones.
+        
+        
+          Nucleotide sequence accession numbers
+          The nucleotide sequences of variants within Cpn 010
+          identified from independent clinical isolates were
+          deposited in GenBank under following accession numbers :
+          AF474017 through 474026, and AF 461543 through
+          461552.
+        
       
       
-        Supplementary material
-        
-          Materials and methods
-        
-        
-          Patient population
-          Synovial tissues from patients with RA and OA,
-          undergoing arthroplasty or synovectomy, who fulfilled the
-          criteria set by the American College of Rheumatology were
-          obtained with Institutional Review Board (IRB) consent [
-          28 29 ] . Normal synovial tissues were obtained from
-          fresh autopsies or amputations. Synovial tissues were
-          snap frozen in Optimal Cutting Temperature (OCT) compound
-          (Miles, Elkhart, IN, USA).
-        
-        
-          Microscopic analysis
-          Synovial tissue components including lining cells,
-          macrophages, lymphocytes, fibroblasts, smooth muscle
-          cells and endothelial cells were graded for
-          immunostaining by a frequency of staining scale, scored
-          0-100%, where 0% indicates no staining and 100% indicates
-          that all cells were immunoreactive. Five 400× fields were
-          examined per section by a single pathologist in a blinded
-          study. Selected sections were analyzed by two additional
-          observers.
-        
-        
-          Statistical analysis
-          Data were analyzed using a Kruskal Wallis test. There
-          were 5 to 15 patient samples per group. 
-          P values < 0.05 were considered
-          to be significant.
-        
-        
-          Cell culture
-          Fibroblasts were isolated from synovial tissues that
-          had been minced and digested in a solution of dispase,
-          collagenase and DNase. Synovial tissue fibroblasts were
-          cultured in Roswell Park Memorial Institute (RPMI)-1640
-          supplemented with 10% FBS and 1% penicillin/streptomycin
-          (P/S) and used at passage five or older, at which time
-          they were a homogeneous population of fibroblasts.
-          Human microvascular endothelial cells (HMVECs)
-          (BioWhittaker, CA, USA) were cultured in endothelial cell
-          growth medium-2 for microvascular cells (BioWhittaker,
-          Walkerville, MD, USA) and were used between passages 3
-          and 12. Upon confluence, the cells were passaged by brief
-          trypsinisation as previously described [ 30 ] . HMVECs
-          were used as positive controls for Tie1 and Tie2 protein
-          expression in western blot analysis.
-        
-        
-          RNA purification
-          Total RNA was prepared from synovial tissue by an acid
-          phenol method according to the procedure described by
-          Chomczynski and Sacchi [ 31 ] . RNA (20 μg) was digested
-          with five units of DNase in 1× reverse transcription
-          buffer (Gibco/Life Technologies, Grand Island, NY, USA)
-          containing eight units of RNase inhibitor (Gibco/Life
-          Technologies, Grand Island, NY, USA) for 30 minutes at
-          37°C. Sodium acetate (2 M, pH4.0) was added (10% of the
-          total volume), and the solution was extracted with one
-          volume each of water-saturated phenol and chloroform
-          (Fisher, Itasca, IL, USA). The RNA was precipitated with
-          ethanol, washed with 75% ethanol, then air-dried. The
-          pellet was dissolved in water at 1 μg/μl.
-        
-        
-          Reverse transcription
-          Reverse transcription of RNA was performed using 5 μg
-          of RNA in a total volume of 20 μl. The RNA was reverse
-          transcribed by Superscript II RT (Gibco/Life
-          Technologies, Grand Island, NY, USA) according to
-          manufacturer's specification. After 10 minutes at 25°C,
-          the enzyme was incubated at 42°C for 50 minutes and
-          thereafter inactivated at 70°C for 15 minutes. The
-          solution was diluted to 40 μl. All samples were reverse
-          transcribed simultaneously.
-        
-        
-          Standard dilution preparation and PCR
-          All PCR reactions were performed on an ABI Prism 7700
-          Sequence Detection System (Perkin Elmer Applied
-          Biosys-tem, CA, USA). For each PCR run, a master mixture
-          was prepared on ice with 1× Platinum PCR buffer
-          (Gibco/Life Technologies, Grand Island, NY, USA), 1.5 mM
-          MgCl 
-          2 , 0.2 mM of each deoxynucleoside
-          triphosphate, 0.2 μM each primer, 2.5 units platinum Taq
-          DNA polymerase (Gibco/Life Technologies, Grand Island,
-          NY, USA). The diluted reverse transcription sample (3 μl)
-          was added to 25 μl of the PCR mix. The thermal cycling
-          conditions were 40 cycles of the denaturation step at
-          95°C for 30 seconds, annealing at 60°C for one minute and
-          an extention step at 72°C for one minute. PCR products
-          were extracted from agarose gels and purified. Serial
-          dilutions of PCR products were then prepared which ranged
-          from 10 1to 10 10molecules [ 32 ] . The sequence for the
-          designed Tie receptors and ligands are shown in
-          Supplementary Table 1.
-        
-        
-          Real-time quantitative RT-PCR using the TaqMan
-          system
-          The PCR primer and the TaqMan fluorogenic probe were
-          designed using the Primer Express program v 1.01 (Perkin
-          Elmer Applied Biosystem, CA, USA). The TaqMan probe
-          carries a 5' FAM (6-carboxy-fluorescein) reporter dye and
-          a 3' TAMRA (6-carboxy-tetramethyl-rhodamine) quencher dye
-          (Mega Bases, Chicago, IL, USA) The quantity of cDNA of
-          the gene of interest was directly related to the
-          fluorescence detection of FAM after 40 cycles. The amount
-          of cDNA was calculated using a comparative C 
-          T method and the standard curve method
-          [ 33 ] according to Perkin Elmer ABI PRISM 7700 User
-          Bulletin No. 2, 1997. The calibration curves showed a
-          strong linear correlation, with correlation coefficients
-          between 0.96 and 0.99. In both methods, the estimated
-          amount of the gene of interest was normalized by the
-          amount of glyceraldehyde-3-phosphate dehydrogenase to
-          compensate for variations in quantity and for differences
-          in reverse transcription efficiency.
-          Briefly, 3 μl of the cDNA was in a reaction of 25 μl
-          that contained final concentrations of 1× Platinum PCR
-          buffer (Gibco/Life Technologies, Grand Island, NY, USA),
-          3.5 mM MgCl 
-          2 , 200 μM dNTP, 500 nM each primer
-          (Mega Bases, Chicago, IL, USA), 200 nM FAM-TAMRA probe
-          (Mega Bases, IL, USA), 100 nM Blue 636 (BD 636), 0.05
-          units platinum Taq DNA polymerase (Gibco/Life
-          Technologies, Grand Island, NY, USA). The thermal cycling
-          conditions included 94°C for five minutes, followed by 40
-          cycles of amplification at 94°C for 30 seconds and 60°C
-          for one minute for denaturing and annealing-extension,
-          respectively. All samples were amplified in
-          triplicate.
-        
-        
-          Western blot analysis
-          Synovial tissues were homogenized in a 50 ml conical
-          centrifuge tube containing 3 ml of Complete Mini protease
-          inhibitor cocktail homogenization buffer (Roche,
-          Indianapolis, IN, USA). Synovial tissue homogenization
-          was completed on ice using a motorized homogenizer,
-          followed by sonication for 30 seconds. Homogenates were
-          centrifuged at 2000 ×g for 10 minutes, filtered through a
-          0.45 μm pore size filter (Bedpore, Bedford, MA, USA) and
-          stored at -80°C until use. Complete Mini protease
-          inhibitor cocktail (1 ml) was added to one million RA
-          fibroblasts and HMVECs for lysis. The concentration of
-          protein in each synovial tissue and cell lysate was
-          determined using a bicinchoninic acid assay (Pierce,
-          Rockford, IL, USA), using BSA as the standard. Protein
-          extracts (25 μg) were mixed with an equal volume of 2×
-          Laemmli's sample buffer. Equal amounts of each sample
-          were loaded and run on a 10% SDS-PAGE gel and transferred
-          to nitrocellulose membranes using a semi-dry
-          transblotting apparatus (Bio-Rad, Richmond, CA, USA).
-          Nitrocellulose membranes were blocked with 5% nonfat milk
-          in Tris-buffered saline Tween (20 mM Tris, 137 mM NaCl,
-          pH7.6, with 0.1% Tween 20) for 60 minutes at room
-          temperature. Blots were incubated overnight with
-          anti-Tie1 and anti-Tie2 antibodies (R&D Systems) at
-          1:5000, in Tris-buffered saline Tween containing 5%
-          nonfat milk. Blots were washed three times and then
-          incubated in horseradish-peroxidase-conjugated antibody
-          (1:10,000 dilution) for one hour at room temperature. All
-          blots were developed using the enhanced chemiluminesence
-          reagents (Amersham, Piscataway, NJ, USA) as per the
-          manufacturer's instructions.
-        
+        Authors' contributions
+        W.V. was responsible for the intitiation of this
+        project, carried out most of the technical work, and
+        drafted the manuscript. L.A.C. was responsible for the
+        isolate library and the production of genomic DNAs, and
+        editing of the manuscript. C.C.K. participated in analysis
+        of data and manuscript editing. D.D.R. supervised the work
+        and produced the manuscript.
+      
+      
+        Authors' note
+        These data were presented at the American Society for
+        Microbiology Meeting, Salt Lake City, May 2002
       
     
   

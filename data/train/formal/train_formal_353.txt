@@ -3,329 +3,475 @@
     
       
         Background
-        Glutamate decarboxylase (GAD) catalyzes the formation of
-        the inhibitory neurotransmitter γ-amino butyric acid (GABA)
-        from glutamate. In mammals, the two isoforms of this
-        enzyme, GAD67 and GAD65, are expressed from two separate
-        genes, 
-        Gad1 and 
-        Gad2 respectively [ 1, 2, 3]. GABA
-        signaling plays several roles in neuronal development.
-        Early in CNS development, GABA can modulate neuron
-        progenitor proliferation as well as neuron migration,
-        survival and differentiation [ 4, 5, 6, 7, 8, 9, 10, 11,
-        12, 13, 14]. In some classes of neural progenitors GABA
-        stimulates these processes while in others it has an
-        antagonistic activity. For example, recent work has
-        demonstrated that GABA acts in the developing neocortex to
-        stimulate the proliferation of progenitors in the
-        ventricular zone while inhibiting the proliferation of
-        progenitors in the subventricular zone [ 14]. Later, during
-        postnatal development, normal GABAergic input is required
-        for activity-dependent plasticity in the visual cortex as
-        shown in the 
-        Gad2 knockout mouse [ 15, 16]. In
-        addition to these functions in the developing CNS, GABA
-        signaling is also required for the normal development of
-        non-neural tissues. Targeted mutations of the 
-        Gad1 gene lead to defective
-        development of the secondary palate [ 17, 18]. The cleft
-        palate phenotype of the 
-        Gad1 mutants suggests the involvement
-        of GABA-mediated signals in the normal development and
-        differentiation of a structure derived from the oral
-        epithelium and neural crest ecto-mesenchyme. This
-        conclusion is further supported by the similar cleft palate
-        defect seen in mice with a deletion or targeted mutation in
-        the β3 subunit of the GABA 
-        A receptor [ 19, 20, 21, 22].
-        This intriguing genetic evidence indicates a role for
-        GABA-mediated signaling in the development of a non-neural
-        structure, the secondary palate. The potential for this
-        pathway to be involved in the early development of
-        additional non-neural tissues has not yet been thoroughly
-        explored [ 23]. To address this question, we surveyed 
-        Gad1 transcript distribution in the
-        non-CNS tissues of the embryo. Using a whole mount 
-        in situ hybridization approach, we
-        found that 
-        Gad1 is indeed expressed in a number
-        of different regions and tissues. A notable feature of this
-        expression pattern is that 
-        Gad1 transcripts accumulate in the
-        specialized ectodermal structures that are involved in the
-        formation of the mystacial vibrissae and in limb outgrowth.
-        These specialized ectodermal tissues are known to be
-        sources of developmental signals [ 24, 25, 26]. In
-        addition, transcripts are expressed in the mesenchymal stem
-        cell population of the tailbud and in the pharyngeal
-        endoderm and mesenchyme. The expression patterns show that 
-        Gad1 is expressed in several non-CNS
-        structures that are derived from each of the three germ
-        layers of the embryo.
+        The distribution of health, or health inequality, has
+        become prominent on global policy agendas as researchers
+        have come to regard average health status as an inadequate
+        summary of a country's health performance [ 1 2 ] . Almost
+        all health inequality studies have in fact documented 
+        differences in average health status
+        across groups of people. Those with an economic focus
+        have measured differences in average health status across
+        income groups [ 3 4 ] . Researchers with a sociological
+        focus have examined inequalities in average health status
+        among social classes [ 5 6 ] . and those with a political
+        focus have looked at how political structure is related to
+        differences in the average level of health [ 7 ] . Other
+        scholars have focused on differences in average health
+        status among racial or ethnic groups or by educational
+        attainment or occupation [ 8 9 10 ] . And most researchers
+        consider differences across political entities such as
+        countries or local governments. Similarly, demographers
+        have also long studied differences in average health
+        status, particularly in children, across age, sex,
+        education and racial groups [ 11 12 13 ] . In low- and
+        middle-income countries there exists a rich demographic
+        literature on levels and trends in child mortality and
+        causes associated with them [ 14 15 16 ] .
+        In this paper, we define the concept of 
+        total health inequality , and
+        demonstrate how to measure it by the variation in health
+        status across 
+        individuals (within a country as a
+        whole or any subgroup within a country). This approach
+        complements the existing group-level approaches, a fact
+        that can even be demonstrated mathematically. That is, the
+        standard analysis of variance identity applies to
+        variations in health status just as it does to all other
+        coherent variables:
+        "Total" = "Between Group" + "Within Group"
+        Existing literature has focused exclusively on the
+        "between group" component. In this paper, the missing
+        "within-group" component is added to the existing measures
+        to arrive at total health inequality. With total health
+        inequality, no individual variation in health status is
+        ignored. With this measure added to existing reporting
+        standards, public health policy can be targeted at reducing
+        inequalities across individuals, in addition to its
+        existing goal of reducing disparities in average health
+        status across countries and groups in society.
+        We would like to emphasize that total health inequality
+        complements group level measures; it does not replace them.
+        After all, if average health attainment is the same across
+        a given set of groups, total health inequality could still
+        be unacceptably high (because of intra-group variation
+        across individuals), whereas if total health inequality is
+        small, then the differences among any set of groups, albeit
+        potentially systematic, must also be small. In our view,
+        between, within, and total levels of health inequality
+        should be reported henceforth.
+        Preferably, measures of inequality in healthy life
+        expectancy (the number of years in full health an
+        individual born today can expect to live [ 17 ] ) would be
+        computed, but this paper focuses on a preliminary step for
+        which data are more readily available - developing methods
+        for the measurement of total inequality in the probability
+        of child survival. Survival from birth to two years of age
+        is only one aspect of health, but it is a useful place to
+        start since it is a critical part of health status,
+        particularly in developing countries [ 4 18 ] .
+        The normative principles involved in choosing a measure
+        of inequality are discussed briefly. Instead of making an
+        arbitrary choice, the inequality measure selected is
+        consistent with the results of a survey of normative
+        preferences of over 1000 health professionals conducted by
+        WHO and used in the 
+        World Health Report 2000 [ 19 ] .
+        Comparisons with applications of other popular measures of
+        income inequality to health are also presented.
+      
+      
+        Methods
+        The data analyzed are from 50 countries where a
+        Demographic and Health Survey (DHS) had been conducted and
+        the data were available. Table 1lists the countries, sample
+        size and year of the surveys used. The DHS is a 20-year
+        project conducting high quality national sample surveys on
+        population and maternal and child health. Funded primarily
+        by the United States Agency for International Development
+        (USAID), DHS is administered by Macro International Inc. [
+        20 ] . Low-income country governments and international
+        organizations have long relied on DHS data to monitor a
+        variety of child and maternal health and family planning
+        indicators [ 21 ] . One of the most significant
+        contributions of the DHS is the collection of
+        internationally comparable data on the demographic and
+        health characteristics of populations in developing
+        countries [ 22 23 24 25 ] ..
+        The DHS are conducted through in-person interviews. The
+        samples, which are all above 3,000 households in the
+        countries analyzed in this study, are the result of a
+        multi-stage stratified sampling design [ 26 ] . The DHS
+        sampling weights are used to produce nationally
+        representative estimates.
+        For each country we used the latest year of available
+        data from a nationally representative DHS, ranging from
+        1987 to 1997. For each mother surveyed the number of
+        children born and the number survived to age 2 was
+        calculated. A ten-year observation period was used ending
+        two years prior to the interview year, to avoid censoring
+        effects. This period is a compromise between providing
+        recent estimates and ensuring enough births to reduce the
+        effects of sampling error. Measuring survival to (or death
+        by) age 5, would involve a longer censoring period, produce
+        older estimates of inequality, and not differ much from the
+        under 2 mortality because on average, 80% of under 5 deaths
+        occur in the first two years of life [ 26 27 ] .
+        To provide a partial but independent validation of the
+        DHS-based results, mortality data by municipality in Mexico
+        [ 28 ] and Brazil [ 29 ] from different data sources were
+        analyzed. Data on socioeconomic variables [ 30 ] and on the
+        political system [ 31 ] of each country were also collected
+        to help us explore possible causes of differences in
+        inequality. The socioeconomic variables were collected for
+        the year the survey was conducted in each country.
+        The population of interest includes all children born
+        alive in a country in a given time period. Ideally, one
+        would measure the length of time each child is 
+        expected to live from birth to two
+        years and then use a measure of inequality to summarize the
+        distribution of these survival expectations. Making the
+        inference from the dichotomous data on child survival to
+        health inequality requires several methodological
+        steps.
+        The first step is to estimate the distribution of the
+        probability of death across children in each national
+        sample. The chief methodological difficulty here is that
+        for any one child, only the dichotomous variable of
+        survival to two years is measured, while the probability of
+        dying for each child is not observed. These probabilities
+        are estimated using the extended beta-binomial model [ 32
+        33 34 ] . This model has been widely applied in biomedical
+        research, most commonly for modeling animal littermate
+        survival probabilities, and in political science to model
+        voting statistics [ 32 34 35 36 37 38 ] . In this
+        application, we model the number of child deaths within a
+        family with a binomial distribution with equal risk of
+        dying per child, and then allow the risks to vary across
+        families according to a beta distribution [ 35 ] . (See
+        Additional file 1 for more details on the specification of
+        the model.)
+        Potential confounders, including mother's age, number of
+        children, level of education, and average birth interval,
+        were controlled for [ 13 ] . This procedure relaxes the
+        assumptions of the model, making it more flexible. However,
+        the basic model fits the data well, and controlling for
+        these variables does not materially affect the estimates of
+        health inequality. When the covariates have no effect, the
+        beta distributed random effect portion of the model ensures
+        that the level of variability is not underestimated.
+        For Mexico and Brazil, the extended beta-binomial model
+        was also applied to the municipality-level mortality data
+        sets to validate the model. The underlying assumption is
+        that small geographical areas (which are treated
+        analogously to families) include mostly homogeneous
+        populations for which the risk of death is similar. In both
+        countries, the estimates of inequality from the extended
+        beta-binomial model did not materially differ between the
+        two data sets used.
+        As an example of the results of the survey analysis,
+        Figure 1shows the estimated distribution of the probability
+        of dying before age 2 in Benin and the Central African
+        Republic, and the corresponding distributions of expected
+        childhood survival time (up to two years) for those
+        countries. These two countries were chosen because they
+        have very similar average probabilities of death (0.13 and
+        0.12, respectively), and therefore very similar mean
+        survival times (1.86 and 1.87 years, respectively), but
+        markedly different distributions of actual survival time
+        around these means and hence divergent levels of health
+        inequality. For example, in the Central African Republic,
+        about 25% of children born have a probability of death
+        lower than three percent. In contrast, children in Benin
+        have risks of death more closely distributed around its
+        mean, with only 4% of its children having a probability of
+        death lower than three percent. Clearly at the lower end of
+        the distributions, Benin does worse, but it does much
+        better at the higher extreme. For example, in Benin less
+        than 1% of children born have a probability of death
+        greater than forty percent, contrasted with the Central
+        African Republic, where more than 4% of children have that
+        probability of death. This is merely one striking example
+        of why summarizing health status with only mean levels is
+        misleading.
+        The second step is to transform the estimated
+        probability of death between birth and age two for each
+        child ( 
+        2 
+        q 
+        0 in demographic notation) to the
+        expected survival time in the first two years of life, 
+        S . Although the results do not
+        change materially, we opted to measure inequality in
+        survival time, instead of probability of survival, as it is
+        analogous to inequality in health expectancy and is more
+        interpretable. Expected survival time can be calculated
+        as
+        
+        where 
+        S is expected survival time, and 
+        2 
+        m 
+        0 is the mortality rate in the first two
+        years of life [ 39 ] . 
+        2 
+        m 
+        0 can, in turn, be calculated from the
+        probability of dying in the first two years of life, [ 39 ]
+        .
+        Finally, since printing fifty plots like Figure 1would
+        be unwieldy, we give numerical summaries of health
+        inequality. To do this, several normative criteria have to
+        be addressed. At least three general normative dimensions
+        are relevant [ 17 ] . First, measures of inequality range
+        from absolute to relative. Absolute measures are
+        independent of mean survival time, whereas relative
+        measures adjust for the mean. If one believes that more
+        variation in health states is acceptable when average
+        survival time is higher, then a measure close to the
+        relative end of the continuum would reflect that choice; on
+        the other hand, if one believes that a given discrepancy in
+        expected survival across people should be considered in the
+        same way, irrespective of the mean survival time in that
+        population, then an absolute measure of inequality would be
+        appropriate. The second normative dimension is the weight
+        given to outliers. One might believe that the majority of
+        children is what measures should be based on, or one might
+        instead want to focus primarily on the worst and best off.
+        The final dimension is whether individuals should be
+        compared to the average of their communities or to each of
+        the individuals within their communities separately.
+        A range of measures of inequality that reflect many
+        different normative positions were developed, including
+        measures used in quantifying income inequality (such as the
+        Gini index), variance measures, and many that have not been
+        previously considered [ 17 ] . Although it need not have
+        turned out this way, in the present analysis these measures
+        all gave substantively consistent empirical results. For
+        empirical analyses, the inequality index ( 
+        II ) used was derived from a survey
+        of the normative preferences of over 1,000 health
+        professionals and other individuals with an interest in
+        health systems [ 19 ] . The index is defined as
+        
+        where 
+        s 
+        
+          i 
+         is the expected survival time between birth and age
+        two of individual 
+        i , and 
+        s is the average expected survival
+        time in the first two years of life in the population. This
+        index of inequality ( 
+        II ) is logically between a relative
+        and an absolute measure, so the average survival time is
+        included in the denominator. The index is based on
+        comparing each child with every other child in the
+        population (thus the sum of the differences in the
+        numerator), and gives a large weight to the best and worst
+        off (the differences are raised to the power of three).
+        Larger values of 
+        II indicate more individual level
+        inequality in child survival. The health inequality point
+        estimates and uncertainty bounds are mean posterior
+        estimates and 95% credible intervals, respectively,
+        computed from the extended beta-binomial model with flat
+        priors and the traditionally used asymptotic normal
+        approximations (e.g. [ 40 ] ).
       
       
         Results
-        The mouse 
-        Gad1 gene is widely expressed in the
-        embryonic central nervous system [ 27]. To define
-        additional sites of expression outside of the CNS, we
-        analyzed the distribution of 
-        Gad1 transcripts in E8.5 to E14.5
-        mouse embryos by whole mount 
-        in situ hybridization.
-        
-        Gad1 transcripts were not detected in
-        E8.5 day embryos (data not shown). At E9.0 
-        Gad1 was readily detected in the
-        tailbud (figure 1A). Expression in the tail continued
-        through E12.5 and was undetectable by E13.5 (figure
-        1B,C,Dand data not shown), a period corresponding to
-        secondary body axis formation in the mouse embryo [ 28].
-        Examination of sections from an E9.5 embryo revealed a high
-        level of 
-        Gad1 expression throughout the
-        mesenchyme and neural epithelium in the caudal portion of
-        the tailbud (figure 1F). No transcripts were detected in
-        the surface ectoderm surrounding the tailbud mesenchyme
-        (figure 1F). At more cranial levels within the tail,
-        expression was localized to paraxial mesoderm, ventral
-        neural tube, notochord and cells of the dorsal hindgut
-        (figure 1E). In the paraxial mesoderm, the highest
-        expression levels were also localized ventrally, adjacent
-        to the notochord (figure 1E).
-        In the pharyngeal region of E9.5 embryos, 
-        Gad1 RNA was detected in and around
-        the second, third and fourth pharyngeal pouches (figure
-        2A). Sections through the third pouch confirmed the
-        presence of 
-        Gad1 expression in the pouch endoderm
-        (data not shown). Expression was particularly strong in the
-        dorsal portion of this pouch (figure 2B). The additional
-        diffuse staining appeared to be in the pharyngeal
-        mesenchyme (figure 2B). The expression in the pharyngeal
-        region was very transient; transcripts were easily detected
-        at E9.5, but only faintly at E9.0 and were not detectable
-        by E10.5.
-        In the limb buds, 
-        Gad1 RNA was detected from E9.0 to
-        E11.5 (figure 3A,B,C,D,E,F,G,H). Transcripts were initially
-        expressed in the pre-apical ectodermal ridge (pre-AER) at
-        E9.5 (figure 3A,B) and by E10.5 were seen in the definitive
-        AER of the forelimb (figure 3D). At E10.5 
-        Gad1 was expressed in a diffuse
-        stripe in the forelimb (figure 3D) while in the hindlimb
-        expression was only detected in the apical ectoderm (figure
-        3E). By E11.5 forelimb AER expression was fading and
-        expression was seen in a diffuse stripe in the proximal
-        forelimb and a diffuse crescent in the proximal hindlimb
-        (figure 3G,H). The earlier activation of 
-        Gad1 in the forelimb reflects the
-        normal temporal order of events in limb development.
-        Sections indicate that the expression within the limb buds
-        was in surface ectoderm and adjacent mesenchyme (data not
-        shown). 
-        Gad1 RNA was not detected in the
-        limbs by whole mount 
-        in situ hybridization after
-        E11.5.
-        A dynamic pattern of 
-        Gad1 expression was detected in the
-        developing vibrissae from E12.5 to E14.5 (figure
-        4A,B,C,D,E,F,G,H). Expression was first detected in the
-        supra-orbital, infra-orbital, and post-oral vibrissae and
-        in the posterior vibrissae in the lateral nasal and
-        maxillary rows (figure 4A,B; nomenclature as in [ 29]). 
-        Gad1 RNA was also detected in some of
-        the posterior labial vibrissae at this stage. Expression
-        was activated in a posterior to anterior (towards the nose)
-        progression in the lateral nasal and maxillary rows,
-        reflecting the pattern of vibrissal development [ 29]. By
-        E13.5, 
-        Gad1 expression was detected in the
-        anterior lateral nasal and maxillary rows and was activated
-        in the rhinal, labial and submental vibrissae (figure
-        4C,D). By E14.5, expression was strong in the labial,
-        submental and rhinal vibrissae (figure 4E,F). Sections of
-        E12.5 whole mounts show that 
-        Gad1 expression was localized to the
-        epidermal placodes of the mystacial vibrissae (figure 4G,H)
-        and was maintained as the placodes begin to invaginate
-        (figure 4G).
-        Control hybridizations using a sense strand 
-        Gad1 probe were also performed.
-        Embryos hybridized to the sense probe did not reveal any
-        staining pattern at any of the stages tested (E8.5- E14.5).
-        Sense strand hybridization results for E10.5 and E11.5
-        embryos are shown in figure 5.
-      
-      
-        Discussion
-        The expression results reported here show that 
-        Gad1 was activated in several tissues
-        outside of the central nervous system during mouse
-        development. Transcripts were not seen at E8.5 and were
-        first detected at E9.0. It was surprising that this very
-        early phase of 
-        Gad1 expression was largely outside
-        of the developing CNS and was localized in the tail bud
-        mesenchyme and in the pre-apical ectodermal ridge (pre-AER)
-        of the forelimb bud. As development proceeded 
-        Gad1 was detected in pharyngeal
-        endoderm and in the ectodermal placodes of the vibrissae.
-        The data demonstrate that 
-        Gad1 is expressed in several sites
-        outside of the developing CNS and in derivatives of all
-        three germ layers. We have also detected the expression of 
-        Gad1-lacZ transgenes in the
-        developing vibrissae and limbs supporting the novel and
-        surprising 
-        in situ hybridization results we
-        report here (J.J. Westmoreland and B.G.C., unpublished
-        results).
-        Previous studies have shown that 
-        Gad1 can be regulated at the
-        post-transcriptional and translational level. 
-        Gad1 mRNA translation or protein
-        stability can be regulated in mature neurons by the level
-        of GABA [ 30, 31]. During embryogenesis,
-        post-transcriptional regulation occurs by alternative
-        splicing during embryonic development in rats and mice [
-        32, 33]. This alternate embryonic transcript inserts a stop
-        codon into the 
-        Gad1 mRNA and can produce the
-        truncated proteins, GAD25 and GAD44, from its 5'; and 3'
-        ends respectively. The studies reported here used a probe
-        that will detect the adult 
-        Gad1 mRNA that encodes GAD67 as well
-        as the embryonic alternatively spliced mRNA that can encode
-        GAD25 and GAD44. These additional mechanisms of 
-        Gad1 regulation may control the
-        production of GAD proteins and the synthesis of GABA in the
-        non-neural cell types detected in our study.
-        The whole mount 
-        in situ hybridization data reported
-        here extends the results of a recently published section 
-        in situ hybridization study on
-        E10.5-E12.5 mouse embryos [ 27]. Our analysis showed that 
-        Gad1 expression is first detectable
-        earlier at E9.0 and revealed novel non-CNS sites of
-        expression in the pharyngeal region, vibrissae, tail bud
-        and limb bud. The results of the previous study [ 27],
-        together with the data reported herein, provide a
-        comprehensive picture of 
-        Gad1 expression in the E9.0-E12.5
-        mouse embryo.
-        Previous studies have noted 
-        Gad expression outside of the CNS. In
-        adults 
-        Gad1 and 
-        Gad2 have been detected in a number
-        of tissues including kidney, testis, oviduct, pancreatic
-        islets and adrenal cortex [ 34, 35, 36, 37]. Previously
-        reported sites of embryonic 
-        Gad1 expression outside of the brain
-        and spinal cord during rodent development include the lens
-        fibers and the olfactory pit [ 38, 39]. In E10.5-E12.5
-        mouse embryos 
-        Gad1 is expressed in the olfactory
-        and the lens placodes, the anlagen of the olfactory pit and
-        lens fibers [ 27]. We also detected 
-        Gad1 expression in these tissues
-        (please see figure 3Aand data not shown). Expression of 
-        Gad in the developing heart and blood
-        vessels has also been reported [ 27]. We detected weak
-        staining in the heart and did not detect blood vessel
-        expression, perhaps due to the very low levels of
-        expression in developing vasculature [ 27]. Our results
-        document localized expression of 
-        Gad1 at additional non-CNS sites in
-        the mouse embryo, suggesting a potential role for GABA
-        signaling in the development of these structures.
-        Our interest in the role of GABA signaling in developing
-        tissues outside of the central nervous system stems from
-        the cleft palate phenotype of the 
-        Gad1 and the β3 GABA 
-        A receptor subunit mutants [ 17, 18, 19,
-        21, 22]. The genetic data strongly suggest that GABA acts
-        through GABA 
-        A receptors to modulate the development
-        of this tissue. Although the data reported here do not
-        explain the origin of the cleft palate phenotype, they do
-        indicate that 
-        Gad1 is expressed in several
-        additional non-CNS tissues in the mouse embryo. It is
-        particularly noteworthy that these include the AER of the
-        limb buds and the ectodermal placodes of the vibrissae.
-        Both are ectodermal structures known to be sources of
-        developmental signals required for morphogenesis and
-        patterning [ 24, 25, 26, 40]. It will be of interest to
-        examine the expression pattern of GABA receptors in the
-        mesenchyme adjacent to these ectodermal signaling centers.
-        Expression of GABA receptor subunits in adjacent tissues
-        would indicate that these receptors read the developmental
-        signals mediated by GABA in these structures and
-        tissues.
+        Table 2lists estimates of child survival inequality
+        using 
+        II for each of 50 countries, ranked
+        from most unequal (Liberia) to least unequal (Colombia).
+        For comparison, estimates of child survival inequality were
+        calculated for three other commonly used summary measures
+        of distributions - the variance, the Gini index, and the
+        coefficient of variation. The pairwise rank order
+        correlations between the four measures were all higher than
+        0.93. Table 3presents the ranking of countries from most to
+        least unequal by the four measures of inequality used in
+        this analysis.
+        To get a sense of the uncertainty in estimation, Figure
+        2plots the inequality estimates with 95% confidence
+        intervals for each country (the size of the confidence
+        intervals is mostly a function of the sample size in each
+        country). These kinds of basic data could be used by health
+        professionals to base further research, particularly into
+        the determinants of total health inequality, and eventually
+        public policy to reduce inequalities.
+        Figure 3presents an exploratory view of the relationship
+        between our measure of health inequality and five plausible
+        explanatory variables, interacted with the type of
+        government. The purpose of these graphs is to understand
+        the measure of inequality developed and to explore
+        correlations with other relevant variables. Determining
+        what causes changes in inequality is a critical issue but
+        one that we do not pursue in any detail here. Among the
+        variables included, GDP per capita and health expenditures
+        per capita are negatively correlated with health
+        inequality, which lends face validity to the inequality
+        measure. As with average level of mortality, the
+        relationship between health inequality and GDP per capita
+        and health expenditure per capita is very strong at low
+        levels of income and expenditure, and the effect is smaller
+        at higher levels. The relationship between health
+        inequality and absolute poverty (defined as the percent of
+        the population earning less than one international dollar
+        per day) appears to be more linear, with considerable
+        variation in inequality at each given level of poverty.
+        More surprisingly, health inequality seems entirely
+        uncorrelated with income inequality (r = -0.16), as
+        measured by economists' most commonly used measure, the
+        Gini index calculated for income.
+        Additionally, inequality in childhood survival is
+        positively related to the mean probability of death ( 
+        2q0 ), but at a given level of
+        mortality there is significant variation in inequality.
+        This confirms the expected relationship and also reflects
+        the fact that traditionally reported measures of average
+        levels of health are insufficient for summarizing the
+        health experience of a population. Finally, each point in
+        each graph also codes the type of political system. The
+        graphs seem to indicate that full democracies (represented
+        as diamonds) tend to have lower values of inequality than
+        partial democracies (squares) or autocracies (triangles),
+        as would be expected. (Partial democracies include
+        countries that have adopted some democratic practices, such
+        as popular elections to legislatures with limited powers,
+        but most have not completed the transition from autocratic
+        practices.) However, and perhaps surprisingly, health
+        inequality is otherwise unrelated to the type of political
+        system either directly or in interaction with any of the
+        five potential explanatory variables.
+        The individual-level approach to conceptualizing and
+        measuring health inequality appears to complement the
+        group-level approaches. To show that the total health
+        inequality measures offered here are at least sometimes
+        distinct from group-level analyses, the results of the
+        present analysis are compared to those of Wagstaff [ 4 ]
+        and Brockerhoff and Hewett [ 16 ] . Wagstaff calculated
+        inequalities among income groups in 7 countries, measured
+        by a concentration index. Brockerhoff and Hewett measured
+        ethnic differences in 11 countries via odds ratios.
+        Brockerhoff and Hewett used subsets of the same DHS
+        datasets as used in this analysis, while Wagstaff used
+        mostly data from the Living Standards Measurement
+        Surveys.
+        Figure 4plots of the ranks of the total health
+        inequality measure ( 
+        II ) by each of these group-level
+        measures (with rank 1 assigned to the country with the
+        largest inequalities). Clearly the individual-level measure
+        is tapping into different concepts as the two pairs are not
+        even positively correlated. For example, the Central
+        African Republic and Rwanda have large individual-level
+        inequalities in child survival, but relatively smaller
+        inter-ethnic group inequalities. (These results do not
+        contradict, but rather imply that there is considerable
+        intra-ethnic group inequality that is, by definition, not
+        picked up by the group-level measures.) In contrast, Kenya
+        has less individual-level health inequality relative to
+        other sub-Saharan African countries, but more
+        ethnicity-related inequalities. Similarly, Brazil and
+        Nicaragua have large differences in child mortality levels
+        across income groups, but less individual-level inequality
+        than Pakistan and Cote d'Ivoire. These different results
+        establish that measures of total health inequality are
+        indeed measuring different concepts and uncovering
+        different findings than the existing group-level
+        approaches.
       
       
         Conclusions
-        The mouse gene encoding the 67 kDa isoform of glutamate
-        decarboxylase ( 
-        Gad1 ) is expressed in the tail bud
-        mesenchyme, vibrissal placodes, pharyngeal arches and
-        pouches and the apical ectodermal ridge (AER), mesenchyme
-        and ectoderm of the limb buds in mouse embryos from
-        E9.0-E14.5. Some of the 
-        Gad1 expressing tissues (vibrissal
-        placodes, AER) are known sources of developmental signals.
-        Other sites of expression correspond to stem cell
-        populations that give rise to multiple differentiated
-        tissues (tail bud mesenchyme, pharyngeal endoderm and
-        mesenchyme). The localized and dynamic expression pattern
-        of 
-        Gad1 suggests a wider role for GAD
-        and GABA in the development of non-neural tissues than was
-        previously known.
+        This paper presents the first measures of total health
+        inequality of a population. Such measures could serve as an
+        important complement to existing group-level approaches in
+        the literature on health inequalities among groups.
+        Including individual-level variation, as done here,
+        produces estimates of inequality that capture the entire
+        distribution of risk of death in the population and that
+        are directly comparable across countries.
+        At the same average level of health status, countries
+        can achieve widely varying levels of health inequality.
+        Since measuring and communicating this type of information
+        seems essential to making informed public policy, we
+        believe inequality should be measured and reported together
+        with average levels of health status.
+        Estimating the underlying distribution of risk is useful
+        for understanding the nature and possibly the causes of
+        health inequality using observed dichotomous outcomes such
+        as survival and death. This or a related approach should
+        prove useful for examining the risk of ill-health for all
+        age groups, such as in measures of inequality in health
+        expectancy.
+        Considerable future research needs to be conducted into
+        health inequality. For one area, efforts should continue to
+        measure inequalities in child survival outside of the fifty
+        countries analyzed here. For another, the normative
+        underpinnings of popular measures of health inequality
+        should be further clarified. Similarly, other measures that
+        formalize richer normative principles should be developed.
+        Further efforts need to be made to measure what types of
+        people, policymakers, and democratic electorates prefer one
+        normative position rather than another. Third, new
+        databases need to be created and statistical methods
+        developed that enable researchers to expand measures of
+        inequality in child survival in the first two years of life
+        to inequality in health expectancy in general. Fourth, we
+        should seek further external validation of these results,
+        along the lines of the vital registration-based analysis
+        conducted for Mexico and Brazil. Finally, and most
+        importantly for influencing health policy globally,
+        scholars should pursue an understanding of the determinants
+        of inequality. We need to understand not only how average
+        levels of health status of populations can be raised but
+        also how health inequalities can be reduced.
+        There are several limitations to this study. The ranking
+        of countries is influenced by the year the data were
+        collected and particularly for those most affected by the
+        HIV/AIDS epidemic, the estimate of the inequality index
+        might change if more recent data were available. Since
+        women of reproductive age are the basic sampling units in
+        these surveys, their premature death (from maternal or
+        other causes) excludes their children from the studies.
+        Such children often have an elevated mortality risk and
+        their exclusion may bias estimates child mortality (both
+        level and inequality) downward. This bias is likely to be
+        greater in countries with higher maternal mortality and
+        HIV/AIDS epidemics. Our preliminary explorations of this
+        issue indicate that the estimate of the inequality index
+        changes very little, and not enough to result in a change
+        of rankings across countries.
+        Some of the potential implications of this article
+        include a research program devoted to developing and
+        improving measures of health inequality, a substantial
+        change in data collection efforts by public health
+        authorities internationally, and even ongoing changes in
+        national and international public policy as a result. All
+        this possible activity takes nothing away from the
+        important existing focus on differences in average health
+        levels across groups, but measuring and reporting
+        individual health inequality adds an important new
+        perspective as well.
       
       
-        Materials and Methods
-        Whole mount 
-        in situ hybridizations were performed
-        on Swiss Webster embryos as described [ 41, 42]. The
-        morning that the vaginal plug was found was considered 0.5
-        days of gestation. The 
-        Gad1 probe was derived from an EST
-        clone (accession W59173). Its 5' end corresponds to
-        nucleotide 142 in exon 1 [ 43] and the 3' end is at
-        nucleotide 2041 in the cDNA sequence [ 44]. Digoxygenin
-        sense and antisense RNA probes were generated by labeling
-        with digoxygenin-UTP during transcription. Embryos were
-        removed and fixed in 4% paraformaldehyde/PBS overnight and
-        used immediately for the 
-        in situ hybridization. The embryos
-        were processed as described previously [ 41] and hybridized
-        to the probe overnight in 50% formamide, 5X SSC (pH 5.0),
-        50 μg/ml torula RNA, 50 μg/ml heparin at 70°C. The final
-        concentration of probe in the hybridization was 1 μg/ml.
-        After an overnight hybridization, the embryos were washed
-        at high stringency in prewarmed 50% formamide, 5X SSC, 1%
-        SDS (wash I) at 70°C for 90 minutes. The embryos were then
-        washed in a 1:1 mix of wash I and wash II (0.5 M NaCl, 10
-        mM Tris pH 7.5, 0.1% Tween 20) for 10 minutes at 70°C. The
-        embryos were washed several times in wash II at room
-        temperature to remove the formamide and then treated with
-        100 μg/ml RNase A, 100 units/ml RNase T1 in wash II for 1
-        hour at 37°C. Following the RNase treatment the embryos
-        were washed in three changes of 50% formamide, 2X SSC pH5.0
-        at 70°C for a total of 90 minutes. Detection of the
-        hybridized RNA probe was as described previously [ 41]. The
-        embryos were photographed without clearing using a Leica
-        model MZFL III dissecting scope, a Hamamatsu model C4742-95
-        digital camera and Openlab 2.0.7 software.
-        For sectioning, embryos were embedded in Immunobed
-        (Polysciences) resin and sectioned at 10 μm. Sections were
-        phtotographed using an Olympus BX60 microscope fitted with
-        a SPOT digital camera (Diagnostic Instruments Inc.).
+        Competing interests
+        None declared
+      
+      
+        Authors' contributions
+        EG and GK participated in the design of the study, the
+        interpretation of the findings and the write-up of the
+        manuscript. EG performed the statistical analysis. Both
+        authors wrote, read, and approved the final manuscript.
+      
+      
+        List of abbreviations
+        DHS: Demographic and Health Surveys
+        II: Inequality index
+        WHO: World Health Organization
       
     
   

@@ -3,461 +3,827 @@
     
       
         Background
-        Recent work has shown that the Bcl-2 family regulates
-        mitochondrial homeostasis during apoptosis [ 1 ] .
-        Pro-apoptotic members, including Bax, Bak, Bid, and Bim,
-        promote the release of death-inducing proteins, such as
-        cytochrome c [ 2 3 ] , smac [ 4 ] , and endonuclease G [ 5
-        ] , from mitochondria while anti-apoptotic members, such as
-        Bcl-2 and Bcl-X 
-        L , inhibit this release. Following
-        release into the cytosol, these death-inducing proteins
-        promote apoptotic cell destruction through multiple
-        pathways including caspase activation and nuclear DNA
-        fragmentation.
-        In addition to controlling the release of pro-death
-        proteins, the Bcl-2 family also alters the function of
-        mitochondria undergoing apoptosis. Dysfunction of voltage
-        dependent anion channel opening, ADP/ATP exchange, the
-        electron transport chain, oxidative phosphorylation, and
-        calcium buffering through the action of this family of
-        proteins have been reported [ 6 7 8 ] . While early defects
-        in the electron transport chain can be reversed by addition
-        of exogenous cytochrome c, the damage eventually becomes
-        refractory to cytochrome c addition [ 8 ] . This finding
-        suggests that pro-death Bcl-2 proteins can damage
-        mitochondrial function independent of cytochrome c
-        loss.
-        Recently, we demonstrated that the targeting of the
-        pro-apoptotic protein tBid to mitochondria depends upon the
-        presence of the mitochondria-specific lipid cardiolipin in
-        a possibly unique structure [ 9 ] . Cardiolipin has a
-        defined distribution pattern within mitochondria [ 10 ] .
-        It is found in high concentrations throughout the inner
-        membrane, including at contact sites where the inner
-        membrane and outer membrane interact. Cardiolipin is
-        present at much lower concentrations elsewhere in the outer
-        membrane. This distinction suggests that tBid might
-        localize to contact sites because of the arrangement of
-        cardiolipin there. To test this hypothesis, we determined
-        the submitochondrial localization of tBid using a new
-        hybrid technique - immunoelectron tomography, which couples
-        conventional immunoelectron microscopy with tomography to
-        add the third dimension. Tomographic analysis was chosen
-        because it enables quantitative three-dimensional
-        examination of fine structure within the relevant
-        mitochondrial domains in semi-thick sections and thereby
-        facilitates accurate representation of the sometimes
-        complex membrane topology of this organelle [ 11 12 ] .
-        Immunoelectron tomography is ideal for testing the
-        independence of two types of labels, or label and
-        structural component (as employed in this study), and their
-        deviation from independence - colocalization or mutual
-        inhibition - because it allows true 3-D distances to be
-        measured. We report here an analysis of the 3-D distances
-        of immunogold-labeled tBid from contact sites on the
-        periphery of liver mitochondria that strongly supports the
-        colocalization of the two.
+        
+        Staphylococcus aureus is the most
+        common cause of osteomyelitis, a disease often refractory
+        to treatment and subject to recurrence. Traditional
+        treatment for osteomyelitis involves surgical debridement
+        of infected tissue, coupled with systemic antibiotic
+        therapy. Only a few decades ago, the majority of 
+        S. aureus strains associated with
+        osteomyelitis were susceptible to antibiotics including
+        methicillin. However, the emergence of antibiotic
+        resistance among strains of 
+        S. aureus has rendered methicillin
+        and many other antibiotics less effective against this
+        organism. Consequently, there is an urgent need for the
+        development of novel therapies for the treatment of
+        osteomyelitis.
+        
+        S. aureus is a capable bone pathogen,
+        in part, because it possesses several cell surface adhesion
+        molecules that facilitate its binding to bone matrix.
+        Binding involves a family of adhesins that interact with
+        extracellular matrix components, and these adhesins have
+        been termed microbial surface components recognizing
+        adhesive matrix molecules (MSCRAMMs) [ 1 ] . Specific
+        MSCRAMMs are responsible for localization of 
+        S. aureus to particular tissues, and
+        include fibronectin-binding proteins (FnBPs) [ 2 3 ] ,
+        fibrinogen-binding proteins [ 4 5 6 ] , elastin-binding
+        adhesin [ 7 ] collagen-binding adhesion [ 8 ] , and a
+        broad-specificity adhesin (MAP) that facilitates
+        low-affinity binding of 
+        S. aureus to several proteins,
+        including osteopontin, collagen, bone sialoprotein,
+        fibronectin, fibrinogen, and vitronectin [ 9 ] . 
+        S. aureus can utilize MSCRAMMs to
+        adhere directly to cells or can attach to cells through the
+        use of bridging ligands such as Hsp60 which has an affinity
+        for both MSCRAMMs and the β 
+        1 -integrin host cell receptor [ 10 11 ]
+        . Interaction of 
+        S. aureus with host cells via
+        MSCRAMMs can induce signal transduction, tyrosine kinase
+        activity, and cytoskeletal rearrangement [ 12 ] .
+        Compared to other bacteria, 
+        S. aureus is generally not considered
+        a significant intracellular pathogen. Staphylococci have
+        typically been regarded as non-invasive extracellular
+        pathogens that damage host cells after adhering to the
+        extracellular matrix; however, there is growing evidence
+        that 
+        S. aureus has the ability to invade
+        and persist within eukaryotic cells. 
+        S. aureus has been shown to be
+        ingested by non-professional phagocytes, such as mouse
+        fibroblasts [ 13 ] , mouse renal cells [ 14 ] , and bovine
+        mammary epithelial cells [ 15 16 ] . 
+        S. aureus also has the ability to
+        invade mouse and human osteoblast cell lines [ 17 18 ] , as
+        well as normal mouse and human osteoblasts [ 19 ] .
+        Finally, 
+        S. aureus has been shown to invade
+        normal chick osteoblasts both in vitro and in vivo [ 20 21
+        ] . 
+        S. aureus cells were found in
+        approximately 14% of calvarial osteoblasts after
+        subcutaneous injection of chick embryos, and in 11% of
+        calvarial and tibial osteoblasts following intra-allantoic
+        injection. Similar to most in vitro studies, the majority
+        of intracellular bacteria are eventually free in the
+        osteoblast cytoplasm in vivo. 
+        S. aureus cells in calvariae and
+        tibiae were also observed in the cytoplasm of approximately
+        4% of the osteocytes in mineralized bone matrix. Therefore,
+        osteoblasts containing internalized 
+        S. aureus cells continue
+        differentiating into osteocytes. In addition, 
+        S. aureus invasion of osteoblasts
+        stimulates the secretion of interleukin (IL)-6, IL-12, and
+        colony-stimulating factors [ 19 22 23 ] . These cytokines
+        can potentially exacerbate the bone destruction already
+        characteristic of infection by activation of osteoclasts.
+        In addition to osteoclast activation, 
+        S. aureus inhibits bone-matrix
+        synthesis, further compounding bone loss observed with
+        osteomyelitis [ 24 ] .
+        The ability of 
+        S. aureus to survive in the
+        eukaryotic intracellular environment could explain several
+        aspects of chronic staphylococcal diseases and long-term
+        colonization. Internalization may provide a means of
+        protection against host defenses and certain classes of
+        antibiotics. Many staphylococcal infections which tend to
+        become chronic (e.g., osteomyelitis and mastitis) are
+        associated with multiple recurrences and do not resolve
+        even in the presence of what seems to be an adequate
+        humoral immune response [ 25 26 27 28 ] . For example,
+        patients can have recurrent attacks of osteomyelitis after
+        completion of treatment, even when causative organisms
+        cannot be isolated [ 25 ] .
+        Staphylococcal infections are typically associated with
+        death of tissue, and evidence suggests intracellular
+        bacteria are capable of inducing apoptosis. 
+        S. aureus -mediated apoptosis has
+        been reported in epithelial cells [ 16 29 30 ] ,
+        keratinocytes [ 31 ] , endothelial cells [ 32 33 ] , and
+        osteoblasts [ 34 ] . The two global gene regulatory loci 
+        agr and 
+        sar have been demonstrated to play a
+        role in the induction of apoptosis in epithelial cells by 
+        S. aureus [ 33 ] . Mutants in the 
+        agr or 
+        sar loci are internalized, but do not
+        induce apoptosis [ 33 ] . Another study demonstrated
+        induction of apoptosis in endothelial cells by
+        staphylococcal alpha toxin [ 32 ] .
+        Wesson et al. [ 30 ] demonstrated host caspases-8 and -3
+        to play a role in 
+        S. aureus -induced apoptosis, and
+        caspase-8 is known to be associated with apoptosis
+        triggered by engagement of death receptors [ 35 ] . Several
+        recent studies have associated microbial induction of
+        apoptosis with the production of tumor necrosis
+        factor-related apoptosis-inducing ligand (TRAIL). Measles
+        virus was the first infectious agent shown to induce TRAIL
+        production [ 36 ] . Other studies have demonstrated
+        induction of TRAIL by Theiler's murine encephalomyelitis
+        virus (TMEV) in M1-D cells (a myelomonocytic precursor cell
+        line) [ 37 ] , reovirus infection in fibroblasts [ 38 ] ,
+        HIV-1 infection in CD4 +T cells [ 39 ] , and adenovirus in
+        239T cells [ 40 ] . The demonstration of caspase-8
+        involvement in 
+        S. aureus -induced apoptosis is
+        complemented by a recent report from our laboratory that 
+        S. aureus induces expression of TRAIL
+        by infected osteoblasts [ 41 ] . We reported that 
+        S. aureus strongly induces TRAIL
+        expression by both normal mouse and normal human
+        osteoblasts, while mRNAs encoding the
+        death-domain-containing TRAIL receptors are constitutively
+        expressed in the same cells. 
+        S. aureus caused a rapid and
+        sustained up-regulation of TRAIL mRNA and TRAIL protein
+        expression. TRAIL is also secreted by 
+        S. aureus -infected osteoblasts,
+        suggesting that TRAIL could influence cells outside the
+        environment of a localized bacterial infection.
+        In the present study, we examined the ability of
+        purified bacterial surface structures and extracellular
+        products to induce TRAIL expression in osteoblasts. The
+        ability of TRAIL produced by 
+        S. aureus -infected osteoblasts to
+        mediate osteoblast apoptosis was also examined. Results
+        demonstrate that purified bacterial surface structures and 
+        S. aureus extracellular products
+        present outside osteoblasts are not a sufficient stimulus
+        for TRAIL induction, and that physical contact between
+        bacteria and osteoblasts is required for optimal induction
+        of TRAIL expression. TRAIL produced by 
+        S. aureus -infected osteoblasts does
+        induce caspase-8 activation and apoptosis. Collectively,
+        these results reveal TRAIL induction and caspase-8
+        activation as a mechanism whereby 
+        S. aureus mediates apoptosis in
+        osteoblasts.
       
       
         Results
-        Initially, we used wild type (WT) tBid that was
-        myc-tagged for immunogold electron microscopy in our
-        investigation of its localization along the mitochondrial
-        periphery. Generally, WT tBid was observed to be in close
-        proximity to contact sites (Fig. 1). However, the
-        preservation of the outer membrane of isolated mouse liver
-        mitochondria treated with this tBid was less than optimal
-        for testing the hypothesis of tBid association with contact
-        sites. A significant portion of the outer membrane was
-        absent in most mitochondria observed, which may have been
-        caused in part by the activity of this pro-apoptotic
-        protein in releasing cytochrome c from the region between
-        the outer and inner membranes. Neither was the gold
-        labeling very high, most likely because a stripped outer
-        membrane results in considerably fewer contact sites.
-        Another pitfall was the use of 10-nm gold (as opposed to
-        5-nm gold) particles, which resulted in streaks that
-        sometimes obscured the peripheral membranes (Fig. 1b). Even
-        though harder to see in the microscope, for our analysis of
-        mutant tBid labeling, we resorted to the smaller-sized
-        gold, which greatly diminished the artifactual
-        streaking.
-        To enhance mitochondrial membrane preservation, a point
-        mutation changing the glycine residue at position 94 to
-        glutamic acid in the BH3 domain of tBid was used. This
-        mutation was previously shown to lower the cytochrome c
-        releasing activity of tBid without affecting its targeting
-        to mitochondria [ 3 ] . Mitochondria treated with tBid 
-        G94E displayed better preservation of
-        the outer membrane than those treated with WT tBid. Hence,
-        because of better preservation of contact sites, the tBid 
-        G94E was used primarily for the
-        tomographic analysis. For immunogold labeling, a three-myc
-        tag was placed at residue 67 of Bid 
-        G94E . Following cleavage by caspase 8,
-        a version of tBid 
-        G94E was generated with the three-myc
-        tag at the N-terminus of tBid 
-        G94E . Monoclonal anti-myc antibody was
-        used for immunogold labeling to ensure high specificity of
-        binding.
-        Before performing the time-expensive tomography,
-        analysis of thin sections with conventional electron
-        microscopy was used to judge the immunogold labeling
-        quality. As expected, the number of gold particles per
-        mitochondrion varied. However, most had several particles
-        arrayed along the perimeter (Fig. 2). To confirm the
-        specificity of labeling, three controls were analyzed by
-        thin-section microscopy. Neither the no-primary control
-        (Fig. 2) nor the second control, consisting of replacing
-        the primary antibody with an excess of tBid 
-        G94E (data not shown), showed any gold
-        particles. The third control was the presence of a
-        contaminant organelle, peroxisomes (Fig. 2); no gold
-        particles were observed attached to them. All three
-        controls for labeling specificity indicated that the
-        non-specific immunogold background was very low. Further,
-        on those mitochondrial surfaces where the outer membrane
-        was inadvertently stripped off during the specimen
-        processing, no gold was observed, which is to be expected
-        as there is no contact site where there is no outer
-        membrane.
-        Electron tomography has several advantages over
-        conventional two-dimensional immunogold electron microscopy
-        that should be enumerated to understand the accuracy of the
-        measurements made in this study. First, a more accurate
-        localization of the 5-nm gold particles is possible because
-        each slice of the tomographic reconstruction is about 2 nm
-        in thickness compared with the typical 50-100 nm thickness
-        used in conventional immuno-electron microscopy. Second,
-        because the dimensions of contact sites (~14 nm diameter) [
-        13 14 ] are considerably smaller than 50-100 nm, they are
-        easily missed in conventional microscopy; this problem was
-        removed by the typically finer sampling of electron
-        tomography (~2 nm). Third, because tomography is inherently
-        a 3-D tool, the 3-D placement of gold-labeled tBid 
-        G94E was obtained in relation to the 3-D
-        distribution of contact sites and gold beads at high
-        resolution. Unlike two-dimensional electron micrographs,
-        true Euclidean distance was measured at a resolution of 4
-        nm (twice the pixel size, or thickness, according to
-        Shannon sampling theory) in tomographic reconstructions
-        from each gold bead to the nearest contact site. These
-        measurements were then used for a statistical analysis of
-        association.
-        Tomographic reconstruction of immunogold-labeled
-        semi-thick sections confirmed the preferential association
-        of tBid with contact sites. Figure 3highlights features of
-        a tomographic reconstruction of one of the tBid 
-        G94E -labeled liver mitochondrion used
-        in the statistical analysis. The mitochondrial volume
-        sliced in three perpendicular planes where gold particles
-        can be seen in all three faces (Fig. 3a, arrowheads)
-        emphasizes the vast 3-D information available with
-        tomography. Individual 2-nm slices illustrate how gold
-        particles and contact sites can be easily identified with
-        this hybrid, high-resolution technique (Fig. 3b). The
-        insets in figure 3bshow two examples of gold particles near
-        contact sites. Graphic representations of a segmented
-        volume are shown in figure 3c. Segmentation is a visual
-        tool that defines and dissects volumes and thus aids the
-        interpretation and measurement of structural
-        interrelationships [ 15 ] . Once segmented, volumes were
-        surface-rendered. With the surface-rendered volume, the
-        various components of interest can be oriented to best
-        study the proximity of gold and contact sites in relation
-        to the membrane topology. A wealth of information can be
-        quickly taken in by rotating the segmented volumes
-        http://ncmir.ucsd.edu/~perkins/tBid. For example, it became
-        apparent that contact sites can be clustered (Fig. 3c,
-        right-hand side of mitochondrion).
-        We tested the association of tBid with contact sites by
-        employing the statistics of spatial point patterns [ 16 ] .
-        We measured the distances between the 3-D loci of all
-        contact sites and immunogold particles in the tomographic
-        reconstructions of WT tBid and tBid 
-        G94E labeled mitochondria. The closest
-        contact site to each particle was calculated in Euclidean
-        (3-D) space. Table 1shows a comparison of experimental
-        "nearest neighbors" with nearest neighbors expected from a
-        random distribution of gold. The experimental mean value
-        for nearest contact sites was significantly less than the
-        random mean value for all mitochondria. We conducted a
-        Student's t-test to test the null hypothesis that the
-        experimental mean values would be reasonably likely to be
-        obtained from sampling randomly. The probability of this
-        test for "WT tBid 1" was 7.7 x 10 -6and was even lower for
-        the other samples. Thus, at essentially any significance
-        level, the null hypothesis is rejected and we conclude that
-        the association of tBid with contact sites is not random.
-        For an understanding of what constitutes "close
-        association" of gold particle with contact site, it is
-        important to consider that the finite size of
-        immunoglobulin molecules is about 8-10 nm in the most
-        extended state. Two immunoglobulin molecules were used for
-        the labeling (primary and secondary antibodies). tBid and
-        the myc-tag have molecular weights of ~22 kD and ~67 kD,
-        respectively. Hence, myc-tagged tBid has a size of ~5 nm.
-        The maximal size of the tBid-immunogold complex is thus
-        about 30 nm for 5-nm gold (10+10+5+5 nm). Hence the
-        distance between gold and contact site is not expected to
-        be much less than this value. With this understanding, one
-        can see that experimental means of 23-31 nm, shown in table
-        1, are reasonable values for specific association of tBid
-        with contact sites. This is especially true upon comparing
-        with the mean distances of 70-129 nm from the random
-        placement of gold. Thus, this nearest neighbor statistic
-        provides strong evidence that tBid associates with
-        mitochondrial contact sites.
+        
+          Purified bacterial products in the osteoblast
+          extracellular environment do not induce TRAIL
+          expression
+          In order to determine the role of 
+          S. aureus- derived peptidoglycan
+          and teichoic acid in the expression of TRAIL by 
+          S. aureus -infected osteoblasts,
+          cultured normal human osteoblasts were incubated with
+          various concentrations of these purified cell wall
+          structures (10 ng/ml, 100 ng/ml, or 1 μg/ml).
+          Additionally, osteoblasts were incubated with various
+          concentrations of staphylococcal enterotoxin A (SEA; 10
+          ng/ml, 100 ng/ml, or 1 μg/ml), used here as a
+          representative superantigen from 
+          S. aureus , or with a purified
+          component of gram-negative bacteria, specifically
+          lipopolysaccharide (LPS; 10 ng/ml, 100 ng/ml, or 1
+          μg/ml). The concentrations of staphylococcal
+          peptidoglycan, teichoic acid, SEA, and LPS tested did not
+          induce TRAIL expression in osteoblasts (Fig. 1). Results
+          for the lower concentrations of teichoic acid and SEA (10
+          ng/ml and 100 ng/ml) are not shown. As previously
+          reported [ 41 ] , TRAIL protein was induced in
+          osteoblasts infected with 
+          S. aureus (Fig. 1). These results
+          demonstrate that major surface components from these
+          bacteria in a purified form, present in the osteoblast
+          extracellular environment, are not sufficient to induce
+          TRAIL expression in normal human osteoblasts.
+        
+        
+          Induction of TRAIL by S. aureusrequires physical
+          contact between bacteria and osteoblasts
+          Studies indicate that the invasion ability of bacteria
+          are most relevant to the magnitude of the osteoblast
+          response [ 42 43 ] . In previous experiments examining
+          the production of TRAIL by 
+          S. aureus -infected osteoblasts,
+          bacteria were in direct contact with the cells [ 41 ] ,
+          such that the potential of 
+          S. aureus extracellular products to
+          induce osteoblast expression and secretion of TRAIL could
+          not be addressed. To determine if 
+          S. aureus extracellular products
+          induce TRAIL expression in osteoblasts, normal mouse
+          osteoblasts were grown in 12-well cluster plates. 
+          S. aureus strain UAMS-1 at a MOI of
+          25:1, 75:1, or 250:1 was then added separately to
+          Transwell ®cell culture chamber inserts. The inserts were
+          placed into the 12-well plates containing osteoblasts
+          followed by incubation for 45 minutes. The polycarbonate
+          membrane at the base of each chamber insert contains
+          pores 0.4 μm in size, and precludes direct interaction
+          between the bacteria and osteoblasts. However, the
+          inserts allow for the exchange of extracellular products.
+          Direct physical contact between 
+          S. aureus and osteoblasts at a MOI
+          of 250:1 induced osteoblast TRAIL protein expression
+          (Fig. 2). TRAIL protein was not expressed in osteoblast
+          cultures co-incubated with 
+          S. aureus at various MOIs where
+          physical contact between the bacteria and osteoblasts was
+          prevented (Fig. 2). These results demonstrate that
+          physical contact between the host and pathogen is
+          required for optimal TRAIL induction. The importance of
+          bacterial internalization, however, could not be
+          addressed in these experiments.
+        
+        
+          TRAIL induces apoptosis in osteoblasts
+          TRAIL may mediate a number of physiological responses;
+          therefore, in order to determine if TRAIL expressed by 
+          S. aureus -infected osteoblasts
+          mediates osteoblast apoptosis, cultured normal mouse
+          osteoblasts were infected with 
+          S. aureus strain UAMS-1 at various
+          MOIs in the presence and absence of an anti-human TRAIL
+          polyclonal antibody. Osteoblasts were stained with
+          annexin V and propidium iodide (PI). Redistribution of
+          phosphotidylserine from the inner leaflet to the outer
+          leaflet of the plasma membrane occurs early and is a
+          hallmark of the apoptotic process. Annexin V has a high
+          affinity for phosphatidylserine and was used to detect
+          apoptotic cells. Propidium iodide can be used to
+          distinguish early apoptotic cells from late apoptotic
+          cells. Early apoptotic cells stain positive for annexin V
+          and negative for PI, where as late apoptotic cells stain
+          positive for both annexin V and PI [ 44 ] . After
+          staining, osteoblasts were analyzed using FACS (Fig. 3).
+          Approximately 14.89% of the cells from uninfected
+          osteoblast cultures were annexin V positive. The
+          percentage of annexin V-positive cells increased to
+          32.17% following infection with 
+          S. aureus at a MOI of 75:1,
+          corresponding to a greater than 2-fold increase over that
+          of uninfected control osteoblast cultures. A 25%
+          reduction in annexin V-positive cells was observed in the
+          presence of 1 μg/ml of anti-human TRAIL antibody. A 2
+          μg/ml concentration of anti-TRAIL antibody further
+          reduced the population of annexin V-positive cells to
+          25.42% of total osteoblasts, corresponding to an
+          approximately 40% decrease in the level of annexin
+          V-positive cells in 
+          S. aureus -infected cultures. A
+          dose-dependent decrease in annexin V-positive cells was
+          observed by the addition of increasing amounts of the
+          anti-human TRAIL antibody. These results strongly suggest
+          TRAIL production induces osteoblast apoptosis in 
+          S. aureus -infected osteoblast
+          cultures. The role of TRAIL in 
+          S. aureus -induced apoptosis is
+          likely more significant than what is revealed by these
+          experiments, since an anti-human TRAIL antibody was used
+          to neutralize mouse TRAIL protein. Utilization of an
+          anti-mouse TRAIL antibody would be predicted to further
+          reduce the level of 
+          S. aureus -induced apoptosis in
+          infected mouse osteoblast cultures.
+        
+        
+          S. aureusinduces caspase-8 activation in
+          osteoblasts
+          
+          S. aureus -mediated apoptosis has
+          been reported for a variety of cells including
+          osteoblasts. A recent report demonstrated that 
+          S. aureus -induced apoptosis of
+          epithelial cells involves activation of caspases-8 and-3
+          [ 30 ] . To determine whether caspase-8 is activated in 
+          S. aureus -infected osteoblasts,
+          cultured normal mouse osteoblasts were infected with 
+          S. aureus strain UAMS-1 at various
+          MOIs. As a positive control, osteoblasts were stimulated
+          with cycloheximide (CHX), a compound known to induce
+          caspase-8 activation [ 45 ] . At various times
+          post-infection, endogenous caspase-8 activity was
+          quantified.
+          Activated caspase-8 was detected in uninfected control
+          osteoblast cultures (Fig. 4) and is attributable to
+          apoptosis and cell turnover in the in vitro osteoblast
+          tissue culture system. Osteoblasts infected with 
+          S. aureus at a MOI of 75:1
+          demonstrated a 2-fold increase in activated caspase-8 45
+          min post-infection, which was significantly higher than
+          the level of activated caspase-8 in the uninfected
+          control (p < 0.05) (Fig. 4). This early activation of
+          caspase-8 in 
+          S. aureus -infected osteoblasts
+          coincides with previous observations in other systems.
+          For example, caspase-8 is activated in HeLa cells within
+          1 h following the administration of TRAIL [ 46 ] . The
+          level of caspase-8 activation in osteoblasts exposed to
+          CHX, a known activator of caspase-8 [ 45 ] , was
+          significantly higher than the level of activity in
+          uninfected cells and was equivalent to the level in 
+          S. aureus -infected osteoblasts
+          (Fig. 4). 
+          S. aureus -induced caspase-8
+          activation was sustained for 2 h following infection
+          (data not shown). In fact, the levels of activated
+          caspase-8 were significantly higher at 2 h than at 45 min
+          post-infection in 
+          S. aureus -infected
+          osteoblasts.
+          Caspase-8 has been identified as an initiator caspase
+          activated in death receptor-mediated apoptosis [ 47 ] .
+          Therefore, we investigated whether blockade of TRAIL
+          expressed by 
+          S. aureus -infected osteoblasts had
+          any effect on the levels of caspase-8 enzymatic activity.
+          Mouse osteoblasts were infected with 
+          S. aureus in the presence of
+          increasing concentrations of anti-human-TRAIL antibody.
+          Figure 4demonstrates that anti-TRAIL antibody interferes
+          with caspase-8 activation. A clear dose-response was
+          observed in the levels of caspase-8 enzymatic activity.
+          As the concentrations of the anti-TRAIL antibody
+          increase, the levels of caspase-8 specific activity
+          decrease. The highest concentration of anti-TRAIL
+          antibody utilized significantly reduced the level of
+          caspase-8 enzymatic activity in 
+          S. aureus -infected osteoblast
+          cultures at 45 min and 2 h post-infection (p < 0.05)
+          (Fig. 4and data not shown). These results suggest that
+          caspase-8 activation is mediated by TRAIL, and that
+          induction of apoptosis by TRAIL utilizes an intracellular
+          mechanism involving caspase-8 activation.
+        
       
       
         Discussion
-        Mitochondria are compartmentalized into three spaces by
-        their inner and outer membranes [ 17 ] . The outer membrane
-        surrounds the mitochondria and separates it from the
-        cytosol. The inner and outer membranes unite to form
-        mitochondrial contact sites with protein composition that
-        is still being defined [ 18 ] . It is important to test
-        association of tBid with contact sites using electron
-        microscopy because whereas purification schemes are based
-        on assumptions about what contact sites should contain (and
-        sometimes arrived at close to 100 proteins), these sites
-        have always been defined structurally. As previously noted,
-        contact sites are purported to have a unique lipid
-        environment that is rich in cardiolipin. The presence of
-        cardiolipin has been implicated in the function of numerous
-        mitochondrial proteins including, sites I and III of the
-        electron transport chain, the adenine nucleotide
-        transporter, the protein translocation machinery, and the
-        localization of mitochondrial creatine kinase [ 19 20 21 22
-        ] .
-        tBid 
-        G94E was used predominantly for testing
-        the hypothesis of localization of tBid to contact sites.
-        Although this mutant translocates to mitochondria as
-        efficiently as does the WT with diminished disruptive
-        effect on the outer membrane, it seems conceivable that
-        tBid harbors two distinct signals, one for translocation to
-        mitochondria, and the other for interaction with proteins
-        or lipids to exert its pro-apoptotic function. Disruption
-        of this latter signal via mutation might alter tBid's
-        submitochondrial localization, while preserving the outer
-        membrane. We showed that WT tBid was not randomly localized
-        with respect to contact sites. The mean experimental
-        distance between gold particles and contact sites (53 nm;
-        see table 1), though, was significantly higher than those
-        values for tBid 
-        G94E (23-31 nm; table 1). This increased
-        distance for WT tBid is likely due to two factors that
-        affect the visualization of contact sites. First, tBid may
-        have degraded the outer membrane, so that the nearest
-        contact site is not always recognized as such. Second, the
-        streaking caused by reconstructing the 10-nm gold particles
-        used for WT tBid labeling may have obscured the nearest
-        contact site in a few instances. Hence, whereas our
-        analysis cannot disprove the hypothesis that by mutating
-        tBid its submitochondrial localization was changed, it
-        seems more likely that the greater value for WT tBid is
-        caused by the factors mentioned above. Thus, it appears
-        that the conclusion of tBid localization to contact sites
-        can be applied more generally than the narrow
-        interpretation of tBid 
-        G94E localization only.
-        Truncated Bid, as other BH3-only proteins, requires
-        another protein such as Bax or Bak to exert its
-        pro-apoptotic function [ 23 24 ] . Interestingly, tBid was
-        found associated with mitochondrial contact sites (Figs.
-        1and 2) and was shown to destabilize lipid membranes in
-        vitro (along with Bax) by increasing the permeabilization
-        of artificial liposomes [ 25 26 ] . Therefore it is
-        possible that tBid can bind to the cardiolipin rich contact
-        site membranes and destabilize them by inducing Bax or Bak
-        to oligomerize. The membrane destabilization may cause a
-        secondary effect of inhibiting the action of the proteins
-        located there. This hypothesis would account for how tBid
-        affects the function of many different processes without
-        binding directly to several proteins. Indeed it was found
-        that the targeting of tBid to mitochondria-like membranes
-        occurs in the absence of proteins, yet depends upon
-        cardiolipin being in a possibly unique structure as opposed
-        to free cardiolipin [ 9 ] . The requirement for a specific
-        cardiolipin structure that is likely defined by the contact
-        site is consistent with our observation that no gold
-        particles were found in regions stripped of the outer
-        membrane exposing the cardiolipin-rich inner membrane.
-        After the induction of apoptosis, mitochondria display
-        two distinct phases of damage. Early in the process the
-        outer membrane becomes permeable, without rupture (Although
-        this is controversial [ 27 ] .), to several proteins found
-        in the mitochondrial inner membrane space including
-        cytochrome c, in which contact sites have a probable role [
-        28 ] . During this early phase, though, the inner membrane
-        remains intact and mitochondria still retain their protein
-        import machinery [ 29 ] . Later in the process there is
-        swelling and herniation of the matrix leading to a
-        distension of the cristae [ 8 30 ] .
-        Many factors could contribute to the structural changes
-        observed in mitochondria. tBid and other pro-death proteins
-        such as Bax or Bak could destabilize the membrane leading
-        to the observed changes. Additionally loss of contact site
-        and inner membrane integrity could indirectly cause
-        alterations in ion exchange and lead to the flow of water
-        into the matrix. The loss of cytochrome c causes a break in
-        the electron transfer chain resulting in the production of
-        reactive oxygen species [ 31 ] . Reactive oxygen species
-        are known to cause the oxidation and loss of function of
-        many lipids including cardiolipin [ 20 ] . Finally,
-        caspases activated downstream of cytochrome c release have
-        been implicated in mitochondrial damage [ 29 ] . It appears
-        likely that the cumulative damage of these agents could
-        lead to the irreversible loss of mitochondrial membrane
-        integrity and structure.
+        TRAIL is a member of the TNF gene superfamily of
+        receptors and ligands and was discovered based on sequence
+        homology to other members of the superfamily using an EST
+        database [ 48 ] . Among other family members, TRAIL is most
+        similar to Fas ligand, sharing 28% homology. TRAIL can be
+        expressed as a membrane-bound protein or solubilized by
+        metalloendoproteinase cleavage. The bioactive form of TRAIL
+        is as a homotrimer [ 49 ] . There are five known human
+        TRAIL receptors, including R1, R2, R3, R4, and
+        osteoprotegerin (OPG); however, R1 and R2 are the only
+        TRAIL receptors known to contain complete death domains.
+        The signaling pathways of TRAIL and its receptors are not
+        fully known [ 50 ] ; however, recent studies suggest TRAIL
+        activates pathways similar to those activated by TNF and
+        its receptors [ 49 ] . Binding of TRAIL to death-domain
+        containing receptors can cause apoptosis via activation of
+        caspase-8 in Jurkat and HeLa cells [ 46 49 ] .
+        We have previously demonstrated that 
+        S. aureus induces TRAIL expression in
+        normal human and mouse osteoblasts [ 41 ] . Messenger RNA
+        encoding TRAIL is rapidly and dramatically up-regulated
+        following exposure of osteoblasts to 
+        S. aureus . TRAIL mRNA expression is
+        absent in uninfected cultures and shows a dose-dependent
+        response to 
+        S. aureus . In contrast to the
+        inducible nature of TRAIL mRNA, the messages encoding
+        death-domain-containing TRAIL receptors are constitutively
+        expressed in human and mouse osteoblasts [ 41 ] .
+        Additionally, TRAIL protein is expressed and secreted
+        following infection of osteoblasts with 
+        S. aureus . In contrast, uninfected
+        osteoblasts do not express significant amounts of TRAIL
+        protein.
+        The current study examined possible mechanisms whereby 
+        S. aureus induces TRAIL expression in
+        osteoblasts. Osteoblasts were incubated with various
+        concentrations of major surface components of 
+        S. aureus , peptidoglycan and
+        teichoic acid, as well as LPS of gram-negative bacteria to
+        determine if these were potential inducers of TRAIL
+        expression. These bacterial components were chosen based on
+        their ability to induce inflammatory responses. The two
+        major components of the staphylococcal cell wall,
+        peptidoglycan and lipoteichoic acid have been reported to
+        produce inflammation [ 51 52 ] and specifically to induce
+        arthritis [ 53 ] . Bacterial peptidoglycan is also known to
+        stimulate the bone-resorbing activity of macrophages [ 54 ]
+        . Furthermore, staphylococci produce an array of secreted
+        products capable of inducing or sustaining inflammation.
+        For example, the staphylococcal superantigens induce
+        prolonged inflammatory responses associated with arthritis
+        and destruction of bone connective tissue [ 55 ] .
+        Our results demonstrate that peptidoglycan, teichoic
+        acid, LPS, and the staphylococcal superantigen
+        staphylococcal enterotoxin A (SEA), when present in the
+        osteoblast extracellular environment, do not induce TRAIL
+        expression (Fig. 1). These findings do not eliminate the
+        possibility that these bacterial structures contribute to
+        TRAIL induction. They are nevertheless insufficient by
+        themselves to elicit such a response in osteoblasts exposed
+        extracellularly to the molecules at the concentrations
+        analyzed. The concentrations of bacterial products chosen
+        were based on previous reports suggesting these amounts are
+        appropriate and sufficient to elicit cytokine responses
+        from human cells [ 56 57 ] . It is possible that one or
+        more of the purified products analyzed contribute to TRAIL
+        induction, but only if expressed inside osteoblasts.
+        While intracellular 
+        S. aureus is known to induce TRAIL
+        expression in osteoblasts [ 41 ] , the ability of
+        extracellular staphylococcal products to induce TRAIL
+        expression has not been previously investigated. Results
+        from the Transwell ®co-culture experiments (Fig. 2)
+        demonstrate that extracellular bacterial products do not
+        induce TRAIL expression. 
+        S. aureus at a MOI of 25:1, 75:1, or
+        250:1 was unable to induce TRAIL expression when direct
+        contact between bacteria and osteoblasts was precluded.
+        Even at the highest MOI used, no TRAIL was detected in
+        response to the co-incubation with 
+        S. aureus . The bacteria must be in
+        physical contact, and potentially internalized by the
+        osteoblasts, before TRAIL expression is induced. These
+        findings could indicate that attachment of 
+        S. aureus to osteoblasts initiates a
+        cascade ultimately inducing TRAIL expression.
+        Alternatively, intracellular bacteria may be the only 
+        S. aureus cells capable of inducing
+        TRAIL expression by osteoblasts.
+        TRAIL clearly mediates cell death in other tissues, but
+        also has the potential to mediate a variety of other
+        physiological responses in bone. Osteoblasts are known to
+        secrete tumor necrosis factor-related activation-induced
+        cytokine (TRANCE) (RANK-L), which acts on the TRANCE
+        receptor (TRANCE-R) (RANK) found on osteoclast precursors.
+        Binding of TRANCE to TRANCE-R induces osteoclastogenesis
+        and therefore bone resorption. Osteoblasts are also known
+        to secrete osteoprotegerin (OPG), which binds TRANCE, thus
+        inhibiting osteoclastogenesis. Because OPG is a soluble
+        receptor for TRAIL [ 58 ] , 
+        S. aureus -induced TRAIL secretion
+        could have a profound effect on both osteoblasts and
+        osteoclasts. Therefore, the ability of TRAIL expressed by 
+        S. aureus -infected osteoblasts to
+        mediate osteoblast apoptosis was examined.
+        
+        S. aureus induces osteoblast
+        apoptosis [ 34 ] . When osteoblasts were exposed to 
+        S. aureus at a MOI of 75:1, the
+        percentages of annexin V-positive cells increased from
+        14.89% to 32.17% of cells in culture (Fig. 3). Numbers of
+        annexin V-positive cells were reduced 40% by the addition
+        of anti-TRAIL antibody (2 μg/ml) to 
+        S. aureus -infected osteoblast
+        cultures. While the antibodies did not completely inhibit 
+        S. aureus -induced apoptosis, these
+        results demonstrate that TRAIL contributes to apoptosis in 
+        S. aureus -infected cultures.
+        TRAIL-mediated apoptosis of 
+        S. aureus -infected osteoblasts
+        suggests a mechanism whereby 
+        S. aureus induces the bone loss and
+        destruction associated with osteomyelitis. The inability of
+        the anti-TRAIL antibodies to completely block apoptosis
+        induced by 
+        S. aureus may be attributable to the
+        specificity of the antibody used for these experiments or
+        the dosage used, since an anti-human TRAIL antibody was
+        used to neutralize mouse TRAIL protein. The role of TRAIL
+        in 
+        S. aureus -induced apoptosis is
+        therefore likely to be more significant than what is
+        revealed by these experiments. Utilization of an anti-mouse
+        TRAIL antibody would be predicted to be more effective in
+        reducing the level of 
+        S. aureus -induced apoptosis in
+        infected mouse osteoblast cultures. In addition, 
+        S. aureus may also induce apoptosis
+        by a mechanism distinct from TRAIL. It is known, for
+        example, that 
+        S. aureus α-toxin induces apoptosis
+        in Jurkat cells via the Bcl-2-controlled mitochondrial
+        death pathway [ 32 ] ; therefore, neutralization of TRAIL
+        would not be expected to interfere with this mechanism of
+        apoptosis induction.
+        TRAIL-induced apoptosis involves activation of caspase-8
+        in other systems. Earlier studies have shown that blockade
+        of caspase-8 activation in HeLa cells and deletion of
+        caspase-8 in Jurkat cells prevented activation of
+        downstream signaling, resulting in a failure of the cells
+        to undergo apoptosis in response to TRAIL [ 46 ] .
+        Similarly, another group has demonstrated that apoptosis
+        induced by 
+        S. aureus in bovine mammary
+        epithelial (MAC-T) cells utilizes a mechanism involving
+        caspases-8 and -3, which are two key components of the
+        proteolytic cascade that leads to apoptosis [ 30 ] .
+        Results from the current study demonstrate a two-fold
+        increase in caspase-8 activation upon infection with 
+        S. aureus (Fig. 4). Active caspase-8
+        was detected in uninfected control osteoblast cultures
+        (Fig. 4), and is attributable to apoptosis and cell
+        turnover in the in vitro osteoblast tissue culture systems.
+        The level of activated caspase-8 in 
+        S. aureus -infected osteoblasts was
+        significantly higher than the level of activated caspase-8
+        in uninfected osteoblast control cultures (p < 0.05).
+        Caspase-8 activation in osteoblasts exposed to CHX was also
+        higher than the level of activity in uninfected cells, but
+        equivalent to the level in infected osteoblasts (Fig. 4).
+        These results demonstrate that 
+        S. aureus is a potent inducer of
+        caspase-8 activation in osteoblasts, equivalent to a known
+        inducer of caspase-8 [ 45 ] . Overall, the levels of
+        caspase-8 enzymatic activity at 2 h were significantly
+        higher compared to the ones obtained 45 min post-infection
+        (data not shown). Neutralization of TRAIL by the addition
+        of the anti-TRAIL antibody interfered with caspase-8
+        activation, demonstrating a dose-dependent response. As the
+        concentrations of the anti-TRAIL antibody increased, the
+        levels of caspase-8 activation decreased. The highest
+        concentration of antibodies used significantly reduced the
+        level of caspase-8 activation in 
+        S. aureus -infected osteoblast
+        cultures (p < 0.05). These findings demonstrate that
+        activation of caspase-8 in 
+        S. aureus -infected osteoblasts is at
+        least in part TRAIL-dependent.
       
       
         Conclusions
-        In conclusion, we have combined the techniques of
-        immunogold microscopy and electron tomography to determine
-        visually and by statistical analysis that tBid is
-        preferentially concentrated at contact sites rather than
-        being randomly distributed along the outer membrane. For
-        the first time, immunogold electron tomography permitted a
-        quantitative demonstration of 3-D organellar protein
-        labeling with antibodies. The method described is
-        envisioned to broaden biological applications of
-        ultrastructural immunogold labeling techniques especially
-        in investigations dealing with compartmentalization of
-        functional elements. For example, many organelles,
-        including the nucleus, endoplasmic reticulum, and Golgi
-        apparatus, have a complex organization with a unique
-        distribution of proteins throughout each. Immunoelectron
-        tomography is starting to be a useful tool in determining
-        how the distribution of proteins may provide clues as to
-        their targets or scope of action [ 32 ] .
+        Collectively, these findings reveal that 
+        S. aureus induces apoptosis in
+        osteoblasts via a mechanism involving TRAIL induction and
+        caspase-8 activation. Induction of TRAIL by 
+        S. aureus requires the bacteria to be
+        in contact with and potentially internalized by the
+        osteoblasts. Although the exact mechanism whereby 
+        S. aureus induces TRAIL expression
+        remains to be determined, this study suggests that major
+        bacterial surface structures present in the osteoblast
+        extracellular environment do not induce TRAIL. Since TRAIL
+        mediates a number of physiological responses, the impact of
+        
+        S. aureus -induced TRAIL expression
+        on normal bone physiology should be explored. The role of 
+        S. aureus -induced TRAIL in apoptosis
+        and osteoclastogenesis in vivo is currently being
+        examined.
       
       
-        Materials and Methods
+        Methods
         
-          Generation of Bid and caspase 8 proteins
-          Full length human Bid and caspase 8 cDNA were obtained
-          as described (Luo et al 1998). A three myc-tag
-          recognizing the sequence EQKLISEEDL was placed into
-          position 67 in the cDNA of full length Bid. A point
-          mutation changing glycine 94 to glutamic acid was made
-          into three-myc Bid using the primers
-          5'-GCCCAGGTCGAGGACAGCATG-3' and
-          5'-CATGCTGTCCTCGACCTGGGC-3' using standard techniques.
-          Both vectors were confirmed by DNA sequencing.
-          Bacterially expressed proteins were made as previously
-          described [ 3 ] .
-        
-        
-          Preparation of mitochondria for immunogold electron
-          microscopy
-          Mouse liver mitochondria were prepared fresh and
-          treated with 1 ng myc-tagged tBid 
-          G94E / 100 μg of mitochondrial
-          protein. Mitochondria were then washed 2X in mitochondria
-          isolation buffer (MIB, 250 mM mannitol, 5 mM HEPES pH
-          7.2, 0.5 mM EGTA, and 0.1% (w/v) bovine serum albumin)
-          and weakly fixed with fresh 1% paraformaldehyde in MIB
-          for 15 min on ice. Mitochondria were pelleted (in all
-          steps at 10,000 x g for 3 min at 4°C) and resuspended in
-          blocking buffer (1% bovine serum albumin, 1% normal goat
-          serum, 1% cold water fish gelatin, 0.04% glycine in MIB)
-          for 15 min on ice. They were then pelleted and
-          resuspended in working buffer (blocking buffer diluted 10
-          x in MIB) containing the primary antibody, anti-myc
-          (1:1000) for 1 hr on ice. The no-primary control omitted
-          the previous step only. A second control consisted of
-          replacing the primary antibody with an excess of tBid 
-          G94E and continuing as with the
-          primary antibody. Mitochondria were washed 4 x 4 min in
-          working buffer and incubated with the indicated
-          anti-mouse secondary antibody conjugated to 10-nm (used
-          for wild-type tBid) or to 5-nm (used for tBid 
-          G94E ) gold beads (1:50 Amersham) for
-          1 hr on ice in working buffer. Subsequently, they were
-          washed 4 x 4 min with working buffer to remove unbound
-          secondary antibody and rinsed 1 x in cacodylate buffer
-          (0.1 M sodium cacodylate. Electron Microscopy Sciences,
-          Ft. Washington, PA).
-          Mitochondria were centrifuged and the pellet was kept
-          intact for all remaining steps. The mitochondrial pellets
-          were fixed in 2% glutaraldehyde in cacodylate buffer for
-          one hour on ice and rinsed 3 x 4 min in cacodylate
-          buffer. The mitochondrial pellets were incubated with 1%
-          osmium tetroxide (Electron Microscopy Sciences) in
-          cacodylate buffer for one hour on ice, followed by
-          rinsing 3 x 4 min in ice-cold double-distilled water. The
-          pellets were dehydrated using a successive ethanol series
-          of 20, 50, 70, and 90% in double distilled water for 10
-          min each on ice. The pellets were further dehydrated at
-          room temperature 2 x in 100% ethanol for 5 min and 2 x in
-          100% acetone for 5 min each.
-          Pellets were transferred to glass scintillation vials
-          for resin (Durcupan ACM, EMS) infiltration. The pellets
-          were first incubated in a sequence of 70% ethanol/30%
-          resin, 50% ethanol/50% resin, and 30% ethanol/70% resin
-          for 30 min each at room temperature. Pellets were then
-          infiltrated 3 x 1 hr in 3 ml of 100% resin. After the
-          final incubation, the resin-infiltrated pellet plus
-          excess resin were poured into aluminum dishes and
-          polymerized at 60°C for 36 hr.
+          Normal mouse osteoblast cell culture
+          Normal osteoblast cell cultures were prepared from
+          mouse neonates according to a method previously described
+          for chicken embryos [ 59 ] . Bone-forming cells were
+          isolated from mouse neonate calvariae by sequential
+          collagenase and protease digestions. The periostea were
+          removed, the frontal bones were harvested free of the
+          suture regions, and the bones were incubated for 10 min
+          at 37°C in 10 ml of digestion medium, containing
+          collagenase (375 U/ml, type VII; Sigma Chemical Company,
+          St. Louis, Mo.) and protease (7.5 U/ml; Sigma). The
+          digestion medium and released cells were removed and
+          discarded. Ten milliliters of fresh digestion medium was
+          added, and incubation was continued for 20 min. Cells
+          were harvested by centrifugation and rinsed 3 times in 25
+          mM HEPES-buffered Hanks' balanced salt solution (pH 7.4;
+          HBSS). The digestion step was repeated twice, and the 3
+          cell isolates were pooled in mouse osteoblast growth
+          medium (OBGM), consisting of Dulbecco's modified Eagle's
+          medium containing 25 mM HEPES, 10% fetal bovine serum
+          (Sigma), 2 g of sodium bicarbonate per liter, 75 μg of
+          glycine/ml, 100 μg of ascorbic acid/ml, 40 ng of vitamin
+          B 
+          12 /ml, 2 μg of 
+          p -aminobenzoic acid/ml, 200 ng of
+          biotin/ml, and penicillin (100 U/ml)-streptomycin (100
+          μg/ml)-amphotericin B (25 μg/ml) (pH 7.4) [ 60 ] . Cells
+          were seeded in six-well cluster plates and incubated at
+          37°C in a 5% CO 
+          2 atmosphere until they reached
+          confluence (6 to 7 days).
         
         
-          Electron microscopy and tomographic
-          reconstructions
-          Tomographic reconstructions were performed as
-          described previously [ 13 ] . Briefly, thin-sectioned
-          material (~80-nm thick) was examined using a JEOL 1200FX
-          electron microscope. Thick-sectioned material was
-          examined with a JEOL 4000EX microscope operating at 400
-          keV. The 0.75 μm thick sections were tilted through 120°
-          of rotation, and electron micrographs were taken in 2°
-          increments. Using the SUPRIM software package, Four tilt
-          series from different sections consisting of 61 tilt
-          images each were then digitized, aligned, and back
-          projected using R weighting to generate the volume
-          information. Volume segmentation of the reconstructed
-          mitochondria using Xvoxtrace software was used to
-          delineate the inner boundary membrane, cristae, outer
-          membrane, contact sites, and gold particles. This
-          information was used to construct surface-rendered
-          computer graphic representations using the SYNU software
-          package. Gold particles were represented by gold spheres
-          in the surface-rendered volume.
+          Characterization of normal mouse osteoblasts
+          Mouse osteoblasts were grown on glass coverslips in
+          24-well plates until they were confluent; they were then
+          fixed and permeabilized using CytoFix/CytoPerm according
+          to the methods recommended by the manufacturer
+          (PharMingen, San Diego, Calif.). Rabbit antibodies
+          specific for osteocalcin (1:100 dilution; Peninsula
+          Laboratories, Belmont, Calif.), type I collagen (1:40
+          dilution; Chemicon, Temecula, Calif.), alkaline
+          phosphatase (1:40 dilution; Sigma), or keyhole limpet
+          hemocyanin (1:40 dilution) were incubated on cell
+          preparations for 45 min at 4°C. After unbound antibody
+          was washed off, a phycoerythrin-conjugated goat
+          anti-rabbit immunoglobulin G antibody (1:50 dilution;
+          Sigma) was added with incubation for 45 min at 4°C. After
+          the samples were washed, at least 500 cells were scored
+          for positive fluorescence using an Olympus BX60
+          fluorescence microscope. Osteocalcin, type I collagen,
+          and alkaline phosphatase were selected for analysis,
+          since the expression of these proteins has been used to
+          define osteoblasts as such [ 61 62 63 ] .
         
         
-          Statistical analysis
-          To determine whether immunogold-labeled tBid is
-          spatially clustered or randomly located about contact
-          sites, a spatial point pattern statistics was used,
-          namely, the nearest neighbor statistic [ 16 ] . The
-          Euclidean distances from each immunogold particle to all
-          of the contact sites in the reconstruction was calculated
-          for all the particles using a similar approach to that
-          described by Perkins and coworkers [ 13 ] . The nearest
-          neighbor statistic was calculated for the reconstruction
-          using the closest observed contact site to each gold
-          particle and then calculating the mean and standard
-          deviation for all such measurements in a reconstructed
-          mitochondrion. These values were compared with those
-          derived from simulations in which the same number of gold
-          particles determined empirically were randomly placed on
-          the mitochondrial surface.
+          Normal human osteoblast cultures
+          Normal human osteoblasts (Clonetics, San Diego,
+          Calif.) were propagated according to the guidelines
+          provided by the vendor. Cells were seeded in 25-cm
+          2flasks and incubated at 37°C in a 5% CO 
+          2 atmosphere in medium supplied by the
+          manufacturer; this medium contains 10% fetal bovine
+          serum, ascorbic acid, and gentamicin. After the cells
+          reached approximately 80% confluence (5 to 9 days), they
+          were removed from flasks with 0.025% trypsin-0.01% EDTA,
+          washed in medium, and seeded into six-well plates. Cells
+          were used as described below once they reached
+          approximately 80% confluence (6 to 7 days). These
+          commercially available cells have been extensively
+          characterized as osteoblasts [ 61 64 ] .
+        
+        
+          Bacterial strain and growth conditions
+          
+          S. aureus strain UAMS-1 (ATCC
+          49230) (osteomyelitis clinical isolate) was grown
+          overnight in 5 ml of tryptic soy broth at 37°C with
+          aeration. Bacteria were harvested by centrifugation for
+          10 min at 4,300 × 
+          g at 4°C and washed in 5 ml of
+          HBSS. Bacteria were then resuspended in mouse OBGM.
+        
+        
+          Infection and invasion assay
+          Following resuspension of bacteria in OBGM, bacterial
+          cell density was determined via spectrophotometric
+          analysis. Cells were then diluted in OBGM to obtain the
+          desired multiplicity of infection (MOI). Osteoblasts were
+          infected with 
+          S. aureus at a MOI of 25:1, 75:1,
+          or 250:1 ( 
+          S. aureus organisms to
+          osteoblasts). The highest MOIs used resulted in
+          approximately one internalized bacterium per osteoblast
+          in culture (data not shown). Following a 45 min
+          infection, osteoblasts were washed three times with HBSS
+          and incubated in medium containing 25 μg of gentamicin
+          per ml to kill extracellular bacteria. At various times
+          following bacterial invasion, osteoblasts were lysed and
+          total osteoblast protein isolated for further
+          analysis.
+        
+        
+          Osteoblast lysis and protein isolation
+          Osteoblasts were washed twice with phosphate-buffered
+          saline (PBS) pH 7.4. One ml of PBS was then added to each
+          tissue culture well and osteoblasts were harvested by
+          scraping. Osteoblasts in PBS were transferred to
+          microcentrifuge tubes and collected by centrifugation at
+          13,600 × 
+          g for 3 min at 4°C using a Fisher
+          Scientific Micro-Centrifuge. Pellets were washed with 1
+          ml of PBS and then resuspended in 100 μl of whole extract
+          lysis buffer (20 mM Tris pH 7.4, 137 mM NaCl, 25 mM
+          β-glycerolphosphate pH 7.4, 2 mM PPiNa, 2 mM EDTA pH 7.4,
+          1% Triton X-100, and 10% glycerol). Following the
+          addition of lysis buffer, samples were incubated on ice
+          for 15 min and then centrifuged at 13,600 × 
+          g for 5 min at 4°C. Cell lysates
+          were transferred to fresh microcentrifuge tubes. Protein
+          concentrations of the cell lysates were quantified as
+          described [ 65 ] and the samples then stored at -80°C
+          until analyzed by western immunoblot techniques.
+        
+        
+          Exposure of osteoblasts to purified bacterial
+          products
+          Cultured normal human osteoblasts were seeded into
+          6-well cluster plates in medium provided by the
+          manufacturer and incubated at 37°C in a 5% CO 
+          2 atmosphere. After the cells reached
+          approximately 80% confluence (5 to 9 days), they were
+          treated with purified lipopolysaccharide (LPS),
+          staphylococcal peptidoglycan, teichoic acid, or
+          staphylococcal enterotoxin A (Sigma Chemical Company, St.
+          Louis, Mo.) over a range of concentrations. Following a
+          24 h exposure, osteoblasts were lysed and total
+          osteoblast proteins isolated and analyzed using western
+          immunoblot techniques.
+        
+        
+          Transwell co-cultures of S. aureusand normal mouse
+          osteoblasts
+          Normal mouse osteoblasts were grown in 12-well cluster
+          plates containing 1.5 mL of growth medium per well. 
+          S. aureus at an MOI of 25:1, 75:1,
+          or 250:1 was added separately to Transwell ®cell culture
+          chamber inserts in 0.5 ml of growth medium. Inserts were
+          placed into the 12-well plates containing osteoblasts for
+          45 minutes. The polycarbonate membrane at the base of
+          each chamber insert contains pores 0.45 μm in size and
+          precludes direct interaction between the bacteria and
+          osteoblasts. However, the pore size allows for the
+          exchange of extracellular products. Following the
+          45-minute incubation, chamber inserts were removed,
+          osteoblasts lysed and proteins analyzed using western
+          immunoblot techniques.
+        
+        
+          FACS analysis of apoptosis
+          The Vybrant Apoptosis Assay Kit (Molecular Probes,
+          Eugene, OG) was used to detect osteoblast apoptosis.
+          Briefly, normal mouse osteoblasts were infected with 
+          S. aureus strain UAMS-1 at various
+          MOI in the presence and absence of an anti-TRAIL
+          polyclonal antibody (rabbit anti-human TRAIL/Apo2L, Cell
+          Sciences, Inc., Norwood, MA). Following a 45-minute
+          incubation, osteoblasts were washed 3 times with HBSS and
+          incubated in medium containing 25 μg of gentamicin per ml
+          to kill extracellular bacteria. Anti-TRAIL antibody was
+          added to the cultures again to neutralize any TRAIL
+          produced by the osteoblasts in response to the infection.
+          At various times post-infection, osteoblasts were
+          incubated with 0.025% trypsin-0.01% EDTA for 10 min at
+          37°C, collected by centrifugation, washed with PBS, and
+          stained with Alexa Fluor 488 annexin V and propidium
+          iodide according to published guidelines. Cells were
+          analyzed using a fluorescence-activated cell sorter
+          (FACSCalibur, Becton Dickinson, San Jose, CA).
+        
+        
+          Detection of Caspase-8 activity
+          Caspase-8 enzymatic activity was detected using a
+          caspase-8 fluorometric kit (R&D Systems, Minneapolis,
+          MN) according to published guidelines. Briefly, cultured
+          normal mouse osteoblasts were infected with 
+          S. aureus in the presence or
+          absence of anti-TRAIL polyclonal antibody as described
+          above or stimulated with cychloheximide (10 μg/ml). At
+          various time points, osteoblasts were lysed with lysis
+          buffer and total protein concentration determined as
+          described [ 65 ] . Cell lysates were incubated with the
+          caspase-8 fluorogenic substrate (IETD-AFC) at 37°C for 2
+          h. Sample fluorescence was detected using a CytoFluor
+          multi-well plate reader (Applied Biosystems, Foster City,
+          CA), where the amount of fluorescence directly
+          corresponds to the amount of caspase-8 activity.
+        
+        
+          SDS-PAGE and western immunoblot analysis
+          Equivalent amounts of protein from the cell lysate
+          fractions described above were mixed with concentrated 2X
+          sodium dodecyl sulfate (SDS)-polyacrylamide gel
+          electrophoresis (PAGE) loading buffer (0.125 M Tris-HCL
+          [pH 6.8], 4% [wt/vol] SDS, 10% [vol/vol]
+          2-mercaptoethanol, 20% [vol/vol] glycerol, 0.01% [wt/vol]
+          bromophenol blue), boiled for 5 min, and cleared by
+          centrifugation at 13,600 × 
+          g for 5 min. Osteoblast proteins
+          were separated by SDS-PAGE as described by Laemmli [ 66 ]
+          . The proteins were then electrophoretically transferred
+          to polyvinylidene difluoride membranes (Fisher Biotech),
+          using the Mini Trans-Blot apparatus (BioRad, Hercules,
+          CA) at 300 mA for 1 h at 4°C according to manufacturer's
+          recommendations. Membranes were blocked with Buffer A
+          (Tris-buffered saline (TBS) (Bio-Rad) containing 5.0%
+          skim milk and 0.5% Tween 20 (Sigma)) for 1 h with gentle
+          shaking, then washed with Buffer B (TBS containing 0.1%
+          Tween 20) 3 times for 5 min each. A two-step detection
+          method was used to identify TRAIL. Blots were first
+          incubated overnight with gentle shaking at 4°C with
+          rabbit anti-human TRAIL polyclonal antibodies (Cell
+          Sciences, Inc., Norwood, MA) at a concentration of 0.2
+          μg/ml in Buffer A. Membranes were then washed the
+          following day 3 times for 5 min in Buffer B with gentle
+          shaking, then incubated for 1 h with gentle shaking at
+          room temperature with horseradish peroxidase
+          (HRP)-conjugated anti-rabbit immunoglobulin G (Amersham
+          Biosciences Corp., Piscataway, NJ) diluted 1:5000 in
+          Buffer A. Reactive proteins were visualized by enhanced
+          chemiluminescence (Amersham, Arlington Heights, IL)
+          following exposure to X-ray film and subsequent film
+          development.
         
       
       
-        Abbreviations
-        MIB - Mitochondrial Isolation Buffer
-        SDS - PAGE-Sodium Dodecylsulfate-Polyacrylamide Gel
-        Electrophoresis
-        tBid - Truncated Bid, the C-terminal portion of Bid
-        after cleavage by caspase-8.
-        tBid 
-        G94E - A point mutation changing glycine
-        94 to glutamic acid in three-myc Bid.
+        Authors Contributions
+        EHA carried out the studies to examine the influence of
+        purified bacterial products and cell culture inserts, and
+        measures of apoptosis
+        FAR performed the caspase studies
+        IM performed FACS analysis
+        JA performed FACS analysis
+        KLB conceived of the design of the study
+        MCH conceived of the design of the study, and
+        coordinated the experiments
+        All authors read and approved the final manuscript
       
     
   

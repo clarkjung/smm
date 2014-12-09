@@ -3,557 +3,854 @@
     
       
         Background
-        Modern drug discovery is concerned with identification
-        and validation of novel protein targets from among the
-        >30,000 genes postulated to be present in the human
-        genome [ 1 ] . In understanding the importance of any new
-        gene and its connection to a given phenotype, there is the
-        need to know the immediate "neighborhood" of partners for
-        each gene product since they are most likely involved in
-        the action of the gene product. In this regard, there are
-        few if any new chemical entities (NCEs) capable of
-        regulating protein:protein interactions as either agonists
-        or antagonists. In the past, peptides have sometimes been
-        used to obtain information about protein:protein
-        interactions as well as regulate their activity [ 2 3 ] .
-        This has most often been accomplished with libraries
-        consisting of peptides between <15 amino acids in
-        length. Using this approach, peptides have been identified
-        which act as agonists and antagonists though, in most
-        cases, these peptides have not shown any sequence homology
-        to the natural ligand [ 4 5 6 ] . Clearly these peptides
-        did not use any of the natural amino acid contacts required
-        for binding of the growth factors to their receptors. As
-        these peptides were functional but not compositional
-        mimics, they lacked primary sequence information useful for
-        identifying (by motif, sequence identity or similarity) the
-        true biological partner. These results are not surprising
-        since the putative contact domains between receptors and
-        hormones are expected to be conformational and short
-        peptides were probably unable to mimic a large
-        three-dimensional shape. In this report, we describe a
-        novel post-genomic approach (called Phenogenix ®) that
-        involves the use of complex and random peptide libraries of
-        large size (up to 40 amino acids) and diversity (>10
-        11independent clones per library) in combination with
-        computational analysis for garnering information on the
-        natural biological partners and pathways [ 7 ] . We also
-        show that the specificity of these peptides can be improved
-        by mutation at the DNA level that has implications for
-        phenotyping and the development of Site Directed Assays.
-        Overall, the data indicates that the surrogate peptides,
-        derived in this manner, can contain sequence information
-        regarding the natural contact domains for both
-        protein:protein and protein:non-protein interactions.
+        The Carbon Catabolite Repressor 4 factor in 
+        Saccharomyces cerevisiae (yCCR4)
+        regulates the expression of a number of genes involved in
+        nonfermentative growth [ 1 ] , in cell wall integrity [ 2 ]
+        , in UV sensitivity [ 3 ] , and in methionine biosynthesis
+        [ 4 ] . yCCR4 is an essential component of several
+        complexes involved in transcription. A first one is the
+        CCR4-NOT multi-subunit group of proteins, which comprises
+        at least two complexes of 1.0 and 1.9 MDa. The 1.0 MDa
+        complex contains yCCR4, yPOP2 (also referred to as yCAF1)
+        and at least five yNOT1-5 proteins [ 5 6 7 ] . In this
+        complex, yPOP2 independently binds to yCCR4 and yNOT1, and
+        is absolutely required for yCCR4 to associate with the 1.0
+        MDa complex [ 6 7 ] . In the 1.9 MDa complex, yCCR4 binds
+        to proteins such as yDBF2, a cell-cycle regulated protein
+        kinase [ 2 ] , yCAF4 and yCAF16, and is essential for the
+        interaction of both yCAF4 and yCAF16 with ySRB9, a
+        component of the RNA polII holoenzyme [ 8 ] . yCCR4 was
+        also reported to be associated with Paf1, Cdc73, and Hpr1
+        in a RNA polII complex distinct from the SRBP-containing
+        holoenzyme [ 9 ] . Accordingly, yCCR4 contains, in its
+        central region, a leucine-rich repeat (LRR) domain [ 10 ]
+        which was demonstrated to be necessary for yCCR4 binding to
+        the yPOP2 [ 5 11 ] , yDBF2 [ 2 ] , yCAF4 and yCAF16 [ 8 ]
+        components of the CCR4-NOT complex. Moreover, its
+        N-terminus discloses two activation domains which are
+        required for transcriptional activation [ 10 ] . Hypotheses
+        concerning yCCR4 function in yeast have been documented
+        recently. First, Dlakic [ 12 ] and Hofmann 
+        et al [ 13 ] showed that the yCCR4
+        C-terminus contains a fold related to the Mg 2+-dependent
+        endonuclease core, suggesting that it may function as a
+        nuclease. Second, yCCR4 was shown to be a component, in
+        association with yPOP2, of the major yeast cytoplasmic mRNA
+        deadenylase complex, and to be required for efficient
+        poly(A)-specific mRNA degradation [ 14 15 ] . yCCR4 might
+        be a catalytic subunit of this complex, because of its
+        nuclease-like domain. Hence, yCCR4-associated complexes are
+        likely to fulfill fundamental functions in gene regulation,
+        and it is therefore of general interest to determine if
+        similar complexes exist in mammals. Several components of
+        the yCCR4-associated complexes have already been identified
+        in humans: two homologs of yPOP2 (named hCAF1 and
+        hPOP2/hCALIF) [ 16 17 18 19 ] , and homologs of NOT
+        proteins (named hNOT1, hNOT2, hNOT3, hNOT4) [ 19 ] .
+        Moreover, interactions between these proteins were
+        demonstrated [ 19 20 ] . Yet, at the present time there has
+        been no report of a human protein that would be
+        structurally and functionally close to yCCR4. We [ 21 ] and
+        others [ 22 ] previously characterized genes for highly
+        related proteins in 
+        X. laevis, M. musculus and 
+        H. sapiens (named 
+        nocturnin, "mCCR4" and "hCCR4" ),
+        disclosing circadian expression [ 22 ] , and with
+        C-terminus displaying significant similarity with the
+        C-terminus of yCCR4 (close to 30%). Yet, these proteins
+        lack the N-terminal region of yCCR4 (i.e. aa 1 to 505),
+        which contains the two activation domains and the
+        leucine-rich repeat region necessary for protein-protein
+        interactions. To identify orthologs of yCCR4 in higher
+        eukaryotes and unravel the phylogenetical relationships
+        between yCCR4 and the previously identified genes, we made
+        a systematic search for other proteins related to yCCR4.
+        Here we report the identification of nineteen yCCR4-like
+        proteins in eukaryotes and show, by phylogenetic and
+        genomic analyses, that they are grouped into four distinct
+        families, one of which contains the yCCR4 orthologs : these
+        orthologs, in animals, have conserved the yCCR4
+        leucine-rich repeat, and we show, using two-hybrid assays
+        and far-Western experiments, that the human protein binds
+        to the human yPOP2 homologs, i.e. hCAF1 and hPOP2, in a
+        LRR-dependent manner. Amino acid alignments show that the
+        endonuclease-like catalytic motifs of the yCCR4 C-terminal
+        domain are strictly conserved among all yCCR4-related
+        proteins and identify CCR4-specific residues in this
+        domain. The results therefore strongly suggest the
+        existence of a conserved CCR4-NOT complex in human cells,
+        and of a new family of potential deadenylases in
+        mammals.
       
       
-        Results and Discussion
+        Results
         
-          Criteria for a Partner Hit
-          The first stage in the computational analysis of our
-          surrogates requires the alignment of the peptides into
-          groups based on motifs or consensus regions. In addition,
-          we examine each peptide for significant differences in
-          the expected frequency of amino acids and the number of
-          times a specific peptide sequence has been repeated.
-          After defining our query strategy (e.g., entire surrogate
-          sequence, motifs, etc.), we simultaneously search several
-          public databases using programs such as Blastp, MAST
-          (Motif Alignment and Search Tool) and Patternfind (see
-          Materials and Methods). The output from each search is
-          further analyzed based on criteria described in Table 1.
-          Homology between the partner and surrogate oftentimes
-          ranges over a long stretch (15-20 amino acids) or may be
-          found in a perfect match within a short sequence of 5-8
-          amino acids (unpublished data). Other positive indicators
-          include: 1. the appearance of the partner in at least 50%
-          of the top cohort (i.e., first 10 matches) of any one
-          search; 2. the appearance of the same or related hits
-          occurring in several different searches; 3. the
-          identification of the same partner for multiple peptides
-          from the same or related pans. Criterion 2 addresses the
-          biological relevance of a hit (e.g., distribution,
-          disease indication, etc.) and criterion 3 relates to the
-          biological activity of the surrogate and its ability to
-          cause a phenotypic change in the appropriate test system
-          (phenotyping).
+          Characterization and phylogeny of yCCR4-related
+          proteins
+          Sorting out of yCCR4-related proteins was performed by
+          i) searches in databases using the yCCR4 C-terminal
+          domain (aa 505-837) conserved in the three previously
+          identified yCCR4-like proteins [ 21 22 ] , and ii)
+          PCR-amplification of cDNA libraries or
+          reverse-transcribed RNAs using appropriate primers
+          followed by sequencing, when required (Table 1). The
+          majority of matching hits obtained through BLAST search
+          in eukaryotic databases belongs to 
+          Arabidopsis thaliana (plants), 
+          Saccharomyces cerevisiae (fungi),
+          and 
+          Caenorhabditis elegans, Drosophila
+          melanogaster, Mus musculus and 
+          Homo sapiens (animals/metazoa), as
+          expected from the abundance of these sequences in
+          present-day databases. Sequences obtained from bacteria
+          databases were not included in the phylogenetic analysis
+          because of their poor lod-score, but were considered in
+          subsequent analyses. After compilation of the positive
+          hits and, for several of them, PCR amplification of the
+          corresponding cDNAs and sequencing, the open reading
+          frame of each of the 19 matching proteins was determined
+          (Fig. 1B, Table 1). A comparative analysis of the
+          full-length sequence of all yCCR4-related proteins
+          indicates that they all share, as expected from the
+          search strategy, a highly conserved yCCR4-related
+          C-terminus (hatched box in Fig. 1B), but, conversely,
+          their N-terminal regions are highly divergent (except for
+          the LRR-containing group of proteins, see below). A
+          multiple sequence alignment performed with the C-terminal
+          regions (see Fig. 2) allowed the establishment of
+          phylogenetic relationships among all proteins (see
+          Material and Methods). As illustrated in Fig. 1A, the
+          tree constructed using the neighbor-joining method
+          (similar results were obtained using the parsimony
+          method, not shown), indeed shows that the proteins can be
+          classified into four major groups, with significant
+          bootstrap values, which can therefore be considered as
+          distinct protein families.
+          The formerly identified "mCCR4", "hCCR4" [ 21 ] and
+          nocturnin [ 22 ] proteins are grouped within the same
+          family (called hereafter the nocturnin family, with the
+          "mCCR4" and "hCCR4" proteins re-named m.nocturnin and
+          h.nocturnin, and the 
+          xenopus nocturnin protein,
+          xe.nocturnin). BLAST searches identified a putative 
+          drosophila ortholog from genomic
+          scaffold AE003635. PCR amplification of cDNA 
+          drosophila libraries, using primers
+          (indicated in Fig. 1C) designed from the predicted open
+          reading frame, allowed us to provide the entire coding
+          sequence of this gene (named d.nocturnin; assigned
+          GenBank accession number AY043266; Table 1). Human,
+          murine, 
+          drosophila and 
+          xenopus nocturnin proteins display
+          significant levels of similarity in their C-terminal
+          region (50-95% among themselves and 24-27% with the yCCR4
+          C-terminus) (Fig. 1B), but not in their N-terminal part.
+          No ortholog of the nocturnin genes could be found in the 
+          C. elegans genome (although
+          completely sequenced), thus strongly suggesting that
+          there is no such gene in this species. Besides proteins
+          from animals, two yeast predicted proteins (yml118 and
+          ymr285. Table 1) with significant similarity with the
+          yCCR4 C-terminus (23 and 24%, respectively), also falled
+          within the nocturnin family. Finally, two 
+          arabidopsis predicted proteins
+          (Atlg31500 and Atlg31530) were found to be close to the
+          nocturnin family members (not shown), but lacked the most
+          5' part of the C-terminal region, and were therefore
+          excluded.
+          The second family, hereafter named the 3635 family,
+          contains as yet unknown proteins from 
+          C. elegans, D. melanogaster and 
+          H. sapiens (Table 1). The 
+          caenorhabditis protein (ce3635)
+          corresponds to the CAB07271 predicted protein. The 
+          drosophila protein (d3635)
+          corresponds to a putative protein that we predicted from
+          genomic scaffold AE003635 (nt 118477 to 120285; see
+          Additional File 1). The human protein (h3635) was
+          predicted from the human genomic sequence AC016923, the
+          human ESTs AI369813, AW967801, AW968624, AW965496,
+          H06019, and by comparison with the murine EST BE634658
+          for determination of the putative initiation codon (see
+          Additional File 2). It should be noted that although some
+          mouse ESTs do match in BLAST searches, suggesting the
+          existence of a murine 3635 protein, its C-terminal region
+          could not be predicted in its entirety because of the
+          lack of corresponding overlapping ESTs or genomic
+          sequences. Again, 3635 proteins display a conserved
+          C-terminal region (32-41% similarity among themselves and
+          25-29% similarity with the yCCR4 C-terminus) but differ
+          in their N-terminal region.
+          The third family of yCCR4-related proteins (called
+          hereafter the angel family) contains the formerly
+          identified angel 
+          drosophila gene product, with as
+          yet no identified function ( [ 26 ] , accession number
+          X85743), as well as 
+          M. musculus, H. sapiens, C.
+          elegans and 
+          A. thaliana proteins (Table 1). The
+          murine protein (m.angel) was determined from the assembly
+          of several murine overlapping matching ESTs (AI151868,
+          BF318959, AB041602, AA647420 ; see Additional File 3).
+          The human protein (h.angel) was predicted from a human
+          full-length cDNA (accession number AL079275) and the
+          corresponding genomic sequence (accession number
+          AC025707)(see Additional File 4). The 
+          caenorhabditis protein (ce.angel)
+          derives from the AAC17686 putative protein, predicted
+          from cosmid AF067946, with a modification for a
+          misassignment of a 3' exon (see Additional File 5). The 
+          arabidopsis protein (ara3g18500)
+          corresponds to the At3g18500 predicted protein. Once
+          more, the human, murine, 
+          drosophila, caenorhabditis and 
+          arabidopsis angel proteins have a
+          highly conserved C-terminal region (33-88% similarity
+          among themselves and 25-33% similarity with the yCCR4
+          C-terminus), but differ in their N-terminus.
+          The fourth family (hereafter named the CCR4 family)
+          contains the formerly identified yeast CCR4 protein and
+          as yet undefined human, murine, 
+          drosophila, caenorhabditis and 
+          arabidopsis proteins. The human
+          protein (named hCCR4) is putatively encoded by the
+          KIAA1194 full-length cDNA ( [ 27 ] , accession number
+          AB033020). The cDNA encoding the murine protein (named
+          mCCR4) was isolated by us using RT-PCR and primers
+          derived from matching EST clones, and its open reading
+          frame was entirely sequenced (assigned GenBank accession
+          number AY043269; Table 1). Aside their C-terminal regions
+          which display the highest similarity with the yCCR4
+          C-terminus (35-41%), the N-terminus of the human and
+          murine proteins display a leucine-rich repeat (LRR)
+          region very similar to that of the yeast CCR4 (Fig. 3and
+          see below). The 
+          drosophila and 
+          caenorhabditis proteins were
+          characterized from matching genomic clones (accession
+          number AE003746 and Z68753, respectively) in which we
+          identified a similar LRR domain 20 kb and 4 kb,
+          respectively, upstream of the exons for the yCCR4-like
+          C-terminus. PCR and sequencing using cDNA libraries and
+          primers that mapped upstream of the LRRs and in the
+          C-terminal region (primers indicated in Fig. 1C)
+          demonstrated that the 
+          caenorhabditis and 
+          drosophila putative proteins
+          (hereafter named ceCCR4 and dCCR4, with assigned GenBank
+          accession numbers AY043268 and AY043267, respectively;
+          Table 1) also possess, in their N-terminal region, a LRR
+          motif related to that of the yCCR4 protein (Fig. 1Band
+          3). Alignment of the leucine-rich repeats (Fig. 3) of the
+          human, murine, 
+          drosophila, caenorhabditis and
+          yeast proteins disclosed high conservation of the
+          residues previously shown to define the 23-amino
+          acid-long LRRs, including those of yCCR4 and of the
+          adenylyl cyclase (PxxaxxaxxLxxLxLsxNxaxxa, [ 28 ] ), thus
+          suggesting that the function of this motif has been
+          conserved from yeast to mammals. Besides proteins from
+          animals, two 
+          arabidopsis predicted proteins
+          (ara3g58580 and ara3g58560. Table 1) also branch, with
+          significative bootstrap values, with the CCR4 family
+          proteins. Interestingly, although their C-terminal
+          regions display significant similarity with the yCCR4
+          C-terminus (37%), none of these two proteins possesses a
+          LRR domain (see Fig. 1Band Discussion). Finally, it
+          should be noted that the proteins of the CCR4 family are
+          all significantly smaller than the yeast member, all of
+          them lacking the two activation domains (aa 1 to 350)
+          located in the yCCR4 N-terminal region (see
+          Discussion).
+          Finally, BLAST searches identified a 
+          S. cerevisiae putative protein,
+          yo1042 (accession number NP_014600), and an 
+          A. thaliana predicted protein
+          (ara1g02270; accession number At1g02270) which disclose
+          similarity with the C-terminal part of the yCCR4 protein
+          (29% and 25%, respectively), but which do not cluster in
+          an unambiguous manner with any protein from the four
+          families (Fig. 1A). It should be noted that all the 
+          A. thaliana, S. cerevisiae, D.
+          melanogaster, C. elegans and 
+          H. sapiens genes disclosing
+          similarities with yCCR4 have most probably been
+          identified, since the genomes of these five species have
+          now been entirely sequenced and since a BLAST search
+          using the N-terminal -instead of the C-terminal- sequence
+          of yCCR4 (aa 1-350) did not reveal any significant
+          similarity with any other protein from the databases.
         
         
-          Panning of mRNA targets
-          In one series of experiments, biotinylated
-          oligonucleotides comprising the UTRs (untranslated
-          regions) of four mRNAs were synthesized (Table 2). The
-          oligonucleotides were heat denatured and allowed to
-          anneal at room temperature to allow the appropriate
-          re-folding. All of the mRNAs were subjected to 4 rounds
-          of panning using both 40 mer and 20 mer random libraries
-          under similar but not equivalent conditions. Individual
-          phage clones from rounds three and four were amplified,
-          tested for binding to the specific and a non-specific
-          mRNA and sequenced. Table 3shows the overall results that
-          were obtained from each of the pannings. On average,
-          about 8% of the surrogates were found to be specific for
-          each target when compared to a control RNA (RRE). For
-          each RNA target, the predicted amino acid sequences of
-          the peptide binders were analyzed in terms of both
-          overall amino acid content and the occurrence of known
-          RNA-binding motifs and consensus domains. Two motifs were
-          observed for the APP and HCV RNAs (Figure 1and see
-          below). RNA binding proteins are known to have an overall
-          abundance of certain amino acid residues [ 8 9 ] . Table
-          4shows a comparison of the specific amino acid
-          composition of peptide binders with regard to their
-          average frequency of occurrence seen within the original
-          unpanned library. All of the peptide binders showed
-          enrichment of arginine residues, as would be expected for
-          RNA binding proteins. Also, tryptophan, serine, and
-          glycine residues were enriched. In addition, several
-          peptide binders showed the presence of the 
-          RGG box (Figure 2A) and one sequence
-          was found that contained the 
-          KH motif (Figure 2B), both of which
-          are known RNA-binding motifs [ 8 9 ] . The isolation of
-          surrogates containing generic RNA binding motifs is not
-          unexpected and probably results from enhanced binding and
-          concomitant enrichment of these peptides during the
-          panning process. In addition, an additional consensus
-          motif was identified among peptides isolated by panning
-          on RRE RNA [ 10 ] . This motif [ 
-          K/R ] 
-          LRRR, aligns with a region on the
-          expected natural partner, the Rev peptide (Figure 3).
-          One peptide was chosen from each of the APP, HCV and
-          IGF pans (based on the highest specific binding vs. RRE
-          RNA) as templates for the construction of secondary
-          libraries. Each of these libraries contained >10
-          10independent clones and was used for panning the
-          appropriate target RNA. Results are shown in Figure 4and
-          Table 5. Since library construction was based on peptides
-          previously selected for binding and selectivity to
-          specific RNAs, the number of target-specific clones
-          increased dramatically following 
-          in vitro maturation. In addition,
-          motifs were observed suggesting the critical nature of
-          these specific residues in terms of binding to target.
-          Preliminary studies have shown that the secondary
-          surrogates have higher relative affinities when compared
-          to the original clones (unpublished data).
-          In the case of the HCV RNA, we panned a sequence (AA
-          UUG CCA GGA CGA CCG GGU CCU UUC UUG GAU CAA CCC GCU CAA
-          UGC CUG GAG AUU) predicted to bind to at least one of the
-          proteins comprising the translation complex eukaryotic
-          Initiation Factor 3 (eIF3; [ 11 12 13 14 ] ). Published
-          reports identify the p120 subunit of eIF3 as the one
-          binding to the apical loop of the domain III of HCV
-          5'UTR, and p170 (also called p160) as binding the stem
-          portion of the domain III. The oligonucleotide used for
-          these studies contains the apical portion and part of the
-          stem portion of domain III and, therefore, might bind one
-          or both of these subunits. Interestingly, the binding of
-          p170 (p160) to the stem of domain III is
-          position-independent (i.e., not constrained by other
-          structural elements on the mRNA [ 12 13 ] ).
-          Sequence analysis of surrogate peptide binders to HCV
-          using MEME (Motif Elicitation Program) and other peptide
-          sequence alignment programs identified a consensus
-          sequence 
-          TxRLL found in four peptides binding
-          to the HCV mRNA (Figure 5). This motif was unique to HCV
-          and not found in peptides derived from any of the other
-          mRNA pans. Interestingly, the 
-          TxRLL -containing surrogates were
-          found by two investigators in the laboratory, using the
-          20 mer or 40 mer random libraries under different
-          experimental conditions. Database searches using
-          Patternfind at the ISREC server were performed using
-          parameters appropriate for short protein queries and were
-          successful in identifying a human gene product, subunit
-          p170 of eIF3 (Figure 3). Searches using the consensus
-          region as the query likewise identified sequence homology
-          with the large subunit p170 of eIF3. These results fit
-          our partner criteria 1-3 (Table 1). Interestingly, other
-          amino acids in these surrogates were found to be
-          identical to residues flanking the 
-          TxRLL motif in p170 on both the amino
-          and carboxy sides (Figure 5). Thus, the library contained
-          peptide surrogates binding to the HCV target mRNA as well
-          as containing sequence information identifying the
-          natural interacting partner and predicting the putative
-          contact amino acids on the p170 subunit of eIF3. The fact
-          that multiple surrogates had the 
-          TxRLL motif suggests that this region
-          of p170 is necessary and critical for binding of HCV mRNA
-          to eIF3.
+          Genomic organization of the yCCR4-related gene
+          families
+          Phylogenetic relationships between the yCCR4-related
+          proteins was also analysed through the characterization
+          of the genomic organization of the corresponding genes
+          (Fig. 1C). The intron/exon boundaries were determined
+          upon alignment of the coding regions of cDNA sequences
+          with the corresponding genomic sequences available in
+          genomic databases (Table 1). For all families, the
+          genomic organization of several members of the family
+          could be compared. In all cases, the human locus was
+          significantly longer than the 
+          drosophila and/or 
+          caenorhabditis locus, as a result
+          of an increase in intron number and/or size. The four
+          families do not behave similarly when considering the
+          evolution of the number of exons, at least for the animal
+          genes. In the CCR4, angel and 3635 families, the 
+          drosophila genes contain 5, 1 and 1
+          exons, respectively, whereas the human genes contain 11,
+          8 and 3 exons, consistent with a gain of introns in
+          evolution. Conversely, a loss of intron can be suspected
+          for the nocturnin family, for which the 
+          drosophila and mammalian genes
+          disclose 6 and 3 exons, respectively. In all families,
+          yeast genes are devoid of intron and 
+          arabidopsis genes display the most
+          exons. Although the number of exons is clearly not
+          constant within a given family, intron positions are in
+          several cases conserved -except for the 3635 family, and
+          for 
+          arabidopsis genes which do not
+          share any intron position with their family members- (see
+          Fig. 1C). In the CCR4 family, 4/4 introns of the 
+          drosophila gene and 3/7 introns of
+          the 
+          caenorhabditis gene have positions
+          homologous to those of the human gene. In the nocturnin
+          and angel family, the 
+          drosophila and human genes share
+          one intron position. Conversely, paralogous genes in a
+          given species (i.e. genes belonging to different
+          families) do not have any intron position in common.
+          These features suggest (at least for the nocturnin, CCR4
+          and angel families) that proteins which cluster in the
+          same family indeed share a common ancestor, in agreement
+          with the phylogenetic data. They also strongly suggest
+          that introns were independently acquired, in the four
+          families. This could be easily accounted for assuming
+          that the four families were derived by gene duplication,
+          from an "ancestral" gene (or genes) devoid of intron at
+          the time of duplication.
         
         
-          Panning of TNF-β
-          In a separate study, we panned the immune cytokine
-          TNF-β (lymphotoxin α, Lt α; [ 15 16 17 ] ) using a highly
-          stringent protocol involving both positive (vs. TNF-β)
-          and negative (vs. TNF-α, TNFR1 and TNFR2) selection. One
-          of these peptides, designated KcB7, had the amino acid
-          sequence 
-          RKEMGGGGGPGWSENLFQ . A Blastp search,
-          using several different queries revealed TNFR1, which is
-          the natural biological partner of TNFβ (Figure 5).
-          Interestingly, the other cognate partner (i.e., receptor
-          TNFR2) was not identified. Closer examination of the
-          complementary sequences revealed that the short
-          N-terminal sequence 
-          RKEMG and the C-terminal sequence 
-          WSENLFQ were identical to regions on
-          TNFR1 (amino acids 77-81 and 107-113 respectively).
-          Although not complete, these segments corresponded to
-          amino acids within two critical ligand:receptor contact
-          domains [ 18 ] . In the case of the N-terminal grouping,
-          the surrogate contained 5 of the 15 amino acids of the
-          77-81 contact domain whereas in the C-terminal grouping,
-          the surrogate contained 6 of the 9 amino acids identified
-          within the 107-113 contact domain. It is also worth
-          noting that, on the receptor, these two domains are not
-          contiguous but are separated by 25 amino acids whereas
-          only a 6 amino acid hydrophobic stretch separates the two
-          noncontiguous contact-mimicking domains in the surrogate.
-          Therefore, the seven amino acid linker may provide the
-          appropriate molecular distances needed for TNFβ binding
-          to the receptor.
+          Conservation, among the yCCR4-related proteins, of
+          a Mg 2+-dependent endonuclease-like domain, with
+          CCR4-specific residues
+          Dlakic [ 12 ] and Hofmann 
+          et al [ 13 ] recently reported that
+          the xe.nocturnin and yCCR4 proteins contain a domain with
+          similarities with the enzymatic core of Mg 2+-dependent
+          endonucleases. Therefore, we investigated whether such
+          sequence similarities also exist for the other
+          yCCR4-related proteins with, possibly, conserved features
+          specific for these proteins. The multiple sequence
+          alignment of all yCCR4-related C-terminal regions (Fig.
+          2) allowed the identification of several blocks of local
+          homology, with more than 60% similarity among
+          yCCR4-related proteins, as well as residues strictly
+          conserved among these proteins (see below). This
+          alignment could be extended to the enzymatic core of
+          three characteristic Mg 2+-dependent endonucleases: the
+          bovine DNAseI [ 29 ] and two apurinic/apyrimidinic (AP)
+          DNA-repair endonucleases, i.e. the 
+          E. coli Exonuclease III [ 30 ] and
+          the human HAP1 protein [ 31 ] . These nucleases share the
+          same catalytic residues and form a similar four-layered
+          α/β-sandwich motif. Interestingly, the blocks of homology
+          defined for the yCCR4-related proteins all correspond to
+          secondary-structure elements (β-strand or α-helix) which
+          form the core of AP endonucleases (Fig. 2). In addition,
+          the putative active residues shared by both AP
+          endonucleases and DNAseI [ 29 30 31 32 ] , are strictly
+          conserved in all the yCCR4-related proteins: these are
+          residues involved in catalysis (indicated by triangles in
+          Fig. 2), Mg 2+binding (indicated by black circles),
+          orientation or stabilization of catalytic residues
+          (indicated by squares), or interaction with the phosphate
+          group (indicated by empty circles). Hence, all the
+          yCCR4-related proteins possess, as observed for yCCR4, a
+          C-terminal Mg 2+-dependent endonuclease-like domain.
+          Alignment of the yCCR4-related proteins with the Mg
+          2+-dependent endonucleases discloses another important
+          feature : several residues (Leu 151, Arg 174 and Glu 300,
+          indicated with an asterisk in Fig. 2) can be identified,
+          which are strictly invariant among all the yCCR4-related
+          proteins, but have no equivalent in the presently aligned
+          AP-endonucleases and DNAseI, or in other Mg 2+-dependent
+          endonuclease fold-containing proteins previously
+          described (not shown) [ 12 13 ] . These CCR4-specific
+          amino acids are most probably relevant to functions
+          common to and specific for all yCCR4-related proteins
+          (see Discussion).
         
         
-          Robustness of the System
-          The successful isolation of a useful surrogate may
-          seem an improbable task especially in cases where nothing
-          is known about the hotspot surface(s) on a target. In
-          reality, biopanning using the RAPIDLIB ®library has
-          allowed, (in >90% of cases) the identification of
-          partner-specific peptides among the >10
-          10-11independent clones that are expressed within this
-          library [ [ 7 19 20 ] and unpublished data]. More often
-          than not, between 10 and 100 different surrogates have
-          been found for any one target panned and >75% of the
-          targets gave rise to surrogates that bound to regulatory
-          hotspots on the target [ [ 7 ] and unpublished data].
-          Several important facts are critical to the success of
-          the process. In the first place, there must be a high
-          degree of diversity within the library so that one
-          surrogate can be found for each protein target.
-          Additionally, It appears that panning seems to favor the
-          enrichment of regulatory surrogates versus irrelevant
-          peptides. In our experience, the large number of random
-          peptides includes a broad sampling of linear and
-          conformational protein surfaces sufficient to present at
-          least one low affinity "complement' for any target's
-          surface [ 19 20 ] . The immune system's antibody
-          repertoire arises through a process [ 21 22 23 24 ]
-          similar to in some aspects to what occurs during the
-          panning process. Initially, immunoglobulins are
-          synthesized containing multiple small contact domains
-          (i.e., CDR or Complementarity Defining Regions) to
-          provide a "rough" complement of an antigen's surface.
-          Subsequently, antibody/antigen binding is improved via
-          mutational events within the antibody genes to produce a
-          complement with higher affinity and selectivity.
-          Biopanning works in an analogous manner by initially
-          enriching for peptides with low affinity for a specific
-          target. However, surrogates may only need to contain some
-          amino acids identical to those on the partner to bind
-          with sufficient "avidity" rather than affinity.
-          Other methods that have been used extensively for high
-          throughput partner identification include the yeast
-          two-hybrid system [ 25 ] . While the two hybrid approach
-          is popular, it has a number of inherent problems
-          including a high potential for false positives, the
-          inability to use non-protein targets such as mRNA or
-          membrane bound/extracellular proteins and the inability
-          to address postranslational modifications on a target.
-          The generation of surrogates, on the other hands, is
-          target independent and their utility for partner
-          identification resides in the computational analysis of
-          the peptide's sequence. Since our libraries contain
-          totally random peptides ranging from 20 and up to 40
-          amino acids in length, there are no known restrictions on
-          the amino acids that can be selected to create the
-          surrogate's 'complementary' surface [ 7 ] . Thus, the
-          examples described in this report relate to the utility
-          of the surrogate approach for finding the cognate
-          receptor for both protein and non-protein targets. In the
-          case of the surrogates for both HCV-mRNA and TNFβ, it is
-          clear that the large diversity and size of the original
-          library was, in fact, critical to their successful
-          isolation since libraries of <20 amino acids would not
-          have contained either the KcB7 peptide or the
-          HCV-specific surrogates.
-          In addition to the data presented in this paper, we
-          have screened other targets using this approach. While
-          the expected natural partners were found for many of the
-          proteins, there were instances where surrogates were
-          generated but lacked partner information (e.g., IGF-1R,
-          growth hormone receptor, insulin receptor [ [ 7 ] and
-          manuscripts in preparation]). There are several possible
-          explanations for these results. While our libraries are
-          large and diverse, it is probable that identification of
-          a surrogate peptide with partner information is a rare
-          event. With that in mind, it may require the isolation
-          and sequencing of large numbers of clones (perhaps
-          >500/target) in order to find the appropriate
-          surrogate for partner identification. On the other hand,
-          some targets may have complex or unusual protein:protein
-          contact sites that preclude generation of a surrogate
-          with partner information. Ongoing experiments will
-          address both of these possibilities. Surrogates have also
-          been found to have the minimal structural content
-          necessary to induce a pharmacological effect on any
-          target in addition to their use in partner
-          identification. Most of our surrogates have been shown to
-          have either agonist or antagonist activity in the
-          appropriate biochemical and/or biological models ( [ 7 ]
-          manuscripts in preparation). The surrogates were also
-          able to subdivide large contact surfaces into smaller
-          contact domains through which target activity can be
-          modified [ 7 ] . These attributes point to surrogate use
-          in phenotyping and validating novel genes whose functions
-          are unknown and for which no known partners exist.
-          Finally, it is worthwhile to note that surrogates have
-          been used to develop competitive Site Directed Assays
-          (SDAs) for essential sub-domains thereby allowing their
-          use in high throughput screening of large combinatorial
-          libraries of small molecules (unpublished data). In our
-          experience, almost all of the peptide surrogates isolated
-          from these complex libraries by our various panning
-          procedures bind to regulatory hot spots on varied
-          targets. This non-random association between a surrogate
-          and a target's pharmacologically active site assures a
-          high degree of probability that, once found, surrogates
-          will have utility for the rapid development of SDAs
-          capable of identifying small molecules of pharmacological
-          importance.
+          Interaction of the human homolog of yCCR4 with
+          hCAF1 and hPOP2/CALIF
+          The search for yCCR4-related proteins identifies
+          possible orthologs of yCCR4, according to the sequence
+          analyses reported above. To confirm these data and gain
+          some hints for the existence of a CCR4-NOT complex in
+          mammals, we investigated whether the interaction between
+          yCCR4 and yPOP2 in the CCR4-NOT complex is conserved for
+          the human ortholog, hCCR4. Two homologs of yPOP2 have
+          been identified in mammals: the mouse/human CAF1 [ 11 16
+          17 33 ] and, more recently, the human homolog named hPOP2
+          or hCALIF [ 18 19 ] . Both mCAF1 [ 11 ] and hPOP2 [ 19 ]
+          interact with yCCR4, and the yCCR4 LRR is essential for
+          these interactions. To determine whether yCCR4-yPOP2
+          interactions are evolutionarily conserved, we examined
+          whether hCCR4 can bind hCAF1 and hPOP2 in a two-hybrid
+          assay in mammalian cells. The complete hCCR4 cDNA was
+          obtained (KIAA1194 cDNA, Kazusa DNA Research Institute),
+          and vectors were constructed to express hCCR4 fused to
+          the DNA binding domain of the yeast GAL4 transcription
+          factor (pGal4-hCCR4) (Fig. 4A). A vector expressing hCAF1
+          (pVP16-hCAFl) or hPOP2 (pVP16-hPOP2) fused to the VP16
+          activation domain was also produced (Fig. 4A). Two-hybrid
+          protein-protein interaction assays were performed in Hela
+          cells, with a reporter plasmid (pG4-TK-Luc) containing
+          six GAL4 binding elements upstream of the thymidine
+          kinase (TK) promoter region fused to the luciferase
+          reporter gene (Fig. 4A). In Hela cells transfected with
+          the fusion constructs and the reporter plasmid, an
+          interaction between GAL4 and VP16 fusion proteins should
+          result in an increase in luciferase expression (Fig. 4A).
+          As observed in Fig. 4B, co-expression of pGal4-hCCR4 with
+          either pVP16-hCAF1 or pVP16-hPOP2 elicited a significant
+          increase (> 35 fold) in pG4-TK-Luc expression, thus
+          demonstrating association between hCCR4 and either hCAF1
+          or hPOP2. This increase is dependent on the presence of
+          the leucine-rich repeats within hCCR4, since deletion of
+          four out of the five leucine-rich repeats -within
+          pGal4-hCCR4(ΔLRR), see Materials and Methods- completely
+          abolished the effect (Fig. 4). Finally, a GAL4 fusion
+          vector expressing a murine paralog of hCCR4, i. e.
+          m.nocturnin, had no effect when co-expressed with either
+          pVP16-hCAF1 or pVP16-hPOP2 (Fig. 4), thus indicating that
+          m.nocturnin does not interact with hCAF1 or hPOP2, as
+          expected from the absence of an LRR domain in this
+          protein. As a control, pGal4-hCCR4 alone, or in
+          association with the pVP16-none plasmid, had no
+          effect.
+          To verify that hCCR4 can bind directly to hCAF1, we
+          performed a far-Western blot analysis (Fig. 5).
+          Bacterially produced, purified GST-CAF1 and control GST
+          proteins were subjected to SDS-PAGE, transferred onto a
+          membrane and probed with a 35S-methionine-labeled hCCR4
+          protein synthesized in vitro. As shown in Fig. 5,
+          specific hybridization was observed only with GST-CAF1,
+          and not with GST. As a control, incubation with a
+          35S-methionine-labeled luciferase protein failed to show
+          any interaction.
+        
+      
+      
+        Discussion
+        
+          Identification of LRR-containing orthologs of
+          yCCR4
+          In the course of our search for genes encoding
+          proteins displaying significant similarity with the yeast
+          yCCR4 factor, the best hits were found for cDNAs encoding
+          a family of proteins from 
+          C. elegans, D. melanogaster, M.
+          musculus, and 
+          H. sapiens, that we further
+          characterized by both in silico and in vivo approaches.
+          By several criteria, these proteins appear to be yCCR4
+          orthologs. First, they cluster together with yCCR4 in a
+          phylogenetic tree constructed for the yCCR4-related
+          proteins. Likewise, analysis of their genomic
+          organization revealed that the 
+          caenorhabditis, drosophila and
+          human CCR4 genes had several introns in common, located
+          at homologous positions, suggesting that they arose from
+          a common ancestor. Second, their N-terminus contain a
+          five leucine-rich repeat domain, disclosing a high level
+          of similarity with that of yCCR4, and with strictly
+          conserved amino acids at consensus positions. Third, the
+          ability of yCCR4 to bind mCAF1 and hPOP2 is conserved for
+          the mammalian protein, since we could demonstrate, using
+          two-hybrid assays and far-Western blot analyses, an in
+          vivo and in vitro interaction between hCCR4 and hCAF1 or
+          hPOP2/CALIF. Moreover we could show, using a deletion
+          within the leucine-rich repeat domain, that this motif is
+          essential for the interaction, a key feature of the
+          previously characterized yCCR4 factor.
+          Interestingly, the putative hCCR4, mCCR4, dCCR4 and
+          ceCCR4 proteins are much smaller than yCCR4. In fact,
+          they contain the central LRR plus C-terminal region of
+          yCCR4, but they lack its N-terminus (residues 1-350). It
+          is noteworthy that, in yCCR4, these two parts of the
+          protein (1-350 and 350-837) have well-defined and
+          distinct functions, which can be uncoupled. The
+          N-terminal region contains two transactivation domains,
+          one of which is glucose-repressed (residues 1-160). This
+          region can, by itself, activate transcription when
+          targeted to the DNA via a heterologous DNA-binding domain
+          [ 5 ] . On the other hand, the LRR plus C-terminal region
+          of yCCR4 cannot mediate transcription activation, but is
+          involved in protein-protein interactions [ 5 ] . The
+          yCCR4 LRR is necessary for the binding of several
+          components of the CCR4-NOT complex, including yPOP2 -and
+          mCAF1- [ 11 ] , yDBF2 [ 2 ] , yCAF4 and yCAF16 [ 8 ] ,
+          and deletion of the yCCR4 N-terminus does not impair
+          these associations. Consistently, the region encompassing
+          the LRR and part of the C-terminus (residues 302-668) has
+          been defined as the smallest region necessary and
+          sufficient for the association of yCCR4 with yPOP2 [ 11 ]
+          .
+          Conservation of the yCCR4 LRR plus C-terminus,
+          together with the absence of its N-terminus in the CCR4
+          proteins of animals, could be interpreted along two
+          lines. First, the N-terminal domain might mediate
+          yeast-specific functions (e.g. glucose-regulated growth),
+          not conserved in animals because they were unnecessary or
+          redundant in these species. Second, the N- and C-terminal
+          domains observed in the yCCR4 multifunctional protein
+          might have been split into two -or more- independent
+          proteins in animals. If neither interpretation can as yet
+          be favoured, it is noteworthy that yCCR4 evolution
+          parallels that of its partner in the CCR4-NOT complex,
+          namely yPOP2. Indeed, both human homologs of yPOP2, hCAF1
+          and hPOP2, lack the 148 N-terminal amino acids which are,
+          in yPOP2, required for transcriptional activation,
+          whereas the yPOP2 C-terminus, which is involved in the
+          interaction with yCCR4, is conserved in hCAF1 [ 11 ] and
+          hPOP2 [ 19 ] . Similarly, hNOT2, the human homolog of the
+          yNOT2 component of the CCR4-NOT complex, harbors a
+          N-terminal domain divergent from that of yNOT2 -required
+          for transcriptional activation and interaction with the
+          yeast ADA2 factor-, but has conserved the C-terminal
+          domain which is absolutely required for the
+          yCCR4-associated function of yNOT2 [ 19 20 ] . Therefore,
+          it looks as if genes of the CCR4-NOT complex have
+          undergone a "concerted" phylogenetic evolution, with the
+          yeast genes encoding multifunctional proteins and the
+          animal genes only encoding "specialized" proteins
+          specific for the CCR4-NOT complex. It is tempting to
+          speculate that partition of the CCR4 or POP2 functions in
+          the course of evolution has been positively selected as
+          resulting in a gain of efficacy. Along this line, Draper 
+          et al [ 5 ] observed that the two
+          transactivation domains present in the yCCR4 N-terminus
+          (residues 1 to 350) are, alone, more potent activators
+          than within the full-length yCCR4 protein. Likewise,
+          mCAF1, which has lost the N-terminal transactivation
+          domain of yPOP2, binds to yCCR4 with a higher affinity
+          than yPOP2 [ 11 ] .
+          In yeast, yCCR4 is one of the components of the 1.0
+          MDa CCR4-NOT complex, which also includes yPOP2 and at
+          least five yNOT proteins. In this complex, yPOP2
+          independently binds to yCCR4 and to yNOT1. A previous
+          report [ 19 ] identified the human orthologs of yPOP2
+          (hPOP2/CALIF) and yNOT1 (hNOT1), and showed that they
+          have conserved their ability to bind to each other.
+          Hence, the present identification of the human ortholog
+          of yCCR4 and the demonstration that it binds to hPOP2 now
+          provide an additionnal piece of the puzzle, strongly
+          suggesting the existence of a CCR4-NOT complex in humans.
+          Additionally, yCCR4 interacts, via its LRR domain, with
+          three other proteins (i.e. yDBF2, yCAF4 and yCAF16) of
+          the 1.9 MDa CCR4-NOT complex. Conservation of the LRR
+          domain in hCCR4 suggests that the interaction with these
+          proteins might be conserved as well in humans.
+          Interestingly, we found that hCCR4 also binds to the
+          second human yPOP2 paralog, hCAF1. However, at variance
+          with hPOP2, hCAF1 is not able to interact with hNOT1 (nor
+          with hNOT3) [ 19 ] . This suggests that human cells may
+          contain at least two complexes involving a CCR4/POP2
+          association, a CCR4-NOT-POP2 complex analogous to the
+          CCR4-NOT yeast complex, and a still unknown CCR4-CAF1
+          containing complex. Interestingly, in yeast only one
+          CCR4-POP2 complex has been described until now, whereas
+          CCR4/POP2 interactions have been found associated with
+          both transcription regulation and mRNA deadenylase
+          activity. This may suggest a "physical" partition of
+          these two CCR4-POP2-associated functions in the course of
+          evolution.
+        
+        
+          Four families of yCCR4-related genes: function and
+          origin?
+          Recently, Dlakic [ 12 ] and Hofmann 
+          et al [ 13 ] showed that the yCCR4
+          C-terminus contains a fold related to the Mg 2+-dependent
+          endonuclease core. yCCR4 was also shown to be a component
+          of the major yeast cytoplasmic mRNA deadenylase complex,
+          and to be required for efficient poly(A)-specific mRNA
+          degradation [ 14 15 ] . Interestingly, this
+          yCCR4-dependent activity copurifies with yPOP2. Since the
+          presently characterized mammalian yCCR4 ortholog has
+          conserved the ability to bind yPOP2 homologs and displays
+          high sequence similarities with yCCR4 in the nuclease
+          core domain, it suggests that the mammalian yCCR4
+          orthologs might also be associated with a deadenylase
+          function. The three other characterized families of
+          yCCR4-related proteins have also conserved catalytic
+          residues and structural elements of the Mg 2+-dependent
+          nuclease core. In addition, their nuclease regions
+          possess residues which are strictly invariant among all
+          the yCCR4-related proteins, from plants to humans, and
+          which are not conserved in any other Mg 2+-dependent
+          endonuclease-containing protein, thus strenghtening the
+          notion of a common and specific function for the
+          yCCR4-related proteins. Hence, according to the present
+          data, proteins of the angel, 3635 or nocturnin families
+          may deserve the same putative function as yCCR4, i.e.
+          deadenylation, or at least share common substrate binding
+          and/or catalytic specificities (for instance preference
+          for RNA and/or poly (A) tail). Along this line,
+          CCR4-specific conserved residues may be important for the
+          setting of such a specificity, whereas the presence -or
+          not- of a LRR domain may determine different associations
+          for these proteins, possibly responsible for differences
+          in cellular localization or in enzymatic activity. Until
+          now, the only known deadenylase in vertebrates is a
+          poly(A)-specific exoribonuclease, PARN, a member of the
+          RNaseD family of exonucleases [ 34 ] . The present
+          results therefore propose a series of new putative
+          mammalian deadenylases, and predict a set of residues
+          that should be functionally important for all
+          yCCR4-related proteins.
+          Finally, the high level of similarity among the
+          C-terminal regions of all paralogous yCCR4-related
+          proteins, along with the divergence of their N-terminal
+          domains, is intriguing in terms of phylogenetic
+          evolution. The C-terminus strong conservation leads to
+          the assumption that all the related genes derive by
+          duplication events from a common ancestor, but the
+          identity of this ancestral gene and the date of expansion
+          can only be hypothesized. Occurrence within the CCR4
+          family of LRR-containing genes both in yeast and animals,
+          suggests that a LRR-containing gene existed before the
+          divergence of yeast and animals. Whether such a
+          LRR-containing gene could be the common ancestor for all
+          the yCCR4-related genes (with deletion of the LRR and
+          several duplication events for the angel, 3635 and
+          nocturnin families) is not known. However, the fact that
+          the two 
+          arabidopsis proteins which cluster
+          with the LRR-containing proteins in the CCR4 branch (Fig.
+          1A) do not possess a LRR domain, is not in favour of the
+          existence of a LRR-containing ancestor: in that case, at
+          least two independent LRR deletion events (versus one LRR
+          acquisition event, see below) would be required to
+          generate the angel, 3635 and nocturnin families on the
+          one hand, and the CCR4 
+          arabidopsis proteins on the other
+          hand. Along this line, BLAST searches in bacteria
+          databases disclosed, in one incompletely sequenced
+          bacterial genome ( 
+          Paenibacillus azotofixans ), an
+          open reading frame (nt 3822 to 4583 in the AJ299453
+          genomic clone) which contains almost all and displays
+          significant similarity with the yCCR4 C-terminal region,
+          but does not contain a LRR nor a N-terminal domain. It is
+          therefore plausible that a "C-terminal core domain"
+          existed first, which was subsequently duplicated several
+          times giving rise to the four identified protein
+          families, and which has been well conserved because it
+          deserved a common enzymatic function, at the opposite of
+          the N-terminal divergent regions. A LRR domain would have
+          been acquired in one of the duplicates, prior to the
+          divergence of animals and fungi.
         
       
       
         Conclusions
-        The results of these experiments support the use of 
-        in vitro panning procedures with our
-        highly complex and random 20-40 mer peptide libraries as a
-        method to obtain information on large numbers of protein
-        partners and enable the elucidation of biologically
-        relevant protein networks. This post-genomic approach can
-        be automated to increase the number of known and unknown
-        genes and gene products that can be used as targets for
-        partner identification as the first step in the drug
-        discovery process. Additionally, the surrogates isolated in
-        such studies would be prime candidates for phenotyping and
-        target validation through their ability to regulate target
-        activity and for identifying small molecule drug leads
-        through their use in Site Directed Assays. Overall, the
-        surrogates can be seen as providing a discovery continuum
-        by bridging the gap between functional genomics and
-        proteomics and modern drug discovery.
+        The present characterization, in higher eukaryotes, of
+        proteins related to the yeast yCCR4 factor leads to two
+        main conclusions. Firstly, we identified yCCR4 mammalian
+        orthologs and demonstrated that the human member can
+        interact with the human yPOP2 homologs. This result, along
+        with the identification by others of human homologs of NOT
+        proteins, now provides strong evidence for the existence of
+        a human CCR4-NOT complex, with conserved protein-protein
+        interactions. Secondly, we showed that all members of the
+        four yCCR4-related protein families that we have
+        characterized contain the canonical catalytic residues and
+        motifs of the Mg 2+-dependent endonuclease core, as well as
+        strictly conserved yCCR4-specific residues. These proteins
+        might constitute a new family of deadenylases in mammals,
+        for which critical residues can be predicted.
       
       
         Materials and Methods
         
-          Targets
-          Oligonucleotides for the mRNA pans were synthesized by
-          Dharmacon Research (Lafayette, CO) and used for the
-          experiments after heat treatment and re-annealing (65°
-          for 10' and slow cooling at room temperature). The APP
-          and IGF oligo sequences are proprietary to Message
-          Pharmaceuticals. The following sequence was used to
-          obtain the HCV surrogates: 5'-biotin'AA UUG CCA GGA CGA
-          CCG GGU CCU UUC UUG GAU CAA CCC GCU CAA UGC CUG GAG
-          AUU-3'. The sequence for RRE (Rev-response element) has
-          been previously published [ 10 ] . Streptavidin coated
-          plates were obtained from Pierce (Rockford, IL). TNFR1,
-          TNFR2, TNF-α and TNF-β were obtained from R&D Systems
-          (Minneapolis, MN) and reconstituted according to the
-          manufacturer's instructions. The 
-          E. coli , strain TG1 (genotype =
-          K12Δ 
-          (lac-pro), supE, thi, hsdΔ5/F' [traD36,
-          proAB , 
-          lacI q, 
-          lacZΔM15 ]) was obtained from
-          Pharmacia (Piscataway NJ).
+          Sequence analyses
+          DNA and amino-acid sequences were examined for
+          homology with the non-redundant nucleotide, protein, and
+          dbEST databases at the NCBI, using the BLAST 2 program.
+          Multiple alignments of amino-acid sequences were carried
+          out using CLUSTALW computer algorithms [ 23 ] . The
+          aligned sequences were further analysed, either by the
+          distances method (Neighbor-Joining program) or by the
+          parsimony method (Protpars program, not shown). In the
+          former case, trees were constructed using different
+          parameters, i.e. correction -or not- for multiple
+          substitutions, and exclusion -or not- of the positions
+          with gaps. The trees obtained under these various
+          conditions were closely related, disclosing only limited
+          variations in the branching pattern of the identified
+          phylogenetic families.
         
         
-          Design of the Primary Peptide Libraries
-          DNA fragments coding for peptides containing 40 random
-          amino acids were generated by a PCR approach using
-          synthetic oligonucleotides as previously described [ 7 26
-          ] . Peptides are expressed on the capsid protein pIII of
-          the phage at low copy number (1-2 peptides/phage).
+          Characterization of yCCR4-related cDNAs
+          Characterization of d.nocturnin and dCCR4 cDNAs was
+          achieved by PCR, using two 
+          drosophila cDNA libraries (an oligo
+          (dT)-primed cDNA library constructed from 0-24 hour-old
+          embryos [gift from C. S. Thummel] and a 3-12 hour-old
+          embryo cDNA library [gift from T. Maniatis]).
+          Characterization of ceCCR4 cDNA was achieved by PCR using
+          a 
+          C. elegans cDNA library (gift from
+          S. Holbert). The cDNA encompassing the entire mCCR4 open
+          reading frame was cloned by reverse transcription
+          (RT)-PCR reaction, using total RNAs extracted from CBA
+          mouse brain. For RT reactions, one microgram of total
+          RNAs was reverse transcribed from random (dN)6 primers in
+          20 μl of reaction medium containing 1 mM each
+          deoxynucleoside triphosphate, (dN)6 (2 mM), 20 U of
+          RNAsin, 50 mM Tris-HCl, 75 mM KCl, 5 mM MgCl 
+          2 , and 50 U of Moloney murine
+          leukemia virus reverse transcriptase (Applied Biosystem).
+          Reactions were carried out for 45 min at 42°C. PCR
+          reactions were performed using 
+          r T 
+          th DNA Polymerase (Perkin Elmer),
+          with a 95°C denaturation step for 4 min, and 35 cycles at
+          58°C for 1 min, 72°C for 3 min, and 94°C for 1 min, and
+          final extension at 72°C for 10 min. Amplification
+          products were subcloned into the T-vector (Promega) and
+          sequenced.
+          Primers used (indicated in Fig. 1C):
+          d.nocturnin:5'-CCGATGGATATTGGAAGCTGGG-3',
+          5'-GCAACGGTTGTGTATGAGGCT-3', 5'-TCACCACCTCACATATCCCAC-3',
+          5'-TCAGGTACTTGCGGTGCTCCCA-3',
+          5'-GGACTCCCAGGACGATGGCCT-3';
+          dCCR4:5'-GTGCTCTGCGACAAGTACGCGA-3',
+          5'-CGTATAGTTGGTGTGCGGCAT-3',
+          5'-CGCGTACTTGTCGCAGAGCACA-3',
+          5'-CGTTGGCATGCTGACCAGCCT-3', 5'-GCGAGGTTTTGTCTCCTAAC-3';
+          ceCCR4:5'-GCGGTCGCGACGACAAGAGGA-3',
+          5'-GGAGATCAACACGGTGGACAG-3';mCCR4:
+          5'-ATCTGAGGTCCTCTGAAAGTG-3',
+          5'-GAAGGCGGCGCAGCTCGAGA-3'.
         
         
-          Construction of secondary cell libraries
-          Amino acid mutations were introduced at the
-          oligonucleotide level under controlled conditions [ 7 ] .
-          This oligonucleotide was used as the template in a PCR
-          reaction with two shorter 5' biotinylated oligonucleotide
-          primers contributing the restriction sites. The library
-          was then produced essentially as previously described
-          (above). Cell transformants were pooled and an aliquot
-          was plated to determine the total number of
-          transformants. The diversity of the secondary cell
-          libraries >10 10independent clones per library.
+          Mammalian Expression Vectors
+          The mammalian expression vectors for the GAL4 and VP16
+          fusions are derivatives of the SV40 promoter-driven
+          expression vector pSG5 (Stratagene). The GAL4 fusion
+          plasmids were obtained by subcloning the appropriate
+          cDNAs into the pGaL4PolyII plasmid [ 24 ] , in-frame with
+          the yeast GAL4 binding domain coding sequence. To
+          generate pGaL4-hCCR4, a fragment corresponding to the
+          entire hCCR4 coding sequence (with the exception of the
+          initiation codon) was obtained upon digestion of the
+          KIAA1194 cDNA (accession number AB033020, gift from the
+          Kazusa Research Institute, putative start codon -Met
+          19-positioned by homology with mCCR4) by 
+          Sph I and 
+          Msc I (nt 423 to 2172 in KIAA1194),
+          and was inserted in-frame into the pGaL4PolyII vector
+          opened by 
+          Xho I, after Klenow treatment of
+          both vector and insert. Construction of the deleted
+          fusion protein in which four out the five hCCR4
+          leucine-rich repeats are removed (named
+          pGal4-hCCR4(ΔLRR)) was performed in three steps. The
+          KIAA1194 cDNA was first 3'-truncated upon restriction
+          with 
+          Bsm I (nt 3642) and 
+          Sac II (in pBluescript II SK+
+          vector), Klenow treatment and self-ligation, to remove
+          undesirable 
+          Eco NI restriction sites. Deletion
+          of the LRR domain from position 547 to 838 was then
+          achieved upon digestion by 
+          Hind III (position 547 and 638) and
+          
+          Eco NI (position 817 and 838),
+          followed by Klenow treatment and self-ligation. Finally,
+          the deleted open reading frame-containing fragment was
+          excised using 
+          Sph I and 
+          Msc I, and inserted into the
+          pGaL4PolyII vector opened by 
+          Xho I, after Klenow treatment of
+          both vector and insert. To generate pGa14-m.nocturnin, a
+          fragment from the 
+          m.nocturnin cDNA [ 21 ]
+          corresponding to the entire coding sequence (with 9 amino
+          acids upstream of the initiation codon) was excised from
+          pGEX-3X upon 
+          Sma I and 
+          Dra I digestion, and was inserted
+          into the pGaL4PolyII vector opened by 
+          Bam Hl, after Klenow treatment of
+          both vector and insert. Expression of the recombinant
+          proteins was checked by in vitro
+          transcription-translation assays (Promega). The
+          pVP16-hCAF1 and pVP16-hPOP2 constructs were obtained upon
+          insertion of the hCAF1 and hPOP2 coding regions into the
+          pSG5FNV vector, in-frame with the VP16 transactivation
+          domain coding sequence, as previously described [ 17 25 ]
+          .
         
         
-          Biopanning and ELISA protocols
-          For the TNF experiments, 6 wells of a 96-well
-          microtiter plate (Maxisorb Immuno plates, Nunc) are
-          coated with target at concentrations ranging from 5-50
-          ng/well and are incubated overnight at 4°C. At the same
-          time, an aliquot of 
-          E. coli TG1 cells is inoculated
-          into 2x YT media and grown overnight at 37°C. The next
-          day, unbound antigen is removed and the coated wells are
-          blocked with 300 μl of 2% non-fat milk in PBS (NFM-PBS)
-          for one hour at room temperature. The phage libraries (in
-          NFM-PBS) are thawed and 100 μl of each library is added
-          to the antigen-coated wells and the plates are incubated
-          for 3 hours at room temperature. Each well is washed 13
-          times with PBS and the phage eluted with 100 μl of 50 mM
-          glycine-HCl containing 0.1% BSA (pH2.2) following a five
-          minute incubation. The eluted phage are pooled,
-          neutralized with 100 μl of 1 M Tris-HCl (pH 8.0). The
-          eluted phage were then panned vs. other members of the
-          TNF family as a way to obtain peptides specific to the
-          original target (Subtractive panning). For example,
-          phage, initially panned vs. TNF-α would be subsequently
-          panned vs. TNF-β, TNFR1 and TNFR2 to remove peptides
-          cross-reacting with the other members. After the final
-          panning, the phage are added to 10 ml of log phase 
-          E coli TG1 (OD 
-          600 = 1.0), and amplified in 2x
-          YT-glucose medium for one hour at 37°C. Helper phage
-          (M13K07) and ampicillin are then added and the cells are
-          incubated for an additional hour at 37°C. The cells are
-          pelleted at 3500 RPM for 10 minutes, resuspended in 2x
-          YT-AK medium (YT medium containing ampicillin and
-          kanamycin) and incubated overnight at 37°C. The next day,
-          the infected bacterial cells are centrifuged at 3500 RPM
-          at 4°C for 10 minutes and the pellet discarded. The
-          supernatant contains the phage and is precipitated with ¼
-          volume of 20% PEG-8000 in 1.6 M NaCl by incubating on ice
-          for 1 hour. The precipitant is centrifuged at 10,000 RPM
-          at 4°C for 10 minutes and the precipitated phage pellet
-          resupended in about 1 ml of NFM-PBS. The phage is then
-          used for the next round of panning. Normally, 3-4 rounds
-          of panning are done for secondary libraries. Usually, 96
-          random clones are picked from rounds 3 and 4 and grown in
-          96 well cluster plates as a master stock.
-          For the mRNA pans, all solutions and surfaces are
-          pretreated with DEPC or RNaseZap (Ambion, Austin TX),
-          respectively, to eliminate RNase contamination that may
-          compromise the integrity of the RNA. The biotinylated -
-          RNA target diluted to 1 mg/ml in binding buffer (PBS
-          containing 1 mM MgCl 
-          2 ), denatured at 65°C for 5 min and
-          reannealed by slow cooling to room temperature.
-          Re-annealed mRNAs are stored in small aliquots (10-25
-          μl/tube) at -20°C. Microtiter wells are treated with
-          RNaseZap (Ambion) before use. One hundred microliters of
-          RNA solution diluted to 2.5 ng/ μl was added to an
-          appropriate number of wells in a 96-well microtiter plate
-          precoated with Streptavidin (Pierce) and incubated for 1
-          hr at room temperature. Unbound streptavidin is then
-          blocked with 50 μl of 2 mM biotin at room temperature for
-          1 hr. Panning, with slight modifications, proceeded as
-          described for TNF-β.
-          For phage rescue prior to ELISA analysis, 40 μl of
-          master stock is transferred from each master to another
-          set of cluster tubes containing 400 μl of 2x YT-AG
-          (ampicillin and glucose) and helper phage (final
-          concentration of 5 × 10 10/ml). The tubes are incubated
-          at 37°C with constant shaking for two hours. The cultures
-          are centrifuged at 2500 × g at 4°C for 20 minutes, the
-          supernatant is discarded, and the bacterial pellet is
-          resuspended in 400 μl of 2x YT-AK (ampicillin and
-          kanamycin) medium and is incubated overnight at 37°C. At
-          that time, the cells are removed by centrifugation at
-          2500 × g and the supernatants used for ELISAs (see
-          below).
+          Transfections and luciferase assays
+          The plasmids used for transfection were prepared by
+          the alkaline/PEG/LiCl method. HeLa cells were grown in
+          DMEM (Gibco/BRL) supplemented with 10% fetal calf serum,
+          seeded at 10 cells/well in 96-well microtiter plates and
+          transfected 8 hours later using Exgen 500 (Euromedex,
+          Souffelweyersheim, France). The DNA for transfection
+          included 100 ng of pG4-TK-Luc reporter plasmid together
+          with 50 ng of GAL4 and/or VP16 fusion vectors, and 10 ng
+          of pCMV-RL vector (cytomegalovirus promoter fused to the
+          renilla luciferase reporter gene [Promega]) as an
+          internal control for transfection efficiency. The amount
+          of SV40 promoter DNA was kept constant upon addition,
+          when necessary, of pSG5 vector to the transfection
+          mixture. The cells were washed and collected 48 h after
+          transfection. Luciferase activity was measured in cell
+          lysates using the Dual Luciferase Kit (Promega) following
+          the manufacturer's instructions. In all experiments,
+          luciferase activities were normalized with the renilla
+          luciferase activity expressed from the pCMV-RL vector.
+          Each set of experiments was performed in quadruplicate
+          and was repeated at least three times.
         
         
-          Enzyme Linked Immunosorbent Assays (ELISA)
-          For the TNF-β surrogate ELISAs, each well of a
-          MaxiSorp Immuno plate (Nunc) is coated with 50 μl of
-          target (1 μg/ml) overnight at 4°C. In all cases, the
-          wells are blocked with NFM-PBS for 1 hour at room
-          temperature. Phage is added at 100 μl/well and the plates
-          incubated for 2-3 hours at room temperature. After
-          washing 3x with PBS-Tween (DPTC-treated PBS for the
-          mRNA), plates are probed with an anti-M13 antibody
-          conjugated to horseradish peroxidase (1:3000 in PBS-NFM)
-          for 1 hour at room temperature followed by addition of
-          100 μl of ABTS for 15-30 minutes at room temperature. The
-          OD is measured using a SpectraMax Microplate
-          Spectrophotometer (Molecular Devices) at 405 nm after a
-          30 minute incubation at room temperature.
-          The mRNA ELISAs are performed in a similar manner
-          except streptavidin-coated microtiter plates are blocked
-          with PBS containing 2% non fat milk for 1 hr at room
-          temperature, treated with RNaseZap, then coated with
-          biotinylated RNA target (100 ng/well) by incubation for 1
-          hr at room temperature. Superasin was added to the wells
-          prior to addition of 100 μl/well of phage from isolated
-          clones and incubated at room temperature for 2 hr.
-        
-        
-          Steps in computational analysis to identify natural
-          partner
-          Once a surrogate peptide binder has been identified
-          and shown to bind specifically to its target, it is
-          subjected to partner analysis using several different
-          database search programs. In the initial step, the entire
-          peptide sequence and consensus motifs (if found) are
-          entered into an Advanced BLAST search
-          http://www.ncbi.nlm.nih.gov/blast/blast.cgi?Jform=1:
-          using the following parameters:
-          i. Programs: blastp, tblastn
-          ii. Databases: protein and nucleotide databases
-          including dbest (ESTs), dsts (STSs) and htgs (unfinished
-          high throughput genomic sequences)
-          iii. Expect value: 1000 to 20000
-          iv. Matrix: PAM30 or PAM70
-          v. Query: Consensus motif alone and varying
-          combinations of sequence at the N- and C-terminal
-          ends
-          In subsequent steps, motifs identified by sequence
-          alignment programs like MEME (Multiple EM for Motif
-          Elicitation),
-          http://meme.sdsc.edu/meme/website/intro.htmlcan also be
-          used to search the available databases using MAST (Motif
-          Alignment and Search Tool,
-          http://meme.sdsc.edu/mem/website/mast-intro.html). Motifs
-          and consensus domains can also be used as query patterns
-          to search the protein databases using Patternfind
-          http://www.isrec.isb-sib.ch/software/PATFND_form.html.
-          For Patternfind, the following parameters are
-          used:
-          i. Databases: Nonredundant, Swissprot, TREST and
-          TRGEN
-          ii. Limit: Between 10 and 5000
-          iii. Query: Consensus motif alone and varying
-          combinations of sequence at N- and C-terminal ends
-          Data obtained from the various searches are analyzed
-          under the following conditions:
-          i. Results of different searches should be analyzed
-          independently and then together to look for similar
-          classes of proteins (e.g., Nucleic acid binding proteins,
-          kinases) that may emerge.
-          ii. Pick some of the best matches that show up in more
-          than one kind of search (e.g. Same protein/ORF picked up
-          by BLAST searches using different parameters, or by both
-          BLAST and Patternfind) and compare sequence of protein in
-          this region with other peptide surrogates containing this
-          motif.
-          iii. Look at potential significance of protein
-          interaction in the context of the cellular function of
-          target
-          The criteria for a partner hit are listed in Table 1.
-          Unless there is an exact match (Criterion No. 1), the
-          potential hit has to match at least two of the criteria
-          described in the table to be considered a partner
-          hit.
+          Far-Western analyses
+          For in vitro protein-protein interaction assays, 5 μg
+          of either GST-CAF1 or GST purified proteins (prepared as
+          described in [ 25 ] ) were subjected to 10% SDS/PAGE and
+          transferred onto a polyvinylidene difluoride membrane
+          (Millipore) by electroblotting. After denaturation in 6 M
+          and renaturation in 0.187 M guanidine-HCl in HB buffer
+          (25 mM Hepes pH 7.2, 5 mM NaCl, 5 mM MgCl2, 1 mM DTT),
+          the blots were saturated at 4°C in buffer H (20 mM Hepes
+          pH 7.7, 7.75 mM KCl, 0.1 mM EDTA, 25 mM MgCl 
+          2 , 1 mM DTT, 0.05% NP40, 1% dry milk)
+          for 2 hours, and then incubated for 2 hours at 4°C with
+          50 μl of 35S-methionine-labeled in vitro-translated hCCR4
+          or luciferase protein (synthesized using a reticulocyte
+          lysate-coupled transcription/translation kit [Promega]).
+          After washing in buffer H for 1 h at 4°C, filters were
+          dried and autoradiographed.
         
       
     

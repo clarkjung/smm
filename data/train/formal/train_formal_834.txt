@@ -3,700 +3,561 @@
     
       
         Background
-        The cysteine-loop family of ligand gated ion channels
-        (LGIC) is comprised of receptors with pentameric quaternary
-        structure and at least two ligand binding sites present at
-        the subunit interfaces [ 1 2 ] . This receptor family is
-        characterized by the presence of a critical disulfide loop
-        structure within the binding site and an integral ion
-        selective channel. LGIC receptors are found in both the
-        peripheral and central nervous systems. Members of this
-        family include the acetylcholine receptors [ 3 4 ] , the
-        γ-amino butyric acid type A receptor (GABA 
-        A R) [ 5 ] , and the glycine receptor
-        (GlyR) [ 6 ] .
-        The first subunit of the 5-HT 
-        3 R was cloned in 1991 [ 7 ] . The
-        sequence of this subunit was shown to be highly homologous
-        to LGIC receptors and thus identified the 5-HT 
-        3 R receptor as another member of this
-        superfamily [ 7 8 9 ] . Similar to other LGIC receptors,
-        more than one subtype has been identified. Two splice
-        variants of an A subunit (long and short forms), and a
-        single B subunit have been cloned [ 10 11 12 13 ] . Both
-        the long and short forms of the A subunit are capable of
-        forming functional homomeric receptors [5-HT 
-        3AL R and 5-HT 
-        3AS R] although some differences between
-        an agonist and partial agonist activity have been observed
-        [ 14 ] . A third subtype is formed by a combination of the
-        A and B subunits to produce a heteromeric receptor of
-        unknown stoichiometry [ 10 ] . Heteromeric receptors are
-        pharmacologically and functionally distinct from the
-        homomeric 5-HT 
-        3AL and 5-HT 
-        3AS receptors [ 11 ] .
-        5-HT 
-        3 Rs are distributed throughout the
-        central and peripheral nervous system, playing a
-        significant role in phenomenon such as anxiety, emesis and
-        alcoholism. Antagonists to 5-HT 
-        3 Rs are clinically efficacious in the
-        treatment of chemotherapy-induced emesis [ 15 ] and recent
-        studies on human subjects have suggested their potential
-        application in the treatment of early onset alcoholism [ 16
-        17 ] .
-        Hibert 
-        et al proposed an early model for the
-        antagonist pharmacophore of the 5-HT 
-        3 R [ 18 ] . According to this model,
-        all 5-HT 
-        3 R antagonists contain an aromatic
-        ring, a carbonyl oxygen or bioisosteric equivalent, and a
-        basic nitrogen. According to Hibert's model, the basic
-        nitrogen is located 5.2A° from the centre of the aromatic
-        ring and approximately 1.7A° above plane of the ring. The
-        carbonyl oxygen and the aromatic ring are coplanar and
-        separated by a distance of 3.3A°. Recent studies have
-        expanded on this model to include another lipophilic region
-        and a second hydrogen bonding interaction two atoms away
-        from the first [ 19 20 21 ] . A compound that contains all
-        five pharmacophoric regions was synthesized by Orjales 
-        et al [ 22 ] . This compound
-        (1-(phenylmethyl)-2-piperizinyl benzimidazole or
-        lerisetron) is shown in figure 1and is a potent 5-HT 
-        3 R antagonist. Functional groups on
-        this compound capable of forming interactions with the
-        receptor are the distal amino group, a benzimidazole and a
-        benzyl group in the N1 position of the benzimidazole. While
-        Lerisetron contains no carbonyl group, the second nitrogen
-        contained in the benzimidazole heterocycle could act as
-        bioisostere of this functional group [ 22 ] . Orjales
-        demonstrated the importance of the N-benzyl group by
-        synthesizing several N1 substituted analogs of Lerisetron.
-        Removal of the N-benzyl group produced a 80-fold decrease
-        in affinity, indicating a role for this group in
-        interacting with the 5-HT 
-        3 R. Other studies have supported this
-        observation and suggest a more specific electrostatic
-        interaction [ 23 ] .
-        While structure-activity relationship studies and
-        molecular modeling have led to the development of a
-        detailed pharmacophore model, determining specific point
-        interactions between 5-HT 
-        3 antagonists and binding site amino
-        acids has proven difficult. Mutagenesis studies have
-        identified the interaction of amino acids W89 and R91 in
-        the binding of 5-HT 
-        3 R ligands [ 24 23 ] . Studies
-        conducted in our laboratory have identified three
-        additional putative binding site residues (Y140, Y142, and
-        Y152) [ 25 ] . W89 and R91 are present in a conserved
-        region of LGIC receptors often referred to as loop D [ 24
-        26 ] . Similarly, Y140, Y142 and Y152 are located in the
-        region homologus to E loop region of nicotinic AchR.
-        In this study, we have endeavoured to identify the amino
-        acids interacting with the different functional groups
-        present on the lerisetron molecule in order to develop a
-        model for interaction of this compound with the 5-HT 
-        3 R. Using site directed mutagenesis in
-        combination with analogs of lerisetron, we have identified
-        amino acids that appear to interact selectively with the
-        terminal amino group, the N-benzyl group and the aromatic
-        benzimidazole.
+        Despite continuing decreases in incidence and mortality
+        rates, cancers of the colon and rectum remain the third
+        leading cause of cancer deaths in the North America [ 1 2 ]
+        . The decline in incidence, and hence mortality, from
+        colorectal cancers is most likely attributable to an
+        increase in recommendations to perform routine screening on
+        average risk individuals and to improved screening
+        techniques [ 2 ] . In addition, there is ever advancing
+        knowledge into the pathogenic mechanism of cancer and
+        resulting strides in the development of more efficacious
+        therapies.
+        In recent years it has become evident that nonsteroidal
+        anti-inflammatory drugs (NSAIDs) represent a potential
+        class of cancer chemotherapeutic agents. The utility of
+        NSAIDs, in particular aspirin, in the treatment of colon
+        cancer has stemmed from studies conducted both in animals [
+        3 4 5 6 7 8 9 10 11 ] and humans [ 12 13 14 15 ] . Evidence
+        from human studies has largely come from epidemiological
+        data indicating that aspirin and other NSAIDs can reduce
+        the relative risk of developing colorectal cancer by
+        approximately 40-50% [ 13 14 15 16 ] . The utility of
+        NSAIDs in the cancer therapeutics is not limited to
+        prevention strategies. The NSAID sulindac has been shown to
+        cause regression of colorectal adenomas of patients with
+        hereditary forms of polyposis (Familial Adenomatous
+        Polyposis (FAP) and Gardner's Syndrome) [ 17 18 19 ] and in
+        sporadic colorectal adenomas [ 20 ] . In addition, case
+        reports have demonstrated that indomethacin and sulindac
+        were effective co-therapy agents in the treatment of
+        desmoid tumours [ 21 22 ] . Finally, the inclusion either
+        of indomethacin, naproxen or sulindac in the chemotherapy
+        regiment of gastric carcinoma patients resulted in a
+        significant increase in survival; 30 months versus 6 months
+        when NSAIDs included in treatment regime [ 22 ] .
+        The anti-neoplastic properties of NSAIDs can be
+        duplicated in animal models (mainly rodent) of colon
+        cancer. The two most commonly used are the multiple
+        intestinal neoplasia ( 
+        Min /+) mouse and the chemically
+        (azoxymethane)-induced rat models. In both models, NSAID
+        administration has been reported to significantly attenuate
+        tumour number and size when provided either as a preventive
+        [ 3 4 5 6 7 8 9 10 11 ] or treatment [ 3 6 11 ] agent. The 
+        Min /+ model has received great
+        favour because it contains a mutation in the 
+        Apc gene, which is homologous to the
+        human adenomatous polyposis coli (APC) gene [ 23 ] .
+        Defects in the APC tumour suppressor gene are thought to
+        play a role in greater than 70% of all colorectal cancers
+        and is responsible for inherited syndromes of polyposis
+        (FAP and Gardner's) [ 24 25 ] . Furthermore, in humans the
+        majority of colorectal cancers arise from adenomatous
+        polyps [ 26 ] .
+        Polyposis in the 
+        Min /+ mouse differs slightly from
+        the human condition of FAP. Polyps (multiple) are generally
+        localized to the small intestine in 
+        Min /+ mice, opposed to the colons of
+        FAP suffers [ 27 ] . In 
+        Min /+ mice adenoma formation is
+        thought to occur within the first few weeks of life, with a
+        full compliment of adenomas being attained by approximately
+        9 weeks of age (60-67 days of age) [ 6 28 ] . Following
+        this time, adenoma multiplicity is thought not to change,
+        however, adenoma size may still increase [ 6 28 ] . 
+        Min /+ mice are also normally found
+        to develop anaemia by 60 days of age and possess a
+        shortened life span of roughly 120 days (17 weeks) [ 29 ]
+        .
+        Aspirin most likely represents the best known and
+        frequently purchased NSAID [ 26 ] . It is also the NSAID
+        normally cited in epidemiological studies assessing the
+        chemopreventive efficacy of NSAIDs [ 16 ] , but yet the
+        utility of aspirin in the treatment of 
+        established colorectal cancer has not
+        been determined. We therefore wanted to determine if
+        aspirin is able to reduce the number and size of adenomas
+        in 
+        Min /+ mice with 
+        established polyposis.
+      
+      
+        Materials and methods
+        
+          Animals
+          
+          Min /+ (C57BL/6J- 
+          Apc 
+          
+            Min 
+           ) and wild type (C57BL/6J) mice were purchased from
+          Jackson Laboratories (Bar Harbor, ME). Mice were housed
+          in a room with a 12 hour light-dark cycle and had free
+          access to food (LabDiet, ®Prolab ®RMH 3500, Purina Mills,
+          Inc., St. Louis, MO) and water during the entire
+          protocol. All procedures were approved by the Albany
+          Medical College Institutional Animal Care and Use
+          Committee (IACUC).
+        
+        
+          Treatment protocol
+          
+          Min /+ mice were treated for a
+          period of 28 days either with vehicle or aspirin (25
+          mg/kg/day). Dose of aspirin correlates to previous work
+          conducted by Mahmoud et al. [ 9 ] , which demonstrated
+          that 0.5 mg of aspirin per day was chemopreventive in 
+          Min /+ mice. Aspirin was initially
+          dissolved in dimethyl sulfoxide (DMSO; 5% by final
+          volume) and then diluted to the desired concentration (5
+          mg/mL) with 0.5% carboxymethylcellulose (CMC). Both
+          aspirin and drug vehicle were orally administered via a
+          22-gauge feeding needle (Kent Scientific Co., Litchfield,
+          CT) attached to a 1 cc syringe. Compounds were delivered
+          at a rate of 5 mL/kg body weight. A diluted concentration
+          was used to aid in drug solubility and accuracy of drug
+          administration.
+          Treatment began at 12 weeks (84 days) of age and
+          concluded at 16 weeks (112 days) of age. Following
+          completion of the treatment period, mice were euthanized
+          with sodium pentobarbital (Nembutal ®; 50 mg/kg i.m.) and
+          the entire gastrointestinal (GI) tract was removed. The
+          GI tract was segregated into stomach, small intestine and
+          colon, and placed into 10% phosphate buffered formalin
+          for fixation. A portion of liver tissue was also obtained
+          to determine cyclooxygenase (COX) activity.
+        
+        
+          Assessment of polyp number and size
+          Following a 24 hour fixation period, the stomach and
+          intestines were opened longitudinally and rinsed with
+          phosphate buffered saline (PBS, pH 7.4). Tissues were
+          then pinned flat on wax blocks and covered with trypan
+          blue (0.4% solution) for 10 minutes and rinsed with PBS
+          to improve polyp contrast. Polyp numbers were determined
+          by manual count via use of a dissecting microscope
+          (Bausch & Lomb, Rochester, NY) by an observer unaware
+          of the treatment the mice had received. The entire GI
+          tract for each animal was then photographed using a video
+          camera (JVC, Wayne, NJ) outfitted with a Navitar Zoom
+          7000 macro lens (Technical Instruments, San Francisco,
+          CA). Images were captured and analysed by use of
+          computerised software (Scion Image, Scion Corporation,
+          Frederick, MD). Individual polyp diameters were
+          calculated from their measured areas.
+        
+        
+          Immunohistochemical detection of apoptosis
+          Sections of formalin-fixed small intestinal tissues,
+          approximately 15 cm in length, were rolled upon
+          themselves with the mucosal surface facing outwards.
+          Tissue sections were then processed and embedded in
+          paraffin using routine histological techniques. Small
+          intestinal tissue was sectioned at 4 μm and immobilised
+          on slides.
+          Apoptotic cells were labelled 
+          in situ by use of a commercially
+          available detection kit (TACS 2 TdT DAB kit, Trevigen,
+          Inc., Gaithersburg, MD). Samples were processed according
+          to the manufacturer's instructions. Briefly, paraffin wax
+          was removed from slides by heating at 57°C for 20
+          minutes, followed by two subsequent washes in 100%
+          Xylene. Slides were then rehydrated by sequential washes
+          in ethanol (100%, 95% and 70%, 1 × 5 min.), deionized
+          water (2 × 2 min.) and PBS (1 × 10 min.). Following
+          rehydration, tissue was proteolytically treated
+          (Proteinase K, 20 μg/mL) for 15 minutes. Endogenous
+          peroxidase activity was quenched by immersing slides in a
+          2% hydrogen peroxide (H 
+          2 O 
+          2 ) solution. Excess peroxide solution
+          was removed by tapping and slides were then immediately
+          submersed in labelling buffer (50 mM Tris, pH 7.5; 5 mM
+          MgCl 
+          2 ; 0.06 mM 2-Mercaptoethanesulfonic
+          Acid; 0.05 mg/mL BSA) for 2 minutes. Slides were removed
+          from labelling buffer and excess buffer surrounding the
+          tissue was wiped away. Samples were covered with
+          labelling reaction mixture (50 mM Tris, pH 7.5; 5 mM MgCl
+          
+          2 ; 0.06 mM 2-Mercaptoethanesulfonic
+          Acid; 0.05 mg/mL BSA; 1 mM CoCl 
+          2 ; 0.008 mM TdT dNTP mix; 300 U/mL
+          TdT) and incubated for 60 minutes in a humidified chamber
+          (37°C). The labelling reaction was terminated by
+          transferring the slides to 50 mL of stop buffer (10 mM
+          EDTA, pH 8.0) for 5 minutes. Excess stop buffer was
+          removed by washing the slide once in 50 mL of PBS for 2
+          minutes.
+          Detection of labelled cells was carried out via the
+          conversion of diaminobenzidine (DAB) by
+          streptavidin-horseradish peroxidase (strep-HRP). Labelled
+          samples were covered with 100 μL strep-HRP solution and
+          incubated for 10 minutes. Excess strep-HRP was removed by
+          tapping prior to washing the slide twice in 50 mL of PBS.
+          Slides were placed into 50 mL of DAB solution (0.5 mg/mL
+          DAB and 0.03% H 
+          2 O 
+          2 in PBS) for 5 to 10 minutes. Slides
+          were briefly rinsed twice with deionized water, prior to
+          counterstaining with methyl green.
+          Apoptotic cells were counted manually by an observer
+          unaware of the treatment regime and were normalised based
+          on polyp area. Polyp area was determined from captured
+          images (Nikon, Labophot-2 microscope fitted with a JVC
+          video camera) using the same computerised software stated
+          above.
+        
+        
+          Assessment of cyclooxygenase activity
+          Cyclooxygenase activity was assessed 
+          ex vivo in hepatic tissue following
+          a previously described method [ 30 ] . Briefly, mice were
+          euthanized 3 hours following the final dose of vehicle or
+          aspirin and a sample of liver tissue (~100 mg) was
+          obtained. The samples were then placed into
+          microcentrifuge tubes containing 1 mL of sodium phosphate
+          buffer (10 mmol/L, pH 7.4) and finely minced with
+          scissors for 15 seconds. Samples were then incubated for
+          20 minutes at 37°C in a shaking water bath. Following the
+          incubation period, samples were centrifuged at 9 000 × 
+          g for 30 seconds and the
+          supernatants collected. Supernatants were flash frozen in
+          liquid nitrogen and stored at -80°C for subsequent
+          determination of prostaglandin E 
+          2 (PGE 
+          2 ) content. PGE 
+          2 concentrations were determined using
+          a commercially available ELISA assay (Cayman Chemical
+          Company, Ann Arbor, MI).
+        
+        
+          Materials
+          Aspirin (acetylsalicylic acid),
+          carboxymethylcellulose, dimethyl sulfoxide and hydrogen
+          peroxide were obtained from Sigma Chemical Co. (St.
+          Louis, MO). Histology supplies and reagents were
+          purchased from Fisher Scientific (Springfield, NJ).
+        
+        
+          Statistical analysis
+          All data are expressed as the mean ± SEM. Comparison
+          among groups of data were made using either an unpaired
+          Student's 
+          t test or one-way analysis of
+          variance (ANOVA), followed by a Bonferroni's post test.
+          Differences between groups were considered significant
+          with a p value of less than 0.05.
+        
       
       
         Results
         
-          Functional activity of lerisetron
-          Whole cell patch-clamp experiments were performed to
-          test the functional activity of lerisetron. No response
-          was observed when lerisetron was applied alone (data not
-          shown). When co-applied with 5-HT, lerisetron inhibited
-          the absolute magnitude of the response with no apparent
-          alteration of the response profile (Figure 2). The
-          combination of several identical inhibition experiments
-          produced a K 
-          i value of 0.2 ± 0.03 nM for
-          lerisetron inhibition of the 5-HT induced response. These
-          data correspond well with previously reported data for
-          this compound [ 22 ] and verify the competitive
-          antagonist action of lerisetron. Analogs of lerisetron
-          have been shown to inhibit 5-HT 
-          3 Rs in a similar manner [ 23 ] .
+          Polyp number and size
+          Sixteen week old 
+          Min /+ mice possessed approximately
+          63 ± 9 polyps (n = 13) within their small and large
+          intestine, combined. Approximately 97% of the polyps
+          present were located in the small intestine (table 1).
+          Once daily oral administration of aspirin (25 mg/kg) for
+          four weeks had no effect on the number of polyps in the
+          intestinal tract of 
+          Min /+ mice. Aspirin-treated mice
+          contained 62 ± 8 small intestinal polyps and 2.5 ± 0.4
+          large intestinal polyps (table 1). Concurrent with the
+          above findings, no significant differences were seen in
+          total adenoma area or average adenoma size. Adenomas in
+          the small intestine had an average diameter of 1.64 ±
+          0.22 mm and 1.73 ± 0.14 mm for vehicle- and
+          aspirin-treated 
+          Min /+ mice, respectively. Similar
+          findings were seen within large intestine (table 1).
+          Furthermore, no changes were seen in the distribution of
+          adenomas when classified according to diameter (figure
+          1). Small intestinal adenomas were less than 4 mm in
+          diameter, with the approximately 75% being 1-3 mm in
+          diameter. Large intestinal adenomas as large as 5-6 mm in
+          diameter were occasionally seen. Aspirin treatment had no
+          effect on adenoma size distribution and both profiles
+          were essentially identical to those of the
+          vehicle-treated group (figure 1).
         
         
-          Importance of the N-benzyl and distal piperazine
-          nitrogen to binding of lerisetron
-          The K 
-          i value for lerisetron inhibition of [
-          3H]-granisetron binding to wildtype receptors was
-          determined to be 0.8 ± 0.19 nM (Figure 3and Table 1).
-          This value agrees with previously published data for this
-          compound. The K 
-          i values for analogs 1 and 2 under
-          identical conditions are 25 ± 3.2 nM and 320 ± 82 nM
-          respectively (Figure 4A, Table 1). The observed change in
-          K 
-          i represents the decreases in binding
-          energy resulting from removal of the N-benzyl group
-          (analog 1) and the distal piperazine nitrogen (analog
-          2).
+          Cyclooxygenase activity and apoptosis
+          Vehicle-treated 
+          Min /+ mice displayed a 2-fold
+          increase in their capacity to generate PGE 
+          2 when compared to wild type mice
+          (figure 2). Once daily aspirin (25 mg/kg p.o.)
+          administration to 
+          Min /+ mice caused a significant
+          reduction in the ability of liver to generate PGE 
+          2 compared to vehicle-treated 
+          Min /+ mice (figure 2). PGE 
+          2 levels (3.8 ± 1.0 pg/mg tissue) in
+          the aspirin-treated mice were comparable to those seen in
+          wild type mice.
+          Aspirin administration also resulted in a significant
+          increase in the number of apoptotic cells found in small
+          intestinal adenomas (figure 3). Vehicle-treated 
+          Min /+ mice contained 32.2 ± 5.6
+          apoptotic cells per area (mm 2) of adenoma. The number of
+          apoptotic cells per adenoma area was twice (67.6 ± 16.7
+          cells per mm 2; p = 0.05) as great in the aspirin-treated
+          group.
         
         
-          Identification of amino acids interacting with
-          Lerisetron
-          In order to determine the nature of the amino acids
-          interacting with the distal amino and N-benzyl groups of
-          lerisetron, we constructed 5-HT 
-          3AS Rs containing mutations at W89,
-          R91, Y140, Y142 and Y152. Figure 3shows inhibition of [
-          3H]-granisetron binding by lerisetron on wildtype and
-          mutant receptors. For most amino acids, an alanine
-          substitution was constructed in order to effectively
-          remove any amino acid interaction with the ligand. For
-          W89, an alanine substitution has been shown to prevent
-          binding of [ 3H]granisetron; therefore a less severe
-          mutation was constructed.
-          The W89F mutation produces a 18-fold change in K 
-          d for [ 3H]-granisetron binding (18 ±
-          2 nM) and the W89Y mutation produces a 5.8-fold change in
-          K 
-          d (5.7 ± 0.7 nM). Mutation of amino
-          acid R91 to alanine produced a 5-fold change in K 
-          d for [ 3H]granisetron binding (4.9 ±
-          0.7 nM) (Table 1). These data agree well with previously
-          reported values [ 24 ] . Alanine mutations at the
-          tyrosine positions Y140, Y142 and Y152 also produced
-          minor increases in K 
-          d for [ 3H]granisetron binding (2.7 ±
-          0.19 nM, 4.5 ± 0.5 nM and 7.8 ± 1.1 nM respectively) [ 25
-          ] (Table 1).
-          Only small changes in K 
-          i for lerisetron were observed for the
-          Y140A mutation while the Y142A and Y152A mutations
-          produced large increases in the K 
-          i (Table 1and Figure 3). For W89F and
-          W89Y, the changes in K 
-          i observed for lerisetron were much
-          smaller than for the alanine mutations at Y142A and
-          Y152A, as would be expected for the less severe nature of
-          these mutations. The changes were, however significant (p
-          < 0.001 in both cases) and are similar to the changes
-          in K 
-          d reported for [ 3H]granisetron. The
-          increase in K 
-          i on the W89F mutant receptor was 4.8
-          ± 0.56 fold and the increase in K 
-          i on the W89Y receptor was 3.6 ± 0.4
-          fold. The R91A mutant produced an increase in K 
-          i of 7.6 ± 1.5 fold as compared to the
-          wildtype receptor. These data indicated potential
-          interactions of lerisetron with W89, R91, Y142 and
-          Y152.
-        
-        
-          Mutation of W89
-          As mentioned above, the lack of [ 3H]-granisetron
-          binding to W89A mutant receptors necessitated the use of
-          W89F and W89Y mutations to analyze functional group
-          interactions. The effects of these mutations on the K 
-          i for analogs 1 and 2 are shown in
-          figure 4B, 4Cand Table 1. Analog 1 inhibited [
-          3H]-granisetron binding to W89F receptors with a K 
-          i of 170 ± 54 nM (7 ± 3.2 fold
-          increase, p < 0.001) and W89Y receptors with a K 
-          i of 81 ± 14 nM (3.2 ± 0.6 fold
-          increase, p < 0.001). This reflects a significant
-          increase in K 
-          i and reflects a potential interaction
-          of analog 1 with W89. The strength of this interaction is
-          apparently similar to the strength of the interaction
-          with [ 3H]-granisetron and lerisetron since the magnitude
-          of the change is similar in both cases. Analog 2 also
-          showed a significant increase in K 
-          i as a result of the W89F and W89Y
-          mutations. The magnitude of the change for W89F (5.1 ±
-          1.3 fold, p < 0.05) was similar to that observed for
-          lerisetron and analog 1. The W89Y mutation produced a 6.8
-          ± 1.6 fold change in K 
-          i (p < 0.05). Thus, all three
-          compounds appear to form similar interactions with
-          W89.
-        
-        
-          Mutation of R91
-          Mutation of R91 to alanine (R91A) resulted in a
-          significant, but small increase in K 
-          i for lerisetron of 7.6 ± 1.5 fold (p
-          < 0.01). Figure 4Dshows the inhibition of [
-          3H]-granisetron binding by analogs 1 and 2 at R91A mutant
-          receptors. No significant change in K 
-          i was observed on these receptors for
-          either analog 1 (0.9 ± 0.28 fold) or analog 2 (0.56 ±
-          0.14 fold) (Table 1) as compared to the wildtype
-          receptor.
-        
-        
-          Mutation of Y142
-          Mutation of Y142 to alanine produced one of the
-          largest observed changes in K 
-          i for lerisetron (Figure 3and Table
-          1). The K 
-          i obtained for lerisetron was 130 ± 28
-          nM, reflecting a change of 160 ± 37 fold compared to
-          wildtype receptors. The K 
-          i value for analog 1, in contrast,
-          increased only 6.8 ± 2.3 fold (p < 0.01) as a result
-          of this mutation (Figure 4Eand Table 1). The K 
-          i for analog 2 showed a similar change
-          of 17 ± 0.77 fold (p < 0.01). While these K 
-          i values are significantly different
-          from wildtype values for each analog, the lack of larger
-          effects suggests that neither analog 1 nor analog 2 bind
-          as strongly as lerisetron to Y142.
-        
-        
-          Mutation of Y152
-          The Y152A mutation showed the most variability in its
-          effects on K 
-          i values for lerisetron, analog 1 and
-          analog 2 (Figure 3, Figure 4Fand Table 1). Lerisetron
-          inhibited [ 3H]-granisetron binding with a K 
-          i value of 150 ± 36; an increase of
-          190 ± 43 fold compared to wildtype values. The K 
-          i value for analog 1 increased from 25
-          ± 3.2 nM (wildtype) to 2.5 ± 0.40 μM. This change of 100
-          ± 16 fold is slightly smaller, but not significantly
-          different from the relative change observed for
-          lerisetron. The K 
-          i for analog 2 increased from 0.32 ±
-          0.08 μM on wildtype to 13 ± 4.2 μM on Y152A mutant
-          receptors (40 ± 12 fold increase). The increase observed
-          for analog 2 was significantly less than that observed
-          for both lerisetron and analog 1. The smaller change in K
-          
-          i for analog 2 suggests that analog 2
-          binds weakly to Y152 while lerisetron and analog 1 bind
-          more tightly.
+          Overall welfare
+          The quality of life of the 
+          Min /+ mice, as assessed by change
+          in body weight, hematocrit level and overall survival,
+          was not altered in the aspirin-treated group compared to
+          the vehicle-treated group (table 2). Wild type animals
+          treated with vehicle weighed initially 23.6 ± 1.6 g and
+          gained approximately 2.9 ± 1.9 g over the 4-week period.
+          Vehicle- and aspirin-treated 
+          Min /+ mice initially weighed 24.6
+          ± 1.1 g and 24.0 ± 1.1 g, respectively. Both 
+          Min /+ groups failed to gain
+          weight, rather a modest decrease in body weight was noted
+          over the study period (-0.9 ± 1.4 g and -0.1 ± 1.1 g,
+          respectively). Both the vehicle- and aspirin-treated
+          groups were found to be anemic based upon hematocrit
+          values (table 2). Anaemia is characteristic of the model
+          [ 29 ] . Both treatment groups displayed hematocrit
+          levels 25-30% lower than expected values. Aspirin
+          treatment did not improve or worsen the anaemia (table
+          2). Wild type (C57BL/6J, background strain of 
+          Min /+ mice) are referenced to have
+          hematocrit levels of 44 ± 0.4 % [ 31 ] .
+          Survival rate of the 
+          Min /+ mice was greater than 95%.
+          One animal had to be sacrificed prior (2 days) to the
+          completion of the study and was in the vehicle treatment
+          group (table 2). Post-mortem examination revealed a total
+          of 87 polyps (82 small and 5 large intestinal). Data
+          obtained from this animal was not included in the
+          analysis. In addition, one animal was found to possess no
+          small or large intestinal polyps. The animal had been
+          treated with a full regiment of aspirin, however, it was
+          assumed not to possess the 
+          Min /+ genotype and was therefore
+          not included in data analysis. A wild type genotype was
+          assumed, since no existing data suggests or indicates
+          that aspirin is able to cause complete elimination of
+          adenomas in this model. The animal also possessed a
+          normal hematocrit value of 44% [ 31 ] .
         
       
       
         Discussion
-        
-          Functional group interactions of W89
-          The W89F mutation produced a significant increase in K
-          
-          i for all three compounds. The
-          magnitude of the change was similar in all cases. In
-          addition, the increase in K 
-          i was identical to the increase in K 
-          d that has been observed for [
-          3H]granisetron binding on this mutant [ 24 ] .
-          Alterations in K 
-          i resulting from the W89Y mutation
-          were slightly less, however the change was again the same
-          for lerisetron, analog 1 and analog 2. These data suggest
-          that all three compounds form binding site interactions
-          with W89. The interaction between lerisetron and W89 is
-          unlikely to be via the N-benzyl functional group since
-          the K 
-          i for analog 1 was also altered by
-          this mutation. The same argument can be made for the
-          distal piperazine nitrogen since the K 
-          i for analog 2 also increased. The
-          portion of the molecule common to all three compounds,
-          the aromatic benzimidazole, is thus the most likely point
-          of interaction for W89.
-        
-        
-          Functional group interactions of R91
-          The R91A mutation increased the K 
-          i value for lerisetron inhibition of [
-          3H]granisetron binding by 7.6 fold. This is a moderately
-          small change for an alanine mutation, particularly
-          considering that the smallest change in K 
-          i for removal of a functional group on
-          lerisetron (the N-benzyl group) was 31 fold. It is
-          therefore likely that this interaction is either
-          extremely weak or the change in K 
-          i is the result of a structural change
-          in the binding site. Previous studies concluded that R91
-          was an important interaction for the 5-HT 
-          3 R agonist 5-hydroxytryptamine
-          (5-HT), since the K 
-          i for 5-HT inhibition increased over
-          3000 fold as a result of the R91A mutation [ 24 ] . A
-          change in K 
-          d for [ 3H]granisetron binding to R91A
-          was also observed. In order to determine whether the
-          N-benzyl or distal piperazine nitrogen of lerisetron was
-          involved in an interaction with R91, we tested both
-          analog 1 and 2 on R91A mutant receptors. No change in K 
-          i was observed for either compound.
-          This result makes it much more difficult to assign the
-          correct functional group to this amino acid since it
-          suggests that one or both of the compounds is no longer
-          binding the receptor in precisely the same manner as
-          lerisetron. Considering the small change observed for
-          lerisetron binding as a result of this mutation, even a
-          slight reorientation of the molecule in the binding site
-          could result in the loss of this interaction.
-        
-        
-          Functional group interactions of Y142
-          The K 
-          i values for inhibition of [
-          3H]granisetron binding by analogs 1 and 2 were altered
-          only slightly by the Y142A mutation. The magnitude of the
-          increase in K 
-          i for lerisetron, however, was
-          considerably larger (160 fold) and is indicative of an
-          important interaction of the compound with Y142. The lack
-          of a large change in K 
-          i for both analogs makes it difficult
-          to interpret this data since one or both of the compounds
-          appears to be interacting differently with the binding
-          site than lerisetron.
-          Analogs 1 and 2 differ from each other both in the
-          functional groups contained in the molecule and their
-          structural similarity to lerisetron. Analog 2 is most
-          similar in overall structure. The substitution of oxygen
-          for the distal amino nitrogen alters the potential
-          interactions formed at this position, but is likely to
-          have a small effect on the overall size and shape of the
-          molecule. Analog 1 is far less similar to lerisetron and
-          more similar to the 5-HT 
-          3 R antagonist granisetron. Previous
-          studies have shown that the binding of granisetron is not
-          affected by the Y142A mutation [ 25 ] . Analog 1 may bind
-          more similar to granisetron than lerisetron and thus
-          would be unaffected by mutations at Y142. This is less
-          likely to be the case with analog 2.
-          The strength of the putative interaction at Y142 can
-          be identified by examining the change in binding of
-          lerisetron as a result of the Y142A mutation. The Y142A
-          mutation produced a 160 fold change in K 
-          i . This change reflects the binding
-          energy lost as a result of the alanine substitution. The
-          observed change in Ki on wt receptors is much larger than
-          that observed for removal of the N-benzyl group (31
-          fold), but is similar to that observed for substitution
-          of the distal amino nitrogen in analog 2 (400 fold).
-          Taken together with the close structural similarity of
-          analog 2 to lerisetron, it can be concluded that
-          comparison of analog 2 and lerisetron should provide the
-          best means of identifying the interaction at Y142. No
-          change in K 
-          i was observed for analog 2 as a
-          result of the Y142A mutation indicating a lack of any
-          significant interaction of this compound with Y142. These
-          data support our hypothesis that Y142 interacts with the
-          distal piperazine nitrogen of lerisetron. A second amino
-          acid may also be involved since the change in K 
-          i for lerisetron binding as a result
-          of the Y142A mutation was smaller than the change
-          produced by substitution of the piperazine nitrogen. As
-          described below, one candidate for this second amino acid
-          is Y152.
-        
-        
-          Functional group interactions of Y152
-          The Y152A mutation produced increases in K 
-          i for all three compounds although the
-          magnitude of the change differed. The increases in the K 
-          i values were 190 fold for lerisetron,
-          98 fold for analog 1 and only 40 fold for analog 2. Thus,
-          analog 1 retains much of its ability to interact with
-          Y152 despite the absence of the N-benzyl group, while
-          analog 2 interacts more weakly with this amino acid.
-          Since the K 
-          i for analog 1 is increased by the
-          Y152A mutation, it is unlikely that the N-benzyl group
-          interacts with Y152. The small change in K 
-          i for analog 2 supports a partial
-          interaction of Y152 with the distal piperazine nitrogen
-          although some interaction with another group is also
-          apparent. This other group would be expected to be in
-          close proximity to the distal nitrogen. The most likely
-          candidate is the other nitrogen of the piperazine ring.
-          Thus Y152A may form a partial interaction with both
-          piperazine nitrogens.
-        
+        The American Cancer Society has indicated that cancer
+        incidence rates are on the decline, however, they estimate
+        that greater than 1.2 million new cases will be diagnosed
+        this year [ 1 ] . Of these new cases, it is expected that
+        colorectal cancers will comprise approximately 10-11% [ 1 ]
+        . With staggering numbers as these, it is not surprising
+        that chemoprevention has been proposed as a viable strategy
+        to fight cancer. Among the leading therapeutic agents in
+        colorectal cancer prevention are NSAIDs, especially
+        aspirin. Epidemiological studies have indicated that the
+        frequent, long term use of aspirin could reduce the
+        relative risk of developing colorectal cancer by 40-50% [
+        13 14 15 32 ] . Despite the wealth of information regarding
+        the chemopreventive ability of aspirin, information to
+        indicate aspirin's utility in a therapeutic modality is
+        lacking. To date no studies or case reports have examined
+        the use of aspirin in the treatment of FAP, although
+        various clinical trials are under way [ 33 ] . In
+        accordance with the above data, studies conducted in
+        animals have always employed a prevention strategy as well
+        [ 4 7 9 ] . To our knowledge, this is the first study to
+        examine the therapeutic potential of aspirin in a rodent
+        model of colon carcinogenesis, in particular, the 
+        Min /+ murine model of polyposis. The
+        study revealed that treatment of 
+        Min /+ mice with established
+        polyposis with aspirin for 4 weeks produce no appreciable
+        therapeutic effect.
+        While the evaluation of aspirin in the 
+        Min /+ model utilising a therapeutic
+        regime is lacking, other NSAIDs (sulindac, flurbiprofen,
+        piroxicam and celecoxib) have been shown to significantly
+        reduce polyp numbers when administered using similar
+        protocols [ 6 11 34 35 ] . In addition, three recent
+        reports have demonstrated a lack of effect of aspirin as a
+        chemopreventive agent in 
+        Min /+ mice [ 36 37 38 ] . Combined,
+        these studies indicate that the 
+        Min /+ model is responsive to NSAIDs
+        other than aspirin when provided as a treatment. They also
+        raise into question the efficacy of aspirin as a
+        chemotherapeutic for colon cancer, and perhaps more
+        specifically, familial adenomatous polyposis.
+        With the exemplary track record of NSAIDs in this model
+        of colon cancer, why was a lack of effect seen in this
+        model? Was it a consequence of the dose of aspirin and/or
+        duration of treatment used? In the current study, mice
+        received approximately 500 μg of aspirin per day. This
+        amount of aspirin was found by Mahmoud 
+        et al. [ 9 ] to be sufficient
+        (significant) to reduce both polyp number and intestinal
+        prostaglandin (PGE 
+        2 ) content by greater than 45% when
+        provided from 5-6 weeks of age to 16 weeks of age (i.e.,
+        chemopreventive regime). Barnes and Lee [ 7 ] have also
+        suggested that the maximal tumour suppression for aspirin
+        may be in the 50% range. The above authors followed a
+        similar protocol to Mahmoud et al. [ 9 ] , but employed far
+        greater doses of aspirin (45 and 90 mg/kg/day) and reported
+        no dose-response relationship and a maximal suppression of
+        55% [ 7 ] . Furthermore, in the rat model of
+        azoxymethane-induced colon carcinogenesis, aspirin has also
+        only been found to inhibit aberrant crypt foci and tumour
+        development by no more than 65% [ 4 39 ] . Coincidentally,
+        epidemiological data also report reductions in the 40-50%
+        range [ 13 14 15 32 ] . However, whether this can be used
+        as an argument to support the notion that aspirin is only
+        able to suppress tumour formation by 50% is difficult to
+        extrapolate because two different end points are being
+        examined (i.e., relative risk versus tumour number).
+        Finally, as indicated earlier, other studies have
+        demonstrated that doses of NSAIDs other than aspirin which
+        were found to be chemopreventive were able to produce
+        similar reductions in polyp numbers when used in a
+        treatment regime [ 6 11 34 35 ] . Chiu 
+        et al. [ 6 ] demonstrated that 
+        Min /+ mice at approximately 11 weeks
+        of age possessed roughly 35-40 polyps and that treatment
+        (starting at 11 weeks of age) for as little as 4 days with
+        sulindac produced a 75% reduction in polyp number.
+        Similarly, Ritland and Gendler [ 34 ] reported that
+        administration of piroxicam (200 ppm in diet) to 10-13 week
+        old 
+        Min /+ mice for 6 or more days
+        resulted in maximal tumour number suppression (>90%).
+        Finally, 
+        R -flurbiprofen (10 mg/kg/day) orally
+        administered to 
+        Min /+ for 42 days starting at 10
+        weeks of age was also able to decrease tumour number by
+        greater than 58% [ 11 ] .
+        Various studies have reported increased levels of
+        prostaglandins and COX-2 expression in colorectal adenomas
+        and adenocarcinomas obtained both from animals [ 40 41 ]
+        and humans [ 42 43 44 ] . These findings have lead to the
+        implication that COX-2 plays an important role in
+        intestinal neoplasia and that the anti-neoplastic effects
+        of NSAIDs are attributable to their ability to inhibit
+        COX-2. In light of this information, the mechanism by which
+        aspirin and other NSAIDs inhibit colorectal cancer
+        progression has not been fully elucidated and cannot simply
+        be equated to the suppression of COX-2 activity. Shiff and
+        Rigas [ 45 ] indicate that NSAIDs may to affect colorectal
+        cancer development via one or more of the following four
+        areas: (1) COX-mediated carcinogen activation, (2) cell
+        proliferation, (3) apoptosis and (4) immune surveillance.
+        Within these potential mechanisms exists the possibility
+        for both COX-dependent and -independent mechanisms. In the
+        current study we also examined COX-activity and apoptosis.
+        The treatment regime employed was sufficient to attenuate
+        COX activity by 75% and increased the number of apoptotic
+        bodies within tumours by greater than 2-fold. Similar
+        findings were reported by Mahmoud 
+        et al . [ 9 ] using an equivalent
+        dose of aspirin in a prevention strategy. These authors
+        demonstrated a >50% reduction in small intestinal tumour
+        number and PGE 
+        2 content and a >4-fold increase in
+        apoptosis. Contrary to the similarities seen in
+        COX-inhibition and increased apoptosis, the present study
+        saw no effect on tumour number or size. The discordant
+        effect seen between the current study and that of Mahmoud 
+        et al . [ 9 ] are difficult to
+        explain. The duration and timing of treatment (i.e.,
+        prevention vs. treatment) would seem the most likely
+        explanation. This possibility has also been eluded in
+        epidemiological studies. The Physicians' Health Study found
+        no significant reduction in the relative risk of developing
+        colorectal cancer in individuals consuming 325 mg of
+        aspirin every other day for 5 years [ 46 ] . The Nurses'
+        Health Study reported that a significant decrease in risk
+        was only seen in women who took aspirin on a regular basis
+        for 10 or more years [ 13 ] . Whether this simple
+        explanation accounts for the difference in results reported
+        here and by Mahmoud 
+        et al . [ 9 ] does not seem likely.
+        As stated earlier, three previous studies employing
+        prevention strategies and higher doses of aspirin also
+        found no effect on tumour burden [ 36 37 38 ] . Perhaps a
+        similar discordant effect will appear in human studies as
+        results are released from the currently ongoing clinical
+        trials [ 33 ] . If such a situation does arise, it could
+        indicate that aspirin might not be the NSAID of choice for
+        colorectal cancer therapy. In contrast, to date no
+        conflicting data have been published regarding the use of
+        sulindac. Sulindac has been shown to be efficacious both in
+        rodent models of FAP and in human FAP patients.
+        Although no change was seen in tumour number or size,
+        the significant increase seen in apoptosis might imply that
+        aspirin could still hold utility in treating colorectal
+        cancer. The present study would suggest that aspirin has
+        little or no use as a stand-alone therapy, but could
+        present a viable option in combination chemotherapy. Recent
+        reports by Torrance 
+        et al. [ 47 ] and Mann 
+        et al. [ 48 ] demonstrate that
+        combinatorial therapy comprised of a COX inhibitor and
+        growth factor receptor inhibitors resulted in synergistic
+        anti-tumour activity. In fact, the study conducted by
+        Torrance and colleagues [ 47 ] demonstrated that doses of
+        sulindac (5 mg/kg) found to be ineffective as stand-alone
+        chemotherapy in the Min/+ model became extremely potent
+        when combined with an epidermal growth factor receptor
+        kinase inhibitor. The combination therapy was able to
+        completely abolish all macroscopically visible tumours in
+        47% of the animals treated [ 47 ] . This could prove to be
+        very advantageous since it may allow for lower doses of
+        NSAIDs to be used, thereby limiting the adverse effects
+        associated with long term NSAID use. Pursuing future
+        research into the combinatorial
+        chemopreventive/chemotherapeutic potential of aspirin may
+        be of greater value than trying to account for the
+        discordant effect.
       
       
         Conclusions
-        Figure 6shows a hypothetical model of the
-        lerisetron-binding site supported by our observations. The
-        model illustrates the secondary structure of the region of
-        the receptor from Y140 - Y152 in a loop configuration. This
-        structure is supported by site-directed mutagenesis data [
-        25 ] as well as structural predictions obtained from other
-        LGIC receptors [ 31 ] . The recent determination of the
-        structure of a nicotinic acetylcholine binding protein [ 27
-        ] that shares significant homology with the LGIC family
-        also supports a loop structure in this part of the protein.
-        The region from W89 through Y93 is shown as a β-sheet as
-        has been hypothesized based on site-directed mutagenesis
-        studies of this strand of the 5-HT 
-        3 R [ 24 ] . Our data indicate the
-        functional groups of lerisetron that may interact with W89,
-        R91, Y142 and Y152.
-        W89 is shown interacting with the aromatic benzimidazole
-        group of lerisetron although the precise position of W89
-        relative to this group is not known. The W89 interaction
-        with this group is supported by the observed increase in K 
-        i for lerisetron, analog 1 and analog 2.
-        Since the benzimidazole group is common to all three
-        compounds it is the most likely point of interaction. W89
-        also represents a common interaction in the binding site
-        for both lerisetron and [3H]granisetron.
-        Y142 is shown interacting with the distal piperazine
-        nitrogen possibly through a cation-π interaction. This
-        orientation of an amino group interacting with an aromatic
-        amino acid in a cation-π interaction has been shown for the
-        nicotinic acetylcholine receptor and has been hypothesized
-        for many LGIC receptors [ 28 29 30 26 ] . This conclusion
-        is based on both the magnitude of the change observed on
-        the wild type receptor for removal of the amino group (400
-        fold) compared to the effect of the Y142A mutation on
-        lerisetron binding (160 fold) and the lack of any major
-        change in K 
-        i for analog 2 as a result of this
-        mutation. Our data does not support an interaction of this
-        amino acid with either the N-benzyl or benzimidazole
-        portions of lerisetron.
-        Y152 is shown positioned between the two piperazine
-        nitrogens. This conclusion is supported by the smaller
-        increase in K 
-        i for analog 2 (40 fold) compared to
-        that observed for lerisetron (190 fold). These results
-        suggest a partial interaction of Y152 with the distal
-        piperazine nitrogen. Since some change was observed, a
-        second interaction is also likely. The functional group in
-        closest proximity to the distal piperazine nitrogen is the
-        other nitrogen on the piperazine ring. Another possibility
-        would be the N-benzyl interaction, however, since the Y152A
-        mutation also produced a large increase in K 
-        i for analog 2, this conclusion is not
-        supported by our data.
-        R91 is shown as interacting with the N-benzyl group.
-        This is a difficult conclusion to make considering the
-        small effect of the R91A mutation on lerisetron binding.
-        The interaction is included in the model based on
-        structural information obtained from the crystal structure
-        of AChBP [ 27 ] . The region of this protein homologous to
-        loop E and loop D of the 5-HT 
-        3A receptor suggests a loop structure
-        from Y140 to Y152 and a 3-residue turn containing a glycine
-        at position 147 and the β-strand from W89 through Y93
-        oriented as shown in Figure 6. The orientation of
-        lerisetron between W89 and Y142A as shown would enable the
-        N-benzyl group to be positioned in close proximity to R91.
-        If this is the case, then a small alteration in position of
-        analog 1 or 2 in the binding site could result in the loss
-        of this presumably weak interaction. The apparent
-        alterations in the binding site location of analog 1 would
-        be consistent with this hypothesis. An alternate hypothesis
-        would place the N-benzyl group in a different position,
-        interacting with another amino acid; either solely or in
-        concert with R91.
-        Our data support a binding site for lerisetron on the
-        5-HT 
-        3 R that spans the D and E loop regions.
-        Table 2shows the sequence alignment for the 5-HT 
-        3 R, the α7 receptor and the AChBP for
-        these loops. Sequence alignment of mouse 5-HT 
-        3 AR, α7 nAchR and AChBP result in
-        alignment of the proposed D and E loop of the 5-HT 
-        3 AR with corresponding regions of the
-        α7 nAchR and AChBP. The amino acids W89, R91 Y140, Y142 and
-        Y152 of the 5HT 
-        3 A R can be aligned with W53, Q55,
-        L102, R104, and M114 of the AChBP (Figure 6). These amino
-        acids form a cluster in the proposed acetylcholine binding
-        domain of AChBP similar to that proposed in our model. Both
-        loops have been identified on the complementary face of the
-        binding site of the nAChR. It is unknown if lerisetron
-        utilizes amino acids on the principal face although none
-        have been identified. The model for lerisetron binding will
-        be further refined as its interactions with other binding
-        site amino acids are investigated [ 26 32 33 ] . Of
-        particular interest would be potential interactions of the
-        N-benzyl group that would account for the decrease in
-        binding affinity of analog 2. Additional information gained
-        from comparison of our model with the recent crystal
-        structure of the AChBP demonstrates that lerisetron can be
-        roughly 'fit' into the binding site such that all the
-        residues line up as shown in our model. While this is not
-        direct evidence that the model is correct, subsequent
-        molecular modeling of the data presented in this paper may
-        provide further support for our hypothesis. Our current
-        model provides an initial working hypothesis that can form
-        the basis of further investigation. Also, while it is
-        unclear whether the information obtained in this study can
-        be extended to other 5-HT 
-        3 R ligands, a similar approach would be
-        useful in identifying functional group interactions for
-        mCPBG, 5-HT, dtC and granisetron.
+        Despite abundant evidence from epidemiological, clinical
+        and animal studies regarding the potential utility of
+        aspirin as a chemotherapeutic agent for colorectal cancer,
+        the current study found no change in tumour burden in the
+        extensively used 
+        Min /+ murine model of colon cancer.
+        The findings that aspirin was still able to significantly
+        increase the number of apoptotic cells within tumours and
+        lower prostaglandin levels suggests that it may be better
+        suited to combinatorial therapy, but its utility as a
+        stand-alone modality in established GI cancer is
+        questionable. Promising results have already been attained
+        in animal models using COX inhibitors as co-therapies in
+        the treatment of colorectal cancer and present a valuable
+        future research direction.
       
       
-        Materials and Methods
-        
-          Mutagenesis
-          Wild type 5-HT 
-          3AS mouse receptor cDNA was derived
-          from N1E-115 neuroblastoma cells as previously described
-          [ 24 ] . Mutant receptors were constructed using
-          polymerase chain reaction (Quick change mutagenesis kit,
-          Promega). All mutations were confirmed by DNA
-          sequencing.
-        
-        
-          Cell culture methods and transfections
-          tsA201 cells (a derivative of the HEK293 cell line)
-          were grown in Dulbecco's modified Eagles medium (D-MEM)
-          containing 10% FBS and 100-units/ml
-          penicillin/streptomycin. Cultures were maintained in
-          humidified atmosphere of 5% CO 
-          2 at 37°C. For binding studies, tsA201
-          cells were plated at a density of 5 × 10 6cells/75 cm
-          2and grown for 9 hours prior to transfection. Cells were
-          transfected with 10 μg murine 5-HT 
-          3AS R cDNA using calcium phosphate
-          co-precipitation (New Life Technologies, NY), then
-          incubated 36 hours prior to harvesting. For whole cell
-          patch clamp experiments, tsA201 cells were plated at a
-          density of 0.25 × 10 6cells/27 cm 2dish and grown 12
-          hours prior to transfection. Cells were washed with fresh
-          culture medium then transfected with 10 μg 5-HT 
-          3AS R cDNA using Qiagen Superfect
-          transfection reagent (Qiagen, CA). Transfected cells were
-          incubated with this mixture for 2.5 hours, then divided
-          into 35 mm culture dishes at a density of approximately 5
-          × 10 4cells/dish and incubated for 24 hours at 37°C
-          before recording.
-        
-        
-          Radioligand Binding Assay
-          Transfected cells were scraped from the dishes, washed
-          twice with Dulbecco's PBS (New Life Technologies, NY),
-          then resuspended in 1.0 ml PBS/100 mm dish. Cells were
-          either used fresh or frozen at this step until needed.
-          Immediately prior to use, cells were homogenized in PBS
-          using a glass tissue homogenizer then centrifuged at 35
-          000 × g for 30 minutes in a Beckman JA20 rotor. Membranes
-          were washed once more with PBS then resuspended in 1 ml
-          PBS/100 mm dish. Protein content was determined using a
-          Lowry assay (Sigma. Diagnostics, St. Louis, MO). Binding
-          assays were performed in PBS. For K 
-          d determinations, 100 μl of homogenate
-          was incubated at 37°C for 1 hour with varying
-          concentrations of [ 3H] granisetron (NEN, MA). Specific
-          binding of [ 3H] granisetron was determined as the bound
-          [ 3H] granisetron not displaced by a saturating
-          concentration of a competing ligand (100 μM mCPBG or 10
-          μM MDL-72222). K 
-          d values were determined by fitting
-          the binding data to the following equation using GraphPad
-          PRISM (San Diego CA): B = Bmax [L] n / ([L] n + Kn),
-          where θ is bound ligand, Bmax is the maximum binding at
-          equilibrium L is the free ligand concentration and n is
-          the Hill coefficient. For K 
-          i determinations, 100 μl of homogenate
-          was incubated at 37°C for 2 hours with varying
-          concentrations of inhibitor and [ 3H] granisetron (NEN,
-          MA). Binding was terminated by rapid filtration onto a
-          GF/B filters. The IC 
-          50 values were calculated by fitting
-          the data to the following equation using GraphPad PRISM
-          (San Diego CA): θ = 1/ (1+(L/IC 
-          50 )), where θ is the fractional
-          amount of [ 3H] granisetron bound in the presence of
-          inhibitor at concentration L as compared to the amount of
-          [ 3H] granisetron bound in the absence of inhibitor. IC 
-          50 is the concentration at which θ =
-          0.5. The K 
-          i is calculated from the IC 
-          50 value using the Cheng-Prusoff
-          equation.
-        
-        
-          Electrophysiological Methods
-          Transfected tsA201 cells were transferred to a
-          recording chamber and submerged in extracellular
-          recording buffer containing 25 mM HEPES pH 7.4, 140 mM
-          NaCl, 1.7 mM MgCl 
-          2 , 5 mM KCl, 1.8 mM CaCl 
-          2 . Patch electrodes (2-2.5 MΩ) were
-          filled with intracellular recording buffer containing 25
-          mM HEPES pH 7.4, 145 mM KCL, 2 mM MgCl 
-          2 and 1 mM EGTA. Cells were clamped in
-          whole cell configuration at a holding potential of -60
-          mV. Currents elicited by agonist application were
-          measured using an Axopatch 200B amplifier (Foster City,
-          CA) under computer control (DataPac 2000, RUN
-          Technologies). Agonists and antagonists were dissolved in
-          extracellular solution and delivered to cells using a
-          rapid perfusion system (Warner Instruments, Hamden, CT).
-          For EC 
-          50 determinations, responses were
-          normalized to the maximum response obtained from the full
-          agonist 5-HT and fitted to the equation Ψ= 1/1+(EC50/ [C]
-          n), where Ψ is the normalized current at 5-HT
-          concentration [C], EC50 is the concentration of 5-HT
-          needed to obtain half maximal activation and n is the
-          apparent Hill coefficient. For inhibition experiments,
-          cells were exposed to inhibitor alone for 30 s prior to
-          co-exposure with 5-HT. Inhibited responses were
-          calculated as a fraction of the response to 5-HT alone.
-          Data were plotted as the fractional response versus the
-          concentration of inhibitor and analysed using GraphPad
-          software. The IC 
-          50 value was calculated as the
-          concentration of antagonist inhibiting the 5-HT evoked
-          response by 50%. A K 
-          i value was calculated from the IC 
-          50 using the Cheng-Prusoff
-          equation.
-        
-        
-          Synthesis of Lerisetron and its analogs
-          All target molecules were prepared according to a
-          general 2-step synthesis reported previously by Orjales 
-          et al . with only slight
-          modification [ 22 23 ] . Commercially available
-          2-chlorobenzimidazole, in dry DMF was treated with a
-          slight excess of NaH, (1.1eq). After stirring for 1 hour
-          at room temperature, one equivalent of the appropriate
-          alkyl bromide was added slowly and the reaction mixture
-          heated under reflux for > 5 hours (the reaction was
-          monitored by TLC). Reaction product was partitioned
-          between water and methylene chloride; organic layer was
-          dried (Na 
-          2 SO 
-          4 ) and concentrated in vacuum. The
-          solid residue was purified by Flash chromatography, which
-          afforded the corresponding N-substituted
-          2-Chlorobenzimidazole intermediates in good yield. The
-          final step involved a nucleophilic substitution of the
-          2-chloro group by piperazine at high temperatures. The
-          reaction was performed neat using 4-10 fold excess
-          piperazine and typically heated for a short period only,
-          (30-45 min). Similar work-up afforded a residue that was
-          purified by either crystallization or chromatography. The
-          yields ranged from 40-95%. All compounds were
-          characterized by NMR, MS, HRMS, and /or elemental
-          analysis or were identical to literature reports.
-        
-        
-          Materials
-          D-MEM, Penicillin-Streptomycin, fetal bovine serum,
-          and Trypsin were obtained from New Life Technologies.
-          5-HT and MDL-72222 were obtained from RBI. [
-          3H]-granisetron (84 Ci/mmol) was purchased from New
-          England Nuclear.
-        
+        Competing interests
+        None declared.
+      
+      
+        Author's contributions
+        BKR performed the animal studies, immunoassays and
+        drafted the manuscript. XJZ carried out the
+        immunohistochemistry and aided with tissue collection. MJS
+        participated in study design, coordination and manuscript
+        preparation.
+        All authors read and approved the final manuscript.
       
     
   

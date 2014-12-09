@@ -3,470 +3,510 @@
     
       
         Background
-        The analysis of gene function during mammalian embryonic
-        development relies heavily on the use of transgenic mice.
-        However, expression of alleles that result in embryonic
-        lethality cannot be studied using regular transgenic
-        procedures because lines of founder mice cannot be
-        established. Analysis of such alleles in mammals has
-        historically relied upon transient transgenic procedures [
-        1 ] . In this approach, fertilized eggs are injected with a
-        transgene construct and allowed to develop to a
-        pre-determined embryonic stage 
-        in utero before being collected for
-        phenotypic analysis. Using this method a variable number of
-        transgenes integrate into random genomic loci.
-        Unfortunately, the local chromosomal environment can affect
-        expression of the integrated transgene and this can result
-        in unpredictable transgene expression. Moreover, because no
-        founder line is established it is not possible to repeat an
-        analysis with a specific transgenic mouse embryo.
-        The problem of random transgene integration can be
-        overcome by targeting transgenes to a specific genomic
-        locus by homologous recombination in ES cells [ 2 3 4 ] . A
-        method that allows the introduction of single copy
-        transgenes into the X-linked 
-        hprt locus has been described
-        previously by Bronson 
-        et al [ 2 ] . In this approach
-        single-copy transgenes are introduced 5' of the 
-        hprt locus by homologous
-        recombination in ES cells. This is an extremely efficient
-        procedure because targeted clones have reconstituted the 
-        hprt gene and are selected on the
-        basis of growth in HAT medium. Following this method,
-        upward of 90% of HAT resistant ES cell clones contain
-        correctly targeted transgenes [ 2 ] . The 
-        hprt locus is a particularly suitable
-        site for the integration of transgenes because it exists as
-        an X-linked gene present as a single copy in male ES cells.
-        Moreover, the 
-        hprt gene is ubiquitously expressed
-        and so provides a favorable chromatin environment for
-        transgene expression. Indeed, it has been demonstrated that
-        the level of expression of transgenes inserted into the 
-        hprt locus is directed solely by
-        exogenous transcriptional regulatory elements [ 2 ] .
-        Furthermore, mice derived from independent ES cells clones
-        containing a transgene expressed from the same promoter all
-        exhibit comparable levels of expression [ 2 4 5 6 ] .
-        Although the targeting of constructs to the 
-        hprt locus facilitates consistent
-        expression of transgenes it does not overcome the need to
-        generate founder lines of transgenic mice. However,
-        pioneering work by Nagy 
-        et al has shown that embryos and mice
-        can be derived directly from R1 ES cells by aggregating
-        them with tetraploid embryos [ 7 8 ] . This suggests that
-        controlled expression of transgenes encoding possible
-        gain-of-function and developmental-lethal alleles could be
-        achieved by generating embryos and/or mice from ES cells
-        containing transgenes inserted into the 
-        hprt locus. Unfortunately, the
-        generation of mice and embryos by tetraploid aggregation
-        from available Hprt negative ES cell lines has proven to be
-        inefficient and unreliable (S.A.D. unpublished). In this
-        report, we describe the generation of a new Hprt negative
-        ES cell line that is compatible with the tetraploid
-        aggregation procedure. Moreover, we demonstrate that it
-        facilitates efficient targeting of transgenes to the 
-        hprt locus as well as the subsequent
-        generation of clonal transgenic mouse embryos that express
-        the transgene in a promoter-dependent manner.
+        The proper assembly of basic proteins with nucleic
+        acids, such as occurs in the packaging of histones with DNA
+        to produce chromatin and in the packaging of ribosomal
+        proteins with rRNA to form ribosomes, is a reaction that
+        must be facilitated so as to prevent the aggregation of
+        these oppositely charged groups of molecules. Proteins that
+        mediate these reactions, generally termed molecular (or
+        nuclear) chaperones, have been identified biochemically.
+        Two well studied proteins that participate in the processes
+        of chromatin and ribosome assembly are nucleoplasmin and
+        nucleophosmin, respectively, two related proteins whose
+        characteristic acidic domains have been shown to bind the
+        basic proteins involved in these processes and present them
+        to the nucleic acid.
+        Nucleoplasmin is the most abundant protein in the 
+        Xenopus oocyte nucleus and is the
+        protein for which the term molecular chaperone was coined
+        due to its multiple roles in the assembly of nucleosomes
+        during early frog development [ 1 ] . Nucleoplasmin forms a
+        pentamer and its stretches of acidic residues bind to
+        histone H2A and H2B. In concert with the unrelated acidic
+        protein N1/N2, which binds histones H3 and H4, they act
+        together and with other factors to assemble nucleosomes [ 2
+        3 ] . In addition to assembly, nucleoplasmin and other
+        proteins are involved in the chromatin remodeling and
+        nucleosome disassembly that occurs, for example, during
+        transcription to allow the access of transcription factors
+        to nucleosomal DNA [ 4 ] . Another major function of
+        nucleoplasmin is the decondensation of sperm chromatin at
+        fertilization. In this case, nucleoplasmin acts to exchange
+        the sperm specific basic proteins, which allow the dense
+        packing of DNA in sperm, with the histones H2A and H2B,
+        thus effecting chromatin decondensation [ 5 6 ] .
+        Phosphorylation of nucleoplasmin appears to be important in
+        regulating this activity, as heavily phosphorylated
+        nucleoplasmin is significantly more active [ 7 ] .
+        Nucleophosmin (also called B23 [ 8 ] , NO38 [ 9 ] or
+        numatrin [ 10 ] ), a protein related to nucleoplasmin, is
+        implicated in ribosome assembly due to its abundance,
+        localization in the nucleolus and its multiple activities
+        that are consistent with such a function. Some of these
+        activities include nucleic acid binding [ 11 ] ,
+        ribonuclease activity (for processing preribosomal RNA) [
+        12 ] and association with maturing preribosomal
+        ribonucleoprotein particles [ 13 14 ] . It may also be
+        involved in the transport of ribosomal or other nucleosomal
+        proteins across the nuclear membrane, as it is known to
+        shuttle between the cytoplasm and nucleus and to stimulate
+        the nuclear importation of proteins [ 15 16 ] .
+        Nucleophosmin also appears to be intimately involved in
+        centrosome duplication. It associates specifically with
+        unduplicated centrosomes, and its phosphorylation by
+        CDK-2/cyclin E, the trigger for centrosome duplication, is
+        required for duplication to occur [ 17 ] . The
+        nucleophosmin gene is also known for its fusion with the
+        anaplastic lymphoma kinase 
+        (ALK) receptor tyrosine kinase in
+        cases of this disease with (2;5)(p23;q35) translocations [
+        18 ] . The nucleophosmin portion contributes to
+        transformation by providing a dimerization domain, which
+        allows activation of the fused kinase and signal
+        transduction [ 19 ] .
+        We previously discovered and initially characterized a
+        novel member of this family in the mouse, namely
+        nucleophosmin/nucleoplasmin 3 ( 
+        Npm3 ). To identify the human
+        ortholog of 
+        Npm3 and begin its characterization,
+        we have cloned a human 
+        NPM3 cDNA, determined its genomic
+        structure and relationship to other family members and show
+        its expression in multiple tissues and subcellular
+        localization in the nucleus.
       
       
-        Results
-        Nagy 
-        et al demonstrated that embryos and
-        mice could be derived solely from R1 ES cells by
-        aggregating them with tetraploid embryos [ 7 8 ] . Although
-        we were able to repeat these data using R1 ES cells we were
-        unable to generate midgestation embryos from
-        E14TG2a-derived strains of 
-        hprt negative ES cell lines using the
-        same approach [ 9 10 11 ] . We believed it was unlikely
-        that Hprt itself was required to generate ES cell-derived
-        embryos because 
-        hprt knockout mice are viable and
-        fertile [ 12 ] . E14TG2a-derived ES cell lines contain a
-        large spontaneous deletion encompassing 55 kb of the 
-        hprt locus [ 13 ] . Therefore, it
-        seemed possible that sequences within this region were
-        necessary to maintain ES cell pluripotency. However, we
-        believed a more likely scenario was that the available
-        lines contained unrelated genetic or epigenetic alterations
-        that were incompatible with the aggregation procedure.
-        Consistent with this interpretation, Eggan 
-        et al have recently shown that viable
-        offspring are more efficiently produced through
-        tetraploid-mediated cloning from outbred ES cell line
-        compared to inbred ES cell lines [ 14 ] . We, therefore,
-        believed it likely that aggregation-compatible 
-        hprt negative ES cells could be
-        generated by targeted mutation of the 
-        hprt gene in R1 ES cells. To test
-        this we generated a targeting vector to replace exon 1 of
-        the mouse 
-        hprt gene with a 
-        neomycin phosphotransferase
-        (neo) gene that conferred resistance to te
-        pharmacological inhibitor G418 in ES cells (fig 1a).
-        Following transfection of this plasmid into R1 cells 192
-        clones that were resistant to G418 were collected and grown
-        in the presence of 6-thioguanine to select for loss of Hprt
-        activity. Of the original 192 G418-resistant clones that
-        were harvested only one, named F3, was also resistant to
-        6-thioguanine and sensitive to growth in HAT medium (fig
-        3b). The integrity of the targeting event was next
-        confirmed by Southern blot analysis of F3 genomic DNA. As
-        shown in fig 1athe correct integration of Neo at the 
-        hprt locus was predicted to delete a
-        BamH1 restriction endonuclease cut-site from intron 1 and
-        replace it with a BamH1 site that is unique to the mutant 
-        hprt allele. This restriction
-        fragment polymorphism could be detected using an 
-        hprt-specific probe (fig 1a). The
-        wild type BamH1 fragment was predicted to be 7.0 kb based
-        on sequence analysis while the mutant fragment should be
-        8.3 kb. Fig 1cshows that digestion of wild-type R1 ES cell
-        DNA with BamH1 did indeed generate a 7.0 kb fragment that
-        could be detected with intron 3 probe. In contrast, F3
-        cells were shown to have replaced this fragment with an 8.3
-        kb BamH1 fragment thereby confirming the integrity of the
-        targeting event.
-        For F3 cells to be a suitable vehicle for the generation
-        of transgenic mice they should be competent to generate
-        chimeric mice that can transmit alleles through the
-        germline. To test the "germline potential" of F3 cells we
-        first generated chimeric mice by aggregating F3 ES cells
-        with CD-1 morulae and allowing them to develop to term 
-        in utero. The resulting chimeric
-        males were bred with CD-1 females and the genotype of
-        offspring determined by Southern blot analysis of genomic
-        DNA from mouse tails. Fig 1cshows that agouti F1 female
-        mice contained both the mutant (paternal) and wild type
-        (maternal) 
-        hprt alleles. In contrast, the agouti
-        F1 male mice contained only a wild-type 
-        hprt allele inherited from the
-        maternal X-chromosome as expected. From this we were able
-        to conclude that F3 
-        hprt null ES cells are indeed
-        competent to transmit alleles through the germline and that
-        the resulting offspring were fertile and viable as reported
-        previously [ 12 ] .
-        We next addressed whether embryos could be generated
-        solely from F3 Hprt negative ES cells by aggregating these
-        cells with tetraploid CD-1 embryos and allowing them to
-        develop 
-        in utero until day 13 of gestation
-        (El 3). Figs 2a,b,cshow that F3 cells could indeed give
-        rise to normal embryos (n = 10). All embryos exhibited
-        characteristic features of midgestation stages of
-        development including normal rostral-caudal patterning,
-        beating hearts, normal limb formation including the
-        formation of fingers. F3 cells derive from the agouti
-        (pigmented) SV129/J strain of mice. In contrast, albino
-        CD-1 mice donated the tetraploid morulae used in the
-        aggregation procedure. The finding, shown in figs 2a,b,c,
-        that all the resulting embryos displayed clear retinal
-        pigmentation strongly implied that the embryos were F3 ES
-        cell-derived. We confirmed this by determining the genotype
-        of the embryos by Southern blot analyses of genomic DNA.
-        Fig 2dshows that all embryos contained a restriction
-        fragment polymorphism that was indicative of deletion of 
-        hprt exon1. No wild type 
-        hprt allele was detected confirming
-        that the embryos were generated entirely from F3 cells.
-        These data demonstrate that the 
-        hprt gene is not essential for the
-        generation of embryos from ES cells by tetraploid
-        aggregation and that F3 cells should could provide a
-        suitable vehicle for the direct generation of transgenic
-        mouse embryos.
-        Previously it has been shown that a targeting vector,
-        pMP8, can correct the loss of Hprt activity in E14TG2a ES
-        cells that lack exons 1 and 2 of the 
-        hprt gene [ 2 15 ] . The design of
-        this vector implied that it should also be capable of
-        correcting the 
-        hprt exon 1 deficiency in F3 cells
-        and could, therefore, be used to introduce transgenes into
-        the 
-        hprt locus by homologous
-        recombination. To test this we generated a modified vector
-        based on pMP8. The practical features of this modification
-        are that it removes the lacZ sequences in the vector
-        backbone and reduces the overall size of the vector, both
-        of which improve subsequent cloning steps. This vector,
-        pMP8NEBΔLacZ, contains a 5' arm of homology consisting of
-        3.4 kb of mouse 5' 
-        hprt genomic DNA flanking a unique
-        Not1 restriction endonuclease cut site. The 3' arm of
-        homology contains 1.8 kb of the human 
-        hprt gene that includes exon1 and 2.9
-        kb of mouse genomic sequence that includes exon 2 (fig 3a)
-        as described previously [ 15 ] . Homologous recombination
-        at the modified 
-        hprt locus in F3 cells should
-        substitute genomic DNA containing 
-        hprt exons 1 and 2 for 
-        neo thereby reconstituting a gene
-        encoding active Hprt (fig 3a). Moreover, only cells having
-        undergone a successful homologous recombination event
-        should become HAT resistant and carry the targeted
-        transgene. To assess the efficiency of this approach we
-        attempted to target a LacZ reporter transgene whose
-        expression is controlled by the promoter from the alpha
-        myosin heavy chain (αMHC) gene to the modified 
-        hprt locus in F3 cells. We chose the
-        αMHC promoter because others have demonstrated, using
-        traditional transgenic procedures, that it directs high
-        levels of reporter gene expression specifically in cardiac
-        tissue of early mouse embryos [ 16 17 18 ] . Cells were
-        selected for resistance to HAT following electroporation of
-        the α 
-        MHC-LacZ transgene-containing
-        plasmid. 16 HAT resistant cells lines were collected and
-        their genotype determined by Southern blot analysis. Fig
-        3cshows that, in contrast to F3 cells, a probe that
-        specifically recognizes the LacZ transgene identified a 6.7
-        kb EcoRV fragment in HAT-resistant ES cell lines. Of the 16
-        HAT-resistant colonies retrieved 15 contained LacZ.
-        Furthermore, fig 3bshows that these cells had become G418
-        and 6-thioguanine sensitive confirming that the 
-        neo gene had indeed been replaced
-        with 
-        hprt -coding sequences in the F3
-        cells. These data confirm that this selection strategy is
-        extremely efficient in identifying ES cell clones
-        containing correctly targeted transgenes [ 2 ] .
-        The ultimate use of this procedure is to generate clonal
-        transgenic mouse embryos directly from the modified ES
-        cells. Success in this would provide a system in which to
-        express alleles with potentially lethal phenotypes in the
-        developing embryo. We, therefore, determined whether
-        embryos could be generated from the F3 cells that contained
-        an αMHC-LacZ transgene and whether these embryos
-        appropriately expressed β-galactosidase. E8.5 embryos were
-        generated from three independent αMHC-LacZ cell lines and
-        stained for expression of β-galactosidase. Representative
-        embryos, shown in fig 3dall developed normally and
-        expressed high levels of β-galactosidase in the developing
-        heart, mimicking the expression of endogenous αMHC [ 16 ] .
-        Importantly, none of the embryos exhibited ectopic patterns
-        of expression lending further support to the proposal that
-        expression of transgenes introduced to the 
-        hprt locus is primarily dependent on
-        the accompanying transcriptional regulatory elements [ 2 ]
-        .
-      
-      
-        Discussion and conclusions
-        Here we have described the generation of an ES cell line
-        and a procedure that will allow the phenotypic analyses of
-        transgenic embryos expressing lethal alleles. This
-        procedure is an important addition to the available
-        repertoire of molecular genetic techniques available to
-        developmental biologists because it overcomes several
-        deficiencies associated with alternative transient
-        transgenic approaches normally used to study
-        gain-of-function and dominant-negative alleles. Traditional
-        procedures rely on the generation of transgenic embryos
-        through micro injection of fertilized mouse eggs. Using
-        this approach an unpredictable number of transgene-copies
-        are incorporated at a random location in the recipient
-        genome. This can result in ectopic expression of the
-        transgene because both copy number and the site integration
-        can influence transgene expression.
-        In the approach described here, a targeting vector that
-        contains exon 1 of the 
-        hprt gene along with a specific
-        transgene is used to reconstitute Hprt activity in Hprt
-        negative ES cells. Successful targeting of the transgene to
-        the 
-        hprt locus in Hprt negative ES cells
-        can be selected by growing transfected cells in HAT medium.
-        The efficiency of this selection procedure is such that
-        close to all HAT resistant colonies contain a correctly
-        targeted transgene. Moreover, because the transgene is
-        introduced into the 
-        hprt locus its expression is
-        dependent upon the inclusion of specific transcriptional
-        regulatory elements and remains relatively unaffected by
-        the local chromatin environment [ 2 ] . A major advantage
-        of this targeted transgenic approach compared to
-        traditional transgenics is that transgene expression is
-        predictable so expression at ectopic sites is largely
-        avoided. The availability of F3 Hprt negative ES cells
-        allows transgenic embryos to be derived directly from
-        transgenic ES cells by aggregating the cells with
-        tetraploid embryos and allowing them to develop 
-        in utero. Each embryo is, in effect,
-        clonal because it is generated from a single clonal ES cell
-        line. This allows reproducible comparison of the phenotype
-        generated by a given transgene at different developmental
-        stages. Moreover, because the transgene is present as a
-        single copy at a known site of integration it circumvents
-        the need to generate many different transgenic lines from a
-        given construct as is the case when using a transient
-        transgenic procedure.
-        There are many potential uses for this method of
-        generating transgenic mouse embryos. The most obvious is
-        that it provides a mechanism for generating embryos that
-        express alleles that are predicted, or known, to be
-        detrimental to normal embryonic development, for example
-        dominant-negative or gain-of-function alleles. Indeed, the
-        expression of dominant negative alleles that can
-        potentially disrupt multiple members of a gene family has
-        been used extensively in Xenopus laevis and has, for
-        example, helped elucidate the action of fibroblast growth
-        factors during mesoderm formation [ 19 ] . Such alleles are
-        particularly useful when a null allele in the same gene
-        causes a disruptive phenotype prior to the stage of
-        development of interest. Choosing a promoter that expresses
-        the dominant negative allele later in development or in a
-        specific cell type could potentially circumvent any early
-        phenotype associated with a null allele.
-        Another important use of this procedure could be to
-        identify transcriptional regulatory regions that control
-        expression of specific genes during development. Transgenic
-        mice have been extensively used to identify regulatory
-        elements that control gene expression 
-        in vivo [ 20 21 ] . This has, in turn
-        allowed the elucidation of regulatory networks that control
-        cell differentiation during development. In this regard,
-        the use of F3 cells coupled with targeting transgenes to
-        the 
-        hprt locus offers two major
-        advantages over traditional transgenic approaches. The
-        first is that it is extremely rapid. Once the targeting
-        construct is in hand it takes approximately four to five
-        weeks to generate transgenic mouse embryos. The second
-        advantage is due to the presence of the transgene at a
-        known and constant integration site. This potentially
-        allows the comparison of levels of reporter gene expression
-        driven by different promoters thereby offering a
-        quantitative 
-        in vivo transgenic assay.
-        In sum, the availability of tetraploid
-        aggregation-competent ES cells that support targeting of
-        transgenes to the 
-        hprt locus should facilitate the
-        rapid analysis of transcriptional regulatory elements 
-        in vivo as well as the phenotypic
-        characterization of alleles that are incompatible with
-        normal development. We, therefore, believe that F3 cells
-        provide a powerful new tool for molecular geneticists.
-      
-      
-        Materials and Methods
+        Results and Discussion
         
-          Plasmids
-          
-            pΔHprt
-            The targeting plasmid used to delete 
-            hprt exon1 was called pΔHprt to
-            indicate this deletion. It was derived from the plasmid
-            pOS.DUP/DEL that contained the 
-            neomycin phosphotransferase
-            (neo) gene that confers resistance to the
-            pharmacological inhibitor G418 and also contains the
-            Herpes Simplex Virus 
-            thymidine kinase (HSV-TK) that
-            confers sensitivity to gancyclovir. Importantly the 
-            neo gene is flanked by 
-            loxP sequences permitting loss of
-            G418 resistance where useful. pΔHprt was constructed by
-            introducing a 2.5 Kb BamHI/HindIII fragment of 5' 
-            hprt genomic DNA (E14TG2a origin)
-            from the plasmid pMP8 into the Hpa1 site of pOS.DUP/DEL
-            [ 15 ] . The ends of the fragments were made blunt
-            using Klenow. The 3' arm of homology was introduced
-            into the unique Bcl1 site of the previous plasmid as a
-            7 Kb BamHI fragment from pMP1(SV129 origin) that
-            contained murine 
-            hprt exons 2 and 3.
-          
-          
-            pMP8NEBΔLacZ
-            The plasmid pMP8NEBΔLacZ was generated by ligating
-            an 8 kb Xba1 fragment from pMP8 into the Xba1 site of
-            pNEB193 (New England Biolabs) from which LacZ sequences
-            had been removed as a NarI/EcoRI fragment [ 15 ] . This
-            
-            hprt replacement vector contains
-            a 5' arm of 
-            hprt homology consisting of 3.4
-            kb of mouse 5' 
-            hprt genomic DNA flanking a
-            unique Not1 cloning site. The 3' arm of homology
-            contains 1.8 kb of the human 
-            hprt gene that includes exon1 and
-            2.9 kb of mouse genomic sequence that includes exon 2.
-            A detailed description of the pMP8 targeting vector,
-            from which these sequences were derived, has been
-            described previously [ 15 ] . A partial nucleotide
-            sequence of pMP8NEBΔLacZ is available from S.A.D. upon
-            request.
-          
-          
-            pαMHC-LacZ-Hprt
-            This targeting vector was constructed by inserting a
-            9.7 kb αMHCLacZ expression cassette into the NotI site
-            of pMP8NEBΔLacZ. The 9.7 kb αMHCLacZ expression
-            cassette was constructed by inserting a 3.6 kb
-            SalI/HindIII fragment from pLacF containing a 
-            lacZ gene that incorporates a
-            nuclear localization signal into the SalI/HindIII site
-            of an αMHC expression module.
-          
+          NPM3cDNA cloning and genomic structure
+          Mouse 
+          Npm3 is located approximately 5 kb
+          upstream of the 
+          Fgf8 gene in the same
+          transcriptional orientation [ 20 21 ] . To determine if
+          human 
+          NPM3 is similarly located and to
+          identify genomic clones of 
+          NPM3, we analyzed FGF8-containing
+          human genomic lambda clones [ 22 ] by Southern blotting
+          using a mouse 
+          Npm3 cDNA probe. A 4.3-kb 
+          Hin d III- 
+          Xho I fragment that hybridized to 
+          Npm3 was identified, subcloned and
+          used to screen a human liver cDNA library. Several
+          partial cDNAs with strong sequence homology to mouse 
+          Npm3 were isolated. The 5' coding
+          region was subsequently isolated using a reverse
+          transcriptase-PCR approach and was fused to one of the
+          partial cDNAs at a common restriction site to produce a
+          cDNA with full coding potential. Sequencing of subcloned
+          genomic fragments and comparison with the cDNA sequence
+          allowed us to construct an exon map of the 
+          NPM3 gene (Figure 1A). 
+          NPM3 has the same exon structure as
+          the mouse ortholog and is located approximately 5.5 kb
+          upstream of 
+          FGF8, in the same transcriptional
+          orientation (Figure 1B). The 
+          NPM3 exon/intron boundaries and
+          organization information is presented in Table 1. Based
+          on its close linkage to 
+          FGF8, NPM3 maps to chromosome
+          10q24-26 [ 23 24 ] .
         
         
-          ES cell culture, gene targeting and
-          selection
-          All ES cell lines were cultured on mitotically
-          inactivated primary embryonic fibroblasts in ES cell
-          medium supplemented with recombinant leukemia inhibitory
-          factor (LIF) as described elsewhere [ 22 ] . F3 cells
-          were generated by introducing 100 μg of Not1 digested
-          pΔHPRT plasmid into 1.5 × 10 8R1 ES cells by
-          electroporation at 250 volts/500μf/resistance 8 using a
-          BTX ECM600 electroporation system [ 7 ] . Cells
-          containing 
-          neo were selected by supplementing
-          the ES cell medium with 250 μg/ml Geneticin (G418,
-          Gibco-BRL) and negative selection against 
-          Hsv-tk gene expression was achieved
-          by including 2 μM gancyclovir (Roche). To identify cells
-          that had lost HPRT activity G418/gancyclovir-resistant
-          colonies were collected and expanded in 96 well plates in
-          the presence of 250 μg/ml 6-thiogaunine. Introduction of
-          transgenes into the 
-          hprt locus of F3 cells was achieved
-          using the following procedure. F3 cells were grown for
-          two passages in media containing 250 μg/ml 6-thioguanine.
-          100 μg of linear targeting vector plasmid was introduced
-          into 1.5 × 10 8F3 ES cells by electroporation. Cells were
-          grown for 2 days before adding HAT (Sigma) to the growth
-          medium. HAT resistant colonies were harvested after 10
-          days growth in HAT-containing medium.
+          NPM3sequence analysis
+          The amino acid sequence deduced from the human 
+          NPM3 cDNA sequence was 87%
+          identical and 95% similar to mouse 
+          Npm3 (Figure 2). The human sequence
+          is three amino acids longer than that of the mouse; these
+          additional residues lie in the acidic domain in the
+          C-terminal portion of the protein. At least eight
+          potential serine and threonine phosphorylation sites are
+          present in the human protein involving such kinases as
+          casein kinase I and II, protein kinase A and C, glycogen
+          synthase kinase 3 and calmodulin-dependent protein kinase
+          II (Figure 2). All of these consensus sites are also
+          found in mouse Npm3 with the exception of the casein
+          kinase I site at residue 16. A cluster of amino acids at
+          the C-terminus that is rich in basic residues and
+          glycines forms a potential nuclear localization signal [
+          25 26 ] in the human as well as the mouse protein (Figure
+          2). Multiple phosphorylation sites and nuclear
+          localization signals, or the ability to bind proteins
+          with such signals, are also characteristics of
+          nucleophosmin and nucleoplasmin [ 16 27 28 29 ] . When
+          the functions of NPM3 are elucidated, it will be of
+          interest to determine the contribution of phosphorylation
+          to these activities, since the functions of both
+          nucleoplasmin and nucleophosmin are regulated by
+          phosphorylation, which is extensive in both proteins [ 7
+          17 ] ).
+          To enable an amino acid comparison between NPM3 with
+          other members of the nucleophosmin/nucleoplasmin family,
+          we searched the nonredundant GenBank database using human
+          NPM3, 
+          Xenopus nucleoplasmin and human
+          nucleophosmin as BLASTP queries, and 11 additional
+          full-length proteins were retrieved (Table 2). An amino
+          acid comparison of NPM3 with these other members of the
+          nucleophosmin/nucleoplasmin family from various metazoans
+          reveals extensive sequence identities and similarities
+          throughout all of NPM3 except the C-terminal 16 residues
+          (Figure 3). All members of this family have a core region
+          of relatively close similarity in the N-terminal half of
+          the proteins. C-terminal to this region, all have one or
+          more acidic domains consisting of a total of 17 to more
+          than 100 aspartic acid and glutamic acid residues per
+          molecule. These two residues can comprise more than 25%
+          of the total amino acids in some proteins of this family;
+          in NPM3 they make up approximately 18% of the residues.
+          The N-terminal core region of high similarity between
+          family members correlates to a region in
+          nucleophosmin/B23 that has been shown to be involved in
+          oligomerization as well as chaperone activity [ 44 ] . A
+          central portion between nucleophosmin's two acidic
+          domains is required for ribonuclease activity [ 44 ] ;
+          this region does not have a corresponding domain in
+          either NPM3 or nucleoplasmin, suggesting that these
+          proteins would lack such activity. A nucleic acid binding
+          domain in the C-terminus of nucleophosmin is also lacking
+          in NPM3 and nucleoplasmin, but the known functions of
+          nucleoplasmin in nucleosome assembly and sperm
+          decondensation suggest that this protein, and possibly
+          NPM3, can accomplish intermolecular reactions involving
+          nucleic acids in other ways, perhaps by associating with
+          other proteins that have this binding activity. Indeed,
+          NO29, a 
+          Xenopus protein with significant
+          similarity to NPM3, is found to associate with NO38, the 
+          Xenopus ortholog of mammalian
+          nucleophosmin [ 43 ] .
+          To gain further insight into the relationship of NPM3
+          with the other known members of this family, we used
+          CLUSTAL W and TreeTop [ 45 ] to produce a dendrogram of
+          these relationships (Figure 4). In this analysis, we
+          included the 14 proteins from Figure 3together with two
+          other histone-binding proteins that are unrelated to this
+          family. These two proteins, 
+          Xenopus N1/N2 [ 36 ] and human NASP
+          (nuclear autoantigenic sperm protein) [ 41 ] , are
+          closely related to each other and may be orthologs [ 46 ]
+          . This analysis shows that NPM3 is more closely related
+          to NO29 and the nucleoplasmins from 
+          Xenopus than to the nucleophosmins
+          from multiple species. No nucleoplasmin ortholog in
+          humans has been reported to date, and our screening of
+          GenBank has not detected such a sequence. The
+          relationship between N1/N2 and NASP can be seen in this
+          dendrogram and appears similar in closeness to that of
+          NPM3 and NO29. The kinship of NPM3 and NO29 is supported
+          by recent GenBank screens with the NPM3 amino acid
+          sequence as a TBLASTN query against the entire
+          nonredundant GenBank database, which resulted in NO29
+          sequences as the best non-NPM3 match, and vice versa.
+          Although other genomic and functional studies would be
+          required to prove an orthologous relationship between
+          NPM3 and NO29, they appear by several analyses to share a
+          relatively close evolutionary history and as such could
+          be considered candidate orthologs.
         
         
-          Tetraploid and diploid embryo aggregation
-          ES-cell derived embryos were generated by aggregating
-          clumps of around twenty ES cells with individual eight
-          cell embryos or four cell embryos that had been made
-          tetraploid by electrofusion as described previously [ 7 9
-          23 ] . ES cell:embryo aggregates were cultured overnight
-          and those that formed blastocysts were transferred to the
-          uteri of psuedo-pregnant females surrogate mothers. To
-          generate chimeric mice the embryos were allowed to
-          develop to term. ES cell-derived embryos were harvested
-          at pre-determined developmental stages and DNA prepared
-          for Southern blot analysis or fixed and processed to
-          identify β-galactosidase expression using standard
-          protocols.
+          NPM3 expression in human tissues
+          We examined the expression of 
+          NPM3 in 16 human tissues by
+          Northern blot analysis (Figure 5). Abundant and
+          relatively equal expression of 
+          NPM3 was found in all tissues with
+          the highest levels, relative to actin, in pancreas and
+          testis and the lowest in lung. Previous analysis of 
+          Npm3 expression in mouse tissues
+          also showed generally equal and strong expression in the
+          tissues tested with especially strong expression in
+          testis [ 21 ] . However, in the mouse, the brain, rather
+          than the lung, displayed the lowest 
+          Npm3 RNA levels. Nevertheless, the
+          widespread and relatively strong expression of the gene
+          in both species suggests that the protein has a
+          fundamental function(s) in cells of many, if not all,
+          tissues. The apparently ubiquitous expression and
+          abundant levels of 
+          NPM3 RNA are consistent with other
+          members of this gene family and with a proposed role as a
+          molecular chaperone.
+        
+        
+          NPM3 protein localizes to the nucleus
+          All of the nucleophosmin and nucleoplasmin homologs
+          that have been studied to date are localized in the
+          nucleus. To allow a determination of the subcellular
+          localization of the NPM3 protein, we tagged the protein
+          at its N-terminus with a hemagglutinin (HA) epitope. We
+          then expressed this protein in NIH3T3 cells, fractionated
+          the cells into nuclear, cytoplasmic and extracellular
+          (culture medium) fractions and analyzed these by
+          immunoblotting using an anti-HA antibody. This analysis
+          revealed that NPM3 was localized only in the nuclear
+          fraction (Figure 6). The NPM3 protein migrated in
+          SDS-PAGE gels as a doublet with apparent molecular masses
+          of 25 and 27 kDa, which are larger than the 20.5 kDa mass
+          predicted by the deduced amino acid sequence including
+          the HA tag. Similarly, other members of the
+          nucleophosmin/nucleoplasmin family also migrate more
+          slowly than expected: 
+          Xenopus NO29 migrates at 29 kDa
+          versus the expected 20 kDa [ 44 ] , 
+          Xenopus NO38 migrates at 38 kDa
+          versus the expected 33.5 kDa [ 9 ] , and 
+          Xenopus nucleoplasmin migrates at
+          38 kDa rather than 33.5 kDa [ 9 ] . The slower migration
+          is likely primarily due to an electrophoretic anomaly
+          reflecting the amino acid composition, although
+          phosphorylation or other modifications could conceivably
+          contribute. Supporting this notion, the 
+          in vitro transcription/translation
+          of a plasmid encoding the closely related NO29 protein
+          produces a product, presumably unmodified, with slow
+          mobility that is similar to the mobility of NO29
+          extracted from cells [ 43 ] . The smaller-sized
+          polypeptide of the NPM3 doublet is probably a degradation
+          product, as is observed in analyses of the NO29 protein [
+          43 ] . This subcellular localization of NPM3, together
+          with the other results here, suggests that this protein
+          is a molecular chaperone with functions in the
+          nucleus.
+        
+      
+      
+        Conclusions
+        The striking similarities in amino acid sequence and
+        domain structure between NPM3 and its chaperone relatives,
+        nucleophosmin and nucleoplasmin, together with abundant
+        expression levels and nuclear localization, strongly
+        suggests that NPM3 shares fundamental nuclear chaperone
+        functions with these proteins. It will be important in
+        future work to refine these results and test, for example,
+        whether NPM3 may have chromatin or ribosome assembly
+        functions that are similar or complementary to
+        nucleoplasmin or nucleophosmin, or whether it may have
+        completely independent functions.
+      
+      
+        Materials and methods
+        
+          Isolation of NPM3genomic probes
+          We digested previously isolated lambda genomic clones
+          of the human 
+          FGF8 region [ 22 ] with restriction
+          endonucleases (Promega, Madison, WI) and analyzed them by
+          Southern blotting using a mouse 
+          Npm3 cDNA [ 21 ] probe, as
+          previously described [ 20 ] . An 8.4-kb 
+          Xho I fragment from these clones
+          that hybridized to the probe was subcloned into
+          pBluescript (Stratagene) for analysis. Deletion of 
+          non-Npm3 sequences from this clone
+          resulted in a 4.3-kb 
+          Hin d III- 
+          Xho I fragment, which was then
+          isolated and used as a probe for the isolation of a human
+          
+          NPM3 cDNA.
+        
+        
+          Isolation of NPM3cDNA
+          The 4.3-kb 
+          Hin d III- 
+          Xho I human genomic fragment
+          described above was used as a probe to screen a λgt11
+          human liver cDNA library for the 
+          NPM3 cDNA. Three positive clones
+          were obtained from 250,000 plaques. Following isolation
+          of pure plaques, the insert DNAs were prepared by PCR
+          methods with the following conditions: 100 μl reactions
+          containing 1X 
+          Pfu buffer (20 mM Tris-Cl, pH 8.75,
+          10 mM KCl, 2 mM MgSO 
+          4 , 10 mM (NH 
+          4 ) 
+          2 SO 
+          4 , 0.1% v/v Triton X-100, 100 μg/ml
+          bovine serum albumin), 1 μM λgt11 forward and reverse
+          primers (Promega, Madison, WI), 0.2 mM
+          deoxyribonucleotides, and 5 Units of recombinant 
+          Pfu DNA Polymerase (Stratagene, La
+          Jolla, CA). The thermocycling conditions were as follows:
+          95°C for 3 minutes, then 30 cycles of 95°C for 45
+          seconds, 50°C for 30 seconds and 75°C for 60 seconds,
+          then 75°C for 10 minutes, using a PTC-100 Thermocycler
+          (M.J. Research, Watertown, MA). The resulting cDNA
+          inserts were purified by agarose gel electrophoresis,
+          digested with 
+          Eco R I and cloned into pBluescript
+          KS- (Stratagene, La Jolla, CA). The cDNA inserts were
+          thermocycle-sequenced using the 
+          fmol kit (Promega, Madison, WI) and
+          found to be identical and to lack a portion of the 5'
+          coding region.
+          To obtain the 5' end of the 
+          NPM3 cDNA, we performed 5' Rapid
+          Amplification of cDNA Ends (RACE), using a
+          Marathon-Ready™ human testis cDNA library (Clontech, Palo
+          Alto, CA) and the Marathon™ cDNA amplification kit
+          (Clontech, Palo Alto, CA). The RACE conditions were as
+          follows: 50 μl reactions containing 1X KlenTaq buffer and
+          Advantage KlenTaq Polymerase Mix (Clontech, Palo Alto,
+          CA), 0.2 mM deoxyribonucleotides, 0.2 μM 
+          NPM3 GSP1 (5'-CGG TGA GGC AGA GCA
+          TGG TTA GTG C-3'), and 0.2 μM API primer (Clontech, Palo
+          Alto, CA). Touchdown PCR conditions were employed as
+          follows: 95°C for 5 minutes, then 5 cycles of 95°C for 10
+          seconds, 72°C for 2 minutes, then 5 cycles of 95°C for 10
+          seconds, 70°C for 2 minutes, then 25 cycles of 95°C for
+          10 seconds, 68°C for 2 minutes. The resulting band was
+          purified by agarose gel electrophoresis and subcloned
+          into pCR II (Invitrogen, Carlsbad, CA). Multiple clones
+          were thermocycle sequenced to confirm the 5' sequence of
+          human 
+          NPM3 cDNA. Finally, to produce a
+          full-length human 
+          NPM3 cDNA, we spliced together the
+          5' RACE 
+          NPM3 cDNA with the original partial
+          cDNA obtained from the lambda library at a unique 
+          Sac I site present in both
+          fragments. The final cDNA sequence was submitted to
+          GenBank (accession number AY049737).
+        
+        
+          Determination of exon structure
+          Fragments of the 4.3-kb 
+          Hin d III- 
+          Xho I 
+          NPM3 genomic DNA isolated above
+          that hybridized to a mouse 
+          Npm3 cDNA probe were further
+          subcloned into pBS and sequenced using an automated ABI
+          377 sequencer. Comparison of these compiled sequences
+          with the human 
+          NPM3 cDNA sequence allowed the
+          localization of exon sequences within the genomic DNA.
+          The genomic sequence and exon placement was later
+          confirmed with human genome sequences that subsequently
+          appeared in GenBank (accession number AC010789).
+        
+        
+          Sequence analysis
+          Amino acid sequences were aligned using CLUSTAL W (v.
+          1.81) with default parameters on a European Molecular
+          Biology Laboratory web server http://www.ebi.ac.uk. An
+          alignment output from this source was used to create a
+          dendrogram using TreeTop [ 45 ] with PHYLIP output
+          (default parameters) at a node of the European Molecular
+          Biology Network http://www.genebee.msu.su [ 47 ] .
+          Potential phosphorylation sites were identified using
+          NetPhos 2.0 http://www.cbs.dtu.dk/services/NetPhos [ 48 ]
+          . After alignment with CLUSTAL W, identical and similar
+          amino acids in Figure 3were identified using MacBoxshade
+          2.15
+          http://www.isrec.isb-sib.ch/ftp-server/boxshade/MacBoxshade.
+        
+        
+          Northern blot analysis
+          Human tissue northern blots of poly(A) +RNA were
+          obtained from Clontech (Palo Alto, CA) and sequentially
+          hybridized with radiolabeled 
+          NPM3 cDNA and beta-actin probes as
+          previously described [ 20 ] .
+        
+        
+          Hemagglutinin-tagged NPM3
+          A cDNA that encodes a hemagglutinin-tagged NPM3
+          protein was produced by PCR under the following
+          conditions: 100 μl reactions with 1X 
+          Pfu buffer, 0.2 mM
+          deoxyribonucleotides, 1 μM HA-F primer (5'-AAA GAA TTC
+          AGC ATG TAC CCA TAC GAC GTC CCA GAC TAC GCC GCC GCC GGT
+          ACT GCA GCT GCC-3'), 1 μM 
+          NPM3 -R2 primer (5'-AAA GAA TTC CTA
+          GGG CCT GCC CCC CTG CTT TTT GGC AGG AAG GAT GGG-3'), 1 ng
+          of human 
+          NPM3 cDNA insert, and 2.5 Units of
+          recombinant 
+          Pfu DNA Polymerase. The
+          thermocycling conditions were as follows: 95°C for 3
+          minutes, then 30 cycles of 95°C for 45 seconds, 75°C for
+          60 seconds, then 75°C for 10 minutes, using a PTC-100
+          Thermocycler (M.J. Research, Watertown, MA). The
+          resulting DNA fragment was purified by agarose gel
+          electrophoresis, cleaved with 
+          Eco R I, and subcloned into
+          pBluescript KS-. The resulting plasmids were thermocycle
+          sequenced, and an insert with the correct sequence was
+          identified and subcloned into pMIRB [ 49 ] . The
+          orientations of the resulting inserts were determined by
+          restriction digests with 
+          Sac I.
+        
+        
+          Cellular localization of HA-NPM3 by cell
+          fractionation and immunoblotting
+          The resulting pMIRB-HA-NPM3 plasmids (both sense and
+          antisense orientations) were transiently transfected into
+          NIH 3T3 cells, using transfection conditions with
+          Lipofectamine and OptiMEM serum-free medium (Gibco-BRL,
+          Bethesda, MD) as described [ 49 ] . Following a six-hour
+          incubation of the DNA-Lipofectamine complexes in OptiMEM,
+          the cells were washed and incubated in 10-cm dishes with
+          their usual growth media (DMEM with 10% v/v fetal calf
+          serum, 2 mM L-glutamine, 100 Units/ml of Penicillin G and
+          100 μg/ml Streptomycin) for 48-72 hours at 37°C in
+          humidified 5% CO 
+          2 incubators.
+          Following the 48-72 hour incubation, the media was
+          collected and placed on ice with the following protease
+          inhibitors added: 1 mM DTT (Sigma, St. Louis, MO), 0.5 mM
+          PMSF (Sigma, St. Louis, MO), 5 μg/ml Pepstatin (Sigma,
+          St. Louis, MO), 3 μg/ml Leupeptin (Sigma, St. Louis, MO)
+          and 5 μg/ml Aprotinin (Sigma, St. Louis, MO). The cells
+          were washed 3X in cold PBS and collected by cell scrapers
+          (Nunc) in 1 ml of cold PBS. The cells were transferred to
+          microfuge tubes, pelleted (5 seconds at 14,000 rpm,
+          Eppendorf 5415C, 4°C) and resuspended in hypotonic Buffer
+          A (10 mM K-HEPES pH 7.9, 1.5 mM MgCl 
+          2 , and 10 mM KCl, with inhibitors
+          added as for the media above) for 15 minutes on ice. The
+          suspension was vortexed vigorously for 10 seconds to lyse
+          the cells, and then microcentrifuged (1 minute at 14,000
+          rpm, Eppendorf 5415C, 4°C). The resulting supernatant was
+          called "cytoplasm" but actually contained cytoplasmic
+          membranes as well. The resulting nuclear pellet was
+          resuspended in 20 μl of Buffer C (20 mM K-HEPES pH 7.9,
+          1.5 mM MgCl 
+          2 , 0.2 mM EDTA, 20% v/v glycerol, and
+          0.42 M NaCl, with protease inhibitors as above),
+          incubated on ice for 20 minutes, then microcentrifuged (5
+          minutes at 14,000 rpm, Eppendorf 5415C, 4°C). This final
+          supernatant was the nuclear extract.
+          The protein solutions were quantified by Bradford
+          Assay (Biorad, Hercules, CA), and 50 mg of each sample
+          were subjected to SDS-PAGE (15% acrylamide). Following
+          electrophoresis, the gel contents were
+          electrophoretically-transferred to nitrocellulose (500
+          mA, 60-90 V, 1 hour, 4°C, Transfer Buffer II from Harlow
+          and Lane [ 50 ] ). The membrane was blocked with 5% w/v
+          nonfat dried milk in PBS-0.1% v/v Tween 20 (PBS-T)
+          overnight at 4°C, then subjected to immunoblotting and
+          ECL (Amersham, Arlington, IL) detection. The primary
+          antibody was monoclonal mouse anti-hemagglutinin
+          (dilution 1:1000 in PBS-T, gift of Guojon Bu, Washington
+          University, St. Louis), and the secondary antisera was
+          horseradish peroxidase-conjugated sheep anti-mouse IgG
+          (dilution 1:1000 in PBS-T, Amersham, Arlington, IL).
         
       
     

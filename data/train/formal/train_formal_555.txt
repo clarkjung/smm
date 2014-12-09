@@ -2,151 +2,329 @@
   
     
       
+        Background
+        In this investigation, we explored the potential
+        cytotoxic interaction between LPS and CEES using a murine
+        macrophage cell line (RAW264.7). CEES is a monofunctional
+        analog of sulfur mustard (bis-2-(chloroethyl)sulfide) which
+        a bifunctional vesicant and a chemical warfare agent. Both
+        bis-2-(chloroethyl)sulfide) and CEES are known to provoke
+        acute inflammatory responses in skin [ 1 2 3 ] . The
+        resulting skin blistering is thought to involve the
+        stimulation of specific protease(s) [ 4 ] . Apoptosis is
+        now considered a possible molecular mechanism whereby CEES
+        induces cytotoxicity [ 5 6 ] .
+        LPS is a major component of the cell wall of
+        gram-negative bacteria and is known to trigger a variety of
+        inflammatory reactions in macrophages and other cells
+        having CD14 receptors [ 7 8 ] . In particular, LPS is known
+        to stimulate the macrophage secretion of nitric oxide [ 9 ]
+        and inflammatory cytokines such as tumor necrosis
+        factor-alpha (TNF-alpha) and interleukin-1-beta (IL-1-beta)
+        [ 10 ] . For this reason, we also determined if TNF-alpha
+        or IL-1-beta were capable of enhancing the cytotoxic
+        effects of CEES.
+        LPS stimulation of macrophages is known to involve the
+        activation of protein phosphorylation by kinases as well as
+        the activation of nuclear transcription factors such as
+        NF-kappaB [ 10 11 12 13 ] . The activation of protein
+        kinase C (PKC) by diacylglycerol is also a key event in LPS
+        macrophage activation [ 8 ] . 
+        In vitro experiments have shown that
+        the secretion of TNF-alpha and IL-1-beta by LPS-stimulated
+        monocytes is dependent upon PKC activation [ 13 14 ] . In
+        this study, we also determined if phorbol myristate acetate
+        (PMA) activation of PKC also enhanced CEES toxicity.
+        Evidence suggests that LPS [ 15 16 ] as well as TNF-alpha [
+        17 ] stimulate the production of free radicals by
+        macrophages. Our long-term goal is to understand the
+        molecular mechanism of sulfur mustard toxicity and to
+        determine if free radical production plays an important
+        role in this toxicity.
+        In our experiments, cytotoxicity was measured by a
+        decrease in the optical density by the MTT
+        ((3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium
+        bromide) assay or by an increase in the fluorescence of
+        propidium iodide (PI). The MTT assay is based on reduction
+        of MTT by actively growing cells to produce a blue formazan
+        product with absorbance at 575 nm. A low MTT absorbance
+        indicates cell death. The PI assay differentiates between
+        live and dead cells. Cells that have lost membrane
+        integrity cannot exclude PI, which emits a red fluorescence
+        after binding to cellular DNA or double stranded RNA. A
+        high PI% indicates cell death.
+      
+      
+        Results
         
-        As an intern, I took care of the first patients with HIV/AIDS at San Francisco General
-        Hospital, and so I grew up with AIDS in the early days of my medical career. We struggled
-        through the confusion about what was making people so sick, and each new day brought a new
-        discovery about the disease and its consequences. I went through that evolutionary process
-        along with everybody else, and it shaped me in many profound ways. Before long, I
-        recognized that this wasn't a disease of “those people over there.” This was a disease that
-        could strike anyone, anytime. And as physicians, we had to adjust our thinking about our
-        own vulnerability to occupational risk, and to emphasize prevention, because there wasn't
-        going to be a cure for a long, long while. And not only physicians had to rethink
-        things—AIDS has reshaped society's very notions of the most basic human behaviors.
-        I was in Uganda in 1985, early in the AIDS epidemic there. We knew then where that
-        epidemic was going to go, absent an effective vaccine or cure, but few of us could have
-        imagined that it would evolve so quickly without an end in sight. While the people of
-        Africa have achieved a huge amount in tackling HIV/AIDS, particularly in Uganda, the
-        epidemic is far from being under control on that continent and is spreading through other
-        parts of the world with alarming speed.
+          Cytotoxic interaction between LPS and CEES as
+          measured by the MTT assay
+          RAW 264.7 macrophages were incubated with LPS (100
+          ng/ml), CEES (500 μM) or both agents for 24 hours and
+          cell viability then measured by the MTT assay. As shown
+          in Figure 1, we found that LPS-stimulated RAW264.7
+          macrophages were markedly more susceptible (p < 0.05)
+          to CEES toxicity (24 hr) than resting macrophages as
+          indicated by the dramatic drop in dehydrogenase activity.
+          In the absence of LPS, CEES at a level of 500 μM did not
+          significantly affect cell viability as measured by the
+          MTT assay.
+          The characteristics of CEES toxicity to LPS-stimulated
+          RAW 264.7 macrophages were further characterized by
+          varying the concentrations of both LPS and CEES. The MTT
+          data in Figure 2show that very low levels (25 ng/ml) of
+          LPS dramatically enhanced the toxicity of CEES (measured
+          after 24 hr) to macrophages at concentrations > 300
+          μM. In general, LPS levels beyond 25 ng/ml did not
+          further enhance the toxicity of CEES. However, LPS level
+          at a level of 100 ng/ml significantly increased the
+          cytotoxicity of 300 μM CEES compared to LPS activated
+          RAW265.7 cells not treated with CEES. Statistical
+          analyses indicate that cells treated with 100 μM CEES
+          were not significantly different from control cells (not
+          treated with CEES) in the presence of 0, 25 or 50 ng/ml
+          of LPS. However, at a LPS level of 100 ng/ml, cells
+          treated with 100 μM CEES showed a great MTT optical
+          density than control cells. This might be due to a slight
+          mitogenic response to low levels of CEES.
+        
+        
+          Time course for the cytotoxic interaction between
+          LPS and CEES as measured by the propidium iodide (PI)
+          assay
+          In order to insure that our results could be
+          reproduced with an alternative assay for cell viability,
+          we also utilized the propidium iodide (PI) assay. In this
+          assay, the percent fluorescence increase over the control
+          cells (i.e., 100 × (PI 
+          treatment -PI 
+          control )/PI 
+          control ) indicates cytotoxicity. For
+          each experiment, the value for the control cells is zero
+          and is not, therefore, shown. Figure 3indicates that the
+          PI assay provides the same qualitative results as the MTT
+          assay, i.e., a synergistic toxic interaction between CEES
+          (500 μM) and LPS (20 ng/ml). Moreover, the cytotoxic
+          interaction between LPS and CEES was noticeable after 6
+          hours (p < 0.05) and reached a maximum 12 hours after
+          exposure. After 24 hours, CEES (500 μM) was significantly
+          toxic to RAW 264.7 macrophages even in the absence of
+          LPS. LPS alone was never significantly different than
+          cells with no treatment, which always has a zero percent
+          PI% increase.
+        
+        
+          TNF-alpha and IL-1beta also enhance the cytotoxic
+          effect of CEES
+          LPS from Gram-negative bacteria binds to CD14 and
+          initiates a complex signal transduction pathway involving
+          the Toll receptor family, which eventually results in the
+          synthesis of pro-inflammatory cytokines such as TNF-alpha
+          and IL-1beta. We, therefore, investigated the potential
+          roles of TNF-alpha and IL-1beta in enhancing CEES
+          cytotoxicity. Table 1shows that IL-1beta (50 ng/ml) and
+          CEES (500 μM) are significantly more cytotoxic (after 24
+          hours) when administered together than when administered
+          alone. In this experiment, LPS (25 ng/ml) and CEES (500
+          μM) combined gave PI(%) and MTT values of 120.8 ± 2.3 and
+          0.25 ± 0.07, respectively. These MTT data suggest that
+          LPS, at 25 ng/ml, is able to enhance the toxicity of CEES
+          (an MTT value of 0.25 ± 0.07) to a greater extent (p <
+          0.05) than IL-1beta at 50 ng/ml (an MTT value of 0.74 ±
+          0.07). The ternary mixture of LPS (25 ng/ml), IL-1beta
+          (50 ng/ml) and CEES (500 μM) was not found to be more
+          cytotoxic than LPS (25 ng/ml) and CEES (500 μM).
+          Table 2shows completely analogous data with TNF-alpha,
+          i.e., an amplification of CEES toxicity (after 24 hours)
+          in the presence of the inflammatory cytokine. In this
+          experiment, LPS at 25 ng/ml plus CEES (at 500 μM) gave
+          PI(%) and MTT values of 62.6 ± 1.4 and 0.32 ± 0.05,
+          respectively. This indicates that TNF-alpha at 50 ng/ml
+          is not as potent at LPS (at 25 ng/ml) in enhancing the
+          cytotoxicity of CEES at 500 μM. TNF-alpha combined with
+          LPS (in the absence of CEES) was found to not exert any
+          cytotoxic effect on the RAW264.7 macrophages.
+          Protein kinase C is a non-receptor serine/threonine
+          kinase that is maximally active in the presence of
+          diacylglycerol and calcium ions. 
+          In vitro experiments by Coffey et
+          al. [ 14 ] have shown that TNF-alpha and IL-1beta
+          secretion and mRNA accumulation by monocytes following
+          LPS treatment is dependent on PKC activity. Phorbol
+          12-myristate 13-acetate (PMA) is a specific activator of
+          group A and group B protein kinase C. We wanted to
+          determine, therefore, if protein kinase C activation by
+          PMA would enhance the toxicity of CEES. As shown in Table
+          3, the combination of PMA (50 ng/ml) and CEES (500 μM)
+          was more cytotoxic (after 24 hours) toward the RAW264.7
+          macrophages than LPS or CEES alone. However, as was the
+          case with IL-1beta and TNF-alpha, PMA was not as
+          effective as LPS in enhancing CEES toxicity.
+        
       
       
-        The Crisis of Human Resources
-        The theme of this year's International AIDS Conference in Bangkok was “Access for All.”
-        Over the past few years, it has become increasingly apparent that a critical component of
-        assuring access to care and treatment is human capital. Like fiscal capital, human
-        resources are essential to ending the AIDS pandemic. I visited Africa with US Health and
-        Human Services Secretary Tommy Thompson and many AIDS experts last December, and we saw
-        evidence of this critical need in every country we visited. The miracles of modern science
-        are meaningless without systems and people to deliver them to those in need.
-        The World Health Organization estimates that of the 40 million people worldwide infected
-        with HIV, 6 million need immediate, life-sustaining antiretroviral therapy. Fewer than
-        400,000 people in developing countries have access to such treatment (Figure 1) [1,2].
-        There are too few skilled health care workers to provide reliable delivery and
-        administration of these life-saving therapies. According to a recent Institute of Medicine
-        report, and a study sponsored by the US Agency for International Development, the number of
-        health care workers in many African countries is actually shrinking as they are lured to
-        developed countries by better pay and professional opportunities (Box 1) [2,3]. Reversing
-        this brain drain is essential over the long-term, as HIV treatment and care will be
-        required for decades. In the short-term, the Institute of Medicine called for expanded
-        efforts “to bring qualified volunteer initiative medical professionals into both urban and
-        rural areas to support prevention, care, and training programs” [2]. I could not agree more
-        that addressing the human resource needs will be essential as we move forward—and not just
-        for HIV/AIDS programs, but for all aspects of public health and health care.
-        It has now been shown, beyond any doubt, that even in resource-poor countries with the
-        most basic health infrastructure, people get the same benefit from treatment and prevention
-        interventions as those in the rich world [4]. In fact, surveys in Cape Town, Kampala,
-        Khayelitsha, and Senegal found rates of adherence to antiretroviral therapy of 90%–94%,
-        compared with estimates of 70% in developed countries [5,6,7].
+        Discussion
+        We have found that inflammatory agents such as LPS,
+        TNF-alpha, IL-1beta, and PMA amplify the cytotoxicity of
+        CEES to RAW264.7 macrophages. There is evidence suggesting
+        that CEES can modulate levels of inflammatory cytokines but
+        this information is controversial and inconsistent.
+        Cultured monocytes exposed to CEES show a transient
+        increase in TNF-alpha [ 18 ] . Similarly, cultured normal
+        human keratinocytes exposed to CEES show a transient
+        increase in both TNF-alpha and IL-1beta [ 19 20 ] . In
+        contrast to the results of Arroyo et al. [ 18 19 20 ] ,
+        Ricketts et al. [ 21 ] found that IL-1beta or TNF-alpha
+        protein did not increase in sulfur mustard-exposed mouse
+        skin. Blaha et al. [ 1 ] , using an 
+        in vitro human skin model, found that
+        CEES treatment resulted in a decreased level of
+        IL-1alpha.
+        Sabourin et al. [ 3 ] also addressed this issue and
+        studied the 
+        in vivo temporal sequence of
+        inflammatory cytokine gene expression in sulfur mustard
+        exposed mouse skin. These investigators found an increase
+        in IL-1beta mRNA levels after 3 hours that dramatically
+        increased between 6-24 hours post exposure [ 3 ] .
+        Moreover, immunohistochemical studies showed an increase in
+        tissue levels of IL-1beta [ 3 ] . The 
+        in vitro results reported here
+        support a role for inflammatory cytokines in the mechanism
+        and kinetics of CEES toxicity. Our unique findings with
+        regards to LPS are significant because they demonstrate
+        that this bacterial endotoxin enhances CEES toxicity even
+        when present at extremely low levels, i.e., nanograms of
+        LPS per ml.
+        LPS is ubiquitous and is present in serum, tap water,
+        and dust. Military and civilian personnel would, indeed,
+        always have some degree of exposure to environmental LPS,
+        which could increase the toxicity of sulfur mustard. In
+        addition, there is always the possibility of purposeful LPS
+        exposure. Our primary future goals are to understand the
+        general mechanism for the enhanced toxicity of CEES in the
+        presence of inflammatory agents and use this information to
+        develop effective countermeasures. Our experiments with PMA
+        (Table 3) suggest that the activation of protein kinase C
+        may play a key role in molecular mechanism whereby LPS
+        enhances the cytotoxic of CEES.
+        In experiments that will be reported elsewhere, we have
+        found the antioxidants such as RRR-alpha-tocopherol and
+        N-acetylcysteine are effective in reducing the cytotoxic
+        effects of CEES on LPS-stimulated macrophages. We have also
+        initiated experiments to distinguish the roles of apoptosis
+        and necrosis in the observation reported here.
       
       
-        When You Have Seen the Faces
-        We hear the numbers—the millions upon millions infected—and we grow numb. That is why we
-        must go to the front lines—the households and communities—and start focusing on each
-        individual living with HIV. I was at the dedication of an AIDS clinic in Kenya. It was
-        raining, and we were waiting outside with our umbrellas. A 12-year-old girl in front of me
-        turned around and leaned her head against my belly and said, “Could you take me to America?
-        I need drugs.” If you take that girl's face and multiply it a thousand times—that is the
-        memory I bring home from Africa: the faces of the children and their asking, “Why are so
-        many of our parents dying? Why are we dying?”
-        We visited a US Centers for Disease Control and Prevention (CDC) program in the very
-        remote areas of Uganda where there are no roads and it is impossible for people to come
-        into population centers to receive HIV testing and other services. Young staff from the CDC
-        are working with Ugandans and community organizations in that area to deliver
-        antiretroviral therapy. Some may think that the difficulties of delivering antiretroviral
-        therapy into such a remote area are overwhelming—and some may question whether this is a
-        sustainable intervention. But once you see firsthand what miracles are possible, your world
-        view changes almost overnight.
-        What we saw was the success of a wonderful home-based treatment and care program for
-        people who don't have access through other means. And when I say “home-based care,” picture
-        a hut without running water or electricity, where only motorcycles are available to deliver
-        medications. The first step of the program is to provide clean water. Coliforms and other
-        pathogens in the water supply for the household are removed through an inexpensive water
-        vessel fitted with a filter and through a chlorination process. In addition, a
-        cotrimoxazole tablet is given every day, which, in one patient's words, changed his life
-        because he began to feel well almost immediately. Not only do the cotrimoxazole prophylaxis
-        and the water treatment improve diarrheal illness, but malarial parasitemia also drops. So
-        that is a very positive, unexpected consequence of just two very simple and inexpensive
-        interventions. Many patients with HIV/AIDS in Africa also have tuberculosis and are put on
-        tuberculosis therapy in addition to cotrimoxazole. As a result, they begin to feel better
-        even before they begin antiretroviral therapy.
-        We spent time with one of the patients in the home-based care program. As she began to
-        participate in these programs, tests became available to measure her CD4 count. She
-        explained to me what her CD4 count was, what it meant, and how it improved when she started
-        the cotrimoxazole and tuberculosis therapy. She had begun taking three antiretroviral drugs
-        and held up her pill box to explain her regimen in detail. Every week a Ugandan health aide
-        delivered her supply of pills on a CDC motorcycle and monitored her adherence to the
-        treatment. Not only was she extremely reliable in taking her medications, but she also knew
-        more about them and their side effects than most of the patients I treated at San Francisco
-        General. She was also an expert in HIV prevention. I asked her, “What do you do to protect
-        your three young sons from this infection?” She replied, “Every day I take them by the
-        hand, and I go out of the house and I say, ‘Do you see that mound of dirt? That is your
-        father’s grave. Your father acquired this fatal infection through sex. Be careful.'” And
-        then she talks to them about the “ABCs” (“A” for abstinence, “B” for being faithful, “C”
-        for condoms).
-        So when you see a story like that unfold in the middle of Africa, it's impossible not to
-        be hopeful. And yet, it's also very sobering because we are reminded of our responsibility.
-        The question is not what the international health community is accomplishing in these
-        countries now, but what we could accomplish if we joined together to really fight this war
-        on AIDS. Such a story also inspires hope because you can see the multiplier effect that
-        comes from taking on one problem and can see the way that effort can expand to encompass
-        and address a much greater set of problems.
+        Conclusions
+        Our results suggest that that LPS dramatically enhances
+        the toxicity of sulfur mustard. Since LPS is a ubiquitous
+        agent in the natural environment, its presence is likely to
+        be an important variable influencing the cytotoxicity of
+        sulfur mustard toxicity. LPS is known to stimulate the
+        production of inflammatory cytokines such as TNF-alpha and
+        IL-1beta in human monocytes [ 10 ] . We, therefore, also
+        determined if these cytokines influenced the cytotoxicity
+        of CEES. The data in Tables 1and 2demonstrate that both
+        these cytokines enhance the cytotoxicity of CEES as
+        measured by either the MTT assay or the PI assay.
+        Inhibition of protein kinase C is known to block the
+        secretion of TNF-alpha and IL-1beta [ 10 ] whereas
+        stimulation of protein kinase C promotes TNF-alpha and
+        IL-1beta production [ 22 ] . The data reported in Table
+        3show that stimulation of protein kinase C activity by PMA
+        also enhances the cytotoxicity of CEES. Collectively, the
+        data reported here provide the basis for future experiments
+        attempting to determine the signal transduction mechanisms
+        whereby inflammatory agents enhance sulfur mustard
+        cytotoxicity.
       
       
-        Beyond ABCs—Diagnosis and Responsibility
-        When we think about successful prevention models in Uganda, “ABC” certainly stands out
-        [8]. However, at this point in the epidemic curve, other letters must also be considered.
-        Most HIV transmission is accounted for by infected people having risky sex with uninfected
-        people. Both in the US and in Africa, studies show that most infected people engaging in
-        risky sex are unaware of their infection status, and that when their infection is
-        diagnosed, they usually take steps to protect the others with whom they are having contact
-        [9,10,11,12]. So let's add the letter “D” for diagnosis. In fact, improving efforts to help
-        people choose risk avoidance and to diagnose those who are already infected is the
-        cornerstone of the CDC's new domestic HIV prevention strategy. Diagnosis is extremely
-        important in many African communities, especially where the number of discordant
-        couples—where one individual is infected and the other is not—is high. Sadly, many couples
-        “being faithful” now do not realize that one partner is already infected and are not being
-        reached with diagnostic testing programs. So “ABCD” is a concept that I would like to put
-        out on the table as food for thought. Of course, there is another letter that we need to
-        stress: the letter “R,” for responsibility: personal sexual responsibility is a critical
-        component of HIV prevention. Many women and girls become infected after being raped by men
-        or because their social circumstances rob them of the power to refuse sex. Men must be held
-        accountable for greater sexual responsibility and for ending sexual violence and
-        degradation of women and girls. HIV prevention programs need to emphasize responsibility,
-        but not lose sight of the fact that responsibility can be practiced only with personal
-        autonomy, which many women and girls simply do not have.
+        Methods
+        
+          Materials
+          LPS (Escherichia Coli Serotype 0111:B4) and PMA
+          (Phorbol 12-Myristate 13-Acetate) were purchased from
+          Sigma Chemical Co. St. Louis, MO. Murine IL-1-beta was
+          obtained from Research Diagnostic Inc. (Flanders, NJ).
+          r-TNF-alpha (human) was obtained from Promega Co
+          (Madison, WI).
+        
+        
+          Cell culture and treatments
+          RAW264.7 murine macrophage-like cells (American Type
+          Culture Collection, Rockville, MD) were cultured at 37°C
+          in a humidified incubator (95% air with 5% CO 
+          2 ) in RPMI-1640 medium with 10% fetal
+          bovine serum, 100 U/ml penicillin and 100 mg/ml
+          streptomycin (GiBcoBRL Grand Island, NY). Adherent cells
+          were subcultured over night in 96 well Costar tissue
+          culture plates in serum-free RPMI with 0.1% BSA
+          (RPMI-0.1%BSA).
+        
+        
+          MTT assay for determination of cell
+          viability
+          This assay for cell viability is based on the
+          reduction of
+          3-(4,5-dimethylthiazolyl-2)-2,5-diphenyltetrazolium
+          bromide (MTT) by mitochondrial dehydrogenase in viable
+          cells to produce a purple formazan product. Schweitzer et
+          al. [ 23 ] have shown that this assay provides linearity
+          between optical density and cell number. This assay was
+          performed by a slight modification of the method
+          described by Wasserman et al. [ 24 25 ] . Briefly, at the
+          end of each experiment, cells cultured in 96 well plates
+          (with 100 μl of medium per well) were incubated with MTT
+          (20 μl of 5 μg/ml per well) at 37°C for 4 hours. The
+          formazan product was solubilized by addition of 100 μl of
+          dimethyl sulfoxide (DMSO) and 100 μl of 10% SDS (in 0.01
+          M HCl) for 16 hours at 37°C. The dehydrogenase activity
+          was expressed as the absorbance (read with a Molecular
+          Devices microplate reader) of the formazan product at 575
+          nm.
+        
+        
+          Dye exclusion assay (PI assay)
+          This assay uses propidium iodide (PI) dye to
+          differentiate live and dead cell [ 26 27 28 ] . Cells
+          that have lost membrane integrity cannot exclude PI,
+          which emits a red fluorescence after binding to cellular
+          DNA or double stranded RNA. After each experiment, cells
+          were washed with PBS and incubated with 200 μl of RPMI
+          medium with 5 μg/ml PI for five minutes at room
+          temperature. PI fluorescence was measured using a
+          Fluostar Galaxy microplate reader using an excitation
+          wavelength of 485 nm and an emission wavelength of 650
+          nm. We expressed the results as the percent increase in
+          the fluorescence of treated cells over the fluorescence
+          of control cells (no treatments), i.e., 100 × (PI 
+          treatment -PI 
+          control )/PI 
+          control )
+        
+        
+          Statistical analyses
+          Means among treatments were compared by one-way ANOVA
+          followed by the Scheffe test with a significance level of
+          0.05. In both the Tables and Figures, means not sharing a
+          common letter are significantly different (p < 0.05).
+          Means sharing a common letter are not significantly
+          different. The means and standard deviations of three
+          independent experiments are provided in both the Figures
+          and Tables.
+        
       
       
-        Expanding the Team to Meet the Needs
-        The innovative programs and ideas emerging in Africa can change the picture of the AIDS
-        epidemic. The purchase of antiretroviral drugs for Africans is not the big challenge.
-        Access to drugs will improve in Africa. The real challenges are delivering drugs in a safe
-        and effective way, monitoring therapy, and sustaining the pipeline of drugs so that ongoing
-        treatment can be guaranteed. In the example of the home-based program in Uganda, we have
-        seen that these challenges can be overcome. Expanding access to prevention, care, and
-        treatment services isn't going to be easy, but it is certainly possible. It will take
-        unprecedented commitment by people in the public sector, the private sector, faith
-        communities, and community organizations, and perhaps most importantly, individual
-        volunteers who make up their minds to contribute in any way they can.
-        Last fall, the US Peace Corps announced that it was activating programs in some
-        countries that allow volunteers to help communities fight the AIDS epidemic, but this is
-        just one of many steps that are being taken. The US president's Emergency Plan for AIDS
-        Relief will provide $15 billion, including almost $10 billion in new funds, over five years
-        for international AIDS assistance [13], and I am part of the team that is charged with
-        making this plan happen. I look forward to learning from others in the global health
-        community how we can best expand our impact and collectively find a way to support the
-        delivery of prevention messages and life-saving medications to everyone in Africa—and
-        especially to that little girl at the Kenyan clinic who touched my heart.
+        Authors' contributions
+        WLS drafted the manuscript and supervised the overall
+        conduct of the research, which was performed in his
+        laboratory. MQ carried out all of the experimental work in
+        this study and performed the statistical analyses. MS
+        (along with WLS) conceived of the study, participated in
+        the study design, and provided continuous evaluation of the
+        experimental data. All authors read and approved the final
+        manuscript.
       
     
   

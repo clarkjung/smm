@@ -3,431 +3,657 @@
     
       
         Background
-        The aldehyde dehydrogenase (ALDH) superfamily of enzymes
-        consists of a group of NAD(P)-dependent enzymes which can
-        oxidize a structurally diverse group of endogenous and
-        exogenous aldehyde substrates. Seventeen 
-        ALDH genes have been identified in
-        the human genome and have been classified into ten
-        different families based on amino acid sequence identities
-        [ 1 2 ] . High levels of ALDH1A1 activity can protect human
-        and murine cells from the toxicity of the alkylating agent
-        cyclophosphamide and its oxazaphosphorine analogs. Indeed
-        it was hypothesized that the high expression of ALDH1A1
-        (formerly known as class 1 ALDH) was responsible for the
-        successful use of cyclophosphamide in tumor cell purging
-        regimens during bone marrow transplantation [ 3 ] . The
-        detection of elevated ALDH1A1 activity in the most
-        primitive human hematopoietic progenitor cells [ 4 5 6 ]
-        has provided evidence in support of this hypothesis.
-        However, no physiologic role for this enzyme in the
-        hematopoietic stem cell population has been identified.
-        Vitamin A (retinol) is the prototype of a class of
-        natural and synthetic chemical compounds named the
-        retinoids. Retinoids are found in a variety of chemical
-        oxidation states, including alcohol, aldehyde, ester, and
-        carboxylic acid functionalities. The acid form, retinoic
-        acid, is a pleiotropic hormone which regulates gene
-        expression in embryonic development, epithelial cell
-        differentiation, hematopoeisis, and tumor cell
-        formation.
-        Several enzymes, including isoforms of alcohol
-        dehydrogenase, ALDH, and cytochrome P450 (CYP), recently
-        have been shown to be involved in the formation of retinoic
-        acid from retinol and retinal [ 7 8 ] . The purification,
-        cloning, and characterization of several ALDH enzymes which
-        efficiently catalyze the oxidation of retinal (Figure 1A)
-        has suggested that regulation of retinoic acid formation
-        could be a key physiologic role for these enzymes. The
-        report of the crystal structure of the homotetrameric
-        ALDH1A1 enzyme from sheep liver revealed a substrate tunnel
-        capable of binding retinal which was absent in ALDH2 and
-        ALDH3A1 enzymes [ 9 ] . Likewise, the crystal structure
-        reported for mouse ALDH1A2 revealed a substrate channel
-        which could provide specificity for retinal and exclude
-        short-chain aliphatic aldehydes [ 10 ] .
-        The specific role of each enzyme in the regulation of
-        retinoid signalling may depend on the species, cell type,
-        and developmental status of the cell. 
-        In vitro, purified mouse [ 11 ] ,
-        human [ 12 ] , and 
-        Xenopus [ 13 ] ALDH1A1 can
-        efficiently oxidize 
-        all-trans retinal to 
-        all-trans retinoic acid. 
-        In vivo , the introduction of ALDH1A1
-        mRNA into 
-        Xenopus embryos induces early
-        synthesis of retinoic acid, while ALDH1A1 expression is
-        detected during the tail bud stages of 
-        Xenopus embryogenesis [ 14 ] .
-        ALDH1A2 in the mouse [ 15 ] and rat [ 16 ] has shown even
-        greater specificity and catalytic efficiency for retinal as
-        a substrate. Immuno-histochemical analysis of mouse embryos
-        shows that ALDH1A1 expression occurs primarily in cranial
-        tissues, while ALDH1A2 expression occurs primarily in trunk
-        tissue [ 17 ] . In addition, the targeted knockout of the 
-        ALDH1A2 gene in mice results in a
-        significant decrease in retinoic acid biosynthesis and
-        early embryo death [ 18 ] .
-        The development of inhibitors which can target
-        individual ALDH enzymes provides one approach for
-        addressing the role of a specific ALDH enzyme in the
-        oxidation of retinal to retinoic acid in a given cell type.
-        We have identified 4-(N, N-dipropylamino)benzaldehyde
-        (DPAB) (Figure 1B) and 4-(N, N-diethylamino) benzaldehyde
-        (DEAB) as potent, selective inhibitors of ALDH1A1, but not
-        ALDH2 or ALDH3, with the dipropyl analog exhibiting 10-fold
-        greater efficacy for inhibition [ 19 20 ] . The effect of
-        DPAB on ALDH1A2 has not been reported.
-        DEAB was first used to sensitize the mouse leukemic cell
-        line L1210/CPA, which is resistant to
-        4-hydroperoxycyclophosphamide (4-HC) by virtue of its
-        overexpression of ALDH1A1. Treatment of L1210/CPA cells 
-        in vitro with 50 μM DEAB abolished
-        the tumor cells' resistance to 4-HC [ 19 ] . DEAB also
-        exhibited 
-        in vivo efficacy as a ALDH1A1
-        inhibitor, as demonstrated by the toxicity to the
-        intestinal crypt cells in mice receiving co-injections of
-        DEAB and cyclophosphamide [ 21 ] . More recently, DEAB has
-        been used to demonstrate that overexpression of human
-        ALDH1A1 in transfected cell lines is sufficient to cause
-        cellular resistance to the oxazaphosphorines [ 22 ] and
-        4-HC [ 23 ] . DEAB has also been an effective reagent in
-        fluorescent-activated cell sorting (FACS) techniques to
-        isolate human hematopoietic stem cells based on the
-        expression of ALDH1A1 activity [ 5 6 ] . In contrast to
-        DEAB and DPAB, daidzin - a natural product isolated from 
-        Pueraria lobata (the Kudzu plant) -
-        shows specificity for inhibiting ALDH2 at concentrations
-        similar to that of DPAB used to inhibit ALDH1A1 [ 24 25 ] .
-        An inhibitor specific for ALDH1A2 has not yet been
-        reported.
-        In normal hematopoiesis, terminally differentiated cells
-        are generated daily from a limited number of pluripotent
-        stem cells. The stem cell population must be exquisitely
-        regulated to ensure sufficient self-renewal as well as
-        commitment to progenitor cells which can give rise to
-        mature erythrocytes, platelets, lymphocytes, granulocytes,
-        and macrophages. Retinoic acid appears to elicit a complex
-        response of cell proliferation and/or commitment to a more
-        differentiated cell type, depending on the differentiation
-        state of the cell receiving the signal [ 26 27 ] .
-        The HL-60 human promyelocytic leukemia cell line
-        responds in culture to sub-micromolar concentrations of
-        retinoic acid ( 
-        all-trans and 
-        13-cis ) by undergoing terminal
-        differentiation to a granulocytic cell with the ability to
-        phagocytose and reduce nitroblue tetrazolium [ 28 ] . The
-        response to retinoic acid in HL-60 cells is dependent on
-        the expression of the retinoic acid receptor RAR α [ 29 ] .
-        The use of 
-        all-trans retinoic acid in
-        differentiation therapy for patients with acute
-        promyelocytic leukemia has resulted in prolonged, complete
-        remissions when combined with cytotoxic chemotherapy, and
-        may provide complete, long-term remissions as a single
-        agent [ 30 ] .
-        However, the enzyme or enzymes responsible for the
-        formation of retinoic acid in the HL60 cells have not been
-        identified. In one report, ALDH1A1 protein was not detected
-        by Western blot, but enzyme activity was detected using
-        flow cytometry and a fluorescent aldehyde substrate [ 5 ] .
-        In a second study, ALDH1A1 protein was detected using an
-        ELISA assay and activity was detected using aldophosphamide
-        as substrate [ 31 ] . In these two studies, designed to
-        look at the relationship of ALDH1A1 activity to antitumor
-        drug resistance, the levels of ALDH1A1 were low in HL-60
-        compared to other cell types, corresponding to the
-        sensitivity of HL-60 cells to oxazaphosphorines. ALDH
-        activity has been reported in HL-60 cells using
-        4-hydroxynonenal as substrate [ 32 ] . However, since this
-        molecule is such a poor substrate with ALDH1 compared to
-        ALDH3, the measured activity likely represents only ALDH3
-        activity. ALDH3 does not oxidize 
-        all trans retinal. Expression of
-        ALDH1A2 activity in HL-60 cells has not been reported.
-        Therefore, we chose the HL-60 cell line to assess the role
-        of ALDH1A1 in the oxidation of retinal.
-        The collection of results demonstrating that retinal is
-        an excellent substrate for ALDH1A1 
-        in vitro , that ALDH1A1 is
-        responsible for the synthesis of retinoic acid in the
-        cranial tissues of the mouse embryo, and that hematopoietic
-        stem cells are characterized by high expression of ALDH1A1,
-        have led to the hypothesis that the oxidation of retinal to
-        retinoic acid is a key physiologic role for ALDH1A1 in
-        hematopoietic stem cells. Our long-term goal is to use DPAB
-        to investigate the role of ALDH1A1 in retinoic acid
-        biosynthesis at different stages of hematopoiesis. In this
-        paper we show that DPAB is a potent inhibitor of retinal
-        oxidation by murine and human ALDH1A1. However, DPAB only
-        weakly inhibits the retinal-induced differentiation of
-        HL-60 cells, suggesting that ALDH1A1 is not the operative
-        retinal oxidizing enzyme in these cells.
+        Breast cancer represents a serious health problem for
+        the African American community. In New York State, breast
+        cancer mortality 
+        increased 1.86% among African
+        American women while breast cancer mortality in Caucasian
+        women decreased 9.2% between 1986 and 1995 [ 1 ] .
+        Mammographic screening, resulting in early diagnosis,
+        contributed significantly to this mortality decrement among
+        Caucasian women. The disparity in mortality among African
+        Americans is multifactorial and includes lack of education
+        and awareness of the importance of early screening and
+        detection, lower screening rates, advanced stage disease at
+        diagnosis, lack of or limited access to services, delay in
+        treatment, lack of consistent health care providers,
+        distrust of the health care system, lack of health
+        insurance and biology [ 2 3 4 5 6 7 8 ] . The educational
+        and awareness issues are further complicated by cultural
+        myths and beliefs that foster a fatalistic, fearful,
+        conceptualization of breast cancer and that cross
+        socioeconomic lines [ 9 ] .
+        Traditional approaches to cancer education have been
+        modeled upon white women's attitudes and belief systems and
+        have been largely unsuccessful in the African American
+        community due to limited cultural relevance and
+        interaction. The requirement that effective educational
+        program present information within an appropriate cultural
+        context in order to gain wide community acceptance and
+        behavior modification is a concept that is now being
+        recognized and implemented.
+        The Witness Project of Buffalo is a community based,
+        culturally sensitive breast cancer health education
+        program, targeting African American women that is modeled
+        after the Witness Project at the University of Arkansas.
+        This program empowers women, through education, to take
+        responsibility for their health and effect change in health
+        care behaviors. The primary goals of the Witness Project of
+        Buffalo are to increase African American women's awareness
+        of breast self-exam (BSE), clinical breast exam and
+        screening mammography as early detection methods for breast
+        cancer and to improve the utilization rates of existing
+        breast cancer screening and diagnostic programs in Erie
+        County, New York.
+        Lay health advisors and witness role models form the
+        foundation for delivery of the Witness Project to the
+        community. They simultaneously function as educators and
+        natural helpers and their training is designed to integrate
+        and exploit these attributes. Described herein is an eight
+        week training program created to help reduce breast and
+        cervical cancer morbidity and mortality rates within the
+        African American community. Implementation of this adult
+        training program in Buffalo required the integration of
+        non-traditional approaches in addition to the methods
+        outlined in the Witness Project Training Manual. We report
+        on the development, implementation and evaluation of these
+        non-traditional learning tools into an adult educational
+        program for lay educators in the Witness Project of
+        Buffalo.
       
       
-        Results and discussion
-        DPAB is a potent inhibitor of retinal oxidation with IC 
-        50 values of 0.11 and 0.13 μM for
-        purified mouse and human ALDH1A1, respectively (Table 1).
-        These IC 
-        50 values are 100-fold lower than the
-        retinal concentrations used in the assay. The IC 
-        50 values for mouse ALDH1A1 are between
-        the values observed with propanal (0.040 μM) and
-        phenylacetaldehyde (0.36 μM) as substrates, with the human
-        ALDH1A1 showing the same inhibition with retinal or
-        propanal as substrate. The IC 
-        50 values reported were initially
-        obtained from spectrophotometric assays, and repeated with
-        an HPLC assay. We were concerned with using a
-        spectrophotometric assay for these inhibition studies due
-        to the presence of several absorbing species at 340 nm,
-        including NADH, DPAB, retinal, and retinoic acid. Thus, we
-        modified an HPLC assay in order to directly measure the
-        amount of retinoic acid product formed. Previous reports of
-        HPLC assays for ALDH reactions with tissue extracts used a
-        single time point at 60 min to measure accumulation of
-        product, after documenting that retinoic acid formation was
-        still linear in time course experiments [ 33 ] . In our
-        hands, the reaction with purified enzyme was only linear
-        for product formation up to 10-15 minutes.
-        Following continuous exposure to 1 μM retinoic acid for
-        96 hours, almost 40% of cells have differentiated to
-        granulocytes, as seen by the positive NBT staining.
-        Exposure to 1 μM 
-        all-trans retinal for 96 hours
-        induced differentiation equivalent to exposure to 0.05-0.1
-        μM retinoic acid. With co-exposures to 1 μM retinal and up
-        to 50 μM DEAB or DPAB, HL-60 differentiation was inhibited
-        by only 30% after 144 hours of exposure, compared with
-        cells exposed to retinal alone (Figure 2) DPAB did not
-        alter the induction of differentiation by retinoic acid,
-        nor did it affect cell viability up to 144 hours. Since
-        DPAB's inhibition of cell differentiation in cells exposed
-        to retinal was so low, we needed to demonstrate that
-        chemical oxidation or any serum enzymatic oxidation of
-        retinal to retinoic acid was not occuring under our culture
-        conditions. Control dishes containing media and retinal
-        were incubated for 144 hours, with aliquots removed every
-        24 hours and analyzed by HPLC. By day 6, less than 1% of
-        the retinal was oxidized to retinoic acid, suggesting that
-        non-enzymatic formation or serum-mediated formation of
-        retinoic acid was not responsible for the observed
-        differentiation in cells exposed to DEAB or DPAB.
-        Although DPAB is a more potent inhibitor of human
-        ALDH1A1 than DEAB, we were concerned that DPAB was not
-        remaining in solution at 50 μM in the culture media.
-        However, the observation that the addition of DEAB, a much
-        more soluble compound, resulted in the same percent
-        inhibition, suggested that solubility was not a factor.
-        Thus, artifacts due to solubility of inhibitor and
-        extracellular oxidation of retinal do not appear to
-        contribute to the observed response of DPAB on retinal
-        oxidation.
-        In addition, the NAD-dependent oxidation of propanal or
-        retinal was less than 0.05 nmoles NADH formed/min-10 7cells
-        in spectrophotometric assays using HL-60 cell extracts,
-        even in the absence of DEAB or DPAB. The NAD-dependent
-        oxidation of these aldehydes was not reproducibly detected
-        above background in spectrofluorometric assays. Therefore,
-        though low levels of ALDH1A1 activity have been reported in
-        HL-60 cells in previous studies [ 5 31 ] , it appears that
-        the differentiation observed in cells exposed to retinal
-        alone or retinal plus DPAB was not mediated by ALDH1A1
-        oxidation of retinal to retinoic acid. One possibility is
-        that a cytochrome P450 (CYP) enzyme is catalyzing the
-        oxidation. Raner et al [ 34 ] and Chen et al [ 35 ] have
-        described the formation of all-trans retinoic acid from
-        retinal and retinol by members of the CYP1 and CYP3A
-        families. In addition, expression of CYP1A1 and CYP3A4 mRNA
-        has been reported in HL-60 cells [ 36 ] . The contribution
-        of ALDH1A2 also can't be ruled out. However, its activity
-        should be detected by the spectrophotometric or
-        fluorometric assays.
-        Although ALDH1A2 appears only to catalyze the oxidation
-        of 
-        all-trans retinal to 
-        all-trans retinoic acid, both ALDH1A1
-        and CYP1 and CYP3A [ 34 ] enzymes are capable of oxidizing 
-        9-cis retinal to 
-        9-cis retinoic acid. The family of
-        retinoic acid receptors includes those that bind only 
-        all-trans retinoic acid (RAR α,β,γ
-        and those that bind either 
-        all-trans retinoic acid or 
-        9-cis retinoic acid (RXR α,β,γ Since
-        the transcriptional regulation of the retinoic acid
-        ligand/receptor complex appears to involve the binding of
-        receptor heterodimers (RAR/RXR), the specific cellular
-        response may depend on the ratio of 
-        all-trans to 
-        9-cis retinoic acid formed, as well
-        as the expression of receptor subtypes.
-        Our results suggest an intriguing possibility that
-        regulation of retinoic acid formation in the HL-60 cells,
-        and the subsequent terminal differentiation to
-        granulocytes, could be mediated by one enzymatic acitivy,
-        e.g. a CYP-mediated oxidation of retinal, whereas
-        regulation of retinoic acid formation in the hematopoietic
-        stem cells, and the subsequent maintenance of the
-        self-renewal capacity of the hematopoietic stem cells, is
-        mediated by ALDH1A1 oxidation of retinal (Figure 3). This
-        hypothesis can be tested by using global or specific CYP
-        inhibitors in the presence of retinal in HL-60 cells and by
-        using DPAB in the presence of retinal in an hematopoietic
-        stem cell assay system. We are attempting to assess the
-        ability of DPAB to block retinoic acid formation in
-        cultured, mouse hematopoietic stem cells.
+        Methods
+        
+          The community
+          The Buffalo metro area (population 292,000), located
+          in Erie county New York is struggling to transition and
+          redefine itself from a manufacturing economy to a more
+          diverse, global oriented focus and to train its workforce
+          to meet future needs. Since 1993-94 the minority
+          population of western New York has increased from 12 to
+          13% and there are now 140,000 African Americans. Of these
+          109,200 (78%) live in Erie County (predominately in
+          Buffalo). The poverty rate is higher than the national
+          average with thirty five percent of African Americans
+          living below the poverty level (2000 Census). Churches
+          play a dominant role as centers for community outreach.
+          Approximately 65% of African American women in Buffalo
+          attend church.
+          The African American community dates back to the Civil
+          War since Buffalo was the last stop on the Underground
+          Railroad. As a result, the community that has developed
+          and evolved early on consisted of former slaves and in
+          subsequent decades, individuals migrating from the south
+          seeking a better life. The community is characterized by
+          extremely well integrated and close relationships between
+          members and remains open to novel ideas and initiatives
+          which are critically evaluated and selective. The church
+          continues to be the solid, influential and far reaching
+          center for African American culture and society
+          simultaneously. As a result, community access is
+          primarily controlled through the church. In addition to
+          churches, there are several other community centers
+          serving as the basis for social focus which are both
+          public and church affiliated centers.
+        
+        
+          Witness Project program design
+          
+            WRM and LHA training
+            The Witness Project educational model is a belief
+            and learning theory based intervention that
+            incorporates the health belief model, locus of control
+            beliefs, social learning theory and the trans
+            theoretical model of change and the 4MAT System [ 10 ]
+            . The training utilizes a self study approach that is
+            supplemented with traditional learning tools i.e.
+            slides and printed materials.
+            Training is initiated by having all witness role
+            models and lay health advisors attend an actual Witness
+            Project program on the first day. On the second day,
+            witness role models and lay health advisors undergo a
+            formal 8 hour, training class. Lay health advisors take
+            a short, pre-test to assess their fund of knowledge
+            about breast and cervical cancer prior to and following
+            formal training. All trainees then receive an overview
+            of the Witness Project and view a short video about the
+            Project. Confidentiality issues and expectations, facts
+            pertaining to breast and cervical cancer, breast
+            self-examination (BSE), mammography and Pap tests are
+            reviewed in detail using a slide presentation. Break
+            out sessions are conducted by project staff for witness
+            role models and lay health advisors respectively.
+            Witness role models introduce themselves, tell their
+            stories to the group and receive group feedback on
+            their presentation. Lay health advisors learn how to
+            perform and teach BSE. Both groups reconvene, and learn
+            how to set up a Witness Project program.
+            Following the initial training session, the outreach
+            training coordinator for the program assists witness
+            role models in developing their stories, condensing
+            them into short narratives, and learning and
+            incorporating the public speaking skills required to
+            deliver their message in a relaxed and inviting manner.
+            Lay health advisors study the didactic information
+            presented in the course outline, learn to teach BSE in
+            a mentored setting and practice the delivery of their
+            message.
+          
+        
+        
+          Description of the sample
+          Participation in the Witness Project required that
+          both witness role models and lay health advisors be
+          articulate, comfortable speaking to people, possess a
+          desire to provide health education, commit to an
+          intensive training program, have a commitment to
+          improving cancer education in the community, be willing
+          to be available to the community and to act as a health
+          information resource. Although the Witness Project of
+          Buffalo provided training stipends for the initial 8 hour
+          training to lay health advisors and witness role models,
+          women were not told of this until they reported to the
+          training session.
+          Twenty three women (9 lay health advisors, 14 witness
+          role models) comprised the initial training group.
+          Witness role models and lay health advisors were
+          recruited from one author's surgical oncology practice
+          (TH) as well as by word of mouth and through social
+          organizations. The professional, socioeconomic and
+          employment experience diversity of the Witness Project
+          staff resulted in recruitment of a diverse group of women
+          to the project. The median age of individuals in the
+          group was 52 years (range 33 years - 70 years). All had
+          finished high school and 35% had completed college. All
+          completed the initial eight hour training course.
+        
+        
+          Training interventions
+          
+            Witness role models
+            The standard core teaching method worked well for
+            the Witness Role Models. Educational contracts and
+            videotaping presentations were the only two
+            non-traditional tools employed for role model training.
+            During the first two sessions, each woman shared her
+            experiences with the role model group and each
+            presentation was timed. At the end of the second
+            session, role models were instructed to write their
+            story in a two to three page narrative prior to the
+            third session. Individuals who had difficulty writing a
+            narrative were encouraged to write one half to one page
+            of talking points. Individuals who had difficulty
+            expressing their thoughts in either of these two
+            formats met with the training coordinator in individual
+            sessions and formulated a narrative together that
+            accurately conveyed the role model's experience. These
+            approaches provided a narrative that could be presented
+            within 3-5 minutes. The stories were then read, and
+            each critiqued for presentation and content by fellow
+            witness role models in the group in a supportive and
+            non threatening fashion. Major changes recommended by
+            the group were incorporated into an individual's
+            presentation.
+            Once the presentation content was mastered,
+            attention focused upon presentation skills and stage
+            presence. Each witness role model signed a contract
+            that required her practice of her presentation ten
+            minutes per day in front of the mirror and present her
+            talk to at least one or two individuals per week. At
+            weekly meetings, witness role models each presented
+            their stories and were critiqued by fellow role models
+            on content, delivery and stage presence. This resulted
+            in a relatively rapid assimilation of presentation
+            skills. Finally, witness role models were videotaped
+            and each woman as well as the group critiqued the
+            video. This method allowed for maximal and rapid
+            improvement in and optimization of presentation
+            delivery.
+          
+          
+            Lay health advisors
+            The educational approach outlined in the training
+            manual was followed during the first 6 weeks of our
+            training. Weekly training sessions for lay health
+            advisors began within three weeks of the initial
+            training course. In order to assess the knowledge
+            level, a short written quiz, replicating many of the
+            items on the post training course quiz, was
+            administered to lay health advisors. The average score
+            on the first quiz following the initial 8 hour training
+            course was 60%. The Witness Project core curriculum
+            establishes 80% as the minimum passing score.
+            Training began by teaching breast and cervical
+            cancer facts, followed by mammography, Pap facts and
+            BSE and utilized the self study approach outlined in
+            the core curriculum. The training team met weekly with
+            the lay health advisors to review the assigned
+            information in the course outline covered during the
+            preceding week of study. At the end of the first 6
+            weeks, only 11% (2/9) of women acquired the didactic
+            knowledge and skills necessary to present a
+            program.
+            A focus group session was conducted to determine the
+            problems faced by the students. Difficulty organizing
+            the information, difficulty remembering the facts,
+            discomfort with medical terms, fear of presenting the
+            information accurately, lack of time to study, and
+            feeling overwhelmed by the volume of information were
+            the most common problems cited by the group. These
+            results prompted our group to reassess the Witness
+            Project approach to teaching didactic information and
+            make significant adaptations to meet the specific needs
+            of our group by introducing non-traditional learning
+            tools as part of a concrete approach to learning.
+            Five educational tools that are not normally
+            incorporated into community-based learning programs
+            were implemented: educational contracts, vocabulary
+            development, accessing prior knowledge, question and
+            answer training format, and role playing.
+            
+            Educational contracts required
+            women to act on their new knowledge by encouraging
+            learning of the information, use of the breast and
+            cervical health information, and promoted studying
+            through a written commitment. Each lay health advisor
+            signed an educational contract that required her to:
+            1.) study the health fact and BSE packet daily, 2.)
+            practice the lay health presentation daily and 3.)
+            share the information with three female friends or
+            family members weekly. Lay health advisors directly
+            related their past experiences and knowledge about
+            breast and cervical cancer screening and integrated
+            them with changing behaviors and preventive health
+            practices.
+            The core curriculum didactic information is
+            presented in outline format in the training manual and
+            proved difficult for the trainees to assimilate. To
+            overcome this, we utilized a concrete approach to
+            learning in which all of the information was
+            reorganized and presented in two formats: color coded
+            flash cards corresponding to each curriculum component
+            which were organized into teaching modules and written
+            and verbal question and answer formats. Each module was
+            taught in 1-2 weeks and written quizzes were given to
+            assess knowledge level at the end of each week. A 
+            medical vocabulary was developed
+            that introduced the medical terms and concepts, in
+            glossary format, used in the Witness Project
+            curriculum. Individuals who did not achieve an 80%
+            score were tutored in a small group or individual
+            setting. Trainees did not progress to the next module
+            until a passing score was achieved on the written
+            test.
+            After mastering the flashcards, trainees progressed
+            to a 
+            question and answer training
+            format that covered the same information presented
+            in the flashcards. Breast and mammography facts were
+            combined and cervical and Pap facts were combined into
+            a total of 20 questions, thus further consolidating the
+            information. Four to five questions were assigned on a
+            weekly basis. Questioning skills were emphasized to
+            promote thinking, focus on information, organize
+            responses and build comprehension.
+            
+            Role playing was also integrated
+            into this phase of our training program. At each
+            session, trainees were paired with one person acting as
+            the questioner and the other as the respondent. Roles
+            were reversed and the entire process monitored by
+            Witness Project staff. Role playing reinforced the
+            importance of sharing breast health information with
+            family, friends and the community and fostered creative
+            thinking, i.e. how the information would be
+            presented.
+            These approaches continued to build comprehension
+            and confidence, focused students on organizing their
+            responses utilizing their fund of knowledge, promoted
+            thinking and simulated question and answer sessions at
+            programs. At the beginning of each session an oral quiz
+            was given to the trainees. This technique improved
+            verbal skills, simulated questions that lay health
+            advisors would encounter at programs and increased
+            comfort with this format. All of the written and oral
+            examinations used to test competency during our
+            training program built on the prior week's session
+            information. The tests became increasingly more
+            difficult such that the final tests encompassed all of
+            the information covered in a particular flash card or
+            question format training module.
+          
+          
+            Breast self-examination (BSE)
+            BSE training required 2-3 weeks and was conducted by
+            witness project staff who were certified BSE
+            instructors or physicians and followed the core
+            curriculum. The lay health advisors were paired and
+            taught each other BSE under the supervision of trained
+            Witness Project staff. Each person critiqued her
+            partner's training in a constructive fashion thus
+            creating a relaxed atmosphere that fostered continued
+            experiential growth in teaching BSE. Correctly teaching
+            BSE to a trained Witness Project staff member completed
+            this module of training. A tour of the Mammography
+            Center at Roswell Park Cancer Institute was conducted
+            by the chief mammographer to complement and complete
+            the BSE training. This tour enabled lay health advisors
+            to link didactic information with practical
+            experience.
+          
+          
+            Confidentiality issues and informed
+            consent
+            The Witness Project core curriculum addressed
+            confidentiality by stressing the importance of
+            respecting individual privacy and not circulating
+            information gained through encounters with individuals
+            attending a Witness Project program but lacked specific
+            training guidelines in this area. Our program requires
+            participants to sign informed consent so that Witness
+            project personnel can contact them at later time
+            periods, provide informational resources and evaluate
+            program effectiveness. The integration of informed
+            consent training is a novel and non-traditional
+            approach to community-based education programs that
+            enabled us to interact with the community more
+            effectively and enhance study participation.
+            Addressing informed consent issues required
+            intervention at the trainer level (lay health advisors,
+            witness role models) as well as the community based
+            organization level. All lay health advisors and witness
+            role models received formal training about the informed
+            consent process from two individuals (SW, TH) who had
+            experience in this area. The rationale, historical
+            significance, ethics, regulatory requirements and
+            oversight components of informed consent as well as
+            approaches for obtaining informed consent were taught
+            in two training sessions. During the second session,
+            participants practiced obtaining informed consent from
+            each other (using the consent form for the Witness
+            Project of Buffalo) under the supervision of Witness
+            Project staff. Trainees critiqued each others'
+            presentations. This approach alleviated trepidation
+            regarding the consent process and enabled the witness
+            role models and lay health advisors to obtain informed
+            consent from program audience members in a relaxed,
+            controlled and informed fashion thus allaying audience
+            fears about project participation.
+            To establish comfort and trust with the
+            community-based organization hosting our program, the
+            outreach coordinator met with the program host and
+            introduced and reviewed the consent form and procedure
+            and answered all questions. A copy of the consent was
+            given to the host organization for review and
+            discussion of subsequent questions or issues, if
+            needed, prior to the scheduled program.
+          
+        
+      
+      
+        Results
+        The standard training approach for didactic information
+        outlined in the training manual required 6 weeks and was
+        successful in only 2/9 (22%) of our lay health advisors.
+        Incorporating non-traditional learning tools into our
+        curriculum resulted in a dramatic improvement in the time
+        required for the remaining seven lay health advisors to
+        master the didactic information. Two of the seven lay
+        health advisors mastered the didactic information within 6
+        weeks of incorporating non-traditional learning tools,
+        completed their practical training and began conducting
+        programs after a total of 10 weeks of instruction utilizing
+        the non-traditional educational methods. Four (57%)
+        required 6-8 weeks to assimilate the didactic information
+        and an additional 4 weeks of practical training to conduct
+        a program. Fourteen percent of the lay health advisors
+        required 16 weeks to master the didactic material and an
+        additional 8 weeks to master the presentation skills.
+        The integration of structured training about informed
+        consent and confidentiality is a novel approach in
+        community based educational programs. Structured training
+        for witness role models and lay health advisors enabled our
+        program to overcome the barriers to consent and study
+        participation. Many of the issues and reservation relating
+        to research studies and informed consent that our witness
+        role models and lay health advisors expressed were openly
+        discussed. This enabled the women to convey information to
+        program participants using a forthright and informed
+        approach that allayed many of the audience members
+        trepidation. An open and transparent discussion of the
+        clinical study and informed consent with the sponsoring
+        host and church leadership reduced and in virtually all
+        cases eliminated concerns about this aspect of the Witness
+        Project of Buffalo. This approach resulted in a consent
+        rate of 40% for the initial six programs, 61% for programs
+        7-10 and 100% by the thirteenth program. We have now
+        conducted over 40 programs with an overall study consent
+        rate of 79%.
+      
+      
+        Discussion
+        Community based cancer education requires interventions
+        at many levels that address the fundamental, causative
+        issues contributing to the myriad of health disparities,
+        i.e. access, health insurance, transportation, MD referral,
+        lack of time, fear, fatalism and lack of knowledge. The
+        community's perception of specific health issues has a
+        major role in determining response to educational
+        interventions. One study evaluated community perception of
+        health status in one geographic area which was classified
+        as one of the least healthy areas of the region. However,
+        80% of people surveyed described their health as good to
+        excellent despite the fact that 68% had never had
+        mammograms, 40% had not had a Pap smear within the
+        preceding year, only 20% had mammography the preceding year
+        and 50% felt their neighborhood environment was unsafe. The
+        majority of respondents felt that health education was a
+        top priority in their community [ 11 ] . Also, many African
+        Americans have a false perception that the incidence of
+        cancer is lower in African Americans than in Caucasians [
+        12 ] .
+        A successful community based cancer educational programs
+        require several components: educational programs,
+        appropriate training, outreach individuals, strong
+        relationships with the public and private medical providers
+        and navigational services. As confirmed in this report, lay
+        health advisors can be a highly effective component of the
+        cancer educational program in their role as trained
+        community educators and liaisons between the community and
+        medical providers. They commonly function in the community
+        as natural helpers, (lay people from whom others seek
+        emotional support, aid and advice), possess environmental
+        familiarity and are highly respected and trusted [ 13 14 ]
+        . They can address initial health concerns often bridging
+        the chasm between the doctor or health care provider and
+        the patient. Perhaps their most important role is
+        addressing health care issues within the social network of
+        the community which can translate into increased trust in
+        the health care system and empowerment of community members
+        to adopt proactive rather than reactive behaviors relative
+        to personal health. Salber et al [ 15 ] have identified
+        additional functions of the lay health advisor that include
+        strengthening professionals' ties with the community,
+        channeling knowledge to and from the community,
+        bidirectional education of community members on the role
+        and function of the health care system and of professionals
+        about the lay advising system, informing the community
+        about available resources, improving the helper's role in
+        helping others and helping the community to better cope
+        with health care problems. Lay health advisors also
+        mobilize community resources to sustain and support the
+        health care system [ 16 ] .
+        Many terms have been used to describe lay health
+        advisors (natural helpers, facilitators, community health
+        workers). Lay health workers comprise an increasing number
+        of the health care agency workforce. In northern
+        California, 41% of 197 community based organizations
+        employed or planned to employ community health workers to
+        reach out to their target communities [ 16 ] . The Pew
+        Health Professions Committee defines them as "community
+        members who work almost exclusively in community settings
+        and who serve as connectors between health care consumers
+        and providers to promote health among groups that have
+        traditionally lacked access to adequate care" [ 16 ] .
+        Their roles in health delivery are varied and span the
+        spectrum from volunteers offering emotional support to full
+        time health care employees providing medical information at
+        the lay level. Some have argued that training community
+        individuals to deliver health information destroys their
+        ability to function as natural helpers [ 17 ] . In the
+        North Carolina Save Our Sisters Project, lay health
+        advisors are the functional unit of one outreach initiative
+        and are trained as natural helpers. They assist individuals
+        in their community with needs that are difficult for
+        medical professionals to address, negotiate with
+        professionals for health system support and mobilize
+        community association resources to sustain support from the
+        health care system [ 13 18 19 ] . The environment in which
+        they work can vary from small group to individual
+        interactions in intimate as well as depersonalized
+        environments [ 20 21 ] . In the Arkansas Witness Project,
+        lay health advisors have an integrated role as both natural
+        helpers and educators [ 22 ] .
+        Training for lay health advisors must carefully
+        integrate the scientific aspects of the information that
+        they disseminate to the community with maintaining and
+        strengthening the natural helper aspects of their position.
+        The Witness Project curriculum has incorporated multiple
+        learning theories (PRECEDE, 4MAT, health belief model,
+        locus of control, transtheorectical theory, community
+        empowerment and PEN-3) into the design of the educational
+        program [ 23 ] . However the witness role model and lay
+        health advisor training module is based on the 4MAT system
+        which addresses the four distinct adult learning types as
+        well as right and left brain and integrated learners.
+        Briefly, type 1 learners perceive by sensing/feeling and
+        process by watching/reflecting. They learn by connecting
+        past and present experiences and then examining the
+        connection. Type 2 learners perceive by thinking/reasoning
+        and processes by watching/reflecting and prefer
+        informational learning. They learn by imaging the concept
+        and then defining it with facts and information eg.
+        Mastering and conceptualizing information regarding breast
+        self-exam and mammography facts. Type 3 learners perceive
+        by thinking/reasoning and process by doing/trying. They
+        focus on application and prefer using the coaching method.
+        They test concept implications and then elaborate and
+        reconstruct the defined concepts (practicing BSE). Type 4
+        learners perceive by sensing/feeling and process by
+        doing/trying. They learn by personal adaptation and self
+        discovery and evaluate and modify concepts to integrate new
+        connections [ 22 ] .
+        In the Witness Project core curriculum, lay health
+        advisors develop the concepts and skills to provide health
+        education by being taught the facts about breast and
+        cervical cancer. This aspect of the training program is
+        heavily weighted toward the type 2 learner. Our lay health
+        advisors had great difficulty with this approach.
+        Therefore, we incorporated the non-traditional learning
+        tools described in this paper into our curriculum to
+        provide heavier emphasis on type 3 and type 4 learning
+        styles.
+        The educational contract served as tangible commitment
+        to learning. An individualized learning approach wherein
+        lay health advisors progressed through the educational
+        process at their own pace provided a relaxed academic
+        atmosphere. Objective evaluation of their training
+        necessitated adherence to standard approaches designed for
+        the type 2 learners. However, by progressively increasing
+        test difficulty and integrating both written and verbal
+        testing formats, test taking anxiety was almost completely
+        eliminated. Furthermore, the verbal testing formats were
+        complemented by re-presenting the didactic information in a
+        question and answer format which further alleviated anxiety
+        and increased confidence. With this approach, all lay
+        health advisor candidates were able to comfortably address
+        questions posed to them during Witness Project program
+        presentations.
+        Witness role model training proved less challenging than
+        for lay health advisors. Verbal and written recapitulation
+        of their experiences enabled role models to create, reflect
+        upon and analyze their experiences with breast or cervical
+        cancer. Sharing their presentations with other role models
+        and receiving thoughtful criticism and praise increased
+        self confidence and performance. The relevance and
+        usefulness of their experience were analyzed through group
+        practice sessions which included critiquing of
+        presentations for delivery and content. Anxiety about
+        public speaking was almost completely eliminated. More
+        importantly, the importance and benefit of sharing their
+        personal story with strangers was reinforced. As the
+        training process continued, they developed original
+        applications by enhancing their stories or began creating
+        new stories based upon different aspects of their illness,
+        eg. screening, diagnosis, treatment, reconstruction, family
+        and spiritual support. This particular phase (creating new
+        stories) of their development did not generally occur until
+        the witness role models had been giving programs 6
+        months.
+        One of the most important and novel aspects of our
+        training focused upon informed consent and study
+        participation issues. There is little published data
+        regarding the issue of informed consent in community-based
+        programs. Prior community outreach initiatives have dealt
+        with informed consent issues by obtaining consent in
+        general terms, utilizing university coverage, obtaining
+        verbal consent or removing identifiers form data to
+        eliminate the need for informed consent. Our program is
+        unique in two ways: 1.) lay members of the community
+        receive 
+        formal training about informed
+        consent and are taught how to obtain it and 2.) the
+        informed consent process is specifically reviewed with the
+        hosting community organization, an approach that has not
+        been previously reported.
+        Our primary goal was to educate our role models and lay
+        health advisors about the informed consent process, allay
+        fears related to participating in a clinical study and give
+        them the tools to repeat this same process within the
+        community. This concept was perpetrated at the individual
+        as well as the organizational level (program host). By
+        directly addressing fears and anxieties about clinical
+        study participation at the individual and organizational
+        level, the issues of informed consent were minimized.
+        We have presented a detailed description of traditional
+        and non traditional educational methods employed to train
+        lay health advisors in a community based breast and
+        cervical cancer educational program. Our educational
+        approach was tailored to the learning needs of the lay
+        health advisors and witness role models and differs to some
+        extent from prior published studies in that rigorous
+        objective evaluation of learning has been infrequently
+        used. Others have used quantitative methods but have relied
+        more on subjective knowledge assessment and measured
+        effectiveness by the number of community members reached [
+        18 24 25 26 ] . As community health based education
+        continues to proliferate, it is imperative that more
+        attention be directed to the training process and objective
+        evaluation of this process. While it is essential to be
+        able to effectively transfer information to the community
+        at large it is imperative that the educational quality of
+        the product that a training program produces (lay health
+        advisor, witness role model) be maximized through well
+        integrated multifaceted approaches.
       
       
         Conclusions
-        We have shown that DPAB can serve as a potent inhibitor
-        of purified human and mouse ALDH1A1 and should be a useful
-        molecule to assess the role of ALDH1A1 in retinal oxidation
-        in a cell system. In addition, our results indicate that in
-        HL60 cells, the prototype cell line for studying retinoic
-        acid induced cell differentiation, ALDH1A1 is not the
-        operative oxidizing enzyme for retinal.
+        The incorporation of non traditional learning approaches
+        into community based educational training curriculums
+        enhances training success and increases community
+        participation.
       
       
-        Materials and methods
-        
-          Materials
-          NAD, 
-          all-trans retinal, 
-          all-trans retinoic acid,
-          dimethylsulfoxide, mammalian protease inhibitor cocktail,
-          nitroblue tetrazolium, and pyrazole were obtained from
-          Sigma Chemical Co., St. Louis, MO. Phenylacetaldehyde,
-          4-(N,N-diethylamino) benzaldehyde, and propanal were
-          purchased from Aldrich Chemical Co., Milwaukee, WI.
-        
-        
-          Purification of ALDH1A1 from mouse liver and human
-          erythrocytes
-          The purification of ALDH1A1 from mouse liver and human
-          erythrocytes was performed as in [ 20 ] .
-        
-        
-          Substrate and inhibitor preparations
-          Retinal and retinoic acid were dissolved in either
-          DMSO or ethanol and stored as 100 mM stock solutions in
-          foil-wrapped vials at -20°C. For enzyme assays, retinal
-          prepared in DMSO was diluted in a 70% methanol: 30% water
-          (v/v) solution and all assays were run under dim light.
-          DPAB was synthesized as described in [ 20 ] and stored as
-          a yellow oil at 4°C. DPAB was diluted in DMSO to a stock
-          concentration of 10 mM and then diluted in water prior to
-          enzyme assays. DMSO concentration did not exceed 0.1%
-          (v/v) in the assay and this concentration had no effect
-          on enzyme activity.
-        
-        
-          Spectrophotometric enzyme assays
-          ALDH1A1 activity was measured on a Shimadzu UV1201
-          Spectrophotometer at 36.5° (± 0.5°) at 340 nm. Standard
-          assay conditions were as follows: 1 mL final reaction
-          volume; assay buffer (0.1 M sodium pyrophosphate pH 8.4,
-          1.0 mM EDTA, 5.0 mM dithiothreitol); 1.0 mM NAD; 10 mM
-          pyrazole. The order of addition in the assay was as
-          follows: buffer; pyrazole; NAD; ALDH (10 mU mouse liver
-          ALDH1A1; 5 mU human erythrocyte ALDH1A1; or HL-60 cell
-          extract); inhibitor (if any); and lastly, the aldehyde
-          substrate. One Unit of activity is defined as 1 μmole
-          NADH formed /minute. Background activity was determined
-          for 60-90 seconds after the addition of enzyme and the
-          reaction rate was measured during the 30-60 seconds
-          following addition of retinal substrate Propanal
-          concentration was varied from 500 to 10 μM (20-0.4 times
-          K 
-          m ), phenylacetaldehyde concentration
-          was varied from 40 to 5 μM (5-0.6 times K 
-          m ), and retinal concentration was
-          varied from 1-10 μM, all with constant (1 mM) NAD
-          concentration. DPAB concentrations were varied from 20 μM
-          to 0.05 μM. All trials were done in triplicate.
-        
-        
-          HPLC enzyme assays
-          Since there are three molecules with strong
-          absorbances at 340 nm (retinal, retinoic acid, and NADH),
-          we developed a high pressure liquid chromatography (HPLC)
-          assay to assess the ability of DPAB to inhibit retinal
-          oxidation by class 1 ALDH. Assay conditions were: 0.5 mL
-          final reaction volume; assay buffer (0.1 M sodium
-          pyrophosphate, pH 8.4, 1.0 mM EDTA, 5.0 mM dithiothreitol
-          or glutathione); 1.0 mM NAD. The reaction rate was
-          measured at 37°C for 1-10 minutes. The reaction was
-          stopped by the addition of 200 μL butanol. After
-          vortexing for 1 minute, 50 μL of saturated K 
-          2 HPO 
-          4 was added. The sample was vortexed
-          and centrifuged for 2 minutes at 16,000 g. 50 μL of the
-          resulting organic layer was injected onto a reverse phase
-          C18 column (Phenomenex). The mobile phase was 0.5% acetic
-          acid: 20% water: 79.5% acetonitrile (v/v) with a flow
-          rate of 2.0 mL/min. 
-          All-trans retinal and 
-          all-trans retinoic acid were
-          detected at 360 nm with retention times of 10.0 and 7.7
-          minutes, respectively.
-        
-        
-          HPLC assay for detection of retinal purity and
-          stability in culture
-          HPLC was used to analyze the purity of our retinal
-          samples and the stability of retinal under culture
-          conditions. The stability of retinal in tissue culture
-          was determined by incubation of 10 μM retinal in culture
-          media (RPMI 1640 plus 15% fetal bovine serum) for six
-          days at 37°C. At 24 hour intervals, 1 mL of media was
-          removed. 200 mL of 50% butanol:50% acetonitrile (v/v) was
-          added and the mixture was vortexed for 60 seconds,
-          followed by centrifugation for 2 minutes at 16,000 × g.
-          The top organic layer was removed and diluted 1:5 in
-          acetonitrile before injection onto the HPLC column.
-        
-        
-          Cell differentiation assays
-          HL-60 cells (ATCC, Rockville, MD) were propagated in
-          RPMI-1640 media supplemented with 15% fetal bovine serum
-          and 50 U/mL penicillin and 0.5 mg/mL streptomycin. Cells
-          were subcultured and treated at 2 × 10 5cells/mL. Cells
-          were exposed to combinations of 1 μM retinoic acid, 1 μM
-          retinal, and various concentrations of DPAB and DEAB
-          prepared in sterile dimethyl sulfoxide (DMSO) or ethanol.
-          Final concentrations of DMSO or ethanol in the culture
-          medium did not exceed 1% v/v. Cells were exposed for up
-          to 144 hours without replacement of media or washing out
-          of retinoid or inhibitor. Cell differentiation was
-          measured by mixing 100 μL aliquots of cells with 100 μL
-          of a solution containing 1.0% w/v bovine serum albumin,
-          0.2% w/v nitroblue tetrazolium and 1.0 μg/mL of
-          12-O-tetradecanoylphorbol 13-acetate (TPA). The mixture
-          was incubated for 45 minutes at 37°C in a 24-well plate.
-          Cells were pipetted onto a Bright Line counting chamber
-          and scored as positive for differentiation by the
-          presence of purple NBT precipitate using bright field
-          microscopy. Two observers each counted two fields of at
-          least 200 cells from each well of treated cells. Cell
-          survival was determined by Trypan blue dye exclusion.
-        
-        
-          Spectrofluorometric assays for ALDH activity in
-          HL-60 Cells
-          Cytosolic extracts of HL-60 cells were analyzed for
-          ALDH activity using a Perkin Elmer 650 spectrofluorometer
-          with an excitation wavelength of 350 nM and an emission
-          wavelength of 460 nM. Assay conditions were as given for
-          the spectrophotometric enzyme assays above, with propanal
-          or 
-          all-trans retinal used as the
-          aldehyde substrate.
-        
+        Competing interests
+        None declared
+      
+      
+        Authors contributions
+        Drs. Hurd, Muti and Erwin participated in draft
+        preparation. Drs. Hurd and Womack designed the study. The
+        Witness Project of Arkansas was initiated and designed by
+        Dr. Erwin. All authors have read and approved the
+        manuscript.
       
     
   

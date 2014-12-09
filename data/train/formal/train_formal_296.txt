@@ -3,602 +3,520 @@
     
       
         Background
-        The T lymphocyte actin cytoskeleton is clearly important
-        in the regulation of cell activity at a variety of
-        different levels. An intact actin cytoskeleton is required
-        for sustained signals leading to T cell activation [ 1 ] .
-        T helper and cytolytic effector cells reorient their
-        intracellular components for vectorial secretion of
-        cytokines [ 2 ] or cytolytic components [ 3 ] via
-        cytoskeletal dependent mechanisms. Recent reports suggest
-        an active role played by the T cell cytoskeleton in
-        maintaining spatially defined molecular clusters found
-        within the immunological synapse - a highly structured
-        molecular array defined by contact regions between T cells
-        and antigen presenting cells [ 4 5 6 7 ] , and reviewed in
-        [ 8 9 ] or NK cells and target cells [ 10 ] . Although the
-        actin cytoskeleton has been implicated in all these
-        processes, perhaps its greatest role is in regulating T
-        lymphocyte motility and morphology.
-        The first physical step in directional motility is the
-        extension of cellular processes termed pseudopods [ 11 ] .
-        Pseudopodia are flattened, fan shape cellular protrusions
-        enriched in signaling molecules and cytoskeletal elements
-        including filamentous actin, which is preferentially
-        nucleated at the leading edge of a migrating cell [ 12 ] .
-        A key candidate for regulation of the T lymphocyte actin
-        cytoskeleton is the GTP-binding protein Rho. This small
-        member of the Ras GTPase superfamily has been implicated in
-        fibroblast models of integrin dependent actin stress fiber
-        formation, focal contact assembly [ 13 ] , and gene
-        induction via the serum response element [ 14 ] . Studies
-        of Rho function have been facilitated by the use of
-        specific toxins such as 
-        Clostridium botulinum toxin C3 which
-        catalyses the ADP-ribosylation and inactivation of Rho [ 15
-        16 17 ] . The function of this GTPase and related family
-        members such as Rac and Cdc42 has been extensively studied
-        in the fibroblast model. In this system it has been shown
-        that Rho function is necessary for the production of actin
-        stress fibers [ 13 ] . However, in cells that are
-        considered highly motile and circulate through various
-        compartments of the body (such as T lymphocytes), actin
-        stress fibers have yet to be identified. By comparison to
-        adherent cells such as fibroblasts, less work has been done
-        within the formed elements of the blood, in particular,
-        studies addressing the role played by Rho in the
-        maintenance of T lymphocyte cytoarchitecture.
-        The involvement of Rho GTPases in regulating integrin
-        dependent events such as leukocyte homotypic aggregation
-        and in chemokine upregulation of integrin-mediated adhesion
-        has recently been identified [ 18 19 ] . ADP-ribosylation
-        of Rho in neutrophils by treatment with C3 not only
-        inhibits cellular locomotion, but augments chemoattractant
-        induced actin polymerization [ 20 21 ] . Moreover,
-        inactivation of Rho in monocytic cells leads to accelerated
-        formation of filopodia, and it has been proposed that Rho
-        is a negative regulator of actin polymerization within this
-        cell type [ 22 ] . Active Rho is also required for normal
-        morphology, motility, and cytolytic activity of IL-2
-        activated NK cells [ 23 24 ] . We and others have
-        demonstrated the importance of Rho in T lymphocyte
-        activation [ 25 26 ] . Given the role played by Rho in the
-        regulation of actin microfilaments in other cell types, and
-        the indispensability of a functional actin cytoskeleton in
-        lymphocyte motility and activation, it is of importance to
-        study Rho's role in the regulation of T lymphocyte integrin
-        function and maintenance of cytoskeletal organization.
-      
-      
-        Results
-        
-          Electroporation of C3 induces complete
-          ADP-ribosylation of Rho in HPB-ALL
-          Western blotting analysis confirmed the presence of
-          RhoA (~25 kDa) in the human T cell lines HPB-ALL and CEM
-          (Figure 1A). The bacterial toxin C3 from 
-          Clostridium botulinum ribosylates
-          asparagine 41 of the small GTPase Rho [ 15 16 ] ,
-          resulting in its inactivation. C3 (25 μg/ml) was
-          electroporated into the T cell line HPB-ALL as described
-          in the Materials and Methods. After thorough washing, the
-          cells were incubated for 1 hour at 37°C to allow 
-          in vivo ribosylation, then
-          sonicated and lysates subjected to further C3
-          ribosylation by the addition of 2 μCi [ 32P]-NAD and 1 μg
-          of C3 in ribosylation buffer. By this method, any further
-          ADP ribosylation of Rho can be identified 
-          in vitro after 
-          in vivo ribosylation, thus serving
-          as a measure of the efficiency of the electroporation
-          procedure for introducing C3 exoenzyme into HPB-ALL cells
-          [ 31 ] . As figure 1Bdemonstrates, electroporation of C3
-          transferase (Figure 1B, lane 3) prior to cell disruption
-          prevented further ribosylation of Rho proteins in the
-          cell lysates. The technique of electroporation of C3 was
-          very efficient, as even longer autoradiographic exposures
-          of the gel did not demonstrate incorporation of [
-          32P]-NAD (data not shown). Thus electroporation of the
-          exoenzyme C3 fully ribosylates Rho 
-          in vivo , to the extent that no
-          further 
-          in vitro ribosylation of Rho can be
-          detected after cell lysis.
-        
-        
-          Alteration of HPB-ALL morphology by C3
-          exoenzyme
-          Inactivation of Rho did not affect the constitutively
-          high adhesion of HPB-ALL cells to the extracellular
-          matrix protein fibronectin (Fn) (Figure 2). When HPB-ALL
-          cells are plated onto β1 integrin substrate such as
-          fibronectin, vascular cell adhesion molecule-1 (VCAM-1),
-          or even antibodies to α4β1 integrins, they respond by
-          extending pseudopodia and displaying a highly flattened,
-          spread morphology (figure 3, panels 4, 7, and 10, and ref
-          [ 32 ] ). However, electroporation of C3 appeared to
-          alter HPB-ALL morphology resulting in the extension of
-          very fine branched finger-like cellular processes when
-          cells were plated on the β1 integrin substrates Fn
-          (figure 3, panel 6), VCAM-1 (figure 3, panel 9), or a mAb
-          specific for β1 integrins (figure 3, panel 12). This also
-          occurred for another T cell line, HSB-1 (data not shown),
-          and in activated primary T lymphocytes (Table 1).
-          Untreated HPB-ALL, mock electroporated control HPB-ALL,
-          or C3 treated HPB-ALL do not extend pseudopodia on the
-          non-specific cell attachment substrate poly-L-lysine
-          (figure 3, panels 13-15), demonstrating the requirement
-          for integrin dependent signals in both the normal
-          spreading morphology of HBP-ALL, and the C3 induced
-          morphological changes in this cell type.
-        
-        
-          RhoA immunolocalization in normal and C3 treated
-          HPB-ALL cells spreading on fibronectin
-          Immunolocalization of the GTPase RhoA was performed to
-          determine if inactivation by C3 exoenzyme caused spatial
-          redistribution of RhoA in HPB-ALL. As figure
-          4demonstrates, untreated HPB-ALL cells display a diffuse
-          staining pattern of RhoA, with small punctate
-          microclusters throughout the normal pseudopodial
-          extensions (figure 4, left panels, arrows). Staining with
-          secondary antibody alone was negative (data not shown).
-          Inactivation of Rho by electroporation of C3 exoenzyme
-          did not seem to cause a large overall redistribution of
-          RhoA in spread HPB-ALL. However, RhoA appeared to be in
-          relatively larger clusters distributed along the aberrant
-          pseudopodial structures with no diffuse staining observed
-          (figure 4, right panels, arrows).
-        
-        
-          Altered pseudopodia are rich in filamentous
-          actin
-          The Rho family of GTPases is largely responsible for
-          maintenance of cell shape in a variety of cell types, and
-          this involves regulation of the actin cytoskeleton. To
-          localize filamentous actin within HPB-ALL, cells adherent
-          to VCAM-1 were fixed and stained with TRITC-phalloidin.
-          Control electroporated cells display rather diffuse
-          filamentous actin staining in elongated pseudopodial
-          processes that flatten and spread out on their termini,
-          and there are multiple filopodia extending from these
-          processes and from the cell body (figure 5A, arrows).
-          Cells that had been treated with C3 exoenzyme however all
-          contain highly enriched filamentous actin within the
-          extended pseudopods. This is true on the substrates FN
-          and anti-β1 integrin mAb (data not shown). In the C3
-          electroporated cells, small filopodia extending from the
-          cell body are absent, and multiple branched pseudopodial
-          structures are largely enriched in filamentous actin
-          (Figure 5B, arrows). Of interest, electroporation of C3
-          in conjunction with FITC-labeled monomers of actin did
-          not demonstrate incorporation of FITC-actin in the
-          altered pseudopods at early time points (data not shown),
-          suggesting that the filamentous actin in the altered
-          pseudopods initially results from rearrangement of
-          pre-formed actin filaments.
-        
-        
-          Time lapse microscopy of C3 treated cells
-          In fibroblast models, inactivation of Rho causes
-          retraction of pre-formed pseudopods with a resultant
-          deposition of parallel tracks of thin dendritic processes
-          [ 17 ] , a phenotype ultimately resembling that seen in
-          C3 treated HPB-ALL. The phenotype induced by C3 mediated
-          ribosylation of Rho in HPB-ALL could result from either
-          aberrant retraction of recently formed pseudopods, or
-          altered pseudopodial extension. These possibilities were
-          explored using video time-lapse microscopy. Figure
-          6demonstrates HPB-ALL spreading on VCAM-1 over a period
-          of 1 hour, where images from the first 10 minutes were
-          obtained from recorded videotape, followed by a 60 minute
-          time point. Untreated cells and mock electroporated cells
-          demonstrate normal HPB-ALL cell spreading (figure 6, see
-          arrows). They extend thick pseudopodia with fanned
-          termini, and their cell bodies are flattened and oval in
-          shape. The C3 induced phenotype forms at the onset of
-          cell spreading (figure 6, see arrows). The finger-like
-          extensions initially form from a rounded cell body and
-          elongate throughout the duration of the assay. The
-          stellate projections are clearly delineated even at their
-          termini, and the cell bodies do not demonstrate a
-          flattened, oval, or spindle phenotype. Thus, the C3
-          induced stellate phenotype is not primarily due to
-          aberrant pseudopodial retraction, but an altered
-          pseudopodial extension. Also of note was the effect of C3
-          on the dynamic maintenance of pseudopodia. Under normal
-          or control electroporation conditions, some of the VCAM-1
-          adherent cells would retract pseudopodia, then form new
-          extensions in different directions. This activity was
-          clearly inhibited in the C3 treated cells. Once the
-          aberrant finger-like projections were formed, no
-          pseudopodial retraction was noted during this time
-          period, and the cells became completely immobile.
-          Quantification of the original movies indicate that only
-          1.7% (1/60) of the C3-treated cells were motile whereas
-          34.9% (45/129) of mock-electroporated cells displayed
-          motility. See additional file1:C3.movand
-          file2:mock.movfor the original movies.
-          Additional File 1
-          C3 transfection on VCAM C3 exoenzyme transfected into
-          HPB-ALL cells inhibits motility on immobilized VCAM-1
-          substrate.
-          Click here for file
-          Additional File 2
-          Mock transfection on VCAM Mock transfected HPB-ALL
-          cells have normal motility on immobilized VCAM-1
-          substrate.
-          Click here for file
-        
-      
-      
-        Discussion
-        In the present study, we demonstrate that
-        ADP-ribosylation of the GTPase Rho in HPB-ALL cells does
-        not result in a decrease in constitutively high adhesion to
-        the extracellular matrix component fibronectin. However,
-        inactivation of Rho protein does result in the aberrant
-        extension of finger-like, branched dendritic projections in
-        HBP-ALL cells when plated on the substrates VCAM-1,
-        fibronectin, and mAb specific for β1 integrins. Altered
-        pseudopodial extension required β1 integrin signaling, as
-        C3 treated cells plated on the non-specific cell attachment
-        factor poly-L-lysine did not extend dendritic like
-        processes. Electroporation of polyclonal antibodies
-        specific for RhoA mimicked the C3 induced phenotype (data
-        not shown). The C3 induced extensions were rich in
-        filamentous actin, and C3 treated HPB-ALL cell bodies
-        apparently lacked filopodial actin microspikes, present in
-        normal spreading cells. Immunolocalization studies of RhoA
-        in C3 treated HBP-ALL cells spreading on fibronectin showed
-        no gross differences in RhoA distribution, however clusters
-        of RhoA were more delineated along the finger-like
-        dendritic processes of the C3 treated cells. Thus,
-        functional Rho is required for the proper extension and
-        retraction of pseudopods in T lymphocytes on β1 integrin
-        substrates.
-        A large body of work has described the morphological
-        functions regulated by small GTPases of the Rho subfamily.
-        Members of this family include RhoA, RhoB, RhoC (which are
-        isoforms), Cdc42, G25K, RhoG, Rac1, Rac2, and TC10
-        (reviewed in [ 34 ] ). In fibroblast models, these GTPases
-        have been proposed to act in a concerted hierarchy to
-        coordinately regulate distinct morphological features.
-        Filopodia formation of short filamentous actin microspikes
-        gives way to membrane ruffling and lamellipodia formation,
-        culminating in the organized production of actin stress
-        fibers. This has lead to the hypothesis that small GTP
-        binding proteins act sequentially, in the GTPase cascade
-        Cdc42→Rac→Rho [ 35 ] . Facilitating the study of Rho in
-        regulation of cell activity has been the use of C3
-        exoenzyme, a toxin from 
-        Clostridium botulinum that
-        ADP-ribosylates [ 15 16 ] and inactivates Rho proteins.
-        Although ribosylation of other Rho family proteins such as
-        Rac1 can occur with C3 [ 33 ] , this seemed to be very weak
-        [ 13 ] . In our work, C3 electroporated into the T cell
-        line HPB-ALL caused complete ADP-ribosylation of Rho
-        proteins (~25 kDa). Although Rac1 and Cdc42 were identified
-        in western blots of whole cell lysates prepared from the T
-        cell lines HPB-ALL, CEM, HSB (data not shown), and PB human
-        T lymphocytes (data not shown), there was no detection of
-        ribosylation in the lower molecular weight Rac and Cdc42
-        related GTPases in HPB-ALL cells, indicating the
-        specificity of C3.
-        Previous reports have demonstrated that ADP-ribosylation
-        of B-lymphoid cell lines by C3 treatment inhibits phorbol
-        ester induced cellular homotypic aggregation [ 18 ] . Also,
-        phorbol ester and chemoattractant (IL-8 and fMLP) induced
-        pre-B lymphoblastoid adhesion to VCAM-1 and neutrophil
-        adhesion to fibrinogen was abrogated in a dose-dependent
-        manner by C3 exoenzyme [ 36 ] . This may indicate that in
-        cells of hematopoietic lineages, the induction of an
-        increased adhesive state may be susceptible to regulation
-        by Rho proteins. However, we have recently demonstrated
-        that induced adhesion of primary T lymphocytes to
-        fibronectin is unaffected by Rho inactivation [ 25 ] , and
-        data presented here suggests that constitutively high
-        adhesion of HPB-ALL cells to β1 integrin substrate is
-        unaffected by C3 treatment. Others have demonstrated that
-        inactivation of Rho in monocytes promotes cellular adhesion
-        to β1 integrin substrates [ 37 ] . Static cell adhesion
-        studies rely on a number of factors including integrin
-        affinity regulation, integrin avidity/clustering, and shear
-        resistant cell shape changes. Factors affecting adhesion
-        can do so by regulating any number of these parameters.
-        Thus the effects due to Rho inactivation on cell adhesion
-        may not only influence one or more of these parameters, but
-        also be cell type specific even amongst the cells of the
-        hematopoeitic lineage.
-        The phenotype induced by ADP-ribosylation of Rho in T
-        lymphocytes appeared different than that induced in
-        fibroblast models, where microinjection of C3 results in
-        fibroblast retraction of pseudopodia, with the cell body
-        rounding up eventually to become non-adherent [ 17 ] .
-        Video time-lapse microscopy demonstrated the elongation of
-        aberrant pseudopods in HPB-ALL cells plated on the β1
-        substrate VCAM-1, rather than an altered retraction of
-        already formed pseudopods. These results suggest an altered
-        pseudopodial extension although a defect in contractibility
-        could be involved as a secondary mechanism for formation of
-        aberrant processes. This phenotype also coincided with the
-        complete loss of cellular motility in HPB-ALL, even though
-        adhesion to substrate was not noticeably altered. It is
-        also important to note that normal and C3 induced aberrant
-        HPB-ALL spreading on Fn or VCAM-1 is dependent on signals
-        generated through β1 integrins, as both morphologies could
-        be seen when untreated or C3 treated HPB-ALL were plated on
-        the β1 specific mAb 33B6. When these same cells are plated
-        on the non-specific cell attachment factor poly-L-lysine,
-        cells remain round and no spreading occurs. The elongated
-        dendritic-like processes in C3 treated HPB-ALL cells were
-        F-actin rich. This phenotype caused by inactivation of Rho
-        is the first to be described in T lymphocytes, however, Rho
-        regulation of the actin cytoskeleton is not novel among
-        cells of the hematopoietic lineage. ADP-ribosylation of Rho
-        proteins in chemoattractant stimulated neutrophils [ 20 21
-        ] and in both monocytic lines and fresh blood monocytes [
-        22 38 ] results in actin filament polymerization. Although
-        this once again highlights differences between the affects
-        of C3 in fibroblasts and leukocytes, there may be
-        commonalties amongst cells that do not form distinct actin
-        stress fibers, such as leukocytes and neuronal cells.
-        ADP-ribosylation of Rho proteins by C3 exoenzyme prevents
-        neurite retraction in the specialized growth cone of
-        developing neurons, and in fact promotes neurite outgrowth
-        in the same fashion as microinjection of purified dominant
-        negative RhoA T19N [ 39 ] . In these instances, neuronal
-        N1E-115 cell outgrowth induced by inactivation of RhoA was
-        mimicked by microinjection of Rac1- or Cdc42-GST fusion
-        proteins, and could be abolished by coinjection of dominant
-        negative Cdc42 T17Nor Rac1 T17N [ 39 ] . From these
-        results, the authors concluded that inactivation of RhoA by
-        C3 exoenzyme treatment resulted in the activation of Rac1
-        and Cdc42 GTPases, suggesting the mutually exclusive
-        function of RhoA and Rac1/Cdc42. Cdc42 has been implicated
-        in the formation of small, actin-rich filopodia [ 34 ] ,
-        which are similar to those seen on spread HPB-ALL cells
-        (figure 5) around the periphery of the cell body and
-        extended pseudopods. After C3 electroporation, HPB-ALL were
-        allowed to spread on VCAM-1 for 1 hour, and
-        TRITC-phalloidin staining demonstrated the complete absence
-        of fine filopodial structures. Given the morphologic
-        similarity between neurite outgrowth of N1E-115 cells and
-        the aberrant pseudopodial extension of HPB-ALL when RhoA is
-        inhibited with C3 exoenzyme, it will be interesting to
-        determine if other GTPases such as Rac or Cdc42 are
-        activated to promote this phenotype after C3 treatment of
-        HPB-ALL cells. The thick actin rich stellate projections
-        emanating from the cell body of C3 electroporated HPB-ALL
-        may be the result of condensation of filopodia, where Cdc42
-        may be induced into a highly active state. Actin filament
-        elongation would continue and RhoA dependent retraction of
-        filamentous actin would be abrogated. This could occur by
-        the release of limited effector molecules shared between
-        the two GTPases, possibilities that are currently under
-        investigation.
-        The immunolocalization of RhoA in normal and C3 treated
-        cells did not appear drastically different in that RhoA was
-        apparent in both normal and aberrant pseudopodial
-        extensions. The notable exception was that clusters of RhoA
-        appeared less diffuse in the altered pseudopods of C3
-        treated cells (figure 6). Although ADP-ribosylation of Rho
-        does not significantly alter the subcellular distribution
-        of RhoA, Rho activity is inhibited. This is thought to
-        prevent activation of downstream Rho targets required for
-        normal integrin dependent morphological changes. A number
-        of potential downstream Rho effector molecules have been
-        identified recently. These include p150 RhoA-binding kinase
-        α and β (p150 ROKα and β) [ 40 41 ] , p160 Rho-associated
-        coiled-coil containing protein kinase (Rho-p160ROCK) [ 42 ]
-        , p164 Rho kinase [ 43 ] , p120 protein kinase N (p120 PKN)
-        [ 44 45 ] , and PKC-related kinase-2 (PRK-2) [ 46 ] . These
-        kinases specifically bind to the GTP bound form of Rho,
-        except for PRK-2, which can bind both Rho and Rac GTPases.
-        Interestingly, inhibition of Rho-p160ROCK has recently been
-        shown to give similar lymphocyte morphology as inhibition
-        of Rho with C3 [ 50 ] . Another interesting candidate may
-        be p120 PKN, as recent studies have established that PKN
-        phosphorylates cytoskeletal intermediate filaments [ 47 ]
-        and is directly linked to the cytoskeletal network through
-        associations with α-actinin [ 48 ] . Also, PKN may be
-        involved in relating cytoplasmic signals to the nucleus,
-        for in response to stress, nuclear translocation of PKN
-        occurs [ 49 ] . This is particularly important in light of
-        previous work demonstrating that inactivation of Rho in
-        peripheral blood T lymphocytes inhibits costimulatory
-        signals up-regulating IL-2 production [ 25 ] . Future
-        experiments will focus on determining the relationship of
-        Rho GTPases and the regulation of T cell morphology [ 25 51
-        52 ] .
-      
-      
-        Conclusions
-        Inactivation of Rho results in an active elongation of
-        actin rich, finger-like dendritic processes dependent on β1
-        integrin signaling. Thus Rho activity is required for T
-        lymphocyte spreading morphologies, and is required for T
-        lymphocyte motility. In static cell adhesion assays,
-        however, Rho activity is not required to maintain
-        constitutively high levels of adhesion to fibronectin.
-        Further study of Rho and it's related GTPases and
-        downstream effector molecules, will be important in
-        elucidating mechanisms regulating the lymphocyte
-        cytoskeleton and thus T cell function.
+        The use of hair assays in order to assess the presence
+        of ingested chemical materials has been used in a wide
+        variety of applications [ 1, 2]. Hair has been utilized,
+        for example, in determining the degree of exposure to heavy
+        metals in both 
+        post mortem and living subjects [ 3].
+        In recent years there has been considerable focus on the
+        recovery of illicit psychoactive substances and their
+        metabolites from hair [ 4, 5, 6]. Others have reported on a
+        wide variety of substances that can be recovered from human
+        hair samples and can be quantitatively determined. These
+        include nicotine and cotinine [ 7], caffeine [ 8],
+        antipsychotics and anti-anxiety medications [ 9, 10, 11,
+        12], various antibiotics [ 13, 14, 15, 16], pesticides [
+        17], digoxin [ 18], and steroids [ 19, 20]. There are
+        several advantages to hair as a sample for analysis, but
+        the single most important attribute is undoubtedly the long
+        retrospective time frame to which analysis of a segment of
+        hair corresponds. This permits an evaluation of a history
+        of exposure that is not possible with specimens such as
+        saliva or urine. A three-centimeter length of hair
+        corresponds, on average, to approximately 90 days of past
+        time or "history". For compounds that are stable when
+        sequestered in hair this represents a very desirable
+        property.
+        This enhanced temporal capacity lends itself to the
+        possibility that hair analysis can be utilized to evaluate
+        individual compliance for substances that are taken on a
+        regular basis, such as anti-clotting medications,
+        antibiotics, and anti-epileptic drugs. This can be an
+        important diagnostic and assessment aid in medical practice
+        and clinical evaluation of drug efficacy. Williams, for
+        example, has advocated the use of hair analysis as a method
+        for assessing therapeutic compliance to anti-seizure drug
+        regimens [ 21]. It has been well demonstrated that the
+        major antiepileptic medications, phenytoin (PHT),
+        carbamazepine (CBZ), and valproic acid (VPA) are readily
+        recovered and quantified from hair specimens [ [ 22 23 24
+        25 26 27 28 29 ] ]. Thus, assessing the presence and
+        quantity of these substances in hair may be a reliable
+        marker for consumption, and provide an additional source of
+        information to the physician who has historically relied
+        only on the patient's self-reported compliance.
+        Whether hair analysis can be an effective indication of
+        patient compliance is controversial, however. It is widely
+        accepted that the qualitative presence of these compounds
+        can be reliably demonstrated by hair analysis. The
+        controversial aspect is primarily based on the issue of
+        whether the 
+        quantitative value of the assay can
+        be a reliable indicator of dose. That is, is there a
+        reliable dose/assay correlation? Tracqui et al. [ 30], for
+        example, have argued that hair analysis has value for
+        qualitative evaluation of drug use, but is "worthless" for
+        quantitative assessment of patient compliance. Williams
+        (1999), however, argues the opposite, and presents data for
+        a controlled inpatient population taking CBZ which shows
+        remarkably good consistency between dose and assay outcome.
+        Furthermore, Williams suggests that compliance is best
+        measured by using patients as their own control. This is
+        done by comparing any given assay outcome to a ground state
+        value. So hair will show a relative change in
+        concentration. It is generally accepted that specific
+        quantitative values related to a specific dose can not
+        applied across study subjects due to substantive individual
+        biovariability.
+        One issue that is not clearly understood is the variety
+        of factors influencing the considerable biovariability that
+        appears between persons given identical dosages of these
+        drugs. Clinicians general recognize that a very large
+        number of factors can influence the drug concentration in
+        any analytic matrix. One potential advantage of hair
+        specimens is they may represent a relatively stable matrix
+        over a relatively long time frame. Tracqui, even in
+        rejecting the utility of quantitative compliance monitoring
+        in this context, notes that a number of studies reported
+        significant strong correlation between dose and assay
+        outcomes for a number of different compounds, with
+        Pearson's r ranging from .772 to .868. Another aspect of
+        this interpretation controversy concerns whether there are
+        systematic influences on drug concentration in hair because
+        of color variations, differences in cosmetic treatment, and
+        different intensities of hair hygiene. Another part of the
+        controversy is problems related to the dependency on the
+        accuracy self-reported patient compliance (which may or may
+        not be accurate), and - in the case of illicit drugs - the
+        purity and actual contents of drugs reported as consumed.
+        The attending physicians for these patients were queried on
+        the confidence they had on their patient's compliance, and
+        in general they rated the compliance as good, with only a
+        small number of missed doses. However, we recognize that
+        there are reliable data to indicate that patient compliance
+        to anti-seizure medication regimens may be weak, and a
+        delimitation of this research is that there was not rigid
+        control of patient compliance.
+        One of the general weaknesses characterizing much of the
+        analysis of hair assay data has been the inadequacy of the
+        statistical models used to assess the experimental
+        information. Oftentimes claims or conclusions are derived
+        from experimental data that is not supported by statistical
+        analysis. In some cases, in fact, analyses of the data show
+        that the conclusions reached are clearly incorrect [ 31].
+        There has been, in general, a failure in the assessment of
+        experimental hair analysis data to use appropriate
+        available statistical procedures, or to assess whether the
+        critical assumptions that underlay statistical procedures
+        are met by the data. And almost without exception, there
+        has been no utilization of more sophisticated and sensitive
+        statistical techniques that are available to examine
+        multivariate phenomena. This is true even though there is a
+        general recognition that the relationship between dose and
+        assay are likely to mediated by a complex series of
+        intervening events and are particularly appropriate to this
+        analytic approach.
       
       
         Materials and Methods
+        The analysis is based upon the concentrations obtained
+        from scalp hair collected by cutting hair from the
+        posterior vertex of the head. Each sample consisted of
+        approximately 200 mg of hair. Each sample was sectioned
+        into 2-cm segments and each segment was analyzed by FPIA
+        and HPLC methods for CBZ and PHT and by FPIA for VPA. The
+        number of segments for each patient varied, since it was
+        dependent of length of hair available from each individual.
+        Most patients have five segments and no patient provided
+        less than two segments. The concentrations used for each
+        case are the mean values for all available segments for
+        that patient. HPLC values are used in the analysis of CBZ
+        and PHT, FPIA values are used in the analysis of VPA. As
+        well, serum assay values are provided for each patient. The
+        serum assay typology varied, including multiple methods to
+        assay serum for some drugs. For CBZ serum was assayed by
+        both FPIA and GC/MS, for VPA by FPIA, and for PHT by FPIA
+        and HPLC. Bloods were drawn from patients in the morning by
+        their attending physician. In a few cases there were
+        multiple bloods drawn. In such cases the mean values for
+        the serum levels are represented in the tables. Hair color
+        assignments were based upon observation by the attending
+        physician, questioning of the patient and in cases of
+        ambiguity by consultation among the field research staff,
+        the attending physician, and the patient.
+        Since this is a secondary analysis of data, only a
+        synopsis of technical procedures is presented here. Details
+        of the instrumentation, including calibration and
+        standardization, and elaboration of the analysis techniques
+        are described in detail elsewhere [ 28] and are not
+        repeated here. The general approach was as follows: hair
+        samples were dissolved in a strong base (NaOH) and the
+        dissolved material was subjected to solvent extraction.
+        Hair samples were segmented in 2-cm sections, and 30-50 mg
+        of hair from each segment was added to 3 ml of 1 N NaOH
+        solution. The solution was solvent extracted with diethyl
+        ether, centrifuged, and the supernatant evaporated. The
+        remnant residue was dissolved in saline and subjected to
+        analysis.
+      
+      
+        Result and Discussion
         
-          Reagents
-          Poly-L-lysine was purchased from Sigma Chemical Co.
-          (St. Louis, MO). Fn was affinity purified from 200 ml of
-          human plasma (Gulf Coast Regional Blood Center, Houston,
-          TX). Briefly, gelatin-conjugated sepharose bead columns
-          were pre-washed with PBS containing 2 mM EDTA and 0.1 mM
-          PMSF. After washing, plasma containing 2 mM EDTA and 0.1
-          mM PMSF was passed over the column twice, then washed
-          with at least 4 volumes of PBS/EDTA/PMSF. Elution of FN
-          from the columns was performed with 4 M urea in 0.15 M
-          NaCl, 2 mM EDTA, 0.1 mM PMSF, 20 mM Tris-HCl, pH 8.0.
-          Collected fractions were dialyzed in PBS. All procedures
-          were carried out at RT. Fn purity was determined by
-          SDS-PAGE. VCAM-1 was provided by Dr. S. Fong (Genentech,
-          San Francisco, CA). C3 exoenzyme was purified as
-          previously described [ 25 ] . Anti-β1 integrin mAb 33B6
-          and anti α4β1 integrin mAb 19H8 were generated in this
-          laboratory and have been previously described [ 27 28 ] .
-          Rabbit polyclonal anti-Cdc42, -Rac1, -Rac2, -RhoA, and
-          mouse monoclonal anti-Ras, were purchased from Santa Cruz
-          Biotechnology (Santa Cruz, CA).
-        
-        
-          Cells
-          The T cell lines HPB-ALL and CEM were maintained in
-          complete media (RPMI-1640 supplemented with 10% FBS; 10
-          U/ml of both penicillin and streptomycin; and 1 mM
-          L-Glutamine, all from Life Technologies, Grand Island,
-          NY). Freshly isolated peripheral blood T cells were
-          purified and activated by cross-linking CD28 and CD3 as
-          previously described [ 29 ] .
-        
-        
-          Time Lapse and Fluorescence Microscopy
-          HPB-ALL cells were plated on VCAM-1 in the temperature
-          controlled environment of an inverted Nikon (Melville,
-          NY) Diaphot-TMD microscope for 1 hour. During this time,
-          images were obtained through an Optronics (Galeto, CA)
-          VI-470 CCD camera and recorded by time-lapse
-          cinematography on a Panasonic (Secaucus, NJ) sVHS AG-6730
-          time-lapse videocassette recorder. Recordings were played
-          back and digitized on a Macintosh IIVX computer equipped
-          with a Data Translation (Marlboro, MA) Frame Grabber card
-          using NIH IMAGE software (available from
-          ftp://codon.nih.gov/pub/nih-image/nih-image161_fat.hqx).
-          For fluorescence microscopy, glass coverslips were
-          coated with Fn (10 μg/ml), VCAM-1 (5 μg/ml) or mAb 19H8
-          (0.5 μg/ml) for at least 2 hours at 37°C in 50 mM Tris
-          (pH 9.5). Coverslips were blocked with BSA (1% w/v in
-          PBS) for 30 min at room temperature then washed with PBS.
-          HPB-ALL cells were then plated onto the coverslips and
-          incubated for 1 hour at 37°C in complete media. The cells
-          were then washed on the coverslips, and fixed with 2%
-          paraformaldehyde for at least 30 min at 4°C. A solution
-          of 0.1% TritonX-100 was then used to permeabilize the
-          cells by treatment for 10 min at 4°C. After
-          permeabilization, coverslips were again blocked with 1%
-          BSA. After washing in PBS, 80 μM phalloidin-TRITC or 1
-          μg/ml anti-RhoA antibody was incubated for 30 min at 4°C.
-          Cells were visualized on a Nikon DIAPHOT-TMD inverted
-          microscope and images were digitized as described
-          above.
-        
-        
-          Western Blotting
-          All western blotting steps were carried out at 4°C for
-          at least 2 hours. Cell lysates from approximately 2 × 10
-          6cell equivalents were subjected to 12.5% SDS-PAGE,
-          transferred onto PVDF membranes (Bio-rad, Richmond, CA),
-          then blocked with 5% BSA and 5% non-fat milk. Membranes
-          were extensively washed, then incubated with the primary
-          (0.5 μg/ml) polyclonal anti-RhoA. After washing,
-          membranes were incubated with Goat anti-rabbit polyclonal
-          antibody conjugated to HRP (Cappel, Durham, NC).
-          Chemiluminescence was performed as described by the
-          manufacturer (Pierce, Rockford, IL).
-        
-        
-          Cell Adhesion Assays
-          Adhesion assays were performed in modified Tyrodes
-          buffer [ 30 ] composed of 12 mM NaHCO 
-          3 (pH 7.4), 150 mM NaCl, 2.5 mM KCl, 2
-          mM MgCl 
-          2 , 1 mg/ml BSA, and 1 mg/ml glucose.
-          Plates were pre-coated with Fn (10 μg/ml) for at least 2
-          hours at RT in 0.1 M NaHCO 
-          3 . BSA (2% w/v) was then added to
-          block unbound sites. Cells were resuspended in modified
-          Tyrodes buffer. After the cells were added to the washed
-          plates in 100 μl of modified tyrodes (1 × 10 5cells),
-          plates were spun at 300 rpm for 5 min, then incubated for
-          45 min at 37°C and 5% CO 
-          2 . Two images were digitized (see
-          above) from each well before washing, then plates were
-          carefully washed 4 × with pre-warmed (37°C) modified
-          Tyrodes buffer. After washing, images from the same
-          position were digitized. Cell numbers were quantitated
-          using NIH Image software, and adhesion assays are graphed
-          as the percentage of input cells remaining after
-          washing.
-        
-        
-          Electroporation of C3 into HPB-ALL cells
-          HPB-ALL cells were washed in RPMI-1640 and resuspended
-          between 1-2 × 10 6cells per 100 μl RPMI-1640. Control
-          cells were electroporated with the indicated control
-          buffers. Cell samples were placed into pre-chilled (4°C)
-          4 mm or 1 mm electroporation cuvettes (BTX Inc., San
-          Diego, CA) and electroporated under the following
-          conditions: 500 V/capacitance and resistance, 1250 μF
-          capacitance timing, 720 ohms resistance, and 270 V for 4
-          mm gap cuvettes or 68 V for 1 mm gap cuvettes (field
-          strength of ~700 Vcm -1). Both antibodies and C3 were
-          electroporated at a final concentration of 25 μg/ml,
-          incubated on ice for 5 min, then washed with complete
-          media at room temperature and used for assays. Control
-          buffer for electroporation of C3 consisted of the buffers
-          used in the purification of C3, including the appropriate
-          concentration of bovine α-thrombin [ 25 ] . All
-          electroporation of proteins were carried out on an
-          Electro Cell Manipulator 600 (BTX Inc.). This procedure
-          had previously been optimized for intracellular
-          incorporation of macromolecules by electroporation of
-          goat anti-mouse FITC conjugated antibodies.
-          Electroporation efficiency during the optimization
-          procedure was monitored by FACS analysis and fluorescence
-          imaging (data not shown).
+          Carbamazepine (CBZ)
+          
+            General Dose/Assay Relationship
+            The data for the dose assay relationship includes
+            concentration in the plasma serum, which was determined
+            by both FPIA and GC, and concentration in the hair,
+            which was determined by both FPIA and HPLC. For hair
+            assays the values are in micrograms per gram of hair,
+            and for serum the values are in micrograms per
+            milliliter of plasma. The findings show that there was
+            no significant dose/assay relationship for the serum
+            specimens with either analytic technique, and that
+            there was a significant dose/assay relationship for
+            hair specimens by both analytic techniques. The results
+            are shown in Table 1.
+          
+          
+            Hair Color
+            It has been a source of controversy in the
+            interpretation of hair assays whether or not hair color
+            is a critical factor in the binding of materials in
+            hair. It has previously reported that CBZ does not
+            appear to have a significant "color effect" (i.e., that
+            darker hair shows significantly higher concentrations
+            of CBZ than light hair) [ 31]. We examine this finding
+            using the current data. There are five color
+            categorizations of hair represented among the 40
+            subjects. The distribution of hair color and the mean
+            concentration of CBZ for each color are shown in Table
+            2. The concentration values are in micrograms/gram as
+            measured by HPLC.
+            An analysis of variance for this table fails to show
+            a significant relationship between CBZ mean value and
+            hair color (F = 1.374, p= .263). The Levene Test for
+            equality of error variances indicates that the
+            homogeneity of variance assumption is met (Levene F =
+            .303, p = .874). The K-S and Shapiro-Wilk tests for
+            normality are consistent with a normal distribution and
+            a normal Q-Q plot of CBZ concentration in hair shows a
+            good approximation of normality.
+          
+          
+            Hair Color/Dose Relationship
+            Another factor worth consideration is the possible
+            interaction effect between hair color and dose. The
+            dose values and hair color categories can be a shown as
+            a matrix array as in Table 3.
+            Table 3is a crosstabulation showing the distribution
+            of dosage values by hair color. Review of the cell
+            distributions shows a concentration of higher dose
+            regimens to cluster towards the lower left, indicating
+            the possibility that persons with black hair may more
+            likely to be on higher doses of CBZ and persons with
+            lighter hair may be more likely to receive lower doses.
+            The GLM covariance model is based on the mean hair
+            assay outcomes (HPLC). The analysis of covariance
+            (ANCOVA) allows for the comparison of quantitative
+            dependent and qualitative independent variable while
+            simultaneously controlling for a number of quantitative
+            variables or covariates. In this analysis, the
+            dependent variable is the mean concentration for the
+            hair analysis, the independent qualitative variable is
+            the hair color categorization, and the covariates are
+            duration of dose (in months), dose (in mgs. per 24
+            hours), and patient age (in years). The outcome of this
+            model is shown in Table 4.
+            Table 4reveals that there is a relation between mean
+            hair concentration and dose (F = 5.020, p = .032, eta
+            2= .136, shaded row) while the relationship between
+            hair assay result and color is not significant (F =
+            .682, p = .609, eta 2= .079). Thus it is reasonable to
+            conclude that differential hair assay outcomes for CBZ
+            are not color dependent, but are significantly related
+            to dose regimens.
+          
         
         
-          C3 Ribosylation
-          Purified C3 or BSA control were electroporated at a
-          concentration of 25 μg/ml. After electroporation, cells
-          were transferred into 1.5 ml eppendorf tubes and
-          incubated for 1 hr at 37°C to allow ribosylation. Cells
-          were then washed extensively in 1% BSA/PBS to remove any
-          C3 not incorporated into the cells. Next, the cells were
-          resuspended at 3 × 10 6cells/ml in ice cold sonication
-          buffer (250 mM sucrose; 10 mM HEPES, pH 7.4; 1 mM EDTA; 5
-          mM MgCl 
-          2 ; 1 mM DTT; 0.1 mM GTP; 1 μg/ml
-          leupeptin, 1 μg/ml pepstatin A, and 1 μg/ml aprotinin; 1
-          mM PMSF) and sonicated for 10 seconds. After sonication
-          with a Sonic Dismembrator Model 300 with microtip
-          (Fisher), 100 μl of the mixture was added to 50 μl of 3 ×
-          reaction buffer containing 150 mM Tris-HCl, pH 8.0; 30 mM
-          thymidine; 3 mM DTT; 5 mM MgCl 
-          2 , 0.3 mM GTP. To this mixture, 1.0
-          μg purified C3 and 2 μCi [ 32P]-NAD (NEN-Dupont, Boston,
-          MA) were added. After incubation for 1 hr at 37°C, SDS
-          was added to 2% final w/v and this mixture was immersed
-          in a boiling water bath for 10 min. Eight volumes of ice
-          cold ethanol was then added, and these samples were kept
-          at -20°C for at least 1 hr. Precipitated proteins were
-          pelleted, and dissolved in SDS-PAGE sample buffer by
-          boiling for 10 min. Samples were then subjected to 12.5%
-          SDS-PAGE and analyzed by autoradiography.
+          Valproic Acid (VPA)
+          
+            General Dose/Assay Relationship
+            The data for the VPA dose assay relationship
+            includes concentration in the plasma serum, which was
+            determined by FPIA, and concentration in the hair,
+            which was determined by FPIA. For hair assays the
+            values are in micrograms per gram of hair, and for
+            serum the values are in micrograms per milliliter of
+            plasma. The findings show that there was no significant
+            dose/assay relationship for the VPA serum specimens,
+            and that there was a significant correlation dose/assay
+            relationship for VPA hair specimens. The results are
+            shown in Table 5.
+          
+          
+            Hair Color
+            As with CBZ, we will examine the potential for a
+            "color effect" associated with the reported
+            concentrations of recovered VPA. The color
+            categorizations are identical to those used for CBZ.
+            Table 6reports the mean concentration of VPA by hair
+            color category. There are no dyed specimens so four
+            color categories are used in this analysis.
+            An analysis of variance for Table 6fails to show a
+            significant relationship between VPA mean values and
+            hair color (F = 2.354, p = .088). The Levene Test for
+            equality of error variances indicates that the
+            homogeneity of variances assumptions is met (Levene F =
+            2.491, p = .076). The K-S test for normality is
+            consistent with a normal distribution and a normal Q-Q
+            plot of VPA concentration in hair shows a good
+            approximation of normality.
+          
+          
+            Hair Color Relationship
+            As with CBZ, we now consider the possible
+            interaction of hair color, dose, and recovered VPA from
+            hair. Table 7presents the frequency distribution of
+            dose by hair color.
+            Visual inspection of the Table 7is consistent with
+            the impression that there may be a slight skewing of
+            higher dosage regimens towards dark-haired subjects. We
+            subject this data to an ANCOVA. As previously, we treat
+            mean concentration as the dependent term, color as the
+            independent qualitative term, and dose duration,
+            24-hour dose value and age as the covariates. The
+            outcome for this model is reported in Table 8. The
+            Levene statistic shows the variance homogeneity
+            criteria are met, and analysis of the normality of the
+            distribution of the mean hair values shows acceptable
+            conformity with normality assumptions.
+            Table 8demonstrates that the relationships between
+            dose, age, and hair color are all significant (shaded
+            rows), while duration of dose regimen is not.
+            Furthermore the eta 2values, which are interpretable as
+            a measure of the percentage of the explainable
+            variance, show similar contributions between color and
+            dose, and a lesser contribution due to age. Table
+            9reports these contrasts using Bonferroni's
+            criteria.
+            The Bonferroni criteria contrasts indicate that
+            specific pair comparisons do not yield a significant
+            difference, although the contrasts for black/gray and
+            black/blond are approaching significance. Doing the
+            pairs comparisons using Sidak criteria yields the same
+            results. Both of these confidence interval criteria are
+            conservative but the Bonferroni criteria are preferred
+            on the basis that there is a relatively small number of
+            comparison pairs.
+            An additional issue of importance is the potential
+            complex interaction between dose, age, and color
+            categorization. First, the data demonstrate a
+            difference in mean dose value by age, although those
+            differences are not significant for VPA (the
+            correlation for dose and age is r = .265, p = .098).
+            Furthermore, the covariance model can be used to
+            generate model regression-derived mean estimates
+            (adjusted for age and dose) that can be compared to the
+            observed values. Both the analytic values and the
+            estimated values are shown in Table 10.
+            Comparison of the observed mean values and the
+            model-estimated mean values shows that the model is
+            relatively efficient for all color categorizations
+            except gray hair, where the observed values are nearly
+            twice the value of the estimated values. Since age and
+            gray hair are collinear in the data set Table 10, it is
+            possible that the age/color account for this departure.
+            Regression evaluation of the color/age collinearity for
+            either dose or mean concentration is consistent with
+            this effect (eigenvalue, age = .228, eigenvalue, color
+            = .081). Small eigenvalues are consistent with
+            collinearity between the covariate factors, and thus
+            these values are indicative of an age/color collinear
+            condition.
+            To further examine this effect, we produce a final
+            covariance model for VPA with color categorization as
+            the independent factor and dose as the covariate. The
+            results of this model are presented in Table 11.
+            The 2-factor model (dose and color) presented in
+            Table 11are consistent with the conjecture that age and
+            color demonstrate some interactive or synergistic
+            effect, since color alone fails to attain
+            significance.
+            It is reasonable to surmise that the color effect
+            for VPA is, at best, weak and mostly likely collinear
+            with age. However, there is an effect for color that is
+            operating as a stronger effect than discerned in the
+            analysis of CBZ. This effect appears to be dependent on
+            the stringency of the significance criteria used in the
+            analysis, and the degree to which the analytic model
+            disaggregates the hypothesized variable relationships.
+            Selecting less conservative criteria will produce a
+            weak, generalized significant color/assay relationship,
+            but application of either more conservative methods to
+            assess pair-relationships (e.g. Bonferroni criteria),
+            or use of more elaborate model specifications (e.g.,
+            step-wise ANCOVA) fail to sustain significance. One of
+            the more serious constraints on the VPA analysis
+            presented here is the very limited number of persons
+            with gray hair, and the number of light-haired persons
+            in general (only 6 of the 40 subjects were not
+            classified as either black or brown hair). A more
+            confident analysis would require a sample with larger
+            numbers
+          
+        
+        
+          Phenytoin (PHT)
+          
+            General Dose/Assay Relationship
+            The data for the dose assay relationship includes
+            concentration in the plasma serum, which was determined
+            by HPLC, and concentration in the hair, which was
+            determined by both FPIA and HPLC. For hair assays the
+            values are in micrograms per gram of hair, and for
+            serum the values are in micrograms per milliliter of
+            plasma.
+            We note that, in contrast to both CBZ and VPA, Table
+            12reveals that there is a significant bivariate
+            dose/assay correlation for the serum specimens, and for
+            the hair specimens by both analytic techniques.
+          
+          
+            Hair Color
+            Table 13reports the number of subjects for each of
+            four hair color categorizations, the mean concentration
+            of PHT for that color category, and the related
+            standard deviation. Visual examination of the table
+            shows that both black and brown color had notably
+            higher concentrations than either blond-haired or
+            gray-haired subjects.
+            A univariate ANOVA on the data in Table 13reveal
+            that there is a significant difference by hair color (F
+            = 10.2, p = .000). However, the Levene Test indicates
+            that the homogeneity of variance assumption is not met.
+            An alternative analysis using Tamhane's procedure,
+            allowing an assessment of unequal variances
+            comparisons, also indicates significance, but allows
+            for post-hoc contrasts for each specific color group.
+            The individual comparisons are shown in Table 14.
+            The ANOVA indicates that that there are significant
+            differences in concentration of PHT by hair color. The
+            overall mean concentration values appear to cluster,
+            with the black/brown hair contrast showing no
+            significant difference, and blond/gray contrast showing
+            no significant difference. However, contrast of either
+            blond or gray hair to black or brown hair does show
+            significant difference. The overall distribution of PHT
+            in the hair assays appears to meet the normality
+            assumptions well.
+          
+          
+            Hair Color/Dose Relationship
+            In order to further assess the nature of the
+            hypothesized color effect, it is important to assess
+            whether or not there is an interaction effect of color
+            and dose. Is the effect a result of dosing values are
+            higher for dark-haired subjects? Table 15reports the
+            relative frequency of daily dose regimens by hair color
+            group.
+            Table 15indicates that the higher dose values appear
+            to cluster to some degree with black and brown-haired
+            subjects. In order to assess this an ANCOVA model
+            including dose, dose duration, age, and hair color is
+            assessed. Results of that model are shown in Table
+            16.
+            Table 16indicates that age, dose, and color are
+            significant factors in the model (values shaded gray
+            are significant) while dose duration is not. This is
+            identical to the model outcome for VPA. Table 17shows
+            the Bonferroni criteria for all pairwise combinations,
+            their means differences, and their significance
+            outcomes.
+            As with VPA, the pairwise contrasts show that the
+            black and gray and brown and gray contrasts are
+            significant, while the remaining pairs do not have
+            significant mean differences (the same results is
+            obtained using Sidak criteria). It suggests, as with
+            VPA, that there may be a color/age/dose confounding
+            action involving either collinear or confounding
+            relationships between hair color, dose, and age. In
+            order to assess this we first consider the observed
+            means and the estimates mean values from the ANCOVA
+            model. This is presented in Table 18.
+            Table 18reveals that the model-estimated means for
+            dark hair (black and brown) are lower than the observed
+            values, and the estimates for light colored hair are
+            greater. This is a departure from the VPA pattern, and
+            is consistent across category with a
+            color/concentration positive relationship.
+            We can assess this effect by examining the ANCOVA
+            model retaining dose and hair color as the sole
+            covariates (replicating the procedure applied to VPA)
+            and examining the surviving significant relationship.
+            The results of this model are shown in Table 19.
+            Consistent with the approach applied to VPA, we
+            delete age from the model in Table 19. Age is removed
+            from the model in this case to see if it diminishes the
+            color effect, as was the case VPA. Comparison of Tables
+            17and 18show that the eta 2is diminished, but is still
+            significant and makes a substantial contribution to the
+            explained variance. Dose still has, however, the higher
+            eta 2value. Further pairwise comparisons show that
+            there are significant mean value contrasts between the
+            light hair categories (gray and blond) and the dark
+            hair categories (black and brown). There are, however,
+            no significant contrasts within those groups (i.e., no
+            significant mean differences between black and brown
+            hair or blond and gray hair).
+          
         
       
       
-        Authors' Contributions
-        DGW drafted the manuscript, performed ADP-ribosylation
-        experiments, adhesion and spreading assays, and
-        immunofluorescence. DKW and TU expressed and purified C3
-        exoenzyme. TKT performed initial spreading experiments and
-        video time lapse microscopy. YM performed experiments on
-        activated human T cells. EGC helped generate the methods to
-        electroporate suspension cells with C3 exotoxin. BFA
-        quantitated the time-resolved morphological alterations.
-        BWM aided in the conception, design, and implementation of
-        the experiments, and edited the manuscript.
+        Conclusions
+        This assessment of the recovery of three compounds, CBZ,
+        VPA, and PHT, from hair samples identifies a variable
+        effect of hair color on assay concentration by drug type.
+        The generalized hypothesis assessed is that darker
+        coloration of hair is associated with a greater
+        concentration of analyte in the hair. For CBZ, hair color
+        does not appear to exert a significant effect on the
+        quantity of the compound recovered from hair. For VPA there
+        appears to be a very weak color effect, but the number of
+        light-haired subjects attenuates the strength of the
+        conclusion. For all drugs there appears to be a significant
+        positive relationship between dose and hair concentration.
+        We also suggest that for VPA there appears to be effects of
+        collinearity between age and hair color, and possibly dose
+        and hair color. Both of these phenomena could produce
+        confounding effects in trying to describe the dose/assay
+        relationship. The limitations of the data are that the
+        subjects are a clinical, non-random, population and the
+        range of dosages across all color grouping was not uniform,
+        nor was dosage duration. Furthermore, the number of light
+        hair subjects was, for certain drugs, very small.
+        Hair Color, Dose, Dose Duration, HPLC and FPIA
+        Concentration per Segment, HPLC and FPIA Serum
+        Concentration, Carbamazepine
+        
+        Raw patient data for carbamazepine analysis of hair and
+        serum.
+        CBZ Data Table.doc
+        Hair Color, Dose, Dose Duration, HPLC and FPIA
+        Concentration per Segment, HPLC and FPIA Serum
+        Concentration, Valproic Acid
+        
+        Raw patient data for valproic acid analysis of hair and
+        serum.
+        VPA Data Table.doc
+        Hair Color, Dose, Dose Duration, HPLC and FPIA
+        Concentration per Segment, HPLC and FPIA Serum
+        Concentration, Phenytoin
+        
+        Raw patient data for phenytoin analysis of hair and
+        serum.
+        PHT Data Table.doc
       
     
   

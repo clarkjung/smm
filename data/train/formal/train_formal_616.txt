@@ -2,439 +2,676 @@
   
     
       
-        Introduction
-        Diabetic nephropathy (DNP) is a serious and common complication of type 1 and type 2
-        diabetes mellitus, leading to end-stage renal failure in up to 30% of individuals with
-        diabetes. Early abnormalities of DNP affect glomeruli and include an increase in glomerular
-        filtration rate, microalbuminuria, glomerular hypertrophy, and thickening of the glomerular
-        basement membrane, followed by expansion of mesangial extracellular matrix and
-        glomerulosclerosis [1,2]. As with most chronic degenerative kidney diseases, the gradual
-        decline of renal function at later stages of DNP is invariably associated with tubular
-        epithelial degeneration (TED), also called tubular atrophy, and interstitial fibrosis (IF),
-        hallmarks of degeneration to end-stage renal failure [3]. Pathomechanisms that may initiate
-        and/or mediate TED in DNP remain poorly understood. While glomerular lesions consistent
-        with human DNP have been described in various mouse models of diabetes, TED and IF have not
-        been described in diabetic mice [4].
-        Combining detailed renal phenotype analysis with gene expression profiling of
-        hyperglycemic mouse models of type 1 (streptozotocin [STZ]) and type 2 (db/db) diabetes, we
-        recently reported that decreased mRNA levels of CD36 in kidneys were strongly correlated
-        with albuminuria [5]. CD36 is a transmembrane protein of the class B scavenger receptor
-        family and is involved in multiple biological processes [6]. CD36 is widely expressed and
-        may interact with multiple extracellular ligands, including thrombospondin-1 (TSP-1),
-        long-chain free fatty acids (FFAs), modified (oxidized) low-density lipoprotein (ox-LDL),
-        advanced glycation end (AGE) products, and collagens I and IV [6]. CD36 mediates
-        phagocytosis of apoptotic cells and malaria-parasitized erythrocytes [7]. Furthermore, CD36
-        mediates antiangiogenic activity associated with endothelial cell apoptosis induced by
-        TSP-1 through p38 MAP kinase (MAPK) and caspase 3 [8]. Hyperglycemia-induced synthesis of
-        CD36 protein in macrophages has been associated with increased uptake of ox-LDL by
-        macrophages and foam cell formation in atherosclerotic lesions in people with diabetes
-        [6,9,10]. While diabetic cardiovascular complications are closely linked epidemiologically
-        with albuminuria and DNP, a role for CD36 in DNP and renal pathophysiology has not to our
-        knowledge been described to date.
-        Here we report a novel functional role for CD36 scavenger receptor and AGE and FFA
-        palmitate (PA) in tubular epithelial apoptosis associated with TED and progression of DNP.
-        Specifically, we show that glucose stimulates CD36 cell surface expression in proximal
-        tubular epithelial cells (PTECs), and increased CD36 renders PTECs susceptible to both AGE-
-        and PA-induced PTEC apoptosis by mediating sequential activation of src kinase,
-        proapoptotic p38 MAPK, and caspase 3. Based on these findings, we propose a new two-step
-        metabolic hit model for TED in the progression of DNP.
+        Background
+        Retrotransposons are mobile genetic elements that make
+        up a large fraction of most eukaryotic genomes. They are
+        particularly abundant in plants, where they are often a
+        principal component of nuclear DNA. In maize 50-80%, and in
+        wheat fully 90%, of the genome is made up of
+        retrotransposons [ 1, 2]. In animals this percentage is
+        generally lower than in plants but can still be large. For
+        example, more than 40% of the human genome is now known to
+        be composed of retroelements [ 3, 4].
+        All retrotransposons are distinguished by a life cycle
+        involving an RNA intermediate. The RNA genome of a
+        retroelement is copied into a double-stranded DNA molecule
+        by reverse transcriptase and is subsequently integrated
+        into the host's genome. Retrotransposons fall into two main
+        categories, those with long terminal repeats (LTRs), such
+        as retroviruses and LTR retrotransposons, and those that
+        lack such repeats, (for example, long interspersed nuclear
+        elements or LINEs).
+        Our laboratory is in the process of screening the
+        GenBank rice ( 
+        Oryza sativa ) database (GBRD) and
+        the Monsanto rice dataset (MRD) for the presence of LTR
+        retrotransposons. We have chosen to scan the rice genome
+        because, as the most important food crop in the world, much
+        of its sequence data is already available. With a haploid
+        content of 430 million base pairs (Mbp), the rice genome is
+        the smallest among cultivated cereals [ 5, 6] and only
+        about three times larger than the smallest known genome
+        among angiosperms, that of 
+        Arabidopsis thaliana (~130 Mbp). 
+        O. sativa has one of the smallest
+        genomes among grasses as a whole [ 6]. Genomes of other
+        cereals are far larger. For example, the maize ( 
+        Zea mays ) genome is 2,500 million
+        base pairs (2.5 Gbp) and that of wheat ( 
+        Triticum aestivum ), 16 Gbp. The
+        molecular genetic resources for rice are excellent,
+        including detailed physical and genetic maps, large YAC and
+        BAC libraries, an efficient transformation system, and an
+        extensive collection of expressed sequence tags (ESTs).
+        We have used a new search program, LTR_STRUC (LTR
+        retrotransposon structure program; E.M.M. and J.F.M.,
+        unpublished work), as the initial data-mining tool in our
+        survey. Structural features important to the algorithm on
+        which LTR_STRUC is based include two sites critical to
+        replication, the primer-binding site (PBS) and polypurine
+        tract (PPT), as well as the presence of canonical
+        dinucleotides at the ends of each LTR (typically TG and
+        CA). Particularly important are the direct or 'target-site'
+        repeats (TSRs). When an LTR retrotransposon inserts itself
+        into host DNA, a short (usually 4-6 bp) segment of host DNA
+        is replicated at the site of insertion. This feature allows
+        LTR_STRUC to make an exact demarcation of the limits of a
+        putative element. Because it searches for retroelements on
+        the basis of their generic structure, LTR_STRUC eliminates
+        much of the bias inherent in BLAST searches based on a
+        known retroelement query. After elements were initially
+        identified using LTR_STRUC, sequence analyses were carried
+        out to identify open reading frames (ORFs) encoding reverse
+        transcriptase (RT) and other retrotransposon proteins.
+        Subsequent RT sequence alignments were carried out,
+        followed by construction of phylogenetic trees.
+        RTs from elements identified in our survey fall into
+        numerous distinct families, where 'family' is defined as a
+        group of elements with RTs having mutual similarity of at
+        least 90% at the amino-acid level [ 7]. In addition, four
+        types of non-autonomous elements discussed here lack RT
+        sequences ( 
+        Osr25, Osr37/Rire4, Osr43 , and 
+        Osr44 ), and were classified as
+        distinct families on the basis of their unique structures
+        (see below).
+        Currently, there is no consensus with respect to rice
+        retrotransposon nomenclature. In our method of
+        nomenclature, rice LTR retrotransposons are specified by
+        the appellation 
+        Osr ( 
+        Oryza sativa retrotransposon).
+        Distinct families are indicated by number (for example, 
+        Osr1, Osr2, Osr3 , . . .). There have
+        been four different nomenclatures previously used in
+        reference to rice LTR retrotransposons: 
+        Tos (transposon 
+        Oryza sativa ) [ 8], 
+        Rire (rice retrotransposon) [ 9] 
+        Rrt (rice retrotransposon) (S. Wang,
+        submission to EMBL database: 
+        Rtr3 (accession number T03666), 
+        Rrt5 (T03669), and 
+        Rrt8 (T03671)), and 
+        Osr ( 
+        Oryza sativa retrotransposon) (N.
+        Jwa, submission to GenBank: 
+        Osr1 (AB046118)). We have chosen to
+        adopt the 
+        Osr nomenclature in this study
+        because it is consistent with the systematic logic
+        (indicative of genus and species of host organism) used in
+        previous genomic studies of LTR retrotransposons and
+        includes the letter 'r' to indicate retrotransposon.
+        However, in every case where we use the 
+        Osr acronym in this paper to refer to
+        a previously named family, we also include any pre-existing
+        name(s) for the family (for example, 
+        Osr15/Tos12, Osr26/Rire2 ).
       
       
-        Methods
+        Results and discussion
         
-          Animals
-          Kidneys were obtained from 28-wk-old C57BLKS/J-lepr
-          db/db , STZ-treated C57BL/6J, or STZ-treated 129SvJ mice and from
-          age-matched control C57BLKS/J-lepr
-          db/m , C57BL/6J, and 129SvJ mice as described [5].
-        
-        
-          Cell Culture
-          Human proximal tubular cell line HK-2 and murine collecting duct cell line M1 were
-          purchased from American Type Culture Collection (Manassas, Virginia, United States) and
-          cultured according to the vendor's instructions. Mouse proximal tubular cell line MCT was
-          provided by Fuad Ziyadeh (University of Pennsylvania, Philadelphia, Pennsylvania, United
-          States). Transfections were performed with Fugene 6 (Roche Diagnostics, Indianapolis,
-          Indiana, United States) according to manufacturer's protocol. CD36-containing plasmid was
-          a kind gift of Nada Abumhrad (SUNY at Stony Brook, New York, United States). Cells were
-          also co-transfected with EGFP (Clontech, Franklin Lakes, New Jersey, United States) to
-          assess transfection efficiency. Cells were serum starved in 0.2% serum containing DMEM (1
-          g/l glucose) for at least 24 h prior to stimulation with AGE–bovine serum albumin (BSA),
-          glucose, or FFA.
-        
-        
-          Quantitative Real-Time PCR
-          Quantitative real-time PCR analysis of mouse and human CD36, HPRT1, and beta actin was
-          performed as described previously [5]. The following primers were used: mouse CD36 5′
-          TGCTGGAGCTGTTATTGGTG and 3′ CATGAGAATGCCTCCAAACA, mouse beta actin 5′
-          ACCGTGAAAAGATGATGACCCAG and 3′ AGCCTGGATGGCTACGTACA, mouse HPRT1 5′ TGTTGTTGGATATGCCCTTG
-          and 3′ TTGCGCTCATCTTAGGCTTT, human CD36 5′ GCTCTGGGGCTACAAAGATG and 3′
-          TAGGGAGAGATATCGGGCCT, human beta actin 5′ GATGAGATTGGCATGGCTTT and 3′
-          CACCTTCACCGTTCCAGTTT, and human HPRT1 5′ AAAGGACCCCACGAAGTGTT and 3′
-          TCAAGGGCATATCCTACAACAA.
-        
-        
-          Immunostaining and Immunoblotting
-          Primary antibodies specific for the following proteins were used: monoclonal mouse
-          anti-CD36 antibody, clone FA 6–152 (IgG) (Immunotech, Fullerton, California, United
-          States), clone SMO (IgM) (Santa Cruz Biotechnology, Santa Cruz, California, United
-          States), rabbit polyclonal anti-CD36 (Santa Cruz Biotechnology), rabbit polyclonal
-          anti-aquaporin1, anti-aquaporin2, anti-Na/K/2Cl (Chemicon, Temecula, California, United
-          States), rabbit polyclonal phospho38/MAPK and mouse monoclonal p38 (Cell Signaling
-          Technology, Beverly, Massachusetts, United States), rabbit polyclonal p-src (Y418)
-          (Biosource, Camarillo, California, United States), and mouse monoclonal anti-tubulin
-          (Sigma, St. Louis, Missouri, United States). Immunostaining was performed on frozen
-          sections with FITC- and Cy3-labeled secondary antibodies (Jackson Laboratories, USA), or
-          on paraffin-embedded sections with immunoperoxidase, as described earlier [5].
-          Immunoblotting was performed with 30 μg of protein isolated from cultured cells. Protein
-          samples were resolved on a 10% SDS-PAGE and immunoblotted with primary antibody and
-          revealed with horse radish peroxidase (HRP)-conjugated anti-mouse IgM, or anti-rabbit IgG
-          (Jackson Laboratory, Bar Harbor, Maine, United States). Immuncomplexes were detected by
-          enhanced chemiluminescence (Pierce, Rockford, Illinois, United States). The proximal
-          tubular immunostaining was evaluated semi-quantitatively by two independent pathologists
-          who were unaware of the diagnosis; distribution and intensity of staining was scored on a
-          ten-point scale.
+          Intra-element percent LTR nucleotide
+          identity
+          Because of the replication process characteristic of
+          LTR retrotransposons, the LTRs of a given retroelement
+          are sequentially identical at the time the element
+          inserts into the host genome [ 18]. Thereafter, as an
+          element accumulates mutations, its LTRs become increasing
+          different from each other as substitutions specific for
+          each of the two LTRs increase in number. The level of
+          nucleotide identity seen between LTRs of a particular
+          element, usually referred to as intra-element percent LTR
+          nucleotide identity (%LNI), can be used in determining
+          the relative ages of LTR retrotransposon families [ 7].
+          In rice, comparison of the two LTRs of the same element
+          often showed the presence of a 10 to 30 bp regional
+          duplication present in one LTR but not the other. In
+          calculating %LNI, we have considered such duplications as
+          single mutation events.
+          As the neutral nucleotide substitution rate has yet to
+          be computed for rice, we cannot presently equate %LNI
+          with a divergence time in years. However, the generally
+          low level of sequence divergence between flanking LTRs of
+          rice LTR retrotransposons (1.7%) indicates that most of
+          the euchromatic full-length LTR retrotransposons in rice
+          are relatively young, although significantly older
+          elements were also identified. The seeming preponderance
+          of young full-length LTR retrotransposons in the
+          euchromatin of rice is similar to previous reports on
+          yeast [ 19, 20], 
+          Caenorhabditis elegans [ 7], 
+          A. thaliana [ 21] and 
+          Drosophila melanogaster [ 12]. This
+          contrasts with findings in 
+          Z. mays [ 12] and humans [ 22].
         
         
-          Fluorescence Flow Cytometric Analysis
-          Cells were incubated in 0.5 mM EDTA in PBS at 37 °C for 20 min, scraped, and then
-          washed with 1% fetal bovine serum. Cells were then exposed to monoclonal anti-CD36 IgG
-          FA6 (5 μg/ml), or control mouse IgG1 (5 μg/ml) (Sigma), for 45 min on ice in the presence
-          of 10% fetal bovine serum then washed with PBS. This was followed by an incubation with
-          phycoerythrin-conjugated goat anti-murine secondary antibody (Southern Biotechnology,
-          Birmingham, Alabama, United States) 1:50 for 45 min on ice. Cells (1 × 10
-          4 ) were analyzed by using a SCAN flow cytometer (BD, Franklin Lakes,
-          New Jersey, United States), with appropriate gating. Flow cytometry data were analyzed
-          using Cellquest (BD).
+          Copia-like families
+          To date, 23 families of 
+          copia -like elements have been
+          reported for rice (S. Wang, submission to EMBL, N. Jwa,
+          submission to GenBank, and [ 8, 9, 19, 23, 24]). Several
+          have been described under more than one name. For
+          example, the amino-acid sequence given for 
+          Tos4 in Hirochika 
+          et al. [ 23] is the same as that
+          given for 
+          Tos1 in GenBank (accession number
+          S22455) so they are really the same. 
+          Rire5 described by Kumekawa 
+          et al. [ 25] is the same family as 
+          Tos14 previously described by
+          Hirochika 
+          et al. [ 23]. The equivalence
+          between 
+          Tos14 and 
+          Rire5 became evident when we found
+          the LTR sequence reported by Kumekawa 
+          et al. in elements that also
+          contained the RT sequence given by Hirochika for 
+          Tos14. In our survey of GenBank and
+          MRDB, we have identified an additional 16 
+          copia -like families that have not
+          been described by previous workers. In addition,
+          exemplars for each of the previously identified families
+          were found (except in the case of certain families that
+          exist at such low copy numbers that no full-length
+          element exists in GenBank or MRDB).
         
         
-          Preparation of Glycated Albumin and Carboxymethyl-Lysine Albumin
-          Briefly, to prepare AGE-BSA, essentially fatty-acid-free and endotoxin-free BSA (250
-          mg/ml) was incubated at 37 °C for 2, 5, and 10 wk with D-glucose (500 mM) in a 0.4-M
-          phosphate buffer containing EDTA, ampicillin, Fungazone, polymixin B, and protease
-          inhibitors. Control preparations were treated identically except that glucose was
-          omitted. Carboxymethyl-lysine (CML)–BSA was prepared as described earlier [11]. Briefly,
-          BSA with minimal CML content (CMLmin-BSA) was prepared by incubation of BSA (0.66 mM)
-          with glyoxylic acid (2.15 mM) in the presence of sodium cyanoboronydrate (56 mM) in 200
-          mM sodium phosphate buffer (pH 7.8) at 37 °C under aseptic conditions. Finally,
-          preparations were extensively dialyzed against phosphate buffer to remove free glucose.
-          Preparations were then tested for the presence of LPS with a Quantitative Chromogenic LAL
-          kit (Cambrex, East Rutherford, New Jersey, United States). The concentration of LPS was
-          lower than 0.07 IU/mg protein in all preparations.
+          The largest copia-like family
+          One of the most interesting new finds in our survey
+          was 
+          Osr8 , one of the oldest families
+          of LTR retrotransposons in the rice genome. On the basis
+          of a survey of the available portion of the GBRD and MRD,
+          we estimate the copy number of 
+          Osr8 to be around 1,100 (more than
+          any other 
+          copia -like family). 
+          Osr8 elements exist far more
+          frequently as fragments (ratio of 10:1) and they display
+          relatively low levels of %LNI in their full-length copies
+          (mean %LNI for the five full-length 
+          Osr8 elements present in the GBRD
+          is 97.2%). The RT of 
+          Osr8 is 60% similar to an unnamed
+          polyprotein in 
+          Z. mays (AAD20307). A closely
+          related family, 
+          Osr10 has two full-length copies in
+          the GBRD but scans of the MRD suggest this element, also
+          previously unrecognized, has the third highest copy
+          number (~400) among 
+          copia -like elements. Outside rice,
+          the RT of 
+          Osr10 shows highest similarity
+          (~65%) to that of the maize retrotransposon 
+          Opie-2 (T04112). The broader clade
+          that includes 
+          Osr7, Osr8, Osr9 , and 
+          Osr10 is closely related to 
+          Endovir1-1 (AAG52949) of 
+          Arabidopsis (Figure 1, Table 2).
+          These elements are also related (~60% similar) to maize's
+          
+          PREM-2 as well as to tomato's 
+          ToRTL1. Both 
+          Osr7 and 
+          Osr9 are present in very low copy
+          number (one full-length and a few fragments in the
+          GBRD).
         
         
-          Preparation of FFA
-          Palmitic acid (P5585), oleic acid, and FFA-free low-endotoxin BSA (A8806) were
-          purchased from Sigma. Palmitic acid was dissolved at 12 mM in PBS containing 11%
-          fatty-acid-free BSA, sonicated for 5 min, shaken overnight at 37 °C, and sonicated for 5
-          min again [12]. For control experiments, BSA in the absence of fatty acids was prepared,
-          as described above. The effective concentration of PA was determined using a commercially
-          available kit (Wako Chemicals, Neuss, Germany).
+          Osr14/Tos1/Tos4, Osr15/Tos12and Osr53/Tos18
+          Although it is present at only about a quarter of the
+          copy number of 
+          Osr8 , the unrelated 
+          Osr14/Tos1/Tos4 is also composed
+          primarily of highly fragmented elements. Those that are
+          full length have low %LNI (family mean 97.6%). Thus, 
+          Osr14/Tos1/Tos4 and 
+          Osr8 seem to be of similar age and
+          to have followed a similar evolutionary pattern, albeit
+          with less intense amplification in the case of 
+          Osr14/Tos1/Tos4. Osr14/Tos1/Tos4,
+          Osr15/Tos12 , and 
+          Osr53/Tos18 form a well defined
+          clade and are more closely related to 
+          Ta1-2 (S23315) of 
+          Arabidopsis than to any other rice
+          retroelement family outside their clade (Figure 1, Table
+          2). 
+          Osr15/Tos12 and 
+          Osr53 are only just sufficiently
+          different to constitute distinct families.
         
         
-          Apoptosis Detection
-          In situ detection of DNA fragmentation was performed using the ApoTag TUNEL assay
-          following the manufacturer's protocol (Intergen, Purchase, New York, United States) [13].
-          Apoptotic nuclei were detected using DAPI staining (1 μg/ml; 10 min) in cell cultures
-          fixed with 4% paraformaldehyde, and analyzed via fluorescence microscopy to assess
-          chromatin condensation and segregation. Caspase3 activity was detected by using the
-          ApoAlert Caspase3 Fluorescent Detection system (BD) according to the manufacturer's
-          protocol. Activity was normalized to total protein content. Z-DEVD-fmk, z-VAD-fmk,
-          z-FA-fmk, and z-LEHD-fmk were purchased from BD.
+          A quartet of closely allied families
+          
+          Osr1/Tos14/Rire5, Osr13/Tos5,
+          Osr51/Tos15 , and 
+          Osr52/Tos16 have been described as
+          distinct families but, inasmuch as their RTs are all 85%
+          similar to each other, these groups are only marginally
+          distinct. Searches of GenBank show that elements in this
+          group are much more closely related to (75-80% at the
+          amino-acid level) to maize retrotransposon 
+          Fourf (AAK73108) than to any rice
+          LTR retrotransposon outside their clade. If the elements
+          belonging to this group were considered to be a single
+          family, it would be almost as large (~900 elements) as 
+          Osr8. In the GBRD the majority of
+          these elements are fragmentary, but the estimated copy
+          number of full-length elements in the rice genome for
+          this quartet still exceeds 100.
         
         
-          Human Kidney Biopsy Sample and Patient Characteristics
-          Human kidney tissues (ten controls, ten with diabetic nephropathy, and ten with focal
-          segmental glomerulosclerosis [FSGS]) were obtained from archived kidney biopsy samples or
-          from discarded nephrectomy specimens. All diabetic samples were from patients with
-          biopsy-proven advanced DNP with serum creatinine ranging from 1.7 to 5.6 mg/dl (151 to
-          444 μM/l), heavy proteinuria (3+ by dipstick or 3–6 gr/d), and hypertension. All patients
-          with FSGS were from patients with creatinine levels of 1.7 to 4.9 mg/dl (151 to 435
-          μM/l), heavy proteinuria (3+ by dipstick), and hypertension. The diagnosis of FSGS was
-          made on Periodic acid–Schiff staining in the absence of immunodeposits on electron
-          microscopy. The diagnosis of diabetic nephropathy was based on the presence of diabetes,
-          proteinuria, and the characteristic light microscopy findings. Institutional Review Board
-          approval was obtained for procurement of kidney specimens at the Thomas Jefferson
-          University Hospital.
+          A Hopscotch-like clade of fragmented
+          elements
+          
+          Osr18, Osr19, Osr20, Osr22, Osr23,
+          Osr24, Osr45/Tos7 , and 
+          Osr46/Tos8 form a clade of low copy
+          number families composed primarily of fragmentary copies.
+          Our results suggest that each of these families has a
+          copy number in the range of 50-100 elements. Members of
+          this clade are closely related to maize's 
+          Hopscotch element (T04112) (Figure
+          1, Table 2).
         
         
-          Statistical Methods
-          Data are reported as mean and standard error of the mean (SEM) for continuous
-          variables. All cell culture experiments were performed at least three times and
-          summarized. Standard software packages (SPSS and Excel for Windows) were used to provide
-          descriptive statistical plots (unpaired 
-          t -tests). The Bonferroni correction was used for multiple comparisons.
-          Significance for the quantification of the CD36 staining in human biopsy samples was
-          calculated via the Wilcoxon Rank Sum Test.
+          Low copy number copia-like families
+          
+          Osr2 and 
+          Osr12 are low-copy families and are
+          represented in the GBRD by two and three copies
+          respectively, all of which are full length (although one
+          copy of 
+          Osr12 contains a large internal
+          deletion), suggesting that these elements may have
+          recently invaded the rice genome. The high level of LTR
+          nucleotide identity (≥ 99%) seen in these elements is
+          consistent with this recent invasion hypothesis. Members
+          of 
+          Osr12 and 
+          Osr2 are potentially active because
+          they have large, intact polyprotein ORFs, usually in
+          excess of 1,000 amino acids. All three 
+          Osr12 elements detected in the GBRD
+          are on chromosome 10. Similarly, both 
+          Osr2 elements are inserted within
+          50 kb of each other on chromosome 4. Nonetheless, these
+          two families are not closely related (their RT sequences
+          are only ~50% similar at the amino-acid level). 
+          Osr12 RTs differ from those of all
+          other rice 
+          copia -like elements by 50%. And
+          yet RT sequences of elements in 
+          Osr12 are 60% similar to certain
+          elements in the maize genome ( 
+          Zmr1 (S27768) and 
+          mzecopia (M94481.1)).
+          One full-length, and one fragmented copy of 
+          Osr6 are present in the GBRD. 
+          Osr5 is slightly more common than 
+          Osr6 , to which it is most closely
+          related, but it is currently represented in the GBRD by
+          only a single full-length copy and a few fragments. 
+          Osr5 is 60% similar to the tobacco
+          retrotransposon 
+          Tnt1-94 at the amino-acid level (RT
+          comparison). 
+          Osr4 is another low-copy family. It
+          has several fragmented representatives in the GBRD, and
+          is probably somewhat older than 
+          Osr12 and 
+          Osr2 , but it has only three
+          full-length copies in the GBRD, 
+          Osr4 elements have an exceptionally
+          large polyprotein ORF (~1,600 amino acids). The RT of 
+          Osr4 shows 50% similarity to that
+          of retroelements in the 
+          Arabidopsis genome (for example,
+          BAB01972, NP_175303).
+          Although the RT of 
+          Osr3 was detected during our
+          survey, elements in this family are fragments with ill
+          defined LTRs. TBLASTN reveals the RT of 
+          Osr3 to be the single
+          representative of its type in the GBRD. Both 
+          Osr3 and the equally aberrant 
+          Osr21/Tos17 differ from those of
+          other 
+          copia -like elements found in our
+          study by about 55%. 
+          Osr11/Rire1 is a low-copy family
+          closely related (75% similarity) to a retroelement in the
+          
+          Arabidopsis genome ( 
+          Atr-2 , T01860). Two other closely
+          related families are 
+          Osr16/Tos6 and 
+          Osr17 , both of which are similar
+          to 
+          Sto-4 (T17429) of maize (Figure 1,
+          Table 2). Nine additional low-copy families identified by
+          earlier workers are 
+          Osr47/Tos9 , 
+          Osr48/Tos10, Osr49/Tos11, Osr50/Tos13,
+          Osr54/Tos19, Osr55/Tos20, Osr57/Rtr3, Osr58/Rrt5 ,
+          and 
+          Osr59/Rrt8. Source references for
+          each of these nine families are given in Table 3.
+        
+        
+          Gypsy-like families predominate in O. sativa
+          
+          Osr27/Rire9 [ 26] is the third
+          largest family in the rice genome, with an estimated copy
+          number of 900 elements, mostly full length. Li 
+          et al. [ 26] estimated the copy
+          number of this family at 1,600. The typical 
+          Osr27/Rire9 element is quite large
+          (~12.8 kb total length). Having intact polyprotein ORFs
+          and high mean %LNI (99%), these elements probably are, or
+          recently have been, actively transposing. Yet the
+          presence of a few members of this family that are more
+          mutated (short ORFs, low LTR-LTR nucleotide identity)
+          suggests that this may also be an ancient family. Two
+          other families, 
+          Osr40 and 
+          Osr41 , are also members of the
+          same clade as 
+          Osr27/Rire9, Osr25 and 
+          Osr26/Rire2 ( 
+          Osr25 and 
+          Osr26/Rire2 are discussed below),
+          but both have RTs that are about 30% different from those
+          of 
+          Osr26/Rire2 and 
+          Osr27/Rire9. Neither 
+          Osr40 nor 
+          Osr41 has been previously
+          identified, but with approximate copy numbers of 600 and
+          300, respectively, these are both large families. The RTs
+          of members of this clade show about 60% similarity to
+          that of 
+          Retrosor1 ( 
+          Sorghum bicolor , AAD19359).
+          With approximately 1,500 elements, 
+          Osr30 constitutes 14% of all LTR
+          retrotransposons in the rice genome. Although 
+          Osr30 is the largest family of LTR
+          retroelements in the genome, it has not been previously
+          named. These elements are slightly larger (~13.1 kb) than
+          those of 
+          Osr27/Rire9. A higher proportion of
+          fragmented copies and lower level of LTR-LTR nucleotide
+          identity suggest that 
+          Osr30 is older than 
+          Osr27/Rire9 . 
+          Osr29 , which is closely allied to 
+          Osr30 , is also a large family with
+          more than 500 member elements. Taken together, the
+          elements of the 
+          Osr29 and 
+          Osr30 clade are unusual, because
+          they are as closely related to other major rice clades as
+          they are to any elements outside rice. 
+          Osr28 is a low-copy family that is
+          most closely related to 
+          Osr29 and 
+          Osr30 (Figure 2).
+          Two other large 
+          gypsy -like families are 
+          Osr33/Rire8 [ 25] and 
+          Osr34. These two families each have
+          copy numbers of approximately 500. Two low-copy families
+          belonging to the same clade are 
+          Osr32 and 
+          Osrs6/Rire3 [ 27] (Figure 2).
+          Members of these families have large LTRs, typically in
+          the range 3,000-3,500 bp. RTs of families in this clade
+          show high sequence similarity to an LTR retrotransposon
+          in pineapple (~70% to 
+          Acr-1; CAA73042) and to one in 
+          Sorghum bicolor (~77% to 
+          Retrosor3 , AAD221153) (Figure
+          2).
+        
+        
+          Low-copy gypsy-like elements
+          
+          Osr31/Rire7 is an aberrant low-copy
+          family that is much more closely related (77% similarity)
+          to an 
+          Arabidopsis element, 
+          Atr-4 (see Table 2), than to any
+          other LTR retroelement families in the rice genome
+          (Figure 2). In the clade of five low-copy families,
+          composed of 
+          Osr35, Osr36, Osr38, Osr39 , and 
+          Osr42 , an RT was found in the GBRD
+          for only two families, 
+          Osr35 and 
+          Osr36. The other elements were
+          identified in scans of the MRD and their full sequences
+          have since been submitted to GenBank (for accession
+          numbers, see Table 1). This clade is closely related to 
+          Arabidopsis element 
+          Atr-5 (Figure 2, Table 2).
+        
+        
+          Families of non-autonomous elements
+          Members of family 
+          Osr25 are all internally deleted
+          and thus non-autonomous (mean length 4.3 kb). Although 
+          Osr25 elements have typical LTRs,
+          PBS, and PPT, the inter-LTR region contains only
+          non-coding, repetitive DNA. The LTRs of 
+          Osr25 display 65-70% sequence
+          similarity to the autonomous elements of the 
+          gypsy -like family 
+          Osr26/Rire2. Elements with LTRs
+          having such a high degree of similarity are usually
+          considered members of the same family. Nevertheless,
+          because members of 
+          Osr26/Rire2 have the usual coding
+          structure typical of other 
+          gypsy -like elements (while 
+          Osr25 elements entirely lack
+          typical retroviral genes) and members of these two
+          families fall into two sharply distinct, non-overlapping
+          clades, we report these two types of elements as separate
+          families. Estimates based on scans of the MRD and the
+          GBRD suggest that the rice genome contains about 500
+          copies each of 
+          Osr25 and 
+          Osr26/Rire2 . 
+          Osr25 and 
+          Osr26/Rire2 display 98.9 and 97.9%
+          LNI respectively.
+          
+          Osr37/Rire4 is also aberrant
+          compared to other rice LTR retrotransposon families. The
+          typical element in this family is 4.4 kb long, about the
+          same length as 
+          Osr25 elements. Members of 
+          Osr37/Rire4 usually carry a large
+          ORF (up to 600 amino acids) just upstream of the 3' LTR.
+          This ORF shows no significant similarity to any known RT
+          sequence. Up to the present in the GBRD, where these ORFs
+          are generally identified simply as hypothetical proteins,
+          the large ORF of 
+          Osr37/Rire4 seems not to have been
+          recognized as a retroviral gene. This ORF may serve an
+          integrase function as BLAST searches show that it has low
+          homology to a putative integrase in 
+          A. thaliana (28%; AC005171). There
+          are about 600 copies of 
+          Osr37/Rire4 in the entire rice
+          genome.
+          In addition to the foregoing 
+          copia - and 
+          gypsy -like families, our scans
+          identified two families, 
+          Osr43 and 
+          Osr44 , of small elements (overall
+          length < 2,000 bp). With LTRs only 148 bp long and an
+          overall length of 1,207 bp, 
+          Osr44 elements are especially
+          small. Members of 
+          Osr43 and 
+          Osr44 are unique because, although
+          they possess all of the canonical LTR-retrotransposon
+          structural features (LTRs, PBS, PPT, and TSRs), they are
+          internally deleted and either completely lack or encode
+          only very small ORFs with no similarity to any known
+          protein. Both families contain on the order of 100 copies
+          genome-wide.
         
       
       
-        Results
-        
-          Increased Expression of CD36 Specifically in Proximal Tubules of Human Diabetic
-          Kidneys Is Associated with TED
-          Using microarray-based gene expression profiling on whole kidney RNA together with
-          supervised clustering methods, we previously identified and validated gene expression
-          patterns for molecular classification of diabetic mice with albuminuria and mesangial
-          expansion [5]. Reduced renal mRNA levels of the class B scavenger receptor CD36 were
-          characteristic for diabetic mice with albuminuria [5]. Here we examined patterns of CD36
-          protein expression in kidneys of non-diabetic and diabetic mice and humans. CD36 protein
-          was detectable in the thick ascending limb of loop of Henle and in the collecting duct,
-          and absent in proximal tubules in both control and diabetic mouse kidneys (Figure 1A–1D).
-          In contrast, CD36 was detectable only rarely in individual proximal tubular cells in
-          sections from non-diabetic human kidneys (controls) (Figure 1E and 1H), but was markedly
-          increased specifically in PTECs in human diabetic kidneys (Figure 1F and 1I). In
-          addition, we did not observe increased proximal tubular CD36 expression in kidney biopsy
-          samples from patients with FSGS (Figure 1J), that were matched with DNP samples for the
-          severity of proteinuria (all in the nephrotic range) and renal insufficiency (all with
-          elevated serum creatinine; 1.7–5.0 mg/dl). Semi-quantitative analysis of the distribution
-          and intensity of CD36-positive PTECs (CD36 PTEC score), which was performed by two
-          independent pathologists in a blinded manner, demonstrated that mean CD36 PTEC scores
-          were not different between FSGS kidneys and normal human kidneys, but were significantly
-          increased in DNP kidneys (Figure 1K).
-          Periodic acid–Schiff–stained sections of kidneys from mice exposed to type 2 diabetes
-          (db/db mice) for 20 wk (Figure 2A), or type 1 diabetes (STZ-treated C57BL/6J mice) for 20
-          wk (data not shown) demonstrated moderate to advanced mesangial expansion and
-          glomerulosclerosis (Figure 2A). Tubular abnormalities were not detectable in either model
-          (Figure 2A). In contrast, TED and IF were associated with moderate to advanced mesangial
-          expansion and glomerulosclerosis on kidney sections of human DNP (Figure 2B). These
-          findings indicate that in humans with DNP, diabetes-induced upregulation of CD36
-          expression in proximal tubules was associated with moderate to advanced stages of TED and
-          IF. In contrast, in diabetic mice with albuminuria, mesangial expansion, and
-          glomerulosclerosis, absence of CD36 expression was associated with normal appearance of
-          the tubular epithelium and interstitial space. These findings suggest an association
-          between diabetes-induced proximal tubular CD36 expression and TED.
-        
-        
-          Coincidence of Increased CD36 Expression and Increased Tubular Epithelial Cell
-          Apoptosis in Human DNP
-          CD36 has been shown to mediate apoptosis signaling induced by TSP-1 in endothelial
-          cells [8] and by ox-LDL in macrophages [14]. We examined whether the strong upregulation
-          of CD36 protein in PTECs, observed specifically in human DNP, was associated with tubular
-          epithelial cell apoptosis in vivo. TUNEL-positive tubular epithelial cells also stained
-          positive for CD36 protein (Figure 2D) and aquaporin1 (Figure 2C), indicating that
-          apoptosis and CD36 expression coincided in PTECs in human DNP. In contrast, CD36 was not
-          detectable in TUNEL-positive PTECs in non-diabetic FSGS kidneys and in normal human
-          kidney (data not shown). Statistical analysis showed that the rate of TUNEL-positive
-          tubular cells was significantly increased in kidneys of human DNP compared with normal
-          control human kidney (Figure 2E). In addition, tubular epithelial apoptosis was
-          increased, but highly variable, in FSGS kidneys (data not shown). In contrast, tubular
-          epithelial apoptosis rates were comparable between non-diabetic control and all diabetic
-          mouse kidneys (Figure 2E). The diabetic mouse group included 24-wk-old STZ-treated
-          diabetic C57BL/6J or 129SvJ mice (0.23 ± 0.1 TUNEL-positive cells per 100 tubular cells)
-          and 24-wk-old lepr
-          db/db mice (0.2 ± 0.1 TUNEL-positive cells per 100 tubular cells).
-          Together, these findings indicate that CD36 expression in PTECs is associated with
-          apoptotic events of proximal tubular cells and TED specifically in human DNP, but not in
-          FSGS with matched functional and clinical abnormalities. These in vivo findings
-          demonstrate a strong association of diabetes-induced CD36 expression and apoptosis in
-          PTECs in human DNP, suggesting that CD36 may play a critical role in TED by mediating
-          PTEC apoptosis in progressive human DNP.
-        
-        
-          High Ambient Glucose Induces CD36 Expression in Human PTECs
-          High ambient glucose has been shown to induce CD36 protein synthesis in macrophages
-          [9]. Because CD36 protein was markedly increased in proximal tubules in human DNP, we
-          examined the effects of high ambient glucose on CD36 mRNA and protein expression in the
-          human PTEC line HK-2 (Figure 3). Exposure of cells to 30 mM D-glucose for 24 h, but not
-          to control L-glucose, significantly increased levels of CD36 mRNA (Figure 3A), CD36 cell
-          surface protein (Figure 3C), and CD36 protein expression in cell lysates (Figure 3D). In
-          contrast, CD36 mRNA and protein were not detectable in the murine PTEC line MCT at either
-          normal or high ambient glucose concentrations (data not shown). Interestingly, glucose
-          stimulation decreased CD36 mRNA levels (Figure 3B) and CD36 cell surface protein (Figure
-          3C) in the murine collecting duct cell line M1, consistent with our previously reported
-          findings in diabetic mouse kidney [5]. Exposure of human HK-2 and murine M1 cell lines to
-          defined preparations of FFA PA or AGE-BSA had no effect on CD36 mRNA and protein
-          expression levels (data not shown). These findings demonstrate that high ambient glucose
-          causes upregulation of CD36 mRNA and protein specifically in human, but not in mouse,
-          PTECs. Together with our in vivo observations, these results suggest that hyperglycemia
-          may induce upregulation of CD36 mRNA and protein selectively in proximal tubules in
-          kidneys of human DNP, but not diabetic mice with albuminuria.
-        
-        
-          AGE-BSA, CML-BSA, and FFA PA Induce Apoptosis in Human PTECs via CD36
-          AGE albumin [15] and FFAs [16] have been implicated in the pathogenesis of diabetic
-          complications, including tubular degeneration [17] and tubular epithelial-to-mesenchymal
-          transition [18]. In addition, AGE albumin and FFA are known to interact with CD36
-          [19,20]. However, it is not known whether AGE and/or FFA can activate CD36 signaling and
-          apoptosis in tubular epithelial cells. Treatment with AGE-BSA for 2, 5, or 10 wk or with
-          CML-BSA induced a significant increase in the number of apoptotic nuclei in CD36-positive
-          HK-2 cells compared with control BSA-treated or untreated HK-2 cells (Figure 4A). In
-          contrast, AGE-BSA and CML-BSA had no effect on the rate of apoptotic nuclei in
-          CD36-negative murine MCT PTECs (data not shown). Because AGE-BSA glycated for 5 wk
-          (AGE-BSA5) induced robust apoptosis at concentrations between 20 and 40 μM (Figure 4A),
-          we chose this preparation and concentration for further analysis in all subsequent
-          experiments. AGE-BSA5-induced apoptosis was blocked when cells were preincubated with
-          neutralizing anti-CD36 antibody, while preincubation with control IgG antibody had no
-          effect (Figure 4A). These results were confirmed by DNA laddering assay (data not
-          shown).
-          Among the most abundant glucose-modified proteins detectable in the plasma of diabetic
-          individuals are CML proteins [21], which are typically present at 1.6 to 2.3 μM
-          concentrations in the plasma and urine of diabetic individuals [22,23]. To use
-          physiologically relevant CML proteins in our in vitro experiments, we prepared
-          CMLmin-BSA, characterized by glycation of approximately 30% of lysine residues [21]. When
-          applied to HK-2 PTECs at concentrations ranging from 0.5 to 10 μM, CMLmin-BSA increased
-          apoptosis rates significantly (Figure 4B). The proapoptotic effect of CMLmin-BSA was
-          blocked by CD36 neutralizing antibody, but not by control IgG (Figure 4B).
-          CD36 has been shown to transport fatty acids in adipocytes [24] and in muscle cells
-          [25]. Concentrations of FFAs may be substantially elevated, to levels of up to 700 μM, in
-          individuals with type 2 diabetes or obesity [26]. Thus, we examined the effects of
-          saturated FFA PA and monounsaturated FFA oleate on apoptosis of HK-2 PTECs in the absence
-          or presence of anti-CD36 neutralizing antibody. PA significantly increased rates of
-          apoptotic nuclei in a concentration-dependent manner in HK-2 PTECs (Figure 4C). Anti-CD36
-          neutralizing antibody, but not control IgG, blocked PA-induced apoptosis (Figure 4C). In
-          contrast, oleate did not induce apoptosis, even at concentrations as high as 300 μM
-          (Figure 4C), neither did it prevent PA-induced apoptosis (data not shown). Of note, these
-          experiments were performed using a total fatty acid:BSA ratio of 6.6:1, in order to
-          closely model pathophysiologic states in which unbound FFA concentration is high [27].
-          Taken together, our findings demonstrate that pathophysiologically relevant species of
-          AGE-BSA and CML-BSA, as well as saturated FFA PA, induce apoptosis in human PTECs at
-          concentrations previously observed in plasma and/or urine in humans with diabetes.
-        
-        
-          AGE-BSA and PA Sequentially Activate src kinase, Proapoptotic p38 MAPK, and Caspase
-          3 through CD36 Receptor
-          CD36 has previously been shown to trigger the activation of p59fyn, p38 MAPK, and
-          caspase 3 (GeneID: 836) in response to thrombospondin in endothelial cells [8]. Therefore
-          we examined phospho-src, phospho-p38 levels and caspase 3 activation in HK-2 PTECs
-          treated with AGE-BSA and PA in the absence or presence of anti-CD36 neutralizing
-          antibody. Both AGE-BSA5 and PA increased phospho-src levels rapidly (after as little as 5
-          min), and over a prolonged time interval (up to 3 h) (Figure 5A and 5B). Phosphorylation
-          of src kinase was blocked by anti-CD36 neutralizing antibody (Figure 5A and 5B). This
-          observation is consistent with previous findings demonstrating direct interaction between
-          CD36 and p59fyn [8]; however, the involvement of other src kinases cannot be excluded. We
-          also observed increased levels of phosphorylation of p38 MAPK beginning 1 to 2 h after
-          treatment, and p38 activation was also completely blocked by anti-CD36 neutralizing
-          antibody (Figure 5C and 5D). These findings indicate that CD36 activates proapoptotic p38
-          MAPK possibly via src kinase activation in human PTECs when stimulated with AGE-BSA5 and
-          PA. Chemical inhibition of p38 MAPK prevented the increase in the rate of apoptotic
-          nuclei induced by both AGE-BSA5 and PA in HK-2 PTECs (Figure 5G), indicating that p38
-          MAPK function is required for apoptosis induced by AGE-BSA and PA through CD36 receptor.
-          AGE-BSA and PA significantly increased activity of effector caspase 3 in human PTECs
-          (Figure 5E and 5F). Caspase 3 activation was blocked by anti-CD36 neutralizing antibody,
-          but not by control IgG (Figure 5E and 5F). Pan-caspase inhibitor z-VAD-fmk and the
-          specific caspase 3 inhibitor z-DEVD-fmk prevented apoptosis induced by PA and AGE-BSA,
-          while the specific caspase 9 inhibitor z-LEHD-fmk had no significant inhibitor effect
-          (Figure 5G). Together these findings indicate that CD36 receptor mediates sequential
-          phosphorylation of src kinases and p38 MAPK, leading to activation of caspase 3 and
-          apoptosis in human PTECs exposed to AGE-BSA and PA ligands. Interestingly, we did not
-          observe phosphorylation of Smad2 and p42/44 ERK MAPK under these conditions, as
-          previously reported for AGE binding to the RAGE receptor [28].
-        
-        
-          CD36 Is Sufficient to Mediate Apoptosis Induced by AGE-BSA and FFA
-          In contrast with CD36-positive human HK-2 PTECs, we found that treatment of
-          CD36-negative mouse MCT PTECs with AGE-BSA had no effect on rates of apoptotic nuclei
-          (data not shown). To test whether CD36 was sufficient to mediate AGE-BSA-induced
-          apoptosis, we transfected CD36-negative mouse MCT PTECs with a plasmid expressing human
-          CD36 or empty control vector, followed by treatment with control BSA or AGE-BSA5.
-          AGE-BSA5 treatment had no significant effect on rates of apoptotic nuclei in MCT PTECs
-          transfected with control vector (Figure 6). In contrast, AGE-BSA significantly increased
-          apoptotic nuclei compared with unglycated BSA in MCT PTECs transiently transfected with
-          CD36 expression vector (Figure 6). Nonglycated control albumin did not cause apoptosis.
-          Thus, transgenic de novo expression of human CD36 in CD36-negative mouse PTECs was
-          sufficient to mediate apoptosis induced by AGE-BSA.
-        
+        Conclusions
+        Rice LTR retrotransposons are a significant component of
+        the rice genome. We estimate that LTR retrotransposons
+        constitute at least 17% of the 
+        O. sativa genome. Although this value
+        is lower than the estimated percentage of LTR
+        retrotransposons in the genomes of other cereal plants [ 2,
+        12], it is more than tenfold greater than the estimated
+        percentage of LTR retrotransposons in 
+        A. thaliana , a species with a genome
+        one-third the size of the rice genome [ 21]. This
+        disproportionate increase in the percentage of LTR
+        retrotransposons as a function of genome size is consistent
+        with the view that genome size variability in plants is
+        often heavily dependent on variation in LTR retrotransposon
+        content [ 27, 28].
+        We have determined that individual full-length
+        LTR-retrotransposons present in the sequenced euchromatic
+        regions of the rice genome are all relatively young,
+        displaying, on average, greater than 98% sequence identity
+        between their LTRs. Comparative genomic studies of LTR
+        retrotransposons in both plants and animals have revealed
+        that species with smaller genomes [ 7, 10, 19, 20, 21] do
+        not harbor older families of LTR retrotransposons, as do
+        species with larger genomes [ 12, 22]. It has been
+        hypothesized that the rate of turnover of retroelements may
+        be higher in small genomes as a result of the presence of
+        less effective epigenetic silencing mechanisms [ 10]. It
+        remains to be determined whether or not this hypothesis is
+        an adequate explanation of the apparent lack of older
+        full-length LTR retrotransposons in the euchromatic portion
+        of the rice genome.
+        In general, the major clades of rice LTR
+        retrotransposons are more closely related to elements
+        present in other species than to the other clades of rice
+        elements, suggesting that horizontal transfer may have
+        occurred over the evolutionary history of rice LTR
+        retrotransposons. Further analysis is required to
+        definitively test the horizontal transfer hypothesis.
+        The newly developed search algorithm (LTR_STRUC) we have
+        used in this study to initially identify LTR
+        retrotransposons in the rice genome is not dependent upon
+        sequence homology as are standard search methods such as
+        BLAST. As a consequence, we identified several previously
+        unreported families of rice LTR retrotransposons consisting
+        of non-coding and, in some cases, repeating, sequence
+        motifs. LTR retrotransposons of similar structure have
+        recently been identified within the genomes of both
+        monocotyledonous and dicotyledonous plants [ 29].
+        Preliminary evidence suggests that these elements may have
+        a significant role in restructuring plant genomes over
+        evolutionary time [ 29].
       
       
-        Discussion
-        Advanced diabetic nephropathies in humans with type 1 or type 2 diabetes are uniformly
-        characterized by TED, or tubular atrophy, and IF leading to renal failure [29,30]. Although
-        TED and IF are the strongest predictors for progression of DNP [31], mechanisms that
-        underlie TED in DNP remain poorly understood. Based on our in vitro and in vivo findings we
-        propose a two-step metabolic hit model for TED in DNP. High ambient glucose, but not AGE or
-        FFA, cause stimulation of CD36 expression in PTECs specifically in diabetic kidneys.
-        Increased CD36 expression mediates sequential activation of src kinase, proapoptotic p38
-        MAPK, and caspase 3 in PTECs in the presence of AGE and FFA PA, resulting in PTEC
-        apoptosis. Proximal tubular epithelial apoptosis may be an initial mechanism for TED in
-        DNP.
-        Our conclusions are supported by several key observations. First, we identify a new
-        functional role for CD36 as an essential mediator of proximal tubular epithelial apoptosis,
-        inducible by AGE-BSA, CMLmin-BSA, and FFA PA. Previous reports demonstrated a role for CD36
-        in mediating apoptosis induced by TSP-1 in endothelial cells and ox-LDL in macrophages
-        [8,14]. In the present study, we show for the first time, to our knowledge, that CD36
-        mediates apoptosis in differentiated epithelial cells that are exposed to AGE-BSA-,
-        CMLmin-BSA-, and FFA-induced metabolic injury characteristic of the diabetic milieu.
-        Interestingly, AGE albumins and CML are present in the urine of individuals with diabetes
-        with albuminuria due to DNP and have been shown to bind proximal tubular epithelium
-        [22,32]. While the presence or absence of FFAs in the urine of diabetics with DNP has not
-        been determined to date, FFAs may cause tubular apoptosis [33]. It remains to be determined
-        whether FFA interacts with CD36 to activate CD36 receptor signaling, or whether CD36
-        mediates FFA uptake to activate src kinase and p38 MAPK signaling. Irrespective of the
-        upstream mechanism of FFA and CD36 interaction, our results demonstrate very rapid
-        activation of a well-characterized intracellular kinase cascade of proapoptotic signaling.
-        Our finding that AGE-BSA and PA induce apoptosis through a CD36-mediated and p38- and
-        caspase-dependent mechanism in tubular epithelial cells, similar to TSP-1 and ox-LDL in
-        endothelial cells and macrophages, respectively, suggests that multiple, context-dependent
-        extracellular stimuli of apoptosis may converge on CD36 scavenger receptor to activate src
-        kinase and proapoptotic p38 MAPK pathway. In the context of the diabetic milieu and
-        diabetic complications, our findings provide new molecular insights into diabetes-induced
-        AGE- and FFA-dependent injury of renal epithelial cells.
-        Almost all TUNEL-positive apoptotic tubular epithelial cells showed increased expression
-        of CD36, suggesting a strong correlation between upregulation of CD36 expression and
-        increased apoptosis in PTECs specifically in human diabetic kidney in vivo. Importantly,
-        biopsy samples from cases of FSGS that were matched for degree of proteinuria, renal
-        function, and hypertension were characterized by TED, IF, and increased tubular epithelial
-        apoptosis; however, proximal tubular CD36 expression was similar to that in normal human
-        control kidney. Therefore, CD36 expression in PTECs is specifically associated with the
-        diabetic condition and appears to be independent of degree of proteinuria and renal
-        failure. Indeed, increased CD36 expression in PTECs in human DNP in vivo may be caused by
-        hyperglycemia, as we show that high glucose concentration stimulates CD36 expression in
-        vitro. It is intriguing that CD36 expression was not detected in PTECs in diabetic mice
-        with longstanding hyperglycemia in vivo, although underlying mechanisms for the
-        species-dependent differential regulation of CD36 in PTECs in vivo and in vitro between
-        mouse and human remain unclear at this time. Comparisons of human 
-        CD36 and mouse 
-        Cd36 genes indicate a high degree of sequence and structural similarity
-        in both coding and regulatory regions, suggesting that the mechanism or mechanisms that
-        underlie our findings are likely determined by sequence-independent, epigenetically
-        distinct response patterns to the diabetic milieu that differ between these species. It is
-        also possible that dietary or metabolic factors account for the differences in CD36
-        expression, as mice were maintained on standard mouse chow characterized by significantly
-        lower fat and cholesterol contents than typical western diets consumed by humans. However,
-        dietary or other unknown environmental factors cannot explain the differential CD36
-        regulation by glucose in human and mouse PTECs. Thus, we are exploring whether biochemical
-        or functional differences between mouse and human PTECs in glucose metabolism or
-        glucose-induced signaling can be identified. However, current lack of understanding of the
-        observed differential regulation between human and mouse does not diminish the
-        translational research significance of our findings, with their clear therapeutic
-        implications. Thus, the present study identifies a new CD36-dependent molecular signaling
-        pathway that mediates tubular epithelial apoptosis, and may underlie TED and IF, hallmarks
-        of disease progression, specifically in human diabetic nephropathy.
-        Third, to our knowledge, our report provides the first controlled study demonstrating
-        increased apoptosis specifically in PTECs in DNP with TED and IF. These findings are
-        consistent with a recent uncontrolled case series of five patients with DNP [34], and with
-        previous reports demonstrating tubular apoptosis in kidneys of STZ-treated diabetic rats
-        [35,36]. Interestingly, our study shows that tubular epithelial apoptosis was associated
-        with TED and IF in human DNP, while normal appearance of tubular epithelium and
-        interstitium was associated with baseline apoptosis rates in diabetic mouse models.
-        Together, published observations from experimental diabetes models in mouse and rat, and
-        human DNP, and our own findings in diabetic mouse models and human DNP, suggest a striking
-        association of TED and tubular epithelial apoptosis. However, whether tubular epithelial
-        apoptosis causes TED in DNP will require further investigation. Interestingly, acute and
-        chronic chemical inhibition of caspase activity in a nephrotoxic serum nephritis model of
-        chronic progressive glomerulonephritis with TED and IF reduced tubular apoptosis and TED
-        [37]. Decreased tubular apoptosis and TED were associated with significantly reduced IF and
-        decreased collagen synthesis in this model. This finding suggests that tubular epithelial
-        apoptosis may trigger TED and IF in this model of chronic glomerulonephritis in rat, and
-        supports our conclusions that diabetes-induced tubular epithelial apoptosis may underlie
-        TED associated with IF in human DNP.
-        In conclusion, we report a new functional role for CD36 scavenger receptor in tubular
-        epithelial apoptosis associated with tubular degeneration and progression of DNP.
-        Specifically, we show for the first time that both AGE and FFA PA induce PTEC apoptosis
-        through CD36-mediated activation of src kinase, p38 MAPK, and caspase 3. Because high
-        glucose stimulates CD36 expression in human PTECs and because CD36 expression is increased
-        in apoptotic tubular epithelial cells in human DNP, we propose a two-step metabolic hit
-        model relevant for TED, a hallmark of progression of human DNP.
-      
-      
-        Supporting Information
+        Materials and methods
         
-          Accession Numbers
-          The LocusLink (http://www.ncbi.nlm.nih.gov/LocusLink/) accession numbers for the gene
-          products discussed in this paper are caspase 3 (GeneID: 836), CD36 (GeneID: 948), MAPK
-          (GeneID: 1432), p42/44 ERK MAPK (GeneID: 50689), p59fyn (GeneID: 2534), and Smad2
-          (GeneID: 4087).
+          Automated characterization of LTR retrotransposons
+          using LTR_STRUC
+          LTR_STRUC identifies new LTR retrotransposons on the
+          basis of the presence of characteristic retroelement
+          features (E.M.M. and J.F.M., unpublished work). It scans
+          nucleotide sequence data for putative LTR pairs, aligns
+          the putative pairs, and scores them on the basis of the
+          presence/absence of expected motifs such as TSRs,
+          canonical dinucleotides, PBS, PPT, and so on. When a
+          given pair receives a score above a (user-specified)
+          cut-off, an output record is generated that specifies
+          salient information about the putative element, such as
+          the length of the transposon and its LTRs, its position
+          within the contig, an alignment of its LTRs, the
+          nucleotide sequence of the transposon, its LTRs and
+          target-site repeats, as well as a file listing all ORFs.
+          In our study, once putative elements were identified,
+          sequence analysis was carried out on the individual
+          output files to identify those that described actual LTR
+          retrotransposons. Additional elements were identified by
+          BLAST searches using elements located by LTR_STRUC as
+          queries.
+        
+        
+          Datasets scanned
+          Initial scans with LTR_STRUC were conducted on a
+          dataset consisting of the 29.8 Mb of 
+          O. sativa BAC-derived sequence data
+          available in GenBank at the time of the initial scan
+          (December 2000). This dataset (TDS) was obtained from the
+          TIGR website [ 30]. Subsequently, LTR_STRUC was used to
+          scan the non-redundant MRD, a product of the Monsanto
+          Rice Genome Sequencing Project. The MRD is based on an
+          initial dataset of 3,391 BACs distributed across the
+          genome of 
+          O. sativa cv. Nipponbare - the same
+          cultivar used by the International Rice Genome Sequencing
+          Project. Removal of contaminants and redundancies from
+          this initial dataset produced the MRD (consisting of
+          52,202 contigs, totaling 259 Mb of the 430-Mb rice
+          genome). More recently, in an effort to determine the
+          relative copy numbers of the various families and
+          identify additional elements not picked up in our initial
+          survey with LTR_STRUC, we have used representative
+          sequences from each retrotransposon family identified in
+          this study as queries to conduct BLAST searches against
+          both the MRD and the GBRD. Thus, the results reported
+          here constitute a reasonably unbiased survey of
+          LTR-retrotransposon diversity in rice. Both the MRD and
+          GBRD are heavily weighted toward euchromatic sequences.
+          The amount of data scanned was significantly less than
+          the total amount of nucleotide sequence contained in the
+          MRD and GBRD. Much of the MRD (~36%) is composed of
+          contigs that are less than 10 kb long and are therefore
+          of limited utility for the LTR_STRUC program, which finds
+          only full-length elements (rice 
+          gypsy -like elements are typically
+          longer than 10 kb and are not entirely contained in such
+          short contigs). In the case of the GBRD, the amount of
+          rice nucleotide sequence available for search was less
+          than one-third of the 174 Mb released to the public
+          (because of 15% redundancy, the GBRD sequences amounted
+          to a total of only about 150 Mb, of which only some 50 Mb
+          were actually available for BLAST search because most of
+          these sequences were in the process of being 'finished').
+          RT sequences were identified according to previously
+          described criteria [ 31, 32].
+        
+        
+          Multiple sequence alignments and phylogenetic
+          analyses
+          The RT domains of the 
+          Osr elements were aligned with
+          previously reported RT sequences (Table 2). The ClustalW
+          analysis [ 33] extension to MacVector 7.0 was used to
+          generate two amino-acid alignments, one for 
+          gypsy -like, and one for 
+          copia -like elements. Draw N-J Tree
+          and Bootstrap N-J commands of ClustalW were then used to
+          generate non-bootstrapped and bootstrapped trees,
+          respectively.
         
       
     

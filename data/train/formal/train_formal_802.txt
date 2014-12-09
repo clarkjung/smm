@@ -3,177 +3,246 @@
     
       
         
-        It goes without saying that the cellular plasma membrane effectively creates a barrier
-        between the inside (intracellular area) and outside (extracellular area) of the cell it
-        defines. In order for the cell to sense and respond to its environment (including other
-        cells and the supporting structures that comprise the extracellular matrix [ECM]) and for
-        the environment to influence cell function (including cell growth and movement),
-        bidirectional signaling across the plasma membrane has to be mediated by receptors and
-        other structures. About two decades ago, it became widely appreciated that many of the cell
-        surface receptors that mediate cell–cell and cell–ECM interactions were structurally and
-        functionally related, and the term “integrins” was coined to reflect the capacity of
-        members of this family to integrate the extracellular and intracellular environment (Hynes
-        1987). Integrin-mediated interactions are vital to the maintenance of normal cell
-        functioning because of their ability to mediate inside-out (intracellular to extracellular)
-        and outside-in (extracellular to intracellular) signaling. Integrin dysfunctions are
-        associated with numerous human disorders such as thrombosis, atherosclerosis, cancer, and
-        chronic inflammatory diseases. Despite a total of nearly 30,000 integrin-related articles
-        in the literature, intensive effort—more than 200 articles per month—continues to focus on
-        understanding the roles of integrins in both physiological and pathological processes.
+        From Bob Clark's snug office in Boise, Idaho, where he manages the United States
+        government's Joint Fire Science Program (JFSP), he figures his computer provides fingertip
+        reach to just about everybody who's anybody in wildfire research. This points to a primary
+        need of nations worldwide in combating the scourge of recurrent wildfires: tools and
+        technology suited to the job. It's no small order in places as economically, socially, and
+        ecologically varied as, say, Brazil, South Africa, Australia, Indonesia, and the United
+        States, which are among the countries where wildfire creates the greatest havoc.
+        More than 750,000 acres (303,500 hectares) were burned in southern California alone
+        during last year's wildfires. The 2000 season was one of the country's worst on record,
+        destroying 8.4 million acres (3.4 million hectares), more than double the decade's 10-year
+        average. Australia's summer months around the turn of 2002–2003 brought perhaps the worst
+        drought in a century to the populous southeast and the biggest fire season for two decades.
+        Mountain forests were extensively burned and more than 500 houses were lost. In 2002,
+        Brazil suffered 217,000 wildfires, a number that is almost certainly too low because remote
+        imaging cannot detect many fires under the forest canopy. In Indonesia, wildfires that
+        burned for months during 1997–1998 were later estimated to have released the equivalent to
+        13%–40% of annual global carbon emissions from fossil fuels, inflicting smoke-related
+        ailments on thousands.
+        Where wildfire is concerned, the many differences between such countries can perhaps be
+        pinned down to two essentials. The first is whether a blaze occurs in temperate or tropical
+        forest, and the second is whether the nation is developed or developing.
+        “The science can be rock solid, but it can only go so far before social, economic, and
+        political pressures take over,” Clark says. “That's what a forest service manager's job is,
+        picking the best option based on all those considerations.”
+        Unfortunately, having science-based options that are applicable to local conditions is
+        largely a luxury for developed countries. Managers there can choose to let a fire burn
+        under hopefully contained conditions, a policy known in the United States as “wildland fire
+        use.” They can set experimental crown fires to study their effects, as was done recently
+        in"journal" Canada (Figure 1). And they can take preemptive measures, such as reducing fuel
+        in the forest to lower fire hazard.
+        The two main fuel-reduction methods are mechanical removal of combustible materials and
+        controlled or “prescribed” burning (Figure 2). During Bill Clinton's administration,
+        prescribed burns were encouraged in protected areas, but thinning was allowed only for
+        trees with trunks of nine inches (22.8 cm) in diameter or less. Under George W. Bush,
+        prescribed burning remains a choice, but the United States Department of Agriculture's
+        (USDA) Forest Service policy is much more focused on mechanical means. The argument runs
+        that there's been too much concern about removing trees, when what counts most is the
+        enhanced fire-resistance of the thinned habitat.
+        Fire hazard reduction methods must be tailored to an understanding of fuel
+        characteristics in a given area, says David Peterson of the Forest Service's Pacific
+        Wildland Fire Sciences Laboratory in Seattle, Washington. “There's no uniform way of doing
+        it, partly because, as scientists, we haven't given the management folks any quantitative
+        guidelines.” Working with other ecologists, social scientists, and economists, he's
+        currently producing just such guidelines for the dry interior forests of the Pacific
+        Northwest. “One thing we don't want to do is take choices out of the hands of field
+        managers working at the local level.”
       
       
-        The Integrin Family
-        The integrin family comprises 20 or more members that are found in many animal species,
-        ranging from sponges to mammals (Hynes 2002). They consist of two distinct, associated
-        subunits (noncovalent heterodimers), where each subunit (α, β) consists of a single
-        transmembrane domain, a large extracellular domain of several hundred amino acids (composed
-        of multiple structural domains), and typically, a small cytoplasmic domain of somewhere
-        between 20–70 residues (Figure 1). The extracellular domains bind a wide variety of
-        ligands, whereas the intracellular cytoplasmic domains anchor to cytoskeletal proteins. In
-        this manner, the exterior and interior of a cell are physically linked, which allows for
-        bidirectional transmission of mechanical and biochemical signals across the plasma
-        membrane, and leads to a cooperative regulation of cell functions, including adhesion,
-        migration, growth, and differentiation. A central topic in the integrin research over the
-        past decade has been the mechanism of inside-out activation (Liddington and Ginsberg 2002).
-        In their resting state, integrins normally bind the molecules that activate them with low
-        affinity. Upon stimulation, a cellular signal induces a conformational change in the
-        integrin cytoplasmic domain that propagates to the extracellular domain. Integrins are
-        transformed from a low- to a highaffinity ligand binding state. Such inside-out regulation
-        of integrin affinity states is distinct from the outside-in signaling observed upon
-        activation of most other transmembrane receptors (e.g., growth factor–growth factor
-        receptor interactions), including integrins. The inside-out signaling protects the host
-        from excessive integrin-mediated cell adhesion, which could, for example, lead to
-        spontaneous aggregation of blood cells and have profound pathological consequences.
+        Forecasting Tools: Models and Simulations
+        For those choices to be meaningful, managers need reliable information on the risk of
+        wildfire outbreaks and on the future behavior of existing fires. This requires models and
+        simulations that incorporate climatic conditions, particularly wind (Figure 3). At the
+        Forest Service's Fire Sciences Laboratory in Missoula, Montana, researchers have created a
+        “gridded wind” tool based on the engineering discipline of computational fluid dynamics.
+        The program maps wind speed and direction using a digital elevation model, which is a grid
+        of elevation points every 30–100 feet (9–30.5 meters) over a terrain 10–40 square miles
+        (25.9–103.6 square kilometers) in size. This map forms the floor of a box extending up to
+        five miles (eight kilometers) high, which is subdivided into a million or more cubes. Wind
+        flow from either real observations or estimates can be entered into the software, and the
+        layer of cubes nearest the grid floor is used to create surface wind maps at resolutions of
+        every 100 meters (109 yards) or less. In contrast, the usual resolution of weather
+        forecasts is 12 kilometers (7.5 miles), down to 4 kilometers (2.5 miles) in some urban
+        areas.
+        “Two or three years ago, we couldn't have done this simulation on a single-processor
+        laptop,” says one of its developers, physical engineer Bret Butler. “It would have taken
+        two or three days. Now we can do it in a matter of hours.”
+        The ability of these maps to show varying wind flow in valleys, at midslope and on
+        ridgetops, is just the beginning. The next step is to feed these data into models that
+        predict wildfire spread. Butler and colleagues have coupled their gridded wind technology
+        to a fire growth model and tested it against the actual spread of several wildfires,
+        including in Southern California last summer. Maps of actual and predicted surface winds
+        showed strong similarities, encouraging Butler to foresee an ideal scenario in which fire
+        fighting teams enter wind flow data online or by telephone to a central base where gridded
+        wind maps and fire growth simulations are generated within hours, before operational
+        decisions are made.
+        Yet he admits that challenges remain, including the current inability of fire behavior
+        simulation to account for diurnal winds in addition to cold front-driven flow. In
+        mountainous terrain, for example, winds often move up-canyon in the morning and down-canyon
+        in the evening. Moreover, the effect of vegetation on wind is not yet included in such
+        models.
+        Those issues and others are being addressed by researchers working on improvements to
+        the regional weather forecasts of so-called mesoscale models. At the Forest Service's Rocky
+        Mountain Research Center in Fort Collins, Colorado, meteorologist Karl Zeller and
+        colleagues are contributing calculations of biological processes to mesoscale weather
+        models. Their algorithms not only can account for diurnal winds but can predict the effects
+        on local weather when vegetation takes in carbon dioxide and releases water vapor. This
+        process can produce different fluxes of carbon dioxide drawn into the canopy and water
+        vapor coming out, depending largely on the type of vegetation and its canopy density.
+        Zeller's group has analyzed current mesoscale forecasts in the Rocky Mountains and found
+        that in the daytime, they often are too hot in the high country and too cold in the plains.
+        Water vapor estimates are too low in the mountains and too high in the plains, which Zeller
+        thinks is because the models feed off soil moisture estimates, not off vegetation. In
+        coupling his team's new biophysical interface to gridded wind and mesoscale forecast
+        models, Zeller says “point forecasts” are being developed that can focus on a prescribed
+        burn area or even a single house.
       
       
-        The Heads and Tails of Inside-Out Signaling
-        Mutational studies provided the initial hints that disruption of the non-covalent clasp
-        between α and β cytoplasmic tails is clearly the event within the structure of the integrin
-        that initiates inside-out signaling. Point mutations in the α and β cytoplasmic tails that
-        are near the membrane or deletion of either region result in constitutive activation of the
-        receptor (O'Toole et al. 1991, 1994; Hughes et al. 1995). Mutating a single specific
-        residue in the cytoplasmic tail of either subunit led to integrin activation, but a double
-        mutation, which would have allowed retention of a salt bridge between the subunits, did not
-        (Hughes et al. 1996)—suggesting that integrin inside-out activation is dependent upon
-        regulation of the interaction between the two subunits. In support of this hypothesis,
-        peptides corresponding to α and β cytoplasmic tails have been shown to interact with each
-        other (Haas and Plow 1996). Since these original observations, there has been an intensive
-        effort to understand the mechanism for regulation of integrin activation by the cytoplasmic
-        region (for a recent review, see Hynes 2002). On the road toward this goal, Ginsberg and
-        colleagues discovered that the head domain of a cytoskeletal protein—talin—plays a key role
-        in binding to integrin β cytoplasmic tails and inducing integrin activation (Calderwood et
-        al. 1999). Many other intracellular proteins bind to the α and β cytoplasmic tails (Liu et
-        al. 2000), but the importance of talin in integrin activation is particularly convincing
-        since it has been confirmed by multiple laboratories (Vinogradova et al. 2002; Kim et al.
-        2003; Tremuth et al. 2004) using various methods including overexpression and gene
-        knockdown (siRNA) approaches (Tadokoro et al. 2003). In 2001, Springer and coworkers
-        provided evidence for a model by which separation of the C-terminal portions of the α and β
-        subunits results in inside-out activation. They showed that replacement of the
-        cytoplasmic-transmembrane regions by an artificial linkage between the tails inactivates
-        the receptor, whereas breakage of the clasp activates the receptor (Lu et al. 2001; Takagi
-        et al. 2001). Shortly thereafter, the model gained direct and strong experimental support
-        from a structural analysis in which the membrane-proximal helices of the two subunits were
-        found to clasp in a weak “handshake” that could be disrupted by talin or constitutively
-        activating mutations (Vinogradova et al. 2002). The model has been further verified by
-        other biophysical studies (Kim et al. 2003) and extended to other integrins (Vinogradova et
-        al. 2004). Since the membrane-proximal regions of integrin α and β cytoplasmic tails are
-        highly conserved, the generalization of this signaling mechanism to all integrins was to be
-        anticipated. A dynamic image of how such cytoplasmic unclasping occurs at the membrane
-        surface can now be modeled (Figure 1) (Vinogradova et al. 2004).
+        Wildfire and Species Diversity
+        Fitting the appropriate mix of strategies to a given situation is an issue that has also
+        received close attention in Australia. After the bushfires of 2002–2003, media commentators
+        called for increased “hazard reduction burning” in national parks, prompting ecologists
+        around the country to distribute a joint statement declaring that such a strategy would not
+        further reduce bushfire risk, but would actually threaten biodiversity. Australian species
+        are often well-adapted to fire, and researchers have learned that different fire
+        regimes—meaning the type of fire, its intensity, severity, extent, season, and
+        frequency—favor different species (Box 1). In the southeast of Australia, prescribed burns
+        of high frequency and low intensity can alter the habitat in ways that therefore threaten
+        survival of numerous plant and animal species.
+        “A generic problem or conundrum seems to be that species which do not prosper under
+        relatively frequent fires can be found in most fire-prone environments,” notes Ross
+        Bradstock, principal research scientist in the New South Wales Department of Environment
+        and Conservation. He says it's very difficult to determine how human interventions in
+        various habitats can foster the coexistence of species that have different fire regime
+        requirements.
       
       
-        Straightening Out the Outside
-        On the extracellular side, ground-breaking insights were provided when the crystal
-        structure of the extracellular domain of integrin α
-        v β
-        3 (the nomenclature identifies the particular α and β subunits) was
-        determined (Xiong et al. 2001). In addition to the exquisite structural details, the
-        overall conformation was surprisingly bent (Figure 1), which contrasted with structures
-        revealed by the earlier electron micrographic studies that showed an extended, stalk-like
-        structure (Weisel et al. 1992). Springer and coworkers used a series of
-        biochemical/biophysical experiments to suggest that the bent structure represents an
-        inactive form of integrin (Takagi et al. 2002), whereas activation induces a switchblade
-        shift that converts the bent form to the extended form (Figure 1). A molecular picture has
-        emerged for integrin insideout activation where a cellular signal induces the
-        conformational change of talin exposing its head domain allowing it to bind to the integrin
-        β cytoplasmic tail. This interaction unclasps the complex between the cytoplasmic tails,
-        which then allows a conformational shift in the extracellular domain from a bent to a more
-        extended form for high-affinity ligand binding (Figure 1) (Takagi et al. 2002).
-        The activated integrins may then undergo clustering whereby the transmembrane domain of
-        each type of subunit (the α or β) interacts with itself—called homotypic oligomerization of
-        the transmembrane domains (Figure 1) (Li et al. 2003). Ligand occupancy and receptor
-        clustering initiates outside-in signaling that, in turn, regulates a variety of cellular
-        responses (see below). The three steps in Figure 1 occur as part of a dynamic equilibrium,
-        and perturbation of any step can shift the equilibrium, leading to transient, partial, or
-        permanent integrin activation/inactivation depending on the extent of perturbation. For
-        example, deletion of aIIb cytoplasmic tail completely removes the clasp and permanently
-        activates the receptor (O'Toole et al. 1991), whereas a particular disease mutation may
-        only impair the clasp and partially activate the receptor (Peyruchaud et al. 1997). While
-        the model in Figure 1 is based on direct structural evidence for the cytoplasmic face
-        (Vinogradova et al. 2002; Kim et al. 2003) and the extracellular domain (Takagi et al.
-        2002), the changes in the transmembrane region remained speculative. In this issue of 
-        PLoS Biology , Luo et al. (2004) provide what is, to our knowledge, the
-        first experimental evidence for the transmembrane domain separation, an event suggested by
-        the model shown in Figure 1. By selectively altering the residues that can interact with
-        one another, the authors defined a specific transmembrane domain interface in resting α
-        IIb β
-        3 and showed that this interface is lost upon activation of this
-        integrin. Backed by extensive structural and biochemical data on the integrin
-        cytoplasmic/extracellular domains, this transmembrane domain study takes the next vital
-        step toward a more complete understanding of the unclasping mechanism for integrin
-        activation. Although the energy required for lateral separation of the transmembrane
-        domains in membrane appears to be high, the third step in Figure 1 (clustering via
-        transmembrane domain oligomerization) may compensate for it.
+        Fire Suppression and Tropical Forests
+        As tough as such questions are to answer in developed countries, they pale compared to
+        the problems of tropical forest wildfire researchers and managers in developing countries.
+        In these countries, a destructive cycle of human behavior begins with land-clearing and
+        burning for farming, logging, mining, road-building, and other uses that open gaps in the
+        rainforest's canopy cover. This lets in sunlight and air, reducing the forest's ability to
+        smother fire by trapping moisture, and it encourages the growth of smaller, more fire-prone
+        plants. The first wildfires that occur are bad, but successive ones can eventually
+        transform tropical forest to scrub savanna (Figure 4). Of course, the remaining forest is
+        thereby broken into fragments that continue to suffer incursions at their edges, as the
+        cycle continues.
+        In a recent paper in Science, Michigan State University Amazon expert Mark Cochrane
+        pointed out that prescribed burning is ineffective in tropical forests, because the
+        collateral damage outweighs any benefits. Indeed, tools and technologies employed in
+        temperate conditions can seldom be applied usefully to tropical forests without significant
+        alterations.
+        “One of the main issues in fire science is that the U.S. has no capacity to develop new
+        tools,” charges Ernesto Alvarado, a research scientist at the University of Washington in
+        Seattle. He's been working for several years with United States Forest Service and
+        Brazilian scientists on field studies in Mata Grosso, the southernmost state of the
+        Brazilian Amazon. He says that fire prediction simulations developed decades ago have not
+        yet been replaced by ones that account for tropical wildfire extremes, including either
+        large-scale crown fires or surface fires, which often reach only 10 centimeters (3.9
+        inches) in height and move slowly but can burn for weeks and kill many trees.
+        Fire behavior models don't work for tropical surface fires because the physics are
+        different from those in temperate forests, he explains. A slow wind generated from the
+        unburned forest blows toward the fire, forcing the small flames to advance against, rather
+        than with, the wind. Another difference is that the fuel is mostly leaf litter, not conifer
+        needles or sticks.
+        Alvarado and colleagues light experimental fires in clear-cuts to determine factors
+        limiting ignition and spread. Such experimental work is rare in tropical forests, where
+        observation and description still predominate. But the team also monitors surface
+        wildfires, measuring fire length, spread, and heat release.
+        “We're trying to find applications that people can use to control fires or to explain
+        implications of fire policy,” he says. Most wildfires originate from deliberately set
+        burns. For example, many farmers still clear land by the ancient method of slash-and-burn,
+        in which forest is chopped, left to dry, and then burned. These farmers are now banned by
+        Brazilian federal law from burning at the height of the dry season, mid-July to
+        mid-September. They cut in May, but if the rains come early in September, they can't burn
+        after the ban ends and must wait until the next season, with nowhere to grow their crops in
+        the meantime. Alvarado thinks a more flexible burning schedule is a solution.
+        The challenge is to pass on technological understanding to decision-makers. For example,
+        even ranchers in Mata Grosso's economic elite usually haven't heard of fire management
+        techniques, says Amazonian ecologist Carlos Peres at the University of East Anglia in the
+        United Kingdom. Educational projects from nongovernmental organizations have helped to turn
+        some farmers away from heavy reliance on slash-and-burn techniques, but fire suppression
+        information remains to be distributed on the frontiers.
+        “What we really need are very large areas of primary forest that effectively serve as
+        fire breaks,” he says. Conservation plans have been made by the federal government in
+        collaboration with international agencies, but implementation remains a question,
+        particularly given the high level of economic pressure from multinational resource
+        developers eager to enter the Amazon. Major roads through the jungle are also on the
+        drawing board. “Different categories of conservation units can be gazetted on paper, but in
+        practice they're a long way from working. Someone draws lines on a map high in an office in
+        Brasilia, but when you go out to that place in the forest, no one knows it's a conservation
+        zone.”
       
       
-        Filling in the Pieces
-        Despite the molecular level of our understanding of integrin activation, a number of key
-        questions remain unresolved. Although we know that the membrane-proximal clasp on the
-        integrin cytoplasmic face controls the integrin activation, the distal side of either the α
-        or β cytoplasmic tails may also play a role in integrin activation, since other mutations
-        indicate that the C-terminal membrane distal region is important in regulating integrin
-        activation via a mechanism that is yet unknown. Thus, the picture for the cytoplasmic
-        face-controlled inside-out activation may be substantially more complicated than specified
-        in Figure 1. There may exist other factors, such as negative regulators, in cells that bind
-        to the cytoplasmic tails or their complex, and control the conformational change required
-        for integrin activation. Also, there may be pathways other than the talin-mediated one that
-        lead to integrin activation. Structures of the integrin cytoplasmic face bound to talin and
-        the many other proteins known to bind to the cytoplasmic tails of integrins will
-        undoubtedly provide further insights. In the transmembrane region, although there is ample
-        evidence for heterodimeric transmembrane domain association (Adair and Yeager 2002;
-        Schneider and Engelman 2003; Gottschalk and Kessler 2004; Luo et al. 2004) and dissociation
-        upon integrin activation (Luo et al. 2004), a definitive structural view is missing. Some
-        studies have proposed that homo-oligomerization is essential for inducing integrin
-        activation (Li et al. 2003). However, the data provided by Luo et al. do not appear to
-        support this model. On the extracellular side, while the C-terminal unclasping and
-        separation of the cytoplasmic and transmembrane regions appears to relieve the structural
-        constraint and may allow the unbending of the extracellular domain to attain the
-        high-affinity ligand binding state (Takagi et al. 2002), a thorough molecular understanding
-        of this process awaits high resolution structures of the intact receptor in inactive and
-        active forms.
+        Fire Prevention: Developing the Technology
+        Information transfer faces similar barriers in much of Southeast Asia, as Canadian
+        forestry researchers discovered during a five-year project (now winding up) to create a
+        computerized early warning tool for wildfire outbreaks. The program was instigated after
+        the 1997–1998 fires created a regional haze hazard, largely because of peat deposits up to
+        20 meters (21.8 yards) thick that had become susceptible to burning in swampy forests
+        drained and cleared for development.
+        Michael Brady, who managed the Canadian project in Jakarta, points out that headmen in
+        remote communities are still likely to believe that wildfires start spontaneously, by
+        grasses rubbing together or even by magic. A fire scientist whose doctorate is in tropical
+        forest peat dynamics, Brady sees the project as a medium to strengthen regional fire
+        ecology in general. “In some ways, that's more important to me than the tool itself.”
+        The tool is a variation of the Fire Danger Rating System used in Canada and, with
+        various permutations, in many other countries. The Canadian system has two components, one
+        for indexing fire weather and another predicting fire behavior. The weather component
+        models moisture input and output in fuels generically classed as fine, moderate, and heavy.
+        Brady and Indonesian university scientists grouped grasslands in the fine fuel category,
+        fallen leaves and litter as medium, and peat and woody materials as heavy. They spent three
+        years calibrating these fuels to local weather conditions, examining moisture dynamics and
+        performing ignition tests. In developed countries, fuels are further specified in numerous
+        classes for fire behavior prediction, but that requires decades of field work. Brady's team
+        concentrated instead on helping key agencies in seven Southeast Asian countries, especially
+        Indonesia and Malaysia, to obtain and use the appropriate computing tools.
+        Brady doesn't expect immediate results in terms of reducing acreage burned. “Canada and
+        the U.S. still have huge fire problems after working on it for a century.” But he does hope
+        for a change of thinking, away from a current fascination in the region with satellite
+        imaging of “hot spots” where fires are likely to be occurring. Fire danger rating
+        concentrates on where fires are most likely to begin. “It allows you to add prevention into
+        your management program.”
       
       
-        What About Outside-In?
-        Upon the inside-out activation, integrins bind to specific extracellular matrix
-        proteins. However, for the integrins to grip tightly to the extracellular matrix to mediate
-        cell adhesion and migration, the integrin cytoplasmic domains must be anchored to the
-        cytoskeleton (Giancotti and Ruoslahti 1999). This is achieved by “outside-in” signaling,
-        i.e., when an integrin binds to the extracellular ligand, it clusters with other bound
-        integrins, resulting in the formation of highly organized intracellular complexes known as
-        focal adhesions that are connected to the cytoskeleton. The focal adhesions incorporate a
-        variety of molecules, including the cytoplasmic domains of the clustered integrins,
-        cytoskeletal proteins, and an extensive array of signaling molecules. The high local
-        concentrations of these molecules facilitate cascades of downstream intracellular responses
-        via protein–protein interactions, which are linked to the cytoskeleton as well as to
-        complex intracellular signaling networks. Although many intracellular components involved
-        in outsidein signaling have been identified, and much has been learned about various
-        signaling pathways involved in outside-in signaling (Giancotti and Ruoslahti 1999), a
-        molecular view of how the various events occur in time and space is still very uncertain.
-        In particular, little structural insight has been obtained for early outside-in
-        intracellular events following ECM–integrin binding, e.g., upon ECM engagement. How is the
-        integrin cytoplasmic domain connected to the cytoskeleton? How is this connection regulated
-        during cell adhesion and migration? The next wave of structural information may provide
-        insights into these important and fertile areas of investigation.
+        Beyond Prevention
+        In South Africa, “retention” is a conservation buzzword referring to strategies that, in
+        a sense, go beyond prevention of problems. What ecologists hope to retain is biodiversity
+        in the midst of changes that can't be stopped, and their methods are producing major
+        repercussions throughout government. The work is centered on the Cape Floristic Region of
+        Africa's southwestern tip. Almost 90,000 square kilometers (34,750 square miles) in area,
+        it's the world's smallest floral kingdom. A conservation plan was launched in 1998 that has
+        drawn cooperation from tourism, mining, water use, agricultural, and land use planning
+        groups.
+        The project has the ambitious goal of protecting not only the usual biodiversity
+        patterns of conservation areas but also the spatial components of evolutionary processes
+        that enable species to adapt to potentially harmful changes. This entails a complex effort
+        to determine which parts of developed and undeveloped lands are most necessary to such
+        processes, including rivers, sand movement corridors, gradients from uplands to coastal
+        lowlands, and major wilderness areas. University of Port Elizabeth botanist Richard
+        Cowling, one of the scheme's principal architects, estimates that it might require 60%–70%
+        of the region's landscape.
+        As in Australia, fires are important to the Cape's biodiversity, but too-frequent burns
+        are a problem. Cowling thinks that by consolidating mountainous megawilderness under the
+        project's plan and protecting spatial transitions between fire-prone areas and those that
+        resist fire, managers could move toward allowance of natural fire regimes. The current
+        problem, he says, is that protected areas usually stop short of the transition to
+        semidesert areas that are privately owned. When fire spreads from public to private land,
+        the government often gets sued. Under the evolving Cape plan, landowners will sit on
+        governing boards, and property that they contract for conservation will be tax-exempt.
+        The Cape plan has attracted millions of dollars in support from the World Bank and other
+        international sources, but Cowling regards that achievement as much less important than the
+        progress made in gaining support from various interest groups. “The key issue is the extent
+        to which you can get biodiversity concerns mainstreamed to other sectors,” he says. Threats
+        to habitat retention, not least of which is wildfire, endanger every species. “It's about
+        making people realize that biodiversity is the basis upon which all other things will
+        succeed.”
+      
+      
+        
       
     
   

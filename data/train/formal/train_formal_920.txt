@@ -2,560 +2,439 @@
   
     
       
-        Background
-        One of the first observable changes at a developing
-        neuromuscular synapse is the aggregation of nicotinic
-        acetylcholine receptors (AChRs) in the postsynaptic
-        membrane. This aggregation can be detected within several
-        hours of stimulation by a nerve terminal or by alternative
-        stimuli, and is crucial to the function of the mature
-        synapse in that it ensures both speed and reliability of
-        signal transduction. Extensive studies in varied
-        experimental systems have identified specific
-        intra-cellular [ 1 2 3 4 5 ] and extra-cellular [ 6 7 8 9
-        10 11 ] components which appear to be involved in the
-        formation and maturation of AChR aggregates.
-        In addition to a contacting nerve terminal, receptor
-        aggregation can be induced by several experimental stimuli
-        including agrin [ 11 12 13 ] , electric fields [ 14 15 16
-        17 18 ] , polystyrene beads [ 19 20 ] , culture substratum
-        [ 21 22 ] , and high calcium or neuraminidase [ 23 24 25 26
-        ] . Among these agrin is the only one for which a strong
-        argument of physiological relevance can be advanced.
-        Published accounts have demonstrated that the neuromuscular
-        junction does not develop in agrin deficient mutant mice [
-        27 ] , in strong support of "the agrin hypothesis" [ 28 ]
-        .
-        More recently a member of the laminin family, laminin-1,
-        has been shown to induce AChR aggregation. Interestingly,
-        this induction appears to be independent of the
-        mechanism(s) by which agrin acts based on an additive dose
-        response relationship, the lack of requirement for MuSK,
-        and the lack of tyrosine-phosphorylation of receptors
-        during aggregation [ 29 30 31 ] . Note that in this context
-        "independent" simply means that there is at least some
-        difference in the two sequences of events besides the
-        signaling event, and (from the dose response data) that the
-        two sequences do not share a rate limiting step. The
-        existence of independent pathways is important because many
-        studies over the past decades have implicitly assumed that
-        receptor aggregation, whether spontaneous or induced by
-        various stimuli, constitutes a single phenomenon carried
-        out by a common mechanism.
-        To further address the extent to which commonality of
-        mechanism exists in differentially induced receptor
-        aggregates we have compared the ultra-structural
-        arrangement of receptors within spontaneous and agrin or
-        laminin-1 induced aggregates. We previously demonstrated
-        that agrin induced receptor aggregates are aligned on a
-        hexagonal grid of ca. 9.9 ± 0.5 nm spacing [ 32 33 34 ] .
-        We show now that laminin-1 induced receptor aggregates do
-        not exhibit this regularity in ultrastructure, while
-        spontaneous receptor aggregates display heterogeneous
-        characteristics, with some aggregates showing regular
-        spacing while others do not.
+        Introduction
+        Diabetic nephropathy (DNP) is a serious and common complication of type 1 and type 2
+        diabetes mellitus, leading to end-stage renal failure in up to 30% of individuals with
+        diabetes. Early abnormalities of DNP affect glomeruli and include an increase in glomerular
+        filtration rate, microalbuminuria, glomerular hypertrophy, and thickening of the glomerular
+        basement membrane, followed by expansion of mesangial extracellular matrix and
+        glomerulosclerosis [1,2]. As with most chronic degenerative kidney diseases, the gradual
+        decline of renal function at later stages of DNP is invariably associated with tubular
+        epithelial degeneration (TED), also called tubular atrophy, and interstitial fibrosis (IF),
+        hallmarks of degeneration to end-stage renal failure [3]. Pathomechanisms that may initiate
+        and/or mediate TED in DNP remain poorly understood. While glomerular lesions consistent
+        with human DNP have been described in various mouse models of diabetes, TED and IF have not
+        been described in diabetic mice [4].
+        Combining detailed renal phenotype analysis with gene expression profiling of
+        hyperglycemic mouse models of type 1 (streptozotocin [STZ]) and type 2 (db/db) diabetes, we
+        recently reported that decreased mRNA levels of CD36 in kidneys were strongly correlated
+        with albuminuria [5]. CD36 is a transmembrane protein of the class B scavenger receptor
+        family and is involved in multiple biological processes [6]. CD36 is widely expressed and
+        may interact with multiple extracellular ligands, including thrombospondin-1 (TSP-1),
+        long-chain free fatty acids (FFAs), modified (oxidized) low-density lipoprotein (ox-LDL),
+        advanced glycation end (AGE) products, and collagens I and IV [6]. CD36 mediates
+        phagocytosis of apoptotic cells and malaria-parasitized erythrocytes [7]. Furthermore, CD36
+        mediates antiangiogenic activity associated with endothelial cell apoptosis induced by
+        TSP-1 through p38 MAP kinase (MAPK) and caspase 3 [8]. Hyperglycemia-induced synthesis of
+        CD36 protein in macrophages has been associated with increased uptake of ox-LDL by
+        macrophages and foam cell formation in atherosclerotic lesions in people with diabetes
+        [6,9,10]. While diabetic cardiovascular complications are closely linked epidemiologically
+        with albuminuria and DNP, a role for CD36 in DNP and renal pathophysiology has not to our
+        knowledge been described to date.
+        Here we report a novel functional role for CD36 scavenger receptor and AGE and FFA
+        palmitate (PA) in tubular epithelial apoptosis associated with TED and progression of DNP.
+        Specifically, we show that glucose stimulates CD36 cell surface expression in proximal
+        tubular epithelial cells (PTECs), and increased CD36 renders PTECs susceptible to both AGE-
+        and PA-induced PTEC apoptosis by mediating sequential activation of src kinase,
+        proapoptotic p38 MAPK, and caspase 3. Based on these findings, we propose a new two-step
+        metabolic hit model for TED in the progression of DNP.
+      
+      
+        Methods
+        
+          Animals
+          Kidneys were obtained from 28-wk-old C57BLKS/J-lepr
+          db/db , STZ-treated C57BL/6J, or STZ-treated 129SvJ mice and from
+          age-matched control C57BLKS/J-lepr
+          db/m , C57BL/6J, and 129SvJ mice as described [5].
+        
+        
+          Cell Culture
+          Human proximal tubular cell line HK-2 and murine collecting duct cell line M1 were
+          purchased from American Type Culture Collection (Manassas, Virginia, United States) and
+          cultured according to the vendor's instructions. Mouse proximal tubular cell line MCT was
+          provided by Fuad Ziyadeh (University of Pennsylvania, Philadelphia, Pennsylvania, United
+          States). Transfections were performed with Fugene 6 (Roche Diagnostics, Indianapolis,
+          Indiana, United States) according to manufacturer's protocol. CD36-containing plasmid was
+          a kind gift of Nada Abumhrad (SUNY at Stony Brook, New York, United States). Cells were
+          also co-transfected with EGFP (Clontech, Franklin Lakes, New Jersey, United States) to
+          assess transfection efficiency. Cells were serum starved in 0.2% serum containing DMEM (1
+          g/l glucose) for at least 24 h prior to stimulation with AGE–bovine serum albumin (BSA),
+          glucose, or FFA.
+        
+        
+          Quantitative Real-Time PCR
+          Quantitative real-time PCR analysis of mouse and human CD36, HPRT1, and beta actin was
+          performed as described previously [5]. The following primers were used: mouse CD36 5′
+          TGCTGGAGCTGTTATTGGTG and 3′ CATGAGAATGCCTCCAAACA, mouse beta actin 5′
+          ACCGTGAAAAGATGATGACCCAG and 3′ AGCCTGGATGGCTACGTACA, mouse HPRT1 5′ TGTTGTTGGATATGCCCTTG
+          and 3′ TTGCGCTCATCTTAGGCTTT, human CD36 5′ GCTCTGGGGCTACAAAGATG and 3′
+          TAGGGAGAGATATCGGGCCT, human beta actin 5′ GATGAGATTGGCATGGCTTT and 3′
+          CACCTTCACCGTTCCAGTTT, and human HPRT1 5′ AAAGGACCCCACGAAGTGTT and 3′
+          TCAAGGGCATATCCTACAACAA.
+        
+        
+          Immunostaining and Immunoblotting
+          Primary antibodies specific for the following proteins were used: monoclonal mouse
+          anti-CD36 antibody, clone FA 6–152 (IgG) (Immunotech, Fullerton, California, United
+          States), clone SMO (IgM) (Santa Cruz Biotechnology, Santa Cruz, California, United
+          States), rabbit polyclonal anti-CD36 (Santa Cruz Biotechnology), rabbit polyclonal
+          anti-aquaporin1, anti-aquaporin2, anti-Na/K/2Cl (Chemicon, Temecula, California, United
+          States), rabbit polyclonal phospho38/MAPK and mouse monoclonal p38 (Cell Signaling
+          Technology, Beverly, Massachusetts, United States), rabbit polyclonal p-src (Y418)
+          (Biosource, Camarillo, California, United States), and mouse monoclonal anti-tubulin
+          (Sigma, St. Louis, Missouri, United States). Immunostaining was performed on frozen
+          sections with FITC- and Cy3-labeled secondary antibodies (Jackson Laboratories, USA), or
+          on paraffin-embedded sections with immunoperoxidase, as described earlier [5].
+          Immunoblotting was performed with 30 μg of protein isolated from cultured cells. Protein
+          samples were resolved on a 10% SDS-PAGE and immunoblotted with primary antibody and
+          revealed with horse radish peroxidase (HRP)-conjugated anti-mouse IgM, or anti-rabbit IgG
+          (Jackson Laboratory, Bar Harbor, Maine, United States). Immuncomplexes were detected by
+          enhanced chemiluminescence (Pierce, Rockford, Illinois, United States). The proximal
+          tubular immunostaining was evaluated semi-quantitatively by two independent pathologists
+          who were unaware of the diagnosis; distribution and intensity of staining was scored on a
+          ten-point scale.
+        
+        
+          Fluorescence Flow Cytometric Analysis
+          Cells were incubated in 0.5 mM EDTA in PBS at 37 °C for 20 min, scraped, and then
+          washed with 1% fetal bovine serum. Cells were then exposed to monoclonal anti-CD36 IgG
+          FA6 (5 μg/ml), or control mouse IgG1 (5 μg/ml) (Sigma), for 45 min on ice in the presence
+          of 10% fetal bovine serum then washed with PBS. This was followed by an incubation with
+          phycoerythrin-conjugated goat anti-murine secondary antibody (Southern Biotechnology,
+          Birmingham, Alabama, United States) 1:50 for 45 min on ice. Cells (1 × 10
+          4 ) were analyzed by using a SCAN flow cytometer (BD, Franklin Lakes,
+          New Jersey, United States), with appropriate gating. Flow cytometry data were analyzed
+          using Cellquest (BD).
+        
+        
+          Preparation of Glycated Albumin and Carboxymethyl-Lysine Albumin
+          Briefly, to prepare AGE-BSA, essentially fatty-acid-free and endotoxin-free BSA (250
+          mg/ml) was incubated at 37 °C for 2, 5, and 10 wk with D-glucose (500 mM) in a 0.4-M
+          phosphate buffer containing EDTA, ampicillin, Fungazone, polymixin B, and protease
+          inhibitors. Control preparations were treated identically except that glucose was
+          omitted. Carboxymethyl-lysine (CML)–BSA was prepared as described earlier [11]. Briefly,
+          BSA with minimal CML content (CMLmin-BSA) was prepared by incubation of BSA (0.66 mM)
+          with glyoxylic acid (2.15 mM) in the presence of sodium cyanoboronydrate (56 mM) in 200
+          mM sodium phosphate buffer (pH 7.8) at 37 °C under aseptic conditions. Finally,
+          preparations were extensively dialyzed against phosphate buffer to remove free glucose.
+          Preparations were then tested for the presence of LPS with a Quantitative Chromogenic LAL
+          kit (Cambrex, East Rutherford, New Jersey, United States). The concentration of LPS was
+          lower than 0.07 IU/mg protein in all preparations.
+        
+        
+          Preparation of FFA
+          Palmitic acid (P5585), oleic acid, and FFA-free low-endotoxin BSA (A8806) were
+          purchased from Sigma. Palmitic acid was dissolved at 12 mM in PBS containing 11%
+          fatty-acid-free BSA, sonicated for 5 min, shaken overnight at 37 °C, and sonicated for 5
+          min again [12]. For control experiments, BSA in the absence of fatty acids was prepared,
+          as described above. The effective concentration of PA was determined using a commercially
+          available kit (Wako Chemicals, Neuss, Germany).
+        
+        
+          Apoptosis Detection
+          In situ detection of DNA fragmentation was performed using the ApoTag TUNEL assay
+          following the manufacturer's protocol (Intergen, Purchase, New York, United States) [13].
+          Apoptotic nuclei were detected using DAPI staining (1 μg/ml; 10 min) in cell cultures
+          fixed with 4% paraformaldehyde, and analyzed via fluorescence microscopy to assess
+          chromatin condensation and segregation. Caspase3 activity was detected by using the
+          ApoAlert Caspase3 Fluorescent Detection system (BD) according to the manufacturer's
+          protocol. Activity was normalized to total protein content. Z-DEVD-fmk, z-VAD-fmk,
+          z-FA-fmk, and z-LEHD-fmk were purchased from BD.
+        
+        
+          Human Kidney Biopsy Sample and Patient Characteristics
+          Human kidney tissues (ten controls, ten with diabetic nephropathy, and ten with focal
+          segmental glomerulosclerosis [FSGS]) were obtained from archived kidney biopsy samples or
+          from discarded nephrectomy specimens. All diabetic samples were from patients with
+          biopsy-proven advanced DNP with serum creatinine ranging from 1.7 to 5.6 mg/dl (151 to
+          444 μM/l), heavy proteinuria (3+ by dipstick or 3–6 gr/d), and hypertension. All patients
+          with FSGS were from patients with creatinine levels of 1.7 to 4.9 mg/dl (151 to 435
+          μM/l), heavy proteinuria (3+ by dipstick), and hypertension. The diagnosis of FSGS was
+          made on Periodic acid–Schiff staining in the absence of immunodeposits on electron
+          microscopy. The diagnosis of diabetic nephropathy was based on the presence of diabetes,
+          proteinuria, and the characteristic light microscopy findings. Institutional Review Board
+          approval was obtained for procurement of kidney specimens at the Thomas Jefferson
+          University Hospital.
+        
+        
+          Statistical Methods
+          Data are reported as mean and standard error of the mean (SEM) for continuous
+          variables. All cell culture experiments were performed at least three times and
+          summarized. Standard software packages (SPSS and Excel for Windows) were used to provide
+          descriptive statistical plots (unpaired 
+          t -tests). The Bonferroni correction was used for multiple comparisons.
+          Significance for the quantification of the CD36 staining in human biopsy samples was
+          calculated via the Wilcoxon Rank Sum Test.
+        
       
       
         Results
-        Laminin-1 clearly induces AChR aggregation over and
-        above that found spontaneously in control cells (Figure 1).
-        Using software designed to quantify aggregate number, size,
-        and position similar to that reported previously [ 35 ] ,
-        we have determined that there are significant increases in
-        both number and size of receptor aggregates following
-        treatment with laminin-1 (e.g. aggregates per cell = 6.4 ±
-        .23 vs. 4.9 ± .26 for control, Student T p < .0001 [ 36
-        ] ). This finding parallels reports in mouse muscle cells [
-        29 30 ] , but is in contrast to one report from 
-        Xenopus [ 31 ] .
-        At the level of scanning electron microscopy, membrane
-        regions rich in AChRs (whether spontaneous or induced by
-        agrin or laminin) show receptor distributions which appear
-        decidedly non-random (Figure 2). That is, numerous
-        "nanoaggregates" - very dense nanometer scale particle
-        clusters - are seen which give an appearance markedly
-        different from what is seen, for example, in plots of
-        points selected at random. This heterogeneous,
-        nanoaggregate rich visual impression is confirmed by
-        quantitative analysis of the nearest neighbor distances
-        (Figure 3). In both laminin induced and control AChR
-        aggregates there are far more small (10-50 nm) distances
-        found than would be expected in truly random distributions
-        (Figure 3Aand 3B, dashed curve; see Materials and methods
-        for theoretical distribution). This means that many
-        receptors are closer to each other than predicted by a
-        random distribution, exactly as would be expected by the
-        formation of nanoaggregates. The same theoretical random
-        particle distribution function can be better fit to the
-        data by artificially increasing the density many fold
-        (solid curves). These are still statistically inconsistent
-        with the data of Figure 3, Aand 3B, in part because the
-        predictive equation assumes a sharp cutoff at the hindrance
-        distance (Materials and methods) while the data clearly
-        show a more gradually decreasing probability as a (somewhat
-        smaller) hindrance distance is approached.
-        With respect to structure within aggregates, the arrows
-        in these figures indicate the positions at which agrin
-        induced receptor aggregates were found to peak, which
-        indicated that receptors were arranged in a hexagonal array
-        with a spacing of approximately 9.9 nm [ 33 34 ] . It can
-        be seen that these peaks are not present in laminin-1
-        induced aggregates (A), but may be weakly present in the
-        spontaneous receptor aggregates (B). To examine whether
-        these small peaks in the 20-40 nm range are significant,
-        the distributions were fit to quadratics and tested
-        statistically against them. This is not to suggest a
-        quadratic form for the distribution, but rather to test
-        whether that region of a distribution is consistent with a
-        smoothly decreasing function. It was determined that
-        laminin-1 induced aggregate structure is in fact consistent
-        with this, but that spontaneous aggregate structure is not
-        (Figure 3, legend). Thus it appears that at least some of
-        the peaks seen in spontaneous aggregate nearest neighbor
-        distances are significant.
-        To probe further into aggregate structure software was
-        designed to detect nanoaggregates (Materials and methods).
-        Figure 4shows a plot of a scanning electron micrograph
-        montage, revealing the overall ultrastructural arrangement
-        of AChRs. The colors illustrate the aggregate detection
-        algorithm and confirm that its function is consistent with
-        what the human eye detects as nanoaggregates Two
-        representative nanoaggregates are shown in Figure 5, which
-        also illustrates the measurements applied to them. These
-        are size (number of gold particles), density, and two
-        measures of spherical vs. oblong shape: the normalized
-        area/perimeter ratio, and the diameter ratio (Materials and
-        methods). Table 1shows the mean and standard error of these
-        measures applied to laminin induced, spontaneous, and agrin
-        induced receptor aggregates. No significant differences are
-        seen in any of these measures between laminin induced and
-        spontaneous aggregates. However compared to either of
-        these, agrin induced aggregates are significantly larger
-        and 
-        less dense in terms of gold particle
-        distribution (Student T p < .001). Although it is at
-        first glance counter-intuitive, this decrease in particle
-        density (agrin induced aggregates) is best interpreted as
-        an 
-        increase in receptor density (see
-        Discussion). Table 2shows the correlation between these
-        measures when all three experimental treatments are pooled
-        (n = 292).
-        There appears to be a modest negative correlation
-        between size and density. This means that larger aggregates
-        tend to have a lower density of gold particles, in
-        agreement with the finding that agrin induced
-        nanoaggregates are both larger and less dense than those of
-        laminin induced or spontaneous nanoaggregates Although
-        there may be a small negative correlation between density
-        and the area/perimeter ratio this would at best account for
-        only 15% of the variation seen in these measurements, and
-        seems to be contra-indicated by the much smaller
-        correlation between density and the diameter ratio. This
-        latter ratio and the area/perimeter ratio are highly
-        correlated, confirming that they measure approximately the
-        same shape attribute along the linear-to-circular dimension
-        (Materials and methods).
-        The apparently weak regular structure seen in
-        spontaneous receptor aggregates suggests two possibilities.
-        First, it could be that these nanoaggregates are
-        homogeneous with respect to structure, and they all display
-        an underlying hexagonal structure which is partially masked
-        by "misplaced" receptors within these aggregates. At the
-        other extreme, it could be that there are two populations
-        of spontaneous nanoaggregates, one of which shows
-        significant hexagonal structure while the other does not.
-        Despite the similarities in the means and variances of the
-        4 measures for laminin induced and spontaneous
-        nanoaggregates, an examination of the underlying frequency
-        histograms revealed one suggestive difference in this
-        regard. Figure 6shows the frequency histograms for density
-        in laminin-1 induced (A) and spontaneous (B) nanoaggregates
-        The former appears to be a simple, skewed distribution, but
-        the latter appears to be bimodal, thereby suggesting that
-        there may indeed be two underlying populations.
-        Because of this, and the difference in particle density
-        seen in agrin induced nanoaggregates, we examined the
-        nearest neighbor distances distribution for the two
-        populations - one above and one below the density median
-        (Figure 7). In Figure 7Ait is seen that the high density
-        fraction of spontaneous nanoaggregates shows very little in
-        the way of regular structure. On the other hand Figure
-        7Bshows an improved match of the low density fraction to
-        the predicted peaks (arrows) which represent a hexagonal
-        array of 9.9 nm spacing. In fact this low density
-        population is not significantly different from the modeled
-        distribution based on the geometry and spacing assumptions
-        previously presented (Figure 7, legend) [ 33 34 ] .
-        Moreover this difference in density and orderliness cannot
-        be attributed to subtle experimental variations from
-        preparation to preparation: of 21 control images containing
-        more than one nanoaggregate, 18 contained nanoaggregates
-        both above and below the median density (see Discussion).
-        Thus the latter hypothesis presented above appears to be
-        the valid one: spontaneous receptor aggregates are
-        heterogeneous, with some showing well ordered structure and
-        others none at all.
+        
+          Increased Expression of CD36 Specifically in Proximal Tubules of Human Diabetic
+          Kidneys Is Associated with TED
+          Using microarray-based gene expression profiling on whole kidney RNA together with
+          supervised clustering methods, we previously identified and validated gene expression
+          patterns for molecular classification of diabetic mice with albuminuria and mesangial
+          expansion [5]. Reduced renal mRNA levels of the class B scavenger receptor CD36 were
+          characteristic for diabetic mice with albuminuria [5]. Here we examined patterns of CD36
+          protein expression in kidneys of non-diabetic and diabetic mice and humans. CD36 protein
+          was detectable in the thick ascending limb of loop of Henle and in the collecting duct,
+          and absent in proximal tubules in both control and diabetic mouse kidneys (Figure 1A–1D).
+          In contrast, CD36 was detectable only rarely in individual proximal tubular cells in
+          sections from non-diabetic human kidneys (controls) (Figure 1E and 1H), but was markedly
+          increased specifically in PTECs in human diabetic kidneys (Figure 1F and 1I). In
+          addition, we did not observe increased proximal tubular CD36 expression in kidney biopsy
+          samples from patients with FSGS (Figure 1J), that were matched with DNP samples for the
+          severity of proteinuria (all in the nephrotic range) and renal insufficiency (all with
+          elevated serum creatinine; 1.7–5.0 mg/dl). Semi-quantitative analysis of the distribution
+          and intensity of CD36-positive PTECs (CD36 PTEC score), which was performed by two
+          independent pathologists in a blinded manner, demonstrated that mean CD36 PTEC scores
+          were not different between FSGS kidneys and normal human kidneys, but were significantly
+          increased in DNP kidneys (Figure 1K).
+          Periodic acid–Schiff–stained sections of kidneys from mice exposed to type 2 diabetes
+          (db/db mice) for 20 wk (Figure 2A), or type 1 diabetes (STZ-treated C57BL/6J mice) for 20
+          wk (data not shown) demonstrated moderate to advanced mesangial expansion and
+          glomerulosclerosis (Figure 2A). Tubular abnormalities were not detectable in either model
+          (Figure 2A). In contrast, TED and IF were associated with moderate to advanced mesangial
+          expansion and glomerulosclerosis on kidney sections of human DNP (Figure 2B). These
+          findings indicate that in humans with DNP, diabetes-induced upregulation of CD36
+          expression in proximal tubules was associated with moderate to advanced stages of TED and
+          IF. In contrast, in diabetic mice with albuminuria, mesangial expansion, and
+          glomerulosclerosis, absence of CD36 expression was associated with normal appearance of
+          the tubular epithelium and interstitial space. These findings suggest an association
+          between diabetes-induced proximal tubular CD36 expression and TED.
+        
+        
+          Coincidence of Increased CD36 Expression and Increased Tubular Epithelial Cell
+          Apoptosis in Human DNP
+          CD36 has been shown to mediate apoptosis signaling induced by TSP-1 in endothelial
+          cells [8] and by ox-LDL in macrophages [14]. We examined whether the strong upregulation
+          of CD36 protein in PTECs, observed specifically in human DNP, was associated with tubular
+          epithelial cell apoptosis in vivo. TUNEL-positive tubular epithelial cells also stained
+          positive for CD36 protein (Figure 2D) and aquaporin1 (Figure 2C), indicating that
+          apoptosis and CD36 expression coincided in PTECs in human DNP. In contrast, CD36 was not
+          detectable in TUNEL-positive PTECs in non-diabetic FSGS kidneys and in normal human
+          kidney (data not shown). Statistical analysis showed that the rate of TUNEL-positive
+          tubular cells was significantly increased in kidneys of human DNP compared with normal
+          control human kidney (Figure 2E). In addition, tubular epithelial apoptosis was
+          increased, but highly variable, in FSGS kidneys (data not shown). In contrast, tubular
+          epithelial apoptosis rates were comparable between non-diabetic control and all diabetic
+          mouse kidneys (Figure 2E). The diabetic mouse group included 24-wk-old STZ-treated
+          diabetic C57BL/6J or 129SvJ mice (0.23 ± 0.1 TUNEL-positive cells per 100 tubular cells)
+          and 24-wk-old lepr
+          db/db mice (0.2 ± 0.1 TUNEL-positive cells per 100 tubular cells).
+          Together, these findings indicate that CD36 expression in PTECs is associated with
+          apoptotic events of proximal tubular cells and TED specifically in human DNP, but not in
+          FSGS with matched functional and clinical abnormalities. These in vivo findings
+          demonstrate a strong association of diabetes-induced CD36 expression and apoptosis in
+          PTECs in human DNP, suggesting that CD36 may play a critical role in TED by mediating
+          PTEC apoptosis in progressive human DNP.
+        
+        
+          High Ambient Glucose Induces CD36 Expression in Human PTECs
+          High ambient glucose has been shown to induce CD36 protein synthesis in macrophages
+          [9]. Because CD36 protein was markedly increased in proximal tubules in human DNP, we
+          examined the effects of high ambient glucose on CD36 mRNA and protein expression in the
+          human PTEC line HK-2 (Figure 3). Exposure of cells to 30 mM D-glucose for 24 h, but not
+          to control L-glucose, significantly increased levels of CD36 mRNA (Figure 3A), CD36 cell
+          surface protein (Figure 3C), and CD36 protein expression in cell lysates (Figure 3D). In
+          contrast, CD36 mRNA and protein were not detectable in the murine PTEC line MCT at either
+          normal or high ambient glucose concentrations (data not shown). Interestingly, glucose
+          stimulation decreased CD36 mRNA levels (Figure 3B) and CD36 cell surface protein (Figure
+          3C) in the murine collecting duct cell line M1, consistent with our previously reported
+          findings in diabetic mouse kidney [5]. Exposure of human HK-2 and murine M1 cell lines to
+          defined preparations of FFA PA or AGE-BSA had no effect on CD36 mRNA and protein
+          expression levels (data not shown). These findings demonstrate that high ambient glucose
+          causes upregulation of CD36 mRNA and protein specifically in human, but not in mouse,
+          PTECs. Together with our in vivo observations, these results suggest that hyperglycemia
+          may induce upregulation of CD36 mRNA and protein selectively in proximal tubules in
+          kidneys of human DNP, but not diabetic mice with albuminuria.
+        
+        
+          AGE-BSA, CML-BSA, and FFA PA Induce Apoptosis in Human PTECs via CD36
+          AGE albumin [15] and FFAs [16] have been implicated in the pathogenesis of diabetic
+          complications, including tubular degeneration [17] and tubular epithelial-to-mesenchymal
+          transition [18]. In addition, AGE albumin and FFA are known to interact with CD36
+          [19,20]. However, it is not known whether AGE and/or FFA can activate CD36 signaling and
+          apoptosis in tubular epithelial cells. Treatment with AGE-BSA for 2, 5, or 10 wk or with
+          CML-BSA induced a significant increase in the number of apoptotic nuclei in CD36-positive
+          HK-2 cells compared with control BSA-treated or untreated HK-2 cells (Figure 4A). In
+          contrast, AGE-BSA and CML-BSA had no effect on the rate of apoptotic nuclei in
+          CD36-negative murine MCT PTECs (data not shown). Because AGE-BSA glycated for 5 wk
+          (AGE-BSA5) induced robust apoptosis at concentrations between 20 and 40 μM (Figure 4A),
+          we chose this preparation and concentration for further analysis in all subsequent
+          experiments. AGE-BSA5-induced apoptosis was blocked when cells were preincubated with
+          neutralizing anti-CD36 antibody, while preincubation with control IgG antibody had no
+          effect (Figure 4A). These results were confirmed by DNA laddering assay (data not
+          shown).
+          Among the most abundant glucose-modified proteins detectable in the plasma of diabetic
+          individuals are CML proteins [21], which are typically present at 1.6 to 2.3 μM
+          concentrations in the plasma and urine of diabetic individuals [22,23]. To use
+          physiologically relevant CML proteins in our in vitro experiments, we prepared
+          CMLmin-BSA, characterized by glycation of approximately 30% of lysine residues [21]. When
+          applied to HK-2 PTECs at concentrations ranging from 0.5 to 10 μM, CMLmin-BSA increased
+          apoptosis rates significantly (Figure 4B). The proapoptotic effect of CMLmin-BSA was
+          blocked by CD36 neutralizing antibody, but not by control IgG (Figure 4B).
+          CD36 has been shown to transport fatty acids in adipocytes [24] and in muscle cells
+          [25]. Concentrations of FFAs may be substantially elevated, to levels of up to 700 μM, in
+          individuals with type 2 diabetes or obesity [26]. Thus, we examined the effects of
+          saturated FFA PA and monounsaturated FFA oleate on apoptosis of HK-2 PTECs in the absence
+          or presence of anti-CD36 neutralizing antibody. PA significantly increased rates of
+          apoptotic nuclei in a concentration-dependent manner in HK-2 PTECs (Figure 4C). Anti-CD36
+          neutralizing antibody, but not control IgG, blocked PA-induced apoptosis (Figure 4C). In
+          contrast, oleate did not induce apoptosis, even at concentrations as high as 300 μM
+          (Figure 4C), neither did it prevent PA-induced apoptosis (data not shown). Of note, these
+          experiments were performed using a total fatty acid:BSA ratio of 6.6:1, in order to
+          closely model pathophysiologic states in which unbound FFA concentration is high [27].
+          Taken together, our findings demonstrate that pathophysiologically relevant species of
+          AGE-BSA and CML-BSA, as well as saturated FFA PA, induce apoptosis in human PTECs at
+          concentrations previously observed in plasma and/or urine in humans with diabetes.
+        
+        
+          AGE-BSA and PA Sequentially Activate src kinase, Proapoptotic p38 MAPK, and Caspase
+          3 through CD36 Receptor
+          CD36 has previously been shown to trigger the activation of p59fyn, p38 MAPK, and
+          caspase 3 (GeneID: 836) in response to thrombospondin in endothelial cells [8]. Therefore
+          we examined phospho-src, phospho-p38 levels and caspase 3 activation in HK-2 PTECs
+          treated with AGE-BSA and PA in the absence or presence of anti-CD36 neutralizing
+          antibody. Both AGE-BSA5 and PA increased phospho-src levels rapidly (after as little as 5
+          min), and over a prolonged time interval (up to 3 h) (Figure 5A and 5B). Phosphorylation
+          of src kinase was blocked by anti-CD36 neutralizing antibody (Figure 5A and 5B). This
+          observation is consistent with previous findings demonstrating direct interaction between
+          CD36 and p59fyn [8]; however, the involvement of other src kinases cannot be excluded. We
+          also observed increased levels of phosphorylation of p38 MAPK beginning 1 to 2 h after
+          treatment, and p38 activation was also completely blocked by anti-CD36 neutralizing
+          antibody (Figure 5C and 5D). These findings indicate that CD36 activates proapoptotic p38
+          MAPK possibly via src kinase activation in human PTECs when stimulated with AGE-BSA5 and
+          PA. Chemical inhibition of p38 MAPK prevented the increase in the rate of apoptotic
+          nuclei induced by both AGE-BSA5 and PA in HK-2 PTECs (Figure 5G), indicating that p38
+          MAPK function is required for apoptosis induced by AGE-BSA and PA through CD36 receptor.
+          AGE-BSA and PA significantly increased activity of effector caspase 3 in human PTECs
+          (Figure 5E and 5F). Caspase 3 activation was blocked by anti-CD36 neutralizing antibody,
+          but not by control IgG (Figure 5E and 5F). Pan-caspase inhibitor z-VAD-fmk and the
+          specific caspase 3 inhibitor z-DEVD-fmk prevented apoptosis induced by PA and AGE-BSA,
+          while the specific caspase 9 inhibitor z-LEHD-fmk had no significant inhibitor effect
+          (Figure 5G). Together these findings indicate that CD36 receptor mediates sequential
+          phosphorylation of src kinases and p38 MAPK, leading to activation of caspase 3 and
+          apoptosis in human PTECs exposed to AGE-BSA and PA ligands. Interestingly, we did not
+          observe phosphorylation of Smad2 and p42/44 ERK MAPK under these conditions, as
+          previously reported for AGE binding to the RAGE receptor [28].
+        
+        
+          CD36 Is Sufficient to Mediate Apoptosis Induced by AGE-BSA and FFA
+          In contrast with CD36-positive human HK-2 PTECs, we found that treatment of
+          CD36-negative mouse MCT PTECs with AGE-BSA had no effect on rates of apoptotic nuclei
+          (data not shown). To test whether CD36 was sufficient to mediate AGE-BSA-induced
+          apoptosis, we transfected CD36-negative mouse MCT PTECs with a plasmid expressing human
+          CD36 or empty control vector, followed by treatment with control BSA or AGE-BSA5.
+          AGE-BSA5 treatment had no significant effect on rates of apoptotic nuclei in MCT PTECs
+          transfected with control vector (Figure 6). In contrast, AGE-BSA significantly increased
+          apoptotic nuclei compared with unglycated BSA in MCT PTECs transiently transfected with
+          CD36 expression vector (Figure 6). Nonglycated control albumin did not cause apoptosis.
+          Thus, transgenic de novo expression of human CD36 in CD36-negative mouse PTECs was
+          sufficient to mediate apoptosis induced by AGE-BSA.
+        
       
       
         Discussion
-        This work was undertaken with the expectation that the
-        ultrastructure of AChR aggregates - whether spontaneous or
-        induced by laminin-1 - would either be ordered like those
-        of agrin induced aggregates, or unordered. As often
-        transpires the experimental results lead in a direction
-        that is both more complicated and more interesting. In
-        interpreting our results it is useful to keep clearly in
-        mind the different spatial scales of observation.
-        Accordingly we have used the term "nanoaggregates" to
-        denote phenomena at the nanometer scale of resolution, as
-        distinguished from the commonly used "microaggregates"
-        which indicates aggregation observations at the micron
-        scale.
-        Laminin-1 clearly induces microaggregation of receptors
-        after 24 hours in our culture system (Figure 1). This
-        finding conflicts with a recent report based on a similar
-        approach [ 31 ] , although the differences in the system
-        may be significant. In the cited work embryonic 
-        Xenopus myocytes were cultured onto a
-        rat tail collagen substrates, which promotes cell adhesion
-        and a flattening out of the cells, and incubated at a
-        laminin concentration of up to 6 nM. The authors report
-        that control (unstimulated) cultures under these conditions
-        typically display 1-2 AChR "megaclusters" (> 40 μm) on
-        the ventral surface. In our system the myocytes are plated
-        onto clean glass coverslips, typically do not flatten out
-        on the substrate, and display only small microaggregates,
-        if any, in controls (e.g. Figure 1B). Thus the induction of
-        receptor aggregates by laminin-1 may be either
-        statistically or physiologically masked by the presence of
-        pre-existing large aggregates in the earlier work.
-        Alternatively it may be that their culture system would
-        have shown receptor aggregation at the laminin
-        concentration used in the present study (30 nm).
-        Receptor aggregates (spontaneous or induced by
-        laminin-1) are clearly not randomly distributed on a
-        nanometer scale. Instead, and like agrin induced
-        aggregates, they form discrete nanoaggregates (Figures
-        2& 3) in a manner termed heterogeneous aggregation [ 32
-        33 34 ] . The alternative, completely consistent with all
-        light microscopic evidence, would be a spatially uniform
-        and random distribution of receptors which are simply at a
-        higher density than in membrane not displaying aggregation
-        on the micron scale (homogeneous aggregation).
-        Notwithstanding this global nonrandom distribution of
-        receptors, laminin induced receptor aggregates do not show
-        evidence of the ordered structure previously found in agrin
-        induced receptor aggregates (Figure 3). Rather than a
-        nearest neighbor distance profile showing preferred
-        distances consistent with a hexagonal spacing of receptors,
-        the nearest neighbor distances within laminin induced
-        aggregates are consistent with an unstructured
-        distribution. This difference in ultrastructure parallels
-        recent reports suggesting that agrin and laminin induce
-        receptor aggregates via different mechanisms [ 29 30 31 ] ,
-        and confirms our working hypothesis that detailed analysis
-        of aggregate ultrastructure can provide important clues to
-        aggregation mechanisms.
-        With regard to spontaneous receptor aggregation, our
-        findings indicate that the weak display of structure
-        results not from uniformly weak nanoaggregate ordering, but
-        from two classes of aggregates. Those characterized by a
-        lower density of gold particle label have an
-        ultrastructural arrangement like that of agrin induced
-        receptor aggregates (hexagonal array, ~10 nm spacing),
-        while those displaying a higher density are relatively
-        unstructured and are in this respect like the
-        nanoaggregates induced by laminin-1 (Figure 7).
-        Could the presence or absence of orderly nanoaggregate
-        structure be accounted for by subtle differences in culture
-        or fixation technique from experiment to experiment, or
-        over time? If this were true we would have expected similar
-        outcomes from laminin induced and spontaneous aggregates,
-        which were not observed. Moreover this hypothesis predicts
-        that, in the case of our spontaneous aggregate experiments,
-        low and high density nanoaggregates would be found on
-        mutually exclusive sets of slides. Instead we found that
-        individual slides, and indeed individual cell images,
-        displayed both low and high density nanoaggregates.
-        Therefore we conclude that differences in structure cannot
-        be attributed to unintended variations in treatment, and
-        are instead due to real differences in the physiological
-        events resulting in aggregation.
-        At first glance it may seem surprising that it is the 
-        lower density nanoaggregates - as
-        measured by gold particle density - which present a more
-        ordered ultrastructural arrangement. For that matter, since
-        the ordered nanoaggregates are packed at nearly the maximal
-        possible density [ 33 ] , how can other nanoaggregates have
-        a significantly higher density (Table 1)? The resolution of
-        this apparent paradox resides in the distinction between
-        differences in gold particle density (which are observed),
-        and the underlying receptor density (which must be
-        inferred). As previously reported, the labeling paradigm
-        used here precludes the labeling of adjacent receptors in
-        hexagonally arranged nanoaggregates [ 33 ] . This means
-        that gold particle density can actually be increased in
-        lower receptor density, unordered aggregates (Figure 8). In
-        fact the maximum possible increase in receptor density from
-        a 9.9 nm hexagonal array, assuming a receptor diameter of
-        8.5 nm, is about 33% - significantly less than that seen
-        for the gold particle density differences in Table 1. Thus
-        the only interpretation that can be given to our findings
-        is that the receptor density within nanoaggregates is
-        actually higher in those induced by agrin than those
-        induced by laminin. Furthermore it is the higher receptor
-        density (lower particle density) spontaneous aggregates
-        which, like agrin induced aggregates, show a regularly
-        ordered structure.
-        As discussed previously there is growing evidence for at
-        least two mechanistic pathways of AChR aggregation. One of
-        these is characteristic of agrin, which involves the
-        phosphorylation of MuSK and the receptor as well as the
-        colocalization of α-Dystroglycan, and in our studies
-        produces a regularly ordered structure. The second is
-        exemplified by the stimulus of laminin-1 which does not
-        involve receptor or MuSK phosphorylation or α-Dystroglycan
-        colocalization [ 29 30 31 ] , and does not result in an
-        ordered structure within nanoaggregates. We will denote the
-        former as the agrin pathway without caveat, as agrin has
-        clearly been shown to play an important physiological role
-        in receptor aggregation and synapse formation 
-        in vivo. The latter we will term the
-        laminin pathway for convenience, but with an understanding
-        that the term may be misleading as the physiological role
-        for laminin has not been established. In particular it has
-        not been determined whether the role of laminin-1 is
-        instructive or simply permissive with respect to receptor
-        aggregation.
-        Into the agrin pathway we can add neuraminidase and
-        elevated calcium based on the biochemical criteria [ 24 ] ,
-        and competition studies suggest that electric fields also
-        induce receptor aggregation via the agrin pathway [ 35 37 ]
-        . Other stimuli may later be added to either the agrin or
-        laminin pathway, and one prediction from the present work
-        is that classification based on biochemical mechanism and
-        ultrastructural arrangement will be found to be mutually
-        consistent.
-        This brings us to a consideration of the dichotomous
-        nature of spontaneous aggregates with respect to structure,
-        and presumably with respect to the mechanism of aggregate
-        formation. What is to be made of the existence of these two
-        classes of nanoaggregates? The most likely interpretation
-        is that low level aggregation occurs spontaneously (laminin
-        pathway), and that in a fraction of these events the
-        maturation of nanoaggregates then transpires, resulting in
-        ordered structure (agrin pathway). The size of this
-        fraction is presumed to be smaller than that actually
-        detected because the established aggregates are expected to
-        have a longer lifetime in the plasma membrane. An
-        alternative interpretation holds that spontaneous receptor
-        aggregation proceeds along the agrin pathway, producing
-        ordered aggregate structure, and that absent some
-        confirming signal these decay into unstructured aggregates
-        which are then detected as part of the population. If the
-        biochemical and structural data do indeed coincide, this
-        would also involve the removal of colocalized
-        α-Dystroglycan and the dephosphorylation of MuSK in the
-        nanoaggregates environment. In point of fact the unordered
-        aggregates detected in our experiments could result from
-        both immature and senescent aggregates, although the latter
-        would be expected to have very short lifetimes and
-        therefore be difficult to detect.
-        Finally our present work leads us to speculate, pending
-        further results, that the present classification of
-        aggregation pathways may also map onto more functional
-        concepts, such as "preliminary induction" (the laminin
-        pathway) and "maturation and stabilization" (the agrin
-        pathway; see also [ 38 ] ). This tentative classification
-        is based principally on the observation that agrin, in the
-        absence of laminin, gives rise to structured receptor
-        nanoaggregates, so that it seems in a sense to be a
-        complete stimulus, while laminin-1 appears to take
-        receptors only part of the way toward mature and stabile
-        receptor aggregates, based on structure and additional
-        criteria already discussed. Others have hypothesized
-        alternatively that laminin plays a role in aggregate
-        stabilization, based largely on the difference in mechanism
-        and on the longer response time for laminin as opposed to
-        agrin [ 30 ] . These opposing possibilities are equally
-        speculative, and their sorting out will require further
-        experimental examination.
+        Advanced diabetic nephropathies in humans with type 1 or type 2 diabetes are uniformly
+        characterized by TED, or tubular atrophy, and IF leading to renal failure [29,30]. Although
+        TED and IF are the strongest predictors for progression of DNP [31], mechanisms that
+        underlie TED in DNP remain poorly understood. Based on our in vitro and in vivo findings we
+        propose a two-step metabolic hit model for TED in DNP. High ambient glucose, but not AGE or
+        FFA, cause stimulation of CD36 expression in PTECs specifically in diabetic kidneys.
+        Increased CD36 expression mediates sequential activation of src kinase, proapoptotic p38
+        MAPK, and caspase 3 in PTECs in the presence of AGE and FFA PA, resulting in PTEC
+        apoptosis. Proximal tubular epithelial apoptosis may be an initial mechanism for TED in
+        DNP.
+        Our conclusions are supported by several key observations. First, we identify a new
+        functional role for CD36 as an essential mediator of proximal tubular epithelial apoptosis,
+        inducible by AGE-BSA, CMLmin-BSA, and FFA PA. Previous reports demonstrated a role for CD36
+        in mediating apoptosis induced by TSP-1 in endothelial cells and ox-LDL in macrophages
+        [8,14]. In the present study, we show for the first time, to our knowledge, that CD36
+        mediates apoptosis in differentiated epithelial cells that are exposed to AGE-BSA-,
+        CMLmin-BSA-, and FFA-induced metabolic injury characteristic of the diabetic milieu.
+        Interestingly, AGE albumins and CML are present in the urine of individuals with diabetes
+        with albuminuria due to DNP and have been shown to bind proximal tubular epithelium
+        [22,32]. While the presence or absence of FFAs in the urine of diabetics with DNP has not
+        been determined to date, FFAs may cause tubular apoptosis [33]. It remains to be determined
+        whether FFA interacts with CD36 to activate CD36 receptor signaling, or whether CD36
+        mediates FFA uptake to activate src kinase and p38 MAPK signaling. Irrespective of the
+        upstream mechanism of FFA and CD36 interaction, our results demonstrate very rapid
+        activation of a well-characterized intracellular kinase cascade of proapoptotic signaling.
+        Our finding that AGE-BSA and PA induce apoptosis through a CD36-mediated and p38- and
+        caspase-dependent mechanism in tubular epithelial cells, similar to TSP-1 and ox-LDL in
+        endothelial cells and macrophages, respectively, suggests that multiple, context-dependent
+        extracellular stimuli of apoptosis may converge on CD36 scavenger receptor to activate src
+        kinase and proapoptotic p38 MAPK pathway. In the context of the diabetic milieu and
+        diabetic complications, our findings provide new molecular insights into diabetes-induced
+        AGE- and FFA-dependent injury of renal epithelial cells.
+        Almost all TUNEL-positive apoptotic tubular epithelial cells showed increased expression
+        of CD36, suggesting a strong correlation between upregulation of CD36 expression and
+        increased apoptosis in PTECs specifically in human diabetic kidney in vivo. Importantly,
+        biopsy samples from cases of FSGS that were matched for degree of proteinuria, renal
+        function, and hypertension were characterized by TED, IF, and increased tubular epithelial
+        apoptosis; however, proximal tubular CD36 expression was similar to that in normal human
+        control kidney. Therefore, CD36 expression in PTECs is specifically associated with the
+        diabetic condition and appears to be independent of degree of proteinuria and renal
+        failure. Indeed, increased CD36 expression in PTECs in human DNP in vivo may be caused by
+        hyperglycemia, as we show that high glucose concentration stimulates CD36 expression in
+        vitro. It is intriguing that CD36 expression was not detected in PTECs in diabetic mice
+        with longstanding hyperglycemia in vivo, although underlying mechanisms for the
+        species-dependent differential regulation of CD36 in PTECs in vivo and in vitro between
+        mouse and human remain unclear at this time. Comparisons of human 
+        CD36 and mouse 
+        Cd36 genes indicate a high degree of sequence and structural similarity
+        in both coding and regulatory regions, suggesting that the mechanism or mechanisms that
+        underlie our findings are likely determined by sequence-independent, epigenetically
+        distinct response patterns to the diabetic milieu that differ between these species. It is
+        also possible that dietary or metabolic factors account for the differences in CD36
+        expression, as mice were maintained on standard mouse chow characterized by significantly
+        lower fat and cholesterol contents than typical western diets consumed by humans. However,
+        dietary or other unknown environmental factors cannot explain the differential CD36
+        regulation by glucose in human and mouse PTECs. Thus, we are exploring whether biochemical
+        or functional differences between mouse and human PTECs in glucose metabolism or
+        glucose-induced signaling can be identified. However, current lack of understanding of the
+        observed differential regulation between human and mouse does not diminish the
+        translational research significance of our findings, with their clear therapeutic
+        implications. Thus, the present study identifies a new CD36-dependent molecular signaling
+        pathway that mediates tubular epithelial apoptosis, and may underlie TED and IF, hallmarks
+        of disease progression, specifically in human diabetic nephropathy.
+        Third, to our knowledge, our report provides the first controlled study demonstrating
+        increased apoptosis specifically in PTECs in DNP with TED and IF. These findings are
+        consistent with a recent uncontrolled case series of five patients with DNP [34], and with
+        previous reports demonstrating tubular apoptosis in kidneys of STZ-treated diabetic rats
+        [35,36]. Interestingly, our study shows that tubular epithelial apoptosis was associated
+        with TED and IF in human DNP, while normal appearance of tubular epithelium and
+        interstitium was associated with baseline apoptosis rates in diabetic mouse models.
+        Together, published observations from experimental diabetes models in mouse and rat, and
+        human DNP, and our own findings in diabetic mouse models and human DNP, suggest a striking
+        association of TED and tubular epithelial apoptosis. However, whether tubular epithelial
+        apoptosis causes TED in DNP will require further investigation. Interestingly, acute and
+        chronic chemical inhibition of caspase activity in a nephrotoxic serum nephritis model of
+        chronic progressive glomerulonephritis with TED and IF reduced tubular apoptosis and TED
+        [37]. Decreased tubular apoptosis and TED were associated with significantly reduced IF and
+        decreased collagen synthesis in this model. This finding suggests that tubular epithelial
+        apoptosis may trigger TED and IF in this model of chronic glomerulonephritis in rat, and
+        supports our conclusions that diabetes-induced tubular epithelial apoptosis may underlie
+        TED associated with IF in human DNP.
+        In conclusion, we report a new functional role for CD36 scavenger receptor in tubular
+        epithelial apoptosis associated with tubular degeneration and progression of DNP.
+        Specifically, we show for the first time that both AGE and FFA PA induce PTEC apoptosis
+        through CD36-mediated activation of src kinase, p38 MAPK, and caspase 3. Because high
+        glucose stimulates CD36 expression in human PTECs and because CD36 expression is increased
+        in apoptotic tubular epithelial cells in human DNP, we propose a two-step metabolic hit
+        model relevant for TED, a hallmark of progression of human DNP.
       
       
-        Conclusions
-        1. Receptor rich cell membranes show non-random
-        distributions of receptors whether they are spontaneous or
-        stimulated via agrin or laminin. This confirms the visual
-        impression that receptors are organized into very dense
-        nanoaggregates which are too small to be resolved at the
-        level of light microscopy.
-        2. Despite the forgoing similarity, the ultrastructural
-        arrangement of receptors within nanoaggregates depends on
-        their genesis. Agrin induced receptor aggregates lie on a
-        hexagonal array with a spacing of ca. 10 nm, while
-        laminin-1 induced microaggregates display an irregular or
-        unstructured configuration.
-        3. Spontaneous nanoaggregates, taken as a whole, are
-        found to be intermediate in degree of order, evidencing
-        more ordered structure than laminin-1 induced aggregates,
-        but less than agrin induced aggregates. Further analysis
-        shows that this is the result of two populations of
-        nanoaggregates in unstimulated cells; a) a population with
-        high receptor density and orderly structure, and b) a
-        population with lower receptor density and disorderly
-        structure.
-        4. Differences in the ultrastructural arrangement of
-        acetylcholine receptors within aggregates parallel the
-        different geneses of aggregation, and provide important
-        clues respecting the mechanisms of aggregation.
-      
-      
-        Materials and Methods
+        Supporting Information
         
-          Cell culture
-          Embryonic 
-          Xenopus laevis muscle cell cultures
-          were prepared according to previously described methods [
-          15 ] . In brief somites were dissected from stage 17-19
-          embryos in collagenase/Steinberg's solution, dissociated
-          in Ca +2Mg +2free Steinberg's, and cultured on sterile
-          round (12 mm) coverslips with a small drop of medium (85%
-          Steinberg's solution, 10% Leibovitz's L-15 medium, 5%
-          fetal bovine serum, 50 μg/ml Gentamycin, pH 7.8).
-          Cultures were maintained in plastic petri dishes within a
-          humidified darkened chamber (23°C) for 24 hours before
-          experimentation.
-        
-        
-          Immunolabeling and high resolution
-          preparation
-          Muscle cell cultures were treated for 24 hours with
-          laminin-1 (30 nM, Sigma L2020), 2 hours with 10%
-          Agrin(4,8) [ 33 ] , or left in medium only (controls),
-          rinsed briefly and fixed in 1% paraformaldehyde / 0.02%
-          glutaraldehyde containing 150 mM sucrose, 10 mM CaCl 
-          2 , and 10 mM MgCl 
-          2 in deionized water for 25 minutes
-          (22°C). After rinsing in medium diluted 1:1 with 280 mM
-          sucrose and 0.08% NaN 
-          3 in water, cells were labeled with
-          600 nM α-Bungarotoxin-biotin (Molecular Probes, Eugene,
-          OR) followed by immunocytochemical detection (mouse
-          monoclonal anti-biotin, 1:500; goat anti-mouse IgG-12 nm
-          gold, 1:10; Jackson ImmunoResearch Labs, West Grove, PA).
-          Controls used were: 1) α-Bungarotoxin only, 2) no
-          α-Bungarotoxin, 3) no anti-biotin and 4) no goat
-          anti-mouse IgG-gold. No gold was seen in controls 1 and
-          4, and only an occasional gold particles were observed in
-          controls 2 and 3 (0.16 gold particles/μm 2on average). In
-          some experiments cells were labeled in the first instance
-          with both rhodamine and biotinylated α-Bungarotoxin,
-          followed by the secondary steps outlined above. This
-          permitted viewing and mapping of AChR aggregates for
-          selected study at the SEM level.
-          In order to limit cell shrinkage and membrane
-          distortion in these cells a four-step postfixation (30
-          minutes per step) was employed. 1) 1% paraformaldehyde
-          and 0.02% glutaraldehyde containing 0.15 M sucrose; 2) 1%
-          paraformaldehyde / 0.2% glutaraldehyde containing 0.15 M
-          sucrose; 3) 1% paraformaldehyde / 1% glutaraldehyde
-          containing 0.15 M sucrose; 4) 1% paraformaldehyde / 2%
-          glutaraldehyde containing 0.19 M sucrose. Cells were
-          rinsed sequentially in 0.2 M and 0.1 M sodium cacodylate
-          buffer (pH 7.4) and postfixed in 1% OsO 
-          4 in 0.1 M sodium cacodylate for 30
-          minutes. After rinsing in the same buffer cells were
-          dehydrated in a 10% increasing graded ethanol series (5
-          mins each) to 100% and critical point dried in a Tousimis
-          Autosamdri Critical Point Dryer. Critical point dried
-          coverslips were mounted on stubs and sputter coated with
-          a very light layer of gold/palladium at 10 mAmp for 5-7
-          seconds using a Hummer II Sputter Coater.
-        
-        
-          Data collection and quantitative analysis
-          Coverslips were examined with an Hitachi S-800 Field
-          Emission scanning electron microscope using a Robinson
-          backscattered detector. SEM working parameters included:
-          accelerating voltage = 15 kv; specimen stage = zero tilt;
-          working distance = 6 mm. Cell membrane areas were sampled
-          as follows: 1) Cells were observed at a magnification of
-          5,000 with both secondary electron imaging and
-          backscattered electron imaging (BEI). Cells were selected
-          for minimal membrane shrinkage and BEI background noise.
-          2) These cells were then scanned briefly at 100,000
-          magnification to determine if cell membrane morphology
-          was consistent and whether gold label was present.
-          Subsequently regions of membrane rich in gold-labeled
-          receptors were scanned as backscattered digital
-          micrographs. For the digital montage figure a series of
-          overlapping images were taken and subsequently merged
-          digitally. Backscattered electron images taken from
-          laminin-1 treated and control cells were imported into
-          Mathematica ®for quantitative analysis. Gold particles
-          were located either by eye and computer mouse or by
-          software using image convolution for automated detection
-          (Appendix). Comparison of the two methods showed no
-          significant differences with respect to the reported
-          observations. Scale bar lengths were marked by hand to
-          convert {x,y} coordinates into a nanometer scale. The
-          estimated error from digitization and marking was less
-          than 2 nm.
-          The coordinates were used to generate frequency
-          histograms of nearest neighbor distances(see [ 32 33 34 ]
-          ). These were compared to data reported previously for
-          agrin induced receptor aggregates and to simulations
-          found to account for these earlier observations, as well
-          as the predicted probability density function for
-          randomly distributed particles:
-          
-          where ρ is the density, D is the nearest neighbor
-          distance, and h is the spatial hindrance (the closest two
-          particles can approach).
-          The analysis was also used to identify nanoaggregates,
-          defined as a set of 4 or more particles which can be
-          connected by chords • 50 nm. Four measurements were
-          performed and compared with respect to nanoaggregates:
-          size, density, area/perimeter ratio, and diameter ratio.
-          Aggregate size is defined as the number of gold particles
-          present. Aggregate density is the number of gold
-          particles (not receptors) per μm 2. This calculation
-          requires a definition of the perimeter - a boundary lying
-          somewhere between the points included in the
-          nanoaggregates and those excluded. A margin of 10 nm from
-          included receptors was arbitrarily chosen.(see Figure 5).
-          Because of the necessarily arbitrary rendering of the
-          perimeter, the density measurements (and the
-          area/perimeter ratio described below) are useful only for
-          comparisons within experiments described here. The next
-          two measurements were designed to characterize the shape
-          of nanoaggregates in a dimension indicating more linear
-          (tending to 0) or more circular (tending to1). They were
-          both employed in the thought that they depend on
-          different assumptions about geometry, and might show
-          different results. The normalized area/perimeter ratio
-          was calculated from the perimeter (P) and its encompassed
-          area (A) by the equation
-          
-          The diameter ratio was calculated as the diameter of a
-          circle which could just contain the number of particles
-          at the measured density (rearranged to minimize the
-          perimeter) divided by the diameter of the smallest
-          circle, centered at the center of mass, which just
-          contains the particles in their actual configuration.
-          This is calculated as
-          
-          where A is the observed area and d 
-          max is the maximal diameter of the
-          aggregate. Both of these measures return a value of 1.0
-          for perfectly spherical aggregates and approach 0.0 as
-          the aggregates become increasingly linear.
-          The significance of the differences between
-          distributions was determined by the Pearson χ 2statistic.
-          Because of inherent redundancies in nearest neighbor
-          distributions, the data (and simulations) were reduced
-          prior to comparison (see Appendix).
+          Accession Numbers
+          The LocusLink (http://www.ncbi.nlm.nih.gov/LocusLink/) accession numbers for the gene
+          products discussed in this paper are caspase 3 (GeneID: 836), CD36 (GeneID: 948), MAPK
+          (GeneID: 1432), p42/44 ERK MAPK (GeneID: 50689), p59fyn (GeneID: 2534), and Smad2
+          (GeneID: 4087).
         
       
     

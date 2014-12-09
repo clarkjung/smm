@@ -2,530 +2,211 @@
   
     
       
-        Background
-        An emerging pattern found in gene and protein
-        phylogenies that include prokaryotes (archaebacteria and
-        eubacteria) and eukaryotes is the variable position of
-        eukaryotes. In proteins involved in transcription and
-        translation, eukaryotes often cluster with archaebacteria
-        whereas in metabolic proteins they often cluster with
-        eubacteria [ 1 ] . Among the latter proteins, eukaryotes
-        sometimes group with α-proteobacteria, presumably
-        reflecting the origin of mitochondria, and plants sometimes
-        cluster with cyanobacteria, reflecting the origin of
-        plastids. These patterns have been interpreted as a general
-        signature of the symbiotic origin of eukaryotes [ 2 3 ] and
-        horizontal gene transfer (HGT) of symbiont genes to the
-        nucleus [ 4 5 6 7 8 9 ] . On the one hand, this complexity
-        resulting from HGT can obscure some aspects of evolutionary
-        history [ 8 ] . However, HGT also can provide the means to
-        investigate otherwise difficult questions, such as
-        inferring the number of symbiotic events and estimating the
-        time of those events. This is the approach that we take in
-        this study.
-        The goal of this study is to estimate the timing of
-        evolutionary events involved in the origin of eukaryotes
-        (Fig. 1), including the related origin of oxygenic
-        photosynthesis. The latter is believed to have occurred
-        only in cyanobacteria [ 10 ] and preceded the symbiotic
-        event leading to the mitochondrion of eukaryotes. The
-        earliest biomarker evidence of eukaryotes is at 2.7 Ga [ 11
-        ] and the earliest fossils appear 2.1 Ga [ 12 ] . The
-        fossil record of cyanobacteria has been argued to extend to
-        3.5 Ga [ 13 ] but the biomarker evidence at 2.7-2.8 Ga [ 14
-        15 ] usually is considered to be the earliest record of
-        cyanobacteria [ 10 ] . However, the 2-methylhopane
-        biomarker of cyanobacteria has been detected in lower
-        abundance in other prokaryotes, and many taxa (especially
-        anaerobic species) have not been examined for the biomarker
-        [ 15 16 17 ] . Also, the origin of oxygenic photosynthesis
-        may have occurred at some time later than the origin of
-        cyanobacteria. Geologic evidence bearing on the origin and
-        rise in oxygen likewise has been debated [ 18 19 ] .
-        Although the existence of banded iron formations prior to 3
-        Ga sometimes has been used as evidence for the early
-        evolution of oxygenic photosynthesis, oxygen-independent
-        mechanisms of iron deposition are known [ 20 ] .
-        The use of sequence changes to estimate the time of
-        these early events also has its assumptions and limitations
-        [ 21 22 23 ] . Nonetheless, many proteins contain conserved
-        regions of amino acid sequence throughout prokaryotes and
-        eukaryotes that permit alignment and analysis. The most
-        extensive of these analyses have found that all major
-        events related to the origin of eukaryotes occurred about
-        2.0-2.2 Ga [ 5 21 ] . This includes the divergence of
-        archaebacteria and archaebacterial proteins in eukaryotes,
-        the origin of cyanobacteria, and the divergence of
-        eubacteria and eubacterial proteins in eukaryotes (the
-        latter presumably reflecting symbiosis). However, these
-        times were not adjusted for lineage-specific rate
-        differences that have been discovered subsequently [ 23 ] .
-        Here, we estimate the time of these events with protein
-        sequences from complete genomes and consideration of
-        lineage-specific rate variation.
+        
+        Harrowing tales of starvation and endurance epitomize Antarctica's “heroic age,” when
+        men equipped with little more than fortitude struggled against a landscape seemingly
+        designed to thwart their intentions. A menacing sea ice figures prominently in these
+        improbable survival stories. Daunting to early-20th-century explorers—trapping (and
+        ultimately crushing) Ernest Shackleton's 
+        Endurance and derailing Robert Scott's 1901 
+        Discovery expedition—the seasonal pack ice is the lifeblood of
+        Antarctica's marine ecosystem.
+        But as winter temperatures continue to climb in the Antarctic, the once-forbidding
+        winter sea ice is starting to deteriorate. The ice pack is forming later and retreating
+        earlier—and it's having a serious impact on the abundance of krill, the backbone of the
+        Antarctic food chain.
+        “Sea ice is the engine that drives Antarctic ecosystems,” says William Fraser, a
+        principal investigator for the Palmer Long Term Ecological Research program (LTER) and
+        president of Polar Oceans Research Group in Montana. “Many of the key species that govern
+        ecosystem dynamics in the Antarctic have life histories that depend on the availability of
+        winter sea ice. The most important species in most sectors of Antarctica is krill.”
+        A major food source for Antarctic fish, penguins, pelagic seabirds, seals, and whales,
+        krill (
+        Euphausia superba ) look like shrimp, but weigh just a gram as
+        adults and measure about six centimeters long (Figure 1). Norwegian for “whale food,” krill
+        aggregate in super-swarms that can reach a density of 30,000 individuals per square meter,
+        attracting whales, which can eat three tons of krill in a single feeding, and fisheries,
+        which net on average 100,000 metric tons per year.
+        The waters off the Antarctic Peninsula favor high krill concentrations. “Once you get
+        into extreme environments such as the Southern Ocean, diversity will decrease but the
+        number of individuals will increase because the production can be very high,” says Scott
+        Gallager, a marine biologist at Woods Hole Oceanographic Institution (Woods Hole,
+        Massachusetts, United States).
+        Production is particularly high along the sea ice edge, he says, because the ice is
+        thinner, which allows more sunlight to penetrate, and because ocean mixing processes along
+        the continental shelf cause an upwelling of nutrient-rich deep water. Increased nutrients
+        support increased primary production along the ice edge. “If ice forms too late,” says
+        Gallager, “you don't get this higher production, which impacts zooplankton populations like
+        the larval krill that graze the under-ice surface, feeding on ice algae. The ice edge is an
+        absolutely critical habitat, a nursery, for larval krill.”
+        But this krill hotspot is showing some of the most dramatic changes in sea ice extent.
+        Fraser says the western Antarctic Peninsula has registered the “largest increase in
+        temperatures on the planet”—on the order of 6 degrees Celsius—over the past 50 years. This
+        warming trend, he says, has been particularly pronounced during the winter—“crunch time”
+        for many key Antarctic species.
+        “There was a time when almost every winter experienced very heavy sea ice,” Fraser says,
+        “reaching out into the Drake Passage.” Where once heavy sea ice would form on average four
+        out of every five years, he says, now it forms just one or two years out of five (Box 1).
+        In a typical year, ice starts to form in the coldest regions along the southern coast in
+        late March/early April (austral fall), then works its way up the coast. But late ice years
+        are becoming more common, with ice forming two to three weeks later. “These patterns are
+        completely different from patterns that existed as recently as 30 to 40 or 50 years ago,”
+        says Fraser. “The whole system is becoming unhinged as a result of this enormous
+        warming.”
       
       
-        Results
-        
-          Rate differences
-          The shape parameter (α) of the gamma distribution used
-          to account for rate variation among sites was found to
-          differ consistently between calibration taxa and the
-          overall data set for each gene (Fig. 2), requiring a
-          dual-gamma approach (see Methods). Also, eukaryotic
-          protein sequences were found to have an increased rate of
-          evolution compared with prokaryotic sequences regardless
-          of their archaebacterial or eubacterial origin (Fig. 3A).
-          Average eukaryote rates were 1.37 (AK), 1.18 (BK-o), and
-          1.38 (BK-m) times the rate of the most closely related
-          prokaryote in constant rate proteins (1.55, 1.24, and
-          1.56 in all proteins, respectively). Besides this general
-          pattern, which may reflect fundamental differences
-          between prokaryotes and eukaryotes (e.g., recombination),
-          there are further differences among eukaryotes. In
-          comparing rates of evolution in eukaryotic sequences
-          derived independently from eubacteria and archaebacteria
-          in the same protein, those derived from eubacteria (in
-          all cases, BK-o) were found to be evolving at roughly
-          twice the rate as their archaebacteria-derived
-          counterparts (Fig. 3B). The slope was 2.01 and the
-          correlation coefficient was 0.54 (n = 14 comparisons in
-          seven proteins).
-          Two other rate comparisons were limited by a small
-          number of proteins: eubacteria versus eukaryotes (K 
-          A ) and eubacteria versus
-          archaebacteria. Only three proteins were available in the
-          first comparison and all three showed a faster rate in
-          eukaryotes (1.43, 1.12, 1.23; x = 1.26). This result
-          differs from that reported elsewhere [ 23 ] , in which
-          the two rates were not significantly different. In the
-          second case, we found that archaebacteria are evolving at
-          a slower rate than eubacteria, as was noted elsewhere [
-          23 ] . In our case, regression of archaebacterial branch
-          length versus eubacterial branch length, fixed through
-          the origin, resulted in a slope of 0.93 and correlation
-          coefficient of 0.65 (n = 9 proteins). However, in both of
-          these comparisons, rate tests did not yield significant
-          rate differences probably because of the short length of
-          most proteins. Sample size (eight protein sets) also was
-          limited in the Kollman and Doolittle study [ 23 ] . Taken
-          together these data suggest the following relative order
-          of rate differences: archaebacteria < eubacteria <
-          eukaryotes (archaebacterial origin) < eukaryotes
-          (eubacterial origin). As additional genomic data become
-          available, more proteins will be useful and greater
-          precision in these rates and rate differences will be
-          possible.
-        
-        
-          Phylogeny and time estimation
-          It has been suggested that eukaryotic genes and
-          proteins of archaebacterial origin are more closely
-          related to one lineage of archaebacteria (Crenarchaeota;
-          "eocytes") than the other major lineage (Euryarchaeota) [
-          24 ] . If true, this would bear on our time estimate for
-          the divergence of archaebacteria and eukaryotes. Thus, we
-          conducted a phylogenetic analysis of 72 proteins
-          containing representatives of the two major groups of
-          archaebacteria, eukaryotes, and eubacteria. At the 95%
-          bootstrap significance level, 19 proteins supported
-          archaebacterial monophyly whereas none supported the
-          eocyte hypothesis (Crenarchaeota + Eukaryota). This
-          indicates that the lineage of archaebacteria leading to
-          the eukaryote nuclear genome diverged prior to the split
-          between the Crenarchaeota and Euryarchaeota. As noted
-          previously [ 1 ] , most (in this case, 21 out of 36)
-          eukaryotic proteins with archaebacterial affinity are
-          informational (involved in transcription, translation,
-          and related processes).
-          Among 41 eukaryotic proteins with eubacterial
-          affinities, 
-          Rickettsia is most closely related
-          to eukaryotes in phylogenetic analyses of nine individual
-          proteins. This agrees with the genetic and cell
-          biological evidence implicating an α-proteobacterium as
-          progenitor of the mitochondrion [ 25 ] and supports the
-          hypothesis that these nine eukaryotic proteins owe their
-          origin to that symbiotic event [ 2 ] . However, the
-          remaining 32 proteins do not show this pattern but
-          instead identify other species or groups of eubacteria as
-          closest relative. Unlike 
-          Rickettsia , no other single
-          species appears as closest relative in more than three
-          proteins, but rather most (19/32 proteins) identify
-          groups of species as closest relative (e.g, Fig. 4A). To
-          further explore this question we combined sequences of
-          all 11 proteins with a full representation of eubacterial
-          taxa (11 species). In the combined analysis, eukaryotes
-          fall significantly outside of the well-defined clade
-          containing α- and γ-proteobacteria (Fig. 4B). The
-          relatively basal and unresolved position of eukaryotes is
-          consistent with the preponderance of single proteins
-          showing different groups of species as closest relative.
-          Three individual proteins showed significant bootstrap
-          support for a 
-          Rickettsia -eukaryote cluster in
-          four-taxon analyses (rooted with an archaebacterium)
-          whereas four proteins significantly supported a 
-          Rickettsia-Escherichia cluster that
-          excluded the eukaryote.
-          Divergence time estimates from the multigene (MG) and
-          average distance (AD) approaches are similar, but
-          rate-adjusted times are older than unadjusted times
-          (Table 1). The time estimate for the AK divergence
-          averages 4.0 Ga and the remaining times range from 1.8 to
-          2.7 Ga. The time estimate for BK-o (2.7 ± 0.20 Ga) was
-          older than the estimate for BK-m (1.8 ± 0.20 Ga) whereas
-          the time estimate for the origin of Giardia (2.2 ± 0.12
-          Ga) was intermediate. The BC time estimate was 2.6 ± 0.26
-          Ga.
-        
+        Retreating Sea Ice and Krill Declines
+        In November 2004, the most comprehensive study to date of krill distribution and
+        abundance in the Southern Ocean reported a catastrophic drop in krill numbers. Angus
+        Atkinson, a marine biologist with the British Antarctic Survey, led the study. “We pulled
+        together all the net samples we could lay our hands on that had been obtained in the
+        Southern Ocean over the last 80 years,” Atkinson says, analyzing nearly 12,000 krill summer
+        net hauls taken from 1926–1939 and from 1976–2003.
+        “The Southern Ocean is an enormous area, and at least half of krill stocks were in this
+        comparatively narrow sector between South Africa and the Antarctic Peninsula,” he says. His
+        team found a positive correlation between winter sea ice cover and the abundance of krill
+        the following summer. There's evidence of a general decline in winter sea ice extent and
+        duration, Atkinson says, and of a general decline in krill populations—down 80% over the
+        past 30 years—over the entire southwest Atlantic sector.
+        Though krill populations showed big fluctuations in the early years, their average
+        numbers were higher over a longer period, explains Volker Siegel, a krill biologist with
+        the Sea Fisheries Research Institute in Hamburg, Germany, who worked with Atkinson. “Where
+        in the early days you might have 100 krill per square meter on average—with fluctuations
+        between, say 20 and 300—nowadays you might see 20 per square meter, which goes from 50 to
+        five individuals per square meter.”
+        Neither Atkinson nor Siegel can say for sure what's causing the decline, but both say
+        the winter sea ice is clearly playing some role. Krill live about five to six years. During
+        the breeding season, from December to March, embryos are released in the upper water
+        column, and the larvae hatch at depths ranging from 400 meters to 1,500 meters, unlike many
+        fish and other invertebrate larvae, which hatch at the surface. Larvae then have to swim up
+        through the water column to reach the sea surface. Unlike adults, krill larvae don't have
+        enough body fat to carry them through food shortages. “They'll starve if they have to rely
+        on water-column food distributions, and that's where the sea ice comes in,” says Atkinson.
+        “The ice may also shelter them from predators, but one way or another, ice in the winter is
+        good for young krill.”
+        “We've got to find out what's causing these changes and then we can start to predict
+        what's going to happen with future scenarios of climate change,” Atkinson says. “The other
+        thing we've got to do is look at alternative things which might be affecting krill. We
+        might find there are other things declining as well as sea ice, such as their food, or
+        there might be a change in the fertilization of the waters.”
+        Accompanying the drop in krill abundance, Atkinson and Siegel found an increase in
+        salps, transparent jelly-like creatures that typically inhabit warmer waters than krill.
+        Expanding into the warmer waters, salp populations are increasing in the southern part of
+        their range and replacing the krill. Most krill-dependent predators do not eat salp.
       
       
-        Discussion
-        The purpose of this study was to examine the temporal
-        relationship between the origin of eukaryotes and events in
-        Earth history. However, some unexpected results required
-        refinement in methodology. These included finding greater
-        among-site rate variation in the calibration group and
-        different rates of sequence change between prokaryotes and
-        eukaryotes, and between eukaryotes derived from different
-        groups of prokaryotes. By taking into account these
-        variables, the resulting time estimates are more robust and
-        have fewer assumptions. For example, the time estimate for
-        the origin of eukaryotes (BK-o) is not based on a general
-        assumption of rate constancy between prokaryotes (or even
-        eubacteria) and eukaryotes because rates are adjusted for
-        each protein and each comparison. Also, the calibration
-        used for BK-o is not a general eukaryotic calibration but
-        one based exclusively on eukaryote sequences derived from
-        eubacteria. A tradeoff in these improved methods was a
-        reduction in the number of proteins that could be used,
-        which increased the variance of the time estimates.
-        Nonetheless, the phylogenies and time estimates obtained in
-        this study have a bearing on current models for the
-        evolution of eukaryotes.
-        Until about five years ago, it was generally accepted
-        that there was a prior period (before mitochondria) in the
-        history of eukaryotes [ 2 26 ] . The basal position of
-        eukaryotes lacking mitochondria (amitochondriate) in
-        phylogenetic trees [ 27 ] was consistent with this
-        supposition as was evidence from sequence signatures [ 6 ]
-        . However, molecular phylogenetic studies of several
-        proteins in recent years have suggested that some or all
-        amitochondriate eukaryotes once possessed mitochondria in
-        the past [ 9 ] . Based on this new evidence, most current
-        models for the origin of eukaryotes assume only a single
-        symbiotic or fusion event between an archaebacterium and an
-        α-proteobacterium [ 8 28 29 ] .
-        Under the single-symbiosis model, eukaryotes should
-        cluster exclusively with an α-proteobacterium (e.g., 
-        Rickettsia ), among eubacteria.
-        However, our phylogenetic analyses (Fig. 4) instead
-        indicate, significantly, that many eukaryotic proteins
-        originated from one (or more) eubacterial lineages other
-        than α-proteobacteria. The reduced genome of 
-        Rickettsia [ 25 ] would not explain
-        this result because 
-        Rickettsia possesses all of the
-        proteins used in the combined analysis (Fig. 4B). Protein
-        function and location also are consistent with a
-        premitochondrial origin. Only one of the 32 BK-o proteins
-        is restricted to the mitochondrion whereas eight of the
-        nine BK-m proteins are restricted to that organelle. Also,
-        all six of the proteins involved in cellular respiration
-        are in the BK-m group. Based on the serial endosymbiosis
-        theory, the first symbiotic event involved a spirochete [ 3
-        ] . On the other hand, sequence signatures of the heat
-        shock molecular chaperone protein HSP-70 and other evidence
-        have indicated that the first symbiotic event involved a
-        gram-negative eubacterium [ 6 ] . Our data are unable to
-        distinguish between these two alternatives but agree with
-        both in implicating an earlier, premitochondrial event.
-        Predation by prokaryotes on early eukaryotes also may have
-        led to HGT.
-        If two or more symbiotic events were involved, this does
-        not necessarily confirm that any of the living lineages of
-        amitochondriate eukaryotes arose prior to the second
-        (mitochondrial) event. All may have once possessed
-        mitochondria. However, because 
-        Giardia arose at an early time (Table
-        1) and branches near the base of the eukaryote phylogeny,
-        the simplest explanation is that it never possessed
-        mitochondria and is a primary (not secondary)
-        amitochondriate. Although the position of 
-        Giardia in some protein phylogenies [
-        30 ] has been proposed as evidence that it is a secondary
-        amitochondriate, others have urged caution until
-        additional, more conclusive, data become available [ 6 ]
-        .
-        The number of symbiotic events was important for our
-        primary concern of estimating a timescale for the early
-        evolution of eukaryotes. We find that the divergence
-        between archaebacteria and the lineage leading to
-        eukaryotes (K 
-        A ) was quite early (~4 Ga), which is
-        about the time of the earliest biomarker evidence of life
-        (3.9-3.8 Ga) [ 31 ] . We interpret that divergence to be a
-        speciation event between two lineages of archaebacteria,
-        with K 
-        A not becoming "eukaryotic" until the
-        first symbiotic event at 2.7 Ga. The remaining time
-        estimates cluster around the mid-life of Earth (1.8-2.7
-        Ga). The order of those events falls in a logical sequence:
-        BK-o, BC, and BK-m. For example, the origin of mitochondria
-        appears as the second (not first) symbiotic event, and the
-        origin of cyanobacteria comes before the oxygen-utilizing
-        organelles, mitochondria. Moreover, the timing of these
-        biological events is consistent with the timing of events
-        in geologic and atmospheric history (Fig. 5). Cyanobacteria
-        appear before the major (undisputed) evidence of the rise
-        in oxygen (2.4-2.2 Ga) and mitochondria appear after the
-        rise in oxygen. Also, the estimates for the origin of
-        cyanobacteria and eukaryotes are consistent (within one SE)
-        with the earliest biomarker evidence for those two groups
-        (~2.7 Ga.) [ 11 15 ] . Phylogenetic analyses of
-        photosynthetic genes and sequence signatures also support a
-        relatively late order of appearance of cyanobacteria among
-        photosynthetic prokaryotes [ 32 33 ] .
-        Extensive glaciations occurred in the Paleoproterozoic
-        (~2.4 Ga), and may have been global in extent [ 34 ] . It
-        has been proposed that a major rise in oxygen at this time
-        lowered global temperatures and may have triggered the
-        glaciations [ 35 ] . If this is true, and given the time
-        estimates here, the evolutionary innovation of oxygenic
-        photosynthesis may have had a relatively rapid impact on
-        the environment. Moreover, this innovation may have caused
-        a mass extinction of prokaryotes at that time, as a result
-        of the toxic effects of oxygen, as suggested by the virtual
-        absence of lineages prior to ~2.5 Ga and subsequent rapid
-        radiation of lineages (Figs. 4, 5).
+        Krill Declines Ripple up the Food Chain
+        At a hearing on climate change impacts before the United States Senate Committee on
+        Commerce, Science, and Transportation in May 2004, LTER's Fraser testified that the western
+        Antarctic Peninsula's cold, dry polar marine ecosystem is gradually being replaced with a
+        warm, moist maritime climate. While all the major components of the food web are responding
+        to these changes, Fraser said, the clearest evidence comes from studies of two especially
+        sensitive indicators of climate change: krill and penguins. “Trends in penguin populations
+        provided some of the first evidence that sea ice conditions in some areas were
+        deteriorating in response to climate warming,” Fraser told the senators.
+        This evidence came from Fraser's own studies, over the past 30 years, of three Antarctic
+        penguin species that share similar life histories (including a penchant for krill) but show
+        striking contrasts in their relationship to the sea ice (Figure 2). For Adélie (
+        Pygoscelis adeliae ) penguins, the presence of sea ice is
+        absolutely essential for survival. Chinstrap (
+        P. antarctica ) and gentoo (
+        P. papua ) penguins, on the other hand, require the absence of
+        sea ice. “Adélie penguins have experienced a nearly 70% decrease in their populations at
+        our study sites on Anvers Island [Palmer Station] in the western Antarctic Peninsula over
+        the last 30 years,” says Fraser, “and there's evidence that other krill-dependent predators
+        are beginning to decrease.”
+        That's a loss of 10,000 breeding pairs since 1975. The major factors underlying this
+        precipitous decline, Fraser says, are retreating sea ice and increasing snowfall. (The loss
+        of sea ice increases the flow of water vapor from the open ocean to the atmosphere,
+        increasing precipitation.) “When sea ice forms,” he explains, “it covers these regions of
+        high production and the birds are just able to plop into the water into very good feeding
+        areas.” With a life history accustomed to the formation of sea ice at critical points in
+        their life cycle, Adélies are finding themselves faced with an unpredictable sea ice cycle
+        that outpaces their ability to adapt. “The birds just don't have the sea ice when they need
+        it,” Fraser says. As if losing critical winter habitat weren't bad enough, Adélies must
+        also contend with the effects of increased snowfall. When the snow melts in the spring,
+        it's flooding their nesting areas and drowning their eggs and chicks.
+        The population trends for “ice-avoiding” chinstraps and gentoos are quite different.
+        Both species are increasing their populations and beginning to replace Adélie penguins
+        across a broad range in the western Antarctic Peninsula. “We're seeing breeding gentoo
+        penguins at Palmer Station,” Fraser says, with a trace of astonishment. “The
+        paleoecological record does not show that species at our study sites in the last 800
+        years.”
+        Though chinstraps and gentoos also depend on krill, they've dealt with krill declines by
+        eating more fish and squid (which, not incidentally, also eat krill). Fraser believes this
+        dietary flexibility, along with the increased availability of open water and a late
+        breeding schedule (which protects their eggs and chicks from spring snow meltwater),
+        largely explain their range extensions.
+        “Adélies don't seem capable of adjusting anything about their life history,” says
+        Fraser. “They're hard-wired to their breeding area, returning to an area year after year
+        after year, even though conditions are deteriorating.” And so, their numbers continue to
+        plummet as more chicks perish. Another ice-dependent, krill-eating penguin species, the
+        emperor (
+        Aptenodytes forsteri ), is not faring any better. “We have just
+        one emperor colony in our study region, and it's decreasing very fast,” Fraser says. “It's
+        gone down from 300 breeding pairs to nine. They're on the verge of extinction in our study
+        region.”
       
       
-        Conclusions
-        Our analyses of prokaryotic and eukaryotic genomic
-        sequence data support two symbiotic events in the origin of
-        eukaryotes: one premitochondrial (2.7 billion years ago,
-        Ga) and a later mitochondrial event (1.8 Ga). Our time
-        estimate for the divergence of an early-branching eukaryote
-        ( 
-        Giardia ) that lacks mitochondria,
-        2.2 Ga, suggests that it is a primary and not secondary
-        amitochondriate organism. Our time estimate for the origin
-        of cyanobacteria (2.6 Ga) is more recent than expected and
-        suggests that earlier fossils claimed to be of
-        cyanobacteria are of other organisms (or artifacts).
-        Moreover, the appearance of cyanobacteria immediately prior
-        to the earliest undisputed evidence for the presence of
-        oxygen (2.4-2.2 Ga) suggests that the innovation of
-        oxygenic photosynthesis had a relatively rapid impact on
-        the environment as it set the stage for further evolution
-        of the eukaryotic cell.
-      
-      
-        Materials and Methods
-        
-          Sequence data and alignment
-          We assembled and aligned protein sequences of all 467
-          potentially orthologous groups from complete genome
-          databases and these were supplemented with additional
-          eukaryote taxa from the sequence database of the National
-          Center for Biotechnology Information
-          http://www.ncbi.nlm.nih.gov/entrez/. Data from the
-          following species were assembled into presumptive
-          orthology groups (hereafter, proteins) and aligned [ 36 ]
-          : 
-          Aquifex aeolicus , 
-          Bacillus subtilis , 
-          Borrelia burgdorferi , 
-          Chlamydia trachomatis , 
-          Escherichia coli , 
-          Haemophilus influenzae , 
-          Helicobacter pylori, Mycobacterium
-          tuberculosis, Mycoplasma genitalium, Mycoplasma
-          pneumoniae , 
-          Rickettsia prowazekii,
-          Synechocystis sp., and 
-          Treponema pallidum (Eubacteria), 
-          Archaeoglobus fulgidus,
-          Methanobacterium thermoautotrophicum, Methanococcus
-          jannaschii, Pyrococcus abyssi , and 
-          P. horikoshii (Archaebacteria:
-          Euryarchaeota), and 
-          Arabidopsis thaliana, Caenorhabditis
-          elegans, Dictyostelium discoideum, Drosophila
-          melanogaster, Gallus gallus, Homo sapiens, Mus musculus,
-          Oryza saticva, Plasmodium falciparum, Saccharomyces
-          cerevisiae, Schizosaccharomyces pombe, Trypanosoma
-          sp. , and 
-          Xenopus laevis (Eukaryota). The
-          genome sequence of 
-          Aeropyrum pernix (Archaebacteria:
-          Crenarchaeota) became available during completion of
-          study and was included in phylogenetic analyses only.
-          Global alignment algorithms differ from local
-          alignment algorithms in that they sometimes align
-          unrelated (non-homologous) sites together with homologous
-          sites. Using a computational tool, xcons [ 36 ] , such
-          unrelated sites were removed from these CLUSTALW [ 37 ]
-          alignments to increase probability of site homology.
-          During construction of protein alignments using the WAT
-          system [ 36 ] , short fragmented sequences were manually
-          removed. Of the 204 proteins that could be calibrated for
-          time estimation, the orthology of roughly half (116
-          proteins) was ambiguous for unknown reasons (e.g.,
-          lateral gene transfer, gene loss, or poor phylogenetic
-          resolution) leaving 87 proteins for phylogeny and time
-          estimation. The seven shortest (<75 amino acids) of
-          those were used only in phylogenetic analyses; the
-          remaining proteins averaged 196 amino acids each. Where
-          possible, proteins were rooted by duplicate proteins
-          (duplicate genes); otherwise, they were
-          midpoint-rooted.
-          Separately, for timing the origin of 
-          Giardia , sequences of 17 proteins
-          were obtained from the public databases and aligned [ 37
-          ] in which the following taxa were available: 
-          Giardia and other eukaryotes
-          (including calibration taxa; see below), archaebacteria,
-          and eubacteria. Correspondence and requests for materials
-          should be addressed to S.B.H. (e-mail: sbh1@psu.edu) or
-          see
-          http://www.evogenomics.org/Publications/data/Eukaryotes/for
-          alignments and other information.
-        
-        
-          Time estimation
-          Methods are described elsewhere [ 38 ] except as
-          follows. Our initial goal was to estimate divergence
-          times for the last common ancestor (LCA), the divergence
-          between archaebacteria and eukaryotes (AK), cyanobacteria
-          and closest eubacterial relatives (origin of
-          cyanobacteria, BC), eubacteria and mitochondrial
-          eukaryotes (origin of mitochondria, BK-m), and 
-          Giardia and other eukaryotes (GK)
-          (Fig. 1). The importance of 
-          Giardia is its lack of mitochondria
-          and basal location in many phylogenies of eukaryotes [ 27
-          39 ] .
-          However, our initial phylogenetic analyses revealed
-          that many eukaryotes did not cluster with 
-          Rickettsia, the α-proteobacterium,
-          as predicted by current genomic models [ 8 25 ] .
-          Instead, they typically formed a basal lineage among
-          eubacteria in the tree. This result was consistent with
-          the serial endosymbiosis theory [ 3 ] and with other
-          findings [ 6 ] and therefore we designated this
-          divergence as BK-o (origin of eukaryotes). Estimation of
-          the divergence time of the origin of plastids (BK-p) was
-          not a goal of this study, and the LCA was not estimated
-          because of an insufficient number of duplicate proteins
-          needed for reciprocal rooting [ 23 ] . Thus, five
-          divergence times were studied: AK, BC, BK-o, BK-m, and
-          GK. Eukaryotes derived from different prokaryotes are
-          referred to herein as K 
-          A (from AK), K 
-          B-o (from BK-o), and K 
-          B-m (from BK-m).
-          Because of the large amount of sequence conservation
-          in these proteins, it was not possible to calibrate
-          directly by extrapolation from vertebrates [ 40 ] , for
-          which an extensive fossil record exists. For example,
-          sequences often were identical among rodents, primates,
-          and birds. Instead, multiple calibrations were used from
-          older divergences among kingdoms (plants, animals, fungi)
-          and animal phyla, derived from analysis of 75 nuclear
-          proteins calibrated with the vertebrate fossil record [
-          38 ] . This two-step calibration reduced the error
-          involved in extrapolation. Two classes of time estimation
-          methods were used and compared. The multigene (MG)
-          approach uses the mean or mode of many single-gene time
-          estimates [ 40 41 ] whereas the average-distance (AD)
-          approach [ 42 43 44 ] involves the combining of distances
-          and rates among genes or proteins to yield a single time
-          estimate. For the AD approach, we weight each single-gene
-          distance, before combining, by the length of the protein
-          (aligned amino acids).
-          Protein-specific rates were estimated by regression,
-          fixed through the origin, of these calibration points
-          within eukaryotes: arthropod-chordate (0.993 Ga),
-          chordate-nematode (1.177 Ga), and plant-animal-fungi
-          (1.576 Ga) [ 38 ] . During the course of the study, it
-          was discovered that the shape parameter (α) of the gamma
-          distribution used to account for rate variation among
-          sites, estimated by a likelihood method [ 45 ] , differed
-          consistently between calibration taxa (average, 1.99) and
-          the overall data set (1.44) for each gene (Fig. 2).
-          Therefore, a dual-gamma approach was taken whereby the
-          eukaryote rate was estimated using the eukaryote gamma
-          parameter and the time estimate (involving prokaryotes)
-          was made using the overall gamma parameter. There is
-          insufficient evidence at present to determine whether or
-          not this difference is biologically based, related to the
-          covarion model [ 46 ] , or follows a simple scaling
-          relationship with time or total protein distance. If the
-          relationship is scaled, additional modification in
-          methods may be necessary in the future.
-          We compared rates of change in archaebacterial versus
-          eubacterial sequences using paralogous sequences (those
-          related by gene duplication) as a root for relative rate
-          tests [ 47 48 ] . To examine rate differences between
-          eukaryotic sequences and their closest prokaryote
-          orthologs (those representing the same gene), we used the
-          more distant prokaryote (archaebacteria or eubacteria) as
-          root. For examining rates in eukaryotic sequences derived
-          from either archaebacteria or eubacteria, we compared
-          pairwise distances of the same taxa present in both
-          locations (e.g., one pair clustering with archaebacteria
-          and the other with eubacteria) in the same protein. The
-          discovery of rate differences among prokaryotes and
-          eukaryotes required rate adjustments for all proteins and
-          comparisons, including those accepted in rate tests.
-          These adjustments were made by estimating time only with
-          the eukaryote lineage, or in the case of BC, using a
-          cyanobacterial rate adjusted by direct comparison of the
-          cyanobacteria branch and eukaryote branch in rate tests.
-          For example, the AK divergence time was estimated only
-          with the K 
-          A calibration and the BC, BK-o, and
-          BK-m divergence times were estimated only with the K 
-          B-o calibration. These restrictions
-          further reduced the number of proteins available for time
-          estimation to the following: AK (36 total, 21
-          constant-rate), BK-o (25, 16), BK-m (7, 5), BC (20, 16),
-          and 
-          Giardia -eukaryotes (17, 11).
-          Modes were used in the MG approach, as described
-          previously [ 40 ] , except with the BK-m comparison where
-          the median was used because of the small number of
-          proteins. The mode is preferred over the mean or median
-          because it eliminates or reduces the effect of outliers
-          (e.g., unusually high estimates resulting from paralogous
-          comparisons). In this study, a large number of
-          overlapping bins was used initially to better define the
-          distribution of time estimates, followed by use of a
-          smaller number of non-overlapping bins and standard
-          estimation of mode by interpolation. This two-step
-          procedure was found to reduce the influence of bin size
-          on mode estimation. For the AD approach, single-gene
-          distances and rates were weighted by sequence length and
-          then combined distances were divided by combined
-          rates.
-        
-        
-          Phylogeny estimation
-          Phylogenetic trees [ 49 ] were constructed for each
-          gene from amino acid data to assist in gene selection and
-          interpretation. A gamma distance was used for all trees,
-          with α estimated from the entire data set [ 45 ] . An
-          analysis involving combined protein alignments was
-          performed with maximum likelihood [ 50 ] , neighbor
-          joining [ 49 51 ] , and maximum parsimony [ 51 ] , using
-          bootstrapping. Bootstrap consensus trees show
-          branch-lengths estimated by ordinary least-squares method
-          [ 51 ] . Bootstrap support ≥ 95% was considered
-          significant.
-        
+        A Question of Sustainability
+        A major issue in devising strategies to protect krill populations concerns the impact of
+        krill fisheries. Since drastic declines have occurred in the absence of heavy fishing, it's
+        especially important to establish the population dynamics of Antarctic krill. Siegel works
+        with the Convention for the Conservation of Antarctic Marine Living Resources (CCAMLR) to
+        develop sustainable fishing regulations. Based on a point estimate of 44 million metric
+        tons of krill in the southwest Atlantic sector in 2000, CCAMLR calculated a potential yield
+        of 4 million tons, far above the average 100,000-metric-ton catch today. Siegel believes
+        the fisheries aren't posing a significant threat to krill stocks at this point, but says
+        much remains to be learned about krill population structure.
+        Gallager is not so sure about the impact of krill fishing. Some krill fisheries operate
+        near the island of South Georgia, east of the Falkland Islands. “We know that these
+        populations are not self-sustaining, but require recruiting of adults from other locations,
+        and probably from regions along the western peninsula of Antarctica,” says Gallager. “If we
+        go in and fish out the populations that are not self-seeding, then they could be entirely
+        wiped out.” That's why it's crucial to know which populations, if any, are self-sustaining,
+        he says. “And we don't know a lot about that at all.”
+        Toward that end, Gallager is working on an under-ice “zooplankton observatory” that
+        would sit on the bottom of the ocean floor and continuously release a flotation
+        package—“once an hour, for hopefully the next ten years”—outfitted with sonar and optical
+        sensors up to the surface, then winch itself back down again. The plan is to deploy the
+        observatory off Palmer Station in May 2006. The hope is that data gathered on
+        over-wintering larval krill will shed light on the factors influencing krill survival over
+        the long term. “It may be that this coupling between larval krill and ice is actually
+        underpinning the entire question of krill population dynamics,” says Gallager—in which
+        case, understanding how the ice moves relative to the water currents and wind shear over
+        the top will be critical.
+        Many other aspects of krill biology remain obscure as well. Biologists still don't
+        understand the precise mechanisms required to enhance larval growth, reproduction, and
+        recruitment (replenishing populations with new individuals), or how temperature
+        fluctuations affect metabolism and larval growth rate. Robust tests of long-held theories
+        of how the under-ice habitat sustains krill larvae require much more quantitative data—over
+        time and over a wide scale—on larval abundance, distribution, and foraging behavior. But
+        netting krill is not easy. Larvae tend to wedge themselves into nooks and crannies, defying
+        divers' attempts to nab them while protecting their expensive nets— loaded with even more
+        expensive electronic gear—from the ice.
+        Whatever is behind the correlation between sea ice decline and krill declines, the
+        future of the Antarctic ecosystem hangs in the balance. A 2001 report by the
+        Intergovernmental Panel on Climate Change predicted that the Antarctic Peninsula will
+        experience some of the largest, most rapid climate changes on earth. If these trends of
+        rising temperatures and decreasing sea ice continue, says LTER's Fraser, “what we are going
+        to see in the next ten, 20, 30 years is a system that is completely different from the one
+        that exists now. Adélies will become regionally extinct.”
+        Concluding his testimony on climate change impacts, Fraser warned the US Senate
+        committee that if future warming continues and the cycle of heavy ice years exceeds the
+        life span of krill, the species will face a reproductive crisis. And that, he said, “will
+        have catastrophic consequences to the integrity of this marine ecosystem.”
+        In 1912, for the sake of a few emperor penguin eggs, Apsley Cherry-Garrard and two
+        members of Scott's ill-fated polar expedition endured what Cherry-Garrard called “extremity
+        of suffering” from which only “madness or death may give relief.” The group believed the
+        eggs might prove that the penguins were the missing link between “birds and the reptiles
+        from which birds have sprung.”
+        Our understanding has advanced light years since then, rendering such notions nearly
+        quaint. Cherry-Garrard and his companions thought the forbidding Antarctic landscape immune
+        to human assaults. Today, with this notion, too, proven false, one wonders if the damage
+        can be reversed. In Atkinson's diplomatic phrase, “there are political issues involved”
+        where global warming is concerned. But the clock is ticking. If the Antarctic ecosystem
+        collapses, it won't be because scientists were off on a misguided search for penguin
+        eggs.
       
     
   

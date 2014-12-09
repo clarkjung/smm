@@ -3,926 +3,874 @@
     
       
         Background
-        Categorization of bacteria on the basis of their
-        genotypic characteristics is supplanting classification
-        based on phenotypic markers. Genotypic information
-        surpasses the resolution achievable with phenotypic
-        markers, giving deeper insights into evolutionary
-        relationships between species that are indistinguishable on
-        the basis of phenotypic traits. We are particularly
-        interested in the use of genome-composition information to
-        identify factors that distinguish pathogenic bacteria from
-        their non-pathogenic counterparts.
-        Although more than 86 prokaryotes have been sequenced
-        since the first completed genome in 1995 [ 1], the vast
-        majority of the sequenced genomes represent different
-        species. Use of this information is therefore generally
-        limited to mapping relationships on the genus and species
-        levels. However, much of the interesting genome information
-        that determines phenotypic traits, such as degree of
-        virulence, is encoded in small differences between strains
-        and serovars, rather than species. Although considerable
-        time will elapse before enough strain-specific sequence
-        information becomes available through genome sequencing
-        projects to identify such traits, microarrays provide us
-        with a tool to gain insight into genome composition at
-        present.
-        A number of studies have investigated genome composition
-        using spotted DNA microarrays [ 2, 3, 4, 5, 6, 7, 8, 9, 10,
-        11, 12, 13], a technique that has been referred to as
-        genomotyping [ 14]. The basic methodology is to hybridize
-        the fluorescently labeled genomic DNA of the strain of
-        interest to the microarray along with the fluorescently
-        labeled genomic DNA of a reference strain, typically the
-        strain whose genome sequence the array was based on. By
-        comparing the ratios of the signals obtained from the spots
-        on the microarray, one can predict whether a given gene is
-        present or divergent (the latter referring to either an
-        absent gene or a gene that is divergent to the point of
-        having poor hybridization properties) in the strain of
-        interest. Current data-analysis methods typically use a
-        constant ratio value as a cutoff for assignment into either
-        the divergent or present categories. This cutoff is
-        typically empirically determined from a comparison of the
-        reference strain to a similar strain that is known to be
-        missing certain genetic elements. However, a strain with
-        known deletions is not always available for every organism,
-        hindering empirical determination of a constant cutoff.
-        This has led some researchers to adopt published cutoff
-        values without empirical determination. This approach may
-        be inappropriate, however, as variability in appropriate
-        cutoffs will be inherent in the many variations of
-        microarray technology and analysis methods, as well as in
-        the strains being analyzed.
-        In addition to these limitations, we have observed that
-        use of a constant cutoff leads to erroneous assignment of
-        gene presence in many cases. First, using a constant cutoff
-        demands that the microarrays exhibit high reproducibility.
-        Each dataset must exhibit an almost identical distribution
-        of ratio values in order for the chosen value to fall in
-        the same relative location along the distribution.
-        Variation in the width of the ratio distribution, which
-        occurs as a result of variable array and hybridization
-        quality, results in anomalous categorization of genes. More
-        problematically, strains which are highly divergent from
-        the reference strain cannot be compared to the reference
-        because of strain-specific inconsistencies in established
-        normalization procedures (described in more detail below).
-        For these reasons, we have developed a method for dynamic
-        assignment of genes, where an independent cutoff is
-        calculated for each hybridization dataset. Array-specific
-        cutoff determination provides more flexibility in the
-        hybridizations and strains that can be compared. The method
-        is more accurate than using a constant-ratio cutoff for
-        identification of divergent genes, and also allows
-        extraction of data from lower-quality hybridizations which
-        would otherwise be discarded. We have implemented these
-        methods in the genomotyping analysis program GACK.
+        During meiosis homologous chromosomes replicate, pair to
+        form a "bivalent," experience a high rate of recombination,
+        and undergo two rounds of chromosome segregation to produce
+        haploid meiotic products. In meiosis I (MI) homologous
+        chromosomes segregate from their partners in a reductional
+        division, and during meiosis II (MII) sister chromatids
+        segregate from one-another in an equational division
+        similar to mitosis.
+        Crossover recombination (reciprocal exchange) generates
+        chiasmata, physical connections between homologs, which
+        provide the primary mechanism to ensure proper segregation
+        of homologs during MI [ 1 ] . In the absence of chiasmata
+        (crossovers), homologous chromosomes experience
+        nondisjunction and segregate randomly from their partners.
+        However, backup achiasmatic or "distributive" mechanisms
+        have been identified in some species [ 2 3 4 5 6 7 ] .
+        These distributive segregation systems can partially or
+        almost fully restore faithful segregation of chromosomes
+        during MI in the absence of recombination.
+        The respective contributions of chiasmatic and
+        achiasmatic (distributive) modes of chromosome segregation
+        can be studied in organisms with naturally-occurring
+        achiasmatic chromosomes [ 8 ] , in cells harboring
+        non-recombined artificial chromosomes [ 9 ] , and in
+        achiasmatic mutants [ 10 ] . Among achiasmatic mutants,
+        those lacking the Spo11 (Rec12) protein are of particular
+        interest because Spo11 has a key role in the initiation of
+        recombination [ 11 ] .
+        Meiotically induced, Spo11 (Rec12)-dependent
+        double-strand DNA (dsDNA) breaks have been demonstrated in
+        budding yeast and fission yeast [ 12 13 14 15 ] . Spo11
+        almost certainly catalyzes these breaks, as it shares high
+        homology with the A subunit of Topoisomerase VI of 
+        Sulfolobus shibatae [ 16 17 ] and it
+        becomes linked by a phosphotyrosine linkage to the 5' end
+        of the cleaved DNA [ 18 19 20 21 ] . Spo11 homologs have
+        been identified in a wide range of eukaryotes, and
+        available evidence suggests that initiation of meiotic
+        recombination via Spo11-dependent dsDNA break formation is
+        conserved [ 22 23 24 25 ] . Our results with the fission
+        yeast 
+        S. pombe fully support this view (see
+        results and discussion).
+        Spo11 protein has potential functions in addition to
+        catalyzing dsDNA breaks. It is dispensable for chromosome
+        pairing and synapsis in some organisms, but is required in
+        others [ 22 24 25 26 27 28 ] . Budding yeast 
+        spo11Δ (null) mutants lack chromosome
+        pairing, but catalytic site tyrosine mutants ( 
+        spo11-Y135F ) support significant
+        levels of DSB-independent pairing [ 29 ] , so the function
+        of Spo11 proteins in pairing may be separable from its
+        function in catalyzing recombination. Localization of Spo11
+        across synapsed, pachytene chromosomes of mice also
+        suggests that Spo11 has an additional role, after it
+        catalyzes recombination, in meiosis [ 25 ] .
+        This study examined the relationship between meiotic
+        recombination and chromosome segregation in 
+        rec12 ( 
+        spo11 ) mutants of fission yeast. We
+        report that Rec12 protein and its active site tyrosine are
+        essential for crossover recombination in multiple intervals
+        of all three chromosomes. Rec12 also has two roles in
+        reductional chromosome segregation during MI: First,
+        catalytically-active Rec12 is required for normal levels of
+        reductional (chiasmatic) segregation. Second,
+        catalytically-inactive Rec12 protein facilitates
+        achiasmatic (distributive) segregation. In addition, we
+        report that Rec12 and its active site tyrosine are required
+        for proper equational chromosome segregation during
+        MII.
       
       
         Results
         
-          Constant cutoffs are not appropriate for varying
-          distributions
-          One might expect that in comparing the genome
-          composition of a strain of interest to a reference
-          (usually a sequenced) strain, the genes would either be
-          present or absent. In examining such a strain on a
-          microarray, the spots would either exhibit signal
-          (corresponding to present genes) or be missing signal
-          (corresponding to absent genes). This would manifest
-          itself in a distribution of signal intensity ratios as a
-          bimodal distribution representing present and absent
-          genes. In practice, we observe a major peak (present
-          genes) with a left-hand tail for every distribution we
-          have examined, including several published datasets (see,
-          for example, Figures 1, 2). We presume that the
-          manifestation of the non-present genes as a left-side
-          tail rather than a peak is due to a combination of
-          divergence on the nucleotide-sequence level (see below),
-          cross-hybridization and variability inherent in the
-          calculation of ratios for small signal-intensity values.
-          We refer to these genes as divergent rather than absent,
-          as they may be present but too divergent in nucleotide
-          sequence to show a good hybridization signal. Owing to
-          the continuous nature of the ratio distribution
-          representing both present and divergent genes (Figure 3),
-          the selection of a cutoff ratio value to assign the genes
-          into these classes is not straightforward.
-          Previously published work has empirically determined a
-          cutoff value utilizing a strain known to be missing
-          certain genetic elements [ 8, 10, 11]. The raw ratios are
-          normalized to represent a linear ratio of 1, which
-          assumes that most genes are present in both the
-          comparison and reference strains. The constant-ratio
-          cutoff is an arbitrarily chosen value that divides the
-          known present and divergent genes (based on genome
-          sequence) into their respective categories. However,
-          small differences in selection of a constant-ratio cutoff
-          can lead to improper assignment of hundreds of genes
-          (Tables 1, 2, 3). We desired a more robust method of
-          cutoff assignment that would address this problem.
-          Furthermore, whereas the constant cutoff method may be
-          reasonably accurate for strain comparisons in which
-          closely related strains are compared, we discovered
-          during the comparison of several 
-          Salmonella enterica serovars using
-          our serovar Typhimurium microarray that this procedure is
-          inaccurate for relatively divergent strains.
-          The first facet of the problem exists within the
-          normalization procedure. In a typical normalization of a
-          microarray dataset, the ratio values are converted to a
-          log scale, and each data point is normalized by
-          subtraction of the mean or median log-ratio value of the
-          dataset in order to center the distribution around zero.
-          This procedure was primarily developed for the analysis
-          of RNA expression data, in which the shape of the
-          distribution of ratios is often consistent from
-          hybridization to hybridization regardless of the
-          conditions. In genomic DNA comparisons, however, the
-          distributions display more variation in their shape as a
-          result of different numbers of divergent genes (Figures
-          1, 2, 3a). The distribution of ratios is generally skewed
-          to the left, but the size of the left tail, as
-          represented by the area under the tail, varies depending
-          on the number of divergent genes (Figure 3). A larger
-          tail results in the main peak being shifted further to
-          the right during this type of normalization, as the main
-          peak must balance the values of the tail. As the
-          divergent genes presumably fall primarily within the left
-          tail of the distribution and the main peak primarily
-          consists of present genes, the ideal cutoff value to
-          distinguish present and divergent genes is located near
-          the base of the left side of the main peak.
-          As different types of analysis will require slightly
-          different cutoffs (see below), we refer to the region
-          near the left base of the main peak as the 'transition
-          region', and to the precise cutoff value selected for a
-          given analysis as the 'transition point' (Figure 3b).
-          Owing to different proportions of divergent genes, the
-          boundary values of the transition region change depending
-          on the strain being analyzed, which results in different
-          degrees of shifting of the main peak. In addition,
-          variability in hybridization quality will influence the
-          boundary values, as the main peaks of the distributions
-          will vary in width and position. Using a constant-ratio
-          cutoff for the transition point leads to the cutoff
-          having a variable location along different distributions,
-          rather than intersecting each distribution at an
-          identical point. Ideally, the transition point should
-          fall at the same location along the distribution of
-          ratios for every hybridization; that is, the transition
-          point should always be located near the base of the left
-          side of the main peak. Visual inspection of the
-          intersection of a constant cutoff ratio with a
-          distribution with many divergent genes demonstrates
-          first, that the constant transition point intersects
-          different distributions at different locations along the
-          curve (Figure 3b; see also Figures 1, 2), and second,
-          that there are divergent genes in some hybridizations
-          which would be inappropriately deemed present instead of
-          divergent because the constant transition point falls far
-          to the left of the transition region (Figure 3b, 
-          Bongori hybridization).
+          Structure of rec12 +gene and complementation by
+          rec12 +cDNA
+          While 
+          rec12 +was reported to encode a
+          protein of 139 amio acids [ 30 ] , conceptual translation
+          of the surrounding region suggested that 
+          rec12 +encoded a larger protein
+          with homology to Spo11 of 
+          S. cerevisiae and Top6A of 
+          Sulfolobus shibatae [ 17 21 ] .
+          Alignments and splicing sequence profiles [ 31 ] were
+          used to identify four putative introns (Figure 1A).
+          Oligonucleotide primer pairs flanking each of the
+          putative introns were used for PCR and RT-PCR to amplify
+          genomic DNA and meiotic mRNA, respectively. In each case,
+          the product from mRNA was shorter than that from genomic
+          DNA, confirming the presence of four introns (Figure
+          1A).
+          Presence of four introns suggested that the 
+          rec12 +cDNA encodes a protein of
+          345 amino acids with high homology to eukaryotic Spo11
+          proteins (Figure 1B). To test this hypothesis, we
+          introduced a full-length genomic clone and a
+          sequence-confirmed cDNA into inducible expression vectors
+          [ 32 ] in such a way that the first methionine in
+          predicted exon 1 would be used for translation (Figure
+          1C). Each of these constructs restored wild-type levels
+          of recombination to 
+          rec12-117 strains (Figure 2A, 2B).
+          We conclude that the cDNA encodes a functional Rec12
+          protein of 345 amino acids in length. This conclusion was
+          confirmed by Western blotting of an epitope-tagged Rec12
+          protein expressed from the endogenous 
+          rec12 +locus: a meiotically-induced
+          protein band of the expected size was observed (W.D.
+          Sharif and W.P. Wahls, unpublished observations).
+          Rec12 (Spo11) protein shares homology with the
+          catalytic (Top6A) subunit of Topoisomerase VI, which
+          functions as a heterotetramer with Top6B [ 16 17 ] .
+          However, no Top6B homolog is present in most eukaryotes
+          and the Rec12 (Spo11) enzyme does not need to affect
+          strand passage in the manner of canonical type II
+          topoisomerases [ 11 ] . We therefore tested whether
+          overexpression of 
+          rec12 +would lead to a
+          hyper-recombination phenotype, thereby implicating
+          function as a homodimer. Very low levels of ectopic 
+          rec12 +expression restored
+          wild-type recombination levels to the 
+          rec12-117 mutant (Figure 2B),
+          confirming that functional Rec12 protein was produced.
+          However, upon overexpression of 
+          rec12 +the frequency of
+          recombinants did not increase significantly above
+          wild-type levels (Figure 2C, 2D). Thus, Rec12 protein in
+          excess of wild-type levels is biologically inactive; some
+          other factor becomes rate-limiting under these
+          circumstances.
+          The 
+          rec12-117 mutant was isolated in a
+          genetic screen; the 
+          rec12-117 mutation reportedly
+          confers a 100-fold or greater reduction of intragenic
+          recombination and a 6-fold reduction of intergenic
+          recombination [ 33 ] . To define more precisely the
+          requirement for Rec12 in meiotic chromosome dynamics, we
+          used gene replacement to generate a null ( 
+          rec12-D15 ) mutation and a mutation
+          in the putative active site tyrosine ( 
+          rec12-Y98F ). We then determined
+          the effects of these mutations upon intergenic
+          (crossover) recombination within intervals of chromosomes
+          
+          I , 
+          II , and 
+          III . We also employed a
+          combination of cytological and genetic approaches to
+          reveal the nature of meiotic chromosome segregation
+          defects for each chromosome in each of the three
+          mutants.
         
         
-          Dynamic cutoff determination
-          One solution to the above problems is to choose a
-          different cutoff for each hybridization dataset, which we
-          refer to as dynamic cutoff determination. By calculating
-          independent cutoff ratio values for each dataset, we can
-          eliminate the problems of variability in the ratio
-          distributions. Manual selection of cutoffs for each
-          dataset is both tedious and inaccurate, so we desired an
-          algorithm that would perform reproducible and consistent
-          analyses. In order to select a cutoff dynamically, we
-          first require an algorithm for identifying the transition
-          region. This algorithm can either describe the left tail
-          or the main peak; identification of one allows
-          identification of the other by subtraction from the
-          overall distribution. We initially employed what we refer
-          to as positive-side mirroring to describe the peak. In
-          this algorithm, the highest point of the main peak is
-          identified, and the right half of the main peak of the
-          distribution is mirrored over the maximum. This creates a
-          symmetrical distribution in which the right half of the
-          main peak is mirrored to the left side, creating a
-          distribution which approximately resembles the
-          distribution we would expect if all of the genes were
-          present (for example, the reference strain hybridized to
-          the reference strain). However, we found this algorithm
-          was not very accurate for peaks that deviated from
-          perfect symmetry around their maxima (data not shown). We
-          subsequently turned to an algorithm that estimates the
-          main peak using the normal probability density function,
-          which we found to be more accurate in describing the
-          shape of the main peak for datasets deviating from
-          symmetry.
-          The first step of the normal curve-mapping algorithm
-          is to find the location and height of the maximum of the
-          major peak. The sides of the distribution are then
-          determined on the basis of the ratio values at half of
-          the peak's maximum height. A normal probability density
-          function is fitted to the main peak on the basis of these
-          three parameters (height of peak + coordinates of two
-          side points) (Figure 4a). This normal curve is used as an
-          estimate of the peak representing the present genes. We
-          observe a left tail in the actual ratio distribution,
-          which deviates from the normal curve and represents the
-          population of putatively divergent genes (shaded region,
-          Figure 4a). We have thus established a mathematical
-          description of the main peak of the distribution,
-          allowing us to identify the transition region, that is,
-          the region at the left base of the mapped normal curve.
-          This is the first step in allowing us to distinguish
-          between present and divergent genes.
+          Rec12 and its active site tyrosine are required for
+          chiasmatic meioses
+          Models for recombination posit that gene conversion
+          and reciprocal exchange (crossover recombination) are
+          alternative outcomes of a common intermediate [ 11 ] .
+          Intragenic recombination at the 
+          ade6 locus, a measure of gene
+          conversion, was reduced more than 100-fold in 
+          rec12-117 mutants [ 33 ] , and we
+          have obtained similar results with the 
+          rec12-117 , 
+          rec12-D15 , and 
+          rec12-Y98F mutants (Figure 2; W.D.
+          Sharif and W.P. Wahls, unpublished data). Because
+          reciprocal exchange accompanies more than half of all
+          gene conversions at the 
+          ade6 locus [ 34 35 ] , the 
+          rec12 mutants must also have a
+          reduced number of reciprocal exchanges in the vicinity of
+          
+          ade6 .
+          If Rec12 protein is required for all (or most) meiotic
+          recombination, then 
+          rec12 mutants might fail to produce
+          a sufficient number of reciprocal exchanges to ensure
+          that each chromosome pair receives at least one
+          crossover. To address this issue, we determined the
+          number of crossovers present in regions of chromosomes 
+          I , 
+          II , and 
+          III in the 
+          rec12-D15 (deletion) and 
+          rec12-Y98F (active site) mutants.
+          Multiple genetic intervals encompassing approximately 20%
+          of the genome (444 cM) were analyzed.
+          Intergenic recombination was reduced an average of
+          256-fold in the 
+          rec12-D15 (null) mutants and
+          263-fold in the 
+          rec12-Y98F (active site) mutants,
+          relative to wild-type levels (Table 1). Thus, Rec12
+          protein and its active site tyrosine are likely required
+          for most crossover recombination throughout the genome.
+          Because there are between 11 and 18 crossovers per
+          chromosome in wild-type 
+          S. pombe meioses, and those
+          crossovers are distributed without interference [ 36 ] ,
+          we can estimate the residual number of crossovers present
+          on each chromosome in the 
+          rec12 mutant meioses. A 250-fold
+          reduction in recombination would leave less than 0.1
+          crossovers per chromosome, so all three chromosomes in
+          most of the 
+          rec12 mutant meioses are
+          achiasmatic.
         
         
-          Estimated probability of presence
-          Most published genomotyping analyses have been limited
-          to identification of divergent genes. However, this is
-          only one type of analysis that can be accomplished with
-          microarray data. One can also determine core sets of
-          genes that are common to multiple strains, as in the case
-          of 
-          Helicobacter pylori [ 11]. With the
-          first step of describing the distributions complete, the
-          challenge becomes to select a precise transition point.
-          Our genomotyping program GACK allows the user to carry
-          out different types of analyses that require different
-          transition-point cutoff values. For example,
-          determination of the set of genes that are divergent in a
-          strain with a 0% false-discovery rate will require a
-          different cutoff compared to determination of the set of
-          core conserved genes within a set of strains with a 0%
-          false-discovery rate. In other words, depending on the
-          type of analysis and the confidence desired in the
-          predictions, the cutoffs will need to be assigned either
-          very close to or farther away from the base of the main
-          peak. We have observed that the empirical determination
-          of cutoff values generally tends to be conservative in
-          the assignment of divergent genes (Figures 1, 2); that
-          is, genes that fall to the left of a cutoff of -1.0 are
-          likely to be truly divergent. However, assigning all
-          genes with signals larger than this cutoff value to the
-          present category is not accurate, as many genes that are
-          actually divergent will be assigned as present. A cutoff
-          that is conservative for determination of divergent genes
-          inappropriately overestimates the number of present
-          genes, and vice versa. To make these assignments more
-          accurately, we invoke a simple method for estimating the
-          probability that a gene with a given ratio value is
-          present.
-          Estimated probability of presence (EPP) is calculated
-          by dividing the mapped normal curve value, which is the
-          expected value for a distribution in which all spots have
-          signal present on the hybridized microarray, by the
-          actual observed data distribution value for any given
-          ratio.
-          %EPP = 100 × (expected normal value/observed
-          value)
-          By comparing the expected distribution for a
-          hybridization with no absent genes (estimated by the
-          mapped normal curve) to the actual observed distribution,
-          it is possible to estimate the degree of divergence of
-          the genome compositions based on the divergence of the
-          distributions.
-          EPP values are calculated across the distribution in
-          order to assess the probability of presence for any given
-          ratio value (Figure 4b). In the left-hand tail of the
-          observed data distribution, the normal distribution
-          approaches zero. This reflects the fact that in this
-          region genes have a very low (close to 0%) chance of
-          being present. As the EPP distribution approaches the
-          main peak, it rapidly increases as the mapped normal
-          distribution becomes substantial in relation to the
-          observed hybridization data distribution, which reflects
-          the increasing proportion of present genes. Eventually,
-          the EPP crosses 100%, at which point all genes with that
-          particular ratio or higher are expected to be
-          present.
-          After the point at which it crosses 100%, the shape of
-          the EPP distribution for different hybridizations is
-          variable and unpredictable. As a result, we only consider
-          the left portion before the curve reaches 100% for the
-          determination of EPP. Once the EPP distribution reaches
-          100%, all genes to the right are considered to be
-          present. We therefore have a measure of the probability
-          that a gene is present for every data point in the
-          hybridization.
+          Rec12 is required for proper meiotic chromosome
+          segregation
+          The 
+          rec12 mutant meioses are
+          achiasmatic and would thus be expected to suffer
+          chromosome segregation errors during meiosis I. To gain
+          insight into this possibility, asci from meiotic cultures
+          were stained with a DNA specific fluorescent dye (DAPI)
+          and visualized by differential interference contrast
+          (DIC) and fluorescence microscopy. The majority of asci
+          from wild-type cells contained four well-rounded spores,
+          each with a single DAPI-staining body of equal intensity
+          (Figure 3A). The 
+          rec12 mutants were proficient at
+          meiosis and underwent two meiotic divisions as revealed
+          by ascus development and the distribution of chromosomes.
+          However, each of the 
+          rec12 mutants exhibited a high
+          frequency of chromosome segregation errors that were
+          sometimes accompanied by defects in spore formation
+          and/or ascus development (Figure 3B). The data from a
+          large number of asci from each mutant are presented
+          schematically in Figure 3C.
+          The 
+          rec12-117 , 
+          rec12-D15 , and 
+          rec12-Y98F mutants exhibited
+          qualitatively and quantitatively similar cytological
+          phenotypes (Figure 3C). They each produced between 60%
+          and 66% of asci with gross defects in DNA distribution.
+          These mutant phenotypes were not uniform; different asci
+          from the same cross were differentially affected (Figure
+          3). This heterogeneous phenotype is characteristic of a
+          variety of mutations that directly affect meiotic
+          chromosome dynamics [ 37 38 39 ] . Aberrant (or random)
+          assortment of the three chromosome pairs (or twelve
+          chromatids) leads to heterogeneous DNA distributions
+          within different asci.
+          The 
+          rec12 mutants also exhibited high
+          frequencies of additional developmental defects such as
+          abnormal spore placement, reduced spore numbers, and
+          abnormal spore formation (Figure 3C). It has been
+          suggested previously [ 38 ] that these phenotypes are
+          characteristic of a defect in meiosis II because spore
+          formation in 
+          S. pombe is controlled by the
+          spindle pole body of the MII spindle [ 40 41 42 ] .
+          
+          S. pombe produces ordered tetrads.
+          If chromosomes segregated aberrantly during the MI
+          reductional division, and then segregated appropriately
+          during the equational division of MII, one would expect
+          sister spores to receive identical complements of
+          chromosomes. However, among 
+          rec12 mutant asci with four spores
+          and an aberrant DNA distribution (Figure 3C, classes b,
+          c, d, e), only 26% or less exhibited a pattern
+          characteristic of simple MI nondisjunction (Figure 3C,
+          classes c, e). The remaining 74% or more had DNA
+          distributions characteristic of precocious sister
+          chromatid separation and/or MII segregation errors - DNA
+          was unequally distributed between two sister spores
+          (Figure 3C, classes b, d). In some cases a defect in
+          chromosome segregation during MII was visualized more
+          directly. For example, in many cases DNA masses failed to
+          separate properly into two sister spores during the
+          second meiotic division (Figure 3B; Figure 3C, classes f,
+          g, j, k, m). Thus, Rec12 protein is required for some
+          function of MII, as well as for recombination during
+          MI.
         
         
-          Categorical assignment based on EPP
-          The final problem is assignment into categories. The
-          EPP gives us an estimate of how likely a gene is to be
-          present. Genes with 0% or 100% EPP are easily assigned
-          into the divergent and present categories, respectively.
-          However, a significant number of genes have EPP values
-          between 0% and 100%. These genes fall into the transition
-          region, which is defined by the 0% and 100% EPP
-          boundaries.
-          Typically, divergent and present are the primary
-          categories of interest. However, if a gene is predicted
-          to have a 50% chance of being present, the question
-          arises as to how it should be assigned. Moreover, in a
-          strict analysis of divergent genes, one would want to
-          exclude even genes with a 10% chance of being present
-          from the divergent category. It is clear that selection
-          of a transition point within the transition region is
-          also a variable that should be specified by the user
-          depending on the type of analysis. To provide flexibility
-          in the types of analysis that can be carried out, we
-          provide three categorization tools in the GACK software
-          for assignment into various categories as well as
-          parameters for controlling the stringency with which the
-          genes are assigned to the categories.
-          The categorization options that are offered to the
-          user are binary assignment (present and divergent),
-          trinary assignment (present, slightly divergent, highly
-          divergent), and an assignment scale that reflects the EPP
-          for every data point (graded assignment). To date, most
-          publications have used a binary assignment scale [ 3, 5,
-          7, 8, 11], whereas others have circumvented the problem
-          of representation by reporting raw values [ 10] or only
-          identifying divergent genes [ 4, 9]. As noted above, the
-          transition region contains the transition point, but the
-          precise point must be user-specified depending on the
-          type of analysis. In binary assignment, a transition
-          point is selected on the basis of the percent EPP. In a
-          strict divergent genes analysis, the user would specify
-          0% EPP as the cutoff, which would result in approximately
-          0% falsely assigned divergent genes. In contrast, a
-          strict analysis of present genes should use a 100% EPP to
-          minimize falsely assigned genes.
-          Although binary assignment is desirable in some cases
-          as it gives an orderly appearance, this sort of
-          assignment discards probability information that can
-          serve as an indicator of confidence in the category
-          assignments. Trinary assignment is identical to binary
-          assignment, except that in addition to the divergent and
-          present categories, a third category is added for data
-          values that fall in the uncertain transition region. Two
-          transition points are specified, resulting in three
-          categories. Only the genes with the most confident
-          predictions are included in the absolute present and
-          highly divergent categories, whereas a third category
-          contains the genes that could not be assigned with high
-          certainty. These uncertain genes represent the class of
-          genes that are slightly divergent (see "Assessment of
-          divergence" below). The precise EPP values to use as the
-          cutoffs for trinary assignment are user-specified in the
-          software, but we recommend using the most stringent
-          values, 0% and 100%, for most analyses. Using these
-          values, there is high confidence that genes assigned into
-          the three categories are accurate.
-          The graded assignment categorization option is used to
-          preserve the most information regarding the probability
-          that a gene is present. A gene with a 100% chance of
-          being divergent is assigned a value of -0.5; a gene with
-          a 50% chance of being divergent or present is assigned a
-          value of 0; a gene with a 100% chance of being present is
-          assigned 0.5. Genes with intermediate EPP values are
-          assigned values in between -0.5 and 0.5 on a linear scale
-          on the basis of the likelihood of their being present.
-          This graded scale will ultimately give the most accurate
-          assessment of the data, as it preserves information about
-          the location along the distribution for each gene.
-        
-        
-          Analysis of published results
-          Only two published spotted microarray genomotyping
-          analysis studies have made their raw datasets publicly
-          available [ 7, 11]. We reanalyzed these datasets to
-          evaluate the performance of GACK.
-          Dorrell 
-          et al. [ 7] analyzed human isolates
-          of 
-          Campylobacter jejuni using a
-          microarray constructed from the library of clones used
-          for genome sequencing of 
-          C. jejuni NCTC 11168. Using other
-          published analyses as a basis, these researchers chose a
-          linear constant cutoff of 0.5 (-1.0 in log 
-          2 space) to identify divergent genes.
-          We conducted our own constant-cutoff analysis using the
-          same parameters on the published raw data, and our
-          results generally agree with the published analysis
-          (Table 1, and Additional data files). However, we note
-          that even following the methods of the original authors,
-          we were unable to reproduce the analysis with 100%
-          precision.
-          We next analyzed the original raw dataset with our
-          algorithm coded in the program GACK and used trinary
-          categorization for the output. Visual inspection of the
-          frequency distributions of their hybridization data
-          reveals that the cutoff was generally conservative
-          (Figure 1). This was reflected in the EPP values; all
-          except one of the 0% EPP values is greater than a log 
-          2 ratio of -1.0 (Figure 1). The less
-          conservative cutoff resulted in the larger number of
-          highly divergent genes predicted by GACK (Table 1; median
-          of 40 more highly divergent genes per strain). We
-          conclude that as a result of GACK's dynamic cutoff
-          determination, less conservative transition points, which
-          are still appropriate as judged by visual inspection of
-          the ratio distributions, can be used for gene
-          categorization.
-          The overall genome compositions look fairly similar
-          across the analyses (Figure 5), even though many
-          additional divergent genes are predicted by GACK. Closer
-          analysis of the loci analyzed in the original publication
-          (restriction modification, lipo-oligosaccharide, and
-          capsule biosynthesis) show that on the gene level, the
-          analytical methods yield similar results (Figures 6, 7,
-          8). GACK, however, predicts additional divergent genes in
-          these previously identified variable loci, suggesting
-          that the level of divergence may be even greater than
-          determined by the original authors. Some of these
-          additional loci are readily explainable: in the original
-          publication, a single present locus is sometimes flanked
-          by two regions of deleted genes. Our analysis finds that
-          such loci often fall into the divergent category or into
-          the transition region, indicating a low signal ratio.
-          These genes are presumably divergent, but did not meet
-          the constant-cutoff analysis criterion for a divergent
-          gene because of a slightly higher signal. Using the
-          combination of a less conservative cutoff and trinary
-          output shows that such loci are not very likely to be
-          highly conserved. Furthermore, sequencing of these loci
-          has confirmed that many genes previously assigned to be
-          present are in fact divergent, and that GACK is more
-          accurate than constant-cutoff approaches in identifying
-          these divergent loci (B. Wren, personal communication). A
-          complete list of divergent genes is available from our
-          website [ 15] and as additional data files.
-          Salama 
-          et al. [ 11] analyzed strains of 
-          Helicobacter pylori using a spotted
-          microarray based primarily on the strain 26695 genome
-          sequence, with additional spots representing strain
-          J99-specific genes. The array therefore contains
-          sequences that are unique to J99 and others that are
-          unique to 26695, which proved useful for empirically
-          choosing a log 
-          2 cutoff of -1.0. As observed for the 
-          C. jejuni analysis, we observed
-          that a log 
-          2 cutoff of -1.0 was generally
-          conservative (Figure 2), and that many divergent genes
-          were falsely assigned to the present category. We
-          compared the trinary GACK output to published analyses of
-          divergent and present genes. In some strains, more highly
-          divergent genes are predicted by GACK, but in other
-          strains, fewer highly divergent genes are predicted
-          (Table 2). In the case of present genes, fewer present
-          genes are predicted by GACK for all strains (Table 3),
-          which is due to the assignment of many of the genes to
-          the slightly divergent category. In conclusion, whereas
-          GACK analysis coupled with trinary output is generally
-          less conservative in predicting highly divergent genes,
-          the predictions for present genes are more conservative
-          (that is, they predict fewer present genes) as a result
-          of assignment of some of these genes to the slightly
-          divergent category. From visual inspection of the
-          position of the cutoff values along the ratio
-          distributions we expect that these assignments more
-          accurately reflect the true genome compositions.
-          Viewing the whole genomes indicated that the major
-          variable loci predicted in the original publication are
-          preserved in the GACK analysis. No additional major
-          contiguous regions of divergence are predicted. A full
-          list of divergent loci predicted by GACK is available [
-          15]. Analysis of the 
-          cag pathogenicity island reveals
-          that whereas the major differences are conserved, some
-          loci also display consistent weak signal across a portion
-          of the strains (black regions, Figure 9). Examples of
-          these loci are 
-          orf7, cag4, cag22 and 
-          cag25. Intriguingly, multiple
-          alleles of 
-          orf7 are apparent across the
-          strains (N. Salama, personal communication). The
-          microarray contains the 26695 allele of 
-          orf7, which is confirmed to be
-          present in strains G27, NCTC11638 and SPM-342 by PCR and
-          sequencing, in agreement with GACK analysis. The locus is
-          absent in strains SS1, G50, SPM-314, H34 and SPM-292,
-          also in agreement with GACK analysis. In J99 and 87A300, 
-          orf7 contains an insertion in the
-          coding sequence. These two strains exhibit weak
-          hybridization signal, resulting in assignment of 
-          orf7 to the slightly divergent
-          category, presumably due to the presence of the
-          insertion. The 
-          orf7 alleles present in AR32,
-          SPM-326, G39, and HP1 are uncharacterized, but our
-          results would predict that these strains also contain the
-          J99 allele or another allele that is divergent from the
-          26695 allele. This finding suggests that the preservation
-          of ratio-intensity information in the trinary or graded
-          output may be useful in identifying allelic differences
-          in some genes.
-        
-        
-          Assessment of divergence detection for H.
-          pylorimicroarrays
-          The complete sequencing of a second 
-          H. pylori strain, J99 [ 16, 17],
-          provides a convenient means for assessing how divergence
-          in sequence identity affects microarray signal, and
-          therefore categorization. As the design of the microarray
-          was based on the 26695 sequence, the J99 hybridization
-          products represent a spectrum of sequence identities
-          between target and probe. We examined the correlation
-          between signal intensities and percent sequence identity
-          for a J99 hybridization dataset in order to assess the
-          degree of sequence divergence that could be detected on
+          rec12mutants produce a high frequency aneuploid
+          meiotic products
+          Since 
+          S. pombe contains only three
+          chromosome pairs, aberrant assortment during one or both
+          of the meiotic divisions can produce, by chance, a
+          significant fraction of meiotic products that receive at
+          least one copy of each chromosome and are hence viable [
+          38 43 ] . Aberrant segregation can also produce
+          nullisomic aneuploids (missing one or more chromosomes),
+          polysomic aneuploids (having additional copies of
+          individual chromosomes), and diploids [ 38 39 44 ] . In 
+          S. pombe the haploids and diploids
+          are viable, nullisomic aneuploids are inviable, and
+          disomic aneuploids tend to lose the extra chromosome or
+          chromosomes and become haploid [ 45 ] . We therefore
+          determined the frequencies of spore viability and meiotic
+          diploidy as genetic measures of chromosome segregation
+          errors.
+          Approximately 50% of the meiotic products from the 
+          rec12-117 and 
+          rec12-D15 (null) mutants were
+          inviable (Figure 4A), indicating that about 50% of the
+          products were nullisomic for one or more chromosomes.
+          This value is close to the frequency (58%) of nullisomics
+          that one would expect if chromosome segregation were
+          completely random in either one of the two meiotic
+          divisions. Interestingly, the 
+          rec12-Y98F mutant produced a
+          significantly higher frequency of inviable spores than
           the 
-          H. pylori microarray. As expected,
-          the hybridization signal decreases with increasing
-          sequence divergence (Figure 10a). For a constant-cutoff
-          analysis using a log 
-          2 cutoff of -1.0, the identity level
-          for categorization as divergent is approximately 88%. For
-          the trinary GACK analysis, the transition points were at
-          -0.2 and -0.7, corresponding to approximately 92% and 89%
-          sequence identity. These trends are reflected in Figure
-          10b; approximately 50% of the genes with 88% sequence
-          identity are categorized as present, and the other 50%
-          are divergent for the constant-cutoff analysis.
-          Similarly, the GACK analysis assigns approximately 50% of
-          the genes with 89% identity to divergent, and close to
-          100% of the genes with greater than 92% identity as
-          present. This suggests that the detection limit of the 
-          H. pylori microarray is
-          approximately 88% sequence identity, and that this
-          detection limit results in classification of certain
-          genes as divergent in spite of the fact that sequence
-          identity may be relatively high (80-85%).
-          We observe, however, that the majority of PCR products
-          on the array are approximately 93-97% identical to J99
-          (Figure 11a), and that the distribution of percent
-          sequence identity bears a striking resemblance to the
-          shape of the distribution of the array data (Figure 11b).
-          This implies that the shape of the array data
-          distribution may largely be a function of the genome
-          content, in addition to the hybridization quality and
-          parameters, and that the limits of detection for the 
-          H. pylori microarray may be
-          considerably lower than the apparent value. The
-          consequence for interpretation of genomotyping data is
-          that divergence is always relative to the main peak of
-          present genes. This main peak will represent differing
-          degrees of sequence identity for different organisms and
-          strains, limiting our ability to make precise predictions
-          about the absolute degree of divergence for any given
-          gene. Furthermore, the predictions are likely to be
-          affected by the hybridization conditions. Nevertheless,
-          it is evident that the microarray data contain a fairly
-          high level of sequence identity resolution, and that
-          binary representation unnecessarily overlooks this
-          information.
+          rec12-117 and 
+          rec12-D15 mutants (Figure 4A),
+          suggesting that 
+          rec12-Y98F is a separation of
+          function mutation.
+          As a second measure of aberrant segregation, we
+          determined the frequency of diploid spore colonies in the
+          mutants. Each of the 
+          rec12 mutants behaved similarly and
+          produced approximately 10% diploid meiotic products, more
+          than 30-fold higher than the frequency produced by
+          wild-type cells (Figure 4B). If chromosome segregation
+          were completely random in either one of the two meiotic
+          divisions, one would expect approximately 4% of the
+          viable products to be disomic for all three chromosomes.
+          The value obtained in the 
+          rec12 mutants was 2.5-fold higher
+          than the predicted random value, indicating that the
+          segregation errors are not simply the consequence of
+          random chromosome assortment (nondisjunction) occurring
+          exclusively during one of the two meiotic divisions.
         
         
-          Validation of GACK predictions
-          Sequencing of the 
-          C. jejuni capsule biosynthetic
-          locus from several strains has indicated that some
-          regions which were incorrectly predicted to be present by
-          constant-cutoff methods are correctly predicted to be
-          divergent by GACK (B. Wren, personal communication). To
-          further validate the algorithm, we attempted to
-          PCR-amplify and sequence 40 genes representing a spectrum
-          of array intensities from the 
-          H. pylori strain G27. We
-          successfully amplified 21 regions for subsequent
-          sequencing. Many of the genes predicted to be highly
-          divergent by GACK did not amplify, presumably because of
-          their divergence. However, in the cases where
-          amplification and sequencing were successful for the
-          highly divergent genes, we observed approximately 90%
-          sequence identity between G27 and the amplified sequence
-          present on the array (26695 or J99) (Table 4). All genes
-          that were predicted to be slightly divergent by GACK
-          (array ratio of -0.6 to -0.2) were 91-96% identical with
-          sequences on the 
-          H. pylori array, with a median of
-          94%. Genes with stronger array intensities were predicted
-          to be present by GACK, and, not surprisingly,
-          corresponded to higher sequence identities. On the basis
-          of a linear regression of the sequencing results, we
-          predict that the majority of genes of G27 share
-          approximately 96% identity with the sequences on the
-          array (primarily 26695). These data, taken together with
-          our analyses of the J99 hybridizations, indicate that
-          microarrays do not just predict presence or divergence,
-          but can resolve variation in sequence identity between
-          target and probe. Furthermore, GACK is able to correctly
-          categorize these genes.
+          Rec12 is required for chiasmatic and achiasmatic
+          chromosome segregation during MI; and its active site
+          tyrosine is required for chromosome segregation during
+          MII
+          Because each of the 
+          rec12 mutants had aberrant meiotic
+          chromosome segregation (Figure 3), produced a high
+          frequency of viable meiotic products (Figure 4A), and
+          produced a high frequency of meiotic diploids (Figure
+          4B), we were able to monitor directly the segregation
+          patterns of all three chromosome pairs in each of the
+          mutants. Meiotic diploids were genotyped for
+          heteroallelic, centromere-linked markers on each of the
+          three chromosomes. Those data were compared to the
+          inheritance patterns predicted for each type of
+          chromosome missegregation (Figure 5).
+          Approximately half of the diploid products from the 
+          rec12-117 and 
+          rec12-D15 (null) meioses were
+          heterozygous for centromere-linked markers on chromosomes
+          
+          I , 
+          II , and 
+          III (Figure 5E). Thus, those
+          meioses did not exhibit simple MI nondisjunction, because
+          100% of diploids arising from MI nondisjunction would be
+          heterozygous at the centromeres (Figure 5B). Precocious
+          separation of sister chromatids during MI [ 44 46 ] can
+          also produce diploid meiotic products, 67% of which would
+          be heterozygous for centromere markers (Figure 5D) [ 38 ]
+          . However, the average heterozygosities in the 
+          rec12-117 and 
+          rec12-D15 mutants were
+          significantly below this value, indicating that these
+          mutants must have suffered some proportion of MII
+          segregation errors. By applying mapping functions for
+          aneuploid meiotic products [ 47 ] , we can set a lower
+          limit of 22% and 29% MII nondisjunction for the 
+          rec12-117 and 
+          rec12-D15 meioses analyzed,
+          respectively.
+          Surprisingly, the 
+          rec12-Y98F (active site) mutants
+          produced meiotic diploids that were almost exclusively
+          homozygous for centromere-linked markers (Figure 5E). The
+          average heterozygosity for loci on all three chromosomes
+          was 4.7 ± 4.1%. This indicates that about 95% of those 
+          rec12-Y98F mutant cells that
+          produced diploid spores must have successfully completed
+          the reductional segregation of chromosomes (MI) and
+          failed to properly segregate sister chromatids during the
+          equational division (MII).
+          While there was clear cytological evidence of two
+          meiotic divisions and aberrant chromosome assortment in
+          each division in the majority of 
+          rec12 mutant cells (Figure 3), it
+          remained possible that some of the diploid meiotic
+          products were derived from cells that had skipped one of
+          the two meiotic divisions, thereby biasing the chromosome
+          segregation data. If this were the case, all three
+          chromosomes within any given, individual meiotic product
+          would exhibit identical segregation patterns. However,
+          about half of the diploids from 
+          rec12-117 and 
+          rec12-D15 meioses, and 14% of
+          diploids from 
+          rec12-Y98F meioses, exhibited mixed
+          patterns of MI or MII missegregation for different
+          chromosomes within individual cells (Table 2).
+          Furthermore, the observed frequencies of mixed
+          segregation matched the frequencies predicted from the
+          average values for single chromosomes ( 
+          e.g., 14% 
+          vs. 13% for 
+          rec12-Y98F ). These data provide
+          additional evidence that two meiotic divisions had
+          occurred and that the diploids arose as a consequence of
+          meiotic chromosome segregation defects.
         
       
       
         Discussion
-        Microarrays are increasingly used as a tool for
-        genome-composition analysis, or genomotyping [ 14, 18].
-        Current methods of microarray data analysis are primarily
-        designed for expression (mRNA) studies, in which the
-        distribution of signals is assumed to remain relatively
-        similar across conditions. For microarray-based comparative
-        genome analyses, the signal distributions may show
-        significant variation between species or strains.
-        Furthermore, normalization procedures in which
-        distributions are centered to zero on a log 
-        2 scale are not appropriate for strain
-        comparisons, as the majority of the distributions are
-        skewed. This skew manifests itself as the main peak of the
-        ratio distribution, representing the present genes, being
-        shifted to different degrees for different strains. The
-        peak's position is also dependent on the length of, and
-        number of genes present in, the left tail (area under the
-        left tail). Because of the varying position of the ratio
-        distributions, a constant-cutoff analysis results in
-        selection of a different location on each distribution as
-        the transition point for category assignment. Other
-        normalization procedures can be used that will not be
-        subject to such problems, but are more complicated to
-        implement and require some prior knowledge of genome
-        composition [ 19]. We hypothesized that a more accurate
-        approach to creating these assignments is to select a
-        mathematically identical point on each distribution being
-        analyzed as the transition point. We subsequently developed
-        an algorithm to reproducibly identify such a point.
-        The algorithm assumes that a hybridization in which all
-        spots have signal present are distributed normally. This
-        assumption proves to be fairly accurate, as is observed in
-        the mapping of normal curves to the hybridization
-        distributions (for example, Figure 4). Slight deviations
-        are seen in the tails of the distributions, suggesting that
-        better estimates of the distributions may exist. The
-        observation that percent sequence identity is at least
-        crudely resolved on the microarrays suggests that a
-        multinormal model maybe more accurate. Nonetheless, the
-        normal curve mapping consistently gives good overlap with
-        the main peak of the ratio distributions in our analyses.
-        Furthermore, normalization of the dataset does not impact
-        on analysis with GACK because the algorithm depends on the
-        shape of the distribution. The genes are determined to be
-        present or divergent on the basis of their relative
-        position in the distribution, rather than an absolute
-        signal intensity ratio. We observed that the algorithm
-        works as well on un-normalized datasets as it does on
-        normalized datasets (data not shown), circumventing the
-        need to implement more complex normalization procedures for
-        genomotyping data. However, while GACK is able to account
-        for minor variations in a set of replicate hybridizations,
-        we emphasize that hybridizations of poor quality yield
-        irreproducible results regardless of the analysis
-        method.
-        We originally considered using the left side of the
-        normal curve map as a transition point for binary analysis.
-        This point effectively represents a 0% EPP cutoff, which we
-        believe is appropriate and accurate for a strict divergent
-        genes analysis. However, we realized that genomotyping data
-        embodies information that can be analyzed in many other
-        ways, and therefore chose to implement multiple flexible
-        assignment systems in the software. The choice of the
-        transition point(s) and the output format depend closely on
-        one another; regardless of this, the algorithm selects
-        points that are consistent in their location on each
-        distribution for any given analysis. This method, coupled
-        with our estimates of probability that a gene is present
-        (EPP values), should give more accurate assignments across
-        hybridizations and strains.
-        We developed GACK to improve analysis of genomotyping
-        data generated in our laboratory. In an effort to both
-        determine if the algorithm would be broadly applicable to
-        other genomotyping datasets generated from different
-        microarrays and by other laboratories, we tested all of the
-        publicly available datasets with GACK. It should be noted
-        that at present only two datasets are available, both of
-        which were generated using spotted DNA microarrays, and
-        therefore the applicability of GACK to data generated from
-        oligo-based arrays remains to be tested. Nonetheless, our
-        analyses generally correspond well with the published
-        analyses of 
-        C. jejuni and 
-        H. pylori strains. Categorical
-        assignments were based on a constant log 
-        2 cutoff of -1.0 in these publications,
-        which, from visual inspection of the distributions, appear
-        to be conservative for divergent gene identification.
-        Accordingly, GACK predicted transition-point values that
-        were generally higher than -1.0. As these publications
-        primarily focused on divergent genes, conservatism in the
-        predictions was appropriate, but resulted in lower
-        sensitivity of detection. Our analyses have recategorized
-        several hundred genes based on 0% and 100% EPP values.
-        Although many genes have been reclassified as highly
-        divergent, many also fall into the slightly divergent
-        category. In creating this additional category, we make a
-        relatively conservative prediction of both highly divergent
-        and present genes, which results in more confidence in our
-        assignments.
-        We found that the published analyses of 
-        H. pylori strains were also
-        conservative in their predictions of divergent genes,
-        although less so than the 
-        C. jejuni analysis. In contrast, the
-        published predictions for present genes were less
-        conservative, as genes that lie within the tail of the
-        ratio distribution but have a ratio of greater than -1.0
-        were classified as present (Figure 2). This is a limitation
-        of binary representation of the information. This
-        limitation, coupled with our observations that
-        sequence-identity information is present in the array data,
-        indicate to us that more sophisticated and detailed
-        representation systems are necessary. We believe that at
-        present, trinary and graded output are the best options, as
-        they preserve more information than binary output, but more
-        work is needed in this area.
-        Closer analysis of the 
-        cag pathogenicity island revealed
-        that the predictions were for the most part identical to
-        the previously published predictions. Intriguingly, some
-        loci, such as 
-        orf7 , consistently show
-        hybridization, but with relatively low strength. This is
-        particularly interesting because there are multiple allelic
-        forms of 
-        orf7 in different 
-        H. pylori strains (N. Salama,
-        personal communication). This indicates that preservation
-        of ratio information, such as in the output of trinary or
-        graded analyses, can result in detection of relevant
-        biological differences and should be done for most
-        analyses.
-        Analysis of the degree of sequence identity required for
-        detection on the 
-        H. pylori microarray revealed that
-        sequences with less than 88% identity resulted in
-        dramatically reduced signal on the microarray. Genes with
-        this degree of identity or lower were typically classified
-        as highly divergent, regardless of the method of analysis.
-        In contrast to the hybridization results, loci with greater
-        than 80% sequence identity are generally considered to be
-        likely homologs by 
-        in silico comparison. This is a
-        limitation of the microarray technology that should be
-        considered when referring to a particular locus as
-        divergent.
-        We attempted to validate the GACK predictions by PCR
-        amplifying and sequencing loci of the different classes.
-        Not surprisingly, many of the highly divergent genes did
-        not amplify, limiting our ability to draw any conclusions
-        about the precise degree of sequence identity that results
-        in a gene being classified as divergent. Nevertheless, the
-        observed PCR success/failure rate and percent sequence
-        identities are consistent with the GACK predictions. True
-        validation of this analysis method, and of microarray
-        genomic comparison and analysis methods in general, will be
-        achieved through a combination of more strain comparison
-        work and accompanying sequence information in the form of
-        genome sequencing projects and the sequencing of particular
-        loci by individual laboratories. Multiple strain and
-        species genomes are available, or will be soon, for a
-        number of organisms, providing a wealth of information for
-        direct comparative genomic analysis and the groundwork for
-        further establishing microarray-based genomic comparisons
-        as a viable means of assessing genetic differences in
-        strains of interest.
-        Our findings offer improved methods for analysis of
-        microarray-based genome-composition data. Analysis of
-        genomotyping datasets of 
-        S. enterica serovars has demonstrated
-        that dynamic cutoff selection is more reliable and
-        reproducible than constant cutoffs [ 20]. We have also
-        described two additional systems for representation, which
-        preserve more of the raw information than a binary
-        analysis. Most importantly, we have identified shortcomings
-        in currently available analytical methods. Most of the
-        tools for microarray data analysis have been developed for
-        use with expression data, but even simple manipulations
-        such as normalization of the datasets are not necessarily
-        appropriate in the case of genomic comparisons. We hope and
-        anticipate that identification of these problems will
-        facilitate that development of even more sophisticated
-        analysis methods.
+        
+          Conserved structure and function of Rec12 (Spo11)
+          to initiate recombination
+          Identification of four introns (Figure 1) and complete
+          complementation of the 
+          rec12-117 hyporecombination defect
+          by the full-length cDNA (Figure 2) confirmed that Rec12
+          protein is homologous to Spo11 of other eukaryotes [ 11 ]
+          . Both Rec12 and its active site tyrosine are required
+          for intragenic and intergenic recombination at multiple
+          locations on all three chromosomes (Figure 2, Tables 1,
+          2, data not shown). We observed an average, 256-fold and
+          263-fold reduction in crossover recombination in the 
+          rec12-D15 and 
+          rec12-Y98F mutants for intervals
+          encompassing ~20% of the genome. Since wild-type 
+          S. pombe has 44 crossovers per
+          meiosis (between 11 and 18 per chromosome) [ 36 ] , the
+          mutants statistically have less than 0.1 crossovers per
+          chromosome per meiosis and are thus achiasmatic.
+          It was reported previously that 
+          rec12-117 mutants exhibit only a
+          6-fold reduction in crossover recombination [ 33 ] ,
+          which is at odds with our value of more than a 250-fold
+          reduction in the 
+          rec12-D15 (null) and 
+          rec12-Y98F (active site) mutants
+          (Table 1). This discrepancy is not due to the nature of
+          the 
+          rec12-117 allele, as we have also
+          observed a 200-fold or greater reduction in crossovers in
+          
+          rec12-117 mutants (W.D. Sharif and
+          W.P. Wahls, unpublished data). Our observation that 
+          rec12-117 mutants produce a high
+          frequency of viable diploid meiotic products, about half
+          of which are heterozygous for centromere linked markers
+          (Figures 4, 5, Table 2), provides a straightforward
+          reason for the discrepancy: The previous study failed to
+          exclude diploid spore colonies and scored only for double
+          prototrophic recombinants (the double auxotrophic,
+          reciprocal recombinants were not analyzed). Presumably
+          the bulk of the colonies reported previously as
+          "recombinants" were actually diploids (or disomics)
+          exhibiting intergenic complementation.
+          We used dosage studies to see if Rec12 functions in a
+          manner predicted by homology to Spo11/Top6A. Upon
+          overexpression of Rec12 protein, the frequency of
+          recombination did not increase beyond wild-type levels
+          (Figure 2). The simplest interpretation is that Rec12
+          functions in a multisubunit protein complex; a complex in
+          which other components are required either for efficient
+          catalysis of dsDNA breaks or for correct subcellular
+          localization of Rec12. In budding yeast the active site
+          mutation exhibits allele-specific semidominance when
+          heterozygous with wild-type [ 51 ] , and we have made
+          similar observations in fission yeast (W.D. Sharif and
+          W.P. Wahls, unpublished data). This provides evidence
+          that a dimer of Rec12/Spo11 protein, harboring two
+          functional active sites, is required for catalysis of
+          dsDNA breaks in each organism. Thus, with regard to
+          primary protein sequence (Figure 1), inferred subunit
+          structure (Figure 2and data not shown), strict
+          requirement for meiotic recombination (Figure 2, Table
+          1), and dependence upon its active site tyrosine (Table
+          1), Rec12 protein is a structurally and functionally
+          conserved member of the Spo11 family of enzymes that
+          catalyze meiotic dsDNA cleavage to initiate recombination
+          [ 11 ] .
+        
+        
+          Rec12 has dual roles in chiasmatic and achiasmatic
+          (distributive) chromosome segregation during Meiosis
+          I
+          In the absence of crossover recombination (chiasmata)
+          and a backup distributive (achiasmatic) system for
+          chromosome segregation, MI nondisjunction should occur
+          and 100% of any resulting diploid spore colonies would be
+          heterozygous for centromere linked markers (Figure 5B).
+          However, only about 50% of diploid meiotic products from 
+          rec12-D15 (null) mutant meioses
+          were heterozygous for centromere linked markers (Figure
+          5E), indicating that some fraction of the products were
+          derived from precocious separation of sister chromatids
+          (PSS) and/or MII nondisjunction (Figure 5C, 5D). Since
+          PSS does not occur in 
+          rec12 null mutants [ 52 ] , those
+          centromere-homozygous chromosomes must have experienced a
+          proper reductional segregation and a failed equational
+          segregation (discussed below).
+          The 
+          rec12-D15 (null) mutants are
+          achiasmatic (Table 1) and, as anticipated, exhibit a high
+          frequency of MI nondisjunction (Figures 3, 5, Table 2).
+          However, the frequency of MI nondisjunction observed is
+          only half of that expected, suggesting the presence of a
+          distributive (achiasmatic) system of chromosome
+          segregation. There is precedence for a distributive MI
+          segregation system in several organisms. [ 7 53 ] . In 
+          rec7 hyporecombination mutants of 
+          S. pombe the fidelity of
+          segregation of homologs during MI exceeds the expected
+          random level [ 10 ] . Similarly, MI segregation of
+          GFP-tagged centromeres in 
+          rec12 deletion mutants occurs at
+          non-random levels (L. Davis and G.R. Smith, personal
+          communication), in good agreement with our genetic
+          results. In each case identified, this distributive
+          system of fission yeast can partially circumvent the MI
+          segregation errors of achiasmatic chromosomes;
+          approximately one-quarter to one-half of those homologs
+          expected to nondisjoin ( 
+          i.e., move to the same pole) end up
+          segregating distributively ( 
+          i.e., move to opposite poles).
+          While the 
+          rec12-D15 (null) mutants frequently
+          suffer MI nondisjunction, the 
+          rec12-Y98F (active site) mutants
+          produce meiotic diploids with nearly normal MI
+          segregation patterns (Figures 3, 5, Table 2). This
+          difference is unrelated to crossover frequency, because
+          the active site and null mutants have identical
+          deficiencies in crossover recombination (Table 1). Thus,
+          Rec12 protein has one or more functions in MI that are
+          distinct from its functions to catalyze recombination and
+          mediate chiasmatic segregation. We propose that the
+          Rec12-Y98F protein facilitates distributive segregation
+          of achiasmatic chromosomes during MI.
+          A meiotic checkpoint could provide additional time for
+          missegregating chromosomes to correct their erroneous
+          wanderings during MI [ 10 ] . We propose two likely
+          mechanisms by which the Rec12 protein improves the MI
+          segregation of achiasmatic chromosomes. First, Rec12 may
+          be required for an "MI nondisjunction checkpoint" that
+          delays meiotic cells in which proper MI disjunction has
+          failed to occur. If Rec12 were required for such a
+          checkpoint, the null mutants would be achiasmatic, would
+          fail to delay for the time period required to establish
+          distributive segregation, and would consequently undergo
+          high rates of MI nondisjunction. In the presence of
+          Rec12-Y98F protein the checkpoint would be active,
+          thereby allowing the achiasmatic chromosomes sufficient
+          time to reorient and undergo distributive segregation.
+          Meiotic progression in 
+          spo11 ( 
+          rec12 ) null mutants of budding
+          yeast is accelerated [ 29 ] , supporting our hypothesis
+          that Rec12 may participate in an "MI nondisjunction
+          checkpoint."
+          As an alternative (but not mutually exclusive)
+          mechanism, Rec12 protein may participate directly in the
+          machinery of distributive segregation. In female meioses
+          of 
+          D. melanogaster , heterochromatic
+          pairing of homologs can substitute for chiasmata to
+          ensure bipolar spindle attachment of bivalents and
+          subsequent distributive segregation [ 4 5 6 8 ] . Rec12
+          may serve a similar role in maintaining a paired (or
+          pseudo-paired) state between achiasmatic chromosomes
+          prior to the first meiotic division. In support of this
+          possibility, Spo11 of mice colocalizes extensively along
+          homologously synapsed chromosomes during pachytene and
+          dissociates when the homologs segregate from one-another
+          during anaphase of MI [ 25 ] .
+        
+        
+          Rec12 has a role in equational chromosome
+          segregation during Meiosis II that is dependent upon its
+          active site tyrosine
+          Cytological and genetic data each demonstrated that
+          the 
+          rec12-D15 (null) and 
+          rec12-Y98F (active site) mutants
+          frequently suffer chromosome segregation errors during
+          MII (Figures 3, 5, Table 2). This role for Rec12 in
+          equational chromosome segregation may be conserved, as 
+          spo11 mutants of 
+          Sordaria macrospora also exhibit
+          frequent MII nondisjunction (S. Tesse, A. Storlazzi, S.
+          Gargano, and D. Zickler, personal communication).
+          Irregular partitioning of chromosomes during the second
+          meiotic division has also been reported in fission yeast 
+          rec7 mutants [ 10 ] , so MII
+          missegregation may be a relatively common fate for
+          chromosomes in hyporecombination mutants. As described
+          previously in this paper and elsewhere [ 38 ] , the
+          biology of fission yeast facilitates the identification
+          of MII segregation defects that are difficult to detect
+          in other organisms that terminate meiotic progression or
+          produce inviable meiotic products as a consequence of
+          defects in meiotic chromosome dynamics.
+          Although they exhibit a striking difference in their
+          apparent MI nondisjunction frequencies, the 
+          rec12-D15 (null) and 
+          rec12-Y98F (active site) mutants
+          manifest at most a two-fold difference in the absolute
+          frequency of meiotic diploids exhibiting MII
+          missegregation patterns (Figures 4, 5, Table 2).
+          Catalytically-inactive Rec12-Y98F protein apparently
+          cannot enhance the fidelity appropriate MII segregation,
+          relative to MII missegregation levels in cells lacking
+          Rec12 entirely. We therefore propose that Rec12 protein
+          mediates a signal, strictly dependent upon its active
+          site tyrosine, that is required for the equational
+          division of MII.
+          There are two main hypotheses as to the nature of the
+          signal: First, Rec12 protein itself may participate in
+          the signal transduction. In 
+          pat1-114 
+          ts meioses Rec12 appears to persist
+          until about the time of the second meiotic division (N.
+          Herrera and S. Forsburg, personal communication), so
+          Rec12 is available at the right time. Alternatively, some
+          aspect of the crossovers or chiasmata may transduce the
+          signal. This could involve structural components that
+          persist on chromosomes at the positions where
+          recombination and chiasmata had previously occurred, or
+          could involve a diffusible component generated by
+          recombination events.
+          At present, two hypothetical mechanisms by which a
+          Rec12-dependent signal affects MII are proposed: First,
+          Rec12-dependent (recombination-dependent) signals might
+          trigger a block after MI, thereby allowing cells to skip
+          a frequently irregular MII division [ 39 ] . However, the
+          majority of the 
+          rec12 mutant meioses show evidence
+          of two meiotic divisions (Figure 3) and many of the
+          meiotic diploids exhibit mixed MI and MII missegregation
+          patterns for centromere linked markers on the three
+          different chromosomes (Table 2). In the absence of PSS,
+          which does not occur at significant levels in 
+          rec12 mutants [ 52 ] , such mixed
+          segregation patterns can only be generated by a
+          combination of errors in both reductional and equational
+          segregation. A second hypothetical mechanism takes into
+          account the coordinate, two-step release of sister
+          chromatid cohesion that is essential for the two meiotic
+          divisions [ 38 ] . Rec12-dependent (or
+          recombination-dependent) signals may be required for the
+          proper maintenance and/or dissolution of
+          centromere-proximal sister chromatid cohesion in MII.
+          These and other hypotheses regarding the unambiguous
+          requirement for Rec12 in MII remain to be tested.
+        
       
       
-        Materials and methods
+        Conclusions
+        The role of Spo11 (Rec12) in the initiation of meiotic
+        recombination via catalysis of dsDNA breaks is conserved
+        and likely universal among eukaryotes. The 
+        rec12 null and active site mutants
+        are achiasmatic and, as anticipated, Rec12-dependent
+        crossovers (chiasmata) are required to ensure proper
+        reductional chromosome segregation in MI. In the absence of
+        Rec12 protein and crossovers, a backup distributive
+        (achiasmatic) segregation system operates successfully on
+        up to half of the chromosomes that would otherwise undergo
+        MI nondisjunction. Presence of catalytically inactive Rec12
+        protein enhances the fidelity of this distributive
+        segregation system. In addition, catalytically active Rec12
+        protein (or Rec12-dependent recombination) is required for
+        faithful chromosome segregation during MII.
+      
+      
+        Methods
         
-          GACK programming
-          GACK was written in Perl. Testing was conducted on a
-          Windows 2000 system with ActivePerl 5.6.1 build 631. The
-          script requires Perl/Tk for the user interface. A
-          stand-alone executable for Windows was created using
-          Perlapp (Activestate Perl Developer's Kit 4.0).
+          S. pombeculture
+          Strain genotypes are listed in Table 3. Culture media
+          and genetic methods were as described [ 38 54 55 ] .
         
         
-          Reconstruction of datasets
+          Intron mapping, cDNA cloning, and DNA sequence
+          analysis
+          Cells harboring the 
+          pat1-114 
+          ts allele were induced to enter
+          meiosis [ 56 ] and were collected after 3 hours of
+          meiotic induction. Genomic DNA and total RNA were
+          prepared [ 57 ] and subject to PCR and RT-PCR [ 58 ]
+          using primers flanking each putative intron.
+          Full-length 
+          rec12 +cDNA was obtained using
+          RT-PCR. The 5' and 3' primers contained 
+          Nde I and 
+          Bam HI restriction sites,
+          respectively, and were designed to amplify the 
+          rec12 +cDNA from the first ATG in
+          exon 1 to a position +142 bp downstream of the stop codon
+          in exon 5. RT-PCR products were cloned by blunt-end
+          ligation into pCR-Blunt (Invitrogen Corp.) and both
+          strands were subject to DNA sequencing (GenBank accession
+          no. AF195027).
+        
+        
+          Alignment of Rec12 with other Spo11 family
+          members
+          Protein sequences homologous to that of 
+          S. pombe Rec12 were identified with
+          a NCBI Blast search [ 59 ] using matrix BLOSUM62.
+          Representative homologous sequences (see Figure 1legend)
+          were aligned using T-COFFEE [ 60 ] , which optimizes
+          alignment of sequences with low levels of homology.
+          Output was prepared using a 50% threshold for identical
+          and conserved residues.
+        
+        
+          Inducible pREP vector constructions
+          Genomic 
+          rec12 +DNA and 
+          rec12 +cDNA were cloned between the
           
-            C. jejuni dataset
-            Raw hybridization values were downloaded for
-            triplicate hybridizations of the 11 
-            C. jejuni strains [ 7]. The
-            linear data was converted to log 
-            2 , although the linear data
-            contained negative values (median 0.8% per strain, or
-            14 spots out of 1,730), which could not be converted to
-            log 
-            2 and were subsequently discarded
-            from the dataset. The triplicates were averaged, and
-            these data served as the raw dataset for our analyses.
-            The published present/divergent genes category sizes
-            were tabulated from the lists of divergent genes
-            available at [ 15].
+          Nde I and 
+          Bam HI restriction sites of the
+          inducible vectors pREP2, pREP42, and pREP82 [ 32 ] .
+          Induction of gene expression and northern blot analysis
+          of 
+          rec12 +mRNA levels were as
+          described [ 32 57 ] .
+          Genomic DNA was liberated from pYL78 [ 30 ] by partial
           
-          
-            H. pylori dataset
-            Raw values were downloaded from the Stanford
-            Microarray Database [ 21]. The data for the AR32 and
-            H34 strains were absent in the Published Data section,
-            and were obtained directly from the authors. The data
-            were filtered to include the same genes as the
-            previously published dataset [ 11]. Numbers describing
-            the size of the present and divergent genes categories
-            were obtained directly from the publication.
-          
+          Eco RI digestion and complete 
+          Bam HI digestion, which cleaves
+          within the polylinker site approximately 700 bp
+          downstream of the 
+          rec12 +stop codon in exon 5. The
+          DNA fragment with single-site cleavage by 
+          Eco RI at bp position +3, relative
+          to the ATG start codon, was gel purified. A dsDNA
+          oligonucleotide linker, containing cohesive 
+          Nde I and 
+          Eco RI ends, was constructed
+          (5'-TATGAGCCATCATCATCATCATCATAGCATG-3' and
+          5'-AATTCATGCTATGATGATGATGATGATGGCTAC-3'). This linker
+          encoded in frame the amino acids MSHHHHHHSM, with the
+          last residue corresponding to the first methionine
+          encoded in 
+          rec12 +exon 1. Trimolecular
+          ligation was used to create pREP2- 
+          rec12 +, pREP42- 
+          rec12 +, and pREP82- 
+          rec12 +clones encoding Rec12
+          protein with 6X histidine tags. An 
+          Nde I- 
+          Bam HI fragment of a cDNA clone
+          with wild-type 
+          rec12 +sequence (see above) was
+          sub-cloned into the pREP42 vector to generate pREP42- 
+          rec12 + 
+          cDNA . The integrity of all clones
+          was determined by a combination of restriction mapping,
+          PCR, and DNA sequencing.
         
         
-          PCRs and sequencing
-          Genes were selected for sequencing using various
-          criteria, including array signal intensity, variance in
-          the replicates and amplicon length. Primers were selected
-          that were identical to those used to construct the 
-          H. pylori array. Sequencing was
-          from both ends of the PCR products and was carried out by
-          Sequetech (Mountain View, CA). 
-          H. pylori G27 genomic DNA was a
-          gift from Douglas Scott Merrell.
+          Construction of rec12-D15::ura4 +and
+          rec12-Y98Falleles
+          A PCR based gene targeting approach [ 61 62 ] was used
+          to delete the 
+          rec12 +coding region and replace it
+          with the 
+          ura4 +gene. Candidates were
+          screened with a combination of PCR analysis, restriction
+          digestion, and DNA sequencing to identify those with
+          successful allele replacement.
+          Replacement of the endogenous 
+          rec12 +locus with the 
+          rec12-Y98F allele was achieved by
+          transformation and a pop-in, pop-out approach [ 61 63 ] .
+          A 1.2 kbp 
+          Xba I- 
+          Xba I fragment of 
+          rec12 +was subcloned into
+          pBluescript SKII(+) and subject to oligonucleotide
+          directed mutagenesis [ 64 ] to simultaneously introduce a
+          silent mutation generating an 
+          Eco RV site and to mutate the Y98
+          codon (GAG ATA TTT ATT ACA → GA 
+          G ATA T 
+          
+            C 
+            T ATT 
+          
+            T 
+           CA). After confirmation by DNA sequencing, the 
+          Xba I- 
+          Xba I fragment was subcloned into
+          pURA4. pURA4- 
+          rec12-Y98F was linearized by
+          digestion with 
+          Nco I. Transformation, forward
+          selection for Uracil prototrophy, and reverse selection
+          for FOA resistance were as described [ 61 63 ] .
+          Candidates were screened as described above.
+        
+        
+          Recombinant frequency determination
+          Mating, meiosis, and preparation of free spores were
+          as described [ 54 55 65 ] . Intergenic and intragenic
+          recombinant frequencies were determined as described [ 38
+          65 ] . Because diploid spores could contain complementing
+          markers and be mistaken for recombinants, we tested all
+          spore colonies for diploidy by replica plating on
+          complete media containing Phloxin-B (YEA-B). On these
+          plates, diploid cells produce dark pink colonies, whereas
+          haploid cells produce light pink colonies [ 54 ] .
+          Diploid meiotic products were excluded from recombinant
+          frequency determinations.
+        
+        
+          Diploid spore isolation and haploidization
+          analysis
+          Identification of diploid spore colonies and their
+          haploidization with 
+          m -flourophenylalanine ( 
+          m -FPA) [ 55 ] were as described [
+          38 ] . Fifty haploidized colonies derived from each
+          diploid spore colony were replica plated to
+          differentially supplemented minimal media to genotype the
+          
+          lys1 and 
+          ade6 loci. The 
+          tps13 alleles were scored by
+          replica plating colonies onto rich (YEA) media and
+          testing for growth at permissive (22°C) and restrictive
+          (35°C) temperatures.
+        
+        
+          Microscopy
+          Asci from meiotic cultures were fixed with 70% ethanol
+          at -20°C for at least 15 minutes, washed with H 
+          2 O, and stained with
+          4,6-diamidino-2-phenylindole (DAPI) at a final
+          concentration of 1 μg/ml. Cells were examined by
+          differential interference contrast (DIC) and fluorescence
+          (DAPI) microscopy with a Zeiss axiophot (Carl Zeiss,
+          Thornwood, NY). Images were analyzed using the MetaMorph
+          software package (Universal Imaging, West Chester,
+          PA).
         
       
       
-        Additional data files
-        The Perl source code for GACK, a Windows-executable
-        versionof the program, and a manualin PDF format are freely
-        available here and at our website [ 15]. A complete list of
-        divergent genes, raw ratio valuesand trinary outputsare
-        also available for 
-        C. jejuni as well as lists of
-        divergent genes, raw ratio valuesand trinary outputsfor 
-        H. pylori. A tool for constant-cutoff
-        analysis, CCACK, can also be downloaded at our website [
-        15].
-        Additional data file 1
-        Perl source code for GACK
-        Perl source code for GACK
-        Click here for additional data file
-        Additional data file 2
-        Windows-executable version of the program
-        Windows-executable version of the program
-        Click here for additional data file
-        Additional data file 3
-        A manual in PDF format
-        A manual in PDF format
-        Click here for additional data file
-        Additional data file 4
-        A complete list of divergent genes for 
-        C. jejuni 
-        A complete list of divergent genes for 
-        C. jejuni 
-        Click here for additional data file
-        Additional data file 5
-        A complete list of raw ratio values for 
-        C. jejuni 
-        A complete list of raw ratio values for 
-        C. jejuni 
-        Click here for additional data file
-        Additional data file 6
-        A complete list of trinary outputs for 
-        C. jejuni 
-        A complete list of trinary outputs for 
-        C. jejuni 
-        Click here for additional data file
-        Additional data file 7
-        A complete list of divergent genes for 
-        H. pylori. 
-        A complete list of divergent genes for 
-        H. pylori. 
-        Click here for additional data file
-        Additional data file 8
-        A complete list of raw ratio values for 
-        H. pylori. 
-        A complete list of raw ratio values for 
-        H. pylori. 
-        Click here for additional data file
-        Additional data file 9
-        A complete list of trinary outputs for 
-        H. pylori. 
-        A complete list of trinary outputs for 
-        H. pylori. 
-        Click here for additional data file
+        Authors' contributions
+        Each author contributed significantly to the design and
+        execution of the study; respective efforts are reflected by
+        order of authorship.
       
     
   

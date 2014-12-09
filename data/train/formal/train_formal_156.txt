@@ -2,438 +2,445 @@
   
     
       
-        Introduction
-        There are approximately 400000 cases of sepsis reported
-        each year in the USA, leading to about 100000 deaths
-        annually [ 1, 2, 3]. Indeed, mortality from sepsis in most
-        series is reported to be between 25 and 40%, with
-        Gram-negative bacteria being the most commonly encountered
-        pathogens [ 3, 4, 5]. The severity of sepsis may
-        distinguish those who may benefit from therapeutic blockade
-        of their excessive and maladaptive immune response, from
-        those who may not. Consequently, a practical way to
-        determine the presence and severity of sepsis is essential.
-        Although systems of evaluation based on clinical
-        observations and physiologic parameters are helpful, they
-        have been of limited use for predicting morbidity and
-        mortality in individuals with inflammatory conditions,
-        especially in surgical populations [ 6, 7, 8, 9, 10]. An
-        early indicator of tissue injury should improve the
-        predictive capability of these systems. Although several
-        cytokines have been proposed as markers of disease
-        severity, they are often transiently elevated, or detected
-        only in local pools [ 7]. In this regard, recent studies in
-        humans have revealed that the prohormone of calcitonin
-        (CT), procalcitonin (ProCT), as well as its component
-        peptides offer promise of being early and useful predictive
-        markers of systemic inflammation [ 11, 12, 13].
-        CT is a neuroendocrine (NE) peptide that was once
-        thought to be exclusively a hormone of thyroid origin. Its
-        principal function appears to be the conservation of body
-        calcium stores in certain physiologic states such as
-        growth, pregnancy and lactation, and the maintenance of
-        bone mineral in emergency situations by means of
-        attenuation of the activity of osteoclasts [ 14]. Further
-        study has revealed that CT is produced extrathyroidally by
-        NE cells throughout the body, and may have multiple
-        functions [ 15, 16].
-        CT is initially biosynthesized as a larger ProCT
-        polypeptide which is subsequently cleaved enzymatically
-        into its components, including the mature, active hormone
-        (Fig 1). Interestingly, in humans with severe systemic
-        inflammation, very high serum levels of ProCT and its
-        component peptides are accompanied by normal or only
-        slightly increased levels of mature CT [ 17]. In order to
-        investigate whether serum ProCT levels might correlate with
-        the severity of illness in sepsis, and thus might provide a
-        convenient marker, we employed a rodent model of
-        quantifiable 
-        Escherichia coli peritonitis,
-        modified for use in the hamster [ 18]. This model was then
-        utilized to determine the metabolic perturbations
-        associated with the procalcitonin peptide levels observed
-        with sepsis.
+        Background
+        In the Northern Great Plains of the United States, stand
+        density of cultivars within hard red winter wheat (HRWW; 
+        Triticum aestivum L.) varies in the
+        spring, depending on the severity of winter. Generally,
+        northern selections have the greatest chance of maintaining
+        stands when compared to southern-selected cultivars [ 1 ] .
+        However, this distinction among cultivars happens only when
+        plants receive adequate cold induction. This occurs
+        naturally in the autumn after planting [ 2 ] . It also may
+        be initiated in the laboratory during a period of 4 to 6 wk
+        at near freezing temperatures [ 3 ] . Kenefick and Swanson
+        [ 4 ] described this interval of induction as "cold
+        acclimation".
+        Several physiological and biochemical changes
+        distinguish plant genotypes during and after cold
+        acclimation [ 5 6 7 8 9 10 ] . One such distinction among
+        genotypes is tissue water content that decreases more
+        rapidly in certain genotypes than others during the cool
+        autumn season [ 11 12 13 ] . Martin [ 11 ] observed from
+        field results that northern selections contained less
+        tissue water in late autumn than did those selected farther
+        south where winter freezing conditions are less severe.
+        Nass [ 14 ] observed similar differences in plant water
+        content among winter wheat and rye ( 
+        Secale cereale L.) cultivars.
+        The reduction of tissue water content in response to low
+        temperature is believed to be due to an impedance of water
+        uptake by the roots [ 15 ] . Reduced root hydraulic
+        conductance occurs shortly after plants are transferred
+        from warm to cooler temperatures. Bolger 
+        et al. [ 16 ] observed this effect
+        within a few hours after cotton ( 
+        Gossypium hirsutum L.) plants were
+        transferred from 30 to 18°C. Similarly, Malone [ 17 ]
+        observed a decrease in hydraulic conductance of spring
+        wheat roots within minutes after plants were transferred
+        from 22 to 8°C. However our research focuses on effects of
+        a sustained cold acclimation period as occurs in late
+        autumn rather than on changes due to transient temperature
+        shifts.
+        The effect of cool temperatures on lowering water
+        content in northern-selected cultivars could result from i)
+        inhibited plant water uptake, or ii) plant water loss
+        exceeding uptake. If autumn temperatures impede water
+        uptake, causing greater reduction of tissue water content
+        in northern HRWW plants as suggested by Limin and Fowler [
+        15 ] , then we hypothesized that less water would be
+        removed from soil at 2°C by northern-selected than by
+        southern cultivars. This hypothesis was tested by comparing
+        foliage water content and plant water uptake of a northern
+        and a southern cultivar at 2°C and a photosynthetic photon
+        flux density (PPFD) at or near light compensation.
       
       
-        Materials and methods
+        Results and Discussion
         
-          Animals
-          Male Golden-Syrian hamsters weighing 80-140g (Harlan
-          Animals, Indianapolis, Indiana, USA) were housed in a
-          controlled environment and were exposed to 12 h
-          light-dark cycles. The animals had unrestricted access to
-          water and standard rodent chow throughout the
-          experiments. This study was approved by the Institutional
-          Animal Care and Use Committee at the Veterans Affairs
-          Medical Center, Washington, DC.
-        
-        
-          Bacteria
-          
-          Escherichia coli (O18:K1:H7) were
-          obtained from Dr Alan S Cross, Division of Communicable
-          Diseases and Immunology, Walter Reed Army Institute of
-          Research, Washington, DC, USA. The bacteria were grown in
-          100 ml of LB Broth (Fisher Scientific, Pittsburgh,
-          Pennsylvania, USA) at 37°C in a shaker water bath to log
-          phase and stored in 250 μ l aliquots at -70°C until
-          use.
-          On the day of an experiment, a 250 μ l aliquot of
-          bacteria was thawed and grown in 100 ml LB broth at 37°C
-          in a shaker water bath to log phase. The optical density
-          of the specimen was measured at 600 nm on a Stasar III
-          spectrophotometer (Gilford Instruments, Oberlin, Ohio,
-          USA) and quantified by interpolation on a previously
-          constructed curve of optical density plotted against
-          colony forming units (cfu). Additional specimens were
-          taken from the stock solution, and diluted and plated to
-          confirm the counts estimated by spectrophotometry.
+          Evidence for lack of photosynthesis net gain during
+          2°C treatment
+          Under the cold acclimation condition of a PPFD of 4
+          μmol m -2s -1and 2°C both FR and FS plants maintained a
+          healthy green color after 6 wk at 2°C, and resumed growth
+          when re-hydrated and returned to 25°C. When the mean
+          foliage dry weight (FDW) of six plants per cultivar (and
+          each treatment interval) were plotted against durations
+          of 0, 2, 4, or 6 wk at 2°C, the slopes representing rate
+          of FDW change of each cultivar were not significantly
+          different from zero (data not shown). It was concluded
+          that plants were near or at light compensation.
         
         
-          Intra-abdominal pellets
-          Bacterial suspensions of 2.0 × 10 8, 1.0 × 10 9, 2.0 ×
-          10 9, or 4.0 × 10 9cfu/ml 
-          E coli were pipetted in 0.5 ml
-          aliquots into 8 mm plastic embedding molds
-          (Shandon-Upshaw, War-rington, Pennsylvania, USA). Each
-          pellet for implantation was made by adding 0.5 ml sterile
-          molten agar at 50°C to the bacterial suspension, after
-          which the mixture was allowed to solidify at room
-          temperature. The final number of viable colony forming
-          units of bacteria in each pellet was 1.0 × 10 8, 5.0 × 10
-          8, 1.0 × 10 9, or 2.0 × 10 9cfu/pellet.
+          Evidence of foliage water content decrease in FR
+          and FS plants at 2°C
+          To evaluate the laboratory system in relation to
+          reported field results, changes in foliage water content
+          were measured in FR and FS plants after 5 wk at 2°C.
+          Foliage water content decreased to 0.77 g H 
+          2 O·g FFW -1in FS plants compared to
+          0.63 g H 
+          2 O·g FFW -1in FR plants. This
+          reflected a greater reduction of foliage water content
+          for FR plants since the starting amount of each was 0.85
+          g H 
+          2 O·g FFW -1. Thus even with this
+          approximate measurement of plant water status a
+          differential in foliage water content of FR and FS was
+          demonstrated after 2°C exposure.
+          A further test was performed to determine to what
+          extent foliage water content decreased in plants
+          maintained under our laboratory conditions. Foliage water
+          content values were determined from the foliage wet
+          weight and dry weight values as described in methods. The
+          48 hr drying at 80°C ensured the complete drying of the
+          sample and thus accurate determination of foliage dry
+          weight. A similar reduction in foliage water content of
+          FR and FS plants was shown after 4 wk at 2°C (Fig. 1A).
+          However after 6 wk there was a greater reduction of
+          foliage water content in FR plants, amounting to 14%
+          compared to only 5.8% for FS plants. Thus a differential
+          reduction in foliage water content of FR plants is
+          comparable to that observed in northern and
+          southern-selected HRWW genotypes observed in the field by
+          Martin [ 11 ] and Nass [ 14 ] in late autumn.
         
         
-          Experimental protocol
-          
-            Mortality studies
-            Individual hamsters were assigned to four groups ( 
-            n = 16/group) to receive
-            progressively increasing inocula of bacteria. After
-            adequate anesthesia with 50 mg/kg pentobarbital via
-            intraperitoneal injection, the abdomen of each animal
-            was prepared with 70% alcohol and incised in the
-            midline. Bacterial sepsis was induced by implanting one
-            pellet in the right lower quadrant of the peritoneal
-            cavity of each animal. The abdominal incisions were
-            then closed with non-absorbable suture. Animals were
-            caged individually, given unrestricted access to water
-            and rodent chow and monitored for mortality over a 72 h
-            period.
-          
-          
-            Total iCT studies
-            After intraperitoneal implantation of agar pellets
-            with progressively increasing doses of 
-            E coli, separate groups ( 
-            n = 10/group) were killed for
-            serum total immunoreactive (i)CT determinations. Since
-            mortality was evident but not prohibitively high at 12
-            h, we chose this timepoint to determine serum total iCT
-            levels. Therefore, 12 h after animals were challenged
-            with 
-            E coli , they were anesthetized
-            with intraperitoneal pentobarbital (50 mg/kg) and
-            exsanguinated by open cardiac puncture. The blood was
-            collected in individual tubes and centrifuged at 3000
-            rpm for 15 min. The serum specimens were transferred to
-            individual glass tubes, sealed with parafilm and stored
-            at -70°C until radioimmunoassay.
-            Serum was also obtained from a patient with
-            documented Gram-negative sepsis and was stored at -70°C
-            to be assayed with the hamster serum samples following
-            G-75 Sephadex gel filtration for the purpose of
-            comparison of molecular forms as described below.
-          
-          
-            Metabolic studies
-            Male hamsters ( 
-            n = 16/group) underwent
-            intraperitoneal implantation of agar pellets
-            impregnated with 2 × 10 9cfu 
-            E coli (O18: K1: H7), according
-            to the above implantation protocol. This high dose was
-            chosen for its ability to induce a significant increase
-            of ProCT at 12 h in the proceeding experiments. Animals
-            were killed in the previously described fashion at 3,
-            6, 12 or 24 h after septic challenge. Their sera were
-            analyzed for serum total iCT per the radioimmunoassay
-            described below, as well as for total serum total
-            calcium and serum albumin using a standard serum
-            multichannel analyzer.
-          
-          
-            Radioimmunoassay
-            The samples were allowed to warm to room temperature
-            and were pipetted into labeled glass test tubes in 1.0
-            ml aliquots, to which 100 μ l dextran blue (B-2000, 2
-            000 000 Da; Sigma Chemical Co, St Louis, Missouri, USA)
-            was added. Five milliliter glass columns were rinsed
-            with 1M ammonium hydroxide:acetonitrile (1:1) and
-            deionized water, after which fine-grade polyacrylamide
-            gel columns (5ml) were prepared (BioGel P-2; 100-200
-            mesh; Bio-Rad Laboratories, St Louis, Missouri, USA)
-            using a glass bead to support the gel. The samples were
-            applied to the columns and eluted with 0.1 M ammonium
-            bicarbonate containing 0.1% Triton X-100 (Pierce,
-            Rockford, Illinois, USA). The specimens containing
-            dextran blue were then recovered in their original test
-            tubes, to which ethyl alcohol was added in a 2:1 volume
-            ratio. These mixtures were then centrifuged at 3000 rpm
-            for 30 min, after which the supernatant for each was
-            decanted into new tubes and the pellet discarded. The
-            solvent was removed using a Savant SpeedVac Plus
-            (SC110A) over 2-4 h. The residue for each sample was
-            then reconstituted to the original specimen volume
-            using gelatin buffer (0.2% gelatin in borate buffer
-            with 0.01% merthiolate and 0.1% Triton X-100). Using
-            these techniques, peptide recovery is approximately
-            80%.
-            The radioimmunoassay design was similar to that
-            previously reported [ 19]. Initially, hamster serum
-            total iCT from gel filtration studies was determined by
-            using an antiserum to the carboxyl-terminal portion of
-            mature human CT, Ab4. This antiserum reacts with the CT
-            molecule, whether it is in the free, amidated, 32-amino
-            acid mature form, or within its precursor propeptides
-            [ie procalcitonin, the conjoined calcitonin:calcitonin
-            carboxypeptide-I (CT:CCP-1), or the free immature,
-            unamidated CT]. Subsequent studies were performed with
-            a new antibody, R1B4, which has ten times the
-            crossreactivity of Ab-4 with the prohormone. The buffer
-            was 0.2% gelatin (0.13 M H 
-            3 BO 
-            3 containing 9 g NaCl, 2 g gelatin,
-            1 ml Triton-X 100 and 0.1 g merthiolate/l at pH = 7.5).
-            The antiserum was preincubated with standards or
-            unknowns (20-100 μ l) in 0.2 ml at 4°C for 4 days.
-            After addition of 50 μ l 125I-hCT, and 200 μ l gelatin
-            buffer, incubation was continued for 2 days. After
-            adding 50 μ l goat anti-rabbit IgG bound to iron
-            particles, incubation was continued in 0.5 ml for 1
-            day. Bound and free hormone were separated with
-            magnetic tube racks. Maximum bound =37%; sensitivity
-            =1g; 50% B/Bo =50pg.
-          
-          
-            Gel filtration
-            Similarly to work previously reported [ 20],
-            constituted extracts, in 1-10 ml 0.2% gelatin or 0.2%
-            HSA, were applied to calibrated 2.5 × 100 cm columns
-            containing G-75 superfine Sephadex (Pharmacia Biotech,
-            Piscataway, New Jersey, USA) suspended in 0.1% human
-            serum albumin (1 g HSA, 0.1 mol NH 
-            4 HCO 
-            3 and 0.1 g merthiolate/l at pH =
-            7.5) at 4°C. One hundred fractions (120 drops or 5.5
-            ml/tube) were collected during 48 h in 16× 100 mm
-            borosilicate glass culture tubes. The void volume (VV)
-            was based on the peak elution volume (EV) of blue
-            dextran, and the salt volume (SV) was based on the peak
-            EV of Na 125I. The Kav for individual components was
-            determined according to the formula: Kav =
-            (EV-VV)/(SV-VV).
-          
-        
-      
-      
-        Results
-        
-          Mortality
-          The mortality rates at 72 h for animals receiving
-          progressively increasing doses of bacteria ( 
-          n = 16/group) were 0, 20, 70, and
-          100%, respectively. Differences in mortality between all
-          groups, including control animals ( 
-          n = 17), were significant by
-          Chi-square ( 
-          P = 0.001). Furthermore, these
-          values represent a direct relationship between the size
-          of the inoculum of 
-          E coli and mortality (Fig 2).
+          Evidence for differential plant water uptake
+          between FR and FS plants at 2°C
+          Having ascertained that at 2°C and low light intensity
+          foliage water content differentially decreased in FR and
+          FS plants as described for field grown plants, we
+          proceeded to gravimetrically measure plant water uptake
+          from the soil. The design of the plant soil system for
+          measuring plant water uptake was such that the
+          possibility of water loss via evaporation was minimized.
+          Thus reduction in weight of the system could only be
+          attributed to removal of water from the soil by plants or
+          plant water uptake. Mean plant water uptake was
+          determined after 2, 4, and 6 wk at 2°C (Fig. 1B). After 2
+          wk no significant difference was observed for FR and FS
+          plants, 64 g H 
+          2 O·g FDW -1and 58 g H 
+          2 O·g FDW -1, respectively. Thereafter
+          plant water uptake for FS plants remained effectively
+          constant, whereas that by FR plants increased to 102 g H 
+          2 O by the end of 6 wk (Fig. 1B). In
+          summary, plant water uptake occurred for both FR and FS
+          plants at 2°C. However over the entire 6 wk water uptake
+          by FR plants was greater than that by FS plants. Similar
+          results were also obtained in a 5 wk study comparing
+          plant water uptake between FR and FS plants.
         
         
-          Serum total iCT levels
-          Hamsters which were subjected to these graded doses of
-          sepsis ( 
-          n = 10/group) had serum total iCT
-          levels at 12 h (mean ± SEM) of 250 ± 90, 380 ± 60, 1960 ±
-          490, and 4020 ± 510 pg/ml, respectively. Control animals
-          ( 
-          n =17) had serum total iCT levels
-          of 21± 2 pg/ml. All groups were statistically distinct,
-          except between 0 and 20% mortality ( 
-          P = 0.001, Kruskal-Wallis one-way
-          ANOVA; Fig 3).
+          Detection of maximum plant water uptake by FR
+          plants at 2°C
+          The above findings that FR plants with the greater
+          plant water uptake have significantly lower foliage water
+          content than FS plants could reflect more rapid loss of
+          foliage water by FR plants, or limiting soil water
+          available to FR due to its rapid rate of plant water
+          uptake. To test the latter, FR plant water uptake was
+          measured with increased initial soil water content. The
+          initial amount of water was increased from 50 mL cylinder
+          -1(Fig. 1) to 58 mL (Fig. 2A) or to 81 mL (Fig. 2B) by
+          increasing cylinder size and the soil mass while
+          maintaining soil matric potential constant.
+          The rate of plant water uptake was calculated from a
+          slope of plant water uptake plotted against time in wk at
+          2°C. From the 58 mL supply the rate was 20.3 g H 
+          2 O·wk -1(Fig. 2A), compared to 19.5 g
+          H 
+          2 O·wk -1from the 81 mL supply (Fig.
+          2B). Similarity of slopes suggested that 58 mL was
+          adequate to sustain maximum water uptake of FR plants.
+          However, the availability of more water initially from
+          the 81 mL supply resulted in a foliage water content
+          decrease that approached that of plants initially
+          provided with 58 mL. Thus we provided evidence that
+          inadequate soil water during the 5 wk period was not the
+          cause of the decrease in FR foliage water content.
         
         
-          Molecular species of the total serum iCT
-          The molecular species of the total serum iCT in the
-          serum was determined by radioimmunoassay of fractions
-          obtained from Sephadex gel filtration of pooled hamster
-          sera as described above. The molecular mass of the
-          predominant species of iCT measured (ie > 90%) was
-          approximately 14 000 Da. From previous data [ 31], it is
-          known that this fraction corresponds to ProCT, which in
-          humans is 12795 Da. As shown in Fig 4, this molecular
-          fraction in the hamster co-elutes with the ProCT fraction
-          in the serum of a septic patient [ 17].
-        
-        
-          Metabolic studies
-          Serum total iCT levels among groups exposed to a high
-          dose of 
-          E coli ( 
-          n = 13-15) and killed at 3, 6, 12
-          and 24 h increased from a baseline of 21 ± 2 pg/ml (mean
-          ± SEM) to 78 ± 3, 542 ± 100, 3570 ± 920, and 4240 ± 1080
-          pg/ml, respectively. The changes in serum total iCT at
-          all time points, except between 12 and 24 h, were
-          statistically significant (one-way ANOVA, 
-          P = 0.001).
-          Total serum calcium levels at these timepoints were
-          11.6 ± 0.1, 12.1 ± 0.2, 9.4 ± 0.2, and 10.6 ± 0.4 mg/dl.
-          The decrease at 12 h was statistically significant per
-          MannWhitney rank sum test ( 
-          P < 0.05). Simple linear
-          regression reveals an inverse correlation between total
-          calcium levels and total iCT ( 
-          r = -0.81). Serum albumin levels
-          varied minimally at 3, 6, 12 and 24 h from a baseline of
-          3.3 ± 0.1 g/dl, and therefore did not account for the
-          decrease in measured calcium.
+          Foliage water content and plant water uptake of
+          northern-selected HRWW genotypes at 2°C
+          In order to determine whether the relationship between
+          foliage water content reduction and plant water uptake
+          was a general phenomenon among other northern-selected
+          HRWW genotypes, four additional HRWW cultivars were
+          studied. These cultivars together with FR have excellent
+          freeze survival records and are used as standards in the
+          Northern Great Plains field trials [ 18 19 ] . Foliage
+          water content changes are depicted in Fig. 3A& 3B.
+          Foliage water content of Winoka, Norstar, and Rose was
+          shown to be the same after 2 wk as before 2°C exposure
+          (Fig. 3A). After 6 wk, foliage water content of Winoka,
+          Norstar, and Rose all decreased to similar amounts of
+          0.63, 0.62, 0.64 g H 
+          2 O·g FFW -1respectively, compared to
+          the 0 wk value of 0.82 g H 
+          2 O·g FFW -1.
+          Foliage water content among Winoka, Arapahoe, and
+          YTO-117 plants were compared (Fig. 3B). All values
+          decreased slightly after 2 wk, compared to that of 0.81 g
+          H 
+          2 O·g FFW -1before 2°C exposure (Fig.
+          3B). However after 6 wk at 2°C foliage water content
+          decreased by Winoka, Arapahoe, and YTO-117 plants to
+          0.60, 0.55 and 0.64 g H 
+          2 O·g FFW -1respectively compared to
+          the initial 0.81 g H 
+          2 O·g FFW -1(Fig. 3B). A slightly
+          larger foliage water content value after 6 wk for Winoka
+          in Fig. 3Acompared to that in Fig. 3Bsuggests lower
+          relative humidity occurred during 2°C exposure in
+          Experiment B.
+          Thus, it was demonstrated that the magnitude of
+          foliage water content decrease in these four additional
+          genotypes was similar to that in FR (Winoka) at 2°C. As a
+          group, foliage water content decreased appreciably after
+          6 wk.
+          Results of plant water uptake are depicted in Fig.
+          4A& 4B. Water uptake by Winoka, Norstar, and Rose
+          plants is shown in Fig. 4A. After 2 wk at 2°C, water
+          uptake by Rose lagged slightly behind Winoka and Norstar.
+          However after 6 wk water uptake by Norstar and Rose were
+          equal to Winoka, all increasing appreciably compared to
+          plant water uptake values at 2 wk (Fig. 4A). Plant water
+          uptake by Winoka, Arapahoe, and YTO-117 was compared
+          (Fig. 4B). After 2 wk the amount was similar for these
+          genotypes, with water uptake being somewhat larger than
+          in Expt. A, based on the response of Winoka. After 6 wk,
+          the pattern of water uptake by plants was also greater,
+          although more variable (Fig. 4B).
+          Under the laboratory conditions used in this study,
+          the results of decreasing foliage water content with
+          duration at 2°C was similar to the findings of Fowler and
+          Carles [ 20 ] , Nass [ 14 ] and Martin [ 11 ] . Their
+          studies were performed on field grown plants and showed
+          decreasing tissue water content during the Fall period.
+          Fu 
+          et al [ 13 ] also demonstrated that
+          tissue water content decreased during cold acclimation in
+          the field or in an environmental chamber. In our study,
+          decrease in foliage water content correlated with an
+          increase in plant water uptake (Fig. 3& 4).
+          Based on the assumption that stomata opened during the
+          cold acclimation period, we believe that more effective
+          water movement occurs in FR compared to FS plants at 2°C.
+          Osmotic potential difference between FR and FS plants
+          account for this phenomenon. DeNoma et al. [ 19 ]
+          observed that during low non-freezing temperature in the
+          field a greater decrease in crown osmotic potential
+          occurred in freeze-resistant compared to more susceptible
+          HRWW cultivars. We have obtained similar osmotic
+          potential results with leaf tissue (data not shown).
         
       
       
-        Discussion
-        The characteristics of the inflammatory response in
-        sepsis suggest that successful treatment requires a
-        clinically useful marker which can indicate the severity of
-        illness and which is expressed early enough in the sepsis
-        cascade to allow therapeutic interventions to be initiated
-        in a timely manner [ 4]. Additionally, insights into the
-        biosynthesis, regulation, and physiologic activity of such
-        a marker may illuminate some of the causative factors in
-        the pathophysiologic and clinical events of the sepsis
-        syndrome. Furthermore, the marker itself may prove to be a
-        therapeutic target.
-        Serum levels of ProCT as well as its component peptides
-        are massively elevated in burns [ 11], heat stroke [ 21],
-        systemic infections [ 13], and other inflammatory states [
-        12, 22]. Using an antiserum to CT which recognizes the free
-        mature CT, the immature CT within the ProCT molecule, and
-        the conjoined CT:CCP-1 peptide, we have demonstrated that
-        levels of serum total iCT are also elevated in the septic
-        hamster. Then, utilizing gel filtration techniques, we
-        showed that much of this iCT was in the form of ProCT; this
-        is similar to the human subject with sepsis [ 17, 23]. Our
-        findings indicate a positive correlation between ProCT
-        component peptides and the degree of sepsis. In this model,
-        the series of metabolic experiments furthermore reveal that
-        ProCT is temporally associated with and inversely
-        correlated with serum total calcium levels.
-        CT is a single chain, 32-amino acid peptide that
-        originates from the CALC-I gene on chromosome 11 [ 16]. In
-        humans the highest concentration of tissue iCT is in the
-        parafollicular cells of the thyroid gland. However, iCT can
-        be detected throughout the body in NE cells of various
-        tissues. Indeed, in humans the lungs contain more total iCT
-        than does the thyroid gland [ 24].
-        While mature CT has diverse effects on various target
-        tissues, its overall physiologic significance in normal
-        individuals is not well understood. In health, its
-        principal role is to protect against excessive bone
-        turnover during times of increased need by attenuating the
-        activity of osteoclasts [ 25]. CT and its precursors,
-        however, may exert other effects in health or in disease [
-        16].
-        The polypeptide precursor of CT, pre-procalcitonin,
-        undergoes cleavage of its leader sequence early in
-        posttranslational processing to yield ProCT, and several
-        constituent peptides (Fig 1). In normal, regulated
-        secretion, ProCT is trafficked through the Golgi apparatus
-        and then packaged into dense-core secretory vesicles [ 26,
-        27]. Proteolytic processing within the trans-Golgi and the
-        secretory vesicles culminates in the formation of the
-        active, mature secretory product, CT, which is released by
-        exocytosis at the apical surface of the NE cell. In the
-        absence of an appropriate signal at the plasma membrane,
-        these vesicles serve as storage repositories for mature
-        CT.
-        In severe systemic inflammation in humans, however,
-        enormous levels of ProCT and other component peptides
-        appear in the serum, while mature serum CT remains normal
-        or only minimally elevated [ 17]. The cellular source of
-        this increase in serum levels, and the reasons that ProCT
-        and its component peptides are not processed to the mature
-        hormone, are unknown. In inflammatory states, ProCT and its
-        related peptides appear to be secreted by a continuous
-        bulk-flow constitutive pathway, in which only limited
-        conversion to mature CT occurs [ 28]. One might postulate
-        that severe inflammation causes such a profound
-        hypersynthesis of the prohormone that the NE
-        endoproteolytic machinery is overwhelmed. This may result
-        in a marked shift to the constitutive pathway of secretion,
-        resulting in an incomplete processing of precursors. In
-        this respect, a shift to constitutive secretion has been
-        reported to occur by the experimental induction of
-        dysfunctional prohormone convertase enzymes or by injury to
-        the plasma membrane [ 29]. Perhaps some cytokines may
-        induce constitutive secretion by such a process [ 30, 31].
-        It is also possible that ProCT and its component peptides
-        are released by non-NE cells, which normally possess
-        regulatory mechanisms limiting the expression of ProCT
-        mRNA; these inhibitory mechanisms may be deregulated by
-        unusually high levels of inflammatory mediators.
-        Stimulation of synthesis in such non-NE cells would result
-        in a preferential production of ProCT because these cells
-        lack the enzymes for complete prohormonal processing.
-        It is unknown what impact, if any, this increase of
-        ProCT and related peptides has on patients. Hypocalcemia is
-        a common finding in critically ill and especially septic
-        patients. Indeed, the development of hypocalcemia in the
-        critically ill has been shown to be associated with a poor
-        prognosis [ 32, 33]. ProCT contains within its structure
-        the immature CT molecule; therefore, very high and
-        sustained levels of ProCT might mimic one of the
-        pharmaco/physiologic activities of CT, which is the
-        lowering of serum calcium levels. In our experiments we
-        noted that total iCT levels peaked at 12h following the
-        septic insult. This was concurrent with a significant
-        decrease in serum total calcium. Nevertheless, this
-        association does not prove a causal relationship between
-        elevated ProCT levels and hypocalcemia. Also, the
-        relationship with ionized calcium was not determined in
-        this study.
-        The early and marked hypersecretion of ProCT and its
-        component peptides in inflammatory states makes them
-        promising serum markers for the sepsis syndrome. These
-        peptides are released into the central circulation and may
-        act systemically, as opposed to many of the known mediators
-        of sepsis, which are released locally and often act in an
-        autocrine or paracrine fashion. An important feature of
-        ProCT and some of its component peptides are their long
-        half-lives, which contribute to their potential usefulness
-        as serum markers. Indeed, elevated levels of ProCT peptides
-        have been found to persist at least 24 h following an
-        appropriate stimulus, in contradistinction to other
-        markers, such as tumor necrosis fctor-α, whose levels may
-        be only transiently elevated after an inflammatory
-        challenge [ 34, 35]. Thus, they provide a long-lasting
-        target to evaluate the effects of immunoneutralization.
-        Accordingly, we recently reported that ProCT markedly
-        contributes to mortality in experimental sepsis, and that
-        immunoneutralization of this molecule diminishes mortality
-        in our model of hamster sepsis [ 36].
-        In summary, our animal experiments demonstrate an
-        association between levels of serum ProCT and its component
-        peptides with the degree of sepsis, reinforcing clinical
-        findings that these peptides are useful markers for this
-        condition, and may predict mortality. Further experiments
-        to examine the cellular source, pathophysiology and
-        metabolic activity of ProCT and its component peptides are
-        warranted. Such studies may determine the role of these
-        hormonal peptides in inflammation and sepsis.
+        Conclusions
+        From this limited survey we have demonstrated that FR
+        genotypes of HRWW have reduced foliage water content when
+        acclimated under our laboratory conditions. We also
+        demonstrated that plant water uptake increased with time at
+        2°C. We conclude that reduced foliage water content in
+        northern selected HRWW genotypes during extended
+        acclimation is not due to impairment of root hydraulic
+        conductance as proposed by Limin and Fowler [ 15 ] . Rather
+        a tissue water deficit occurs because uptake is inadequate
+        to replenish foliage water lost at this temperature.
+        Our results suggest that the reduction in foliage water
+        content observed among the northern-selected genotypes is
+        due to greater stomatal conductance at 2°C. Control of
+        stomatal aperture is complicated. Under the conditions of
+        these experiments, we have ruled out the effect of
+        photosynthesis since the light intensity was not at a level
+        that resulted in foliage dry weight increase during the
+        cold acclimation period [ 21 ] .
+        Willmer and Fricker [ 22 ] reported that stomata may
+        close or open during cool temperatures, depending on plant
+        genotype and species. It has also been reported that blue
+        light is particularly effective in opening stomata at low
+        irradiances, because of a generally recognized low
+        threshold response. Further, that the blue light response
+        of guard cells is independent of chloroplast-driven changes
+        in CO 
+        2 that can also cause stomata to open [
+        22 ] . Thus, at an irradiance of 4 μmol m -2s -1during 2°C
+        exposure, it is likely that reduction in foliage water
+        content of northern HRWW cultivars is due to induced
+        stomatal conductance resulting from blue light rather than
+        from a photosynthetic response.
+      
+      
+        Methods
+        
+          Plant material
+          Two HRWW cultivars commercially grown in the Great
+          Plains of United States were the primary genotypes
+          investigated: 'Winoka' released in South Dakota [ 23 ]
+          and 'TAM W-101' released in Texas [ 24 ] . According to
+          South Dakota Experiment Station records, Winoka (northern
+          selected) generally has a greater stand survival rank
+          than TAM W-101 (southern selected) in the Northern Great
+          Plains [ 25 ] . Therefore, Winoka was designated as
+          freeze resistant (FR) and TAM W-101 as freeze susceptible
+          (FS), a modification of the "cold resistance" terminology
+          previously reported for HRWW cultivars [ 26 27 2 ] .
+          Water status of four additional northern selected
+          cultivars were also evaluated: 'Norstar' [ 28 ] , 'Rose'
+          [ 29 ] , 'Arapahoe' [ 30 ] , and 'YTO-117,' an
+          experimental line from Montana selected in 1956 (James
+          Berg, personal communication).
+        
+        
+          Soil mix and soil water (SW) adjustment
+          The soil mix consisted of a 2:1:1 volume of silt loam
+          (Vienna fine-loamy mixed Udic Haploboroll), sand, and
+          peat, respectively, hereafter described as soil. Oven-dry
+          soil (ODS) mass was determined after drying 48 h at 80°C.
+          The soil had a bulk density of 1.13 ± 0.01 kg L -1and a
+          maximum water holding capacity of 0.50 ± 0.01 kg kg -1at
+          a soil matric potential (Ψ 
+          m ) of zero. Soil water was initially
+          adjusted to maintain uniform particle distribution during
+          and after the mixing process. Soil matric potential was
+          evaluated by the tension table and pressure plate
+          procedure [ 31 ] , with soil water values between 0.10
+          and 0.50 kg H 
+          2 O·kg ODS -1. The Van Genuchten
+          function [ 32 ] was used to plot the data. Average soil
+          water values from each sample were converted to Ψ 
+          m using this plot.
+        
+        
+          Plant growth containers
+          Plants were grown in butyrate cylinders with
+          dimensions of either 3.8 × 19 or 4.4 × 19 cm (diam ×
+          height). The bottom of each cylinder was closed with a
+          polyethylene cap with two slits, where ends of a 1.3 × 23
+          cm (width × length) wick of absorbent paper were
+          inserted. These ends extended into the cylinder and aided
+          in soil water distribution.
+          Washed dry sand (30 ± 0.3 g) was added to each
+          cylinder. Next, the equivalent of about 160 g ODS was
+          added to 3.8 × 19 cm cylinders, or about 225 g ODS to 4.4
+          × 19 cm cylinders. ODS mass was used to calculate the
+          water required to attain the desired Ψ 
+          m for each experiment.
+        
+        
+          Seed germination and transplanting seedlings
+          Captan-treated seeds were germinated at 25°C without
+          light, on adsorbent paper wetted with 10 -4M CaCl 
+          2 . Supplies for seed germination were
+          either autoclaved, treated with 10% commercial bleach, or
+          immersed in 70% ethanol. Seedlings were transplanted to
+          soil 5 d after starting germination, one per
+          cylinder.
+        
+        
+          Plant growth
+          At least a 14-h photoperiod was maintained in the
+          greenhouse by supplementing sunlight with low-pressure
+          sodium vapor lamps that provided a photosynthetic photon
+          flux density (PPFD) of 150 μmol m -2s -1. Plants were
+          grown approximately 23 ± 2 d in the greenhouse, the exact
+          interval depending on optimum solar radiation 3 d prior
+          to 2°C exposure (this ensures enough photosyntate to
+          sustain healthy plants during cold acclimation). Relative
+          daily radiation was compared to full sunlight received on
+          June 21 st, that was set at unity. Plants were discarded
+          when they received less than 0.80 relative units of
+          radiant energy during the final 3 d prior to 2°C
+          treatment. Incident radiation in the greenhouse was
+          monitored daily with a 30.5 cm 2solar panel. Air
+          temperature was maintained between 21 and 26°C.
+          During the final 5 d of plant growth before 2°C
+          exposure, soil in all plant containers was adjusted daily
+          to the desired Ψ 
+          m with water. Plants were at the 4- to
+          5-leaf growth stage prior to 2°C exposure.
+        
+        
+          Plant exposure at 2°C
+          Cold acclimation was accomplished in a chamber set at
+          2°C ± 1.5 Average daytime relative humidity calculated
+          from wet/dry bulb measurements was 69% ± 4% during the
+          day and 84% ± 5% at night. Nobel [ 33 ] reported that
+          light compensation occurred at a PPFD between 8 to 16
+          μmol m -2s -1with 350 μmol CO 
+          2 mol -1at 20°C. At 2°C, a PPFD of 4
+          μmol m -2s -1(at canopy height) was used in this study,
+          supplied from cool-white fluorescent lamps during a 11.5
+          h photoperiod. This is a 10-fold decrease from the lowest
+          irradiance reported by Gray et al. [ 21 ] . According to
+          the manufacturer's specifications, the spectra of the
+          fluorescent lamps included bands at 370 and 450 nm.
+        
+        
+          Measurement of plant water uptake (PWU) at
+          2°C
+          Before transferring seedlings to 2°C, the wick
+          exterior to each cylinder was removed. To further
+          minimize evaporative loss, Parafilm (Am Natl Can) was
+          snugly wrapped around the top of each cylinder and the
+          plant culm. Evaporated soil water (ESW) was estimated
+          from cylinders similarly wrapped, but with foliage
+          removed just above the culm seal prior to 2°C
+          exposure.
+          The amount of soil water removed from a cylinder
+          during a designated time (t) consisted of both (PWU 
+          t ) and ESW 
+          t . The term (ESW 
+          0 - ESW 
+          t ) below was the amount of water
+          evaporated from a cylinder without foliage during the
+          interval between t = 0 and a test interval t. Initial
+          soil water content (SW 
+          0 ) and final soil water content (SW 
+          t ) were gravimetrically determined
+          from cylinders with foliage removed just above the culm
+          seal at time of placement at 2°C. The difference between
+          the SW 
+          0 and SW 
+          t reflected the amount of water taken
+          up by the plants (PWU).
+          Thus,
+          PWU 
+          t = (SW 
+          0 - SW 
+          t ) - (ESW 
+          0 - ESW 
+          t ),
+          At least two control cylinders (containing plants
+          without foliage) were randomly spaced among plants during
+          each experiment, from which the mean ESW 
+          t was calculated.
+          PWU was standardized to foliage dry weight (FDW) of
+          each plant. Preliminary tests compared FDW to total leaf
+          area of six plants from each FR and FS cultivar, area
+          determined with the Delta-T Image Analysis System
+          (Dynamax Corp). Leaf area correlated with FDW therefore,
+          relative PWU of FR and FS plants was expressed as g H 
+          2 O·g FDW -1.
+        
+        
+          Foliage water content
+          At the end of each 2°C treatment interval, the foliage
+          of each plant was excised 2 cm above the soil surface.
+          Foliage water content (FWC) was determined from foliage
+          fresh weight (FFW) and foliage dry weight (FDW) using the
+          equation FWC = (FFW - FDW)·FFW -1.
+          FDW was determined after drying the foliage 48 h at
+          80°C. FWC was expressed as g H 
+          2 O·g FFW -1.
+        
+      
+      
+        Authors' contributions
+        All authors contributed equally.
       
     
   

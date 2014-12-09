@@ -2,540 +2,470 @@
   
     
       
-        Introduction
-        Systemic lupus erythematosus (SLE [MIM 152700] [ 1]) is
-        an autoimmune disease characterized by the production of
-        autoantibodies with specificity for a wide range of
-        self-antigens. These antibodies cause disease directly by
-        binding to target tissues (e.g. platelets and
-        phospholipids), and indirectly by depositing immune
-        complexes in vascular tissues, leading to organ damage [
-        2]. The current evidence suggests that SLE is a complex
-        genetic disease, with contributions from both environmental
-        (e.g. ultraviolet light, viral infections) and genetic
-        factors.
-        A number of recent genome-wide screens support the
-        genetic hypothesis in human SLE, and have reported, in
-        aggregate, 48 potential susceptibility loci [ 3, 4, 5, 6,
-        7] (reviewed [ 8]). Of these intervals, significant
-        attention has been directed at the 1q41-42 chromosomal
-        region. After the identification of the syntenic region in
-        mouse ( 
-        Sle1 ) as a susceptibility interval
-        for murine SLE [ 9], a targeted study by Tsao 
-        et al [ 10] was the first to
-        implicate this locus in human SLE (marker D1S229; 
-        P <0.005). Subsequently, two
-        independent SLE genome scans also found suggestive evidence
-        for linkage at 1q41-42 [ 3, 4, 5]. Poly ADP ribosyl
-        polymerase (PARP; also referred to as ADPRT [adenosine
-        diphosphate ribosyltransferase]) was initially suggested as
-        the relevant candidate gene in the region [ 11, 12], but
-        that finding was not reproduced in other family collections
-        [ 13].
-        The work of Moser 
-        et al [ 14] provided the initial
-        evidence that the susceptibility locus in this region might
-        lie centromeric of PARP. In 127 multiplex SLE pedigrees,
-        the best evidence for linkage was at D1S229, with the
-        greatest extent of allele sharing in the white families at
-        the D1S2616 marker. The data reported here confirm the
-        evidence for genetic linkage at 1q41 in 210 SLE sibpair
-        families (families with a pair of affected sibs) from the
-        Minnesota collection [ 3, 4]. Furthermore, we report new
-        evidence for transmission disequilibrium of both single
-        marker alleles and short marker haplotypes from the 1q41-42
-        interval in 122 trio families (families with a single
-        affected offspring and both parents) and in the total
-        dataset of 332 SLE families. These data suggest that a
-        human SLE susceptibility locus is located centromeric to
-        PARP near the D1S490 marker.
-      
-      
-        Materials and methods
-        
-          SLE family collection
-          The collection of 187 affected sibpair families in
-          Cohorts 1 and 2 of the Minnesota collection have been
-          described in detail elsewhere [ 3, 4]. An additional
-          group of 24 sibpair families was collected and members
-          were genotyped for the 11 markers in the 1q41-42 region.
-          One hundred and twenty-two trio families were also
-          collected. This study was approved by the Human Subjects
-          Review Board at the Mayo Clinic and at the University of
-          Minnesota. The clinical features of the sibpair and trio
-          families are provided in the Supplementary material.
-        
-        
-          Samples and genotyping
-          Genomic DNA isolation and genotyping of families was
-          performed as described [ 3, 4]. The 12 markers from the
-          1q41-42 region originally typed by Moser 
-          et al [ 14] were typed in the
-          Minnesota collection. Marker order (Fig. 1) was
-          determined using the public databases described in the
-          Supplementary material.
-        
-        
-          Data analysis
-          See Supplementary material for details of linkage
-          analysis and transmission disequilibrium testing.
-        
+        Background
+        The detection of microbial life in extraterrestrial
+        locations is an important goal of human exploration of
+        space because of ecological and health concerns about
+        possible contamination of other planets with earthly
+        organisms, and 
+        vice versa [ 1 2 ] . Several indirect
+        methods for detecting extraterrestrial life have been
+        proposed in the prior literature. These include (a)
+        examining the ratios of stable isotopes in important
+        elements such as carbon and sulphur for discrimination
+        against heavy isotopes and selective use of the lighter
+        isotopes, (b) microscopic observations of highly organized
+        or specifically-shaped structures [ 3 4 ] , (c) examination
+        of soils for the presence of specific types of organic
+        moieties [ 5 ] , and (d) the detection of chiral molecules
+        in extraterrestrial samples [ 6 7 8 9 10 11 12 ] .
+        Previously we suggested a thermodynamic approach to the
+        detection of life. Since living entities require a
+        continual source of usable energy, we should be able to
+        detect a chemical signature of life in the form of mixtures
+        of redox molecules such as porphyrins, quinones, and
+        flavins that transport electrons along redox gradients
+        between electron donors and acceptors [ 13 ] . We examined
+        methods to extract and detect the components of electron
+        transport chains that might be used to indicate the
+        presence of life on site in extraterrestrial locations. Our
+        experiments showed this to be a promising approach, though
+        instrument development and miniaturization for this purpose
+        will be challenging [ 14 ] .
+        Here we discuss the possibility of a related, but
+        simpler approach for detecting life that will measure the
+        actual existence of functioning electron transport chains.
+        This can theoretically be done remotely and on site using
+        robotically collected extraterrestrial soil samples. The
+        method involves detection of actual activity of respiratory
+        electron transport using artificial electron acceptors such
+        as DCIP and tetrazolium dyes such as XTT. DCIP, for
+        example, couples directly with NADH or NADPH to form DCIPH 
+        2 and NAD +or NADP +, making it an ideal
+        electron transport chain indicator [ 15 ] . XTT has been
+        used to measure microbial respiratory activity in complex
+        natural environments [ 16 ] . Respiratory dyes have been
+        used commercially for many years in the Biolog™ system to
+        help identify pure cultures of microorganisms by their
+        patterns of oxidation of multiple organic substrates [ 17 ]
+        . Biolog™ also has been used to characterize oxidation
+        capabilities of soil microbial communities [ 18 ] .
+        Rodriquez, et al. [ 19 ] used the redox dye
+        5-cyano-2,3-ditolyl tetrazolium chloride (CTC) for direct
+        epifluorescent microscopic enumeration of respiring
+        bacteria in environmental samples. The oxidized form of CTC
+        is nearly colorless and non-fluorescent. Oxidized CTC was
+        observed to be reduced by biological electron transport
+        systems, forming a fluorescent, insoluble CTC-formazan. The
+        formazan accumulated intracellularly and could be
+        visualized by epifluorescence microscopy in wet-mount
+        preparations, on polycarbonate membrane filter surfaces, or
+        directly in some biofilms. Thus, coupled with more limited
+        analyses for specific electron transport molecules (e.g.,
+        porphyrins or quinones), the use of respiratory dyes for
+        detection of active electron transport in the biological
+        redox range could provide very convincing evidence for life
+        in extraterrestrial locations. This approach would
+        obviously only detect presently living entities, but these
+        could include dormant life forms such as spores that might
+        germinate and grow using added nutrients.
       
       
         Results
         
-          Genetic linkage in the 1q41-42 region
-          In the combined data from the original Cohorts 1 and 2
-          genome screens, the highest LOD score in the 1q41-42
-          region was 1.33 at marker D1S229 [ 4]. With the addition
-          of five new fine-map markers and 24 new families, the
-          best evidence for linkage was slightly reduced (LOD =
-          1.23) and shifted telomeric to marker D1S2616 (Fig. 2).
-          This level of linkage support corresponds roughly to a
-          nominal 
-          P value of 0.05. When only white
-          families were considered, the peak multipoint LOD score
-          remained at marker D1S2616 (LOD = 0.99; Fig. 2).
+          Examination of the presence of a chemical signature
+          of life in various soils
+          Figure 1presents the results of a comparison of
+          supercritical carbon dioxide extractions of control (heat
+          treated at 600°C) and life-positive (unheated Idaho red
+          sand) soils. We confirmed the structures of the compounds
+          shown as marked peaks by their respective UV-VIS and mass
+          spectra. The supercritical carbon dioxide (SCCO 
+          2 ) extracts of Idaho red sand (Figure
+          1) and a Lake Boney Basin Antarctica soil, which
+          contained relatively few bacteria (Table 1), showed
+          detectable signature molecules in the extracted samples
+          using either a diode array detector or an amperometric
+          detector (Figure 1). The sterile soil, after heat
+          treatment, did not yield significant amounts of our
+          targeted redox signature molecules: nicotinamide,
+          riboflavin, Q 
+          0 , FMN, FAD, and porphyrin (Figure
+          1). To confirm that soil samples yielding negative
+          results and those yielding signatures of redox moieties
+          were different because of the presence and absence of
+          biological entities, we counted viable organisms and
+          extracted DNA from the heated control sand, a Beacon
+          Valley Antarctic soil, a Lake Boney Basin Antarctic soil,
+          and the Idaho red sand (Table 1). There were small
+          amounts of organic compounds in the extract of the Beacon
+          Valley soil, but none matching our standards (no redox
+          signature). At a detection limit of 1 ng per gram of
+          soil, DNA was absent from the control and the Beacon
+          Valley soil, as were cultivable bacteria. Soils that
+          contained electron transport moieties (e.g., the Idaho
+          red sand and Lake Boney Basin soil) also contained both
+          DNA and cultivable bacteria.
         
         
-          Transmission disequilibrium in the 1q41-42
-          region
-          The standard transmission disequilibrium test (TDT) [
-          15], applied to the data for a single marker allele,
-          failed to identify significant transmission
-          disequilibrium (Fig. 3). Analyses with the C-TDT (the TDT
-          combined with the discordant sib TDT [S-TDT]), which
-          allows additional families containing discordant sibs to
-          be evaluated for disequilibrium [ 16], were then
-          performed. Among the 60 families with discordant siblings
-          but missing parental information, several microsatellite
-          alleles in the 1q41 region demonstrated significant
-          evidence of transmission disequilibrium (Fig. 3). Markers
-          D1S490-allele 6 ( 
-          P = 0.0044), D1S229-allele 7 ( 
-          P = 0.0054), and D1S227-allele 5 ( 
-          P = 0.0084) showed the strongest
-          evidence for disequilibrium using the C-TDT.
-          The TDT and C-TDT are limited by the fact that only
-          one triad or discordant sibship is analyzed from a given
-          family; thus these two tests examine only a subset of the
-          data from general pedigrees. The pedigree disequilibrium
-          test (PDT) improves upon these two tests by generating a
-          measure of linkage disequilibrium for every discordant
-          sibship and triad in a pedigree [ 17]. Because it
-          examines the entire data set, the PDT can result in much
-          higher power than the other two tests [ 17]. The version
-          of the PDT used in this analysis has been modified to
-          accept dyads (a single typed parent and an affected
-          offspring). A dyad is informative only when the offspring
-          has a heterozygous genotype different from that of the
-          parent, thus avoiding the bias of using inferred phase
-          assignments [ 18, 19]. Using the PDT, three single marker
-          alleles of D1S490 exhibited evidence of transmission
-          disequilibrium (Fig. 3). Consistent with the C-TDT
-          results, D1S490-allele 6 yielded the strongest PDT result
-          ( 
-          P = 0.0071).
-        
-        
-          Transmission disequilibrium of marker haplotypes in
-          the 1q41-42 region
-          Two- and three-marker haplotypes from the 1q41-42
-          region were next tested for evidence of transmission
-          disequilibrium (Fig. 3). Haplotype clusters were
-          generated for 'exact match' haplotypes with more than 10
-          founders. Analysis of two- and three-marker haplotypes
-          revealed that haplotypes from D1S490 to D1S549 had the
-          greatest number of transmissions and yielded the most
-          significant 
-          P values, with the majority of the
-          significant haplotypes centered on D1S227. The two-marker
-          haplotypes D1S425-allele 10/D1S2827-allele 11,
-          D1S490-allele 7/D1S227-allele 5, and D1S2616-allele
-          6/D1S549-allele 12 were significant in the TDT, C-TDT,
-          and PDT. The D1S490-allele 7/D1S227-allele 5 and
-          D1S2616-allele 6/D1S549-allele 12 haplotypes had 63%
-          (42:25) and 61% (52:33) transmitted:nontransmitted ratios
-          (T:NT), respectively.
-          Using three-marker haplotypes, the strongest evidence
-          for disequilibrium was in the region spanning the markers
-          D1S229 to D1S2641. Notably, the D1S229-allele 7/
-          D1S490-allele 7/D1S227-allele 5 (T:NT = 23:6, 79% T) and
-          the D1S2616-allele 6/D1S549-allele 12/D1S2641-allele 10
-          (T:NT = 18:6, 75% T) haplotypes yielded biallelic PDT 
-          P values of <0.008.
-        
-        
-          Global multiallelic disequilibrium statistic
-          The PDT test also calculates a measure of the linkage
-          disequilibrium for all the alleles of a given marker in
-          the form of a global multiallelic 
-          P value. Using this statistic, the
-          11 markers of 1q32-42 fine map were tested for global
-          transmission disequilibrium (Fig. 4). Importantly, two
-          markers in the 1q32-42 region reach the 0.05 level of
-          significance in the data set from the 332 SLE families.
-          D1S425 results in a global 
-          P value of 0.034, which appeared to
-          be largely driven by the contribution of families in the
-          trio collection ( 
-          P = 0.0056). D1S490 showed the most
-          significant result using this test ( 
-          P = 0.0091), with both the sibpair
-          and trio collections contributing to the linkage
-          disequilibrium observed. Significant results for this
-          global disequilibrium statistic were not observed for any
-          other markers in the 1q41-42 region, including ADPRT
-          (PARP). Two- and three-marker haplotype analysis with the
-          global PDT identified only one significant result. The
-          D1S425-D1S2827 'window' yielded a PDT global 
-          P value of 0.032.
+          Redox dye reduction by various soils
+          Figure 2illustrates the color change seen when a soil
+          microbial community reduces the dye XTT. Figure 3shows
+          results of measurement of DCIP reduction in an autoclaved
+          control soil and an extraterrestrial surrogate soil
+          (Idaho red sand). Figure 4shows results of XTT reduction
+          by the control soil and the life-positive Idaho red sand.
+          Figure 5shows results of XTT reduction by the control and
+          the life-positive Boney Basin, Antarctica soil. The
+          Beacon Valley, Antarctica soil did not reduce either dye.
+          As another control, Figure 6shows the reduction of XTT by
+          a pure culture of 
+          Pseudomonas putida .
         
       
       
         Discussion
-        The localization of genes in complex genetic diseases is
-        a challenging proposition, given that these disorders are
-        likely to show significant locus heterogeneity, genetic
-        epistasis, and incomplete penetrance, as well as
-        environmental effects. In SLE, all the available evidence
-        points to a similarly complex genetic etiology, with six
-        recent genetic linkage studies implicating as many as 48
-        genetic loci [ 3, 4, 5, 6, 7, 20]. While some of the loci
-        identified are likely to be false positives or relatively
-        minor genes enriched in one population or another, the
-        locus at 1q41 is unique in that it has provided a
-        significant, though modest, linkage signal in three
-        independent SLE populations [ 3, 4, 5, 10, 14].
-        Fine-mapping in the 1q41 region by Moser 
-        et al [ 14] also showed that the
-        highest overall LOD score in 127 families of the Oklahoma
-        collection was at D1S229, and the greatest degree of allele
-        sharing in 78 white families was at D1S2616. D1S229 also
-        showed the strongest evidence for linkage in the UCLA
-        collection [ 10], and was the best marker in genome screens
-        performed on the Minnesota family collection [ 3, 4]. Thus,
-        the evidence for linkage at 1q41 is reproducible in
-        independent collections using the identical markers.
-        To detect association with SLE, we used the transmission
-        disequilibrium test (TDT), as well as two additional tests,
-        the C-TDT and the PDT. The PDT is the strongest test of
-        association because of its ability to maximize the
-        information extracted from complex pedigrees. Importantly,
-        marker D1S490 in the 1q41 region was significant on the
-        multiallelic PDT (Fig. 4). Supporting the global finding,
-        the C-TDT and PDT tests also identified evidence for
-        transmission disequilibrium with several alleles from
-        D1S490 and nearby markers (Fig. 3). Marker D1S425 in the
-        1q32 region also demonstrated significant transmission
-        disequilibrium, particularly in the trio collection (Fig.
-        4).
-        We sought to confirm and expand upon the results of the
-        single-marker tests by examining haplotypes from the
-        1q32-41 region for the presence of transmission
-        disequilibrium. Haplotype-based association methods may be
-        more powerful than single-marker tests [ 21, 22, 23]. For
-        example, the same microsatellite allele (i.e. same size
-        microsatellite repeat) may be present on a number of
-        haplotypes, some of which may not be associated with
-        disease. Indeed, haplotype-based association methods
-        employing a dense map of markers have been used to localize
-        genetic effects to small segments of chromosomes [ 24, 25,
-        26, 27, 28, 29]. The knowledge of marker order and
-        intermarker distances in the 1q41 region allowed the
-        generation of haplotypes with unambiguously determined
-        'phase' in our large collection of SLE families. The
-        D1S425-D1S2827 two-marker haplotype window in the 1q32
-        region showed evidence for transmission disequilibrium via
-        the global PDT, while no other windows showed evidence of
-        association using this multiallelic test. However, several
-        individual two- and three-marker haplotypes from the 1q32
-        and 1q41 region showed significant transmission
-        disequilibrium (Fig. 3). These haplotype results should be
-        viewed with some caution, since they are uncorrected for
-        the multiple allele combinations tested, and the
-        possibility of Type I errors may be increased.
-        At present, the most interesting candidate gene in the
-        region showing the strongest evidence for disequilibrium is
-        the estrogen-related receptor gamma (ESRRG). This gene is
-        found on the same contig as D1S490 (NT_004817) and is an
-        orphan receptor within the steroid hormone receptor
-        superfamily. It is expressed in lymphocytes and other
-        tissues and is an interesting candidate, given the
-        suspected role of sex hormones in the pathophysiology of
-        both mouse and human lupus [ 30, 31]. Other genes in the
-        region include those for the cathelicidin antimicrobial
-        peptide (near D1S2616), an innate microbial defense peptide
-        expressed by the skin during inflammation; MARK (near
-        D1S2641), a serine/threonine protein kinase; and at least
-        three uncharacterized genes.
-        The data reported here provide some additional
-        perspective on the initial reports that PARP might be the
-        relevant gene in this locus. The finding of significant
-        transmission distortion of marker alleles centromeric to
-        PARP in the Minnesota collection suggests the possibility
-        that the disequilibrium initially reported for PARP alleles
-        may be due to more extensive disequilibrium - to include
-        the PARP marker - in the families studied by Tsao and her
-        colleagues compared with other populations and groups of
-        families studied. A dense mapping of this interval by all
-        the various groups and a pooling of data would help to
-        resolve this question. It seems likely that, as in the HLA
-        region [ 32], there will be a limited number of ancestral
-        haplotypes in the 1q41 region, and that these ancestral
-        haplotypes will be identifiable by typing a dense map of
-        microsatellites. This should facilitate the identification
-        of the responsible gene(s) in the region.
+        Energy use by living organisms directs our experimental
+        design for seeking signs of extraterrestrial life. In
+        terrestrial biological systems, energy is tapped via
+        stepwise electron transport between electron donors and
+        acceptors via an 
+        electron transport chain . Applying
+        this principle universally, we should be able to detect the
+        chemical components of electron transport chains or
+        electron transport itself as a signature of life.
+        Our assumptions about the centrality of electron
+        transport processes to life led us to a direct experimental
+        approach for detection of life. We were able to measure
+        actual electron transport in the redox range between -1.0
+        and +1.0 V in a microbe-poor soil, in the presence of air,
+        and both with and without additions of an electron donor
+        (dilute nutrient broth). The respiratory electron-accepting
+        dyes DCIP and XTT were used to "short-circuit" microbial
+        electron transport, and this was observed (dye reduction)
+        by visible spectroscopy. This method might entail some
+        site-specific challenges in environments that are different
+        from those on Earth, especially in developing appropriate
+        controls for abiotic processes. NASA learned this lesson
+        from the Viking biology mission to Mars. In the Viking's
+        gas exchange experiment, water vapor exposed to the Martian
+        soil released O 
+        2 , but possibly only as a result of the
+        activity of powerful soil oxidants that also might have
+        been responsible for the chemical reactivity seen in other
+        Viking biology experiments [ 20 ] . A molecule such as DCIP
+        or XTT might be destroyed by oxidation in the presence of
+        such soils. However, soil samples taken from borings
+        beneath the surface, which is exposed to high energy,
+        oxidant-generating ultraviolet radiation, or from other
+        protected areas, might not be so destructive of organic
+        compounds. Such stability problems should not be of such
+        concern for extraterrestrial sites such as Europa or Titan.
+        Thus, our ability, confirmed here, to detect actual
+        electron transport within the redox potential range of life
+        processes, and to observe simultaneously some of the
+        signature chemical structures involved, offers a promising
+        direct approach to detecting the capability of living
+        entities in soil on Earth or elsewhere in our solar system
+        to move electrons between universal donors and acceptors
+        and obtain energy to support replication.
+        Since we are not yet able to test this approach
+        extraterrestrially, we validated our proposed detection
+        method using pure microbial cultures and microbe-poor soils
+        collected on Earth. A select group of signature chemicals
+        were extracted from an organic-poor soil (Figure 1) and
+        identified with instruments that eventually can be
+        miniaturized for use on space exploration missions [ 13 21
+        22 ] . Actual electron transport by living cells was
+        confirmed by use of two specific dyes (DCIP and XTT) that
+        short-circuit respiratory electron transport chains. This
+        was demonstrated using a pure strain of the common earthly
+        soil microorganism, 
+        Pseudomonas putida (Figure 6), and
+        with native soil microorganisms within two
+        nutrient-supplemented soil matrixes (Figures 3, 4, 5). We
+        easily detected a signature of biological electron
+        transport within a biologically poor, sandy soil containing
+        about 30,000 cultivable cells per gram (Idaho red sand),
+        and also from a soil from the extreme environment of Lake
+        Boney Basin, Antarctica (Table 1). Though the Boney Basin
+        soil readily reduced XTT, it only very slowly reduced DCIP
+        (data not shown), and the rate of reduction was not
+        significantly different between untreated soil and killed
+        controls. Since DCIP and XTT have different redox
+        potentials, and XTT in our work appears to generally be
+        more easily reduced by soil microbial communities, this
+        shows a need to use more than one respiratory dye in this
+        type of experiment.
+        Our observations also indicate that in soils from
+        extreme environments, one may expect differences in their
+        patterns of dye reduction that probably reflect differences
+        in their community phylogenetic compositions. A soil from
+        Beacon Valley, Antarctica that showed no DNA at our
+        detection limit also showed no dye reduction activity with
+        either dye. This soil appears to be sterile by our method
+        of life detection; certainly it contains fewer microbial
+        cells than our detection limit. Further investigations of
+        this soil are thus warranted. For the Idaho red sand,
+        assuming 30,000 cells represent about 1% of actual biomass
+        in the soil, the detection limit of our method should be
+        about 3,000,000 cells/g. Though the amount of DNA observed
+        in the Lake Boney Basin soil was actually higher than seen
+        in the Idaho red sand, the microbial counts were lower
+        (Table 1). This shows once again the limitation of viable
+        counts, which only count organisms that grow on the
+        specific medium employed. It is well known that most
+        bacteria in nature cannot be cultured. Our work indicates
+        there is probably a more dominant non-cultivable microbial
+        community in the Antarctic soil compared to the Idaho soil,
+        since DNA analysis indicated high numbers of microorganisms
+        that were not reflected in viable count data.
+        We need to improve the current detection limit for
+        organic moieties (Figure 1), estimated at 3 × 10 6cells per
+        gram of soil. Processing larger quantities of soil could
+        easily increase sensitivity for detection of redox
+        molecules. Supplementing soils with appropriate electron
+        donors and acceptors could stimulate extensive growth of
+        low numbers of indigenous organisms. In theory, even a few
+        cells/gram of soil might be detected using this approach.
+        The former procedure might be accomplished by using a
+        "flow-through" soil extractor that could receive multiple
+        soil additions and concentrate the extracted residues prior
+        to downstream analysis. The latter procedure could be
+        implemented by using a microtiter plate format similar that
+        employed by Biolog™, where hundreds of potential electron
+        donors could be examined simultaneously and the results
+        (dye reduction) read by an on-board UV-visible spectral
+        scanner designed for scanning microtiter plates. Examples
+        of donor-acceptor combinations might include: simple sugars
+        and/or amino acids or other organic molecules in the
+        presence of oxygen or nitrate (organisms capable of
+        heterotrophic respiration), hydrogen and ferric ions or
+        oxidized iron minerals (chemoautotrophic hydrogen
+        oxidizers), organic acids and ferric ions or oxidized iron
+        minerals (heterotrophic iron reducers),
+        bicarbonate/carbonate and trace minerals in the presence
+        and absence of light (photosynthetic organisms), carbon
+        dioxide and a reduced metal such as ferrous ions
+        (chemoautotrophs), ammonium ion and bicarbonate/carbonate
+        (ammonia oxidizers), etc. The combinations could be adapted
+        to the environment under study, such as Mars (perhaps an
+        iron-dominated energy system).
+        In this work, we emphasized that during validation on
+        Earth of any life detection method there is a requirement
+        for control measurements that corroborate earthly results
+        of assays that might be carried out remotely on other
+        planets. We chose measurements of DNA (present in all
+        earthly life) and readily cultivable bacteria (present in
+        most earthly soils) for validating our specific redox
+        chemistry based approach. In the future, as we and others
+        work to increase the sensitivity of this life detection
+        approach toward values needed for the extreme environments
+        on Earth and places such as the regolith of Mars, the
+        simple controls we used should be supplemented by a number
+        of others. These could include controls such as direct
+        microscopic counts of active and inactive bacteria [ 19 ] ,
+        extraction and quantitation of ATP [ 23 ] , extraction and
+        analysis of fatty acids [ 24 ] , real-time PCR of universal
+        16S rDNA markers [ 25 ] , and/or use of a larger variety of
+        culture media, including dilute organic media, in place of
+        or in addition to plate count agar [ 26 ] . All of these
+        approaches also have problems, such as the possible
+        presence in soil of biological molecules that are not
+        associated with living cells, the always-present inability
+        of microbiologists to culture most of the bacteria present
+        in soil, and the often unpredictable performance of PCR
+        primers. However, the sum of such multiple controls would
+        build toward ultimate confidence in the sensitivity of this
+        or any other life detection technique.
+        Because there is great diversity among habitats for
+        microbial life on the Earth, and sterility of an earthly
+        soil is rare, it would be desirable to examine as many as
+        possible of these environments to determine the absolute
+        reliability of our techniques for use extraterrestrially.
+        Unfortunately, we cannot sample all possible terrestrial
+        environments on Earth, or even a small fraction of them. We
+        feel the diversity we have examined is sufficient to
+        indicate the value of our approach, particularly since one
+        of these extreme environments we did examine (Beacon
+        Valley, Antarctica) appears to be sterile. We also cannot
+        examine all known heterotrophic bacteria stored in culture
+        collections to confirm that all or most of them effect dye
+        reduction. However, the many years of experience using the
+        Biolog™ system, which employs respiratory dyes to indicate
+        microbial metabolism [ 17 18 ] , is strong support for our
+        hypothesis that respiratory dye reduction is a robust and
+        conclusive assay for heterotrophic life in soil. Further
+        validation efforts may show that observation of redox
+        cycling of artificial electron acceptors of appropriate
+        redox potentials may be sufficient in itself as a signature
+        of life, greatly simplifying instrumentation requirements
+        for extraterrestrial missions in our solar system and
+        beyond.
       
       
         Conclusions
-        The data reported here confirm the evidence for genetic
-        linkage at 1q41 in 210 SLE sibpair families from the
-        Minnesota collection. Furthermore, we report new evidence
-        for transmission disequilibrium of both single marker
-        alleles and short marker haplotypes from the 1q41-42
-        interval in 122 trio families and in the total dataset of
-        332 SLE families. These data suggest that a human SLE
-        susceptibility locus is located centromeric to PARP near
-        the D1S490 marker.
+        Coupled with limited analyses for specific electron
+        transport molecules (e.g., porphyrins and/or quinones), the
+        use of respiratory dyes for detection of electron transport
+        in the biological redox range could provide very convincing
+        evidence for life in extraterrestrial locations.
       
       
-        Abbreviations
-        ADPRT = adenosine diphosphate ribosyltransferase; cM =
-        centiMorgan; C-TDT = combined S-TDT and TDT; ESRRG =
-        estrogen-related receptor gamma; HLA = human leukocyte
-        antigen; kb = kilobasepairs; LOD = logarithm of odds ratio;
-        MIM = Mendelian Inheritance in Man (database; see [ 1]);
-        PARP = poly ADP ribosyl polymerase; PCR = polymerase chain
-        reaction; PDT = pedigree disequilibrium test; SLE =
-        systemic lupus erythematosus; S-TDT = discordant-sib TDT;
-        TDT = transmission disequilibrium test; T:NT = ratio of
-        transmitted to nontransmitted alleles.
-      
-      
-        Supplementary materials and methods
+        Methods
         
-          Establishing marker order in the 1q41-42
-          region
-          The 12 markers from the 1q41-42 region originally
-          typed by Moser 
-          et al [ S1] were typed in the
-          Minnesota collection (see Fig. 1in the main text of this
-          article). Genetic maps for the region were obtained from
-          the Marshfield Clinic (Marshfield, WI, USA;
-          http://research.marshfield-clinic.org/genetics) and the
-          Genome Database (http://www.gdb.org). Since genetic maps
-          have limited resolution in the case of closely linked
-          markers, the available human genomic sequence from the
-          region was analyzed to more accurately assess marker
-          order and intermarker distances. The Human Genome Project
-          Working Draft database (based on October 7, 2000 freeze)
-          at the University of California, Santa Cruz
-          (http://genome.ucsc.edu), was the primary source used to
-          establish marker order. Three markers (D1S425, D1S229,
-          and D1S213) could not be located in this database. The
-          UniSTS database (http://www.ncbi.nlm.nih.gov/genome/
-          sts/epcr.cgi) located D1S425 on contig NT_004656.
-          According to Mapviewer tool on the National Center for
-          Biotechnology Information site (http://www.ncbi.nlm.nih.
-          gov/genome/guide/human), D1S425 lies 4 Mb telomeric of
-          D1S245. BLAST (http://www.ncbi.nlm.nih.govb/ BLAST/)
-          analysis of the human genome sequence was used to locate
-          D1S229 on the contig NT_004817, 125 kb centromeric of
-          D1S490. D1S2860 was found to map to chromosome 3 and thus
-          was omitted from the present analysis. Only 1 marker,
-          D1S213, was not located on any assembled contigs or draft
-          sequence.
+          Signature chemicals
+          As detailed in our prior work [ 13 ] , the following
+          compounds were used as representative examples of
+          electron transport chain components. Protoporphyrin IX,
+          hemin, hematin, and nicotinamide (vitamin B 
+          3 ) were purchased from Aldrich
+          (Milwaukee, WI). Nicotinamide-adenine dinucleotide (NAD),
+          riboflavin (vitamin B 
+          2 ), flavin mononucleotide (FMN),
+          flavin adenine dinucleotide (FAD), and DCIP were
+          purchased from Sigma (St. Louis, MO).
+          2,3-Dimethoxy-5-methyl-,4-benzoquinone (coenzyme Q 
+          0 ) was purchased from Fluka (Buchs,
+          Switzerland). XTT was purchased from TCI America, Inc.
+          (Portland, OR). The other chemicals and solvents used
+          were of the highest available purity.
         
         
-          Samples and genotyping
-          Panels of markers were optimized such that markers
-          bearing the same fluorescent tag could be multiplexed in
-          polymerase chain reaction (PCR). PCR (32 cycles) was
-          performed on an ABI 877 Catalyst robotic workstation (5
-          μl reactions - 5 ng of genomic DNA, 2.5 mM MgCl 
-          2 , 0.2 mM dNTPs [Pharmacia,
-          Piscataway, NJ, USA], 0.2 U Amplitaq Gold DNA polymerase
-          [Perkin-Elmer, Foster City, CA, USA] in 1 × PCR Buffer II
-          [Perkin-Elmer]). Individual primer-pair concentrations
-          ranged from 0.31 to 3.30 pmol per reaction, based on the
-          results of optimization runs. Pooled amplification
-          products were electrophoresed through 5% polyacrylamide
-          gels (FMC Bioproducts, Rockland, ME, USA) for 2 h at 3000
-          V on an ABI 377 DNA Sequencer. Semiautomated fragment
-          sizing was performed using GENESCAN software (v. 2.1,
-          ABI, Foster, CA, USA) followed by allele calling with
-          GENOTYPER software (v. 2.5, ABI).
+          Soils
+          Natural sand from dune areas of southern Idaho (Idaho
+          red sand), poor in organic content and rich in oxidized
+          iron minerals, was used as a life-positive soil and
+          surrogate for extraterrestrial soils. As a control we
+          used cleaned, highly pure silica sand purchased from
+          Fisher Scientific. These soils are described in our
+          previous paper [ 13 ] . Other extraterrestrial surrogate
+          soils were collected from Beacon Valley and Lake Boney
+          Basin, Antarctica. The soil from Beacon Valley was from
+          an area where higher organisms such as nematodes have
+          never been observed.
         
         
-          Data verification
-          Each genotype was reviewed manually by two members of
-          the team to confirm the accuracy of allele calling. The
-          genotype data from the 11 microsatellites used in the
-          study were analyzed using PEDCHECK and RELATIVE to
-          identify errors in Mendelian inheritance and to confirm
-          familial relationships [ S2, S3]. Additionally, the
-          maximum-likelihood haplotypes for each pedigree
-          (generated by GENEHUNTER PLUS [ S4], a modified version
-          of GENE-HUNTER [ S5]) were examined to identify multiple
-          recombinants. Double recombinants were generally found to
-          be genotyping errors and were corrected.
+          Extraction of soil organic moieties
+          Soil samples of 5 to 15 g were used for supercritical
+          fluid extraction (SFE) with supercritical CO 
+          2 (SCCO 
+          2 ). Samples were first hydrolyzed in
+          5 to 10 ml of acetone containing 2 M NH 
+          4 OH under ultrasound agitation (water
+          bath at 160 watts) for 1 h at room temperature. Nitrogen
+          blown over the sample then evaporated the solvents. The
+          SFE extraction was performed with the dry sample within
+          one day to avoid any degradation of redox compounds. A
+          piece of Whatman glass fiber filter paper (1.0 μm pore
+          size) was cut into a 0.8 cm diameter circle and placed at
+          the outlet end of a 10-ml SFE extraction cell to retain
+          large particles. A hydrolyzed sample (10 ml) was then
+          packed into the vessel until it was full. Exactly 1.0 ml
+          of 25% (v/v) trimethylamine in methanol as modifier was
+          added to the sample, and the vessel was immediately
+          connected to the SFE system. The extraction pressure was
+          set at 300 atm, the oven temperature at 35°C, and the
+          outlet valve temperature at 60°C. After a 15 min static
+          extraction, a dynamic extraction was started until
+          approximately 30 ml of liquid CO 
+          2 passed through the SFE cell [ 27 ] .
+          The flow rate was controlled at 5 to 10 ml/min by the
+          outlet valve. In order to achieve maximum recovery, the
+          SFE procedure was repeated again under identical
+          conditions.
         
         
-          Linkage analysis
-          Multipoint nonparametric linkage analysis was
-          performed using GENEHUNTER PLUS [ S4]. We report the
-          results based on the Sall scoring function, which
-          emphasizes sharing the same allele identical-by-descent
-          (IBD) among all affected family members [ S6]. The
-          reported logarithm of odds ratio (LOD) score is
-          calculated as LOD= Zlr2/2ln10. In some instances,
-          families of different ethnic groups were extracted from
-          the master linkage file and analyzed separately. Allele
-          frequencies used in the parameter files for each analysis
-          were generated from the founder genotypes for the
-          analyzed set of data (sibpair families, trio families,
-          all families combined, and individual ethnic groups).
+          Chromatography
+          Separations were performed using a Hewlett Packard
+          HP-1090 HPLC (Avondale, PA). Samples of 20 to 50 μL were
+          injected onto a Discovery Amide C16 or Discovery C18
+          reverse phase column (15 cm × 4.6 mm, 5 μm, Supelco,
+          Bellefonte, PA), and analytes were separated using the
+          ion-pair chromatographic method. Solvent A was 5 mM
+          tetrabutylammonium phosphate, 30 mM KH 
+          2 PO 
+          4 , and 4% acetonitrile (V/V). Solvent
+          B was 100% acetonitrile. Runs were performed over 35 min
+          with gradient elution of 0 to 40% B, then with static
+          elution over 35 to 40 min with 60% A/40% B, followed by
+          40 to 42 min with 100% A and a post-run wash of 5 min at
+          a flow rate of 1.0 ml/min [ 28 ] . Detectors used were a
+          tandem diode array detector (DAD) and dual carbon
+          electrode amperometric detector (ECD).
         
         
-          Transmission disequilibrium testing
-          The alleles from the 11-marker fine map were examined
-          for the presence of transmission disequilibrium using the
-          transmission disequilibrium test (TDT) [ S7] and the
-          discordant sibling TDT (S-TDT) test [ S8]. Analysis was
-          conducted using the combined TDT/S-TDT program version
-          1.1, set to accept one missing parent per trio [ S8].
-          This program outputs separate results for the TDT, S-TDT
-          and the combined TDT/S-TDT (referred to herein as C-TDT).
-          In families with multiple affected individuals, only a
-          single affected patient (the index case) was used for the
-          TDT and C-TDT analyses.
-          Two- and three-marker haplotypes from the 1q32-41
-          region were tested for the presence of transmission
-          disequilibrium. Maximum-likelihood haplotypes were
-          generated using GENEHUNTER PLUS for the 274 families with
-          at least one typed parent. Markers where phase could not
-          be definitively determined were identified and labeled as
-          missing data for the haplotype analysis. Founder
-          haplotypes were then used to create two- and
-          three-contiguous-marker exact-match clusters using a
-          moving-window approach, as described by Nair 
-          et al [ S9]. In order to prevent
-          rare haplotypes from dominating the statistical tests and
-          to better approximate the distributional assumptions of
-          these tests, only those haplotypes with at least 10
-          founders were clustered. Haplotypes represented in fewer
-          than 10 founders were pooled together. Every two- or
-          three-marker 'window' was examined by moving the window
-          across the 1q32-42 region one marker at a time from
-          centromere to telomere. The resulting haplotype data were
-          examined using the TDT and C-TDT with each haplotype
-          considered as a single marker.
-          Additional information from the sibpair and multiplex
-          families was extracted using the pedigree disequilibrium
-          test (PDT) [ S10]. The original form of the PDT
-          incorporates information from every possible triad and
-          discordant sibship in a given family, to yield an average
-          measure of disequilibrium for the entire pedigree. In
-          addition, we analyzed dyads (one parent and an affected
-          offspring) when the offspring had a heterozygous genotype
-          different from that of the parent [ S11, S12]. The PDT
-          was used to examine the single-marker and the two- and
-          three-marker haplotype data.
+          Electrospray tandem mass-spectrometry
+          The identities of signature species present in
+          extracts were confirmed by negative or positive
+          electrospray ionization tandem mass spectrometry (Quattro
+          II, Micromass Ltd., UK). Samples were delivered into the
+          source at a flow rate of 5 μl/min using a syringe pump
+          (Harvard Apparatus, South Natick, MA) or directly from a
+          HPLC column, with effluent from the column split 1:100. A
+          potential of 2.5 to 3 kV was applied to the electrospray
+          needle. The sample cone was kept at an average of 15 V.
+          The counter electrode, skimmer, and RF (radio frequency)
+          lens potentials were tuned to maximize the ion beam for a
+          given solvent. The resolution of the detector was 15,000,
+          and the source temperature was kept constant at 80°C. The
+          instrument was calibrated using a polyethylene glycol
+          solution. All spectra were an average of 10 to 15
+          scans.
         
         
-          Linkage analysis in families carrying 'risk'
-          haplotypes
-          GENEHUNTER PLUS creates maximum-likelihood haplotypes
-          when conducting multipoint linkage analysis. The
-          GENEHUNTER PLUS haplotype output was used to identify
-          families with founders carrying the seven three-marker
-          haplotypes in the 1q41 region (D1S229-D1S2641) that had a
-          TDT transmission:nontransmission ratio of at least 2:1
-          (66% transmission rate). Multipoint linkage analysis was
-          conducted on the 'risk' and 'nonrisk' subsets as
-          described above.
+          Biomass and DNA analysis in soil
+          The numbers of cultivable soil microorganisms were
+          estimated by standard plate count and serial dilution
+          methods. Standard plate count medium (PCM) was used to
+          culture bacteria from soil samples [ 29 ] . DNA was
+          extracted from different soils using the FastPrep DNA
+          spin kit from Qbiogene, Inc. (Carlsbad, CA). The
+          concentration of DNA was estimated by measuring
+          fluorescence at 520 nm. Fluorescence was measured after
+          staining the sample with Pico Green fluorescent dye
+          (Molecular Probes, Eugene, OR). Our detection limit was
+          about 1 ng of DNA in 1 g of soil.
+        
+        
+          DCIP and XTT reduction assays
+          Working in a sterile laminar flow hood, we added 2.0 g
+          of soil, 16.0 mL of sterile 100 mM phosphate buffer (pH
+          7.5), 2 mL of 100X Nutrient Broth as a biological
+          reductant (Difco), and 1.0 mL of 1 mM DCIP to a sterile
+          25 mL serum bottle. Bottles were plugged and capped with
+          sterile closures and shaken at room temperature for
+          required experimental time. Periodically, samples (1.0
+          mL) were removed aseptically and centrifuged to remove
+          solids. The absorbance of the filtrate was measured at
+          600 nm. Concentrations of DCIP (oxidized) were calculated
+          using a molar extinction coefficient of ε = 21.0 × 10 3M
+          -1cm -1. Reoxidation of DCIPH 
+          2 was negligible under our
+          experimental conditions. Samples were run in
+          triplicate.
+          Reduction of XTT was monitored similarly as described
+          for DCIP, except we measured the increase in absorbance
+          at 465 nm resulting from reduction of the colorless
+          oxidized dye to an orange product [ 16 ] .
         
       
       
-        Supplementary results
-        
-          Clinical features of systemic lupus erythematosus
-          (SLE) in sibpair and trio families
-          The composition of the sibpair families studied in
-          this report is summarized in Supplementary Table 1(see
-          below). Twenty-four additional families were included
-          beyond the families that comprised the original Minnesota
-          Cohorts 1 and 2 [ S13, S14]. In addition, a collection of
-          122 trio families (one SLE patient with both parents) was
-          assembled. Demographics and selected clinical
-          characteristics of the affected individuals within the
-          sibpair and trio collections are presented in
-          Supplementary Table 2. The trio collection was highly
-          enriched for white families (96% compared with 77% in the
-          sibpair families). Compared with patients from the
-          sibpair collection, trio individuals were more likely to
-          be positive for anti-dsDNA antibody, and to have evidence
-          of hematologic or renal disease. Lower percentages of
-          trio patients had pleuritis, skin involvement, or CNS
-          lupus. The differences in the clinical manifestations
-          observed may reflect the greater ethnic diversity within
-          the sibpair collection as well as potential differences
-          in familial compared with sporadic SLE.
-        
-        
-          Linkage analysis in families carrying 'risk'
-          haplotypes
-          The evidence for linkage was examined in the subset of
-          families that carried the 'risk' haplotypes, defined as
-          those families carrying three-marker haplotypes from
-          D1S229 to D1S2641 that displayed at least a 2:1
-          transmission:non-transmission ratio (see Fig. 3in the
-          main text of this article). Families with the 1q41 risk
-          haplotypes ( 
-          n = 88) demonstrated a multipoint
-          LOD score of 1.15 at D1S2616, while the remainder of the
-          family collection ( 
-          n = 23) showed a LOD score at
-          D1S2616 of 0.30. Thus, SLE families carrying the 'risk'
-          marker haplotypes with the strongest evidence for
-          transmission disequilibrium were also the families that
-          accounted for most of the evidence for linkage in the
-          1q41 region.
-        
-        
-          Localization of the 1q41 effect through haplotype
-          analysis
-          The two most significant three-marker haplotypes
-          identified in the moving-window analysis were
-          D1S229-allele 7/D1S490-allele 7/D1S227-allele 5 and
-          D1S2616-allele 6/D1S549-allele 12/D1S2641-allele 10.
-          Interestingly, none of the 83 individuals who carried one
-          of these two haplotypes contained both of these on a
-          further extended haplotype. Furthermore, 33 of 55
-          patients with the 229/490/227 haplotype (60%) also bore
-          allele 6 of D1S2616, while 14 of 28 individuals with the
-          2616/549/2641 haplotype also bore allele 5 of D1S227.
-          This suggests the possibility that the major effect in
-          this region is between markers D1S227 and D1S2616, an
-          interval of approximately 0.96 megabasepairs.
-          Alternatively, there might be two effects in the region,
-          each carried on one of the haplotypes. The two-marker
-          haplotype data provide some support for the former
-          interpretation, since the peak number of significant
-          haplotype transmissions is found within the
-          D1S227-D1S2616 interval, with the number of events
-          falling off at surrounding windows. Although the current
-          evidence for linkage disequilibrium at 1q41 extends over
-          quite a broad interval, it is important to note that the
-          marker density in the current study is still rather
-          sparse. Efforts to further localize the gene in this
-          region will require the identification and typing of
-          additional microsatellite markers and single nucleotide
-          polymorphisms (SNPs) in a large cohort of SLE cases and
-          controls.
-        
+        Authors' contributions
+        All authors worked within a multidisciplinary team. RLC
+        conceived the study, and participated in its design and
+        coordination. AP directed the analytical chemistry work
+        reported and interpreted the analytical data. QL performed
+        the SCCO 
+        2 extractions. DPE and LBA performed the
+        dye reduction experiments and provided ideas for
+        improvements of methods. GC and TJA designed the SCCO 
+        2 soil extraction cell. FC provided
+        expertise on voltammetric detection of analytes. CW, BB,
+        RW, TA, and MM provided input regarding data analyses and
+        overall life detection system design for potential future
+        use on extraterrestrial missions.
+        All authors read and approved the final manuscript.
       
     
   

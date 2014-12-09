@@ -3,642 +3,699 @@
     
       
         Background
-        Recent studies have shown that maitotoxin (MTX), a
-        potent cytolytic agent isolated from the dinoflagellate 
-        Gambierdiscus toxicus, is an
-        important new molecular tool for the study of oncotic
-        (necrotic) cell death [ 1 2 ] . In a variety of cell types,
-        MTX initiates a cell death cascade that involves a sequence
-        of cellular events essentially identical to those activated
-        by stimulation of purinergic receptors of the P2Z/P2X 
-        7 type. Initially, MTX causes a graded
-        increase in cytosolic free Ca 2+concentration ([Ca 2+] 
-        i ). This is followed closely in time by
-        the opening of cytolytic/oncotic pores (COP) that allow the
-        exchange of large organic molecules of molecular weight
-        less than ~800 Daltons across the plasma membrane. COP
-        activation can be monitored by the cellular accumulation of
-        ethidium or propidium-based vital dyes, which are normally
-        excluded from the cytoplasm, but gain access to cellular
-        nucleotides via COP and exhibit an increase in
-        fluorescence. In isolated bovine aortic endothelial cells
-        (BAECs), the opening or activation of COP is associated
-        with formation of spherical membrane blebs with a diameter
-        of 3-5 microns [ 3 ] . The final stage of MTX-induced cell
-        death is cell lysis as indicated by the release of large
-        cytoplasmic enzymes, such as lactate dehydrogenase (LDH).
-        Using time-lapse videomicroscopy, we have shown that
-        MTX-induced release of LDH from vascular endothelial cells
-        is associated with massive bleb dilation and rapid staining
-        of the nucleus with vital dyes [ 3 ] .
-        The initial MTX-induced increase in [Ca 2+] 
-        i reflects the activation of a Ca
-        2+-permeable non-selective cation channel (CaNSC) [ 1 4 5 6
-        7 8 ] . This channel, which has a reported conductance in
-        the range of 12-40 pS depending on ionic conditions [ 5 9
-        10 11 ] , causes rapid membrane depolarization, which in
-        excitable cells, leads to activation of voltage-sensitive
-        channels. Although it appears that a rise in [Ca 2+] 
-        i is necessary, but not sufficient for
-        activation of COP [ 1 ] , the molecular mechanisms by which
-        this occurs remains unknown. Likewise, the subsequent steps
-        leading to membrane blebbing and cytolysis are poorly
-        understood. It is however, well established that MTX causes
-        the hydrolysis of phosphoinositides in some cell types,
-        presumably via activation of phospholipase C (PLC) [ 12 13
-        ] . Activation of PLC by MTX appears to be indirect
-        resulting as a consequence of increased [Ca 2+] 
-        i . These results suggest that PLC may
-        be involved in activation of COP and/or in the cytolysis
-        phase of MTX action. Thus, the initial purpose of the
-        present study was to determine the role of PLC in
-        MTX-induced cell death. To accomplish this goal, the effect
-        of U73122, a specific inhibitor of mammalian PLC was
-        examined. This compound selectively inhibits mammalian PLC,
-        but has no direct effect on bacterial PLC, bacterial or
-        mammalian phospholipase A 
-        2 or adenylyl cyclase [ 14 ] . U73343, a
-        structural analogue of U73122 that differs by only one
-        double bond, has no direct effect on PLC and is commonly
-        used as a negative control. However, both compounds have
-        been shown to produce non-specific effects presumably
-        unrelated to inhibition of PLC [ 15 16 17 18 19 20 ] . The
-        results of the present study show, that both U73122 and
-        U73343 inhibit MTX-induced change in [Ca 2+] 
-        i , ethidium uptake, and LDH release in
-        BAECs. Although these results suggest that blockade of
-        MTX-induced responses by the U-compounds is independent of
-        PLC, they identify these compounds as novel, potent, and
-        rapid blockers of MTX action. Interestingly, in experiments
-        designed to examine MTX reversibility, we discovered a
-        rather stunning change in the pattern of membrane blebbing.
-        Specifically, cells rescued from MTX by subsequent
-        application of U73343 exhibit a blebbing pattern known as
-        "zeiosis". Zeiosis, which comes from the Greek word 
-        Zειω meaning "to boil over" [ 21 ] ,
-        is characterized by violent cytokinesis with continuous
-        bleb extension and retraction. Zeiosis has been associated
-        in many cell types with apoptosis [ 22 23 24 ] . The
-        results of the present experiments suggest that following a
-        brief exposure to MTX, U73343 rescues cells from oncotic
-        cell death. Cells that survive the initial insult may
-        ultimately die by apoptosis.
+        The cysteine-loop family of ligand gated ion channels
+        (LGIC) is comprised of receptors with pentameric quaternary
+        structure and at least two ligand binding sites present at
+        the subunit interfaces [ 1 2 ] . This receptor family is
+        characterized by the presence of a critical disulfide loop
+        structure within the binding site and an integral ion
+        selective channel. LGIC receptors are found in both the
+        peripheral and central nervous systems. Members of this
+        family include the acetylcholine receptors [ 3 4 ] , the
+        γ-amino butyric acid type A receptor (GABA 
+        A R) [ 5 ] , and the glycine receptor
+        (GlyR) [ 6 ] .
+        The first subunit of the 5-HT 
+        3 R was cloned in 1991 [ 7 ] . The
+        sequence of this subunit was shown to be highly homologous
+        to LGIC receptors and thus identified the 5-HT 
+        3 R receptor as another member of this
+        superfamily [ 7 8 9 ] . Similar to other LGIC receptors,
+        more than one subtype has been identified. Two splice
+        variants of an A subunit (long and short forms), and a
+        single B subunit have been cloned [ 10 11 12 13 ] . Both
+        the long and short forms of the A subunit are capable of
+        forming functional homomeric receptors [5-HT 
+        3AL R and 5-HT 
+        3AS R] although some differences between
+        an agonist and partial agonist activity have been observed
+        [ 14 ] . A third subtype is formed by a combination of the
+        A and B subunits to produce a heteromeric receptor of
+        unknown stoichiometry [ 10 ] . Heteromeric receptors are
+        pharmacologically and functionally distinct from the
+        homomeric 5-HT 
+        3AL and 5-HT 
+        3AS receptors [ 11 ] .
+        5-HT 
+        3 Rs are distributed throughout the
+        central and peripheral nervous system, playing a
+        significant role in phenomenon such as anxiety, emesis and
+        alcoholism. Antagonists to 5-HT 
+        3 Rs are clinically efficacious in the
+        treatment of chemotherapy-induced emesis [ 15 ] and recent
+        studies on human subjects have suggested their potential
+        application in the treatment of early onset alcoholism [ 16
+        17 ] .
+        Hibert 
+        et al proposed an early model for the
+        antagonist pharmacophore of the 5-HT 
+        3 R [ 18 ] . According to this model,
+        all 5-HT 
+        3 R antagonists contain an aromatic
+        ring, a carbonyl oxygen or bioisosteric equivalent, and a
+        basic nitrogen. According to Hibert's model, the basic
+        nitrogen is located 5.2A° from the centre of the aromatic
+        ring and approximately 1.7A° above plane of the ring. The
+        carbonyl oxygen and the aromatic ring are coplanar and
+        separated by a distance of 3.3A°. Recent studies have
+        expanded on this model to include another lipophilic region
+        and a second hydrogen bonding interaction two atoms away
+        from the first [ 19 20 21 ] . A compound that contains all
+        five pharmacophoric regions was synthesized by Orjales 
+        et al [ 22 ] . This compound
+        (1-(phenylmethyl)-2-piperizinyl benzimidazole or
+        lerisetron) is shown in figure 1and is a potent 5-HT 
+        3 R antagonist. Functional groups on
+        this compound capable of forming interactions with the
+        receptor are the distal amino group, a benzimidazole and a
+        benzyl group in the N1 position of the benzimidazole. While
+        Lerisetron contains no carbonyl group, the second nitrogen
+        contained in the benzimidazole heterocycle could act as
+        bioisostere of this functional group [ 22 ] . Orjales
+        demonstrated the importance of the N-benzyl group by
+        synthesizing several N1 substituted analogs of Lerisetron.
+        Removal of the N-benzyl group produced a 80-fold decrease
+        in affinity, indicating a role for this group in
+        interacting with the 5-HT 
+        3 R. Other studies have supported this
+        observation and suggest a more specific electrostatic
+        interaction [ 23 ] .
+        While structure-activity relationship studies and
+        molecular modeling have led to the development of a
+        detailed pharmacophore model, determining specific point
+        interactions between 5-HT 
+        3 antagonists and binding site amino
+        acids has proven difficult. Mutagenesis studies have
+        identified the interaction of amino acids W89 and R91 in
+        the binding of 5-HT 
+        3 R ligands [ 24 23 ] . Studies
+        conducted in our laboratory have identified three
+        additional putative binding site residues (Y140, Y142, and
+        Y152) [ 25 ] . W89 and R91 are present in a conserved
+        region of LGIC receptors often referred to as loop D [ 24
+        26 ] . Similarly, Y140, Y142 and Y152 are located in the
+        region homologus to E loop region of nicotinic AchR.
+        In this study, we have endeavoured to identify the amino
+        acids interacting with the different functional groups
+        present on the lerisetron molecule in order to develop a
+        model for interaction of this compound with the 5-HT 
+        3 R. Using site directed mutagenesis in
+        combination with analogs of lerisetron, we have identified
+        amino acids that appear to interact selectively with the
+        terminal amino group, the N-benzyl group and the aromatic
+        benzimidazole.
       
       
         Results
         
-          U73122 and U73343 inhibit MTX-induced change in [Ca
-          2+] iand ethidium uptake in BAECs.
-          To test the hypothesis that MTX-induced cell death
-          requires PLC, the effect of U73122, a specific inhibitor
-          of PLC was examined. Addition of MTX to fura-2 -loaded
-          BAECs, suspended in a cuvette in normal Ca 2+-containing
-          buffer at 37°C, produced a time-dependent increase in [Ca
-          2+] 
-          i (Fig 1, 
-          upper panel ). Addition of either
-          U73122 or U73343, the inactive analog, ~3 min before MTX
-          produced a concentration-dependent inhibition of the
-          change in [Ca 2+] 
-          i . U73343 exhibited a 3-fold greater
-          potency compared to U73122 (Fig 1, 
-          insets ). Since U73343 has no
-          significant effect on PLC over the concentration range
-          employed [ 14 25 26 27 ] , these results suggest that
-          inhibition of the MTX-induced response is independent of
-          PLC.
-          Studies in BAECs have shown that following elevation
-          of [Ca 2+] 
-          i , MTX causes the activation of large
-          pores (i.e., COP) that allow the flux of ethidium and
-          propidium-based vital dyes into the cell. As previously
-          reported [ 3 ] , MTX-induced uptake of ethidium in BAECs
-          was biphasic in the absence of the U-compounds (Fig 1, 
-          lower panel ). The first phase,
-          which extends for ~5 min after addition of MTX, reflects
-          the activation of COP, whereas the second phase is
-          temporally associated with LDH release and thus reflects
-          cell lysis [ 3 ] . Addition of either U73122 or U73343,
-          ~3 min before MTX, produced an inhibition of ethidium
-          uptake (Fig 1, 
-          lower panel ). Both phases of
-          ethidium uptake were attenuated by the U-compounds and
-          U73343 again appeared to have a greater potency compared
-          to U73122. These results suggest that inhibition of
-          MTX-induced change in [Ca 2+] 
-          i prevents or attenuates both the
-          activation of COP and cytolysis.
-          To determine if the effects of the U-compounds are
-          reversible, BAECs were pre-treated with U73343 (5 μM) for
-          5 min, washed and resuspended in normal extracellular
-          buffer in the absence of U73343. As seen in Fig 2, BAECs
-          pre-treated with U73343 partially recover responsiveness
-          to MTX following washout of U73343, but the response
-          failed to recover further over the subsequent 10 min.
-          Thus, the ability of U73343 to block the effect of MTX
-          appears to reflect both a rapidly reversible and slowly
-          reversible component.
+          Functional activity of lerisetron
+          Whole cell patch-clamp experiments were performed to
+          test the functional activity of lerisetron. No response
+          was observed when lerisetron was applied alone (data not
+          shown). When co-applied with 5-HT, lerisetron inhibited
+          the absolute magnitude of the response with no apparent
+          alteration of the response profile (Figure 2). The
+          combination of several identical inhibition experiments
+          produced a K 
+          i value of 0.2 ± 0.03 nM for
+          lerisetron inhibition of the 5-HT induced response. These
+          data correspond well with previously reported data for
+          this compound [ 22 ] and verify the competitive
+          antagonist action of lerisetron. Analogs of lerisetron
+          have been shown to inhibit 5-HT 
+          3 Rs in a similar manner [ 23 ] .
         
         
-          U73343 partially reverses the effect of MTX.
-          To determine if U73343 could reverse the action to
-          MTX, the compound was added to the cuvette after MTX. As
-          seen in Fig 3( 
-          upper panel ), addition of U73343
-          at various times after MTX, immediately stopped further
-          increases in [Ca 2+] 
-          i and resulted in an immediate
-          recovery of [Ca 2+] 
-          i back towards basal resting levels.
-          Over the time-course examined however, [Ca 2+] 
-          i never fully returned to the level
-          observed before MTX addition. The same experimental
-          protocol was employed for evaluation of ethidium uptake
-          (Fig 3, 
-          lower panel ). Again, MTX-induced
-          uptake of ethidium was biphasic in the absence of U73343
-          ( 
-          trace a ). Addition of the
-          U-compound shortly after MTX (i.e., at 200 sec; 
-          trace e ), blocked both phases of
-          the response. Addition of U73343 towards the end of the
-          first phase (i.e., at either 400 or 500 sec; 
-          traces b and c) had only a small
-          effect on the magnitude and time course of subsequent
-          ethidium uptake. However, when U73343 was added during
-          the first phase of ethidium uptake (i.e., 300 sec; 
-          trace d ), dye accumulation in the
-          cells was immediately blocked. After a short delay, dye
-          uptake again increased with time to a value that was
-          substantially less than maximum. These results suggest
-          that U73343 is able to rapidly block both the MTX-induced
-          change in [Ca 2+] 
-          i and COP formation when added shortly
-          after MTX. When U73343 is added at longer times, a large
-          proportion of the cells challenged by MTX have apparently
-          passed a point-of-no-return and are destined to die by
-          oncosis. However, the percentage of cells that either die
-          or survive depends on the time of U73343 addition after
-          MTX.
+          Importance of the N-benzyl and distal piperazine
+          nitrogen to binding of lerisetron
+          The K 
+          i value for lerisetron inhibition of [
+          3H]-granisetron binding to wildtype receptors was
+          determined to be 0.8 ± 0.19 nM (Figure 3and Table 1).
+          This value agrees with previously published data for this
+          compound. The K 
+          i values for analogs 1 and 2 under
+          identical conditions are 25 ± 3.2 nM and 320 ± 82 nM
+          respectively (Figure 4A, Table 1). The observed change in
+          K 
+          i represents the decreases in binding
+          energy resulting from removal of the N-benzyl group
+          (analog 1) and the distal piperazine nitrogen (analog
+          2).
         
         
-          U73343 rescues cells from MTX-induced oncotic cell
-          death.
-          To directly determine the effect of U73343 on
-          MTX-induced cell lysis, LDH release was correlated with
-          the change in [Ca 2+] 
-          i and ethidium uptake in paired
-          experiments. As previously reported [ 3 ] and as seen in
-          Fig. 4( 
-          bottom panel, black circles ),
-          MTX-induced LDH release in the absence of U73343,
-          correlates in time with the second phase of ethidium
-          uptake, demonstrating that the second phase reflects cell
-          lysis. Addition of U73343 during the first phase of the
-          MTX-induced response, immediately reversed the rise in
-          [Ca 2+] 
-          i and blocked dye uptake. However, at
-          ~400 sec, ethidium uptake resumed and increased to an
-          intermediate value as was seen in Fig 3. This secondary
-          uptake of ethidium correlated in time with a partial LDH
-          release (Fig 4, 
-          bottom panel, red triangles ).
-          U73343 alone had no effect on LDH release (Fig 4, 
-          bottom panel, green squares ).
-          These results directly demonstrate that a percentage of
-          cells within the population died by oncosis, but perhaps
-          more importantly, that a significant number of the cells
-          are rescued from MTX-induced oncotic cell death when
-          U73343 is added within a short time-window after MTX.
+          Identification of amino acids interacting with
+          Lerisetron
+          In order to determine the nature of the amino acids
+          interacting with the distal amino and N-benzyl groups of
+          lerisetron, we constructed 5-HT 
+          3AS Rs containing mutations at W89,
+          R91, Y140, Y142 and Y152. Figure 3shows inhibition of [
+          3H]-granisetron binding by lerisetron on wildtype and
+          mutant receptors. For most amino acids, an alanine
+          substitution was constructed in order to effectively
+          remove any amino acid interaction with the ligand. For
+          W89, an alanine substitution has been shown to prevent
+          binding of [ 3H]granisetron; therefore a less severe
+          mutation was constructed.
+          The W89F mutation produces a 18-fold change in K 
+          d for [ 3H]-granisetron binding (18 ±
+          2 nM) and the W89Y mutation produces a 5.8-fold change in
+          K 
+          d (5.7 ± 0.7 nM). Mutation of amino
+          acid R91 to alanine produced a 5-fold change in K 
+          d for [ 3H]granisetron binding (4.9 ±
+          0.7 nM) (Table 1). These data agree well with previously
+          reported values [ 24 ] . Alanine mutations at the
+          tyrosine positions Y140, Y142 and Y152 also produced
+          minor increases in K 
+          d for [ 3H]granisetron binding (2.7 ±
+          0.19 nM, 4.5 ± 0.5 nM and 7.8 ± 1.1 nM respectively) [ 25
+          ] (Table 1).
+          Only small changes in K 
+          i for lerisetron were observed for the
+          Y140A mutation while the Y142A and Y152A mutations
+          produced large increases in the K 
+          i (Table 1and Figure 3). For W89F and
+          W89Y, the changes in K 
+          i observed for lerisetron were much
+          smaller than for the alanine mutations at Y142A and
+          Y152A, as would be expected for the less severe nature of
+          these mutations. The changes were, however significant (p
+          < 0.001 in both cases) and are similar to the changes
+          in K 
+          d reported for [ 3H]granisetron. The
+          increase in K 
+          i on the W89F mutant receptor was 4.8
+          ± 0.56 fold and the increase in K 
+          i on the W89Y receptor was 3.6 ± 0.4
+          fold. The R91A mutant produced an increase in K 
+          i of 7.6 ± 1.5 fold as compared to the
+          wildtype receptor. These data indicated potential
+          interactions of lerisetron with W89, R91, Y142 and
+          Y152.
         
         
-          U73343 alters MTX-induced bleb formation.
-          Our previous studies showed that MTX causes a specific
-          change in cell morphology. In particular, MTX causes
-          dramatic time-dependent membrane blebbing in BAECs [ 3 ]
-          . An example is shown in Fig. 5. BAECs, attached to glass
-          coverslips and superfused with a solution containing
-          ethidium bromide, were simultaneously monitored by phase
-          and fluorescence microscopy. Selected images pairs
-          (merged phase/fluorescence images) are shown in Fig 5. At
-          time 5 min, the cells were superfused with a solution
-          containing MTX. No change in cell morphology was noted at
-          10 min, but by 25 min (i.e., 20 min after addition of
-          MTX) large membrane blebs were observed on essentially
-          all the cells within the field of view (Fig 5A, see
-          examples indicated by 
-          blue arrows ). Additionally, clear
-          staining of the nucleus and cytoplasm by ethidium was
-          observed at this time. The graph shown in Fig
-          5Aquantifies the fluorescence change in individual cells
-          as a function of time. Note that uptake of ethidium in
-          response to MTX is biphasic at the single cell level and
-          that heterogeneity between cells primarily reflects the
-          time of entry into the second phase of dye uptake, i.e.,
-          the cell lysis phase. The dynamic nature of the
-          MTX-induced bleb formation, bleb dilation, and ethidium
-          uptake can be observed by viewing the time-lapse movie
-          associated with this experiment (see Additional File 1).
-          As previously reported, blebs form during the first phase
-          of dye uptake, whereas rather dramatic bleb dilation is
-          seen during the cytolysis phase of rapid dye uptake. In
-          the continuous presence of MTX, blebs continue to swell
-          and in many cases seem to disappear as they dilate and
-          extend out of the focal plane.
-          Addition of U73343 (10 μM) 2-3 min before MTX (0.3 nM)
-          completely blocks ethidium uptake and the associated
-          change in cell morphology. As seen in Fig 5B, essentially
-          no blebs are observed at 25 min (i.e., 20 min after MTX)
-          and little or no dye uptake is seen out to 40 min. Thus,
-          the major morphological changes associated with MTX
-          challenge are blocked by U73343. However, by time 40 min,
-          some of the cells (11 out of 53) detach from the glass
-          coverslip and round-up (Fig 5B, see examples indicated by
+          Mutation of W89
+          As mentioned above, the lack of [ 3H]-granisetron
+          binding to W89A mutant receptors necessitated the use of
+          W89F and W89Y mutations to analyze functional group
+          interactions. The effects of these mutations on the K 
+          i for analogs 1 and 2 are shown in
+          figure 4B, 4Cand Table 1. Analog 1 inhibited [
+          3H]-granisetron binding to W89F receptors with a K 
+          i of 170 ± 54 nM (7 ± 3.2 fold
+          increase, p < 0.001) and W89Y receptors with a K 
+          i of 81 ± 14 nM (3.2 ± 0.6 fold
+          increase, p < 0.001). This reflects a significant
+          increase in K 
+          i and reflects a potential interaction
+          of analog 1 with W89. The strength of this interaction is
+          apparently similar to the strength of the interaction
+          with [ 3H]-granisetron and lerisetron since the magnitude
+          of the change is similar in both cases. Analog 2 also
+          showed a significant increase in K 
+          i as a result of the W89F and W89Y
+          mutations. The magnitude of the change for W89F (5.1 ±
+          1.3 fold, p < 0.05) was similar to that observed for
+          lerisetron and analog 1. The W89Y mutation produced a 6.8
+          ± 1.6 fold change in K 
+          i (p < 0.05). Thus, all three
+          compounds appear to form similar interactions with
+          W89.
+        
+        
+          Mutation of R91
+          Mutation of R91 to alanine (R91A) resulted in a
+          significant, but small increase in K 
+          i for lerisetron of 7.6 ± 1.5 fold (p
+          < 0.01). Figure 4Dshows the inhibition of [
+          3H]-granisetron binding by analogs 1 and 2 at R91A mutant
+          receptors. No significant change in K 
+          i was observed on these receptors for
+          either analog 1 (0.9 ± 0.28 fold) or analog 2 (0.56 ±
+          0.14 fold) (Table 1) as compared to the wildtype
+          receptor.
+        
+        
+          Mutation of Y142
+          Mutation of Y142 to alanine produced one of the
+          largest observed changes in K 
+          i for lerisetron (Figure 3and Table
+          1). The K 
+          i obtained for lerisetron was 130 ± 28
+          nM, reflecting a change of 160 ± 37 fold compared to
+          wildtype receptors. The K 
+          i value for analog 1, in contrast,
+          increased only 6.8 ± 2.3 fold (p < 0.01) as a result
+          of this mutation (Figure 4Eand Table 1). The K 
+          i for analog 2 showed a similar change
+          of 17 ± 0.77 fold (p < 0.01). While these K 
+          i values are significantly different
+          from wildtype values for each analog, the lack of larger
+          effects suggests that neither analog 1 nor analog 2 bind
+          as strongly as lerisetron to Y142.
+        
+        
+          Mutation of Y152
+          The Y152A mutation showed the most variability in its
+          effects on K 
+          i values for lerisetron, analog 1 and
+          analog 2 (Figure 3, Figure 4Fand Table 1). Lerisetron
+          inhibited [ 3H]-granisetron binding with a K 
+          i value of 150 ± 36; an increase of
+          190 ± 43 fold compared to wildtype values. The K 
+          i value for analog 1 increased from 25
+          ± 3.2 nM (wildtype) to 2.5 ± 0.40 μM. This change of 100
+          ± 16 fold is slightly smaller, but not significantly
+          different from the relative change observed for
+          lerisetron. The K 
+          i for analog 2 increased from 0.32 ±
+          0.08 μM on wildtype to 13 ± 4.2 μM on Y152A mutant
+          receptors (40 ± 12 fold increase). The increase observed
+          for analog 2 was significantly less than that observed
+          for both lerisetron and analog 1. The smaller change in K
           
-          blue arrows ). The time-lapse movie
-          of this experiment revealed that these detached cells
-          were actually undergoing a novel type of membrane
-          blebbing called zeiosis (see Additional File 2). As can
-          be seen from the movie ( Additional File 2), zeiosis is
-          characterized by cytokinesis with time-dependent bleb
-          extension and retraction. Note that during zeiosis, no
-          ethidium uptake is observed, i.e., there is little or no
-          change in cell fluorescence. This result suggests that
-          COP is not activated and the cells do not undergo a gross
-          change in plasmalemmal permeability during zeiosis. At 1
-          nM MTX, the number of BAECs that undergo zeiosis in the
-          presence of U73343 is increased (see Additional File 3).
-          As seen in this movie ( Additional File 3), the majority
-          of the cells in the field of view (16 out of 24) undergo
-          zeiosis, yet there is no ethidium uptake over the time
-          frame examined, despite the higher concentration of MTX
-          employed. Little or no zeiosis was observed in the
-          absence of MTX, i.e., in the presence of either U73343
-          alone (4 zeotic cells out of 113) or vehicle alone (DMSO;
-          5 zeotic cells out of 146) examined for 40 min. Thus, the
-          ability of MTX to cause zeiosis is specific, but requires
-          the presence of U73343, presumably to block or prevent
-          rapid oncotic cell death.
-          The cuvette experiments suggest that BAECs challenged
-          with MTX can be rescued from oncotic cell death if U73343
-          is added to the bath solution within a narrow time frame
-          after the addition of MTX. To further test this
-          hypothesis, paired experiments were performed at the
-          single cell level. BAECs, attached to coverslips were
-          first challenged with MTX and subsequently rescued by
-          addition of U73343. The percentage of a) dead cells
-          (indicated by nuclear staining with ethidium), b) cells
-          undergoing zeiosis, and c) surviving cells (indicated by
-          the lack of membrane blebbing and lack of nuclear
-          staining with ethidium) was quantified at time 40 min
-          (Fig 6). All of the cells treated with vehicle alone
-          (DMSO) before MTX exhibited the typical blebbing profile
-          and nuclear staining indicative of rapid oncotic cell
-          death. BAECs treated with U73343 before MTX were
-          essentially protected from cell death, but ~35% of the
-          total population exhibited zeiosis. The same pattern was
-          observed when U73343 was added 4 min after MTX, i.e.,
-          full protection from oncosis with ~40% zeiosis. However,
-          ~15% of the cells died by oncosis when U73343 was added
-          at 6 min after MTX (see Additional File 4) and this
-          percentage increased to >90% when U73343 was added at
-          7 min after MTX (see Additional File 5). Addition of
-          U73343 10 min after MTX was the same as vehicle control,
-          i.e., all the cells lyse by time 40 min. These results
-          are consistent with the cuvette studies and directly
-          demonstrate that within a narrow time window after MTX
-          challenge, U73343 can rescue BAECs from oncotic cell
-          death.
-        
-        
-          BAECs rescued from oncosis by U73343 die by
-          apoptosis.
-          Zeiosis is a type of membrane blebbing associated with
-          apoptosis [ 22 23 24 ] . Since U73343 protects cells from
-          MTX-induced oncosis and causes zeiosis, we considered the
-          possibility that the cells surviving the initial insult
-          may ultimately die by apoptosis. To test this hypothesis,
-          BAECs were treated with vehicle alone (DMSO), U73343
-          alone, or MTX followed by U73343, and specific caspase-3
-          activity was determined after 48 hrs by the fluorescence
-          substrate assay (Fig 7). A significant increase in
-          caspase-3 activity (p < 0.035; n = 3) was observed in
-          cells challenged with MTX and subsequently rescued by
-          U73343, consistent with increased apoptotic cell
-          death.
-          Additional file 1
-          
-          MTX-induced EB uptake and membrane
-          blebbing in single BAECs. The time-lapse video of the
-          experiment shown in Fig 5Awas created from the captured
-          images as described in 
-          Material and Methods, with a time
-          compression of 3.5 min (i.e., 7 images) per second. The
-          phase and EB fluorescence images, taken every 30 sec for
-          40 min, were merged into a single video with EB
-          fluorescence shown as red pseudocolor.
-          Click here for file
-          Additional file 2
-          
-          Effect of U73343 pretreatment on
-          MTX-induced EB uptake and membrane blebbing in single
-          BAECs. The time-lapse video of the experiment shown
-          in Fig 5Bwas created from the captured images as
-          described in 
-          Material and Methods, with a time
-          compression of 3.5 min (i.e., 7 images) per second. The
-          phase and EB fluorescence images, taken every 30 sec for
-          40 min, were merged into a single video with EB
-          fluorescence shown as red pseudocolor.
-          Click here for file
-          Additional file 3
-          
-          Zeiosis induced by a high concentration
-          of MTX. The effect of 1 nM MTX on ethidium uptake and
-          membrane blebbing in the presence of U73343 (10 μM) was
-          performed as described in the legend for Fig. 5B. The
-          time-lapse video was created from the captured images as
-          described in 
-          Material and Methods, with a time
-          compression of 3.5 min (i.e., 7 images) per second. The
-          phase and EB fluorescence images, taken every 30 sec for
-          60 min, were merged into a single video with EB
-          fluorescence shown as red pseudocolor.
-          Click here for file
-          Additional file 4
-          
-          Rescue of MTX-treated cells by
-          U73343. Time-lapse video for the experiment described
-          in Fig 6with U73343 added at 6 min after MTX, was created
-          from the captured images as described in 
-          Material and Methods, with a time
-          compression of 3.5 min (i.e., 7 images) per second. The
-          phase and EB fluorescence images, taken every 30 sec for
-          40 min, were merged into a single video with EB
-          fluorescence shown as red pseudocolor.
-          Click here for file
-          Additional file 5
-          
-          Rescue of MTX-treated cells by
-          U73343. Time-lapse video for the experiment described
-          in Fig 6with U73343 added at 7 min after MTX, was created
-          from the captured images as described in 
-          Material and Methods, with a time
-          compression of 3.5 min (i.e., 7 images) per second. The
-          phase and EB fluorescence images, taken every 30 sec for
-          40 min, were merged into a single video with EB
-          fluorescence shown as red pseudocolor.
-          Click here for file
+          i for analog 2 suggests that analog 2
+          binds weakly to Y152 while lerisetron and analog 1 bind
+          more tightly.
         
       
       
         Discussion
-        The results of the present study support two major
-        conclusions. First, U73122 and U73343, compounds that are
-        commonly used to examine PLC-dependent mechanisms, potently
-        inhibit MTX-induced change in [Ca 2+] 
-        i , vital dye uptake, and oncotic cell
-        death in BAECs. The fact that U73343, which has essentially
-        no effect on PLC at the concentrations employed [ 14 25 26
-        27 ] , is more potent than U73122 on MTX-induced responses,
-        clearly shows that the effect of these agents is unrelated
-        to inhibition of PLC. Since U73343 can rapidly block and
-        reverse the increase in [Ca 2+] 
-        i induced by MTX, it seems likely that
-        these compounds directly block the MTX-activated channels
-        in BAECs, perhaps acting as pore blockers. However, since
-        the effect of U73343 appears to be slowly reversible, there
-        may be additional sites/mechanisms of blocking action for
-        these agents. Another class of compounds known as
-        imidazoles, of which SKF 96365 is the best studied, have
-        also been shown to block MTX-induced responses in many cell
-        types [ 5 7 12 28 ] . The imidazoles, which are antifungal
-        agents that inhibit cytochrome P 
-        450 , are relatively non-selective and
-        are known to block voltage-gated Ca 2+channels and
-        receptor-activated Ca 2+influx through so-called
-        store-operated channels (SOCs) [ 29 ] , but their mechanism
-        of action in this regard remains unknown.
-        U73343 appears to be relatively more selective than SKF
-        96365 with respect to Ca 2+influx pathways. Most studies
-        find that U73343 has no effect on receptor-mediated
-        increase in [Ca 2+] 
-        i . However, Berven and Barritt [ 15 ]
-        report that U73343 partially blocked vasopressin-induced Ca
-        2+influx, but did not inhibit release of Ca 2+from
-        intracellular stores in hepatocytes. And Wang [ 16 ]
-        reported that U73343 suppressed elevation of [Ca 2+] 
-        i in neutrophils challenged with FMLP in
-        the presence, but not the absence, of extracellular Ca
-        2+Both reports are consistent with a lack of effect of
-        U73343 on receptor-mediated activation of PLC and a direct
-        inhibitory effect on Ca 2+influx pathways in these cells.
-        The results of the present study therefore, suggest that
-        the MTX-sensitive channel may be responsible for the rise
-        in [Ca 2+] 
-        i produced by receptor stimulation in
-        some cell types, but not in others. In this regard, Worley
-        et al. [ 8 ] showed that SOCs in pancreatic β-cells have
-        characteristics essentially identical to channels activated
-        by MTX in the same cell type. Thus, U73343 may be useful
-        for the ultimate identification and characterization of the
-        physiological role of MTX-sensitive channels. Lastly,
-        because MTX is one of the toxins associated with ciguatera
-        seafood poisoning, the identification of U73343 as a potent
-        and relatively specific blocker of MTX-induced cell death
-        cascade may ultimately lead to improved therapeutic
-        interventions.
-        The second major conclusion supported by the results of
-        the present study is that MTX apparently has an effect on
-        BAECs that is independent of the rise in [Ca 2+] 
-        i . We previously showed that MTX causes
-        the appearance of membrane blebs on the surface of the
-        endothelial cells [ 3 ] . Initially these blebs are of
-        small diameter (3-5 microns) and bleb formation correlates
-        with the first phase of vital dye uptake. However, during
-        MTX-induced cytolysis, as indicated by the release of LDH,
-        the membrane blebs actually exhibit a dramatic increase in
-        diameter. This bleb dilation phase is clearly associated
-        with rapid, intense staining of the nucleus with vital
-        dyes. It is well established that the acute effects of MTX
-        on [Ca 2+] 
-        i , uptake of vital dyes, and membrane
-        blebbing require extracellular Ca 2+ [ 1 3 ] , but the role
-        of cytosolic Ca 2+remains unknown. Preliminary studies in
-        fibroblasts suggest that vital dye uptake via COP is
-        attenuated in cells loaded with the Ca 2+chelator BAPTA [ 1
-        ] , but the effect of BAPTA loading on MTX-induced bleb
-        formation has not been examined. The results of the present
-        study show that despite a blockade of MTX-induced change in
-        [Ca 2+] 
-        i , addition of U73343 either before, or
-        within a short time after MTX, produced a blebbing profile
-        known as zeiosis. The term zeiosis was first used by
-        Costero and Pomerat [ 21 ] 50 years ago to describe the
-        appearance of membrane vesicles on the surface of nerve
-        cells in culture, as visualized using time-lapse
-        cinematography. Although the cellular mechanisms remain
-        poorly defined, it is now clear that zeiosis is associated
-        with apoptotic cell death (for review [ 24 30 ] ). In
-        static images, the morphological changes associated with
-        apoptosis appear as membrane blebs covering the surface of
-        the cells [ 31 32 33 ] . However, time-lapse images reveal
-        that blebs protrude and retract in a dynamic fashion, a
-        hallmark of zeiosis [ 22 23 ] . Dynamic membrane blebbing
-        appears to involve a dramatic change in the cytoskeleton
-        and may be induced by a caspase-3-mediated cleavage of
-        ROCK-I, a Rho-activated serine/threonine kinase known to
-        stimulate actinomycin-based contractions [ 31 32 33 ] . A
-        similar profile can be seen in the videos of MTX-induced
-        cell death in the presence of U73343 ( 
-        Files 2 and 3 ). The cells first lose
-        adhesion to the coverslip, retract and roundup. This is
-        followed by zeiotic membrane blebbing. Vital dyes are
-        excluded during this time suggesting that COP is not
-        activated and that there is no gross loss of membrane
-        integrity during blebbing. It is important to note that
-        these MTX-induced events are only observed in the presence
-        of U73343 and occur in the absence of a measurable rise in
-        [Ca 2+] 
-        i . To our knowledge, this is the first
-        evidence that MTX has effects independent of a rise in [Ca
-        2+] 
-        i . Perhaps more importantly, the
-        results of the present study suggest that U73343 converts
-        MTX-induced oncosis into apoptosis and that a rise in [Ca
-        2+] 
-        i is necessary for oncotic cell
-        death.
+        
+          Functional group interactions of W89
+          The W89F mutation produced a significant increase in K
+          
+          i for all three compounds. The
+          magnitude of the change was similar in all cases. In
+          addition, the increase in K 
+          i was identical to the increase in K 
+          d that has been observed for [
+          3H]granisetron binding on this mutant [ 24 ] .
+          Alterations in K 
+          i resulting from the W89Y mutation
+          were slightly less, however the change was again the same
+          for lerisetron, analog 1 and analog 2. These data suggest
+          that all three compounds form binding site interactions
+          with W89. The interaction between lerisetron and W89 is
+          unlikely to be via the N-benzyl functional group since
+          the K 
+          i for analog 1 was also altered by
+          this mutation. The same argument can be made for the
+          distal piperazine nitrogen since the K 
+          i for analog 2 also increased. The
+          portion of the molecule common to all three compounds,
+          the aromatic benzimidazole, is thus the most likely point
+          of interaction for W89.
+        
+        
+          Functional group interactions of R91
+          The R91A mutation increased the K 
+          i value for lerisetron inhibition of [
+          3H]granisetron binding by 7.6 fold. This is a moderately
+          small change for an alanine mutation, particularly
+          considering that the smallest change in K 
+          i for removal of a functional group on
+          lerisetron (the N-benzyl group) was 31 fold. It is
+          therefore likely that this interaction is either
+          extremely weak or the change in K 
+          i is the result of a structural change
+          in the binding site. Previous studies concluded that R91
+          was an important interaction for the 5-HT 
+          3 R agonist 5-hydroxytryptamine
+          (5-HT), since the K 
+          i for 5-HT inhibition increased over
+          3000 fold as a result of the R91A mutation [ 24 ] . A
+          change in K 
+          d for [ 3H]granisetron binding to R91A
+          was also observed. In order to determine whether the
+          N-benzyl or distal piperazine nitrogen of lerisetron was
+          involved in an interaction with R91, we tested both
+          analog 1 and 2 on R91A mutant receptors. No change in K 
+          i was observed for either compound.
+          This result makes it much more difficult to assign the
+          correct functional group to this amino acid since it
+          suggests that one or both of the compounds is no longer
+          binding the receptor in precisely the same manner as
+          lerisetron. Considering the small change observed for
+          lerisetron binding as a result of this mutation, even a
+          slight reorientation of the molecule in the binding site
+          could result in the loss of this interaction.
+        
+        
+          Functional group interactions of Y142
+          The K 
+          i values for inhibition of [
+          3H]granisetron binding by analogs 1 and 2 were altered
+          only slightly by the Y142A mutation. The magnitude of the
+          increase in K 
+          i for lerisetron, however, was
+          considerably larger (160 fold) and is indicative of an
+          important interaction of the compound with Y142. The lack
+          of a large change in K 
+          i for both analogs makes it difficult
+          to interpret this data since one or both of the compounds
+          appears to be interacting differently with the binding
+          site than lerisetron.
+          Analogs 1 and 2 differ from each other both in the
+          functional groups contained in the molecule and their
+          structural similarity to lerisetron. Analog 2 is most
+          similar in overall structure. The substitution of oxygen
+          for the distal amino nitrogen alters the potential
+          interactions formed at this position, but is likely to
+          have a small effect on the overall size and shape of the
+          molecule. Analog 1 is far less similar to lerisetron and
+          more similar to the 5-HT 
+          3 R antagonist granisetron. Previous
+          studies have shown that the binding of granisetron is not
+          affected by the Y142A mutation [ 25 ] . Analog 1 may bind
+          more similar to granisetron than lerisetron and thus
+          would be unaffected by mutations at Y142. This is less
+          likely to be the case with analog 2.
+          The strength of the putative interaction at Y142 can
+          be identified by examining the change in binding of
+          lerisetron as a result of the Y142A mutation. The Y142A
+          mutation produced a 160 fold change in K 
+          i . This change reflects the binding
+          energy lost as a result of the alanine substitution. The
+          observed change in Ki on wt receptors is much larger than
+          that observed for removal of the N-benzyl group (31
+          fold), but is similar to that observed for substitution
+          of the distal amino nitrogen in analog 2 (400 fold).
+          Taken together with the close structural similarity of
+          analog 2 to lerisetron, it can be concluded that
+          comparison of analog 2 and lerisetron should provide the
+          best means of identifying the interaction at Y142. No
+          change in K 
+          i was observed for analog 2 as a
+          result of the Y142A mutation indicating a lack of any
+          significant interaction of this compound with Y142. These
+          data support our hypothesis that Y142 interacts with the
+          distal piperazine nitrogen of lerisetron. A second amino
+          acid may also be involved since the change in K 
+          i for lerisetron binding as a result
+          of the Y142A mutation was smaller than the change
+          produced by substitution of the piperazine nitrogen. As
+          described below, one candidate for this second amino acid
+          is Y152.
+        
+        
+          Functional group interactions of Y152
+          The Y152A mutation produced increases in K 
+          i for all three compounds although the
+          magnitude of the change differed. The increases in the K 
+          i values were 190 fold for lerisetron,
+          98 fold for analog 1 and only 40 fold for analog 2. Thus,
+          analog 1 retains much of its ability to interact with
+          Y152 despite the absence of the N-benzyl group, while
+          analog 2 interacts more weakly with this amino acid.
+          Since the K 
+          i for analog 1 is increased by the
+          Y152A mutation, it is unlikely that the N-benzyl group
+          interacts with Y152. The small change in K 
+          i for analog 2 supports a partial
+          interaction of Y152 with the distal piperazine nitrogen
+          although some interaction with another group is also
+          apparent. This other group would be expected to be in
+          close proximity to the distal nitrogen. The most likely
+          candidate is the other nitrogen of the piperazine ring.
+          Thus Y152A may form a partial interaction with both
+          piperazine nitrogens.
+        
       
       
         Conclusions
-        In conclusion, U73343 blocks the MTX-induced cell death
-        cascade in BAECs and converts the normal blebbing profile
-        seen with this toxin into zeiosis, a form of dynamic
-        membrane blebbing commonly associated with apoptosis and
-        characterized by bleb extension and retraction. U73343 may
-        prove useful for identification and characterization of
-        MTX-activated cation channels and for understanding their
-        physiological role in cell signaling and cell death.
+        Figure 6shows a hypothetical model of the
+        lerisetron-binding site supported by our observations. The
+        model illustrates the secondary structure of the region of
+        the receptor from Y140 - Y152 in a loop configuration. This
+        structure is supported by site-directed mutagenesis data [
+        25 ] as well as structural predictions obtained from other
+        LGIC receptors [ 31 ] . The recent determination of the
+        structure of a nicotinic acetylcholine binding protein [ 27
+        ] that shares significant homology with the LGIC family
+        also supports a loop structure in this part of the protein.
+        The region from W89 through Y93 is shown as a β-sheet as
+        has been hypothesized based on site-directed mutagenesis
+        studies of this strand of the 5-HT 
+        3 R [ 24 ] . Our data indicate the
+        functional groups of lerisetron that may interact with W89,
+        R91, Y142 and Y152.
+        W89 is shown interacting with the aromatic benzimidazole
+        group of lerisetron although the precise position of W89
+        relative to this group is not known. The W89 interaction
+        with this group is supported by the observed increase in K 
+        i for lerisetron, analog 1 and analog 2.
+        Since the benzimidazole group is common to all three
+        compounds it is the most likely point of interaction. W89
+        also represents a common interaction in the binding site
+        for both lerisetron and [3H]granisetron.
+        Y142 is shown interacting with the distal piperazine
+        nitrogen possibly through a cation-π interaction. This
+        orientation of an amino group interacting with an aromatic
+        amino acid in a cation-π interaction has been shown for the
+        nicotinic acetylcholine receptor and has been hypothesized
+        for many LGIC receptors [ 28 29 30 26 ] . This conclusion
+        is based on both the magnitude of the change observed on
+        the wild type receptor for removal of the amino group (400
+        fold) compared to the effect of the Y142A mutation on
+        lerisetron binding (160 fold) and the lack of any major
+        change in K 
+        i for analog 2 as a result of this
+        mutation. Our data does not support an interaction of this
+        amino acid with either the N-benzyl or benzimidazole
+        portions of lerisetron.
+        Y152 is shown positioned between the two piperazine
+        nitrogens. This conclusion is supported by the smaller
+        increase in K 
+        i for analog 2 (40 fold) compared to
+        that observed for lerisetron (190 fold). These results
+        suggest a partial interaction of Y152 with the distal
+        piperazine nitrogen. Since some change was observed, a
+        second interaction is also likely. The functional group in
+        closest proximity to the distal piperazine nitrogen is the
+        other nitrogen on the piperazine ring. Another possibility
+        would be the N-benzyl interaction, however, since the Y152A
+        mutation also produced a large increase in K 
+        i for analog 2, this conclusion is not
+        supported by our data.
+        R91 is shown as interacting with the N-benzyl group.
+        This is a difficult conclusion to make considering the
+        small effect of the R91A mutation on lerisetron binding.
+        The interaction is included in the model based on
+        structural information obtained from the crystal structure
+        of AChBP [ 27 ] . The region of this protein homologous to
+        loop E and loop D of the 5-HT 
+        3A receptor suggests a loop structure
+        from Y140 to Y152 and a 3-residue turn containing a glycine
+        at position 147 and the β-strand from W89 through Y93
+        oriented as shown in Figure 6. The orientation of
+        lerisetron between W89 and Y142A as shown would enable the
+        N-benzyl group to be positioned in close proximity to R91.
+        If this is the case, then a small alteration in position of
+        analog 1 or 2 in the binding site could result in the loss
+        of this presumably weak interaction. The apparent
+        alterations in the binding site location of analog 1 would
+        be consistent with this hypothesis. An alternate hypothesis
+        would place the N-benzyl group in a different position,
+        interacting with another amino acid; either solely or in
+        concert with R91.
+        Our data support a binding site for lerisetron on the
+        5-HT 
+        3 R that spans the D and E loop regions.
+        Table 2shows the sequence alignment for the 5-HT 
+        3 R, the α7 receptor and the AChBP for
+        these loops. Sequence alignment of mouse 5-HT 
+        3 AR, α7 nAchR and AChBP result in
+        alignment of the proposed D and E loop of the 5-HT 
+        3 AR with corresponding regions of the
+        α7 nAchR and AChBP. The amino acids W89, R91 Y140, Y142 and
+        Y152 of the 5HT 
+        3 A R can be aligned with W53, Q55,
+        L102, R104, and M114 of the AChBP (Figure 6). These amino
+        acids form a cluster in the proposed acetylcholine binding
+        domain of AChBP similar to that proposed in our model. Both
+        loops have been identified on the complementary face of the
+        binding site of the nAChR. It is unknown if lerisetron
+        utilizes amino acids on the principal face although none
+        have been identified. The model for lerisetron binding will
+        be further refined as its interactions with other binding
+        site amino acids are investigated [ 26 32 33 ] . Of
+        particular interest would be potential interactions of the
+        N-benzyl group that would account for the decrease in
+        binding affinity of analog 2. Additional information gained
+        from comparison of our model with the recent crystal
+        structure of the AChBP demonstrates that lerisetron can be
+        roughly 'fit' into the binding site such that all the
+        residues line up as shown in our model. While this is not
+        direct evidence that the model is correct, subsequent
+        molecular modeling of the data presented in this paper may
+        provide further support for our hypothesis. Our current
+        model provides an initial working hypothesis that can form
+        the basis of further investigation. Also, while it is
+        unclear whether the information obtained in this study can
+        be extended to other 5-HT 
+        3 R ligands, a similar approach would be
+        useful in identifying functional group interactions for
+        mCPBG, 5-HT, dtC and granisetron.
       
       
         Materials and Methods
         
-          Solutions and reagents.
-          Unless otherwise indicated, HEPES-buffered saline
-          (HBS) contained 140 mM NaCl, 5 mM KCl, 1 mM MgCl 
-          2 , 10 mM D-glucose, 1.8 mM CaCl 
-          2 , 15 mM HEPES, 0.1% bovine serum
-          albumin, pH adjusted to 7.40 at 37°C with NaOH. Fura-2
-          acetoxymethyl ester (fura-2/AM) and ethidium bromide (EB)
-          were obtained from Molecular Probes (Eugene, OR, USA).
-          Maitotoxin (MTX), obtained from LC Laboratories (Woburn,
-          MA) or Wako Bioproducts (Richmond, VA), was stored as a
-          stock solution in ethanol at -20°C. All other salts and
-          chemicals were of reagent grade.
+          Mutagenesis
+          Wild type 5-HT 
+          3AS mouse receptor cDNA was derived
+          from N1E-115 neuroblastoma cells as previously described
+          [ 24 ] . Mutant receptors were constructed using
+          polymerase chain reaction (Quick change mutagenesis kit,
+          Promega). All mutations were confirmed by DNA
+          sequencing.
         
         
-          Cell Culture.
-          Bovine aortic endothelial cells were cultured as
-          previously described [ 34 ] using Dulbecco's modified
-          Eagles medium (GIBCO) supplemented with 10% fetal bovine
-          serum (Hyclone, Logan UT), 100 μg/ml streptomycin and 100
-          μg/ml penicillin (complete-DMEM). All cultures
-          demonstrated contact-inhibited cobblestone appearance
-          typical of endothelial cells grown to confluence.
+          Cell culture methods and transfections
+          tsA201 cells (a derivative of the HEK293 cell line)
+          were grown in Dulbecco's modified Eagles medium (D-MEM)
+          containing 10% FBS and 100-units/ml
+          penicillin/streptomycin. Cultures were maintained in
+          humidified atmosphere of 5% CO 
+          2 at 37°C. For binding studies, tsA201
+          cells were plated at a density of 5 × 10 6cells/75 cm
+          2and grown for 9 hours prior to transfection. Cells were
+          transfected with 10 μg murine 5-HT 
+          3AS R cDNA using calcium phosphate
+          co-precipitation (New Life Technologies, NY), then
+          incubated 36 hours prior to harvesting. For whole cell
+          patch clamp experiments, tsA201 cells were plated at a
+          density of 0.25 × 10 6cells/27 cm 2dish and grown 12
+          hours prior to transfection. Cells were washed with fresh
+          culture medium then transfected with 10 μg 5-HT 
+          3AS R cDNA using Qiagen Superfect
+          transfection reagent (Qiagen, CA). Transfected cells were
+          incubated with this mixture for 2.5 hours, then divided
+          into 35 mm culture dishes at a density of approximately 5
+          × 10 4cells/dish and incubated for 24 hours at 37°C
+          before recording.
         
         
-          Measurement of the apparent cytosolic free Ca
-          2+concentration.
-          [Ca 2+] 
-          i was measured using the fluorescent
-          indicator, fura-2, as previously described [ 35 ] .
-          Experiments were performed with cells in the twelfth to
-          twentieth passage and 2-3 days post-confluency. Briefly,
-          cells were harvested and re-suspended in HBS containing
-          20 μM fura-2/AM. Following 30 min incubation at 37°C, the
-          cell suspension was diluted ~10-fold with HBS, incubated
-          for an additional 30 min, washed and resuspended in fresh
-          HBS. Aliquots from this final suspension were subjected
-          to centrifugation and washed twice immediately prior to
-          fluorescence measurement. Fluorescence was recorded using
-          an SLM 8100 spectrophotofluorometer; excitation
-          wavelength alternated between 340 and 380 nm and
-          fluorescence intensity was monitored at an emission
-          wavelength of 510 nm. All measurements were performed at
-          37°C.
+          Radioligand Binding Assay
+          Transfected cells were scraped from the dishes, washed
+          twice with Dulbecco's PBS (New Life Technologies, NY),
+          then resuspended in 1.0 ml PBS/100 mm dish. Cells were
+          either used fresh or frozen at this step until needed.
+          Immediately prior to use, cells were homogenized in PBS
+          using a glass tissue homogenizer then centrifuged at 35
+          000 × g for 30 minutes in a Beckman JA20 rotor. Membranes
+          were washed once more with PBS then resuspended in 1 ml
+          PBS/100 mm dish. Protein content was determined using a
+          Lowry assay (Sigma. Diagnostics, St. Louis, MO). Binding
+          assays were performed in PBS. For K 
+          d determinations, 100 μl of homogenate
+          was incubated at 37°C for 1 hour with varying
+          concentrations of [ 3H] granisetron (NEN, MA). Specific
+          binding of [ 3H] granisetron was determined as the bound
+          [ 3H] granisetron not displaced by a saturating
+          concentration of a competing ligand (100 μM mCPBG or 10
+          μM MDL-72222). K 
+          d values were determined by fitting
+          the binding data to the following equation using GraphPad
+          PRISM (San Diego CA): B = Bmax [L] n / ([L] n + Kn),
+          where θ is bound ligand, Bmax is the maximum binding at
+          equilibrium L is the free ligand concentration and n is
+          the Hill coefficient. For K 
+          i determinations, 100 μl of homogenate
+          was incubated at 37°C for 2 hours with varying
+          concentrations of inhibitor and [ 3H] granisetron (NEN,
+          MA). Binding was terminated by rapid filtration onto a
+          GF/B filters. The IC 
+          50 values were calculated by fitting
+          the data to the following equation using GraphPad PRISM
+          (San Diego CA): θ = 1/ (1+(L/IC 
+          50 )), where θ is the fractional
+          amount of [ 3H] granisetron bound in the presence of
+          inhibitor at concentration L as compared to the amount of
+          [ 3H] granisetron bound in the absence of inhibitor. IC 
+          50 is the concentration at which θ =
+          0.5. The K 
+          i is calculated from the IC 
+          50 value using the Cheng-Prusoff
+          equation.
         
         
-          Measurement of vital dye uptake.
-          Vital dye uptake was determined as previously
-          described [ 1 2 3 ] . Briefly, an aliquot (2 ml) of
-          dispersed cells suspended in HBS at 37°C was placed in a
-          cuvette. Following addition of ethidium bromide (final
-          concentrations of 5 μM), fluorescence was recorded as a
-          function of time with excitation and emission wavelengths
-          of 302/560 nm, respectively. All ethidium bromide
-          fluorescence values were corrected for background
-          (extracellular) dye fluorescence and expressed as a
-          percentage relative to the value obtained following
-          complete permeabilization of the cells with 50 μM
-          digitonin.
-          For single cell measurement of vital dye uptake, BAECs
-          in complete-DMEM were sparsely seeded on circular glass
-          coverslips and used within 2-3 days of seeding. The
-          coverslips were mounted in temperature-controlled
-          perfusion chambers and placed on the stage of Nikon
-          Diaphot inverted microscope. The cells were illuminated
-          with light from a 75 watt xenon lamp using a 0-5722
-          filter cube obtained from Molecular Probes.
-          Epifluorescence was recorded using a SPOT™ camera
-          (Diagnostic Instruments, Sterling Heights, MI) and images
-          were acquired and analyzed using SimplePCI imaging
-          software (Compix Inc., Cranberry Township, PA). During
-          each experiment, phase and fluorescence image pairs were
-          collected at 30 second intervals with shutter controllers
-          switching between light and fluorescent illumination. The
-          fluorescence images were used to quantify dye uptake. A
-          region over the nucleus of individual cells was defined
-          and the average fluorescence intensity of the region was
-          quantified as a function of time. Phase images were
-          contrast enhanced, digitally merged with the
-          corresponding fluorescent images, and time-lapse videos
-          were created using the SimplePCI software.
+          Electrophysiological Methods
+          Transfected tsA201 cells were transferred to a
+          recording chamber and submerged in extracellular
+          recording buffer containing 25 mM HEPES pH 7.4, 140 mM
+          NaCl, 1.7 mM MgCl 
+          2 , 5 mM KCl, 1.8 mM CaCl 
+          2 . Patch electrodes (2-2.5 MΩ) were
+          filled with intracellular recording buffer containing 25
+          mM HEPES pH 7.4, 145 mM KCL, 2 mM MgCl 
+          2 and 1 mM EGTA. Cells were clamped in
+          whole cell configuration at a holding potential of -60
+          mV. Currents elicited by agonist application were
+          measured using an Axopatch 200B amplifier (Foster City,
+          CA) under computer control (DataPac 2000, RUN
+          Technologies). Agonists and antagonists were dissolved in
+          extracellular solution and delivered to cells using a
+          rapid perfusion system (Warner Instruments, Hamden, CT).
+          For EC 
+          50 determinations, responses were
+          normalized to the maximum response obtained from the full
+          agonist 5-HT and fitted to the equation Ψ= 1/1+(EC50/ [C]
+          n), where Ψ is the normalized current at 5-HT
+          concentration [C], EC50 is the concentration of 5-HT
+          needed to obtain half maximal activation and n is the
+          apparent Hill coefficient. For inhibition experiments,
+          cells were exposed to inhibitor alone for 30 s prior to
+          co-exposure with 5-HT. Inhibited responses were
+          calculated as a fraction of the response to 5-HT alone.
+          Data were plotted as the fractional response versus the
+          concentration of inhibitor and analysed using GraphPad
+          software. The IC 
+          50 value was calculated as the
+          concentration of antagonist inhibiting the 5-HT evoked
+          response by 50%. A K 
+          i value was calculated from the IC 
+          50 using the Cheng-Prusoff
+          equation.
         
         
-          Measurement of lactate dehydrogenase (LDH)
-          release.
-          Aliquots of dispersed cells (2 ml) were incubated at
-          37°C for various lengths of time in the presence and
-          absence of MTX. The cells were pelleted by centrifugation
-          for 15 sec at 12,000 rpm in an Eppendorf centrifuge
-          (model 5415 C). The supernatants were removed, and placed
-          on ice. Enzyme activity in aliquots (50 μl) of the
-          supernatants was determined using the LD-L kit from
-          Sigma. All values are expressed as percent LDH released
-          relative to the value obtained following permeabilization
-          of the cells with 50 μM digitonin.
+          Synthesis of Lerisetron and its analogs
+          All target molecules were prepared according to a
+          general 2-step synthesis reported previously by Orjales 
+          et al . with only slight
+          modification [ 22 23 ] . Commercially available
+          2-chlorobenzimidazole, in dry DMF was treated with a
+          slight excess of NaH, (1.1eq). After stirring for 1 hour
+          at room temperature, one equivalent of the appropriate
+          alkyl bromide was added slowly and the reaction mixture
+          heated under reflux for > 5 hours (the reaction was
+          monitored by TLC). Reaction product was partitioned
+          between water and methylene chloride; organic layer was
+          dried (Na 
+          2 SO 
+          4 ) and concentrated in vacuum. The
+          solid residue was purified by Flash chromatography, which
+          afforded the corresponding N-substituted
+          2-Chlorobenzimidazole intermediates in good yield. The
+          final step involved a nucleophilic substitution of the
+          2-chloro group by piperazine at high temperatures. The
+          reaction was performed neat using 4-10 fold excess
+          piperazine and typically heated for a short period only,
+          (30-45 min). Similar work-up afforded a residue that was
+          purified by either crystallization or chromatography. The
+          yields ranged from 40-95%. All compounds were
+          characterized by NMR, MS, HRMS, and /or elemental
+          analysis or were identical to literature reports.
         
         
-          Measurement of specific caspase-3 activity.
-          Extracts were obtained from confluent BAECs following
-          the indicated treatment using a freeze-thaw lysis
-          protocol. BAECs were mechanically harvested, washed, and
-          resuspended in 500 μl lysis buffer (10 mM Tris pH 7.5,
-          100 mM NaCl, 1 mM EDTA, 0.01% Triton X-100). The cell
-          suspension was frozen using liquid nitrogen and rapidly
-          thawed in a 37°C water bath. Following 5 freeze-thaw
-          cycles, the cell suspensions were subjected to
-          centrifugation for 5 min at 5000 rpm at 4°C in an
-          Eppendorf 5417R centrifuge. Supernatants were collected
-          and stored at -20°C. Protein concentration was determined
-          by the method of Lowry using bovine serum albumin as
-          standard. Cytosolic extracts (300 μg protein) were
-          assayed for caspase-3 activity according to the protocol
-          described in the EnzChek Caspase-3 Assay Kit (Molecular
-          Probes). Specific caspase-3 activity, defined as the
-          activity inhibitable by Ac-DEVD-CHO, was normalized to
-          that of untreated BAECs.
+          Materials
+          D-MEM, Penicillin-Streptomycin, fetal bovine serum,
+          and Trypsin were obtained from New Life Technologies.
+          5-HT and MDL-72222 were obtained from RBI. [
+          3H]-granisetron (84 Ci/mmol) was purchased from New
+          England Nuclear.
         
       
     

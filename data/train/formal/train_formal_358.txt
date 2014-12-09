@@ -3,607 +3,940 @@
     
       
         Background
-        The discovery of genes underlying multigenic diseases
-        and traits is one of the most important challenges
-        currently facing genetic researchers. This effort has been
-        aided by quantitative trait locus (QTL) mapping methods,
-        which have now been applied to numerous complex phenotypes
-        in a range of species, including many behavioral phenotypes
-        of high interest. A QTL is a chromosomal region that
-        contains a gene or genes that influence a quantitative
-        trait. The power of this approach was first demonstrated in
-        plants [ 1] and later in yeast [ 2], flies [ 3], livestock
-        [ 4, 5], rodents [ 6, 7, 8, 9] and humans [ 10, 11,
-        12].
-        Historically, a typical approach to going from QTL to
-        gene has been to select one or a few of the best biological
-        candidate genes from within the QTL interval and search for
-        sequence differences that predict differential expression
-        and/or structure of the gene product. An alternative
-        strategy is to carry out comparative sequencing of large
-        numbers of potential candidate genes located within the QTL
-        interval, which is feasible given the automated sequencing
-        methods now available [ 13]. However, these approaches are
-        limited because the gene underlying a QTL may not be
-        recognized as a good candidate gene if little is known
-        about the gene's function and/or if a QTL region is large,
-        in which case sequencing every gene within the QTL requires
-        considerable time, cost and labor to complete.
-        The recent development of murine whole-genome draft
-        sequences [ 14] should speed the process of identifying
-        disease genes underlying QTLs because several of the
-        strains used for genome sequencing are the same as those
-        that have been used to develop the majority of mouse QTLs
-        so far identified. The public mouse genome sequencing
-        effort used C57BL/6J (B6) mice, while the private effort by
-        Celera has sequenced the mouse genome in four strains:
-        DBA/2J (D2), A/J, 129X1/SvJ, and 129S1/SvImJ. Combinations
-        of these strains, for example B6xD2 and B6xA/J, have been
-        used for the identification of over 250 murine QTLs.
-        Because of these resources, we reasoned that sequence
-        variations in QTL genes might now be identified simply by
-        direct 
-        in silico alignment of the sequences
-        obtained directly from the databases of the two relevant
-        strains, obviating much of the need for 
-        de novo sequencing. We show that,
-        once several factors were addressed, such as sequencing
-        error detection and discrimination between closely related
-        genes, a high-throughput pipeline could be developed that
-        allows large numbers of gene-coding regions from QTL
-        intervals to be rapidly compared 
-        in silico and interstrain allelic
-        sequence differences quickly identified and targeted for
-        further hypothesis-driven analyses. We also believe that
-        this strategy has considerable general utility, and should
-        be applicable to any QTL as long as the strains used are
-        those for which relatively complete genome sequences are
-        available.
-        While our work was in progress, Celera incorporated the
-        public B6 sequence into its mouse genome assembly and
-        developed a searchable database of mouse single nucleotide
-        polymorphisms (SNPs) [ 15]. Comparison of the gene variants
-        identified by our approach to the SNPs identified by a
-        search of Celera's SNP database indicates that the latter
-        significantly underestimates the number of SNPs present and
-        that the method described here provides the most complete
-        and accurate compilation of QTL gene variants.
-        We tested this approach on two QTLs involved in physical
-        dependence on ethanol; these are located on murine
-        chromosomes 1 and 13 and were identified using two mapping
-        populations derived from the B6 and D2 progenitor strains.
-        The well documented difference in susceptibility to
-        withdrawal after chronic ethanol exposure between the B6
-        and D2 inbred mouse strains provided an excellent starting
-        point for dissecting genetic influences involved in
-        physical dependence on ethanol and to study how common
-        allele variants influence genetic predisposition to
-        physical dependence on ethanol. Genome-wide evaluations of
-        chronic ethanol withdrawal convulsions identified QTLs on
-        murine chromosomes 1, 13, 19 and 4 [ 16]. The QTLs on
-        chromosome 1 and chromosome 13 (a sex-limited QTL) were
-        detected in two mapping populations, that is, the BXD
-        recombinant inbred strains and a B6D2 F2 intercross [ 16,
-        17].
+        Generally, the benefits of energy efficiency programs
+        are expressed in terms of the economic payback that will
+        accrue for individuals or organizations. To introduce
+        environmental benefits into this framework, some
+        investigators have quantified the emission reductions
+        related to the decreased use of electricity and fossil fuel
+        [ 1 2 ] , including criteria air pollutants and greenhouse
+        gases. While these analyses are useful, they provide only a
+        limited set of information, as issues such as pollutant
+        fate and transport or pollutant toxicity are omitted,
+        making environmental and economic endpoints
+        incomparable.
+        Multiple studies have developed models to estimate the
+        health impacts of emissions from specific sources, using a
+        risk-based approach to link emissions of key pollutants
+        with dispersion models and health evidence [ 3 4 5 6 ] .
+        While this is a valuable approach, it can be difficult to
+        apply in the case of broad-based energy efficiency
+        programs, as these programs tend to affect multiple sources
+        simultaneously (e.g., numerous homes within a state, all
+        power plants on the grid). Quantifying the health benefits
+        of energy efficiency programs therefore requires a
+        simplified approach toward risk calculations, with adequate
+        characterization of uncertainty to aid in the
+        interpretation of the findings.
+        In a recent investigation [ 7 ] , we developed a model
+        to predict the public health benefits of increased
+        residential insulation in new housing, related to the
+        emission reductions of fine particulate matter (PM 
+        2.5 ) and its precursors (nitrogen
+        dioxide and sulfur dioxide). We determined that increasing
+        insulation from current practice to the latest
+        International Energy Conservation Code (IECC 2000) levels
+        for all single-family homes built from 2001 to 2010 would
+        save 300 TBTU (3 × 10 14British Thermal Units) during the
+        ten-year period (5 TBTU for the annual housing output per
+        year). Linking this evidence with estimated emission
+        reductions, extrapolated results from dispersion model
+        outputs and epidemiological evidence, we concluded that the
+        resulting public health benefits would include
+        approximately 60 fewer deaths, 2,000 fewer asthma attacks,
+        and 30,000 fewer restricted activity days within this
+        decade (1.1 deaths, 30 asthma attacks, and 500 restricted
+        activity days reduced per year for all new homes built in
+        2001).
+        Although this investigation demonstrated that a
+        risk-based methodology for demand-side management programs
+        is viable and provided a crucial foundation for policy
+        analysis, interpretation was impaired by the relatively
+        narrow focus. For example, the new housing market
+        represents only a small fraction of the potential public
+        health benefits of insulation in the residential sector.
+        There are approximately 1.2 million new single-family homes
+        built each year [ 8 ] , but the existing housing stock
+        consists of more than 75 million single-family homes.
+        Furthermore, it would be anticipated that there is greater
+        per unit potential for energy savings in existing housing,
+        given many homes built prior to the promulgation of energy
+        codes that therefore contain relatively less insulation
+        than newer homes.
+        In spite of the anticipated greater energy savings of
+        the existing versus new housing market, the relative public
+        health benefits will not necessarily be proportional.
+        Because the geographic distribution of housing starts
+        differs from the distribution of existing homes, geographic
+        patterns of energy savings will differ. There are regional
+        differences in population density and meteorological
+        patterns, both of which will influence the magnitude of
+        health benefits. The fuels used in homes also differ both
+        regionally and by age of home, which will strongly
+        influence emissions. In this paper, we apply our risk model
+        to the existing single-family home market in the United
+        States to evaluate the following questions:
+        - What are the magnitude and distribution of public
+        health benefits associated with hypothetically retrofitting
+        single-family homes with insulation at IECC 2000 levels
+        when necessary?
+        - How does the economic value associated with these
+        public health benefits compare with the economic savings
+        for the households?
+        - In general, how uncertain are public health benefit
+        estimates derived from simplified models, and what are the
+        major contributors to that uncertainty?
+      
+      
+        Methods
+        
+          Energy Savings
+          To quantify the energy savings associated with
+          insulation retrofits in existing single-family homes, we
+          use a regression-based approach to simulate energy
+          savings in a number of prototype homes in different
+          cities and apply those findings to the set of homes where
+          insulation retrofits were deemed plausible. The first
+          step was to determine the number of homes in each state
+          that likely require increased insulation. Using
+          information from the Residential Energy Consumption
+          Survey (RECS) [ 11 ] , we estimated the total number of
+          homes by state in 1999. RECS also provided the percentage
+          of single-family homes by census division, yielding an
+          estimated 74 million single-family homes in the
+          continental US.
+          We used the qualitative characterization of insulation
+          levels by age of home within an earlier version of RECS [
+          12 ] to determine the proportion of homes where
+          insulation retrofits were viable. Homes that were well
+          insulated were assumed to not require additional
+          insulation, while homes with adequate or poor insulation
+          were assumed to require more insulation. On average, 63%
+          of single-family homes had adequate or poor insulation.
+          Lacking geographically resolved information on this
+          parameter, we assumed that this percentage applied to all
+          states, yielding the number of target single-family homes
+          at a state level (and approximately 46 million homes
+          nationally). It should be noted that an assumption of
+          geographic uniformity stratified by age of home yielded
+          essentially identical estimates (ranging from 59% in the
+          South-Atlantic to 65% in New England, with census
+          divisions defined as in Table 1), so this is unlikely to
+          contribute to significant uncertainty in the
+          analysis.
+          To quantify energy consumption under current
+          conditions and given insulation increased to IECC 2000
+          levels, we applied regression models we developed
+          originally for our new housing investigation [ 7 ] . We
+          simulated prototype single-family homes in a number of
+          different cities and applied the energy model REM/Design
+          (Architectural Energy Corporation, Boulder, CO) to
+          estimate energy consumption given home configuration,
+          climate, and insulation levels. We gathered current
+          practice insulation levels (in ceiling, wall, and floor)
+          from an earlier energy analysis [ 13 ] , which assumed
+          existing home insulation levels to be uniform within
+          census divisions (Table 1). IECC 2000 insulation levels [
+          14 ] are based on heating degree days rather than
+          geographic region and are represented in Figure 1.
+          In addition, window types (metal versus wood), door
+          thickness, and shading factors varied by region. Selected
+          home characteristics as well as heating and cooling
+          system features were assumed to be uniform nationally.
+          This included unconditioned basements, exposed ducts, an
+          infiltration rate of 0.67, a heating set point of 20
+          degrees C (68 degrees F), and a cooling set point of 26
+          degrees C (78 degrees F). Remaining home characteristics,
+          including floor area, heating types, and number of
+          stories by region, were gathered from RECS [ 12 ] .
+          Additional specifications of house or heating and cooling
+          system characteristics are available from the authors
+          upon request.
+          To ensure that the regression models represented the
+          physical realities of heat transfer, the functional form
+          of our regressions and the covariates selected were based
+          on standard heat loss equations [ 15 ] . For example,
+          space heating energy consumption was predicted as a
+          function of two covariates - the product of heating
+          degree days and floor area, and the product of heating
+          degree days, floor area, and an expression reflecting the
+          amount of insulation in the ceiling, walls, and floor (R
+          2= 0.99). Finally, we calibrated the outputs from the
+          regression models against reported energy consumption
+          data from RECS to better reflect actual consumption
+          patterns.
+        
+        
+          Emission Reductions
+          Given state-level energy savings by fuel type, we
+          estimate emissions of primary PM 
+          2.5 , SO 
+          2 (as a precursor of sulfate
+          particles), and NOx (as a precursor of nitrate
+          particles). This choice was based on the findings of past
+          studies, in which PM contributed the vast majority of
+          benefits [ 16 17 ] . As might be anticipated, our
+          procedure to model emissions differs for direct
+          residential fuel combustion and electricity. We summarize
+          our approach below and refer the reader to our earlier
+          analysis [ 7 ] for more detail.
+          For direct residential fuel combustion, given the fuel
+          type (natural gas or fuel oil), we estimate emissions
+          from the AP-42 database prepared by US EPA [ 18 ] . For
+          fuel oil, emissions of both SO 
+          2 and PM are given as a function of
+          the sulfur content in the fuel. Although the sulfur
+          content of fuel oil can vary somewhat on a state-by-state
+          basis, lacking detailed information, we assumed that a
+          0.5% sulfur content by weight was applicable nationally,
+          as has been done previously [ 19 ] .
+          On the other hand, for electricity, we needed to
+          determine which power plants would be affected by
+          marginal decreases in electricity consumption, since it
+          is likely that the marginal plants are not identical to
+          the average plants in the power pool. In our earlier
+          analysis [ 7 ] , we concluded that only non-combined
+          cycle fossil-fuel plants with less than 80% capacity
+          factors were likely to be influenced by small demand
+          changes in the near term, as any base load units running
+          at high capacity or units with supply-related constraints
+          (e.g., nuclear, hydroelectric) could not respond to these
+          changes. We applied these screening criteria to the
+          Emissions and Generation Resource Integrated Database
+          (E-GRID) [ 20 ] to determine a subset of 553 power plants
+          potentially able to respond to demand-side management
+          efforts. Without a detailed simulation of the electricity
+          sector, it is impossible to determine precisely which
+          plants would respond on the margin. For our central
+          estimate, we assumed that each plant with positive net
+          generation was equally likely to be affected, regardless
+          of capacity or relative availability. It should be noted
+          that this assumption resulted in lower emission rates
+          than a capacity- or availability-based allocation,
+          potentially biasing our estimates downward. The magnitude
+          of this effect is considered in the Discussion
+          section.
+          To link this information with electricity savings at
+          the state level, we first quantified emissions of NOx and
+          SO 
+          2 per unit output for each power plant
+          using data from E-GRID. Since primary PM emissions were
+          not incorporated into E-GRID, we estimated PM 
+          2.5 emissions using AP-42 emission
+          factors for PM 
+          10 (given power plant characteristics)
+          and estimates of the PM 
+          2.5 /PM 
+          10 emissions ratio. We used this
+          information to determine emission factors by North
+          American Electricity Reliability Council (NERC) region,
+          and determined state-level emission factors based on the
+          proportion of electricity consumption provided by each
+          NERC region [ 18 ] .
+        
+        
+          Exposure Reductions
+          As alluded to above, a critical (and difficult) step
+          in accurately quantifying the health benefits of
+          demand-side management efforts involves linking emissions
+          savings to exposure reductions, given the substantial
+          number of sources and limited capacity of fate and
+          transport models. Recently, the risk assessment and
+          atmospheric modeling communities have recognized the
+          importance of developing approaches to extrapolate
+          estimates from other studies in situations where input
+          data are limited or comprehensive models are impractical.
+          Multiple studies have developed and applied a concept
+          known as an intake fraction, generally defined as the
+          fraction of a pollutant or its precursor emitted that is
+          eventually inhaled by someone [ 21 22 ] . Mathematically,
+          an intake fraction can be calculated using the following
+          equation:
+          
+          where 
+          iF = intake fraction; 
+          BR = population-average breathing
+          rate (assumed to be 20 m 3/day); 
+          C 
+          
+            i 
+           = incremental concentration of pollutant at receptor
+          
+          i (μg/m 3); 
+          N 
+          
+            i 
+           = number of people at receptor 
+          i ; Q = emission rate of pollutant
+          or pollutant precursor (μg/day). If the health effect in
+          question has a linear dose-response function with no
+          threshold above current ambient concentrations, an intake
+          fraction provides an estimate directly interpretable from
+          a health perspective (since the health impacts will be
+          proportional to the sum of the product of population and
+          concentration).
+          To apply the intake fraction concept in our
+          investigation, we used predictive regression models
+          developed in a recent study [ 23 ] . This study took its
+          intake fraction estimates from an analysis [ 22 ] that
+          used CALPUFF (a regional-scale Lagrangian puff model) to
+          calculate intake fractions for primary PM 
+          2.5 , sulfate particles (from SO 
+          2 ), and nitrate particles (from NOx),
+          evaluating 40 power plants and 40 mobile sources
+          distributed across the US. In general, the intake
+          fractions were strongly predicted by population variables
+          (e.g., population within 500 or 1000 km of a source),
+          stack height (for primary PM 
+          2.5 from power plants), and
+          miscellaneous meteorological terms (including annual
+          average temperature, wind speed, relative humidity, or
+          mixing height).
+          To apply these regressions to the power sector, we
+          determined the values of the appropriate covariates for
+          each marginal power plant identified above, resulting in
+          intake fraction estimates for each of 553 power plants.
+          To assign a representative intake fraction for
+          electricity savings in each state, we weighted the
+          plant-level intake fractions by emissions within NERC
+          region and averaged across NERC regions in proportion to
+          electricity transmission patterns. For residential
+          combustion sources, we assumed that the mobile source
+          intake fraction estimates were applicable (given
+          emissions at or near ground level) and calculated intake
+          fractions for each Metropolitan Statistical Area (MSA)
+          across the US. State-level intake fractions were then
+          estimated as a weighted average of MSA-level intake
+          fractions, weighting by number of homes.
+          It should be noted that, in addition to the
+          uncertainties associated with the regression model, there
+          are overarching uncertainties associated with the
+          application of CALPUFF. For example, although it is well
+          established that changes in SO 
+          2 emissions can influence nitrate
+          particle concentrations by affecting available ammonia
+          levels [ 24 ] , CALPUFF does not capture this phenomenon
+          for an analysis of a small subset of sources. The
+          importance of this effect and related model uncertainties
+          are considered in the Discussion section.
+        
+        
+          Public Health Benefits
+          As in our past investigation [ 7 ] , we quantify
+          mortality and selected morbidity benefits associated with
+          incremental reductions in PM 
+          2.5 exposures. Premature mortality
+          associated with PM 
+          2.5 has typically dominated public
+          health benefits when health endpoints were placed in
+          economic terms [ 16 17 ] , but we include some morbidity
+          endpoints to illustrate outcomes with varying severity.
+          Although excluding the complete array of morbidity
+          endpoints will result in a systematic underestimation of
+          benefits, we adopt this approach for the sake of brevity.
+          As mentioned above, given the framing of our analysis, we
+          determine reasonable central estimates for
+          concentration-response functions and consider the
+          magnitude of the uncertainty in the Discussion
+          section.
+          For premature mortality, we derive our central
+          estimate from a follow-up analysis of the American Cancer
+          Society cohort study [ 25 ] . This investigation followed
+          approximately 500,000 individuals across a 16-year
+          period, evaluating mortality risk from air pollution
+          while controlling for numerous plausible confounders
+          (including smoking, alcohol consumption, body mass index,
+          diet, and occupational exposures). Using pollution data
+          averaged across the study period, the authors report a
+          relative risk for all-cause mortality of 1.06 for a 10
+          μg/m 3increase in PM 
+          2.5 concentrations (95% CI: 1.02,
+          1.11). Alternatively, using pollution data from the start
+          of the study period, the corresponding relative risk was
+          1.04 (95% CI: 1.01, 1.08). Based on these estimates and
+          given the desire to provide a parallel estimate with our
+          earlier investigation to improve comparability [ 7 ] , we
+          apply a concentration-response function of a 0.5%
+          increase in premature deaths per μg/m 3increase in annual
+          mean PM 
+          2.5 concentrations. We consider this
+          value to be a plausible central estimate, as it is
+          bounded above by the concentration-response function from
+          the Harvard Six Cities Study [ 26 ] and below by values
+          from time-series studies.
+          As previously [ 7 ] , we derive our selected morbidity
+          concentration-response estimates from recent US EPA
+          benefit-cost analyses [ 16 17 ] . This results in an
+          estimated 0.2% increase in daily asthma attacks (among
+          asthmatics only) and a 0.5% increase in restricted
+          activity days per μg/m 3increase in PM 
+          2.5 concentrations.
+          The application of concentration-response functions as
+          described above implicitly assumes that no population
+          threshold exists at current ambient concentrations in the
+          US and that all forms of particulate matter have
+          identical toxicity. The former assumption is bolstered by
+          the lack of documented thresholds in both cohort [ 25 26
+          ] and time-series mortality [ 27 28 ] investigations.
+          Consideration of the latter issue is beyond the scope of
+          our analysis, other than to state that lacking either
+          definitive evidence exonerating selected types of fine
+          particles or quantitative evidence supporting relative
+          toxicities, an assumption of equal toxicity is a
+          reasonable default for a central estimate.
+        
+        
+          Economic Implications
+          Although the economic valuation of health endpoints is
+          highly uncertain, we apply the central estimates used in
+          the US EPA benefit-cost analyses [ 16 17 ] to illustrate
+          the potential magnitude of externalities avoided in
+          relation to the direct economic savings.
+          Based on the findings of a number of labor market and
+          contingent valuation studies, the US EPA determined a
+          value of statistical life of $4.8 million in 1990 US
+          dollars, which can be translated into an approximate
+          value of $6 million in 2000 US dollars using Consumer
+          Price Index inflation rates. We apply this value assuming
+          a five-year lag structure for deaths from cohort
+          mortality evidence [ 16 ] , with 25% of deaths in each of
+          the first two years and 16.7% of deaths in the subsequent
+          three years.
+          In the benefit-cost analysis of the Clean Air Act [ 16
+          ] , an asthma attack is given a central value of $32 (in
+          1990 dollars), based on a willingness to pay study that
+          focused on avoidance of a bad asthma day. To our
+          knowledge, no willingness to pay study has been conducted
+          on restricted activity days. Given values reported in the
+          benefit-cost analysis of the Clean Air Act [ 16 ] of $38
+          for a minor restricted activity day (which is more mild
+          than a restricted activity day) and $83 for a work-loss
+          day (which is presumably more severe than a restricted
+          activity day), we use $60 (in 1990 dollars) as a
+          reasonable central estimate. In the Discussion, we focus
+          on the sensitivity of conclusions to the approach for
+          valuation of premature mortality.
+          To quantify the incremental cost of insulation, we
+          determined the average R-value increase in ceiling,
+          walls, and foundations, and used this to quantify the
+          volume of insulation required per home, given the square
+          footage of the homes and the assumption that 0.3 inches
+          of fiberglass corresponds to a unit increment in R-value.
+          We quantified the value of insulation in dollars per ton,
+          based on the reported value of shipment from the mineral
+          wool sector [ 29 ] and the mass of fiberglass production
+          [ 30 ] , along with an assumed density of fiberglass of
+          0.06 kg/in-ft 2. Annual economic savings associated with
+          the energy reductions were based on state-level unit
+          prices for electricity, natural gas, and fuel oil [ 31 ]
+          . The real prices of all fuels were assumed to be
+          constant over time, given forecasts of relatively small
+          price changes in upcoming decades [ 32 ] . For all net
+          present value calculations, we apply a 5% real discount
+          rate, the central estimate used in US EPA benefit-cost
+          analyses [ 16 ] .
+        
       
       
         Results
-        A flow chart showing the steps involved in the 
-        in silico comparison of the coding
-        region of genes within the two alcohol withdrawal QTLs is
-        shown in Figure 1. The National Center for Biotechnology
-        Information (NCBI)/Mouse Genome Database (MGD) human/mouse
-        homology map and the Celera mouse genome assembly were
-        searched to obtain a list of genes and predicted genes
-        within each QTL. The selected genes included plausible
-        candidate genes that have been implicated in functions
-        relevant to alcohol action, as well as genes whose
-        functions are not well understood or were not previously
-        suspected to be related to alcohol action. For the QTL on
-        chromosome 1, a list of 121 genes was selected, most of
-        which are within 4 million bases (Mb) upstream or 4 Mb
-        downstream of the peak log of odds (LOD) score
-        (approximately 18-24 centimorgans (cM) from the
-        centromere). For chromosome 13, a list of 78 genes was
-        selected, most of which are within 2 Mb upstream or 2 Mb
-        downstream of the peak LOD score (approximately 37 cM from
-        the centromere). The complete coding region of each gene,
-        as available, was retrieved either from Celera or NCBI to
-        be used as the query for subsequent strain-specific BLAST
-        searches [ 18]. B6 sequences were retrieved from the
-        mmtrace database at NCBI using a MegaBLAST search, and D2
-        sequences were retrieved from Celera by BLAST search of the
-        All Mouse Fragments (masked) database. All data were
-        retrieved from Celera and NCBI between August 2001 and
-        April 2002. Two in-house programs were used to parse the
-        BLAST results and remove any hits with low
-        nucleotide-similarity scores or an insignificant e-value.
-        The filtered BLAST results from the B6 and D2 strains were
-        then aligned using AutoAssembler and allelic sequence
-        variations were detected.
-        On proximal chromosome 1, 121 genes covering 125,385
-        base-pairs (bp) were selected and the sequences aligned,
-        and for chromosome 13, 78 genes covering 84,635 bp were
-        selected and aligned. Altogether, the alignment encompassed
-        199 genes spanning 210,020 bp. Because of some gaps that
-        remain in the available genome sequences for the B6 and D2
-        strains, complete coding regions were sometimes not
-        available and in such cases the coverage was therefore
-        incomplete. Our calculations indicate that the 
-        in silico coverage of the coding
-        region of the 199 genes for the B6 and D2 strains was 86%
-        and 69%, respectively. The lower percent coverage of the D2
-        genome is likely to be due to the fact that it is only one
-        out of four mouse strains used to generate Celera's 5.2x
-        coverage of the mouse genome. When the B6 and D2 data are
-        combined, 61% of the length of the coding regions was
-        covered by both genome sequences (Table 1).
-        Previous efforts to identify human SNPs by database
-        mining found it important to filter results in order to
-        eliminate the false detection of SNPs [ 19]. With this in
-        mind, we took the following steps to ensure the quality of
-        SNPs detected in our data. First, to avoid the inclusion of
-        sequences from additional closely related paralogous genes,
-        we used a BLAST hit cutoff of 98%, so that only reads at
-        least 98% similar to the query sequence were selected.
-        Furthermore, reads that potentially affected amino acid
-        sequence were used for a BLAST search against the mouse
-        genome and removed from the B6/D2 alignment if the best
-        BLAST hit was on a sequence scaffold located in another
-        part of the genome. Second, to avoid the inclusion of
-        changes due to poor-quality sequence, Phred [ 20] scores of
-        individual B6 reads were checked at changed nucleotide
-        positions and poor-quality changes (Phred score ≤ 10)
-        eliminated. This step was not done with D2 sequences
-        because individual sequence traces and Phred scores were
-        not available from Celera. Third, by in-house sequencing of
-        44 gene coding variations found in the 
-        in silico alignments of three genes
-        from B6, D2, A/J, 129X1/SvJ, and 129S1/SvImJ DNA, we
-        verified that Celera had not mislabeled the strain from
-        which sequence reads were derived and showed that no mix-up
-        or cross-contamination of samples had occurred. Even after
-        the above steps were taken, there were still instances
-        where some reads had one sequence and other reads had a
-        slightly different sequence for the same strain. In-house
-        sequencing of B6 and D2 DNA for a subset of interstrain
-        frame shifts (10% of the total) showed that all the
-        apparent differences were false. In-house sequencing for a
-        subset of intrastrain single base-pair substitutions (21%
-        of the total) was also carried out. This analysis showed
-        that when two different intrastrain sequences (for example,
-        in the D2 strain) were detected, the correct sequence was
-        always identical to the other strain (for example, B6), so
-        that no interstrain variant appeared at that position. On
-        the basis of this in-house sequence analysis we chose to
-        operationally classify all frameshifts as false and
-        interstrain substitutions present in 50%, or fewer than
-        50%, of the reads for one strain as false.
-        The number of nonsynonymous changes was totaled from all
-        199 genes within the chronic alcohol withdrawal QTLs on
-        proximal chromosome 1 and mid-chromosome 13 for which
-        allelic sequences were aligned, together covering 7 cM and
-        12 Mb of the mouse genome and representing 210,019 bp of
-        coding region. In total, 21 of the 199 genes surveyed from
-        the chromosome 1 and 13 QTL regions showed nonsynonymous
-        changes in their coding regions between B6 and D2 animals
-        (Table 1). A search of Celera's SNP database found
-        approximately half of the nonsynonymous B6/D2 sequence
-        changes which we identified by multiple alignment of BLAST
-        hits. Of the nonsynonymous changes that we identified by
-        multiple alignment of BLAST hits and verified by in-house
-        sequencing, fewer than half are listed in the SNP
-        database.
-        On chromosome 1, where 121 genes were compared, eight
-        amino-acid changes were identified in six genes (Table 2).
-        Of these, two are known genes and four are based only on
-        computational predictions by Celera. One of the two known
-        genes for which allelic variation was identified within its
-        coding region sequence was 
-        Slc5a7 . This encodes a high-affinity
-        choline transporter expressed in the brain and spinal cord
-        and may be considered a plausible candidate gene for
-        underlying the QTL (see Discussion).
-        On chromosome 13, when looking only at changes that have
-        multiple read coverage or were verified by in-house
-        sequencing, 36 amino-acid changes were detected within 15
-        genes (Table 2). Nine additional changes in four other
-        genes within the chromosome 13 QTL were also identified,
-        but these were all of limited reliability in that only a
-        single sequence read was available for either the B6 or D2
-        allele. Of the 
-        in silico predicted changes based on
-        single-read coverage that were sequenced in house,
-        approximately half were proven false. The proteins showing
-        allelic differences with multiple read coverage span a
-        range of functional classes and include a zinc
-        metalloprotease, 60S ribosomal protein, hyaluronic acid
-        binding protein (gene 
-        Habp4 ), developmental related
-        protein (gene 
-        Ptch ), transport system kinase and
-        several genes for which no functional assignments have yet
-        been made. As discussed below, three genes for which
-        allelic variations were detected, 
-        Srd5a1, Nrif-2 , and 
-        Hsd17b3 are thought to be
-        particularly promising biological candidates to underlie
-        the chromosome 13 QTL.
+        
+          Energy Savings
+          Prior to calibration, our predictive regression models
+          based on REM/Design outputs systematically overpredicted
+          energy consumption as summarized in RECS. We considered
+          performance stratified by fuel type and combinations of
+          census divisions, where Northeast corresponds to NE and
+          MA; Midwest to ENC and WNC; South to SA, ESC, and WESC;
+          and West corresponds to MTN and PA (Table 1). Natural gas
+          and fuel oil consumption were within 10% of reported
+          values in all regions but the West, where the regression
+          model predicted energy consumption 1.7 times higher than
+          that reported in RECS. The bias was somewhat greater for
+          electricity consumption (a factor of 1.4-2.6 higher
+          across regions for gas- or oil-heated homes and a factor
+          of 2.4-3.4 higher for electric-heated homes). As
+          described in our earlier analysis [ 7 ] , REM/Design has
+          been shown to somewhat overestimate energy consumption,
+          so this performance and the need for a calibration factor
+          were anticipated. We calibrated the model by simply
+          multiplicatively scaling the regression results to
+          reported RECS values, stratified by region and fuel
+          type.
+          According to our calibrated energy model, increasing
+          residential insulation in the 46 million existing homes
+          where insulation retrofits are necessary would save
+          approximately 800 TBTU per year - 17 MMBTU (1.7 × 10
+          7BTU) per household per year. Of this total, 39% is
+          related to source electricity savings, with 52% related
+          to natural gas and 10% to fuel oil. Approximately 80% of
+          the source electricity savings are associated with space
+          heating rather than cooling. Thirty-five percent of
+          energy savings occurs in electric-heated homes, with the
+          remainder occurring in gas- or fuel oil-heated homes
+          (either through reduced fossil fuel combustion or reduced
+          electricity consumption for space cooling).
+          Looking at regional patterns, within electric-heated
+          homes, nearly 70% of the energy savings are found in the
+          South, principally due to the number of electric-heated
+          homes in the South relative to other regions (Table 2).
+          On a per unit basis, the savings are greatest in the
+          Midwest and lowest in the West, related to climate and
+          current practice insulation levels. For homes heated by
+          natural gas or fuel oil, nearly half of the energy
+          savings are found in the Midwest, given both the number
+          of households and the higher per unit energy savings.
+          Across all fuel types, the annual per unit energy savings
+          for retrofitting existing homes are approximately four
+          times greater than the per unit energy savings associated
+          with increasing insulation from current practice levels
+          in new homes to IECC 2000 code levels [ 7 ] , a finding
+          that agrees with other analyses [ 13 ] .
+          An evaluation at the state level can provide some
+          insight about differentials in past energy codes as well
+          as within-region differences that might be important from
+          an emissions and exposure perspective. Unsurprisingly,
+          the states with the greatest total energy savings
+          generally correspond to the states with the most
+          households - Texas, New York, Michigan, Illinois, and
+          Ohio represent 28% of the national energy savings (and
+          25% of the total households). On a per unit basis, the
+          states with the greatest energy savings are North Dakota,
+          Minnesota, West Virginia, and South Dakota, while the
+          smallest per unit savings are seen in Arizona, New
+          Mexico, Florida, and California, a clear indication of
+          the importance of climate.
+        
+        
+          Emission Reductions
+          Given these energy savings, the aggregate emission
+          reductions from residential fuel combustion and power
+          plants include approximately 3,100 fewer tons per year of
+          PM 
+          2.5 , 100,000 fewer tons per year of
+          NOx, and 190,000 fewer tons per year of SO 
+          2 (Table 3). For all three pollutants,
+          the majority of emissions are linked to power plants (69%
+          for PM 
+          2.5 , 76% for NOx, and 89% for SO 
+          2 ), even though only 39% of energy
+          savings is related to electricity generation. This can be
+          explained by the predominance of natural gas space
+          heating, which has lower emissions of all pollutants
+          (particularly SO 
+          2 ) when compared with electricity
+          generation from marginal power plants that are often
+          fueled by coal.
+          When we consider tons of pollutants emitted per unit
+          energy savings across regions, it is clear that there are
+          substantial regional variations in emissions intensity of
+          energy consumption (Figure 2). For primary PM 
+          2.5 , emissions per unit energy
+          savings are similar across regions for residential fuel
+          combustion, but are somewhat greater in the Midwest and
+          the South for electricity. Similarly, for SO 
+          2 , the electricity-related emissions
+          are greater in other regions than in the West, where a
+          greater proportion of electricity available on the margin
+          is generated by natural gas. For residential fuel
+          combustion, the emissions intensity for SO 
+          2 is far lower than that for
+          electricity, with the exception of the Northeast, where
+          fuel oil combustion is more prevalent. Finally, the
+          emissions intensity patterns for NOx are broadly
+          consistent with those for PM 
+          2.5 , indicating similarities in the
+          ratios of emission rates associated in part with
+          combustion temperature and efficiency.
+          The rankings of states, both on an aggregate basis and
+          on a per unit basis, differ when energy savings are
+          translated into emissions reductions. First considering
+          aggregate emission reductions, for PM 
+          2.5 , the highest-emitting states are
+          those larger states with substantial electric space
+          heating and higher-emitting power plants - Texas,
+          Virginia, North Carolina, and Tennessee. The top four
+          emitting states are identical for NOx, with Maryland
+          having the highest emissions of SO 
+          2 (followed by Virginia, North
+          Carolina, and Tennessee). On a per unit basis, West
+          Virginia, Kentucky, Delaware, and Virginia have the
+          highest emissions for PM 
+          2.5 and NOx, with Delaware, West
+          Virginia, Maryland, and Kentucky having the highest SO 
+          2 emissions.
+        
+        
+          Public Health Benefits
+          Using our intake fraction estimates and
+          concentration-response functions for mortality and
+          morbidity, the emission reductions of particulate matter
+          and particle precursors can be translated into health
+          benefits. In total, the emission reductions correspond to
+          240 fewer deaths, 6500 fewer asthma attacks, and 110,000
+          fewer restricted activity days per year, spread across
+          the continental US. This represents an approximate 0.01%
+          decrease in rates of the selected mortality and morbidity
+          outcomes. The distribution of mortality benefits by
+          pollutant, source, and region is presented in Table 4,
+          with identical patterns seen for the morbidity
+          outcomes.
+          Of the 240 annual deaths averted, more than half are
+          associated with reduced sulfate exposures due to SO 
+          2 emission reductions. This is largely
+          due to reduced electricity consumption for space heating
+          in the South. Approximately 34% of the health benefits
+          are related to primary PM 
+          2.5 emission reductions, largely due
+          to reduced residential fuel combustion in the Northeast
+          and Midwest and reduced electricity consumption in the
+          South. Nitrate particles due to NOx emissions play a
+          relatively minor role, contributing only 5% of total
+          benefits.
+          Because of differences in regional emissions
+          intensities, meteorological conditions influencing
+          pollutant fate and transport, and population patterns,
+          the distribution of health benefits across regions and
+          states differs significantly from the distribution of
+          energy savings. On a regional basis, although the South
+          provides only 39% of total energy savings, it is
+          responsible for nearly 60% of public health benefits. In
+          contrast, the West provides 11% of total energy savings
+          but only 4% of public health benefits. As shown in Figure
+          3, the relative contributions of states to energy savings
+          versus public health benefits also vary substantially.
+          States that contribute proportionately more to mortality
+          reductions than to energy savings (e.g., Virginia, North
+          Carolina, Tennessee) tend to have significant electric
+          space heating with electricity from power plants that
+          emit higher amounts of SO 
+          2 .
+          Looking at the benefits on a per capita basis, there
+          are significant differences across states in both public
+          health and energy savings (Figure 4). The two figures are
+          moderately correlated with one another (r = 0.50), with a
+          ratio that varies by a factor of ten (with a minimum
+          mortality reduction per unit energy savings in North
+          Dakota and a maximum in Maryland). This provides tangible
+          evidence that one cannot simply calculate public health
+          benefits given estimated energy savings, as population
+          density, climate, fuel usage, and emissions intensities
+          significantly affect estimated health benefits.
+        
+        
+          Economic Implications
+          In total, the estimated cost of the increased
+          insulation is approximately $37 billion US, or an average
+          of slightly below $800 per existing single-family home
+          available for retrofits. The annual economic benefits
+          associated with the energy savings are approximately $5.9
+          billion per year, indicating a payback period of slightly
+          over 6 years (assuming no change in the real price of
+          fuel). Since this includes an array of homes in different
+          regions and with different baseline insulation levels,
+          the payback period clearly varies substantially across
+          homes. If we apply a real discount rate of 5%, then the
+          net present value of the economic savings (conservatively
+          assuming a 50-year lifetime for all homes) is
+          approximately $110 billion, implying a net economic
+          savings (including the cost of insulation) on the order
+          of $80 billion.
+          When economic values are assigned to the mortality and
+          morbidity outcomes as described above, the environmental
+          externalities averted through increased insulation amount
+          to approximately $1.3 billion per year. Over 99% of this
+          total is related to premature mortality, indicating that
+          the assumed value of statistical life is a key parameter
+          in this calculation (although not all morbidity outcomes
+          were included in our analysis). Adding this quantity to
+          the economic savings for the households would reduce the
+          payback period from over 6 years to approximately 5
+          years, although this involves combining private and
+          public benefits, has a simple characterization of the
+          time lag of benefits, and does not include the upstream
+          emissions from insulation manufacturing or fuel
+          extraction and processing. Nevertheless, this calculation
+          provides a rough indication of the relative magnitudes of
+          environmental externalities and cost savings.
+        
       
       
         Discussion
-        While other studies have mined EST databases to detect
-        SNPs [ 19], the work presented here is the first
-        demonstration of the use of strain-specific genome sequence
-        databases to discover gene-coding variants for murine QTLs.
-        Whereas previous studies have focused on detection of SNPs
-        in expressed sequence tags (ESTs) that map to locations
-        throughout the genome for use as genetic markers, the
-        present work searched strain-specific genomic sequence
-        databases for coding-region SNPs underlying disease-related
-        QTLs. In this first application of the strategy, we
-        surveyed 199 QTL-localized genes covering approximately 7
-        cM and 12 Mb of the mouse genome and identified 21 genes
-        that had altered coding regions between the B6 and D2
-        progenitor strains.
-        At least one of the allelically variant genes - 
-        Slc5a7 , detected within the proximal
-        chromosome 1 QTL interval - is a promising biological
-        candidate gene. 
-        Slc5a7 encodes a high-affinity
-        choline transporter expressed in cholinergic neurons in the
-        brain and spinal cord. Prolonged ethanol exposure decreases
-        high-affinity choline uptake in rat cerebral cortex [ 21],
-        and acute ethanol exposure decreases choline transport in
-        erythrocytes [ 22]. There was a single amino-acid change of
-        arginine (B6) to histidine (D2) at position 38, which is
-        located in the first cytoplasmic loop of the transporter,
-        with the arginine also being conserved in rat and human.
-        However, while synteny data between human and mouse suggest
-        that the gene is within the QTL, data from Celera
-        apparently places it on another chromosome. Therefore the
-        question of whether 
-        Slc5a7 remains a good candidate for
-        the proximal 1 QTL must await resolution of this issue.
-        Three genes for which allelic variations were detected -
-        
-        Srd5a1, Nrif-2 and 
-        Hsd17b3 - appear to be particularly
-        promising biological candidates to underlie the chromosome
-        13 QTL. The most compelling of these is 
-        Srd5a1 , which encodes a steroid
-        5α-reductase 1 and is expressed in brain and is
-        consequently termed a neurosteroid. 5α-reduced metabolites
-        of the neurosteroids are thought to be involved in
-        myelination [ 23], and one of the key features of
-        alcoholism is the loss of cerebral white matter [ 24].
-        Steroid 5α-reductase is also required for the reduction of
-        progesterone to 5α-dihydroprogesterone, which is further
-        metabolized to 3α,5α-progesterone (allopregnanolone), which
-        has neuroactivity at GABA 
-        A receptors [ 25]. Some symptoms of
-        ethanol withdrawal appear to be produced through
-        neuroadaptive changes in GABA-mediated neurotransmission [
-        26]. It is known that many neuroactive steroids have
-        anticonvulsant activity [ 27], and during ethanol
-        withdrawal the B6 and D2 mice have differential sensitivity
-        to the anticonvulsant effects of allopregnanolone [ 28]. We
-        identified three amino acid changes within this gene
-        between the B6 and D2 strains, one of which occurs at
-        position 7 with arginine (B6) being replaced by cysteine
-        (D2). Unlike arginine, cysteine can participate in
-        disulfide bridge formation and thus has the potential to
-        produce a marked difference in the functional activity of
-        5α-reductase 1 in B6 compared to D2 animals.
-        Another candidate gene is 
-        Nrif-2 , a Krüppel-type zinc finger
-        protein thought to function as a transcriptional repressor
-        [ 29]. One of the identified amino-acid changes replaces
-        the arginine at position 593 in the D2 strain with a
-        glutamine residue in B6 mice, and this occurs within a
-        known binding site for the intracellular domain of the
-        neurotrophin receptor P75NTR [ 30]. The 
-        Nrif-2 gene is expressed in brain and
-        several other tissues, but expression is highest in testis.
-        Interestingly, the chromosome 13 QTL is sex-limited and
-        affects severity of physical dependence on alcohol only in
-        males [ 16]. In males the D2 allele was associated with
-        more severe withdrawal responses than the B6 allele,
-        whereas the opposite direction of effect was found in
-        female mice. Because the behavioral trait is sex-limited,
-        this suggests that the actions of the underlying gene are
-        sex-limited. Such a phenotype might be expected if the
-        causal variant gene was expressed and/or active in gonadal
-        tissue, as is the case with 
-        Nrif-2 .
-        A third altered candidate gene within the chromosome 13
-        QTL is 
-        Hsd17b3 . This gene encodes a
-        17β-hydroxysteroid dehydrogenase expressed primarily in
-        testis but also in several other tissues, including brain [
-        30]. 
-        Hsd17b3 catalyzes the interconversion
-        of androstenedione and testosterone, favoring the reduction
-        reaction [ 31]. Ethanol exposure has been shown to inhibit
-        the reduction of androstenedione to testosterone in rat
-        Leydig cells 
-        in vitro [ 32]. The amino acid change
-        within this gene replaces a cysteine (B6) at residue 95
-        with an arginine (D2).
-        While these data are consistent with the variant genes
-        identified on chromosomes 1 and/or 13 being the gene that
-        underlies the respective QTL, it is also possible that the
-        polymorphisms identified in these genes are merely linked
-        to the polymorphisms that actually underlie these two QTLs.
-        Although 
-        Slc5a7, Nrif-2, Srd5a1 , and 
-        Hsd17b3 are promising candidates to
-        underlie these two QTLs, a significant number of altered
-        genes were also identified that cannot formally be ruled
-        out at this time, either in place of, or in addition to,
-        these three genes. Additional fine mapping of these QTLs is
-        needed to eliminate as many false candidate genes as
-        possible from these QTL intervals. In addition, definitive
-        confirmation that 
-        Slc5a7, Nrif-2, Srd5a1 and 
-        Hsd17b3 (or other promising candidate
-        genes if they arise) are involved in predisposition to
-        physical dependence on ethanol will probably require
-        verification using transgenics (for example, allele
-        substitution or bacterial artificial chromosome
-        transgenics).
-        Another feature of the approach described here is that
-        it not only rapidly identifies gene variants within QTL
-        intervals but, because it will find many genes that are
-        unchanged between strains, can also quickly eliminate large
-        numbers of gene-coding regions as possible candidates
-        underlying the QTL. Finally, it should be pointed out that
-        even when a synonymous sequence difference is found between
-        QTL strains, it can still be used as a new, easily scored
-        marker to further narrow the QTL interval using
-        fine-mapping resources such as interval-specific congenic
-        recombinant mice [ 33]. In this regard we identified many
-        such synonymous changes between B6 and D2 that fall within
-        the proximal chromosome 1 or mid-chromosome 13 QTLs, and
-        therefore can serve as new informative markers for fine
-        mapping of these QTLs.
-        The approach described here has considerable general
-        applicability. Many other murine QTLs, encompassing a wide
-        range of complex phenotypes of interest, have been
-        identified using mapping populations derived from two of
-        the five mouse strains for which whole-genome draft
-        sequences are now available, and therefore lend themselves
-        to this 
-        in silico approach. When we carried
-        out a PubMed literature database search, 276 QTLs,
-        corresponding to 57 different phenotypes, were identified
-        that utilized two of these five mouse strains (Table 3).
-        The QTL intervals that were used in the present study were
-        rather large, and many other QTLs that use strains amenable
-        to an 
-        in silico approach are considerably
-        smaller.
-        While the present study focused on QTL gene-coding
-        region comparisons because of their potential functional
-        importance [ 5], it should be pointed out that
-        gene-regulatory regions, which are also of considerable
-        functional importance and have been shown to underlie some
-        QTLs [ 34, 35], can be studied in the same way. For
-        example, the approach described here can be combined with
-        data from high-density DNA microarray studies of the B6 and
-        D2 strains (J.M.S., unpublished work). In such a scenario,
-        interstrain comparison of the expression levels of tens of
-        thousands of genes would be carried out, the genes that are
-        differentially expressed between strains identified, and
-        their chromosome location determined from the genome
-        databases. Those differentially expressed genes that map to
-        a QTL region would be selected and the upstream regulatory
-        regions aligned 
-        in silico to search for sequence
-        differences that affect predicted transcriptional binding
-        sites. Such binding-site differences, when present, would
-        be promising candidates to underlie the QTL in which the
-        gene resides. Although less is known about sequences
-        affecting gene regulation than about those affecting
-        protein sequence, there has been considerable progress in
-        the past few years in our understanding of the sequences
-        involved in controlling gene regulation [ 36, 37].
-        It is also possible that sequence changes in the
-        noncoding regions of mRNAs can have functional effects. For
-        example, sequence in the 5' untranslated region (UTR) can
-        affect mRNA translation, and sequence in the 3' UTR can
-        affect mRNA stability. The 3' UTR region can also contain
-        enhancer elements that affect gene regulation and
-        expression. Whereas less is known about the functional
-        relevance of sequence changes in noncoding parts of mRNAs
-        than those in the protein-coding region, they can
-        nevertheless be functionally important and, as such, could
-        be included in surveys using the 
-        in silico approach described
-        here.
-        While Celera's SNP database has the ability to quickly
-        identify interstrain SNPs in QTL genes, the information
-        available from the SNP database is not as complete as the
-        data generated by our 
-        in silico approach. Specifically,
-        Celera uses a different strategy for assigning SNPs in the
-        mouse genome and the SNP database makes very conservative
-        SNP predictions; fewer than half of the SNPs we identified 
-        in silico and verified by in-house
-        sequencing are in the SNP database. The SNP database also
-        misclassifies some SNPs as missense mutations when the SNPs
-        are actually in the 5' or 3' UTR (J.M.S., unpublished
-        data). And finally, the Celera SNP database does not
-        indicate which regions of a gene's coding sequence are
-        covered by reads in each strain, and therefore does not
-        distinguish between completely sequenced regions in which
-        no variants have been detected and regions where no
-        variants are found because sequence coverage for one of the
-        strains is absent. Such a limitation provides an incomplete
-        picture of the interstrain variants that exist in a given
-        QTL, which in turn could result in passing over the
-        critical SNP underlying the QTL.
-        Although the strategy presented here provides a
-        significant new tool in going from QTL to gene, a number of
-        challenges still remain on the way to realizing this goal.
-        For example, functional confirmation that an interstrain
-        gene alteration underlies a QTL, while feasible, is not
-        trivial. As more QTL-localized genes are identified that
-        have potentially important sequence changes, as described
-        here for example, it becomes more difficult to test them
-        all functionally. A related ongoing development that should
-        help this situation by reducing the number of potential
-        candidate genes that remain within the QTL interval is
-        reduction of the interval by fine mapping using specialized
-        congenic strains or recombinant progeny testing [ 33, 38].
-        A number of interval-specific congenic strains have
-        recently been developed for a number of QTLs and, although
-        straightforward, fine mapping is still a large-scale
-        enterprise because of the need to generate and test large
-        numbers of animals to identify and behaviorally assess
-        informative recombinants, and because of the need for
-        markers to detect such recombination events.
-        While such challenges remain, the new genomics tools and
-        resources that are now available or are becoming available
-        are clearly providing a major impetus to this field. The
-        power of high-density microarray studies to identify
-        QTL-related genes and pathways, draft genomic sequences for
-        the primary mouse strains used for QTL analysis, and
-        evolving bioinformatics tools and databases are all making
-        major impacts on this field, with more improvements to be
-        expected. For example, after this work was completed, we
-        used the 
-        in silico approach on a QTL
-        identified using B6 and A/J strains and found that coverage
-        was considerably higher than reported in this study. We
-        found that in an analysis of over 30 QTL genes the 
-        in silico coverage for B6 and A/J was
-        98% and 91%, respectively, with a total coverage for both
-        of 90% (J.M.S., unpublished data). Finally, the anticipated
-        completion of the B6 genome sequence and deeper sequence
-        coverage of the D2 and A/J genomes, in particular, if
-        carried out would remove the last remaining obstacles to
-        virtually complete 
-        in silico discovery of gene variants
-        for the several hundred QTLs identified using these
-        strains.
+        Our analysis has demonstrated that it is viable to
+        calculate central estimates for the public health benefits
+        associated with reduced residential energy consumption,
+        making use of previous dispersion models and
+        epidemiological studies. Our model can provide insight
+        about the relative merits of alternative energy efficiency
+        policies, as well as allowing for a comparison with source
+        controls or other public health interventions. For example,
+        our central estimate of 240 fewer premature deaths per year
+        from retrofitting existing homes can be compared with 1.1
+        fewer premature deaths per year from increasing insulation
+        in a single year of new homes [ 7 ] . The ratio between
+        these values is greater than 200, which exceeds the energy
+        savings ratio of approximately 130, illustrating the
+        importance of geographic patterns of housing starts. The
+        differential between these values clearly demonstrates the
+        substantially greater potential in the existing housing
+        market, even given the fact that existing home retrofits
+        represent a "one time" opportunity, while housing codes
+        influencing new homes would affect construction over
+        multiple years.
+        To provide further context about the magnitude of
+        benefits, retrofitting one million existing homes today
+        would have the same public health benefits as requiring 5.7
+        million new homes to meet IECC 2000 standards. Given the
+        rate of new home construction (approximately 1.2 million
+        new homes per year), this implies that a code change today
+        would yield identical annual benefits as the one million
+        home retrofit in about 5 years, with identical cumulative
+        benefits in 9 years. In addition, a recent study estimated
+        that requiring nine older ("grandfathered") coal-fired
+        power plants in Illinois to meet new source standards would
+        yield approximately 300 fewer premature deaths per year [ 3
+        ] , similar to the benefits of retrofitting all eligible
+        existing homes. Cost-effectiveness comparisons with other
+        interventions are not very useful, as increased residential
+        insulation both reduces aggregate costs (calculated as net
+        present value) and health risks, given the boundaries of
+        our analysis.
+        While these comparisons provide some insight about the
+        implications of our analysis, any risk-based calculation is
+        deficient without careful quantitative consideration of the
+        uncertainties inherent in the estimates. We have deemed a
+        formal uncertainty analysis to be beyond the scope of our
+        investigation, in part because uncertainties have been
+        discussed elsewhere [ 7 ] and in part because it is
+        difficult to accurately quantify many core uncertainties.
+        However, we can use the findings of our analysis to provide
+        some qualitative prioritization of future areas of study.
+        We summarize the findings of our qualitative uncertainty
+        analysis in Table 5, which draws on past damage function
+        uncertainty characterization [ 4 ] .
+        First, if the environmental externalities represent the
+        endpoint of our analysis, it is clear that resolving
+        uncertainties related to mortality will be more important
+        than resolving uncertainties related to morbidity. However,
+        this is partly dependent on our underlying health and
+        valuation assumptions. We have used the cohort mortality
+        studies and a value of statistical life (VSL) approach. An
+        extreme lower-bound calculation for mortality would first
+        focus on the time-series rather than cohort mortality
+        evidence. This decision could either be based on the belief
+        that there is inadequate evidence of a long-term mortality
+        effect (although reliance on cohort evidence has been
+        supported elsewhere [ 33 34 ] ) or the belief that
+        long-term effects involve significant lags and near-term
+        benefits might therefore dominate externality estimates.
+        Given this focus, an additional lower-bound assumption
+        would consider a life-year measure more appropriate than a
+        VSL measure, with a relatively short longevity loss assumed
+        in the time-series studies.
+        Using a value from the time-series literature of an
+        approximate 1% increase in deaths per 10 μg/m 3increase in
+        PM 
+        2.5 [ 27 35 36 ] , assuming that each
+        time-series death represents a loss of only one life-year,
+        and using US EPA's value of statistical life year of
+        $360,000 [ 17 ] , our annual mortality benefit would be
+        decreased from $1.3 billion to $30 million. In this extreme
+        case, mortality still represents 77% of the benefits
+        (albeit with a limited set of morbidity outcomes). With the
+        inclusion of the suite of common morbidity outcomes
+        (including chronic respiratory disease and hospitalizations
+        for cardiovascular or respiratory disease), morbidity would
+        likely dominate monetized health benefits in this
+        scenario.
+        Given the magnitude of this change, it is clear that
+        improved understanding of the cohort mortality findings
+        would be paramount in refining the estimates within our
+        analysis. Of similar importance would be issues related to
+        the relative toxicity of sulfate particles, nitrate
+        particles, and primary combustion particles from various
+        sources. According to our analysis, a majority of the
+        benefits is associated with sulfate particles, indicating
+        that alternative sulfate toxicities would strongly
+        influence our findings. On the other hand, since nitrate
+        particles contribute only 5% of benefits, changes in
+        conclusions about nitrate toxicity would not influence our
+        aggregate calculations in a substantial way. Appropriate
+        economic values for premature mortality would clearly be
+        critical as well. However, improved understanding about
+        cohort mortality effects and life-years lost within
+        epidemiological studies would greatly inform valuation,
+        with a significant portion of the remaining uncertainty
+        related to a value judgment about whether health outcomes
+        should be valued on a life-year lost or willingness to pay
+        basis.
+        Other significant contributors to uncertainty include
+        the intake fraction estimates, the emissions
+        characterizations, and the predictive energy models. Given
+        the relative importance of SO 
+        2 emissions in the South, the sulfate
+        intake fractions in this region would be most important to
+        resolve. A recent analysis found that sulfate intake
+        fractions for power plants in Georgia were similar when
+        CALPUFF and an alternative dispersion model were applied [
+        37 ] , indicating that our estimates may not be
+        significantly biased. However, for residential fuel
+        combustion, the uncertainties may be somewhat greater.
+        Mobile source intake fractions may not be identical to
+        residential intake fractions, and the values applied may be
+        underestimates, given the importance of near-source impacts
+        and the relatively low geographic resolution of models
+        underlying our intake fraction estimates [ 22 ] . The lack
+        of characterization of the influence of SO 
+        2 emissions on nitrate concentrations
+        also contributes uncertainty, although this is likely a
+        relatively small bias on an annual average and nationally
+        integrated basis.
+        Our methods for energy savings and emission reduction
+        estimation also contribute uncertainties to the analysis,
+        although many of these uncertainties are likely
+        insignificant compared to the uncertainties articulated
+        above. For example, since our energy models were both
+        highly predictive of modeled energy consumption and were
+        calibrated to reported energy consumption stratified by
+        fuel type and region, significant bias is unlikely. This is
+        illustrated by the fact that our aggregate energy savings
+        estimate is within 20% of the value reported in a similar
+        analysis [ 13 ] , with the difference explained in part by
+        differences in the assumed number of homes eligible for
+        increased insulation.
+        On the emissions side, many uncertainties are difficult
+        to quantify, since AP-42 does not provide quantitative
+        estimates of variability or uncertainty. Our assumption
+        about the allocation of electricity reductions across power
+        plants could have contributed a downward bias, with an
+        availability-based allocation increasing benefits to 510
+        fewer deaths per year and a capacity-based allocation
+        increasing benefits to 720 fewer deaths per year. This
+        could theoretically represent a significant uncertainty,
+        and one that could be resolved with more detailed power
+        sector models. One piece of information provides an
+        indication that our baseline analysis may be the most
+        reasonable depiction of the marginal electricity sector. A
+        marginal emissions analysis for the New England Power Pool
+        (NEPOOL) indicates marginal emission rates of 2.6 lb/MWh of
+        NOx and 9.4 lb/MWh of SO 
+        2 in 1997 [ 38 ] , the identical year as
+        our E-GRID database. These emission rates are within 20% of
+        our baseline values for the NPCC NERC region (which
+        includes both NEPOOL and New York State), and are
+        substantially lower than the emission rates from the
+        availability-based or capacity-based allocation
+        schemes.
+        A final uncertainty is related to the limited scope of
+        our analysis. We focused largely on the PM-related
+        mortality benefits of energy savings, but there are clearly
+        numerous additional benefits, including reduced greenhouse
+        gas emissions, health benefits related to other pollutants
+        (such as ozone) or morbidity endpoints, decreased
+        dependence on oil imports, and so forth. Although many of
+        these endpoints are difficult to quantify, they clearly
+        represent ancillary benefits of energy savings.
+        In addition to the analytical uncertainties, there are
+        broader limitations in applying our findings for policy
+        purposes. As mentioned earlier, the lack of formal life
+        cycle calculations impairs drawing conclusions about the
+        net public health benefits of increased residential
+        insulation. However, assuming parallelism with a life cycle
+        investigation in new housing [ 9 10 ] would imply that the
+        public health impacts of increased insulation manufacturing
+        would be far less than the public health benefits of
+        reduced energy consumption during the lifetime of the home,
+        with a payback comparable to the economic payback period of
+        6 years. Furthermore, our analysis represents static
+        conditions, although the housing market and emission
+        factors from sources (among other assumptions) are quite
+        dynamic. For example, if regulations were put into place
+        restricting emissions from power plants, the public health
+        benefits of energy efficiency measures would be reduced. In
+        addition, insulation retrofits of this magnitude could have
+        significant market influences. Although the energy savings
+        only represent 1% of annual US energy consumption (given
+        the focus on only a subset of the residential sector), the
+        amount of insulation required is substantially larger than
+        the current annual insulation market. If all retrofits
+        occurred in a relatively short period, this would
+        significantly influence the unit price of insulation. Thus,
+        although reduced energy consumption will have long-term
+        public health implications, the uncertainties in benefit
+        calculations likely increase as a function of time.
+        In spite of the uncertainties in our analysis, our study
+        provides findings with potential policy implications and
+        demonstrates some important methodological advancements in
+        quantifying the public health benefits of energy efficiency
+        programs. On the former point, although it is clear that a
+        regulation mandating energy efficiency retrofits in
+        existing homes would not be tenable, the magnitude of the
+        economic and public health benefits indicates that creative
+        public policies to encourage retrofits (e.g., low-interest
+        loans or tax deductions) may be warranted. On the
+        methodological side, the application of a regression model
+        to estimate energy savings appeared reasonable and
+        illustrated the potential for evaluating numerous
+        alternative scenarios without extensive simulations. The
+        intake fraction methodology yielded exposure estimates that
+        were both interpretable from a health perspective and
+        implementable for a large-scale energy efficiency program.
+        Although further study is needed to reduce some core
+        uncertainties within the analysis, the model framework is
+        sufficiently flexible to allow for the integration of new
+        scientific information.
       
       
-        Materials and methods
-        
-          Identification of genes within QTL regions
-          A list of known genes within the 1.0 LOD confidence
-          interval for each QTL was found using the NCBI vs MGD
-          human/mouse homology maps at NCBI [ 39]. This list was
-          screened for candidate genes on the basis of gene
-          expression within the brain and functional relevance to
-          the QTL phenotype. GenBank accession numbers for the
-          complete coding region sequence of each candidate gene
-          were found on LocusLink. Coding region sequences were
-          retrieved from GenBank and used as the query for BLAST
-          searches.
-          A more complete list of genes and gene predictions
-          within the QTL was found on the Celera Discovery System [
-          40]. The genetic marker with the highest LOD score for a
-          QTL was localized on Celera's physical map and a list of
-          genes and predicted genes within an interval on either
-          side of this marker was generated and screened for
-          candidate genes. Coding region sequences of the selected
-          genes were retrieved either from Celera or NCBI and used
-          as the query for BLAST searches.
-        
-        
-          BLAST searches
-          A MegaBLAST search of the mmtrace database on NCBI [
-          41] was used to retrieve B6 sequences from the public
-          database. Low complexity was filtered, percent identity
-          was set to 98%, and the number of alignments to return
-          was set to 100. Results were saved as a text file. A
-          BLASTN search of the All Mouse Fragments (masked)
-          database on Celera [ 42] was used to search for D2
-          sequences. The e-value was set to 0.1, and the number of
-          hits to return was set to 250. The complete entries view
-          of the results was exported to a file which was given a
-          .txt extension.
-        
-        
-          JAVA scripts to process BLAST results
-          A script, named Mouse Gene Selection NCBI (MGS_NCBI),
-          was written in JAVA and used to parse BLAST results from
-          NCBI. This script filters the BLAST results and only
-          selects hits which have percent identity greater than or
-          equal to 98% and e-value, which is a measure of the
-          statistical significance of BLAST hits, less than or
-          equal to 0.0001. The e-value is the number of hits with
-          the same degree of similarity one would expect to find by
-          chance if there were no true matches in the database.
-          Another script, Mouse Gene Selection Celera (MGS_Celera),
-          was written in JAVA and used to parse BLAST results from
-          Celera. This script filters the BLAST results and only
-          selects hits with strain name DBA/2J, e-value less than
-          or equal to 0.0001 and percent identity greater than or
-          equal to 98%. After filtering the BLAST results, the
-          script saves each alignment as an individual text file.
-          When one hit aligns with more than one region of the
-          query sequence, the entire hit is discarded if any of the
-          alignments does not meet the above criteria. As both
-          scripts are written in JAVA, they can be run on Unix,
-          Macintosh or PC platforms.
-        
-        
-          Alignment of filtered BLAST results
-          Filtered BLAST results were aligned using
-          AutoAssembler 2.1. For each gene, one alignment file was
-          made of the filtered B6 BLAST results and a separate
-          alignment file was made of the filtered D2 BLAST results.
-          The B6 alignment file was then compared to the D2
-          alignment file to identify sequence changes. When
-          sequence variations were found within a strain they were
-          regarded as true only if more than half the reads for a
-          strain contained the change. This criterion was checked
-          for validity by in-house sequencing.
-        
-        
-          In-house sequencing
-          In-house sequencing was used to test 
-          in silico sequence predictions and
-          also occasionally to fill in gaps that remained in
-          certain genes. C57BL/6J and DBA/2J mice were obtained
-          from the Jackson Laboratory. Animals were euthanized and
-          the brains dissected. Whole-brain RNA was isolated using
-          an RNeasy Maxi Kit (Qiagen). cDNA was synthesized by
-          RT-PCR using SUPERSCRIPT First Strand Synthesis System
-          for RT-PCR (Invitrogen). C57BL/6J, DBA/2J, A/J,
-          129X1/SvJ, and 129S1/SvImJ genomic DNAs were obtained
-          from the Jackson Laboratory. Primer3 software [ 43] was
-          used to design primers to amplify either cDNA or genomic
-          DNA. Template DNA was amplified by PCR in the Perkin
-          Elmer GeneAmp PCR system 9700. A typical reaction cycle
-          was denaturation for 3 min at 94°C followed by 35 cycles
-          of denaturation for 15 s at 94°C, annealing for 1 min 15
-          s at 54°C, and extension for 1 min 15 s at 72°C with a
-          final extension step at 72°C for 10 min. Products were
-          run on a 1.7% agarose gel, stained with ethidium bromide,
-          and purified using QIAquick Gel Extraction kits (Qiagen).
-          PCR products were reamplified when necessary.
-          PCR products were sequenced using ABI Big Dye
-          Terminator v.2 chemistry and cycle sequencing and
-          sequence traces read on an ABI PRISM 3100 Gene Analyzer.
-          When in-house sequencing was done to fill gaps from the 
-          in silico alignment, a minimum of
-          one forward read and one reverse read was run for each
-          sample of PCR products. When-in house sequencing was done
-          to verify nonsynonymous changes found in the 
-          in silico alignment, a minimum of
-          two forward reads and two reverse reads was run for each
-          sample of PCR products. Sequencing data for each strain
-          were analyzed with the Consed software suite [ 44].
-          Sequencing was repeated for regions of poor quality (that
-          is, Phred score < 40). High-quality sequence was
-          exported and B6 sequence was compared to D2 sequence
-          using AutoAssembler to identify changes between the two
-          strains.
-        
+        Conclusions
+        We have developed and applied a model to quantify the
+        public health benefits of reduced residential energy
+        consumption. Retrofitting existing single-family homes in
+        the US would yield an estimated 800 TBTU of annual energy
+        savings, which corresponds to net present value economic
+        gains of approximately $80 billion and public health
+        benefits that include 240 fewer premature deaths per year.
+        While there are substantial uncertainties in many
+        components of our health benefits model, our analysis
+        demonstrates an approach for integrating environmental and
+        public health benefits into energy efficiency policy
+        analysis.
+      
+      
+        List of abbreviations
+        E-GRID - Emissions and Generation Resource Integrated
+        Database
+        IECC 2000 - International Energy Conservation Code, year
+        2000
+        MMBTU - 10 6British Thermal Units
+        MSA - Metropolitan Statistical Area
+        NEPOOL - New England Power Pool
+        NERC - North American Electricity Reliability
+        Council
+        NOx - nitrogen oxides
+        PM 
+        2.5 - fine particulate matter
+        (particulate matter less than 2.5 μm in aerodynamic
+        diameter)
+        PM 
+        10 - particulate matter less than 10 μm
+        in aerodynamic diameter
+        RECS - Residential Energy Consumption Survey
+        SO 
+        2 - sulfur dioxide
+        TBTU - 10 12British Thermal Units
+        VSL - Value of statistical life
+      
+      
+        Competing interests
+        None declared.
+      
+      
+        Authors' contributions
+        JIL drafted the manuscript and assisted in the
+        development of the analytical model; YN developed the model
+        to estimate health benefits from energy savings; and JDS
+        conceived of the original study and participated in design
+        and coordination. All authors read and approved of the
+        final manuscript.
       
     
   

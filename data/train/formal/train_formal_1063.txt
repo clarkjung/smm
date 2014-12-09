@@ -2,493 +2,452 @@
   
     
       
-        Background
-        Phosphatidylinositol-(3,4,5)-trisphosphate (PIP3) is one
-        of the major intracellular second messengers regulating
-        growth, metabolism and vesicular trafficking [for reviews
-        see refs [ 1 2 3 ] ]. The level of (PIP3) in the cell is
-        determined by the balance of kinase and phosphatase
-        activity. PI-3Kinase activity is acutely regulated and a
-        number of isoforms have been cloned that are activated in
-        response to various stimuli [ 4 ] . The major
-        phosphatidylinositol-3-phosphate phosphatase in cells is
-        the tumor suppressor PTEN [ 5 6 ] . This protein has a
-        tonic inhibitory effect on PI-3Kinase signaling by
-        reversing the 3'-phosphorylation. PTEN is altered or
-        deleted in many human cancers [ 7 8 9 10 ] . In-vitro,
-        cells that are deficient in PTEN show elevated PI-3Kinase
-        signaling [ 11 ] . Reintroduction of PTEN in a variety of
-        cancer cells, including glioma, breast, bladder and ovarian
-        cancer cells, causes G1 arrest, inhibits tumorigenesis, and
-        promotes anoikis [ 12 13 14 ] . Mechanistically, Akt
-        activity is decreased, cell motility is decreased,
-        expression of two cyclin-dependent kinase inhibitors p27
-        and p21 is increased, cyclin D1 is down-regulated, Rb
-        phosphorylation is inhibited, and signaling via Grb2/SOS is
-        suppressed [ 11 15 ] . The link between PTEN and cell
-        growth is underscored by genetic experiments in mice. PTEN
-        knockout mice die in-utero due to extensive overgrowth of
-        the cephalic and caudal regions [ 12 16 ] . PTEN +/-
-        heterozygous mice have a predisposition to tumors in
-        multiple tissues often with loss of the second allele [ 17
-        18 ] . In-vitro, PTEN-/- embryonic stem cells and
-        fibroblasts display increased proliferation and decreased
-        sensitivity to apoptosis.
-        The PI-3Kinase-dependent activation of Akt is thought to
-        play a central role in the cell survival pathway in many
-        cells [ 7 19 20 ] . Elevated Akt activity and protein is
-        found in many PTEN-deficient cancer cells. Akt directly
-        phosphorylates and inactivates the pro-apoptotic proteins
-        ASK1, BAD, caspase 9 [ 21 22 23 24 ] . Akt also induces the
-        expression of the anti-apoptotic Bcl-2 and c-FLIP proteins,
-        and suppresses the cell cycle inhibitor p27 KIP [ 25 26 27
-        28 ] . This later effect is via the phosphorylation and
-        inactivation of the forkhead family of transcription
-        factors AFX, FKHR and FKHR-L1. Although it is often assumed
-        that elevated Akt activity is responsible for the increased
-        survival of cancer cells, Akt activity is not the only
-        pathway that is essential for cell survival. The MAPK
-        pathway can also protect cells from apoptosis, as can
-        constitutive activation of Stat3 signaling [ 29 30 ] .
-        The IGF-I Receptor is a member of the large family of
-        tyrosine kinase growth factor receptors. Signaling by the
-        IGF-IR has been studied in many different cell types and is
-        important for proliferation, survival, motility, adhesion,
-        transformation, tumor formation and metastasis [for reviews
-        see refs [ 31 32 ] ]. The receptor can directly
-        phosphorylate the insulin receptor substrate 1 (IRS-1) and
-        Shc proteins in the intact cell causing activation of
-        PI-3Kinase and ras signaling [ 33 ] . More recently, it has
-        been shown that the IGF-IR signals via the Gβγ subunits of
-        the heterotrimeric Gi complex to stimulate PI-3Kinase and
-        ras, and also activates the JAK/Stat pathway to cause
-        phosphorylation of Stat3 [ 34 35 ] .
-        What is the evidence for the involvement of IGF-IR
-        signaling in proliferation and cancer? Elegant studies in
-        knockout mice have delineated the contribution of IGF-I,
-        IGF-II and the IGF-I receptor to fetal growth [for review
-        see ref [ 36 ] ]. Embryonic fibroblasts derived from IGF-IR
-        knockout embryos (R-cells) do not grow in serum-free
-        medium, despite supplementation with a wide variety of
-        other growth factors, and grow more slowly in media
-        containing serum than wild-type cells [for reviews see refs
-        [ 37 38 ] ]. Additionally, all phases of the cell cycle are
-        prolonged in the null cells suggesting that the IGF-IR is
-        required throughout the cell cycle. A functional IGF-I
-        receptor is required for successful cell transformation.
-        IGF-IR-/- cells are not transformed by overexpression of
-        SV40 T antigen, activated 
-        ras , or EGF or PDGF receptors.
-        Transformation appears to involve autocrine stimulation as
-        IGF-I production and secretion is increased in normal cells
-        following transformation by SV40 T antigen, but the null
-        cells cannot respond to the IGF-I so do not transform.
-        Interfering with the IGF signaling system can inhibit
-        the growth of cancer cells in-vitro and in-vivo. Treatment
-        with antagonistic peptide analogs of IGF-I, antisense
-        oligos, or an adenovirus expressing IGF-IR antisense cRNA,
-        prevents proliferation of cells in monolayers,
-        transformation, and growth in athymic nude mice. This
-        includes multiple human tumor cell lines including
-        glioblastoma, melanoma, ovarian carcinoma, prostatic
-        carcinoma, and breast carcinomas). [for reviews see refs [
-        31 ] , [ 39 40 41 ] ]. The IGF-IR appears to function in
-        transformation both by preventing apoptosis through
-        activation of Akt and by stimulating proliferation through
-        the ras-MAPK cascade. IGF-I can prevent 
-        c-myc -induced apoptosis in rat-l
-        fibroblasts, and neuronal apoptosis due to
-        serum-starvation. IGF-IR-/- cells can proliferate in
-        monolayers in the presence of serum but undergo apoptosis
-        when put in suspension and are more sensitive to
-        chemotherapeutic reagents. There is also evidence
-        implicating the IGF-IR in metastasis. IGF-I produces a
-        chemotactic response in human melanoma cells and antisense
-        to the IGF-IR mRNA prevents metastasis in the murine
-        carcinoma cell H-59.
-        In this study, we wanted to determine if disruption of
-        IGF-I signaling could prevent growth of a tumor cell
-        lacking PTEN. Elevated PI-3Kinase can be normalized by
-        reintroduction of PTEN to reduce PIP3 levels, but it has
-        not been shown that this effect can also be achieved by
-        disruption of an upstream signal that stimulates PI-3Kinase
-        activity. We have previously demonstrated the
-        overexpression and hormone-independent activation of the
-        IGF-IR in primary breast cancers [ 42 ] . Similar
-        overexpression of the IGF-IR and the ligands IGF-I and
-        IGF-II have been seen in human gliomas and astrocytomas [
-        43 44 45 46 ] . Because of the important role for the
-        IGF-IR in cell survival, we investigated whether a dominant
-        negative IGF-IR could inhibit growth of the U87 glioma.
-        This glioma is deficient in PTEN and shows constitutive
-        activation of Akt, which can be inactivated by
-        re-introduction of PTEN [ 47 ] .
+        Introduction
+        The concept of lung fibroblasts as effector cells in the
+        pathogenesis of idiopathic pulmonary fibrosis (IPF) has
+        recently evolved [ 1 2 ] . Lung fibroblasts respond, 
+        in vitro , to inflammatory cytokines
+        by producing growth factors and collagen, resulting in
+        fibroblast proliferation and extracellular matrix
+        deposition [ 2 3 4 ] . In addition, activated lung
+        fibroblasts have been shown to produce large amounts of
+        inflammatory cytokines and chemokines, 
+        in vitro , and hence, these cells may
+        also have a role as effector-inflammatory cells [ 1 2 ] .
+        This capacity to produce both inflammatory and fibrotic
+        factors could mean that phenotypically altered lung
+        fibroblasts act simultaneously as effector and target
+        cells, via paracrine and autocrine mechanisms, perpetuating
+        the fibrotic process [ 2 ] .
+        Prostanoids are important regulators of fibroblast
+        function [ 5 6 7 8 9 ] . Prostaglandin (PG)E 
+        2 is thought to have antifibrotic
+        properties 
+        in vitro , but also can have
+        proinflammatory effects both 
+        in vivo and 
+        in vitro [ 10 11 12 ] . Thromboxane
+        (TX)A 
+        2 increases proliferation, and DNA and
+        RNA synthesis in several cell types, including fibroblasts
+        and smooth muscle like glomerular mesangial cells [ 13 14
+        15 16 ] . Conversely, prostacyclin (PGI 
+        2 ) decreases smooth muscle cell
+        proliferation and collagen synthesis [ 17 18 ] .
+        Many cell types, including lung fibroblasts, contain
+        cyclooxygenase (COX), a proximal enzyme in prostanoid
+        production, and can generate prostanoids [ 19 ] . It has
+        been previously reported that IPF lung fibroblasts have
+        decreased COX-2 expression compared to normal lung
+        fibroblasts and, hence, have decreased PGE 
+        2 production [ 12 20 21 ] . Because of
+        these findings and the fact that PGs are important
+        fibroblast regulators, we sought to investigate whether
+        abnormalities in COX-2 expression could be associated with
+        an altered balance between profibrotic and antifibrotic
+        PGs. We hypothesized that fibroblasts from the lungs of
+        patients with IPF (HF-IPF) have an altered PG balance
+        compared to normal lung fibroblasts (HF-NL). This
+        phenotypical abnormality could be an important factor in
+        the pathogenesis of IPF.
       
       
-        Materials and Methods
+        Materials and methods
         
-          Materials and Cell Culture
-          Antiphosphotyrosine antibodies (pY20) were from
-          BD-Transduction Labs (Lexington, KY). Matrigel was from
-          Becton-Dickinson (Bedford, MA) Athymic nude mice were
-          purchased from Charles River (Wilmington, MA). Enhanced
-          chemiluminescence reagents were from Amersham
-          (Piscataway, NJ). [ 3H]-thymidine (20 Ci/mmol) was from
-          Perkin-Elmer/NEN Life Sciences (Boston, MA). Unless
-          noted, all other reagents were supplied by Sigma Chemical
-          Co. (St. Louis, MO) or Fisher Scientific Co.
-          (Springfield, NJ). CHO cells were maintained in Hams F12
-          with 25 mM glucose with 50 units/ml penicillin, 50 μg/ml
-          streptomycin, and 10% FCS in a 10 % CO 
-          2 environment. U87 glioma cells were
-          maintained in MEM-Earle's medium with non-essential amino
-          acids, 1 mM sodium pyruvate, 10% FCS, 2 mM Glutamax and
-          gentamycin sulphate in a 10% CO2 environment.
-        
-        
-          Immunoblotting
-          Cells were serum starved for 16 h in 12-well plates,
-          then stimulated with IGF-I (10 or 100 ng/ml) for 5 min at
-          37°C. The cells were washed with ice-cold
-          phosphate-buffered saline and solubilized in 2 ×
-          SDS-sample buffer containing 2 mM sodium orthovanadate
-          and 200 mM sodium fluoride. The proteins were denatured
-          by boiling for 5 min, then were separated by
-          electrophoresis on 7.5% SDS-PAGE, and transferred to PVDF
-          membranes. The filter was blocked with 3% BSA in TBS with
-          0.1% Tween 20 (T-TBS) for 30 min and incubated with the
-          anti-phosphotyrosine antibodies at a dilution of 1:1000.
-          The filters were washed with T-TBS for 30 min and
-          incubated with horseradish-peroxidase conjugated
-          secondary antibodies, and tyrosine-phosphorylated
-          proteins were visualized by enhanced
-          chemiluminescence.
+          Primary lung fibroblasts
+          Fibroblasts from the lungs of seven patients (6 males)
+          with IPF (HF-IPF) were harvested: a) from excised lung at
+          the time of lung transplantation; b) during an autopsy
+          performed within 4 hours from death; or c) during open or
+          transbronchial lung biopsies at the time of diagnosis. Of
+          the seven patients, five subjects had advanced lung
+          fibrosis and were receiving prednisone ±
+          immunosuppressive agents; 2 patients were at an earlier
+          stage of their disease and were not receiving
+          immunosuppressive drugs. The mean age of the patients was
+          59 (range 43-71)]. HF-NL were cultured from five human
+          lungs that arrived at our transplant center with the
+          intention of being used for transplantation, but for
+          various reasons could not be transplanted; these were
+          macroscopically and microscopically normal. The cells
+          were harvested and cultured as per the protocol described
+          by Kumar 
+          et al. [ 22 ] . Briefly, lung
+          tissue sections were finely cut with sterile scissors and
+          incubated with serum free DMEM containing trypsin, DNAse
+          and collagenase for 30 min. The procedure was repeated
+          twice, and the supernatants were pooled and cultured in
+          one 100 mm plate and incubated at 37°C in a 5% CO 
+          2 humidified atmosphere. Culture
+          medium (DMEM with 5% fetal bovine serum [FBS] and
+          penicillin/streptomycin) was replaced three times per
+          week and fibroblasts were passed (1:2 split) at the time
+          they became confluent. On passage 4 the cells were
+          resuspended in 1 ml of DMEM with 20% FBS and DMSO and
+          frozen at -70°C. For each experiment described below the
+          cells were thawed, cultured and passed at least once. All
+          the experiments were conducted with cells at passages 6
+          to 8.
         
         
-          Measurement of thymidine incorporation
-          Cells were grown to 75% confluence in six-well cluster
-          plates. The growth medium was replaced with serum-free
-          Ham's F12 for 36 h. Cells were stimulated with IGF-I at
-          the indicated concentrations for 18 h. Cells were pulsed
-          with [ 3H]-thymidine, 2 μCi/ml, for 1 h at 37°C. The
-          cells were washed five times in PBS, solubilized, the DNA
-          precipitated with 10% trichloroacetic acid at 4°C, and
-          counted in an scintillation counter.
+          Inducible cyclooxygenase (COX)-2 expression and
+          eicosanoid production
+          COX-2 activity was determined by measuring PGE 
+          2 , 6-keto-PGF 
+          1α (stable PGI 
+          2 metabolite), TXB 
+          2 (stable TXA 
+          2 metabolite), and PGF 
+          2α production in stimulated
+          fibroblasts. HF-IPF (n = 7) and HF-NL (n = 5) were
+          brought to >90% confluency in 100mm plates and then
+          placed on serum free DMEM for 24 hours to render them
+          quiescent. Fibroblasts were then incubated in DMEM with
+          5% FBS alone or in the same medium with IL-1β (2.5 ng/ml)
+          for 24 hours. At the end of the incubation period the
+          supernatant was aspirated and fresh media containing 30
+          μM of arachidonic acid was added to the plates. After 30
+          min of incubation the supernatant was collected and saved
+          at -70°C for later eicosanoid analysis. The cells were
+          then resuspended and divided into two aliquots, which
+          were used for RNA and protein extractions, respectively.
+          The above experiments were repeated in HF-IPF (n = 2) and
+          HF-NL (n = 2) using serum free media conditions.
+          Prostanoids were measured by modified stable isotope
+          dilution assays that used gas chromatography-negative
+          ion-chemical ionization mass spectrometry as previously
+          described [ 23 ] . Briefly, deuterium-labeled internal
+          standards of PGE 
+          2 , PGF 
+          2α , TXB 
+          2 , and 6-keto-PGF 
+          1α were added to the supernatants with
+          isopropyl alcohol. Isopropyl alcohol was removed by
+          evaporation under nitrogen. After acidification to pH
+          3.5, the samples were extracted on preconditioned C-18
+          PrepSep columns (Fisher Scientific, Fair Lawn, NJ), and
+          eluted with ethyl acetate. The extract was then converted
+          to a pentafluorobenzyl ester by treatment with a mixture
+          of 12.5% pentafluorobenzyl bromide in acetonitrile and
+          disopropylethylamine at room temperature for 30 min.
+          After evaporation of reagents, the residue was subjected
+          to TLC plates, using the solvent system
+          chloroform/ethanol (93:7, vol/vol) for PGF 
+          2α and TXB 
+          2 , and ethyl acetate/methanol (93:2,
+          vol/vol) for 6-keto-PGF 
+          1α and PGE 
+          2 . Then PGF 
+          2α was converted to trimethylsilyl
+          ether derivative by treatment with N,O-bis
+          (trimethylsilyl) trifluoroacetamide and
+          dimethylformamide. The methoxime derivative of TXB 
+          2 , PGE 
+          2 and 6-keto-PGF 
+          1α was made by treatment with 2%
+          methoxamine hydrochloride in pyridine at 70°C for 60 min,
+          followed by evaporation of the pyridine, addition of
+          water, and extraction with ethyl acetate. Derivatization
+          was completed by formation of the trimethylsilyl
+          derivatives by treatment with N,O-bis (trimethylsilyl)
+          trifluoroacetamide and pyridine. Eicosanoids were
+          quantified by measuring the ratio of the intensity of
+          ions m/z 569/573 for PGF 
+          2α , m/z 614/618 for TXB 
+          2 and 6-keto-PGF 
+          1α , and m/z 524/528 for PGE 
+          2 . An analytical blank for each of
+          these products was determined by measuring the amount of
+          nondeuterated material, detected after extracting and
+          analyzing 2 ml of saline to which the deuterium-labeled
+          internal standards had been added.
         
         
-          Production of pseudo-typed retrovirus
-          The wild-type IGF-IR cDNA or a mutant cDNA, which
-          contained a methionine substitution for lysine 1003 in
-          the ATP-binding site of the kinase domain, were cloned
-          into the retroviral vector pLPONL [ 57 ] . The
-          pseudo-typed viruses were generated and purified by the
-          UCSD Viral Vector Core. The plasmids were co-transfected
-          into 293 cells with an expression vector for the
-          Vesicular Stomatitis Virus-G protein. This coat protein
-          allows the virus to be concentrated and confers greater
-          tropism. Cell culture supernatants and cells were
-          harvested and the virus concentrated. Viruses were
-          titered on NIH3T3 cells and the number of G418 resistant
-          colonies counted. A control virus containing the E. coli
-          β-galactosidase gene was obtained from the Viral Vector
-          Core.
+          Western analysis
+          After washing with PBS at pH 7.4, pellets were lyzed
+          in solubilization buffer containing 50 mM TRIS at pH 8,
+          1% Tween 20, 10 mM phenylmethylsulphonyl fluoride,
+          diethyldithiocarbamic acid, leupeptin and pepstatin A
+          (all from Sigma Chemical), sonicated, boiled with gel
+          loading buffer (62.5 mM TRIS-HCl, at pH 6.8, 10%
+          glycerol, 2% SDS, 5% β-mercaptoethanol, and bromophenol
+          blue), and centrifuged at 15,000 x 
+          g for 10 min. Equal amounts of
+          protein (70 to 100 μg) were separated by electrophoresis.
+          SDS-PAGE was performed using a 7.5% separating gel with a
+          4% stacking gel. The resolved proteins were transferred
+          electrophoretically to nitrocellulose membranes
+          (Hybond-ECL, Amersham Corp.). After transfer, the filters
+          were incubated overnight at 4°C in a blocking solution
+          (20 mM TRIS base, 137 mM sodium chloride at pH 7.6, 5%
+          powdered milk, 3% BSA), and incubated with primary
+          polyclonal rabbit antibodies against COX-2 at a dilution
+          1:1000 (Cayman Chemical, Ann Arbor, MI), for 1 hour at
+          room temperature. The filters were washed (TBS-0.1% Tween
+          20 at pH 7.6) and incubated with horseradish peroxidase
+          linked secondary antibodies at a dilution 1:4000
+          (Amersham). After washing, the membranes were incubated
+          with luminol based chemiluminescence reagent (DuPont NEN
+          Research Products, Boston, MA).
         
         
-          Growth in Soft Agar
-          Cells were trypsinized and 10 4cells plated in 35 mm
-          petri dishes in complete medium containing 0.35% agarose
-          over a layer of 0.7% agarose in complete medium. Cells
-          were allowed to grow for 14-21 days or until colonies
-          were >125 μm in diameter. Fresh medium was layered
-          above the agarose every 3-5 days. Colonies were stained
-          with Crystal Violet and counted.
+          Northern analysis
+          Cell pellets were lyzed and RNA extracted using the
+          RNeasy method ®(Qiagen), following the manufacturer's
+          instructions. RNA was quantified by determining light
+          absorbance at 260 nm and then fractioned by
+          electrophoresis (10 μg per lane) on a 1% agarose
+          MOPS/formaldehyde gel. The RNA was denatured prior to
+          loading by incubating the RNA at 65°C for 10 min in a
+          loading buffer comprising 1X MOPS, 50% formamide, 6.5%
+          formaldehyde, 5% glycerol, 0.1 mM EDTA, 0.025%
+          bromophenol blue, 0.025% xylene cyanol. The RNA was
+          transferred by gravity-assisted capillary method with 6X
+          SSC to nylon hybridization membrane, and then fixed to
+          the membrane by UV crosslinking (Stratalinker 1200 μj/cm
+          2). Prehybridization and hybridization were performed at
+          42°C and using Quick Hyb ®(Stratagene) as hybridization
+          solution. The COX-2 probe was random primed following the
+          directions of the manufacturer (Megaprime ®,
+          Amersham/Pharmacia). The membrane was then washed at a
+          final stringency of 0.2X SSC, 0.1% SDS, at 60°C for 30
+          min. The membrane was wrapped in plastic wrap and exposed
+          to Kodak XR film at -70°C with intensifier screen
+          overnight.
         
         
-          Tumor Growth in Athymic Nude Mice
-          Housing and all procedures using nude mice were
-          approved by the animal care committee at UCSD. The cells
-          for injection were trypsinized in sterile PBS, pelleted
-          by centrifugation at 300 × g for 2 min. and washed twice
-          in sterile saline. Cells were resuspended in 100 μl
-          sterile saline and counted using a hemacytometer. The
-          appropriate number of cells was diluted into 50 μl
-          sterile saline and then added to an equal volume of
-          sterile Matrigel on ice. This suspension was injected
-          subcutaneously on the rear flank of athymic nude mice
-          using a sterile syringe and 22-gauge needle. Mice were
-          observed on a twice-weekly basis to check for tumor
-          growth. Tumors were measured with calipers in three
-          dimensions and tumor volume calculated assuming the
-          tumors were ellipsoid. At the end of the study, the
-          tumors were excised, measured, weighed, and then fixed in
-          10% formalin. Tumors were embedded in paraffin, sectioned
-          and stained with hematoxylin-eosin or for apoptosis using
-          the TUNEL assay (Roche, Indianapolis, IN).
-        
-      
-      
-        Results and Discussion
-        
-          Inhibition of the IGF-I receptor by expression of a
-          kinase inactive mutant inhibits proliferation of Chinese
-          hamster ovary (CHO) cells
-          Before embarking on studies in human tumor cells, we
-          verified that our dominant negative approach would work
-          in a model system. To inhibit the IGF-IR, we took
-          advantage of the fact that the IGF-I receptor is a
-          hetero-tetramer. Activation of the native receptor
-          requires the trans-phosphorylation of two kinase domains
-          [ 48 ] . Hence, expression of an excess of
-          kinase-defective IGF-I receptors causes the formation of
-          hybrid molecules containing one half an endogenous
-          wild-type receptor and the other half a kinase-defective
-          transfected receptor. These hybrids should be kinase
-          inactive and signaling incompetent. Similar approaches
-          have been used successfully in other studies [ 49 50 51
-          52 ] .
-          Initially, we tested Chinese hamster ovary (CHO) cells
-          that had been stably transfected with expression vectors
-          for kinase-inactive or wild type IGF-I receptors [ 53 ] .
-          The parental CHO cell line expresses ~50,000 endogenous
-          IGF-IRs, the transfected wild-type (CHO-WT) cell line
-          expresses ~250,000 IGF-IRs, and the kinase-defective
-          (CHO-MK) cell line expresses ~250,000 mutant IGF-IRs.
-          Thus, the transfected cells express the human IGF-IR at
-          approximately five fold higher levels than the endogenous
-          receptor. The mutant receptor contains a lysine to
-          methionine (MK) point mutation at position 1003 in the
-          ATP binding site of the kinase domain and has no
-          measurable kinase activity. Two clonal lines expressing
-          the MK receptor were used with identical results.
-          We assessed the ability of the IGF-IRs of each cell
-          line to undergo autophosphorylation in response to
-          increasing concentrations of IGF-I. Cells were stimulated
-          with increasing concentrations of IGF-I, and whole cell
-          lysates immunoblotted for tyrosine-phosphorylated
-          proteins. As expected, autophosphorylation of the IGF-IRs
-          was observed in the CHO and CHO-WT cells but very little
-          was seen in two different clones of CHO-MK cells,
-          indicating that the kinase-defective receptors inhibited
-          the endogenous wild-type hamster receptors (Figure 1A).
-          The inhibition was not complete however, as
-          phosphorylation of IRS1, the major endogenous substrate
-          in these cells, is still preserved at the higher dose of
-          IGFI but inhibited at the lower dose. This is likely due
-          to the level of receptor expression. The transfected
-          receptors are expressed at four fold the level of the
-          endogenous receptors. Assuming stochastic assembly of
-          tetramers, 4% of receptors should be homodimers of
-          signaling competent receptors that can phosphorylate
-          IRS1. To confirm that the kinase-defective receptors were
-          functioning in a dominant-negative fashion, we studied
-          the ability of CHO and CHO-MK cells to incorporate
-          3H-thymidine into DNA in response to IGF-I stimulation.
-          Serum-starved cells were stimulated with increasing
-          concentrations if IGF-I and then pulsed with
-          3H-thymidine. The ability of the CHO-MK cells to
-          incorporate thymidine in response to IGF-I is markedly
-          diminished as compared to the parental cell line (Figure
-          1B).
-          We then tested colony formation in soft agar as an
-          indicator of cellular transformation. Cells were
-          trypsinized, counted and equivalent numbers of cells
-          plated in soft agar in complete medium. Cells were
-          cultured for 14 - 21 days and then the number of colonies
-          counted. Overexpression of the wild-type IGF-IRs
-          increased the number of colonies, and overexpressing the
-          kinase-defective receptors reduced the number of colonies
-          by 60% (Figure 1C). Not only did we observe a difference
-          of the number of colonies, but CHO-MK colonies were
-          smaller than either the parental CHO or CHO-WT colonies
-          (data not shown).
-          We next studied the ability of each of these cell
-          lines to form tumors in athymic nude mice. Ten million
-          (10 7) cells from each cell line were injected
-          subcutaneously into the flanks of five athymic nude mice.
-          Tumor size was measured biweekly. The mice were
-          euthanized at the end of three weeks and the tumors
-          excised and weighed (Figure 1D& 1E). At this high
-          level of innoculum, there was no difference in tumor
-          incidence (data not shown). However, expression of the
-          wild-type IGF-IR accelerated tumor growth and tumors were
-          larger at sacrifice. The kinase defective IGF-IR, on the
-          other hand, delayed the appearance of tumors and smaller
-          tumors were found at sacrifice.
-          The tumors were imbedded in paraffin and sections were
-          stained with hematoxylin and eosin (Figure 2, left
-          panels). The sections were also stained for the presence
-          of apoptosis using the TUNEL method. Apoptotic cells
-          image as fluorescent green (Figure 2, right panels). The
-          typical histology of CHO tumors is shown in panel A.
-          Cells transfected with the wild-type IGF-IR have a more
-          streaming morphology characteristic of human ovarian
-          tumors (Panel B). Cells transfected with the
-          kinase-defective IGF-IR showed a more benign morphology
-          with no invasion of the capsule (Panel C and data not
-          shown). Very few apoptotic cells are seen in the CHO
-          parental and CHO-WT cells, whereas apoptotic cells are
-          seen throughout the tumor from the kinase-defective
-          CHO-MK cells. These results confirm that the kinase
-          defective IGF-IR is able to inhibit tumor growth in a
-          model system.
-        
-        
-          An inhibitory antibody to the IGF-IR inhibits
-          growth of U87 tumors
-          Adenoviral expression of wild-type PTEN can inhibit
-          U87 tumor growth indicating that elevated PI-3Kinase
-          signaling is responsible for the increased proliferation
-          and survival of these cells [ 47 54 ] . Our subsequent
-          studies were designed to test whether interruption of an
-          upstream growth factor signal would have the same growth
-          inhibitory effect as reintroduction of PTEN. To test
-          initially whether the PTEN-deficient U87 glioma cells
-          might be susceptible to inhibition of the IGF-IR, we
-          measured colony formation and tumor growth in the
-          presence of an inhibitory antibody to the human IGF-IR
-          (αIR3). This antibody prevents binding of IGF-I or IGF-II
-          to the extracellular domain of the IGF-IR, and has been
-          shown to prevent the formation of MDA231 tumors in nude
-          mice [ 55 ] . U87 cells were plated in soft agar in the
-          presence of αIR3 or a control antibody. Cells were
-          cultured for 14 days and the number of colonies counted.
-          The presence of the inhibitory antibody reduced the
-          number of colonies growing in soft agar but the control
-          antibody had no effect (Table 1). U87 cells were then
-          injected into nude mice as before. Mice received biweekly
-          intraperitoneal injections of 100 μg of αIR3 or control
-          antibody starting 3 days after injection of the cells.
-          The αIR3 injections reduced the number of tumors by
-          >60% (Table 1). The tumors were excised, fixed and
-          stained for apoptosis. Tumors from mice treated with the
-          αIR3 antibody showed extensive apoptosis unlike control
-          tumors (Figure 3). These results confirm that inhibition
-          of IGF-I signaling by an inhibitory antibody can suppress
-          growth of a PTEN-deficient glioma cell line.
-        
-        
-          Retroviral expression of the kinase inactive IGF-I
-          Receptor inhibits growth of U87 glioblastoma cells
-          in-vivo
-          To make expression of kinase defective IGF-I receptors
-          in different cell lines more tractable, we generated
-          pseudotyped retroviruses expressing either the
-          kinase-defective (MK) or wild-type (WT) IGF-I receptors.
-          We also obtained a virus expressing the
-          beta-galactosidase (LacZ) protein to measure infection
-          efficiency and serve as a virus control. U87 cells were
-          infected with the MK, WT or LacZ viruses and selected
-          with G418. Pools of cells containing stably integrated
-          retroviruses were then used in transformation and tumor
-          growth experiments. Binding studies showed that the
-          U87-LacZ cells express 10 5endogenous IGF-IRs per cell,
-          while the U87-WT and U87-MK cells express 3 × 10 6and 2 ×
-          10 6receptors per cells respectively. Thus, the
-          retrovirus allows 20 to 30-fold overexpression of the
-          transfected receptor.
-          To test the function of the virally encoded receptors,
-          we measured IGF-I stimulated autophosphorylation of the
-          IGF-IR and phosphorylation of IRS-1. Phosphorylation
-          IRS-1 was evident in the LacZ infected cells but little
-          IGF-IR phosphorylation was seen as the cells express few
-          receptors (Figure 4). Infection with the WT virus leads
-          to a large increase in IGF-IR and IRS-1 tyrosine
-          phosphorylation. Infection with the MK virus eliminated
-          the IGF-I stimulated phosphorylation of IRS-1 confirming
-          that the expressed receptor was acting as a dominant
-          negative to inhibit the endogenous receptors. The
-          dominant negative effect is much greater in these cells
-          than the CHO cells (Figure 1) as the virus expresses the
-          transfected receptors at a much higher level.
-          The three infected U87 glioma cells were then injected
-          into nude mice. Eight to twelve mice were studied for
-          each cell line and each mouse received two injections. In
-          two different experiments, mice were inoculated with 10
-          6or 5 × 10 5cells. Tumors were excised after 6 or 10
-          weeks and weighed (Table 2). The WT-infected cells had
-          the highest frequency of tumor formation and the
-          MK-infected cells the lowest in both cases. WT-infected
-          cells gave the largest tumors in both experiments
-          demonstrating that overexpression of the IGF-IR in a
-          malignant cell can enhance tumor formation as we observed
-          for the CHO cells. The MK-infected cells gave fewer
-          tumors in both experiments, but more importantly, those
-          tumors that did form were much smaller. The results
-          obtained with the dominant negative IGF-IR are identical
-          to published results reintroducing PTEN, hence,
-          inhibition of upstream PI-3Kinase signaling might be a
-          useful approach for PTEN-deficient tumors.
-          The tumors were imbedded in paraffin and sections were
-          stained with hematoxylin and eosin (Figure 5). The
-          U87-LacZ tumors are very cellular with small regular
-          nuclei (left panel) and show some invasion of the capsule
-          by tumor cells (right panel). The tumors from U87 cells
-          infected with the IGF-IR virus are also very cellular,
-          but the cells have larger nuclei (left panel) and have
-          completely invaded the capsule (right panel). The tumors
-          from U87 cells infected with the kinase inactive IGF-IR
-          are less cellular with larger areas of stroma (left
-          panel). Numerous irregular nuclei are apparent. There is
-          no invasion of the capsule by tumor cells (right panel).
-          The irregular nuclei and intact capsule are consistent
-          with data from other cells showing that inhibition of
-          IGF-IR expression causes apoptosis and prevents
-          metastasis.
-          The idea that the IGF-IR might be a valuable target
-          for the treatment of brain tumors is supported by a
-          recent pilot study in twelve patients with malignant
-          astrocytomas [ 56 ] . All patients had grade 3 or 4
-          astrocytomas and had failed on standard therapy. The PTEN
-          status of their primary tumors was not known. After
-          surgery, autologous glioma cells were collected and
-          treated ex-vivo with IGF-IR antisense oligos and
-          re-implanted in diffusion chambers for 24 h. Clinical and
-          radiological improvements were seen in eight of the
-          twelve patients. Five patients showed a lymphocytic
-          infiltration after antisense treatment indicating that
-          knocking out the IGF-IR induced an immune response. It
-          would be interesting to determine whether response to
-          this treatment correlated with loss of PTEN in the
-          primary tumors.
+          Statistical methods
+          All results are presented as medians with their range.
+          Comparisons between HF-IPF and HF-NL were done using the
+          Mann-Whitney test. A 
+          P value of <0.05 was considered
+          significant.
         
       
       
-        Conclusions
-        Loss of PTEN is a very common occurrence in human
-        tumors. Restoring PTEN protein or function to reduce
-        PI-3Kinase signaling prevents tumor growth in animal
-        models. However, it may not be possible to restore PTEN in
-        human tumors. Direct inhibition of PI-3Kinase activity may
-        not be feasible either as it is likely to have severe side
-        effects. Our results suggest that a therapeutic strategy to
-        inhibit the upstream stimulus for PI-3Kinase through
-        blockade of growth factor receptors may provide a workable
-        alternative.
+        Results
+        
+          Baseline and stimulated COX-2 activity in HF-IPF
+          and HF-NL
+          Unstimulated eicosanoid production was similar in both
+          HF-IPF and HF-NL (Fig. 1, a-d). When fibroblasts were
+          stimulated with IL-1β there was a significant and similar
+          upregulation of PGE 
+          2 production in both HF-IPF and HF-NL
+          (28.35 [range: 9.09-89.09] versus 17.12 [8.58-29.33]
+          ng/10 6cells/30 min, respectively; 
+          P = 0.25; [Fig. 1a]).
+          IL-1β-stimulated production of TXB 
+          2 (stable metabolite of the active TXA
+          
+          2 ), PGF 
+          2α , and 6-keto-PGF 
+          1α (stable metabolite of PGI 
+          2 ) increased modestly in every case,
+          except TXB 
+          2 production by HF-NL, which decreased
+          (0.75 [0.15-2.58] ng/10 6cells/30 min at baseline versus
+          0.61 [0.21-1.64] ng/10 6cells/30 min with IL-1β
+          stimulation) (Fig. 1b). Results of PGE 
+          2 production were similar when
+          experiments were conducted in serum free media conditions
+          (results not shown).
+          IL-1β stimulated TXB 
+          2 production was significantly greater
+          in HF-IPF (1.92 [1.27-2.57] ng/10 6cells/30 min) than in
+          HF-NL (0.61 [0.21-1.64] ng/10 6cells/30 min; 
+          P = 0.007) (Fig. 1b); baseline TXB 
+          2 production was not significantly
+          different between the two cell groups (1.73 [0.77-2.53]
+          versus 0.75 [0.15-2.58] ng/10 6cells/30 min, in HF-IPF
+          and HF-NL, respectively; 
+          P = 0.17 [Fig. 1b]). Because PGI 
+          2 and TXA 
+          2 have opposing effects 
+          in vivo , we calculated the ratio
+          of their metabolites (6-keto-PGF 
+          1α :TXB 
+          2 ) and found a significantly lower
+          ratio in HF-IPF at baseline (0.08 [0.04-0.52] versus 0.12
+          [0.11-0.89] in HF-IPF and HF-NL, respectively; 
+          P = 0.028) and a similar trend
+          under stimulated conditions (0.24 [0.05-1.53] versus 1.08
+          [0.51-3.79] in HF-IPF and HF-NL, respectively; 
+          P = 0.09 [Fig. 2]).
+        
+        
+          Baseline and stimulated COX-2 expression
+          Western blot in unstimulated fibroblasts showed no
+          detectable COX-2 protein in either group of cells, while
+          IL-1β significantly induced COX-2 to a similar degree in
+          IPF and normal lung fibroblasts (Fig. 3). Northern blot
+          showed minimal COX-2 mRNA in unstimulated cells and
+          significant upregulation of COX-2 mRNA expression when
+          stimulated with IL-1β in both HF-IPF and HF-NL (Fig.
+          4).
+        
+      
+      
+        Discussion
+        Several factors modulate fibroblast proliferation and
+        collagen production, including mitogenic cytokines (e.g.,
+        transforming growth factor β [TGFβ], platelet-derived
+        growth factor [PDGF], basic fibroblast growth factor
+        [bFGF]), eicosanoids (i.e., PGE 
+        2 , TXB 
+        2 , and PGI 
+        2 ), and antifibrogenic cytokines (e.g.
+        IFN-γ) [ 1 2 3 ] . It is very likely that a complex
+        interaction among these factors exists in the tissue repair
+        process, and it is possible that pathologic fibrosis, as in
+        IPF, results from phenotypical alterations in fibroblasts
+        that affect the "normal" interaction of these factors.
+        Our results show that stimulation of primary cultures of
+        human lung fibroblasts with the proximal cytokine IL-1β
+        upregulates COX-2 protein and mRNA expression to a similar
+        degree in normal and IPF fibroblasts. TXA 
+        2 production tended to be greater in IPF
+        than in normal fibroblasts at baseline; when stimulated
+        with IL-1β this difference became statistically
+        significant. The ratio of PGI 
+        2 to TXA 
+        2 metabolites was lower in IPF
+        fibroblasts at baseline and with IL-1β stimulation. The
+        above results suggest that a decreased PGI 
+        2 :TXA 
+        2 ratio could be a phenotypic alteration
+        present in IPF fibroblasts, resulting in a loss of their
+        capacity to autoregulate proliferation and extracellular
+        matrix production.
+        The effects of PGs on cell proliferation and collagen
+        production have been widely studied in different cell types
+        [ 13 14 15 16 17 26 ] . TXA 
+        2 has been studied extensively because
+        of its apparent role in atherosclerosis, due to its
+        prothrombotic and mitogenic activities on vascular smooth
+        muscle cells [ 15 16 ] . These mitogenic effects are
+        potentiated by growth factors [ 15 16 27 28 ] . In vascular
+        smooth muscle cells TXA 
+        2 stimulates synthesis of bFGF and
+        increases the expression of the proto-oncogenes 
+        c-fos , 
+        c-myc , and 
+        egr-1 , which are associated with
+        entry into the cell growth cycle [ 15 ] . In addition, TXA 
+        2 increases proliferation of fibroblasts
+        [ 13 ] and smooth muscle-like glomerular mesangial cells [
+        14 ] .
+        On the other hand, PGI 
+        2 decreases vascular smooth muscle cell
+        proliferation and collagen and glycosaminoglycane
+        synthesis, via activation of adenylyl cyclase and
+        subsequent production of cAMP [ 17 ] . Betaprost, an analog
+        of PGI 
+        2 , decreases procollagen I and III mRNA
+        expression in cardiac fibroblasts [ 18 ] . These effects
+        may counteract the profibrotic effects seen with TXA 
+        2 and it is possible that an alteration
+        of a "normal" physiologic balance between PGI 
+        2 and TXA 
+        2 could increase tendency towards
+        fibrogenesis.
+        It is important to mention that our experiments were
+        conducted at similar passage levels (passage 6 to 8) in
+        both groups, since senescence of fibroblasts is associated
+        with a shift from the biosynthesis of PGI 
+        2 to TXA 
+        2 [ 24 25 ] . It is possible that the
+        difference seen in our study between HF-IPF and HF-NL could
+        result from comparing fibroblasts of different ages. HF-IPF
+        might have been harvested from fibrotic lesions where
+        fibroblasts had previously undergone a greater number of
+        cell divisions than HF-NL, obtained from nonfibrotic lungs.
+        Although this is a possibility, the age-related shift in PG
+        production has only been shown at very high cell passages
+        and has not been documented 
+        in vivo .
+        We also found that both HF-IPF and HF-NL had similar PGE
+        
+        2 production at baseline, and a similar
+        increase when stimulated with IL-1β. PGE 
+        2 can decrease fibroblast proliferation
+        and collagen synthesis, and increase collagen degradation [
+        5 6 7 8 ] .
+        Recent reports suggesting decreased COX-2 expression and
+        PGE 
+        2 production in IPF fibroblasts have
+        received significant attention [ 12 20 21 ] . In our study
+        we found that both COX-2 protein expression and PGE 
+        2 production were upregulated to a
+        similar degree in IPF and normal lung fibroblasts. We
+        believe that differences in methodology and patient
+        selection may explain the discrepancies with other studies.
+        Vancheri and collaborators [ 20 ] found that
+        TNF-α-stimulated fibrotic lung fibroblasts had decreased
+        COX-2 expression and PGE 
+        2 production, but they further showed
+        that these findings were a result of decreased expression
+        of TNF-α receptors. The latter finding would argue against
+        a primary defect in COX-2 expression, since no other
+        stimulus, other than TNF-α, was tested. In another study,
+        Keerthisingam 
+        et al. [ 21 ] reported that fibrotic
+        lung fibroblasts had decreased COX-2 expression and PGE 
+        2 production in response to TGFβ
+        stimulation. This study differed from ours in that a
+        different stimulus was used. Of significance is the fact
+        that the COX-2 gene is known to be NF-κB dependent, and
+        IL-1β, but not TGFβ, is a potent inducer of NF-κB
+        activation. Hence, the pathway involved in the induction of
+        the COX-2 gene by IL-1β and TGFβ may be different.
+        Furthermore, a significant proportion of the fibroblasts
+        used in the study by Keerthisingam 
+        et al. [ 21 ] were obtained from
+        patients with systemic sclerosis, which makes their
+        fibroblast population more heterogeneous.
+        Wilborn 
+        et al. [ 12 ] also reported a
+        decreased production of PGE 
+        2 by IL-1β-stimulated IPF fibroblasts,
+        due to decreased COX-2 expression [ 12 ] . There is a
+        possibility that patient selection may have differed
+        between the two studies. However, we feel certain that the
+        diagnostic accuracy of our patient population was high, due
+        to the fact that 5 out of a total of 7 IPF subjects
+        included in our study underwent lung transplantation with
+        confirmatory pathology results consistent with IPF. The
+        other 2 subjects had biopsy-proven IPF. In addition, our
+        results were similar when comparing lung fibroblasts
+        obtained from 5 subjects with advanced stage IPF with those
+        of 2 subjects at an earlier stage of their disease, who had
+        received no therapy. Although the reasons for our different
+        results are unclear, the fact that we found similar COX-2
+        expression and PGE 
+        2 production in normal and IPF lung
+        fibroblasts suggests that loss of COX-2 expression is not a
+        universal characteristic of fibroblasts cultured from the
+        lungs of subjects with IPF.
+      
+      
+        Conclusion
+        We have found that fibroblasts cultured from normal and
+        IPF human lungs have a significant and similar induction of
+        the COX-2 enzyme when stimulated with IL-1β, but that IPF
+        fibroblasts produced more thromboxane and had a
+        significantly lower prostacyclin:thromboxane ratio. We
+        hypothesize that the lower PGI 
+        2 :TXA 
+        2 ratio seen in HF-IPF may be a
+        phenotypic alteration that plays a role in the pathogenesis
+        of IPF.
       
       
         Abbreviations
-        PIP3: Phosphatidyl-3,4,5-triphosphate; DMEM: Dulbecco's
-        Modified Eagle's Medium; PI-3Kinase:
-        phosphatidylinositol-3-kinase; MAPK: mitogen-activated
-        protein kinase; IGF: insulin-like growth factor; PTEN:
-        phosphatase and tensin homolog deleted from chromosome 10;
-        SOS: son-of-sevenless ras exchange factor; ASK: apoptosis
-        stimulating kinase; FKHR: forkhead related protein; cFLIP:
-        cellular FLICE interacting protein; BSA: bovine serum
-        albumin; TBS: tris buffered saline; PVDF: polyvinylidene
-        difluoride
-      
-      
-        Competing Interests
-        None declared.
-      
-      
-        Author Contributions
-        B.L.S. conducted the studies on CHO cells and the
-        inhibitory antibody studies on U87 cells. G.S. performed
-        the tumor growth studies with the U87 cells. N.J.G.W.
-        constructed the pseudotyped retroviruses and drafted the
-        manuscript.
+        COX = cyclooxygenase; HF = human fibroblasts; NL =
+        normal lungs; IPF = idiopathic pulmonary fibrosis; IFN =
+        interferon; IL = interleukin; PG = prostaglandin; TX =
+        thromboxane; PGI 
+        2 = prostacyclin.
       
     
   

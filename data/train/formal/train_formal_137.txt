@@ -3,770 +3,586 @@
     
       
         Background
-        Chemokines are small, positively charged, secreted
-        proteins that consist of an N-terminal region of variable
-        conformation, three antiparallel beta-pleated sheets
-        connected by loops, and a C-terminal alpha helix [ 1 ] .
-        These proteins are multifunctional, with different regions
-        of the molecules, in particular the N- and C-termini,
-        performing specific functions [e.g. [ 1 2 3 4 ] ].
-        Chemokines are best known for their functions in
-        attracting and activating leukocytes. Shortly after injury,
-        these small cytokines are primarily produced by
-        fibroblasts, chemoattract leukocytes and activate their
-        integrins causing them to adhere strongly to the
-        endothelial cells as a prelude to their migration through
-        the blood vessel wall to the underlying tissue and towards
-        the source of the chemokine [ 5 ] . In addition to these
-        functions during the early stages of wound healing, these
-        small cytokines are also known to be involved in
-        re-epithelialization, angiogenesis and granulation tissue
-        development [ 3 6 7 8 ] , processes that are critical for
-        proper healing.
-        The first evidence that chemokines are associated with
-        wound healing 
-        in vivo was reported in 1990 using
-        the chemokine cCAF (chicken Chemotactic and Angiogenic
-        Factor; the product of the 9E3 gene), a CXC chemokine that
-        is now known to be the ortologue for human IL-8 [ 9 ] .
-        cCAF is expressed to high levels very shortly after
-        wounding and during the first 24-48 hours after injury, and
-        remains elevated for at least 16 days after wounding [ 6 10
-        ] . It is primarily expressed by the fibroblasts of the
-        granulation tissue, especially where interstitial collagen
-        (Coll) is abundant, but the levels are also high in the
-        endothelial cells of the microvessels, in the healing
-        epidermis and in the connective tissue beneath the skin [ 6
-        11 ] . In the chicken chorioallantoic membrane (CAM) assay,
-        low concentration of cCAF results in chemotaxis of
-        monocyte/macrophages and lymphocytes and the formation of a
-        granulation-like tissue beneath the chemokine-containing
-        pellet [ 3 ] . After four days of exposure to this
-        chemokine, the ectoderm of the CAMs becomes thickened and
-        the amount of fibrillar collagen in the tissue is markedly
-        increased, strongly suggesting that cCAF is able to
-        initiate some of the primary events that lead to
-        granulation tissue formation [ 3 ] .
-        Fibroblasts are important cells in the healing process.
-        Upon injury, they are activated by the cytokines and growth
-        factors released during the coagulation process to produce
-        chemokines and additional cytokines and growth factors that
-        are important in setting up the cascade of events that lead
-        to granulation tissue formation. Activated fibroblasts
-        proliferate and migrate across the provisional matrix
-        formed by the fibrin-plasma fibronectin (FN) clot. As the
-        clot is digested by plasmin, fibroblasts replace it with
-        cellular FN, tenascin (TN) and Coll III [ 12 13 ] . These
-        extracellular matrix proteins are critical for migration of
-        endothelial cells, keratinocytes and additional fibroblasts
-        into the wound and are important for proper generation of
-        healthy healing tissue. Some of the fibroblasts
-        differentiate into myofibroblasts, which contract to close
-        the wound [ 4 14 15 ] . Myofibroblasts are fibrogenic,
-        showing elevated expression of interstitial collagens,
-        laminin, FN and TN, and inhibitors of matrix
-        metalloproteinases such as TIMP-1 [ 15 16 17 18 19 ] .
-        Because cCAF is expressed highly in the granulation tissue
-        of wounds in areas where ECM is abundant [ 3 6 11 ] , and
-        it stimulates fibroblasts to differentiate into
-        myofibroblasts [ 4 ] , we investigated whether this
-        chemokine stimulates the production of the four major ECM
-        molecules mentioned above, interstitial Colls I and III, TN
-        and cellular FN. Here we show that cCAF stimulates cultures
-        of fibroblasts to produce TN, FN, and Coll I, albeit with
-        different dynamics and that these ECM molecules are also
-        increased in wounded tissues treated with cCAF.
+        The lower urinary tract serves to store and periodically
+        eliminate urine. The activity of the urinary bladder and
+        the external urethral sphincter must be properly
+        coordinated in order for continence to be maintained and
+        timely micturition to occur. Effective micturition requires
+        the coordination of central and peripheral nervous system
+        structures that activate sympathetic, parasympathetic and
+        somatic motor pathways innervating the bladder and the
+        urethra (for a recent review see [ 1 ] ).
+        Pathophysiological conditions and pharmacological
+        manipulations that affect central and/or peripheral nervous
+        system structures involved in micturition may alter the
+        function of these two organs [ 2 ] .
+        Atypical antipsychotic (neuroleptic) agents are favored
+        over traditional antipsychotic medication (e.g.
+        haloperidol) because of their lower incidence of
+        extrapyramidal side effects, their greater efficacy in
+        improving negative symptoms of schizophrenia, and their
+        effectiveness in treating schizophrenic patients not
+        responding to conventional neuroleptics [ 3 ] . However,
+        side effects continue to pose a challenge to effective
+        treatment [ 4 ] . These novel neuroleptics display a
+        complex pharmacological profile with affinities for several
+        receptor systems but are generally characterized by a
+        greater affinity for the 5-HT2A receptor than for the
+        target of the traditional neuroleptics, the D2 receptor [ 4
+        5 ] .
+        We have shown recently that the atypical antipsychotic
+        clozapine, and to a lesser extent haloperidol, markedly
+        influenced several micturition parameters in anesthetized
+        rats [ 6 ] . Clozapine decreased the micturition volume
+        while increasing bladder capacity, thus increasing residual
+        volume [ 7 ] . Moreover, clozapine profoundly depressed the
+        activity of the external urethral sphincter (EUS).
+        Clozapine abolished the electromyogram (EMG) recorded from
+        the EUS during the rising phase of a bladder contraction
+        before urine is voided (similar to the "guarding reflex" [
+        8 9 ] ). In addition, clozapine also abolished the high
+        frequency oscillations in the bladder pressure and
+        accompanying bursts in the external urethral sphincter EMG,
+        that are present during the expulsion phase of the
+        micturition profile of the rat [ 7 ] . In the clinical
+        literature, clozapine therapy is associated with a high
+        incidence (up to 44% in a recent study [ 10 ] ) of urinary
+        incontinence and enuresis.
+        Olanzapine is a newer atypical antipsychotic agent with
+        a pharmacological profile very similar to that of clozapine
+        [ 11 ] . In human brain tissue, olanzapine displays very
+        high affinity for the H1 histamine receptor, high affinity
+        for 5-HT2A and 5-HT2C receptors [ 12 ] . In addition it
+        also shows affinity for D2, muscarinic, and alpha1
+        receptors, with lower affinity for alpha2, 5-HT1D and
+        5-HT1A receptors (Table 1 [ 12 ] ).
+        Olanzapine therapy is associated with a number of side
+        effects, including somnolence, agitation, nervousness,
+        headaches, dizziness, weight gain, constipation and dry
+        mouth [ 5 ] . Olanzapine, however, does not produce
+        extrapyramidal side effects, postural hypotension or
+        hemotoxicity (a particular problem for patients on
+        clozapine therapy [ 13 ] ). Although urinary retention as a
+        result of olanzapine therapy may be predicted from binding
+        studies due to olanzapine's antimuscarinic activity [ 12 ]
+        only 1 case report of micturition disturbance associated
+        with olanzapine has recently appeared [ 14 ] . On the other
+        hand, several reports of urinary disturbances due to
+        clozapine can be found in the clinical literature [ 3 10 15
+        ] .
+        Risperidone, another novel atypical neuroleptic, shows
+        very high affinity for 5HT-2A receptors with lower affinity
+        for D2 receptors. In terms of profile risperidone binds
+        5HT2A>>alpha1=H1>D2>alpha2 (Table 1 [ 12 16 ]
+        ). Risperidone displays little or no affinity for the
+        muscarinic receptor [ 11 12 16 ] and yet risperidone
+        therapy has been associated with urinary incontinence (28%
+        in some cases [ 17 18 19 ] ).
+        We undertook this study to examine the effects of
+        olanzapine and risperidone on the cystometrogram of
+        anesthetized rats. These two novel atypical neuroleptic
+        compounds are used in clinical practice and it might be
+        important to identify possible side effects that may have
+        an impact on compliance to therapy or adversely affect the
+        patient's quality of life (e.g. persistent urinary
+        incontinence). Based on our previous findings with
+        clozapine, and given the similarity in pharmacological
+        profiles between olanzapine and clozapine, we hypothesized
+        that olanzapine might also result in changes in urodynamic
+        variables and/or external urethral sphincter EMG.
+        Risperidone provides an interesting comparison to
+        olanzapine since it has a similar pharmacological profile
+        to olanzapine but without the antimuscarinic activity. In
+        this study olanzapine had greater effects than risperidone
+        but both decreased micturition volume and increased
+        residual volume in anesthetized rats. In addition, they
+        inhibited the activity of the external urethral sphincter.
+        Olanzapine, but not risperidone, also had peripheral
+        effects that reduced bladder contraction amplitude to
+        electrical stimulation of the pelvic nerve.
       
       
         Results
         
-          Effects of cCAF and its peptides on the production
-          of TN
-          In adults, TN, specifically TN C, is present almost
-          exclusively in the granulation tissue of healing wounds [
-          12 24 ] . In addition to providing a matrix for rapid
-          migration of cells during wound repair, TN supports
-          differentiation of fibroblasts into myofibroblasts [ 25 ]
-          , which then produce more TN than do normal fibroblasts [
-          15 18 ] . Because cCAF stimulates fibroblasts to
-          differentiate into myofibroblasts, we tested the
-          possibility that this chemokine also affects TN
-          production. Immunolabeling of cells treated daily for
-          four days with 750 ng/ml of the chemokine showed that
-          cCAF stimulates the cells to produce more TN than the
-          control cells (Fig. 1A& 1B). We have previously
-          determined, using dose-dependent studies, that this
-          concentration is optimal for functions of this chemokine
-          on these embryonic fibroblasts and in processes of
-          granulation tissue formation [ 3 4 ] ). Although
-          chemokine concentrations of 10 -2-10 ng/ml can
-          chemoattract and activate leukocytes, chemokines acting
-          on other cell types such as endothelial cells, smooth
-          muscle cells and fibroblasts require concentrations in
-          the range of 10 2ng/ml and higher [ 4 26 27 28 ] . This
-          is within physiological range; for example wound fluid
-          from burn patients contain MGSA (a chemokine that is
-          highly homologous to cCAF) concentrations of 10 2-10
-          3ng/ml [ 29 ] . Because both the N-terminal and
-          C-terminal peptides of cCAF have been shown to be
-          functional in culture and 
-          in vivo (1-4, 30), we also tested
-          these two peptides (Fig. 1). The N-terminal 15aa peptide
-          produced an effect at least as strong as the whole
-          molecule (Fig. 1C) whereas the effects of the C-terminal
-          peptide (28aa) was closer to those of the control (Fig.
-          1D). Western blot analysis of extracts from treated
-          fibroblasts confirmed that cCAF increases production of
-          TN in culture, that this effect also can be accomplished
-          effectively by the N-peptide, but that the C-peptide
-          produced an elevated, but substantially smaller, response
-          than either the N-peptide or the whole cCAF molecule
-          (Fig. 1E). To determine whether cCAF stimulates TN
-          expression we examined the levels of mRNA for this ECM
-          molecule. RT-PCR analysis showed significant increased
-          levels of mRNA for TN after treatment with either cCAF or
-          its N-peptide (Fig. 1F) but the increase stimulated by
-          the C-terminus is much smaller correlating with the small
-          increase in protein levels.
-          To determine whether this effect is also observed 
-          in vivo , excision wounds were made
-          on the underside of wings of 2 week-old chicks. To avoid
-          variations in genetic background, for each bird one wing
-          was treated with vehicle and the other with cCAF, and
-          treatments were applied every other day for 5 days. In
-          normal wound healing, TN appeared at days 2-3 and
-          disappeared during remodeling which begins around day 10
-          after wounding. Therefore, tissues were collected at days
-          3 and 7 after wounding and analyzed for TN by
-          immunostaining and western blot analysis (Fig. 2A&
-          2B). Immunoblot analysis of protein extracted from
-          control wounds confirmed that TN deposition begun by 3
-          days and that it increased dramatically by 7 days (Fig.
-          2C, Control). In contrast, by 3 days, cCAF-treated wounds
-          already contained as much TN as the control at 7 days and
-          that by 7 days, the TN is dramatically reduced by the
-          ongoing processes of repair (Fig 2C, cCAF). Thus, the
-          addition of the chemokine to wounds shifts the peak of TN
-          in the wound tissues to earlier stages of wound healing
-          than in control wounds.
+          Effects of olanzapine and risperidone on single
+          cystometry parameters (Tables 2and 3)
+          Olanzapine had no effect on bladder capacity (Fig 3A)
+          and risperidone increased BC only at the highest dose (10
+          mg/kg; Fig 2I,J; 3A) when the bladder capacity was 0.54
+          ml (S.E.M = ±0.08; Table 3) compared to 0.35 ml (±0.097)
+          for vehicle-injected control.
+          Micturition volume, however, was decreased by both
+          olanzapine and risperidone. The mean micturition volume
+          in the olanzapine group after administration of vehicle
+          was 0.2 ml (±0.0.37). However, after 0.1 and 1.0 mg/kg
+          the micturition volume dropped to 0.08 ml (±0.014) and
+          0.04 ml (±0.006), respectively (Fig. 3B; Table 2).
+          Similarly, the risperidone group had a mean micturition
+          volume of 0.27 ml (±0.072) after vehicle injection, but
+          there was a significant decrease to 0.1 ml (±0.019) and
+          0.12 ml (±0.016) after 0.1 and 1.0 mg/kg of risperidone
+          (Fig. 3B; Table 3). At 10 mg/kg of risperidone, the
+          micturition volume was 0.19 ml (± 0.036) which was not
+          statistically different from the control values.
+          Consequently, the residual volume showed significant
+          increases after 0.1 and 1 mg/kg doses of olanzapine (76 ±
+          5.3 and 89 ± 2.4%, respectively; Fig 3C) and after all
+          doses of risperidone (maximal effect at 0.1 mg/kg; 70 ±
+          7.8%; Fig. 3C).
+          Olanzapine had no effect on pressure threshold;
+          however, risperidone at 1 and 10 mg/kg resulted in a
+          significant increase in the pressure threshold (5.0 ±
+          1.02 and 5.8 ± 1.02 mm Hg, respectively; Fig. 4A)
+          compared to the value observed during administration of
+          vehicle (2.4 ± 0.62 mm Hg). The peak pressure during
+          contraction was not changed by any of the doses of
+          olanzapine tested in this study (Fig. 4B). Interestingly,
+          10 mg/kg of risperidone showed a modest, but
+          statistically significant increase in peak contraction
+          pressure (13.7 ± 1.34 mm Hg compared to control value of
+          11.5 ± 0.95 mm Hg; Fig. 4B).
+          The contraction time was not affected by either
+          olanzapine or risperidone (Fig. 5A) but the expulsion
+          time (the time during which the HFO occur) was
+          significantly decreased by both (Fig. 1; Fig. 2; Fig.
+          5B). Olanzapine decreased the expulsion time from 2.6
+          (±0.55) sec after vehicle injection to 0.9 (±0.38) and 0
+          sec after 0.1 and 1.0 mg/kg, respectively (Fig. 5B). The
+          risperidone group had an expulsion time of 3.6 (±0.83)
+          sec after control and it decreased to 1.5 (±0.34) and 1.4
+          (±0.35) sec after 0.1 and 1 mg/kg of risperidone (Fig
+          5B). At 10 mg/kg of risperidone, the expulsion time was
+          2.2 (± 0.46) sec.
+          Similarly, olanzapine significantly decreased the
+          amplitude of high frequency oscillations (HFO) from a
+          control value of 1.6 (±0.19) to 1.0 (±0.38) mm Hg at 0.1
+          mg/kg and abolished the HFO in all animals tested at 1
+          mg/kg (Fig. 1; 5C). Risperidone also reduced the
+          amplitude of the HFO from 1.6 (±0.19) to 1.0 (±0.22), 0.9
+          (±0.18) and 1.1 (± 0.22) mm Hg after 0.1, 1 and 10 mg/kg
+          of risperidone (Fig. 2; 5C).
         
         
-          Effects of cCAF and its peptides on the production
-          of FN
-          Cellular FN is abundantly present in granulation
-          tissue, is produced primarily by the wound fibroblasts
-          and myofibroblasts. Fibroblast cultures treated as for
-          TN, produced much more FN, as shown by immunolabeling
-          (Figs. 3A& 3B) and immunoblot analysis (Fig. 3E).
-          Unlike TN, this effect can only be accomplished by the
-          whole cCAF molecule; immunolabeling and immunoblot
-          analysis of cells treated with the N-peptide (Fig.
-          3C& 3E) or C-peptide (Fig. 3D& 3E) revealed
-          similar FN levels to control. Unlike TN, cCAF did not
-          affect FN mRNA levels (Fig. 3F). 
-          In vivo , immunostaining for FN, 3
-          days after making excision wounds, showed that levels of
-          this protein are high in the healing tissues and that
-          treatment with cCAF increased FN accumulation in the
-          granulation tissue (Fig. 4A& 4B). Immunoblot analysis
-          for FN extracted from excision wounds showed that by 3
-          days after injury the cCAF-treated wounds contained more
-          FN than the control wounds but that the levels by 7 days
-          are similar to those of the control (Fig. 4C).
-          Taken together the results in culture and 
-          in vivo suggest that the chemokine
-          does not stimulate FN gene expression but rather may
-          directly or indirectly affect stability of this protein.
-          Therefore, we tested the possibility that cCAF treatment
-          leads to stability of the protein by stimulating decrease
-          in matrix degrading enzymes. In chickens, plasmin
-          generated from plasminogen by plasminogen activator (PA)
-          degrades much of the FN. To investigate whether activity
-          of PA might be decreased with cCAF treatment leading to
-          accumulation of FN, we examined the levels of PA
-          activity. Our results showed that there is no detectable
-          PA activity in untreated or treated fibroblasts whereas
-          the activity is high in RSV-transformed CEFs (tCEFs; Fig.
-          5A) which are known to produce high levels of PA [ 31 ] .
-          Because PA does not appear to be activated by cCAF, we
-          tested the possibility that the stability of FN is due to
-          a decrease in MMP production/activation. In humans,
-          MMP-3, MMP-7 and MMP-10 (stromelysins) are the most
-          active proteases for FN, but these molecules have not
-          been isolated in chickens. However, we can test for
-          general activity of these MMPs in the chicken system by
-          zymography using casein as substrate (Fig. 5B). Whereas
-          the positive control (trypsin) was able to digest the
-          substrate at specific sites in the gel, the supernatants
-          of our treated fibroblasts did not. This suggests that
-          the stromelysins are not active in this system or that
-          our test is not sensitive enough. To further investigate
-          whether MMPs are involved in the cCAF induced high levels
-          of FN will require evaluation of matrix-degrading enzymes
-          specific for chickens and is an ongoing project in our
-          laboratory as we obtain/develop probes for theses MMPs.
-          However, another possible mechanism for the cCAF-induced
-          FN accumulation could be linked to an increase in TN.
-          TN-C knockout mice show decreased accumulation of FN in
-          wounded tissue and this decrease has been hypothesized to
-          be due to disrupted incorporation of FN into the matrix
-          in the absence of TN-C [ 32 33 ] . To determine whether
-          cCAF-induced TN production is involved in the increase in
-          FN observed after cCAF treatment, we used antisense
-          phosphothioated oligonucleotides to inhibit TN
-          production. Sense oligonucleotides did not have an effect
-          on cCAF-induced TN or FN production. However, the
-          antisense oligonucleotides were able to significantly
-          decrease the production of both TN and FN (Fig. 5C).
+          Effects of olanzapine and risperidone on the
+          external urethral sphincter (Tables 2and 3)
+          The EMG recorded from the urethral sphincter during
+          bladder contractions also showed changes after
+          risperidone or olanzapine. Phase 1 of the EMG, occurring
+          during the initial rise in bladder pressure during a
+          contraction, was significantly decreased by olanzapine at
+          0.1 and 1 mg/kg to 76 (±1.9) and 47 (±6.0) percent of the
+          control value (Fig. 1F;1H; 6A). However, risperidone had
+          no significant effect on the EMG during phase 1 (Fig
+          6A).
+          Phase 2, which corresponds to the occurrence of high
+          frequency oscillations, showed significant decreases in
+          the integrated EMG following olanzapine or risperidone
+          administration. 0.1 mg/kg of olanzapine significantly
+          decreased the overall EMG during this phase to 42
+          (±11.4)% of the control value, and 1.0 mg/kg of
+          olanzapine abolished the bursting pattern of EMG (Fig
+          1G;1H; Fig 6B). While risperidone also decreased the
+          Phase 2 EMG, the maximal decrease was 47 (±12.7)% at 1.0
+          mg/kg when compared to control (Fig 6B) and the bursting
+          pattern was not abolished. At 10 mg/kg of risperidone,
+          the phase 2 EMG was 71 (± 22) % and was not significantly
+          different from vehicle.
+          Phase 3 of the EMG during a bladder contraction also
+          showed significant changes following olanzapine or
+          risperidone (Fig 6C). Both drugs significantly decreased
+          the amount of integrated EMG but 0.1 mg/kg olanzapine had
+          a more profound effect (Fig 6C), reducing the EMG to 35
+          (±5.2) % of the control value at 1.0 mg/kg compared to 68
+          (±8.0) % of control after a similar dose of risperidone.
+          At 10 mg/kg of risperidone the EMG was 73 (± 9.0) % of
+          vehicle.
+          Finally, while risperidone had no effect on the
+          amplitude of the EMG bursts occurring the expulsion phase
+          (Fig 1; Fig 6D), olanzapine abolished bursting of the EMG
+          at 1.0 mg/kg in all animals tested (Fig 1H; 6D).
         
         
-          Effects of cCAF and its peptides on the production
-          of Colls I and III
-          To determine whether cCAF stimulates fibroblasts to
-          produce increased levels of Colls I and III, we treated
-          cultures as for TN. Immunoblot analysis for Coll I showed
-          that cCAF, but not the N- or C-peptides, caused a small
-          increase in Coll I protein levels (Fig. 6A). Probing the
-          same blots for Coll III revealed no cCAF-induced
-          difference in the level of production of this protein
-          (Fig. 6B). 
-          In vivo, Coll I was also slightly
-          increased by treatment with the chemokine at 3 days after
-          wounding but did not increase to higher levels than the
-          control at 7 days, whereas the same blots probed for Coll
-          III showed similar levels in treated and control at both
-          3 and 7 days (Figure 6C).
-          The effect on Coll I could be due to remodeling of
-          this protein by proteases induced by the chemokine.
-          Therefore, we tested whether cCAF affects the production
-          or activity of the gelatinases MMP-2 or MMP-9, or the
-          collagenase MMP-1, all of which digest collagens I and
-          III. Using zymography, we found that treatment with cCAF
-          or the peptides does not alter the levels of proMMP-2 and
-          there was no detectable levels of proMMP-9 (Fig. 7A).
-          However, immunoblot analysis using a polyclonal antibody
-          to human MMP-1 (this reagent is not available for the
-          chicken homologue of this matrix metalloproteinase)
-          showed that cCAF treatment caused a decrease in the
-          amount of the collagenase MMP-1 detected, but neither
-          TIMP-1 nor TIMP-2 (two natural inhibitors of these MMPs)
-          levels were changed, as evaluated by immunoblot analysis
-          with a monoclonal antibody to the corresponding human
-          proteins (Fig. 7B).
+          Effects of olanzapine and risperidone on blood
+          pressure
+          Both olanzapine and risperidone decreased mean
+          arterial pressure (MAP) in anesthetized rats (Fig. 7).
+          Risperidone produced significant effects at all the doses
+          tested, with a maximum drop in MAP of approximately 46 mm
+          Hg at 1 mg/kg (Mean = 44 mm Hg; SEM ±1.37). Olanzapine
+          showed a significant decrease in MAP at 1.0 mg/kg with a
+          maximum drop of approximately 26 mm Hg (Mean = 55 ± 3.76
+          mm Hg). In two animals where olanzapine was administered
+          at 10 mg/kg, there was no further reduction in MAP (Mean
+          = 57 ± 4.95 mm Hg), however, significant respiratory
+          depression was observed and therefore we excluded this
+          dose for the remaining animals receiving olanzapine.
         
         
-          Effects of cCAF on migration of fibroblasts
-          During healing, fibroblasts migrate into and within
-          the wounded tissue and lay down the extracellular matrix
-          that forms the granulation tissue. These ECM molecules,
-          especially TN and FN together, stimulate cell migration,
-          thereby facilitating the entrance and movement of
-          additional fibroblasts and of endothelial cells into the
-          wound tissue. Because tissues treated with cCAF have more
-          FN and TN at the time that these cells are entering the
-          wound and chemokines are well known for their
-          chemoattractant properties [ 34 35 ] , we tested whether
-          cCAF stimulates chemotaxis of fibroblasts using transwell
-          assays. To avoid effects of gravity on cell migration,
-          the top chamber was inverted, the cells were plated on
-          the underside of the membrane, allowed to adhere to it
-          and then the chamber was turned right side up. The cells
-          were incubated overnight in standard medium to allow
-          expression of the cCAF receptor(s) and the following day
-          cCAF was applied at increasing doses (100-1000 ng/ml) to
-          the top chamber only. The migration assays were carried
-          out for 24 hrs. We found that cCAF stimulated migration
-          of the fibroblasts up the concentration gradient in a
-          dose-dependent manner (Fig. 8A). To test whether the
-          cCAF-induced effect is due to chemotaxis, we repeated the
-          transwell assay and compared cell migration when cCAF is
-          added to both wells. Placing cCAF in both wells abrogated
-          cell migration, strongly suggesting that this protein
-          chemoattracts fibroblasts (Fig 8B). We also tested the
-          effects of the chemokine on migration by using the
-          cloning ring assay. In a specified length of time, cells
-          treated with cCAF moved a longer distance than did
-          control cells, corroborating the previous results that
-          the chemokine stimulates cell motility (Fig. 8C). 
-          In situ hybridization for cCAF
-          showed that the migrating fibroblasts also express higher
-          levels of cCAF (Fig. 8D& 8E; see also ref. [ 36 ]
-          ).
+          Effects of olanzapine and risperidone on bladder
+          contractions elicited by electrical stimulation of the
+          pelvic nerve
+          Prolonged electrical stimulation of the pelvic nerve
+          elicits a sustained bladder contraction with two
+          components. An initial rise in bladder pressure (Phase I;
+          Fig. 8A) that is resistant to muscarinic blockade and a
+          sustained part of the contraction (Phase II or plateau
+          phase) that is very sensitive to anti-muscarinic agents [
+          20 21 ] . Olanzapine at 1 and 10 mg/kg reduced the
+          amplitude of Phase I to 79 and 74% of the control values,
+          respectively (Fig. 8A;B). Risperidone, on the other hand,
+          significantly increased the amplitude of phase I after 10
+          mg/kg (116% of control).
+          The plateau phase, or phase II of the pelvic nerve
+          induced bladder contraction was significantly reduced by
+          olanzapine (Fig. 8A; 6C). At 1 and 10 mg/kg, the response
+          was 47 and 33% of the control values, respectively.
+          Risperidone had no effect on Phase II amplitude (Fig. 8A;
+          8C).
         
       
       
         Discussion
-        The work presented here shows that cCAF, the IL-8 of
-        chickens, stimulates expression of several ECM molecules
-        important in development of the granulation tissue. We show
-        that: 
-        (i) cCAF stimulates TN expression and
-        that a 15 aa peptide containing the N-terminal sequence
-        causes the same effects as the whole molecule; 
-        (ii) in contrast to its effects on TN
-        production, cCAF-induced increase in FN and Coll I
-        accumulation requires the whole molecule; 
-        (iii) the increase in FN protein is not
-        a result of a corresponding increase in mRNA, or increase
-        in MMP production or PA activity but appears to be linked
-        TN production; 
-        (iv) increase in Coll I correlates with
-        decreased levels of MMP-1; 
-        (v) cCAF chemoattracts fibroblasts and
-        accelerates their migration; 
-        (vi) treatment of excision wounds with
-        cCAF increased the levels of all three ECM molecules in the
-        granulation tissue of wounds albeit with different
-        dynamics. This is the first demonstration that treatment of
-        wounds with a pro-inflammatory and angiogenic chemokine
-        accelerates development of the granulation tissue during
-        healing by stimulating the precocious deposition of ECM
-        molecules that are critical for proper healing.
-        We showed previously that cCAF is highly expressed in
-        the granulation tissue of wounds [ 6 36 ] , that this
-        chemokine and several of its human homologues stimulate
-        differentiation of fibroblasts into myofibroblasts both in
-        culture and 
-        in vivo, and that the latter effect
-        can be achieved very effectively by the N-terminal 15aas of
-        the protein [ 4 37 ] . In addition to cCAF, other CXC
-        chemokines have been associated with wound healing events.
-        In the granulation tissue of burn wounds, expression of
-        groα /MGSA and CXCR2 (the receptor for MGSA) was associated
-        with fibroblasts, smooth muscle cells/myofibroblasts and a
-        subpopulation of macrophages [ 7 ] . Groα/MGSA and IL-8
-        have also been shown to enhance re-epithelialization of
-        human skin grafts in chimeric mice [ 29 38 ] . It has also
-        been found that several CXC chemokines can modulate
-        angiogenesis [ 39 ] , a process that is critical for proper
-        healing. Some CXC chemokines, such as IL-8 and cCAF, are
-        angiogenic 
-        in vivo [ 3 39 40 41 ] . Others, such
-        as IP-10 (interferon-γ10) and PF-4 (platelet factor-4), are
-        anti-angiogenic. In the case of IP-10, it has been shown
-        that in transgenic mice treated with this chemokine, wounds
-        heal poorly and exhibit defects in angiogenesis and
-        development of the granulation tissue [ 8 ] .
-        Work of others has shown that TN is expressed in
-        association with differentiation of myofibroblasts and is
-        important in cell migration during healing [ 25 42 43 44 ]
-        . Here we show that cCAF and the N-peptide stimulate
-        fibroblasts in culture to express TN and that this increase
-        in TN is due to an increase in mRNA levels. The increase is
-        lower for C-peptide treated cells; after 3 days in an
-        environment mimicking the wound, these cells had lesser but
-        significant tenascin protein levels, most likely due to the
-        small increase seen in mRNA. In addition, in wounds treated
-        with the chemokine, TN levels are much higher at early
-        times after wounding but drop by 7 days after wounding. At
-        this stage, the wounds are closed and are beginning to
-        remodel in the cCAF-treated wounds while the granulation
-        tissue in the control wings is still maturing. These data
-        taken together strongly suggest that as chemokines induce
-        the differentiation of fibroblasts into myofibroblasts they
-        contribute to the production of TN in the granulation
-        tissue. Our finding that the N-terminal peptide is able to
-        stimulate expression of TN much like the whole protein is
-        potentially important because this small peptide may be
-        useful to develop therapeutic agonists or antagonists for
-        wound healing.
-        The effect of cCAF treatment on Coll I accumulation in
-        culture and in wounded tissues is small but reproducible.
-        Because MMP-1 levels were also decreased by cCAF treatment,
-        it is possible that the small rise in Coll I levels is due
-        to decreased degradation of this ECM molecule by the
-        collagenase. Another chemokine that has been associated
-        with Coll I production is monocyte chemotactic protein 1
-        (MCP-1). This chemokine belongs to the CC chemokine family
-        and stimulates Coll I production both by lung fibroblasts
-        taken from areas of inflammation [ 26 ] and in kidneys that
-        suffer from crescentic nephritis [ 45 ] . The former
-        investigators reported that MCP-1 increases collagen
-        accumulation not by decreasing the levels of the
-        collagenase MMP-1, but by stimulating the production of
-        TGFβ1, a well-known stimulator of collagen expression and
-        expression of TIMPs, the natural inhibitors of MMPs. In
-        addition to MCP-1, IL-8 and MGSA have also been evaluated
-        for production of collagen [ 46 ] . These investigators
-        reported that treatment of normal fibroblasts with these
-        chemokines did not affect collagen levels. It is not clear
-        from their results whether the elevation in collagen
-        production in normal fibroblasts may have been small, like
-        that observed with cCAF, and therefore gone unnoticed.
-        FN accumulation due to cCAF treatment also differs from
-        that of TN. The FN mRNA levels are not affected by cCAF
-        treatment but the protein accumulates in culture and in the
-        granulation tissue of wounds upon exposure to the
-        chemokine. By analogy with the increase in Coll I, we
-        hypothesized that decrease in protease levels/activity is
-        involved in the accumulation of FN. Plasmin resulting from
-        cleavage of plasminogen by plasminogen activator (PA) is
-        the major enzyme affecting FN degradation in chickens.
-        However, testing for decrease in PA activity showed that
-        this enzyme is not activated even in the controls,
-        therefore, it is unlikely that this would be a major
-        mechanism involved in degrading FN. In humans, there are
-        several MMPs that are known to degrade FN. We found that
-        MMP-2 levels are unaffected by cCAF treatment and that
-        there is no detectable MMP-3, -7 and -10 activity as
-        evaluated by casein zymography using tCEFs as control for
-        production of these stromelysins. Another FN-degrading
-        metalloproteinase, MT-MMP1, is unlikely to be involved
-        because it also activates MMP-2 and this enzyme is not
-        activated by cCAF treatment.
-        Another possible mechanism that may explain FN
-        accumulation could be an increase in TN. TN-C knockout mice
-        show decreased accumulation of FN in wounded tissue and
-        this decrease has been hypothesized to be due to disrupted
-        incorporation on FN into the matrix in the absence of TN-C
-        [ 32 33 ] . Therefore, our observation that inhibition of
-        cCAF-induced TN production decreases the accumulation of FN
-        supports the findings in the knockout mice. However, this
-        does not explain the unchanged FN levels with the N-peptide
-        treatment. One possible explanation for these findings
-        could relate to the fact that FN does not self-assemble.
-        Therefore, it is possible that alterations in the
-        activities of integrins or adhesive sites on other ECM
-        molecules induced by the whole cCAF molecule, and not by
-        the N-peptide, could affect FN accumulation [ 47 ] . We are
-        currently pursuing studies to determine whether adhesion
-        molecules or other ECM molecules play a role in FN
-        accumulation due to cCAF-induced TN production.
-        Migration of fibroblasts from the area surrounding the
-        wound into the wound site is critical in order for
-        remodeling of the extracellular matrix and for wound
-        contraction to occur. TN and FN, especially in combination,
-        promote migration, therefore cCAF may facilitate fibroblast
-        migration by increasing TN and FN levels. However, this
-        chemokine is also able to chemoattract fibroblasts and
-        accelerate their migration in the absence of these
-        molecules, strongly suggesting that it contributes to
-        fibroblast movement independently of the deposition of
-        these ECM molecule. These findings suggest that during
-        wound healing, cCAF produced by the resident fibroblasts
-        chemoattracts additional fibroblasts that contribute to the
-        production of these ECM molecules, which then support
-        migration of both fibroblasts and other cells in the wound
-        tissue.
-        TGFβ1 is another factor known to stimulate myofibroblast
-        differentiation, ECM production and accelerate wound
-        closure and healing. However, this growth factor has a
-        strong inflammatory effect that leads to excess fibrosis
-        and scarring. In addition to greatly increasing
-        accumulation of Colls I and III, TGFβ1 has been shown to
-        also increase FN and TN production. cCAF (and maybe other
-        chemokines), on the other hand, may have a subtler, more
-        controlled effect, promoting the earlier appearance of a
-        normal granulation tissue without leading to excess matrix
-        accumulation and scarring.
+        
+          Effects of olanzapine and risperidone on urodynamic
+          parameters and the external sphincter EMG
+          Both olanzapine and risperidone are compounds with
+          relatively high oral bioavailability. Clinically
+          effective doses of olanzapine (10-15 mg/day; 18.4-30.6
+          ng/ml plasma concentration [ 22 23 24 ] ) or risperidone
+          (3-6 mg/day; 15-30.8 ng/ml combined plasma concentration
+          of risperidone and 9-hydroxy-risperidone [ 25 ] )
+          correspond well with the dose of 1.0 mg/kg (equivalent to
+          12.5 ng/ml) in the present study.
+          Both neuroleptics markedly decreased the micturition
+          volume, expulsion time, and amplitude of the HFO while
+          residual volume increased. Most of the effects of either
+          neuroleptic occurred at doses of 0.1 and 1.0 mg/kg.
+          Olanzapine appeared to have a greater maximal effect than
+          risperidone. At the highest dose of risperidone (10
+          mg/kg) there was less of an effect for the urodynamic
+          parameters mentioned above. This is an interesting
+          observation that was not explored further in the present
+          study. The physiological significance is unclear since
+          the 10 mg/kg dose is well above the clinically effective
+          doses of risperidone.
+          Olanzapine did not have an effect on bladder capacity
+          or pressure threshold while risperidone increased both
+          although only at the highest doses. Clozapine, on the
+          other hand, was observed previously to increase bladder
+          capacity and pressure threshold [ 6 7 ] . Olanzapine had
+          no effect on bladder peak pressure during contraction and
+          only the highest dose of risperidone showed an increase
+          in pressure (119% of control). The increase in pressure
+          after the highest dose of risperidone was interesting and
+          was also observed following electrical stimulation of the
+          pelvic nerve suggesting a possible peripheral
+          mechanism.
+          Olanzapine, but not risperidone, decreased the
+          integrated EMG recorded during the beginning of a bladder
+          contraction (Phase 1; comparable to the guarding reflex).
+          Both neuroleptics decreased the EMG during phase 2, where
+          high frequency oscillations occur in the bladder pressure
+          along with bursting in the EUS, with the highest dose of
+          olanzapine (1.0 mg/kg) abolishing the HFO and the
+          bursting pattern. The integrated EMG recorded during the
+          end of the bladder contraction (Phase 3) was also
+          decreased by both neuroleptics, with olanzapine reducing
+          it to 69% and 35% at 0.1 and 1.0 mg/kg, respectively,
+          whereas the maximal effect for risperidone was observed
+          at 1 mg/kg (68%).
+          Finally, neither neuroleptic decreased the amplitude
+          of the individual bursts of EMG recorded during phase 2,
+          except for the largest dose of olanzapine (1 mg/kg) that
+          abolished the bursting pattern.
+          Therefore, as was the case for urodynamic parameters,
+          although both neuroleptics decreased the activity of the
+          external urethral sphincter (as reflected in the
+          integrated EMG), it appears that the effects of
+          olanzapine were greater than those of risperidone. As was
+          the case for some urodynamic parameters, the highest dose
+          of risperidone showed a parabolic effect for some of the
+          EMG parameters.
+          Blockade of the external urethral sphincter in
+          anesthetized rats results in a disappearance of the HFO
+          from the bladder pressure recording as well as a
+          disappearance of the bursting pattern of the EUS EMG
+          observed during HFO [ 26 27 28 ] . In addition, there is
+          a decreased ability of the bladder to empty as evidenced
+          by a decreased micturition volume and an increased
+          residual volume [ 26 27 29 ] . Therefore, inhibition of
+          the external urethral sphincter, as was the case for the
+          two neuroleptics in the present study and also for
+          clozapine in our earlier study [ 7 ] , might provide an
+          important mechanism by which the bladder is rendered less
+          effective in emptying and therefore altering other
+          urodynamic variables resulting in decreased micturition
+          volume and increased residual volume in rats.
+        
+        
+          Possible neuropharmacological mechanisms for the
+          effect of olanzapine and risperidone on the lower urinary
+          tract
+          We tested for peripheral antimuscarinic actions of
+          both neuroleptics by examining their effects on bladder
+          contractions elicited by electrical stimulation of the
+          pelvic nerve. In this preparation, olanzapine but not
+          risperidone reduced the initial contraction amplitude
+          (Phase I) somewhat and markedly depressed the prolonged
+          contraction phase (Phase II; Fig. 8) that is thought to
+          be mediated by muscarinic receptors [ 20 21 ] . During
+          cystometry, however, neither olanzapine nor risperidone
+          affected the peak pressure during bladder contraction.
+          Therefore, although olanzapine had a peripheral effect on
+          bladder contraction amplitude, as might be expected from
+          its antimuscarinic effects, this effect is not reflected
+          in the peak contraction pressures observed during
+          cystometry. This discrepancy is probably due to the fact
+          that during a bladder contraction against a closed outlet
+          (electrical stimulation of the pelvic nerve) higher
+          pressures were developed than were observed during
+          cystometry when the outlet was not obstructed. Since the
+          clinically effective dose of olanzapine (10-15 mg/day;
+          18.4-30.6 ng/ml plasma concentration [ 22 23 24 ] ) is
+          greater than the first dose observed to produce
+          significant peripheral antimuscarinic effects in this
+          study (1.0 mg/kg; equivalent to 12.5 ng/ml plasma
+          concentration) a possible peripheral anti-muscarinic on
+          the bladder during olanzapine therapy remains a
+          concern.
+          Muscarinic blockade with atropine decreased
+          micturition pressure and micturition volume, while
+          increasing residual volume [ 30 ] and bladder capacity [
+          31 ] . Similarly, central administration of atropine
+          decreased peak pressure and voiding efficiency while
+          increasing bladder capacity in awake rats [ 32 ] . Thus
+          it is possible that central and/or peripheral muscarinic
+          blockade by olanzapine may have contributed to some of
+          the changes observed in these parameters in the present
+          study.
+          Muscarinic blockade was also reported to decrease the
+          EUS EMG in all phases of the bladder contraction [ 33 ] .
+          However, another study showed no effect on the EUS EMG
+          following muscarinic antagonism [ 34 ] . Therefore, the
+          exact role of muscarinic blockade on the activity of the
+          EUS in the rat is unclear.
+          It is tempting to propose that the greater effect of
+          olanzapine on the EUS may be due to its antimuscarinic
+          activity, which risperidone does not have. In fact,
+          clozapine has a greater affinity for muscarinic receptors
+          than olanzapine [ 11 ] and clozapine was also able to
+          decrease the EMG and abolish the bursting pattern during
+          phase 2.
+          Whether muscarinic blockade affects the activity of
+          the EUS by acting on central or peripheral sites remains
+          to be determined. A direct inhibitory action of
+          olanzapine on the EUS muscle itself is not expected and
+          was not seen with clozapine [ 7 ] . However,
+          antimuscarinic effects alone cannot account for all of
+          the effects of olanzapine on the EUS, since risperidone
+          had a similar effect although not quite as pronounced and
+          risperidone has little or no affinity for muscarinic
+          receptors [ 16 ] . Therefore, antagonism of other
+          transmitter systems, e.g. D2, alpha1, 5-HT2, remains as
+          an explanation of the effects of these neuroleptics on
+          urodynamic variables [ 6 ] .
+          Selective antagonism of D2 receptors only modestly
+          reduced the amplitude of HFO without affecting any other
+          urodynamic parameters [ 6 35 ] . Therefore, it is
+          possible that olanzapine and risperidone decrease the
+          amplitude of the HFO, at least partly, through antagonism
+          of D2 receptors.
+          In anesthetized rats, doxazosin (alpha 1 adrenergic
+          receptor antagonist) administered systemically, increased
+          micturition volume, bladder capacity, residual volume and
+          micturition frequency while decreasing peak pressure [ 36
+          ] . Only an increase in the micturition frequency was
+          observed after spinal administration of doxazosin [ 37 ]
+          . Both olanzapine and risperidone have moderate affinity
+          for the alpha 1 adrenergic receptor (Table 1), therefore
+          it is possible that some of the effects observed in the
+          present study were due to central and/or peripheral
+          antagonism of alpha 1 adrenergic receptors by these
+          drugs. The decreases observed in MAP suggest a possible
+          peripheral alpha1 effect. However, we did not observe a
+          decrease in the peak pressure as would have been
+          predicted from previous studies using selective alpha 1
+          antagonism [ 36 ] . In addition, bladder capacity was not
+          affected except at the highest dose of risperidone
+          tested. Urinary incontinence as a result of olanzapine [
+          12 ] or clozapine [ 15 ] therapy was treated effectively
+          with ephedrine (alpha adrenergic receptor agonist),
+          suggesting a possible alpha1 effect. However,
+          alpha1a-adrenoceptor gene polymorphism was found to play
+          no role in clozapine-induced urinary incontinence [ 38 ]
+          .
+          In terms of the effects on the EUS, alpha 1
+          antagonists have been shown to inhibit the EUS in the cat
+          [ 39 40 41 ] but not in the anesthetized rat [ 42 ] .
+          Finally, both olanzapine and risperidone posses
+          affinities to several serotonin receptor subtypes (Table
+          1). In cats, serotonin antagonists caused a decrease in
+          bladder capacity [ 43 ] however in anesthetized rats,
+          serotonin antagonism did not have an effect on
+          micturition [ 44 ] . Recently, a selective 5-HT1A
+          receptor antagonist (WAY-100635) was reported to inhibit
+          bladder contractions in rats [ 45 ] yet another report
+          only observed an increase in the pressure threshold [ 46
+          ] . Olanzapine and risperidone have only low to modest
+          affinity for the 5-HT1A receptor, and higher affinities
+          for the 5-HT2A and 5-HT2C receptors [ 11 12 ] . Serotonin
+          5-HT2 and 5-HT3 receptors facilitate pudendal reflexes in
+          the cat [ 47 48 ] , therefore it is possible that
+          antagonism of these receptors may block the EUS in the
+          anesthetized rat. Given the modest role of serotonin
+          receptors in micturition in anesthetized rats, it remains
+          to be determined whether the effects observed here were
+          due to anti-serotonergic effects of these
+          neuroleptics.
+        
+        
+          Clinical implications
+          While there are several reports of urinary
+          disturbances following clozapine therapy [ 3 10 15 ] ,
+          there are relatively few reports of urinary incontinence
+          with risperidone or olanzapine. In one report,
+          twenty-eight (28%) of patients on risperidone developed
+          at least transient urinary incontinence, compared to 13%
+          before starting treatment [ 18 ] . Other reports also
+          suggest urinary incontinence associated with risperidone
+          therapy [ 17 19 ] .
+          To date, only one case report of urinary incontinence
+          with olanzapine therapy that resolved with ephredrine was
+          found in the literature [ 14 ] . In the present study,
+          olanzapine had more profound effects on urodynamic
+          parameters and the EUS than risperidone and therefore the
+          incidence of urinary disturbances in clinical practice
+          would be predicted to be higher. Olanzapine is a newer
+          compound than clozapine or risperidone and therefore, a
+          larger incidence of urinary symptoms with olanzapine
+          therapy may await a larger sampling.
+          Finally, possible side effects of neuroleptics, such
+          as urinary retention, may be predicted from binding
+          studies using human brain tissue [ 12 ] if antimuscarinic
+          affinities will correspond to antimuscarinic effects on
+          the bladder. However, olanzapine and risperidone may also
+          result in urinary disturbances by their influence on
+          central pathways mediating bladder contractions or
+          coordinating external urethral sphincter, as may have
+          been the case in the present study. Such effects may not
+          be readily apparent or predictable from receptor binding
+          studies.
+        
       
       
         Conclusions
-        Our results strongly suggest that cCAF plays an
-        important role in wound repair by activating fibroblasts to
-        form early granulation tissue, through cell migration,
-        myofibroblast differentiation and production/accumulation
-        of ECM molecules that are critical for proper development
-        of the healing tissue of wounds. This is a previously
-        unknown role for chemokines and, unlike other inflammatory
-        factors that promote granulation tissue formation, cCAF
-        does not appear to stimulate increased fibrosis. If similar
-        behavior is seen in human chemokines, it could be a
-        promising target in designing drugs that promote formation
-        of granulation tissue in poorly healing wounds without
-        causing excess scarring.
+        Olanzapine and to a lesser extent risperidone, altered
+        several micturition parameters and they inhibited the
+        external urethral sphincter in the anesthetized rat. These
+        effects resulted in a decreased effectiveness of the
+        bladder to empty as evidenced by a decreased micturition
+        volume and an increase in the residual volume, and a
+        decreased activity of the external urethral sphincter.
+        Although olanzapine also showed peripheral anti-muscarinic
+        effects on bladder contractions, risperidone did not.
+        Therefore, peripheral anti-muscarinic effects alone cannot
+        explain all the changes observed with these drugs and they
+        might reflect central effects on micturition pathways.
       
       
-        Materials and methods
+        Materials and Methods
         
-          Reagents
-          All tissue culture supplies and the TRIzol reagent
-          were purchased from Gibco-BRL. cCAF and the N-terminal
-          peptide (15a.a.) were synthesized by Gryphon Sciences
-          (San Francisco, CA) and C-terminus peptide (28a.a) was
-          made by Milligen Biosearch (San Rafael, CA). Secondary
-          antibodies used: anti-mouse and anti-rabbit horseradish
-          peroxidase, anti-mouse Texas Red (Amersham: Piscataway,
-          NJ) and anti-mouse FITC (DAKO: Carpinteria, CA). Primary
-          antibodies used: mouse anti-chicken Coll I, Coll III, FN,
-          and TN (Hybridoma Bank, Iowa), rabbit anti-chicken TN
-          (Chemicon, Temecula CA). Rabbit anti-human MMP-1 and
-          TIMP-2 and mouse anti-human TIMP-1 were the kind gift of
-          Dr. Tai-Lan Tuan. The ECL reagents were purchased from
-          Amersham; Vectashield mounting medium from Vector
-          Laboratories (Burlingame, CA); DC protein assay kit from
-          Bio-Rad (Hercules, CA); Biocoat and Transwells from
-          Fisher and Biocclusive bandage from Johnson&Johnson
-          Medical (Arlington, TX).
-        
-        
-          Cell culture
-          Primary chicken embryonic fibroblasts were cultured as
-          previously described [ 3 4 ] . Briefly, primary
-          fibroblasts were isolated from 10-day-old chicken embryos
-          and cultured for 4 days. These cultures were passaged
-          once and used as secondary cultures at a density of 0.3 ×
-          106 cells/35 mm plate. Due to the use of primary cells
-          rather than cell lines, there are variations in cellular
-          responses between sets of cells. Therefore, internal
-          controls were always included and results from different
-          batches of cells were not averaged. Secondary cultures
-          were treated with 750 ng/ml cCAF [68 nM] or its terminal
-          peptides in 199/tryptose phosphate broth and 2% donor
-          calf serum. This dose of cCAF was chosen because it was
-          the optimal dose for inducing differentiation of
-          myofibroblasts, cells known to produce large amounts of
-          ECM [ 4 ] . Media was changed and new cCAF or peptides
-          added every day for 4 days.
+          Urodynamic Studies
+          The bladder was emptied and allowed to equilibrate to
+          air pressure for 5 minutes before beginning each
+          cystometrogram. Room temperature saline was infused into
+          the bladder (0.11 ml/min) while recording bladder
+          pressure and the infusion was stopped when a contraction
+          occurred. Volume expelled was determined by placing
+          cotton gauze at the urinary meatus and weighing before
+          and after micturition. External urethral sphincter EMG
+          (EUS-EMG) was recorded throughout the cystometrogram and
+          for sometime after the filling had stopped. Cumulative
+          doses of olanzapine (provided as a courtesy by Ely Lilly,
+          Indianapolis; vehicle, 0.01, 0.1, 1 mg/kg; n = 5) and
+          risperidone (RBI; vehicle, 0.01, 0.1, 1, 10 mg/kg; n = 7)
+          were administered i.v. at approximately 10 minute
+          intervals. The plasma half-life of olanzapine and
+          risperidone are 2.5 and 15 hr, respectively [ 25 49 ] .
+          Both drugs were dissolved in a minimal amount of 0.1 N
+          HCl, and brought up to volume with saline (final pH = 6).
+          Cystometrograms were started approximately 3 minutes
+          after each drug administration.
         
         
-          Immunoblotting
-          Proteins were extracted from the cells after 4 days of
-          treatment, using 150 mM RIPA buffer containing protease
-          inhibitors. Protein concentrations were determined using
-          the DC protein assay kit (Bio-Rad) and samples were
-          adjusted to contain equal amounts of protein. Proteins
-          were separated on 7.5% Doucet gels [ 48 ] and transferred
-          to nitrocellulose was performed using a wet-transfer
-          apparatus (Bio-Rad) at 100 V for 45 min. The membranes
-          were blocked for 1 h in 5% milk in TTBS and then
-          incubated overnight at 4°C in primary antibody (1:50
-          anti-Coll I, anti-Coll III and anti-FN, 1:100 TIMP-1,
-          1:500 anti-MMP-1 and anti-TIMP-2, 1:1000 anti-TN), in 1%
-          milk in TTBS. The membranes were washed 3 times for 10
-          min each with TTBS, incubated in anti-mouse or
-          anti-rabbit HRP (1:10,000) in 1% milk for 1 hr and washed
-          as above, the bands visualized using the ECL (Amersham).
-          Densitometry was performed using BandScan software
-          (Glyko).
+          Bladder contractions induced by pelvic nerve
+          stimulation
+          In order to determine the direct peripheral effects of
+          these drugs on the bladder, the distal end of a pelvic
+          nerve was stimulated electrically to elicit a bladder
+          contraction (n = 8). Both hypogastric and pelvic nerves
+          were cut before they entered the major pelvic ganglion
+          and a tie was placed around the urinary meatus to
+          preserve isovolumetric conditions. After infusing 0.1-0.2
+          ml into the bladder the distal, cut end of the pelvic
+          nerve was stimulated with a long train (5 Hz; 1 msec
+          pulse width; 60 sec train; 30-300 (uamps) to elicit a
+          prolonged contraction displaying two phases: Phase I, a
+          rapid contraction and Phase II, a plateau phase [ 20 21 ]
+          . Phase I is resistant to atropine, and therefore is
+          mostly due to non-adrenergic, non-cholinergic activation,
+          whereas Phase II is highly sensitive to muscarinic
+          blockade [ 21 ] . Olanzapine (n = 4) and risperidone (n =
+          4) were administered (0.01,0.1,1 and 10 mg/kg; i.v.) and
+          the stimulations were repeated at 10 minutes intervals.
+          At the end of each experiment, all rats were overdosed
+          with urethane i.v.
         
         
-          Immunostaining
-          At the end of treatment, the cells were rinsed with
-          PBS, fixed and permeabilized in 4% paraformaldehyde with
-          0.15% Triton X-100. After fixation, the cells were washed
-          and then incubated with PBS containing 0.1 M glycine for
-          10 min. Cells were blocked for 30 min with 10% goat serum
-          in PBS, incubated with primary antibody (1:100) in
-          1%BSA/PBS for 1 hr at room temperature (RT), and washed
-          three times with 0.1% BSA/PBS for 10 min each. The cells
-          were then incubated in secondary antibody in 1% BSA/PBS
-          for 1 hr at RT, washed three times for 10 min with 0.1%
-          BSA in PBS and mounted with Vectashield.
-        
-        
-          Zymography
-          Zymography was performed using denaturing
-          polyacrylamide gels according to the protocol of ref. [
-          49 ] . Gels to test for gelatinolytic activity contained
-          1% gelatin (Sigma) and those that tested for caseinolytic
-          activity had 1% casein (Sigma). 5 μl of 0.25%
-          trypsin-EDTA (Gibco-BRL) was used as a positive control
-          for the casein zymogram.
-        
-        
-          Plasminogen activity assay
-          A chromogenic plasminogen activator substrate
-          (Boc-Val-Gly-Arg-βNA.AcOH) was purchased from Calbiochem.
-          50 μl of a 10 mM stock solution of substrate in water was
-          added to 200 μl 0.1 mM HEPES buffer pH 8.0 and heated to
-          25°C. 25 μl fibroblast substrate was added to the
-          substrate and incubated for 30 min. Absorbance was then
-          read at 405 nm. Positive control: Supernatant from Rous
-          sarcoma virus-transformed CEFs (tCEFs), which are known
-          to produce high levels of PA.
-        
-        
-          Inhibition of TN expression
-          For these experiments we used phosphothioated
-          antisense oligodeoxynucleotide (ODN), synthesized and
-          HPLC purified by Sigma Genosys, to block the TN
-          production. The sequences for the oligonucleotides were
-          the same as previously described [ 50 ] except that we
-          used phosphothioated oligos rather than morpholino
-          oligos. The antisense sequence of the ODN was
-          5'-GGAGTCCCATTGTAGTGCTCAGTTC-3'. The sense strand of this
-          ODN was used as control
-          (5'-GAACTGAGCACTACAATGGGACTCC-3'). When preparing the
-          cell cultures, 1 μM and 2 μM of antisense or sense ODN
-          were added to the cells at plating. The cells where
-          treated with antisense or sense ODN and cCAF every 24 hrs
-          for 3 days to allow accumulation of the ECM
-          molecules.
-        
-        
-          Northerns
-          Total RNA was extracted using TRIzol reagent from
-          untreated fibroblasts and fibroblasts treated with 750
-          ng/ml cCAF for 4-48 hrs. Transfer of RNA to membrane was
-          performed as previously described [ 51 ] . RNA probes
-          were made using the Strip-EZ kit from Ambion (Arlington,
-          TX). Membranes were prehybridized for 2 hrs in Ambion
-          Hybridization buffer at 62°C, and hybridized O/N at 62°C.
-          Membranes were washed with 2 × SSC/0.1% SDS at 62°C and
-          exposed to film for 6-48 hrs.
-        
-        
-          RT-PCR
-          Total RNA was extracted as above. RT-PCR was performed
-          using the Promega Access RT-PCR System, following
-          Promega's instructions. The first strand was synthesized
-          at 48°C and DNA was amplified at 95°C 45 sec, 55°C 1 min,
-          68°C 1.5 min for 40 cycles. 3 μl Quantum mRNA classic 18S
-          primers from Ambion were used to quantify total RNA
-          levels. Primers used for TN amplification: sense
-          5'AAATGCATCTGCGAGGGC, antisense
-          5"GGAAGCTTGTTATTGCAGTCCTTCGG [ 41 ] .
-        
-        
-          Wounding experiment
-          Full-thickness excision wounds (approximately 0.5 ×
-          0.5 cm) were made on the underside of the wings of 2
-          week-old chicks, using a scalpel blade. The left wing was
-          treated with vehicle alone, and the right wing with 1 μg
-          cCAF. The wounds were photographed immediately after
-          wounding and then covered with Biocclusive bandage. 50 μl
-          vehicle or cCAF were deposited through the bandage onto
-          the wound using a 30-gauge needle. This procedure was
-          repeated the next day and every other day thereafter on
-          days 3, 5 and 7. Samples were collected at days 3 and 7
-          post-wounding for ECM analysis. All experimental work
-          with animals reported here was done under full compliance
-          with our animal protocol approved by appropriate campus
-          authorities.
-        
-        
-          Preparation and staining of wing sections
-          At the specified time points, chickens were euthanized
-          with sodium pentobarbitol. The wounded wings were
-          collected and fixed for 18 hrs in 4% paraformaldehyde and
-          decalcified for 3 days in 5% formic acid, 2.5%
-          formaldehyde at 4°C. The tissue was embedded in paraffin
-          and sectioned. Sections were stained with Masson
-          Trichrome to visualize interstitial collagen. Other
-          sections were immunolabeled for FN or TN. Sections were
-          deparaffinized in 3 changes of Hemo-De for 15 min each
-          and rehydrated in a descending ethanol series (5 min
-          each: 100%, 95%, 70%, 50%, 30% ethanol). After rinsing
-          with PBS, sections were fixed in 2% paraformaldehyde for
-          1 hr. Autofluorescence and non-specific staining were
-          blocked for 30 min in 0.1 M glycine in PBS, followed by
-          30 min in 1% Evans Blue in PBS to quench red blood cell
-          autofluorescence. Sections were incubated with anti-FN or
-          anti-TN antibodies (1:50) in 1% BSA in PBS for 2 hr at
-          room temperature. After 3 × 10 min washes in 0.1% BSA in
-          PBS, the sections were incubated for 40 min with
-          anti-mouse Alexa antibody (1:200) in 1% BSA in PBS. They
-          were then washed and mounted with Vectashield.
-        
-        
-          Protein extracts of wounds
-          Wound tissues were immediately frozen on dry ice and
-          stored at -70°C. To extract protein, the tissue was
-          ground with glass beads in a mortar and pestle on dry
-          ice. The powdered tissue was dissolved in RIPA containing
-          300 mM salt and a cocktail of protease inhibitors, and
-          vortexed vigorously. After centrifugation, the
-          supernatant was used in immunoblots.
-        
-        
-          Transwell assay for migration
-          1 × 10 6cells in 100 μl 199 medium containing 2% serum
-          were plated on the underside of transwell membranes by
-          inverting the insert. They were allowed to adhere for 30
-          minutes, then the well was turned right side up and both
-          sides of the well were filled with serum-containing
-          medium. The cells were allowed to recover for 24 hrs, and
-          express the cCAF receptors. Then the medium in the top
-          well was changed to serum-free medium containing 50-1000
-          ng/ml cCAF or 2 % serum (positive control); serum free
-          medium alone was placed in the bottom well. The cells
-          were allowed to migrate towards the chemoattractant for
-          24 hrs. The cells on the underside of the membrane were
-          removed with a cotton swab. The membranes were then fixed
-          and stained with 2% toludine blue in formaldehyde. To
-          determine the number of migrated cells, all cells on the
-          upper side of the membrane were counted. Control for
-          chemotaxis was performed by adding 1000 ng/ml cCAF to
-          both wells of the Transwell unit.
-        
-        
-          Cloning ring assay for migration
-          1 × 10 6cells in 100 μl 199 medium containing 2% serum
-          were plated in a cloning ring in a 35 mm plate. They were
-          allowed to adhere for 1 hour, then the ring was removed,
-          the culture medium added to the plate and the cells
-          photographed on a phase-contrast microscope to record the
-          area of the cells and the edge of the ring. cCAF was then
-          added at various doses (0-1000 ng/ml). The following day
-          the medium was changed and the cells were treated again.
-          On the third day after plating, the cells were
-          photographed once more before the experiment was
-          terminated. To determine the extent of cell migration, we
-          measured the distance between the edge where the cloning
-          ring was at day zero and the edge of the culture
-          delineated by the migrating front of the cells on the 3
-          rdday.
-        
-        
-          In situhybridization
-          Fibroblast cultures and probes were prepared as
-          described previously (Martins-Green and Bissell, 1990).
-          Briefly, probes were prepared as follows: 1 μg of
-          pGEM1/cCAF cDNA was transcribed for 1 1/2 h at 37°C in a
-          cocktail containing 100 μM each of 3H-ATP and 3H-UTP
-          (Amersham Corp.), 1 mM each GTP and CTP, 120 mM
-          dithiothreitol, and 100 U of T7 polymerase (Amersham
-          Corop.). The probe was separated from the free
-          nucleotides in a Sephadex G-50 column equilibrated with
-          50 mM tris(hydroxymethyl) aminomethane pH 8.0, 15 mM
-          NaCl, and 1 mM EDTA. For 
-          in situ hybridization, cells were
-          fixed in 4% paraformaldehyde containing 5 mM MgCl 
-          2 , incubated in 0.1 M glycine for 10
-          min, dehydrated 3 min each in 30, 70, and 100% ethanol,
-          and allowed to dry. Prehybridization was performed in a
-          solution containing 60% formamide, 0.1 M piperazine- 
-          N,N' -bis(2-ethanesulfonic acid) pH
-          6.4, 0.4 M NaCl, and 0.2 mg/ml of 
-          E. coli tRNA (Sigma, St. Louis, MO)
-          for 2 h at 55°C with gentle shaking. The hybridization
-          solution was the same as the prehybridization solution
-          but contained 10 6cpm/ml of the cCAF probe or with the
-          same number of counts of the vector probe and incubated
-          at 55°C for 48 h with gentle shaking. At the end of this
-          period, the cultures were washed twice with 2× SSC + 0.1%
-          Triton-X 100 for 1 h followed by two more washes with
-          0.1× SSC + 0.1% Triton-X 100, all at 55°C in the shaker.
-          The cultures were allowed to dry, then covered with
-          emulsion and processed as described previously [ 6 ]
-          .
+          Data analysis
+          Bladder pressure and EUS-EMG during the
+          cystometrograms were displayed in an electronic chart
+          recorder (RC Electronics; Goleta, CA) and analyzed
+          off-line (Dataview, W.J. Heitler, U. St Andrews,
+          Scotland). The following parameters were examined from
+          the cystometrogram as described in detail earlier [ 7 ] :
+          bladder capacity (amount of fluid infused to elicit a
+          contraction); micturition volume (amount of fluid
+          expelled); residual volume ([bladder capacity -
+          micturition volume]/ [bladder capacity]); pressure
+          threshold (pressure at which contraction begins); peak
+          pressure (maximal pressure during contraction);
+          contraction time; expulsion time (time between peak
+          pressure and end of high frequency oscillations);
+          amplitude of high frequency oscillations. The EMG
+          activity was examined by dividing the bladder contraction
+          into three phases in a modification of the technique of
+          Chien et al. [ 33 ] a contraction phase (phase 1); an
+          expulsion phase (phase 2) and a closing phase (phase
+          3).
+          The raw EMG was rectified, integrated (0.5 second bin)
+          and the area under curve of the EMG corresponding to each
+          phase of the bladder contraction was measured (Sigma
+          Scan/Image; Jandel Scientifics, San Rafael, Ca). Drug
+          effects were calculated as percent of control.
+          In the case of bladder contractions induced by pelvic
+          nerve stimulation, the amplitude of phase A and Phase B
+          were compared to drug free control values.
+          Values are presented as Mean ± S.E.M. Repeated
+          measures ANOVA (GB Stat; Dynamic Microsystems; MD) were
+          performed on all parameters and when statistical
+          significance (p < 0.05) was obtained, comparisons
+          between control and different drug dosages were made
+          using Fisher's protected t-test [ 50 ] .
         
       
       
-        Author's contributions
-        JEF carried out all studies except for the TN antisense
-        inhibition experiment. LW and QJL initials carried out the
-        TN antisense studies. MMG initials conceived and designed,
-        with JEF, the studies, and contributed to manuscript
-        preparation and submission.
-        All authors read and approved the final manuscript.
-      
-      
-        List of abbreviations used
-        cCAF chicken Chemotactic and Angiogenic Factor
-        CEFs chicken embryo fibroblasts
-        Coll collagen
-        ECM extracellular matrix
-        FN fibronectin
-        IL-8 interleukin-8
-        MCP-1 monocyte chemotactic protein-1
-        MGSA melanoma growth stimulatory activity
-        MMP matrix metalloprotease
-        PA plasminogen activator
-        TGFβ1 transforming growth factor β1
-        TIMP tissue inhibitor of metalloprotease
-        TN tenascin
+        Abbreviations
+        EMG = electromyogram EUS = external urethral sphincter
+        MAP = mean arterial pressure CMG = cystometrogram BC =
+        bladder capacity PT = pressure threshold PP = peak pressure
+        ET = expulsion time HFO = high frequency oscillations MV =
+        micturition volume RV = residual volume CT = contraction
+        time
       
     
   

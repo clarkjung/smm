@@ -1,70 +1,471 @@
 
-
-
-
-Retailers’ calls to apparel manufacturers about late delivery are the basis for many a tall tale at retail conventions. In the past, the standard reply to a query about what had happened to an order was “It’s on the loading dock.” Information systems at apparel factories were primitive. If all the SKUs for an order were not in the warehouse, substitutions of the same style in a different size would be offered to the retailer. Or retailers might not even notice if an unplanned substitution had been made because their information systems were equally as primitive. If there were insufficient SKUs of the requested style, the order would be shorted or a phone call made to the retail buyer to negotiate a solution to the problem. If no SKUs of the order were in the finished goods warehouse, then the search of the factory floor—where there might be tens of thousands of partially completed items to look through—would begin.
-Then along came lean retailing and the need for rapid replenishment—manufacturers are now expected to replenish products in less than a week. At first, only a few retailers required this, and apparel manufacturers tried to meet these needs with minimal changes in their internal practices. Often, this was done at the expense of a manufacturer’s non-lean retail customers. For example, the CEO of a men’s dress-shirt supplier reported to us in 1992 that its finished goods warehouse was divided into two areas. A locked section contained finished goods reserved for orders from Dillard’s, Inc., this manufacturer’s biggest customer and its only one with stringent rapid-replenishment requirements. The rest of the warehouse held inventory for all other retailers. If the locked section had insufficient inventory for a Dillard’s order, product from the rest of the warehouse could be picked and sent to Dillard’s, but no retailers could receive products from the locked section reserved for Dillard’s, no matter how severe their needs. This arrangement worked well from Dillard’s perspective; it found this firm to be one of its best rapid-replenishment suppliers, with high order-fulfillment rates and on-time deliveries—the main criteria for success. For the manufacturer, it meant a larger finished goods inventory and worse service for its other customers.
-As long as only one or two retailers required rapid replenishment, manufacturers could get away with this type of solution. But it didn’t take long before most retailers wanted orders for basic apparel items replenished this way and they became very demanding. As an increasing number of suppliers are dancing to the demands of rapid replenishment, they are finding it a complex tune. Manufacturers suddenly have much more to do than just make clothing—they are being asked to do work previously done by the retailer, such as picking and packing the order for each store from the retailer’s warehouse. Each store’s order has to be put in a separate carton, labeled with its own bar code, and accompanied by an advance shipping notice. Moreover, retailers want an order to arrive at their distribution center at an exact time. If the truck is late, the driver often has to wait until the end of the day to unload, if allowed to do so at all. Deliveries made a day late are sometimes refused and sent back.
-Such retail requirements have certainly put substantial pressure on apparel manufacturers to change their own practices. Chapter 5 described some of the basic changes many manufacturers are making to stay in the game with lean retailers. But even if lean retailing has led to suppliers’ wide-scale adoption of bar codes and EDI-related capabilities, divergent production strategies among suppliers have emerged. Conceivably, two business units could each meet the same lean retailing requirements yet have very different internal practices and performance. One could raise finished goods inventories substantially (like the dress-shirt manufacturer described above); the other could make crucial operational changes to reduce manufacturing lead times. However, in light of the growth of rapid replenishment, our research predicts that the performance of these two units will vary over time, with the supplier that has implemented flexible planning and short-cycle production processes coming out ahead. By investing in these practices, apparel suppliers have the potential to satisfy lean retailing performance standards without bearing the costs of greatly expanded inventory in their own operations. From our standpoint, holding high inventories to meet rapid replenishment demands is strictly a short-term strategy for manufacturers.
-The increasing emphasis on rapid replenishment raises a related question: can offshore manufacturers meet retailers’ requirements for such short delivery lead times and so many services? More specifically, what are the characteristics of products for which inexpensive, long lead-time production is preferable to more costly production with extremely short lead times? The models and analyses presented in this chapter help shed light on this critical question.
-We begin this chapter with an overview of the impact of demand variability on a manufacturer’s own inventory and production planning processes. Next, we describe how apparel manufacturers can use statistical analysis and simulation to gain insight into inventory planning and production scheduling for products they offer in their rapid replenishment collections. The first of two case studies illustrates how demand uncertainty affects a firm’s target inventory levels. The second case study demonstrates how short-cycle production translates into inventory reduction for a manufacturer, thereby radically reducing the increased exposure to inventory risk a manufacturer would otherwise face to meet lean retailers’ demands. The chapter concludes by emphasizing the relationships among demand volatility, manufacturing lead times, and inventory levels, addressing a critical decision apparel manufacturing firms face today: Given two different apparel sources, with different variable production costs and lead times, how does a firm decide which products to make in each of the two plants?
-The Key Role of Demand Variability
-The most important thing we are doing is “consumerization,” to be the best in the business in delivering products customized for what the consumer wants. All of our initiatives are to drive consumer value. And as we reduce costs, we reinvest those savings in improving our consumer responsiveness.1
-—Mackey McDonald, President and CEO, VF Corporation, 1998
-Because being responsive to consumer tastes is central to lean retailing, dealing with variability in demand has become crucial to suppliers competing in a lean retailing world. Even for basic products, demand varies from day to day and week to week. Thus, if a retailer follows the simplest strategy of ordering at the beginning of each week exactly those items that sold during the previous week, manufacturers must be prepared to ship an unknown number of items each week. Very few manufacturers can produce items in production quantities in the limited lead time retailers allow for replenishment and consequently they must fill such orders from finished goods inventory. And, as one would expect, the higher the variation in week-to-week demand, the more inventory a manufacturer must hold to meet a retailer’s high service expectations.
-Because weekly demand variability is a key determinant of the finished inventory a manufacturer must hold, each firm should conduct an assessment of the demand variability of each item in the product line.2 Retailers require orders to be filled at the SKU level, so such demand variability analyses should be conducted at the SKU level as well.
-We conducted such an analysis of weekly demand for a U.S. manufacturer of men’s coats, suits, and blazers. Figure 7.1 depicts the weekly demand for one SKU—a single-breasted coat in one of the firm’s most popular sizes (46-regular)—during the first twenty-four weeks of the year. Each week’s demand has been divided by the average demand over the twenty-four weeks; therefore, the average weekly demand is simply equal to 1.0 on this normalized scale. (The important features of demand for scheduling coat production are contained in demand data presented in this normalized fashion. Normalizing the data also allows us to keep this manufacturer’s actual demand volume confidential without obscuring the central information contained in the data.)
-Plotting the data in this way allows us to focus on the deviation of the weekly demand from the average weekly demand. Figure 7.2 depicts the weekly demand for a different SKU—the same single-breasted coat—but this time in a less popular size (43-regular). Again, the normalized data highlights the weekly deviation from the average demand. In this case, there is greater week-to-week variation than for the more popular size.
-The amount of variation in weekly demand exhibited in Figure 7.2 is quite remarkable, especially if we consider that the manufacturer’s demand is based on the total sales of this SKU in over a thousand retail outlets each week. It is important to note also that this product was not promoted at retail with discounted prices at any time during this period, so the variation is not due to consumers preferring to purchase a product when it was “on sale.” In addition, the demand peak for the 43-regular occurs in week 10, which was only an average demand week for the 46-regular.
-It is useful to outline the ordering and manufacturing processes on a weekly basis to see how this manufacturer’s inventory policies might differ for the two different sizes. Suppose that, as described in Chapter 6, the retailer consolidates POS data for the previous week’s sales each Sunday night and places a replenishment order with our manufacturer. On Monday, the manufacturer (1) processes the order; (2) picks and packs the desired items from finished goods inventory and ships them to the retailer; and (3) places a factory order to manufacture those items that it shipped that day. Assume that the manufacturing lead time—the amount of time required to go from a production order to a product ready for shipping to retail—is less than one week. Then, by the following Monday, the items ordered the previous week would be completed at the factory and available in the manufacturer’s finished goods inventory. At this point, the manufacturer’s inventory is restored to the “target” level it had the previous week and is ready to fill the next week’s retail replenishment order.
-For the popular 46-regular coat, weekly demand never exceeds twice the coat’s average demand. Thus, as long as the lead time for producing more coats in size 46-regular is less than a week, the manufacturer could hold two weeks’ worth of inventory and be able to fill—immediately—retail orders that replenish the previous week’s demand. That is, it could set a target stock level of two weeks of finished goods inventory and be able to provide a very high customer service level (defined here as order-fulfillment rate) to retailers.
-However, for the low volume 43-regular, the maximum weekly demand is about four times the average. To provide the same service level to retailers for both sizes, our manufacturer must hold twice as many weeks of demand of finished goods for the 43-regular than for the 46-regular. Note that we are comparing the inventory levels in terms of weeks of average demand, which measures the ratio of the units of finished goods to average weekly sales. In fact, the actual number of units of finished goods inventory would be higher for the popular 46-regular than for the low volume 43-regular. The point to keep in mind here is that, compared to a product’s average demand, more popular products required relatively less finished goods inventory than less popular ones. Bear in mind that the actual sales of our manufacturer’s coats showed no seasonal variation. If a product has seasonal sales trends, then the manufacturer’s inventory must rise to meet customer demand during peak seasonal demand. Furthermore, if the manufacturing lead time exceeds one week, the manufacturer faces more demand risk and therefore must hold even more inventory.
-As explained in previous chapters, variation in weekly demand can be characterized by a standardized measure, the coefficient of variation, or Cv. Formally defined as the standard deviation of demand divided by average demand, the coefficient of variation can be considered a measure of variation that is normalized; it allows us to compare the variation of demand for different products, even if the average demand of the two products is quite different. The value of the coefficient can vary from zero (if demand is exactly the same every week) to numbers much greater than one for wildly fluctuating weekly demand. In our analyses of demand patterns for different apparel products, we have found that the most predictable items have Cvs in the 0.4 to 0.6 range. But in most situations in which a firm provides a wide range of goods to customers, some of its products will have low or moderate demand variation, while others’ demand will vary a great deal. As illustrated in the previous examples, high volume products often have lower coefficients of variation than low volume products. (In Figure 7.1, the high volume 46-regular has a low Cv of 0.55. In Figure 7.2, the lower volume 43-regular has a Cv equal to 1.0, which means the weekly demand departs much more from the average.) This is a result of the familiar “demand pooling” argument, which shows that the total variation for the sum of many customers’ demand is less than the sum of the variation in individual customers’ demand.3
-The same argument can be used to explain why growing product variety has increased demand variation at the SKU level: As variety grows, demand is distributed among an increasing number of SKUs, thereby reducing the pooling effects of demand aggregation. Take the single-breasted coat of our manufacturer, which is sold through more than a thousand retail outlets. The total yearly sales of all SKUs of this kind of coat are in the tens of thousands. Yet sales of some of the less popular sizes, such as the 43-regular, are only a few hundred a year. When considered on a weekly basis, this translates into average weekly demand across all retail outlets of less than ten units. Therefore, even a small swing in demand from week to week translates into high relative variation—that is, into a high coefficient of variation.
-Figure 7.3 (page 114) plots the coefficient of variation for men’s single-breasted coats. The graph shows that the SKUs with the lowest total yearly sales have the highest Cv values (the largest variation in week-to-week demand). The coat manufacturer will have to hold relatively more finished goods inventory of the low volume SKUs than of the high volume SKUs.
-Taking demand variability into account becomes even more important given recent trends toward product proliferation. Over time, suppliers must manufacturer more and more goods that have the joint characteristics of low volume and high variability. As a result, product proliferation represents a shift in the curve relating sales volume and variability (see Figure 7.4).
-High demand variation similarly occurs during the beginning and end of a product life cycle. This variation is due in part to the lower demand volumes during those periods relative to the middle of a product’s life, but such fluctuations also occur because of the inherent uncertainty during the ramp up or ramp down of a product’s life.
-Demand variation plays a central role in determining a manufacturer’s finished goods inventory levels. In the following case studies, we describe how demand variation can be used to determine a firm’s production and inventory planning processes. These cases offer a rational approach to inventory management for manufacturers, one that is premised on receiving accurate POS information from retailers and maintaining good working relationships with all channel players—for example, retail orders are not placed at the last minute and textile suppliers come through when they say they will. Reality is messier of course: retailers and suppliers often “surprise” manufacturers, and the POS data are rarely perfect or may not even be available. Yet these nagging problems do not negate the need for a new approach to inventory management; they merely indicate how complicated supplier relationships have become.
-Case 1: Inventory Control at a Men’s Coat Manufacturer
-Our first case study examines the inventory management practices at the men’s coat manufacturer previously described. This manufacturer’s standard approach to rapid replenishment requests was simply to carry large inventories. The firm treated all SKUs alike; it held the same number of weeks of demand for each SKU. Specifically, our manufacturer checked inventory of every item each week. If the inventory of any item was ten weeks of demand or less, the firm would place a production order for that item so that the current inventory plus the planned production was equal to fourteen weeks of demand. (This manufacturer essentially followed an (R, s, S) policy as described in Chapter 6, with R = time period between orders= seven days, S = target inventory level = fourteen weeks, and s = reorder point = ten weeks.)4
-Note that this response is not unusual. Many manufacturers do not explicitly track and use information like weekly demand variation for different SKUs. Currently, no manufacturer we know of has implemented all the changes described here and in the following chapters. In that respect, this men’s clothing supplier is representative of the industry.
-In our initial assessment, we found that this manufacturer was in stock for most SKUs most of the time—a pretty good result. However, we also noticed that the firm was out of stock for some items, especially those with the most variable demand. Managers first thought that was true just for its largest sizes, but further analysis revealed that the company had the same problem with some small sizes as well as with some less popular styles. The firm was stocking out of the low demand items, which, as described above, suffered from relatively high demand variation. This is illustrated in Table 7.1, which shows the average order-fulfillment rate for products with different levels of demand variability, assuming the same level of average demand is held for each SKU.
-The data suggest that when a manufacturer chooses the same inventory policy for all products, its order-fulfillment rate for highly variable products is usually worse than for low variation products. Such a policy rarely maximizes profits; the manufacturer stocks out, thereby losing the margin on the sale, and the retailer, which typically desires a consistent (or at least predictable) order-fill rate across items in a product group, is unhappy. Simply increasing inventory for all SKUs would be a poor allocation of investment, further increasing the order-fill rate for those SKUs for which service levels are already high. Thus, for most manufacturers, tracking weekly variation for different SKUs is essential and will help to guide a firm in setting appropriate inventory targets for each SKU. To do this, firms need a planning tool that translates demand variation into inventory targets by weighing, for each SKU, the opportunity for more sales against higher inventory carrying costs.
-Once demand variation for each SKU was determined for our men’s coat manufacturer, its managers faced the question of how to manage the inventory of the items in its rapid replenishment collection while maintaining a smooth flow of products through the sewing room. Using traditional sewing operations, it typically takes eight weeks to produce a coat, from the time an order is issued for cutting to the moment the finished goods are hanging in a manufacturer’s distribution center. Two weeks are spent in the cutting room, where the cloth is spread, cut, inspected, and has backing material fused to appropriate parts of the outer (“shell”) fabric. Four weeks are spent in assembly processes. The last two weeks involve final inspection, repairs if necessary, shipping to the distribution center, and hanging the finished coats so they can be picked to fill individual orders for a given store.
-A men’s suit coat or a blazer requires more than a hundred assembly operations (compare this with only forty operations for a men’s shirt); it is one of the most complicated and expensive apparel items to make. Although the number of operations partly determines how long it takes to get a garment through production, other factors come into play, including the firm’s policy about how many finished coats should be allowed to build up in work-in-process and finished goods inventory. Given this manufacturer’s policy of ordering production only when inventory levels dropped below ten weeks, with the production quantity set to restore the inventory to fourteen weeks, the minimum production quantity for each item was four weeks of demand. Thus, at least four weeks of demand—a large quantity for most products—of the same style and size could move through the sewing plant at one time, minimizing setup costs for thread changes and the like.
-The diagram in Figure 7.5 depicts the production process, including all product and information flows relevant to the inventory decision. In general, to maximize operating profit, a manufacturer must know the factory’s overall cycle time, work-in-process carrying costs, finished or hanging goods carrying costs, unit production costs, and unit selling price, as well as the Cv for each SKU of a given style. The manufacturer in this example effectively had limitless capacity to produce the single-breasted coat, since only approximately 30 percent of the plant’s total capacity was devoted to producing a variety of rapid replenishment items. This capacity could be invoked when necessary by putting aside the lower priority products made in the factory.
-Our approach to the problem was to use operations research techniques and computer simulations of demand to explore the appropriate inventory levels, taking into account the statistical nature of the weekly demand for each of the SKUs for a style. In our approach, we assumed that an unfilled order was a lost sale with a lost profit. Table 7.2 reports the recommendations derived from the method.5 Setting a target inventory level for each SKU that maximizes profit is the first step; we did this using a computer simulation. As expected, the target inventory levels depend on a product’s demand variation. The larger the variation is, the higher the inventory level should be for an item to satisfy demand, as shown in the fourth and fifth columns of Table 7.2. The second and third columns of the table indicate our manufacturer’s standard approach to inventory and are included to allow comparison with the optimal policy.
-The optimal policy is one for which marginal increases or decreases in chosen inventory levels will not confer additional profits. For example, when demand for an item was quite variable, with the highest Cv of 0.90, the optimal policy called for placing a production orders when inventory dropped to twelve weeks of demand, rather than the lower standard level of ten. Put in a different way, increasing the amount of inventory from the company’s uniform level to the optimal level raised the manufacturer’s order-fulfillment rate to more than 97 percent for all SKUs, which raised profits more than it cost the manufacturer in terms of added inventory carrying cost. As a result, overall profits increased because of the change in inventory policy.
-Following this strategy, it is true that a manufacturer will carry more inventory for certain items. Yet the percentage of time (97.6 to 99.5 percent in our simulation) that the firm is in stock for these SKUs translates into more sales and fewer stock-outs, which increases gross margin and, ultimately, operating profit. Because margin is primarily determined by the difference between the selling price and manufacturing and materials costs, if the margin for a unit is high, it pays to be almost always in stock. The resulting profit accrues, even after the higher finished goods carrying cost associated with larger inventory has been considered.
-This view of production and inventory planning also provides a manufacturer with a more sophisticated tool for balancing alternative plant operating choices to maximize profits. For example, consider whether a manufacturer should cut fabric and assemble garments in smaller lots. In order to make this decision for a SKU with a given level of demand variation, this firm’s managers should weigh the increased unit costs arising from manufacturing smaller lots against the benefits this might create in shortening production lead times, which would reduce the amount of inventory the firm must hold for that product. Similarly, the impact of alternative methods for reducing plant cycle time depends not only on the direct costs of changes, but also on the reductions in inventory levels allowed by shorter lead times.
-Fundamental to any resulting scenario is the idea of coupling inventory carrying costs to other manufacturing costs in order to make optimal production planning decisions. This allows manufacturers to balance the potentially higher operating costs associated with decreasing lot sizes (the minimum number of units in a production run) with the opportunities to reduce inventory carrying costs and increasing sales. The failure of most suppliers in the apparel industry to make inventory carrying costs an explicit part of their decision-making process remains a significant impediment to enhanced profitability. On the flip side, the performance results presented in Chapter 14 indicate that moving toward this more sophisticated method of handling production decisions can yield significant competitive advantages.
-Case 2: Multiple Plants and Production Planning
-Of course, a firm that relies on multiple production plants has a more complex problem than the example just presented. Not only must it set inventory levels and schedule production for each product, but it must choose which products to assemble in each plant. In many cases, the choice is between a more expensive plant—probably located close to the market—that provides shorter lead times and a more distant supplier that takes longer to make items but does so at a lower unit cost. Under the traditional retailing system, suppliers filled an order by carrying out assembly in the least costly plant, as long as its quality was adequate for the market for which the product was destined. In a lean retailing world, however, factors other than the direct costs of assembly and transportation need to be considered.
-Caught between lean retailers’ need for immediate replenishment and the high risk of carrying inventory for products with uncertain demand, a manufacturer today must go beyond traditional direct costs and also include manufacturing lead times and inventory carrying costs in its sourcing equation. Most production managers instinctively believe that having at least some manufacturing capability close to the market adds value to the company, but expressing that value in dollars and cents, and making specific allocations of products to plants, are difficult.
-Manufacturers—whether of suits, CDs, office products, or pasta—generally classify products in terms of product lines. Planning, therefore, is done for fall fashion lines, jazz ensemble CDs, yellow legal pads, or fettuccine pasta products. Even if this method of categorization is important from a marketing perspective, it often glosses over what is, in fact, common to many products that seem different and different about products that seem the same. Once again, demand variability is key. For our men’s suit manufacturer, the men’s size 43-regular coat may have less in common with the size 46-regular coat in the same size and color than with a fashionable boy’s blazer.
-To set an optimal policy for a multi-plant or multi-source setting, the first step is to determine the coefficient of variation for each SKU and then to arrange the SKUs into groups that have similar variations in weekly demand (i.e., the same Cv). Figuring out how to assign products to plants rests on two findings explored in this chapter. First, the previous case study suggests that SKUs with large demand variance (high Cvs) will require larger amounts of inventory than low variance SKUs to provide a high order-fulfillment rate to the retailer. Second, we argued earlier that reducing manufacturing lead times can lower the amount of inventory needed. The combination of these factors suggests that high variance SKUs are the best candidates for a plant with short lead times—the higher direct costs of production are balanced by the reduction in inventory carrying costs resulting from the shorter manu-facturing lead times.
-The Two-Plant Model
-Our second case study is based on a prominent apparel manufacturer that acted as one of our research sites. Here we will show how a decision tool can be used to make the transition from general intuition to specific decisions about (1) which products to make in each plant and (2) how to schedule the time and quantity of production for each product.6 This analysis can help manufacturers allocate production among existing facilities. It also illustrates what plant characteristics a close-to-market production facility must have to be competitive with low-cost, offshore suppliers. For this analysis, we assume that that the two facilities already exist—that is, we do not evaluate the option of building a new plant or modifying an existing plant (i.e., we are seeking a solution to a short-run optimization problem.)
-A simple depiction of the production situation is presented in Figure 7.6. Block diagrams represent this manufacturer’s plants and distribution center as well as the retail stores involved. There are two production lines or plants; in the “quick-line” plant, it costs more to produce an item of apparel but it does so more quickly than in the “regular-line” plant. The flow of goods is shown in solid lines, and information flows are represented by broken lines. Both plants are capable of making the same set of products. We assume that once a week, orders from all retail stores selling the product are received, picked, packed, and shipped to the retailers from the manufacturer’s distribution center. On receipt of the weekly orders, production managers total the quantity of each SKU ordered and determine production needs to restore each SKU’s distribution-center inventory to its target level. The total production quantity for each SKU is allocated between the two plants. The cost to produce a unit and deliver it to the distribution center is known for each plant, as well as the time it takes.7
-For confidentiality reasons, the actual costs and weekly sales volumes for our manufacturer are disguised; however, the cost numbers and sales volumes that appear in this case are reasonable numbers for, say, an upscale dress-shirt manufacturer. Let’s assume that we have a single style of dress shirt and that the shirt can be made in one of two plants. In the plant with the “regular” production line, the average direct cost of producing one shirt is $13.15: $7.15 in materials costs (including all buttons, thread, and lining material) plus $6.00 in labor and transportation costs (including direct labor at the plant level; transportation costs for fabric and other supplies shipped to the sewing plant; the cost of transporting finished goods to the manufacturer’s distribution center, any customs fees or insurance associated with transportation, and any other costs associated with producing an acceptable unit of finished goods). The other plant (the “quick-line” plant) has production costs that are 10 percent higher than for the regular line, but the manufacturing lead time from the time a production order is placed until a shirt is available in finished goods inventory is two weeks, compared to eleven weeks for the plant with the “regular line.”
-The question a manager faces in this situation can be stated as follows: For which dress shirts is it more profitable to pay $13.75 per shirt ($7.15 materials plus $6.60 production costs) but have a two-week production lead time, rather than $13.15 with an eleven-week lead time?
-If this case involved traditional production strategies in the apparel industry, there would be no problem to study. Managers would just decide to make all these dress shirts in the regular plant because its unit production cost is lower. But in the world of lean retailing, the decision becomes more complicated. Now the unit wholesale selling price, assumed to be $22.00 a shirt, is relevant to the decision because managers must weigh the cost of carrying shirts in inventory with the foregone revenue if they stock out of shirts in the distribution center.
-In addition, these managers need to know weekly demand variation as well as average weekly demand for each SKU. In this case, we assume that total weekly demand for all of our SKUs averages 10,000 shirts a week. We classify the SKUs into three categories: those with high demand (averaging 5,700 units a week) and low demand variation (Cv=0.6), those with medium demand (averaging 3,000 units a week) and medium demand variation (Cv=0.7), and those with low demand (averaging 1,300 units a week) and high demand variation (Cv= 1.3). These particular volumes and Cvs were chosen based on the values shown in Figure 7.3 (page 114). 
-Finally, to allocate production appropriately, managers need to know the inventory carrying cost for carrying work-in-process and finished goods inventory. The inventory carrying cost should reflect not only the cost of capital tied up in inventory, but also the risk of holding that inventory. One indicator of risk is the cost of markdowns manufacturers must make to clear inventory that retailers are not willing to purchase at full wholesale price—if at all.8 For example, the HCTAR survey found that an average apparel business unit discounted its products to retailers by 24 percent in 1992.
-Determining Optimal Allocations
-Next, the manufacturer must determine what percentage of its total capacity should be allocated to the quick line (we call this percentage the quick-line capacity ratio), with the remainder allocated to the regular line. Once this decision is made, specific SKUs must be allocated between the two plants on a weekly basis. As in the first case study, we assume that the retailer places an order every Sunday night and that the order must be filled during that week.
-We have developed a software package that solves this problem by using computer simulations of the weekly demand and production that determine the consequences of different quick-line capacity ratios and production scheduling policies for the manufacturer’s inventory and service levels (order-fulfillment rate) to the retailer. For a given quick-line capacity ratio, the computer program searches for a target inventory level for each SKU and finds the values of the target inventory for each group of SKUs that maximizes profit. The number of computer searches necessary is very large, but with a fast desktop computer and by using special search reduction techniques,9 the computations can be carried out in just hours.
-The results of a search for the maximum profit in this two-plant case appear in Figure 7.7 (page 124), which shows how the quick-line ratio increases as the inventory carrying costs increase.10 As we would expect, if the cost of carrying inventory is very low, the quick line is not used; that is, the quick-line capacity ratio equals zero. As inventory costs rise, the percent of units allocated to the quick line increases; eventually, when the annual inventory carrying cost approaches 30 percent, the ratio equals one—that is, all the production is allocated to the short-cycle plant. With higher values of inventory carrying costs, it is more profitable to shift more production to the quick-line plant to allow reduction in work-in-process and finished goods inventory.11
-The major point here is that inventory carrying cost is a critical variable in making such plant capacity decisions. A 24-percent annual inventory carrying cost amounts to approximately 2 percent a month. For the long-cycle plant, work-in-process and finished goods inventory will cover about sixteen weeks on average before the unit is sold. At 2 percent a month, this results in an inventory carrying charge of just 8 percent of the cost to assemble (plus materials). This 8 percent charge against materials and production should be compared with the 24 percent of wholesale selling cost our survey reported as the average markdown needed to clear inventories.12
-Figure 7.8 shows the full relationship between inventory carrying costs, lead times, and the quick-line production ratio. Again, our earlier intuition is confirmed. The decreasing lead time of the quick-line plant makes it competitive at a lower inventory carrying cost. The short-cycle plant becomes more competitive for two reasons: (1) there is less work-in-process; and (2) the finished goods inventory level necessary to satisfy retail demand for each SKU is less because the short-cycle plant can respond to actual demand more quickly.
-In this figure, the cycle time of the slower plant has been set at eleven weeks; the short-cycle line can make our products with three different times—namely, two, three, or four weeks. In this case, the cycle time for the long-cycle plant represents the number of weeks typical for offshore production. Note that some outsourcing of production for fashion items is done in Pacific Rim countries and flown directly to distribution centers in the United States. For example, executives at The Limited have often claimed that its firm can produce an item offshore in a thousand hours—or just six weeks—using air-freight delivery to its center in Columbus, Ohio. But most firms that use foreign plants take longer, which is why we have chosen eleven weeks as the cycle time of the slower production line. Figure 7.8 shows the curves for the various lead times listed in the legend on the right-hand side.
-Both components of total inventory (work-in-process and finished goods) decrease as the most profitable production shifts to the short-cycle plant. Less finished goods inventory is required because finished goods can be rapidly replenished after a peak selling week.
-Therefore, the amount of finished goods in the manufacturer’s distribution center needed to satisfy weekly demand for all SKUs depends on the cycle times of the plants supplying finished product, and what fraction of production is made in each plant. In the single-breasted coat example of the previous section, there was only one plant involved, which made the most profitable target inventory level a single number for each SKU.13 Increased profit came from missing fewer sales by being in stock a higher percentage of the time. In the second case, the finished goods in the distribution center are generally a blend of the output of two plants and the target inventory level varies with the quick-line capacity ratio. Most important, when a manufacturer considers two sourcing options, the one that offers the lowest direct cost is not always the most profitable.
-The Manufacturer’s Dilemma in a Lean World
-This chapter shows that suppliers must take additional dimensions into consideration when they make decisions about sourcing. To maximize profits, a firm must consider the complete set of benefits and costs of production decisions. The disadvantage of lower cost, slow production today is that it is necessary to risk large inventories to provide reasonable levels of service to retailers. The omission of such costs from sourcing decisions—as well as the failure to consider the benefits a supplier gains by being in stock on certain items—will reduce a manufacturer’s profitability as well as its ultimate ability to compete.
-This dilemma in a lean retailing world is summarized in Figure 7.9. Exactly how a manager divides production between plants with different production costs and cycle times depends on the details of the situation, such as those presented in the cases above. However, at least one general rule emerges from the cases we have studied: The cycle time of a fast production facility can be no more than a week or two. Needless to say, a local, more expensive production line with long cycle times cannot compete with slower, low-cost producers, even when allowances are made for late deliveries, markdowns, and the like.14 But as Figure 7.9 suggests, a manufacturer can pay somewhat more to make certain units—those with high weekly variation in sales—in quick production lines and still reap a better return than it would by making all of the product in a less expensive, slower plant.
-Balancing these production alternatives clearly has implications for foreign competition and the current transformation of the U.S. apparel industry. It also requires changes in internal processes, including manufacturing innovations and the sophisticated computer tools necessary to do this kind of production planning. Although many U.S. apparel-makers are only beginning to incorporate these changes into their operations, lean retailing practices will continue to push suppliers in this direction.
-The next two chapters examine apparel operations, starting with a look at the use of information technologies and automation equipment in the preassembly stages of garment-making (Chapter 8) and then the sewing room (Chapter 9). Chapter 10 considers how new human resource practices that allow for short-cycle production, in concert with the use of information technology, can positively affect the performance of suppliers.
-
-
-
+  
+    
+      
+        Editorial note
+        A commentary on this article can be found at
+        http://www.biomedcentral.com/1471-8219/2/5
+      
+      
+        Introduction
+        Cardiovascular diseases, a major health concern in
+        industrialized countries [ 1 2 3 4 ] , include
+        vasculopathies such as atherosclerosis [ 5 ] and autoimmune
+        vascular diseases such as lupus [ 6 ] , graft versus host
+        disease [ 7 ] , and systemic sclerosis [ 8 ] . Many factors
+        are involved in the development and progression of these
+        diseases including lifestyle (diet, smoking, and lack of
+        physical exercise); genes, and environment [ 1 2 3 4 ] .
+        Also, infectious agents, including both bacterial
+        (Chlamydia) [ 9 10 ] , and viral (CMV) [ 11 12 ] , have
+        been implicated. CMV, a herpes virus, causes chronic
+        asymptomatic infections in immunocompetent individuals,
+        termed latency [ 13 ] . However, in situations of
+        immunocompromise, CMV is reactivated, which in many cases
+        leads to organ failure and death [ 13 ] . Epidemiological
+        reports indicate that chronic CMV infections in humans may
+        play an important role in pathogenesis of vascular diseases
+        such as atherosclerosis [ 14 ] and systemic sclerosis [ 11
+        12 ] . In addition, a recent report [ 15 ] revealed that
+        SSc autoantibodies bind to CMV late protein UL94 and induce
+        apoptosis in endothelial cells therefore implicating
+        molecular mimicry as a potential mechanism accounting for
+        the link between SSc and CMV.
+        Here we report that MCMV infections of gene-targeted
+        mice lacking IFN-γR and subjected to whole body irradiation
+        develop vascular lesions that over 4 months progress to
+        severe vasculopathy characterized by significant neointima
+        formation, a prominent feature of autoimmune vasculopathies
+        in humans. Furthermore, imunohistochemical analyses
+        indicate the presence of significant lymphohistiocytic
+        infiltrate in the adventitia of affected arteries
+        containing both T and B-lymphocytes. Neointima stained
+        positive for both -smooth muscle actin and PCNA indicating
+        proliferation of smooth muscle cells possibly mediated by
+        growth factors TGF-β 
+        1 , PDGF-A and PDGF-B, while TUNEL
+        indicated apoptosis in the intimal layer in affected
+        arteries.
+      
+      
+        Materials and methods
+        
+          Mice
+          All experiments described in this study confirm with
+          "The guide for the Care and Use of Laboratory Animals"
+          published by the US National Institutes of Health (NIH
+          Publication No. 85-23, revised 1996). CD-1 mice used for
+          generating the MCMV stock were purchased from Charles
+          River Laboratories (Wilmington, MA). Experimental groups
+          included: 1) adult, immunocompetent 129S mice, and 2)
+          adult B6,129S IFN-γR-/- mice, both obtained from Jackson
+          Laboratories (Bar Harbor, MN). Food and water were
+          provided 
+          ad libitum. All mice were housed in
+          hepa filtered cages in the approved animal facility and
+          monitored daily for the development of clinical
+          manifestations of infection.
+        
+        
+          Preparation of MCMV stock and infection
+          protocol
+          MCMV strain Smith stock was purchased from American
+          Type Tissue Collection (Rockville, MD) This virus stock
+          had been propagated in SC-1 cells (mouse embryo
+          fibroblast cell line). To enhance pathogenicity, the
+          virus was passed three times in adult immunocompetent
+          CD-1 mice, which were infected with MCMV by i.p.
+          injection with 5 x 10 5plaque forming units (pfu). Two
+          weeks after infection mice were sacrificed, salivary
+          glands were collected, and virus stock was prepared as a
+          10% weight/volume homogenate. Concentration of virus in
+          these homogenates was determined by a standard plaque
+          assay on an infected 3T-12 fibroblast cell line. Final
+          MCMV stock contained 4.2 x 10 6PFUs/ml of salivary gland
+          homogenate. Control animals were infected with the same
+          concentration of salivary gland homogenate obtained from
+          control uninfected CD-1 mice.
+        
+        
+          Experimental protocol
+          Two months old mice were injected i.p. with either
+          MCMV or control salivary gland homogenate. Starting at
+          day 15 after infection and for as long as 6 months of
+          age, mice were sacrificed on a biweekly basis by i.p.
+          injection of sodium nembutal. Hearts and abdominal aortas
+          were collected and histopathological and
+          immunohistochemical analyses were performed. To both
+          accelerate the development of vascular pathology and to
+          deepen the immunocompromised state, these mice were
+          irradiated with a sublethal dose of gamma radiation (300
+          Rads) at 4 months of age. Tissue sections were coded and
+          scoring was performed in a blinded fashion.
+        
+        
+          Histology
+          H&E, Movat trichrome, and Verhoeff van Gieson,
+          staining was performed on 4 μm sections of aortas fixed
+          for 16 hours in neutral buffered formalin (10%), and
+          embedded in paraffin.
+        
+        
+          Antibodies
+          Polyclonal antibodies specific for CD4, CD8, γ/δ-TCR,
+          TGF-β 
+          1 , PDGF-A, PDGF-B, MCP-1 and
+          polyclonal antibody to PCNA were purchased from Santa
+          Cruz Biotechnology Inc., (Santa Cruz, CA). Polyclonal
+          antibody to B-lymphocyte marker (B-220) was purchased
+          from Caltag Laboratories (Burlingame, CA). Monoclonal
+          antibody specific for α-smooth muscle actin (clone 1A4)
+          was purchased from Sigma (St. Louis, MO).
+        
+        
+          Immunohistochemical analysis
+          Tissues were collected, fixed in formalin, and
+          embedded in paraffin. After deparaffinizing and two
+          5-minute washes in PBS, the sections were blocked for 20
+          minutes with a solution of 2% unconjugated goat
+          anti-mouse IgG in 1 x PBS. Indicated dilutions of the
+          primary antibodies were added to the slides and incubated
+          for 2 hours at room temperature followed by two 5-minute
+          washes with PBS. Biotinylated secondary IgG diluted 1:100
+          was added to the slides and incubated for 30 minutes.
+          After two additional 5-minute PBS washes, the tissue
+          sections were treated with a 3% solution of hydrogen
+          peroxide to quench endogenous peroxidase activity. After
+          two additional 5-minute washes, the slides were incubated
+          for 30 minutes in the solution containing the
+          avidin-biotin-peroxidase complex. Diaminobenzidine/H 
+          2 O 
+          2 substrate was allowed to react with
+          the peroxidase labeled tissue sections for 20 minutes.
+          After two 1-minute rinses in distilled water, the tissue
+          sections were counterstained with hematoxilin, cleared
+          and dehydrated by successive gradations through 70%, 95%,
+          and 100% ethanol followed by a final passage in xylene.
+          The slides were mounted and analyzed by bright field
+          microscopy.
+        
+        
+          Tunel
+          Animals were sacrificed and tissues collected and
+          processed as described for immunohistochemistry. TUNEL
+          assay was performed utilizing a kit for 
+          in situ detection of apoptosis,
+          Oncogene, (Cambridge, MA), according to manufacturer's
+          instructions. Briefly, 5 μm sequential sections were
+          deparaffinized and fixed with 4% paraformaldehyde for 20
+          minutes at room temperature followed by 30 minute wash in
+          PBS. After a 5 minute rinse with PBS, 50 μl of TUNEL
+          reaction mixture was added to tissue sections and
+          incubated in humidified chamber for 60 minutes at 37°C
+          followed by three 5 minute rinses in PBS and directly
+          analyzed under the microscope.
+        
+      
+      
+        Results
+        
+          Neointima formation triggered by MCMV
+          infection
+          Both immunocompetent 129S and immunodeficient
+          IFN-γR-/- mice were infected by i.p. injection at age 2
+          months with either 1 x 10 5or 5 x 10 4pfus of MCMV stock.
+          At 1 x 10 5pfus/mouse, 90% of IFN-γR-/- mice died with
+          necrotizing hepatitis between days 5-10. Reducing the
+          dose of MCMV to 5 x 10 4pfu resulted in lower mortality
+          rates (30%). In the immunocompetent group no deaths
+          occurred at either dose of MCMV. Surviving mice that
+          received either dose of virus developed perivascular
+          mononuclear cellular infiltrates in a number of organs
+          including lungs, kidneys, and salivary glands. Vascular
+          disease in the IFN-γR-/- group of mice began with
+          development of an inflammatory infiltrate in the
+          adventitia of aortas 3-4 weeks after infection in 30% of
+          animals (Table 1) (Fig. 1A). This infiltrate was
+          comprised predominantly of lymphohistiocytic cells (Fig.
+          1A). The vascular disease progressed over a time course
+          of 4 months and affected between 50 and 65 % of animals
+          (Table 1). In the group of IFN-γR-/- mice receiving
+          sublethal (300 Rads) whole body irradiation 2 months
+          after infection all examined animals exhibited vascular
+          pathology (Table 1). Animals appeared healthy and all
+          survived whole body irradiation. In the immunocompetent
+          group of animals these infiltrates were cleared by 8
+          weeks after infection and from that point these animals
+          were histologically indistinguishable from the uninfected
+          group. On the contrary, in the IFN-γR-/- mice infected
+          with MCMV, vascular disease progressed to the formation
+          of neointima in aortas by 4 months of age, (Fig. 1B,C,D).
+          Verhoeff-van Gieson staining indicated the focal
+          destruction of aortic elastic fibrils in addition to
+          intimal thickening (Fig. 1D) Controls in experiments
+          using IFN-γR-/- mice included: 1) uninfected animals, 2)
+          mice that were exposed only to the whole body irradiation
+          and 3) mice that received only MCMV. Histopathological
+          analysis of abdominal aortas collected from transgenic,
+          infected and irradiated animals revealed severe
+          vasculitis characterized by significant inflammatory
+          infiltrate in the adventitia and media (Table 2), (Fig.
+          2). At the same time hearts showed no signs of disease
+          (data not shown). Verhoeff-van Gieson (Fig. 2C) and Movat
+          pentachrome (Fig. 2D) staining indicated the focal
+          destruction of elastic tissue, as well as potential
+          trafficking of the infiltrating cells through these
+          breaks in the elastica. The extent of vascular damage in
+          all mice from this group was similar. The most striking
+          feature of the MCMV induced vascular disease was the
+          formation of neointima in aortas of MCMV infected
+          immunodeficient mice after irradiation (Table 2), (Fig
+          2). At the same time there was no vascular pathology in
+          any of the control groups (Table 2) (Fig 2A).
+          Verhoeff-van Gieson staining of aortas collected from
+          IFN-γR-/- mice 30 days after irradiation (not shown) and
+          IFN-γR-/- mice 60 days after irradiation (Fig. 2)
+          indicated that the intimal vascular lesion induced by
+          MCMV infection was characterized by collagen deposition
+          and smooth muscle proliferation. We utilized monoclonal
+          antibody specific for α-SMA, a marker for myofibroblast
+          cells, and found that neointima seen in the aortas of
+          MCMV infected experimental animals contained
+          myofibroblasts. (Fig. 3).
+        
+        
+          Immunohistochemical characterization of immune
+          response to MCMV infection
+          Immunohistochemical characterization of the
+          inflammatory infiltrate seen in the adventitia and media
+          of the affected aortas revealed both helper T-lymphocytes
+          (CD4 +) (Fig. 4B) and cytotoxic T-lymphocytes (CD8 +)
+          (Fig. 4C) throughout the lesion. Since one of the
+          characteristics of autoimmune vasculopathies is the
+          appearance of high numbers of γ/δ-TCR [ 16 ] bearing
+          cells, we studied this cell type in our model of vascular
+          disease. Results from these experiments revealed a large
+          number of γ/δ-TCR bearing lymphocytes throughout the
+          lesion (Fig. 4D). We also investigated the presence of
+          B-lymphocytes in the vascular lesion of MCMV infected
+          mice. While T-lymphocytes were identified throughout the
+          lesion these cells were mostly found in small follicles
+          (Fig. 4A).
+        
+        
+          Investigation of the role of cytokines and growth
+          factors
+          Growth factors possibly responsible for the neointimal
+          proliferation were studied based on their putative
+          importance in autoimmune vasculopathies in humans.
+          Immunohistochemical analysis indicated a significant
+          overproduction of TGF-β 
+          1 , PDGF-A, and PDGF-B in the MCMV
+          induced intimal lesion (Fig. 5). While TGF-β 1 and PDGF-A
+          immunoreactivity in affected arteries is localized to all
+          three layers (intima, media, adventitia) (Fig. 5Band 5D),
+          PDGF-B staining is localized to the media and neointima
+          (Fig. 5F). MCP-1, a chemokine that has been implicated in
+          pathogenesis of several autoimmune vascular diseases
+          including SSc, was noted in the adventitia and media of
+          affected arteries (Fig. 6). We did not detect MCP-1
+          positive staining in neointima (data not shown).
+        
+        
+          Role of apoptosis and proliferation
+          Further, we investigated the role of apoptosis and
+          proliferation in vascular pathology triggered by MCMV
+          infection of immunosuppressed mice. 
+          In situ TUNEL revealed positive
+          staining in the intimal layer of affected aortas (Fig
+          7A). In addition, a small portion of infiltrating
+          inflammatory cells stained positive by TUNEL (Fig. 7B).
+          Smooth muscle/myofibroblast cells forming the neointima
+          did not reveal any cells positive by TUNEL (Fig. 7A).
+          Immunohistochemical staining for PCNA was used to
+          identify cell proliferation. The majority of cells in the
+          neointima (Fig. 7Cand Fig. 8), as well as infiltrating
+          inflammatory cells (Fig. 7Dand FIG. 8), exhibit
+          immunoreactivity for PCNA, indicating active
+          proliferation.
+        
+      
+      
+        Discussion
+        The major finding of this study is the formation of
+        neointima associated with MCMV infection in
+        immunocompromised mice. The disease described in our study
+        resembles pathological processes seen in other autoimmune
+        vasculopathies. However, it is important to note that while
+        there are undoubtedly autoimmune aspects of
+        atherosclerosis, this issue is still under debate [ 17 ] .
+        The formation of neointima characteristic of the
+        vasculopathy in autoimmune diseases by this approach has,
+        to our knowledge, not been previously reported. While MCMV
+        vasculitis in IFN-γR-/- mice has been previously reported [
+        18 ] , that study does not focus on intimal proliferation.
+        In our experimental conditions we were able to increase
+        yield from 62% affected animals in IFN-γR-/- mice infected
+        with MCMV to 100% by including whole body irradiation of
+        chronically infected IFN-γR-/- mice (Table 1). In addition,
+        a striking increase in the severity of intimal lesions was
+        noted in irradiated mice (Table 2). We propose that there
+        are two possible explanations for the increase in both the
+        number of affected animals, as well as increase in the
+        severity of vascular disease in MCMV infected IFN-γR-/-
+        mice receiving whole body irradiation treatment. First,
+        sublethal irradiation additionally immunosuppresses the
+        animals allowing unlimited replication of MCMV which may
+        lead to direct viral damage. Second, the immune system
+        after recovering from effects of radiation (reconstitution)
+        contains large number of MCMV specific CTLs that may be
+        capable of inducing intimal pathology while attempting to
+        clear the infection.
+        CMV infections have been implicated in a number of
+        vascular diseases. CMV invades the vascular endothelium
+        with the development of both latency and intermittent
+        shedding of the virus to distal tissues, often by
+        detachment of infected endothelial cells. In
+        immunocompetent individuals CMV infections are of chronic
+        or latent type and are usually not associated with
+        clinically detectable disease. In immunocompromised
+        patients such as neonates, transplant recipients and
+        patients with AIDS, CMV infections are a leading cause of
+        organ failure and death. Nonetheless, the mechanisms of CMV
+        reactivation and induction of vascular lesions are not well
+        understood. Clinical and epidemiological studies strongly
+        suggest the association of CMV infection in the progression
+        of numerous vascular diseases, including atherosclerosis [
+        16 17 18 19 20 ] , rapidly progressive coronary artery
+        disease, endothelialitis in heart transplant recipients [
+        21 22 23 24 ] , coronary restenosis [ 25 26 ] , and
+        inflammatory aortic disease [ 27 28 ] as well as SSc [ 11
+        12 ] . We attempted to reproduce the endpoint of such
+        diseases by using immunosupression and CMV infection,
+        allowing us to investigate cellular and molecular events
+        leading to this pathology. While SSc is an autoimmune
+        disease affecting microvasculature, some recent studies
+        also described increased incidence of vascular pathology in
+        the large arterial vessels of SSc patients [ 29 30 31 ] .
+        However, it is still unclear if macro vascular pathology is
+        a primary feature of SSc or an indirect effect of some of
+        the downstream events related to this disease.
+        Inoculation of immunocompetent mice with MCMV causes
+        persistent productive infection in salivary glands followed
+        by latency [ 32 33 ] . This latency is characterized by the
+        presence of the viral genome whereas infectious viral
+        particles could not be detected. In addition it was
+        possible to reactivate virus either 
+        in vivo or 
+        in vitro from tissue explants. While
+        there are several lines of evidence to suggest that the
+        immune system, or its absence, plays a role in MCMV
+        reactivation from latency [ 34 35 ] the mechanism is not
+        known. Latent CMV in many organs can be reactivated from
+        its dormant state by several means of immunosuppression,
+        including transmission from donors to immunosuppressed
+        recipients of transplants, and blood transfusion.
+        Prior studies describe development of MCMV associated
+        vascular lesions in large arterial vessels of mice. The
+        i.p. injection of suckling mice induces vascular lesions in
+        the aorta and pulmonary artery, which are characterized by
+        cellular infiltrates containing T-lymphocytes [ 36 ] . A
+        more recent study describes the development of MCMV induced
+        vascular lesions in the aorta of both immunocompetent mice
+        and those lacking IFN-γ responsiveness where IFN-γ is
+        determined to be a major antiviral factor preventing the
+        long term persistence of aortic vascular lesions [ 18 ] .
+        The present study focused on neointima formation, which was
+        seen only in immunocompromised mice. Our results indicated
+        presence of both CD4 +helper, and CD8 +cytotoxic
+        T-lymphocytes in the adventitia of the affected arteries.
+        Significant portion of these T-lymphocytes are γ/δ-TCR
+        +This subpopulation of lymphocytes has been identified as
+        part of the pathogenesis of autoimmune diseases. For
+        example, it has been shown that γ/δ-TCR +lymphocytes from
+        SSc patients recognize and lyse endothelial cells at a
+        significantly higher rate then γ/δ cells isolated from
+        control subjects [ 16 ] . Also, a recent study indicates
+        that γ/δ-TCR +bearing lymphocytes play an important role in
+        immune response of immunosuppressed transplant recipients
+        to CMV infection [ 37 ] . NK cells, natural antibodies, and
+        complement, potentially important in controlling CMV
+        infection, await further study.
+        Growth factors TGF-β, and PDGF are contributing factors
+        in vascular diseases. TGF-β upregulates α-smooth muscle
+        actin gene transcription [ 38 ] . Since we identified
+        significant α-smooth muscle actin expression in our model
+        and this coincided with the expression of TGF-β, it is
+        possible that TGF-β mediates α-smooth muscle actin
+        expression in our model. The elevated expression of PDGF in
+        our model is also significant since the expression of these
+        growth factors by endothelial cells can be induced by
+        direct immune cell - endothelial cell interaction,
+        promoting smooth muscle cell migration and proliferation in
+        atherosclerosis [ 39 ] . CMV, as well as other viruses,
+        induces expression of a number of cytokines and growth
+        factors in cells 
+        in vitro, including TGF-β, a
+        profibrogenic cytokine [ 40 41 ] . MCP-1 is a member of the
+        β-chemokine (C-C) family [ 42 ] and this chemokine has been
+        implicated in pathogenesis of SSc [ 43 ] . Our results
+        (Fig. 6) indicate that this chemokine may play a role in
+        recruitment of inflammatory cells to CMV infected
+        vasculature.
+        We investigated the role of apoptosis in pathogenesis of
+        MCMV induced intimal lesion since apoptosis of virally
+        infected cells is one of the mechanisms by which host may
+        limit the virus spread. The presence of apoptotic
+        T-lymphocytes has been reported to be a feature of MCMV
+        infection [ 44 ] . Apoptosis of vascular endothelium
+        induced by immune effectors has been described in both SSc
+        patient vessels as well as those of UCD chickens (one of
+        the animal models for SSc) [ 45 ] . Recently, it has been
+        reported that IgG autoantibodies from SSc patients bind CMV
+        late protein UL94 and this induces apoptosis in human
+        endothelial cells [ 15 ] . We detected the presence of
+        apoptotic cells in the intimal layer as well as in
+        inflammatory infiltrate of the affected aortas (Fig.
+        7A& 7B). In the future we will ask if apoptosis in our
+        model is induced by anti-endothelial autoantibodies, MCMV
+        infection of endothelium, or is induced and/or perpetuated
+        by inflammatory cells. Apoptosis of vascular endothelium
+        may be the trigger that initiates the uncontrolled repair
+        mechanism characterized by the proliferation of smooth
+        muscle cells/myofibroblasts, leading to the development of
+        neointima in MCMV induced vascular disease.
+        The development of CMV induced vasculopathies is a major
+        cause of morbidity and mortality in immunosuppressed
+        patients. CMV infections have been identified as important
+        mediator of organ failure and death in transplant
+        recipients and AIDS patients. Although the role of CMV
+        infection in pathogenesis of vascular diseases in
+        immunocompetent patients is less clear, epidemiological
+        studies strongly suggest that chronic or latent infections
+        may accelerate the development of diseases such as
+        atherosclerosis and SSc. In fact, it is fair to hypothesize
+        that several diseases thought to be of "idiopathic" origin
+        may be triggered by chronic infections with CMV and other
+        infectious agents in the genetically susceptible host.
+        Animal models, such as those described in this paper, will
+        allow us to better understand the role that viral
+        infections play in the pathogenesis of vascular diseases.
+        It is crucial to identify factors responsible for
+        contributing to the development of vascular pathology in
+        order to develop better preventive as well as treatment
+        modalities.
+      
+      
+        Competing interests
+        None declared
+      
+      
+        Abbreviations
+        CMV = cytomegalovirus, MCMV = murine cytomegalovirus,
+        MCP-1 = monocyte chemoattractant protein-1, PCNA =
+        proliferating cell nuclear antigen, PDGF = platelet derived
+        growth factor, SSc = systemic sclerosis, TGF-β 
+        1 = transforming growth factor-β 
+        1 , TUNEL = terminal TdT-mediated dUTP
+        nick end labeling, α-SMA = α-smooth muscle actin
+      
+    
+  

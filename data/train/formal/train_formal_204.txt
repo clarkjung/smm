@@ -1,603 +1,885 @@
 
+  
     
+      
+        Background
+        In higher eukaryotes, many genes feature differential
+        spatial-temporal expression during development and
+        throughout the life cycle of the organism. Their complex
+        transcription regulation is thought to be achieved by the
+        combinatorial action of multiple transcription factors
+        which bind to 
+        cis- regulatory DNA sequences. Here,
+        transcription factors are defined as proteins which
+        recognize and bind regulatory sites and have a potential to
+        modulate directly or indirectly through the recruitment of
+        cofactors the activity of the basal transcriptional
+        apparatus of proximal genes. The number of transcription
+        factors is a substantial part of the total number of genes
+        in any organism, for example about 700 out of 13,500 genes
+        in Drosophila [ 1 ] .
+        Although combinatorial action of transcription factors
+        has been studied throughout the life cycle of organisms [ 2
+        ] , perhaps the most coherent picture has emerged in the
+        context of developmental processes [ 3 4 ] . Here, a great
+        number of experiments suggest that a major part of the gene
+        regulatory apparatus is organized in the form of separable 
+        cis- regulatory modules [ 3 ] . A
+        given module defines specific aspects of the
+        spatio-temporal pattern of gene expression by the
+        combinatorial action of multiple transcription factors
+        which together define the rate of transcription. Modules
+        thus integrate inputs from several genes and regulate
+        another gene to form developmental networks. Modules seem
+        to share several architectural features [ 5 ] : They are
+        typically only hundreds of nucleotides in length and
+        contain multiple binding sites for as many as 4-5 different
+        transcription factors. The frequent occurence of multiple
+        copies of the same motif as well as the enrichment of
+        certain combinations of motifs in a module in comparison
+        with the genome at large provide the basis for our
+        computational strategies to predict genes which are part of
+        the same regulatory network. Existing algorithms for
+        discovering modules [ 6 7 8 ] are based on counting the
+        number of matches of a certain minimal strength to known
+        motifs and thus require ad-hoc parameters for each motif,
+        resulting in parameter dependent predictions. These
+        algorithms are also bound to miss multiple weak binding
+        sites which are known to be present in many modules. We
+        demonstrate a novel algorithm, Ahab, which overcomes these
+        problems.
+        However, the binding sites (motifs) which reside in
+        modules are often not known. A recent paper [ 9 ] proposed
+        an algorithm for identfying these sites; here we show that
+        a standard method is capable of identifying typically half
+        of the known binding sites in a module. Its entire output
+        can then be used as input to Ahab (Figure 1). Finally, we
+        ask if the redundancy of sites inside modules is strong
+        enough to predict modules using only genomic sequence. To
+        our knowledge, our algorithm Argos is the first successful
+        attempt to do this for a metazoan genome.
+        Our system of choice is the body patterning of the early
+        Drosophila embryo which is established by a multi-tiered
+        hierarchy of transcription factors [ 10 ] . Broadly
+        distributed maternal factors trigger zygotic gap gene
+        expression in discrete domains along the anterior-posterior
+        axis of the embryo. Maternal and gap gene factors together
+        trigger pair rule gene expression in 7 alternating stripes,
+        which in turn regulate segment polarity and homeotic gene
+        expression in 14 stripes. Many of these factors are known,
+        their binding sites have been studied, and more than 20
+        modules have been identified. For this system, we show by
+        comparing our predictions to literature results that we can
+        predict regulatory modules using different levels of input
+        - binding sites, regulatory sequence identified by
+        'promoter bashing'/sufficiency tests, and genomic sequence
+        itself. Altogether, we predict roughly 200 new modules and
+        7 new sequence motifs and we analyze and validate the
+        performance of each of the three algorithms.
+        Figure 1summarizes the input/output levels and serves as
+        a reference for what follows.
+      
+      
+        Results
         
-            WARTIME
-            After the attacks had occurred, while crisis managers were still sorting out a number
-                of unnerving false alarms, Air Force One flew to Barksdale Air Force Base in
-                Louisiana. One of these alarms was of a reported threat against Air Force One
-                itself, a threat eventually run down to a misunderstood communication in the hectic
-                White House Situation Room that morning.
-            
-            While the plan at the elementary school had been to return to Washington, by the time
-                Air Force One was airborne at 9:55 A.M. the Secret Service, the President's
-                advisers, and Vice President Cheney were strongly advising against it. President
-                Bush reluctantly acceded to this advice and, at about 10:10, Air Force One changed
-                course and began heading due west. The immediate objective was to find a safe
-                location-not too far away-where the President could land and speak to the American
-                people. The Secret Service was also interested in refueling the aircraft and paring
-                down the size of the traveling party. The President's military aide, an Air Force
-                officer, quickly researched the options and, sometime around 10:20, identified
-                Barksdale Air Force Base as an appropriate interim destination.
-            
-            When Air Force One landed at Barksdale at about 11:45, personnel from the local
-                Secret Service office were still en route to the airfield. The motorcade consisted
-                of a military police lead vehicle and a van; the proposed briefing theater had no
-                phones or electrical outlets. Staff scrambled to prepare another room for the
-                President's remarks, while the lead Secret Service agent reviewed the security
-                situation with superiors in Washington. The President completed his statement, which
-                for security reasons was taped and not broadcast live, and the traveling party
-                returned to Air Force One. The next destination was discussed: once again the Secret
-                Service recommended against returning to Washington, and the Vice President agreed.
-                Offutt Air Force Base in Nebraska was chosen because of its elaborate command and
-                control facilities, and because it could accommodate overnight lodging for 50
-                persons. The Secret Service wanted a place where the President could spend several
-                days, if necessary.
-            
-            Air Force One arrived at Offutt at 2:50 P.M. At about 3:15, President Bush met with
-                his principal advisers through a secure video teleconference.
-            
-            Rice said President Bush began the meeting with the words, "We're at war," and that Director of Central Intelligence George Tenet said
-                the agency was still assessing who was responsible, but the early signs all pointed
-                to al Qaeda.6That evening the Deputies Committee returned to the pending
-                presidential directive they had labored over during the summer.
-            
-            The secretary of defense directed the nation's armed forces to Defense Condition 3,
-                an increased state of military readiness.
-            
-            For the first time in history, all nonemergency civilian aircraft in the United
-                States were grounded, stranding tens of thousands of passengers across the country.
-                Contingency plans for the continuity of government and the evacuation of leaders had
-                been implemented. 9 The Pentagon had been struck; the White House or the Capitol had
-                narrowly escaped direct attack. Extraordinary security precautions were put in place
-                at the nation's borders and ports.
-            In the late afternoon, the President overruled his aides' continuing reluctance to
-                have him return to Washington and ordered Air Force One back to Andrews Air Force
-                Base. He was flown by helicopter back to the White House, passing over the
-                still-smoldering Pentagon. At 8:30 that evening, President Bush addressed the nation
-                from the White House. After emphasizing that the first priority was to help the
-                injured and protect against any further attacks, he said: "We will make no
-                distinction between the terrorists who committed these acts and those who harbor
-                them." He quoted Psalm 23-"though I walk through the valley of the shadow of death .
-                . ." No American, he said,"will ever forget this day."
-            
-            Following his speech, President Bush met again with his National Security Council
-                (NSC), expanded to include Secretary of Transportation Norman Mineta and Joseph
-                Allbaugh, the director of the Federal Emergency Management Agency. Secretary of
-                State Colin Powell, who had returned from Peru after hearing of the attacks, joined
-                the discussion. They reviewed the day's events.
-            
-            IMMEDIATE RESPONSES AT HOME
-            As the urgent domestic issues accumulated, White House Deputy Chief of Staff Joshua
-                Bolten chaired a temporary "domestic consequences" group.
-            
-            The agenda in those first days is worth noting, partly as a checklist for future
-                crisis planners. It began with problems of how to help victims and stanch the
-                flowing losses to the American economy, such as
-            
-                Organizing federal emergency assistance. One question was what kind of public
-                    health advice to give about the air quality in Lower Manhattan in the vicinity
-                    of the fallen buildings.
-                
-                Compensating victims. They evaluated legislative options, eventually setting
-                    up a federal compensation fund and defining the powers of a special master to
-                    run it.
-                Determining federal assistance. On September 13, President Bush promised to
-                    provide $20 billion for New York City, in addition to the $20 billion his budget
-                    director had already guessed might be needed for the country as a whole.
-                
-                Restoring civil aviation. On the morning of September 13, the national
-                    airspace reopened for use by airports that met newly improvised security
-                    standards.
-                Reopening the financial markets. After extraordinary emergency efforts
-                    involving the White House, the Treasury Department, and the Securities and
-                    Exchange Commission, aided by unprecedented cooperation among the usually
-                    competitive firms of the financial industry, the markets reopened on Monday,
-                    September 17.
-                
-                Deciding when and how to return border and port security to more normal
-                    operations.
-                Evaluating legislative proposals to bail out the airline industry and cap its
-                    liability.
-            
-            The very process of reviewing these issues underscored the absence of an effective
-                government organization dedicated to assessing vulnerabilities and handling problems
-                of protection and preparedness. Though a number of agencies had some part of the
-                task, none had security as its primary mission. By September 14, Vice President
-                Cheney had decided to recommend, at least as a first step, a new White House entity
-                to coordinate all the relevant agencies rather than tackle the challenge of
-                combining them in a new department. This new White House entity would be a homeland
-                security adviser and Homeland Security Council-paralleling the National Security
-                Council system. Vice President Cheney reviewed the proposal with President Bush and
-                other advisers. President Bush announced the new post and its first occupant-
-                Pennsylvania governor Tom Ridge-in his address to a joint session of Congress on
-                September 20.
-            
-            Beginning on September 11, Immigration and Naturalization Service agents working in
-                cooperation with the FBI began arresting individuals for immigration violations whom
-                they encountered while following up leads in the FBI's investigation of the 9/11
-                attacks. Eventually, 768 aliens were arrested as "special interest" detainees. Some
-                (such as Zacarias Moussaoui) were actually in INS custody before 9/11; most were
-                arrested after. Attorney General John Ashcroft told us that he saw his job in
-                directing this effort as "risk minimization," both to find out who had committed the
-                attacks and to prevent a subsequent attack. Ashcroft ordered all special interest
-                immigration hearings closed to the public, family members, and press; directed
-                government attorneys to seek denial of bond until such time as they were "cleared"
-                of terrorist connections by the FBI and other agencies; and ordered the identity of
-                the detainees kept secret. INS attorneys charged with prosecuting the immigration
-                violations had trouble getting information about the detainees and any terrorist
-                connections; in the chaos after the attacks, it was very difficult to reach law
-                enforcement officials, who were following up on other leads. The clearance process
-                approved by the Justice Department was time-consuming, lasting an average of about
-                80 days.
-            
-            We have assessed this effort to detain aliens of "special interest." The detainees
-                were lawfully held on immigration charges. Records indicate that 531 were deported,
-                162 were released on bond, 24 received some kind of immigration benefits, 12 had
-                their proceedings terminated, and 8-one of whom was Moussaoui-were remanded to the
-                custody of the U.S. Marshals Service. The inspector general of the Justice
-                Department found significant problems in the way the 9/11 detainees were
-                    treated.
-            
-            In response to a request about the counterterrorism benefits of the 9/11 detainee
-                program, the Justice Department cited six individuals on the special interest
-                detainee list, noting that two (including Moussaoui) were linked directly to a
-                terrorist organization and that it had obtained new leads helpful to the
-                investigation of the 9/11 terrorist attacks.
-            
-            A senior al Qaeda detainee has stated that U.S. government efforts after the 9/11
-                attacks to monitor the American homeland, including review of Muslims' immigration
-                files and deportation of nonpermanent residents, forced al Qaeda to operate less
-                freely in the United States.
-            
-            The government's ability to collect intelligence inside the United States, and the
-                sharing of such information between the intelligence and law enforcement
-                communities, was not a priority before 9/11. Guidelines on this subject issued in
-                August 2001 by Deputy Attorney General LarryThompson essentially recapitulated prior
-                guidance. However, the attacks of 9/11 changed everything. Less than one week after
-                September 11, an early version of what was to become the Patriot Act (officially,
-                the USA PATRIOT Act) began to take shape.
-            
-            A central provision of the proposal was the removal of "the wall" on information
-                sharing between the intelligence and law enforcement communities (discussed in
-                chapter 3). Ashcroft told us he was determined to take every conceivable action,
-                within the limits of the Constitution, to identify potential terrorists and deter
-                additional attacks.
-            
-            The administration developed a proposal that eventually passed both houses of
-                Congress by large majorities and was signed into law on October 26.
-            
-            Flights of Saudi Nationals Leaving the United States
-            Three questions have arisen with respect to the departure of Saudi nationals from the
-                United States in the immediate aftermath of 9/11: (1) Did any flights of Saudi
-                nationals take place before national airspace reopened on September 13, 2001? (2)
-                Was there any political intervention to facilitate the departure of Saudi nationals?
-                (3) Did the FBI screen Saudi nationals thoroughly before their departure?
-            First, we found no evidence that any flights of Saudi nationals, domestic or
-                international, took place before the reopening of national airspace on the morning
-                of September 13, 2001.24 To the contrary, every flight we have identified occurred
-                after national airspace reopened.
-            
-            Second, we found no evidence of political intervention. We found no evidence that
-                anyone at the White House above the level of Richard Clarke participated in a
-                decision on the departure of Saudi nationals. The issue came up in one of the many
-                video teleconferences of the interagency group Clarke chaired, and Clarke said he
-                approved of how the FBI was dealing with the matter when it came up for interagency
-                discussion at his level. Clarke told us, "I asked the FBI, Dale Watson . . . to
-                handle that, to check to see if that was all right with them, to see if they wanted
-                access to any of these people, and to get back to me. And if they had no objections,
-                it would be fine with me." Clarke added,"I have no recollection of clearing it with
-                anybody at the White House."
-            
-            Although White House Chief of Staff Andrew Card remembered someone telling him about
-                the Saudi request shortly after 9/11, he said he had not talked to the Saudis and
-                did not ask anyone to do anything about it. The President and Vice President told us
-                they were not aware of the issue at all until it surfaced much later in the media.
-                None of the officials we interviewed recalled any intervention or direction on this
-                matter from any political appointee.
-            
-            Third, we believe that the FBI conducted a satisfactory screening of Saudi nationals
-                who left the United States on charter flights.
-            
-            The Saudi government was advised of and agreed to the FBI's requirements that
-                passengers be identified and checked against various databases before the flights
-                departed.29The Federal Aviation Administration representative working in the FBI
-                operations center made sure that the FBI was aware of the flights of Saudi nationals
-                and was able to screen the passengers before they were allowed to depart.
-            
-            The FBI interviewed all persons of interest on these flights prior to their
-                departures. They concluded that none of the passengers was connected to the 9/11
-                attacks and have since found no evidence to change that conclusion. Our own
-                independent review of the Saudi nationals involved confirms that no one with known
-                links to terrorism departed on these flights.
-            
-            PLANNING FOR WAR
-            By late in the evening of September 11, the President had addressed the nation on the
-                terrible events of the day. Vice President Cheney described the President's mood as
-                somber.32The long day was not yet over. When the larger meeting that included his
-                domestic department heads broke up, President Bush chaired a smaller meeting of top
-                advisers, a group he would later call his "war council."33This group usually
-                included Vice President Cheney, Secretary of State Powell, Secretary of Defense
-                Donald Rumsfeld, General Hugh Shelton, Vice Chairman of the Joint Chiefs (later to
-                become chairman) General Myers, DCI Tenet, Attorney General Ashcroft, and FBI
-                Director Robert Mueller. From the White House staff, National Security Advisor
-                Condoleezza Rice and Chief of Staff Card were part of the core group, often joined
-                by their deputies, Stephen Hadley and Joshua Bolten.
-            In this restricted National Security Council meeting, the President said it was a
-                time for self-defense. The United States would punish not just the perpetrators of
-                the attacks, but also those who harbored them. Secretary Powell said the United
-                States had to make it clear to Pakistan, Afghanistan, and the Arab states that the
-                time to act was now. He said we would need to build a coalition. The President noted
-                that the attacks provided a great opportunity to engage Russia and China. Secretary
-                Rumsfeld urged the President and the principals to think broadly about who might
-                have harbored the attackers, including Iraq, Afghanistan, Libya, Sudan, and Iran. He
-                wondered aloud how much evidence the United States would need in order to deal with
-                these countries, pointing out that major strikes could take up to 60 days to
-                    assemble.
-            
-            President Bush chaired two more meetings of the NSC on September 12. In the first
-                meeting, he stressed that the United States was at war with a new and different kind
-                of enemy. The President tasked principals to go beyond their pre-9/11 work and
-                develop a strategy to eliminate terrorists and punish those who support them. As
-                they worked on defining the goals and objectives of the upcoming campaign, they
-                considered a paper that went beyond al Qaeda to propose the "elimination of
-                terrorism as a threat to our way of life," an aim that would include pursuing other
-                international terrorist organizations in the Middle East.
-            
-            Rice chaired a Principals Committee meeting on September 13 in the Situation Room to
-                refine how the fight against al Qaeda would be conducted. The principals agreed that
-                the overall message should be that anyone supporting al Qaeda would risk harm. The
-                United States would need to integrate diplomacy, financial measures, intelligence,
-                and military actions into an overarching strategy. The principals also focused on
-                Pakistan and what it could do to turn the Taliban against al Qaeda. They concluded
-                that if Pakistan decided not to help the United States, it too would be at
-                    risk.
-            
-            The same day, Deputy Secretary of State Richard Armitage met with the Pakistani
-                ambassador to the United States, Maleeha Lodhi, and the visiting head of Pakistan's
-                military intelligence service, Mahmud Ahmed. Armitage said that the United States
-                wanted Pakistan to take seven steps:
-            
-                to stop al Qaeda operatives at its border and end all logistical support for
-                    Bin Ladin;
-                to give the United States blanket overflight and landing rights for all
-                    necessary military and intelligence operations;
-                to provide territorial access to U.S. and allied military intelligence and
-                    other personnel to conduct operations against al Qaeda;
-                to provide the United States with intelligence information;
-                to continue to publicly condemn the terrorist acts;
-                to cut off all shipments of fuel to the Taliban and stop recruits from going
-                    to Afghanistan; and,
-                if the evidence implicated bin Ladin and al Qaeda and the Taliban continued to
-                    harbor them, to break relations with the Taliban government.
-                
-            
-            Pakistan made its decision swiftly. That afternoon, Secretary of State Powell
-                announced at the beginning of an NSC meeting that Pakistani President Musharraf had
-                agreed to every U.S. request for support in the war on terrorism. The next day, the
-                U.S. embassy in Islamabad confirmed that Musharraf and his top military commanders
-                had agreed to all seven demands." Pakistan will need full US support as it proceeds
-                with us," the embassy noted." Musharraf said the GOP [government of Pakistan] was
-                making substantial concessions in allowing use of its territory and that he would
-                pay a domestic price. His standing in Pakistan was certain to suffer. To
-                counterbalance that he needed to show that Pakistan was benefiting from his
-                    decisions."
-            
-            At the September 13 NSC meeting, when Secretary Powell described Pakistan's reply,
-                President Bush led a discussion of an appropriate ultimatum to the Taliban. He also
-                ordered Secretary Rumsfeld to develop a military plan against the Taliban. The
-                President wanted the United States to strike the Taliban, step back, wait to see if
-                they got the message, and hit them hard if they did not. He made clear that the
-                military should focus on targets that would influence the Taliban's behavior.
-            
-            President Bush also tasked the State Department, which on the following day delivered
-                to the White House a paper titled "Game Plan for a Political- Military Strategy for
-                Pakistan and Afghanistan." The paper took it as a given that Bin Ladin would
-                continue to act against the United States even while under Taliban control. It
-                therefore detailed specific U.S. demands for the Taliban: surrender Bin Ladin and
-                his chief lieutenants, including Ayman al Zawahiri; tell the United States what the
-                Taliban knew about al Qaeda and its operations; close all terrorist camps; free all
-                imprisoned foreigners; and comply with all UN Security Council resolutions.
-            
-            The State Department proposed delivering an ultimatum to the Taliban: produce Bin
-                Ladin and his deputies and shut down al Qaeda camps within 24 to 48 hours, or the
-                United States will use all necessary means to destroy the terrorist infrastructure.
-                The State Department did not expect the Taliban to comply. Therefore, State and
-                Defense would plan to build an international coalition to go into Afghanistan. Both
-                departments would consult with NATO and other allies and request intelligence,
-                basing, and other support from countries, according to their capabilities and
-                resources. Finally, the plan detailed a public U.S. stance: America would use all
-                its resources to eliminate terrorism as a threat, punish those responsible for the
-                9/11 attacks, hold states and other actors responsible for providing sanctuary to
-                terrorists, work with a coalition to eliminate terrorist groups and networks, and
-                avoid malice toward any people, religion, or culture.
-            
-            President Bush recalled that he quickly realized that the administration would have
-                to invade Afghanistan with ground troops.
-            
-            But the early briefings to the President and Secretary Rumsfeld on military options
-                were disappointing. 43 Tommy Franks, the commanding general of Central Command
-                (CENTCOM), told us that the President was dissatisfied. The U.S. military, Franks
-                said, did not have an off-the-shelf plan to eliminate the al Qaeda threat in
-                Afghanistan. The existing Infinite Resolve options did not, in his view, amount to
-                such a plan.
-            
-            All these diplomatic and military plans were reviewed over the weekend of September
-                15-16, as President Bush convened his war council at Camp David.
-            
-            Present were Vice President Cheney, Rice, Hadley, Powell, Armitage, Rumsfeld,
-                Ashcroft, Mueller, Tenet, Deputy Secretary of Defense Paul Wolfowitz, and Cofer
-                Black, chief of the DCI's Counterterrorist Center.
-            Tenet described a plan for collecting intelligence and mounting covert operations. He
-                proposed inserting CIA teams into Afghanistan to work with Afghan warlords who would
-                join the fight against al Qaeda.46These CIA teams would act jointly with the
-                military's Special Operations units. President Bush later praised this proposal,
-                saying it had been a turning point in his thinking.
-            
-            General Shelton briefed the principals on the preliminary plan for Afghanistan that
-                the military had put together. It drew on the Infinite Resolve "phased campaign"
-                plan the Pentagon had begun developing in November 2000 as an addition to the strike
-                options it had been refining since 1998. But Shelton added a new element-the
-                possible significant use of ground forces- and that is where President Bush
-                reportedly focused his attention.
-            
-            After hearing from his senior advisers, President Bush discussed with Rice the
-                contents of the directives he would issue to set all the plans into motion. Rice
-                prepared a paper that President Bush then considered with principals on Monday
-                morning, September 17. "The purpose of this meeting," he recalled saying,"is to
-                assign tasks for the first wave of the war against terrorism. It starts today."
-            
-            In a written set of instructions slightly refined during the morning meeting,
-                President Bush charged Ashcroft, Mueller, and Tenet to develop a plan for homeland
-                defense. President Bush directed Secretary of State Powell to deliver an ultimatum
-                to the Taliban along the lines that his department had originally proposed. The
-                State Department was also tasked to develop a plan to stabilize Pakistan and to be
-                prepared to notify Russia and countries near Afghanistan when hostilities were
-                    imminent.
-            
-            In addition, Bush and his advisers discussed new legal authorities for covert action
-                in Afghanistan, including the administration's first Memorandum of Notification on
-                Bin Ladin. Shortly thereafter, President Bush authorized broad new authorities for
-                the CIA.
-            
-            President Bush instructed Rumsfeld and Shelton to develop further the Camp David
-                military plan to attack the Taliban and al Qaeda if the Taliban rejected the
-                ultimatum. The President also tasked Rumsfeld to ensure that robust measures to
-                protect American military forces against terrorist attack were implemented
-                worldwide. Finally, he directed Treasury Secretary Paul O'Neill to craft a plan to
-                target al Qaeda's funding and seize its assets.
-            
-            NSC staff members had begun leading meetings on terrorist fund-raising by September
-                    18.
-            
-            Also by September 18, Powell had contacted 58 of his foreign counterparts and
-                received offers of general aid, search-and-rescue equipment and personnel, and
-                medical assistance teams.
-            
-            On the same day, Deputy Secretary of State Armitage was called by Mahmud Ahmed
-                regarding a two-day visit to Afghanistan during which the Pakistani intelligence
-                chief had met with Mullah Omar and conveyed the U.S. demands. Omar's response was
-                "not negative on all these points." But the
-                administration knew that theTaliban was unlikely to turn over Bin Ladin.
-            
-            The pre-9/11 draft presidential directive on al Qaeda evolved into a new directive,
-                National Security Presidential Directive 9, now titled "Defeating the Terrorist
-                Threat to the United States." The directive would now extend to a global war on
-                terrorism, not just on al Qaeda. It also incorporated the President's determination
-                not to distinguish between terrorists and those who harbor them. It included a
-                determination to use military force if necessary to end al Qaeda's sanctuary in
-                Afghanistan. The new directive-formally signed on October 25, after the fighting in
-                Afghanistan had already begun-included new material followed by annexes discussing
-                each targeted terrorist group. The old draft directive on al Qaeda became, in
-                effect, the first annex.
-            
-            The United States would strive to eliminate all terrorist networks, dry up their
-                financial support, and prevent them from acquiring weapons of mass destruction. The
-                goal was the "elimination of terrorism as a threat to our way of life."
-            
-            "PHASE TWO" AND THE QUESTION OF IRAQ
-            President Bush had wondered immediately after the attack whether Saddam Hussein's
-                regime might have had a hand in it. Iraq had been an enemy of the United States for
-                11 years, and was the only place in the world where the United States was engaged in
-                ongoing combat operations. As a former pilot, the President was struck by the
-                apparent sophistication of the operation and some of the piloting, especially
-                Hanjour's high-speed dive into the Pentagon. He told us he recalled Iraqi support
-                for Palestinian suicide terrorists as well. Speculating about other possible states
-                that could be involved, the President told us he also thought about Iran.
-            
-            Clarke has written that on the evening of September 12, President Bush told him and
-                some of his staff to explore possible Iraqi links to 9/11. "See if Saddam did this,"
-                Clarke recalls the President telling them." See if he's linked in any way." While he believed the details of Clarke's account to be
-                incorrect, President Bush acknowledged that he might well have spoken to Clarke at
-                some point, asking him about Iraq.
-            
-            Responding to a presidential tasking, Clarke's office sent a memo to Rice on
-                September 18, titled "Survey of Intelligence Information on Any Iraq Involvement in
-                the September 11 Attacks." Rice's chief staffer on Afghanistan, Zalmay Khalilzad,
-                concurred in its conclusion that only some anecdotal evidence linked Iraq to al
-                Qaeda. The memo found no "compelling case" that Iraq had either planned or
-                perpetrated the attacks. It passed along a few foreign intelligence reports,
-                including the Czech report alleging an April 2001 Prague meeting between Atta and an
-                Iraqi intelligence officer (discussed in chapter 7) and a Polish report that
-                personnel at the headquarters of Iraqi intelligence in Baghdad were told before
-                September 11 to go on the streets to gauge crowd reaction to an unspecified event.
-                Arguing that the case for links between Iraq and al Qaeda was weak, the memo pointed
-                out that Bin Ladin resented the secularism of Saddam Hussein's regime. Finally, the
-                memo said, there was no confirmed reporting on Saddam cooperating with Bin Ladin on
-                unconventional weapons.
-            
-            On the afternoon of 9/11, according to contemporaneous notes, Secretary Rumsfeld
-                instructed General Myers to obtain quickly as much information as possible. The
-                notes indicate that he also told Myers that he was not simply interested in striking
-                empty training sites. He thought the U.S. response should consider a wide range of
-                options and possibilities. The secretary said his instinct was to hit Saddam Hussein
-                at the same time-not only Bin Ladin. Secretary Rumsfeld later explained that at the
-                time, he had been considering either one of them, or perhaps someone else, as the
-                responsible party.
-            
-            According to Rice, the issue of what, if anything, to do about Iraq was really
-                engaged at Camp David. Briefing papers on Iraq, along with many others, were in
-                briefing materials for the participants. Rice told us the administration was
-                concerned that Iraq would take advantage of the 9/11 attacks. She recalled that in
-                the first Camp David session chaired by the President, Rumsfeld asked what the
-                administration should do about Iraq. Deputy Secretary Wolfowitz made the case for
-                striking Iraq during "this round" of the war on terrorism.
-            
-            A Defense Department paper for the Camp David briefing book on the strategic concept
-                for the war on terrorism specified three priority targets for initial action: al
-                Qaeda, theTaliban, and Iraq. It argued that of the three, al Qaeda and Iraq posed a
-                strategic threat to the United States. Iraq's long-standing involvement in terrorism
-                was cited, along with its interest in weapons of mass destruction.
-            
-            Secretary Powell recalled that Wolfowitz-not Rumsfeld-argued that Iraq was ultimately
-                the source of the terrorist problem and should therefore be attacked.
-            
-            Powell said that Wolfowitz was not able to justify his belief that Iraq was behind
-                9/11. "Paul was always of the view that Iraq was a problem that had to be dealt
-                with," Powell told us." And he saw this as one way of using this event as a way to
-                deal with the Iraq problem." Powell said that President Bush did not give
-                Wolfowitz's argument "much weight." Though continuing to
-                worry about Iraq in the following week, Powell said, President Bush saw Afghanistan
-                as the priority.
-            
-            President Bush told Bob Woodward that the decision not to invade Iraq was made at the
-                morning session on September 15. Iraq was not even on the table during the September
-                15 afternoon session, which dealt solely with Afghanistan.
-            
-            Rice said that when President Bush called her on Sunday, September 16, he said the
-                focus would be on Afghanistan, although he still wanted plans for Iraq should the
-                country take some action or the administration eventually determine that it had been
-                involved in the 9/11 attacks.
-            
-            At the September 17 NSC meeting, there was some further discussion of "phase two" of
-                the war on terrorism.
-            
-            President Bush ordered the Defense Department to be ready to deal with Iraq if
-                Baghdad acted against U.S. interests, with plans to include possibly occupying Iraqi
-                oil fields.
-            
-            Within the Pentagon, Deputy Secretary Wolfowitz continued to press the case for
-                dealing with Iraq. Writing to Rumsfeld on September 17 in a memo headlined
-                "Preventing More Events,"he argued that if there was even a 10 percent chance that
-                Saddam Hussein was behind the 9/11 attack, maximum priority should be placed on
-                eliminating that threat. Wolfowitz contended that the odds were "far more" than 1 in
-                10, citing Saddam's praise for the attack, his long record of involvement in
-                terrorism, and theories that Ramzi Yousef was an Iraqi agent and Iraq was behind the
-                1993 attack on the World Trade Center. 73 The next day, Wolfowitz renewed the
-                argument, writing to Rumsfeld about the interest of Yousef 's co-conspirator in the
-                1995 Manila air plot in crashing an explosives-laden plane into CIA headquarters,
-                and about information from a foreign government regarding Iraqis' involvement in the
-                attempted hijacking of a Gulf Air flight. Given this background, he wondered why so
-                little thought had been devoted to the danger of suicide pilots, seeing a "failure
-                of imagination" and a mind-set that dismissed possibilities.
-            
-            On September 19, Rumsfeld offered several thoughts for his commanders as they worked
-                on their contingency plans. Though he emphasized the worldwide nature of the
-                conflict, the references to specific enemies or regions named only the Taliban, al
-                Qaeda, and Afghanistan.
-            
-            Shelton told us the administration reviewed all the Pentagon's war plans and
-                challenged certain assumptions underlying them, as any prudent organization or
-                leader should do.
-            
-            General Tommy Franks, the commanding general of Central Command, recalled receiving
-                Rumsfeld's guidance that each regional commander should assess what these plans
-                meant for his area of responsibility. He knew he would soon be striking the Taliban
-                and al Qaeda in Afghanistan. But, he told us, he now wondered how that action was
-                connected to what might need to be done in Somalia, Yemen, or Iraq.
-            
-            On September 20, President Bush met with British Prime Minister Tony Blair, and the
-                two leaders discussed the global conflict ahead. When Blair asked about Iraq, the
-                President replied that Iraq was not the immediate problem. Some members of his
-                administration, he commented, had expressed a different view, but he was the one
-                responsible for making the decisions.
-            
-            Franks told us that he was pushing independently to do more robust planning on
-                military responses in Iraq during the summer before 9/11-a request President Bush
-                denied, arguing that the time was not right. (CENTCOM also began dusting off plans
-                for a full invasion of Iraq during this period, Franks said.) The CENTCOM commander
-                told us he renewed his appeal for further military planning to respond to Iraqi
-                moves shortly after 9/11, both because he personally felt that Iraq and al Qaeda
-                might be engaged in some form of collusion and because he worried that Saddam might
-                take advantage of the attacks to move against his internal enemies in the northern
-                or southern parts of Iraq, where the United States was flying regular missions to
-                enforce Iraqi no-fly zones. Franks said that President Bush again turned down the
-                    request.
-            
-            Having issued directives to guide his administration's preparations for war, on
-                Thursday, September 20, President Bush addressed the nation before a joint session
-                of Congress." Tonight," he said, "we are a country awakened to danger." The President blamed al Qaeda for 9/11 and the 1998
-                embassy bombings and, for the first time, declared that al Qaeda was "responsible
-                for bombing the USS Cole." He reiterated the ultimatum
-                that had already been conveyed privately." The Taliban must act, and act
-                immediately," he said." They will hand over the terrorists, or they will share in
-                their fate." The President added that America's quarrel
-                was not with Islam: "The enemy of America is not our many Muslim friends; it is not
-                our many Arab friends. Our enemy is a radical network of terrorists, and every
-                government that supports them." Other regimes faced hard choices, he pointed out:
-                "Every nation, in every region, now has a decision to make: Either you are with us,
-                or you are with the terrorists."
-            
-            President Bush argued that the new war went beyond Bin Ladin." Our war on terror
-                begins with al Qaeda, but it does not end there," he said." It will not end until
-                every terrorist group of global reach has been found, stopped, and defeated." The
-                President had a message for the Pentagon:"The hour is coming when America will act,
-                and you will make us proud." He also had a message for those outside the United
-                States." This is civilization's fight," he said. "We ask every nation to join
-                    us."
-            
-            President Bush approved military plans to attack Afghanistan in meetings with Central
-                Command's General Franks and other advisers on September 21 and October 2.
-                Originally titled "Infinite Justice," the operation's code word was changed-to avoid
-                the sensibilities of Muslims who associate the power of infinite justice with God
-                alone-to the operational name still used for operations in Afghanistan:"Enduring
-                    Freedom."
-            
-            The plan had four phases.
-            
-                In Phase One, the United States and its allies would move forces into the
-                    region and arrange to operate from or over neighboring countries such as
-                    Uzbekistan and Pakistan. This occurred in the weeks following 9/11, aided by
-                    overwhelming international sympathy for the United States.
-                In Phase Two, air strikes and Special Operations attacks would hit key al
-                    Qaeda and Taliban targets. In an innovative joint effort, CIA and Special
-                    Operations forces would be deployed to work together with each major Afghan
-                    faction opposed to the Taliban. The Phase Two strikes and raids began on October
-                    7. The basing arrangements contemplated for Phase One were substantially
-                    secured-after arduous effort-by the end of that month.
-                In Phase Three, the United States would carry out "decisive operations" using
-                    all elements of national power, including ground troops, to topple the Taliban
-                    regime and eliminate al Qaeda's sanctuary in Afghanistan. Mazar-e-Sharif, in
-                    northern Afghanistan, fell to a coalition assault by Afghan and U.S. forces on
-                    November 9. Four days later the Taliban had fled from Kabul. By early December,
-                    all major cities had fallen to the coalition. On December 22, Hamid Karzai, a
-                    Pashtun leader from Kandahar, was installed as the chairman of Afghanistan's
-                    interim administration. Afghanistan had been liberated from the rule of the
-                    Taliban.
-            
-            In December 2001, Afghan forces, with limited U.S. support, engaged al Qaeda elements
-                in a cave complex called Tora Bora. In March 2002, the largest engagement of the war
-                was fought, in the mountainous Shah-i-Kot area south of Gardez, against a large
-                force of al Qaeda jihadists. The three-week battle was substantially successful, and
-                almost all remaining al Qaeda forces took refuge in Pakistan's equally mountainous
-                and lightly governed frontier provinces. As of July 2004, Bin Ladin and Zawahiri are
-                still believed to be at large.
-            
-                In Phase Four, civilian and military operations turned to the indefinite task
-                    of what the armed forces call "security and stability operations."
-            
-            Within about two months of the start of combat operations, several hundred CIA
-                operatives and Special Forces soldiers, backed by the striking power of U.S.
-                aircraft and a much larger infrastructure of intelligence and support efforts, had
-                combined with Afghan militias and a small number of other coalition soldiers to
-                destroy theTaliban regime and disrupt al Qaeda. They had killed or captured about a
-                quarter of the enemy's known leaders. Mohammed Atef, al Qaeda's military commander
-                and a principal figure in the 9/11 plot, had been killed by a U.S. air strike.
-                According to a senior CIA officer who helped devise the overall strategy, the CIA
-                provided intelligence, experience, cash, covert action capabilities, and entr�e to
-                tribal allies. In turn, the U.S. military offered combat expertise, firepower,
-                logistics, and communications.
-            
-            With these initial victories won by the middle of 2002, the global conflict against
-                Islamist terrorism became a different kind of struggle.
+          Using known binding sites, Ahab finds 135
+          significant new modules in the genome
+          There are a sufficient number of binding sites in the
+          literature (see additional File 1and 2) for us to
+          construct frequency weight matrices for the maternal
+          transription factors Bicoid (Bcd), Caudal (Cad) and
+          Dorsal (Dl), as well as the zygotic gap gene factors
+          Hunchback (Hb), Kruppel (Kr), Knirps (Kni), and Tailless
+          (Tll), and the torso response element (torRE). With the
+          exception of giant, which is too ill-defined to model,
+          these are all the maternal/gap genes at the top of the
+          segmentation gene hierarchy.
+          Modules can be located by scanning the genome in
+          windows, counting the number of matches to each matrix
+          with a score better than some value, and then combining
+          scores and ranking [ 6 7 ] . We have designed an
+          algorithm, Ahab, which eliminates all parameters other
+          than a final rank, and, following the logic of the
+          mobydick algorithm [ 11 ] , computes via maximum
+          likelihood the probability that the window sequence is
+          made up by sampling from the known weight matrices or
+          background. Mobydick was designed to find overrepresented
+          "words" in noncoding DNA, and applied to yeast. However,
+          in the genomes of higher eukaryotes, binding sites are
+          much fuzzier than in yeast and simple motif models are
+          unlikely to yield meaningful results. Therefore, Ahab
+          generalizes the motif model to positional weightmatrices.
+          Furthermore, we introduce a 
+          local background model to cut down
+          the number of false positives arising from local
+          variations in sequence composition and degeneracy of
+          motifs (for example motifs that contain a poly A string).
+          Finally, the maximum likelihood fit has to be done
+          separately for each window and thus hundreds of millions
+          of times for the genomes of higher eukaryotes, thus
+          requiring an efficient implementation of the numerical
+          procedures. Ahab tallies all possible segmentations of
+          the sequence into binding sites (also called parsings).
+          Thus motif overlaps are allowed and weighted according to
+          how well they explain the data, and multiple weak copies
+          of a factor are all counted [ 5 12 ] . Our background
+          model is a Markov model fit to all triples of bases in
+          the window and accounts for local compositional variation
+          which could otherwise push up the representation of any
+          matrix that matched one of the high copy number base
+          triples (eg hb matches poly A tracts).
+          Additional file 1
+          
+          Click here for file
+          Additional file 2
+          
+          Click here for file
+          Additional file 3
+          
+          Click here for file
+          Additional file 4
+          
+          Click here for file
+          Additional file 5
+          
+          Click here for file
+          Additional file 6
+          
+          Click here for file
+          Additional file 7
+          
+          Click here for file
+          We used Ahab with a 500 bp window to scan the
+          Drosophila genome. As a representative/typical example we
+          show the hairy locus, Fig. 2, a pair-rule gene expressed
+          in 7 stripes. Five modules driving individual stripes and
+          stripe pairs have been identified experimentally. Ahab
+          predicts four of them (stripes 1, 5, 6, 7), only the
+          stripe 3+4 element is not recovered. Note that two
+          modules, stripes 1 and 7, were not used as training data.
+          The support for each local maximum corresponds nicely to
+          the experimentally estimated sizes of the modules. Ahab
+          also reports scores for putative binding sites in each
+          window as defined by (4). As an example, we show the
+          even-skipped stripe 3+7 module, one of the best studied
+          cases in the literature (Fig. 3). Most of the known sites
+          are recovered and some new ones predicted.
+          Ahab finds 146 highly significant modules in the
+          genome, most located in the non-transcribed regions. 27
+          modules are inside introns, only 6 overlap with exons. It
+          recovers the 11 modules used to construct our weight
+          matrices and predicts 6 other known modules with
+          maternal/gap gene input. Thus, 17 out of 27 known modules
+          (see additional File 1) are found. Three of the missing
+          10 modules (kni64, snail, sog) are very high in score
+          (< rank 100) but lost when filtering for the presence
+          of at least three different factors. Three modules are
+          lost because they contain only dorsal sites (rho, twist,
+          zen) and we do not have matrices for the other factors
+          known to bind (such as snail and twist), however
+          searching with only the dorsal weight matrix does recover
+          them. The four remaining missing modules are low in score
+          (rank > 700), but Kruppel CD2 is recovered for a
+          window size of 700; the others are evidently low in
+          maternal/gap gene binding sites.
+          To determine whether any of the 129 novel module
+          predictions were correct, we asked whether any of the
+          adjacent genes were patterned in the blastoderm. For 15
+          modules patterned expression has been reported for one of
+          the adjacent genes; the patterns are either gap or pair
+          rule like. An additional 11 modules are suggestive, since
+          they are clustered with another, nonoverlapping
+          prediction (Table 1). Interestingly, two predicted
+          modules are in proximity to well studied segmentation
+          genes (giant, runt) but still outside known regulatory
+          regions.
+          We tested the stability of Ahab against unspecific
+          input weight matrices by eliminating the least specific
+          matrix in our list (Tailless). Tailless has ~600
+          predicted sites in the 146 modules (Table 2), twice as
+          much as any other factor. However, we found that roughly
+          75 % of the predictions without using tailless (but with
+          the same significance cutoff) were also present in the
+          list of 146. Thus, although Tailless is rather
+          unspecific, it makes a contribution to the predictions
+          without dominating them.
+          We also varied the window size to 700 bp and masked
+          out the repeats genome wide, before running Ahab, (see
+          web site). Our top 150 predictions now included 11 out of
+          the 27 known modules (see additional File 1and 3).
+          Lowering the cutoff value in the module score did not
+          help, only one additional known module was recovered when
+          including ranks 151-250. Overall, 84 modules or 58 % of
+          the window 500 dataset are also among the top 200 of the
+          window 700 set, and thus might be accorded more
+          significance. Although some known modules disappeared,
+          some very interesting new modules are predicted, in
+          window 700 runs, including modules for key genes in the
+          segmentation process such as caudal, grainyhead, odd
+          skipped (odd), and sloppy paired 1,2 (slp1,2) (see
+          additional File 3). Thus Ahab could be improved by
+          allowing for variable window lengths.
+          We estimated the false positive rate by scrambling the
+          columns (positions) in the input frequency matrices. The
+          new matrices are thus unlikely to be functional, but
+          retain the same specificity. Ahab found roughly half as
+          many "modules" for the same score cutoff as for the
+          original set ie a 50% false positive rate. Note that this
+          is a conservative estimate because part of the consensus
+          motif recognized by hunchback and caudal is largely a
+          poly T motif, and thus preserved by scrambling. Moreover,
+          only very few known patterned gene are predicted by the
+          scrambled matrices.
+          Another perhaps more straightforward estimate of
+          statistical significance and our true positive rate is to
+          use the experimental result (see footnote in [ 6 ] ) that
+          less than 2% of the genome or ~300 genes are patterned
+          during the blastoderm. Since we can not tell which of two
+          neighboring genes is regulated by each of the 102
+          intergenic modules we predict, we are obliged to label
+          237 genes (adding the 33 genes with intragenic modules)
+          as potentially patterned. For 237 random predictions one
+          expects 2% or five genes to be patterned, and the
+          probability to get 21 or more genes (see additional File
+          3) by chance (p-value) is ~10 -10. It should be stressed
+          that the true success rate of Ahab will be much higher
+          since the number of genes for which blastoderm expression
+          is demonstrated is (< 100) or 1/3 of the total. Thus
+          we expect an additional 50 genes in our set to be
+          patterned, so a 50% overall positive rate for our module
+          predictions.
         
+        
+          The Gibbs sampler finds binding sites within
+          experimentally characterized modules
+          Binding site information for most of the transcription
+          factors relevant to any developmental process is only
+          rarely available. More common are modules obtained by
+          'promoter bashing' from several genes with similar
+          expression. Thus it is natural to ask, in view of the
+          site repetition within modules, whether standard motif
+          finders are able to recover good weight matrices from
+          modules and if so can these be used as input to Ahab to
+          find genes with similar regulatory inputs.
+          We have tailored the Gibbs algorithm (see methods) to
+          this problem by searching for only one site at a time,
+          and then masking only the central 1-2 bases of each
+          sequence motif found before iterating. The results were
+          thereby much more reproducible between runs. Most
+          importantly, motifs were allowed to overlap, a very
+          common occurrance in modules and arguably important for
+          their function [ 3 ] .
+          To gain confidence in the capabilities of the Gibbs
+          algorithm, we prepared two synthetic data sets
+          representative of the data we wanted to examine (eg
+          several kb long, 30-50% of the sequence covered by
+          motifs, the remaining sequence random and 60% A/T). Data
+          set 1 was made by equally sampling our Hb, Cad, Kr and
+          Tll matrices. Data set 2 was generated from four
+          synthetic frequency matrices of specificity equal to the
+          known ones. The customized Gibbs virtually perfectly
+          recovers all the synthetic weight matrices from dataset
+          2. By contrast, only half of the natural sites were
+          recovered from dataset 1. The sites overlapped and their
+          delineation was imperfect. Thus Gibbs detects sequence
+          correlations among the factors we chose, but probably
+          exaggerates them, because it computes significance based
+          on single base frequencies.
+          We then ran the Gibbs algorithm on several modules
+          with extensive binding site data, Table 3. In accord with
+          experiment, Gibbs predicts that about 30-50% of the
+          sequence is covered by motifs. The specificity of the
+          Gibbs motifs is typically higher than for the
+          experimental ones, presumably because a smaller number of
+          sites is sampled. Even when the majority of the sequences
+          composing the Gibbs motif match a single factor, there
+          are a few other strong factor matches generally in
+          different positions and perhaps the other orientation.
+          Nevertheless the Gibbs motifs are largely reproducible
+          between runs. Generally, we recover about half the
+          factors known to influence the module, and interestingly
+          predict several new motifs. The lack of a 1:1
+          correspondence between the experimental motifs (generally
+          composed from a wider range of data then presented to
+          Gibbs) and those we find, points to a real ambiguity, we
+          believe, in how to parse a sequence into binding
+          sites.
+        
+        
+          Using only three modules as input, Ahab finds 63
+          significant modules in the genome
+          Next we tested whether Gibbs derived matrices can be
+          fed to Ahab for a genome-wide search for modules. As
+          samples, we used three known modules that drive
+          expression of the pair rule gene hairy in stripes 5, 6,
+          and 7, which are known to receive input from Bcd, Cad,
+          Hb, Kni, Kr, and Tll (see additional File 1).
+          Customized Gibbs finds 6 highly significant weight
+          matrices within the 2 kb composite module (see additional
+          File 4). One matches the Kr weight matrix with high
+          quality, another Kni, and a third represents a mixture of
+          Hb and Cad, whose matrices are indeed quite similar due
+          to a poly T motif. The other three motifs are new. Using
+          these 6 weight matrices as input, Ahab finds 63 highly
+          significant modules genome-wide (Table 4, additional File
+          5).
+          The top four modules overlap with those used in the
+          Gibbs sampling. In addition, 13 new modules were
+          contiguous to genes that are known to be patterned in the
+          blastoderm, and two fall close to a single gene of
+          unknown function. One of the top scoring modules is the
+          hunchback central stripe module, other particularly
+          interesting hits are in the intron of knirps and 18 kb
+          upstream of hairy outside the known regulatory region,
+          and proximal to emc, a known transcriptional
+          co-repressor. Compared to the Ahab predictions, we find
+          more modules near homeotic genes (Abd-A, abd-B, Ubx,
+          hth), due to the presence of the novel Gibbs motifs. The
+          statistical significance of our predictions and the
+          inferred true positive rate are comparable to the
+          segmentation gene results.
+        
+        
+          Argos: prediction of regulatory modules from raw
+          genomic sequence
+          As a final generalization, we ask whether there is
+          enough repetition of sequence motifs within a module for
+          its discovery using no information other than the
+          noncoding sequence in the genome. To determine whether a
+          given motif is locally overrepresented, its frequency of
+          occurrence has to be scored against some statistical
+          model. Both Ahab and Gibbs, use counts of short strings
+          or single bases, within the window of interest to compute
+          the significance of longer motifs. We attempted running
+          Gibbs on successive windows of sequence and scoring the
+          resulting motifs with Ahab, but were not able to
+          discriminate the known modules from the remainder of the
+          upstream region.
+          We therefore devised an alternative strategy that uses
+          the information available in all the noncoding sequence
+          and thus extrinsic to the window of interest. We
+          enumerate all motifs in a class (a consensus of length 8
+          and 2 mutations worked best), and use their frequency to
+          assign a probability for observing an overrepresentation
+          of any one of them in the window of interest. The actual
+          binding motifs may be longer, we only need to capture the
+          most significant region. Typically several hundred motifs
+          are significant for each window. They heavily overlap so
+          the individual motif scores can not be simply added for
+          an overall score. Although we tried using Ahab to
+          eliminate redundant motifs, we got better results with a
+          greedy algorithm that looks only at the motifs without
+          placing them on the sequence. The greedy algorithm
+          winnows the list of motifs down by starting with the
+          highest scoring one and eliminates any motif related to
+          it under shifts and a limited number of mutations. The
+          next remaining motif is retained and overlaps with it are
+          eliminated, until ~5 quasi independent motifs are
+          obtained whose scores can be added (details in additional
+          File 7).
+          We evaluated the results of Argos for the the modules
+          in additional File 1. Log probability scores > 70 were
+          taken as significant, since they are found very rarely
+          using randomized noncoding sequence 1. With this
+          threshold and at least l00 bp overlap, half of the
+          modules were recovered, indicating a 50% false negative
+          rate. The number of false positives is difficult to
+          assess, because the code looks for 
+          any regulatory module. However for
+          several well studied segmentation genes (specifically
+          even-skipped, giant, hairy, hunchback, knirps, Kruppel,
+          and tailless), with 15 known modules, we squarely hit 7
+          when looking over the entire 10 kb upstream of
+          translation start (gt, kni, Kr-730, Kr-CD2, eve3-7, eve
+          autoregulatory element, h-7), Fig. 4, but only three
+          predictions are outside of known modules (one for
+          tailless and two for hunchback). This indicates a low
+          false positive rate. Genome wide we are predicting about
+          one module per 5 kb of noncoding sequence averaged over
+          the genome (with a strong bias for noncoding vs coding),
+          which corresponds to roughly one module per gene.
+        
+      
+      
+        Discussion
+        We have demonstrated algorithms that exploit three very
+        different levels of prior information and lead to
+        statistically highly significant predictions for early
+        developmental modules in the fly. The Ahab algorithm is
+        perhaps closest to the 'calculation' actually performed by
+        the cell. The weight matrix match is a surrogate for the
+        energetic preference of a transcription factor for a
+        particular sequence, and Ahab models the competition of
+        several factors and their binding energies for a stretch of
+        DNA (a module). Ahab ignores distances between binding
+        sites and the actual factor concentrations. Thus, the
+        success of Ahab suggests that just modeling the binding
+        energies is already predictive. It will be interesting to
+        see how well Ahab performs in situations where the
+        concerted binding of cofactors constrains the spacing of
+        binding sites [ 13 14 ] .
+        Finding overrepresented weight matrices is a well
+        studied problem for which Gibbs sampling constitutes a
+        reasonable solution if the data consists of distinct motifs
+        separated by random bases. The difficulty we have
+        encountered with this algorithm in dissecting regulatory
+        modules for binding sites is not rare or diffuse motifs but
+        rather too much signal, namely the overlay of motifs of
+        different sizes and specificities. The Gibbs statistical
+        model is not strictly correct for our data. A more adequate
+        algorithm would allow competition among motifs of different
+        lengths [ 15 ] . Irrespective of technical problems, the
+        discovery of binding motifs by site repetition is
+        qualitatively a more difficult task than their recognition
+        by transcription factors [ 16 ] . Thus our ability to
+        recover plausible motifs for about half the known factors
+        was not obvious in advance and is another manifestation of
+        the redundancy in module design.
+        Reference [ 6 ] describes another approach to locating
+        modules from clusters of known weight matrices. They count
+        the number of matches of each weight matrix in an interval
+        with a score above some empirically defined cutoff, and
+        then score a 700 bp window as significant when the total
+        number of matches for all factors is large enough.
+        Information about the background is implicitly encoded in
+        their choice of threshold. We do not have factor specific
+        cutoffs, and use a locally defined background model, which
+        renders our algorithm more automatic and less sensitive to
+        local variation in sequence composition, eg poly A
+        runs.
+        Although we are predicting many more modules than in [ 6
+        ] , the positive hit rates are comparable between the two
+        methods (50% vs 10 positives out of 28 predictions [ 6 ] ).
+        A more detailed comparison of both data sets reveals,
+        however, that the 28 modules predicted by [ 6 ] , with the
+        exception of the giant one, do not overlap with any of the
+        top 137 modules predicted by Ahab, although there are 4
+        genes in common to our sets. More strikingly, the 10
+        modules for which experimental results in [ 6 ] suggest
+        functionality based on blastoderm expression of a
+        neighboring gene fall below 500 in our ranking with
+        exception of giant and one of the hairy derived modules for
+        nub, Table 4. Presumably due to the difference in
+        background model, their modules are dominated by Hb sites,
+        while ours are not, which contributes considerably to the
+        divergence of the predictions. Clearly, only direct
+        experimental validation of predicted modules through
+        reporter gene fusions will help to compare the different
+        methods. In this fashion, we plan to test a number of the
+        new modules predicted for key genes in the segmentation
+        system such as h, run, gt, odd, prd, slpl/2 and cad.
+        In order to understand regulatory networks of genes, it
+        is useful to generalize from a few genes or modules with
+        common functions to new candidates. When control is
+        combinatoric, a purely experimental approach tends to be
+        more tedious than screening a modest list of candidates.
+        Thus a potentially important aspect of our work is the
+        combination of motif discovery from modules via Gibbs
+        sampling and generalization to the entire genome with Ahab.
+        We have demonstrated the feasibility of this procedure when
+        we worked from the hairy stripe 5-7 modules. Interestingly,
+        the candidate list of similar modules genome wide was quite
+        small, but had little overlap with the top scoring modules
+        predicted from the full set of gap gene weight matrices.
+        Hopefully some of the new motifs discovered by Gibbs
+        sampling are real; perhaps they are binding sites for
+        corepressors. Clearly the first step is to confirm a
+        striped expression for some of the genes in Table 4.
+        Our algorithm Argos for predicting enhancers from raw
+        genomic sequence works astonishingly well. It will be most
+        interesting to use this approach together in conjunction
+        with the customized Gibbs sampler and Ahab in situations
+        where nothing is known experimentally about the
+        transcriptional regulation of genes of interest to identify
+        co-regulated genes. Namely, following the hierarchical
+        structure in Figure 1, Argos could be used to predict
+        modules, then the customized Gibbs sampler to predict
+        binding sites (weight matrices) and finally Ahab to
+        predict, genome wide, genes in the same regulatory
+        network.
+        Several recent papers [ 6 7 9 ] as well as ours have
+        taken only the very first steps in applying computational
+        approaches to the the elucidation of 
+        cis- regulatory modules. For body
+        patterning in the fly, it is very encouraging that such
+        limited information as we have used works so well. It
+        remains to be seen if the same approaches work on systems
+        where a single master regulatory gene initiates a
+        developmental cascade, or where integration of
+        developmental cues occurs partly at the level of signal
+        transduction.
+      
+      
+        Conclusions
+        Predicting and understanding transcriptional regulation
+        is a fundamental problem in biology. We have designed new
+        algorithms for the detection of 
+        cis- regulatory modules in the
+        genomes of higher eukaryotes which is a first step in
+        unraveling transcriptional regulatory networks. We have
+        demonstrated, in the case of body patterning in the 
+        Drosophila embryo, that our
+        algorithms allow the genome-wide identification of
+        regulatory modules when the motifs for the transcription
+        factors are known (algorithm Ahab), or when only related
+        modules are known (customized Gibbs sampler in conjunction
+        with Ahab), or when only genomic sequence is analyzed with
+        Argos. We believe that Ahab overcomes many problems of
+        recent studies and we estimated the false positive rate to
+        be about 50%. Argos is the first successful attempt to
+        predict regulatory modules using only the genome without
+        training data. All our results and module predictions
+        across the 
+        Drosophila genome are available at
+        http://uqbar.rockefeller.edu/~siggia/. The Ahab code is
+        available upon request from the authors.
+      
+      
+        Methods
+        
+          Genomic data
+          We downloaded the Release 2 genomic sequence and
+          annotation for 
+          Drosophila melanogaster from
+          "Gadfly" (Genome Annotation Database of 
+          
+          Drosophila, http://www.fruitfly.org/(Oct 2000)).
+          Using a map provided by Chris Mungall (private
+          communication) we mapped the annotation, which was done
+          on separate contigs, to chromosomal coordinates.
+          "Flybase" http://flybase.bio.Indiana.edu/provides a
+          curated assembly of genetic and molecular data from the
+          existing literature. Our web sites links this database to
+          the Gadfly annotation using a map provided by David
+          Emmert (private communication). Since our algorithms are
+          based on searching for clusters of common sites,
+          microsatellites can score high, but tend not to be
+          functional (for an exception see [ 9 ] ). We used the
+          Tandem Repeat Remover [ 17 ] to mask microsatellites,
+          with scoring parameters (2 5 5 75 20 20 500)
+          (respectively; match, mismatch, indel scores; percentage
+          priors for mismatch and indels; minimum score, and
+          maximum length) which are as promiscuous as possible yet
+          did not detect appreciable microsatellites in random
+          sequences. With these settings, ~5.7% of all non coding
+          sequences are masked.
+          We collected from the experimental literature modules
+          that drive blastoderm specific expression of a reporter
+          gene in response to several of the factors in our list.
+          In many cases the module was shown to be the minimal
+          element. The modules mapped to chromosomal coordinates
+          are reported in the additional File 1.
+          We collected a total of 199 experimentally
+          characterized sites for the factors bicoid (30 sites),
+          caudal (21), dorsal (32), hunchback (43), knirps (27),
+          kruppel (20), tailless (20), and torRE (6). Giant sites
+          are too few in number and ill defined to be useable. Each
+          binding site was mapped to the genome and padded with six
+          bases on both sides. The multiple alignment program
+          WCONSENSUS [ 18 ] (options, -f -d -sl -a and background
+          frequencies representative of noncoding sequence (60%
+          A/T)) was used to align and orient the sites and create a
+          weight matrix for each factor. Results and references are
+          in the additonal File 2.
+        
+        
+          Algorithm Ahab: fitting multiple weightmatrices to
+          sequence
+          Ahab computes an optimal probabilistic segmentation of
+          a sequence 
+          S into binding sites and background
+          for a fixed set 
+          W of sequence motifs modelled by
+          weight matrices. Ahab is related to the mobydick
+          algorithm [ 11 ] , but has several novel key features
+          described in detail in the results section and the
+          additional File 6. It fits the probabilities 
+          p 
+          
+            w 
+           of the (fixed) matrices 
+          w and background 
+          p 
+          
+            B 
+           , so as to maximize the likelihood of generating 
+          S under a certain explicit model.
+          Namely, select a weight matrix or background according to
+          its probability 
+          p 
+          
+            w 
+           , 
+          p 
+          
+            B 
+           , sample according to the predetermined frequencies,
+          and add the resulting bases to the sequence under
+          construction. The fit of the model to 
+          S is accomplished by defining the
+          probability of a particular segmentation T of 
+          S as
+          
+          where 
+          k = 1, 2,..., 
+          N ( 
+          T ) labels the weight matrices (or
+          background) which were used in segmentation 
+          T . The quality of the match
+          between the weight matrix 
+          w 
+          
+            k 
+           and the subsequence 
+          s = ( 
+          n 
+          1 ,... 
+          n 
+          
+            l 
+           ) is incorporated in 
+          m ( 
+          s | 
+          w 
+          
+            k 
+           ) = , where 
+          f 
+          
+            j 
+           ( 
+          n | 
+          w 
+          
+            k 
+           ) are the normalized frequencies of nucleotide 
+          n at position 
+          j for weight matrix 
+          w 
+          
+            k 
+           .
+          An important consequence of equation (1) is that
+          multiple binding sites with weak matches to the weight
+          matrix for the same factor ( large, 
+          m ( 
+          s | 
+          w 
+          
+            k 
+           ) small) may make an important contribution to 
+          P ( 
+          T ). In many cases these redundant
+          sites with low weight matrix scores have been observed in
+          experimentally known modules. Any algorithm that would
+          just count matches of sequences to a weight matrix above
+          a certain threshold would have to use ad-hoc measures to
+          incorporate these sites into the score. Note also that
+          the weight matrix only captures the sequence dependent
+          part of the binding energy, so 'weak' binding could
+          equally well be termed 'nonspecific'. We know too little
+          about the physical binding energies of transcription
+          factors, and their cofactors and protein concentrations
+          in vivo, to calculate whether any modules are actually
+          occupied by factors.
+          Ahab uses a 
+          local Markov model of order 
+          q for background sequence, that is,
+          a single base 
+          n at site 
+          j is segmented with probability 
+          p 
+          
+            B 
+           
+          f 
+          
+            j 
+           ( 
+          n | 
+          B ), where ∑ 
+          
+            n 
+           
+          f 
+          
+            j 
+           ( 
+          n | 
+          B ) = 1, and 
+          f 
+          
+            j 
+           ( 
+          n | 
+          B ) is contingent on the 
+          q preceding bases following the
+          usual Markov model definitions. The 
+          f 
+          
+            j 
+           are computed by enumerating all 
+          q + 1 tuples of bases in 
+          S, which has the effect of
+          suppressing the number of copies of any 
+          w which match frequent triples of
+          bases, eg poly A tracts (we typically use 
+          q = 2).
+          The likelihood 
+          Z to observe 
+          S is then
+          
+          Dynamic programming allows the calculation of 
+          Z ( 
+          S ) in a time proportional to the
+          sequence length and the number of weight matrices. The
+          maximization of 
+          Z ( 
+          S ) then determines 
+          p 
+          
+            w,B 
+           (see additional File 6). The likelihood 
+          Z 
+          
+            B 
+           that 
+          S comes from background only (ie 
+          p 
+          
+            B 
+           == 1) is trivially computed from the Markov model.
+          The score 
+          R that 
+          S is a regulatory module is then in
+          log-odds units
+          
+          At each position 
+          i = 1, ..., 
+          L in 
+          S the probability 
+          P 
+          
+            i 
+           ( 
+          w | 
+          S ) to observe the start of weight
+          matrix 
+          w of length 
+          l 
+          
+            w 
+           is computed by standard posterior decoding. Let 
+          Z ( 
+          i, j ) denote the likelihood for
+          the sequence 
+          S from position 
+          i up to 
+          j. (The symbol 
+          Z ( 
+          S ) used above, is just 
+          Z (1, 
+          L ).)
+          
+          using the optimized 
+          p 
+          
+            w 
+           's. The sum of equation (4) over all positions is
+          the average copy number of 
+          w in the data. Summing over all
+          segmentations (1) naturally allows for overlapping sites
+          and the 'profile' (4) quantifies the competition between
+          different factors for the same bases.
+          It takes a modern LINUX workstation about 2 days to
+          run Ahab over the entire genome with a 500 bp window
+          moved in 20 bp steps, fitting the gap gene weight
+          matrices we collected. We enumerated all local maxima in
+          the score 
+          R larger than 15 and eliminated
+          those within 500 bp of a higher scoring peak and obtained
+          216 disjoint regions. If we insist that at least 3
+          different factors contribute to the module with
+          individual average copy numbers of at least 1 the number
+          of modules reduces to 169, and eliminating all candidates
+          with 80 or more basepairs masked by the Tandem Repeat
+          Remover gave a final list of 146 modules. Predictions
+          with more than 200 bases overlap with a known module or
+          with an overlap of at least 50% of the length of the
+          known module were considered to be a recovered known
+          module.
+        
+        
+          Determination of motifs from modules
+          We ran locally the Gibbs sampler algorithm provided by
+          C. Lawrence's group at
+          http://www.wadsworth.org/resnres/bioinfo/, as described
+          in Results. We generally used a motif length of 11 bp and
+          allowed the algorithm to vary this by +-2 if the data
+          warranted, and took a prior copy number of 7 when fitting
+          1-2 kb of data (again the algorithm will adjust this
+          number). Other parameters were taken as default, and
+          under these conditions typically 5 distinct motifs were
+          fit.
+          To decide whether Gibbs derived motifs matched known
+          ones we ran the known weight matrices in both
+          orientations over the individual sequences composing the
+          motif plus five flanking bases and computed the position
+          that maximized the information score. The Gibbs motif was
+          deemed to match a known factor if:
+          1) a single known matrix was the top match to a
+          majority of the sequences,
+          2) the optimal match occurred at the same position
+          (with some variability allowed for factors such as hb,
+          with poly-A regions),
+          3) the information score of the match was comparable
+          to the score of the sequences which define the matrix to
+          the matrix itself and not dominated by the flanking
+          bases.
+          4) the preceding conditions were met in two
+          independent runs (with typically 2-4 runs done for each
+          data set).
+        
+        
+          Algorithm Argos
+          Argos is described in detail in the results section
+          and additional File 7.
+        
+        
+          Genome-wide display of our results
+          Our webpage
+          http://uqbar.rockefeller.edu/~siggia/contains all our
+          predictions. For each module, all nearby genes were
+          extracted from the annotation, their position relative to
+          the module (ie up/down stream, intronic), and Flybase
+          links for gene function were collected into a table. The
+          number of binding sites for each factor in the module is
+          listed and their position and score along with known
+          binding sites can be viewed in graphs which were produced
+          with "gff2ps" [ 19 ] .
+          To view our results interactively on a larger scale
+          together with the current fly annotation we installed the
+          Gbrowse software from L. Stein's Generic Model Organism
+          Systems Database Project http://www.gmod.org. Our modules
+          (predicted and experimental), binding sites, and
+          restriction sites are included in the display. A function
+          was added that allows to plot the Ahab score (equation 3)
+          along the genome. Thus, the user can explore where
+          additional putative modules fall relative to any gene of
+          interest.
+        
+      
+      
+        Contributions
+        Authors 1, 2 and 4 carried out the computional part of
+        this study, author 3 annotated the Ahab results. All
+        authors read and approved the final manuscript.
+      
+      
+        Note
+        1Randomized sequence was produced by randomly pooling
+        and concatenating 100 basepair chunks from genomic
+        noncoding sequence
+      
     
+  

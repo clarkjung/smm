@@ -3,907 +3,493 @@
     
       
         Background
-        Affymetrix oligonucleotide arrays (referred to here as
-        oligonucleotide arrays) are widely used to measure the
-        abundance of mRNA molecules in biological samples [ 1]. The
-        investigator isolates total and/or polyadenylated RNA from
-        cells or tissues, generates the corresponding complementary
-        DNA (cDNA), transcribes complementary RNA (cRNA) from the
-        cDNA template, and then hybridizes the cRNA to the array [
-        2]. There is a significant amount of assay noise associated
-        with readouts from oligonucleotide arrays (for example [ 3,
-        4]). For these arrays we have found additive and
-        multiplicative noise affecting individual gene readouts
-        (typically 5-20%), as well as multiplicative noise
-        affecting entire arrays (often above 20%). As defined here,
-        normalization attempts to correct for only the latter type
-        of noise. The primary sources of this array-level noise are
-        between-array variation in overall performance (due to
-        inconsistencies in array fabrication, staining and
-        scanning), and between-cRNA variation (as independently
-        prepared cRNAs have variable purity and/or
-        fluorescently-labeled mass fractions). Because these
-        sources of variation contribute so significantly to array
-        readouts, normalization is a critical first step in any
-        analysis of gene expression data.
-        Most current normalization procedures for
-        oligonucleotide arrays are global approaches, based on
-        normalization of the overall mean or median array intensity
-        to a common standard (for example [ 5, 6, 7]). Spiked
-        standards have also been used to normalize cDNA [ 8] and
-        oligonucleotide [ 9, 10, 11] arrays. All these techniques
-        are inherently linear; there have been recent reports of
-        nonlinear normalizations for cDNA [ 12], oligonucleotide [
-        13, 14] and other [ 15] arrays. Few detailed comparisons of
-        oligonucleotide-array normalization procedures have been
-        reported, however [ 13].
-        For oligonucleotide arrays, the normalization
-        implemented in the Affymetrix GeneChip™ software
-        (Affymetrix, Santa Clara, CA) is by far the most commonly
-        used (for example [ 1, 16]). In this approach, the mean
-        hybridization intensities (the 'average differences' (AD))
-        of all probe sets on each array are scaled to an arbitrary,
-        fixed level [ 17]. In the rest of this paper, we refer to
-        this procedure as 'global normalization' or scaled average
-        difference (AD s). In practice, there are at least three
-        limitations to this method. Of these, the first two relate
-        to the normalization itself, and the last relates to the
-        practical utility of the normalized readouts.
-        First, global normalization makes no attempt to
-        absolutely quantify mRNA abundances. Readouts are
-        normalized to an arbitrary scale, which may vary from one
-        operator to another or between experiments. In contrast,
-        previous experiments with spiked controls [ 1] and
-        comparisons with serial analysis of gene expression (SAGE)
-        [ 18] have shown that array response can be proportional to
-        true transcript abundance, suggesting that absolute
-        quantitation of transcripts is feasible. If sufficiently
-        accurate, such an absolute scale for all array readouts
-        could facilitate comparisons across large, diverse gene
-        expression databases.
-        Second, global normalization implicitly assumes that the
-        mean expression level of all monitored mRNAs is constant.
-        The validity of this assumption depends on the number and
-        biological characteristics of genes monitored by an array.
-        For smaller arrays that monitor a limited set of mRNAs,
-        this assumption is invalid and may result in erroneous
-        normalization. Ideally, a quantitation method for arrays
-        would be effective even in cases where this 'constant mean'
-        hypothesis does not hold.
-        Third, as typically applied, global normalization does
-        not deal well with transcripts expressed at low copy
-        numbers. In a typical Affymetrix GeneChip assay, many
-        low-abundance transcripts are present at levels below the
-        sensitivity of detection of the array (typically about
-        1:100,000 mRNAs). Measurements for such mRNAs are not only
-        noisy but are sometimes negative, due to
-        cross-hybridization to mismatch probes [ 1]. Negative
-        intensity values are meaningless and problematic because
-        they cannot be log-transformed, a manipulation that is a
-        common prelude to downstream analysis of array data. Simply
-        discarding negative values is objectionable as it can lead
-        to missed observations of biologically significant
-        upregulation. An automated normalization method that
-        handles noisy and negative measurements and responds to
-        variable array sensitivity is desirable, especially in a
-        high-throughput setting.
-        The primary criterion for any alternative to global
-        normalization is that it should expand the investigator's
-        ability to compare diverse array experiments done at
-        different times in different laboratories. In this paper,
-        we describe alternative procedures that seek to quantitate
-        array results in terms of transcripts per unit cRNA. We
-        chose cRNA quantitation because it meets the primary
-        criterion, and for several additional reasons.
-        First, cRNA quantitation is easily applied to array
-        experiments using small amounts of starting total RNA that
-        are difficult to quantitate accurately. Second, the spike
-        reagents described here for cRNA quantitation can be used
-        to specifically monitor the performance of individual
-        arrays. Third, in our experience, the reproducibility,
-        accuracy and scientific value of cRNA quantitation are at
-        least as good as those of alternative techniques, such as
-        procedures to quantitate transcripts per cell, transcripts
-        per mass of input material, transcripts per total RNA or
-        transcripts per polyadenylated RNA.
-        We evaluated two alternatives to the standard global
-        normalization scheme which we term 'frequency' (F) and
-        'scaled frequency' (F s) normalization. These normalization
-        procedures are based on the presence of a common pool of
-        biotin-labeled transcripts of known concentrations spiked
-        into each hybridization. Constructs for generating the
-        control reagents are available through the American Type
-        Culture Collection (ATCC); accession numbers are given in
-        Table 1. We describe how scaled frequency normalization can
-        be used to estimate message abundance in cRNA, compute a
-        chip sensitivity metric and provide a natural scale for
-        damping spurious signals from below-sensitivity mRNAs.
-        Using previously published replicated experimental
-        hybridizations and new simulated data, we compare the
-        reproducibility and accuracy of frequency, scaled frequency
-        and global normalization. Our results suggest that scaled
-        frequency normalization is a useful strategy for
-        oligonucleotide array data and has important advantages
-        over current approaches.
+        Influenza costs the US some 40,000 deaths, 200,000
+        hospitalizations, and millions of workdays lost each year.
+        [ 1 2 3 ] Most deaths (60-90%) due to influenza occur in
+        patients 65 years and older, but 45-77% of
+        influenza-related hospitalizations occur in patients
+        younger than 65 years old [ 2 4 5 ] . High complication
+        rates from influenza in the elderly have also been reported
+        [ 6 7 ] . Little is known about influenza-related morbidity
+        and health care costs in younger populations and among
+        those with preexisting conditions such as diabetes,
+        cardiovascular, or pulmonary disease.
+        Diagnosis of influenza is typically based on the
+        presence of symptoms and the temporal association with
+        known circulating virus. At the time covered by this study,
+        a rapid clinic-based diagnostic test was not available.
+        Most research performed in an observational setting
+        utilizes clinical diagnosis and therefore, includes both
+        influenza and some influenza-like illnesses (ILI). A
+        clinic-based study inevitably misses influenza that does
+        not come to clinical attention. This study therefore
+        provides data on the burden to the health payor of
+        influenza, ILI, and their related complications in a
+        population of 2.6 million children and adults with various
+        risk profiles. The primary objective of this study was to
+        examine the role of patient characteristics that might be
+        predictive of complications and related health care costs
+        associated with influenza and ILI.
       
       
-        Results and discussion
+        Methods
         
-          The constant-mean assumption
-          A key assumption underlying global normalization is
-          that the mean expression level on an array should be the
-          same for all samples and all arrays. This assumption is
-          distinct from the additional implicit assumption that the
-          fraction of polyadenylated mRNA per total RNA is
-          constant. One can certainly construct special cases where
-          the constant-mean assumption is invalid. One example
-          would be using a small array containing only genes from a
-          single pathway in an experiment that studies variable
-          induction of that pathway. However, it is unclear how
-          well even more general array experiments satisfy this
-          assumption.
-          To evaluate the constant-mean assumption we examined
-          the coefficient of variation (CV) of the mean expression
-          level of variable-sized mRNA sets across samples covering
-          widely divergent developmental stages of the nematode 
-          Caenorhabditis elegans. We
-          constructed the largest possible subset of our data that
-          included only matched triplets of the A, B and C array
-          designs (see Materials and methods). The subset comprised
-          39 chip hybridzations, 13 of each design, covering all
-          developmental stages. This dataset represents a
-          relatively strong test of the constant mean assumption,
-          because very large biological modulation of many mRNAs
-          occurs across the dataset. As the 
-          C. elegans arrays monitor around
-          98% of all predicted 
-          C. elegans mRNAs, and the sum of
-          the relative expression levels of all expressed genes
-          must be constant by definition, global normalization is
-          well justified for the dataset as a whole. Thus, the 13
-          experimental hybridizations of each array design were
-          globally normalized, and subsets of the 19,031 total
-          mRNAs monitored by the arrays were selected at random.
-          For each subset, the CV of the mean expression level of
-          the subset across all 13 hybridizations was computed.
-          Subsets ranged in size from 10 to 19,031 genes (0.05% to
-          100% of this transcriptome) (Figure 1). The CV of the
-          mean expression level is below 7% for any set of mRNAs
-          larger than roughly 10% of the total. As this CV is no
-          larger than the typical contribution of other noise
-          sources in the readout, we conclude that the
-          constant-mean assumption can be supported for arrays that
-          monitor on the order of 20-100% of a transcriptome. This
-          is typical of current commercial arrays for several
-          bacteria, yeast, mouse and human.
-          These results only apply when genes monitored by an
-          array are randomly selected with respect to their
-          expression characteristics. The example noted above (all
-          genes on an array from a single pathway) is an extreme
-          case of nonrandom selection. Other common ways of
-          selecting genes for arrays may also violate this
-          assumption, including selection based on matches in
-          specific cDNA libraries.
-          Nonrandom selection of even large mRNA sets for
-          individual arrays can also lead to between-array
-          inconsistencies in mean expression level. For example,
-          consider the case of two arrays, each monitoring a large,
-          equal percentage (> 20%) of a transcriptome, where the
-          first array monitors mRNAs with confirmed cDNA library
-          matches, and the other array monitors mRNAs whose
-          sequences are based on lower-quality expressed sequence
-          tag (EST) sequence matches or computational gene
-          predictions. While the constant mean assumption is
-          justified for each array in isolation, comparison of
-          globally normalized expression levels between the two
-          arrays will give erroneous results because the mean
-          expression level of transcripts on the first array is
-          higher than that on the second.
+          Data source
+          We used the automated claims database of a large
+          private New England Insurer (NEI). The NEI database
+          contains medical claims for outpatient and inpatient
+          services and outpatient pharmacy claims for about
+          2,600,000 residents of New England with comprehensive
+          medical and prescription drug coverage. The number of
+          people over age 65 is limited, since Medicare
+          beneficiaries do not participate in NEI.
+          Each medical claim contains primary and secondary
+          diagnoses codes assigned using the International
+          Classification of Diseases, ninth Revision (ICD-9) [ 8 ]
+          . Up to five procedure codes are also present on the
+          claim records and are coded using ICD-9, Current
+          Procedural Terminology (CPT), or Health Care Finance
+          Administration (HCFA) codes. [ 8 9 10 ] Prescription
+          drugs dispensed are identified by National Drug Code
+          (NDC), American Hospital Formulary Service (AHFS)
+          therapeutic category, brand name, and chemical name [ 11
+          ] . The inpatient transactions contain each service the
+          provider listed on the claims for reimbursement, such as
+          surgeries, radiologic tests, laboratory tests, room and
+          board charges, or other specific cost items. Inpatient
+          pharmacy costs are included in the aggregate hospital
+          charges, and cannot be separated out. Charges by the
+          provider and amounts paid by the insurer, patient, or
+          other third parties are included.
         
         
-          Spike-in based normalization
-          The limitations of global normalization suggest the
-          use of spiked transcripts to normalize array data. Our
-          'spike-in' normalization method, which we call 'frequency
-          normalization', uses spiked transcripts for two purposes.
-          First, they allow us to calibrate the arrays,
-          transforming AD to cRNA frequency (F) estimates quoted in
-          transcripts per million. Second, the spiked transcripts
-          enable us to estimate the minimum detectable frequency on
-          the array (the 'array sensitivity' value). The array
-          sensitivity is useful as a quality-control metric for
-          individual hybridizations and is also used to adjust
-          signals from low-level transcripts. Specifically,
-          frequency values below the array sensitivity are averaged
-          with the sensitivity estimate to generate 'damped'
-          frequencies that lie between 50% and 100% of the array
-          sensitivity. This adjustment introduces a small
-          systematic error into the damped data, but in return it
-          eliminates problematic negative values and retains
-          low-level readings that can be biologically informative
-          in the context of additional experiments.
-          Figure 2shows a typical plot of the spiked transcript
-          readout from a single hybridization containing 2 μg of
-          cRNA and a corresponding amount of spike-in transcripts.
-          The specific hybridization intensity (AD) value for each
-          of the 11 spike-in controls is plotted as a function of
-          transcript frequency in units of transcripts per million.
-          The points are fitted with a generalized linear model
-          that is then used as a calibration curve to compute
-          frequencies from the AD values of the other genes on the
-          array. Using logistic regression, we define the chip
-          sensitivity as the frequency where we estimate a gene to
-          have a 70% probability of being called 'Present'. We will
-          use the capitalized terms 'Absolute Decision', 'Present',
-          'Absent' and 'Marginal' when referring to a specific
-          value that is calculated by the Affymetrix GeneChip
-          software (described in Materials and methods). In Figure
-          2, the vertical line at a frequency of 4.5 indicates the
-          computed sensitivity estimate for this array.
-          Fitting a power law model (AD = k 
-          F 
-          n ) to the data in Figure 2yields
-          the exponent 
-          n = 0.93. This indicates mild
-          curvature in the response, consistent with progressive
-          saturation of array readout for the highest abundance
-          mRNAs. Experiments using 0.1 to 10 μg cRNA per
-          hybridization with corresponding amounts of spike-in
-          transcripts, as well as high and low gain settings on the
-          scanner, indicated that readout saturation (not
-          hybridization saturation) accounted for most of the
-          observed curvature in the spike-in response. The use of
-          approximately 1 μg cRNA in each hybridization, or reduced
-          scanner gain, largely eliminated saturation with no
-          penalty in sensitivity.
+          Study population
+          Patients with a billed diagnosis of influenza (medical
+          claim with either a primary or secondary ICD-9 diagnosis
+          code of 487) meeting the following criteria were
+          designated as having an influenza/ILI episode for the
+          ensuing 21 days: 1) diagnosis occurred between the
+          beginning of October 1996 and the end of April 1997; 2)
+          diagnosis did not occur on the date of a immunization for
+          influenza; 3) diagnosis was preceded by at least one year
+          of continuous health insurance coverage, with no gaps in
+          coverage that exceeded 30 days; and 4) insurance coverage
+          during the 21-day follow up period was continuous. We
+          will use the term "interval of care" interchangeably with
+          "episode" to describe this period. Multiple claims for
+          care of influenza for the same patient occurring within
+          the 21-day follow-up period were taken to be part of a
+          single episode. We refer to the qualifying influenza
+          diagnosis day and the subsequent 21-day follow-up period
+          as the interval of care throughout this report. The
+          21-day period captures the longest likely duration of
+          symptoms directly caused by the influenza infection (7-10
+          days) plus a period to account for the evolution and
+          resolution of complications of the infection. While a
+          rare, serious complication could lead to a protracted
+          illness, we felt that the problem of resolving the
+          relative contributions of underlying and acute disease in
+          these settings would introduce substantial error, and
+          provide relatively little additional information. We will
+          use the term "influenza/ILI" throughout this manuscript
+          recognizing that medical claims with an ICD-9 code of 487
+          include influenza as well as some cases of ILI.
         
         
-          Scaled frequency normalization
-          Frequency normalization is appealing theoretically and
-          effective even when the constant-mean assumption is known
-          to be invalid. However, our experience suggests that
-          frequency estimates might be biased by experimental
-          limitations on the accuracy with which control
-          transcripts can be spiked into cRNA. Specifically,
-          because of the combination of small fluid-handling
-          uncertainties and potentially larger variation in the
-          purity of cRNA preparations, the actual ratio of the
-          spiked transcripts to cDNA-template-derived cRNAs might
-          be significantly skewed from one array to another. One
-          source of variable impurities in cRNA preparations could
-          be oligo(dT)-primer-dependent cRNA product [ 19]. Such
-          cRNA impurities would result in erroneous normalization
-          in which all readouts from one array would be
-          systematically higher or lower than those from another
-          array. We use the term 'spike-skew' to denote this
-          multiplicative skew in frequency values among multiple
-          hybridizations. One expected symptom of spike-skew would
-          be replicate hybridization readouts that are highly
-          correlated but have widely divergent mean expression
-          levels.
-          We developed the hybrid scaled frequency (F s)
-          normalization method to mitigate the effects of
-          spike-skew. F snormalization is based on the principle of
-          removing technical variation in the ratio of spiked
-          transcripts to cDNA-template-derived cRNAs, by averaging
-          the response to spiked cRNAs over multiple
-          hybridizations. To compute F svalues, globally scaled
-          average differences are first computed for all arrays in
-          a set. This initial step implicitly makes the
-          constant-mean assumption. A calibration function is then
-          computed by fitting a single linear model to the scaled
-          average differences of all spiked cRNAs on all the arrays
-          in the dataset, pooled together. Individual array
-          sensitivities are still computed as described above, and
-          the same damping of low-end frequencies is carried out
-          using the sensitivity values for each array.
-          To compare F and F smetrics, consider an experimental
-          set of ten arrays. To compute F values, ten linear models
-          are fitted to the ten distinct, unscaled AD responses to
-          the spiked cRNAs, yielding ten different calibration
-          factors, one for each array. In contrast, when computing
-          F svalues, a single linear model is fitted to the pooled
-          spike response curve consisting of 10 × 11= 121 globally
-          scaled AD values, and a single calibration factor
-          generated for all ten arrays. If there was no technical
-          variation in the ratio of spiked transcripts to
-          cDNA-template-derived cRNAs in the ten experiments, both
-          approaches would give the same quantitation, up to a
-          random error term arising from the difference between
-          fitting ten 11-point responses versus a single 121-point
-          response. If, in one of the ten arrays, the ratio of
-          spiked transcripts to cDNA-template-derived cRNAs is
-          different for technical reasons, then spike response for
-          that array will be skewed, and the F-metric readout for
-          that array will be skewed relative to the other nine
-          arrays. In contrast, such a skewed array will only affect
-          the F smetric to the extent that the single skewed
-          response shifts the fit to the pooled spike response. The
-          skew for the single problematic array will be removed
-          because all arrays in the set will be scaled and
-          calibrated with a single factor. In other words, F
-          svalues are estimates of transcript abundance in cRNA,
-          based on the average response to the spiked cRNAs over
-          multiple hybridizations and on the sensitivity of each
-          individual array. F values provide the same estimate, but
-          based solely on the response to spiked cRNAs in a single
-          array hybridization.
+          Characteristics of influenza/ILI-related
+          episodes
+          We characterized each influenza/ILI episode according
+          to: (1) age at time of influenza/ILI diagnosis; (2)
+          gender; (3) recorded influenza immunization status; (4)
+          prior influenza/ILI episodes during the study period; (5)
+          antiviral influenza treatment (amantadine or
+          rimantadine); (6) total patient health care costs in the
+          three months before influenza/ILI diagnosis); (7)
+          co-morbidities for which health services were received in
+          (a) the 30 days and (b) the year before influenza/ILI
+          diagnosis (chronic lung disease, chronic renal disease,
+          diabetes, malignancies, HIV infections, and chronic heart
+          disease); (8) immunosuppressive and chronic
+          corticosteroid drug use during the year before
+          influenza/ILI diagnosis; (9) health services in the 30
+          days before influenza/ILI diagnosis for conditions that
+          would have been characterized as complications or
+          manifestations had they occurred during the influenza/ILI
+          episode (see below). The 30-day window was chosen on
+          clinical grounds to capture medical conditions that were
+          unstable, and the one-year window was intended to capture
+          all active medical conditions. Inevitably, some routine
+          care will have occurred in the 30-day window, and some
+          conditions treated in the past year will not have been
+          active at the time of the influenza episode.
+          We evaluated influenza immunizations between September
+          1, 1996 and the day before the initial influenza/ILI
+          diagnosis. Antiviral influenza medications dispensed
+          within the three days before, the day of, or the three
+          days after the initial influenza/ILI diagnosis date were
+          noted. We created this seven-day time window to account
+          for prescriptions that may have been dispensed for the
+          current diagnosis before an office visit (e.g., by
+          telephoned prescription) or within a few days after an
+          office visit. We categorized health care costs in the
+          three months before the influenza/ILI diagnosis in
+          quintile ranges as follows: (1) $0, (2) up to $87, (3)
+          $87 - $200, (4) $200 - $453 and (5) $453 and above. The
+          mean and median three-month costs preceding influenza/ILI
+          diagnoses was $644 and $135, respectively. The underlying
+          co-morbid conditions we considered included chronic lung
+          disease, chronic renal disease, diabetes, malignancies,
+          HIV infections, chronic heart disease, and chronic renal
+          disease.
         
         
-          Comparison of normalization methods:
-          reproducibility
-          We compared the performance of four metrics: AD;
-          globally normalized AD (AD s); frequency (F); and scaled
-          frequency (F s). The basis for comparison was
-          experimental data consisting of four sets of replicated
-          hybridizations (each 
-          n = 3 or 4) of the same array
-          design (the 
-          C. elegans A array). Performance of
-          each metric was measured by the median absolute
-          coefficient of variation (MEDACV) of probe sets across
-          the replicated hybridizations. MEDACV is a measure of
-          reproducibility for which a value of zero indicates
-          perfect agreement of all transcript readouts in a set of
-          replicated hybridizations. We compared MEDACV for two
-          classes of mRNAs: those called Present in at least 50% of
-          replicated hybridizations (referred to as 'Present'
-          mRNAs), and those Present in fewer than 50% of the
-          replicated hybridizations (referred to as 'Absent'
-          mRNAs). All metrics showed higher (worse) MEDACVs for the
-          low-abundance Absent mRNAs than for the higher-abundance
-          Present mRNAs (Figure 3), as expected from the presence
-          of background noise on the arrays. For Present genes, AD
-          swas more reproducible than AD, as expected. Scaled
-          frequency (F s) was as reproducible as AD sfor Present
-          genes in all replicate sets, and yielded trivially higher
-          reproducibility than AD sfor Absent mRNAs, owing to
-          damping of background noise. Frequency appeared
-          equivalent to F sand AD sin the first set of experiments
-          (the 0-hour timepoint) but had a higher MEDACV than F sin
-          the other three replicate sets. We also computed Pearson
-          correlation coefficients for the same replicate readouts.
-          Unlike MEDACV, correlation coefficients between replicate
-          readouts were similar for all metrics (in the range from
-          0.978-0.996).
-          To better understand the reasons for the markedly
-          different MEDACV performances of the four metrics on
-          experimental replicates, we performed simulations. These
-          simulations incorporated several adjustable noise
-          parameters. We estimated values for these parameters
-          iteratively, based on experimental data (see Materials
-          and methods). The similarity in the CV distributions of
-          experimental and simulated data indicated that, for our
-          purposes, the simulations recapitulated the major error
-          properties of real array data (Figure 4).
-          We tested if spike-skew could account for the
-          relatively high CV of frequency in three of the four
-          replicate sets (Figure 3) by comparing experimental data
-          to simulated data with known levels of spike-skew. To
-          approximate spike-skew, the concentration of the spike-in
-          transcripts in simulations was multiplied by a random
-          noise term. Over a series of simulations, we varied the
-          standard deviation of the noise term from 0 to 40% to
-          model the effect of increasing spike-skew. MEDACV values
-          were then computed from the simulation results in the
-          same way as for the experimental data in Figure 3.
-          As expected, only frequency was sensitive to
-          spike-skew (Figure 5). The F smetric, which uses a single
-          standard curve pooled from each dataset to normalize all
-          arrays in that dataset, effectively eliminated spike-skew
-          effects. In the simulations, a spike-skew level of 20%
-          led to MEDACV values for frequency in simulated
-          replicates that were much higher than those of AD sor F
-          s. These results were highly reminiscent of the 36, 48
-          and 60 hour experimental replicate sets (compare Figures
-          5and 3).
-          Taken together, the experimental data and the
-          simulations suggest that spike-skews of roughly 20% can
-          explain the sometimes inferior MEDACV (but consistently
-          high inter-replicate correlation coefficients) of the
-          frequency metric.
+          Complications and manifestations of
+          influenza/ILI
+          We defined complications and manifestations occurring
+          on the day of the influenza/ILI diagnosis or during the
+          21-day follow-up period using individual or combinations
+          of ICD-9 codes to capture respiratory, cardiovascular,
+          infectious, musculoskeletal, symptoms, and other
+          diseases. Ambulatory care visits, hospitalizations,
+          procedures, and emergency room visits were included.
+          Throughout this report, these are referred to as
+          complications of influenza/ILI. Please see Additional
+          File [Appendix A.doc]for specific ICD9 codes.
         
         
-          Comparisons across array designs
-          We next considered the reproducibility of readouts of
-          the same mRNA on different array designs. For this
-          analysis, we selected the three mRNAs that were monitored
-          by identical probe sets on each of the A, B, and C array
-          designs and were called Present in all hybridizations of
-          the 0 hour cRNA sample. The observed CV of the AD smetric
-          was in all cases larger than that of the F or F smetric,
-          and was greater than 0.55 for all three mRNAs, indicating
-          very poor agreement of readouts from different array
-          designs when global normalization was used (Figure 6). In
-          contrast, the CVs of both F and F smetrics were lower,
-          with CVs for F sin particular averaging 0.19 (range
-          0.13-0.29). The mRNA K11C4.5 was expressed at >
-          10-fold lower levels than either of the other two mRNAs,
-          and thus had higher CV values for both F and F sthan the
-          other two mRNAs. Comparison of the across-array-design
-          CVs to the within-array-design CVs for the three
-          transcripts in Figure 6indicates that the reproducibility
-          of AD swas substantially poorer when comparing across
-          array designs rather than within arrays. Specifically, AD
-          sacross-array CV was 3.2- to 6.4-fold higher than the
-          within-array CV. In contrast, the across-array CV for F
-          swas only 1.3- to 1.6-fold higher than the corresponding
-          within-array CV (Table 2).
-          The reason for the poor agreement of AD sreadouts
-          across distinct designs was that the mRNAs monitored by
-          the A array are, on average, expressed at higher levels
-          than those on the B or C array, as confirmed by two
-          independent lines of evidence. First, the mRNAs on the A
-          array were intentionally selected because they were
-          represented in 
-          C. elegans cDNA libraries, whereas
-          the B and C array genes (many of them computational
-          predictions) were generally not represented in cDNA
-          libraries. Second, A array mRNAs were more likely than B
-          or C array mRNAs to be detected in the developmental time
-          course by the Affymetrix Absolute Decision metric [ 10].
-          Because of this systematic difference between gene sets,
-          the mean AD of all A array genes was substantially higher
-          than that of the genes on the B or C arrays. The AD
-          smetric scales data under the assumption that mean
-          expression levels for all arrays should be equal.
-          Therefore, AD svalues for genes on the B and C arrays
-          were inappropriately inflated relative to AD svalues from
-          the A array.
+          Comorbidities
+          We identified the presence of chronic lung disease,
+          chronic renal disease, diabetes, malignancies, HIV
+          infections, and chronic heart disease using algorithms
+          based on health services utilization, detailed in
+          Additional File [Appendix B.doc].
         
         
-          Comparison of normalization methods:
-          accuracy
-          Normalization methods should accurately measure true
-          biological variation. We tested the accuracy of the four
-          methods using simulated data. As a baseline we chose the
-          experimental data from one of the 0-hour replicates on
-          the A array. We generated 19 simulated experimental
-          conditions to produce 20 raw average difference values
-          for each of 6,617 genes. For each of the four metrics,
-          computed fold-changes between the modulated condition and
-          the baseline (considering only messages called Present)
-          were compared to the true fold-changes. Accuracy was
-          defined as the fraction of computed fold-changes that
-          were accurate within twofold, and determined for assumed
-          levels of spike-skew from 10-40% (percentage is the ratio
-          of standard deviation (SD) to mean of the random
-          spike-skew term in the simulation). Three simulations
-          were carried out at each level of assumed spike-skew. AD
-          sand F smetrics performed equally well and best overall,
-          with accuracies above 99% regardless of spike-skew. As
-          expected, frequency was the only metric with a
-          significant dependence on the level of spike-skew. At 10%
-          spike-skew, frequency accuracy was (mean ± SD) 0.9951 ±
-          0.0006, at 20%, 0.96 ± 0.02, and at 40%, 0.82 ± 0.06. For
-          comparison, the accuracy of AD was 0.88 ± 0.07 at 10%
-          spike-skew, and did not change significantly at higher
-          spike-skew levels.
-          We stress that the overall accuracy levels reported
-          here are highly dependent on adjustable parameters in our
-          simulation model (see Materials and methods).
-          Nevertheless, the simulations demonstrate that at levels
-          of spike-skew consistent with our experience, scaled
-          frequency is as accurate as globally normalized AD s;
-          this observation is robust to changes in the model
-          parameters.
+          Hospitalizations
+          Influenza/ILI-related hospitalizations were defined
+          using the ICD-9 diagnoses codes recorded on the detailed
+          inpatient claims, categorized as listed above. We
+          calculated mean and median length of stay in hospital.
+          There were 10 (out of 115) hospitalizations that
+          continued beyond the 21-day follow-up period. For the
+          complications analysis, these counted in exactly the same
+          manner as the 105 hospitalizations that were completed
+          within the 21-day follow-up. For the primary cost and
+          duration of stay analyses data from the 10 extended
+          hospitalizations were retained only for hospitalized days
+          in the follow-up period, as an approximate way of
+          partitioning costs for events with mulitfactorial
+          etiology. Total hospital cost was multiplied by the
+          proportion of hospital days that fell within the
+          follow-up period. We also present the total cost and
+          length of stay without truncation.
         
         
-          Absolute quantitation of cRNA and cellular
-          RNA
-          There are several potential sources of inaccuracy in
-          the cRNA quantitiation given by the scaled frequency
-          metric.
-          Our results suggest that there is significant
-          uncertainty in the molar ratio of spike-in mRNAs to
-          template-derived cRNAs in any hybridization (the
-          spike-skew effect). The MEDACV for the F metric in Figure
-          3is likely one measure of this uncertainty, as it
-          probably arises primarily from cRNA purity variation.
-          This uncertainty leads to proportional differences
-          between frequency metric readouts and true cRNA
-          transcript abundances. However, in the scaled frequency
-          method, the simultaneous normalization of larger datasets
-          reduces these differences through averaging. We
-          anticipate that inaccuracies of cRNA quantitation arising
-          from this effect will be reduced by improved methods for
-          quantitation of cRNA preparations.
-          For F and F s, heterogeneity in probe response will
-          lead to gene-specific biases in quantitation. Our data
-          contains two observations that allow us to estimate the
-          degree of heterogeneity among spiked probe sets. Cursory
-          examination of the calibration curve (Figure 2) suggests
-          relative responses of the 11 distinct probe sets shown do
-          not vary more than two-fold: no observations fall more
-          than about a factor of two from the fitted line. A more
-          rigorous evaluation of probe set heterogeneity can be
-          done by comparing the ratio of AD values from two
-          distinct probe sets that monitor the same transcript in a
-          single hybridization. This ratio estimates the difference
-          in readout that would be observed for a single transcript
-          if a different probe set were selected. This comparison
-          was made for the 11 spiked transcripts (each array
-          contained two probe sets for each of these mRNAs). On the
-          basis of 138 ratio measurements from the 
-          C. elegans arrays, the 10th-90th
-          percentile range for the ratio was 0.39-1.44 [ 10],
-          indicating that for the set of control transcripts, the
-          uncertainty in cRNA quantitation due to heterogeneity in
-          probe set responses for 80% of transcripts was less than
-          threefold.
-          In addition to these factors leading to inaccuracies
-          in cRNA quantitation, there are at least two important
-          factors leading to differences between cRNA abundances
-          and cellular RNA abundances in the starting biological
-          material.
-          First, because cRNA is generated from the
-          polyadenylated fraction of total cellular RNA by a linear
-          amplification process, frequency estimates will not
-          reflect sample-specific changes in the fraction of
-          polyadenylated RNA in total cellular RNA. This may be a
-          desirable feature of frequency estimates, in cases where
-          per-total-RNA abundance is less relevant than
-          per-polyadenylated-RNA abundance.
-          Second, any gene-specific biases in the cRNA
-          amplification procedure will lead to gene-specific
-          differences between cRNA and per-total-RNA
-          quantifications. Evidence to date suggests that these
-          biases are small [ 1] and reproducible [ 19].
-          Taken together, the above-noted sources of inaccuracy
-          suggest that there can typically be around two- to
-          threefold differences between scaled frequency per-cRNA
-          estimates and per-polyadenylated-RNA abundances in the
-          starting material. These differences could be reduced by
-          improved cRNA process control and quantitation, and by
-          improved probe selection algorithms.
+          Health care costs
+          We characterized each influenza/ILI interval of care
+          by total cost and influenza/ILI-related cost. We defined
+          influenza/ILI-related costs as those associated with
+          ongoing care for influenza/ILI and with complications of
+          influenza/ILI, including medication costs, which occurred
+          during the influenza/ILI interval of care (see above list
+          of ICD-9 codes). Influenza/ILI-related medications were
+          those commonly prescribed for influenza/ILI symptoms,
+          manifestations and complications (oral, injectable,
+          ophthalmic and topical antibiotics; antitussives;
+          expectorants, and mucolytic agents;
+          decongestants;aspirin, acetaminophen, ibuprofen,
+          naproxen; amantadine, rimantadine; beta-agonists;
+          theophylline; oral, injectable, rectal or inhaled
+          steroids; ipratropium and cromolyn sodium).
+          We defined total costs as the sum of total health care
+          costs for all services incurred during the interval of
+          care. Costs presented in this report were the sum of the
+          amount paid by the insurer and the patient. Patient costs
+          include a patient's deductible, co-payment, coinsurance,
+          and coordination of benefit amounts. Societal costs and
+          patient level costs such as lost workdays were not
+          considered.
         
+        
+          Analysis
+          We used logistic regression modeling to examine the
+          association of potential predictive factors with
+          influenza/ILI-related complications and hospitalizations.
+          These models permitted adjustment for all of the possible
+          predictive factors concurrently; no variables were
+          dropped from the models.
+        
+      
+      
+        Results
+        
+          Study population and intervals of care
+          6,269 persons met eligibility and enrollment criteria;
+          they experienced 6,660 intervals of influenza/ILI care.
+          Thirty intervals of care were excluded from the analysis
+          because they occurred in subgroups with very small
+          numbers of patients, within which it would have been
+          impossible to obtain stable disease-specific estimates
+          (HIV (4 men; 2 women); chronic renal disease (5 men; 7
+          women) and immunosuppressive therapy (3 men; 10 women)).
+          The remaining 6,630 influenza/ILI intervals of care
+          (6,241 patients) formed the basis of this analysis.
+          Ninety-four percent of patients (5,895) had a single
+          episode. Approximately 5% (308) experienced two episodes
+          and 1% (30) had three or more during the study period. In
+          94% of the intervals of care, influenza/ILI was diagnosed
+          in an outpatient setting. Approximately 5% were diagnosed
+          in the emergency room and 1% were diagnosed upon
+          hospitalization.
+          Approximately 38% of episodes included outpatient
+          procedures or services associated with influenza/ILI or
+          complications. Outpatient dispensings were recorded for
+          50% of the episodes for the medications commonly
+          prescribed for influenza/ILI symptoms, manifestations,
+          and complications on the day of or during the 21 days
+          beyond their diagnosis. Antibiotics were prescribed for
+          39% of the episodes. Four percent of the episodes had
+          dispensings of antivirals (amantadine or
+          rimantadine).
+          Overall, 23% of the influenza/ILI episodes had
+          evidence of one or more co-morbid conditions occurring in
+          the year before the influenza/ILI diagnosis. Chronic lung
+          disease was the most prevalent, observed for
+          approximately 20% of the influenza/ILI episodes, at every
+          age. Chronic corticosteroid use, malignancy, chronic
+          heart disease, and diabetes became more common with
+          advancing age. In approximately 2% of the influenza/ILI
+          intervals of care, patients had evidence of multiple
+          co-morbidities and this rose with higher age groups,
+          reaching 21% for males age 65+ and 17% for females age
+          65+. (Table 1).
+        
+        
+          Influenza/ILI-related complications and
+          hospitalizations
+          Overall, 23% of intervals of care had an
+          influenza/ILI-related complication. Respiratory
+          complications were the most common (13%). Approximately
+          2% of influenza/ILI intervals of care resulted in a
+          hospitalization for influenza/ILI-related complications.
+          Four percent resulted in an emergency room visit and 20%
+          resulted in an office visit (data not shown).
+          The median and mean length of hospital stay during the
+          observation period for influenza/ILI-related
+          complications was 5 days. Including portions of
+          hospitalizations that extended outside of the 21-day
+          observation period, the median length of stay in hospital
+          was still five days. The mean was 8.4 days.
+          Table 2shows the unadjusted associations for the
+          potential predictors of influenza/ILI-related
+          hospitalizations and complications during the
+          influenza/ILI intervals of care. In general, the patterns
+          seen for factors associated with hospitalizations were
+          similar to those seen for influenza/ILI-related
+          complications. Older age, prior immunization, recent
+          complications or co-morbid diagnoses (30 days before the
+          influenza/ILI diagnosis), co-morbidities identified in
+          the year prior to diagnosis, and high recent health care
+          costs (in the previous three months) were all strongly
+          associated with hospitalizations or complications of
+          influenza/ILI.
+          Table 3presents the results from the logistic
+          regression analyses for predictors of any type of
+          influenza/ILI-related complication and hospitalization.
+          Adults in the oldest age groups (55-64 and 65+) were
+          nearly twice as likely to be hospitalized (55-64 OR =
+          1.75; 95% CI = 0.87-3.52; 65+ OR = 1.93; 95% CI =
+          0.82-4.56), as were those in the 35-44 year old group.
+          Patients with a recorded immunization were over 2.17
+          times as likely (95% CI 1.06-4.43) to be hospitalized
+          than patients without evidence of immunization. Intervals
+          of care with recent influenza/ILI-related complications
+          or co-morbid diagnoses (within 30 days) were 3.2 times
+          (95% CI 1.96-5.13) more likely to be hospitalized
+          compared to those without a recent concurrent
+          complication. Episodes with the highest quintile of
+          medical care costs in the preceding three months had
+          about a 1.7 - fold increased likelihood of being
+          hospitalized (95% CI 0.77-3.84). Prevalent co-morbid
+          conditions and medication use were generally associated
+          with an increased likelihood of hospitalization.
+          The logistic models for possible predictors of
+          influenza/ILI-related complications showed that children
+          under the age of five years (OR = 1.55; 95% CI =
+          1.26-1.91) and adults over the age of 65 years were more
+          likely (OR = 1.54; 95% CI = 1.06-2.24) to experience
+          complications when compared to the 35-44 age group.
+          Intervals of care for wpatients diagnosed with recent
+          influenza/ILI-related complications or co-morbid
+          diagnosis (30 days prior) were more likely (OR = 1.47;
+          95% CI 1.27-1.70) to result in patients having
+          influenza/ILI-related complications. Higher quintiles for
+          cost of medical services received in the 3-month period
+          preceding the influenza/ILI diagnosis were more strongly
+          associated with complications of influenza/ILI (4
+          thquintile OR = 1.21; 95% CI = 1.00-1.47; 5 thquintile OR
+          = 1.56; 95% CI = 1.28-1.91). Prevalent co-morbidities
+          such as maligna (95% CI = 1.19-2.61) and diabetes (OR =
+          1.74; 95% CI = 1.16-2.61) were significantly related to
+          the occurrence of influenza/ILI-related complications
+          during intervals of care for influenza/ILI. (Table 3)
+          Table 4shows the total, mean and median costs incurred
+          on influenza/ILI diagnosis date and during the 21-day
+          follow-up period, stratified by possible predictor
+          variables. Intervals of care for patients with prevalent
+          co-morbid conditions had a consistently higher median
+          influenza/ILI-related costs compared to those without
+          co-morbidities. Influenza/ILI-related costs accounted for
+          76% of the total health care costs incurred during the
+          interval of care ($1,981,072 / $2,622,179).
+        
+      
+      
+        Discussion
+        Elderly patients and patients with an underlying chronic
+        illness, a recent complication, or a higher health care
+        cost in the recent months were at the highest risk of
+        hospitalization and complications after a diagnosis of
+        influenza/ILI. Influenza/ILI-related health care costs
+        represented the bulk of total health care costs during an
+        influenza/ILI interval of care. In addition to a
+        confirmation of what we would expect qualitatively for the
+        healthcare burden of influenza, our observation provides a
+        useful quantitative estimate for these effects in the
+        general population.
+        The diagnosis of influenza/ILI was based on ICD-9 codes
+        and did not incorporate viral isolates or laboratory
+        confirmation. "Influenza/ILI" in this study is likely to be
+        representative, on a population level, of influenza/ILI
+        diagnoses and a smaller percentage of more severe
+        influenza-like illness. The 21-day follow-up period
+        incorporated a clinical expectation that the vast majority
+        of influenza/ILI-related complications would occur within
+        this period, and that complications that extended beyond 21
+        days would usually be ascribable in part to pre-existing
+        illness. More sophisticate approaches are imaginable, but
+        not among multiple causes, which in any case would have
+        been impossible to implement at the level of insurance
+        claims analysis.
+        This study found that patients with a record of an
+        influenza immunization were at a higher risk for
+        hospitalization than those who were not vaccinated. This is
+        clearly not a vaccine effect, but instead an effect
+        attributable to the kinds of patients in the United States
+        who typically received influenza vaccination in a doctor's
+        office during the period of the study. Vaccine is indicated
+        for patients at high risk of complications, and that risk
+        applies just as much to ILI, which presumably account for
+        the great majority of events among vaccinated persons.
+        Antiviral use was not extensive, and the current study
+        dates preceded the introduction of zanamivir and
+        oseltamivir. It appears that zanamivir reduces the risk of
+        complication in high-risk patients. [ 12 ] We found some
+        indication (although not statistically significant) that
+        use of amantadine and rimantadine may have prevented
+        hospitalizations (OR = 0.6) and substantially reduced
+        costs.
+        Influenza/ILI adversely affects individuals with a
+        variety of chronic underlying conditions, supporting the
+        Center for Disease Control and Prevention Immunization
+        recommendations for influenza immunization [ 15 ] . Unlike
+        other studies that have evaluated the cost-effectiveness of
+        influenza immunization [ 13 14 15 16 ] , our data quantify
+        a major cost impact of ILI and influenza/ILI in a large
+        population (over 6200 patients) with wide-variation in ages
+        and health status. These data may be useful in
+        understanding the patient groups at high risk for
+        influenza-related complications and assisting the
+        cost-benefit evaluation of a more universal influenza
+        immunization program for these patients.
+        Both chronic and acute manifestations of comorbid
+        illness were strong, independent predictors of
+        influenza/ILI-related complications and hospitalizations.
+        Additionally, health care costs in the three months before
+        the influenza/ILI episode serve as a surrogate for the
+        overall health status of a patient and could reflect the
+        severity of the underlying diseases. We were unable to
+        evaluate the effect of HIV infection, chronic renal
+        disease, and immunosuppressive therapy due to small number
+        of patients with these co-morbidities. These groups of
+        patients are at high risk for influenza/ILI-related
+        complications and health care costs. Therefore, our
+        estimates are most likely an under representation of the
+        true burden of influenza/ILI.
+        The 21-day follow-up period incorporated a clinical
+        expectation that the vast majority of influenza/ILI-related
+        complications would occur within this period, and that
+        complications that extended beyond 21 days would usually be
+        ascribable in part to preexisting illness. We chose the
+        21-day cutoff as a rough-and-ready, approximate partition
+        of mulitfactorial disease burden. More sophisticate
+        approaches are imaginable, but not among multiple causes,
+        which in any case would have been impossible to implement
+        at the level of insurance claims analysis.
+        These data reflect patterns of care for influenza/ILI
+        seen within the NEI health care system. NEI beneficiaries
+        who sought medical care outside the NEI system would not be
+        captured in the claims data and are not included in this
+        analysis. This is probably a relatively small percentage of
+        patients and is unlikely to bias the results. More
+        importantly, care for many respiratory conditions
+        (especially otitis media and acute bronchitis) was captured
+        in this study only as a complication of previously
+        recognized influenza/ILI. If the original illness had been
+        diagnosed only as one of these conditions, it would never
+        have entered into the study. In addition, we lack data on
+        patients who did not seek medical care for influenza/ILI.
+        Medications purchased outside the insurance plan (e.g.
+        over-the-counter) are not included in the database. Thus,
+        influenza/ILI-related costs we report are likely to be an
+        under estimate of the true costs of medical care, and this
+        is only a fraction of the total societal cost, which would
+        include at a minimum lost wages and productivity. NEI
+        enrolls relatively few persons over the age of 65, due to
+        the availability of Medicare coverage for the elderly. The
+        elderly in NEI include those who are still working or who
+        formerly worked for the state or federal government and
+        therefore are not eligible for Medicare.
+        Approximately 78% of influenza isolates from the World
+        Health Organization Collaborating Laboratories were type A
+        and 22% were type B during the 1996 - 1997 influenza
+        season. Type A influenza is thought to cause more severe
+        illness [ 17 18 19 ] . Therefore, the majority of
+        influenza/ILI diagnoses captured in the NEI system using
+        ICD-9 codes would be expected to be type A and represent a
+        higher proportion of true influenza illness than ILI during
+        the 1996-1997 influenza season.
+        Antiviral use was not extensive, and the current study
+        dates preceded the introduction of zanamivir and
+        oseltamivir. We found some indication (although not
+        statistically significant) that antiviral use may have
+        prevented hospitalizations (OR = 0.6). The recent marketing
+        of influenza antivirals may have an even greater impact on
+        the predictors of complications and health care related
+        costs of influenza.
+        Strengths of this study include the large cohort of ILI
+        and influenza cases (over 6200 patients) and the diversity
+        of the risk profiles for influenza/ILI-related
+        complications in this population. These data should be
+        applicable to other large health maintenance organizations
+        and would be useful for evaluating the burden of
+        influenza/ILI in these populations.
       
       
         Conclusions
-        We have shown that cRNAs spiked into hybridization
-        solutions at known concentrations covering two to three
-        orders of magnitude can be used to normalize array data and
-        to estimate array sensitivity. However, frequency
-        normalization based solely on these control transcripts can
-        be adversely affected by variations in the 'purity' of cRNA
-        preparations. These observations underline the need for
-        meticulous quality control during the production of cRNA
-        samples and accurate quantitation of the resulting
-        material. With better control of these processes, the
-        frequency metric may provide a robust spike-based
-        normalization that, unlike all the other metrics described
-        here, does not rely on the constant-mean assumption.
-        In the presence of variation in cRNA purity, the F
-        smetric provides a compromise between the robustness of the
-        AD smetric and the more absolute quantitation scale of the
-        frequency metric, in cases where the constant-mean
-        assumption is valid. In addition, the F smetric provides a
-        common scale for comparing data from distinct array
-        designs. This is an important advantage over other metrics.
-        For example, the F smetric allows comparison of the
-        expression levels of all worm mRNAs on all three of our
-        array designs with comparable confidence to
-        within-array-design comparisons. This is not possible with
-        globally normalized average differences. We believe that
-        cRNA quantitation and the damping of low-amplitude signals
-        provided by the F snormalization make this metric a
-        valuable format for reporting diverse gene expression array
-        results.
+        Recent acute events foretell complications of influenza,
+        as does underlying chronic illness. Most costs in the three
+        weeks following onset are for influenza/ILI-related
+        care.
       
       
-        Materials and methods
-        
-          Experiments and arrays
-          Array experiments used the Genetics Institute 
-          C. elegans Affymetrix GeneChip™
-          oligonucleotide arrays, a set of three arrays (denoted A,
-          B and C) which in aggregate monitor approximately 98% of
-          the 19,099 predicted worm mRNAs in the October 1998 worm
-          genome sequence release [ 20]. The total number of probe
-          sets on each array was 6,617 (A array), 5,768 (B), and
-          6,646 (C). Each probe set consists of 20 distinct probe
-          pairs (each probe is a 25mer) designed to monitor a
-          single transcript. On the 
-          C. elegans arrays described here,
-          probe sets monitoring the spiked transcripts were each
-          tiled twice with a different set of oligonucleotide
-          probes. On arrays that are commercially available from
-          Affymetrix, one probe set is tiled to monitor each of the
-          spike-in transcripts. The probe sets are not fully
-          randomly distributed across the arrays, although on the 
-          C. elegans arrays the different
-          probe sets are tiled in widely different regions of the
-          arrays. Experimental array data described here were taken
-          from the developmental time course dataset reported in [
-          10]. Specifically, we examined individual replicate
-          hybridizations of the A array from the worm developmental
-          time course at each of 0 ( 
-          n = 4), 36 ( 
-          n = 3), 48 ( 
-          n = 4) and 60 ( 
-          n = 4) hours after synchronization
-          of worm eggs by bleach, as well as a larger set of 13
-          hybridizations of all three arrays to samples ranging
-          from oocytes to 2-week-old worms. Replicate
-          hybridizations in the datasets included independently
-          generated complementary RNA (cRNA) preparations from the
-          same starting total RNA. Primary data for all transcripts
-          on all arrays (including all replicates of all three
-          array designs) is contained in the supplementary Excel
-          spreadsheet (see Additional data files).
-        
-        
-          Spike-in transcript pool
-          A pool of biotin-labeled spike-in control transcripts
-          was derived by 
-          in vitro transcription of 11 cloned
-          
-          Bacillus subtilis genes, using the
-          methods described in [ 21]. The spike-in pool was added
-          into hybridization cocktails in proportion to the
-          UV-quantitated cRNA mass in the hybridization, so as to
-          achieve the desired final concentration of spike-ins. The
-          spiked transcripts and their final concentrations in the
-          hybridization cocktails are listed in Table 1. Final
-          concentrations in pmol and parts per million (ppm) for
-          each spiked transcript were computed from the known
-          length of each spike-in, assuming a total mass of 2 μg
-          worm cRNA in a 200 μl hybridization volume, and an
-          average length of 1,000 bases for 
-          in vitro transcribed worm
-          cRNAs.
-        
-        
-          Metrics for transcript abundance
-          Average difference (AD) is the basic measure of
-          transcript abundance that is calculated by the Affymetrix
-          GeneChip 3.1 software. The calculation of AD is described
-          in detail in the Affymetrix GeneChip User Guide [ 17].
-          Briefly, a background intensity is computed for each of
-          16 rectangular sectors on the array. This local
-          background is subtracted from the intensity values of
-          each probe cell in all sectors. After background
-          subtraction, the difference between perfect match (PM)
-          and mismatch (MM) feature intensity is calculated for all
-          probe pairs in each probe set (in our case, 20 probe
-          pairs in total). The AD for each probe set is the average
-          of the PM - MM differences, after outlying values are
-          removed.
-          A second important metric generated by the GeneChip
-          software is the Absolute Decision. The Absolute Decision
-          is a categorical call for each transcript: either
-          Present, Absent, or Marginal. The Absolute Decision is a
-          heuristic metric based on the number of probe pairs for a
-          given transcript that show strong specific hybridization
-          signals. See the Affymetrix GeneChip User Guide [ 17] for
-          a detailed description of this metric.
-          Because of array-to-array variation in overall signal
-          strength, AD values from different arrays are usually
-          normalized to a common scale. We reproduced the scaled AD
-          normalization of the Affymetrix GeneChip 3.1 software.
-          The calculation is described in detail in the Affymetrix
-          GeneChip User Guide [ 17]. Scaling is done by equalizing
-          the average intensity of all arrays in a given dataset,
-          where the average intensity is defined as the trimmed
-          average of the AD values of every probe set on the array,
-          excluding the highest 2% and lowest 2% of the values.
-          This normalization works on the assumption that the
-          summed expression level of all genes on the array is
-          constant across experiments, and that differences in
-          expression levels between arrays can be corrected by
-          array-specific scaling factors. We denote the normalized
-          AD values as scaled average difference (AD s).
-          The calculation of frequency (F) values involved two
-          steps: first, conversion of AD values to frequencies by
-          use of the calibration curve, and second, estimation of
-          the chip sensitivity of detection and 'damping' of
-          frequency values below this sensitivity.
-          The calibration curve for each hybridization was
-          constructed from the AD values for each of the 11 control
-          transcripts and their known frequencies (Table 1). AD
-          values that were negative, or associated with Absent or
-          Marginal Absolute Decisions, were removed from the curve
-          in order to improve the robustness of the fit. This
-          calibration curve was fitted by a linear function with
-          zero intercept, using a generalized linear model [ 22]
-          fitting procedure in the statistical software S-PLUS
-          (Insightful Corp., Seattle, WA). The fitting procedure
-          assumed a gamma error structure, appropriate for data
-          with constant coefficient of variation, and utilized
-          iterative reweighting of errors. The single coefficient
-          of this linear fit was multiplied with the average
-          difference values for each gene on the array to yield
-          initial frequency estimates. Calibration curves for the
-          hybridizations described here were examined visually to
-          rule out poor curve fits.
-          Chip sensitivity of detection was estimated from the
-          Absolute Decisions (Present, Marginal, or Absent) for the
-          11 spike-in transcripts in one of two ways. In the
-          general case, Absolute Decisions were considered as a
-          binary response: Absent = 0, Present = 1, with Marginal
-          calls treated as Absent to be conservative. This response
-          was regressed against the log-transformed known
-          frequencies, using a generalized linear model with a
-          logit link function. The chip sensitivity was then
-          defined as the frequency at which the predicted odds of a
-          Present call were 70%. In the special case where all
-          spike-in mRNAs called Absent were lower-abundance
-          messages than all spike-ins called Present, the
-          sensitivity was defined by linear interpolation as the
-          frequency 70% of the distance between the highest Absent
-          call frequency and the lowest Present call frequency.
-          Frequency values for all genes on the array that fell
-          below the sensitivity were damped as follows. Negative
-          frequencies (corresponding to negative AD values) were
-          adjusted to one-half of the chip sensitivity. Frequencies
-          between zero and the chip sensitivity were adjusted to
-          the average of the frequency and the chip sensitivity.
-          The rationale for this adjustment was threefold. First,
-          one-half the chip sensitivity was a reasonable 
-          a priori estimate of abundance for
-          many genes that were not reliably detected. Second, the
-          adjusted frequencies were guaranteed to be
-          positive-valued, making downstream analyses of frequency
-          values (for example, log transformation) significantly
-          easier. Third, retaining the adjusted low-level frequency
-          estimates was preferable to discarding them, because
-          discarding the values would make it impossible to detect
-          potentially important regulation of these genes in future
-          experiments.
-          Frequency normalization could be adversely affected by
-          technical uncertainties in cRNA preparation (see Results
-          and discussion). To attenuate these effects, an
-          additional frequency variant termed scaled frequency (F
-          s) was introduced. F swas a hybrid of ADs and frequency,
-          and was computed as follows. AD swas first computed for a
-          set of two or more arrays exactly as described above.
-          Then a linear model (with zero intercept) was fitted to
-          the pooled AD svalues for the 11 spike-in transcripts
-          from all arrays, ignoring negative AD svalues or those
-          associated with Marginal/Absent Absolute Decisions. The
-          slope of this linear model was the single calibration
-          factor for the entire dataset. This slope was multiplied
-          with the AD svalues from all arrays to yield F svalues.
-          Per-array sensitivity values were computed exactly as
-          described for F, and F svalues on any array that were
-          below the array sensitivity were adjusted as described
-          above.
-        
-        
-          Simulated data
-          Array data was simulated as follows. First, a single
-          experimental dataset, one of the 0-hour replicates, was
-          chosen as a baseline for generation of all simulated
-          data. To this baseline dataset, several random noise
-          sources were added to reproduce key sources of
-          variability in array data. The relation describing the
-          simulated data was:
-          
-          AD 
-          
-            ij 
-           = 
-          b 
-          
-            ij 
-           + 
-          ADB 
-          
-            i 
-           ( 
-          a 
-          
-            j 
-           
-          m 
-          
-            ij 
-           
-          s 
-          
-            ij 
-           
-          r 
-          
-            ij 
-           )
-          where
-          
-          AD 
-          
-            ij 
-           = simulated AD for the 
-          i th mRNA on the 
-          j th array
-          
-          ADB 
-          
-            i 
-           = baseline gene expression data for the 
-          i th mRNA
-          
-          b 
-          
-            ij 
-           = background noise for the 
-          i th mRNA on the 
-          j th array
-          
-          a 
-          
-            i 
-           = array intensity offset for the 
-          j th array
-          
-          m 
-          
-            ij 
-           = multiplicative noise for the 
-          i th mRNA on the 
-          j th array
-          
-          s 
-          
-            ij 
-           = spike-skew factor for the 
-          i th mRNA on the 
-          j th array (unity for all nonspiked
-          mRNAs)
-          
-          r 
-          
-            ij 
-           = regulation factor for the 
-          i th gene on the 
-          j th array (unity for all spiked
-          mRNAs)
-          Background 
-          b 
-          
-            ij 
-           was Gaussian with a standard deviation (SD) that
-          varied randomly from one array to another. The background
-          noise SD had a mean of 20 AD units, and a standard
-          deviation of 5 AD units. Array intensity offsets a 
-          
-            j 
-           were Gaussian with a mean of one and SD of 0.3.
-          Multiplicative noise, 
-          m 
-          
-            ij 
-           , was drawn from a normally distributed zero-mean
-          noise source with a constant CV of 0.1. Spike-skew factor
-          
-          s 
-          
-            ij 
-           was a single random factor for all spiked cRNAs on a
-          given array, and unity for all other messages. The
-          spike-skew factor for the spiked cRNAs was Gaussian with
-          mean 1 and a SD that was adjusted from 0.1 to 0.4 (in
-          percentage terms, 10-40%). Regulation factors r 
-          
-            ij 
-           were generated by a procedure in which the base-10
-          log (fold-change) for each gene was selected from a
-          normal distribution with mean 0 and SD 0.5. Extreme
-          random regulation factors were limited so that the
-          regulated gene expression values had the same range as
-          baseline data. After multiplication of each gene by its
-          regulation factor, the mean expression level of all genes
-          was adjusted so that the overall mean expression level
-          was unchanged by regulation.
-        
-      
-      
-        Additional data files
-        Primary data for all experimental hybridizations are
-        available as an Excel spreadsheet(20,325 Kb).
-        Additional data file 1
-        Primary data for all experimental hybridizations
-        Primary data for all experimental hybridizations
-        Click here for additional data file
+        Competing interests
+        SC, W-YH, and DR were employees of Glaxo Wellcome (now
+        GlaxoSmithKline), the manufacturer of zanamivir, at the
+        time this study was carried out. DI, AMW, and LW were
+        employees of lngenix Pharmaceutical Services, which
+        received a research contract to perform this study from
+        Glaxo Wellcome.
       
     
   

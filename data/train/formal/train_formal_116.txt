@@ -2,446 +2,599 @@
   
     
       
-        Introduction
-        Neutropenic complications, defined as febrile
-        neutropenia, severe neutropenia, or dose delay or reduction
-        due to neutropenia, are the most common side effects of
-        myelosuppressive chemotherapy [ 1 2 ] . The frequent
-        occurrence of neutropenic complications suggests that it is
-        impossible to predict accurately which patients will
-        present with a neutropenic complication. Febrile
-        neutropenia, defined as an absolute neutrophil count (ANC)
-        of more than 1.0 × 10 9/liter with a temperature of more
-        than 100.6°F, is the most severe neutropenic complication
-        and can cause prolonged hospitalization. Neutropenic
-        complications can negatively affect the course of
-        chemotherapy, leading to dose delays or decreases to reduce
-        a patient's risk of developing febrile neutropenia. The
-        ability to improve predictions of which patients are at
-        risk for neutropenic complications might help to reduce the
-        morbidity due to febrile neutropenia and increase the
-        likelihood of delivering full chemotherapy dose on time. In
-        addition, hematopoietic growth factors could be
-        administered to patients who need them most, permitting the
-        more efficient use of medical resources.
-        Several publications have argued that the first
-        chemotherapy cycle nadir ANC is a good predictor of
-        neutropenic complications in patients with breast cancer [
-        1 2 ] . These papers were based on retrospective chart
-        analyses and therefore require further validation in
-        additional chemotherapy regimens and patient populations
-        before the model can be prospectively implemented.
-        Filgrastim (recombinant methionyl human granulocyte
-        colony-stimulating factor) has been shown to reduce the
-        depth of the nadir ANC, shorten the duration of
-        neutropenia, and reduce the risk of febrile neutropenia [ 3
-        ] , thereby maintaining chemotherapy dose [ 4 5 ] . Many
-        patients with early-stage breast cancer do not receive the
-        full chemotherapy dose intensity recommended in
-        conventional adjuvant chemotherapy regimens [ 6 7 8 ] .
-        Neutropenia is the primary reason for chemotherapy dose
-        delays and reductions [ 1 6 7 ] .
-        Dose delay and dose reduction can result in care that is
-        less than optimal. Significant reductions in total dose and
-        dose intensity have an adverse effect on disease-free
-        survival and overall survival [ 9 10 ] . Because most dose
-        delays and reductions occur after a neutropenic
-        complication or febrile neutropenia, patients might
-        experience an infectious episode and might need to contend
-        with the burden and anxiety associated with a
-        hospitalization and the risk of prolonged complications in
-        treatment. These events impose potentially preventable
-        burdens on the patients. The use of hematopoietic growth
-        factors as primary prophylaxis is one way of decreasing the
-        burden of neutropenic complications. However, when growth
-        factors are not used as primary prophylaxis, neutropenic
-        complications serve as the indicator of the patient's risk
-        for further neutropenic complications, resulting either in
-        growth-factor treatment as secondary prophylaxis or in
-        chemotherapy dose delays or reductions.
-        An alternative treatment strategy can be developed in
-        which patients have a reduced risk of neutropenic
-        complications and a higher likelihood of receiving a full
-        dose of chemotherapy on time. First-cycle nadir ANC can be
-        used to identify patients at risk for neutropenic
-        complications. These patients could receive prophylactic
-        hematopoietic growth-factor support to decrease
-        treatment-related morbidity and to increase the likelihood
-        of the administration of full-dose chemotherapy on
-        time.
-        Silber and colleagues [ 1 ] proposed a predictive model
-        of neutropenia, dose reduction, or dose delay based on
-        blood counts observed during the first cycle of
-        chemotherapy. The model estimates the patient's risk of
-        requiring dose attenuation due to myelosuppression or,
-        alternatively, decreasing below acceptable ANC levels in
-        subsequent chemotherapy cycles. The model demonstrates that
-        patients can be ranked by probability of presenting with
-        neutropenia in subsequent cycles with a high degree of
-        certainty and good degree of discrimination between
-        patients at high and low risk. This ranking permits the
-        judicious use of hematopoietic growth factors, such as
-        filgrastim, to support patients who can benefit the most
-        from this treatment. Consequently, patients at high risk
-        for developing neutropenia will have a greater chance of
-        receiving full-dose chemotherapy on time and avoiding
-        febrile neutropenia.
-        The purpose of our study was the further validation of a
-        model [ 1 11 ] that used first-cycle nadir ANC count to
-        predict the risk of febrile neutropenia, dose delay, and
-        dose reduction in patients with breast cancer receiving
-        myelosuppressive chemotherapy. The validation had two
-        parts: a cross-validation of the original model with our
-        data and a test of the model specification to improve its
-        predictive power for our specific patient population and
-        regimen.
-      
-      
-        Methods
+        Background
         
-          Patients
-          The validation sample included 153 chemotherapy-naive
-          patients with stage I, II, IIIa, or IIIb breast cancer
-          who had been treated with adjuvant chemotherapy during
-          1986-92 as part of the MD Anderson Cancer Center (MDACC)
-          86-12 trial. Patients aged more than 75 years, those with
-          inflammatory breast cancer, those with a previous history
-          of contralateral breast cancer with higher stage of
-          disease, and those with second primary other than basal
-          cell carcinoma of skin or 
-          in situ carcinoma of cervix were
-          excluded from the original MDACC 86-12 study.
-          Of the 153 patients participating in the trial, 10
-          were excluded from analysis. Four patients had no
-          complete blood cell count data recorded, three had
-          incomplete chemotherapy delivery information, and three
-          had received filgrastim. Results are reported for the
-          remaining 143 patients. Therefore, as in the study by
-          Silber and colleagues [ 1 ] , this validation sample
-          describes the natural history of neutropenia.
+          Attention Network Task (ANT) as a suitable
+          endophenotype for genetic studies
+          While each of the attentional measures described above
+          is well suited for genetic studies, we have chosen an
+          alternate assay for genetic studies of attention. Our
+          approach is based functional neuroimaging studies which
+          have yielded evidence on neural areas involved in aspects
+          of attention [ 19 20 ] . Imaging data have supported the
+          presence of three networks related to different aspect of
+          attention. These networks carry out the functions of
+          alerting, orienting and executive control [ 21 22 ] .
+          Alerting is defined as achieving and maintaining a state
+          of high sensitivity to incoming stimuli; orienting is the
+          selection of information from sensory input; and
+          executive control is defined as involving the mechanisms
+          for resolving conflict among thoughts, feelings and
+          responses. Functional imaging studies have shown that
+          maintaining an alert state involves activation of right
+          frontal and parietal lobes while orienting to visual
+          stimuli activates areas of the pulvinar, superior
+          colliculus and posterior parietal lobe. Executive
+          function tasks activate frontal areas such as the
+          anterior cingulate cortex and lateral prefrontal cortex,
+          an area for which certain anatomical aspects have been
+          shown to be highly heritable [ 23 ] . Recently, we
+          described the Attention Network Test (ANT) that measures
+          the efficiency of these three major neural networks [ 24
+          ] . The ANT is advantageous for genetic studies, insofar
+          as it distinguishes between separate functions of
+          attention (alerting, orienting and executive) that are
+          correlated with the activation of these specific
+          neuroanatomical circuits. The heritability of the ANT has
+          been examined in a preliminary twin study using normal
+          adult twins [ 25 ] . The efficiency of the executive
+          network was found to be highly heritable (h 
+          F 2= 0.89) while lower heritabilities
+          were observed for alerting and median reaction time (h 
+          F 2= 0.18 and 0.16 respectively). The
+          heritabilities of these measures suggest that candidate
+          gene association studies are reasonable to pursue. It
+          remains an open question however, whether such candidate
+          genes will relate to overall attentional performance and
+          reaction time, or whether the candidate genes will show
+          specific associations with specific neural networks.
+          As an initial assessment of this approach, we chose
+          four candidate genes (DRD4, DAT1, COMT and MAOA) that are
+          among the most widely studied and repeatedly associated
+          with various psychiatric disorders where attention is
+          found to be disrupted. The longstanding interest in these
+          candidate genes stems mainly from pharmacological
+          evidence implicating dopamine and norepinephrine in
+          attentional processes as well as biochemical studies that
+          have related alleleic variants to differences in protein
+          activity and expression levels. Studies showing the
+          expression of dopamine receptors in the anterior
+          cingulate cortex [ 26 ] and that activation of
+          mesocortical dopaminergic neurons via apomorphine
+          enhances activity in the prefrontal cortex [ 27 28 ]
+          suggest that dopaminergic modulation influences the
+          efficiency of the executive attention network. Similarly,
+          pharmacological studies with alert monkeys have related
+          the alerting network to the brain's norepinepherine
+          system whose cell bodies are located in the locus
+          coeruleus. Drugs like clonidine and guanfacine act to
+          block norepinepherine, and reduce or eliminate the normal
+          effect of warning signals on reaction time, but have no
+          influence on orienting to the target location [ 29 ]
+          .
         
         
-          Treatment
-          Primary surgical treatment consisted of a modified
-          radical mastectomy or segmental mastectomy. If indicated,
-          the patient was treated with preoperative or
-          postoperative local radiotherapy. All patients were
-          treated with the FAC (fluorouracil, doxorubicin,
-          cyclophosphamide) regimen that consisted of 50 mg/m
-          2doxorubicin given as a continuous infusion over 72 hours
-          starting on day 1, 500 mg/m 2cyclophosphamide
-          intravenously on day 1, and 500 mg/m 2fluorouracil
-          intravenously on days 1 and 4. Treatment was given every
-          3 or 4 weeks for a total of six cycles. Complete blood
-          counts with differential counts were usually obtained on
-          days 1, 8, and 15 of each cycle. Chemotherapy was usually
-          delayed if the ANC was less than 1.5 × 10 9/liter on the
-          planned first day of the cycle. Dose delays were usually
-          for 1 week. The chemotherapy dose was reduced if, on the
-          previous cycle, the nadir ANC was less than 0.5 × 10
-          9/liter or if the patient experienced an episode of
-          febrile neutropenia, defined as an ANC of less than 1.0 ×
-          10 9/liter with a temperature of more than 100.6°F. Dose
-          reductions usually consisted of a 20% reduction in dosage
-          of all chemotherapy drugs.
+          Dopamine D4 receptor (DRD4)
+          The dopamine D4 receptor is located on chromosome
+          11p15 [ 30 ] . Many association studies have evaluated a
+          48 base-pair variable nucleotide tandem repeat (VNTR)
+          polymorphism in exon III. The most common isoform of the
+          DRD4 contains 4-repeats, while two less common isoforms
+          contain 2-repeats and 7-repeats. Pharmacological studies
+          show that the 7-repeat isoform is less responsive to
+          dopamine stimulation [ 31 ] . Recently, a formal meta
+          analysis [ 32 ] was conducted on the growing body of
+          literature of this DRD4 polymorphism and its association
+          with ADHD. Based on 7 case control studies (4 positive)
+          and 14 family-based studies (9 positive), the meta
+          analysis concluded that a "...statistically significant
+          association between ADHD and the 7-repeat allele of DRD4"
+          existed, with a relative risk of 1.9 for 7 case-control
+          studies and 1.4 for 14 family-based studies. In addition
+          to the exon III polymorphism, Barr and colleagues [ 33 ]
+          examined the distributions of a 120-bp repeat 1.2
+          kilobases upstream to the transcription start site and a
+          single nucleotide polymorphism (SNP) defined by a C to T
+          substitution at position -521 in ADHD populations. The
+          T-521 allele results in 40% less DRD4 transcription [ 34
+          ] . Studies looking at polymorphisms in DRD4 and infant
+          attention [ 35 ] as well as disorders such as obsessive
+          compulsive disorder [ 36 ] , Tourette syndrome [ 37 ] and
+          schizophrenia [ 38 ] as well as underlying dimensions of
+          novelty seeking [ 39 40 ] , attachment [ 41 ] and
+          temperament [ 42 ] have also shown associations. In this
+          study, we examine each of these polymorphisms.
         
         
-          Outcome definition
-          A neutropenia-related event was defined similarly to
-          that in the study by Silber and colleagues [ 1 ] : a
-          nadir ANC of 0.5 × 10 9/liter or less, a
-          neutropenia-related dose reduction of 15% or more of the
-          planned dose of any agent, a neutropenia-related dose
-          delay of 7 days or more, or a febrile-neutropenic
-          episode. Delays and reductions were related to
-          neutropenia, and the reasons for the dose modifications
-          were documented. A response group for the risk model
-          consists of all patients who experienced at least one
-          neutropenia-related event after the first cycle of
-          chemotherapy. The ANC cutoff point to define an event was
-          0.5 × 10 9/liter, rather than 0.25 × 10 9/liter used in
-          the Silber model to accommodate the physician practice
-          style associated with patients in the validation
-          sample.
+          Dopamine transporter (DAT1)
+          The dopamine transporter (DAT1 or SLC6A3) gene is
+          located on chromosome 5p15.3 [ 43 ] . Methylphenidate,
+          the primary stimulant used in pharmacological treatment
+          of ADHD, was shown by PET imaging to block the dopamine
+          transporter [ 44 ] . ADHD patients have also been found
+          to show higher levels of DAT1 in the striatum [ 45 ] .
+          The most well studied polymorphism is a VNTR in the 3'
+          untranslated region of the DAT gene [ 46 ] . Since this
+          VNTR is not in the coding region of the DAT gene, it does
+          not affect the protein sequence of the dopamine
+          transporter, but may affect the translational efficiency
+          and thus the amount of protein expressed. Subjects
+          homozygous for the 10-repeat allele showed significantly
+          lower dopamine transporter binding than carriers of the
+          9-repeat allele [ 47 ] . Cook [ 48 ] summarized the
+          results of an additional 11 family-based studies in a
+          meta analysis and concluded that the association between
+          the DAT gene and ADHD was highly significant (p <
+          .0001). Associations with other disorders including,
+          bipolar disorder [ 49 ] , alcoholism [ 50 ] and
+          temperamental dimensions [ 51 ] have been found.
         
         
-          Statistical methods
-          The originally estimated Silber risk model was
-          cross-validated with the MDACC sample. We used the same
-          definitions as in the original model for the predictor
-          variables. The distribution of these predictor variables
-          was compared across the original Silber and validation
-          MDACC study samples. The outcome variable in the
-          validation sample differs in that an ANC cutoff point of
-          0.5 × 10 9/liter is used in the compound outcome
-          definition. Given this difference in ANC cutoff point and
-          the difference in chemotherapy regimens used in the two
-          samples, the absolute predicted probabilities of events
-          resulting from the cross-validation might not be
-          interpretable, but their relative magnitude (or ranking
-          of patients by predicted probability of an event) is
-          valid. To assess the cross-validation results, we divided
-          the patients into predicted positive and predicted
-          negative groups by using varying probability cut points.
-          This process is equivalent to ranking the patients by
-          their predicted event probability and dividing the ranked
-          list in all possible ways, declaring the higher-ranked
-          patients predicted positive and the lower-ranked patients
-          predicted negative.
-          The sensitivity and specificity of each possible
-          resulting classification are summarized in a
-          receiver-operating-characteristic curve plot. The 
-          C -statistic (area under the
-          receiver-operating-characteristic curve) [ 12 ] , which
-          summarized the sensitivity and specificity across the
-          entire (0 to 1) range of probability cut points, is
-          reported together with the sensitivity and specificity
-          rates for the optimal classification table. This
-          validation process does not address the effect of
-          concurrent radiotherapy because none of the patients in
-          the validation sample were treated with this modality. As
-          a result, the indicator variable for concurrent
-          radiotherapy present in the original model is set to 0,
-          effectively applying the model to patients with no
-          concurrent radiotherapy.
-          For the model-specification test, the same variables
-          used to predict neutropenic complications in the Silber
-          model were fitted with a logistic regression to our data
-          and the significance was reported. Furthermore, we
-          explored other potential predictors to examine whether
-          new significant risk factors would emerge. The
-          discrimination and calibration of the model fitted to our
-          data and original models were compared by using the 
-          C -statistic and the
-          Hosmer-Lemeshow statistic [ 13 ] . The
-          receiver-operating-characteristic curves for the two
-          models were plotted and compared. The magnitudes of the
-          risk factors' effects were compared across the validation
-          and original models. Regression coefficient differences
-          were tested with an asymptotic normal test and the
-          estimated probability of event curves derived from the
-          original and validation models were plotted for
-          comparison. Finally, we assessed the importance of
-          first-cycle nadir ANC as a predictor of subsequent
-          episodes of febrile neutropenia and of reduced dose
-          intensity (not more than 85% of planned dose intensity)
-          by comparing the proportion of observed events in
-          patients grouped by first-cycle nadir ANC ranges.
-          Statistical analyses were performed by using SAS 8.00 for
-          Windows (SAS Institute Inc, Cary, NC). All reported 
-          P values are two-sided.
+          Catecholamine-O-methyl transferase (COMT)
+          The catechol-O-methyltransferase (COMT) gene is
+          located on chromosome 22q11 [ 52 ] and catalyzes the
+          degradation of catecholamines in conjuction with
+          monoamine oxidase. In the prefrontal cortex, the
+          breakdown of synaptic dopamine through the COMT pathway
+          is more critical since PFC is characterized by greater
+          extracellular diffusion & slower clearance of
+          dopamine than elsewhere in the brain [ 53 ] . The most
+          widely examined polymorphisms in COMT were identified by
+          Lachman [ 54 ] who found a G-to-A change at codons 108
+          and 158 of the COMT gene, resulting in
+          Valine-to-Methionine substitutions which account for 3-
+          to 4-fold differences in COMT activity in red blood cells
+          and liver. A recent finding showed that COMT genotype was
+          related to performance on the Wisconsin Card Sorting Test
+          of executive cognition [ 55 ] . In addition, those
+          subjects with the Methionine alleles needed less
+          prefrontal cortical activity, as judged by fMRI, to show
+          the same level of performance on the N-back task. The
+          Valine allele was shown to be preferentially transmitted
+          to ADHD probands and was associated with impulsive false
+          alarm errors on a continuous performance task [ 56 ] .
+          Several studies on obsessive compulsive disorder have
+          found associations with COMT [ 57 58 59 60 ] .
+          Associations with bipolar disorder [ 61 ] and
+          temperamental dimensions [ 62 ] have also been
+          reported.
+        
+        
+          Monoamine oxidase (MAOA)
+          The MAOA and MAOB genes are located on the X
+          chromosome (Xp11) [ 63 ] and code for enzymes that
+          catalyze the deamination of biogenic amines including the
+          neurotransmitters norephinephrine, dopamine and
+          serotonin. MAOA shows expression primarily in neurons and
+          preferentially catalyzes the deamination of serotonin and
+          noradrenaline. Because of its metabolic role, drugs which
+          interfere with MAOA such as clorgyline have been used to
+          treat ADHD [ 64 ] . The most notable of MAOA polymorphism
+          was a nonsense mutation that led to a complete loss of
+          MAOA function in males showing extreme forms of impulsive
+          behavior and aggression [ 65 ] . More recently, the
+          association with aggression was replicated in a study
+          showing that maltreated children with certain alleles of
+          MAOA were more likely to show aggressive behaviors [ 66 ]
+          . MAOA male knockout mice also show high levels of
+          aggression [ 67 ] . Less severe genetic variants are
+          known to exist in MAOA which have been studied as
+          candidates to explain various dimensions of psychiatric
+          illness. The MAOA gene-linked polymorphic region
+          (MAOA-LPR) is a 30 bp repetitive sequence that resides
+          1.2 kb upstream of the start codon. The 3 and 4-repeat
+          copy alleles are the most common and the 2-, 3.5- and
+          5-repeat copy alleles are rare. Transfection experiments
+          show that the 3-repeat allele results in a 5-fold lower
+          transcriptional induction than the 4-repeat allele [ 68 ]
+          . The second polymorphism we examined is a silent C to T
+          change at position 1460 in exon 14. MAOA associations
+          with ADHD [ 69 ] , bipolar disorder [ 70 71 72 ] panic
+          disorder [ 73 ] and alcoholism [ 74 75 ] have been
+          reported.
         
       
       
         Results
         
-          Patients
-          Patient characteristics in the validation sample were
-          similar to those described in the Silber model [ 1 ] ,
-          except for the distribution of patients with positive
-          nodes (Table 1). In Silber's patient sample, one-third of
-          the patients were treated with the less myelosuppressive
-          CMF (cyclophosphamide, methotrexate, fluorouracil)
-          chemotherapy regimen, and the CAF (cyclophosphamide,
-          doxorubicin, fluorouracil) regimen consisted of 30 mg/m
-          2compared with the 50 mg/m 2CAF regimen used in our
-          validation sample. The rate of neutropenic events was
-          markedly higher among the validation patients than in
-          patients in the Silber study (84% versus 47%).
+          Population distributions of RT, alerting and
+          executive scores
+          Table Isummarizes attention network scores and overall
+          reaction time (RT) for the subject population. The
+          distributions (not shown) for each endophenotype are
+          roughly bell shaped, symmetrical and show that
+          approximately 70 % of the variation lies within 1
+          standard deviation. This suggests that standard
+          parametric statistical tests are appropriate for
+          subsequent analysis. An examination of pair-wise
+          correlation coefficients for each network shows no
+          significant correlation between alerting and orienting or
+          executive attention and orienting, suggesting that these
+          attention networks are largely independent. Both alerting
+          and executive attention scores showed correlations with
+          mean reaction time (P < 0.05 and 0.01 respectively) as
+          well as a negative correlation with each other (r =
+          -0.18, P < 0.01). This negative correlation appears to
+          arise because with no warning the subjects are generally
+          slower to respond and some conflict resolution may occur
+          during the longer overall RT. To reduce the potential
+          confounding effect of overall RT, raw attention network
+          scores were divided by overall RT and resulting ratio
+          scores were used in the genetic analysis.
+          Since the ANT relies on RT measurements, it is
+          important to consider how non-genetic factors such as age
+          and intrinsic factors such as speed accuracy trade-offs
+          might potentially contribute to overall variation before
+          proceeding to draw genetic inferences. Previous studies
+          have demonstrated the overall slowing of reaction times
+          in aged subjects [ 76 ] . The mean population age here 28
+          ± 10 years is well below an aged range and no correlation
+          was observed between age and reaction time (data not
+          shown). Speed accuracy trade-offs constitute another
+          potential confound. If a subject responds too quickly,
+          more errors are likely to be committed. On the other
+          hand, the same subject may intentionally slow down to
+          reduce errors and overall reaction times will be higher.
+          Traditionally, this phenomena is addressed by the use of 
+          d' as a dependent variable. In the
+          study here, accuracy rates were high for all conditions
+          (0.96-1.0) permitting the use of RT's and corresponding
+          ratio scores. Lastly, it is also possible that gender
+          differences exist in overall RT. The population was
+          composed of males (40 %) and females (60%) and no
+          significant sex differences (as judged by t-test) were
+          seen for overall reaction time, alerting and executive
+          attention.
         
         
-          Outcome definition
-          The cross-validation of the Silber logistic regression
-          model applied to our data produced a 
-          C -statistic of 0.78. The
-          receiver-operating-characteristic curve for this analysis
-          (Fig. 1) can be compared with the
-          receiver-operating-characteristic curve from the original
-          Silber model and an MDACC data-fitted model. The
-          predictions obtained from the model for this independent
-          set of patients confirm the validity of the Silber model.
-          As occurs typically, the predictive power is not as high
-          in a cross-validation as in the original model
-          development ( 
-          C = 0.83 in the Silber model), but
-          the cross-validation 
-          C -statistic is strong evidence for
-          the usefulness of the model. The cross-validation optimal
-          sensitivity and specificity rates (obtained for a cutoff
-          probability of 0.45) were 66.6% and 73.3%,
-          respectively.
-          The model fitted to the MDACC data (Table 2) confirms
-          the significance of the first-cycle nadir ANC effect ( 
-          P < 0.0001). It was the only
-          significant predictor of subsequent neutropenic events
-          among those available in the validation sample, including
-          age, menopausal status, receptor status, previous
-          radiotherapy, and first-cycle hemoglobin decrease. The
-          decrease in hemoglobin concentration from baseline to
-          first-cycle nadir was only borderline significant ( 
-          P = 0.0686). These results suggest
-          that the first-cycle nadir ANC is an excellent predictor
-          of neutropenic events in subsequent cycles. Model
-          discrimination, as measured by the 
-          C -statistic (or the area under the
-          receiver-operating-characteristic curve), was similar in
-          the original Silber and validation studies (0.83 versus
-          0.78). Figure 1compares the
-          receiver-operating-characteristic curves for the Silber
-          and validation models. As with the Silber model, the
-          validation model was well calibrated throughout the
-          entire range of probabilities, as assessed by the
-          nonsignificant Hosmer-Lemeshow statistic.
-          The MDACC model also confirms the magnitude of the
-          effect. The estimated odds ratio of 4.8 for a unit (1.0 ×
-          10 9/liter) decrease in first-cycle nadir ANC is not
-          significantly different from 4.4 in the Silber study. An
-          asymptotic 
-          z -test for the comparison of the
-          estimated regression coefficients has a 
-          P value of 0.91. Estimates of
-          first-cycle hemoglobin decrease effects were almost
-          identical across models.
-          Model-derived point estimates for the probability of
-          subsequent neutropenic events as a function of
-          first-cycle nadir ANC and an average first-cycle decrease
-          in hemoglobin concentration are presented in Fig. 2. The
-          higher level of the estimated probability curve for the
-          MDACC sample might be due to the higher myelotoxicity of
-          the CAF regimen used in the validation sample. The
-          observed proportions of patients who experienced febrile
-          neutropenia and received 85% or less of the planned dose
-          intensity in the MDACC study are presented in Figs 3and
-          4by first-cycle nadir ANC. The association of the ANC at
-          first-cycle nadir with each of the outcomes is evident. A
-          significantly higher percentage of patients with a
-          first-cycle nadir ANC of 0.25 × 10 9/liter or less
-          experienced febrile neutropenia (30% versus 10%, 
-          P = 0.04) and received 85% or less
-          of the planned dose intensity (55% versus 32%, 
-          P = 0.05).
+          DRD4
+          Genotypic analysis of the DRD4 gene showed that the
+          exon III 48-bp repeat allele was present at frequencies
+          of 0.10 (2-repeat), 0.72 (4-repeat) and 0.14 (7-repeat).
+          Other rare variants were also present but not included in
+          the analysis. The 120-bp repeat alleles were present at
+          frequencies of 0.73 (long) and 0.27 (short) and the C/T
+          SNP at -521 was present at frequencies of 0.43 and 0.57,
+          respectively. Chi-square analyses of observed and
+          expected frequencies of each genotypic class showed no
+          linkage disequilibrium between the exon III 7-repeat and
+          the -521 site or the 120 bp repeat polymorphism. The lack
+          of disequilibrium between these sites and the 7-repeat
+          has been observed previously [ 34 69 ] . The distribution
+          of alerting score, executive attention score and overall
+          reaction time as a function of each genotypic class were
+          examined by ANOVA, linear regression and non-linear
+          regression analysis. Each polymorphism was considered
+          independently under a model where alleles were treated as
+          additive (AA vs. AB vs. BB) and also as dominant (AA vs.
+          (AB + BB)). The 120-bp repeat showed no significant
+          association with any attention network score or overall
+          reaction time. The C/T SNP at -521 showed an additive
+          influence on executive attention as shown in Figure
+          1Bwhere the mean executive attention scores of the C/C
+          and T/T genotypic classes showed a nominally significant
+          difference (P = 0.06). The exon III VNTR was also
+          examined in this manner. In this case, each genotypic
+          class of repeats (2/2, 2/4, 4/4, 4/7, 7/7) were treated
+          independently. No significant associations between
+          genotypic classes and attention network scores nor
+          overall reaction time were observed. Each genotypic class
+          was also grouped into various larger classes (2-present
+          vs. 2-absent etc.). The results for one such grouping are
+          shown in Figure 1A. A t-test for equality of means (equal
+          variances not assumed) shows that those subjects carrying
+          a 4-repeat show significantly (P = 0.004) higher
+          executive attention scores than the 2,2 and 7,7 classes
+          combined. Univariate linear regression of genotypes shows
+          that DRD4 exon III genotypic variation contributes 3.9%
+          (R-squared value) to the overall variation in executive
+          attention score.
+        
+        
+          COMT
+          The Methionine alleles were present at a frequency of
+          0.39. No statistical trends or effects for overall
+          reaction time or alerting were found. As shown in Figure
+          2A, a modest statistical trend toward additively higher
+          executive attention scores was seen, and a post-hoc
+          analysis shows that the 2 homozygous classes (Val/Val and
+          Met/Met) show only slightly different executive attention
+          scores (P < 0.1). Prior reports of sex differences in
+          COMT expression in humans [ 77 ] as well as effects of
+          gender on behavior in COMT loss-of-function mouse models
+          [ 78 ] and reports of preferential transmission of the
+          low activity Methionine alleles in females with OCD [ 79
+          ] suggested that gender could interact with ANT
+          performance. When males and females were analyzed as
+          independent populations, no significant associations were
+          seen for overall reaction time or any of the network
+          scores for either males or females. Females homozygous
+          for the low activity Methionine allele did however, show
+          the highest executive attention scores among all (Sex ×
+          Genotypic) classes.
+        
+        
+          DAT1
+          The 10-repeat allele was present at a frequency of
+          0.75 and the 9-repeat allele at 0.23. As shown in Figure
+          2B, subjects homozygous for the rare 9-repeat allele
+          showed modestly lower score than the pooled scores for
+          the more common 10-repeat homozygotes and 9/10
+          heterozygotes. No trends were seen for accuracy, mean RT
+          and/or the efficiency of alerting.
+        
+        
+          MAOA
+          Genotypes obtained at the promoter repeat (LPR)
+          polymorphism showed frequencies of 0.42 (3-repeat) and
+          0.53 (4-repeat) and genoptypes at the C1460T polymorphism
+          showed frequencies of 0.55 (C allele) and 0.45 (T
+          allele). Since MAOA is located on the X-chromosome, males
+          are genetically hemizygous and females are functionally
+          hemizygous due to random X-inactivation. For this reason,
+          heterozygous females were excluded from the analysis.
+          This permitted a comparison of hemizygous male and
+          homozygous female 3-repeat vs. 4-repeat classes only. No
+          significant main effect or trend was observed for either
+          MAOA polymorphism and overall reaction time. As shown in
+          Figure 3A, the MAO-LPR showed a significant influence on
+          alerting (P < 0.01) and on executive attention (P <
+          0.05) as seen in Figure 3B. The C1460T polymorphism
+          showed no significant association with alerting, but
+          shows a modest association with executive attention (P
+          < 0.05). When the executive attention scores for
+          subjects carrying the C1460T (T), LPR (3-repeat)
+          haplotype were compared with executive attention scores
+          for subjects carrying the C1460T (C), LPR (4-repeat)
+          haplotype, modestly significant differences (P = 0.03)
+          were observed. This haplotype accounted for approximately
+          2% of the total variation.
+        
+        
+          Comparison of 'high' vs. 'low' dopamine
+          alleles
+          Previous biochemical studies on MAO and COMT have
+          shown that the COMT Valine isoforms have 4-fold higher
+          levels of enzymatic activity than the Methionine isoform.
+          Biochemical studies on the MAO-LPR promoter repeat have
+          shown that the 4-repeat allele has 5-fold higher levels
+          of expression than the 3-repeat allele. This biochemical
+          evidence permits a noninvasive inference of relative
+          dopamine levels among subjects. In order to assess the
+          role of dopamine on executive attention network
+          efficiency, it would be useful to compare the
+          distributions of executive attention scores for these 2
+          polymorphisms and ask whether those individuals who are
+          expected to have higher levels of dopamine (COMT
+          Methionine and MAOA 3-repeat) show differences in
+          executive attention when compared to those individuals
+          with lower levels of dopamine. Figure 4shows the
+          distributions for 30 subjects who carry the (Val/Val and
+          4/4) genotype and 20 subjects who carry the (Met/Met and
+          3/3) genotypes at COMT and MAOA respectively. A post-hoc
+          analysis showed that the difference in efficiency between
+          these subjects is highly significant (P = 0.0002) and
+          that this particular combination of alleles contributes
+          3.9% to the overall variation. No significant differences
+          were found between either the extreme 'high' or 'low'
+          genotypic classes and each of the numerous heterozygous
+          and compound heterozygous genotypic classes whose mean
+          efficiency values fell within the extremes (data not
+          shown).
         
       
       
         Discussion
-        Several retrospective analyses [ 1 2 ] using a variety
-        of chemotherapies have consistently resulted in first-cycle
-        nadir ANC as a primary predictor of neutropenia-related
-        events in patients with breast cancer. Here we confirm the
-        results obtained in the previous analyses by Silber and
-        colleagues [ 1 ] , which is important because the data used
-        in this study come from a prospective clinical trial,
-        whereas the other data sets were collected from patient
-        charts in an uncontrolled environment. The data in this
-        study represent a homogenous population receiving
-        standardized chemotherapy, and the collection procedures
-        ensure high-quality data. The cross-validation analysis
-        showed that the original predictive model successfully
-        classified patients by their risk of neutropenic event. The
-        model fitted to the validation data results in the same
-        specification and similar variable coefficient magnitudes
-        to those in the original model.
-        Our model differs somewhat from the Silber model. First,
-        the impact of the change in hemoglobin concentration is
-        significant in the Silber model and not significant in this
-        data set, although the magnitude of the effect is similar
-        in both models. We do not believe that hemoglobin
-        concentrations have a direct impact on neutropenic
-        complications; however, low hemoglobin concentrations
-        probably provide further indication of bone marrow
-        depletion. It is possible that the impact of change in
-        hemoglobin concentration in the models will vary by
-        chemotherapy regimen.
-        On the basis of the cumulated published evidence, the
-        model seems to be robust. The model was tested in several
-        chemotherapy regimens and in various clinical environments.
-        It seems that the model's specification and the magnitude
-        of the coefficient's effect is consistent across
-        chemotherapy regimens. The inclination is to consider the
-        implementation of this model prospectively. Before such a
-        step is undertaken, some issues need to be discussed to
-        improve our understanding of the model's limitation and its
-        usefulness.
-        The major challenge to the model's prospective
-        implementation is the uncertainty that a greater dose
-        intensity would result in clinical benefit, such as
-        survival. Although it is not within the scope of this study
-        to answer this important question, it should be emphasized
-        that the model provides some other distinctive and
-        practical benefits. Successful application of the model
-        will clearly define the patient group that should not
-        receive growth-factor support and who can receive the full
-        dose on time without a risk of complications. The ability
-        to define the population that does not require growth
-        factors on the basis of a quantitative clinical indicator
-        has an immediate benefit to the patients and the health
-        care system: it diverts resources from patients who will
-        not benefit to those who will. The second benefit is the
-        potential to reduce the morbidity due to febrile
-        neutropenia from the high-risk group by providing these
-        patients with growth-factor support before any clinical
-        complications occur. The third benefit is learning the
-        relationship between high dose intensity and survival on
-        the basis of planned dose and not actual delivered dose.
-        Implementation of a risk model can provide better data by
-        making the planned dose closer to the delivered dose, and
-        the impact of dose can be measured more accurately.
-        Additional objections to the model relate to the
-        definition of a neutropenic complication, in particular
-        dose delays and dose reductions. Dose delays and dose
-        reductions are events that occur as a result of a clinical
-        decision and not a measured biological variable such as
-        neutropenia based on ANC. It could be argued that these
-        decisions are not necessarily objective, reflecting the
-        practice pattern of individual physicians, and cannot be
-        part of the definition of a neutropenic complication. In
-        this context it is important to remember that the purpose
-        of the model is to identify patients at risk. A physician
-        who delays or reduces the dose of chemotherapy has decided
-        that the patient is at risk. Moreover, once it is decided
-        to reduce or delay the dose, there is no way of knowing the
-        rate of neutropenia or febrile neutropenia if the full dose
-        of chemotherapy had been delivered. Therefore, including
-        these events in the definition of a neutropenic
-        complication seems justified, especially if the goal is to
-        minimize harm to the patients. Admittedly, this methodology
-        might result in an overestimation of the number of patients
-        at risk.
-        Although the model seems to be robust and potentially
-        useful, it does not answer the following two major
-        questions. If patients were stratified by their risk for
-        neutropenic complications and provided with growth-factor
-        support, would the dose intensity delivered increase and by
-        how much? Would the rate of neutropenic complications
-        increase because of the higher chemotherapy dose delivered?
-        To answer these questions decisively, the model needs to be
-        implemented prospectively.
+        
+          Recommendations for molecular genetic studies on
+          the ANT
+          The ANT is freely available for public download [ 87 ]
+          . For investigators who wish to probe the genetic basis
+          of executive attention, this study highlights many design
+          and implementation issues. Firstly, it is evident that
+          individual polymorphisms exert extremely weak main
+          effects. The results of this study show that a population
+          of even 200 subjects lacks the needed statistical power
+          since the modest statistical associations are well below
+          the standards set for the reporting of true association [
+          88 ] . In order to adhere strictly to these guidelines,
+          power estimates suggest that N = 600 subjects will be
+          needed to reach these criteria for genetic studies of
+          executive attention using the ANT. Other statistical
+          approaches such as non-linear models or non-parametic
+          tests may prove to be more sensitive when examining
+          single polymorphisms or multiple polymorphic sites within
+          a gene. Lastly, caution should be used when interpreting
+          genetic association data on single polymorphisms since
+          spurious associations may arise due to linkage
+          disequilibrium at closely linked genetic loci. One
+          encouraging aspect of this study however, is the finding
+          that no associations or statistical trends were observed
+          for global measures of performance such as overall
+          reaction time. This suggests that there may be
+          specificity in the role of genetic factors in
+          contributing to specific neural functions.
+        
       
       
         Conclusions
-        The first step toward the prospective implementation of
-        the model has been performed and is reported by Rivera and
-        colleagues [ 14 ] . Additional prospective studies on
-        different regimens and different cancer types would be
-        required to establish the utility and feasibility of this
-        model. Such an effort carries with it the promise that
-        clinical criteria would be used to deliver appropriate care
-        to patients with cancer and would maximize the potential
-        benefit from chemotherapy while possibly minimizing the
-        burden on patients and their caregivers and families.
+        Modest statistical associations of variation in
+        executive attention were observed with genetic
+        polymorphisms in candidate genes that affect dopaminergic
+        signalling. These associations were not seen for global
+        measures of performance such as reaction time, but rather
+        for the efficiency of specific, anatomically characterised
+        neural networks. This suggests that the ANT is a suitable
+        endophenotypic assay for further large scale studies on the
+        genetics of executive attention.
       
       
-        Competing interests
-        MHE is an employee of Amgen Inc., the manufacturer of
-        filgrastim, and owns Amgen stocks and stock options. MF is
-        a consultant to Amgen Inc. ER, DF, and GH have no competing
-        interests.
+        Methods
+        
+          Subjects
+          Subjects were recruited in the vicinity of New York
+          Hospital via newspaper advertisement. 25 subjects who
+          were recruited from the vicinity of Peking University and
+          participated in a previous heritability study were also
+          included. Paid volunteers traveled to the Department of
+          Psychiatry to undergo a pre-test interview. Subjects with
+          a history of psychopathology and/or taking medication
+          were excluded. A total of 220 adult subjects, ages 18-50
+          years old met inclusion criteria. All participants
+          reported normal or corrected to normal vision. While
+          smoking preference was recorded, only 2 subjects reported
+          smoking regularly.
+        
+        
+          Behavioral data
+          The ANT was performed as previously described [ 1 ] .
+          Briefly, participants viewed the stimuli and responses
+          were collected via two mouse buttons. Stimuli consisted
+          of a row of 5 visually presented horizontal black lines,
+          with arrowheads pointing leftward or rightward, against a
+          gray background where the target was a leftward or
+          rightward arrowhead at the center. This target was
+          flanked on either side by two arrows in the same
+          direction (congruent condition), or in the opposite
+          direction (incongruent condition), or by lines (neutral
+          condition).
+          The participants' task was to identify the direction
+          of the centrally presented arrow by pressing one button
+          for the left direction and a second button for the right
+          direction. Cues consisted of a 100 msec asterisk
+          presented 400 msec before the target. There were four cue
+          conditions: (1) no-cue, participants were shown a cross
+          which was the same as the first fixation for 100 ms; (2)
+          central-cue, which was at the central fixation point; (3)
+          double-cue, in which cues were presented on the two
+          possible target locations simultaneously (both above and
+          below the fixation point); and (4) spatial-cue, cue was
+          presented right on the target location (either above,
+          below the central fixation point).
+          A session consisted of a 24-trial practice block and
+          three experimental blocks of trials. Each experimental
+          block consisted of 96 trials (12 conditions: 4 warning
+          levels × 2 target locations × 2 target directions × 3
+          congruency conditions, with2 repetitions). The
+          presentation of trials was in a random order.
+          Participants were instructed to focus on a centrally
+          located fixation cross throughout the task, and to
+          response as fast, also as accurately as possible.
+        
+        
+          Calculation of attention network
+          efficiencies
+          Values for attention network efficiency were
+          calculated from the raw reaction time data as previously
+          described. Medians were calculated for each test
+          conditions (4 cue levels by 3 target levels, 12
+          conditions in total) to avoid the influence of the
+          outliers. The alerting effect was calculated by
+          subtracting the mean RT of the conditions with double cue
+          from the mean RT of the conditions with no cue. Since
+          neither of these conditions provides information on the
+          spatial location of the target, the subtraction gives a
+          pure measure of alerting. The orienting effect was
+          calculated by subtracting the mean RT of the conditions
+          with spatial (up/down) cue from the mean RT of the
+          conditions with center cue. In both conditions the
+          subject is alert but only the spatial cue provided
+          spatial information on where to orient. The executive
+          effect was calculated by subtracting the mean RT of
+          congruent conditions from the mean RT of incongruent
+          conditions.
+        
+        
+          Genetic sample collection and genotyping
+          methods
+          Buccal swabs were obtained via buccal cell brush from
+          consenting subjects and prepared as directed by the
+          manufacturer. We used the MasterAMP ™ Buccal Swab DNA
+          Extraction Kit (Epicentre Technologies, Madison, WI).
+          Yields range from 0.5 to 3 μg of DNA from each buccal
+          sample. Yields were determined spectrophotometrically by
+          absorbance at 260 nm. Taq polymerase, PCR buffer and
+          dNTPs were obtained from QIAGEN and used at recommended
+          concentrations for a 20 ul PCR reaction. PCR reactions
+          and restriction digests (PCR-RFLP) are optimized for each
+          marker and performed on the PTC-100 Programmable Thermal
+          Controller (MJ Research) outfitted with a heated lid for
+          oil-free amplifications. For most markers, a 'touchdown'
+          PCR cycling regimen and the addition of DMSO (10% final
+          v:v) was used in order to automatically optimize the
+          hybridization stringency. Gel electrophoresis in either
+          LE or Metaphor agarose followed by staining in ethidium
+          bromide was used to resolve and visualise DNA
+          fragments.
+          For genotyping of the DRD4 exon III VNTR, primers were
+          used at 200 uM and were designed as described in [ 40 ] .
+          Forward: 5'-GCGACTACGTGGTCTACTCG-3'; Reverse:
+          5'-AGGACCCTCATGGCCTTG-3'. Many investigators have noted
+          difficulties in obtaining reliable and specific
+          amplification of this polymorphism when using template
+          DNA from buccal swabs. We substituted Q-solution (QIAGEN)
+          and an optimized 'touchdown' thermocycling regime to
+          achieve reliable and robust amplification. For genotyping
+          of the DRD4 120-bp tandem duplication upstream of the
+          start-codon as described in [ 89 ] , we used Forward:
+          5'-GTTGTCTGTCTTTTCTCATTGTTTCCATTG-3' Reverse
+          5'-GAAGGAGCAGGCACCGTGAGC-3' primers. For genotyping of
+          the DRD4 C to T change at position -521 as described in [
+          34 ] . Forward: 5'-CGGGGGCTGAGCACCAGAGGCTGCT-3' and
+          Reverse 5'-GCATCGACGCCAGCGCCATCCTACC-3' were used
+          followed by digestion with FspI. For genotyping of the
+          DAT1 40 bp-repeat (VNTR) polymorphism in the 3
+          untranslated region as described in [ 90 ] , Forward:
+          5'-TGTGGTGTAGGGAACGGCCTGAG-3' Reverse
+          5'-CTTCCTGGAGGTCACGGCTCAAGG-3' primers were used. For
+          genotyping of the COMT Val to Met change at position 108
+          as described in [ 91 ] , Forward:
+          5'-ACTGTGGCTACTCAGCTGTG-3' and Reverse
+          5'-CCTTTTTCCAGGTCTGACAA-3' primers were used followed by
+          restriction digestion with NlaIII. For genotyping of the
+          MAOA 30-bp repeat in promotor as described (Sabol et al,
+          1998), Forward: 5'-ACAGCCTGACCGTGGAGAAG-3' and Reverse
+          5'-GAACGGACGCTCCATTCGGA-3' primers were used. The C to T
+          change at poition 1460 in exon 14 was genotyped according
+          to [ 92 ] . Forward: 5'-TTAAATGGTCTCGGGAAGG-3' and
+          Reverse 5'-GCCCAATGACACAGCCTTT-3' primers were used
+          followed by digestion with EcoRV.
+        
+        
+          Statistical analysis of genetic vs. behavioral
+          variation
+          Attention network scores were calculated using MS
+          Excel. In order to perform genotype by network score
+          associations, biallelic loci were assigned a '1' for A/A
+          homozygotes, a '2' for A/B heterozygotes and a '3' for
+          B/B heterozygotes. SPSS was used to perform one-way
+          ANOVAs and 2-tailed t-tests where genotype was considered
+          an independent variable. Dominant effects were assessed
+          by grouping genotypic classes. Based on earlier analyses
+          of the small effect size of the DRD4 exon III VNTR
+          polymorphism, we estimated statistical power for
+          genotypic associations for different sample sizes and the
+          allele frequencies 4-present and 4-absent (0.7 and 0.3
+          respectively). A minimum significance level for type I
+          errors (alpha) of P < 0.0001 is based on the
+          recommendations of Lander and Kruglyak [ 88 ] . Using a
+          computer-based power determination algorithm, a minimum
+          sample size of N = 600 is required to achieve a power of
+          95%. A power of 80% was estimated for the current sample
+          size. Linkage disequilibrium between pairs of alleles was
+          determined using the method of Weir [ 93 ] . In this
+          method, allele frequencies were compared to expected
+          genotypic frequencies via chi-square analysis with a null
+          hypothesis of no disequilibrium.
+        
       
       
-        Abbreviations
-        ANC = absolute neutrophil count; CAF = chemotherapy with
-        cyclophosphamide, doxorubicin, fluorouracil; MDACC = MD
-        Anderson Cancer Center.
+        Authors' contributions
+        John Fossella and Tobias Sommer and Yanhong Wu were
+        responsible for the collection of the behavioral data and
+        genotyping. Jin Fan, James Swanson, Donald Pfaff and
+        Michael Posner were responsible for the development and
+        implementation of the ANT.
       
     
   

@@ -2,501 +2,673 @@
   
     
       
-        Introduction
-        Osteoclasts are large, multinucleated bone-resorbing
-        cells derived from the monocyte-macrophage lineage [ 1 ] .
-        Their bone-resorbing capacity is unique; no other cell
-        shares this capability. Osteoclasts are critical for both
-        the continuous remodeling of normal bone tissue as well as
-        the repair of fractured bones [ 2 ] . During normal bone
-        remodeling, osteoclast-mediated bone resorption is balanced
-        by osteoblast-mediated bone formation, resulting in the
-        maintenance of skeletal bone mass. As a consequence,
-        osteoclast dysregulation leads to osteoporosis (decreased
-        bone mass caused by excess osteoclast activity) or to
-        osteopetrosis (increased bone mass caused by insufficient
-        osteoclast activity). Considering the tremendous morbidity
-        and cost of metabolic bone diseases [ 3 ] , improving our
-        molecular understanding of osteoclast development and
-        function is critical towards the design of therapies to
-        combat these prevalent diseases.
-        The molecular signals required for osteoclastogenesis
-        have recently been elucidated [ 1 4 5 ] .
-        Receptor-activator of NFκB ligand (RANKL), a tumor necrosis
-        factor superfamily ligand expressed by stromal cells,
-        osteoblasts, and activated T cells, binds to its cognate
-        receptor-activator of NFκB (RANK) receptor on
-        macrophages/monocytes, inducing a signal that gradually
-        transforms the macrophages into osteoclasts over a period
-        of several days [ 6 7 ] . While this interaction occurs
-        largely in the bone microenvironment, it has been shown
-        that monocytes from the spleen, peripheral blood, and
-        synovium are all capable of RANKL-dependent osteoclast
-        formation [ 8 ] . Convincing evidence has been generated
-        indicating that the RANK-RANKL interaction is absolutely
-        required for osteoclastogenesis [ 7 ] ; in the absence of
-        these molecules, osteoclastogenesis cannot occur [ 9 ]
-        .
-        While the RANK-RANKL signal is absolutely required for
-        osteoclastogenesis, the efficiency of this process is
-        influenced by cytokines. The proinflammatory cytokines
-        tumor necrosis factor alpha, IL-1, and IL-6 augment
-        osteoclastogenesis [ 9 10 11 ] , while IL-10, IL-12, IL-18,
-        and IFN-γ antagonize osteoclastogenesis 
-        in vitro [ 12 13 14 15 ] . It is
-        probable that cytokines play a vital role in the delicate
-        balance of bone remodeling, and that therapies based upon
-        their natural biological function can be designed.
-        IFN-γ is a cytokine secreted primarily by activated T
-        cells and NK cells whose role in bone biology is only
-        beginning to be clarified. It was originally characterized
-        as a powerful macrophage activator that upregulated nitric
-        oxide (NO) production and MHC expression in macrophages [
-        16 ] . It has since been shown to stimulate antiviral and
-        antibacterial activities, to differentiate Th0 cells toward
-        Th1 fates, and to activate endothelial cells for leukocyte
-        adhesion (reviewed in [ 17 18 ] ).
-        With respect to osteoclast formation, IFN-γ is known to
-        potently inhibit RANKL-mediated osteoclastogenesis in both
-        spleen-derived macrophage cultures and bone marrow
-        coculture systems [ 19 20 21 ] . It has also been
-        demonstrated that mice defective in IFN-γ signaling have a
-        more rapid onset of arthritis and bone resorption compared
-        with wild-type mice, suggesting a protective role of IFN-γ
-        in early arthritis [ 21 22 ] .
-        There are situations, however, in which the
-        anti-osteoclastogenic effects of IFN-γ are not so clear.
-        While IFN-γ is not highly expressed in joints of patients
-        with rheumatoid arthritis, diseases such as erosive
-        tuberculoid leprosy [ 23 24 ] and psoriatic arthritis [ 25
-        ] are associated with high Th1 cytokines such as IFN-γ [ 26
-        ] . In these conditions, tissue destruction has been shown
-        to correlate with Th1-mediated immune responses and the
-        production of IFN-γ, indicating that osteoclastogenesis may
-        occur in the presence of elevated IFN-γ [ 27 ] .
-        Furthermore, several clinical studies have failed to
-        demonstrate efficacy of IFN-γ administration as an
-        anti-osteoclastogenic agent to prevent bone loss [ 28 29 30
-        ] . There seem to be situations in which IFN-γ does not act
-        as an anti-osteoclastogenic agent. In particular, IFN-γ has
-        been shown to be efficacious in the treatment of
-        osteoporosis in humans [ 31 ] .
-        In the present study, we demonstrate that early exposure
-        to RANKL renders osteoclast precursors resistant to the
-        effects of IFN-γ, including inhibition of
-        osteoclastogenesis. These effects were irreversible and not
-        caused by inhibition of proximal signaling at the level of
-        STAT1 or TRAF6, suggesting that resistance to IFN-γ is
-        caused by a complex differentiation program specifying the
-        osteoclast fate. These data may help explain the
-        contradictory findings regarding the effects of IFN-γ as an
-        inhibitor of osteoclastogenesis, and also suggest a model
-        of erosive disease in the presence of IFN-γ whereby
-        osteoclast precursors are exposed to RANKL before they
-        enter the IFN-γ-rich environment.
-      
-      
-        Materials and methods
-        
-          Cytokines and growth factors
-          Murine IFN-γ, macrophage colony-stimulating factor,
-          tumor necrosis factor alpha, IL-1, IL-10 and IL-6 were
-          obtained from R&D Systems (Minneapolis, USA).
-          GST-mRANKL was generated as described later. Human RANKL
-          was a gift from Immunex (Seattle, USA) and was used to
-          verify the efficiency of GST-RANKL protein as verified by
-          splenic osteoclast induction.
-        
-        
-          Cell culture and animals
-          The RAW264.7 mouse macrophage cell line was obtained
-          from ATCC (Manassas, USA) and grown in a humidified 5% CO
-          
-          2 environment at 37°C. Cultures were
-          maintained with DMEM (R&D Systems) supplemented with
-          10% fetal bovine serum and 1% penicillin/streptomycin.
-          RAW cell osteoclasts were generated by plating exactly
-          5000 RAW cells per well in a 96-well dish with 200 ng/ml
-          GST-RANKL or additional cytokines and culturing for 4-5
-          days. In some cultures, administration of IFN-γ was
-          delayed to allow for an early effect of RANKL.
-          Osteoclasts were large, multinucleated cells, and
-          expressed high levels of tartrate-resistant acid
-          phosphatase (TRAP). For western blots, RAW cells were
-          grown in six-well dishes at 100,000 cells/well with the
-          same cytokine treatments.
-          CBA/BL6 mice (Jackson Labs, Bar Harbor, USA) were
-          sacrificed at 6-8 weeks and spleens aseptically removed.
-          Splenocytes were mechanically dissociated by disruption
-          through steel mesh, and red blood cells were lysed using
-          a hypotonic ammonium chloride solution (82.9 g ammonium
-          chloride, 10 g potassium bicarbonate, 0.37 g EDTA, 1 l
-          sterile water for a 10× solution). The remaining white
-          cells were plated in 96-well plates at 200,000 cells/well
-          with 50 ng/ml murine macrophage colony-stimulating factor
-          (R&D Systems) to preferentially maintain monocyte
-          proliferation. Large, multinucleated, TRAP +osteoclasts
-          were generated by further addition of 200 ng/ml GST-RANKL
-          and culturing for 4-6 days. IFN-γ (10 ng/ml) was added on
-          various days in some cultures.
-        
-        
-          TRAP staining and quantitation
-          Cultures were stained with the osteoclast-specific
-          marker TRAP using a kit from Sigma (St Louis, USA). In
-          osteoclast precursors, RANKL induced increasing TRAP
-          expression until virtually 100% of mononuclear cells were
-          highly TRAP-positive. Fusion and multinucleation
-          subsequently occurred in proportion to the magnitude of
-          the RANKL stimulus.
-          Osteoclasts were counted using three equivalent
-          methods, optimized for the extent of osteoclastogenesis.
-          For extremely robust osteoclast cultures, manual tracing
-          and digital quantitation of a photographed osteoclast
-          area was the best measure due to extensive fusion and
-          multinucleation between cells (Fig. 1). Less robust
-          cultures with 80-150 osteoclasts per well were more
-          accurately quantitated by counting individual osteoclasts
-          (Fig. 2). For cultures utilizing lower levels of RANKL
-          and low osteoclast numbers, densitometric quantitation of
-          TRAP was a more sensitive measure of osteoclastogenesis
-          (Fig. 2d).
-        
-        
-          Purification of GST-RANKL
-          GST-RANKL was purified as described previously [ 32 ]
-          . Briefly, a fragment of murine RANKL cDNA was cloned
-          inframe into the pGEX-4T vector (Amersham Pharmacia,
-          Piscataway, USA) and expressed in BL21 bacteria (Amersham
-          Pharmacia) induced with 0.1 mM IPTG (Gibco) for 5 hours
-          at 30°C. Bacteria were lysed, and soluble proteins were
-          recovered using glutathione-agarose beads (Amersham
-          Pharmacia). Protein purity was assessed by SDS-PAGE with
-          Coomassie Blue by comparison with 99% pure BSA standards
-          (Sigma) and shown to of equivalent purity (Fig. 1a). The
-          bioactivity of GST-RANKL was verified by RAW cell
-          osteoclastogenesis and TRAP expression before
-          experimental use. A dose of 200 ng/ml GST-RANKL had
-          equivalent bioactivity to 100 ng/ml eukaryotically
-          expressed human RANKL protein (donated by Immunex).
-        
-        
-          NO measurement
-          NO production was measured by the Greiss reaction
-          (Promega, Madison, USA), which spectrophotometrically
-          detects nitrite, a stable breakdown product of NO whose
-          accumulation reflects NO production. RAW cells were
-          plated in 96-well plates, and were stimulated with
-          GST-RANKL (200 ng/ml) and/or IFN-γ (10 ng/ml). Cell
-          supernatants were harvested and reacted with 1%
-          sulfanilamide and 0.1% naphthyl-ethylenediamine. A
-          standard curve was constructed using dilutions of sodium
-          nitrite, and the absorbance was measured at 550 nm.
-          Similar data were obtained from protein-normalized data
-          to control for variation in cell number or
-          proliferation.
-        
-        
-          Western blotting
-          Cells were lysed with hypotonic lysis buffer with
-          protease inhibitors (Roche/Boehringer Mannheim,
-          Indianapolis, USA). Thirty micrograms of cytoplasmic
-          lysates or 20 μg nuclear lysates were loaded onto 12%
-          SDS-PAGE gels and immunoblotted using chemiluminescent
-          antibodies. Short exposures of blots were also performed
-          to verify that signals shown did not result from blot
-          overexposure. All antibodies were from Santa Cruz (Santa
-          Cruz, USA) except anti-actin, which was purchased from
-          Sigma.
-        
-        
-          Flow cytometry
-          After red blood cell lysis, a single cell suspension
-          was incubated with antimurine CD16/32 (Pharmingen, San
-          Diego, USA) to block Fc receptor-mediated antibody
-          binding. Cells were then labeled with
-          phycoerythrin-conjugated anti-CD11b antibodies
-          (Pharmingen) or fluorescein-conjugated RANKL (a gift from
-          M Tondravi, American Red Cross, Rockville, MD, USA) as
-          described previously [ 33 ] . Data were acquired using a
-          FACScalibur instrument (Beckton Dickenson, Bedford, MA,
-          USA) and were analyzed by Cellquest software (version
-          3.1, Beckton Dickenson). CD11b expression followed a
-          normal-type distribution in all groups indicative of one
-          population, and the mean fluorescent intensity was thus
-          the unit of measure. RANK staining indicated two
-          populations, and the relative size of the high RANK
-          expressing (RANKhi) population was thus expressed on a
-          percentage basis.
-        
+        Background
+        The results of life-detection experiments performed
+        almost three decades ago on Mars by the Viking lander have
+        long been subject to controversy [ 1 2 3 ] . Many
+        scientists, though certainly not all [ 3 4 ] , have
+        concluded that results of Viking biological experiments can
+        be interpreted as an indication of the presence of strong
+        oxidants in the Martian soil [ 5 6 7 ] , rather than
+        biological activity. They suggest that these oxidants are
+        capable of oxidizing organic materials causing release of
+        carbon dioxide as seen in the Viking experiments. Since
+        oxygen was also released after humidifying a sample of
+        Martian soil, these proposed oxidants would also oxidize
+        water. The spontaneous reduction of Ferrate(VI) in water
+        forms molecular oxygen and Fe(III) [ 8 ] . The rate of this
+        reaction is strongly pH dependent [ 9 ] . Other
+        observations by Viking have complicated data
+        interpretation, including the transient absorption of
+        generated carbon dioxide, perhaps indicating an alkaline
+        soil. Also, different thermal sensitivity of carbon dioxide
+        and oxygen released implied that more than one oxidant
+        might have been involved in the observed processes or that
+        biology might indeed have been responsible for the observed
+        results [ 3 ] .
+        Goldfield, et al. [ 5 ] and Tsapin, et al. [ 10 ]
+        suggested that the actual source of oxidative power of
+        Martian soil could be highly redox active oxygen species
+        formed in the atmosphere by ultraviolet (UV) irradiation,
+        and Hunten [ 11 ] examined this hypothesis much earlier.
+        Further, these oxidative equivalents may then be stabilized
+        in the form of high oxidation states of some elements that
+        are particularly abundant in Martian soil. The most likely
+        element is iron, which is thought to represent a major
+        fraction of the Martian soil matrix [ 12 13 ] . Iron has a
+        set of oxidation states between +2 and +6, with the higher
+        oxidation states being very strong oxidants. The reduction
+        potential of FeO 
+        4 2-in acidic conditions has been
+        determined to be 
+        E 0= +2.20 V and in alkaline
+        conditions 
+        E 0= +0.72 V [ 14 ] . Thus, these
+        authors [ 5 10 ] proposed that Fe(VI) as ferrate dianion
+        FeO 
+        4 2-, which is more stable under
+        alkaline rather than acidic conditions, might be an
+        important component of the pool of Martian oxidants. They
+        demonstrated that Fe(VI) displays the essential features of
+        organic oxidation to carbon dioxide and water decomposition
+        to oxygen that were found with Martian soil during the
+        Viking biology experiments. Goldfield, et al. [ 5 ] further
+        propose that the presence of a strong oxidant such as
+        ferrate would make the Martian surface self-sterilizing,
+        eliminating the possibility for detection of life, or its
+        remnants, on that planet. In support of their hypothesis,
+        they conducted spectral and polymerase chain reaction (PCR)
+        experiments with Fe(VI), finding that it destroys DNA,
+        nucleotides, proteins, and amino acids.
+        It is quite possible that iron in the +5 and/or +6
+        oxidation states is present in the soil of Mars. However,
+        recent observations by the Mars Odyssey orbiter indicate
+        that significant amounts of water ice exist at or near the
+        surface of Mars [ 15 ] . Since transient temperatures above
+        freezing occur at some locations on Mars [ 16 ] , this
+        water likely would be present at least briefly in the
+        liquid form. Under slightly alkaline conditions, as found
+        on Mars, and in the presence of liquid water, Fe(VI) reacts
+        quickly with water and is oxidized to Fe(III). Thus, in
+        regions where liquid water forms even briefly, Fe(VI) is
+        less likely to exist. However, Mars is a relatively large
+        planet, and conditions across its surface vary. We cannot
+        assume that iron exists in the same oxidation state(s)
+        everywhere on Mars. It is possible that some regions of
+        Mars might harbor Fe(V) and Fe(VI), while regions with a
+        frequent occurrence of liquid water might be dominated by
+        Fe(III). Also, it is possible the Fe(VI) if removed might
+        be reformed in a continuing cycle through interactions with
+        the planet's atmosphere.
+        Stoker and Bullock [ 17 ] examined the oxidation of
+        glycine under simulated Martian conditions and concluded
+        that any organic matter brought to the Mars surface by
+        meteorites likely would be destroyed by UV radiation faster
+        than it might be delivered. They further suggested that no
+        organic compounds found on Mars by the Viking Lander Gas
+        Chromatograph Mass Spectrometer experiment could be
+        explained without invoking the presence of strong oxidants
+        in the surface soils. They felt their estimates of the
+        organic destruction rate caused by irradiation at the Mars
+        surface were an upper limit for a globally averaged biomass
+        production rate that might be comparable to the
+        slow-growing cryptoendolithic microbial communities found
+        in dry Antarctica deserts [ 17 ] .
+        An alternative hypothesis is that given the possible
+        presence of ferrate in the soil, the present environmental
+        conditions on Mars are not highly conducive to
+        ferrate-based oxidation reactions, including those
+        potentially affecting dormant and
+        hostile-environment-resistant life forms. Mars is exposed
+        to high fluxes of UV radiation and is very dry (atmospheric
+        water = 210 ppm) and cold (average temperature is about 218
+        K, -55°C, -67°F) with only traces of oxygen and with an
+        atmosphere composed mostly of carbon dioxide (CO 
+        2 - 95.32%; N 
+        2 - 2.7%; Ar - 1.6%; O 
+        2 - 0.13%; CO - 0.08%; H 
+        2 O - 210 ppm; NO - 100 ppm; Ne - 2.5
+        ppm; HDO - 0.85 ppm; Kr - 0.3 ppm; and Xe - 0.08 ppm) [ 18
+        ] . Thus, in this work experiments were performed to
+        further examine the possibility that a Martian soil
+        containing significant amounts of ferrate might be
+        self-sterilizing due to the highly reactive nature of
+        Fe(VI).
+        Here synthetic K 
+        2 FeO 
+        4 was prepared and added to dry silica
+        sand at a concentration of 20% by weight. Dry endospores of
+        the bacterium 
+        Bacillus subtilis were then added and
+        the mixture incubated under a simulated Mars environment
+        (carbon dioxide atmosphere at -20°C) for a period of weeks.
+        Results were examined for indications of whether or not the
+        presence of ferrate in and of itself was sufficient to make
+        the Martian surrogate soil self-sterilizing over a
+        non-geologic time frame. The potential sporocidal activity
+        of a combination of a powerful soil oxidant (permanganate)
+        and high fluxes of UV light was also examined. Finally, our
+        data were discussed in light of published literature
+        regarding the possible survival of ancient bacteria in
+        earthly environments.
+        The United States and other spacefaring nations are
+        required by treaty to protect Mars and other non-earthly
+        planetary systems from contamination by earthly
+        microorganisms. From work reported here, it appears that
+        environmentally robust endospores, if delivered to Mars on
+        spacecraft, could survive for extended periods of time in
+        the cold, dry, preserving environment of Mars, despite the
+        presence of strong oxidants in the soil.
       
       
         Results
-        
-          IFN-γ potently and irreversibly inhibits
-          RANKL-induced osteoclastogenesis
-          To evaluate the effects of IFN-γ on
-          osteoclastogenesis, we utilized the mouse macrophage cell
-          line RAW264.7 (RAW cells) or splenic macrophages from
-          CBA/BL6 mice as osteoclast precursors. These cells have
-          been demonstrated to recapitulate critical aspects of
-          osteoclast formation and activity, including bone
-          resorption, expression of calcitonin receptor,
-          multinuclear fusion, and TRAP expression [ 6 34 ] .
-          A dose of 200 ng/ml RANKL generated numerous large,
-          multinucleated osteoclasts. Lower doses induced the
-          osteoclast-specific marker TRAP in mononuclear cells but
-          generated substantially fewer osteoclasts (Fig. 1a,1b). A
-          24-hour exposure to IFN-γ was sufficient to potently and
-          irreversibly inhibit osteoclastogenesis in the presence
-          of maximal doses of RANKL (Fig. 2). The exposure also
-          induced a stellate cellular morphology consistent with
-          that of an activated macrophage (Fig. 2). The rapid and
-          irreversible effects of IFN-γ on osteoclast inhibition
-          indicate a dominant effect of this cytokine over RANKL
-          via induction of monocyte differentiation toward the
-          activated macrophage fate, as opposed to the osteoclast
-          fate, when concomitantly administered.
-        
-        
-          RANKL-pretreated RAW cells are resistant to the
-          anti-osteoclastogenic effect of IFN-γ
-          The different kinetics between IFN-γ-mediated
-          macrophage activation (<24 hours) and RANKL-medicated
-          osteoclastogenesis (4-5 days) prompted us to investigate
-          the effects of IFN-γ on RANKL-pretreated cells (Fig. 3).
-          Pretreatment of RAW cells with RANKL for 48 hours
-          rendered them resistant to IFN-γ; these mononuclear cells
-          formed multinuclear osteoclasts despite the presence of
-          maximally inhibitory doses of IFN-γ (10 ng/ml).
-          To characterize this RANKL-mediated resistance to
-          IFN-γ, we performed a series of dose-response and time
-          course experiments. Pretreatment with lower doses of
-          RANKL was unable to overcome IFN-γ inhibition, indicating
-          that resistance to IFN-γ required high levels of RANKL
-          pretreatment (Fig. 4a,4b). The duration of RANKL
-          pretreatment was also important; the longer the
-          pretreatment phase, the greater the resistance to IFN-γ
-          (Fig. 4c). Together these data show that pretreatment
-          with RANKL increases resistance to IFN-γ-mediated
-          osteoclast inhibition in a dose-dependent and
-          time-dependent manner.
-          The mechanism by which IFN-γ and RANKL reciprocally
-          inhibit each other in pre-osteoclasts is independent of
-          TRAF-6 and STAT1 signal transduction. Since it is well
-          established that RANK signaling is mediated primarily
-          through TRAF6 [ 35 ] and that IFN-γ signaling is mediated
-          primarily through STAT1 [ 36 37 ] , we examined their
-          expression by western blot. We failed to observe
-          significant degradation of TRAF6 after stimulation with
-          IFN-γ or RANKL in short-term or long-term cultures (Fig.
-          5a,5b).
-          Interestingly, IFN-γ-induced STAT1 phosphorylation and
-          nuclear translocation was retained in pre-osteoclasts
-          (Fig. 5c). This result was confirmed by electrophoretic
-          mobility shift assays and the absence of detectable
-          amounts of the STAT1 antagonists SOCS1 and SOCS3 (data
-          not shown). These results show that late pre-osteoclasts
-          are capable of signaling via JAK-STAT1, and suggest that
-          signaling events distal to TRAF6 and STAT1 modulate the
-          resistance of these cells to IFN-γ.
-        
-        
-          RANKL pretreatment inhibits IFN-γ-induced
-          macrophage activation
-          We next investigated whether other IFN-γ effects
-          besides osteoclast inhibition were blunted in
-          RANKL-pretreated cells. IFN-γ-induced NO production in
-          macrophages was blunted in osteoclasts, probably due to
-          specialization for bone resorption in the latter
-          differentiated cell (Fig. 6). Pretreatment with RANKL
-          inhibited IFN-γ-induced NO production in a dose-dependent
-          and time-dependent manner (Fig. 6b,6c).
-          To expand these findings, we investigated the
-          regulation of the cell surface markers CD11b and RANK in
-          response to induction by RANKL and IFN-γ (Fig. 7). Both
-          markers were strongly upregulated by IFN-γ. Consistent
-          with our prior results, concomitant treatment of IFN-γ
-          and RANKL showed dominance of the IFN-γ upregulation,
-          while pretreatment with RANKL for 2 days showed impaired
-          upregulation. These data support the hypothesis that
-          sensitivity to IFN-γ decreases with increasing osteoclast
-          differentiation and that the mechanism by which RANKL and
-          IFN-γ reciprocally inhibit each other in pre-osteoclasts
-          is mediating the irreversible commitment into the
-          osteoclast or activated macrophage lineages.
-        
+        Under ambient environmental conditions, synthetic
+        ferrate(VI) degraded some organic molecules mixed into
+        sand. For example, five mg of ferrate removed about 10 mg
+        of 2,4,6-trinitrotoluene (TNT) from the reaction mixture
+        (Figure 1). However, a mixture of dodecane and hexadecane
+        was not degraded in the ferrate(VI)-soil mixture (Figure
+        2). The degradative activity toward TNT was dependent on
+        the addition of water. All the organic moieties were stable
+        in the dry sand-ferrate mixture.
+        Results of spore survival over time in the control and
+        ferrate(VI)-enriched or permanganate-enriched Mars
+        surrogate soils under simulated Martian environmental
+        conditions are shown in Figure 3. The endospores survived
+        exposure to high levels of ferrate under the imposed
+        conditions for the duration of the experiment (up to six
+        weeks). At the times of sampling, the surrogate soil
+        suspensions contained the characteristic crimson color of
+        ferrate(VI) (Figure 4) or similar color of permanganate.
+        After spreading on the agar medium, the ferrate present in
+        the inoculum was reduced over 30 minutes to give a
+        characteristic brown oxyhydroxy polymer precipitate of
+        Fe(III) residue on the plate surface, indicating that
+        ferrate(VI) was stable under the simulated Mars conditions
+        and had been available as a potential biocide for the
+        duration of the experiment. Spore survival was similarly
+        high in a surrogate soil containing permanganate in place
+        of ferrate. An important observation relevant to the Mars
+        environment was that transient exposure of spores to K 
+        2 FeO 
+        4 in the presence of liquid water was
+        not sporocidal. Once Fe(VI) is reduced to Fe(III), a rapid
+        process, it becomes non-toxic to the spores.
+        Spores placed into a dry permanganate-enriched surrogate
+        soil and exposed within a column to a sterilizing flux of
+        UV light at the column surface were killed within only the
+        first 5 mm of the column (Figure 5). This was in the
+        presence of air and at a temperature of 25°C.
       
       
         Discussion
-        The role of cellular immunity (Th1) in inflammatory bone
-        loss such as that seen in osteomyelitis and erosive
-        arthritis remains unclear. The resolution of this issue is
-        further clouded by the apparent contradictory findings that
-        IFN-γ is an extremely potent anti-osteoclastogenic factor [
-        38 ] but it can be found at high levels in sites of
-        osteolysis [ 39 ] . To reconcile this controversy we
-        performed a series of experiments aimed at understanding
-        how IFN-γ could induce either bactericidal effects via
-        macrophage activation or osteoclastic bone resorption, by
-        influencing the same progenitor cell in the same bone
-        environment.
-        We demonstrate that pre-osteoclasts stimulated with
-        RANKL for 2 days are rendered resistant to the IFN-γ
-        induced inhibition of osteoclastogenesis, NO production,
-        and upregulation of CD11b and RANK surface expression.
-        Surprisingly, this resistance is not mediated by inhibition
-        of the JAK-STAT1 pathway, as STAT1 phosphorylation, nuclear
-        translocation, and DNA-binding capabilities are all
-        preserved in the late pre-osteoclast. Together this
-        evidence suggests that RANKL modifies IFN-γ effects
-        downstream of STAT1.
-        The present results predict that timing of IFN-γ
-        exposure will be an important determinant of its biological
-        function during 
-        in vivo osteoclastogenesis. In the
-        case of circulating or peripheral macrophages that have not
-        encountered osteoclastogenic quantities of RANKL, IFN-γ
-        rapidly induces macrophage activation and subsequent NO
-        production, recruiting these cells for immune responses.
-        The dominance of IFN-γ over RANKL, which we observed 
-        in vitro (1 ng IFN-γ counteracts 200
-        ng RANKL when simultaneously administered), probably allows
-        this macrophage activation to occur even in the presence of
-        RANKL expressed on circulating, activated T cells [ 20 40 ]
-        . In the bone microenvironment, however, more abundant
-        RANKL produced by osteoblasts/stromal cells may influence
-        certain monocytes to commit to the osteoclast lineage [ 41
-        42 ] .
-        The present results predict that IFN-γ will not activate
-        these cells, as they have received an early RANKL signal.
-        The strength of the early RANKL signal may be altered in
-        the setting of inflammatory bone diseases such as
-        rheumatoid arthritis, in which high levels of RANKL
-        expressed on either synovial cells or infiltrating T cells
-        [ 43 44 ] may induce osteoclast formation despite the
-        presence of exogenous or endogenous IFN-γ.
-        The potency of IFN-γ as a macrophage activator and
-        osteoclast inhibitor suggests a prominent role for T cells
-        and/or NK cells in the regulation of bone resorption, as
-        these cells constitute the major source of IFN-γ [ 18 ] . A
-        link between activated T cells and osteoclast inhibition by
-        IFN-γ has been highlighted in a report by Takayanagi 
-        et al ., providing the first 
-        in vivo evidence that the immune
-        system may influence osteoclastogenesis [ 38 ] .
-        Interestingly, other groups have demonstrated that
-        activated T cells induce osteoclastogenesis via
-        upregulation of surface RANKL, presenting a dilemma
-        regarding the role of activated T cells in
-        osteoclastogenesis [ 20 40 45 ] .
-        It is possible that RANKL and IFN-γ expression by
-        activated T cells may be a major mechanism by which T cells
-        control the fate of osteoclasts, and that relative
-        expression of both molecules will dictate whether
-        osteoclasts are induced or inhibited. The present results
-        suggest that the influence of activated T cells on
-        osteoclasts will probably change depending on when and
-        where the T cells encounter the osteoclasts. Bone-resident
-        macrophages pre-exposed to RANKL in the stromal environment
-        may be resistant to the immunoregulatory effects of IFN-γ,
-        and may thus be better suited for bone-remodeling tasks. In
-        contrast, peripheral blood macrophages not exposed to RANKL
-        may be more responsive to the macrophage-activating
-        immunoregulatory effects of IFN-γ, and may thus be better
-        suited for antimicrobial activities.
-        The molecular mechanisms underlying the contrasting
-        effects of IFN-γ and RANKL remain elusive. Based on the
-        phenotype of knockout mice, it has become clear that TRAF6
-        is the critical adapter molecule required for RANK
-        signaling during osteoclastogenesis [ 35 ] . The importance
-        of TRAF6 has been further explored in deletion studies,
-        which correlated its various domains with its
-        osteoclastogenic potential [ 46 ] . A link between IFN-γ
-        and RANK signaling via TRAF6 has also been demonstrated in
-        bone marrow cultures, in which IFN-γ was shown to
-        accelerate the degradation of TRAF6 [ 38 ] . In our
-        studies, however, we failed to observe this TRAF6
-        degradation, as its expression remained constant in both
-        short-term and long-term cultures under conditions where
-        IFN-γ completely inhibited osteoclastogenesis. While this
-        discrepancy could be explained by the possibility that RAW
-        cells represent a stage of pre-osteoclast differentiation
-        that is not sensitive to IFN-γ-mediated TRAF6 degradation,
-        the present studies clearly indicate that IFN-γ can inhibit
-        osteoclastogenesis via a completely different
-        mechanism.
-        The retention of Jak-STAT1 signaling in RANKL-stimulated
-        pre-osteoclasts is intriguing, given their demonstrated
-        insensitivity to IFN-γ. Since it is known that osteoclasts
-        express IFN-γ receptors [ 47 48 ] , it begs the question as
-        to why this pathway remains operant. One possibility is
-        that IFN-γ-induced STAT1 activation in osteoclasts leads to
-        the expression of a unique set of genes that is distinct
-        from that in macrophages. Future studies designed to
-        understand IFN-γ signaling in mature osteoclasts are needed
-        to resolve this issue.
-        It is noteworthy to point out that the
-        dominant/irreversible inhibitory effects of IFN-γ on
-        osteoclastogenesis are fundamentally different to the
-        transient/reversible inhibitory effects of IL-4 on this
-        process, which are mediated by STAT6 inhibition of NFκB
-        activation [ 49 50 ] . In the present article, we
-        demonstrate that RANKL-induced osteoclastogenesis cannot be
-        recovered following exposure to IFN-γ. In contrast, Wei 
-        et al . have demonstrated that
-        pre-osteoclasts do not lose their potential to
-        differentiate into mature osteoclasts following a similar
-        exposure to IL-4 [ 50 ] . It thus appears that IFN-γ
-        anti-osteoclast activity is mediated by inducing terminal
-        differentiation away from the osteoclast lineage, while
-        IL-4 directly interferes with RANKL signaling during
-        osteoclastogenesis. Collectively, these findings are
-        consistent with the observations that Th1 cells are
-        associated with erosive disease [ 39 50 51 ] , that IFN-γ
-        does not have antiresorptive activity [ 52 53 54 ] , and
-        that IL-4 inhibits bone resorption [ 55 56 57 ] .
-        The present results underscore the importance of
-        developing a complete understanding of osteoclastogenesis 
-        in vivo with regard to location,
-        time, and the signal transduction pathways involved. It is
-        probable that signals such as IFN-γ will be interpreted
-        differently by precursors at various stages of development,
-        with consequent effects on disease. Future studies in this
-        area are needed to better understand how T cells producing
-        both IFN-γ and RANKL mediate immunity and bone resorption,
-        and to better elucidate their role in the pathogenesis of
-        diseases such as osteomyelitis and erosive arthritis.
+        Ferrate(VI) is a very strong oxidizing agent and will
+        readily oxidize many organic molecules in aqueous solution
+        [ 19 20 21 ] . High oxidation power selectivity and
+        by-production of non-toxic Fe(III) make potassium
+        ferrate(VI) an environmentally friendly oxidant for removal
+        of industrial contaminants from natural waters [ 22 ] . We
+        confirmed this degradative activity of ferrate using
+        2,4,6-trinitrotoluene (TNT), though a mixture of dodecane
+        and hexadecane, as might be found within microbial
+        membranes, was not degraded by ferrate(VI) (Figures 1and
+        2).
+        Fe(VI) is known to be highly active in water as a
+        biocide. For example, the kinetics of inactivation of a
+        bacteriophage by potassium ferrate was studied with the
+        F-specific RNA-coliphage Q beta. Inactivation in phosphate
+        buffer (pH 6, 7, and 8) containing ferrate was effective
+        and could be described by Hom's model [ 23 ] . The
+        effectiveness of ferrate(VI) in wastewater treatment has
+        been studied, and it exhibits a strong bactericidal effect
+        on both coliforms and total bacteria [ 24 ] . However, the
+        conditions used in those prior experiments with ferrate(VI)
+        do not at all mimic the conditions that might be
+        encountered on the surface or in the subsurface of much of
+        Mars, where there is thought to be essentially no available
+        water [ 15 ] , there is a highly oxidized atmosphere of
+        mostly CO 
+        2 , and average temperatures are very
+        low (typically -60 to -80°C, but sometimes reaching
+        temperatures near 0°C in areas of sunlight). These
+        Mars-like conditions were used in the experiments reported
+        here.
+        Certainly these conditions did not exactly duplicate the
+        Martian atmosphere, which would have required use of a
+        vacuum chamber. The pressure of CO 
+        2 used was much higher than on Mars.
+        However, since CO 
+        2 is unreactive, the higher pressure
+        should not have significantly affected the results. It is
+        of course possible that at very low CO 
+        2 pressures endospores might be more
+        sensitive to their environmental conditions than at one
+        atmosphere. This experiment will require a more
+        sophisticated apparatus than is presently available to us,
+        though we hope to obtain such equipment soon in order to
+        further examine this question.
+        It is likely that liquid water exists at least
+        transiently on the surface of some locations on Mars [ 16 ]
+        . Because of the high reactivity of ferrate with water,
+        especially under alkaline conditions, it is likely that
+        these locations on Mars contain iron mostly in the
+        non-toxic Fe(III)-oxyhydroxide state. Also, endospores were
+        not killed by transient exposure to ferrate in the presence
+        of water at room temperature. Thus, the transient
+        occurrence of liquid water in the soils of Mars is
+        insufficient reason to reject the general conclusion that
+        if ferrate is present in the soils of Mars, it probably is 
+        
+          not 
+         a sporocidal agent. In locations where other forms of
+        iron dominate, spores would be even more stable. However,
+        additional experiments looking at spore survival that
+        involve additions of small amounts of water (e.g., 1% w/w)
+        to a Mars surrogate, ferrate-enriched soil, with brief
+        fluxes of temperature between -80°C and about +5°C would be
+        useful to further address this question.
+        Though UV light is a potent biocide and is present at
+        high levels on the Mars surface, beneath the surface or
+        under objects such as rocks, even the natural high flux of
+        ultraviolet radiation on Mars will likely be greatly
+        attenuated. We tested this hypothesis, confirming that
+        spores are protected from the UV flux, even in the presence
+        of a strong soil oxidant (permanganate), by a few mm of
+        soil cover. The UV light, provided by a mercury vapor lamp,
+        was not filtered to exactly duplicate its passage through
+        the atmosphere of Mars, though this might be accomplished
+        with the appropriate apparatus (e.g., an irradiated vacuum
+        chamber). The intervening gas was normal air at about 21%
+        oxygen, 0.03% CO 
+        2 , and 78% N 
+        2 . This clearly did not filter enough
+        of the lethal wavelengths (e.g., 254 nm) to significantly
+        affect the strongly sporocidal quality of the light. On
+        Mars, however, the thinner atmosphere might allow better
+        passage of other shorter lethal wavelengths (e.g., around
+        200 nm) that might be filtered to some extent under the
+        conditions used here. However, the likely effect of the
+        difference in light wavelength filtration on Mars 
+        versus the experiments described here
+        would be the ultimate soil cover depth needed to protect
+        spores from UV damage, and this difference is likely not to
+        be very large (less than an order of magnitude). Also, some
+        endospores are considerably more UV-resistant than those we
+        employed [ 25 ] , and substitution of such spores likely
+        would have changed the results (survival vs. depth) to some
+        degree. The important observation is the demonstrated
+        protective effect of soil materials.
+        Earthly life forms can produce dormancy structures that
+        are highly resistant to adverse environmental conditions,
+        including the presence of chemical oxidants and ionizing
+        radiation, conditions that are thought to occur on Mars.
+        Bacterial endospores are a prime example of resistant
+        dormancy structures, and recent research indicates that
+        such dormant forms of bacteria can survive for even
+        millions of years, under appropriate conditions. Cano and
+        Borucki [ 26 ] revived a bacterial spore from the abdominal
+        contents of extinct bees preserved for 25 to 40 million
+        years in buried Dominican amber and cultured and identified
+        it. Greenblatt, et al. [ 27 ] reported successful culture
+        of bacteria from Israeli (Lebanese lode) amber dated at 120
+        million years old. Vreeland, et al. [ 28 ] reported the
+        isolation and growth of a previously unrecognized
+        spore-forming bacterium (a 
+        Bacillus species, designated 2-9-3)
+        from a brine inclusion within a 250 million-year-old salt
+        crystal from the Permian Salado Formation. Due to the
+        difficulty in absolutely excluding modern contamination as
+        sources of these isolates, these reports have been
+        controversial. However, to date these claims have not been
+        invalidated [ 29 ] . Thus, even studies of earthly systems
+        indicate that under environmental conditions possibly less
+        life preserving than those encountered on Mars, dormant
+        life forms may have survived on Earth for very long
+        periods, even of geological time scales. The most important
+        factor for such survival appears to be desiccation, a
+        defining characteristic of amber, earthly brines, and much
+        of the Mars environment. Though there apparently is water
+        in the soil of the polar regions of Mars (Mars Odyssey
+        mission observations), it is thought to be present as ice
+        and probably is not biologically available.
+        Little work has been done in the study of microbial
+        survival in the extraterrestrial environment. Horneck, et
+        al. [ 30 ] did observe survival of a significant fraction
+        of 
+        Bacillus subtilis spores after 11
+        months of exposure to the space environment on board the
+        European Retrievable Carrier (EURECA). They exposed spores
+        of 
+        Bacillus subtilis to space for about
+        two weeks in the BIOPAN facility of the European Space
+        Agency onboard the Russian Earth-orbiting FOTON satellite.
+        The spores were exposed under a variety of conditions: in
+        dry layers without any protecting agent; mixed with clay,
+        red sandstone, Martian analogue soil, or meteorite powder;
+        or in "artificial meteorites" (cubes filled with clay and
+        spores in naturally occurring concentrations). Unprotected
+        spores in layers open to space or behind a quartz window
+        were completely or nearly completely inactivated, and
+        similarly low survival was obtained behind a thin layer of
+        clay acting as an optical filter. Survival was increased by
+        five or more orders of magnitude when the spores in the dry
+        layer were directly mixed with powder of clay, rock, or
+        meteorites. Up to 100% survival was reached in soil
+        mixtures with spores comparable to the natural soil to
+        spore ratio. These data confirm the deleterious effects of
+        extraterrestrial solar UV radiation but also confirm that
+        thin layers of clay, rock, or meteorite can successfully
+        shield spores from UV damage if they are in direct contact
+        with the spores.
+        Mileikowsky, et al. [ 31 ] considered the probability of
+        natural transfer of viable microbes from Mars to Earth in
+        meteoroids ejected from Mars during the period 4 Ga BP to
+        the present and during the 700 Ma from Ga 4.5 to 3.8. They
+        used NASA's HZETRN transport code to calculate
+        probabilities, examining many variables potentially
+        affecting microbe survival. The species modeled used the
+        environmentally robust bacteria 
+        Bacillus subtilis (spore-former) and 
+        Deinococcus radiodurans (highly
+        radiation resistant). Their modeling suggested that if
+        microbes existed or exist on Mars, viable transfer to Earth
+        is not only possible but also highly probable, due to these
+        microbes' impressive resistance to the hazards of space
+        transfer and to the dense traffic of Martian meteorites
+        that have fallen to Earth since the dawn of our planetary
+        system.
       
       
-        Conclusion
-        We have demonstrated, using 
-        in vitro methods, that osteoclast
-        precursors exposed to RANKL for 1-2 days can be rendered
-        resistant to maximal osteoclast-inhibitory doses of IFN-γ.
-        These IFN-γ-resistant pre-osteoclasts produced low levels
-        of NO upon IFN-γ stimulation and were resistant to
-        IFN-γ-induced, Mac-1-induced and RANKL-induced surface
-        expression, suggesting a broad resistance to the cellular
-        effects of IFN-γ. The Jak-Stat1 pathway was intact in these
-        cells, indicating that downstream transcriptional events
-        are involved in the inhibition. These results imply a model
-        for arthritic joints in which macrophage precursors
-        entering an inflamed joint are exposed to RANKL and are
-        subsequently rendered resistant to the
-        anti-osteoclastogenic effects of IFN-γ expressed by
-        activated T cells in the synovium.
+        Conclusions
+        Here the hypothesis was examined that if the surface
+        soil of Mars contains significant amounts of ferrate(VI),
+        it will be self-sterilizing. Dried, but living dormant
+        endospores of 
+        Bacillus subtilis were incubated in a
+        Mars surrogate soil containing 20% by weight of K 
+        2 FeO 
+        4 . Incubation conditions similar to
+        those now on Mars (dry, cold, and a CO 
+        2 -enriched atmosphere) were used. Under
+        these conditions the endospores were not immediately killed
+        but in fact were resistant to inactivation by the
+        ferrate-enriched or permanganate-enriched soil (Figure 3).
+        Though some delay in colony formation compared to controls
+        was observed upon addition of water prior to plate
+        counting, the 
+        Bacillus spores survived both storage
+        in a ferrate-rich soil and the brief simultaneous presence
+        of ferrate and water during analysis. This simple
+        experiment indicates that ferrate does not necessarily
+        provide an environment that is self-sterilizing on
+        non-geological time scale.
+        It is possible that a thin coating of ferric hydroxide
+        on the surface of our ferrate crystals might have afforded
+        some protection to the spores from ferrate exposure since
+        small traces of water vapor might still have been present
+        despite our attempt to exclude it. However, this coating
+        would likely be only a few angstroms thick (ferrate was of
+        very high purity at > 99% pure) and probably was
+        insignificant compared to the overall amount of ferrate
+        present. This is supported by the observation that the
+        presence of an alternative strong oxidant that does not
+        have the potential for such a coating (permanganate
+        crystals at 20% w/w final concentration) also did not kill
+        the endospores supports this (Figure 3).
+        The finding that organic molecules were degraded only
+        after the addition of water to the soil also supports the
+        inactivity of ferrate under Mars conditions. Significant
+        amounts of liquid water are thus required for ferrate's
+        degradative or biocidal activities. Ferrate must be in
+        solution in order to act as an oxidant. Assuming the soil
+        of Mars contains about 1% by weight of water, mostly in the
+        form of ice [ 15 32 33 34 ] , complete thawing would fail
+        to approach the slurry conditions used here to accomplish
+        oxidation of TNT (30 mg surrogate soil + 60 mg liquid
+        water). Even these saturated conditions did not promote the
+        oxidation of hydrocarbons. The traces of water (~200 ppm)
+        in the Martian atmosphere [ 18 ] might also form thin
+        layers of rust on soil particles there, making the
+        surrogate soil system used here even more like the proposed
+        ferrate-enriched soil of Mars. The data (Figure 5) show
+        that below the immediate surface, high fluxes of UV
+        radiation in the presence of strong oxidants are attenuated
+        and are not sporocidal.
+        If dormancy structures similar to endospores were
+        produced at some point by life forms on Mars, data reported
+        here suggest they could still be present and viable. This
+        might actually be demonstrated, as in the surrogate soil
+        experiments described here, with Martian soil samples.
+        Rejuvenation experiments could be performed remotely 
+        in situ or in a contained laboratory
+        setting after return of samples to Earth. The first such
+        experiment in fact was essentially performed in the
+        original biology experiments aboard Viking, though the
+        results were inconclusive. The experiments need to be
+        repeated, with modifications based on all we have learned
+        in the succeeding years. There are now improved ways to
+        monitor microbial signatures and metabolic processes that
+        are indicative of life in soil [ 35 36 37 ] . The fact that
+        spores appear to survive for many decades and perhaps
+        hundreds of millions of years in earthly systems further
+        supports the possibility for survival of similar life forms
+        on Mars. The conditions on Mars might actually be even more
+        conducive than those on Earth for long-term survival of
+        such living entities because of the unique combination of
+        cold, dehydration, lack of oxygen, and protection from
+        direct UV exposure.
+        In the original Viking experiments where investigators
+        searched for organic compounds in Martian soil [ 38 ] ,
+        four samples were examined (one surface and one subsurface
+        sample from each of two locations).
+        Gas-chromatography/mass-spectrometry at a sensitivity of
+        parts per billion (ppb) for some compounds yielded negative
+        results. Presumably, if microorganisms had been present,
+        organic compounds would have been detected. However, these
+        results suffer from the limitations of all negative
+        results. They cannot prove the absence of life since there
+        was the inherent limitation of analytical sensitivity, and
+        only two locations close to the landing site on the Martian
+        surface were examined. One endospore weighs approximately
+        10 -13g. Assuming there were one such spore per gram of
+        Martian soil, and one could detect 100% of the organic
+        matter in that spore, this would require an analytical
+        sensitivity of 0.1 ppb. In reality the organic matter in a
+        cell or spore contains many classes of compounds with few
+        classes representing more than a few percent of the total,
+        and considerably less than 100% efficiency in extraction
+        and detection is possible. Thus the actual sensitivity
+        required for Viking to detect 1 spore / g of soil would
+        have been in the ppt range. Detection of 1000 spores / g
+        would have required at least 1 ppb sensitivity. These
+        requirements are well below the sensitivity of the GC/MS
+        used aboard Viking. However, techniques based on growing of
+        cells from spores or measuring their physiological activity
+        after germination, not performed by Viking, could provide a
+        sensitivity as low as a few spores / g of soil [ 37 ] .
+        It has been suggested that the oxidizing nature of the
+        Martian soil is due to the photochemical reactions that
+        create hydrogen peroxide and superoxides in the surface
+        soil. Using data obtained from the Viking gas exchange
+        experiment and assuming that all oxygen came from H 
+        2 O 
+        2 , the concentration range of hydrogen
+        peroxide has been calculated to be 25-250 ppm [ 39 ] . Some
+        soil bacteria survive at a concentration of 30,000 ppm of H
+        
+        2 O 
+        2 [ 39 ] , suggesting that presence of
+        this peroxide alone on Mars surface would not make the soil
+        "self-sterilizing."
+        Mars of course has been dry and cold for a very long
+        time, and it is not possible to run experiments such as
+        ours over geologic time scales. It may be that an oxidant
+        like ferrate(VI) might be biocidal over periods lasting
+        millions of years, even in the dry cold-storage environment
+        of Mars. However, we conclude that the occurrence of
+        ferrate(VI) in Mars soils, if present, will not necessarily
+        promote immediate self-sterilization of the soils.
+        The United States and other spacefaring nations are
+        required by treaty to protect Mars and other non-earthly
+        planetary systems from contamination by earthly
+        microorganisms. Bacterial endospores that are particularly
+        resistant to agents such as disinfectants (e.g.,
+        vapor-phase hydrogen peroxide), extreme desiccation, and
+        even gamma radiation are the most common contaminants found
+        on surfaces of cleaned spacecraft assembled in spacecraft
+        assembly clean rooms [ 25 ] . These survivors include
+        cultivable species such as 
+        Bacillus licheniformis, B. pumilus, B.
+        cereus , and 
+        B. circulans , as well as other
+        strains that have not yet been cultivated but can be
+        observed through their DNA 16S rDNA fingerprints. From work
+        reported here it appears that such robust spores, if
+        delivered to Mars on spacecraft, could survive for
+        extended, if not indefinite, periods of time in the cold,
+        dry, preserving environment of Mars, despite the presence
+        of strong oxidants in the soil. This might compromise later
+        experiments aimed at detecting life on the Red Planet,
+        and/or influence its future ecology over geologic time
+        scales.
       
       
-        Abbreviations
-        BSA = bovine serum albumin; DMEM = Dulbecco's modified
-        Eagle's medium; FACS = fluorescence-activated cell sorting;
-        Fc = crystallizable fragment; FITC = fluorescein
-        isothiocyanate; IFN = interferon; IL = interleukin; MHC =
-        major histocompatibility complex; NF = nuclear factor; NO =
-        nitric oxide; RANK = receptor-activator of NFκB; RANKL =
-        receptor-activator of NFκB ligand; Th = T helper cells;
-        TRAP = tartrate-resistant acid phosphatase.
+        Methods
+        
+          Synthesis of potassium ferrate
+          Crimson-colored Fe(VI) as potassium ferrate K 
+          2 FeO 
+          4 was prepared and stored (dry)
+          according to the method of Thompson, et al. [ 40 ] . Its
+          purity and state of oxidation was confirmed by an
+          oxidimetric titration using arsenite-cerate method [ 41 ]
+          . This method measures only Fe(VI and V), leaving any
+          ferric ions in the preparation unreduced. The fresh K 
+          2 FeO 
+          4 was 99% pure.
+        
+        
+          Ferrate oxidation of organic moieties within a sand
+          matrix
+          Two sets of reaction mixtures were prepared. Treatment
+          mixtures contained 25 mg of pure silica sand as a soil
+          surrogate, about 5 mg K 
+          2 FeO 
+          4 , and different amounts of the
+          nitrated organic compound 2,4,6-trinitrotoluene (TNT);
+          amounts of TNT were 5, 10, 15, or 20 mg. A control set
+          contained only TNT and sand. All experiments were
+          prepared using four replicates. All samples were twice
+          mixed by vortexing and centrifuged for 2 min at 16 kG in
+          order to remove reagents from walls of vials. There was
+          no detectable reaction at this step. To every vial 60 ul
+          of deionized water were added. Reactants were mixed,
+          centrifuged, and incubated for 15 min at room
+          temperature. After 15 min, 1 ml of methanol was added;
+          about 40-50 mg of sodium sulfate were later added to
+          remove water from the mixture. After vortexing, the
+          reaction mixture was centrifuged for 4 min at 16 kG.
+          Supernatant was diluted 20× in methanol for electrospray
+          tandem mass-spectrometric analysis (ES-MS/MS) or 20× in
+          acetonitrile for gas chromatography/mass spectrometry
+          (GC/MS) analysis. Similar experiments were performed
+          using hexadecane and dodecane.
+        
+        
+          Gas Chromatography/Mass Spectrometry
+          GC/MS was used for quantitative measurement of TNT and
+          hydrocarbon concentrations in soil extracts. Sample (2
+          ul) was injected into the GC using a HP 7683 series
+          injector (split-less injection). The mass spectrometer's
+          (Hewlett Packard 5989A) scan range was from 50 to 800 Da.
+          Temperature of the source was held at 250°C and of the
+          quadropole at 120°C. The ion source was set on positive
+          electron impact ionization mode. The temperature of the
+          injector on the gas chromatograph (Hewlett Packard 5890
+          series II) and the MS interface was 280°C. For
+          separations, we used a Phenomenex ZB-5 column (30 m ×
+          0.25 mm × 1.25 μm). The initial oven temperature was
+          100°C, held for 1 minute. This was increased 10°C per min
+          until the final temperature of 300°C, which was held for
+          3 min. Perfluorotributylamine was used for auto-tuning
+          the MS.
+        
+        
+          Preparation of a Mars surrogate soil
+          Pure silica sand (Fisher) was dried by heating
+          overnight at 110°C and then stored in desiccators
+          containing calcium chloride. Potassium ferrate was added
+          (see below) to a level of 20% (w/w) and mixed thoroughly
+          into the sand to form a Mars surrogate soil. The soil was
+          used for microbiological experiments as soon as possible
+          after preparation (always less than 24 hours). The second
+          soil was prepared similarly, substituting KMnO 
+          4 for K 
+          2 FeO 
+          4 . Control soil contained only
+          sand.
+        
+        
+          Preparation of bacterial cells and
+          endospores
+          Our own laboratory strain of 
+          Bacillus subtilis was grown in a
+          simple yeast extract-based broth through late logarithmic
+          phase of growth and allowed to sporulate. The spores were
+          collected by centrifugation, washed twice with 100 mL of
+          sterile water, freeze dried, and stored under desiccation
+          until used. The bacterial strain used is a typical 
+          Bacillus subtilis strain and is
+          available from the corresponding author upon request.
+        
+        
+          Exposure of cells and spores to a simulated Martian
+          soil environment
+          Microbiological experiments were performed, with data
+          points collected in triplicate, using small microcosms
+          comprised of 50mL serum bottles. Surrogate soil (100
+          mg/microcosm) and spores (about 2 × 10 4per gram of soil)
+          were placed together into the bottles. To ensure complete
+          mixing and uniform exposure of all cells or spores to the
+          ferrate component of the soil, they were first suspended
+          in a small amount of sterile water. This was thoroughly
+          mixed into the sand fraction of the surrogate soil, which
+          was then lyophilized. The ferrate component of the
+          surrogate soil was next thoroughly mixed into the
+          microbe-enriched, dry sand within a sterile laminar-flow
+          hood, and the bottles were flushed with pure CO 
+          2 and sealed with sterile stoppers and
+          crimp seals. The CO 
+          2 was provided from a bottle of
+          reagent-grade carbon dioxide (>99% purity) as
+          compressed gas and was scrubbed to remove traces of
+          oxygen and water. The microcosms were sparged with
+          multiple volumes of gas under normal atmospheric
+          pressure. The sealed microcosms were immediately placed
+          in a freezer at -20°C. Periodically, triplicate bottles
+          were removed and opened for analysis. A small amount of
+          water (1 ml) was added and 0.1 ml of the suspension was
+          quickly removed using an aseptic technique and spread
+          onto a plate of nutrient agar (Difco). The plates were
+          incubated at 30°C and then examined periodically for
+          outgrowth of 
+          Bacillus subtilis colonies. Plates
+          were inoculated in triplicate and colony-forming units
+          determined after 24 hours and again after 48 hours of
+          incubation. Controls without ferrate were run
+          simultaneously. Similar experiments were performed after
+          replacing ferrate with an equal amount of potassium
+          permanganate.
+        
+        
+          Protection of spores in dry soil from killing by
+          surface UV irradiation in the presence of 20%
+          permanganate
+          A surrogate soil containing 20% (by weight)
+          permanganate in sand was inoculated with spores of 
+          Bacillus subtilis and placed within
+          a Forma Scientific UV-illuminated laminar-flow hood under
+          its full UV illumination and in the presence of air for
+          96 hours. The open surface of the microcosm was placed
+          approximately 50 cm from the 15-watt mercury vapor light
+          source. The hood is calibrated annually for
+          effectiveness, and under these conditions will produce 10
+          8per cm 2spore kill on a metal surface within 24 hours.
+          Then exposure samples were removed progressively from the
+          surface in 5 mm increments and plate counts performed for
+          surviving spores. Data represent counts from three
+          replicates. Error bars show one standard deviation.
+          Untreated controls taken at time 0 contained about 2.0 ×
+          10 4spores in a similar size sample.
+        
+      
+      
+        Authors' contributions
+        RLC conceived the study and directed the overall
+        project. AP directed the analytical and synthetic chemistry
+        portions of the work. LA performed the microbiological
+        experiments described here. All authors read and approved
+        the final manuscript.
       
     
   

@@ -2,502 +2,363 @@
   
     
       
-        Introduction
-        Although juvenile rheumatoid arthritis (JRA) is the most
-        common cause of disability in children, its etiology is
-        unknown. Immune dysregulation appears to play a key
-        pathogenic role, as circulating autoantibodies are common
-        in patients with certain JRA clinical subtypes [ 1 2 3 4 5
-        6 7 ] . Two recent studies have shown a highly significant
-        association between early-onset pauciarticular JRA and
-        circulating antibodies to the 43-kDa nuclear protein DEK [
-        8 9 ] . Although circulating DEK antibodies have
-        subsequently been found in children and adults with other
-        autoimmune diseases [ 10 11 ] , these two studies did
-        reveal that children with JRA are significantly more likely
-        to have anti-DEK antibodies than are children without
-        rheumatic disease. Children with pauciarticular-onset JRA
-        were also significantly more likely to have anti-DEK
-        antibodies than were children with polyarticular-onset or
-        systemic-onset JRA or other rheumatic diseases. Among
-        children with pauciarticular JRA, DEK autoantibodies were
-        significantly more common in those with JRA-associated
-        uveitis than in those without eye disease [ 8 9 ] . DEK
-        reactivity was also found to be strongly associated with
-        onset of any JRA subtype before age 6 years [ 8 ] .
-        DEK is a nuclear protein that is not structurally
-        related to any known family of proteins [ 12 13 ] .
-        Although it may also participate in DNA replication and RNA
-        processing [ 14 15 ] , we have identified DEK as a
-        DNA-binding protein that recognizes the TG-rich peri- 
-        ets (pets) regulatory element in the
-        human immunodeficiency virus type 2 (HIV-2) enhancer [ 16 ]
-        . The pets site is important in mediating HIV-2 enhancer
-        stimulation in activated T cells and monocytes [ 17 18 19 ]
-        , suggesting that DEK may play an immunomodulatory role as
-        it participates in transcriptional activation through this
-        and related sites.
-        Observed sequence similarity between the DEK-binding
-        site in HIV-2 and the highly conserved Y-box regulatory
-        element in MHC class II gene promoters pointed to the Y box
-        as one possible related site. NF-Y binding to the MHC class
-        II gene Y box anchors a complex assembly of nuclear
-        proteins that occupies several regulatory elements over a
-        great distance [ 20 21 22 ] . In the 
-        DQA1 promoter Y box, a reverse CCAAT
-        motif with a partially overlapping TG-rich sequence shares
-        sequence identity with the HIV-2 DEK-binding site at 7 of
-        10 positions (Fig. 1). In the 
-        DQA1*0501 allele, which is highly
-        associated with predisposition to autoimmune disease [ 23
-        24 25 26 27 ] , the Y box contains a single-nucleotide
-        polymorphism that reduces sequence identity to 6 of 10
-        positions. We hypothesized that DEK could bind in a
-        sequence-specific manner to the Y-box motifs in the
-        promoter regions of several class II MHC genes, and that
-        gene- and allele-specific Y-box polymorphisms could affect
-        DEK binding activity. In this study, we examine the
-        characteristics of DEK binding to the Y-box sequences of 
-        DQA1*0101, DQA1*0501, DRA, DQB , and 
-        DRB . We also confirm participation
-        of DEK with NF-Y in the 
-        DQA1 Y-box binding complex and
-        localize specific DEK binding within this sequence. As the
-        Y-box promoter element is crucial to the regulation of MHC
-        class II gene expression, sequence-specific binding to this
-        motif indicates a potential role for DEK in modulating
-        normal and abnormal immune response.
-      
-      
-        Materials and methods
-        
-          Cell culture and preparation of nuclear
-          extracts
-          Cultured cell lines were grown and harvested and
-          nuclear extracts were prepared from resting cells as
-          previously described [ 28 29 ] .
-        
-        
-          Preparation of partially purified recombinant DEK
-          protein
-          Construction of the poly-histidine-tagged DEK
-          bacterial expression vector is described elsewhere [ 16 ]
-          . Full-length DEK or antisense DEK was prepared from
-          cultures grown from individual colonies to log phase,
-          induced with 1 mm isopropyl thiogalactose, and harvested
-          by centrifugation after 4 hours. Recombinant protein was
-          purified from bacterial lysates in accordance with the
-          published method for the QIA 
-          express system (Qiagen, Valencia,
-          CA, USA) with variations in Buffers B and D as noted in
-          Additional file: 1. Procedures were carried out at 4°C;
-          dialyzed recombinant DEK protein (rDEK) was stored at
-          -80°C.
-          Additional file 1
-          
-          Buffer B (6 M urea, 0.1 M NaH 
-          2 PO 
-          4 , 10 mm Tris-l, 0.1 M KCl), used for
-          cell lysis and protein elution, was prepared with the
-          addition of imidazole (final concentration 25 mm) and
-          urea (final concentration approximately 8 M). Qiagen
-          Ni-NTA Superflow resin was equilibrated with modified
-          buffer B before being combined with the cell lysate. The
-          cell lysate-resin combination was incubated at 4°C for
-          1.5 hours. Purified protein was eluted from the column
-          with buffer B containing 100-250 mm imidazole. The
-          presence and size of rDEK bands were verified by western
-          blotting. Protein in positive elution fractions was
-          refolded to native structure by serial dialysis against
-          buffer D (20 mm HEPES, 0.1 M KCl, 0.2 mm EDTA, 0.5 mm
-          dithiothreitol, 0.5 mm phenylmethylsulfonyl fluoride, 20%
-          glycerol) containing stepwise decreasing concentrations
-          of urea (6 M for 2 hours, 4 M for 2 hours, 2 M for 2
-          hours, no urea for 12 hours).
-          Click here for file
-        
-        
-          Preparation of FLAG-DEK
-          A FLAG-tagged DEK adenoviral vector constructed by the
-          University of Michigan Vector Core was used to transduce
-          T98G cells (ATCC) by incubation for 48 hours before
-          harvesting for immunoprecipitation. FLAG-DEK was
-          immunoprecipitated using anti-FLAG resin (Sigma-Aldrich,
-          St Louis, MO, USA) in accordance with the manufacturer's
-          instructions and was eluted by competition with peptide
-          containing three FLAG recognition epitopes.
-        
-        
-          Electrophoretic mobility shift assays
-          (EMSAs)
-          EMSAs were carried out as previously described [ 30 ]
-          , using 0.1-0.25 ng of radiolabeled oligonucleotide probe
-          (2.5 × 10 4counts per minute) per 15 μl binding reaction
-          and 5 μg of nuclear extract (except as noted) or <1 μg
-          of rDEK. For competition EMSAs, unlabeled double-stranded
-          oligonucleotide was added to reaction mixtures before the
-          radiolabeled probe. For antibody supershift of binding
-          complexes, 1 μl anti-NF-YA antibody (gift of JP-Y Ting)
-          or 1 μl high-titer anti-DEK human serum (gift of W Szer [
-          9 ] ) or 2-3 μl control human serum was added to the
-          binding reaction, and the mixture was incubated on ice
-          for 2 hours before the probe was added.
-        
-        
-          Sequence of oligonucleotide probes and
-          competitors
-          See Fig. 1.
-        
-        
-          Measurement of apparent dissociation constants
-          using EMSA
-          The 32P end-labeled oligonucleide probe (5 nM) was
-          incubated with immunoprecipitation-purified FLAG-rDEK in
-          a range of concentrations from one tenth to 10 times the
-          estimated K 
-          d[app] (apparent dissociation
-          constant) as described elsewhere [ 31 ] . Protein-bound
-          DNA was separated from free probe as for EMSA in 1 × TBE
-          (Tris-borate-EDTA buffer: Tris 89 mM, borate 89 mM, EDTA
-          2 mM). The dried gel was exposed to a phosphor screen
-          overnight, and the bands were quantified using a
-          Molecular Dynamics Storm 840 Phosphorimager with
-          Image-Quant Software. The data were fit via nonlinear
-          least-squares regression to the single-site binding
-          isotherm:
-          % free DNA = K 
-          d[app] /(K 
-          d[app] + [protein]).
-          From this equation, the apparent K 
-          d corresponds to the protein
-          concentration at which half of the DNA is bound [ 31 ]
-          .
-        
-        
-          DNAse I protection assay
-          The 148-bp probe included 
-          DQA1*0101 promoter sequence from
-          -53 to -200. PCR primer (200 ng) for probe sequence was
-          end-labeled with 32Pγ-ATP and T4 polynucleotide kinase
-          (New England Biolabs, Beverly, MA, USA), and was column
-          purified. Labeled antisense primer (200 ng) and 200 ng
-          unlabeled sense strand primer (or vice versa) were used
-          in each 50.5-μl PCR reaction, with 0.2 mM dNTP, 1.5 mM
-          MgCl 
-          2 , 5 μl 10X PCR Buffer (Invitrogen,
-          Carlsbad, CA, USA), and 1 μg Namalwa genomic DNA. 
-          Taq polymerase (Invitrogen) was
-          added at 80°C after a 94°C 'hot start,' initiating 35
-          cycles of PCR: 94°C for 45 s, 55°C for 30 s, and 72°C for
-          90 s, with final extension at 72°C for 10 min. PCR
-          products were purified with a High Pure PCR Product
-          Purification Kit (Roche Applied Science, Indianapolis,
-          IN, USA) and then used at 2.5 × 10 4CPM/2 μl. DNase I
-          digestion reaction and footprinting gel followed
-          published techniques [ 16 ] .
-        
+        Background
+        Translation termination is a crucial step in the process
+        of information decoding. Its accuracy reaches about 10
+        -4and ensures that only very few abnormal products are
+        synthesised under normal conditions [ 1]. Conversely,
+        translation termination is widely used by both animal and
+        plant viruses as a mean of controling expression, through
+        recoding events [ 2, 3]. Readthrough is the process by
+        which a stop codon is misread as sense by the translational
+        apparatus, allowing the synthesis of an extended
+        polypeptide which carries novel activities [ 2]. Up to now,
+        no specific gene products have been implicated in the
+        control of translational readthrough, strongly suggesting
+        that only normal interactions between the mRNA and
+        components of the translational machinery are involved.
+        This differs from the mechanism of selenocysteine
+        incorporation, which requires a whole set of specific
+        partners, including a specific tRNA and a particular
+        elongation factor [ 4]. Readthrough can therefore be seen
+        as "programmed translational errors" occurring at specific
+        sequences on the mRNA.
+        Several studies, either in vivo or "in silico", have
+        analyzed the termination context in mammalian cells [ 5, 6,
+        7]. In particular, it has been demonstrated that the
+        nucleotide following the stop codon (defined as +4) is non
+        random, with purines over-represented for the three stop
+        codons. This + 4 nucleotide in fact plays a key role in
+        termination efficiency, leading to the proposition that
+        termination is directed by a "four base signal" [ 8].
+        Clearly, some programmed readthrough events are based on
+        alteration of these interactions. This is the case in
+        Sindbis virus where the UGAC sequence, which is a very
+        poorly used stop context in mammals, is sufficient to drive
+        an efficient readthrough (2-5%) [ 5]. More generally, it
+        has been demonstrated in numerous experimental systems that
+        the nucleotide at position +4 plays an important role in
+        suppression efficiency [ 5, 6, 9, 10, 11, 12, 13, 14].
+        Other nucleotide biases are found around stop signals,
+        non-randomness being observed at up to eight positions
+        downstream of the stop codon and three positions upstream [
+        15]. Such biases possibly reflect the existence of
+        interactions between the mRNA and other components of the
+        ribosomal machinery, which are important for termination
+        efficiency.
+        Elucidating the mechanisms at play during readthrough
+        may help understand normal translation termination. To
+        achieve this goal, we have analyzed the rules governing
+        readthrough in mouse cells in culture. We focused our
+        studies on the sequence CAA UAG CAA UUA, derived from the
+        plant Tobbaco Mosaic Virus (TMV) [ 16]. This sequence was
+        previously shown to drive a high level readthrough both in
+        in vitro systems [ 12] and in vivo in plant cells [ 9, 17]
+        and yeast [ 10, 18]. This sequence is also functional in
+        mammalian cells in culture [ 19]. We used a highly
+        sensitive luciferase reporter to study the role of amino
+        acid identity, codon frequency and nucleotide context, at
+        the 5' and 3' triplets flanking the stop codon.
       
       
         Results
         
-          Y-box binding activity in nuclear extracts is gene-
-          and allele-specific
-          The similarity of the 
-          DQA1*0101 Y-box sequence to the
-          HIV-2 DEK-binding site (see Fig. 1) first led us to
-          investigate whether DEK in nuclear extracts binds to MHC
-          class II Y-box regulatory elements 
-          in vitro . With a double-stranded
-          oligonucleotide probe containing the 
-          HLA-DQA1*0101 Y-box sequence, EMSAs
-          revealed similar binding activity in nuclear extracts
-          from B lymphoid (Namalwa), T lymphoid (Jurkat, CEM),
-          monocytoid (U937), and HeLa cell lines (Fig. 2), and in
-          nuclear extracts from SKW 6.4 (B lymphoid), KG-1 (T
-          lymphoid), and HL-60 (monocytoid) cell lines (not shown).
-          Electrophoretic patterns with a probe corresponding to
-          the 
-          DQA1*0501 Y-box sequence, which
-          diverges from the 
-          DQA1*0101 Y-box sequence by a
-          single base pair within the highly conserved reverse
-          CCAAT sequence, appear to vary with the cell type, and
-          binding appears weaker than with the 
-          DQA1*0101 probe (see Fig. 2).
-          Competition EMSAs demonstrated sequence-specificity of
-          the 
-          DQA1*0101 Y-box binding activity
-          (Fig. 3a). Unlabeled 
-          DQA1*0101 oligonucleotides
-          successfully competed for strong binding activity seen in
-          nuclear extracts from the Namalwa B cell line (Fig. 3a,
-          lanes 3 and 4), whereas unlabeled 
-          DQA1*0501 Y-box sequence competed
-          less well (Fig. 3a, lanes 5 and 6). There was no
-          competition when the Y-box reverse CCAAT motif was
-          mutated at all five positions (Fig. 3a, lanes 7 and 8),
-          nor with the unrelated HIV-1 κB sequence (lane 10). DEK
-          has been shown to bind to the HIV-2 pets site [ 16 ] ,
-          but oligonucleotides containing this sequence also failed
-          to compete significantly (lane 9), suggesting that
-          factors other than DEK play a role in determining the
-          specificity of this complex. In particular, NF-Y is the
-          predominant nuclear factor binding to the Y box [ 21 ] ,
-          and the HIV-2 pets site does not contain the reverse
-          CCAAT sequence required for NF-Y binding.
-          The consensus ( 
-          HLA-DRA ) Y-box sequence differs
-          from the 
-          HLA-DQA1*0101 Y box by a single
-          nucleotide immediately 5' of the reverse CCAAT pentamer;
-          this single-nucleotide polymorphism significantly changes
-          the electrophoretic pattern (Fig. 3b) in comparison with
-          that seen with the 
-          HLA-DQA1*0101 probe. 
-          HLA-DQA1*0101 oligonucleotide also
-          competes poorly with the consensus Y-box probe for
-          binding (Fig. 3b, lanes 5-6). Divergence of the 
-          HLA-DQA1*0501 Y-box sequence at one
-          position within the required NF-Y binding site reduces
-          its ability to compete with the 
-          DRA Y-box probe (Fig. 3b, lanes
-          7-8) as much as does mutation of all five nucleotides
-          within the CCAAT sequence (Fig. 3b, lanes 9-10).
+          Effect of upstream mutations
+          An important methodological problem is that changing a
+          nucleotide could modify several parameters in addition to
+          nucleotide identity: mRNA secondary structure, codon
+          frequency, amino acid identity and luciferase molecular
+          specific activity. To overcome the problem of possible
+          changes in molecular specific activity of the modified
+          luciferase, control constructs were designed in which the
+          stop codon has been replaced by a CAG glutamine codon. As
+          shown in Table 1, the activities of the modified
+          luciferase proteins vary from 10% to 40% compared to the
+          wild type pRSVL reporter, emphasizing the importance of
+          this type of control. To differentiate at least some of
+          the various structural parameters that may be involved in
+          termination efficiency, we generated series of comparable
+          constructs, harboring synonymous codons. One can thus
+          analyze the effect of amino acid identity on readthrough
+          and assess the effect of codon frequency for a given
+          amino acid; finally, the effect of nucleotide identity at
+          a given position can be studied in different contexts.
+          This last point is crucial, since the occurrence of
+          complex interactions between nucleotides located at
+          different positions, would prevent a consensus sequence
+          to emerge when analysing the stop codon context at a
+          genomic level. A series of mutations were introduced in
+          the CAA codon preceeding the stop. CAA was changed for
+          the other glutamine codon CAG, for the two histidine
+          codons CAU and CAC and for the four glycine (GGN) codons.
+          Results are shown in Figure 2A-B. We first examined
+          whether amino acid identity could interfere with
+          readthrough. In this case, one would expect to see only a
+          weak variation between constructs harboring the same
+          amino acid. Conversely, variation should be higher for
+          different amino acids. Comparing the results within a
+          series and between different series, showed that
+          variation between synonymous codons of the GLY family was
+          greater than variation from one amino acid to another.
+          These observations ruled out that the identity of the
+          last amino acid was the main determinant of readthrough
+          level.
+          Another parameter that might affect readthrough is the
+          availability of the tRNA decoding the last sense codon,
+          for example through a different ribosome pausing
+          kinetics. Since rare tRNAs generally correspond to rare
+          codons, we checked whether a bias in codon frequency was
+          correlated with readthrough efficiency. Results shown in
+          Table 2demonstrate that codon frequency and readthrough
+          efficiency were not correlated, either in the whole set
+          of data or within a given set of synonymous codons [
+          20].
+          As shown by Tate and coworkers, nucleotides
+          surrounding the stop codons are not randomly distributed
+          [ 8, 21, 22]. In particular, a strong bias is observed at
+          the -1 position (see Figure 2C). Comparing Figure 2A-Bto
+          Figure 2Cshows that, although the infrequent A was
+          associated with the highest readthrough, no correlation
+          was observed with the other nucleotides.
+          Finally, the only parameter that could be correlated
+          with the readthrough efficiency was the nucleotide
+          identity at the -1 position. Adenine was associated with
+          the highest readthrough and uracil with the lowest.
+          Guanine and cytosine gave intermediate values, guanine
+          being in both cases higher than cytosine, although this
+          difference is only significant in the CAN series.
         
         
-          Both DEK and NF-Y participate in the HLA-DQA1Y-box
-          binding complex
-          Participation of both DEK and NF-Y in the 
-          DQA1 Y-box binding complex was
-          confirmed by using high-titer anti-DEK antiserum (gift of
-          W Szer [ 9 ] ) and monoclonal antibody to the NF-YA
-          subunit of the Y-box binding factor (gift of JP-Y Ting)
-          to further retard the mobility of the 
-          DQA1 Y-box binding complex
-          ('supershifting') (Fig. 4, lanes 3-4). Preincubation of
-          Namalwa cell nuclear extracts with antibodies to NF-YA
-          also retards the binding complex (Fig. 4, lane 5),
-          leaving a residual band (arrow) which can be attributed
-          to distinct DEK binding activity. Preincubation with both
-          antibodies results in further retardation of the binding
-          complex to form a doublet (Fig. 4, lane 6). The same
-          electrophoretic patterns were seen after preincubation of
-          nuclear extracts from the CEM T lymphocytoid cell line
-          with anti-DEK and anti-NF-YA antibodies (data not
-          shown).
+          Effect of dowstream mutations
+          The same two series of constructs were analyzed for
+          the CAA following the stop: CAN and GGN. Figure
+          3A-Billustrates that, in this case, the pattern was
+          strikingly different between the two series. For the CAN
+          series the readthrough efficiency followed the hierarchy:
+          A>G>U=C, with A showing a 30 fold higher
+          readthrough level than C. By contrast, for the GGN
+          series, the hierarchy was C>U≥A≥G with C showing a 2.5
+          fold higher readthrough than G. As above, we examined the
+          correlation between nucleotide usage at the variable
+          position and readthrough efficiency. The histogram shown
+          in Figure 3Cdemonstrates no correlation between these two
+          values.
         
         
-          Recombinant DEK protein binds in a
-          sequence-specific manner to the DQA1Y box but not to the
-          DRA(consensus) Y box
-          Having established that DEK and NF-Y in nuclear
-          extracts participate in the 
-          HLA-DQA1*0101 binding complex, we
-          used recombinant full-length DEK (rDEK) to determine
-          whether it alone can bind to Y-box motifs and to examine
-          how gene- and allele-specific sequence polymorphisms
-          alter its binding. The 
-          HLA-DQA1*0101 Y-box sequence does
-          bind rDEK specifically, with unlabeled probe sequence
-          competing successfully for binding (Fig. 5a, lanes 4-6).
-          In contrast, despite its identity at 9 of 10 positions,
-          unlabeled consensus ( 
-          DRA ) Y-box sequence (Fig. 5a,
-          lanes 7-8) competes very poorly against the 
-          HLA-DQA1*0101 Y-box probe. 
-          DQA1*0501 Y-box sequence (Fig. 5a,
-          lanes 9-10) competes only slightly less well than does 
-          DQA1*0101 , indicating that a
-          change in the residue at position 7 does not prevent rDEK
-          binding. Mutation of the reverse CCAAT sequence, however,
-          eliminates effective competition for binding to the 
-          DQA1*0101 Y-box sequence (Fig. 5a,
-          lanes 11-12). Taken together, these results indicate that
-          substitution of adenine at position 3 in the 
-          DQA1 Y box for guanine in the
-          consensus Y-box sequence significantly strengthens DEK
-          binding, as do bases at positions 5 and 6 in the reverse
-          CCAAT sequence.
-          Further characterization of rDEK binding to the
-          polymorphic 
-          DQA1*0501 Y-box sequence and to the
-          consensus ( 
-          HLA-DRA ) Y-box sequence
-          establishes a relative hierarchy of DEK binding activity
-          (Fig. 5b). With the 
-          DQA1*0501 probe, unlabelled 
-          DQA1*0101 sequence (Fig. 5b, lane
-          3) competed less well than did unlabelled probe. DRA Y
-          box sequence (Fig. 5b, lane 4) and CCAAT mutant sequence
-          (not shown) did not compete for binding. Inability of the
-          
-          HLA-DRA Y-box sequence to compete
-          with the 
-          DQA1*0501 probe again indicates the
-          relative importance of the adenine residue immediately 5'
-          to the reverse CCAAT for DEK binding. With the 
-          DRA Y-box sequence as probe (Fig.
-          5b, lanes 6-10), the unlabelled probe sequence competes
-          less well than do any of the other Y-box sequences,
-          suggesting that rDEK alone binds to this sequence
-          nonspecifically and with low affinity.
-        
-        
-          Quantitative assessment of rDEK binding to related
-          DQ-and DR- Y-box sequences
-          Quantification of the apparent dissociation constant
-          (K 
-          d[app] ) for rDEK binding to related
-          class II MHC Y-box motifs validates the relative
-          hierarchy of DEK binding activity described above, and
-          further emphasizes the contribution of gene-specific
-          Y-box polymorphisms to DEK binding activity. As shown in
-          Table 1, DEK binds more strongly to Y-box sequences in
-          either 
-          DQA1 allele than it does to any of
-          the other 
-          DR - or 
-          DQ -related Y-box sequences. It
-          binds least well to the 
-          DRA (consensus) Y-box motif, with a
-          K 
-          d[app] that is approximately five
-          times that for the 
-          DQA1 sequences. The K 
-          d[app] for DEK binding to 
-          DQB is approximately four times
-          that for the 
-          DQA1 sequences, whereas the K 
-          d[app] for DEK binding to the 
-          DRB Y-box sequences, especially the
-          
-          DRB alleles associated with the DR4
-          haplotype, are intermediate between the two extremes.
-          Once again, the A-to-G substitution at position 3 in the
-          Y box appears to strengthen DEK binding to the 
-          DQA1 Y box in comparison with the 
-          DRA Y box; allelic variation in the
-          nucleotide at position 7 in the Y-box sequence (as in 
-          DQA1*0501 and in the DR4-associated
-          
-          DRB Y-box sequence) may also
-          mediate subtle differences in DEK binding to otherwise
-          identical sites. Gene-specific sequence polymorphisms
-          outside the Y box per se could also explain why
-          dissociation constants differ where Y-box sequences are
-          identical, as in the 
-          DQB and 
-          DRB consensus motifs.
-        
-        
-          Localization of DEK binding within the Y box
-          DNase I footprinting with recombinant protein further
-          defined the physical interaction between DEK and the 
-          HLA-DQA1*0101 Y-box element (Fig.
-          6). Using the noncoding strand as probe, consistent
-          protection is seen over the G at position 7, which is
-          polymorphic in the 
-          DQA1*0501 allele (A-for-G
-          substitution) and in the DRB alleles associated with the
-          DR4 haplotype (C-for-G substitution). Consistent
-          protection is also seen at position 2, adjacent to the
-          A-for-G substitution that diverges from the Y-box
-          consensus sequence, although there is no protection of
-          the divergent base itself at position 3. DNase I
-          protection by recombinant DEK extends over the length of
-          the Y-box sequence, including bases within the NF-Y
-          binding site (reverse CCAAT sequence), again suggesting
-          that the two proteins may interact.
+          Are these results related to readthrough efficiency
+          ?
+          In this last set of results, the readthrough
+          activities measured for many constructs were very low
+          (around 10 -4). This raised the general point of whether
+          the measured enzymatic activities might reflect other
+          translational events such as sliding, internal ribosome
+          entry or reinitiation. To determine whether the observed
+          patterns were relevant to leaky translation termination,
+          we repeated the GGN upstream and downstream series of
+          experiments, which gave the lowest readthrough values, in
+          the presence of an amber suppressor tRNA [ 23]. The
+          experimental scheme was exactly the same, except that a
+          construct allowing expression of the suppressor tRNA was
+          cotransfected along with the test constructs. The results
+          are shown in Table 3. A 50 to 100 fold increase in
+          readthrough activities was observed, demonstrating that
+          very high levels of suppression were reached. Strikingly,
+          Figure 4illustrates that the same pattern was obtained
+          either in the presence or in the absence of UAG
+          suppressor tRNA. This indicates that the results observed
+          under basal conditions actually corresponded to bona fide
+          translational readthrough.
         
       
       
         Discussion
-        All antigen-presenting cells upregulate MHC class II
-        transcription in response to immune stimulation. We have
-        previously shown that activation of promyeloid cells causes
-        dephosphorylation of DEK and diminished DEK binding to the
-        HIV-2 long terminal repeat [ 16 17 32 ] . In this study, we
-        show that rDEK can bind to the 
-        DQA1 Y box, and that DEK in nuclear
-        extracts participates in the 
-        DQA1 Y-box binding complex 
-        in vitro . Thus, we propose a model
-        in which intracellular signaling modulates the ability of
-        DEK to bind DNA, causing alteration of MHC class II
-        transcription. Transient transfection experiments in
-        cultured cell lines have not proved useful in examining
-        this model, for DEK is highly expressed in most cells of
-        hematopoietic lineage, and further overexpression has
-        resulted in apparently nonspecific downregulation of
-        transcriptional activity (as might be predicted from [ 14 ]
-        ). For this reason, we are currently pursuing other
-        experimental approaches.
-        The 
-        DQA1*0501 promoter region (QAP 4.1),
-        in which a single-base-pair polymorphism in the Y box
-        significantly diminishes transcriptional activity [ 33 ] ,
-        is a component of the so-called susceptibility haplotype
-        for autoimmune disease. The 
-        DQA1*0501 allele is strongly
-        associated with early-onset pauciarticular JRA in Northern
-        European populations [ 23 24 ] and with increased risk for
-        juvenile dermatomyositis [ 25 ] and Sjögren's syndrome with
-        high autoantibody production [ 26 27 ] . In our proposed
-        model, aberrant class II MHC regulation could result from
-        altered DEK binding and/or interaction with NF-Y, and
-        aberrant class II expression may alter or enhance
-        reactivity against DEK-derived or other self peptides. The
-        C-terminal region of DEK, which contains the putative
-        DNA-binding domain, appears to be most antigenic [ 34 ]
-        (and K Sitwala and DM Markovitz, unpublished observations),
-        raising the possibility that altered DNA binding may expose
-        other masked epitopes. Development of antibodies to DEK
-        could even be a primary event in the pathogenesis of JRA,
-        with disruption of nuclear events due to penetration of
-        anti-DEK antibodies into living cells [ 35 ] . It remains
-        to be determined whether anti-DEK antibodies are directly
-        involved in the pathogenesis of autoimmune disease, or if
-        they result from generally enhanced immunoreactivity.
+        The mechanisms involved in translation termination are
+        still not completely understood, partly because more
+        interactions than those required for codon-anticodon
+        recognition are involved. In particular, protein-RNA and
+        protein-protein interactions are other potential targets of
+        translation termination control. Since in vitro translation
+        may not always accurately reflect the in vivo conditions,
+        we chosed to perform such analyses in living mouse cells.
+        This requires the use of a system that allows the detection
+        of very low readthrough levels. Thus, we used a reporter
+        system bearing: i) the highly sensitive luciferase reporter
+        gene; ii) the powerful RSV LTR promoter [ 24, 25].
+        We used the sequence CAA UAG CAA UUA, that drives a high
+        level of translational readthrough in mouse cells in
+        culture [ 19], and introduced targeted mutations in the
+        sequences surrounding the stop codon. We found that single
+        changes in this sequence were sufficient to decrease
+        readthrough by up to 30 fold in vivo. We constructed a set
+        of mutants where changes corresponded to synonymous codons.
+        In this case, one can analyze separately at least some of
+        the different parameters - amino acid identity, codon
+        frequency, nucleotide identity - that may be involved in
+        termination efficiency. We were also able to analyze
+        nucleotide effects in different contexts, i.e. determine
+        whether a given change would give the same effect in
+        different sequence environments. This last point is crucial
+        to assess the physiological significance of nucleotide
+        usage found in stop signal regions.
+        We focused our analysis on two positions which have
+        already been shown to be involved in termination or
+        readthrough in eukaryotes, but which have not been studied
+        in mammalian cells so far: the nucleotide preceeding the
+        stop (-1) and the third nucleotide following the stop (+6)
+        [ 15].
+        Two sets of modifications were introduced in the CAA
+        triplet preceeding the stop: CAN and GGN. We found that the
+        same amino acid can drive very different readthrough
+        efficiencies (5 fold differences between GGA and GGU),
+        suggesting that the amino acid itself does not play a major
+        role in readthrough efficiency. Availability of the tRNA
+        preceeding the stop is another parameter that could
+        modulate ribosome pausing [ 26] and thus may affect
+        readthrough. Since rare tRNAs generally correspond to rare
+        codons [ 27], we checked whether a bias in codon usage was
+        correlated with readthrough efficiency. This seemed to be
+        the case for some of the mutants presented here. For
+        example, the rare CAA glutamine codon gave a higher
+        readthrough than the frequent CAG codon. However, when we
+        systematically examined codon frequency in parallel with
+        readthrough efficiency, no correlation could be found (see
+        Table 2). Although we cannot rule out a marginal effect of
+        codon frequency, it is unlikely that it represents the main
+        determinant of readthrough efficiency.
+        Readthrough efficiency is clearly correlated with the
+        nucleotide immediately preceeding the stop codon. Hence, an
+        adenine in the -1 position is associated with a high
+        readthrough while a pyrimidine is associated with a low
+        readthrough. Taken together, these results show that there
+        is a gradation in the observed effect on readthrough
+        efficiency by which A>G>Y. The fact that a rule could
+        be drawn suggests that relatively simple interactions are
+        involved, possibly between the tRNA in the P site, the
+        incomming potential suppressor tRNA and the message, as it
+        has been shown in yeast [ 28]. However, since the
+        information on the Glycine-, Histidine- or
+        Glutamine-isoacceptor tRNAs in mouse is not yet available
+        (see M. Sprinzl, K.S. Vassilenko, J. Emmerich, F. Bauer
+        "Compilation of tRNA sequences and sequences of tRNA
+        genes".
+        http://www.uni-bayreuth.de/departments/biochemie/trna/),
+        this possibility cannot be explored further for the time
+        being.
+        In a second series of experiments, two sets of mutations
+        were introduced in the triplet following the stop codon:
+        CAA was changed for CAN and for GGN. A drastic effect on
+        readthrough, up to 100 fold, was observed. In this case
+        however, no uniform rule emerged, the hierarchy being
+        A>G>U=C in the CAN series, but C>U≥A≥G for the GGN
+        series. These contrasted results imply that complex
+        interactions are taking place downstream of the stop codon.
+        Although the nature of these interactions cannot be deduced
+        from our results, one possibility would be that mRNA
+        structure is involved in this phenomenon, as it is in
+        numerous translational events [ 29]. Another obvious
+        candidate potentially interacting with the stop context is
+        the release factor eRF1 [ 30]. If this is the case, one
+        would predict to be able to obtain mutant forms of eRF1
+        showing a better recognition of poor codon context. The
+        three dimensional structure of eRF1 has been published
+        recently and could help to design mutants affected in stop
+        codon context interaction [ 31].
+        It is striking that the CAA UAG CAA UUA sequence directs
+        a high readthrough in several very different eukaryotes. In
+        plants, the readthrough efficiency reaches 4-5% [ 9], a
+        level similar to what is observed in mouse cells (2%). In
+        the yeast S. cerevisiae, it is even more efficient, driving
+        a readthrough of 15-25% in a [psi-] strain [ 18] and up to
+        55% in a [PSI+] strain (Olivier Namy and Jean-Pierre
+        Rousset, unpublished results). Furthermore, when our
+        results are compared with those obtained in plant cells and
+        yeast, a similar effect of the nucleotide context is
+        observed [ 9, 10, 28]. By contrast, this sequence is unable
+        to drive a significant readthrough activity (4,5 10 -4) in
+        E. coli (JPR, MC, unpublished results, see also [ 9]).
       
       
-        Conclusion
-        Three specific findings in this report support a
-        potential role for DEK as a transcriptional modulator of
-        MHC class II expression. One is that DEK binds to the 
-        HLA-DQA1 Y box in a sequence-specific
-        manner. Another is that NF-Y and DEK both participate in
-        the HLA-DQA*0101 Y-box binding complex, which coordinates
-        DQ protein expression. Finally, DEK binds differentially to
-        specific Y-box sequences found in 
-        HLA-DQA1(*0101 and 
-        *0501 alleles) and 
-        HLA-DRA , consistent with
-        observations of 
-        DQA1 gene-specific cell-surface
-        expression [ 36 ] and allele-specific promoter activity [
-        33 ] . The specificity of rDEK binding to these and other,
-        related Y-box sequences (including 
-        HLA-DQB and 
-        HLA-DRB alleles associated with the
-        DR4 haplotype) may correlate with a predisposition to
-        autoim-mune disease seen with certain HLA haplotypes.
+        Conclusions
+        Altogether, our results indicate that different signals
+        are involved in the interaction between the translational
+        machinery and the upstream and downstream stop codon
+        contexts. In addition, they also suggest that the
+        mechanisms involved in readthrough are common to
+        eukaryotes, pointing to either an ancient origin of the
+        translation termination machinery, or to very strong
+        structural constraints at the level of the eukaryotic
+        ribosome. Another implication of these observations is that
+        the readthrough sequence analyzed here, although first
+        described in a plant virus, might be used as a recoding
+        signal also in mammals and yeast. Analyzing DNA sequence
+        data bases should help in identifying such putative
+        physiological recoding events.
       
       
-        Competing interests
-        None declared.
-      
-      
-        Abbreviations
-        bp = base pair(s); EMSA = electrophoretic mobility shift
-        assay; FLAG = Five NH 
-        2 -terminally deleted epilope; MHC =
-        Major histocompatibility complex; HIV = human
-        immunodeficiency virus; JRA = juvenile rheumatoid
-        arthritis; K 
-        d[app] = apparent dissociation constant;
-        PCR = polymerase chain reaction; pets = peri- 
-        ets ; rDEK = recombinant DEK
-        protein.
+        Materials and Methods
+        
+          Plasmids
+          The pRSVL74 cloning vector is shown in Figure 1and the
+          procedures used to construct the mutant derivatives have
+          been described previously [ 25]. Briefly, 25 nt synthetic
+          double stranded oligonucleotides were inserted in the
+          oriented NheI-BclI cloning site of the vector. In the
+          pRSVL74 derived plasmids, the luc gene encoding the very
+          sensitive luciferase reporter is under the control of the
+          strong Rous Sarcoma Virus promoter [ 24]. Mutations were
+          introduced in the sequence GCA GGA ACA 
+          CAA TAG CAA TTA CAG A. All constructs
+          were verified by sequencing 200 nt around the mutation.
+          pCH110 carries a lacZ gene under the control of the SV40
+          promoter-enhancer region [ 32].
+          ptRNAam is a gift of Olivier Jean-Jean; it carries the
+          entire coding sequence and promoter region of a human
+          tRNA Sergene, in which the anticodon has been replaced by
+          CUA, therefore recognizing the UAG stop codon [ 23].
+        
+        
+          Cells
+          NIH 3T3 cells were cultured in Ham's F12 or DMEM
+          medium supplemented with 5 % fetal calf serum, at 37°C in
+          humidity saturated 7% CO 
+          2 in air.
+        
+        
+          Transfection
+          One million cells were transfected with 10 μg of each
+          test vector and 5 μg of the pCH110 vector, using
+          DNA/phosphate coprecipitation. Cells were rinsed after
+          overnight incubation with the DNA, and the medium was
+          changed the next day. Cells were harvested on day 3 and
+          crude extracts were prepared as described [ 25]. To check
+          the effect of suppression, the same protocol was used
+          except that 5 μg of the ptRNAam vector was added just
+          before the step of DNA/phosphate coprecipitation.
+        
+        
+          Enzyme assays
+          β-galactosidase and luciferase were assayed using
+          standard methods [ 33, 34].
+        
+        
+          Readthrough efficiency quantification
+          To evaluate readthrough efficiency, the luciferase
+          activity obtained from a test construct was compared to
+          the activity of the wild type pRSVL vector, which was
+          used as an internal control of each individual
+          transfection experiment. The β-galactosidase activities
+          driven by the cotransfected pCH110 plasmid reflected
+          transfection efficiencies and were used to standardized
+          luciferase activities. The readthrough level was
+          expressed as the ratio of standardized activity from the
+          test construct to the standardized activity from the wild
+          type pRSVL construct. Since luciferase molecular specific
+          activity may vary depending on the amino acid sequence of
+          the protein, control vectors in which the UAG stop codon
+          has been replaced by a CAG glutamine codon were similarly
+          transfected and their activities standardized for
+          transfection efficiency.
+        
       
     
   

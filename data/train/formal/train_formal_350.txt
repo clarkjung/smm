@@ -3,787 +3,1231 @@
     
       
         Background
-        DNA microarray analysis has become the most widely used
-        technique for the study of gene-expression patterns on a
-        genomic scale [ 1, 2]. Differential microarray
-        co-hybridization assays measure the relative gene
-        expression of paired query and reference samples, and the
-        power of microarray analysis comes from identification of
-        informative patterns of gene expression across multiple
-        experiments. Achieving both these objectives is facilitated
-        by using a common reference sample that provides a baseline
-        expression measure for each gene, enabling normalization
-        and comparison of independent experiments.
-        Pooled RNA derived from cell lines is a commonly used
-        reference sample. To provide optimal coverage of genes
-        spotted on the array, reference samples are often
-        constructed from a large number of cell lines from a
-        variety of tissues. One example is the universal human RNA
-        reference commercially available from Stratagene [ 3]. This
-        reference consists of equimolar quantities of RNA from ten
-        human cancer cell lines representing ten different tissues
-        (B cells, breast, brain, cervix, liver, lipocytes,
-        macrophage, skin, T cells and testis).
-        Another challenging technical consideration in
-        microarray analysis is the cutoff value used to distinguish
-        differential expression from natural variability in the
-        data. A cutoff of twofold up- or down-regulation has been
-        chosen to define differential expression in most published
-        studies [ 1, 2]. However, little has been done to evaluate
-        the accuracy of the technique and assess the confidence
-        levels for various fold-level changes in expression ratios.
-        In addition, microarray analysis is a complex, multistep
-        technique involving array fabrication, labeling,
-        hybridization and data analysis, and many laboratories have
-        developed a variety of protocols for each of these steps [
-        4, 5]. Studies by a number of groups using a range of
-        protocols and including many different RNA samples will
-        give a better picture of how reliable microarrays are for
-        elucidating gene-expression profiles.
-        In this study, we evaluate the performance of cDNA
-        microarrays using our current laboratory and data-analysis
-        protocols and derive a new intensity-dependent approach to
-        identifying differentially expressed genes. RNA from 19
-        different human cancer cell lines, the Stratagene universal
-        reference RNA, and RNA isolated from a tumor specimen were
-        assayed in a series of 'self-self' hybridizations on a
-        19,200-element cDNA array (containing 9,600 elements
-        spotted in duplicate). Statistical analysis of the ratios
-        of Cy5/Cy3 fluorescence intensities among this large number
-        of distinct samples provides insight into the variation
-        inherent in expression ratios extracted from cDNA
-        microarrays. We assess reproducibility of array experiments
-        by analyzing replicates, using both clones spotted in
-        duplicate on the same array and in triplicate hybridization
-        assays. In addition, we use the methodology developed in
-        this study to compare expression in a colon and an ovarian
-        cell line to identify tissue-specific genes.
-        Self-self hybridization results for individual cell
-        lines were also analyzed to determine the composition of an
-        optimal reference pool consisting of RNA derived from cell
-        lines. Our underlying hypothesis was that pooling a large
-        number of cell lines might not necessarily improve the
-        overall gene representation. Although some cell lines
-        express significantly more genes than others, not all cell
-        lines express all genes at the same levels. Consequently,
-        mixing cell lines may dilute rare transcripts so that their
-        representation in the final RNA pool is below the
-        detectable limit. Results of our analysis will aid in the
-        future assessment of gene-expression patterns and the
-        design of reference RNA samples.
+        Much has been written in the last decade about the
+        potential of transcranial magnetic stimulation (TMS) as a
+        new diagnostic and therapeutic tool in clinical
+        neurophysiology [ 1 2 3 ] . TMS is a painless and
+        non-invasive technique for stimulating cortical tissue by
+        means of magnetic induction. TMS has been used to map the
+        motor cortex by recording evoked responses, and appears to
+        show potential for treating certain brain disorders, from
+        Parkinson's disease to depression. A disadvantage of TMS,
+        however, is its inability to localize the site of
+        excitation in the brain to a volume less than several tens
+        of cubic centimeters at best. This is because the spatial
+        distribution of the magnetic fields cannot be effectively
+        concentrated or focused. In fact, because the fields obey
+        Laplace's equation, it is impossible to create local maxima
+        in the field intensity no matter what the configuration of
+        source coils; in a homogeneous conducting medium, the field
+        strength will always be largest at the surface and fall off
+        monotonically at greater depths.
+        In this paper, we propose a different method of
+        stimulating cortical tissue, which, in principle, could
+        permit much greater localization of the site of excitation
+        as well as deeper penetration into the brain. The idea is
+        to induce electrical currents by propagating an ultrasonic
+        wave in the presence of a strong DC magnetic field. The
+        currents are generated by Lorentz forces on moving ions
+        produced by the oscillating sound wave. 1
+        We present here an analysis of the distribution of the
+        electric field induced by an ideally collimated ultrasonic
+        beam in a homogeneous conducting medium. The analysis
+        allows us to calculate the magnitude of the electric field
+        strengths that can be expected, and shows that the highest
+        practical fields that can be induced by ultrasound, up to
+        about 8 V/m, are about an order of magnitude lower than
+        those associated with TMS. Such fields have been reported
+        in the literature to range between about 10 and 100 V/m [ 5
+        ] . We note, however, that the spatial and temporal
+        character of the ultrasonically-induced fields are quite
+        different from those induced by magnetic induction. One
+        such difference is that the spatial variations of the
+        ultrasonically-induced fields are much more rapid than the
+        fields associated with TMS since, in the former case, the
+        fields change on the scale of the ultrasonic wavelength
+        (e.g., less than a millimeter). Thus, the magnitude of the
+        gradients of the ultrasonically-induced electric fields can
+        be comparable to those associated with TMS, depending on
+        the ultrasonic frequency (e.g., at 4 MHz, a gradient of
+        about 60 kV/m 2is attainable). This may be significant
+        since activation models predict that the gradient of the
+        field, rather than its strength, is primarily responsible
+        for neural stimulation [ 6 7 ] . However, researchers have
+        also speculated that field gradients induced by
+        cellular-scale inhomogeneities in the tissue conductivity
+        may play a more important role in neural stimulation than
+        the spatial variations of the impressed fields [ 8 9 10 11
+        12 ] . The latter question is important in deciding whether
+        the potentially large impressed field gradients induced by
+        ultrasound are truly an advantage in effecting stimulation.
+        2
+        A second difference between ultrasonic stimulation and
+        TMS that may have some practical significance for exciting
+        neural tissue is related to our greater freedom in
+        controlling the time dependence of an ultrasonic pulse
+        compared to a TMS pulse. We show below that the temporal
+        dependence of the electric field (and the induced current
+        density) follows that of the ultrasonic waveform. Although
+        the duration of a TMS pulse is typically on the order of a
+        few tenths of a millisecond and the ultrasonic variation is
+        on the order of microseconds or less (roughly the
+        reciprocal of the ultrasonic frequency), considerable
+        control over the shape of the ultrasonic waveform is in
+        principle possible. For example, one can transmit an
+        ultrasonic pulse train at essentially any repetition
+        frequency or modulate a continuous ultrasonic wave in a
+        variety of ways.
+        For neural excitation to take place, the magnitude of
+        the induced electric field (or its gradient) must exceed an
+        activation threshold. It is generally believed that
+        excitation that is oscillatory in time makes this process
+        more difficult. For example, simulations carried out by
+        Reilly suggest that, using a sinusoidal stimulus, the
+        activation threshold increases monotonically with frequency
+        beyond a few kHz [ 15 ] . However, Reilly also reports that
+        a series of rapid pulses, where the repetition period is
+        short compared to the depolarization time constant (the
+        latter being a few tenths of a millisecond), is a much more
+        effective stimulus than a pure sinusoid. Reilly describes
+        this as the "integration effect of multiple pulses." If the
+        individual pulses are monophasic, the activation threshold
+        is considerably reduced compared to a single monophasic
+        pulse. For example, Reilly reports that the integration
+        effect of a series of rapid pulses, each 10 microsec in
+        duration with a repetition rate of 50 kHz, reduces the
+        activation threshold by a factor of 5 relative to a single
+        10 microsec pulse.
+        A key question is whether a series of pulses of this
+        kind can be generated ultrasonically. Certainly, the 50 kHz
+        rate is feasible. A second question is whether one can
+        create an ultrasonic pulse that is approximately
+        monophasic. With some ingenuity, the answer appears to be
+        yes. For example, although an ultrasonic pulse must have a
+        zero DC component, the pulse need not be symmetric; that
+        is, the positive-going excursion of an ultrasonic pulse
+        can, under certain conditions, significantly exceed the
+        negative-going excursion, which would approximate a
+        "monophasic" waveform. A simple example of the latter can
+        be achieved with the aid of an ultrasonic transducer that
+        is non-symmetric, e.g., a transducer whose length is much
+        greater than its width. In this case, there is a large
+        positive excursion followed by a much longer, but weaker,
+        negative excursion (an ultrasonic "wake"). Another way to
+        alter the shape of an ultrasonic pulse is by transmitting
+        it through a dispersive medium that acts as an ultrasonic
+        filter, or by using multi-layered transducers.
+        Although, in our analysis, we shall for simplicity
+        assume a static magnetic field, an alternative approach is
+        to use an optimally-designed magnetic pulse produced by a
+        conventional TMS coil to bring the neural tissue close to
+        its activation threshold, but not exceeding it. TMS coils
+        create fields, although transient, in the range of 1 T to 4
+        T. An ultrasonic pulse (or series of pulses), if properly
+        timed, could then push the membrane potential past
+        threshold. In this way, the locus of activation would still
+        be determined by the ultrasound, although deep stimulation
+        might still be difficult because the field intensity
+        produced by a TMS coil falls off rapidly with depth (a
+        problem avoided by using a static field). It is worth
+        noting that the idea of using a conditioning pulse of this
+        kind was suggested by Reilly [ 16 ] , but in a somewhat
+        different context. Reilly proposed using two coils, one
+        that produces a "conditioning pulse" (Reilly's phrase) to
+        achieve 75% of the excitation threshold; then a second
+        nearby coil, excited by a sinusoidal waveform (of frequency
+        80 kHz in Reilly's example), would push the membrane
+        potential beyond threshold. His idea was that the
+        combination of coils is more effective in achieving greater
+        "focality," or localization, of the stimulus than a single
+        coil. Using a mathematical model of neural activation,
+        Reilly predicts that this combination of signals, the
+        conditioning pulse plus the 80 kHz sine wave, will achieve
+        activation. One could speculate that, instead of the 80 kHz
+        sinusoidal signal, the conditioning pulse could be
+        accompanied by a series of ultrasonic pulses at a rate of
+        80 kHz (or whatever rate is determined to be optimal). It
+        may turn out that these questions can only be settled by
+        experiment, or by sophisticated modeling of the neuron in
+        the presence of a realistic ultrasonic wave.
       
       
-        Results and discussion
+        Method
         
-          Cell line self-self hybridizations
-          To evaluate the natural variability present in spotted
-          cDNA microarray data across a number of distinct RNA
-          samples, we carried out a set of self-self assays in
-          which aliquots of the same RNA are separately labeled
-          with Cy3 and Cy5 dyes and co-hybridized to a single
-          microarray. Poly(A) +RNA was prepared from 19 human
-          carcinoma cell lines (2 brain, 5 colon, 10 ovarian, 1
-          pancreatic, and 1 testicular) and Stratagene's universal
-          human reference RNA. RNA was reverse transcribed into
-          cDNA using random hexamer primers in the presence of
-          5-aminoallyl-dUTP; Cy3 and Cy5 dyes were covalently
-          coupled to the incorporated aminoallyl linkers in a
-          subsequent labeling reaction.
-          For each cell line, Cy3- and Cy5-cDNA samples were
-          co-hybridized to a spotted microarray containing 19,200
-          human cDNA clones (9,600 clones printed in duplicate).
-          Hybridization results were analyzed to determine relative
-          expression levels for each printed element, and
-          hybridization intensity data were first normalized
-          globally using an iterative mean-log 
-          2 (ratio)-centering approach. Briefly,
-          log 
-          2 (ratio) values were calculated for
-          each array element and the mean of the distribution was
-          calculated. Ratios were adjusted such that the mean log 
-          2 (ratio) for the entire collection of
-          genes was set to zero (or a corresponding average ratio
-          of 1). As outliers can significantly influence this
-          process, these were identified and excluded and the
-          process repeated until convergence. This process results
-          in an average Cy5/Cy3 log 
-          2 (ratio) of zero for the spots
-          analyzed in each microarray.
-          We and others have noted that the log 
-          2 (ratio) values often have a
-          systematic dependence on intensity most often observed as
-          a deviation from zero for low-intensity spots. Locally
-          weighted linear regression (lowess) [ 6] has been
-          proposed as a normalization method for microarray assays
-          [ 7, 8] that can remove intensity-dependent dye-specific
-          effects in the log 
-          2 (ratio) values.
-          In this procedure, fluorescence intensities are
-          measured from both channels for all elements on the array
-          and the log 
-          2 (Cy5/Cy3) ratios for each spot are
-          represented as a function of the log 
-          10 (Cy5*Cy3) product intensities.
-          Scatter-plots of such data, referred to as an 'R-I plot'
-          (for ratio-intensity), can reveal intensity-specific
-          artifacts in the measurement of the ratio, which tend to
-          occur most notably for weakly fluorescing arrayed
-          elements. For a self-self hybridization of the type
-          analyzed here, one expects a mean log 
-          2 (Cy5/Cy3) ratio of zero for each
-          element in the array independent of intensity. Lowess
-          enables deviations from this expected behavior to be
-          detected and corrected by performing a local weighted
-          linear regression for each data point in the R-I plot and
-          subtracting the average ratio from the experimentally
-          observed ratio. A representative R-I plot for the cell
-          line KM12L4A in Figure 1shows a slight upward curve of
-          the log 
-          2 (ratio) for low-intensity data
-          points (shown in blue) which is removed after application
-          of the lowess correction, producing a balanced
-          distribution of expression ratios around zero independent
-          of intensity (shown in red). Similar plots, including a
-          calculated standard deviation (SD) both before and after
-          lowess correction, are shown in Figure 1c. The most
-          important feature of the data is the narrow distribution
-          of ratios in individual array experiments regardless of
-          the RNA sample assayed in each experiment. This is also
-          true of the entire dataset, as can be seen in the
-          histogram of combined expression ratios from 30
-          experiments, shown in Figure 2.
-          These results are comparable to those obtained in a
-          recent study of 30 self-self hybridizations on
-          10,000-element cDNA arrays [ 9]. Yue 
-          et al. [ 9] created histograms for
-          three sets of data, each consisting of 10 independent
-          array experiments, using mRNA derived from human
-          placenta, brain and heart tissue. In one of their data
-          sets, a 2-SD limit of 1.25-fold was observed; combined,
-          99.5% of the data points were within ± 1.4-fold. A small
-          number of distinct samples (3) in combination with a
-          large number of replicates per sample (10) most probably
-          accounts for the slightly tighter distribution of
-          expression ratios than that observed in our study.
-          The second important aspect of our dataset is the
-          number of 'outliers'; approximately 5% of the data points
-          in each array fall outside of 2 SD from the mean (data
-          not shown). While this is not unexpected, it suggests
-          that the distribution of log 
-          2 (ratio) values does not deviate
-          badly from normal. This is of a particular significance
-          because it should enable detection of genes with low
-          levels of differential expression at high confidence in
-          future studies. Combining all data from all 30
-          hybridizations, the 2-SD limit is equivalent to 1.46-fold
-          change (± 0.546 log 
-          2 (ratio)), only 18,221 out of 332,601
-          points, or 5.5% of the expression ratios, fall outside a
-          2-SD threshold. Consequently, if differential expression
-          is defined as greater than 2 SD from the mean, genes with
-          fold changes greater than 1.5 can be classified as up- or
-          down-regulated at approximately 95% confidence level.
-          Good-quality array data can only be generated using
-          well developed and extensively tested laboratory and
-          data-analysis protocols. Our group has been working
-          continuously to improve our laboratory procedures and
-          implement new data-analysis methods. One of the changes
-          recently adopted by ours and many other laboratories is
-          indirect cDNA labeling. As first-strand cDNA synthesis is
-          identical for both samples, incorporation of nucleotides
-          with an aminoallyl linker followed by the covalent
-          coupling reaction to Cy dyes reduces bias for
-          incorporation of one dye over the other by the reverse
-          transcriptase. Slight dye-specific effects are present in
-          normalized low-intensity data, probably caused by a
-          wavelength-dependent differential response of the
-          photomultiplier tubes in the array scanners or slight
-          differences or nonlinearities in the quantum efficiencies
-          of the fluorescent dyes, but these can be efficiently
-          removed by the application of the lowess correction.
+          Concept
+          Localized electric currents can be induced in tissue
+          by propagating ultrasound in the presence of a magnetic
+          field. Consider, for example, an ultrasonic pulse
+          propagating in an electrolytic fluid (such as soft
+          tissue) in the presence of a static magnetic field
+          oriented in a direction perpendicular to the propagation
+          path. The longitudinal particle motion due to the
+          ultrasonic wave moves the ions back and forth through the
+          magnetic field; this results in Lorentz forces on the
+          ions that give rise to an electric current density that
+          oscillates at the ultrasonic frequency. This idea was
+          used as the basis of "Hall effect imaging" proposed by
+          Wen [ 17 ] in which Lorentz forces are employed to image
+          the electrical conductivity of tissue. Montalibet et al.
+          also noted that propagating ultrasound in the presence of
+          a magnetic field will generate electric currents in
+          tissue [ 18 ] . They also proposed using this effect to
+          measure the electrical conductivity of tissue.
+          Here we propose a new application: localized
+          stimulation of active (nerve or cortical) tissue by
+          ultrasonically-induced electric fields. Our objective in
+          this paper is to compute the magnitude and the spatial
+          distribution of the these fields. We shall show that
+          analytical solutions for the field distribution can be
+          derived for an ideally collimated ultrasonic beam.
         
         
-          Tissue sample self-self hybridization
-          In our experience, hybridization using RNA derived
-          from tissue samples is generally more problematic than
-          that derived from cell lines. To determine whether data
-          of comparable quality can be generated with tissue RNA,
-          we carried out a similar expression analysis using RNA
-          derived from a colon tumor liver metastasis. Twenty
-          micrograms of total RNA that have been extracted using
-          Trizol and subjected to secondary purification using
-          Qiagen RNeasy columns were labeled with both Cy3 and Cy5
-          and examined in a self-self co-hybridization assay. The
-          distribution of expression ratios is in excellent
-          agreement with cell-line data; only 507 out of 11,743
-          (4.3%) of identified spots fall outside the 1.42-fold
-          change, 2-SD limit.
-        
-        
-          Intensity-dependent estimation of differential
-          expression
-          While lowess normalization greatly reduces
-          dye-specific artifacts that often appear for
-          low-intensity data points, the data exhibit additional
-          structure that can be used to evaluate patterns of gene
-          expression. As can be seen in Figure 1a, the log 
-          2 (ratio) measures generally show
-          greater variation at lower intensities. Most published
-          microarray studies use a single log 
-          2 (ratio) threshold as a measure of
-          differential expression. Examination of the distribution
-          in Figure 1suggests that this may inappropriately
-          identify genes at intensities where the natural variation
-          in the data would not support their selection, while at
-          the same time causing genes to be missed in other
-          intensities where the data suggest that much lower log 
-          2 (ratio) values are statistically
-          significant. Several mathematical models have been
-          derived to explain this phenomenon [ 10, 11, 12, 13, 14].
-          One [ 10] discusses the use of a smoothed estimate of the
-          SD as a function of the fluorescence intensity. The study
-          conducted by Hughes 
-          et al. [ 11] shows how their model
-          for estimating intensity-dependent differential
-          expression can be used to identify biologically
-          meaningful differential regulation at levels lower than
-          twofold in a compendium of 300 different 
-          Saccharomyces cerevisiae mutants
-          and chemical treatments.
-          We developed a much simpler approach to identify
-          differentially expressed genes using an
-          intensity-dependent calculation of a standard 
-          Z -score. Using a sliding window of
-          fixed width in log 
-          10 (Cy5*Cy3), the local mean and SD
-          was calculated for each gene using the data in the
-          normalized R-I plot. Figure 3adepicts the result of such
-          a calculation for the cell line KM12L4A, with data less
-          than 1 SD shown blue, between 1SD and 2SD in green, and
-          greater than 2 SD in red, respectively; genes greater
-          than 2 SD from the local mean ( 
-          Z > 2) are identified as being
-          significantly differentially expressed.
-          The shape of the R-I plot and the 
-          Z -score distributions are
-          characteristic of the samples being compared in the
-          microarray assay under consideration. For closely related
-          samples, such as RNA from a cell line and the same line
-          perturbed with a stressor, the R-I distribution has a
-          'tadpole' shape similar to that shown for our self-self
-          hybridization, although typically with a slightly broader
-          distribution in the log 
-          2 (ratio) than that shown in Figure
-          3a. When two very different samples or tissues are
-          compared, however, the distribution generally has a
-          characteristic 'eye' shape, with the greatest spread
-          coming at intermediate expression levels. Figure 3bshows
-          the results from a hybridization comparing the CaC02
-          (colon) and PA-1 (ovary) cell lines.
-        
-        
-          Analysis of replicates
-          Expression data for clones spotted in duplicate were
-          examined to assess reproducibility within each array.
-          Plots of the log 
-          2 -transformed ratios of the Cy5 and
-          Cy3 intensities for the two replicates were generated for
-          this purpose. As can be seen in the representative plot
-          in Figure 4a(blue), log 
-          2 (Cy5/Cy3) values form a 'sphere'
-          centered around zero with the majority of data points
-          lying between - 0.5 and + 0.5 on both axes. However, a
-          small number of outliers is present and probably
-          represent situations where one or both of the replica
-          spots are of poor quality. Similar plots were obtained
-          for the other 29 self-self hybridization assays (data not
-          shown).
-          Because one cannot determine 
-          a priori which of the duplicates is
-          in error, irreproducible elements should be removed
-          before any further analysis, unless many more replicates
-          are analyzed. The idea of outlier filtering was also
-          incorporated into the model for the intensity-dependence
-          of expression ratios introduced by Baggerly 
-          et al. [ 10]; we developed a simple
-          approach to flag and eliminate questionable replicates.
-          Ideally, Cy5/Cy3 ratios should be the same for the two
-          replicas and log 
-          2 (r 
-          1 /r 
-          2 ) (where r 
-          1 and r 
-          2 are Cy5/Cy3 ratios for the two
-          replicas) should be equal to zero; replicates where this
-          condition is not satisfied probably contain one or more
-          bad elements. Consequently, we sought to filter out genes
-          whose log 
-          2 (r 
-          1 /r 
-          2 ) deviates greatly from this
-          expected value of zero. We calculated the mean and SD of
-          this log 
-          2 (r 
-          1 /r 
-          2 ) for each pair of replicas in the
-          entire array, and eliminated pairs of elements whose log 
-          2 (r 
-          1 /r 
-          2 ) is greater than 2 SD from the
-          mean. In Figure 4a, 6.3% of data points were eliminated
-          using this outlier criterion (red), resulting in a much
-          tighter dataset.
-          We also examined duplicate clone filtering in a
-          hybridization assay of two different samples, CaCO2 and
-          PA-1 (Figure 4b). In the case of differential expression,
-          the correlation of the replica ratios is expected to be
-          linear. The correlation increases from r = 0.86 (blue;
-          dashed line) to r = 0.95 (red; solid line) after 1.7% of
-          outliers are filtered out using the method outlined
-          above. The substantial increase in the correlation
-          coefficient suggests that our filtering procedure
-          efficiently removes elements with at least one unreliable
-          log 
-          2 (Cy5/Cy3) value.
-          A similar approach can be used to identify
-          questionable replicate spots on separate slides. To show
-          this, five cell lines (CaOV3, HCT-116, KM12L4A, NT2/D1,
-          and SW480) were selected and assayed in triplicate. In
-          addition, expression in CaCO2 and PA-1 was compared in
-          triplicate hybridizations. RNA from the same isolation
-          was used for replicate hybridizations, thus allowing us
-          to concentrate on technical and not biological
-          replication and to explore more thoroughly the systematic
-          errors that can arise. Replicate slides were subject to
-          filtering in pairs (arrays 1 and 2; 2 and 3; 1 and 3)
-          using a process analogous to that applied to within-slide
-          replicates; representative data are shown in Figure 5.
-          Correlations of log 
-          2 (Cy5/Cy3) values for the three pairs
-          of arrays before (blue; dashed line) and after (red;
-          solid line) filtering for the CaOV3 cell line self-self
-          hybridizations are shown in Figure 5a. The same set of
-          plots for differential expression assays of CaCO2 and
-          PA-1 cell lines including linear fits to the data is
-          shown in Figure 5b.
-          Triplicate hybridization assays enable us to assess
-          variability among independent labeling reactions and
-          hybridizations. As can be seen in Figure 5a, there is
-          some variation in correlations for each pair of
-          hybridization replicas (arrays 1 and 2, as well as 2 and
-          3, show better correlation than do arrays 1 and 3). When
-          averaged over three pairs of replicas, however, the
-          variability between arrays is comparable to within-array
-          variation. Similar results were obtained for the
-          remaining four cell lines (data not shown). For the case
-          of hybridizations of two different samples (Figure 5b),
-          the mean r values increase significantly from 0.83 (blue;
-          dashed lines) to 0.94 (red; solid lines) after outliers
-          in each pair of hybridizations are filtered out. These
-          correlations are, as in the case of self-self
-          hybridizations, similar to those seen for within-array
-          replicas.
-          Our analysis suggests that replication is essential
-          for ensuring data quality, whether spotting replicate
-          clones on single arrays or performing multiple
-          independent hybridization assays. Further, the replicate
-          filtering process we describe here is a simple approach
-          that can eliminate questionable array elements and
-          provide higher-confidence expression measurements.
-        
-        
-          Identification of differentially expressed
-          genes
-          To show how the concepts presented in this study can
-          be applied to detect differentially regulated genes, we
-          sought to identify sets of genes that are over- and
-          under-expressed in ovary relative to colon by analyzing
-          hybridization assays of CaCO2 (colon) and PA-1 (ovary)
-          cell lines. The CaCO2 sample was labeled with Cy3 and the
-          PA-1 sample was labeled with Cy5; genes that are
-          expressed in colon at much higher levels will, therefore,
-          have negative log-ratios and ovary genes will have
-          positive log-ratios.
-          For this analysis, we applied the process outlined in
-          the previous discussion as follows. First, individual
-          arrays were normalized using mean-log-centering and
-          lowess procedures (as outlined in the Cell line self-self
-          hybridizations section). Next, unreliable spots among
-          triplicate arrays were eliminated using the filtering
-          approach discussed in the Analysis of replicates section.
-          Then, intensity-dependent SDs on the log 
-          2 (ratio) were computed for each
-          array, as described in the Intensity-dependent estimation
-          of differential expression section. Array elements with
-          ratios outside the 2-SD limit were defined as
-          differentially regulated; 510, 543 and 523 were
-          identified in each individual assay. Finally, the
-          intersection of differentially expressed genes on all
-          three arrays was taken; this resulted in a list of 324
-          array elements (225 genes, as some are within-array
-          replicates), of which 157 (109 genes) have higher
-          expression in colon and 167 (116 genes) are more highly
-          expressed in the ovary relative to colon.
-          A list of differentially expressed genes with mean log
+          Theory
+          Consider an ion in a conductive medium with charge 
+          q . The longitudinal particle
+          motion of an ultrasonic wave will cause the ion to
+          oscillate back and forth in the medium with velocity 
+          v . In the presence of a constant
+          magnetic field, 
+          B 
+          0 , the ion is subjected to the
+          Lorentz force
           
-          2 (Cy5/Cy3) values and SD calculated
-          over three experiments is available (see Additional data
-          files). The small SDs illustrate the reproducibility of
-          measurements made using the methods described here and
-          show their ability to provide a high-confidence list of
-          differentially expressed genes and their expression
-          ratios.
-          In an attempt to validate the differential expression
-          we observed in this assay, we compared our results to the
-          expression patterns derived from EST libraries generated
-          from 18 colon and 12 ovarian sources (including normal
-          tissue, cancer tissue, and cell lines) using the digital
-          differential display (DDD) available at the National
-          Center for Biotechnology Information (NCBI) [ 15] (see
-          Additional data files). Although these data sets are not
-          completely complementary, we identified one gene that is
-          significantly upregulated in the colon relative to ovary
-          ( 
-          PLAB , coding for prostate
-          differentiation factor; Hs.296638; THC888554), and one
-          gene that is overexpressed in the ovary relative to colon
-          (24-dehydrocholesterol reductase; 
-          DHCR24; Hs.75616; THC932478) in
-          both microarray and DDD data. We also identified three
-          gene families significantly differentially expressed in
-          both datasets. We found genes in the solute carrier
-          families 34 (Hs.84700; DDD), 22 (THC960422; microarray)
-          and 16 (THC863879; microarray), as well as laminin A5
-          (Hs.11669; DDD) and A4 (THC933239; microarray) to be more
-          abundant in the ovary. In addition, serologically defined
-          colon cancer antigens 28 (Hs.84700; DDD) and 33
-          (THC899239; microarray) were more highly represented in
-          colon. However, we also found two discrepancies in
-          relative abundances of one gene and one gene family
-          between the DDD and microarray data. DDD data indicate
-          that the protein-kinase inhibitor P58 (Hs.177574;
-          THC906738) is more abundant in the ovary but the same
-          gene appears to be more highly represented in the colon
-          in our microarray study. Similarly, insulin-like growth
-          factor binding protein 3 (Hs.77326; DDD) is upregulated
-          in the ovary relative to colon while the opposite is true
-          for insulin-like growth factor binding protein 6
-          (THC1022140; microarray).
-          To further validate our findings, we performed
-          quantitative real-time reverse transcription PCR (RT-PCR)
-          assays on 25 genes with log 
-          10 (R*G) and log 
-          2 (R/G) values encompassing the entire
-          range present in the microarray data. Expression ratios
-          obtained by quantitative RT-PCR (see Additional data
-          files), are in good agreement with the ratios obtained
-          using microarrays. This concordance is especially
-          significant for genes with low expression ratios and for
-          transcripts expressed at low copy number, confirming the
-          validity of our approach for obtaining a high-confidence
-          list of differentially expressed genes. RT-PCR data also
-          showed that the P58 protein-kinase inhibitor (Hs.177574;
-          THC906738) is upregulated in the colon relative to ovary,
-          which supports our array results and suggests that the
-          discrepancy between microarrays and DDD is not due to
-          technical limitations of microarray assays but reflects a
-          true biological difference between the cell lines we
-          compared and tissues used in DDD.
+          F = 
+          q 
+          v × 
+          B 
+          0 . (1)
+          This produces an electric current density given by
+          
+          J 
+          0 = ( 
+          n 
+          + 
+          u 
+          + + 
+          n 
+          - 
+          u 
+          - ) 
+          F , (2)
+          where 
+          u 
+          + and 
+          u 
+          - are the mobilities of the positive
+          and negative ions (assumed to have charges of 
+          q and - 
+          q , respectively), and 
+          n 
+          + and 
+          n 
+          - are their concentrations. Combining
+          (1) and (2) gives
+          
+          J 
+          0 = 
+          q ( 
+          n 
+          + 
+          u 
+          + + 
+          n 
+          - 
+          u 
+          - ) 
+          v × 
+          B 
+          0 . (3)
+          But the electrical conductivity, σ, of the medium is
+          given by
+          σ = 
+          q ( 
+          n 
+          + 
+          u 
+          + + 
+          n 
+          - 
+          u 
+          - ), (4)
+          so that
+          
+          J 
+          0 = σ 
+          v × 
+          B 
+          0 . (5)
+          A typical value of the conductivity of tissue is 0.5
+          Siemens/m. In the most general case, the conductivity σ
+          may be regarded as a complex quantity to account for
+          polarization (or displacement) currents at higher
+          frequencies. From (5), the equivalent electric field
+          is
+          
+          E 
+          0 = 
+          v × 
+          B 
+          0 . (6)
+          The field, 
+          E 
+          0 , and the current density, 
+          J 
+          0 , oscillate at the ultrasonic
+          frequency in a direction mutually perpendicular to the
+          propagation path (the direction 
+          v ) and the magnetic field 
+          B 
+          0 .
+          For convenience, we assume harmonic excitation of the
+          ultrasonic wave of the form exp(- 
+          i ω 
+          t ). Since all our equations are
+          linear, an arbitrary time dependence can be treated by
+          Fourier synthesis. In the following, the time dependence
+          of all quantities, both ultrasonic and electromagnetic,
+          will be exp(- 
+          i ω 
+          t ), so this factor is dropped. The
+          ultrasonically-induced current density 
+          J 
+          0 can be regarded as an impressed
+          current density that gives rise to scattered (or
+          secondary) electric and magnetic fields 
+          E 
+          
+            s 
+           and 
+          B 
+          
+            s 
+           that obey the Maxwell's equation
+          × 
+          B 
+          
+            s 
+           = μ 
+          0 σ 
+          E 
+          
+            s 
+           + μ 
+          0 
+          J 
+          0 , (7)
+          where μ 
+          0 is the free-space magnetic
+          permeability. Dielectric properties of tissue can be
+          accounted for by replacing σ everywhere with σ - 
+          i ωε where ε is the tissue
+          permittivity. At a frequency of about 1 MHz and using
+          typical values for tissue, the quantity ωε will be one to
+          two orders of magnitude less than σ.
+          Substituting (5) and (6) into (7), we have
+          × 
+          B 
+          
+            s 
+           = μ 
+          0 σ( 
+          E 
+          
+            s 
+           + 
+          E 
+          0 ). (8)
+          In this equation, the impressed electric field is 
+          E 
+          0 , given by (6), and 
+          E 
+          
+            s 
+           is the induced electric field whose source is the
+          Lorentz-induced current density (5). The total electric
+          field is the sum
+          
+          E = 
+          E 
+          
+            s 
+           + 
+          E 
+          0 , (9)
+          and the total current density is
+          
+          J = σ 
+          E 
+          
+            s 
+           + 
+          J 
+          0 = σ 
+          E . (10)
+          Here our objective is to compute the induced field, 
+          E 
+          
+            s 
+           , to be substituted into (9) to obtain the total
+          field, 
+          E .
+          To solve this problem, consider a collimated
+          ultrasonic beam propagating in the 
+          z -direction, assumed here to have
+          axial symmetry with a radial profile given by 
+          p ( 
+          r ), where . The particle velocity
+          is then given by:
+          
+          where 
+          v 
+          0 is the peak particle velocity, is
+          the 
+          z -directed unit vector along the
+          beam axis, 
+          k 
+          0 = ω/ 
+          c 
+          0 , and 
+          c 
+          0 is the ultrasonic wave speed.
+          Although this beam is idealized (e.g., it neglects
+          spreading), (11) is a reasonable approximation to a
+          focused ultrasonic beam in the region of its focus. In
+          the presence of a magnetic field 
+          B 
+          0 = 
+          B 
+          0 , the resultant Lorentz-induced
+          current density is predicted by (5) to be:
+          
+          J 
+          0 ( 
+          r ) = 
+          B 
+          0 
+          v 
+          0 σ 
+          p ( 
+          r ) . (12)
+          When this current density is substituted into (7), one
+          can solve for the induced electric field, 
+          E 
+          
+            s 
+           , using standard techniques. As shown in the
+          appendix, the components of 
+          E 
+          
+            s 
+           in cylindrical coordinates are found to be
+          
+          where
+          
+          and 
+          I 
+          0 (·) and 
+          K 
+          0 (·) are modified Bessel functions of
+          the first and second kind. At this point, for an
+          arbitrary beam profile 
+          p ( 
+          r ), one must resort to a numerical
+          integration of (16). However, the integrals can be
+          evaluated analytically for the special case of an ideally
+          collimated ultrasonic beam whose radial profile is
+          defined by
+          
+          where 
+          a is the beam radius. Substituting
+          (17) into (16), we find [ 19 ] :
+          
+          Inserting this result into (13)-(15), we obtain the
+          components of the induced electric field 
+          E 
+          
+            s 
+           , as follows. Inside the beam ( 
+          r < 
+          a ), we have
+          
+          E 
+          
+            r 
+           ( 
+          r ,φ, 
+          z ) = 
+          B 
+          0 
+          v 
+          0 
+          P 
+          
+            r 
+           ( 
+          r ) sin φ (19)
+          
+          E 
+          φ ( 
+          r ,φ, 
+          z ) = 
+          B 
+          0 
+          v 
+          0 
+          P 
+          φ ( 
+          r ) cos φ (20)
+          
+          E 
+          
+            z 
+           ( 
+          r ,φ, 
+          z ) = 
+          B 
+          0 
+          v 
+          0 
+          P 
+          
+            z 
+           ( 
+          r ) sin φ (21)
+          where
+          
+          
+          P 
+          
+            z 
+           ( 
+          r ) ≡ - 
+          ik 
+          0 
+          a K 
+          1 ( 
+          k 
+          0 
+
+          a ) 
+          I 
+          1 ( 
+          k 
+          0 
+          r ), (24)
+          and outside the beam ( 
+          r > 
+          a ),
+          
+          E 
+          
+            r 
+           ( 
+          r ,φ, 
+          z ) = 
+          B 
+          0 
+          v 
+          0 
+          Q 
+          
+            r 
+           ( 
+          r ) sin φ (25)
+          
+          E 
+          φ ( 
+          r ,φ, 
+          z ) = 
+          B 
+          0 
+          v 
+          0 
+          Q 
+          φ ( 
+          r ) cos φ (26)
+          
+          E 
+          
+            z 
+           ( 
+          r ,φ, 
+          z ) = 
+          B 
+          0 
+          v 
+          0 
+          Q 
+          
+            z 
+           ( 
+          r ) sin φ (27)
+          where
+          
+          
+          Q 
+          
+            z 
+           ( 
+          r ) ≡ - 
+          ik 
+          0 
+          a I 
+          1 ( 
+          k 
+          0 
+          a ) 
+          K 
+          1 ( 
+          k 
+          0 
+          r ). (30)
+          On the beam boundary ( 
+          r = 
+          a ), the tangential components of
+          the electric field are continuous as expected; that is, 
+          P 
+          φ ( 
+          a ) = 
+          Q 
+          φ ( 
+          a ) and 
+          P 
+          
+            z 
+           ( 
+          a ) = 
+          Q 
+          
+            z 
+           ( 
+          a ). This can be checked by setting
+          
+          r = 
+          a in the above equations and using
+          the identity [ 20 ]
+          
+          By comparing 
+          P 
+          
+            r 
+           ( 
+          a ) and 
+          Q 
+          
+            r 
+           ( 
+          a ), however, we see that the
+          radial component of the field is discontinuous on the
+          boundary, indicating charge accumulation there. This
+          charge, of course, oscillates at the ultrasonic
+          frequency. The radial electric field discontinuity is
+          seen to be
+          Δ 
+          E = 
+          B 
+          0 
+          v 
+          0 [ 
+          Q 
+          
+            r 
+           ( 
+          a ) - 
+          P 
+          
+            r 
+           ( 
+          a )] sin φ = 
+          B 
+          0 
+          v 
+          0 sin φ , (32)
+          where (31) was used in the last step. This result can
+          be employed to compute the surface charge density, ρ 
+          
+            s 
+           , on the beam boundary by means of the relation ρ 
+          
+            s 
+           = -εΔ 
+          E , where ε is the tissue
+          dielectric constant.
+          It can be shown that the radially-dependent terms
+          (22)-(24) and (28)-(30) achieve their maximum values near
+          
+          r = 
+          a , that is, near the beam
+          boundary. In this region, the terms with 
+          k 
+          0 
+          r in the denominator can be
+          neglected compared to the other terms. Thus, the dominate
+          terms when 
+          r is near 
+          a are given by:
+          for 
+          r < 
+          a ,
+          
+          P 
+          
+            r 
+           ( 
+          r ) = - 
+          B 
+          0 
+          v 
+          0 
+          k 
+          0 
+          a K 
+          1 ( 
+          k 
+          0 
+          a ) 
+          I 
+          0 ( 
+          k 
+          0 
+          r ) (33)
+          
+          P 
+          φ ( 
+          r ) = 0 (34)
+          
+          P 
+          
+            z 
+           ( 
+          r ) = - 
+          iB 
+          0 
+          v 
+          0 
+          k 
+          0 
+          a K 
+          1 ( 
+          k 
+          0 
+          a ) 
+          I 
+          1 ( 
+          k 
+          0 
+          r ), (35)
+          for 
+          r > 
+          a ,
+          
+          Q 
+          
+            r 
+           ( 
+          r ) = 
+          B 
+          0 
+          v 
+          0 
+          k 
+          0 
+          a I 
+          1 ( 
+          k 
+          0 
+          a ) 
+          K 
+          0 ( 
+          k 
+          0 
+          r ) (36)
+          
+          Q 
+          φ ( 
+          r ) = 0 (37)
+          
+          Q 
+          
+            z 
+           ( 
+          r ) = - 
+          iB 
+          0 
+          v 
+          0 
+          k 
+          0 
+          a I 
+          1 ( 
+          k 
+          0 
+          a ) 
+          K 
+          1 ( 
+          k 
+          0 
+          r ). (38)
+          Let us evaluate these functions on the beam boundary (
+          
+          r = 
+          a ). The arguments of the Bessel
+          functions are 
+          k 
+          0 
+          a = 2π 
+          a /λ, so that, for 
+          a greater than a few wavelengths,
+          we can use the large argument asymptotic approximations [
+          21 ] :
+          
+          which gives
+          
+          where we have defined 
+          E 
+          0 ≡ 
+          B 
+          0 
+          v 
+          0 as the magnitude of the impressed
+          electric field, as seen from (6).
+          Several comments about this solution are worth noting.
+          First, for a beam with a perfectly (and unrealistically)
+          sharp boundary at 
+          r = 
+          a , the radial component of the
+          electric-field gradient is infinite on the boundary. This
+          is a mathematical artifact of our solution since the
+          electric field is discontinuous at 
+          r = 
+          a . For a real beam, the transition
+          is much more gradual (on the order of an ultrasonic
+          wavelength or more), and charge distribution on the beam
+          boundary will be distributed over this transition region.
+          A second point is that a numerical integration of (16)
+          for a more realistic beam profile, 
+          p ( 
+          r ), that falls off more smoothly
+          than (17), such as a Gaussian profile, results in an
+          electric field smaller in magnitude at the beam boundary
+          than that given by (39) and (40). Thus, the above
+          analytical solution provides a useful, but very
+          qualitative, picture of the field behavior at the beam
+          boundary. It can also be seen from the expressions
+          (22)-(24) that the induced field is near zero at the
+          center of the beam ( 
+          r = 0). In fact, (24) predicts that
+          the 
+          z -component of the induced field
+          is exactly zero at 
+          r = 0 and that the other components
+          are very small compared to 
+          E 
+          0 at 
+          r = 0. The latter statements also
+          hold true for a Gaussian beam profile, as a numerical
+          integration shows. This is a consequence of the fact that
+          
+          E 
+          
+            s 
+           arises essentially due to charge accumulation in the
+          vicinity of the beam boundary. Thus, on the beam axis,
+          the total electric field, 
+          E 
+          0 + 
+          E 
+          
+            s 
+           , is close to the Lorentz induced field 
+          E 
+          0 .
+          We next consider the gradient of the electric field.
+          For activation, we are interested in the rate of change
+          of the component of the electric field along the
+          direction of the axon. If we regard the significant field
+          as 
+          E 
+          0 only, then we note that this field
+          is perpendicular to the beam axis, while the largest
+          component of the gradient points along the beam axis and
+          is given by the derivative of 
+          E 
+          0 with respect to 
+          z . If the axon is oriented at an
+          angle α with respect to the beam direction, then the
+          component of the electric field along the direction of
+          the axon is 
+          E 
+          0 sin α. Now the rate of change of
+          this component along the axon direction is the derivative
+          of 
+          E 
+          0 sin α with respect to the distance
+          measured along the axon, which is ( 
+          ik 
+          0 cos α) 
+          E 
+          0 sin α. The magnitude of this
+          quantity is largest for α = ± 45° and equals 
+          k 
+          0 
+          E 
+          0 /2 = 
+          k 
+          0 
+          B 
+          0 
+          v 
+          0 /2. In the next section, we estimate
+          the size of 
+          E 
+          0 and the gradient 
+          k 
+          0 
+          E 
+          0 /2 for a practical example.
         
+      
+      
+        Results and Discussion
+        Here we estimate the peak electric field that can be
+        safely induced using ultrasound at the upper range of
+        diagnostic intensities. A key parameter in computing the
+        field strength is the particle velocity generated by the
+        ultrasonic wave. The peak particle velocity, 
+        v 
+        0 , can be related to the peak pressure,
         
-          Reference pool selection
-          Comparison of query samples to a common reference
-          sample is among the most widely used experimental designs
-          for large-scale microarray studies [ 16, 17]. Reference
-          samples often consist of pools of RNA molecules derived
-          from cell lines because cell lines provide a renewable
-          source of large quantities of RNA. Each cell line
-          expresses a distinct assortment of RNA species, so any
-          particular cell line will provide measurable, baseline
-          hybridization for only a subset of the genes on an array.
-          Consequently, cell line RNA reference pools are typically
-          constructed from a large number (10 or more) of cell
-          lines derived from a variety of primary tissues. The idea
-          underlying such a design is that by combining RNAs from
-          diverse cell lines, one might obtain a more complete
-          representation of the genes spotted on the array.
-          This approach, however, does not take into account the
-          expression levels of individual genes in each cell line.
-          While genes expressed at high levels will give detectable
-          signal even when diluted by a factor of 10, many of the
-          more rare transcripts may get diluted to below the
-          detection limit. Therefore, we hypothesized that
-          comparable or better representation of spotted genes
-          might be obtained using fewer cell lines, each expressing
-          a large number of diverse genes. To test this hypothesis,
-          we constructed two reference pools, TP-1 and TP-2, using
-          a naive gene-counting approach designed to include three
-          cell lines with the greatest representation of unique
-          genes that are also easy to grow and yield high
-          quantities of RNA. TP-1 consists of colon cell lines
-          CaCO2 and KM12L4A as well as the ovarian cell line
-          OVCAR3; OVCAR3 is replaced with the U118MG (brain) cell
-          line in TP-2.
-          The results of our analysis are summarized in Figure
-          6, which shows a histogram representing the percentage of
-          array elements with signals in both Cy3 and Cy5 channels
-          in self-self hybridizations. The performance of TP-1 is
-          comparable to that of the Stratagene pool (approximately
-          75%), despite a large difference in the number of cell
-          lines in each pool. This supports our hypothesis that
-          adding more cell lines to the pool may not necessarily
-          improve the overall gene representation because some
-          genes are diluted below the detection limit.
-          Including cell lines from very dissimilar tissues may,
-          however, give a better representation of the genes on the
-          array. TP-2 contains a brain instead of an ovarian cell
-          line and covers close to 80% of the spotted sequences.
-          This improved performance relative to TP-1 is likely to
-          be due both to the fact that brain exhibits the greatest
-          diversity of transcripts (on the basis of based EST and
-          serial analysis of gene expression, SAGE, analysis), and
-          that the subset of genes expressed in brain is more
-          disjoint with the genes observed in colon than in ovary.
-          This illustrates that a simple pool of RNA from diverse
-          cell lines can provide a superior reference.
+        p 
+        0 , of the wave using the relation
         
+        where ρ is the tissue density and 
+        c 
+        0 is the sound speed. Measurements
+        performed by Duck [ 22 ] using two modern commercial
+        ultrasonographic scanners have demonstrated instantaneous
+        peak pressures in excess of 4 MPa at the focal point of the
+        transducer. 3(Although this pressure translates into an
+        intensity that considerably exceeds the 
+        temporally-averaged FDA limit of 0.7
+        W/cm 2for diagnostic systems, the instantaneous intensities
+        are generally far higher than the latter value.)
+        Using the values of 
+        p and 
+        c 
+        0 for water, the above formula gives a
+        peak particle velocity, 
+        v 
+        0 , of 2.67 m/s. To estimate the
+        magnitude of 
+        E 
+        0 for a typical set of parameters, we
+        assume a magnetic field strength of 1.5 Tesla, which is
+        typical of whole body MRI magnets. This gives 
+        E 
+        0 = 4 V/m. The electric field strength
+        can, of course, be enhanced by increasing the magnetic
+        field 
+        B 
+        0 . Although 1.5 T is a typical MRI
+        field strength, 3 T systems have recently become available.
+        This field strength would double the peak electric field to
+        
+        E 
+        0 = 8 V/m. It may be worth noting that a
+        high-field magnet with a smaller bore designed to
+        accommodate only the head would be much less costly than
+        the whole-body machines with much larger bore diameters. In
+        general, smaller bore magnets are also more suitable for
+        high-field applications. Finally, the very high magnetic
+        field homogeneity needed for imaging is not required in
+        this application, which would further reduce costs.
+        We next estimate the maximum gradient of the electric
+        field, given earlier by 
+        k 
+        0 
+        E 
+        0 /2. The particle velocity quoted above
+        was measured for an instrument operating at an ultrasonic
+        frequency of 4 MHz [ 22 ] . Using 
+        E 
+        0 = 8 V/m, we obtain an electric field
+        gradient of 
+        k 
+        0 
+        E 
+        0 /2 = 67 kV/m 2at this frequency. This
+        is of the same order of magnitude of the activation
+        thresholds computed by Hsu and Durand [ 23 ] .
       
       
         Conclusion
-        DNA microarray assays performed using well optimized
-        laboratory protocols can produce high-quality, reproducible
-        data, although the use of replicates, particularly
-        dye-reversal, or 'flip-dye' assays, are highly desirable.
-        While global normalization of the data can help to provide
-        meaningful expression ratios, a more sophisticated
-        normalization using lowess allows for correction of
-        intensity-dependent artifacts in the data. Together, the
-        laboratory and analytical techniques described here can
-        produce highly precise and accurate data. In the 30 assays
-        we performed, the global 2-SD limit corresponded to an
-        expression ratio between ± 1.33-fold and ± 1.62-fold
-        induction or repression, with a mean of ± 1.47
-        (corresponding to log 
-        2 (ratio) values of ± 0.41, ± 0.70, and
-        ± 0.56, respectively), with fewer than 5% of the data
-        points falling outside the 2 SD limit. This suggests that
-        changes in gene expression smaller than the ± 2-fold
-        commonly used can be reliably identified as differential
-        expression. More careful analysis of the distribution of
-        ratios as a function of intensity suggests that an
-        intensity-dependent assessment of local SD of the
-        distribution provides a better measure of statistically
-        significant differential expression; essentially
-        calculating a local 
-        Z -score. The same holds true for
-        tissue RNA from tumor samples. Individual labeling
-        reactions and hybridizations do not introduce significant
-        variability, as judged from good correlations of replicate
-        experiments. However, a small number of outliers present in
-        replicate spots and/or arrays can be filtered out,
-        underlining the importance of replicates in generating
-        high-quality expression data.
-        Pooled reference samples should be designed on the basis
-        not only of representation of individual genes in each cell
-        line but also of expression levels of genes within the cell
-        lines. Adding more cell lines to the pool does not
-        necessarily improve overall gene representation because
-        rare transcripts become undetectable when diluted in a pool
-        of a large number of cell lines.
-        Overall, the data presented herein, derived from a large
-        number of RNA samples from cell lines and tissue, suggest
-        that the laboratory and data analysis protocols we describe
-        should allow for a more accurate and reproducible
-        identification of differentially expressed genes than does
-        the selection of an arbitrary, global fold-change threshold
-        chosen independent of any measure of the natural
-        variability in the data. We propose a model for analysis of
-        cDNA microarray data consisting of three steps:
-        lowess-normalization of individual arrays, followed by
-        replica filtering to remove questionable elements, and
-        finally estimation of the local 
-        Z -score for identification of
-        differentially regulated genes.
+        Although the strength of the ultrasonically-induced
+        electric fields is about an order of magnitude below that
+        of TMS generated fields, there are differences in the
+        spatial and temporal character of these fields that may
+        have some practical consequences. The first point is that
+        the ultrasonically-induced electric field gradients are
+        comparable to typical TMS gradients, because the
+        ultrasonically-induced fields pass from maximum to minimum
+        in a much shorter distance, i.e., approximately half the
+        ultrasonic wavelength (a fraction of a millimeter). A
+        second point is that one can exercise greater control over
+        the temporal shape of the ultrasonically-induced electric
+        fields compared to TMS-induced fields. For example, the
+        excitation can be oscillatory ("polyphasic") or not
+        (approximately "monophasic," with a sharp upgoing excursion
+        followed by a weaker, but longer negative going excursion).
+        Pulses can be applied in very rapid sequence, or a
+        continuous wave can be modulated in a variety of ways.
+        We also mentioned the possibility of using a
+        conventional TMS coil to generate a strong, but transient,
+        magnetic field that could be applied during the
+        transmission of the ultrasound. That is, the function of
+        the TMS pulse would be to bring the membrane potential near
+        threshold, but not to exceed it. The ultrasonic pulse (or
+        pulses) would then push the potential past threshold. One
+        could speculate that near threshold, where the membrane
+        nonlinearity is strong, a sinusoidal stimulus may be
+        effective in achieving activation due to some partial
+        rectification of the sinusoid [ 24 ] .
+        We conclude by noting that the same technique could be
+        used in principle to stimulate any type of excitable
+        tissue, not just cortical tissue, including, for example,
+        peripheral nerve tissue. Finally, it may turn out that the
+        ultrasonically-induced fields are simply too weak for
+        effective stimulation, although this remains to be
+        established. Answers to these questions may have to await
+        experimental work or further modeling of the
+        electrophysiology of neural activation.
       
       
-        Materials and methods
+        Appendix: Derivation of the Induced Electric
+        Field
+        Here we wish to solve the Maxwell equation
+        × 
+        B 
         
-          Array fabrication
-          cDNA clones were obtained from the Research Genetics
-          sequence-verified human cDNA collection. Clone inserts
-          were PCR-amplified directly from culture and purified
-          according to a previously published protocol [ 5, 18].
-          PCR from plasmid miniprep DNA was carried out for
-          microtiter plates that had fewer than 85% single-band PCR
-          products when amplified from culture. The overall success
-          rate for single-band amplification was 88%. Clones were
-          printed in duplicate from 50% DMSO onto SuperAmine slides
-          (Telechem International) as described previously and
-          cross-linked at 90 mJ using a Stratalinker
-          (Stratagene).
+          s 
+         = μ 
+        0 σ 
+        E 
         
+          s 
+         + μ 
+        0 
+        J 
+        0 (A1)
+        for 
+        E 
         
-          RNA extraction
-          Cells were grown in a tissue culture incubator (37°C,
-          5% CO 
-          2 ) in RPMI 1640 or DMEM medium (Life
-          Technologies) supplemented with 10% fetal bovine serum,
-          200 μg/ml streptomycin and 200 U/ml penicillin. RNA was
-          extracted with Trizol (Life Technologies) according to
-          the manufacturer's protocol and stored at -80°C. mRNA
-          selection from 100 μg total RNA using oligo-d(T) 
-          25 Dynabeads (Dynal) and following the
-          manufacturer's directions yielded 2-3 μg poly(A)
-          +-enriched RNA in 20 μl 10 mM Tris-HCl, pH 7.5. Agilent
-          2100 Bioanalyzer mRNA assays were carried out on 1-μl
-          aliquots and ribosomal contamination was estimated to
-          vary between 0 and 25%. The rest of the mRNA sample was
-          used to prepare fluorescently labeled cDNA probes.
-          RNA from a colon tumor liver metastasis was extracted
-          with Trizol (Life Technologies) and further purified on
-          RNeasy columns (Qiagen) using the protocol supplied by
-          the manufacturers. For each labeling reaction, 20 μg
-          total RNA were used.
+          s 
+         where 
+        J 
+        0 is given by (12). The problem is most
+        easily solved by writing the magnetic and electric fields, 
+        B 
         
+          s 
+         and 
+        E 
         
-          Probe preparation
-          First-strand cDNA synthesis was primed with 4 μg of
-          random nonamers (New England Biolabs) or 6 μg random
-          hexamers (Life Technologies) by heating at 70°C for 10
-          minutes, snap-cooling in dry ice/ethanol for 30 sec, and
-          incubating at room temperature for an additional 5-10
-          min. Reverse transcription was performed in the presence
-          of 500 μM each of dATP, dCTP, and dGTP, 200 μM
-          5-aminoallyl-dUTP (Sigma), 300 μM dTTP, 1 × first-strand
-          buffer, 10 mM dithiothreitol, and 400 U Superscript II
-          (Life Technologies) in 40-μl reactions at 42°C for 3 h to
-          overnight. Reactions were quenched by the addition of 10
-          μl of 0.5 M EDTA and RNA template was hydrolyzed by the
-          addition of 10 μl of 1 M NaOH followed by heating at 70°C
-          for 10 min. Reactions were neutralized with 10 μl of 1 M
-          HCl, and cDNA was purified on QIAquick columns (Qiagen)
-          according to the manufacturer's directions but
-          substituting phosphate wash buffer (5 mM potassium
-          phosphate pH 8.0, 80% ethanol) for buffer PE, and
-          phosphate elution buffer (4 mM potassium phosphate pH
-          8.5) for buffer EB.
-          cDNA was lyophilized to dryness and resuspended in 4.5
-          μl of 0.1 M sodium carbonate pH 9.0 buffer. NHS ester
-          (4.5 μl) of Cy3 or Cy5 dye (Amersham Pharmacia) in DMSO
-          (dye from one tube was dissolved in 72 μl of DMSO) were
-          added and reactions were incubated at room temperature in
-          the dark for 1 h. Coupling reactions were quenched by the
-          addition of 41 μl of 0.1 M sodium acetate pH 5.2, and
-          unincorporated dye was removed using QIAquick columns.
-          Labeling efficiency was determined by analyzing the whole
-          undiluted sample in a spectrophotometer using a 50-μL
-          MicroCuvette (Beckman). Total incorporated Cy dye ranged
-          from 300-600 pmol and the ratio of unlabeled to labeled
-          nucleotides was typically between 25 and 50.
+          s 
+         , in terms of vector and scalar potentials 
+        A and Φ:
         
+        B 
         
-          Hybridization and image processing
-          Slides were prehybridized in 1.0% BSA, 5 × SSC, 0.1%
-          SDS for 45 min, washed by repeated dipping in MilliQ
-          water twice and 2-propanol once, and air dried.
-          Fluorescent cDNA probes were lyophilized to dryness and
-          resuspended in 12 μl hybridization buffer (50% formamide,
-          5 × SSC, 0.1% SDS). To combined Cy3 and Cy5 samples were
-          added 20 μg Cot1 DNA and 20 μg poly(A) +DNA and samples
-          were denatured at 95°C for 5 min, followed by snap
-          cooling on ice for 1 min. Room-temperature probes were
-          applied to a prehybridized array, covered with a glass
-          coverslip (Fisher), and placed in a humidified
-          hybridization chamber (Corning). Hybridizations were
-          carried out at 42°C for 16-20 h, followed by washing in
-          (5 min each): 1 × SSC and 0.2% SDS at 42°C once, 0.1 ×
-          SSC and 0.2% SDS at room temperature once, and 0.1 × SSC
-          at room temperature twice. Arrays were scanned using a
-          GenePix 4000 dual-color confocal laser scanner (Axon).
-          Data were collected in Cy3 and Cy5 channels and stored as
-          paired TIFF images.
+          s 
+         = × 
+        A (A2)
         
+        E 
         
-          Data analysis
-          Spots were identified and local background subtracted
-          in the TIGR_Spotfinder software [ 19]. In the first step,
-          a grid consisting of square cells is drawn around each
-          array element. Spot segmentation is then performed using
-          a histogram segmentation method that uses the
-          distribution of pixel intensities to separate probable
-          signal from background and a binary thresholding approach
-          to identify spots, followed by a procedure to exclude
-          disconnected features. Raw intensity for each element is
-          obtained by first excluding saturated pixels and then
-          summing all remaining pixel intensities inside the spot
-          contour. The area outside the spot contour but inside the
-          cell is used to calculate local background. Background
-          per pixel is estimated as a median of the pixels in this
-          area and is multiplied by the spot area to give an
-          estimated spot background value. In the final step, this
-          integrated background value is subtracted from the raw
-          integrated spot intensity to produce the
-          background-subtracted integrated intensities we use for
-          further analysis. Furthermore, a quality control (QC)
-          filter is used to remove questionable array features. Two
-          criteria for spot rejection are a spot shape that
-          deviates greatly from a circle and low signal-to-noise
-          ratio. Spots for which the ratio of area to circumference
-          deviates by more than 20% from the value for an ideal
-          circle and spots containing fewer than 50% of pixels
-          above the median background value are flagged and
-          eliminated from further consideration. This approach has
-          proved extremely robust to misidentification of the spot
-          boundaries, and expression measures have shown it to be
-          both reproducible and verifiable. The output data from
-          Spotfinder is available as additional data files.
-          Lowess normalization was implemented using a native
-          Java implementation in TIGR MIDAS (Microarray Data
-          Analysis System), freely available through [ 19] and
-          based on the LOCFIT package developed by Bell Labs [ 20].
-          For all normalization, the smoothing parameter was set to
-          33%. All additional data files and protocols used in this
-          study are available from [ 21].
+          s 
+         = 
+        i ω 
+        A - Φ. (A3)
+        Substituting (A2) and (A3) into (A1) and using the
+        identity × × 
+        A = ( · 
+        A ) - 2 
+        A , results in
+        ( · 
+        A ) - 2 
+        A = 
+        i ωμ 
+        0 σ 
+        A - μ 
+        0 σ Φ + μ 
+        0 
+        J 
+        0 . (A4)
+        It is convenient to use the Lorentz gauge, defined by [
+        25 ]
         
+        which results in two uncoupled equations for the
+        potentials 
+        A and Φ. Substituting (A5) into (A4),
+        we obtain
+        2 
+        A + γ 2 
+        A = -μ 
+        0 
+        J 
+        0 , (A6)
+        where γ 2= 
+        i ωμ 
+        0 σ, and (A3) becomes upon substituting
+        (A5)
         
-          Quantitative real-time RT-PCR
-          Quantitative RT-PCR assays were performed on the ABI
-          Prism 7900HT sequence-detection system using the Taqman
-          Reverse Transcription Kit (Applied Biosystems) and
-          QuantiTech SYBRGreen PCR Kit (Qiagen) using a two-step
-          reaction with protocols supplied by manufacturers.
-          Primers were designed in the Primer 3 Old Version [ 22]
-          using default parameters with minor modifications
-          (product size range 100-150; optimum T 
-          m 60; minimum T 
-          m 58; maximum T 
-          m 61; maximum 3' complementarity 1).
-          Following the initial RT, 1 μl of the resulting reaction
-          product amplified by PCR in a 20 μl reaction volume with
-          200 nM final primer concentration. Data were normalized
-          to 18S ribosomal RNA Ambion QuantumRNA 18S Internal
-          Standards Kit; the 18S primers and competimers were in a
-          3:7 ratio with the primers at 200 nM final
-          concentration.
+        The solution to the vector Helmholtz equation (A6) is
+        given by the following volume integral:
         
+        where = (1 + 
+        i )/δ and is the electromagnetic skin
+        depth in the tissue. The exponential term in the integrand
+        of (A8) can be replaced by unity when δ ≫ | 
+        r - 
+        r' |. For example, at a frequency of 1
+        MHz and conductivity of 0.5 S/m, we find δ = 71 cm. Thus,
+        to an excellent approximation, (A8) may be replaced by:
+        
+        We now argue that the first term on the right-hand side
+        of (A7) is much smaller than the second term. In fact, the
+        magnitude of the first term is smaller than the second term
+        by a factor of the order (λ/δ) 2, where λ is the ultrasonic
+        wavelength and δ is the electromagnetic skin depth in
+        tissue. This can be demonstrated rigorously for the case of
+        the ideally-collimated ultrasonic beam treated in the main
+        text, but a plausibility argument can be given as follows.
+        The term ( · 
+        A ) in (A7) indicates terms that are
+        second derivatives of the spatial dependence of the
+        ultrasonic beam, which will be of the order 
+        A . Then the ratio of the first term in
+        (A7) to the second term is ωμ 
+        0 σ/ = λ 2/(2π 2δ 2), where is the skin
+        depth and λ = 2π/ 
+        k 
+        0 is the ultrasonic wavelength. At an
+        ultrasonic frequency of 1 MHz, this ratio is on the order
+        of 10 -6. Thus, neglecting the first term in (A7), we
+        have
+        
+        Next, substituting (12) into (A9), we see that the only
+        non-zero component of 
+        A is its 
+        y -component, i.e., 
+        A = 
+        A 
+        
+          y 
+         , so that (A9) becomes on writing the variables in
+        cylindrical coordinates:
+        
+        We now employ the expansion of 1/| 
+        r - 
+        r' | in cylindrical coordinates [ 26 ]
+        :
+        
+        where 
+        I 
+        
+          m 
+         (·) and 
+        K 
+        
+          m 
+         (·) are the modified Bessel functions of the first and
+        second kind of order 
+        m . In (A12), 
+        r 
+        < is the smaller of 
+        r and 
+        r' , and 
+        r 
+        > is the larger. Substituting (A12)
+        into (A11), interchanging orders of integration, and
+        performing the φ' integral, only the 
+        m = 0 term survives, giving
+        
+        Next the integration with respect to 
+        z' is performed by noting that
+        
+        where δ(·) is the Dirac delta function. Substituting
+        this into (A13) and integrating with respect to 
+        k gives:
+        
+        For brevity, we write this as
+        
+        A 
+        
+          y 
+         ( 
+        r , 
+        z ) = 
+        B 
+        0 
+        v 
+        0 μ 
+        0 σ 
+        A ( 
+        r ) , (A16)
+        where
+        
+        Noting that 
+        A = 
+        A 
+        
+          y 
+         , we have
+        
+        Finally, substituting this into (A10) and noting that ,
+        we obtain (13)-(15).
       
       
-        Additional data files
-        Spotfinder data files (tab-delimited text files) and
-        tables (Word files) showing (1) Differentially expressed
-        genes in PA-1 and CaCO2 cell lines, and (2) genes
-        differentially expressed in colon and ovary as determined
-        using digital differential display to analyze sequence
-        abundance in EST libraries deposited in dbEST, are
-        available with as a zip file.
-        Additional data file 1
-        Spotfinder data files and tables showing differentially
-        expressed genes in PA-1 and CaCO2 cell lines, and genes
-        differentially expressed in the colon and ovary
-        Spotfinder data files and tables showing differentially
-        expressed genes in PA-1 and CaCO2 cell lines, and genes
-        differentially expressed in the colon and ovary
-        Click here for additional data file
+        Footnotes
+        1Fry appears to have been the first person to propose
+        using ultrasound to stimulate the brain, although by means
+        of a very different mechanism [ 4 ] . His idea was to
+        transmit ultrasound in the presence of an oscillating
+        electric field of the same frequency. The periodic
+        variation of the electrical conductivity of the tissue
+        created by the slight variation in thermal expansion
+        arising from the oscillating sound wave would, in
+        principle, produce a partial rectification of the applied
+        field, resulting in a small amount of unidirectional
+        electric current. The resulting unidirectional charge
+        transfer, Fry speculated, could stimulate neural tissue.
+        However, to succeed, the method requires extremely intense
+        ultrasonic pulses (from 10 to 50 kW/cm 2) and a very strong
+        electric field (producing current densities on the order of
+        amps/cm 2). As far as this author is aware, Fry's method
+        has not been tried.
+        2A great deal has been written on the subject of what
+        temporal and spatial features of the stimulating fields are
+        responsible for activation. Early work by Rattay suggested
+        that the "activation function," essentially the gradient of
+        the electric field along the axis of the axon, is a key
+        contributor [ 6 ] . Other researchers pointed out that this
+        gradient is determined not only by the variations in the
+        impressed field, but also by conductance variations in the
+        axon due to bends, terminations and other departures from a
+        straight line that may perturb the local boundary
+        conditions. Also, the shape and duration of the stimulating
+        pulse play an important role. It has been noted that the
+        time and space dependence of the activating function
+        mutually interact in a way that may make the effects of
+        each difficult to treat independently [ 13 14 ] .
+        3Note that we are assuming that the maximum intensity
+        occurs at the focal point of the transducer. This is
+        generally true if the ultrasound is sufficiently focused,
+        but may not be true for a 
+        weakly focused transducer when the
+        beam passes through an intervening medium that is very
+        attenuating (such as the skull).
       
     
   

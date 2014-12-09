@@ -2,557 +2,607 @@
   
     
       
-        Introduction
-        Somatic gain-of-function mutations in exons encoding the epidermal growth factor
-        receptor (EGFR) tyrosine kinase domain are found in about 10% of non-small cell lung
-        cancers (NSCLCs) from the United States [1,2,3], with higher percentages observed in east
-        Asia [2,4,5,6]. Some 90% of NSCLC-associated mutations occur as either multi-nucleotide
-        in-frame deletions in exon 19, involving elimination of four amino acids, Leu-Arg-Glu-Ala,
-        or as a single nucleotide substitution at nucleotide 2573 (T→G) in exon 21, resulting in
-        substitution of arginine for leucine at position 858 (L858R). Both of these mutations are
-        associated with sensitivity to the small-molecule kinase inhibitors gefitinib or erlotinib
-        [1,2,3]. Unfortunately, nearly all patients who experience marked improvement on these
-        drugs eventually develop progression of disease. While 
-        KRAS mutations have been associated with some cases of primary resistance
-        to gefitinib or erlotinib [7], mechanisms underlying “acquired” or “secondary” resistance
-        are unknown.
-        Acquired resistance to kinase-targeted anticancer therapy has been most extensively
-        studied with imatinib, an inhibitor of the aberrant BCR-ABL kinase, in chronic myelogenous
-        leukemia (CML). Mutations in the ABL kinase domain are found in 50%–90% of patients with
-        secondary resistance to the drug (reviewed in [8]). Such mutations, which cluster in four
-        distinct regions of the ABL kinase domain (the ATP binding loop, T315, M351, and the
-        activation loop), interfere with binding of imatinib to ABL [9,10,11]. Crystallographic
-        studies of various ABL mutants predict that most should remain sensitive to inhibitors that
-        bind ABL with less stringent structural requirements. Using this insight, new
-        small-molecule inhibitors have been identified that retain activity against the majority of
-        imatinib-resistant BCR-ABL mutants [12,13].
-        Although imatinib inhibits different kinases in various diseases (BCR-ABL in CML, KIT or
-        PDGFR-alpha in gastrointestinal stromal tumors [GISTs], and PDGFR-alpha in
-        hypereosinophilic syndrome [HES]) (reviewed in [14]), some tumors that become refractory to
-        treatment with imatinib appear to have analogous secondary mutations in the kinase-coding
-        domain of the genes encoding these three enzymes. For example, in CML, a commonly found
-        mutation is a C→T single nucleotide change that replaces threonine with isoleucine at
-        position 315 (T315I) in the ABL kinase domain [9,10,11]. In GIST and HES, respectively, the
-        analogous T670I mutation in KIT and T674I mutation in PDGFR-alpha have been associated with
-        acquired resistance to this drug [15,16].
-        To determine whether lung cancers that acquire clinical resistance to either gefitinib
-        or erlotinib display additional mutations in the EGFR kinase domain, we have examined the
-        status of 
-        EGFR exons 18 to 24 in tumors from five patients who initially responded
-        but subsequently progressed while on these drugs. These exons were also assessed in tumor
-        cells from a sixth patient whose disease rapidly recurred while on gefitinib therapy after
-        complete gross tumor resection. Because of the association of 
-        KRAS mutations with primary resistance to gefitinib and erlotinib [7], we
-        also examined the status of 
-        KRAS in tumor cells from these six patients. In an effort to explain the
-        selective advantage of cells with a newly identified “resistance” mutation in 
-        EGFR— a T790M amino acid substitution—we further characterized the drug
-        sensitivity of putatively resistant EGFR mutants versus wild-type or drug-sensitive EGFR
-        mutants, using both a NSCLC cell line fortuitously found to contain the T790M mutation and
-        lysates from cells transiently transfected with wild-type and mutant 
-        EGFR cDNAs.
-      
-      
-        Methods
-        
-          Tissue Procurement
-          Tumor specimens, including paraffin blocks, fine needle biopsies, and pleural
-          effusions, were obtained through protocols approved by the Institutional Review Board of
-          Memorial Sloan-Kettering Cancer Center (protocol 92–055 [7] and protocol 04–103 [Protocol
-          S1]). All patients provided informed consent.
-        
-        
-          Mutational Analyses of EGFR and KRAS in Lung Tumors
-          Genomic DNA was extracted from tumor specimens, and primers for 
-          EGFR (exons 18–24) and 
-          KRAS2 (exon 2) analyses were as published [3,7]. All sequencing
-          reactions were performed in both forward and reverse directions, and all mutations were
-          confirmed at least twice from independent PCR isolates.
-          A specific exon 20 mutation (T790M) was also detected by length analysis of
-          fluorescently labeled (FAM) PCR products on a capillary electrophoresis device (ABI 3100
-          Avant, Applied Biosystems, Foster City, California, United States), based on a new NlaIII
-          restriction site created by the T790M mutation (2369 C→T), using the following primers:
-          EGFR Ex20F, 5′-FAM- CTCCCTCCAGGAAGCCTACGTGAT-3′ and EGFR Ex20R 5′-
-          TTTGCGATCTGCACACACCA-3′. Using serially mixed dilutions of DNA from NSCLC cell lines
-          (H1975, L858R- and T790M-positive; H-2030, 
-          EGFR wild-type) for calibration, this assay detects the presence of the
-          T790M mutation when H1975 DNA comprises 3% or more of the total DNA tested, compared to a
-          sensitivity of 6% for direct sequencing (data not shown).
-        
-        
-          RT-PCR
-          The following primers were used to generate 
-          EGFR cDNA fragments spanning exon 20: EGFR 2095F 5′-
-          CCCAACCAAGCTCTCTTGAG-3′ and EGFR 2943R 5′- ATGACAAGGTAGCGCTGGGGG-3′. PCR products were
-          ligated into plasmids using the TOPO TA-cloning kit (Invitrogen, Carlsbad, California,
-          United States), as per manufacturer's instructions. Minipreps of DNA from individual
-          clones were sequenced using the T7 priming site of the cloning vector.
-        
-        
-          Functional Analyses of Mutant EGFRs
-          Two numbering systems are used for EGFR. The first denotes the initiating methionine
-          in the signal sequence as amino acid −24. The second, used here, denotes the methionine
-          as amino acid +1. Commercial suppliers of antibodies, such as the Y1068-specific
-          anti-phospho-EGFR, use the first nomenclature. To be consistent, we consider Y1068 as
-          Y1092. Likewise, the T790M mutation reported here has also been called T766M. Mutations
-          were introduced into full-length wild-type and mutant 
-          EGFR cDNAs using a QuikChange Site-Directed Mutagenesis Kit
-          (Stratagene, La Jolla, California, United States) and cloned into expression vectors as
-          described [3]. The following primers were used to generate the deletion (del)
-          L747–E749;A750P mutant: forward 5′- TAAAATTCCCGTCGCTATCAAGGAGCCAACATCTCCGAAAGCCAACAAGG-3′
-          and reverse 5′- CCTTGTTGGCTTTCGGAGATGTTGGCTCCTTGATAGCGACGGGAATTTTA-3′. The following
-          primers were used to introduce the T790M mutation: forward 5′- AGCTCATCATGCAGCTCAT-3′ and
-          reverse 5′- ATGAGCTGCATGATGAGCT-3′. The L858R mutant cDNA was generated previously [3].
-          All mutant clones were fully re-sequenced bidirectionally to ensure that no additional
-          mutations were introduced. Various EGFRs were transiently expressed in 293T human
-          embryonic kidney cells as published [3]. Cells were treated with different concentrations
-          of gefitinib or erlotinib.
-        
-        
-          Immunoblotting
-          See Methods and supplementary methods in [3] for details on cell lysis,
-          immunoblotting, and antibody reagents. At least three independent experiments were
-          performed for all analyses.
-        
-        
-          Cell Culture
-          The NSCLC cell lines H1650, H1975, H2030, H2347, H2444, H358, and H1734 were purchased
-          from American Type Culture Collection (Manassas, Virginia, United States). H3255 was a
-          gift of B. Johnson and P. Janne. Cells were grown in complete growth medium (RPMI-1640;
-          American Type Culture Collection catalog no. 30–2001) supplemented with 10% fetal calf
-          serum, 10 units/ml penicillin, and 10 μg/ml streptomycin) at 37 °C and 5% CO
-          2 . For viability studies, cells were seeded in complete growth medium
-          in black 96-well clear bottom ViewPlates (PerkinElmer, Wellesley, Massachusetts, United
-          States) at a density of 5,000 (H1975 and H2030) or 7,500 cells per well (H3255).
-          Following overnight incubation, cells were grown for 24 h in the supplemented RPMI-1640
-          medium with 0.1% serum. Cells (in supplemented RPMI-1640 medium containing 0.1% serum)
-          were then incubated for 48 h in the continued presence of gefitinib or erlotinib.
-        
-        
-          Viability Assay
-          Cell viability was assayed using Calcein AM (acetoxymethyl ester of Calcein, Molecular
-          Probes, Eugene, Oregon, United States). Following incubation with gefitinib or erlotinib,
-          monolayers were washed twice with PBS (containing calcium and magnesium) and incubated
-          with 7.5 μmol Calcein AM in supplemented RPMI-1640 (no serum) for 30 min. Labeling medium
-          was removed, and cells were washed three times with PBS. Calcein fluorescence (Ex, 485
-          nm; Em, 535 nM) was detected immediately using a Victor V multi-label plate reader
-          (PerkinElmer). Three independent experiments were performed for each cell line; each
-          experiment included four to eight replicates per condition.
-        
+        Background
+        The discovery of genes underlying multigenic diseases
+        and traits is one of the most important challenges
+        currently facing genetic researchers. This effort has been
+        aided by quantitative trait locus (QTL) mapping methods,
+        which have now been applied to numerous complex phenotypes
+        in a range of species, including many behavioral phenotypes
+        of high interest. A QTL is a chromosomal region that
+        contains a gene or genes that influence a quantitative
+        trait. The power of this approach was first demonstrated in
+        plants [ 1] and later in yeast [ 2], flies [ 3], livestock
+        [ 4, 5], rodents [ 6, 7, 8, 9] and humans [ 10, 11,
+        12].
+        Historically, a typical approach to going from QTL to
+        gene has been to select one or a few of the best biological
+        candidate genes from within the QTL interval and search for
+        sequence differences that predict differential expression
+        and/or structure of the gene product. An alternative
+        strategy is to carry out comparative sequencing of large
+        numbers of potential candidate genes located within the QTL
+        interval, which is feasible given the automated sequencing
+        methods now available [ 13]. However, these approaches are
+        limited because the gene underlying a QTL may not be
+        recognized as a good candidate gene if little is known
+        about the gene's function and/or if a QTL region is large,
+        in which case sequencing every gene within the QTL requires
+        considerable time, cost and labor to complete.
+        The recent development of murine whole-genome draft
+        sequences [ 14] should speed the process of identifying
+        disease genes underlying QTLs because several of the
+        strains used for genome sequencing are the same as those
+        that have been used to develop the majority of mouse QTLs
+        so far identified. The public mouse genome sequencing
+        effort used C57BL/6J (B6) mice, while the private effort by
+        Celera has sequenced the mouse genome in four strains:
+        DBA/2J (D2), A/J, 129X1/SvJ, and 129S1/SvImJ. Combinations
+        of these strains, for example B6xD2 and B6xA/J, have been
+        used for the identification of over 250 murine QTLs.
+        Because of these resources, we reasoned that sequence
+        variations in QTL genes might now be identified simply by
+        direct 
+        in silico alignment of the sequences
+        obtained directly from the databases of the two relevant
+        strains, obviating much of the need for 
+        de novo sequencing. We show that,
+        once several factors were addressed, such as sequencing
+        error detection and discrimination between closely related
+        genes, a high-throughput pipeline could be developed that
+        allows large numbers of gene-coding regions from QTL
+        intervals to be rapidly compared 
+        in silico and interstrain allelic
+        sequence differences quickly identified and targeted for
+        further hypothesis-driven analyses. We also believe that
+        this strategy has considerable general utility, and should
+        be applicable to any QTL as long as the strains used are
+        those for which relatively complete genome sequences are
+        available.
+        While our work was in progress, Celera incorporated the
+        public B6 sequence into its mouse genome assembly and
+        developed a searchable database of mouse single nucleotide
+        polymorphisms (SNPs) [ 15]. Comparison of the gene variants
+        identified by our approach to the SNPs identified by a
+        search of Celera's SNP database indicates that the latter
+        significantly underestimates the number of SNPs present and
+        that the method described here provides the most complete
+        and accurate compilation of QTL gene variants.
+        We tested this approach on two QTLs involved in physical
+        dependence on ethanol; these are located on murine
+        chromosomes 1 and 13 and were identified using two mapping
+        populations derived from the B6 and D2 progenitor strains.
+        The well documented difference in susceptibility to
+        withdrawal after chronic ethanol exposure between the B6
+        and D2 inbred mouse strains provided an excellent starting
+        point for dissecting genetic influences involved in
+        physical dependence on ethanol and to study how common
+        allele variants influence genetic predisposition to
+        physical dependence on ethanol. Genome-wide evaluations of
+        chronic ethanol withdrawal convulsions identified QTLs on
+        murine chromosomes 1, 13, 19 and 4 [ 16]. The QTLs on
+        chromosome 1 and chromosome 13 (a sex-limited QTL) were
+        detected in two mapping populations, that is, the BXD
+        recombinant inbred strains and a B6D2 F2 intercross [ 16,
+        17].
       
       
         Results
-        
-          Case Reports
-          We identified secondary 
-          EGFR mutations in three of six individuals whose disease progressed on
-          either gefitinib or erlotinib (Table 1). Brief case histories of these three patients are
-          presented below.
-          
-            Patient 1
-            This 63-y-old female “never smoker” (smoked less than 100 cigarettes in her
-            lifetime) initially presented with bilateral diffuse chest opacities and a right-sided
-            pleural effusion. Transbronchial biopsy revealed adenocarcinoma. Disease progressed on
-            two cycles of systemic chemotherapy, after which gefitinib, 250 mg daily, was started.
-            Comparison of chest radiographs obtained prior to starting gefitinib (Figure S1A, left
-            panel) and 2 wk later (Figure S1A, middle panel) showed dramatic improvement. Nine
-            months later, a chest radiograph revealed progression of disease (Figure S1A, right
-            panel). Subsequently, the patient underwent a computed tomography (CT)–guided biopsy of
-            an area in the right lung base (Figure 1A, left panel). Despite continued treatment
-            with gefitinib, either with chemotherapy or at 500 mg daily, the pleural effusion
-            recurred, 12 mo after initiating gefitinib (Figure 1A, right panel). Pleural fluid was
-            obtained for molecular studies. In total, this patient had three tumor specimens
-            available for analysis: the original lung tumor biopsy, a biopsy of the progressing
-            lung lesion, and pleural fluid. However, re-review of the original transbronchial
-            biopsy showed that it had scant tumor cells (Table 1).
-          
-          
-            Patient 2.
-            This 55-y-old woman with a nine pack-year history of smoking underwent two surgical
-            resections within 2 y (right lower and left upper lobectomies) for bronchioloalveolar
-            carcinoma with focal invasion. Two years later, her disease recurred with bilateral
-            pulmonary nodules and further progressed on systemic chemotherapy. Thereafter, the
-            patient began erlotinib, 150 mg daily. A baseline CT scan of the chest demonstrated
-            innumerable bilateral nodules (Figure S1B, left panel), which were markedly reduced in
-            number and size 4 mo after treatment (Figure S1B, middle panel). After 14 mo of
-            therapy, the patient's dose of erlotinib was decreased to 100 mg daily owing to
-            fatigue. At 23 mo of treatment with erlotinib, a CT scan demonstrated an enlarging
-            sclerotic lesion in the thoracic spine. The patient underwent CT-guided biopsy of this
-            lesion (Figure 1B, left panel), and the erlotinib dose was increased to 150 mg daily.
-            After 25 mo of treatment, she progressed within the lung (Figure S1B, right panel).
-            Erlotinib was discontinued, and a fluoroscopically guided core needle biopsy was
-            performed at a site of progressive disease in the lung (Figure 1B, right panel). In
-            total, this patient had three tumor specimens available for analysis: the original
-            resected lung tumor, the biopsy of the enlarging spinal lesion, and the biopsy of the
-            progressing lung lesion (Table 1).
-          
-          
-            Patient 3
-            This 55-y-old female “never smoker” was treated for nearly 4.5 y with weekly
-            paclitaxel and trastuzumab [17] for adenocarcinoma with bronchioloalveolar carcinoma
-            features involving her left lower lobe, pleura, and mediastinal lymph nodes. Treatment
-            was discontinued owing to fatigue. Subsequently, the patient underwent surgical
-            resection. Because of metastatic involvement of multiple mediastinal lymph nodes and
-            clinical features known at that time to be predictive of response to gefitinib (female,
-            never smoker, bronchioloalveolar variant histology), she was placed on “adjuvant”
-            gefitinib 1 mo later (Figure S1C, left panel). This drug was discontinued after 3 mo
-            when she developed a new left-sided malignant pleural effusion (Figure S1C, middle
-            panel). Despite drainage and systemic chemotherapy, the pleural effusion recurred 4 mo
-            later (Figure S1C, right panel), at which time pleural fluid was collected for
-            analysis. In total, this patient had two clinical specimens available for analysis:
-            tumor from the surgical resection and pleural fluid (Table 1).
-          
-        
-        
-          Patients' Tumors Contain EGFR Tyrosine Kinase Domain Mutations Associated with
-          Sensitivity to EGFR Tyrosine Kinase Inhibitors
-          We screened all available tumor samples from these three patients for previously
-          described drug-sensitive 
-          EGFR mutations, by direct DNA sequencing of exons 19 and 21 [3]. Tumor
-          samples from patient 1 showed a T→G change at nucleotide 2573, resulting in the exon 21
-          L858R amino acid substitution commonly observed in drug-responsive tumors. This mutation
-          was present in the biopsy material from the progressing lung lesion (Figure S2A, upper
-          panels) and from cells from the pleural effusion (Figure S2A, lower panels), both of
-          which on cytopathologic examination consisted of a majority of tumor cells (Table 1).
-          Interestingly, comparisons of the tracings suggest that an increase in copy number of the
-          mutant allele may have occurred. Specifically, while the ratio of wild-type (nucleotide
-          T) to mutant (nucleotide G) peaks at position 2573 was approximately 1:1 or 1:2 in the
-          lung biopsy specimen (Figure S2A, upper panels), sequencing of DNA from the pleural fluid
-          cells demonstrated a dominant mutant G peak (Figure S2A, lower panels). Consistent with
-          this, a single nucleotide polymorphism (SNP) noted at nucleotide 2361 (A or G)
-          demonstrated a corresponding change in the ratios of A:G, with a 1:1 ratio in the
-          transbronchial biopsy, and a nearly 5:1 ratio in the pleural fluid (Figure 2A). Notably,
-          we did not detect the 2573 T→G mutation in the original transbronchial biopsy specimen
-          (Table 1; data not shown). As stated above, this latter specimen contained scant tumor
-          cells, most likely fewer than needed for detection of an 
-          EGFR mutation by direct sequencing (see [7]).
-          All three specimens from patient 2, including the original lung tumor and the two
-          metastatic samples from bone and lung, showed an exon 19 deletion involving elimination
-          of 11 nucleotides (2238–2248) and insertion of two nucleotides, G and C (Figure S2B, all
-          panels; Table 1). These nucleotide changes delete amino acids L747–E749 and change amino
-          acid 750 from alanine to proline (A750P). A del L747–E749;A750P mutation was previously
-          reported with different nucleotide changes [2]. In all samples from patient 2, the
-          wild-type sequence predominated at a ratio of about 3:1 over the mutant sequence.
-          Both of the available tumor samples from patient 3 contained a deletion of 15
-          nucleotides (2236–2250) in exon 19 (Table 1; data not shown), resulting in elimination of
-          five amino acids (del E746–A750). This specific deletion has been previously reported
-          [3]. The ratio of mutant to wild-type peaks was approximately 1:1 in both specimens (data
-          not shown).
-          Collectively, these results demonstrate that tumors from all three patients contain 
-          EGFR mutations associated with sensitivity to the tyrosine kinase
-          inhibitors gefitinib and erlotinib. In addition, these data show that within individual
-          patients, metastatic or recurrent lesions to the spine, lung, and pleural fluid contain
-          the same mutations. These latter observations support the idea that relapsing and
-          metastatic tumor cells within individuals are derived from original progenitor
-          clones.
-        
-        
-          A Secondary Missense Mutation in the EGFR Kinase Domain Detected in Lesions That
-          Progressed while on Treatment with Either Gefitinib or Erlotinib
-          To determine whether additional mutations in the 
-          EGFR kinase domain were associated with progression of disease in these
-          patients, we performed direct sequencing of all of the exons (18 through 24) encoding the
-          EGFR catalytic region in the available tumor specimens.
-          Analysis of patient 1's pre-gefitinib specimen, which contained scant tumor cells
-          (Table 1; see above), not surprisingly showed only wild-type 
-          EGFR sequence (Table 1; data not shown). However, careful analysis of
-          the exon 20 sequence chromatograms in both forward and reverse directions from this
-          patient's lung biopsy specimen obtained after disease progression on gefitinib
-          demonstrated an additional small peak at nucleotide 2369, suggesting a C→T mutation
-          (Figure 2A, upper panels; Table 1). This nucleotide change leads to substitution of
-          methionine for threonine at position 790 (T790M). The 2369 C→T mutant peak was even more
-          prominent in cells from the patient's pleural fluid, which were obtained after further
-          disease progression on gefitinib (Figure 2A, lower panels; Table 1). The increase in the
-          ratio of mutant to wild-type peaks obtained from analyses of the lung specimen and
-          pleural fluid paralleled the increase in the ratio of the mutant G peak (leading to the
-          L858R mutation) to the wild-type T peak at nucleotide 2573 (see above; Figure S2A), as
-          well as the increase in the ratio of the A:G SNP at position 2361 (Figure 2A).
-          Collectively, these findings imply that the exon 20 T790M mutation was present on the
-          same allele as the exon 21 L858R mutation, and that a subclone of cells harboring these
-          mutations emerged during drug treatment.
-          In patient 2, the tumor-rich sample obtained prior to treatment with erlotinib did not
-          contain any additional mutations in the exons encoding the 
-          EGFR tyrosine kinase domain (Figure 2B, upper panels; Table 1). By
-          contrast, her progressing bone and lung lesions contained an additional small peak at
-          nucleotide 2369, suggesting the existence of a subclone of tumor cells with the same C→T
-          mutation observed in patient 1 (Figure 2B, middle and lower panels; Table 1). The
-          relative sizes of the 2369 T mutant peaks seen in these latter two samples appeared to
-          correlate with the relative size of the corresponding peaks of the exon 19 deletion
-          (Figure S2B). Interestingly, the SNP at nucleotide 2361 (A or G) was detected in
-          specimens from patient 2 before but not after treatment with erlotinib, suggesting that
-          one 
-          EGFR allele underwent amplification or deletion during the course of
-          treatment (Figure S2B).
-          Patient 3 showed results analogous to those of patient 2. A tumor-rich pre-treatment
-          specimen did not demonstrate 
-          EGFR mutations other than the del E746–A750 exon 19 deletion;
-          specifically, in exon 20, no secondary changes were detected (Figure 2C, upper panels;
-          Table 1). However, analysis of DNA from cells in the pleural effusion that developed
-          after treatment with gefitinib showed the C→T mutation at nucleotide 2369 in exon 20
-          (Figure 2C, lower panels; Table 1), corresponding to the T790M mutation described above.
-          There was no dramatic change between the two samples in the ratio of the A:G SNP at
-          position 2361. The mutant 2369 T peak was small, possibly because gefitinib had been
-          discontinued in this patient for 4 mo at the time pleural fluid tumor cells were
-          collected; thus, there was no selective advantage conferred upon cells bearing the T790M
-          mutation.
-          To determine whether the 2369 C→T mutation was a previously overlooked 
-          EGFR mutation found in NSCLCs, we re-reviewed exon 20 sequence tracings
-          derived from analysis of 96 fresh-frozen resected tumors [3] and 59 paraffin-embedded
-          tumors [7], all of which were removed from patients prior to treatment with an EGFR
-          tyrosine kinase inhibitor. We did not detect any evidence of the T790M mutation in these
-          155 tumors (data not shown; see Discussion). Collectively, our results suggest that the
-          T790M mutation is associated with lesions that progress while on gefitinib or erlotinib.
-          Moreover, at least in patients 1 and 2, the subclones of tumor cells bearing this
-          mutation probably emerged between the time of initial treatment with a tyrosine kinase
-          inhibitor and the appearance of drug resistance.
-          In three additional patients (case histories not described here) with lung
-          adenocarcinomas who improved but subsequently progressed on therapy with either gefitinib
-          or erlotinib, we examined DNA from tumor specimens obtained during disease progression.
-          In all three patients, we found 
-          EGFR mutations associated with drug sensitivity (all exon 19
-          deletions). However, we did not find any additional mutations in exons 18 to 24 of 
-          EGFR, including the C→T change at position 2369 (data not shown). These
-          results imply that alternative mechanisms of acquired drug resistance exist.
-        
-        
-          Patients' Progressive Tumors Lack KRAS Mutations
-          Mutations in exon 2 of 
-          KRAS2 occur in about one-fourth of NSCLCs. Such mutations rarely, if
-          ever, accompany 
-          EGFR mutations and are associated with primary resistance to gefitinib
-          or erlotinib [7]. To evaluate the possibility that secondary 
-          KRAS mutations confer acquired resistance to these drugs, we performed
-          mutational profiling of 
-          KRAS2 exon 2 from tumor specimens from patients 1 to 3, as well as the
-          three additional patients lacking evidence of the T790M mutation. None of the specimens
-          contained any changes in 
-          KRAS (Table 1; data not shown), indicating that 
-          KRAS mutations were not responsible for drug resistance and tumor
-          progression in these six patients.
-        
-        
-          An Established NSCLC Cell Line Also Contains Both T790M and L858R Mutations
-          We profiled the 
-          EGFR tyrosine kinase domain (exons 18 to 24) and 
-          KRAS exon 2 in eight established NSCLC lines (Table 2). Surprisingly,
-          one cell line—H1975—contained the same C→T mutation at position 2369 (T790M) as described
-          above (Figure 2D, lower panel). This cell line had previously been shown by others to
-          contain a 2573 T→G mutation in exon 21 (L858R) [18], which we confirmed (Figure 2D, upper
-          panel); in addition, H1975 was reported to be more sensitive to gefitinib inhibition than
-          other lung cancer cell lines bearing wild-type 
-          EGFR [18]. Only exons 19 and 21 were apparently examined in this
-          published study.
-          In our own analysis of H1975 (exons 18 to 24), the mutant 2369 T peak resulting in the
-          T790M amino acid substitution was dominant, suggesting an increase in copy number of the
-          mutant allele in comparison to the wild-type allele. The ratio of mutant to wild-type
-          peaks was similar to that of the mutant 2573 G (corresponding to the L858R amino acid
-          substitution) to wild-type T peaks (Figure 2D, all panels), implying that the T790M and
-          L858R mutations were in the same amplified allele. To further investigate this
-          possibility, we performed RT-PCR to generate cDNAs that spanned exon 20 of 
-          EGFR and included sequences from exon 19 and 21. PCR products were then
-          cloned, and individual colonies were analyzed for 
-          EGFR mutations. Sequencing chromatograms of DNA from four of four
-          clones showed both the 2369 C→T and 2573 T→G mutations, confirming that both mutations
-          were in the same allele (data not shown).
-          Other NSCLC cell lines carried either 
-          EGFR or 
-          KRAS mutations, but none had both (Table 2). As reported, H3255
-          contained an L858R mutation [19] and H1650 contained an exon 19 deletion [18]. No other
-          cell lines analyzed contained additional mutations in the exons encoding the EGFR
-          tyrosine kinase domain.
-        
-        
-          A Novel PCR Restriction Fragment Length Polymorphism Assay Independently Confirms
-          the Absence or Presence of the T790M Mutation
-          As stated above, the mutant peaks suggestive of a T790M mutation in exon 20 were small
-          in some sequence chromatograms. To eliminate the possibility that these peaks were due to
-          background “noise,” we sought to confirm the presence of the 2369 C→T mutation in
-          specific samples, by developing an independent test, based on a fluorescence detection
-          assay that takes advantage of a PCR restriction fragment length polymorphism (PCR-RFLP)
-          generated by the specific missense mutation. After PCR amplification with
-          exon-20-specific primers spanning nucleotide 2369, wild-type sequence contains specific
-          NlaIII sites, which upon digestion yield a 106-bp product (see Methods; Figure 3A).
-          Presence of the mutant 2369 T nucleotide creates a new NlaIII restriction digest site,
-          yielding a slightly shorter product (97 bp), readily detected by fluorescent capillary
-          electrophoresis. This test is about 2 -fold more sensitive than direct sequencing (see
-          Methods; data not shown).
-          We first used DNA from the H1975 cell line (which contains both T790M and L858R
-          mutations) to confirm the specificity of the PCR-RFLP assay. As expected, analysis of
-          these cells produced both the 97- and 106-bp fragments. By contrast, analysis of DNA from
-          H2030 (which contains wild-type 
-          EGFR; Table 2) showed only the 106-bp fragment (Figure 3A). These data
-          show that this test can readily indicate the absence or presence of the mutant allele in
-          DNA samples. However, this test was only semi-quantitative, as the ratio of the mutant
-          97-bp product versus the wild-type 106-bp product varied in independent experiments from
-          approximately 1:1 to 2:1.
-          We next used this PCR-RFLP assay to assess various patient samples for the presence of
-          the specific 2369 C→T mutation corresponding to the T790M amino acid substitution. DNA
-          from the progressing bone and lung lesions in patient 1 produced both the 97- and 106-bp
-          fragments, but DNA from the original lung tumor did not (Figure 3B). The ratio of mutant
-          to wild-type products was higher in the cells from the pleural fluid, consistent with the
-          higher peaks seen on the chromatograms from direct sequencing of exon 20 (see Figure 2A).
-          Likewise, DNA from progressive lesions from patients 2 and 3 yielded both 97- and 106-bp
-          fragments in the PCR-RFLP assay (Figure 3B), whereas the pre-treatment specimens did not
-          produce the 97-bp product. Collectively, these data from an independent assay confirm
-          that the T790M mutation was present in progressing lesions from all three patients. We
-          were also unable to detect the T790M mutation in any specimens from the three additional
-          patients with acquired resistance that failed to demonstrate secondary mutations in 
-          EGFR exons 18 to 24 by direct sequencing (data not shown).
-        
-        
-          Biochemical Properties of EGFR Mutants
-          To determine how the T790M mutation would affect EGFR proteins already containing
-          mutations associated with sensitivity to EGFR tyrosine kinase inhibitors, we introduced
-          the specific mutation into 
-          EGFR cDNAs that encoded the exon 21 and 19 mutations found in patients
-          1 and 2, respectively. Corresponding proteins ([i] L858R and L858R plus T790M, [ii] del
-          L747–E749;A750P and del L747–E749;A750P plus T790M, and [iii] wild-type EGFR and
-          wild-type EGFR plus T790M) were then produced by transient transfection with expression
-          vectors in 293T cells, which have very low levels of endogenous EGFR [3]. Various lysates
-          from cells that were serum-starved and pre-treated with gefitinib or erlotinib were
-          analyzed by immunoblotting. Amounts of total EGFR (t-EGFR) were determined using an
-          anti-EGFR monoclonal antibody, and actin served as an indicator of relative levels of
-          protein per sample. To assess the drug sensitivity of the various EGFR kinases in
-          surrogate assays, we used a Y1092-phosphate-specific antibody (i.e., phospho-EGFR
-          [p-EGFR]) to measure the levels of “autophosphorylated” Tyr-1092 on EGFR in relation to
-          levels of t-EGFR protein. We also assessed the global pattern and levels of induced
-          tyrosine phosphorylation of cell proteins by using a generalized anti-phosphotyrosine
-          reagent (RC-20).
-          Gefitinib inhibited the activity of wild-type and L858R EGFRs progressively with
-          increasing concentrations of drug, as demonstrated by a reduction of
-          tyrosine-phosphorylated proteins (Figure 4A) and a decrease in p-EGFR:t-EGFR ratios
-          (Figure 4B). By contrast, wild-type and mutant EGFRs containing the T790M mutation did
-          not display a significant change in either phosphotyrosine induction or p-EGFR:t-EGFR
-          ratios (Figure 4A and 4B). Similar results were obtained using erlotinib against
-          wild-type and del E747–L747;A750P EGFRs in comparison to the corresponding mutants
-          containing the T790M mutation (Figure 4C). These results suggest that the T790M mutation
-          may impair the ability of gefitinib or erlotinib to inhibit EGFR tyrosine kinase
-          activity, even in EGFR mutants (i.e., L858R or an exon 19 deletion) that are clinically
-          associated with drug sensitivity.
-        
-        
-          Resistance of a NSCLC Cell Line Harboring Both T790M and L858R Mutations to
-          Gefitinib or Erlotinib
-          To further explore the functional consequences of the T790M mutation, we determined
-          the sensitivity of various NSCLC cells lines grown in the presence of either gefitinib or
-          erlotinib, using an assay based upon Calcein AM. Uptake and retention of this fluorogenic
-          esterase substrate by vehicle- versus drug-treated live cells allows for a comparison of
-          relative cell viability among cell lines [20]. The H3255 cell line, which harbors the
-          L858R mutation and no other 
-          EGFR TK domain mutations (Table 2), was sensitive to treatment with
-          gefitinib, with an IC
-          50 of about 0.01 μmol (Figure 5). By contrast, the H1975 cell line,
-          which contains both L858R and T790M mutations (Table 2), was approximately 100-fold less
-          sensitive to drug, with an IC
-          50 of about 1 μmol (Figure 5). In fact, the sensitivity of H1975 cells
-          was more similar to that of H2030, which contains wild-type 
-          EGFR (exons 18 to 24) and mutant 
-          KRAS (Figure 5). Very similar results were obtained with erlotinib
-          (Figure S3).
-        
+        A flow chart showing the steps involved in the 
+        in silico comparison of the coding
+        region of genes within the two alcohol withdrawal QTLs is
+        shown in Figure 1. The National Center for Biotechnology
+        Information (NCBI)/Mouse Genome Database (MGD) human/mouse
+        homology map and the Celera mouse genome assembly were
+        searched to obtain a list of genes and predicted genes
+        within each QTL. The selected genes included plausible
+        candidate genes that have been implicated in functions
+        relevant to alcohol action, as well as genes whose
+        functions are not well understood or were not previously
+        suspected to be related to alcohol action. For the QTL on
+        chromosome 1, a list of 121 genes was selected, most of
+        which are within 4 million bases (Mb) upstream or 4 Mb
+        downstream of the peak log of odds (LOD) score
+        (approximately 18-24 centimorgans (cM) from the
+        centromere). For chromosome 13, a list of 78 genes was
+        selected, most of which are within 2 Mb upstream or 2 Mb
+        downstream of the peak LOD score (approximately 37 cM from
+        the centromere). The complete coding region of each gene,
+        as available, was retrieved either from Celera or NCBI to
+        be used as the query for subsequent strain-specific BLAST
+        searches [ 18]. B6 sequences were retrieved from the
+        mmtrace database at NCBI using a MegaBLAST search, and D2
+        sequences were retrieved from Celera by BLAST search of the
+        All Mouse Fragments (masked) database. All data were
+        retrieved from Celera and NCBI between August 2001 and
+        April 2002. Two in-house programs were used to parse the
+        BLAST results and remove any hits with low
+        nucleotide-similarity scores or an insignificant e-value.
+        The filtered BLAST results from the B6 and D2 strains were
+        then aligned using AutoAssembler and allelic sequence
+        variations were detected.
+        On proximal chromosome 1, 121 genes covering 125,385
+        base-pairs (bp) were selected and the sequences aligned,
+        and for chromosome 13, 78 genes covering 84,635 bp were
+        selected and aligned. Altogether, the alignment encompassed
+        199 genes spanning 210,020 bp. Because of some gaps that
+        remain in the available genome sequences for the B6 and D2
+        strains, complete coding regions were sometimes not
+        available and in such cases the coverage was therefore
+        incomplete. Our calculations indicate that the 
+        in silico coverage of the coding
+        region of the 199 genes for the B6 and D2 strains was 86%
+        and 69%, respectively. The lower percent coverage of the D2
+        genome is likely to be due to the fact that it is only one
+        out of four mouse strains used to generate Celera's 5.2x
+        coverage of the mouse genome. When the B6 and D2 data are
+        combined, 61% of the length of the coding regions was
+        covered by both genome sequences (Table 1).
+        Previous efforts to identify human SNPs by database
+        mining found it important to filter results in order to
+        eliminate the false detection of SNPs [ 19]. With this in
+        mind, we took the following steps to ensure the quality of
+        SNPs detected in our data. First, to avoid the inclusion of
+        sequences from additional closely related paralogous genes,
+        we used a BLAST hit cutoff of 98%, so that only reads at
+        least 98% similar to the query sequence were selected.
+        Furthermore, reads that potentially affected amino acid
+        sequence were used for a BLAST search against the mouse
+        genome and removed from the B6/D2 alignment if the best
+        BLAST hit was on a sequence scaffold located in another
+        part of the genome. Second, to avoid the inclusion of
+        changes due to poor-quality sequence, Phred [ 20] scores of
+        individual B6 reads were checked at changed nucleotide
+        positions and poor-quality changes (Phred score ≤ 10)
+        eliminated. This step was not done with D2 sequences
+        because individual sequence traces and Phred scores were
+        not available from Celera. Third, by in-house sequencing of
+        44 gene coding variations found in the 
+        in silico alignments of three genes
+        from B6, D2, A/J, 129X1/SvJ, and 129S1/SvImJ DNA, we
+        verified that Celera had not mislabeled the strain from
+        which sequence reads were derived and showed that no mix-up
+        or cross-contamination of samples had occurred. Even after
+        the above steps were taken, there were still instances
+        where some reads had one sequence and other reads had a
+        slightly different sequence for the same strain. In-house
+        sequencing of B6 and D2 DNA for a subset of interstrain
+        frame shifts (10% of the total) showed that all the
+        apparent differences were false. In-house sequencing for a
+        subset of intrastrain single base-pair substitutions (21%
+        of the total) was also carried out. This analysis showed
+        that when two different intrastrain sequences (for example,
+        in the D2 strain) were detected, the correct sequence was
+        always identical to the other strain (for example, B6), so
+        that no interstrain variant appeared at that position. On
+        the basis of this in-house sequence analysis we chose to
+        operationally classify all frameshifts as false and
+        interstrain substitutions present in 50%, or fewer than
+        50%, of the reads for one strain as false.
+        The number of nonsynonymous changes was totaled from all
+        199 genes within the chronic alcohol withdrawal QTLs on
+        proximal chromosome 1 and mid-chromosome 13 for which
+        allelic sequences were aligned, together covering 7 cM and
+        12 Mb of the mouse genome and representing 210,019 bp of
+        coding region. In total, 21 of the 199 genes surveyed from
+        the chromosome 1 and 13 QTL regions showed nonsynonymous
+        changes in their coding regions between B6 and D2 animals
+        (Table 1). A search of Celera's SNP database found
+        approximately half of the nonsynonymous B6/D2 sequence
+        changes which we identified by multiple alignment of BLAST
+        hits. Of the nonsynonymous changes that we identified by
+        multiple alignment of BLAST hits and verified by in-house
+        sequencing, fewer than half are listed in the SNP
+        database.
+        On chromosome 1, where 121 genes were compared, eight
+        amino-acid changes were identified in six genes (Table 2).
+        Of these, two are known genes and four are based only on
+        computational predictions by Celera. One of the two known
+        genes for which allelic variation was identified within its
+        coding region sequence was 
+        Slc5a7 . This encodes a high-affinity
+        choline transporter expressed in the brain and spinal cord
+        and may be considered a plausible candidate gene for
+        underlying the QTL (see Discussion).
+        On chromosome 13, when looking only at changes that have
+        multiple read coverage or were verified by in-house
+        sequencing, 36 amino-acid changes were detected within 15
+        genes (Table 2). Nine additional changes in four other
+        genes within the chromosome 13 QTL were also identified,
+        but these were all of limited reliability in that only a
+        single sequence read was available for either the B6 or D2
+        allele. Of the 
+        in silico predicted changes based on
+        single-read coverage that were sequenced in house,
+        approximately half were proven false. The proteins showing
+        allelic differences with multiple read coverage span a
+        range of functional classes and include a zinc
+        metalloprotease, 60S ribosomal protein, hyaluronic acid
+        binding protein (gene 
+        Habp4 ), developmental related
+        protein (gene 
+        Ptch ), transport system kinase and
+        several genes for which no functional assignments have yet
+        been made. As discussed below, three genes for which
+        allelic variations were detected, 
+        Srd5a1, Nrif-2 , and 
+        Hsd17b3 are thought to be
+        particularly promising biological candidates to underlie
+        the chromosome 13 QTL.
       
       
         Discussion
-        Specific mutations in the tyrosine kinase domain of 
-        EGFR are associated with sensitivity to either gefitinib or erlotinib,
-        but mechanisms of acquired resistance have not yet been reported. Based upon analogous
-        studies in other diseases with another kinase inhibitor, imatinib, a single amino acid
-        substitution from threonine to methionine at position 790 in the wild-type EGFR kinase
-        domain was predicted to lead to drug resistance, even before the association of exon 19 and
-        21 mutations of 
-        EGFR with drug responsiveness in NSCLC was reported. The T790M mutation
-        was shown in vitro in the context of wild-type EGFR to confer resistance to gefitinib [21]
-        and a related quinazoline inhibitor, PD153035 [22].
-        We show here, through molecular analysis of tumor material from three patients and one
-        NSCLC cell line, as well as additional biochemical studies, that acquired clinical drug
-        resistance to gefitinib or erlotinib is indeed associated with the T790M mutation.
-        Importantly, we find that the T790M mutation confers drug resistance not just to wild-type
-        EGFR but also to mutant EGFRs associated with clinical responsiveness to EGFR tyrosine
-        kinase inhibitors [1,2,3]. Our results further demonstrate that an analogous mechanism of
-        acquired resistance exists for imatinib and EGFR tyrosine kinase inhibitors (Table 3),
-        despite the fact that the various agents target different kinases in distinct diseases.
-        In tumors from patients not treated with either gefitinib or erlotinib, the 2369 C→T
-        mutation (T790M) appears to be extremely rare. We have not identified this mutation in 155
-        tumors (see above), and among nearly 1,300 lung cancers in which analysis of 
-        EGFR exons 18 to 21 has been performed [1,2,3,4,5,6], only one tumor
-        (which also harbored an L858R mutation) was reported to contain the T790M mutation. Whether
-        the patient from which this tumor was resected had received gefitinib or erlotinib is
-        unclear, and the report did not note an association with acquired resistance to either drug
-        [5].
-        How tumor cells bearing the T790M mutation emerge within gefitinib- or erlotinib-treated
-        patients is a matter of investigation. Subclones bearing this mutation could arise de novo
-        during treatment
-        . However, based upon analogous studies in CML, it is also possible that
-        NSCLC subclones bearing this secondary mutation pre-exist within the primary tumor clone in
-        individual patients, albeit at low frequency [23]. In either scenario, treatment with
-        gefitinib or erlotinib subsequently allows these resistant subclones to become apparent,
-        because most cells bearing sensitivity-conferring mutations die, while cells with the T790M
-        mutation persist.
-        From analysis of the crystal structure of the EGFR kinase domain bound to erlotinib, it
-        is has been shown that the wild-type threonine residue at position 790 is located in the
-        hydrophobic ATP-binding pocket of the catalytic region, where it forms a critical hydrogen
-        bond with the drug [24]. The related compound, gefitinib, is predicted to interact with
-        this threonine residue as well. Substitution of the threonine at position 790 by a larger
-        residue like methionine would probably result in steric clash with the aromatic moieties on
-        these two drugs [25]. By contrast, ATP would likely not depend on the accessibility of the
-        same hydrophobic cavity and is therefore probably not affected by the incorporation of a
-        bulky methionine side chain [25]. Consistent with this, the T790M mutation has been shown
-        not to abrogate the catalytic activity of wild-type EGFR [22].
-        The T790M mutation could also affect the kinase activity or alter the substrate
-        specificity of mutant EGFRs, such that a proliferative advantage would be conferred upon
-        cells bearing the mutation. Consistent with this, the H1975 NSCLC cell line reported here
-        to contain both T790M and L858R did not to our knowledge undergo any prior treatment with
-        gefitinib or erlotinib; the doubly mutated cells must have become dominant over time
-        through multiple passages in vitro. This scenario could explain the seemingly contradictory
-        report by others who found the H1975 cell line to be highly sensitive to gefitinib [18];
-        our H1975 cells could represent a subclone that emerged over time. Analysis of earlier
-        passages of H1975 cells for the T790M mutation would be informative in this regard.
-        Recently, new small-molecule inhibitors have been identified that retain activity
-        against the majority of imatinib-resistant BCR-ABL mutants. The new drugs bind to ABL in an
-        “open” conformation, as opposed to imatinib, which binds ABL in a “closed” conformation
-        [12,13]. Analogously, it may be possible to find EGFR tyrosine kinase inhibitors that bind
-        to the EGFR kinase domain in different ways than gefitinib and erlotinib. For example, the
-        crystal structure of another EGFR inhibitor, lapatinib (GW572016), was recently solved
-        bound to EGFR [26]. This study revealed that the quinazoline rings of erlotinib and
-        lapatinib interact differently with the EGFR kinase domain, suggesting that while the T790M
-        mutation may affect inhibition by erlotinib and gefitinib, it may not affect inhibition of
-        EGFR by compounds similar to lapatinib. To our knowledge, no NSCLC patient who initially
-        responded to but then progressed on either gefitinib or erlotinib has yet been treated with
-        lapatinib.
-        In some of the patient specimens analyzed, the actual sequencing peaks demonstrating the
-        T790M mutation were smaller than originally anticipated. These results differ from those of
-        acquired resistance mutation in CML [10], GIST [15,27], and HES [16]. However, in contrast
-        to all of these diseases, in which tumor cells are readily accessible, lung-cancer-related
-        tumors are more difficult to access, as illustrated by the limited manner in which we were
-        able to obtain tumor cells from various sites of disease (see Figure 1). Moreover,
-        re-biopsy of patients with lung cancer is not routinely performed. The use of position
-        emission tomography scans to identify the most metabolically active lesions for biopsy
-        could possibly circumvent this factor in the future, as long as such lesions are
-        resectable. Additionally, as more molecularly tailored treatment options become available
-        for lung cancer, re-biopsy of progressive sites of disease should become a standard
-        procedure, especially for patients on clinical trials of targeted agents.
-        Since tumor specimens from three additional patients with acquired resistance to EGFR
-        tyrosine kinase inhibitors did not demonstrate the T790M mutation, this specific lesion
-        does not account for all mechanisms of acquired resistance to gefitinib or erlotinib. Given
-        the paradigm established with imatinib, other drug-resistance mutations in 
-        EGFR, either within or outside the tyrosine kinase domain, are likely to
-        exist. It is also possible that 
-        EGFR amplification itself plays a role in acquired resistance, since
-        imatinib-resistant clones have been shown to lack resistance mutations but contain
-        amplified copies of 
-        BCR-ABL [11,28]. Nonetheless, studies presented here provide a basis for
-        the rational development of “second generation” kinase inhibitors for use in NSCLC.
-      
-      
-        Supporting Information
+        While other studies have mined EST databases to detect
+        SNPs [ 19], the work presented here is the first
+        demonstration of the use of strain-specific genome sequence
+        databases to discover gene-coding variants for murine QTLs.
+        Whereas previous studies have focused on detection of SNPs
+        in expressed sequence tags (ESTs) that map to locations
+        throughout the genome for use as genetic markers, the
+        present work searched strain-specific genomic sequence
+        databases for coding-region SNPs underlying disease-related
+        QTLs. In this first application of the strategy, we
+        surveyed 199 QTL-localized genes covering approximately 7
+        cM and 12 Mb of the mouse genome and identified 21 genes
+        that had altered coding regions between the B6 and D2
+        progenitor strains.
+        At least one of the allelically variant genes - 
+        Slc5a7 , detected within the proximal
+        chromosome 1 QTL interval - is a promising biological
+        candidate gene. 
+        Slc5a7 encodes a high-affinity
+        choline transporter expressed in cholinergic neurons in the
+        brain and spinal cord. Prolonged ethanol exposure decreases
+        high-affinity choline uptake in rat cerebral cortex [ 21],
+        and acute ethanol exposure decreases choline transport in
+        erythrocytes [ 22]. There was a single amino-acid change of
+        arginine (B6) to histidine (D2) at position 38, which is
+        located in the first cytoplasmic loop of the transporter,
+        with the arginine also being conserved in rat and human.
+        However, while synteny data between human and mouse suggest
+        that the gene is within the QTL, data from Celera
+        apparently places it on another chromosome. Therefore the
+        question of whether 
+        Slc5a7 remains a good candidate for
+        the proximal 1 QTL must await resolution of this issue.
+        Three genes for which allelic variations were detected -
         
-          Accession Numbers
-          The LocusLink (http://www.ncbi.nlm.nih.gov/LocusLink/) accession number for the 
-          KRAS2 sequence discussed in this paper is 3845; the GenBank
-          (http://www.ncbi.nlm.nih.gov/Genbank/) accession number for the 
-          KRAS2 sequence discussed in this paper is NT_009714.16. Reference 
-          EGFR sequence was obtained from LocusLink accession number 1956 and
-          GenBank accession number NT_033968.
+        Srd5a1, Nrif-2 and 
+        Hsd17b3 - appear to be particularly
+        promising biological candidates to underlie the chromosome
+        13 QTL. The most compelling of these is 
+        Srd5a1 , which encodes a steroid
+        5α-reductase 1 and is expressed in brain and is
+        consequently termed a neurosteroid. 5α-reduced metabolites
+        of the neurosteroids are thought to be involved in
+        myelination [ 23], and one of the key features of
+        alcoholism is the loss of cerebral white matter [ 24].
+        Steroid 5α-reductase is also required for the reduction of
+        progesterone to 5α-dihydroprogesterone, which is further
+        metabolized to 3α,5α-progesterone (allopregnanolone), which
+        has neuroactivity at GABA 
+        A receptors [ 25]. Some symptoms of
+        ethanol withdrawal appear to be produced through
+        neuroadaptive changes in GABA-mediated neurotransmission [
+        26]. It is known that many neuroactive steroids have
+        anticonvulsant activity [ 27], and during ethanol
+        withdrawal the B6 and D2 mice have differential sensitivity
+        to the anticonvulsant effects of allopregnanolone [ 28]. We
+        identified three amino acid changes within this gene
+        between the B6 and D2 strains, one of which occurs at
+        position 7 with arginine (B6) being replaced by cysteine
+        (D2). Unlike arginine, cysteine can participate in
+        disulfide bridge formation and thus has the potential to
+        produce a marked difference in the functional activity of
+        5α-reductase 1 in B6 compared to D2 animals.
+        Another candidate gene is 
+        Nrif-2 , a Krüppel-type zinc finger
+        protein thought to function as a transcriptional repressor
+        [ 29]. One of the identified amino-acid changes replaces
+        the arginine at position 593 in the D2 strain with a
+        glutamine residue in B6 mice, and this occurs within a
+        known binding site for the intracellular domain of the
+        neurotrophin receptor P75NTR [ 30]. The 
+        Nrif-2 gene is expressed in brain and
+        several other tissues, but expression is highest in testis.
+        Interestingly, the chromosome 13 QTL is sex-limited and
+        affects severity of physical dependence on alcohol only in
+        males [ 16]. In males the D2 allele was associated with
+        more severe withdrawal responses than the B6 allele,
+        whereas the opposite direction of effect was found in
+        female mice. Because the behavioral trait is sex-limited,
+        this suggests that the actions of the underlying gene are
+        sex-limited. Such a phenotype might be expected if the
+        causal variant gene was expressed and/or active in gonadal
+        tissue, as is the case with 
+        Nrif-2 .
+        A third altered candidate gene within the chromosome 13
+        QTL is 
+        Hsd17b3 . This gene encodes a
+        17β-hydroxysteroid dehydrogenase expressed primarily in
+        testis but also in several other tissues, including brain [
+        30]. 
+        Hsd17b3 catalyzes the interconversion
+        of androstenedione and testosterone, favoring the reduction
+        reaction [ 31]. Ethanol exposure has been shown to inhibit
+        the reduction of androstenedione to testosterone in rat
+        Leydig cells 
+        in vitro [ 32]. The amino acid change
+        within this gene replaces a cysteine (B6) at residue 95
+        with an arginine (D2).
+        While these data are consistent with the variant genes
+        identified on chromosomes 1 and/or 13 being the gene that
+        underlies the respective QTL, it is also possible that the
+        polymorphisms identified in these genes are merely linked
+        to the polymorphisms that actually underlie these two QTLs.
+        Although 
+        Slc5a7, Nrif-2, Srd5a1 , and 
+        Hsd17b3 are promising candidates to
+        underlie these two QTLs, a significant number of altered
+        genes were also identified that cannot formally be ruled
+        out at this time, either in place of, or in addition to,
+        these three genes. Additional fine mapping of these QTLs is
+        needed to eliminate as many false candidate genes as
+        possible from these QTL intervals. In addition, definitive
+        confirmation that 
+        Slc5a7, Nrif-2, Srd5a1 and 
+        Hsd17b3 (or other promising candidate
+        genes if they arise) are involved in predisposition to
+        physical dependence on ethanol will probably require
+        verification using transgenics (for example, allele
+        substitution or bacterial artificial chromosome
+        transgenics).
+        Another feature of the approach described here is that
+        it not only rapidly identifies gene variants within QTL
+        intervals but, because it will find many genes that are
+        unchanged between strains, can also quickly eliminate large
+        numbers of gene-coding regions as possible candidates
+        underlying the QTL. Finally, it should be pointed out that
+        even when a synonymous sequence difference is found between
+        QTL strains, it can still be used as a new, easily scored
+        marker to further narrow the QTL interval using
+        fine-mapping resources such as interval-specific congenic
+        recombinant mice [ 33]. In this regard we identified many
+        such synonymous changes between B6 and D2 that fall within
+        the proximal chromosome 1 or mid-chromosome 13 QTLs, and
+        therefore can serve as new informative markers for fine
+        mapping of these QTLs.
+        The approach described here has considerable general
+        applicability. Many other murine QTLs, encompassing a wide
+        range of complex phenotypes of interest, have been
+        identified using mapping populations derived from two of
+        the five mouse strains for which whole-genome draft
+        sequences are now available, and therefore lend themselves
+        to this 
+        in silico approach. When we carried
+        out a PubMed literature database search, 276 QTLs,
+        corresponding to 57 different phenotypes, were identified
+        that utilized two of these five mouse strains (Table 3).
+        The QTL intervals that were used in the present study were
+        rather large, and many other QTLs that use strains amenable
+        to an 
+        in silico approach are considerably
+        smaller.
+        While the present study focused on QTL gene-coding
+        region comparisons because of their potential functional
+        importance [ 5], it should be pointed out that
+        gene-regulatory regions, which are also of considerable
+        functional importance and have been shown to underlie some
+        QTLs [ 34, 35], can be studied in the same way. For
+        example, the approach described here can be combined with
+        data from high-density DNA microarray studies of the B6 and
+        D2 strains (J.M.S., unpublished work). In such a scenario,
+        interstrain comparison of the expression levels of tens of
+        thousands of genes would be carried out, the genes that are
+        differentially expressed between strains identified, and
+        their chromosome location determined from the genome
+        databases. Those differentially expressed genes that map to
+        a QTL region would be selected and the upstream regulatory
+        regions aligned 
+        in silico to search for sequence
+        differences that affect predicted transcriptional binding
+        sites. Such binding-site differences, when present, would
+        be promising candidates to underlie the QTL in which the
+        gene resides. Although less is known about sequences
+        affecting gene regulation than about those affecting
+        protein sequence, there has been considerable progress in
+        the past few years in our understanding of the sequences
+        involved in controlling gene regulation [ 36, 37].
+        It is also possible that sequence changes in the
+        noncoding regions of mRNAs can have functional effects. For
+        example, sequence in the 5' untranslated region (UTR) can
+        affect mRNA translation, and sequence in the 3' UTR can
+        affect mRNA stability. The 3' UTR region can also contain
+        enhancer elements that affect gene regulation and
+        expression. Whereas less is known about the functional
+        relevance of sequence changes in noncoding parts of mRNAs
+        than those in the protein-coding region, they can
+        nevertheless be functionally important and, as such, could
+        be included in surveys using the 
+        in silico approach described
+        here.
+        While Celera's SNP database has the ability to quickly
+        identify interstrain SNPs in QTL genes, the information
+        available from the SNP database is not as complete as the
+        data generated by our 
+        in silico approach. Specifically,
+        Celera uses a different strategy for assigning SNPs in the
+        mouse genome and the SNP database makes very conservative
+        SNP predictions; fewer than half of the SNPs we identified 
+        in silico and verified by in-house
+        sequencing are in the SNP database. The SNP database also
+        misclassifies some SNPs as missense mutations when the SNPs
+        are actually in the 5' or 3' UTR (J.M.S., unpublished
+        data). And finally, the Celera SNP database does not
+        indicate which regions of a gene's coding sequence are
+        covered by reads in each strain, and therefore does not
+        distinguish between completely sequenced regions in which
+        no variants have been detected and regions where no
+        variants are found because sequence coverage for one of the
+        strains is absent. Such a limitation provides an incomplete
+        picture of the interstrain variants that exist in a given
+        QTL, which in turn could result in passing over the
+        critical SNP underlying the QTL.
+        Although the strategy presented here provides a
+        significant new tool in going from QTL to gene, a number of
+        challenges still remain on the way to realizing this goal.
+        For example, functional confirmation that an interstrain
+        gene alteration underlies a QTL, while feasible, is not
+        trivial. As more QTL-localized genes are identified that
+        have potentially important sequence changes, as described
+        here for example, it becomes more difficult to test them
+        all functionally. A related ongoing development that should
+        help this situation by reducing the number of potential
+        candidate genes that remain within the QTL interval is
+        reduction of the interval by fine mapping using specialized
+        congenic strains or recombinant progeny testing [ 33, 38].
+        A number of interval-specific congenic strains have
+        recently been developed for a number of QTLs and, although
+        straightforward, fine mapping is still a large-scale
+        enterprise because of the need to generate and test large
+        numbers of animals to identify and behaviorally assess
+        informative recombinants, and because of the need for
+        markers to detect such recombination events.
+        While such challenges remain, the new genomics tools and
+        resources that are now available or are becoming available
+        are clearly providing a major impetus to this field. The
+        power of high-density microarray studies to identify
+        QTL-related genes and pathways, draft genomic sequences for
+        the primary mouse strains used for QTL analysis, and
+        evolving bioinformatics tools and databases are all making
+        major impacts on this field, with more improvements to be
+        expected. For example, after this work was completed, we
+        used the 
+        in silico approach on a QTL
+        identified using B6 and A/J strains and found that coverage
+        was considerably higher than reported in this study. We
+        found that in an analysis of over 30 QTL genes the 
+        in silico coverage for B6 and A/J was
+        98% and 91%, respectively, with a total coverage for both
+        of 90% (J.M.S., unpublished data). Finally, the anticipated
+        completion of the B6 genome sequence and deeper sequence
+        coverage of the D2 and A/J genomes, in particular, if
+        carried out would remove the last remaining obstacles to
+        virtually complete 
+        in silico discovery of gene variants
+        for the several hundred QTLs identified using these
+        strains.
+      
+      
+        Materials and methods
+        
+          Identification of genes within QTL regions
+          A list of known genes within the 1.0 LOD confidence
+          interval for each QTL was found using the NCBI vs MGD
+          human/mouse homology maps at NCBI [ 39]. This list was
+          screened for candidate genes on the basis of gene
+          expression within the brain and functional relevance to
+          the QTL phenotype. GenBank accession numbers for the
+          complete coding region sequence of each candidate gene
+          were found on LocusLink. Coding region sequences were
+          retrieved from GenBank and used as the query for BLAST
+          searches.
+          A more complete list of genes and gene predictions
+          within the QTL was found on the Celera Discovery System [
+          40]. The genetic marker with the highest LOD score for a
+          QTL was localized on Celera's physical map and a list of
+          genes and predicted genes within an interval on either
+          side of this marker was generated and screened for
+          candidate genes. Coding region sequences of the selected
+          genes were retrieved either from Celera or NCBI and used
+          as the query for BLAST searches.
+        
+        
+          BLAST searches
+          A MegaBLAST search of the mmtrace database on NCBI [
+          41] was used to retrieve B6 sequences from the public
+          database. Low complexity was filtered, percent identity
+          was set to 98%, and the number of alignments to return
+          was set to 100. Results were saved as a text file. A
+          BLASTN search of the All Mouse Fragments (masked)
+          database on Celera [ 42] was used to search for D2
+          sequences. The e-value was set to 0.1, and the number of
+          hits to return was set to 250. The complete entries view
+          of the results was exported to a file which was given a
+          .txt extension.
+        
+        
+          JAVA scripts to process BLAST results
+          A script, named Mouse Gene Selection NCBI (MGS_NCBI),
+          was written in JAVA and used to parse BLAST results from
+          NCBI. This script filters the BLAST results and only
+          selects hits which have percent identity greater than or
+          equal to 98% and e-value, which is a measure of the
+          statistical significance of BLAST hits, less than or
+          equal to 0.0001. The e-value is the number of hits with
+          the same degree of similarity one would expect to find by
+          chance if there were no true matches in the database.
+          Another script, Mouse Gene Selection Celera (MGS_Celera),
+          was written in JAVA and used to parse BLAST results from
+          Celera. This script filters the BLAST results and only
+          selects hits with strain name DBA/2J, e-value less than
+          or equal to 0.0001 and percent identity greater than or
+          equal to 98%. After filtering the BLAST results, the
+          script saves each alignment as an individual text file.
+          When one hit aligns with more than one region of the
+          query sequence, the entire hit is discarded if any of the
+          alignments does not meet the above criteria. As both
+          scripts are written in JAVA, they can be run on Unix,
+          Macintosh or PC platforms.
+        
+        
+          Alignment of filtered BLAST results
+          Filtered BLAST results were aligned using
+          AutoAssembler 2.1. For each gene, one alignment file was
+          made of the filtered B6 BLAST results and a separate
+          alignment file was made of the filtered D2 BLAST results.
+          The B6 alignment file was then compared to the D2
+          alignment file to identify sequence changes. When
+          sequence variations were found within a strain they were
+          regarded as true only if more than half the reads for a
+          strain contained the change. This criterion was checked
+          for validity by in-house sequencing.
+        
+        
+          In-house sequencing
+          In-house sequencing was used to test 
+          in silico sequence predictions and
+          also occasionally to fill in gaps that remained in
+          certain genes. C57BL/6J and DBA/2J mice were obtained
+          from the Jackson Laboratory. Animals were euthanized and
+          the brains dissected. Whole-brain RNA was isolated using
+          an RNeasy Maxi Kit (Qiagen). cDNA was synthesized by
+          RT-PCR using SUPERSCRIPT First Strand Synthesis System
+          for RT-PCR (Invitrogen). C57BL/6J, DBA/2J, A/J,
+          129X1/SvJ, and 129S1/SvImJ genomic DNAs were obtained
+          from the Jackson Laboratory. Primer3 software [ 43] was
+          used to design primers to amplify either cDNA or genomic
+          DNA. Template DNA was amplified by PCR in the Perkin
+          Elmer GeneAmp PCR system 9700. A typical reaction cycle
+          was denaturation for 3 min at 94°C followed by 35 cycles
+          of denaturation for 15 s at 94°C, annealing for 1 min 15
+          s at 54°C, and extension for 1 min 15 s at 72°C with a
+          final extension step at 72°C for 10 min. Products were
+          run on a 1.7% agarose gel, stained with ethidium bromide,
+          and purified using QIAquick Gel Extraction kits (Qiagen).
+          PCR products were reamplified when necessary.
+          PCR products were sequenced using ABI Big Dye
+          Terminator v.2 chemistry and cycle sequencing and
+          sequence traces read on an ABI PRISM 3100 Gene Analyzer.
+          When in-house sequencing was done to fill gaps from the 
+          in silico alignment, a minimum of
+          one forward read and one reverse read was run for each
+          sample of PCR products. When-in house sequencing was done
+          to verify nonsynonymous changes found in the 
+          in silico alignment, a minimum of
+          two forward reads and two reverse reads was run for each
+          sample of PCR products. Sequencing data for each strain
+          were analyzed with the Consed software suite [ 44].
+          Sequencing was repeated for regions of poor quality (that
+          is, Phred score < 40). High-quality sequence was
+          exported and B6 sequence was compared to D2 sequence
+          using AutoAssembler to identify changes between the two
+          strains.
         
       
     

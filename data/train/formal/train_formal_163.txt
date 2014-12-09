@@ -2,854 +2,345 @@
   
     
       
-        Introduction
-        In patients with ARDS and acute pulmonary hypertension,
-        inhaled NO has been shown to selectively dilate pulmonary
-        vessels perfusing ventilated lung areas, and to improve
-        arterial oxygenation [ 1, 2, 3, 4, 5, 6, 7, 8, 9]. The
-        `plateau' effect of NO on pulmonary vascular resistance and
-        gas exchange is obtained at various concentrations ranging
-        from 1-40 ppm [ 2, 4, 6, 7, 9, 10, 11]. In the majority of
-        patients, a major improvement in arterial oxygenation can
-        be obtained with NO concentrations < 5 ppm [ 4, 9, 10,
-        11]. In addition, the degree of response as well as the
-        optimal NO dose varies both between individuals and from
-        day to day [ 11]. In sheep with experimental acute lung
-        injury receiving inhaled NO, a dose-dependent increase in
-        arterial oxygenations is found, with a plateau effect at NO
-        concentrations of 30-60 ppm [ 12, 13]. Nitric oxide
-        concentrations > 30 ppm may result in elevated
-        concentrations of nitrogen dioxide (NO 
-        2 ) and methemoglobin particularly when
-        100% oxygen is administered together with NO [ 9]. Because
-        of the potential lung toxicity of NO 
-        2 , knowledge of the factors influencing
-        the optimal dose of inhaled NO in humans is of critical
-        importance for intensivists. Recently, it has been
-        suggested that the presence of septic shock may decrease
-        responsiveness to inhaled NO [ 14]: among 25 patients with
-        ARDS and septic shock, only 40% responded to inhaled NO
-        with an improvement in PaO 
-        2 /FiO 
-        2≥ 20%. This proportion was estimated as
-        `abnormally low', although there are no published data
-        reporting the proportion of non-septic patients with ARDS
-        responding to inhaled NO by an increase in PaO 
-        2 /FiO 
-        2 > 20%. In the present study, we
-        hypothesized that the presence of septic shock and the
-        administration of vasoconstrictors to patients with ARDS
-        could modify the dose-response to inhaled NO. We wanted to
-        assess whether in NO-responding patients with septic shock,
-        higher NO concentrations were required to obtain a
-        pulmonary effect similar to the one obtained in non-septic
-        patients. In addition, the effect of intravenous
-        norepinephrine on an NO-induced decrease in pulmonary
-        artery pressure and increase in arterial oxygenation was
-        investigated. Therefore, dose-response studies were
-        performed on two groups of critically ill patients with and
-        without septic shock whose lungs were mechanically
-        ventilated for ARDS. All patients enrolled were NO
-        responders and patients with septic shock were exclusively
-        receiving intravenous norepinephrine for hemodynamic
-        support.
+        Background
+        Nonadherence to drug therapy can undermine the
+        attainment of therapeutic goals and contribute to the
+        occurrence of medication side effects. Numerous adverse
+        clinical outcomes have been linked to nonadherence
+        including loss of blood pressure control [ 1 2 ] , acute
+        cardiac events [ 3 ] , renal transplant rejection [ 4 ] ,
+        seizures [ 5 ] , and elevated Human Immunodeficiency Virus
+        RNA levels [ 6 ] . Efforts to enhance medicinal adherence
+        have met with varying levels of success [ 7 8 9 ] .
+        The detection of nonadherence to recommended treatment
+        can be problematic. In the clinical setting asking patients
+        about their medication use is the most practical means of
+        ascertainment, but it is prone to inaccuracy [ 10 11 ] .
+        Strategies to increase the accuracy of screening for
+        nonadherence such as considering as nonadherent all those
+        who do not respond to therapy can augment sensitivity.
+        However, this unfairly mislabels some adherent patients as
+        nonadherent [ 10 ] . In general, patients tend to
+        overestimate their adherence [ 8 12 ] and unless a patient
+        is not responding to therapy, it may be extremely difficult
+        to identify under-adherence. In research settings, pill
+        counts, drug levels, pharmacy dispensing records and
+        electronic medication monitors are available to measure
+        medicinal adherence but even some of these methods such as
+        pill counts may be susceptible to overestimating adherence
+        [ 8 13 14 15 ] . In many non-research situations these
+        approaches may be difficult to implement due to their
+        obtrusiveness, cost, or complexity.
+        Although studies have been conducted to identify risk
+        factors for nonadherence itself [ 16 ] , to the best of our
+        knowledge, only one previous study has examined possible
+        risk factors for 
+        over-reporting of adherence [ 17 ] .
+        None has utilized electronic medication monitors to study
+        this area involving antihypertensive medications. We
+        consequently undertook this present study among several
+        hundred individuals who were receiving antihypertensive
+        therapy in order to explore which demographic, behavioral,
+        and clinical characteristics might be associated with
+        over-reporting of adherence. The investigation was
+        exploratory in nature and was meant to identify possible
+        leads for future research. Electronic medication monitors
+        were used to track actual medication use against which the
+        accuracy of patient-reported adherence was determined.
       
       
         Methods
         
-          Patients
-          During an 8 month period, 29 consecutive hypoxemic
-          patients with ARDS, diagnosed on or after admission to
-          the Surgical Intensive Care Unit (SICU) of La Pitié
-          Hospital in Paris (Department of Anesthesiology), were
-          prospectively screened at an early stage of their
-          respiratory disease. Written informed consent was
-          obtained from the patient's next of kin. The study was
-          approved by the Comité Consultatif de Protection des
-          Personnes dans la Recherche Biomédicale of La
-          Pitié-Salpétrière Hospital.
-          Inclusion criteria were:
-          1. bilateral infiltrates on a bedside chest
-          radiograph;
-          2. PaO 
-          2 ≤ 200 mmHg using an FiO 
-          2 of 1.0 and zero end-expiratory
-          pressure (ZEEP);
-          3. bilateral and extensive hyperdensities on a high
-          resolution spiral thoracic CT scan;
-          4. positive response to inhaled NO, defined as a
-          decrease in MPAP of at least 2 mmHg and an increase in
-          PaO 
-          2 (FiO 
-          2 1.0, PEEP 10 cmH 
-          2 O) of at least 40 mmHg after NO
-          inhalation at an inspiratory concentration of 15 ppm.
-          These response criteria were fixed in order to select
-          patients responding to NO by a decrease in MPAP and an
-          increase in PaO 
-          2 of sufficient magnitude to allow the
-          determination of dose-response curves. It was considered
-          that when the variation of the parameter studied (either
-          PaO 
-          2 or pulmonary artery pressure) was
-          close or inferior to the precision of measurement, it was
-          not possible to accurately assess the dose-response.
-          Exclusion criteria were:
-          1. left ventricular failure, defined as a cardiac
-          index ≤ 21/min/m 2associated with a pulmonary capillary
-          wedge pressure > 18 mmHg and/or a left ventricular
-          ejection fraction < 50% as estimated by bedside
-          transesophageal echocardiography;
-          2. circulatory shock requiring an exogenous
-          catecholamine other than norepinephrine, or characterized
-          by spontaneous fluctuations of blood pressure despite a
-          constant infusion of norepinephrine;
-          3. cardiac dysrhythmias;
-          4. presence of a patent foramen ovale with a
-          right-to-left atrial shunt as assessed by pulsed-wave
-          Doppler transesophageal echocardiography.
-          These exclusion criteria were intended to eliminate
-          patients with cardiac failure, intracardiac shunt or
-          cardiovascular instability, in whom an accurate
-          evaluation of dose-response to inhaled NO would have been
-          either difficult or heavily biased [ 15]. Among the 29
-          patients initially screened for inclusion, 13 had to be
-          excluded (no response to NO, 
-          n = 6; left ventricular failure, 
-          n = 4; circulatory shock with an
-          unstable arterial pressure, 
-          n = 2; atrial fibrillation, 
-          n = 1). Finally, 16 patients
-          fulfilling inclusion and exclusion criteria were
-          included. Eight patients were in septic shock and eight
-          patients had no septic shock. Diagnosis of septic shock
-          was made according to the criteria of the American
-          College of Chest Physicians/Society of Critical Care
-          Medicine Consensus Conference [ 16], requiring: (1) a
-          systemic response to infection and (2) a systolic blood
-          pressure < 90 mmHg despite adequate fluid
-          resuscitation requiring vasopressor agents. Adult
-          respiratory distress syndrome was diagnosed according to
-          the recent American-European Consensus Conference [ 17]
-          and its severity was graded according to Murray 
-          et al [ 18].
-          In each patient the trachea was orally intubated with
-          a HiLo Jet TMno 8 Mallinckrodt tube (Inc, Argyle, NY)
-          which incorporates two side ports, one ending at the
-          distal tip of the endotracheal tube and a more proximal
-          port ending 6 cm from the tip. These additional channels
-          were used for continuous monitoring of tracheal pressure
-          and tracheal concentrations of inhaled NO. After
-          inclusion in the study, all patients were sedated and
-          paralysed with a continuous intravenous infusion of
-          fentanyl 250 μg/h, flunitrazepam 1 mg/h and vecuronium 4
-          mg/h, and their lungs were ventilated using conventional
-          mechanical ventilation (César Ventilator, Taema, France).
-          For each patient, tidal volume and respiratory rate were
-          adjusted to maintain constant minute ventilation
-          throughout the study. An inspiratory time of 30%, a PEEP
-          of 10 cmH 
-          2 O and an FiO 
-          2 of 0.85 were maintained throughout
-          the study period. FiO 
-          2 was continuously monitored, using an
-          O 
-          2 analyser (Sérès 4000
-          Aix-en-Provence, France), in order to detect changes
-          resulting from the admixture of inspired gases with NO.
-          All patients were monitored using a fiberoptic
-          thermodilution pulmonary artery catheter (Oximetrix
-          Opticath Catheter, Abbot Critical Care System) and a
-          radial or femoral arterial catheter.
-          In order to accurately assess the extension of
-          pulmonar hyperdensities, and thereby the severity of ARDS
-          patients were transported to the Department of Radiology
-          (Thoracic Division) for a lung scan. The scan was
-          performed from the apex to the diaphragm using a Tomoscan
-          SR 7000 (Philips, Eindhoven) and a semi-quantitative
-          assessment of parenchymal consolidation in ZEEP was
-          performed according to a technique previously described [
-          4, 5, 8, 9]. CT scans were obtained in all patients
-          except patient 8 who could not be transported to the
-          Department of Radiology because of an unstable pelvic
-          fracture.
+          Study population
+          The study design of this investigation has been
+          described previously in detail [ 15 ] . Briefly, the
+          study was conducted at Harvard Pilgrim Health Care
+          (HPHC), a managed care organization located in New
+          England, among members who were receiving
+          antihypertensive medication from 1992 to 1994. Automated
+          medical, pharmacy, and claims records of the study
+          population were screened to identify potential study
+          subjects and retrieve their outpatient blood pressure
+          data. Patients were eligible if they had been HPHC
+          members for at least three months, were at least 18 years
+          of age, and carried a diagnosis of hypertension. Only
+          individuals on single-drug therapy for high blood
+          pressure were selected to simplify electronic adherence
+          monitoring.
+          Of 1,285 potentially eligible individuals, 330
+          consented to participate and completed all phases of the
+          study. The majority of those who did not enroll in the
+          study (71%) declined mailed or telephone invitations to
+          participate. In addition, 42 subjects dropped out midway
+          through the study, and 44 individuals were later excluded
+          because of indications of improper use of their
+          electronic medication monitor such as removal of multiple
+          doses at an opening or incomplete closure of the
+          medication vial. The remaining 286 patients constituted
+          the study population for this investigation. Individuals
+          who were eligible but did not complete this investigation
+          had a similar age, gender, and blood pressure
+          distribution as our study population. However, calcium
+          antagonists were prescribed slightly more frequently (37%
+          versus 24%) and angiotensin-converting inhibitors less
+          frequently (37% versus 49%) to individuals excluded from
+          the final study population [ 15 ] .
         
         
-          Measurements
-          Systolic and diastolic arterial pressures (SAP and
-          DAP), and systolic and diastolic pulmonary arterial
-          pressures (SPAP and DPAP) were simultaneously measured
-          using the arterial cannula and the fiberoptic pulmonary
-          artery catheter connected to two calibrated pressure
-          transducers (91 DPT-308 Mallinckrodt) positioned at the
-          midaxillary line. Systemic and pulmonary arterial
-          pressures, electrocardiogram (EKG), tracheal pressure
-          (Paw) measured through the distal port of the
-          endotracheal tube, and gas flow and tidal volume (V 
-          T ) measured using a heated and
-          calibrated Hans Rudolph pneumotachograph, were
-          simultaneously and continuously recorded on a Gould ES
-          1000 recorder (Gould Instruments, Cleveland, OH)
-          throughout the entire study period, at a paper speed of 1
-          mm/s.
-          In all patients, expired CO 
-          2 was measured using a nonaspirative
-          calibrated 47210 A infrared capnometer (Hewlett Packard)
-          positioned between the proximal end of the endotracheal
-          tube and the Y piece of the ventilator. Expired CO 
-          2 curves were continuously recorded on
-          the Gould ES 1000 recorder at a paper speed of 1 mm/s.
-          After withdrawing an arterial blood sample, the ratio of
-          alveolar dead space (VD 
-          A ) to V 
-          T was calculated as:
-          VD 
-          A /V 
-          T = 1 - (P 
-          ET CO 
-          2 /PaCO 
-          2 )
-          where P 
-          ET CO 
-          2 is end-tidal CO 
-          2 measured at the plateau of the
-          expired CO 
-          2 curve. Expired CO 
-          2 curves were then recorded at a paper
-          speed of 50 mm/s, and only tracings demonstrating a clear
-          end-expiratory plateau, defined as a constant CO 
-          2 value for more than 0.5 s at
-          end-expiration, were used to determine P 
-          ET CO 
-          2 . In patient 11, VD 
-          A /V 
-          T was not calculated because no
-          plateau could be identified on the expired CO 
-          2 curve. Because ARDS is associated
-          with abnormalities of the pulmonary vasculature (local
-          thrombi and pulmonary vasoconstriction at the early stage
-          and vascular remodeling at the late stage), VD 
-          A /V 
-          T can be considered as a better index
-          of these vascular lesions than physiologic dead space
-          calculated by the Bohr equation which takes into account
-          the anatomic dead space [ 19].
-          In each phase (see experimental protocol), when a
-          steady state was obtained - defined as a leveling of the
-          pulmonary arterial pressure - SAP, DAP, SPAP, DPAP,
-          pulmonary capillary wedge pressure (PWP), right atrial
-          pressure (RAP), V 
-          T , Paw and gas flow were recorded at
-          a paper speed of 50 mm/s. Mean arterial pressure (MAP)
-          was calculated as 1/3 SAP + 2/3 DAP. Mean pulmonary
-          artery pressure was measured by planimetry as the mean of
-          four measurements performed at end-expiration. Systolic
-          arterial pressure, DAP, SPAP, DPAP, PWP and RAP were also
-          measured at end-expiration. Cardiac output was measured
-          using the thermodilution technique and a bedside computer
-          allowing the recording of each thermodilution curve
-          (Oximetrix 3 SO 
-          2 /CO Computer). Four serial 10 ml
-          injections of 5% dextrose solution at room temperature
-          were performed at random during the respiratory cycle [
-          20]. Systemic and pulmonary arterial blood samples were
-          simultaneously withdrawn within 1 min following cardiac
-          output measurements (after discarding an initial 10 ml
-          heparin contaminated aliquot). Arterial pH, PaO 
-          2 , mixed venous partial pressure of
-          oxygen (PvO 
-          2 ) and PaCO 
-          2 were measured using an IL BGE
-          TMblood gas analyser. Hemoglobin concentration,
-          methemoglobin concentration, and arterial and mixed
-          venous oxygen saturations (SaO 
-          2 and SvO 
-          2 ) were measured using a calibrated
-          OSM3 hemoximeter. Arterial and mixed venous blood samples
-          that showed hemoglobin concentrations differing by more
-          than 0.1 g/100 ml were considered diluted, and the
-          highest hemoglobin concentration was used to calculate
-          oxygen content. Standard formulae were used to calculate
-          cardiac index (CI), PVRI, systemic vascular resistance
-          index (SVRI), right ventricular stroke work index
-          (RVSWI), venous admixture (Q 
-          VA /Q 
-          T ), arteriovenous oxygen difference
-          [C(av)O 
-          2 ], oxygen delivery (DO 
-          2 ), oxygen extraction ratio (EaO 
-          2 ) and oxygen consumption (VO 
-          2 ).
-          In all patients, respiratory pressure-volume (P-V)
-          curves were measured using a 1 l syringe (Model Series
-          5540, Hans Rudolph Inc, Kansas City, MO) according to a
-          previously described technique [ 8]. Construction of
-          inspiratory and expiratory P-V curves allowed:
-          determination of opening pressure (Pop), static
-          respiratory compliance (Crs) calculated as the slope of
-          the curve between 500-1000 ml, and quasi-static
-          respiratory compliance (Cqs), obtained by dividing the V 
-          T by the corresponding airway
-          pressure. Opening pressure could be clearly identified in
-          nine patients and was always ≤ 10 cmH 
-          2 O. A PEEP of 10 cmH 
-          2 O was systematically applied to all
-          patients.
+          Collection of electronic and patient-reported
+          adherence data
+          Individuals who consented to participate were mailed a
+          baseline questionnaire that covered their socioeconomic
+          background, medications (antihypertensive and other
+          drugs), adherence, health beliefs, health status (Medical
+          Outcomes Study, Short Form [SF-36]) [ 18 ] , and social
+          support. Responses to the questionnaire were obtained by
+          telephone interview conducted by a research
+          assistant.
+          Self-reported adherence during the monitoring period
+          was obtained using the following question, which was
+          adapted from the Brief Medication Questionnaire (Svarstad
+          B., personal communication): 
+          While you were using the special
+          medication bottle, on how many days in an AVERAGE WEEK
+          did you forget to take a pill? 0, 1, 2, 3, 4, or 5+
+          days. Our previous study [ 15 ] had indicated that
+          responses to this item (compared with 4 other adherence
+          items) correlated most closely with adherence as measured
+          by electronic medication monitoring.
+          Social support was assessed using a 9-item inventory.
+          The inventory inquired about how often the participant
+          could rely on having someone to (1) listen to them, (2)
+          accompany them to the physician, (3) show affection to
+          them, (4) give them information, (5) provide them with
+          advice that they would want, (6) do things with them to
+          turn their minds to other things, (7) help with chores,
+          (8) share worries and fears with, and (9) do enjoyable
+          things with. Responses to each question were recorded on
+          a Likert scale (1=none, 2=a little, 3=some, 4=most, or
+          5=all of the time).
+          Electronic monitoring vials were dispensed with a
+          fresh supply of antihypertensive medication upon
+          enrollment in the study. Participants were instructed by
+          pharmacists to keep all their medication in the
+          monitoring vial, use no other source of antihypertensive
+          medication, and to remove only one dose at a time from
+          the monitoring vial. Participants were informed of the
+          purpose of the electronic medication monitor.
+          Dosing events were recorded for approximately three
+          months using the Medication Event Monitoring System-4
+          (MEMS-4), manufactured by APREX Corporation, Union City,
+          CA. MEMS-4 is a microelectronic device housed within a
+          medication bottle cap that records the date and time of
+          each opening. The device blocks repeated openings that
+          occur within 15 minutes of each other to prevent
+          artifactual inflation of the number of dosing events.
+          Data were downloaded from the cap to a personal computer
+          using a manufacturer-supplied communicator and
+          software.
+          Two to three weeks after completion of electronic
+          monitoring, a followup questionnaire was sent to
+          participants to update information on their socioeconomic
+          status, prescribed antihypertensive therapy,
+          self-reported adherence during the monitoring period, and
+          health beliefs. Responses were once again obtained by
+          telephone. All aspects of the study protocol were
+          reviewed and approved by the Human Studies Committee of
+          Harvard Pilgrim Health Care.
         
         
-          Nitric oxide administration
-          Nitric oxide was released from three different tanks
-          of nitrogen that had NO concentrations of 25, 900 and
-          2000 ppm, measured using chemiluminescence (Air Liquide,
-          France). Nitric oxide was delivered into the inspiratory
-          limb of the ventilator just after the Fisher-Paykel
-          humidifier, according to a previously described technique
-          [ 9]. With the aid of a calibrated and heated
-          pneumotachograph (Model Series 3500B, Hans Rudolph Inc,
-          Kansas City, MO) attached to the proximal end of the
-          endotracheal tube, V 
-          T was reduced to exactly compensate
-          for the added volume of nitrogen and NO coming from the
-          tank. Thus, V 
-          T and minute ventilation delivered to
-          the patients were kept constant for all concentrations of
-          inhaled NO.
-          Inspiratory, expiratory and mean concentrations of NO
-          and NO 
-          2 were continuously measured using a
-          fast response time chemiluminescence apparatus (NOX 4000
-          Sérès, Aix-en-Provence, France). Intratracheal gas was
-          sampled by continuous aspiration through the proximal
-          side port of the Mallinckrodt endotracheal tube, ie 162
-          cm from the site of NO administration. The NOX 4000 is a
-          chemiluminescence apparatus specifically designed for
-          medical use. When using an aspiration flow rate of 150
-          ml/min, the response time - defined as the time necessary
-          to reach 95% of a reference NO concentration - is around
-          30 s and only mean concentrations of NO can be accurately
-          measured. When an aspiration flow rate of 1000 ml/min is
-          selected, the response time is 0.765 ms and inspiratory
-          and expiratory NO concentrations can be accurately
-          measured. In a previous study, we demonstrated that
-          inspiratory and expiratory concentrations of NO were
-          adequately measured by the NOX 4000 with a precision of
-          5% [ 9].
-          During the study, inspiratory and expiratory NO
-          concentrations were continuously measured and recorded
-          after setting the aspiration flow rate of the NOX 4000 at
-          1000 ml/min. In addition, in steady state conditions,
-          mean intratracheal NO concentrations were measured by
-          setting the aspiration flow rate of the NOX 4000 at 150
-          ml/min. When the aspiration flow rate was changed, the
-          tidal volume setting of the ventilator was modified
-          accordingly in order to achieve a constant minute
-          ventilation and stable NO concentration. In order to
-          increase precision, two different operating ranges of
-          measurement were used, depending on the concentrations of
-          NO administered to the patient: an operating range of 0-5
-          ppm was selected for inspiratory tracheal concentrations
-          of 0.15, 0.45, 1.5 and 4.5 ppm, and an operating range of
-          0-200 ppm for inspiratory tracheal concentrations of 15,
-          45 and 150 ppm. When 0-5 ppm was selected, calibration
-          was performed using a tank of NO with a reference
-          concentration of 0.945 ppm (CFPO, Air Liquide, France);
-          when 0-200 ppm was selected, calibration was performed
-          using a tank of NO with a reference concentration of 22.8
-          ppm (CFPO, Air Liquide, France). Nitrogen oxides (NOX)
-          were calibrated using the same reference tanks according
-          to the manufacturer's instructions. The oxygen analyser
-          of the NOX 4000 was used for continuous monitoring of
-          oxygen concentration in order to ensure that a constant
-          FiO 
-          2 was maintained during NO inhalation,
-          whatever the concentration administered.
-        
-        
-          Protocol
-          
-            Phase 1: PEEP without NO (control 1)
-            Baseline measurements were made following a 1 h
-            steady state of conventional mechanical ventilation
-            using the following ventilatory settings: FiO 
-            2 0.85, PEEP 10 cmH 
-            2 O, inspiratory time 30%,
-            respiratory frequency 16 ± 2 bpm, V 
-            T 728 ± 32 ml.
-          
-          
-            Phase 2: PEEP 10 cm H 2O with NO at increasing
-            inspiratory concentrations (dose-response curve)
-            Using the same ventilatory settings as in phase 1,
-            seven inspiratory tracheal concentrations of NO, chosen
-            according to a logarithmic scale, were randomly
-            administered: 0.15, 0.45, 1.5, 4.5, 15, 45 and 150 ppm.
-            Because concentrations of 45 and 150 ppm were
-            associated with a longlasting increase in blood
-            methemoglobin concentration, which interfered with the
-            calculation of venous and arterial O 
-            2 content and pulmonary shunt, they
-            were not included in the randomization, but were always
-            administered as the last concentrations. For each
-            inspiratory tracheal concentration of NO, expiratory
-            and mean intratracheal concentrations of NO were
-            measured and recorded. In addition, V 
-            T and FiO 
-            2 were adjusted at the ventilator
-            level in order to maintain a constant minute
-            ventilation and an FiO 
-            2 of 0.85 as assessed by the
-            pneumotachograph and the oxygen analyser. For each
-            inspiratory NO concentration, hemodynamic and
-            respiratory measurements were recorded after a 15 min
-            steady state.
-          
-          
-            Phase 3: PEEP 10 cm H 2O without NO (control
-            2)
-            At the end of a 1 h steady state following the
-            discontinuation of NO 150 ppm, hemodynamic and
-            respiratory paramaters were measured at the same
-            ventilator settings as in phase 1.
-          
-        
-        
-          Statistical analysis
-          Cardiorespiratory parameters at control were compared
-          between groups using a Student's 
-          t -test for unpaired data. The
-          cardiorespiratory effects of NO were analysed in each
-          group using contrast analysis (control values were
-          compared with values obtained using graded concentrations
-          of NO). In both groups of patients, the existence of a
-          dose-related effect was investigated using a one-way
-          analysis of variance for repeated measures including only
-          the different concentrations of NO. Dose-response curves
-          of NO on hemodynamic and respiratory parameters in the
-          presence or absence of septic shock were analysed using a
-          two-way analysis of variance for one within and one
-          grouping factor, ie factor `group (absence or presence of
-          septic shock)' and factor `dose of NO'. Interaction
-          between these two factors allowed us to test the
-          hypothesis that the effect of NO differed depending on
-          the presence or absence of septic shock. The significance
-          level was fixed at 5%, but due to the nature of the
-          analysis of variance, we used the criterion of Huynh and
-          Feld rather than the classical F value [ 21].
-          Calculations were made using Super ANOVA statistical
-          software (Abanus Concepts, Inc). All values are expressed
-          as mean ± SEM.
+          Data analysis
+          Due to the highly skewed distribution of questionnaire
+          responses (only 4.5% of participants reported missing
+          doses 2 or more days per week), the average number of
+          days in a week when participants missed a dose of
+          antihypertensive medication was dichotomized at 0 versus
+          ≥1 day per week. Setting the breakpoint between adherent
+          and nonadherent days at one day per week represents a
+          frequency of missed-dose days of 14.3% (1/7). MEMS-4
+          records were used to derive the actual frequency of days
+          when 1 or more doses of antihypertensive medication were
+          omitted. Adherence was defined to be over-estimated by
+          the patient if they reported an average frequency of
+          nonadherence of <1 day per week (i.e. <14.3%) while
+          electronic monitoring indicated a higher frequency of
+          days with missed doses (i.e. ≥14.3%).
+          Data analysis proceeded from an assessment of crude
+          (unadjusted) associations with over-reporting of
+          adherence to step-wise logistic regression to identify
+          which associations remained after adjustment for other
+          potential risk factors. Six categories of variables were
+          considered: (1) socioeconomic and demographic background
+          (age, gender, education, marital status, employment,
+          income); (2) clinical features (blood pressure, duration
+          of treatment, number of doses per day); (3) clinician
+          communication (previous inquiry by clinician regarding
+          medicinal adherence) (4) health beliefs (perceived
+          effectiveness of treatment and susceptibility to adverse
+          health outcomes); (5) health status (SF-36 indices); and
+          (6) social support (a summary score derived from the
+          9-item support inventory). These variables were chosen
+          either because their information might be obtainable or
+          inferred by practicing clinicians, or they had been
+          evaluated in previous studies of adherence behavior [ 8 9
+          19 20 ] . Chi-square or likelihood ratio tests from
+          logistic regression models were used to evaluate crude
+          associations between over-reporting and possible
+          predictor variables. In executing the stepwise logistic
+          regression procedure, a selection criterion of 
+          p ≤ .2 was selected to allow for
+          the evaluation of the joint effect of multiple variables.
+          The rejection criterion was also set relatively high at 
+          p ≥ .1 to permit identification of
+          all potential associations with over-reporting of
+          adherence. As described later in this paper, all
+          variables that were ultimately retained in the final
+          logistic regression model amply met these retention
+          criteria. All data manipulations and statistical analyses
+          were conducted using SAS, release 6.12 (SAS Institute,
+          Carey, NC).
         
       
       
         Results
-        
-          Patients
-          Among the 16 men enrolled in the study, eight were
-          admitted to the SICU following multiple trauma and eight
-          following postoperative complications after major
-          surgical procedures (vascular surgery, 
-          n = 1; cardiac surgery, 
-          n = 3; orthopedic surgery, 
-          n = 1; digestive surgery, 
-          n = 2; neurosurgery, 
-          n = 1). Eight patients were in
-          septic shock, defined as the presence of an identified
-          infectious foci associated with arterial hypotension
-          requiring the continuous intravenous administration of
-          norepinephrine [ 16]. Norepinephrine was administered in
-          doses ranging between 1 and 5 mg/h. All patients were
-          studied at the early phase of ARDS (first 5 days). As
-          shown in Tables 1and 2, all patients had ARDS
-          characterized by arterial hypoxemia, increased Q 
-          VA /Q 
-          T , pulmonary artery hypertension,
-          reduced respiratory compliance, and consolidation of lung
-          parenchyma involving at least 45% of total lung volume.
-          Initial clinical hemodynamic and respiratory parameters
-          were not statistically different between patients with
-          and without septic shock.
-        
-        
-          NO concentrations
-          Table 3shows that inspiratory intratracheal NO
-          concentrations were 1.5-2 times greater than mean
-          intratracheal NO concentrations. Expiratory
-          concentrations of NO progressively increased with mean NO
-          concentrations. For an inspiratory NO concentration of
-          0.15 ppm, expired NO was not detectable. For an
-          inspiratory NO concentration of 0.45 ppm, expired NO
-          could be measured in 15 patients. From inspiratory NO
-          concentrations of 1.5 ppm, expired NO could be measured
-          in all patients.
-        
-        
-          Hemodynamic and respiratory effects of NO in
-          patients without septic shock
-          As shown in Tables 4and 5, NO induced a significant
-          dose-dependent decrease in MPAP, SPAP, DPAP, PVRI,RVSWI
-          and Q 
-          VA /Q 
-          T with a significant and
-          dose-dependent increase in PaO 
-          2 /FiO 
-          2 . 
-          As shown in Figs 1, 2, 3, a plateau
-          effect was observed at inspiratory NO concentrations of
-          4.5 ppm for MPAP, PVRI, Q 
-          VA /Q 
-          T and PaO 
-          2 /FiO 
-          2 . All other hemodynamic and
-          respiratory parameters did not vary significantly.
-          Hemodynamic and respiratory parameters returned to
-          control values after the cessation of inhaled NO.
-        
-        
-          Hemodynamic and respiratory effects of NO in
-          patients with septic shock
-          Hemodynamic and respiratory effects of increasing
-          inspiratory concentrations of NO in patients with septic
-          shock are summarized in Tables 6and 7. A significant
-          dose-dependent decrease in SPAP, DPAP, MPAP, PVRI, RVSWI,
-          PaCO 
-          2 , VD 
-          A /V 
-          T and Q 
-          VA /Q 
-          T and a significant dose-dependent
-          increase in PaO 
-          2 /FiO 
-          2 were observed. The maximum decrease
-          in mean PVRI, PaCO 
-          2 and VD 
-          A /V 
-          T was obtained for an inspiratory NO
-          concentration of 4.5 ppm (Fig 3). The maximum increase in
-          PaO 
-          2 /FiO 
-          2 was obtained for an inspiratory NO
-          concentration of 150 ppm (Figs 1and 2). All other
-          hemodynamic and respiratory parameters did not vary
-          significantly. Hemodynamic and respiratory parameters
-          returned to control values after the cessation of NO
-          inhalation.
-        
-        
-          Effects of septic shock on dose-response
-          curves
-          At control, hemodynamic and respiratory parameters
-          were the same for both groups. Dose-response curves of
-          inhaled NO for MPAP, PVRI, RVSWI, PaCO 
-          2 and Q 
-          VA /Q 
-          T were not significantly different
-          between patients with and without septic shock (Figs 1,
-          2, 3). As shown in Fig 2, the effect of inhaled NO on PaO
-          
-          2 /FiO 
-          2 was significantly increased by the
-          presence of septic shock. In patients with septic shock,
-          inhaled NO increased PaO 
-          2 /FiO 
-          2 by 190%, the maximum effect being
-          obtained at an inspiratory NO concentration of 150 ppm.
-          In patients without septic shock, inhaled NO increased
-          PaO 
-          2 /FiO 
-          2 by 81%, the maximum effect being
-          obtained at an inspiratory NO concentration of 4.5 ppm.
-          Using a two-way analysis of variance, a significant
-          interaction was found for the factor group ( 
-          P = 0.047).
-        
-        
-          Individual variability of dose-response
-          curves
-          As shown in Figs 4and 5, dose-response curves
-          demonstrated marked variability between individuals. In
-          patients without septic shock, the decrease in MPAP
-          varied from 11 to 45% whereas the increase in PaO 
-          2 /FiO 
-          2 varied from 30 to 220% (Fig 4). In
-          five patients a clear plateau could be identified for the
-          decrease in MPAP (Fig 4c), whereas MPAP continued to
-          decrease with higher NO concentrations in three (Fig 4a).
-          Different patterns were observed for PaO 
-          2 /FiO 
-          2 : in four patients the PaO 
-          2 /FiO 
-          2 ratio deteriorated at the highest
-          inspiratory NO concentrations (Fig 4d), whereas in the
-          other four PaO 
-          2 /FiO 
-          2 continued to increase (Fig 4b). The
-          patients whose PaO 
-          2 /FiO 
-          2 ratio continued to increase with the
-          highest NO concentrations demonstrated a clear plateau
-          effect in MPAP at NO concentrations of 4.5 ppm suggesting
-          that the effects of NO on gas exchange and pulmonary
-          circulation can be dissociated. In patients with septic
-          shock (Fig 5), the decrease in MPAP varied from 8 to 32%
-          whereas the increase in PaO 
-          2 varied from 60 to 380%. In five
-          patients, a clear plateau could be identified on the
-          dose-response curve of MPAP (Fig cc) whereas it continued
-          to decrease with higher NO concentrations in three (Fig
-          4a). In two patients, PaO 
-          2 /FiO 
-          2 deteriorated at the highest
-          inspiratory NO concentrations (Fig 5d) whereas in the
-          other six, PaO 
-          2 /FiO 
-          2 continued to increase (Fig 5b). As
-          observed in patients without septic shock, the effects of
-          NO on arterial oxygenation and pulmonary artery pressure
-          were dissociated. In two patients only (patients 10 and
-          11), dose-response curves were characterized by a
-          concurrent dose-dependent decrease in MPAP and an
-          increase in PaO 
-          2 /FiO 
-          2 in the range of 0.15 to 150 ppm
-          inhaled NO.
-        
-        
-          Toxic effects of increasing concentrations of
-          inhaled NO
-          As shown in Table 3, methemoglobin and NO 
-          2 significantly increased at
-          inspiratory NO concentrations of 15 ppm. A mean
-          intratracheal NO 
-          2 concentration of 4 ± 0.9 ppm and a
-          mean methemoglobin concentration of 3.8 ± 0.5% were
-          observed at an inspiratory NO concentration of 150
-          ppm.
-        
+        The study population was composed of 286 individuals
+        whose mean age was 55 years (range: 18-84 years). As listed
+        in the Table 1, approximately half were female, one third
+        Black, and two thirds had some college or graduate level
+        education. The mean (± standard deviation) systolic and
+        diastolic blood pressures in the previous year were 140.0(±
+        16.1)/86.3(± 10.4). Angiotensin converting enzyme
+        inhibitors were the most commonly prescribed
+        antihypertensive agents (48%) followed by calcium
+        antagonists (22%), diuretics (16%), beta blockers (13%),
+        and other agents (1%). The median duration of
+        antihypertensive therapy prior to involvement in the study
+        was slightly greater than four years.
+        Average nonadherence was 16% among individuals who
+        reported that they were nonadherent <1 day a week
+        compared with 40% among individuals who reported more
+        frequent nonadherence. The Spearman correlation between
+        reported and electronically measured adherence was 0.34 ( 
+        p -value =.0001). While only 21% of
+        participants acknowledged missing doses one or more days
+        per week, electronic medication monitoring documented
+        nonadherence at this or greater levels in 42% of
+        participants. Seventy-eight (27%) of the 286 participants
+        over-reported their actual adherence. As shown in Table 1,
+        being unmarried (which included being widowed, separated,
+        divorced, or never married; OR = 1.80; 95% CI = 1.06-3.06; 
+        p =.03), annual income of <$15,000
+        relative to >$30,000 (OR = 2.66; 95% CI = 1.16-6.09; 
+        p =.02), prescription of >1 dose
+        per day (OR = 2.66 95% CI = 1.57-4.51; 
+        p = .0003), and diminished perceived
+        risk from nonadherence (OR = 1.28 for a 1-level difference;
+        95% CI = 1.06-1.55; 
+        p = .01) were associated with
+        over-reporting of adherence in unadjusted analyses.
+        Step-wise logistic regression selected and retained
+        being prescribed >1 dose per day (OR = 2.58; 95% CI =
+        1.50-4.41; 
+        p = .0006), diminished health risk
+        perception (OR = 1.35; 95% CI = 1.10-1.64; 
+        p = .0035), and annual income of
+        <$15,000 (OR = 2.64; 95% CI = 1.13-6.18; 
+        p = .025) in that order. Lower mean
+        systolic blood pressure in the year prior to participation
+        in the study was initially selected (p = .12) but not
+        retained in the final regression model. Marital status was
+        not chosen by the step-wise procedure. Age, gender, and
+        race/ethnicity also were not associated (p >.05) with
+        over-reporting in both the crude and step-wise logistic
+        regression analyses. Including all variables with crude
+        associations (p ≤ .1) with over-reporting of adherence
+        (marital status, income, mean diastolic blood pressure in
+        the previous year, number of daily doses, and perceived
+        risk) in a single logistic regression model did not
+        materially affect our findings (results not shown). The
+        link between >1 daily dose and over-reporting of
+        adherence was blocked (OR = 1.38; 95% CI = 0.73-2.64; 
+        p = .33) by adjusting for actual
+        adherence as measured by MEMS-4 in the final, selected
+        model indicating that the association between dosing
+        frequency and over-reporting was most likely mediated by
+        actual adherence.
       
       
         Discussion
-        
-          Factors influencing individual dose-response
-          curves
-          During mechanical ventilation, intratracheal NO
-          concentrations fluctuate according to the phase of
-          respiration [ 9], the inspiratory concentration being
-          greater than the expiratory concentration because NO is
-          absorbed at the alveolar level. In the present study, NO
-          concentrations delivered to the patient were determined
-          by sampling the endotracheal gas using a fast response
-          chemiluminescence apparatus in order to accurately
-          measure inspiratory NO concentration [ 9]. If used, slow
-          response chemiluminescence would have underestimated the
-          true inspiratory NO concentration by averaging it
-          together with the expiratory level, as probably occurred
-          in two of our previous studies [ 4, 23]. Another reason
-          for determining the inspiratory NO concentration in this
-          way was the method of NO administration used. Continuous
-          administration of NO through the initial part of the
-          inspiratory limb during volume controlled ventilation
-          invariably results in fluctuation of the NO concentration
-          within the inspiratory limb due to a 'bolus' effect [ 24,
-          25]. Although mixing of NO increases with distance from
-          the site of administration [ 24], a fast response
-          analyser is required to accurately measure the peak NO
-          concentration during the inspiratory phase. We previously
-          demonstrated in an in vitro experiment, that the NOX 4000
-          was able to measure rapid fluctuations of NO
-          concentrations with a precision ≥ 95% [ 9].
-          In the present study, two different patterns of
-          dose-response curves were observed. In 10 patients (five
-          in each group) a plateau effect for MPAP could be
-          identified at NO concentrations ranging between 0.45 and
-          4.5 ppm. In six patients (three in each group) MPAP
-          continued to decrease with the highest NO concentrations
-          (Figs 4and 5). These different variation profiles did not
-          appear to be related to the presence of septic shock.
-          Although the mean pulmonary vascular effect of inhaled
-          NO was not affected by the presence of septic shock, the
-          resulting improvement in arterial oxygenation was of a
-          greater magnitude in patients with septic shock (Fig 2).
-          The reasons for this difference are not clear. It can be
-          hypothesized that the same degree of inhaled NO-induced
-          vasodilation of the pulmonary vessels perfusing
-          ventilated lung areas resulted in a greater
-          redistribution of pulmonary blood flow in patients with
-          septic shock. This implies that for the same extent of
-          lung consolidation, basal pulmonary blood flow perfusing
-          non-ventilated lung areas was greater in patients with
-          septic shock. As a matter of fact, although the
-          percentage of lung consolidation tended to be greater in
-          patients without septic shock (63 
-          vs 57%), their mean PaO 
-          2 tended to be higher (95 ± 16 
-          vs 88 ± 11 mmHg), suggesting some
-          degree of hypoxic pulmonary vasoconstriction impairment
-          in the non-ventilated lung areas of patients with septic
-          shock. It is well known that acute lung infection and
-          septic shock may impair hypoxic pulmonary
-          vasoconstriction through the massive release from
-          activated endothelium of vasodilating mediators such as
-          prostaglandins and endogenous NO, and hence result in
-          disproportionately high shunting and hypoxemia [ 26, 27,
-          28, 29, 30, 31, 32]. In addition, exogenous
-          catecholamines, used to maintain arterial pressure during
-          septic shock, interfere with hypoxic pulmonary
-          vasoconstriction: vasodilators like isoproterenol or
-          dobutamine tend to inhibit hypoxic pulmonary
-          vasoconstriction whereas vasoconstrictors like dopamine,
-          epinephrine or norepinephrine tend to reinforce hypoxic
-          pulmonary vasoconstriction. In the present study,
-          patients with circulatory shock receiving vasodilating
-          inotrops were excluded in order to eliminate the
-          interferences between these agents, inhaled NO and
-          hypoxic pulmonary vasoconstriction.
-          Confirming a previous study [ 11], an important
-          interpatient variability was found in both groups of
-          patients (Figs 4and 5). Several factors may account for
-          this variability: at the time of investigation,
-          endogenous vasoconstricting mediators involved in
-          pulmonary artery hypertension were probably different
-          between patients. In animal studies, NO dose-response
-          curves depend on the model of acute lung injury and on
-          the pathophysiology of pulmonary artery hypertension [
-          33, 34, 35]. In patients treated with extracorporeal
-          membrane oxygenation, dose-response curves of inhaled NO
-          on MPAP have been found to be in the range of 1-100 ppm [
-          2]. It has been suggested that pulmonary vasoconstrictors
-          are continuously activated by the extracorporeal circuit
-          and released into the circulation, thus contributing to
-          pulmonary hypertension [ 36, 37, 38, 39]. Therefore, it
-          is conceivable that higher concentrations of NO are
-          necessary to obtain the maximum effect of NO on pulmonary
-          artery pressure. In the present study, dose-response
-          curves in the range of 0.15 to 150 ppm were observed in
-          three patients without septic shock and in three patients
-          with septic shock. By analogy with the dose-response
-          curves obtained in patients on extracorporeal membrane
-          oxygenation, it can be hypothesized that the presence of
-          large amounts of circulating pulmonary vasoconstrictors
-          in these patients led to the need for greater NO
-          concentrations. The variability of circulating vasoactive
-          mediators from one day to another has been recently
-          advocated to explain the variability of the dose-response
-          to NO on different days in the same patient [ 11].
-          There are three factors that could have a potential
-          influence on the responsiveness of patients with ARDS to
-          inhaled NO: (1) the anatomical remodeling of the
-          pulmonary circulation; (2) the reduction of the lung
-          volume accessible to gas, and (3) the presence of septic
-          shock.
-          External compression of the pulmonary vessels by PEEP,
-          thickening of pulmonary arterial walls observed in the
-          late stage of ARDS, and thrombosis [ 40] contribute to
-          further increase pulmonary artery pressure which becomes
-          less and less sensitive to inhaled NO. If the alveolar
-          space available for distribution of NO is reduced, only a
-          small number of pulmonary vessels can be reached, thus
-          limiting the efficiency of NO. Because all patients were
-          enrolled in the study during the first 5 days of acute
-          respiratory failure, it is unlikely that wall thickening
-          was an important limiting factor of NO efficiency.
-          However, a major reduction in lung volume was likely to
-          account for the limited effect of NO observed in some
-          patients with lung consolidation > 70% (patients 3, 7
-          and 10 in Figs 4and 5). Recently, it has been suggested
-          that the presence of septic shock may impair
-          responsiveness to inhaled NO [ 14]. However, due to the
-          small number of patients included in this study and the
-          absence of a control group, further studies are required
-          to confirm this interesting hypothesis.
-          Finally, the maximum pulmonary vascular effect and the
-          dose-response of inhaled NO on pulmonary artery pressure
-          depends on many diverse factors that may be associated in
-          a given patient: type and concentration of circulating
-          pulmonary vasoconstrictors and vasodilators (endogenous
-          and exogenous); relative importance of 'fixed' and
-          'nonfixed' components of pulmonary artery hypertension;
-          and loss of lung volume. The results of the present study
-          show that during the early stage of ARDS, inspiratory NO
-          concentrations around 5 ppm provide the maximum decrease
-          in pulmonary artery pressure in the majority of patients
-          whereas higher concentrations are necessary in a minority
-          of patients.
-        
-        
-          Dissociation between pulmonary vascular effects and
-          effects on gas exchange
-          Quantitatively, the effects of NO on pulmonary artery
-          pressure and arterial oxygenation were well correlated in
-          75% of patients. In 11 subjects (patients 5 to 8 and 10
-          to 16) quantitative variations in PaO 
-          2 and pulmonary artery pressure were
-          in agreement: a decrease in MPAP > 20% of the control
-          value was associated with an increase in PaO 
-          2 /FiO 
-          2 > 130% of the control value and
-          vice versa. In five subjects (patients 1 to 4 and patient
-          9) inhaled NO-induced changes in MPAP and PaO 
-          2 /FiO 
-          2 were quantitatively dissociated.
-          Patient 9 illustrates this (Fig 5) - although among
-          patients with septic shock he had the greatest NO-induced
-          decrease in MPAP, his PaO 
-          2 /FiO 
-          2 ratio only increased by 70%. These
-          results clearly suggest that, although linked, NO-induced
-          pulmonary vascular effects and effects on arterial
-          oxygenation can be dissociated in patients with ARDS. In
-          patients with septic shock, pulmonary arterial pressure
-          plateaued at 15 ppm whereas PaO 
-          2 /FiO 
-          2 continued to increase at higher NO
-          concentrations. This is in apparent contrast with two
-          previous dose-response studies showing that the increase
-          in PaO 
-          2 in patients with ARDS generally
-          occurs at an inspiratory NO concentration range lower
-          than the one necessary to decrease pulmonary artery
-          pressure [ 2, 11]. Further, undetectable changes in
-          pulmonary artery pressure may induce pulmonary blood flow
-          redistribution and changes in arterial oxygenation [ 2,
-          3, 11]. Recently, however, Lowson 
-          et al [ 10] found, as did this
-          study, that PaO 
-          2 continued to increase whereas
-          pulmonary artery pressure and pulmonary vascular
-          resistance plateaued at NO concentrations > 0.1 ppm.
-          In fact, among six dose-response studies already
-          published [ 2, 4, 9, 10, 11, 22] only two [ 2, 11] have
-          suggested that NO concentrations required to improve PaO 
-          2 are less than those required to
-          decrease pulmonary artery pressure. At high
-          concentrations, it may be that NO reaches pulmonary
-          vessels perfusing non-ventilated lung areas and worsens
-          arterial oxygenation by inhibiting hypoxic pulmonary
-          vasoconstriction as observed in patients 1, 2, 6, 8 and
-          15. This 'spillover' of NO into the pulmonary circulation
-          could occur either by diffusion through the lung
-          structures or directly by transportation in the blood
-          stream [ 41].
-          In conclusion, in patients with ARDS the presence of
-          septic shock treated by norepinephrine administration
-          does not modify the inhaled NO-induced pulmonary artery
-          vascular effect but amplifies the resulting improvement
-          in arterial oxygenation. Although dose-response curves
-          are characterized by a wide inter-patient variability,
-          90% of the pulmonary vascular effect is obtained for NO
-          concentrations ≤ 4.5 ppm in patients with or without
-          septic shock. The use of such low concentrations
-          precludes any potential toxicity due to the generation of
-          high concentrations of NO 
-          2 and methemoglobin. In many patients,
-          the pulmonary vascular effect and effect on gas exchange,
-          although linked, are dissociated suggesting that
-          redistribution of pulmonary blood flow does not
-          exclusively depend on the intensity of the pulmonary
-          vasodilating effect. In a minority of patients,
-          inspiratory NO concentrations > 5 ppm may be necessary
-          to obtain the maximum improvement in arterial
-          oxygenation.
-        
+        The main purpose of this exploratory analysis was to
+        identify potential risk factors for over-reporting of
+        adherence. We observed that frequent daily dosing, reduced
+        risk perception from nonadherence, and lower annual income
+        were associated with over-reporting in our study
+        population. Not surprisingly, less adherent individuals
+        were also more likely to over-report their adherence than
+        other more adherent individuals, a pattern that has been
+        reported by other investigators [ 8 12 ] .
+        The exploratory nature of this investigation makes
+        cautious interpretation of our findings necessary. Multiple
+        comparisons were made in this study and consequently the
+        results may have been chance findings. Use of a very
+        conservative standard of significance based on the
+        Bonferroni adjustment would require a p-value of ≤ .002
+        (.05/23 where .05 represents the traditional standard of
+        significance and 23 the number of comparisons made). By
+        these criteria, only dosing frequency would still be
+        considered statistically significant.
+        The association between dosing frequency and
+        over-reporting of adherence was apparently mediated by
+        actual adherence behavior because adjusting statistically
+        for electronically measured adherence blocked this
+        relationship. This is not surprising because frequent
+        dosing usually predicts lower adherence [ 5 21 ] and lower
+        adherence is associated with over-reporting. As a
+        consequence, frequent dosing would be expected to correlate
+        with over-reporting via its connection with actual
+        adherence.
+        On a more conjectural level, the observed connection
+        between decreased perception of health risk from
+        nonadherence and over-reporting of adherence may indicate
+        that health belief models that posit a direct relationship
+        between perceived risk and adherence may also apply to the
+        accurate recollection of past medication use [ 22 23 24 25
+        ] . In addition, the association with lower household
+        income in our study population may indicate that a more
+        stressful if not disorganized life situation, as suggested
+        by lower socioeconomic status, may increase the likelihood
+        of inaccurately believing that missed doses were taken.
+        Furthermore, some individuals may report what they believe
+        that clinicians or researchers want to hear. This behavior
+        might be more likely when the perceived difference in power
+        (as measured by wealth and income) is maximal.
+        Several factors that may contribute to the inaccurate
+        recounting of adherence by patients were not evaluated in
+        this study. The research instruments did not cover
+        participants' attitudes towards the healthcare system,
+        their healthcare providers, or the research staff involved
+        in this study. The quality of the patient-physician (and by
+        extension the participant-researcher) relationship may have
+        a significant impact on what patients will discuss with
+        their healthcare provider [ 26 ] . Furthermore, formal
+        psychological and cognitive testing were not performed on
+        study participants to permit evaluation of the effect of
+        memory, judgement, mood, and personality on adherence and
+        the accurate reporting of noncompliance.
+      
+      
+        Conclusions
+        This investigation is one of the first to evaluate
+        possible risk factors for over-reporting of adherence by
+        patients. The findings suggest that factors related to
+        socioeconomic status, the dosing regimen, and perceived
+        risk from nonadherence may influence how accurately
+        patients recall and report their adherence. Additional
+        investigation will be needed to confirm and extend these
+        findings as well as elucidate the possible underlying
+        behavioral mechanisms that are involved.
+      
+      
+        Competing interests
+        None declared.
       
     
   

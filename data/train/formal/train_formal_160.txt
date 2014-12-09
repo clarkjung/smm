@@ -2,129 +2,310 @@
   
     
       
+        Background
+        Acute pain has been studied in single dose designs first
+        proposed by Beecher and colleagues [ 1 2 ] and formalized
+        by Houde and Wallenstein [ 3 ] . The problem with single
+        trials is that while they can demonstrate statistical
+        superiority of analgesic over placebo, variation because of
+        random chance means that, if small, they provide a poor
+        estimate of the size of the analgesic effect [ 4 ] .
+        Combining results from clinically homogeneous trials in a
+        meta-analysis gives an accurate estimate of the extent of
+        the analgesic effect when sufficient numbers of patients
+        have been randomized [ 4 5 ] .
+        Clinical trials in acute pain normally last four to six
+        hours, because that is the duration of effect for most
+        analgesics, whether injected or as tablets, and for simple
+        analgesics, NSAIDs or opioids. Meta-analysis in acute pain
+        has concentrated on the use of the area under the total
+        pain relief versus time curve (TOTPAR), dichotomized into
+        at least 50% pain relief or not [ 6 ] . It is not
+        necessarily the only measure available or the most
+        relevant. The precedent exists at a primary research level
+        for adopting remedication as an outcome. Bullingham and
+        colleagues [ 7 ] and Gibb and colleagues [ 8 ] explored the
+        measure of re-medication in post-surgical patients subject
+        to multiple dosing. A 'rescue factor' design was refined to
+        demonstrate both analgesic efficacy and assay sensitivity.
+        [ 9 ] . Farrar and colleagues [ 10 ] extrapolated from
+        re-medication data in an effort to both define and
+        demonstrate analgesic efficacy.
+        Despite these efforts, time to remedication has never
+        become a standard outcome in analgesic trials. One reason
+        for this might simply be the similarity in duration between
+        commonly used analgesics. For rofecoxib, this might be
+        different. In arthritis 12.5 mg or 25 mg of rofecoxib is
+        given as a single dose once a day to control pain. The
+        acute pain dose of 50 mg is claimed to have prolonged
+        analgesic activity [ 11 ] .
+        The purpose of this systematic review and meta-analysis
+        of rofecoxib in acute pain was threefold. First to examine
+        all acute pain studies of analgesic efficacy in adults over
+        six hours for comparison with other analgesics in acute
+        pain. Second to examine the amount and quality of the
+        evidence presented on extended duration of analgesia. Third
+        to examine the quality and quantity of evidence on adverse
+        events.
+      
+      
+        Methods
+        QUORUM guidelines were followed [ 12 ] . Possible
+        studies for inclusion were sought through searching the
+        Cochrane Library (issue 4, 2001), Biological Abstracts
+        (March 2002), MEDLINE (March 2002) and PubMed (March 2002)
+        using rofecoxib as a free text term. The search strategy
+        used is detailed in Additional File 1. Abstracts were
+        examined for possible inclusion if they were randomized
+        trials conducted in an acute pain setting, used rofecoxib
+        and a placebo or active comparator. Reference lists and
+        review articles were examined for possible additional
+        references, and in-house databases were also searched for
+        papers.
+        Criteria for inclusion for postoperative pain were: full
+        journal publication, randomized controlled trials which
+        included single dose treatment groups of oral rofecoxib and
+        placebo, double blind design, baseline postoperative pain
+        of moderate to severe intensity, patients over 15 years of
+        age, at least 10 patients per group, and the pain outcome
+        measures of total pain relief (TOTPAR) or summed pain
+        intensity difference (SPID) over 4-6 hours or sufficient
+        data to allow their calculation. Pain measures allowed for
+        the calculation of TOTPAR or SPID were a standard five
+        point pain relief scale (none, slight, moderate, good,
+        complete), a standard four point pain intensity scale
+        (none, mild, moderate, severe) or a standard visual
+        analogue scale (VAS) for pain relief or pain intensity.
+        Also of interest was information on the time to
+        remedication. For adverse events, the primary outcome
+        sought was the proportion of patients experiencing any
+        adverse event, with secondary outcomes of patients
+        experiencing particular adverse events. Although adverse
+        events are often reported inconsistently in acute pain
+        trials [ 13 ] , the outcome of any patient experiencing any
+        adverse event was the least inconsistently reported.
+        Each report which could possibly be described as a
+        randomized controlled trial was read independently by at
+        least three authors and scored using a commonly-used three
+        item, 1-5 score, quality scale [ 14 ] . Consensus was then
+        achieved. The maximum score of an included study was 5 and
+        the minimum score was 2. Authors were not blinded because
+        they already knew the literature.
+        For each trial, mean TOTPAR, SPID, VASTOTPAR or VASSPID
+        values for each treatment group were converted to
+        %maxTOTPAR by division into the calculated maximum value [
+        15 ] . The proportion of patients in each treatment group
+        who achieved at least 50%maxTOTPAR was calculated using
+        valid equations [ 16 17 18 ] . The number of patients
+        randomized was taken as the basis for calculations, to
+        produce an intention to treat analysis. The number of
+        patients with at least 50%maxTOTPAR was then used to
+        calculate relative benefit and NNT for rofecoxib versus
+        placebo. The same methods were used for adverse events.
+        Relative benefit and relative risk estimates were
+        calculated with 95% confidence intervals using a fixed
+        effects model [ 19 ] . Heterogeneity tests were not used as
+        they have previously been shown to be unhelpful [ 20 21 ] ,
+        though homogeneity was examined visually [ 22 ] .
+        Publication bias was not assessed using funnel plots as
+        these tests have been shown to be unhelpful [ 23 24 ] . The
+        number needed to treat or harm (NNT and NNH) with
+        confidence intervals was calculated by the method of Cook
+        and Sackett [ 25 ] from the sum of all events and patients
+        for treatment and placebo. Cumulative calculation of NNT [
+        5 ] was performed by adding studies by year of publication,
+        and alphabetically within a year.
+        Relative benefit or risk was considered to be
+        statistically significant when the 95% confidence interval
+        did not include 1. NNT or NNH values were only calculated
+        when the relative risk or benefit was statistically
+        significant, and are reported with the 95% confidence
+        interval. Calculations were performed using Microsoft Excel
+        2001 on a Power Macintosh G4.
+        Additional file 1
+        Search strategy
+        Click here for file
+      
+      
+        Results
+        
+          At least 50% pain relief
+          All five trials gave or allowed the calculation of
+          six-hour TOTPAR and the derivation of the number of
+          patients with at least 50%maxTOTPAR. There was good
+          agreement between the five studies (Figure 1). Overall
+          252/464 patients (54%) given rofecoxib 50 mg had at least
+          50% maxTOTPAR over six hours, compared with 24/211
+          patients (11%) with placebo. The NNT for one patient to
+          have at least half pain relief over six hours was 2.3
+          (2.0 to 2.6) (Table 1). Cumulative meta-analysis of the
+          five trials (Figure 2) shows that the 95% confidence
+          interval of the calculated NNT fell within ± 0.5 NNT of
+          the overall mean (1.8 to 2.8) when 500 patients had been
+          randomized.
         
         
-          
-            
-              “Alchemy: a process of transforming something common into something
-              special”—Webster's Dictionary
-            
-          
+          Remedication time
+          Onset of analgesia with rofecoxib 50 mg appeared to be
+          generally the same as with comparator analgesics. Trials
+          tried to discourage remedication within 90 minutes, and
+          two patients in one trial were excluded because they
+          remedicated within 90 minutes, one on placebo and one on
+          rofecoxib 50 mg [ 26 ] . This was not reported
+          consistently ( Additional File 3). The percentage of
+          patients remedicating within two hours was given in one
+          study [ 26 ] , and within 24 hours in two [ 11 27 ] .
+          Only one study (.( [ 27 ] gave cumulative remedication
+          rates over the duration of the study. Median time to
+          remedication was given in three studies [ 11 27 28 ] ,
+          and this allowed the calculation of a mean of the three
+          trials weighted by the number of patients. For placebo
+          the weighted mean time to remedication from 126 patients
+          in three trials was 1.9 hours. For rofecoxib 50 mg the
+          weighted mean time to remedication from 322 patients in
+          three trials was 13.6 hours. For ibuprofen 400 mg the
+          weighted mean time to remedication from 97 patients in
+          two trials was 7.4 hours.
         
-        A growing number of studies are reporting the isolation of cardiac stem cells from a
-        variety of tissue sources and examining their effects on promoting the repair of the
-        injured heart. In the current issue of 
-        PLoS Biology , the storyline takes an unexpected, interesting twist, as
-        Neal Epstein and his colleagues report the isolation of a novel cell type from skeletal
-        muscle that can adopt a highly differentiated cardiac muscle cell phenotype in vitro and in
-        vivo [1].
-        In this study, the authors use a differential isolation procedure to remove the skeletal
-        muscle cells and myoblasts (immature muscle cells), and then collect the cells that are
-        negative for a cell-surface marker called Sca-1. Under defined in vitro conditions, these
-        cells adopt a cardiomyocyte phenotype that goes beyond the simple expression of
-        cardiac-restricted biochemical and molecular markers, extending to the types of single-cell
-        physiological functions that are hallmarks of authentic cardiomyocytes, including action
-        potentials, calcium transients, and contractile activity. They call the cells Spoc cells,
-        an acronym for “skeletal-based precursor of cardiomyocytes.”
-        The study goes on to show that these cells can adopt this phenotype without the addition
-        of cytokines or agents such as azacytidine that are known to activate the muscle gene
-        program in nonmuscle cells. The cells also adopt the cardiac phenotype following their in
-        vivo implantation into the ischemic heart following myocardial infarction, suggesting a
-        potential therapeutic utility for these cells. Since Spoc cells were isolated from murine
-        skeletal muscle, they may eventually allow the use of sophisticated conditional genetic
-        tracking techniques to monitor the migration, maturation, and differentiation of the cells
-        in the in vivo context.
-        Of course, a study with results this unexpected also raises a number of intriguing
-        questions. Identifying the native location of Spoc cells, as well as the in vivo niche that
-        insulates them from entering the differentiated cardiac program, will be valuable. A
-        rigorous exploration of their developmental origin and their relationship to the other
-        well-known cell types in skeletal muscle should be forthcoming. In this regard, a set of
-        skeletal muscle stem cells, distinct from myoblasts, has also been found [2], and the
-        question arises as to whether Spoc cells are related to these other skeletal muscle
-        progenitors.
+        
+          Adverse events
+          Adverse events were not reported consistently (
+          Additional File 3). Two trials reported the proportion of
+          patients having any adverse event. An adverse event was
+          reported by 33% of patients on placebo and 28% of those
+          on rofecoxib 50 mg (not significantly different, Table
+          1). Nausea and vomiting were reported separately in three
+          dental trials, and both occurred significantly less
+          frequently with rofecoxib 50 mg than with placebo (Table
+          1). For both there were negative numbers needed to harm
+          (-11 and -12 respectively), showing that for every 11 or
+          12 patients given rofecoxib, one fewer was nauseous or
+          vomited than with placebo. There were few events, though,
+          with only 44 nauseated patients and only 27 who vomited
+          in the three trials of rofecoxib 50 mg comparable with 34
+          nauseated patients and only 22 who vomited in the two
+          trials of ibuprofen 400 mg.
+        
       
       
-        Cardiomyocyte Precursors Abound
-        Other studies have reported the isolation of cells that can differentiate into cardiac
-        muscle from diverse noncardiac tissues. In vitro and in vivo studies have suggested that
-        these cells can adopt defined features of the cardiomyocyte phenotype when they are
-        implanted into injured heart following myocardial infarction. It is possible that these
-        studies are pointing to the existence of a rare circulating pool of precursor cells, which
-        are able to home to the heart.
-        To understand the provenance of these cells, it will become critical to identify a set
-        of gene products, or markers, that are restricted to Spoc cells and to other potential
-        progenitor cells. Since the protocols for the isolation of the Spoc cells have been
-        developed in the mouse, it should also become possible to use state-of-the-art spatial and
-        temporal control strategies for triggering irreversible lineage tracers in these cells in
-        the in vivo context without isolating the cells per se. This will make it possible to
-        follow the fate of these cells as they differentiate. Similar approaches have recently been
-        used to identify a subset of rare, native cardiac progenitors (which are positive for the
-        marker Islet-1) in the newborn hearts of mice, rats, and humans (Figure 1; [3]). Exploring
-        the relationship of the Spoc cells to these native cardioblasts could reveal shared
-        pathways that drive their formation, renewal, and differentiation.
+        Discussion
+        The five included studies were of generally high
+        reporting quality (quality scores of 4 or 5), known to be
+        associated with minimal reporting bias [ 30 31 ] . They all
+        had a placebo control, used standardized pain intensity and
+        relief scores in adult patients with established pain of
+        moderate or severe intensity, and measured outcomes over at
+        least six hours. The pain models, third molar dental
+        extraction and orthopaedic surgery, are commonly used in
+        research and choice of model does not appear to influence
+        results in single-dose analgesic studies when patients are
+        able to take oral medication [ 13 ] . Comparison of
+        rofecoxib 50 mg with other analgesics over six hours is
+        legitimate, because the same outcome was measured in the
+        same way in the same patients over the same period of time,
+        and with same comparator.
+        Compared with placebo, the NNT for at least 50% pain
+        relief over six hours was 2.3 (2.0 to 2.6). Table 2collects
+        NNTs for a number of common oral analgesics and
+        intramuscular morphine from recent meta-analyses [ 32 13 ]
+        and unpublished updates of other published Cochrane reviews
+        [ 33 34 ] . Rofecoxib 50 mg is comparable with other doses
+        of oral NSAIDs and intramuscular morphine.
+        For rofecoxib 50 mg this may not fully reflect its
+        efficacy compared with these other analgesics, because
+        rofecoxib 50 mg may have a longer duration of action. In
+        the five included trials duration was inconsistently
+        reported, however, with median remedication times in three
+        trials (but without dispersion) and percentage remedicated
+        at two hours in one trial and 24 hours in two trials. This
+        disparity in reporting allowed only the crudest analysis of
+        weighted mean remedication time. This was 1.9 hours for
+        placebo, 7.4 hours for ibuprofen 400 mg and 13.6 hours for
+        rofecoxib 50 mg. The figures of 7.4 hours for ibuprofen 400
+        mg and 1.9 hours for placebo is in agreement with a larger
+        unpublished analysis (Barden et al, unpublished
+        observations). The extended time to remedication for
+        rofecoxib 50 mg may represent a real clinical advantage
+        where the problem is not a lack of effective analgesics,
+        but rather effective analgesics ineffectively delivered [
+        35 ] , and given that using a relatively large dose has no
+        disadvantages.
+        The efficacy of rofecoxib in these five classical
+        clinical analgesic assays is in contrast to two randomized
+        comparisons of rofecoxib with placebo when given before the
+        operation in adults [ 36 ] and children [ 37 ] . The
+        methodological difficulties and lack of effect of
+        preemptive analgesia have been pointed out previously [ 38
+        39 ] . In these two trials additional difficulties were the
+        large between-individual variation in morphine consumption
+        in adults [ 36 ] , and the use of a novel (unlicensed)
+        syrup formulation of rofecoxib in children [ 37 ] . Lack of
+        a demonstrable analgesic effect in preemptive studies does
+        not negate a substantial postoperative effect when patients
+        both have pain and can swallow.
+        There was no consistent pattern of adverse event
+        reporting in the five included trials. Two trials had
+        information on any patient with any adverse event (Table
+        1), with no difference between rofecoxib 50 mg and placebo.
+        In three trials information on patients suffering nausea
+        and vomiting was available, showing that these adverse
+        events occurred less frequently with rofecoxib 50 mg than
+        placebo. The amount of information (number of patients
+        randomized) was insufficient to make any authoritative
+        statement about adverse events, or compare the adverse
+        event profile of rofecoxib 50 mg in single doses with other
+        single dose analgesics. Adverse events in single-dose
+        studies are often poorly reported, and of limited value [
+        40 ] .
+        In clinical practice, NSAIDs are associated with acute
+        renal failure in patients with impaired renal function [ 41
+        42 ] and with congestive heart failure in older people with
+        a prior history of heart disease [ 43 ] . Acute renal
+        failure after surgery occurs in 1 patient in 1000 after
+        major surgery [ 44 ] , though it is not clear how much of
+        this is specifically due to the NSAID. For coxibs,
+        especially at high doses, similar caution should be used in
+        patients with pre-existing renal or cardiac conditions as
+        apply to the use of NSAIDs. The slope of the adverse event
+        dose-response may be steeper than for analgesia.
+        These published reports were insufficiently detailed for
+        calculation of numbers needed to treat for durations longer
+        than six hours. Some information was available for TOTPAR
+        calculated to eight hours, but not in a dichotomous format.
+        TOTPAR is not normally distributed, and mean values are not
+        meaningful [ 45 ] . For times longer than six hours, and
+        for duration of analgesia and adverse event profiles, more
+        detailed information from individual patients would be
+        required.
       
       
-        Defining a True Progenitor
-        One of the inherent caveats of the present study is the potential for phenotypic drift
-        that occurs with prolonged growth of any cell type. It is possible, for example, that the
-        genetic program of these cells gradually changes with time such that they can more easily
-        adopt the cardiac phenotype. Heart and skeletal muscle share many key gene regulatory
-        factors and downstream genetic programs, and the loss of a few key negative regulatory
-        checkpoints might allow the cells to differentiate towards a cardiac phenotype. Again,
-        documenting the existence of these cells in the in vivo context, particularly during stages
-        of embryonic myogenesis, will be key.
-        There is already a clear precedent for this type of phenotypic drift between cardiac and
-        skeletal muscle. H9c2 cells were originally derived from rat heart, but actually represent
-        skeletal myoblasts, because they fuse and form myotubes following serum withdrawal. These
-        cells express myogenic factors in the MyoD family, and do not express cardiac-restricted
-        factors. Although the cells were initially isolated on the basis of their expression of
-        cardiac markers, this is an example phenotypic drift—that is, the cells have drifted from a
-        cardiac phenotype during repeated passage rather than simply representing skeletal muscle
-        cells resident within the heart. Thus, the isolation of an immature cell from a heart does
-        not necessarily denote that it is serving as a cardiac progenitor or stem cell. Potentially
-        the same issue might hold for putative cardiac progenitor cells isolated from skeletal
-        muscle, where the phenotype observed may not necessarily reflect its role in vivo within
-        skeletal muscle.
-        One of the difficulties with alchemy and this new age of cardiac myocyte biology is
-        related to defining a rigorous set of criteria that allow one to make the claim that the
-        cell type of interest is truly a cardiac progenitor or stem cell and is acquiring a fully
-        differentiated phenotype [4]. In this regard, the paper by Epstein and colleagues has done
-        an admirable job of scoring for functional phenotypes (for example, having action
-        potentials and calcium transients) that are far beyond the simple expression of cardiac
-        muscle markers, which has been the phenotypic endpoint for many previous papers in the
-        field. In addition, the authors go on to show the acquisition of the differentiated cardiac
-        phenotype in the in vivo state in the absence of fusion with neighboring cardiac muscle
-        cells, which has been a confounding variable in most other studies of this type. If a
-        precursor cell simply fuses with a fully differentiated cell in a tissue, one could easily
-        be fooled into thinking that the precursor has itself differentiated, as has been found for
-        many types of putative cardiac stem cells [5]. Fortunately, techniques have been devised to
-        detect such events.
-        In surveying the growing number of studies and claims of new cells that can acquire some
-        type of heart cell phenotype in vitro or in vivo (for a review see [6]), it will become
-        increasingly important to create a set of rigorous criteria that would distinguish between
-        the following: authentic progenitor cells that are already committed to the cardiac
-        lineage; pluripotent stem cells that can infrequently adopt the cardiac phenotype;
-        phenotypic drift of other muscle progenitors with an increased propensity to enter cardiac
-        lineages; and a variety of other cell types that can aberrantly express cardiac markers
-        ectopically or by fusion with neighboring cardiac muscle cells.
-        Finding cell-type-specific markers for these cells will be critical, as opposed to
-        generalized markers that do not allow the in vivo discrimination of their precise
-        localization, mobilization, and differentiation in the intact muscle. The gold standard
-        would then become the isolation of the cells from the intact organ after differentiation
-        has occurred by creating genetically based or antibody-based approaches to identify and/or
-        purify the already differentiated progeny from the intact muscle. Alternatively, new
-        two-photon confocal microscopy approaches to identify the cells and then to monitor cardiac
-        function in the intact heart should prove valuable [7].
-        For two decades, the bulk of our knowledge of molecular pathways that guide cardiac
-        growth, development, and disease has been gleaned from a combination of in vivo studies in
-        genetically engineered mice and primary cultures of neonatal and adult rat cardiomyocytes.
-        Perhaps the most scientifically exciting aspect of this new age of cardiomyocyte biology is
-        not simply related to cardiac repair. To date, there have been no continuous differentiated
-        cardiac cell lines, a fact that has hampered the field for decades. The development of
-        well-characterized cardiac progenitor cells offers the promise of using real genetic-based
-        approaches to rapidly define the complex pathways that guide cardiac contractility,
-        excitability, and lineage diversification into atrial, ventricular, and conduction system
-        myocyte cell lineages.
+        Conclusions
+        Rofecoxib at a dose 2-4 times the standard daily dose
+        for chronic pain is an effective single dose oral analgesic
+        in acute pain. Limitations in trial reporting constrain
+        conclusions about longer duration of analgesia and adverse
+        event profile.
+      
+      
+        Competing interests
+        RAM has been a consultant for MSD. RAM & HJM have
+        consulted for various pharmaceutical companies. RAM, HJM
+        & JE have received lecture fees from pharmaceutical
+        companies related to analgesics and other healthcare
+        interventions. All authors have received research support
+        from charities, government and industry sources at various
+        times, but no such support was received for this work. No
+        author has any direct stock holding in any pharmaceutical
+        company.
+      
+      
+        Authors' contributions
+        JB was involved with searching, data extraction, quality
+        scoring, analysis and writing. JE was involved with
+        searching, data extraction, quality scoring and writing.
+        HJM was involved in analysis and writing. RAM was involved
+        in data extraction, quality scoring, analysis and
+        writing.
       
     
   

@@ -3,724 +3,739 @@
     
       
         Background
-        Recent reports describe the use of gene-expression
-        profiling for the identification of molecular markers of
-        toxicity [ 1 2 3 ] . This technique alone does not account
-        for morphological changes in tissues that have
-        traditionally been used by pathologists to discriminate
-        between types and severity of toxicological responses [ 4 5
-        6 ] . For a comprehensive approach to toxicological
-        evaluation, we developed a unique methodology that uses
-        histomorphometric profiles, derived from machine vision, in
-        conjunction with gene-expression profiles, termed
-        extensible morphometric relational gene-expression analysis
-        (EMeRGE). This novel method was evaluated on an
-        established, extreme model of liver toxicity using carbon
-        tetrachloride (CCl 
-        4 ) in rats that were dosed for 3 days
-        and allowed to recover. Liver is relevant in toxicology as
-        the primary organ of metabolism and detoxification; it is a
-        recurrent target of chronic drug toxicity.
-        A fully automated analytical microscope equipped with
-        machine-vision hardware and software was used to generate
-        quantitative information about the structure and
-        heterogeneity of liver. The histomorphometric profiles
-        could be used to evaluate tissue heterogeneity across the
-        tissue including regions of hepatocellular necrosis.
-        Representative images of tissue sections from control and
-        treated tissues are shown in Figure 1. Examples of
-        processed sample image tiles are shown in Figure 2, where a
-        control liver (Figure 2a) can be compared to a treated
-        liver (Figure 2b), illustrating the significant structural
-        damage induced by treatment with CCl 
-        4 . Gene-expression profiles were
-        generated from the same livers using DNA microarrays. The
-        microarrays measured mRNA transcription levels of genes
-        important in adsorption, distribution, metabolism and
-        excretion (ADME). Previous studies of these genes,
-        including markers of toxic stress, apoptosis, growth
-        regulation and repair, were consistent with documented
-        toxicologic responses to CCl 
-        4 , where expression of components of
-        cytochrome P450 and other metabolic enzymes (Cyp2C,
-        Cyp3A18, Cyp3A9, SCS and Fmo1) were found to decrease,
-        whereas certain genes involved in the inflammatory response
-        and signal transduction were increased (CD44 and Lgals3) [
-        7 ] .
-        Previous studies relating gene expression to pathologic
-        or tissue data have evaluated qualitative tissue
-        information only [ 8 9 ] , or focused on visually
-        identified tissue subareas or specific cells isolated by by
-        laser microdissection (LMD) [ 10 11 12 ] . In LMD, specific
-        cells from a sample are collected by interactively defining
-        areas of interest in a microscope image, which are excised
-        by a laser for subsequent gene-expression analysis. LMD is
-        subjective and destructive to the specimen and has limited
-        ability to account for tissue heterogeneity. Progress in
-        digital microscopy has allowed quantitative image analysis
-        to generate data that objectively and completely describe
-        tissue phenotype, free of observer disagreement [ 13 ] ,
-        and with the potential to detect subtle changes that are
-        undetectable to the human eye [ 14 ] . Tissue
-        histomorphometric profiles in EMeRGE are correlated
-        statistically with gene-expression profiles, characterizing
-        each sample through both top-down phenotypic information
-        and complementary bottom-up genomic data. Spearman's rank
-        order correlation determined significant monotonic
-        relationships that illuminate important connections between
-        structural features in tissue elements and genes that have
-        been reported as significantly up- or downregulated by CCl 
-        4 treatment in previous studies [ 7 ] .
-        Principal component analysis (PCA), as described in
-        Materials and methods, was carried out to reduce the
-        complexity of the data [ 15 ] and then to relate individual
-        animals to specific phenotypic groups. A quadratic
-        regression classifier was used to develop a scheme that
-        defined treated and control groups in three datasets: gene
-        expression, tissue feature and the combination of both.
-        This method required no pre-selection or filtering of
-        invariantly expressing genes to classify groups as
-        previously published. Although the classification ability
-        was not improved when tissue features were added to gene
-        expression, analysis of the combined data revealed
-        different outlier animals for each dataset, presenting a
-        more complete picture of the damage and regeneration.
+        Ion channels located in the plasma membrane provide one
+        means to mediate cellular adaptation to local environmental
+        changes. Voltage-gated K +channels in non-nerve, non-muscle
+        cells play crucial roles in cell development,
+        proliferation, migration, volume regulation, as well as
+        maintenance of membrane potential and cell viability. This
+        is in part because these channels regulate the cytoplasmic
+        concentrations of K +, Ca 2+, and Na +ions [ 1 2 3 4 5 6 7
+        8 9 10 ] . The diversity of voltage-gated K +channels and
+        currents present in these "non-excitable" (non-muscle,
+        non-nerve) cells is impressive. Thus, the assignment of
+        specific functions to particular subclasses of K +channel
+        proteins represents a significant challenge [ 4 10 11 12 13
+        14 15 16 ] .
+        Voltage-gated K +currents with distinct
+        electrophysiological and pharmacological properties are
+        present in granulosa cells (GC), and modulate resting
+        membrane potential [ 4 12 13 16 17 ] . Furthermore,
+        selective antagonism of GC K +channels with distinct
+        molecular correlates, electrophysiological properties and
+        expression patterns can influence differentially GC
+        proliferation, steroidogenic capability, and apoptosis [ 17
+        18 ] . Our laboratory has previously identified two
+        distinct delayed rectifier K +currents in pig GC: a slow
+        current (I 
+        Ks ) associated with channels formed by
+        co-assembly of KCNQ1 pore-forming and KCNE1 accessory
+        proteins, and an ultra-rapid current (I 
+        Kur ) formed by co-assembly of KCNA
+        pore-forming and KCNAB accessory proteins [ 4 ] . Moreover,
+        we have shown that selective block of I 
+        Ks enhances basal progesterone
+        synthesis, while complete block of both I 
+        Ks and I 
+        Kur accelerates apoptosis [ 18 ] .
+        Here, our goal was to determine the functional effects
+        of antagonizing GC K +channels formed by KCNA vs. KCNQ
+        family proteins. To this end, we treated primary cultures
+        of GC and monolayers of the immortalized granulosa cell
+        line PGC-2 [ 19 ] with the K +channel antagonist
+        4-aminopyridine (4-AP). 4-aminopyridine, at millimolar
+        concentrations, completely inhibits K +currents conducted
+        by heterologously expressed KCNA channels and native GC I 
+        Kur , but lacks significant effects on
+        native GC I 
+        Ks [ 4 12 13 20 ] . Kusaka showed that
+        antagonism of 4-AP sensitive slowly inactivating delayed
+        rectifier K +currents suppressed both basal and luteinizing
+        hormone (LH)-stimulated progesterone production [ 21 ] . In
+        this report, we extend those findings by demonstrating 4-AP
+        inhibition of follicle stimulating hormone (FSH)-stimulated
+        progesterone production, and by elucidating the underlying
+        mechanisms.
       
       
-        Results and discussion
+        Methods
         
-          Correlation between tissue features and gene
-          expression
-          Relationships between gene expression and tissue
-          features can be a deep source of information about toxin
-          mechanism. Using Spearman's rank order correlation (see
-          Materials and methods), we tested for monotonic
-          functional relationships between gene-expression values
-          and tissue features. The numbers of significant
-          correlations were determined at the following levels:
-          0.05, 0.01 and 0.001 (Table 1). These levels represent
-          the cutoff probability of making a type I error, for
-          example, the probability of determining that there exists
-          a true correlation when in reality there is none.
-          Genes that correlated with tissue features with a 
-          p -value of 0.01 or lower were
-          chosen for additional inspection (see Additional data
-          files). This analysis highlighted known markers of
-          toxicity as well as many genes identified in previous CCl
-          
-          4 studies, most notably that for LRF-1
-          (M63282), a known regulator of proliferation during liver
-          regeneration following injury, as well as the genes for
-          vitronectin (U44845) and α glutathione- 
-          S -transferase Mu isoform (U86635)
-          [ 7 16 17 ] .
-          A number of genes correlating with tissue features
-          were distinct from those found by a twofold ratio
-          analysis [ 7 ] . Assessment of these genes revealed an
-          association with the known or suspected genes involved in
-          the biology of CCl 
-          4 toxicity. Correlations with three
-          structural metrics were chosen for examination, providing
-          a substantial number of genes: '% clear space', 'area %
-          vacuoles' and 'vacuoles/mm 2'. The tissue metrics % clear
-          space and area % vacuoles were negatively correlated with
-          at least one isoform of cytochrome P450 (3A9:U46118,
-          2B12:X63545 and 2B3:M20406), this may be a hallmark of
-          recovery. One gene common to clear-space-related metrics
-          (non-stained tissue, including vacuoles and hydrophic
-          degeneration) was α-tubulin (V01227). Tubulin levels do
-          not change during the acute phase of CCl 
-          4 poisoning, but have been shown to
-          decrease in association with the development of fatty
-          liver tissue as a result of chronic CCl 
-          4 exposure [ 18 19 ] . In the present
-          study, tubulin was positively correlated with the three
-          components of clear space, perhaps indicating cellular
-          reorganization. Also strongly correlated with all three
-          clear-space metrics was 
-          S -adenosylmethionine synthetase
-          (X60822) (AdoMet synthetase). A suppression of AdoMet
-          synthetase activity has been observed in a model of
-          acetaminophen toxicity [ 20 ] . The negative correlation
-          of AdoMet synthetase mRNA observed in the present study
-          suggests that CCl 
-          4 toxicity suppresses message as well,
-          as AdoMet synthetase was most significantly correlated
-          with % clear space.
-          Expression of distintegrin metalloprotease (Z48444)
-          was positively correlated with the two vacuole-related
-          metrics. This is an ADAM10-homolog known to be a tumor
-          necrosis factor-α (TNFα) convertase [ 21 ] , TNFα
-          produced by Kupffer cells in the liver stimulates
-          production of TNFα, a mitogen for hepatocytes helping to
-          generate new cells needed to rebuild damaged areas of the
-          liver [ 22 ] . Kupffer cells have a significant role as
-          mediators of acute inflammation after CCl 
-          4 treatment; however, they also
-          produce factors that can cause secondary injury in the
-          liver through fibrogenic responses. An increase in a TNFα
-          convertase would ensure that any residual cytokine
-          present would be in the active stimulatory form. TNFα and
-          its receptor, along with interleukin-6 (IL-6) and its
-          receptor, were both upregulated in the present study, but
-          neither was correlated with a tissue metric below the
-          0.01 
-          p -value threshold.
-          Different spectra of cytokines are associated with
-          toxicity or inflammation compared to tissue repair. In
-          the present study, genes encoding many different
-          cytokines were affected; however, not all were
-          significantly correlated with the tissue metrics examined
-          in this analysis. A striking exception was the family of
-          vascular endothelial growth factors (VEGF). The role of
-          VEGF in the recovery of necrotic liver following CCl 
-          4 treatment has been well established
-          [ 23 24 ] . Here, several VEGF isoforms were found to
-          correlate with clear-space-related metrics. Isoforms B
-          and D (AF022952 and AF014827) were positively correlated
-          with % clear space itself, whereas isoform C (AF010302)
-          was negatively correlated with both area % vacuoles and
-          vacuoles/mm 2. VEGF Ch was reported to be involved in
-          cancer metastasis and tumor-cell invasion [ 25 26 ] ,
-          whereas isoforms B and D are believed to have roles in
-          proliferation and tissue remodeling [ 27 28 29 30 ] ,
-          highlighting the diverse roles of these cytokines. VEGF
-          mRNA peaks at 72 hours after CCl 
-          4 treatment in Kupffer cells, whereas
-          it peaks at 7 days in hepatocytes, well after necrosis
-          has resolved and when vascular and sinusoidal endothelial
-          cells are reappearing in the tissue [ 23 31 ] .
-          Correlation of VEGF isoforms with specific tissue metrics
-          suggests they have different roles in the regeneration
-          and revascularization of severely damaged areas of the
-          treated livers.
-          Both the heat-stable enterotoxin receptor (M55636) and
-          contrapsin-like protease inhibitor CPi-26 (D00753)
-          correlated with % clear space and area % vacuoles. The
-          enterotoxin receptor, which is a marker for regeneration
-          in both partial hepatectomy and CCl 
-          4 toxicity [ 32 ] , was positively
-          correlated with these tissue metrics, whereas CP1-26 was
-          negatively correlated. SPI-3 has been shown to be a
-          downstream target of both the inflammatory acute-phase
-          regulators TNFα and IL-6 [ 33 ] . Positive correlation
-          with an intermediate conductance calcium-activated
-          potassium channel SMIK (AF190458) was common to the
-          metrics related to vacuole density, area % vacuoles and
-          vacuoles/mm 2. CCl 
-          4 treatment perturbs the balance of
-          many serum electrolytes [ 34 ] , and an increase in the
-          SMIK channel might help re-establish normal potassium
-          homeostasis as the liver recovers from the toxic
-          stress.
-          Correlations between genes and tissue metrics may
-          reveal interesting differences similar to
-          histomorphometric findings. For example, the vacuolar
-          metrics (area % vacuoles and vacuoles/mm 2) have genes
-          uniquely correlated with each, demonstrating a potential
-          genetic basis for the difference between the number and
-          size of vacuoles and their density, or packing. Vacuole
-          density was linked to the expression of wee1 tyrosine
-          kinase (D31838) and a nuclear co-repressor (AF059311) as
-          well as IL-5 and -12 (AJ011299 and AF083329), all
-          involved in cell-cycle regulation and signaling. In
-          contrast, area % vacuoles was linked to expression of
-          interferon regulatory factor 1 (IRF-1; M34253). IRF-1 has
-          been reported to be upregulated by TNFα during sepsis [
-          35 ] . The correlation between this cytokine and area %
-          vacuoles but not with vacuoles/mm 2shows the dynamic
-          balance between the primary response to injury and tissue
-          proliferation and repair. This illustrates how genes
-          associated with each metric could help define molecular
-          factors behind complex cellular mechanisms.
-          In this study, the toxic injury visible on day 4 was
-          subsequently reversed by days 7 and 14, with decreasing
-          impairment indicated by the levels of expression of
-          metabolic genes. By day 14, there was a decrease in %
-          clear space in livers from treated animals whereas the
-          other metrics - area % vacuoles and vacuoles/mm 2-
-          remained consistent over time (data not shown). These
-          findings hint at the important role of genes correlated
-          with % clear space in the balance between toxicity,
-          repair and proliferation occurring in treated livers.
+          Reagents
+          Cell culture media, supplements, phosphate-buffered
+          saline (PBS, 10 X) and sera were obtained from Life
+          Technologies (Gaithersburg, MD) unless stated otherwise.
+          Chemicals were obtained from Sigma (St. Louis, MO) unless
+          stated otherwise. Regular pork insulin (100 units/mL) was
+          obtained from Eli Lilly (Indianapolis, IN). PBFI-AM
+          (1,3-Benzenedicarboxylic acid,
+          4,4'-[1,4,10,13-tetraoxa-7,16-diazacyclooctadecane-7,16-diylbis(5-methoxy-6,2-benzofurandiyl)]bis-,
+          tetrakis [(acetyloxy)methyl] ester) and DiBAC 
+          4 (3) (bis-(1,3-dibutylbarbituric
+          acid) trimethine oxonol) were obtained from Molecular
+          Probes (Eugene, OR). Primary antibodies were obtained
+          from commercial sources for detection of proliferating
+          cell nuclear antigen (PCNA, Oncogene Science, Cambridge,
+          MA) and actin (Sigma). Nitrocellulose membranes (Hybond
+          ECL), secondary antibodies, enhanced chemiluminescence
+          (ECL) reagent, and film (Hyperfilm ECL) were obtained
+          from Amersham Pharmacia Biotech (Piscataway, NJ). Porcine
+          FSH (2039 IU/mg) was obtained from the National Hormone
+          and Pituitary Program (NHPP). PGC-2 cells were provided
+          by B.R. Downey (McGill University, Montreal, Canada).
+          Antibody directed against steroidogenic acute regulatory
+          protein (StAR) was a gift from D.B. Hales (University of
+          Illinois, Chicago).
         
         
-          PCA and classification
-          PCA was used to reduce the complexity in the gene,
-          tissue and combined profiles of each rat liver. From
-          these analyses, we determined the principal component
-          that identified the day-4-treated animals. The second
-          principal component of the gene-expression data separated
-          the day-4-treated animals from all others, including the
-          remaining CCl 
-          4 -treated days 7 and 14 (Figure 3a).
-          The first principal component separates the two groups
-          for the tissue-only data (Figure 3b), and both the first
-          and second principal components track the differences
-          between the two groups in the combined datasets (Figure
-          3c).
-          Using the first two principal components, we
-          classified the animals in treated day-4 versus control
-          and other groups using a quadratic regression classifier
-          for all three datasets. A cross-validation estimate of
-          the probability of successful classification of the
-          animals was used to determine the diagnostic strength of
-          each type of dataset. Each step of the cross-validation
-          calculated the appropriate principal components for all
-          but one animal to determine the parameters of the
-          quadratic regression classifier, and then the remaining
-          animal was classified. This was repeated so that every
-          observed animal was left out and classified. The
-          resulting schema can identify which animals were
-          correctly classified or misclassified. With this method
-          we were able to estimate the accuracy of developing a
-          well-defined classification method. In practice, the
-          discrimination rule would be created on a training set of
-          data and applied to an unknown set; therefore a high
-          cross-validation probability of successful classification
-          for developing a well-defined discrimination rule is
-          important.
-          This analysis was carried out on gene expression and
-          tissue features separately and on the combined dataset.
-          Using gene-expression data only, the correct
-          classification probability was 96.43%. Using the
-          tissue-feature data, correct classification was 92.86%.
-          Finally, using the combined data, accuracy for correct
-          classification was 96.43%. The strong correlations
-          between tissue features and genes allowed for the
-          prediction of the tissue metrics from the gene dataset
-          but not the genes from the tissue-feature data; note that
-          this is due to the fact that it is easier to predict 11
-          tissue metrics from 1,040 genes than vice versa.
-          Therefore, inclusion of tissue data in the combined set
-          did not necessarily improve the classification using just
-          the gene-expression data. Comparing the misclassified
-          animals from both sets, however, revealed differences for
-          genes compared to tissue features. These differences can
-          be used for diagnostic purposes by comparing the
-          classification of outlier animals, and to examine more
-          closely the underlying components in both the molecular
-          and phenotypic response to a toxin.
-          The introduction of robust machine-vision techniques
-          that can consistently discern the histomorphology of
-          tissues in a comprehensive fashion will support
-          pathologic assessments allowing a more quantitative
-          evaluation of phenotypic responses to compounds.
-          Investigations can be carried out in an automated,
-          unsupervised fashion necessary for high-throughput
-          analyses. The EMeRGE method demonstrated correlations
-          between specific genes and tissue structures that can
-          augment interpretation of biological observations and
-          diagnosis. These correlations illustrate a new paradigm
-          that phenotypically anchors changes in gene expression to
-          structural features in tissue. Improved outlier detection
-          may be attained with a combination of gene-expression and
-          tissue phenotypic data. The improved objectivity and
-          reproducibility of phenotypic assessments correlated with
-          gene-expression data is a step forward in tissue analysis
-          that will impact on the definition of therapeutic margins
-          and help refine dose levels, as well as improve
-          identification of atypical responses. Other covariants
-          such as clinical chemistry parameters can be added to
-          this analysis for an even deeper view [ 1 ] . Combined
-          analyses, such as EMeRGE, can be applied to any
-          experimental or pathologic conditions where gene
-          expression and tissue histology are integral to the
-          interpretation of toxic or pharmacologic events as well
-          as to the pathophysiology of disease.
-        
-      
-      
-        Materials and methods
-        
-          Experimental protocol
-          Six groups of five male, age- and weight-matched,
-          Sprague-Dawley rats were separated into three groups of
-          vehicle controls and three groups of CCl 
-          4 -treated animals. Each rat was dosed
-          once daily on days 1, 2 and 3 by intraperitoneal
-          injections of either pure corn-oil vehicle or CCl 
-          4 dissolved in corn oil (approximately
-          15% v/v) at a dose of 1,000 mg/kg/day [ 1 ] . Animals
-          were euthanized by CO 
-          2 asphyxiation and exsanguination
-          following a 24 h fast on either day 4, 7, or 14, and
-          tissues were harvested for analysis. The central lobe of
-          each liver was harvested at necropsy, and approximately 1
-          g was flash frozen in liquid nitrogen. RNA was extracted
-          using TRIzol reagent according to the protocol from
-          Gibco-BRL. The remaining liver fraction was fixed in 10%
-          formalin.
+          GC Isolation and Culture
+          Porcine ovaries were collected at a local
+          slaughterhouse, and GC were isolated using techniques
+          described previously in detail [ 4 18 ] . Briefly, small
+          (1-3 mm diameter) to medium (4-6 mm diameter) follicles
+          were aspirated by hand using a 19-gauge needle attached
+          to a 10 cc syringe. GC were separated from follicular
+          fluid by centrifugation at 500 × g for 5 minutes. Cells
+          were washed twice with a 1:1 mixture of Ham F10 nutrient
+          medium and Dulbecco modified Eagle medium (DMEM)
+          containing 4-(2-Hydroxyethyl)piperazine-1-ethanesulfonic
+          acid (HEPES, 25 mM), penicillin (50 U/ml) and
+          streptomycin (50 μg/ml). Culture conditions for GC were
+          similar to those described previously by our laboratory
+          and others [ 4 18 22 23 ] . The basic culture medium
+          consisted of HEPES-buffered DMEM: F10 (1:1) supplemented
+          with fetal bovine serum (FBS, 10%), penicillin (50 U/ml),
+          streptomycin (50 μg/ml), gentamicin (57 ng/ml) and
+          amphotericin (2.5 μg/ml).
+          Freshly isolated GC were plated in the basic
+          serum-supplemented culture media on collagen-coated
+          24-well (500 μl/well) or 6-well (2 ml/well) culture
+          dishes, and incubated at 37° C in a humidified atmosphere
+          of 5% CO 
+          2 and air. In every experiment, cells
+          were plated at equal density for each treatment group.
+          Plating density between experiments varied from 2 × 10
+          4cells/well/24-multiwell to 1 × 10
+          6cells/well/6-multiwell. Culture wells in the 6-multiwell
+          clusters had a well diameter of 34.8 mm and a growth area
+          of 9.4 cm 2, while culture wells in the 24-multiwell
+          clusters had a well diameter of 15.6 mm and a growth area
+          of 1.9 cm 2. The culture media were changed 16 h after
+          plating to fresh serum-supplemented media that contained
+          either vehicle or treatment(s). Media were collected and
+          replaced at 24 h intervals thereafter. 4-AP was dissolved
+          directly into the culture media on the day of use, and
+          the pH was readjusted to 7.4 with saturated HCl after
+          addition of drug. DIDS (4',4'
+          diisothicyanato-stilbene-2-2'-disulfonic acid) was
+          diluted into culture media from a 200X aqueous stock.
+          Stock solutions of forskolin (10 mM) and
+          3-isobutyl-1-methylxanthine (IBMX, 80 mM) were in
+          DMSO.
+          In a subset of experiments, GC were cultured in a
+          defined serum-free medium of HEPES-buffered DMEM:F10
+          (1:1) containing insulin (300 mU/ml), hydrocortisone (40
+          ng/ml), transferrin (5 μg/ml), bovine serum albumin (4
+          mg/ml, Bovine Albumin Fraction V, albumin = 95%),
+
+          gentamicin (57 μg/ml), penicillin (50 U/ml), streptomycin
+          (50 μg/ml), and amphotericin (2.5 μg/ml). This medium
+          significantly increases the magnitude and duration of
+          basal and FSH-stimulated progesterone output by GC [ 22 ]
+          .
         
         
-          Sample preparation, hybridization and
-          scanning
-          Total RNA was quantified and assessed for quality on a
-          Bioanalyzer RNA chip (Agilent, Palo Alto, CA). Each chip
-          contains a set of interconnected gel-filled channels that
-          enables molecular sieving of nucleic acids.
-          Pin-electrodes in the chip create electrokinetic forces
-          that drive molecules through these microchannels and
-          carry out electrophoretic separations. Ribosomal RNA
-          peaks are measured by fluorescence signal and displayed
-          in an electropherogram. A successful total RNA sample
-          featured two distinct ribosomal peaks (18S and 28S rRNA).
-          First-strand cDNA was prepared, labeled and processed as
-          described in the Motorola CodeLink system protocols.
-          Processed arrays were scanned using an GenePix Scanner
-          (Axon Instruments, Foster City, CA); array images were
-          acquired using the Motorola CodeLink™ Analysis Software
-          (Amersham Biosciences, Piscataway, NJ).
+          PGC-2 Cell Culture and Patch Clamp
+          The pig granulosa cell line PGC-2 was obtained from
+          Bruce Downey (McGill University) and maintained in
+          culture in McCoy's modified 5A medium supplemented with
+          10% FBS, as described previously in detail [ 19 ] . PGC-2
+          cells have been well-characterized with respect to
+          steroidogenic capability, cAMP response, and gonadotropin
+          insensitivity [ 19 ] . Here, PGC-2 were seeded at a
+          density of approximately 5 × 10 5cells/ml of
+          serum-containing medium in 24-well tissue culture plates.
+          After 24 h the medium was replaced with serum-free medium
+          containing either pregnenolone (1 μg/ml), androstenedione
+          (100 μM), 5α-dihydrotestosterone (5α-DHT, 10 or 100 μM),
+          or forskolin (5 μM) and IBMX (10 μM). To ensure the
+          validity of this model for assessing the functional
+          effects on the K +channel antagonists, we used whole-cell
+          patch clamp techniques [ 4 ] to document the presence of
+          4-AP sensitive K +currents in PGC-2 (see additional file
+          1).
+          Additional File 1
+          4-AP-sensitive delayed rectifier K +current in PGC-2.
+          Whole-cell patch clamp currents recorded from a PGC-2
+          cell, in response to a series of six depolarizing test
+          pulses of 1 s duration (step +20 mV) from a holding
+          potential of -50 mV, before (left) and after (middle)
+          application of 2 mM 4-aminopyridine (4-AP). The right
+          panel shows the 4-AP sensitive current obtained by
+          subtracting the current traces recorded in the presence
+          (middle) of the drug from those recorded in the absence
+          (left) of the drug. Recording conditions are identical to
+          those used previous by our laboratory to record
+          voltage-dependent K +currents from pig granulosa cells ( 
+          Mol Pharmacol 2002 61:201-13). The
+          data demonstrate that PGC-2 cells express K +currents
+          similar to the granulosa cell ultra-rapid delayed
+          rectifier current (I 
+          Kur ) in terms of the
+          voltage-dependence and kinetics of activation and
+          deactivation, as well as the sensitivity to 4-AP. Similar
+          currents were recorded in 7 of 7 cells assayed using
+          patch-clamp techniques.
+          Click here for file
         
         
-          ADME rat bioarray system and data
-          preparation
-          The Motorola CodeLink™ ADME Rat Bioarray consists of
-          1,137 oligonucleotide probes corresponding to 1,040
-          unique clusters and 97 control probes, selected from
-          GenBank Rodent and RefSeq build number 122. Each 30
-          base-pair (bp) probe is was spotted in triplicate. All
-          samples were hybridized to two microarrays resulting in
-          six data points per probe.
-          The Motorola CodeLink™ Analysis Software gives an
-          integrated optical density (IOD) value for every spot; a
-          unique background value for that spot is subtracted,
-          resulting in 'raw' data points.
+          Measurement of Membrane Potential
+          The resting membrane potentials of cultured GC were
+          assessed by spectrophotometric determination of DiBAC 
+          4 (3) fluorescence (excitation= 485
+          nM; emission= 527 nM; Fluoroskan Ascent FL, LabSystems
+          Inc., Helsinki, Finland). Cells were equilibrated with 2
+          μM DiBAC 
+          4 (3) for 30 minutes at 37°C prior to
+          fluorescence measurement. In most experiments, GC were
+          bathed in culture media. However, one set of fluorescence
+          measurements compared GC incubated in a normal Tyrode
+          solution containing (in mM): 132 NaCl; 4 KCl; 1 MgCl 
+          2 ; 1 CaCl 
+          2 ; 5 dextrose; 10 HEPES (pH = 7.4) to
+          GC similarly incubated in a relatively low-chloride
+          Tyrode solution in which the NaCl was replaced with
+          sodium aspartate.
         
         
-          Histomorphometric profiling
-          The remaining portion of the central lobe was fixed in
-          formalin, embedded in paraffin, sectioned (5 μm) and
-          stained with hematoxylin and eosin (H&E). An
-          automated analytical microscope system (ARTIS™,
-          TissueInformatics) was used to scan the entire slide at a
-          low resolution to identify tissue locations. The smallest
-          possible rectangular region fully encompassing each
-          tissue section was captured at a high resolution at 0.64
-          μm/pixel on a tile-by-tile basis, generating 100-400
-          individual digital image tiles per slide. Each individual
-          image tile was automatically focused, captured,
-          digitized, corrected for shading and analyzed.
-          The methodology was developed for image segmentation
-          and trained for object classification using a
-          representative set of images from controls and treated
-          rat liver specimen from various studies, before the
-          system was applied the specimen of this study. As a
-          precursor to any segmentation operation the input 24-bit
-          RGB images of H&E-prepared tissue were converted
-          using a stain space conversion, based on PCA. This
-          technique effectively allowed each pixel in the image to
-          be mapped to its respective stain-absorption value to
-          give an invariant representation of the histologic
-          properties of the image. Once the stain value at each
-          pixel was determined, a generalized grouping was used to
-          account for regional features, such as nuclei, which bind
-          the stain. Similar high-level segmentation accounted for
-          other object types within the tissue - namely clear
-          space, vacuoles, sinusoids and cytoplasmic material -
-          that generally tend to absorb (or not absorb) one type of
-          stain.
-          Hepatic cells comprise approximately 80% of the volume
-          of the liver and 60% of the cell count. They vary in
-          shape and texture (both in nuclei and cytoplasm) from one
-          liver zone to another. Conditions such as hyperplasia and
-          hypertrophy and other metabolic conditions may affect the
-          appearance of nuclei and the surrounding cytoplasm as a
-          result of tissue injury.
-          Definition of the invariant characteristics of hepatic
-          nuclei made a robust segmentation possible and included
-          the following features. Hepatic nuclei have a dark-blue
-          appearance as a result of the absorption of hematoxylin.
-          They may contain nucleoli, or chromatin figures internal
-          to the nuclei. This will be exhibited as a conic boundary
-          with a clear internal structure highlighted by dark
-          annotations. They are generally round or polyhedral in
-          shape. They will have a general size boundary (correlated
-          to the image capture magnification); variance will exist
-          between each layer of the liver. They are highlighted
-          from the background tissue by the differential stain
-          properties of hematoxylin, offsetting nuclear material
-          from the surrounding cytoplasm.
-          For classification, a probability model was used where
-          each pixel expressing hematoxylin stain contains a vector
-          of attributes that denotes the probability of the pixel
-          belonging to a nucleus object. Candidate objects can be
-          readily found by locating local maxima in the
-          hematoxylin-stained image (expressed as a ratio of
-          hematoxylin and eosin with a spatial filter applied to
-          reduce noise). The vector is composed of elements such as
-          stain-value deviation, size, shape, and texture
-          measurements of internally visible chromatin and/or
-          nucleoli. Proper values for these vectors were learned by
-          a simple neural network model and used to classify
-          objects into appropriate categories (for example, hepatic
-          nucleus or non-hepatic nucleus). At times, representative
-          elements of this vector were misleading, because of
-          artifacts in histology preparation and sectioning. These
-          errors were resolved by applying pre-filtering to each
-          vector element before comparison with the neural network.
-          For example, nuclei with a 'half-moon' silhouette caused
-          by the sectioning process will be misleading. In this
-          case, fitting a polygon to the boundary and extracting
-          hull-properties for the classification can make a solid
-          differentiation.
-          Once the non-hepatic nuclei objects were separated
-          from the surrounding tissue, they were differentiated
-          further by applying spatial characteristics derived from
-          the architecture of the liver. Both size and eccentricity
-          acted as a differentiator, as well as encapsulation by or
-          nearness to sinusoids (clear space). These rules were
-          fairly invariant and had proved robust in validation
-          protocols graded by pathologists on how well a feature
-          was discriminated. The cellular architecture of the liver
-          allowed for robust training data to be automatically
-          characterized by the system. Objects were assigned
-          'rankings' of their probability of belonging to a given
-          class plotted against spatial relationships, allowing for
-          quick identification and correction of errors; for
-          example, an object classified as a Kupffer nucleus (other
-          nucleus) should not exist outside of a certain proximity
-          to a sinusoid.
-          Other elements in the liver could be derived with
-          similar morphometric comparisons utilizing simple
-          pattern-recognition classifiers for optimal performance.
-          Micro- and macrovesicular change were detected by
-          thresholding the resultant clear-space image (derived by
-          calculating tissue pixels that do not contain stain) in
-          the saturation plane and locating 'round' objects.
-          Similarly, performance was improved by localizing red
-          blood cells, identified by strong eosin stain band
-          expression, to oblong white objects, as they are
-          typically found in intrasinusoidal space.
-          All nuclei were then masked out of the original tissue
-          mask, and clear-space areas were identified by performing
-          an automatic threshold in the intensity band of the
-          masked image. Binary clear space areas were classified as
-          vacuoles or as general white space objects based on
-          circularity and size. A texture measure was developed,
-          based on a gradient-filtered image, as an indicator of
-          fine spatial changes in the cytoplasm [ 36 ] . The
-          cytoplasm of control livers had a smooth and uniform
-          appearance, compared to that of treated animals, which
-          exhibits more roughness, mainly caused by vacuoles.
-          After training, the system was applied to the specimen
-          of this study and all analytical steps were executed
-          fully automatically and without further user interaction.
-          The derived tissue metrics included hepatocyte and other
-          nuclei, sinusoids, vacuoles including conglomerates of
-          microvesicular change, counts of each feature per mm 2, %
-          area of each feature respective to the total tissue area
-          of each section, total % clear space (non-stained
-          cellular and tissue elements), and % hematoxylin stained
-          objects (nuclei) and a texture feature. A reference set
-          of 24 images was selected for validation. Two images from
-          two animals from all groups, control and treated, were
-          randomly selected. The system used in this study was
-          validated for the detection of basic tissue elements
-          including hepatocyte nuclei, other nuclei, vacuoles and
-          sinusoids. Two pathologists independently inspected the
-          classified objects indicated by colored overlays on the
-          digital images. Typically, there are about 250-450
-          hepatocyte nuclei, 20-130 non-hepatocyte nuclei, 50-300
-          vacuoles and 70-200 sinusoids in any one image.
-          False-positive 'hits' and missed false-negative
-          identifications of nuclei were counted. Results for
-          hepatocytes nuclei were less than 3% false negative and
-          less than 2% false positive; for other nuclei, less than
-          7% false negative and less than 15% false positive. The
-          percentage of correctly detected vacuoles including
-          conglomerates of microvesicular change and sinusoids were
-          determined by an estimation of correct identification.
-          The result for vacuoles and conglomerates of
-          microvesicular change were in the range of less than 40%
-          false negative and less than 10% false positive. Smaller
-          vacuoles could not be correctly identified because of
-          resolution limits, but the heterogeneity in the cytoplasm
-          could be detected by the texture analysis. Estimate for
-          sinusoids was in the range of less than 5% false negative
-          and less than 20% false positive.
-          The field-specific features clear space,
-          hematoxylin-stained areas and texture have no direct
-          quantifiable visual correlation; this also applies to
-          geometric and density features that are derived from the
-          basic tissue elements and therefore cannot be validated
-          by human observation.
+          Measurement of Intracellular Potassium
+          Intracellular levels of potassium were assessed by
+          determination of PBFI fluorescence. Cells were
+          equilibrated with the cell permeant acetoxylmethyl ester
+          of the ion sensitive dye PBFI (5 μM) for 1 h, then washed
+          and resuspended in PBS. Fluorescence was measured using a
+          plate-reader (excitation = 340 nM; emission = 505 nM;
+          Fluoroskan Ascent FL, LabSystems Inc., Helsinki,
+          Finland).
         
         
-          Statistical data analysis
-          The 'raw' microarray data, consisting of six readouts
-          per gene, were prepared for analysis by removing outliers
-          and undergoing normalization. Generally, outliers result
-          in expression values that are much larger than expected.
-          To minimize the effects of the outliers, an outlier
-          detection filter was applied to the data. First, the
-          median of each set of six data points was calculated,
-          then the absolute value of the difference between each
-          data point and the median of the set to which it belonged
-          was calculated. The median absolute deviation was then
-          determined. A modified z-score for each original
-          gene-expression value was derived as the absolute
-          difference between the original data point and the median
-          of the set to which it belonged, multiplied by 0.6745 and
-          divided by the median absolute difference for the set [
-          37 ] . Then, if the largest gene-expression value in a
-          given set of six values had a modified z-score larger
-          than 8.7, it was labeled an outlier and removed from the
-          raw dataset. Only 0.3% of all raw data points were
-          determined to be outliers using this method. After
-          outlier removal, the resulting datasets were normalized
-          with respect to the median value of all raw data points
-          on a given microarray to adjust for array-to-array
-          variability. The medians of the remaining gene-expression
-          values for each probe on the microarray were then
-          calculated and used for further analysis. This data
-          preparation resulted in one gene-expression value per
-          gene per animal and is referred to as the 'normalized'
-          dataset.
-          Spearman's rank order correlation is a rank-based
-          adjustment to Pearson's correlation, which checks for
-          strength of a linear relationship between two variables [
-          38 ] . Spearman's rank order correlation ranks the data
-          in each variable and then calculates Pearson's
-          correlation with the paired ranked data, hence checking
-          for the strength of a monotone relationship; 
-          p -values are based on permutation
-          methods.
-          PCA is a statistical technique to reduce the
-          dimensionality of a dataset while retaining as much of
-          the variability as possible [ 15 ] . Each principal
-          component captures as much variability as possible with a
-          linear combination of the data and is uncorrelated with
-          all other principal components. The resulting data points
-          represent a projection of the dataset. PCA was conducted
-          on all three datasets and hence there were three
-          different input variables. With the gene-expression-only
-          dataset, we used the 'normalized' gene expression data,
-          1,040 genes, for all rats. With the tissue-only dataset,
-          we used the data from all 11 tissue metrics for all rats.
-          Finally for the combined dataset for each rat, we
-          combined the tissue metrics, 11 metrics, and 'normalized'
-          gene-expression data (1,040 expression values) to give a
-          total of 1,051 measurements, and conducted PCA on the
-          resulting dataset.
-          The quadratic regression classifier [ 39 ] is given
-          by
-          
-          y = 
-          β 
-          0 + 
-          β 
-          1 ( 
-          e 
-          1 - 
-          1 ) + 
-          β 
-          2 ( 
-          e 
-          2 - 
-          2 ) + 
-          β 
-          3 ( 
-          e 
-          2 - 
-          2 ) 2+ 
-          β 
-          4 ( 
-          e 
-          2 - 
-          2 ) 2+ 
-          β 
-          5 ( 
-          e 
-          1 - 
-          1 ) ( 
-          e 
-          2 - 
-          2 ) + 
-          ε 
-          where 
-          e 
-          1 and 
-          e 
-          2 are the first and second principal
-          components respectively and 
-          ε is assumed to be independently
-          and identically normally distributed with mean 0 and
-          variance 
-          σ 2. Also note that 
-          1 and 
-          2 are the arithmetic means of all of
-          the first and second principal components. The model was
-          estimated using the usual least-squares assumptions,
-          where the dependent variable, 
-          y , was an indicator variable for
-          CCl 
-          4 toxicity.
-          The cross-validation probability is estimated by first
-          calculating the first two principal components of the
-          'normalized' data, except for one rat. Using the two
-          principal components and the CCl 
-          4 -toxicity classification, the
-          quadratic regression classifier was fit to estimate the
-          coefficients 
-          β 
-          0 through 
-          β 
-          5 . Then the same eigenvectors, or
-          projection estimated in the PCA, were applied to the
-          left-out observation to estimate the first two principal
-          components; note that this side-steps any potential
-          prediction bias. The principal components are then
-          plugged into the estimated quadratic regression
-          classifier. If the resulting prediction, 
-          y , was above 0.5, then the sample
-          was classified as suffering from CCl 
-          4 toxicity; if the value was below
-          0.5, then it was classified as not suffering from CCl 
-          4 toxicity. To estimate the accuracy
-          of the classification, this was repeated so that every
-          rat was left out and then predicted.
-          PCA, Spearman's rank correlations, quadratic
-          regression classification and cross-validation were
-          programmed in MatLab release 12. Scripts are freely
-          available from the authors upon request.
+          Preparation of GC Lysates
+          Whole cell lysates were made from GC monolayers by
+          standard techniques using a lysis buffer consisting of
+          PBS with 1% Nonidet P40, 0.5% sodium deoxycholate, 0.1%
+          SDS and protease inhibitor cocktail (1:100, Sigma P8340).
+          Lysis buffer was added to the culture dish after washing
+          with cold PBS 3 times. The culture dishes were scraped
+          and the lysate was aspirated into a syringe with a
+          21-gauge needle to shear DNA. The lysates were rocked in
+          the cold for 1 h and centrifuged for 10 min at 10,000 × 
+          g . In some cases, a highly
+          enriched mitochondrial fraction was obtained using a
+          commercially available kit (Mitchondrial Fractionation
+          Kit, Active Motif, Carlsbad, CA) according to the
+          manufacturer's instructions. Protein concentrations of GC
+          lysates were determined by the bicinchoninic acid method
+          (Micro BCA Protein Assay, Pierce, Rockford IL).
+        
+        
+          Immunoblotting
+          For direct comparisons of protein expression between
+          drug-treated and untreated cells, equal amounts of
+          protein were loaded in adjacent lanes on a single
+          polyacrylamide gel, separated by sodium dodecyl
+          sulphate-polyacrylamide gel electrophoresis (SDS-PAGE)
+          under reducing conditions and transferred to
+          nitrocellulose membranes by the semi-dry transfer method.
+          The membranes were blocked for 1 h at room temperature
+          with 5% nonfat milk in Tris-buffered saline (TBS: 100 mM
+          Tris, 0.9% NaCl, pH 7.5) containing 0.1% Tween 20, then
+          incubated overnight at 4°C with primary antibody diluted
+          in the blocking solution. Primary antibody dilutions
+          were: PCNA (1:200); actin (1:500); StAR (1:500). After
+          three washes with 0.1% Tween/TBS, the membranes were
+          incubated for 1 h at room temperature with the
+          appropriate horseradish peroxidase conjugated secondary
+          antibody diluted 1:1500 in 5% nonfat milk/0.1% Tween/TBS.
+          After four additional washes with 0.1% Tween/TBS, bound
+          primary antibodies were visualized using an ECL detection
+          system and recorded on radiographic film (Amersham
+          Pharmacia Biotech). Densitometric analysis was performed
+          using Scion Image (Scion Corporation, Frederick, MD).
+          Equal loading was confirmed by either immunoblotting for
+          actin or Coomassie-blue staining of gel lanes loaded and
+          subjected to SDS-PAGE in a manner identical to those used
+          for immunoblotting.
+        
+        
+          Immunoassays
+          Progesterone concentrations were determined by a
+          solid-phase radioimmunoassay (CAC Progesterone,
+          Diagnostic Products Corp, Los Angeles, CA) validated for
+          measuring progesterone in the culture media. The assay
+          sensitivity was approximately 0.3 ng/ml. The
+          cross-reactivity with androstenedione (1000 ng/mL) was
+          0.047%. The cross-reactivity with pregnenolone (500
+          ng/mL) was 0.30%. The within and between assay
+          coefficients of variation for the progesterone assay were
+          4.3 and 11.7%, respectively.
+          Aliquots of culture media were stored at -20°C for up
+          to 60 days prior to progesterone assay. In the initial
+          series of experiments where serial progesterone
+          measurements were made from a single culture well, media
+          progesterone concentrations 24-48 hours post-treatment
+          were normalized to pre-treatment concentrations. In
+          subsequent experiments, progesterone concentrations at
+          various time-points post-treatment were normalized to
+          either cell number or protein concentration.
+          Estradiol-17β was measured using commercially
+          available reagents (TKE2, Diagnostic Products Corp, Los
+          Angeles, CA). This assay had been validated previously
+          for porcine serum [ 24 ] , and was further modified and
+          validated for use with culture media containing FBS. In
+          brief, estradiol-17β could be quantitatively recovered
+          when added to culture media, and increasing dilutions of
+          media spiked with estradiol-17β produced similar
+          concentrations when evaluated in the assay. The
+          sensitivity was 4.9 pg/ml. The intra- and interassay
+          coefficients of variation for estradiol assay were 4.8
+          and 8.3%, respectively.
+          Cyclic AMP was measured in GC lysates using an enzyme
+          immunoassay according to the instructions provided by the
+          manufacturer (Assay Designs, Ann Arbor, MI).
+        
+        
+          Determination of Cell Number
+          The number of viable GC in the monolayer cultures was
+          determined by first harvesting the attached cells with a
+          trypsin-containing solution (mg/ml): NaCl 8; KCl 0.4;
+          dextrose 1; NaHCO 
+          3 0.6; ethylenediaminetetraacetic acid
+          sodium salt (Na-EDTA) 0.2; trypsin 0.5, and then counting
+          directly the number of viable cells using trypan blue
+          exclusion and hemacytometry.
+        
+        
+          Flow Cytometry
+          Flow cytometry was also used to assess GC viability
+          and size, using methods described previously in detail to
+          determine propidium iodide uptake and forward (small
+          angle light) scatter, respectively [ 18 25 ] . Briefly,
+          ten thousand cells were examined per sample using a
+          Becton Dickinson FACSCalibur to excite the cells with a
+          488 nM argon laser, and the collected data obtained were
+          analyzed using Cell Quest™ software (Becton Dickinson,
+          Mount View, CA). Changes in the forward light scattering
+          properties of GC were used to infer changes in GC size.
+          Debris, shrunken (apoptotic) GC and dead GC stained by
+          propidium iodide were excluded from analysis.
+        
+        
+          Statistical Analysis
+          Data are expressed as mean ± SEM unless stated
+          otherwise. Statistical analysis of treatment effects on
+          forward scatter characteristics was performed using the
+          non-parametric Friedman test. For all other data,
+          significant differences between groups were identified by
+          analysis of variance (ANOVA) using appropriate general
+          linear models, and multiple comparisons were made using
+          the least significant differences (LSD) procedure
+          (Statistix, Analytical Software, Tallahassee, FL).
+          Differences were considered to be significant when 
+          P ≤ 0.05. The numbers of replicates
+          per treatment group and independent experiments
+          associated with specific studies are provided in the
+          figures or accompanying legends.
         
       
       
-        Additional data files
-        An Excel spreadsheet showing genes correlating with
-        tissue features (Additional data file 1), also represented
-        in 4 pdf files that contain tables of genes correlating
-        with % clear space (Additional data file 2), area %
-        vacuoles (Additional data file 3), vacuoles/mm 2(Additional
-        data file 4), and all other metrices (Additional data file
-        5). These tables include gene descriptions for the ADME
-        chip [ 40 ] , updated with descriptions provided by
-        GenBank. Genes found to be associated with the biology of
-        CCl 
-        4 toxicity are highlighted.
-        Additional data file 1
-        An Excel spreadsheet showing genes correlating with
-        tissue features
-        An Excel spreadsheet showing genes correlating with
-        tissue features
-        Click here for additional data file
-        Additional data file 2
-        A table of genes correlating with % clear space
-        A table of genes correlating with % clear space
-        Click here for additional data file
-        Additional data file 3
-        A table of genes correlating with area % vacuoles
-        A table of genes correlating with area % vacuoles
-        Click here for additional data file
-        Additional data file 4
-        A table of genes correlating with vacuoles/mm 2
-        A table of genes correlating with vacuoles/mm 2
-        Click here for additional data file
-        Additional data file 5
-        A table of genes correlating with all other metrices
-        A table of genes correlating with all other metrices
-        Click here for additional data file
+        Results and Discussion
+        
+          Effects of 4-AP on GC Viability and Progesterone
+          Production
+          Treatment with 4-AP (2 mM) decreased progesterone
+          accumulation in the media of serum-supplemented GC
+          cultures at 24 h and 48 h post-treatment, in the presence
+          and absence of FSH (Figure 1). The decreased progesterone
+          concentrations in the media of drug-treated cultures did
+          not reflect significant differences in the number of
+          viable cells under these culture conditions, (Figure 2A).
+          Densitometric analysis of data from 3 experiments similar
+          to that shown in Figure 2Brevealed no significant effect
+          of 4-AP treatment on the expression of proliferating cell
+          nuclear antigen (PCNA). These data provide additional
+          evidence that 4-AP exerts neither an anti-proliferative
+          nor a pro-apoptotic influence on serum-supplemented GC
+          cultures, because PCNA expression is a sensitive marker
+          of GC proliferation and apoptosis [ 18 26 27 ] . The lack
+          of 4-AP effect on GC viability is also evident from the
+          flow cytometric analysis; the percentages of cells
+          staining positive for propidium iodide were 8 ± 2% and 7
+          ± 2% in the presence and absence of drug (n = 4 samples
+          of 10,000 cells/each from 4 GC isolations).
+          Treatment with 4-AP (2 mM) also diminished
+          progesterone accumulation on days 1 and 2 post-treatment
+          in GC cultures maintained in the defined serum-free media
+          in the presence and absence of FSH. However, in these
+          serum-free cultures, 4-AP treatment was associated with
+          not only decreased progesterone accumulation but also
+          decreased numbers of viable cells (Table 1). The
+          percentage of viable cells was unaffected by 4-AP
+          (Control = 90 ± 4% vs. 4-AP = 88 ± 4%, n = 5; FSH = 86 ±
+          2%, FSH+4-AP = 86 ± 2%, n = 9), suggesting that 4-AP
+          inhibited growth rather than promoted cell death.
+          Overall, these data are consistent with previous
+          reports that endocrine cells express voltage-sensitive
+          ion channels that can contribute to the regulation of not
+          only resting membrane potential and cell volume, but also
+          cell proliferation and steroidogenesis [ 12 13 16 18 21
+          28 29 30 31 32 33 34 35 36 37 ] . The K +currents blocked
+          by 4-AP in pig GC are conducted by ion channels formed by
+          heteromeric complexes of pore-forming subunits from the
+          KCNA (also called Kv1 or Shaker) family of proteins and
+          accessory subunits from the KCNAB (also called Kvβ)
+          family of proteins [ 4 ] . Similar 4-AP-sensitive K
+          +currents play a key role in transduction of mitogenic
+          signals in a variety of cell types, and 4-AP treatment
+          has been associated with not only growth arrest but also
+          apoptosis [ 2 3 8 9 10 14 38 39 40 41 42 ] .
+          Our finding that 24 h exposure to 4-AP decreased the
+          number of viable GC in serum-free but not
+          serum-supplemented primary cultures is consistent with
+          the reported effects of 4-AP and other K +channel
+          antagonists on other cell types [ 8 43 44 ] . It has been
+          shown that the concentrations of K +channel antagonists
+          required to inhibit growth of human bladder tumor cells
+          can be 70 times higher in the presence than the absence
+          of serum [ 43 ] . 4-AP has been shown to inhibit the
+          proliferation of human myelobastic leukemia cells by
+          preventing growth factor activation of mitogen activated
+          protein kinase (MAPK) pathways [ 42 ] . This mechanism
+          may be responsible for the anti-proliferative effect of
+          4-AP manifest in Table 1. It is likely that MAPK pathways
+          are less robust in GC grown in defined serum-free vs.
+          serum-supplemented media; however, validation of this
+          hypothesis would require additional experiments beyond
+          the scope of the present investigation. We concluded that
+          the anti-proliferative effect of 4-AP may contribute to
+          the decreased progesterone accumulation observed in
+          serum-free but not serum-supplemented GC cultures, then
+          focused additional efforts on understanding other
+          mechanisms responsible for 4-AP inhibition of
+          progesterone production.
+          The effects of 4-AP in serum-supplemented GC cultures
+          are consistent with previous reports that antagonism of
+          voltage-sensitive K +currents can modulate basal and
+          gonadotropin-stimulated progesterone accumulation in the
+          absence of any effect on cell growth or death. We have
+          shown previously that antagonism of the slowly activating
+          non-inactivating granulosa K +current (I 
+          Ks ) enhances basal progesterone
+          production by depolarizing membrane potential and thus
+          enhancing calcium influx via pimozide-sensitive Ca
+          2+channels [ 18 ] . In contrast, Kusaka [ 21 ] showed
+          that antagonism of 4-AP sensitive slowly inactivating
+          delayed rectifier K +currents suppressed both basal and
+          LH-stimulated progesterone production. Data presented in
+          Figures 1and 2confirm the inhibitory effects of 4-AP on
+          basal progesterone production by cultured pig GC, and
+          demonstrate for the first time a similar inhibitory
+          effect of 4-AP on FSH-stimulated progesterone
+          synthesis.
+        
+        
+          Effects of 4-AP on Pathways for Steroid Hormone
+          Biosynthesis
+          The inhibitory action of 4-AP on progesterone
+          production was investigated further using not only
+          primary cultures, but also the spontaneously established
+          granulosa cell line, PGC-2 [ 19 ] . Although PGC-2 lack
+          FSH receptors, these cells can serve as a useful 
+          in vitro model for GC function,
+          because they produce cAMP in response to forskolin and
+          synthesize progesterone and estradiol when supplied with
+          appropriate substrates. We examined the effects of 4-AP
+          on cAMP, progesterone and estradiol production by PCG-2
+          after confirming that these cells express 4-AP sensitive
+          voltage-gated K +currents similar to those in primary
+          cells (see additional file 1).
+          4-AP decreased production of cAMP (Figure 3A), and
+          expression of StAR by PGC-2 (Figure 3B). 4-AP had no
+          significant effect on progesterone production by PCG-2
+          cultured in the presence of pregnenolone, androstenedione
+          or 5α-DHT (Figure 4A). In contrast, 4-AP significantly
+          reduced estradiol production by PGC-2 cultures provided
+          with androstenedione (Figure 4B).
+          To evaluate the relevance of the experimental results
+          obtained using PGC-2, we examined the effect of 4-AP on
+          the progesterone output of primary GC cultures
+          supplemented with either the membrane permeable cAMP
+          analog, 8-(4-chlorophenylthio) adenosine-3',5'-cyclic
+          monophosphorothioate (8-CPT-cAMP, 1 mM) or estradiol 17β
+          (500 ng/ml). The inhibitory effect of 4-AP on
+          progesterone accumulation was partially but not
+          completely overcome by the addition of 8-CPT-cAMP (Table
+          2). 4-AP had no inhibitory effects on either basal or
+          FSH-stimulated progesterone production by GC cultures
+          supplemented with estradiol 17β (Figure 5). Thereby, the
+          combined results of experiments performed using PGC-2 and
+          primary GC cultures suggest that 4-AP-inhibition of GC
+          progesterone production may be linked to decreased
+          expression of StAR, decreased generation of cAMP, and
+          decreased output of estradiol.
+          StAR plays a key role in the initial steps of
+          steroidogenesis, because it is required for transport of
+          cholesterol to the inner mitochondrial membrane where
+          CYP11A1 resides and the first reaction in progesterone
+          synthesis occurs [ 45 ] . cAMP is a well known second
+          messenger in FSH- and LH-stimulated progesterone
+          synthesis, and a key effect of the cAMP-dependent protein
+          kinase in GC is transcriptional control of StAR [ 46 47 ]
+          . Estradiol is recognized as a biological amplifier of
+          basal, FSH- and cAMP-stimulated progesterone production
+          in pig GC, with significant synergistic effects distal to
+          the generation of cAMP at one or more steps in
+          cholesterol transport and metabolism [ 48 ] . Our
+          experimental results are thus consistent with 4-AP
+          inhibition of GC progesterone output via drug effects on
+          multiple interacting sites in the steroidogenic pathway.
+          Moreover, despite multiple sites of action, the drug's
+          actions cannot be dismissed as non-specific, because 4-AP
+          had no effects on either 3β-hydroxysteroid dehydrogenase
+          (3β-HSD)-mediated conversion of pregnenolone to
+          progesterone, or androgen (androstenedione,
+          5αDHT)-stimulated progesterone synthesis.
+          Estradiol has been reported to affect K +channel
+          expression and gating in smooth muscle [ 49 50 51 52 53 ]
+          . The data presented here do not address directly the
+          potential for estradiol modulation of voltage-gated K
+          +channel expression or activity in GC. However, such a
+          mechanism seems unlikely to account for the ability of
+          estradiol to oppose the inhibitory effects of 4-AP on GC
+          progesterone production. The K +channel subunits and
+          currents modulated by estradiol in vascular and uterine
+          smooth muscle differ from the 4-AP sensitive KCNA family
+          channels that contribute to the 4-AP sensitive current I 
+          Kur in pig GC [ 4 49 50 52 53 ] .
+          Moreover, in the single study where estradiol was shown
+          to influence the gating of a uterine delayed rectifier
+          current with electrophysiological characteristics
+          resembling those of GC I 
+          Kur , the observed effect of the
+          hormone was inhibitory [ 51 ] , and thereby similar
+          rather than opposite to the effect of 4-AP.
+          Additional experiments were performed in an attempt to
+          identify signaling pathways that transduce specific
+          inhibitory effects of 4-AP. These focused on 4-AP
+          modulation of membrane potential, intracellular ion
+          concentrations, and cell size, as described below.
+        
+        
+          Effects of 4-AP on Membrane Potential,
+          Intracellular Ions, Cell Size
+          Hormonal signal transduction and steroidogenesis can
+          be affected by changes in intracellular and extracellular
+          concentrations of inorganic ions, cellular resting
+          membrane potential, and cell size [ 29 30 35 54 55 56 57
+          58 59 ] . Blockade of 4-AP sensitive K +channels in
+          non-nerve, non-muscle cells can lead to changes in
+          transmembrane ion gradients, membrane potential and cell
+          volume [ 42 60 ] . On this basis, we determined the
+          effects of 24 h exposure to 4-AP on GC size, membrane
+          potential and intracellular potassium ([K +] 
+          in ).
+          Samples (10,000 cells) of GC from 24 hour cultures
+          associated with 4 GC isolations were analyzed by flow
+          cytometry to determine if 4-AP treatment influenced GC
+          size. Light scattering properties did not differ
+          significantly with GC isolate. However, the average
+          forward scatter (median, coefficient of variation) of GC
+          cultured for 24 hours in the presence of 4-AP (768, 15%)
+          was significantly greater than that of GC maintained
+          similarly in the absence of drug (694, 15%).
+          Representative dot plots are shown in Figure 6. Resting
+          membrane potential (Figure 7A) and [K +] 
+          in (Figure 7B) were also found to be
+          increased in GC exposed to 4-AP, based on DiBAC 
+          4 (3) and PBFI fluorescence,
+          respectively.
+          The observed drug-induced increases in cell size and
+          [K +] 
+          in suggest that 4-AP sensitive K
+          +channels represent a significant K +efflux pathway
+          involved in maintenance of cell volume in GC.
+          Interestingly, the increased [K +] 
+          in may contribute directly to the
+          inhibitory effects of 4-AP on production of cAMP and
+          progesterone. Loss of K +from the intracellular
+          compartment of rat GC has been associated with opposite
+          effects, namely enhanced synthesis of both cAMP and
+          progesterone [ 61 ] .
+          The observed increase (hyperpolarization) of GC
+          resting membrane potential cannot be explained easily by
+          any direct effect of the drug. In fact, 4-AP inhibition
+          of K +efflux would be expected to depolarize rather than
+          hyperpolarize membrane potential. Data obtained
+          previously in our laboratory suggest that inhibition of
+          granulosa I 
+          Kur should be associated with a +10 to
+          +20 mV depolarization of cell resting membrane potential;
+          block of I 
+          Ks alone decreased resting potential
+          by +10 mV while block of both I 
+          Ks and I 
+          Kur decreased resting potential by +20
+          to +30 mV [ 18 ] . Most previous investigations of 4-AP
+          effects on the resting membrane potentials of non-nerve,
+          non-muscle cells have similarly demonstrated drug-induced
+          depolarization [ 42 60 ] , although there is a single
+          report showing 4-AP-induced hyperpolarization of
+          chondrocyte membrane potential [ 62 ] .
+          We hypothesized that hyperpolarization of 4-AP-treated
+          GC could reflect anion influx associated with activation
+          of a Cl -entry pathway sensitive to changes in cell
+          volume as well as membrane-potential. To test this
+          hypothesis, the effects of 4-AP on membrane potential
+          were examined using GC incubated in either media modified
+          to contain the chloride channel antagonist DIDS, or a
+          physiological buffer solution modified to contain a low
+          (8 mM) concentration of chloride. In contrast to the
+          results obtained in the standard media (Figure 7A), 4-AP
+          did not induce significant hyperpolarization of GC under
+          these conditions (Figure 8A,8B). Exposure to DIDS alone
+          significantly decreased (depolarized) GC resting membrane
+          potential (Figure 8B), suggesting that an outward
+          chloride current (chloride influx) contributes to the
+          normal resting potential of pig GC. Membrane potential
+          was further depolarized in GC exposed to 4-AP in the
+          presence of DIDS (Figure 8B), consistent with the
+          hypothesis that 4-AP-induced hyperpolarization depends on
+          chloride influx.
+          Interestingly, concomitant exposure to DIDS prevented
+          4-AP from diminishing the accumulation of progesterone in
+          GC culture media (Figure 8C), suggesting that chloride
+          influx, membrane hyperpolarization or both might mediate
+          this effect of 4-AP. Chloride channels or chloride ions
+          are known to influence cAMP-stimulated steroidogenesis by
+          adrenal cells [ 29 ] , human chorionic gonadotropin
+          (hCG)-stimulated steroidogenesis by amphibian
+          follicle-enclosed oocytes [ 56 ] , as well as
+          LH-stimulated steroidogenesis in rat Leydig cells [ 29 ]
+          , MA-10 cells [ 59 ] , and chicken GC [ 35 ] . In
+          mammalian cells, removal of extracellular chloride
+          stimulates basal and protein kinase A (PKA)-dependent
+          steroid hormone production by increasing the expression
+          of StAR and potentiating the effects of submaximal
+          concentrations of cAMP [ 29 59 ] . The proposed mechanism
+          of action involves chloride efflux, depolarization of the
+          mitochondrial and plasma membranes, and alterations to
+          protein synthesis and cholesterol transport [ 29 59 ]
+          .
+          The data shown here in Figures 7and 8suggest strongly
+          that chloride ions can influence progesterone production
+          in pig GC by similar mechanisms. In our experiments, the
+          chloride influx and membrane hyperpolarization associated
+          with 4-AP treatment not only decreased expression of
+          StAR, but also inhibited cAMP production and
+          steroidogenesis. The observed effects of Cl -channel
+          antagonists differ significantly between the present
+          study where DIDS prevented 4-AP from decreasing
+          progesterone synthesis and previous investigations where
+          DIDS and other Cl -channel antagonists prevented LH from
+          enhancing progesterone production [ 29 35 56 ] . However,
+          this discrepancy is expected, because DIDS antagonizes a
+          chloride influx pathway in pig GC, and chloride efflux
+          pathways in Leydig cells.
+          In summary, the data demonstrate that 4-AP inhibits
+          basal and FSH-stimulated progesterone production by pig
+          GC via a complex mechanism involving drug action at
+          multiple interacting steps in the steroidogenic pathway.
+          Drug block of the voltage-gated potassium channels that
+          conduct the ultra-rapid delayed rectifier current I 
+          Kur is associated with increased
+          intracellular potassium concentration, increased cell
+          volume, activation of chloride influx and
+          hyperpolarization of resting membrane potential. These
+          changes in the GC internal milieu appear to modulate the
+          inhibitory effects of 4-AP on expression of StAR and
+          production of steroid hormones.
+          The physiological implications of the data are
+          significant, as they suggest novel roles for granulosa
+          cell ion channels. We demonstrate for the first time not
+          only that delayed rectifier K +channels play a
+          significant role in GC volume regulation, but also that
+          voltage and/or volume-sensitive Cl -channels modulate GC
+          membrane potential and progesterone production.
+          Additional experiments are required to link these data
+          obtained 
+          in vitro to functionally
+          significant changes in GC volume and chloride flux during
+          normal follicular development.
+        
+      
+      
+        Conclusions
+        In conclusion, the present studies indicate that the K
+        +channel antagonist 4-AP inhibits basal and FSH-stimulated
+        progesterone production by pig GC. Exposure to 4-AP is
+        associated with decreased production of cAMP, decreased
+        expression of StAR, and decreased synthesis of estradiol.
+        These inhibitory actions of 4-AP on adenylate cyclase
+        activity, StAR expression and steroidogenesis may reflect
+        drug-induced changes in the intracellular concentrations of
+        K +and Cl -and the GC resting membrane potential. Further
+        studies are required to elucidate fully the mechanisms
+        involved.
+        Additional investigation is warranted. 4-AP is reported
+        to have therapeutic potential for the relief of symptoms
+        associated with demyelinating diseases such as spinal cord
+        injury and multiple sclerosis [ 63 64 65 66 67 68 ] . The
+        drug is currently being studied in large scale human trials
+        [ 68 ] . Drug-induced inhibition of steroid hormone
+        production could have significant effects in these
+        patients. For example, 4-AP could exacerbate abnormal
+        steroid hormone profiles associated with spinal cord injury
+        and multiple sclerosis, and thereby contribute to
+        dysmenorrhea and infertility [ 69 70 ] .
+      
+      
+        List of Abbreviations
+        4-aminopyridine (4-AP); analysis of variance (ANOVA);
+        8-(4-chlorophenylthio)adenosine-3',5'-cyclic
+        monophosphorothioate (8-CPT-cAMP); 4',4'
+        diisothicyanato-stilbene-2-2'-disulfonic acid (DIDS);
+        bis-(1,3-dibutylbarbituric acid)trimethine oxonol (DiBAC 
+        4 (3)); 5α-dihydrotestosterone (5α-DHT);
+        Dulbecco's modified eagle's medium (DMEM); enhanced
+        chemiluminescence (ECL); ethylenediaminetetraacetic acid
+        (EDTA); fetal bovine serum (FBS); follicle stimulating
+        hormone (FSH); granulosa cells (GC); human chorionic
+        gonadotropin (hCG);
+        4-(2-Hydroxyethyl)piperazine-1-ethanesulfonic acid (HEPES);
+        3β-hydroxysteroid dehydrogenase (3β-HSD);
+        3-isobutyl-1-methylxanthine (IBMX); least significant
+        difference (LSD); luteinizing hormone (LH); mitogen
+        activated protein kinase (MAPK); 1,3-Benzenedicarboxylic
+        acid,
+        4,4'-[1,4,10,13-tetraoxa-7,16-diazacyclooctadecane-7,16-diylbis(5-methoxy-6,2-benzofurandiyl)]bis-,
+        tetrakis [(acetyloxy)methyl] ester (PBFI-AM);
+        phosphate-buffered saline (PBS); proliferating cell nuclear
+        antigen (PCNA); protein kinase A (PKA); sodium dodecyl
+        sulphate-polyacrylamide gel electrophoresis (SDS-PAGE);
+        steroidogenic acute regulatory protein (StAR);
+        tris-buffered saline (TBS).
+      
+      
+        Authors' contributions
+        YL participated in experimental design, performed all
+        experimental techniques, and played a primary role in data
+        analysis and interpretation. SG provided general technical
+        support and participated in cell isolation and culture,
+        immunoblotting, fluorescence measurements and flow
+        cytometry. FvS performed patch clamp experiments and
+        analyses, and assisted with preparation of the figures and
+        manuscript. DEM contributed to data presented in Figure
+        1and Table 1. BMM contributed to data presented in Figures
+        1and 2. LCF conceived of the study, coordinated design and
+        performance of experiments, and drafted the manuscript.
       
     
   

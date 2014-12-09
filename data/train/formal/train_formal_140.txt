@@ -2,448 +2,432 @@
   
     
       
-        Introduction
-        This paper was presented at the 10th European Congress
-        of Clinical Microbiology and Infectious Diseases (28-31 May
-        2000, Stockholm, Sweden).
-        Sepsis can be defined as a systemic response to
-        infection [ 1]. The incidence of sepsis worldwide is on the
-        increase. Sepsis and its sequels are the leading causes of
-        death in intensive care units. Mortality rates are higher
-        for patients with pre-existing disease, medical conditions,
-        care in the intensive care unit, and multiple organ failure
-        [ 2, 3]. Despite steady improvements in antibiotic therapy
-        and intensive care management during the past decade,
-        mortality has remained close to 50%. This high mortality
-        rate has continued to stimulate interest in pharmacological
-        agents that might reduce morbidity and mortality [ 4, 5, 6,
-        7].
-        Steroid therapy in patients with sepsis is still
-        controversial. In the 1960s, stress doses of hydrocortisone
-        for the treatment of sepsis were investigated, but no
-        advantages could be shown in a double-blind multicenter
-        study [ 8]. This led to the discontinuation of steroid
-        replacement therapy for sepsis. In the 1970s, therapy with
-        pharmacological doses of glucocorticoids was widely used in
-        patients with sepsis and septic shock. The most compelling
-        evidence in favor of corticosteroid treatment was reported
-        by Schumer [ 9] in his prospective randomized study of
-        steroid administration to patients with septic shock. These
-        data indicate that methylprednisolone (30 mg/kg) or
-        dexamethasone (3 mg/kg) reduced the mortality rate from
-        38.4% to 10.5%. However, later in the mid-1980s,
-        pharmacological doses of glucocorticoids for the treatment
-        of sepsis were investigated extensively until several
-        clinical trials gave negative results [ 10, 11, 12].
-        Moreover, there is some evidence that the use of high-dose
-        glucocorticoids in sepsis might be harmful [ 11].
-        Many studies have demonstrated that elevated cortisol
-        levels in sepsis and the degree of elevation are related to
-        the severity of illness [ 13]. Basal and corticotropin
-        (ACTH)-stimulated cortisol levels correlate with the
-        severity of illness, and very high cortisol levels often
-        signify a poor prognosis [ 14]. In sepsis, the
-        hypothalamic-pituitary-adrenal axis is activated through
-        systemic and neural pathways. Circulating cytokines such as
-        tumor necrosis factor α, interleukin-1 and interleukin-6
-        activate the hypothalamic-pituitary-adrenal axis
-        independently and, when combined, have synergistic effects
-        [ 15].
-        Sepsis can also cause adrenal insufficiency (AI), which
-        is associated with increased mortality [ 16]. In recent
-        years, several authors have proposed a syndrome of occult
-        AI in septic shock in the presence of normal or even
-        elevated serum cortisol concentrations. This hypothesis is
-        based on many studies investigating the adrenocortical
-        response of patients with septic shock to 0.25 mg of ACTH.
-        Up to 28% of seriously ill patients have been suggested to
-        have occult or unrecognized AI [ 14]. The prevalence of
-        occult AI (a cortisol increment after a short ACTH test of
-        less than 9 mg/dl) in severe sepsis was estimated at about
-        50% and the 28-day mortality rate at about 75% [ 17]. A few
-        studies have indicated that stress doses of hydrocortisone
-        improve hemody-namics in patients with hyperdynamic septic
-        shock, which is unresponsive to conventional therapy [ 18,
-        19]. However, the use of a physiological dose of steroid in
-        patients with sepsis, severe sepsis, and septic shock has
-        not yet been completely evaluated. We therefore performed a
-        placebo-controlled, randomized, double-blind, single-center
-        study.
-        The aim of this study was to assess basal cortisol
-        concentrations and the cortisol response to ACTH
-        stimulation as well as their prognostic importance, and
-        also to determine the effects of the physiological-dose
-        steroid therapy on mortality in patients with sepsis.
+        Background
+        The aldehyde dehydrogenase (ALDH) superfamily of enzymes
+        consists of a group of NAD(P)-dependent enzymes which can
+        oxidize a structurally diverse group of endogenous and
+        exogenous aldehyde substrates. Seventeen 
+        ALDH genes have been identified in
+        the human genome and have been classified into ten
+        different families based on amino acid sequence identities
+        [ 1 2 ] . High levels of ALDH1A1 activity can protect human
+        and murine cells from the toxicity of the alkylating agent
+        cyclophosphamide and its oxazaphosphorine analogs. Indeed
+        it was hypothesized that the high expression of ALDH1A1
+        (formerly known as class 1 ALDH) was responsible for the
+        successful use of cyclophosphamide in tumor cell purging
+        regimens during bone marrow transplantation [ 3 ] . The
+        detection of elevated ALDH1A1 activity in the most
+        primitive human hematopoietic progenitor cells [ 4 5 6 ]
+        has provided evidence in support of this hypothesis.
+        However, no physiologic role for this enzyme in the
+        hematopoietic stem cell population has been identified.
+        Vitamin A (retinol) is the prototype of a class of
+        natural and synthetic chemical compounds named the
+        retinoids. Retinoids are found in a variety of chemical
+        oxidation states, including alcohol, aldehyde, ester, and
+        carboxylic acid functionalities. The acid form, retinoic
+        acid, is a pleiotropic hormone which regulates gene
+        expression in embryonic development, epithelial cell
+        differentiation, hematopoeisis, and tumor cell
+        formation.
+        Several enzymes, including isoforms of alcohol
+        dehydrogenase, ALDH, and cytochrome P450 (CYP), recently
+        have been shown to be involved in the formation of retinoic
+        acid from retinol and retinal [ 7 8 ] . The purification,
+        cloning, and characterization of several ALDH enzymes which
+        efficiently catalyze the oxidation of retinal (Figure 1A)
+        has suggested that regulation of retinoic acid formation
+        could be a key physiologic role for these enzymes. The
+        report of the crystal structure of the homotetrameric
+        ALDH1A1 enzyme from sheep liver revealed a substrate tunnel
+        capable of binding retinal which was absent in ALDH2 and
+        ALDH3A1 enzymes [ 9 ] . Likewise, the crystal structure
+        reported for mouse ALDH1A2 revealed a substrate channel
+        which could provide specificity for retinal and exclude
+        short-chain aliphatic aldehydes [ 10 ] .
+        The specific role of each enzyme in the regulation of
+        retinoid signalling may depend on the species, cell type,
+        and developmental status of the cell. 
+        In vitro, purified mouse [ 11 ] ,
+        human [ 12 ] , and 
+        Xenopus [ 13 ] ALDH1A1 can
+        efficiently oxidize 
+        all-trans retinal to 
+        all-trans retinoic acid. 
+        In vivo , the introduction of ALDH1A1
+        mRNA into 
+        Xenopus embryos induces early
+        synthesis of retinoic acid, while ALDH1A1 expression is
+        detected during the tail bud stages of 
+        Xenopus embryogenesis [ 14 ] .
+        ALDH1A2 in the mouse [ 15 ] and rat [ 16 ] has shown even
+        greater specificity and catalytic efficiency for retinal as
+        a substrate. Immuno-histochemical analysis of mouse embryos
+        shows that ALDH1A1 expression occurs primarily in cranial
+        tissues, while ALDH1A2 expression occurs primarily in trunk
+        tissue [ 17 ] . In addition, the targeted knockout of the 
+        ALDH1A2 gene in mice results in a
+        significant decrease in retinoic acid biosynthesis and
+        early embryo death [ 18 ] .
+        The development of inhibitors which can target
+        individual ALDH enzymes provides one approach for
+        addressing the role of a specific ALDH enzyme in the
+        oxidation of retinal to retinoic acid in a given cell type.
+        We have identified 4-(N, N-dipropylamino)benzaldehyde
+        (DPAB) (Figure 1B) and 4-(N, N-diethylamino) benzaldehyde
+        (DEAB) as potent, selective inhibitors of ALDH1A1, but not
+        ALDH2 or ALDH3, with the dipropyl analog exhibiting 10-fold
+        greater efficacy for inhibition [ 19 20 ] . The effect of
+        DPAB on ALDH1A2 has not been reported.
+        DEAB was first used to sensitize the mouse leukemic cell
+        line L1210/CPA, which is resistant to
+        4-hydroperoxycyclophosphamide (4-HC) by virtue of its
+        overexpression of ALDH1A1. Treatment of L1210/CPA cells 
+        in vitro with 50 μM DEAB abolished
+        the tumor cells' resistance to 4-HC [ 19 ] . DEAB also
+        exhibited 
+        in vivo efficacy as a ALDH1A1
+        inhibitor, as demonstrated by the toxicity to the
+        intestinal crypt cells in mice receiving co-injections of
+        DEAB and cyclophosphamide [ 21 ] . More recently, DEAB has
+        been used to demonstrate that overexpression of human
+        ALDH1A1 in transfected cell lines is sufficient to cause
+        cellular resistance to the oxazaphosphorines [ 22 ] and
+        4-HC [ 23 ] . DEAB has also been an effective reagent in
+        fluorescent-activated cell sorting (FACS) techniques to
+        isolate human hematopoietic stem cells based on the
+        expression of ALDH1A1 activity [ 5 6 ] . In contrast to
+        DEAB and DPAB, daidzin - a natural product isolated from 
+        Pueraria lobata (the Kudzu plant) -
+        shows specificity for inhibiting ALDH2 at concentrations
+        similar to that of DPAB used to inhibit ALDH1A1 [ 24 25 ] .
+        An inhibitor specific for ALDH1A2 has not yet been
+        reported.
+        In normal hematopoiesis, terminally differentiated cells
+        are generated daily from a limited number of pluripotent
+        stem cells. The stem cell population must be exquisitely
+        regulated to ensure sufficient self-renewal as well as
+        commitment to progenitor cells which can give rise to
+        mature erythrocytes, platelets, lymphocytes, granulocytes,
+        and macrophages. Retinoic acid appears to elicit a complex
+        response of cell proliferation and/or commitment to a more
+        differentiated cell type, depending on the differentiation
+        state of the cell receiving the signal [ 26 27 ] .
+        The HL-60 human promyelocytic leukemia cell line
+        responds in culture to sub-micromolar concentrations of
+        retinoic acid ( 
+        all-trans and 
+        13-cis ) by undergoing terminal
+        differentiation to a granulocytic cell with the ability to
+        phagocytose and reduce nitroblue tetrazolium [ 28 ] . The
+        response to retinoic acid in HL-60 cells is dependent on
+        the expression of the retinoic acid receptor RAR α [ 29 ] .
+        The use of 
+        all-trans retinoic acid in
+        differentiation therapy for patients with acute
+        promyelocytic leukemia has resulted in prolonged, complete
+        remissions when combined with cytotoxic chemotherapy, and
+        may provide complete, long-term remissions as a single
+        agent [ 30 ] .
+        However, the enzyme or enzymes responsible for the
+        formation of retinoic acid in the HL60 cells have not been
+        identified. In one report, ALDH1A1 protein was not detected
+        by Western blot, but enzyme activity was detected using
+        flow cytometry and a fluorescent aldehyde substrate [ 5 ] .
+        In a second study, ALDH1A1 protein was detected using an
+        ELISA assay and activity was detected using aldophosphamide
+        as substrate [ 31 ] . In these two studies, designed to
+        look at the relationship of ALDH1A1 activity to antitumor
+        drug resistance, the levels of ALDH1A1 were low in HL-60
+        compared to other cell types, corresponding to the
+        sensitivity of HL-60 cells to oxazaphosphorines. ALDH
+        activity has been reported in HL-60 cells using
+        4-hydroxynonenal as substrate [ 32 ] . However, since this
+        molecule is such a poor substrate with ALDH1 compared to
+        ALDH3, the measured activity likely represents only ALDH3
+        activity. ALDH3 does not oxidize 
+        all trans retinal. Expression of
+        ALDH1A2 activity in HL-60 cells has not been reported.
+        Therefore, we chose the HL-60 cell line to assess the role
+        of ALDH1A1 in the oxidation of retinal.
+        The collection of results demonstrating that retinal is
+        an excellent substrate for ALDH1A1 
+        in vitro , that ALDH1A1 is
+        responsible for the synthesis of retinoic acid in the
+        cranial tissues of the mouse embryo, and that hematopoietic
+        stem cells are characterized by high expression of ALDH1A1,
+        have led to the hypothesis that the oxidation of retinal to
+        retinoic acid is a key physiologic role for ALDH1A1 in
+        hematopoietic stem cells. Our long-term goal is to use DPAB
+        to investigate the role of ALDH1A1 in retinoic acid
+        biosynthesis at different stages of hematopoiesis. In this
+        paper we show that DPAB is a potent inhibitor of retinal
+        oxidation by murine and human ALDH1A1. However, DPAB only
+        weakly inhibits the retinal-induced differentiation of
+        HL-60 cells, suggesting that ALDH1A1 is not the operative
+        retinal oxidizing enzyme in these cells.
       
       
-        Methods
-        
-          Study design
-          The study protocol was approved by the Institutional
-          Review Board of Erciyes University and informed consent
-          was obtained from the patients' relatives. This
-          placebo-controlled, randomized, double-blind,
-          single-center study was performed at the Department of
-          Medical Intensive Care Unit and the Department of
-          Infectious Diseases of Erciyes University Medical School
-          during a 2-year period (from May 1997 to April 1999).
-        
-        
-          Patient selection
-          Patients over 17 years old and diagnosed with sepsis
-          were included consecutively in the study. The diagnosis
-          of sepsis was based on the definition of the American
-          College of Chest Physicians/Society of Critical Care
-          Medicine Consensus Conference Report [ 1]. The severity
-          of illness was classified according to this definition
-          (Table 1).
-          Criteria for exclusion from the study were as follows:
-          already known pre-existing adrenal disease or
-          adrenalectomy, known malignancies, tuberculosis that
-          might have involved the adrenal gland, and administration
-          of steroids within the 3 months before the admission. In
-          addition, patients with burns, hemorrhagic shock or those
-          who had suffered myocar-dial infarction were not
-          included.
-        
-        
-          Treatment protocol
-          Patients enrolled in the study were treated with
-          standard therapy used in the treatment of sepsis and
-          septic shock. This therapy could include the following:
-          administration of antibiotics, fluid replacement,
-          vasoactive drugs, mechanical ventila-tory support, and
-          any other form of supportive therapy deemed necessary by
-          the primary physicians. Soon after the presumptive
-          diagnosis of severe sepsis, initial laboratory specimens
-          were obtained and within 2 hours the patients were
-          randomized to treatment with prednisolone or placebo
-          groups. The treatment groups were determined by a
-          computer-generated randomization procedure. The steroid
-          therapy group received prednisolone at a physiological
-          dose. Prednisolone was given intravenously at 06.00 (5
-          mg) and 18.00 (2.5 mg) for 10 days. The standard therapy
-          group received a placebo infusion containing
-          physiological saline solution in an identical manner.
-          Patients and their primary physicians were blinded as to
-          which therapy was administered.
-        
-        
-          Data collection
-          An ACTH stimulation test was performed with 250 g of
-          tetracosactrin (synacthene; Ciba Geigy, Germany) given
-          intravenously. Blood samples were taken immediately
-          before the test and at 30 and 60 minutes afterwards.
-          After centrifugation, plasma samples were stored at -20°C
-          until assayed. ACTH stimulation test was repeated on the
-          14th day in the patients who survived. Plasma cortisol
-          concentrations were determined by radioimmunoassay with a
-          commercially available kit (ICN Biomedicals, Inc, Costa
-          Mesa, California, USA). Intra-assay coefficients of
-          variation were for control A 7.0%, control B 5.8%, and
-          control C 5.1%. Inter-assay coefficients of variation
-          were for control A 7.9%, control B 6.5%, control C 6.0%.
-          The cortisol response was defined as the difference
-          between the basal and peak cortisol concentrations.
-          Normal adrenal function was defined as a plasma cortisol
-          level (before or at 30 or 60 minutes after the injection
-          of ACTH) above 20 μg/dl. The cases with peak cortisol
-          levels lower than 20 μg/dl were considered to be AI [ 13,
-          20, 21, 22]. Occult AI was defined as an increase in
-          cortisol after a ACTH test of less than 9 g/dl (a
-          cortisol response of no more than 9 μg/dl) [ 17, 23,
-          24].
-          Community-acquired sepsis had its onset within 72
-          hours of the patients' admission to the hospital, whereas
-          hospital-acquired sepsis began 72 hours or later after
-          admission. The estimated prognosis of any pre-existing
-          underlying diseases had been classified according to the
-          classification of McCabe and Jackson [ 25].
-          Observed initial findings that related to disseminated
-          intravas-cular coagulation, respiratory insufficiency,
-          altered mental status, and renal, cardiac, and liver
-          failure were noted [ 26, 27]. The severity of the illness
-          was assessed with the Acute Physiology and Chronic Health
-          Evaluation II (APACHEII) scoring system [ 28]. The
-          Sequential Organ Failure Assessment (SOFA) score [ 29]
-          was added to the study protocol by amendment and
-          retrospectively from the raw data. Infections were
-          diagnosed according to clinical and microbiological
-          criteria. Blood samples for cultures were obtained by the
-          same investigator (O Yildiz) and inoculated into a
-          standard culture medium (BACTEC 9240). Patients were
-          evaluated at enrollment and at the 24th hour, and on the
-          3rd, 7th, 10th, 14th, 21st, and 28th days, and followed
-          for 1 month after discharge from hospital.
-          Body temperature, respiratory rate, heart rate, blood
-          pressure, the use of vasopressor drugs, urine output,
-          complete blood counts, urinalysis with microscopic
-          examination, erythrocytes sedimentation rate, blood
-          chemistry, prothrombin time, partial thromboplastin time,
-          fibrinogen, fibrin debranch-ing product, blood gases,
-          electrocardiogram, and chest roentgenogram were recorded
-          for each patient individually.
-        
-        
-          Study endpoints
-          The primary endpoint of the study was 28-day mortality
-          from all causes. The secondary endpoint consisted of
-          adverse occurrences including possible complications of
-          drug therapy and morbid events such as the progression of
-          initial infection and the development of secondary
-          infection. Secondary infection was defined as the
-          identification of a new site of infection or the
-          emergence of a different organism at the same site,
-          generally requiring a change in antibiotic
-          management.
-          All medications given to the patients, any
-          complications, the duration of hospitalization, the
-          mortality rate, and the causes of death were recorded and
-          compared between the groups. We also compared average
-          values of basal cortisol, peak cortisol and cortisol
-          responses to ACTH between survivors and non-survivors on
-          the first day. Moreover, basal cortisol levels on the 1st
-          and 14th days were compared in patients who recovered in
-          each group.
-        
-        
-          Statistical analysis
-          Student's 
-          t -test and the Mann-Whitney 
-          U multivariate analysis test were
-          used for continuous variables, χ 2and Fisher's χ 2tests
-          were used for proportions, and logistic regression was
-          used for effects of factors on mortality. Values are
-          expressed as means ± SD, odds ratio (OR) and 95%
-          confidence interval (CI) or proportion.
-        
+        Results and discussion
+        DPAB is a potent inhibitor of retinal oxidation with IC 
+        50 values of 0.11 and 0.13 μM for
+        purified mouse and human ALDH1A1, respectively (Table 1).
+        These IC 
+        50 values are 100-fold lower than the
+        retinal concentrations used in the assay. The IC 
+        50 values for mouse ALDH1A1 are between
+        the values observed with propanal (0.040 μM) and
+        phenylacetaldehyde (0.36 μM) as substrates, with the human
+        ALDH1A1 showing the same inhibition with retinal or
+        propanal as substrate. The IC 
+        50 values reported were initially
+        obtained from spectrophotometric assays, and repeated with
+        an HPLC assay. We were concerned with using a
+        spectrophotometric assay for these inhibition studies due
+        to the presence of several absorbing species at 340 nm,
+        including NADH, DPAB, retinal, and retinoic acid. Thus, we
+        modified an HPLC assay in order to directly measure the
+        amount of retinoic acid product formed. Previous reports of
+        HPLC assays for ALDH reactions with tissue extracts used a
+        single time point at 60 min to measure accumulation of
+        product, after documenting that retinoic acid formation was
+        still linear in time course experiments [ 33 ] . In our
+        hands, the reaction with purified enzyme was only linear
+        for product formation up to 10-15 minutes.
+        Following continuous exposure to 1 μM retinoic acid for
+        96 hours, almost 40% of cells have differentiated to
+        granulocytes, as seen by the positive NBT staining.
+        Exposure to 1 μM 
+        all-trans retinal for 96 hours
+        induced differentiation equivalent to exposure to 0.05-0.1
+        μM retinoic acid. With co-exposures to 1 μM retinal and up
+        to 50 μM DEAB or DPAB, HL-60 differentiation was inhibited
+        by only 30% after 144 hours of exposure, compared with
+        cells exposed to retinal alone (Figure 2) DPAB did not
+        alter the induction of differentiation by retinoic acid,
+        nor did it affect cell viability up to 144 hours. Since
+        DPAB's inhibition of cell differentiation in cells exposed
+        to retinal was so low, we needed to demonstrate that
+        chemical oxidation or any serum enzymatic oxidation of
+        retinal to retinoic acid was not occuring under our culture
+        conditions. Control dishes containing media and retinal
+        were incubated for 144 hours, with aliquots removed every
+        24 hours and analyzed by HPLC. By day 6, less than 1% of
+        the retinal was oxidized to retinoic acid, suggesting that
+        non-enzymatic formation or serum-mediated formation of
+        retinoic acid was not responsible for the observed
+        differentiation in cells exposed to DEAB or DPAB.
+        Although DPAB is a more potent inhibitor of human
+        ALDH1A1 than DEAB, we were concerned that DPAB was not
+        remaining in solution at 50 μM in the culture media.
+        However, the observation that the addition of DEAB, a much
+        more soluble compound, resulted in the same percent
+        inhibition, suggested that solubility was not a factor.
+        Thus, artifacts due to solubility of inhibitor and
+        extracellular oxidation of retinal do not appear to
+        contribute to the observed response of DPAB on retinal
+        oxidation.
+        In addition, the NAD-dependent oxidation of propanal or
+        retinal was less than 0.05 nmoles NADH formed/min-10 7cells
+        in spectrophotometric assays using HL-60 cell extracts,
+        even in the absence of DEAB or DPAB. The NAD-dependent
+        oxidation of these aldehydes was not reproducibly detected
+        above background in spectrofluorometric assays. Therefore,
+        though low levels of ALDH1A1 activity have been reported in
+        HL-60 cells in previous studies [ 5 31 ] , it appears that
+        the differentiation observed in cells exposed to retinal
+        alone or retinal plus DPAB was not mediated by ALDH1A1
+        oxidation of retinal to retinoic acid. One possibility is
+        that a cytochrome P450 (CYP) enzyme is catalyzing the
+        oxidation. Raner et al [ 34 ] and Chen et al [ 35 ] have
+        described the formation of all-trans retinoic acid from
+        retinal and retinol by members of the CYP1 and CYP3A
+        families. In addition, expression of CYP1A1 and CYP3A4 mRNA
+        has been reported in HL-60 cells [ 36 ] . The contribution
+        of ALDH1A2 also can't be ruled out. However, its activity
+        should be detected by the spectrophotometric or
+        fluorometric assays.
+        Although ALDH1A2 appears only to catalyze the oxidation
+        of 
+        all-trans retinal to 
+        all-trans retinoic acid, both ALDH1A1
+        and CYP1 and CYP3A [ 34 ] enzymes are capable of oxidizing 
+        9-cis retinal to 
+        9-cis retinoic acid. The family of
+        retinoic acid receptors includes those that bind only 
+        all-trans retinoic acid (RAR α,β,γ
+        and those that bind either 
+        all-trans retinoic acid or 
+        9-cis retinoic acid (RXR α,β,γ Since
+        the transcriptional regulation of the retinoic acid
+        ligand/receptor complex appears to involve the binding of
+        receptor heterodimers (RAR/RXR), the specific cellular
+        response may depend on the ratio of 
+        all-trans to 
+        9-cis retinoic acid formed, as well
+        as the expression of receptor subtypes.
+        Our results suggest an intriguing possibility that
+        regulation of retinoic acid formation in the HL-60 cells,
+        and the subsequent terminal differentiation to
+        granulocytes, could be mediated by one enzymatic acitivy,
+        e.g. a CYP-mediated oxidation of retinal, whereas
+        regulation of retinoic acid formation in the hematopoietic
+        stem cells, and the subsequent maintenance of the
+        self-renewal capacity of the hematopoietic stem cells, is
+        mediated by ALDH1A1 oxidation of retinal (Figure 3). This
+        hypothesis can be tested by using global or specific CYP
+        inhibitors in the presence of retinal in HL-60 cells and by
+        using DPAB in the presence of retinal in an hematopoietic
+        stem cell assay system. We are attempting to assess the
+        ability of DPAB to block retinoic acid formation in
+        cultured, mouse hematopoietic stem cells.
       
       
-        Results
-        
-          Description of study population
-          Forty patients with sepsis, severe sepsis and septic
-          shock were included in this study. The mean age of
-          patients was 56.5 ± 16.4 years in the standard therapy
-          group and 57.8 ± 17.7 years in the steroid therapy group.
-          There was no significant difference in demographic
-          characteristics, the severity of underlying diseases, the
-          APACHE II and SOFA scores, the median time to hospital
-          and median time to death, the acquisition of infection,
-          and the sepsis categories between the groups (Table
-          2).
-        
-        
-          The 28-day mortality
-          There were eight deaths (40%) in the steroid therapy
-          group and 12 (60%) deaths in the standard therapy group (
-          
-          P = 0.343). The mortality rate in
-          the patients with hospital-acquired sepsis was higher
-          than that in the patients with community-acquired sepsis
-          in both groups, but this difference was not statistically
-          significant. The relationship between mortality and age,
-          the presence of an underlying disease, vasopressor and
-          steroid therapy, and APACHE II and SOFA scores was
-          assessed. Age, the presence of an underlying disease,
-          steroid therapy, basal plasma cortisol levels, and
-          cortisol response to ACTH below 9 g/dl were not
-          associated with mortality. Although a univariate analysis
-          found vasopressor therapy (OR 4.64, 95% CI 1.02-21.00),
-          APACHE II (OR 1.18, 95% CI 1.04-1.34) and maximum SOFA
-          (OR 1.63, 95% CI 1.23-2.16) to be effective on mortality,
-          only the SOFA score was found related to mortality,
-          independently of other factors (OR 2.09, 95% CI
-          1.01-4.30) in a multivariate analysis (Fig. 1and Table
-          3).
-        
-        
-          Variations of treatment effects on the 28-day
-          mortality among subgroups
-          The mortality rates among patients with a cortisol
-          level over 60 μg/dl were 29% (2 of 7) in the steroid
-          therapy group and 78% (7 of 9) in the standard therapy
-          group (χ 2= 3.874, 
-          P = 0.126). Although there was an
-          increase in the level of basal cortisol in patients with
-          sepsis, 14 of 40 patients (35%) had occult AI. The
-          mortality rates in patients with occult AI were 40% (2 of
-          5) in the steroid therapy group and 55.6% (5 of 9) in the
-          standard therapy group, respectively (χ 2= 0.311, 
-          P = 1). Only one patient had both
-          basal and peak cortisol levels lower than 20 g/dl; this
-          patient was in the standard therapy group and died on the
-          7th day of treatment. This case was accepted as adrenal
-          failure. A comparison of mortality rates for basal
-          cortisol and cortisol responses to ACTH in both groups is
-          shown in Figure 1. The median time to death was 5 days
-          (95% CI 2.55-8.20) in the steroid therapy group and 5.5
-          days (95% CI 2.19-13) in the standard therapy group ( 
-          P = 0.496). The reason for death in
-          all patients was attributed to sepsis. The median stay in
-          hospital was 14 days (95% CI 11.09-20.08) in the steroid
-          therapy group and 13 days (95% CI 10.13-16.37) in the
-          standard therapy group ( 
-          P = 0.406).
-        
-        
-          Sepsis-related organ dysfunction
-          Organ dysfunction and failure rates of the patients on
-          admission were 40% and 45% in the steroid therapy and the
-          standard therapy groups, respectively (Table 4). No
-          statistically significant difference was found between
-          the changes in the percentage of SOFA scores of the
-          steroid therapy group (43.1 ± 26.5%) and the standard
-          therapy group (45.4 ± 12.7%) in survivors ( 
-          P = 0.624).
-        
-        
-          Cortisol levels and cortisol responses to
-          ACTH
-          Basal and peak cortisol levels and cortisol responses
-          to ACTH in the steroid therapy group were not
-          significantly different from those in the standard
-          therapy group (Table 5). The average values of basal
-          cortisol, peak cortisol and cortisol responses to ACTH in
-          survivors and non-survivors in both groups for the first
-          day are shown in Table 3. There was no significant
-          difference between the values for survivors and
-          non-survivors. The mean basal cortisol level was 47.6 ±
-          26.9 g/dl on the first day in all survivors and 17.2 ±
-          8.6 g/dl on the 14th day in patients who recovered ( 
-          P = 0.0003). In the steroid therapy
-          group, the mean basal cortisol level was 52.5 ± 30.5 g/dl
-          on the first day and 17.6 ± 10.3 g/dl on the 14th day ( 
-          P = 0.003). In the standard therapy
-          group, the mean basal cortisol level was 40.3 ± 19.9 g/dl
-          on the first day and 16.4 ± 4.6 g/dl on the 14th day ( 
-          P = 0.028) (Table 6).
-        
-        
-          Adverse events
-          There were no adverse effects due to steroid therapy.
-          Only one patient, in the standard therapy group, had a
-          secondary infection.
-        
+        Conclusions
+        We have shown that DPAB can serve as a potent inhibitor
+        of purified human and mouse ALDH1A1 and should be a useful
+        molecule to assess the role of ALDH1A1 in retinal oxidation
+        in a cell system. In addition, our results indicate that in
+        HL60 cells, the prototype cell line for studying retinoic
+        acid induced cell differentiation, ALDH1A1 is not the
+        operative oxidizing enzyme for retinal.
       
       
-        Discussion
-        Sepsis is a severe and life-threatening disease. Septic
-        shock is associated with a mortality rate of more than 50%.
-        Despite improvements in the overall management of such
-        patients, including intensive fluid resuscitation,
-        broad-spectrum antibiotic therapy, and life-support
-        devices, mortality rates have not improved during the past
-        decade [ 4]. In this randomized, double-blind study of the
-        physiological dose of intravenous prednisolone or placebo
-        in the treatment of sepsis, we observed an important
-        difference in mortality rates between both groups. The
-        mortality rates were 40% in the steroid therapy group and
-        60% in the standard treatment group. There was a trend
-        towards a decrease in the mortality rate of the patients
-        with sepsis who received physiological-dose steroid
-        therapy. However, the differences were not statisti-μ cally
-        significant ( 
-        P = 0.343). Several factors were
-        suspected to be associated with mortality in sepsis [ 30,
-        31]. Annane 
-        et al. [ 17] reported that SOFA
-        score, high plasma cortisol levels and weak response of
-        cortisol to ACTH were also associated with mortality.
-        However, we found that only SOFA score was related to
-        mortality, independently of other factors (OR 2.07, 95% CI
-        1.02-4.22) in the multivariate analysis.
-        Briegel 
-        et al. [ 19] showed that stress doses
-        of hydrocorti-sone reduce the time for the reversal of
-        shock, the number of organ system failures, and the length
-        of mechanical ventilation in patients with septic shock.
-        This finding underlines the fact that an impaired
-        adrenocortical function contributes to vascular
-        hyporesponsiveness in septic shock. In contrast to other
-        studies, our study was performed in patients with sepsis,
-        severe sepsis and septic shock with the use of
-        physiological-dose prednisolone with or without vasopressor
-        support. Because the administration of prednisolone does
-        not affect the circadian adrenocortical patterns and the
-        results of an ACTH stimulation test in adults, we preferred
-        to use this drug [ 32]. In this study we did not completely
-        evaluate the effect of the steroid on patients with
-        vasopressor-dependent septic shock. However, in a few
-        patients, a physiological dose of prednisolone reduces the
-        time for the reversal of shock as defined by the cessation
-        of vasopressor therapy.
-        It is known that the plasma cortisol level increases in
-        critical illnesses and that basal cortisol levels have a
-        positive correlation with severity of illness and
-        prognosis. However, some investigators [ 16, 23, 33, 34,
-        35] showed that patients with sepsis and high baseline
-        cortisol levels had a lower cortisol response to the ACTH
-        stimulation test. Our entire study group had higher mean
-        random basal and stimulated cortisol levels than those seen
-        in outpatients. The difference between the basal cortisol
-        levels on the 1st and 14th days in patients who recovered
-        was statistically significant ( 
-        P < 0.0001) (Table 5). We have
-        also shown that basal cortisol levels correlate with the
-        severity of the illness, and that very high corti-sol
-        levels signify a poor prognosis in the standard therapy
-        group (Fig. 1).
-        Clinically significant AI is unusual in outpatients. The
-        studies of adrenal function in critically ill patients
-        report conflicting incidences of AI ranging from 0% to 28%
-        [ 35, 36, 37]. Our results show a low incidence of AI in
-        septic patients. One of our 40 patients had abnormal basal
-        and peak cortisol levels (less than 20 g/dl) and died. This
-        condition was evaluated as AI. In the advancing process
-        from sepsis to septic shock, we concluded that AI was not
-        so frequent as supposed.
-        In recent years, several authors have proposed a
-        syndrome of occult AI in septic shock in the presence of
-        normal or even elevated serum cortisol concentrations.
-        Annane 
-        et al. [ 17] reported that 50% of
-        patients with severe sepsis had occult AI. In the present
-        study, 14 (35%) of the 40 patients had a subnormal cortisol
-        response (occult AI). Five patients in the steroid
-        treatment group had an inadequate cortisol response; two of
-        them died. However, five of nine patients in the standard
-        treatment group who showed inadequate cortisol response
-        died. No statistical differences were observed in mortality
-        rates between the patients who had occult AI (χ 2= 0.311, 
-        P = 1) (Fig. 1).
-        In conclusion, a physiological dose of intravenous
-        pred-nisolone had a tendency towards a decrease in
-        mortality in the patients with sepsis, but the difference
-        between the two groups was not significant. Because our
-        study had a small sample size and showed heterogeneity in
-        population in terms of clinical severity, treatment with
-        physiological-dose steroid in sepsis should be evaluated in
-        a larger group of patients.
-      
-      
-        Key messages
-        · There was an increase in the level of basal cortisol
-        in patients with sepsis.
-        · In the advancing process from sepsis to septic shock,
-        adrenal insufficiency was not so frequent as supposed.
-        · Sepsis can cause occult adrenal insufficiency in the
-        presence of normal or even elevated serum cortisol
-        concentrations.
-        · Physiological-dose prednisolone therapy had a tendency
-        towards a decrease in mortality in the patients with
-        sepsis.
-      
-      
-        Competing interests
-        None declared.
-      
-      
-        Abbreviations
-        AI = adrenal insufficiency; APACHE = Acute Physiology
-        and Chronic Health Evaluation; ACTH = corticotropin; CI =
-        confidence interval; OR = odds ratio; SOFA = Sequential
-        Organ Failure Assessment.
+        Materials and methods
+        
+          Materials
+          NAD, 
+          all-trans retinal, 
+          all-trans retinoic acid,
+          dimethylsulfoxide, mammalian protease inhibitor cocktail,
+          nitroblue tetrazolium, and pyrazole were obtained from
+          Sigma Chemical Co., St. Louis, MO. Phenylacetaldehyde,
+          4-(N,N-diethylamino) benzaldehyde, and propanal were
+          purchased from Aldrich Chemical Co., Milwaukee, WI.
+        
+        
+          Purification of ALDH1A1 from mouse liver and human
+          erythrocytes
+          The purification of ALDH1A1 from mouse liver and human
+          erythrocytes was performed as in [ 20 ] .
+        
+        
+          Substrate and inhibitor preparations
+          Retinal and retinoic acid were dissolved in either
+          DMSO or ethanol and stored as 100 mM stock solutions in
+          foil-wrapped vials at -20°C. For enzyme assays, retinal
+          prepared in DMSO was diluted in a 70% methanol: 30% water
+          (v/v) solution and all assays were run under dim light.
+          DPAB was synthesized as described in [ 20 ] and stored as
+          a yellow oil at 4°C. DPAB was diluted in DMSO to a stock
+          concentration of 10 mM and then diluted in water prior to
+          enzyme assays. DMSO concentration did not exceed 0.1%
+          (v/v) in the assay and this concentration had no effect
+          on enzyme activity.
+        
+        
+          Spectrophotometric enzyme assays
+          ALDH1A1 activity was measured on a Shimadzu UV1201
+          Spectrophotometer at 36.5° (± 0.5°) at 340 nm. Standard
+          assay conditions were as follows: 1 mL final reaction
+          volume; assay buffer (0.1 M sodium pyrophosphate pH 8.4,
+          1.0 mM EDTA, 5.0 mM dithiothreitol); 1.0 mM NAD; 10 mM
+          pyrazole. The order of addition in the assay was as
+          follows: buffer; pyrazole; NAD; ALDH (10 mU mouse liver
+          ALDH1A1; 5 mU human erythrocyte ALDH1A1; or HL-60 cell
+          extract); inhibitor (if any); and lastly, the aldehyde
+          substrate. One Unit of activity is defined as 1 μmole
+          NADH formed /minute. Background activity was determined
+          for 60-90 seconds after the addition of enzyme and the
+          reaction rate was measured during the 30-60 seconds
+          following addition of retinal substrate Propanal
+          concentration was varied from 500 to 10 μM (20-0.4 times
+          K 
+          m ), phenylacetaldehyde concentration
+          was varied from 40 to 5 μM (5-0.6 times K 
+          m ), and retinal concentration was
+          varied from 1-10 μM, all with constant (1 mM) NAD
+          concentration. DPAB concentrations were varied from 20 μM
+          to 0.05 μM. All trials were done in triplicate.
+        
+        
+          HPLC enzyme assays
+          Since there are three molecules with strong
+          absorbances at 340 nm (retinal, retinoic acid, and NADH),
+          we developed a high pressure liquid chromatography (HPLC)
+          assay to assess the ability of DPAB to inhibit retinal
+          oxidation by class 1 ALDH. Assay conditions were: 0.5 mL
+          final reaction volume; assay buffer (0.1 M sodium
+          pyrophosphate, pH 8.4, 1.0 mM EDTA, 5.0 mM dithiothreitol
+          or glutathione); 1.0 mM NAD. The reaction rate was
+          measured at 37°C for 1-10 minutes. The reaction was
+          stopped by the addition of 200 μL butanol. After
+          vortexing for 1 minute, 50 μL of saturated K 
+          2 HPO 
+          4 was added. The sample was vortexed
+          and centrifuged for 2 minutes at 16,000 g. 50 μL of the
+          resulting organic layer was injected onto a reverse phase
+          C18 column (Phenomenex). The mobile phase was 0.5% acetic
+          acid: 20% water: 79.5% acetonitrile (v/v) with a flow
+          rate of 2.0 mL/min. 
+          All-trans retinal and 
+          all-trans retinoic acid were
+          detected at 360 nm with retention times of 10.0 and 7.7
+          minutes, respectively.
+        
+        
+          HPLC assay for detection of retinal purity and
+          stability in culture
+          HPLC was used to analyze the purity of our retinal
+          samples and the stability of retinal under culture
+          conditions. The stability of retinal in tissue culture
+          was determined by incubation of 10 μM retinal in culture
+          media (RPMI 1640 plus 15% fetal bovine serum) for six
+          days at 37°C. At 24 hour intervals, 1 mL of media was
+          removed. 200 mL of 50% butanol:50% acetonitrile (v/v) was
+          added and the mixture was vortexed for 60 seconds,
+          followed by centrifugation for 2 minutes at 16,000 × g.
+          The top organic layer was removed and diluted 1:5 in
+          acetonitrile before injection onto the HPLC column.
+        
+        
+          Cell differentiation assays
+          HL-60 cells (ATCC, Rockville, MD) were propagated in
+          RPMI-1640 media supplemented with 15% fetal bovine serum
+          and 50 U/mL penicillin and 0.5 mg/mL streptomycin. Cells
+          were subcultured and treated at 2 × 10 5cells/mL. Cells
+          were exposed to combinations of 1 μM retinoic acid, 1 μM
+          retinal, and various concentrations of DPAB and DEAB
+          prepared in sterile dimethyl sulfoxide (DMSO) or ethanol.
+          Final concentrations of DMSO or ethanol in the culture
+          medium did not exceed 1% v/v. Cells were exposed for up
+          to 144 hours without replacement of media or washing out
+          of retinoid or inhibitor. Cell differentiation was
+          measured by mixing 100 μL aliquots of cells with 100 μL
+          of a solution containing 1.0% w/v bovine serum albumin,
+          0.2% w/v nitroblue tetrazolium and 1.0 μg/mL of
+          12-O-tetradecanoylphorbol 13-acetate (TPA). The mixture
+          was incubated for 45 minutes at 37°C in a 24-well plate.
+          Cells were pipetted onto a Bright Line counting chamber
+          and scored as positive for differentiation by the
+          presence of purple NBT precipitate using bright field
+          microscopy. Two observers each counted two fields of at
+          least 200 cells from each well of treated cells. Cell
+          survival was determined by Trypan blue dye exclusion.
+        
+        
+          Spectrofluorometric assays for ALDH activity in
+          HL-60 Cells
+          Cytosolic extracts of HL-60 cells were analyzed for
+          ALDH activity using a Perkin Elmer 650 spectrofluorometer
+          with an excitation wavelength of 350 nM and an emission
+          wavelength of 460 nM. Assay conditions were as given for
+          the spectrophotometric enzyme assays above, with propanal
+          or 
+          all-trans retinal used as the
+          aldehyde substrate.
+        
       
     
   

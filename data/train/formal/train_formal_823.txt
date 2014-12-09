@@ -2,598 +2,214 @@
   
     
       
-        Background
-        Organic phosphate compounds are the central metabolites
-        of all biological systems [ 1 2 ] . Some are the basic
-        building blocks of nucleic acids, some like ATP and GTP,
-        are additionally, cellular energy stores, others like cAMP
-        or cGMP are messengers in signal transduction, and, yet
-        others, such as FAD, NAD, thiamine phosphates and pyridoxal
-        phosphate are cofactors for a range of enzymes [ 1 2 ] .
-        Protein domains belonging to a relatively small set of
-        structural folds are known to bind or catalyze reactions
-        that utilize these organic phosphate compounds (see SCOP
-        database: http://scop.mrc-lmb.cam.ac.uk/scop/) [ 3 4 ] .
-        Several of these folds trace back to some of the earliest
-        phases of the evolution of the protein world, and
-        participate in a wide range of disparate biological
-        functions in extant proteins [ 4 5 ] . Some folds, such as
-        the P-loop fold, the Rossmann fold and the Hsp70-like fold,
-        have been well studied, and comprise mainly of dedicated
-        nucleotide binding or hydrolyzing proteins [ 6 7 8 9 ] .
-        Others, such as the palm-domain, which is found in adenylyl
-        cyclases and various nucleic acid polymerases, belong to
-        more generalized protein folds that contain representatives
-        with diverse biochemical activities [ 4 10 11 ] . Current
-        availability of extensive genome sequence data, allows one
-        to identify less numerous, nevertheless biological
-        important organic phosphate-binding domains that may have
-        previous eluded detection. The identification of such
-        domain superfamilies, containing enzymes with several
-        different activities, often throws considerable light on
-        their evolution, structure and catalytic mechanisms [ 4 12
-        ] .
-        The majority of previously known nucleotide cyclases
-        belong to two major folds. The classical adenylyl cyclases,
-        guanylyl cyclases and the GGDEF (diguanylate cyclase)
-        domains share the catalytic palm domain with the family B
-        DNA polymerases, reverse transcriptases, viral RNA
-        dependent RNA polymerases and eukaryote-type primases [ 4
-        13 14 ] . The pathogenic adenylyl cyclases of several
-        bacteria and the CyaA-like proteobacteria adenylyl cyclases
-        are extremely divergent versions of the catalytic domain
-        seen in the Pol-β family of nucleotidyl transferases [ 15 ]
-        (also see SCOP database:
-        http://scop.mrc-lmb.cam.ac.uk/scop/). While the catalytic
-        domains of these two superfamilies have very different
-        folds, they follow a similar reaction mechanism that is
-        dependent on two Mg 2+ions coordinated by a cluster of
-        acidic residues. However, the CyaB adenylyl cyclase, which
-        was identified in the bacterium 
-        Aeromonas hydrophila is unrelated to
-        any of these above superfamilies of enzymes [ 16 ] . Though
-        close relatives of this enzyme exist in some bacteria, like
         
-        Yersinia pestis and 
-        Borrelia burgdorferi and the archaea,
-        its antecedents or catalytic mechanism have not been
-        understood. Using sensitive sequence profile comparison
-        methods, we show that the CyaB-like adenylyl cyclases are
-        homologs of the soluble mammalian thiamine triphosphatases
-        [ 17 ] , and they define a novel superfamily of enzymes
-        that utilize ATP and other organic phosphates. We present
-        evidence that a representative of this domain was present
-        in the last common ancestor of all extant life forms. The
-        primary biological function of these proteins appears to be
-        related to polyphosphate and nucleotide metabolism. Cyclic
-        AMP generation and thiamine triphosphate hydrolysis appear
-        to be secondarily acquired activities. We also identify the
-        potential active site- and substrate interacting-residues
-        and postulate that these enzymes are likely to catalyze a
-        two-metal ion dependent reaction on structural scaffold
-        that is completely different from that seen in the other
-        two superfamilies of adenylyl cyclases.
+        The ability to taste food is a life-and-death matter. Failure to recognise food with a
+        high enough caloric content could mean a slow death from malnutrition. Failure to detect a
+        poison could result in near-instant expiration. And now, as researchers begin to understand
+        some of the nuts and bolts of taste perception, it seems that the sense of taste may also
+        have more subtle effects on health.
       
       
-        Results and discussion
+        The Basics of Taste
+        At the front line of the taste sensory system are the taste buds—onion-shaped structures
+        on the tongue and elsewhere in the mouth (Figure 1). Up to 100 taste receptor
+        cells—epithelial cells with some neuronal properties—are arranged in each taste bud. In the
+        tongue, the taste buds are innervated by the chorda tympani (a branch of the facial nerve)
+        and the glossopharyngeal nerve. These nerves carry the taste messages to the brain.
+        Taste is the sense by which the chemical qualities of food in the mouth are
+        distinguished by the brain, based on information provided by the taste buds. Quality or
+        ‘basic taste’, explains Bernd Lindemann, now retired but an active taste researcher in
+        Germany for many years, is a psychophysical term. Large numbers of people describe
+        different tastants and then statistical analyses are used to define the important tastes.
+        ‘The number of taste qualities has varied over the years’, says Lindemann. ‘We are now
+        settling at around five, though I would not be surprised if some additional qualities pop
+        up’.
+        The five qualities that Lindemann refers to are salty, sour, bitter, sweet, and umami,
+        the last being the Japanese term for a savoury sensation. Salty and sour detection is
+        needed to control salt and acid balance. Bitter detection warns of foods containing
+        poisons—many of the poisonous compounds produced by plants for defence are bitter. The
+        quality sweet provides a guide to calorie-rich foods. And umami (the taste of the amino
+        acid glutamate) may flag up protein-rich foods. Our sense of taste has a simple goal,
+        explains Lindemann: ‘Food is already in the mouth. We just have to decide whether to
+        swallow or spit it out. It's an extremely important decision, but it can be made based on a
+        few taste qualities’.
+      
+      
+        From Physiology to Molecular Biology
+        Taste has been actively researched for many decades. During the 20th century,
+        electrophysiologists and other researchers worked hard to understand this seemingly simple
+        sense system. Then, in 1991, the first olfactory receptors were described. These proteins,
+        which are exposed on the surface of cells in the nose, bind to volatile chemicals and allow
+        us to detect smells. This landmark discovery, in part, encouraged many established taste
+        researchers to investigate the molecular aspects of taste.
+        The olfaction results also enticed researchers from other disciplines into the taste
+        field, including collaborators Charles Zuker (University of California, San Diego [UCSD],
+        La Jolla, California, United States) and Nick Ryba (National Institute of Dental and
+        Craniofacial Research [NIDCR], Bethesda, Maryland, United States). About six years ago,
+        explains Zuker, who previously worked on other sensory systems in flies, ‘there was a
+        disconnect between our understanding of sensations in the case of photoreception,
+        mechanoreception, touch, and so on and what we knew about taste’. There was evidence, says
+        Ryba, that a class of protein receptors called G-protein-coupled receptors (GPCRs) were
+        involved in sweet and bitter taste, ‘but the receptors weren't known, so we started to look
+        for them …. These molecules are intrinsically interesting, but more importantly, they
+        provide tools with which we can dissect out how taste works’.
+      
+      
+        Bitter, Sweet, and Umami Receptors
+        The bitter receptors fell first to the onslaught of the UCSD–NIDCR team and other
+        molecular biologists. In 1999, the ability to taste propylthiouracil, a bitter tasting
+        compound, had been linked to a locus on human Chromosome 5p15. Reasoning that this
+        variation might be due to alterations in the coding sequence for a bitter receptor, the
+        UCSD–NIDCR researchers used the draft of the human genome to search for sequences that
+        resembled GPCRs on Chromosome 5p15. ‘That was how we found T2R1, the first bitter receptor,
+        and, subsequently, a whole family of T2Rs’, says Zuker.
         
-          Identification of the CYTH domain
-          In order to understand the evolutionary affinities and
-          provenance of the CyaB adenylyl cyclase from 
-          Aeromonas hydrophila , we carried
-          out database searches using sensitive sequence profile
-          analysis methods. As CyaB is a small protein with no
-          detectable low complexity regions, we used it as a seed
-          to initiate a PSI-BLAST search [ 18 ] (run to
-          convergence, with expect-value for inclusion in profile =
-          .01). The search resulted in the detection of its obvious
-          orthologs from 
-          Yersinia and various archaea at
-          significant expect (e) values ranging from from 3 × 10
-          -43to 8 × 10 -5. The second iteration recovered proteins
-          from more archaea, eukaryotes (e-value: 3 × 10 -7), 
-          Clostridium (3 × 10 -8) and 
-          Borrelia (6 × 10 -8). Further
-          iterations, run to convergence, recovered the soluble
-          mammalian thiamine triphosphatases (3 × 10 -4), and the
-          N-terminal region of 
-          E. coli YgiF. At convergence,
-          several bacterial proteins, that showed a conserved EXEXK
-          (where X is any amino acid) characteristic of this
-          family, and a region C-terminal to a P-loop like uridine
-          kinase domain in plants were also recovered at borderline
-          e-values (e value ~0.01 - 0.05). Reciprocal searches
-          initiated with the 
-          E. coli YgiF protein (residues
-          1-200), not only recovered its bacterial orthologs,
-          archaeal CyaB homologs and eukaryotic proteins, but also
-          several others such as 
-          Bacillus subtilis YjbK, 
-          Methanosarcina Ma2350, and 
-          Mesorhizobium loti Mll4592 with
-          e-values in the range of 10 -4-10 -6upon first detection.
-          Additionally, transitive searches initiated from the
-          region C-terminal to the uridine kinase of the plants
-          (49D11.13 from 
-          Oryza sativa , region: 250-410)
-          recovered archaeal CyaB homologs confirming their
-          relationship to with the other proteins detected in these
-          searches. Regular expression searches with the
-          conservation pattern found in these CyaB homologs also
-          recovered the most of the members detected in the
-          above-mentioned profile searches, but failed to recover
-          any new candidates.
-          In all these searches, the alignments more or less
-          spanned the entire length of the CyaB protein and
-          typically contained the same set of conserved residues.
-          The Gibbs sampling procedure revealed the presence of
-          seven conserved motifs, with a probability of chance
-          occurrence less than 10 -14, in the search space
-          comprising of the 70 or so proteins that were identified
-          in the above searches as having this domain. We clustered
-          these proteins using the BLASTCLUST program in several
-          smaller clusters and prepared multiple alignments for the
-          individual clusters and predicted secondary structure for
-          these set using the PHD program. A nearly complete
-          congruence was seen in the comparison of the secondary
-          structures of the individual clusters. In many cases, the
-          region of similarity to CyaB comprised the entire length
-          of the target protein detected in these searches.
-          However, in some cases it only comprised a part of the
-          protein, with rest of the protein being made of other
-          globular domains. These observations, taken together,
-          suggested that CyaB and soluble mammalian thiamine
-          triphosphatases define a novel superfamily of conserved
-          domains, which may either occur by itself or in
-          combination with other domains. We named this domain the
-          CYTH ( 
-          Cy aB, 
-          th iamine triphosphatase) domain
-          after the two experimentally characterized proteins in
-          which it is present.
+          
+            Researchers want to know: how is taste coded?
+          
         
-        
-          Sequence conservation, structure and biochemical
-          activities of the CYTH domain
-          All complete CYTH domain sequences were aligned using
-          the T_Coffee program, and this alignment was further
-          refined based on the PSI-BLAST HSPs, conserved motifs
-          detected in the Gibbs sampling procedure and predicted
-          secondary structure for the individual groups (Fig. 1). A
-          text copy of the alignment is being provided as an
-          additional file (see additional file1and additional file
-          2). The predicted secondary structure for this domain
-          indicated an α+β fold, with 6 conserved β-strands and 6
-          conserved α-helices. Neither the predicted secondary
-          structure, nor the pattern of the conserved residues
-          revealed an obvious relationship with any previously
-          recognized fold. Given that the CYTH domain is the only
-          globular domain in the enzymes, thiamine triphosphatase
-          and CyaB, it is predicted to be an enzymatic domain.
-          While the reactions catalyzed by these two enzymes are
-          distinct, their substrates, respectively thiamine
-          triphosphate and ATP, are both organic triphosphates. The
-          CYTH domain is also present C-terminal to the catalytic
-          P-loop containing domain in the plant and slime mold
-          uridine kinase homologs. In these proteins it is likely
-          to interact with nucleoside diphosphates or
-          triphosphates, which are substrates for these kinases.
-          These observations suggest that the CYTH domains are
-          likely to be domains specialized to bind nucleotides and
-          other organic phosphates. A multiple alignment of this
-          superfamily reveals the presence of several nearly
-          universally conserved charged residues that are likely to
-          form the active site of these enzymes (Fig. 1). The most
-          prominent of these are an EXEXK motif associated with
-          strand-1 of the domain, two basic residues in helix-2, a
-          K at the end of strand 3, an E in strand 4, a basic
-          residue in helix-4, a D at the end of strand 5 and two
-          acidic residues (typically glutamates) in strand 6 (Fig.
-          1). The presence of around 6 conserved acidic positions
-          in the majority of the CYTH domains suggests that it
-          coordinates two divalent metal ions. Analogous active
-          sites, that coordinate two metal ions, are observed in
-          domains with similar activities, such as the classical
-          adenylyl/guanylyl cyclases, family B DNA polymerases,
-          pol-β fold nucleotidyl transferases, and triphosphatases
-          or phosphoesterases of the HD and DHH superfamilies [ 11
-          15 19 20 ] . Consistent with these observations, both
-          CyaB and ThTPase have been shown to require Mg 2+ions for
-          their nucleotide cyclase and phosphatase activities [ 16
-          17 ] .
-          Additional file 1
-          A text copy of the alignments of the CYTH domain and
-          the CHAD are provided in simple alignment and Clustal aln
-          formats
-          Click here for file
-          Additional file 2
-          Alignments presented in the article in PDF format.
-          Click here for file
-          The four conserved basic residues in the CYTH domain
-          are most probably involved in the binding of acidic
-          phosphate moieties of their substrates (Fig. 1). The
-          conservation of these two sets of residues in the
-          majority of CYTH domains suggests that most members of
-          this group are likely to possess an activity dependent on
-          two metal ions, with a preference for nucleotides or
-          related phosphate-moiety-bearing substrates. The proposed
-          biochemical activity, and the arrangement of predicted
-          strands in the primary structure of the CYTH domain imply
-          that the may adopt a barrel or sandwich-like
-          configuration, with metal ions and the substrate bound in
-          the central cavity. The only prominent exceptions to the
-          basic conservation pattern of the CYTH domains are the
-          versions found in the plant and 
-          Dictyostelium pyrimidine kinase
-          homologs (Fig. 1, At1g26190-like). These versions lack 5
-          of the 6 conserved acidic residues, but retain 3 of the 4
-          conserved basic residues (Fig. 1). This leads to the
-          prediction that these CYTH domains are catalytically
-          inactive. However, as they retain the basic residues,
-          they probably still bind the organic phosphate
-          substrates, and function as regulatory domains that are
-          linked to P-loop kinase domains.
-        
-        
-          Phyletic patterns, evolutionary history and
-          potential biological functions of the CYTH domains
-          CYTH domains are present in most of the major
-          lineages, for which sequence information is currently
-          available, from the three principal superkingdomains of
-          life (Fig. 2). We used the multiple alignment of the CYTH
-          domain to construct phylogenetic trees using the least
-          squares, neighbor joining and maximum likelihood methods
-          (see Materials and Methods). The monophyletic clusters
-          that emerged in this analysis were essentially the same
-          as those that were derived through similarity based
-          clustering using BLASTCLUST. The majority of archaeal and
-          eukaryotic proteins formed a monophyletic cluster to the
-          exclusion of most of the bacterial proteins (RELL
-          Bootstrap support 77%) (Fig. 2). This cluster was also
-          supported by a unique synapomorphy (a shared derived
-          character) in the form of a conserved motif (Dh; where h
-          is a hydrophobic residue) associated with the second
-          strand (Fig. 1). This phylogenetic tree topology
-          resembles that of several proteins involved in core
-          cellular functions such as the DNA recombinase RecA,
-          aminoacyl tRNA synthetases, RNA polymerase and other RNA
-          metabolism proteins [ 21 22 23 ] . This suggests that a
-          CYTH domain was present in the last universal common
-          ancestor of all extant life forms and the extant forms
-          are in part vertically inherited from this ancestral
-          form.
-          However, there are certain anomalies to this pattern.
-          The CYTH domains are entirely absent from the small
-          genomes of pathogenic bacteria such as 
-          Rickettsia and 
-          Chlamydia as well as some of the
-          large genomes such as 
-          Deinococcus radiodurans . At least,
-          a single copy of the CYTH domain is seen in most archaeal
-          and eukaryotic genomes sampled to date, with the
-          exception of 
-          Thermoplasma and the yeasts, where
-          it is absent. This implies that the CYTH domain has been
-          lost independently on a number of occasions in evolution.
-          CyaB homologs from 
-          Aeromonas , 
-          Clostridium, Borrelia , and 
-          Ralstonia lie firmly (RELL
-          Bootstrap >= 70%) within the archaeal and eukaryotic
-          clusters, rather than with their bacterial counterparts
-          (Fig. 2). These bacterial forms also share the unique
-          sequence signature in the second strand with this group
-          suggesting that they have been derived through horizontal
-          transfer from different archaeal and eukaryotic sources
-          (Fig. 1). In particular the CyaB homolog from 
-          Ralstonia groups very strongly with
-          the animal versions and appears to be a recent horizontal
-          transfer in this bacterium from the latter clade. The
-          possibility of lateral transfer of 
-          Aeromonas CyaB from an archaeal
-          source has been previously suggested, and is consistent
-          with the enzyme being optimally functional under high
-          temperature [ 16 ] . There are 3 distinct CYTH domains in
-          the euryarchaeon 
-          Methanosarcina acetivorans , in
-          addition to the version which groups with the CYTH
-          domains that are found, in single or duplicate copies, in
-          other archaea and eukaryotes. These former versions,
-          strongly group with CYTH domains from actinobacteria
-          (Rell Boostrap 77%) to the exclusion of other lineage
-          (Fig. 2). Furthermore, they share a fusion to a novel
-          conserved domain with characteristic histidines (see
-          below) with the actinobacterial versions. Thus they
-          appear to have been transferred laterally from the
-          actinobacteria into the 
-          Methanosarcina lineage followed by
-          a small lineage specific expansion in the latter.
-          Bacteriophages, like RB49, that contain a solo CYTH
-          domain, which is closer to the version seen in its
-          proteobacterial hosts, could have served as conduits for
-          the lateral distribution of this domain.
-          The phyletic pattern of the CYTH domain is not very
-          typical of signaling enzymes like nucleotide cyclases.
-          Classic adenylyl and guanylyl cyclases show a far more
-          sporadic distribution, and are often present in multiple
-          copies fused to a variety of signaling domains such as
-          the cyclic nucleotide binding domains [ 24 ] . Cyclic
-          nucleotide generating activity is not known to exist in a
-          subset of the archaea [ 25 ] , though most of them
-          contain a well-conserved copy of the CYTH domain.
-          Experimental analysis on the 
-          Methanococcus CyaB homolog revealed
-          no adenylyl cyclase activity comparable to that seen in 
-          Aeromonas CyaB [ 16 ] . Likewise,
-          there is no evidence for a widespread presence of the
-          ThTPase activity in the organisms that contain CYTH
-          domain proteins [ 17 ] . Hence, the principal biological
-          function of the CYTH domains may be different from those
-          of the experimentally characterized members of this
-          family. General conservation of this domain across a
-          range of organisms, and its presence in the LUCA suggests
-          the possibility of an important general role in cellular
-          process of free-living organisms. In order to decipher
-          the potential biological roles of this domain we used
-          different forms of contextual information regarding these
-          domains, in the form of domain architectures, gene
-          neighborhoods (predicted operons) and experimental
-          evidence for interactions between proteins. Both domain
-          architecture and operon analysis have been used
-          extensively to make functional predictions of poorly
-          characterized domains or genes [ 26 27 28 29 ] .
-          Moreover, the presence of evolutionarily conserved
-          operons often correlates with the involvement of the
-          component genes in a sequential pathway or physically
-          interacting complex [ 30 31 ] . We summarize the
-          different forms of contextual information that we
-          extracted from the CYTH domains in the form a network
-          diagram (Fig. 3).
-          The CYTH domain shows a small array set of fusions to
-          other conserved domains (Fig. 3). One of the most
-          prevalent fusions is to an uncharacterized domain, with a
-          characteristic pattern of conserved histidines and other
-          charged residues. This domain is predicted to adopt an
-          α-helical fold and is according referred to as CHAD
-          (CHAD: 
-          c onserved 
-          h istidine 
-          α -helical 
-          d omain; Fig. 4). The sequence
-          conservation pattern (Fig. 4) suggests that this domain
-          is likely to contain two repeat units, with at least 4
-          helices each, at its core. While no clear functional
-          prediction can be made for the CHAD, the conserved
-          charged residues could form a strongly polar surface that
-          could participate, either in metal chelation, or act as
-          phospho-acceptors. Another notable fusion is with a
-          specific version of the HD hydrolase domain [ 19 ] ,
-          which is also found fused to the C-terminus of the
-          HSP70-fold domain in the exopolyphosphatase (PPX) (Fig.
-          3). HD domains typically possess phosphoesterase
-          activity, and are fused to catalytic domains that possess
-          nucleotide kinase, nucleotidyltransferase, nucleotide
-          cyclase or diguanylate cyclase activity [ 19 29 ] . This
-          fits well with the observed cyclase activity seen in
-          CyaB, but is also consistent with phosphotransferase or
-          nucleotidyl transferase for the CYTH domain. Finally,
-          catalytically inactive versions of the CYTH domain are
-          found fused to the nucleotide kinase domain in uridine
-          kinase homologs and may serve as an allosteric
-          nucleotide-binding site in these enzymes (Fig. 3).
-          In terms of conserved gene neighborhoods,
-          CYTH-domain-encoding genes, like mll4592 from
-          α-proteobacteria, are frequently found in the
-          neighborhood of genes encoding solo CHADs (Fig. 3).
-          Additionally, in 
-          Methanosarcina the CYTH-encoding
-          genes are found in predicted operons or in the
-          neighborhood of genes encoding exopolyphosphatase (PPX)
-          and polyphosphate kinase (PPK). Furthermore, in 
-          Sulfolobus , a gene for a CHAD
-          protein is in a predicted operon along with genes for
-          thymidylate kinase and PPX. CHAD- and CTYH-encoding genes
-          are also found in the neighborhood of PPK and PPX in 
-          Chlorobium tepidum and 
-          Geobacter metallireducens ,
-          respectively (Fig. 3). Genes for CYTH domains also
-          co-occur in predicted operons with genes for another
-          polyphosphate utilizing enzyme, the
-          polyphosphate-dependent NAD kinase (PPNK), in certain
-          cyanobacteria (eg. 
-          Prochlorococcus marinus ) and Gram
-          positive bacteria like 
-          Oceanobacillus iheyensis . Other
-          potential connections are furnished by the co-occurrence
-          of genes for CYTH-domain proteins with genes involved in
-          with nucleoside polyphosphate metabolism. These include
-          co-occurrence with the gene for adenosine
-          tetraphosphatase (APAH; eg. in 
-          Magnetococcus sp. ) and with genes
-          encoding the YjbM-domain in Gram-positive bacteria. The
-          YjbM domain, most often, occurs fused to pentaphosphate
-          guanosine-3'-pyrophosphohydrolase (SpoT) and GTP
-          pyrophosphokinase (RelA), suggesting a role for it in the
-          metabolism of the stringent-response nucleoside
-          polyphosphate.
-          These contextual connections are consistent with the
-          participation of CYTH domains in organo-phosphate
-          biochemistry, and circumstantially associate it with the
-          metabolic network related to polyphosphates and
-          nucleoside polyphospates (Fig. 3) [ 32 ] . Specifically,
-          PPK and PPX have been shown to, respectively, lengthen or
-          shorten polyphosphate polymers [ 32 ] . These two enzymes
-          also appear to interact with the nucleotide metabolism of
-          the cell. In particular PPK and PPNK can utilize Poly(P)
-          to synthesize nucleoside polyphosphates, while PPK along
-          with adenylate kinase can carry out
-          polyphosphate-dependent phosphorylation AMP [ 33 34 35 ]
-          . Hence, it is likely that the CYTH domain proteins
-          participate directly in this biochemical network along
-          with these proteins. One possibility is that the CYTH
-          domains utilize polyphosphates to synthesize different
-          organo-phosphate derivatives including nucleotides.
-          Alternatively, they could also function as
-          phosphoesterases that hydrolyze particular nucleoside
-          polyphosphates. These leads could aid further
-          experimental investigations on the CYTH domain that might
-          help in uncovering ancient, as-yet-unexplored links
-          between polyphosphate and nucleotide metabolism.
-          Finally, at least in some lineages, the CYTH domain
-          proteins may have been secondarily recruited for other
-          functions. The CyaB protein may represent one such case
-          where after the original transfer from an archaeon into
-          the proteobacterial lineage it may have acquire the novel
-          function as an adenylyl cyclase. However, it is entirely
-          possible that even in this case the adenylyl cyclase
-          activity is secondary to some other uncharacterized
-          metabolic activity. The vertebrate soluble thiamine
-          triphosphatase has undergone accelerated divergence, as
-          it is present on a long branch in the phylogenetic tree
-          (Fig. 2). ThTPase is also unusual in lacking the 3
-          rdconserved acidic domain of the CYTH domain. Hence, it
-          may represent a case of relatively recent acquisition of
-          a new catalytic activity.
-        
+        All these receptors, says Zuker, are coexpressed in bitter taste receptor cells, a
+        result that contradicts other research showing that different bitter-responsive cells react
+        to different bitter molecules. ‘To me’, says Zuker, ‘it makes sense that all the bitter
+        receptors would be expressed in each bitter taste cell. We just need to know if something
+        is bitter to avoid death’, not the exact identity of the bitter tastant.
+        The sweet receptor story started in 1999 with the identification of two putative
+        mammalian taste receptors, GPCRs now known as T1R1 and T1R2. In early 2001, four groups
+        reported an association between the mouse 
+        Sac locus, which determines the ability of mice to detect saccharin, and
+        T1R3, a third member of the T1R family. The UCSD–NIDCR team subsequently showed that the
+        T1R2 and T1R3 heterodimer (a complex of one T1R2 and one T1R3 molecule) forms a broadly
+        tuned sweet receptor, responsive to natural sugars and artificial sweeteners, and that a
+        homodimer of two T1R3 molecules forms a low-affinity sugar receptor that responds to high
+        concentrations of natural sugars only. All sweet detection, concludes Zuker, is via the
+        T1R2 and T1R3 receptors.
+        And umami? A truncated glutamate receptor was identified as an umami receptor by
+        researchers at the University of Miami (Florida, United States) School of Medicine in 2000.
+        Zuker, however, believes that the one and only umami receptor is a heterodimer of T1R1 and
+        T1R3. In October 2003, Zuker and his coworkers reported that mice in which either T1R1 or
+        T1R3 has been knocked out show no preference for monosodium glutamate (MSG), an umami
+        tastant. However, other researchers reported in August 2003 that T1R3 knockouts retain some
+        preference for MSG. ‘We believe this is due either to the truncated glutamate receptor or
+        another unknown receptor’, says lead author Sami Damak (Mount Sinai School of Medicine, New
+        York, New York, United States). Damak says he does not know why the two sets of T1R3
+        knockout mice behaved differently, but the UCSD–NIDCR researchers suggest that the residual
+        response to MSG seen by Damak et al. is a response to the sodium content of MSG. Damak is
+        not alone, however, in thinking there may be more than one umami receptor (and additional
+        sweet receptors).
+        Commenting on these recent discoveries, taste expert Linda Bartoshuk (Yale University
+        School of Medicine, New Haven, Connecticut, United States) says that ‘it is lovely to see
+        all these details, especially as they confirm what we already believed conceptually’. For
+        example, she says, it is no surprise that there are many bitter receptors but probably only
+        one sweet receptor. ‘There are so many poisons and it makes perfect sense to have lots of
+        receptors feeding into a common transduction pathway. Sweet is a different problem. In
+        nature, there are many molecules with structures similar to sugar that we must not eat
+        because we cannot metabolise them. So I would have predicted one or at most a few highly
+        specific sweet receptors’.
       
       
-        Conclusions
-        We show that 
-        Aeromonas adenylyl cyclase CyaB and
-        thiamine triphosphatase define a novel superfamily of
-        catalytic domains that act on nucleotides and
-        organo-phosphate substrates. These domains are widely
-        distributed in all the 3 superkingdoms of life and can be
-        traced back to the last ancestor of all life forms. We
-        identify 6 conserved acidic residues, that are likely to
-        form the active site of these enzymes, and 4 conserved
-        basic residues, that may participate in interactions with
-        phosphate-moiety-containing substrates. We postulate that
-        these enzymes are likely to chelate 2 divalent cations and
-        are likely follow a bimetal reaction mechanism similar to
-        what has been proposed for nucleotide cyclases, nucleic
-        acid polymerases, or certain phosphoesterases such as those
-        of the HD and DHH superfamilies. A version of the CYTH
-        domain, which is fused to the catalytic domain of
-        nucleotide kinases, lacks the predicted catalytic residues,
-        and probably function as an allosteric regulatory domain.
-        Additionally, we detected a novel domain, termed CHAD,
-        which occurs fused to the CYTH domain or is encoded by
-        genes occurring in the same operon as those encoding CYTH
-        domains. CHAD contains conserved histidines that are
-        predicted to either chelate metals or serve as
-        phosphoacceptors. Based on phyletic distribution and
-        contextual information, we conclude that these enzymes may
-        play a critical role in the interface between nucleotide
-        and polyphosphate metabolism.
+        What about Salty and Sour Receptors?
+        The salty and sour receptors may be very different from the GPCRs involved in bitter,
+        sweet, and umami perception, which bind complex molecules on the outside of the cell and
+        transmit a signal into the cell. For salty and sour perception, the taste cell only needs
+        to detect simple ions. One way to do this may be to use ion channels—proteins that form a
+        channel through which specific inorganic ions can diffuse. Changes in cellular ion
+        concentrations could then be detected and transmitted to the nervous system.
+        Physiologist John DeSimone (Virginia Commonwealth University, Richmond, Virginia, United
+        States) says there are at least two ion channel receptors for salt in rodent taste receptor
+        cells. The first of these is the epithelial sodium channel, a widely expressed channel that
+        can be blocked specifically with the drug amiloride. In rats, says DeSimone, only 75% of
+        the nerve response to salt can be blocked by amiloride, so there is probably a second
+        receptor. This, he says, seems to be a generalist salt receptor—the amiloride-sensitive
+        channel only responds to sodium chloride—and may be the more important receptor in
+        people.
+        Sour tastants are acids, often found in spoiled or unripe food. DeSimone's current idea
+        is that strong acids enter taste cells through a proton channel (probably a known channel
+        present on other cell types) while weak acids, like acetic acid (vinegar), enter as neutral
+        molecules and then dissociate to lower intracellular pH. DeSimone believes that he has
+        identified the proton channel involved in sour taste as well as an ion channel that could
+        be the second salt receptor, and he plans to do knockout experiments on both. If these
+        channels are essential elsewhere in the body, as DeSimone suspects, to avoid lethality he
+        will need to construct conditional knockouts in which the channel is lost only in the taste
+        receptor cells.
+        Zuker, meanwhile, is not convinced that the current ion channel candidates for salt and
+        sour perception are correct. And, he says, GPCRs could also be involved in these
+        modalities. ‘There is a precedent for that’, he claims, noting that extracellular calcium
+        is sensed by a GPCR.
       
       
-        Methods
-        The non-redundant (NR) database of protein sequences
-        (National Center for Biotechnology Information, NIH,
-        Bethesda) was searched using the BLASTP and PSI-BLAST
-        programs [ 18 ] . Profile searches using the PSI-BLAST
-        program were conducted either with a single sequence or an
-        alignment used as the query, with a profile inclusion
-        expectation (E) value threshold of 0.01 and were iterated
-        until convergence. Additionally, hidden Markov model based
-        searches using a multiple alignment of known members were
-        run using the HMMER2 package [ 36 ] . The Gibbs sampling
-        procedure, as implemented in the MACAW program was used to
-        detect and evaluate statistically significant conserved
-        motifs [ 37 ] . Multiple alignments were constructed using
-        the T_Coffee program [ 38 ] , followed by manual correction
-        based on the PSI-BLAST results. Protein secondary structure
-        was predicted using a multiple alignment as the input for
-        the JPRED and PHD programs [ 39 40 ] . Preliminary
-        clustering of proteins was done using the BLASTCLUST
-        program with empirically determined length and score
-        threshold cut off values (For documentation see
-        ftp://ftp.ncbi.nih.gov/blast/documents/README.bcl).
-        Phylogenetic analysis was performed using the neighbor
-        joining or least square method followed by local
-        rearrangements using the maximum likelihood algorithm to
-        predict the most likely tree. The robustness of tree
-        topology was assessed with 10,000 Resampling of Estimated
-        Log Likelihoods (RELL) bootstrap replicates. The MOLPHY and
-        Phylip software packages were used for phylogenetic
-        analyses [ 41 42 ] .
-        The species abbreviations used in the alignments are:
-        Aehy: 
-        Aeromonas hydrophila , Af: 
-        Archaeoglobus fulgidus , Aga: 
-        Anopheles gambiae , Ana: 
-        Anabaena sp. PCC 7120, Ap: 
-        Aeropyrum pernix , At: 
-        Arabidopsis thaliana , Atu: 
-        Agrobacterium tumefaciens , Ban: 
-        Bacillus anthracis , Bb: 
-        Borrelia burgdorferi , Bha: 
-        Bacillus halodurans , BPRB49:
-        Bacteriophage RB49, Bs: 
-        Bacillus subtilis , Cac: 
-        Clostridium acetobutylicum , Cau: 
-        Chloroflexus aurantiacus , Ccr: 
-        Caulobacter crescentus , Ce: 
-        Caenorhabditis elegans , Chte: 
-        Chlorobium tepidum , Cgl: 
-        Corynebacterium glutamicum , Cpe: 
-        Clostridium perfringens , Ddi: 
-        Dictyostelium discoideum , Dm: 
-        Drosophila melanogaster , Ec: 
-        Escherichia coli , Gme: 
-        Geobacter metallireducens , Hi: 
-        Haemophilus influenzae , Hs: 
-        Homo sapiens , Hsp: 
-        Halobacterium sp., Lin: 
-        Listeria innocua , Lla: 
-        Lactococcus lactis , Lmo: 
-        Listeria monocytogenes , Mac: 
-        Methanosarcina acetivorans , Mcsp: 
-        Magnetococcus sp. Mfas: 
-        Macaca fascicularis , Mjan: 
-        Methanococcus jannaschii , Mka: 
-        Methanopyrus kandleri , Mlo: 
-        Mesorhizobium loti , Mma: 
-        Methanosarcina mazei , Mta: 
-        Methanothermobacter
-        thermautotrophicus , Mtu: 
-        Mycobacterium tuberculosis , Nm: 
-        Neisseria meningitidis , Oih: 
-        Oceanobacillus iheyensis , Osa: 
-        Oryza sativa , Pa: 
-        Pyrococcus abyssi , Pae: 
-        Pseudomonas aeruginosa , Pfu: 
-        Pyrococcus furiosus , Ph: 
-        Pyrococcus horikoshii , Pmar: 
-        Prochlorococcus marinus , Pmu: 
-        Pasteurella multocida , Pyae: 
-        Pyrobaculum aerophilum , Rsol: 
-        Ralstonia solanacearum , Sa: 
-        Staphylococcus aureus , Scoe: 
-        Streptomyces coelicolor , Sen: 
-        Salmonella enterica , Sme: 
-        Sinorhizobium meliloti , Spn: 
-        Streptococcus pneumoniae , Spy: 
-        Streptococcus pyogenes , Sso: 
-        Sulfolobus solfataricus , Ssp: 
-        Synechocystis sp. PCC 6803, Sst: 
-        Sulfolobus tokodaii , StLT2: 
-        Salmonella typhimurium LT2, Vch: 
-        Vibrio cholerae , Xaxo: 
-        Xanthomonas axonopodis , Xca: 
-        Xanthomonas campestris , Xfa: 
-        Xylella fastidiosa , Ype: 
-        Yersinia pestis .
+        Taste-Coding
+        With many taste receptors now identified, researchers are turning to a long-standing
+        question in taste perception: how is taste coded? When we eat, our tongue is bombarded with
+        tastants. How is their detection and transduction of information organised so that the
+        appropriate response is elicited? Taste physiologist Sue Kinnamon (Colorado State
+        University, Fort Collins, Colorado, United States) explains the two theories of
+        taste-coding. In the ‘labelled-line’ model, sweet-sensitive cells, for example, are hooked
+        up to sweet-sensitive nerve fibres that go to the brain and code sweet. If you stimulate
+        that pathway, says Kinnamon, ‘you should elicit the appropriate behavioural response
+        without any input from other cell types’. In the ‘cross-fibre’ model, the pattern of
+        activity over many receptors codes taste. This model predicts that taste receptor cells are
+        broadly tuned, responding to many tastants. Support for this theory, says Kinnamon, comes
+        from electrical recordings from receptor cells and from nerves innervating the taste buds
+        that show that one cell can respond to more than one taste quality.
+        Zuker and Ryba's recent work strongly suggests that taste-coding for bitter, sweet, and
+        umami fits the labelled-line model in the periphery of the taste system. Their expression
+        data show that receptors for these qualities are expressed in distinct populations of taste
+        cells. In addition, in early 2003, they reported that, as in other sensory systems, a
+        single signalling pathway involving the ion channel TRPM5 and PLCβ2, a phospholipase that
+        produces a TRPM5 activator, lies downstream of the bitter, sweet, and umami receptors. When
+        the UCSD–NIDCR researchers took PLCβ2 knockout mice, which did not respond to bitter,
+        sweet, or umami, and engineered them so that PLCβ2 was only expressed in bitter
+        receptor-expressing cells, only the ability to respond to bitter tastants was regained.
+        These data, says Zuker, support the labelled-line model.
+        The latest data supporting the labelled-line model came last October when Zuker and
+        colleagues described mice in which a non-taste receptor—a modified κ-opioid receptor that
+        can only be activated by a synthetic ligand—was expressed only in cells expressing T1R2,
+        sweet-responsive cells. The mice were attracted to the synthetic ligand, which they
+        normally ignore, indicating that dedicated pathways mediate attractive behaviours. The
+        researchers plan similar experiments to see whether the same is true for aversive
+        behaviours.
+        Even with all these molecular data, the cross-fibre model of taste-coding still has its
+        supporters—just how many depends on whom one talks to. Both Damak and Kinnamon, for
+        example, believe that there is at least some involvement of cross-fibre patterning even in
+        the taste receptor cells. But, says neurobiologist and olfaction expert Lawrence C. Katz
+        (Duke University, Durham, North Carolina, United States), ‘the onus is now on people who
+        believe otherwise [than the labelled-line model] to provide compelling proof for the
+        cross-fibre theory because now, at least at the periphery, the evidence is compelling for a
+        labelled line for bitter, sweet, and umami’. Bartoshuk also says the debate is decided in
+        favour of the labelled-line model in the periphery. The crossfibre model is an interesting
+        historical footnote, she comments.
+        Whether this putative link between taste perception and health can be confirmed and
+        whether it will be possible to manipulate food preferences to improve health remain to be
+        seen. However, it seems certain that, as in the past five years, the next five years will
+        see large advances in our knowledge of many aspects of taste, a fascinating and important
+        sensory system.
       
       
-        Authors' contributions
-        Author 1 (LMI) contributed to the discovery process,
-        preparation of the multiple sequence alignments and
-        figures, Author 2 (LA) contributed to the discovery
-        process, preparation of the figures and manuscript and
-        conceived the study. All authors read and approved the
-        final manuscript.
+        What Next—and Why Study Taste Anyway?
+        The periphery of the taste sensory system has yielded many of its secrets, but
+        relatively little is known about the transduction pathways in taste, how taste cells talk
+        to the nervous system, or about events further downstream in the brain. How are signals
+        from taste receptors integrated with those from olfactory receptors to form a
+        representation of complex food flavours, for example? With their expanding molecular
+        toolbox, researchers can now delve deeper into these aspects of taste perception. This may
+        tell us not only about taste but about how the nervous system in general is put together,
+        says Ryba.
+        But understanding taste is not just an academic exercise. It has practical uses too.
+        DeSimone suggests that by understanding salt receptors, it may be possible to design
+        artificial ligands to help people lower their salt intake. As Kinnamon succinctly puts it,
+        ‘Can you imagine eating potato chips and not having the salty component?’ An artificial
+        salt receptor ligand could make salt-free foods a palatable option for people with high
+        blood pressure. Lindemann also sees a great future in artificial ligands for taste
+        receptors. The sense of taste is partly lost in elderly people, he says, so better
+        tastants—effectively ‘chemical spectacles’—might give them back their pleasure of eating
+        and thereby improve their quality of life.
+        Finally, some aspects of taste may be inextricably tied up with general health, says
+        Bartoshuk. Many people who can taste propylthiouracil are also ‘supertasters’—they have
+        more fungiform papillae, structures containing taste buds, on their tongues than
+        non-tasters (Figure 2). Supertasters find vegetables bitter—particularly brassicas, like
+        Brussel sprouts—so they tend to eat fewer vegetables as part of their regular diet than
+        non-tasters. ‘Being a supertaster affects your taste preferences, your diet, and ultimately
+        your health’, claims Bartoshuk.
       
     
   

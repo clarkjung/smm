@@ -7,7 +7,7 @@ public class TermEntity {
 	
 	public TermEntity(String term){
 		this.term = term;
-		frequency = 1;
+		frequency = 0;
 	}
 	
 	public void increase(){

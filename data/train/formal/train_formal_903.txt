@@ -2,368 +2,483 @@
   
     
       
-        Background
-        Follicle stimulating hormone (FSH) regulates
-        spermatogenesis through the somatic Sertoli cells of the
-        testis [ 1 ] . Sertoli cells act as "nursing" cells and
-        supplies germ cells with energy and controls the
-        biochemical environment in which they develop [ 2 ] . Among
-        the FSH-regulated functions are increased glucose uptake
-        and oxidation. In response to glucose, transcription of
-        several glycolytic and lipogenic genes are activated
-        through the glucose/carbohydrate/insulin response element
-        (GIRE, ChoRE or IRE) [ 3 4 ] . Upstream stimulatory factors
-        (USF) 1 and 2 are characterized by a basic/helix loop
-        helix/leucine zipper domain responsible for dimerization
-        and DNA binding, and are major components of the GIRE
-        complex [ 5 6 7 8 ] .
-        The main USF isoforms USF1 (43 kDa) and USF2 (44 kDa)
-        are ubiquitously expressed and encoded by separate genes [
-        9 10 11 ] . In addition, more isoforms of USF2 are produced
-        due to alternative splicing and utilization of different
-        translation start sites [ 12 13 ] . USF factors exist as
-        homo and heterodimers, and the heterodimer of USF1/USF2a
-        seems to dominate, although there are cell-type specific
-        variations [ 12 ] . USF1 and USF2 show different
-        transactivating potential, and USF2 appears to be the
-        functional transactivator of the GIRE complex, although
-        both USF1 and USF2 are important for sustained
-        dietary-induced expression of the fatty acid synthase gene
-        in liver [ 14 ] .
-        USF isoforms are important for expression of several
-        genes involved in Sertoli cell growth and differentiation.
-        Among genes that are stimulated by FSH/cAMP during the
-        period of maturation of Sertoli cells (15 to 20 days of age
-        in rats), are several subunits of cAMP-dependent protein
-        kinase (PKA), the serine/threonine kinase mainly
-        responsible for the downstream effects of FSH [ 15 ] .
-        Expression of the RIIβ regulatory subunit of cAMP-dependent
-        protein kinase is highly induced (50-fold) at the mRNA
-        level in primary cultures of rat Sertoli cells as a late
-        response to cAMP peaking at 12 hours [ 16 ] . We have
-        demonstrated that expression of CAAT/Enhancer binding
-        protein β (C/EBPβ) is induced by cAMP with rapid kinetics
-        in Sertoli cells, and that C/EBPβ is responsible for
-        induction of late response genes like the RIIβ-gene [ 17 ]
-        . The RIIβ promoter contains a conserved E-box/HLH element
-        in the basal promoter localized at -280 to -275 relative to
-        the functional ATG [ 18 ] . This element is shown to be
-        important for cAMP-responsiveness in granulosa cells, and
-        it has been shown to bind both USF and Myc in CHO and NB2a
-        cells [ 18 19 ] . In this work, we show that USF isoforms
-        may regulate cAMP responsiveness of the RIIβ promoter by
-        modulating the effect of C/EBP, and that the formation of
-        USF isoforms may be regulated by cAMP in Sertoli cells.
-      
-      
-        Results
-        
-          USF complexes are formed on the RIIβ
-          promoter
-          A specific complex that formed a Dnase I footprint
-          (-306 to -265) in the cAMP-responsive region of the RIIβ
-          promoter in granulosa cells [ 18 ] , covers a consensus
-          E-box (CACGTG) known to bind helix-loop-helix (bHLH)
-          transcription factors. Electrophoretic mobility shift
-          assay (EMSA) with extracts from Sertoli cells
-          demonstrated specific binding to the conserved element
-          using the footprinted region as probe [ 20 ] . When
-          incubated with proteins from Sertoli cell nuclear
-          extracts at least five complexes were formed (Fig. 1,
-          complex I to V). We found that USF2 antibody shifted
-          complex I and III (Fig. 1lanes 3 and 4), whereas complex
-          II and IV were completely shifted with USF1 antibody,
-          suggesting that the USF complexes contained homodimers.
-          Complex V was not shifted by antibodies directed against
-          N-terminal parts of USF1 or USF2, but with antibodies
-          directed against the C-terminal DNA-binding region of
-          USF2 (Fig. 1lane 3). Thus, this complex contained
-          truncated USF2. A small shift in mobility of this complex
-          was observed in extracts prepared from Sertoli cells
-          treated with 8-CPT-cAMP for 6 h (data not shown).
-          Experiments using various protease inhibitors indicated
-          that the changes in complex mobility were due to
-          inhibitory effects of PKA on the protease calpain. The
-          truncated USF complexes forming complexes III to IV were
-          abolished in the presence of calpain inhibitor I (ALLN)
-          (unpublished results).
-        
-        
-          A 31-kDa USF1 isoform is induced by cAMP
-          In order to study the existence of different variants
-          of USF expressed under stimulated and basal conditions,
-          we performed immunoblotting experiments with antibodies
-          against C-terminal regions of USF1 and USF2. For USF1, we
-          observed that a new immunoreactive protein of about 31
-          kDa was formed only in nuclear extracts from
-          cAMP-stimulated Sertoli cells (Fig. 2A). This isoform was
-          not soluble, but associated with a 1% Triton extractable
-          fraction (not shown). In contrast, we found no
-          significant changes in USF2 protein levels or mobility
-          following stimulation by cAMP (Fig. 2B). Other truncated
-          USF1 or USF2 isoforms could not be detected in this
-          assay, which may indicate that the levels of isoforms
-          forming complex V (Fig. 1) are very low relative to the
-          full-length protein. We were not able to relate the
-          appearance of the novel 31 kDa USF1 isoform to changes in
-          USF complex formation in EMSA. Formation of the truncated
-          USF1 isoform in cAMP-treated cells was not affected by
-          addition of calpain inhibitor (unpublished results).
-        
-        
-          USF2 inhibits cAMP-mediated induction of the RIIβ
-          promoter
-          We investigated the function of USF isoforms in
-          regulation of the RIIβ promoter, using a CAT reporter
-          containing the basal RIIβ promoter including the
-          consensus E-box (Fig. 3A) and expression vectors for
-          USF1, USF2a and USF2b isoforms. We found that none of the
-          USF isoforms affected basal transcription from the RIIβ
-          promoter (not shown) whereas both splice variants of USF2
-          (a and b) reduced cAMP-stimulated levels of reporter
-          expression to 25%. USF1, however, had no inhibitory
-          effect on the cAMP-mediated induction of RIIβ. Fig.
-          3Bshows a dose-dependent reduction of cAMP responsiveness
-          with increasing amounts of USF2a expression vector with a
-          50% reduction in reporter activity at 75 ng of USF2a
-          vector and a 75% inhibition at 750 ng of USF2a
-          vector.
-        
-        
-          USF2 inhibits C/EBP-mediated induction of the RIIβ
-          promoter
-          We have previously reported that some of the late
-          induction of RIIβ by cAMP depends on the rapid
-          cAMP-mediated increase in C/EBPβ expression [ 17 ] . To
-          test the effect of different USF isoforms on
-          C/EBPβ-mediated induction of the RIIβ promoter, we
-          transfected combinations of the transcription factors
-          (Fig. 4). As previously reported, the full-length
-          LAP-form of C/EBPβ induced the RIIβ promoter 5-6-fold,
-          whereas the C/EBPβ LIP-form lacking the transactivating
-          region had no effect. Co-transfecting USF1 had no
-          significant effect on C/EBPβ-mediated induction, but
-          USF2a (1:1, USF2a:C/EBPβ expression vectors) reduced
-          induction by 60%, indicating that USF2a may interrupt the
-          ability of C/EBPβ to transactivate the RIIβ promoter.
-        
-      
-      
-        Discussion
-        The promoters of several genes induced by FSH in Sertoli
-        cells and granulosa cells, including c-Fos, transferrin,
-        follicle stimulating hormone receptor, SF-1 genes and the
-        RIIβ gene, contain functional E-box elements [ 21 22 23 24
-        ] . We found that several USF complexes containing
-        full-length USF1 and USF2 as well as truncated versions,
-        are formed at the consensus E-box/HLH-binding element in
-        the RIIβ promoter in Sertoli cell nuclear extracts.
-        USF1 and USF2 display identical dimerization and DNA
-        binding domains, but the transactivating regions differ [
-        25 ] . USF1 and USF2 obviously serve different, yet
-        overlapping functions, and regulating the relative
-        USF1/USF2 levels may be decisive for the pattern of
-        USF-mediated gene expression, which has been shown in
-        studies of USF knockout mice. The USF2 -/- mouse has
-        obvious growth defects and reduced fertility [ 25 ] ,
-        whereas the USF1-deficient mice are viable and fertile with
-        minor behavioural disturbances. A severe delay in
-        glucose-mediated regulation of the GIRE-containing fatty
-        acid synthase (FAS) gene is found in both USF-deficient
-        mice, although insulin response was unaltered, indicating
-        that the USF1/USF2 heterodimer is implicated in FAS
-        expression [ 14 ] .
-        We have previously shown that C/EBPβ functions as a
-        secondary effector of cAMP signaling on slow response genes
-        in Sertoli cells, including RIIβ [ 17 ] . Both C/EBP and
-        the RIIβ E-box is shown be involved in cAMP responsiveness
-        of the RIIβ gene [ 17 18 ] .
-        Our present results indicate that USF2 disturbs this
-        C/EBPβ-mediated transactivation of RIIβ. No consensus
-        C/EBPβ binding site is found in the promoter construct
-        responsive to cAMP and C/EBPβ, but a possibility exists
-        that C/EBPβ attach to the RIIβ promoter through
-        protein/protein interactions with USF1 or other members of
-        the transcriptional unit formed at the E-box. C/EBP is
-        previously reported to be an important accessory factor for
-        transactivation by several other transcription factors [ 26
-        ] . C/EBPβ was shown to transactivate the α1-acid
-        glycoprotein gene promoter even when mutated in the
-        DNA-binding domain, and this activation appeared to depend
-        on protein-protein interaction with glucocorticoid receptor
-        through the leucine zipper region [ 27 ] . Recently, a
-        conserved domain in C/EBPα and C/EBPβ was shown to mediate
-        cAMP responsiveness, strengthening the fact that C/EBP may
-        be characterized as a cAMP-responsive nuclear regulator [
-        28 29 ] . On the COX-2 promoter in granulosa cells,
-        cAMP-mediated regulation was shown to be mediated primarily
-        by an E-box that bind USF1 and USF2 isoforms in a manner
-        resembling the RIIβ E-box in Sertoli cells [ 30 ] .
-        Transactivation of the COX-2 gene in skin carcinoma cells
-        is highly dependent on this E-box together with a C/EBP
-        binding site that bind C/EBPβ and C/EBPδ [ 31 ] . These
-        data strengthens a model of formation of a cAMP-responsive
-        unit (CRU) containing USF and C/EBP. We propose a model of
-        interaction between USF and C/EBPβ by which USF2 inhibits
-        the cAMP responsiveness of C/EBPβ, either through
-        interacting with the domain mediating the cAMP
-        responsiveness or by competing with USF1.
-        The cAMP-regulated formation of a 31-kDa USF1 isoform
-        may also play a role in formation of the RIIβ CRU. This
-        truncated USF1 isoform may result from proteolytic cleavage
-        or may be a novel splice variant. In granulosa cells, it
-        has previously been shown that the level of N-terminally
-        truncated USF2 is regulated by cAMP. Binding of truncated
-        USF2 to a HLH element in the prostaglandin G/H synthase 2
-        (PGHS-2) promoter was abolished in extracts from cells
-        stimulated by human chorionic gonadotrophin (hCG) which
-        signals through cAMP [ 32 ] .
-        Other reports have suggested a role for USF in
-        inhibition of transcriptional activation mediated by other
-        transcription factors. An inhibitory effect of USF on
-        Myc-mediated cellular proliferation has been demonstrated
-        in HeLa cells [ 33 ] , and a non-canonical HLH element
-        inhibits expression of the fibroblast growth factor binding
-        protein (FGF-BP) in several carcinoma cells [ 34 ] .
-        Furthermore, USF2 inhibits binding of hypoxia-inducible
-        factor-1 (HIF-1) to the plasminogen activator inhibitor -1
-        (PAI-1) gene in hepatocytes in order to disturb
-        transcriptional activation [ 35 ] . Our results add
-        C/EBPβ-mediated activation of RIIβ to the mechanisms
-        inhibited by USF. An opposite role of USF and C/EBP could
-        also be explained by the counteracting effects these
-        transcription factors have on glucose metabolism. Whereas
-        USF induces expression of enzymes involved in glycolysis,
-        C/EBPβ regulates gluconeogenesis mainly by activating
-        phosphoenolpyruvate carboxykinase (PEPCK) [ 36 37 ] .
-        It has recently been reported that USF is implicated in
-        transcriptional activation of the 1a promoter of the RIα
-        gene in skeletal muscle cells [ 38 ] . Regulating the
-        relative levels of RIα versus RIIβ is physiologically
-        important eg. in lipid metabolism [ 39 40 ] , and a
-        possible function of USF in tuning RIα/RIIβ ratio by
-        activating RIα transcription and inhibiting RIIβ
-        transcription is an interesting target of further
-        investigation.
-      
-      
-        Conclusions
-        1. USF1 and USF2, as well as truncated USF isoforms,
-        bind to a consensus E-box in the RIIβ promoter in Sertoli
-        cells.
-        2. Cyclic AMP induces expression of a novel 31-kDa USF1
-        isoform.
-        3. Overexpression of USF2, but not USF1, inhibits
-        cAMP-mediated and C/EBPβ-mediated induction of the RIIβ
-        promoter.
+        Introduction
+        Rheumatoid arthritis (RA) is a chronic inflammatory
+        disease of the synovial joints, which can result in
+        articular cartilage and bone destruction, leading to
+        significant disability. Central pathophysiological features
+        of the disease occur in the synovium, with thickening of
+        the lining layer (or intima) and infiltration of the
+        sublining layer, mainly by macrophages and lymphocytes [ 1
+        ] . In addition, the fluid-filled joint cavity contains
+        numerous neutrophils, particularly during acute flares of
+        RA [ 2 ] .
+        The normal intima of the synovium is one to two cells
+        thick and consists mainly of macrophage-like and
+        fibroblast-like cells [ 3 ] . In inflammation, macrophages
+        make a large contribution to intimal thickening, where
+        these cells increase in number and proportion [ 3 ] .
+        Evidence indicates that intimal macrophages arrive via the
+        circulation as monocytes [ 4 ] , and it is proposed that
+        increased numbers of intimal macrophages in RA are largely
+        attributed to enhanced monocyte recruitment from blood
+        vessels in the synovium [ 1 5 ] . Neutrophils are also
+        recruited in RA and can be found in abundance in synovial
+        fluid, yet they occur in relatively low numbers in the
+        synovium [ 5 ] . In synovial fluid their number can reach
+        10 6per joint, particularly during an active phase of the
+        disease [ 6 ] . Neutrophils occur at the pannus-cartilage
+        junction [ 7 ] and it is presumed that these cells reach
+        the joint cavity by migrating from the blood vessels in the
+        synovium, following a chemotactic gradient.
+        Chemokines are a family of proinflammatory cytokines,
+        which are strongly implicated in inducing migration of
+        leukocytes from the blood into inflammatory lesions.
+        Evidence has accumulated to suggest that chemokines, such
+        as CXCL8 (IL-8), CXCL5 (epithelial cell-derived
+        neutrophil-activating protein), CCL2 (monocyte
+        chemoattractant protein-1), CCL3 (macrophage inflammatory
+        protein-1α) and CCL5 (RANTES), direct the migration of
+        leukocytes into the RA synovium and joint fluid [ 8 ] .
+        Chemokines occur in significantly elevated levels in human
+        RA synovial fluid, where they are biologically active, and
+        are expressed by cells of the synovium and cartilage.
+        Tumour necrosis factor-α blockade reduces synovial
+        expression of CCL2 and CXCL8 and reduces inflammatory cell
+        migration into RA joints [ 9 ] . In addition, these
+        chemokines, produced by RA synovial stromal cells, have
+        been shown to stimulate monocyte migration [ 10 ] . The
+        functional importance of chemokines in joint inflammation
+        has also been established in animal models of RA where
+        antibodies to these mediators significantly reduce both the
+        number of leukocytes recruited and the severity of disease.
+        In addition, administration of chemokines to the joints of
+        animal models results in inflammation and leukocyte
+        recruitment.
+        The biological effects of chemokines are mediated by
+        binding to G-protein-coupled, seven transmembrane domain,
+        chemokine receptors [ 11 ] . CC receptors (CCR) bind
+        members of the class of chemokines with two adjacent
+        cysteine (C) residues near the NH 
+        2 -terminus (CC; e.g. CCL2, CCL3 and
+        CCL5) and CXC receptors (CXCR) bind members of the class of
+        chemokines with C separated by an amino acid defined as X
+        (CXC; e.g. CXCL5 and CXCL8). There have been some reports
+        on the expression of such receptors on T cells in synovial
+        tissue and fluid [ 12 13 14 15 16 ] . Little is known about
+        the expression of chemokine receptors on phagocytes in the
+        human RA synovium. One recent study has shown the protein
+        expression of several chemokine receptors on
+        monocytes/macrophages in RA blood, synovium and synovial
+        fluid [ 17 ] . The aim of the present study, therefore, was
+        to examine the expression of 
+        in situ chemokine binding sites on
+        macrophages and neutrophils that could mediate the
+        migration of these cells into the inflamed synovium.
       
       
         Materials and methods
         
-          Antibodies
-          USF antibodies specific for USF1 amino acids 83 to 157
-          (USF1N), USF2a amino acids 1 to 49 (USF2N) and USF2a/b
-          amino acids 298 to 346 (USF2C) [ 12 ] .
+          Tissue source
+          Tissue samples were obtained from patients with RA ( 
+          n = 6) who fulfilled the American
+          Rheumatism Association criteria for RA (Supplementary
+          Table 1). Synovia were taken from these subjects at total
+          knee replacement (patients 1, 3-5) or knee synovectomy
+          operations (patients 2 and 6). Non-RA patients ( 
+          n = 6) had knee joint symptoms for
+          suspected articular cartilage, meniscal or anterior
+          cruciate ligament damage (patients 7-12). Knee joint
+          synovial biopsies were obtained from these non-RA
+          individuals, with informed consent, at arthroscopy. For
+          RA and non-RA patients, samples were taken from the
+          suprapatel-lar pouch and medial gutter, which is reported
+          to provide representative sampling of synovial membrane
+          pathology [ 18 ] .
         
         
-          Preparation and stimulation of cell cultures
-          Primary cultures of rat Sertoli cells were made from
-          testes of 19 days old Sprague-Dawley rats (B&K
-          Universal AS, Nittedal, Norway) according to the method
-          of Dorrington 
-          et al. with some modifications [ 41
-          ] . Culturing and transfections were performed as
-          described elsewhere [ 42 ] . Two days after
-          transfections, the medium was changed, and incubation was
-          continued in the presence or absence of 100 μM
-          8-(4-chlorophenyl)thio-cAMP (8-CPT-cAMP) (Sigma, St
-          Louis, MO).
+          In situbinding autoradiography
+          The method of Hub and Rot [ 19 ] was followed, with
+          minor modifications (see Supplementary Material).
         
         
-          Preparation of nuclear extracts
-          Nuclear extract from Sertoli cells (12 × 10 6) were
-          prepared by solubilization of nuclei in 0.4 M NaCl as
-          described previously [ 17 ] .
-        
-        
-          DNA-Protein complex analysis
-          Electrophoretic mobility shift assays (EMSAs) were
-          performed using a double stranded [ 32P]-end-labeled
-          oligonucleotide covering the consensus E-box/HLH element
-          (underlined) and flanking sequences from the RIIβ
-          promoter (-305, 5'-GATCGCCGGGTTGCCATGGTTT CCGGGGAT
-          CACGTGGGCGCGCGG-3', -268). For each reaction, 5 × 10 3cpm
-          of labeled probe was incubated with 5 μg of crude nuclear
-          proteins from Sertoli cells and 1.0 μg of poly dI:dC in a
-          buffer containing 5 mM Hepes pH 7.9, 26 % glycerol, 0.2
-          mM EDTA, 0.5 mM DTT, 0.5 mM PMSF, 150 mM KCl and 5 mM
-          MgCl at room temperature for 15 min. Supershift
-          experiments were performed by incubation of nuclear
-          extract/DNA with 2 μl USF antibodies for 30 min at 4°C.
-          Samples were run in 6 % non-denaturing polyacrylamide
-          gels at 120-150 V in Tris-glycine buffer (50 mM Tris pH
-          8.5, 380 mM glycine, 2 mM EDTA) for 3 to 5 h at 4°C.
-          Subsequently, gels were dried and subjected to
+          Identification of macrophages and
+          neutrophils
+          Representative sections of synovia that had been
+          incubated with 125I-labeled chemokines were immunostained
+          for CD68 as a marker for macrophages. Slides were
+          deparafinized, rehydrated and treated with 1% pronase for
+          seven minutes at room temperature. Following blocking of
+          endogenous peroxidase, sections were treated with normal
+          horse serum and incubated with 2.5 μg/ml anti-CD68
+          monoclonal antibody (PG-M1, Dako A/S, Glostrup, Denmark)
+          in PBS/normal horse serum. The bound antibody was
+          detected using biotinylated second antibody,
+          avidin-peroxidase conjugate and diaminobenzidine
+          substrate (Vectastain ABC Elite Kit; Vector Labs,
+          Burlingame, USA). Slides were then coated with emulsion,
+          exposed, developed and stained in haematoxylin, as for 
+          in situ binding
           autoradiography.
+          Neutrophils were identified by their characteristic
+          multi-lobed nuclei in haematoxylin and eosin stained
+          sections.
         
         
-          Immunoblotting
-          20 μg of nuclear extract from Sertoli cell were loaded
-          in 10% SDS PAGE gels and immunoblotting was performed as
-          previously described [ 42 ] . Equal loading was
-          determined by coomassie staining.
+          Immunohistochemistry of CXCR1 and CXCR2
+          Synovial samples that had been examined for chemokine
+          binding were also sectioned and incubated with rabbit
+          polyclonal antibodies to the carboxy termini of CXCR1 and
+          CXCR2 (both from Santa Cruz Biotechnology, Santa Cruz,
+          USA) [ 20 ] . Antibody binding was detected using an
+          immunoperoxidase method (Vectastain ABC Elite Kit; Vector
+          Labs, Burlingame, USA). See Supplementary Material for
+          more detailed methods.
         
         
-          Plasmids
-          A reporter construct containing the basal promoter of
-          the rat RIIβ 5'-flanking region (-394 to -123) upstream
-          of a CAT-reporter gene (pCATbasic; Promega, Madison, WI)
-          was used for assaying RIIβ promoter activity [ 18 ] .
-          Expression vectors for USF1, USF2a and USF2b inserted 3'
-          of the CMV promoter in pCR™3 (Invitrogen, Groningen, The
-          Netherlands) were used to overexpress USF isoforms [ 12 ]
-          . C/EBPβ LAP (full-length) and LIP (DNA-binding domain)
-          expression vectors created in pCMV™3 (Stratagene, La
-          Jolla, CA) were appreciated gifts from Dr. Shizua Akira
-          (Hyogo College of Medicine, Hyogo, Japan). The luciferase
-          expression vector pGL3 Control (0.25 μg) (Promega,
-          Madison, WI) was used as an internal marker for
-          transfection efficiency.
-        
-        
-          Transfections, Luciferase- and CAT-assays
-          After 2 days of culture in serum free medium,
-          lipofectamine-mediated transfections of primary cultures
-          of rat Sertoli cells were performed (2 μg DNA per well in
-          6-well plates) and assayed as described by Grønning et al
-          [ 17 ] .
+          Quantitation of synovial sections
+          See Supplementary Material.
         
       
       
-        List of abbreviations
-        C; catalytic subunit, cAMP; cyclic adenosine
-        monophosphate, CAT; chloramphenicol acetyl transferase,
-        C/EBP; CAAT/enhancer binding protein, ChoRE; carbohydrate
-        response element, CMV; cytalomega virus, 8-CPT-cAMP;
-        8-(4-chlorophenyl)thio-cAMP, CREB; cAMP-response element
-        binding protein, EMSA; electrophoretic mobility shift
-        assay, FAS; fatty acid synthase, FSH; follicle stimulating
-        hormone, GIRE; glucose/insulin response element, hCG; human
-        chorionic gonadotrophin, HLH; helix-loop-helix, IRE;
-        insulin response element, MHC; major histocompability
-        complex, PGHS; prostaglandin G/H synthase, PKA;
-        cAMP-dependent protein kinase, R; regulatory subunit, USF;
-        upstream stimulating factor, WB; Western blot.
+        Results
+        
+          Tissue sampling
+          In all six RA subjects the histological appearance of
+          synovia showed classic inflammatory pathology with
+          mononuclear cell infiltrates and a thickened intimal
+          layer. In two of these individuals a minority of synovial
+          samples also showed microscopically normal regions with
+          minimal infiltration of inflammatory cells and an intimal
+          layer of normal thickness (one to two cells thick). The
+          synovia of the six non-RA patients showed inflamed and
+          noninflamed regions. These inflamed regions displayed
+          intimal layer thickening and some infiltration of
+          mononuclear cells, although not as severe as in RA
+          samples, and noninflamed sites showed a normal intimal
+          layer and no leukocyte infiltrates.
+        
+        
+          Chemokine binding to macrophages
+          To examine 
+          in situ binding of chemokines,
+          synovia were treated with 125I-CXCL8, 125I-CCL2,
+          125I-CCL3 and 125I-CCL5 followed by autoradiogaphy. For
+          direct comparison, each chemokine was added at the same
+          specific radioactivity and concentration, and
+          autoradiography was performed for an identical exposure
+          time. All four chemokines bound to synovial tissue cells
+          in the subintima and the intima in every RA and non-RA
+          individual (Supplementary Fig. 1afor CCL5). Radiolabelled
+          chemokine binding was absent in synovia treated with
+          1000-fold excess homologous non-radiolabelled chemokine,
+          indicating that the binding sites were specific
+          (Supplementary Fig. 1b). Histological examination
+          indicated that macrophages accounted for a high
+          proportion of the chemokine binding, so to confirm this
+          observation, representative sections were immunostained
+          with CD68 as a marker of monocytes/macrophages, then
+          processed for autoradiogaphy. All four chemokines bound
+          to CD68 +cells in the subintima in every RA and non-RA
+          synovial sample. No major differences in chemokine
+          binding were apparent between the six RA patients,
+          despite variation in disease duration and drug treatment
+          (Supplementary Table 1). The positive cells were located
+          close to blood vessels in leukocyte infiltrates and non
+          infiltrated sites, and in more remote sites within the
+          subintimal stroma (Fig. 1). In addition CD68 +macrophages
+          bound all four chemokines in the intimal layer of
+          inflamed (Fig. 1) and noninflamed samples. In control
+          experiments there was no immunostaining when
+          isotype-matched control mouse IgG was used instead of the
+          anti-CD68 antibody.
+        
+        
+          Quantitation of intimal binding
+          The number of intimal cells that bound chemokines were
+          counted and the results for RA and non-RA patients were
+          expressed as means (Table 1). There was a significant
+          increase of chemokine-positive cells in inflamed intima
+          compared to noninflamed intima, for both RA and non-RA
+          synovia. The number of positive cells varied between
+          chemokines and in RA tissue the rank order was, CCL3 >
+          CCL5 > CCL2 > CXCL8. In non-RA tissue the order
+          was, CCL3 > CCL5 > CXCL8 > CCL2. The number of
+          CCL3 and CCL5 positive intimal cells did not differ
+          between RA and non-RA tissue. However, the number of
+          intimal cells binding CCL2 in RA was greater than non-RA
+          synovium. In addition, there were more cells binding
+          CXCL8 in inflamed, non-RA intima compared to inflamed RA
+          tissue.
+          Data were also expressed as the percentage of intimal
+          cells binding chemokines (Supplementary Table 2). Similar
+          results to data expressed as the number of cells binding
+          chemokines were obtained (Table 1and Supplementary Table
+          2). In both RA and non-RA synovia there was a
+          significantly higher percentage of positive cells in
+          inflamed compared to noninflamed intima. The rank order
+          of chemokine binding was almost identical whether the
+          data were expressed as percentage or number of cells
+          binding chemokines. In the cases of CCL2, CCL3 and CCL5
+          there were no differences in the percentages of positive
+          cells between RA and non-RA tissue. A higher percentage
+          of cells, however, bound CXCL8 in non-RA inflamed intima
+          compared to RA inflamed intima.
+        
+        
+          Chemokine binding to neutrophils
+          Neutrophils were present in the synovia of four out of
+          the six RA patients, but they were less abundant than
+          mononuclear cells. Neutrophils were absent in
+          non-rheumatoid synovia. Neutrophils were positive for
+          125I-CXCL8 binding (Fig. 2) which was displaced in the
+          presence of 1000-fold excess non-radiolabelled chemokine.
+          These cells bound IL-8 in all locations within the
+          synovium: within blood vessels; close to blood vessels in
+          the extravascular tissue; and close to (or at) the
+          intimal surface. Neutrophils did not show any signal for
+          binding CCL2, CCL3 and CCL5 (Fig. 2). No major
+          differences in neutrophil chemokine binding were apparent
+          between the four patients who had these cells in their
+          synovia.
+        
+        
+          Immunolocalisation of CXCR1 and CXCR2
+          To define the molecular identity of the 125I-CXCL8
+          binding sites on synovial macrophages and neutrophils,
+          immunohistochemistry was performed to examine expression
+          of CXCR1 and CXCR2 by these cells. Sections from the same
+          blocks of synovia used for radiolabelled chemokine
+          binding were treated with antibodies to CXCR1, CXCR2 and
+          CD68. Samples from every RA and non-RA patient showed
+          expression of both CXCR1 and CXCR2 by macrophages in the
+          subintima and intima (Supplementary Fig. 2and Fig. 3).
+          Similarly, in RA samples that possessed neutrophils,
+          immunoreative CXCR1 and CXCR2 was displayed by these
+          cells throughout the subintimal and intimal layers; the
+          staining intensity for CXCR2 was more strong than for
+          CXCR1 (Fig. 3c). Sections treated with rabbit IgG instead
+          of CXCR1 or CXCR2 were negative for macrophage and
+          neutrophil staining (Fig. 3d).
+        
       
       
-        Authors' contributions
-        Maria K. Dahle (author 1) performed the EMSA and
-        expression experiments and drafted the manuscript. Kjetil
-        Taskén (author 2) participated in the design and
-        coordination of the study. Kristin A. Taskén (author 3)
-        initialized, planned and coordinated the study, performed
-        the immunoblotting and contributed to all experiments. All
-        authors read and approved the final manuscript.
+        Discussion
+        The results of the present study show the presence of
+        chemokine binding sites on macrophages and neutrophils in
+        the RA synovium. These sites were evident around blood
+        vessels of the subintima, throughout the subintimal stroma
+        and in the intima. In RA there is increased recruitment of
+        monocytes, which migrate into the synovial subintima and to
+        the intima, presumably following a chemotactic gradient [ 3
+        ] . The increase in synovial macrophage numbers is mainly
+        due to enhanced recruitment since there appears to be
+        little contribution from 
+        in situ proliferation of these cells
+        [ 21 ] , although deficient apoptosis may have an effect on
+        increasing cell number [ 1 ] . There is also increased
+        recruitment of neutrophils in RA, migrating from subintimal
+        venules, across the synovium and into the synovial fluid
+        where they can occur in large numbers. The binding of CCL2,
+        CCL3, CCL5 and CXCL8 to macrophages and CXCL8 binding to
+        neutrophils suggests that these receptors may be involved
+        in signaling the migration of the phagocytes through the RA
+        synovium into tissue microcompartments and fluid.
+        The finding that the proportion and percentage of
+        chemokine binding sites on macrophages increases in the
+        inflamed intima of RA and non-RA synovia suggests that
+        these receptors may function in chronic severe synovitis in
+        RA and more mild synovitis associated with joint damage/
+        degeneration in non-RA pathology. In the cases of CCL2,
+        CCL3 and CCL5 there were no differences in the percentage
+        of chemokine-positive cells in inflamed regions of the RA
+        and non-RA intima. However, there were fewer CXCL8 positive
+        cells in the inflamed RA intima than in the inflamed non-RA
+        intima. The RA synovia were obtained from patients with
+        long-standing disease whereas the non-RA samples were
+        essentially from patients with joint symptoms of shorter
+        duration (Supplementary Table 1). One explanation is that
+        there may be temporal changes in chemokine receptor
+        expression, which could explain this difference between RA
+        and non-RA CXCL8 binding. In this respect, temporal changes
+        in chemokine expression have been reported in human RA and
+        an animal model of RA [ 22 23 ] . Alternatively the
+        difference in CXCL8 binding could relate to variation in
+        inflammatory mechanisms or a response to drug treatment in
+        the RA group.
+        The present experimental approach was taken with the aim
+        of finding out if receptors on phagocytes bind chemokines 
+        in situ , and showed that the
+        receptors are available and functional in terms of binding
+        chemokines. Our results agree with 
+        in situ studies in human skin, where
+        macrophages also express binding sites for radiolabelled
+        CCL3, CCL5 and CXCL8 [ 24 25 ] . The disadvantage with the
+        radioligand technique is the lack of definition regarding
+        the molecular nature of the receptors. In contrast,
+        immunohistochemistry or flow cytometry have the advantage
+        of molecular identification, but can not show definitively
+        if the receptors bind ligands. Immunohistochemistry showed
+        that both CXCR1 and CXCR2 were expressed by synovial
+        macrophages and neutrophils, suggesting that the CXCL8
+        binding sites on these cells were CXCR1 and CXCR2.
+        A recent immunohistochemical study has shown the
+        presence of CCR1, CCR2 and CCR5 on CD68 +macrophages in the
+        RA synovium, but not CCR4 [ 17 ] . Since CCL2 is a ligand
+        for CCR2, and both CCL3 and CCL5 are ligands for both CCR1
+        and CCR5 [ 11 ] , these receptors are probably the CC
+        chemokine binding sites on the macrophages in the present
+        study. The lack of CCL2, CCL3 and CCL5 binding to synovial
+        neutrophils suggests little or no expression of the
+        corresponding CC chemokine receptors on these cells. This
+        is in agreement with other studies showing lack of CCL2
+        binding to blood neutrophils and general lack of
+        chemotactic response of these cells to CC chemokines [ 26 ]
+        , although recent reports indicate that neutrophils, in
+        response to certain cytokines, are capable of expressing CC
+        chemokine receptors [ 27 28 ] .
+      
+      
+        Conclusion
+        This study demonstrates the expression of available
+        chemokine binding sites for CCL2, CCL3, CCL5 and CXCL8 on
+        CD68 +macrophages in the subintimal and intimal layers of
+        rheumatoid and nonrheumatoid synovia. Chemokine binding
+        sites for CXCL8, but not for CCL2, CCL3 or CCL5, were found
+        on neutrophils in the rheumatoid synovium. These receptors
+        may mediate the recruitment of phagocytes to the subintima,
+        intima or synovial fluid and could provide potential
+        therapeutic targets.
+      
+      
+        Supplementary material
+        
+          Supplementary Materials and methods
+        
+        
+          In situbinding autoradiography
+          Synovia were cut into approximately 2 mm 3pieces. Four
+          samples were placed in tubes containing 0.1 to 4.0 ng of
+          recombinant human 125I-labeled (rh 125I)-CXCL8 (M 
+          r = 8400), rh 125I-CCL5 (M 
+          r = 8000), rh 125I-CCL2 (M 
+          r = 8800) or rh 125I-CCL3 (M 
+          r = 8000) (262 μCi/μg; NEN, Boston,
+          USA) in 400 μl Hank's balanced salt solution containing
+          0.1% bovine serum albumin and 20 mM HEPES. The samples
+          were then incubated for one hour at room temperature on a
+          platform shaker [ 19 ] . In these experiments, synovial
+          samples from each patient were treated with each of the
+          four chemokines. Initial experiments showed that binding
+          sites were saturable over this concentration range and
+          the optimum binding/background ratio was obtained using
+          0.8 ng of chemokine; this amount was used in all the
+          subsequent experiments. Control tubes contained 1000-fold
+          excess of the corresponding unlabeled recombinant human
+          chemokine (molecular mass as for radiolabelled
+          chemokines) (PeproTech EC, London, UK; CXCL8 was kindly
+          donated from Novartis Research Institute, Vienna,
+          Austria). The tissue was washed four times for 10 min in
+          2 ml Hank's balanced salt solution on a platform shaker,
+          then fixed overnight in 4% paraformaldehyde. It was then
+          dehydrated in alcohol, embedded in fibrowax and sectioned
+          at 5 μm thickness. Sections were deparafinized,
+          rehydrated, air-dried and coated with Amersham LM1
+          emulsion (Amersham Pharmacia Biotech, Little Chalfont,
+          UK). The slides were exposed at 4°C for two weeks,
+          developed and stained in haematoxylin and eosin.
+        
+        
+          Immunohistochemistry for CXCR1 and CXCR2
+          Sections were deparafinized, rehydrated and in the
+          case of CXCR1 pre-treated with 1% pronase for 10 min to
+          unmask epitopes. Following blocking of endogenous
+          peroxidase with 0.3% hydrogen peroxide in methanol for 30
+          min, slides were rinsed in PBS and treated with a 1/60
+          dilution of normal goat serum for 30 min. Sections were
+          rinsed in PBS, incubated with CXCR1 or CXCR2 antibodies
+          (at 1/50 and 1/500 dilution respectively) or rabbit IgG
+          (at the same concentration as primary antibodies) for 30
+          min. After washing with PBS, the antibodies were detected
+          using reagents in the Vectastain ABC Elite Kit (Vector
+          Labs, Burlingame, USA); the sections were treated with
+          biotinylated goat anti-rabbit IgG (at 1/200 dilution) for
+          30 min, rinsed with PBS, incubated with
+          streptavidin-conjugated peroxidase for 30 min, washed
+          with PBS, then treated with the chromogen
+          3,3'-diaminobenzidine for 5 min. Sections were washed
+          twice in PBS then water, dried and counter-stained in
+          Mayer's haematoxylin. All steps in the method were
+          carried out at room temperature.
+        
+        
+          Quantitation of synovial sections
+          Sections were used from 
+          in situ binding autoradiography
+          experiments and were quantitated blind by one observer.
+          The sample length was 280 μm of synovial intima, the
+          width of a field of view using a ×63 objective lens on a
+          Nikon diaplan light microscope. Intimal cells were scored
+          as being positive for chemokine binding when the
+          autoradiographic signal was greater than that of the
+          adjacent background. The number of positive and negative
+          cells were counted visually in three sample lengths per
+          section (i.e. 840 μm). The number of sections per patient
+          was four, giving a total of 3360 μm of intima measured
+          per patient. The intima was noted as being normal where
+          it was one to two cells thick, and inflamed where greater
+          than two cells thick. All cells were counted except
+          neu-trophils, which only comprised <1% of all cells
+          sampled.
+          From these data, the number and percentage of positive
+          cells in the intimal samples were obtained and expressed
+          per 500 μm of intima. Statistical analyses were by
+          Student's 
+          t -test, The result was significant
+          when 
+          P < 0.05.
+        
+      
+      
+        Supplementary Discussion
+        The functional role of chemokine receptors in
+        inflammatory cell recruitment is suggested from animal
+        models of RA. Using the CC chemokine receptor antagonist
+        MCP-1(9-76), a truncated analogue peptide corresponding to
+        MCP, markedly reduces joint histopathology and symptoms in
+        the MRL- 
+        lpr mouse model [ S1 ] . The CC
+        receptor antagonist MetRANTES decreased the incidence and
+        severity of arthritis in mouse collagen-induced arthritis [
+        S2 ] . With both antagonists, mononuclear infiltration is
+        reduced.
+        CCL2, CCL3, CCL5 and CXCL8 occur in human RA synovial
+        fluid and tissue [ 8 ] . Therefore the ligands for the
+        binding sites described here occur endogenously within the
+        RA joint, adding further evidence towards a role for these
+        receptors 
+        in vivo . In the RA joint the
+        synovial macrophage is among the principle cell types that
+        produce CCL2, CCL3 and CXCL8 [ 8 17 ] . The finding of
+        chemokine receptors on these cells suggests that
+        macrophages may amplify inflammation by attracting cells of
+        the same type, and other cell types, into the joint thereby
+        setting up a positive feedback loop. Similar mechanisms may
+        also be occurring with neutrophils, since in the RA joint
+        these cells produce CXCL8 [ S3 ] and express CXCL8 binding
+        sites.
+      
+      
+        Abbreviations
+        CC = chemokine with two adjacent cysteine (C) residues
+        near the NH 
+        2 -terminus; CCR = CC chemokine
+        receptor; CXC = chemokine with C separated by an amino acid
+        defined as X; CXCR = CXC chemokine receptor; IL =
+        interleukin; PBS = phosphate-buffered saline; RA =
+        rheumatoid arthritis; RANTES = regulated on activation
+        normal T cell expressed and secreted; rh = recombinant
+        human.
       
     
   

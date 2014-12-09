@@ -3,562 +3,433 @@
     
       
         Background
-        During the last decade several genes have been found to
-        be interrupted by selfish genetic elements translated in
-        frame with their host proteins. During post translational
-        processing these elements excise themselves out of the host
-        protein (see [ 1 ] and [ 2 ] for recent reviews). The
-        sequences removed during splicing are called inteins (short
-        for internal protein); the portions of the host protein are
-        termed exteins (external protein) [ 3 4 5 ] .
-        Inteins facilitate their excision out of the host
-        protein without the help of any known host specific
-        activity. This phenomenon, called protein splicing, was
-        first discovered about a decade ago in the 
-        Saccharomyces cerevisiae V-ATPase
-        catalytic subunit A [ 6 7 ] . Intein excision depends on
-        the splicing domain of the intein and the first amino acid
-        residue of the C-extein [ 8 ] . The inteins known to date
-        are between 134 and 608 amino acids long, and they have
-        been reported from all three domains of life: eukaryotes,
-        eubacteria and archaea. Pietrokovski's webpage on inteins
-        http://blocks.fhcrc.org/~pietro/inteins/currently lists
-        more than 100 inteins in 34 different types of proteins [ 9
-        ] . The host proteins are diverse in function, including
-        metabolic enzymes, DNA and RNA polymerases, gyrases,
-        proteases, ribonucleotide reductases, and vacuolar and
-        archaeal type ATPases. Common features suggested for these
-        proteins are their expression during DNA replication [ 1 ]
-        and their low substitution rate during evolution [ 9 ]
-        .
-        Most reported inteins are composed of two domains: one
-        is responsible for protein splicing, and the other has
-        endonuclease activity [ 10 11 12 13 ] . The function of the
-        endonuclease is to spread the intein to intein-free
-        homologs of the host protein. During this process, called
-        homing, the gene encoding the intein-free homolog is
-        cleaved by the endonuclease at or close to the intein
-        integration site. During the repair of the cleaved gene,
-        the intein is copied to the previously intein-free homolog.
-        Gimble and Thorner [ 14 ] demonstrated intein homing in 
-        Saccharomyces cerevisiae using
-        engineered V-ATPase genes from which the intein encoding
-        portion had been previously removed. However, some inteins
-        lack the endonuclease domain. Inteins without this domain
-        perform autocatalytic splicing [ 15 16 ] . Homing
-        endonucleases and the process of homing have been more
-        intensively studied in self splicing introns [ 17 ] , and
-        the process is assumed to be similar for inteins.
-        
-        Thermoplasma acidophilum is among
-        sixteen archaea for which inteins have been reported to
-        date (Intein database
-        http://www.neb.com/inteins/int_reg.html [ 18 ] ). Members
-        of the genus 
-        Thermoplasma lack cell walls and
-        possess a cytoskeleton. They live in hot and acidic
-        environments, and are often found adhering to sulfur
-        particles [ 19 ] . 
-        T. acidophilum grows optimally at
-        59°C and at an external pH between 1-2 [ 20 ] . A
-        cytoplasmic pH of 5.5 has been measured indirectly [ 21 ]
-        .
-        Proton pumping ATPases/ATPsynthases are found in all
-        groups of present day organisms [ 22 ] . The typical
-        archaeal ATPsynthase is homologous to the eukaryotic
-        vacuolar ATPase. Because of the high degree of sequence
-        similarity the archaeal ATP synthase (A-type ATPase) is
-        sometimes labeled as vacuolar or V-type ATPase. The
-        archaeal and the vacuolar ATPase are both homologous to the
-        bacterial F-ATPases, but the level of sequence similarity
-        with the F-ATPases is much lower than between the V- and
-        the A-ATPases. To date seven species have been identified
-        to harbor inteins in their ATPase catalytic subunits. The
-        first intein was discovered in the 
-        vma -1 gene of 
-        Saccharomyces [ 7 ] . The yeast 
-        Candida tropicalis [ 23 ] possesses
-        an intein in the same location. Inteins are also present in
-        the A subunit of the A-type ATPases of 
-        Thermoplasma acidophilum, T. volcanium,
-        Pyrococcus abysii, P. horikoshii and 
-        P. furiosus. 
-        Here we present data on the cloning and expression of
-        the 
-        T. acidophilum A-ATPase A subunit in 
-        E. coli, and we discuss implications
-        for the location, propagation and distribution of inteins
-        among organisms.
+        Baculoviruses are a diverse family of insect viruses
+        that are pathogenic for insects particularly members of the
+        Lepidoptera, Diptera and Hymenoptera. They have large
+        double-stranded, circular, supercoiled, DNA genomes of
+        100-180 kb and are characterized by the occlusion of their
+        virions in crystalline protein matrices. There are two
+        genera of baculoviruses, the nucleopolyhedroviruses (NPVs)
+        in which many virions are occluded in large
+        polyhedron-shaped occlusion bodies, and the granuloviruses
+        (GVs) which normally occlude a single nucleocapsid per
+        small granular occlusion body. A novel feature of these
+        viruses is the production of two types of virions [ 1].
+        One, the occlusion derived virion (ODV) type, is present in
+        occlusion bodies and spreads the infection between insects,
+        whereas the other, the budded virion (BV) type, spreads the
+        infection between cells within insects or in cell culture.
+        A major difference between these two types of virions is
+        their envelope proteins. The envelope of ODV is not well
+        characterized; and although it may be composed of multiple
+        proteins, the mechanism by which it facilitates the
+        initiation of infection of insect midgut cells is unclear
+        [reviewed in [ 2]]. In contrast, BV envelopes contain an
+        envelope fusion protein that causes the merging of the
+        virion envelope and the membrane of cellular endocytic
+        vesicles when exposed to low pH.
+        Current evidence suggests that lepidopteran
+        baculoviruses may be divided into two phylogenetic groups
+        based on the envelope fusion proteins of budded virions [
+        3]. One group that includes 
+        Autographa
+        californica multinucleocapsid nucleopolyhedrovirus
+        (AcMNPV) and 
+        Orgyia pseudotsugata MNPV (OpMNPV),
+        contain GP64 in their budded virion envelopes [ 4, 5].
+        Homologs of 
+        gp64 are also found in a genus of
+        orthomyxoviruses, the thogotoviruses [ 6]. Recently a
+        number of complete baculovirus genome sequences have been
+        described and were found to lack an open reading frame with
+        homology to 
+        gp64 . Analysis of the genome of the 
+        Lymantria dispar MNPV (LdMNPV),
+        revealed a single orf ( 
+        ld130 ) with predicted signal and
+        transmembrane domains. Characterization of LD130, indicated
+        that it localizes to the membrane of infected cells, is a
+        component of budded virions, and is N-glycosylated.
+        Uninfected cells transiently transfected with a plasmid
+        encoding LD130, showed localization of the protein to the
+        cell membrane and low-pH mediated cell fusion suggesting
+        that LD130 is the envelope fusion protein of LdMNPV [ 3].
+        Similar results have been reported for the LD130 homolog in
+        SeMNPV [ 7].
+        Homologs of 
+        ld130 are found in the genomes of all
+        the sequenced 
+        gp64 -minus viruses including LdMNPV,
+        SeMNPV [ 8], 
+        Plutella xylostella GV (PxGV) [ 9]
+        and 
+        Xestia c-nigrum GV (XcGV) [ 10]. In
+        addition, homologs of 
+        ld130 are also found in 
+        gp64 -containing viruses, although
+        they do not appear to be capable of mediating
+        low-pH-dependent membrane fusion (Pearson et al,
+        unpublished). In contrast to the close relatedness of
+        baculovirus gp64 homologs, the LD130 homologs are highly
+        variable suggesting that 
+        gp64 was recently incorporated into a
+        baculovirus genome where it displaced the envelope fusion
+        function of the 
+        ld130 homologs [ 3].
+        Database searches with LD130 and its homologs routinely
+        identify, not only homologous baculovirus proteins, but
+        some members also showed significant levels of homology
+        with the predicted envelope proteins of a number of insect
+        retrovirus-like elements from 
+        Drosophila and Lepidoptera [ 11],
+        (also see genbank documentation for AcMNPV orf23 in the
+        AcMNPV sequence [ 12]). Evidence suggests that at least
+        some of these retrovirus-like elements are infectious and
+        have been classified as insect retroviruses [ 13, 14, 15]
+        or errantiviruses [ 16]. In this report, we provide
+        evidence for an evolutionary link between this newly
+        characterized family of baculovirus envelope proteins and
+        the envelope proteins predicted for a variety of insect
+        retrovirus-like retrotransposons. These relationships
+        suggest a possible common origin of the envelope fusion
+        proteins for these two groups of viruses.
       
       
         Results
         
-          Sequence analysis of the T.
-          acidophilumintein
-          The 
-          T. acidophilum intein was
-          discovered while sequencing the catalytic subunit of the
-          archaeal ATPase/ATPsynthase from 
-          T. acidophilum for systematic
-          purposes [ 24 ] . More recently, the complete genome
-          sequences of 
-          T. acidophilum [ 25 ] and 
-          T. volcanii [ 26 ] have been
-          reported. In both instances, the catalytic subunit of the
-          ATPsynthase is the only gene in the entire genome for
-          which an intein was reported. Using PSI-BLAST [ 27 ] with
-          different inteins as seeds, divergent inteins with less
-          than ten percent sequence identity as compared to the
-          query sequence are recovered (data not shown); however,
-          using this approach we did not discover any additional
-          intein or homing endonuclease encoding genes in 
-          T. acidophilum. 
-          Multiple sequence alignments of diverse intein
-          sequences identified eight motifs composed of moderately
-          conserved residues [ 18 28 ] . The A-ATPase A subunit of
+          Database searches with members of the LD130
+          family
+          Routine BLAST searches of the database with individual
+          members of the LD130 family of baculovirus proteins
+          revealed high levels of similarity with a set of
+          predicted envelope proteins from a number of insect
+          retrovirus-like retrotransposons. For example, an LD130
+          homolog from PxGV, PX26 [ 9] showed significance values
+          of 10 -10with the envelope protein of TED, a lepidopteran
+          retrovirus-like retrotransposon [ 17], and in the 10 -4to
+          10 -10range for a number of other predicted envelope
+          proteins from retrovirus-like retrotransposons from other
+          insects, particularly members from the genus 
+          Drosophila . Searches with other
+          members of the ld130 family showed values of 10 -4to 10
+          -6to these proteins. A 
+          Drosophila orf (see below) that is
+          not part of a retrovirus-like element was also
+          identified. These values suggested that the relatedness
+          was significant and may be evidence of an exchange of
+          genes encoding this important category of proteins
+          between insect cells and members of the baculovirus and
+          retrovirus families. To investigate this relationship
+          further, we performed BLAST searches of the database with
+          all members of the baculovirus LD130 family and also with
+          all sequences that showed alignments with E values of
+          less than 10 -3to members of this family. When sequences
+          within this category were identified that were over 90%
+          identical, only one was included. Similarly, fragments
+          from within complete sequences that were identified by
+          this search were not included. This resulted in a total
+          of 17 proteins used in our analyses (Table 1).
+          With one exception, all the non-baculovirus sequences
+          showing the best scores are derived from retrovirus-like
+          retrotransposons from insects that fall in the T3- 
+          gypsy group [ 18]. The exception is
+          a 
+          Drosophila orf called cg4715 (Table
+          1). The orfs adjacent to cg4715 (two upstream and two
+          downstream) appear to be non-homologous to retrovirus
+          orfs (data not shown) suggesting that it may either be an
+          insect gene or a remnant of an integrated
+          retroelement.
+        
+        
+          Significance of the relatedness of the members of
+          the Ld130 family
+          The potential relationships uncovered by the BLAST
+          searches were further assessed for significance by the
+          calculation of Z-scores for each of the sequences
+          compared to each of the other sequences (see Methods).
+          This led to the grouping of the sequences into six
+          subfamilies based on Z-score cutoff values of ≥ 20 (Figs.
+          1, 2, Table 1). These include the baculovirus subfamily,
+          two major divisions of the dipteran 
+          gypsy retrotransposon group with
+          four members each, and three subfamilies each with a
+          single member. The latter included one dipteran 
+          gypsy sequence, the lepidopteran 
+          gypsy -like element TED [ 19], and
           the 
-          Thermoplasma and 
-          Pyrococcus intein multiple sequence
-          alignment (with manual modification) is shown in figure
-          1. The 
-          T. acidophilum intein (173 amino
-          acids long) is among the shortest inteins known, and the
-          alignment with other inteins reveals the absence of
-          sequences homologous to the typical endonuclease motifs.
-          Only the motifs characteristic for the self splicing
-          domain are present in the 
-          Thermoplasma intein (see figure
-          1).
-          The significance of the match between the 
-          T. acidophilum and the three
-          pyrococcal ATPase inteins was assessed using PRSS at
-          http://fasta.bioch.virginia.edu/fasta/prss.htm [ 29 ] .
-          The P-value for this match, i.e. the probability of
-          obtaining a match of this quality by chance alone, was
-          calculated to be below 10 -10. This indicates that not
-          only the exteins, but also the inteins themselves are
-          recognizably homologous. In contrast, a sequence
-          alignment of all known inteins shows intein sequences to
-          be much more divergent (not shown). For example, the
-          P-value for the comparison between the 
-          T. acidophilum and the 
-          Saccharomyces cerevisiae intein was
-          0.28, i.e. no significant similarity between the yeast
-          and the 
-          Thermoplasma inteins was detectable
-          using pairwise alignments only.
+          Drosophila cellular protein cg4715.
+          We then compared each subfamily using the conservative
+          criterion of a Z-score of ≥ 6 as an indicator of
+          homology.
+          Furthermore, guided by the assumption that sequence
+          features conserved over long evolutionary distances
+          should also be conserved over short distances, a
+          secondary criteria used for the more distant
+          relationships was that Z-scores derived from comparing
+          families of sequences should show enhanced significance
+          over that of the individual sequences. The Z-scores
+          revealed strong evidence for the homology of the
+          seventeen sequences (Fig. 1). Members of the LD130 family
+          showed Z-scores of 9 and 10 to two groups containing
+          eight 
+          gypsy proteins. These are similar
+          to scores determined for comparisons between different
+          gypsy envelope proteins of from 9 to12. In addition, only
+          one other protein [called rhoptry, from 
+          Plasmodium yoelii (accession #
+          T28677)], fell within our 10 -3BLAST search cutoff in two
+          instances (with T13994 and p20829 [Table 1]). However,
+          when aligned to each of the 17 sequences, only one
+          alignment resulted in a Z-score of 4 and all the other
+          z-scores were ≤2. Also when members of each subfamily
+          were grouped together and compared with this protein, the
+          scores were not enhanced (data not shown). A matrix
+          comparing the levels of sequence identities among these
+          sequences is shown in Fig. 2, and reveals that in
+          contrast to Z-scores, sequence identity is not a reliable
+          indicator of evolutionary relatedness at the longer
+          distances. For example, although the proteins with the
+          groups composed of #1-4, #7-10 and #11-14 (Table 1) are
+          clearly related to one another, their relationship with
+          other members of the data set are unclear.
         
         
-          Location of the intein within the host
-          protein
-          The vacuolar and the archaeal ATPases are homologous
-          to the bacterial and organellar F-type ATPases. The
-          structure of the bovine mitochondrial F 
-          1 -ATPase has been determined by X-ray
-          crystallography [ 30 ] . The intein insertion points in
-          the yeasts' V-ATPase and the 
-          Thermoplasma and 
-          Pyrococcus A-ATPases correspond to
-          the catalytic site where the ATP binds and is hydrolyzed
-          during the catalytic cycle. Figure 2shows that the
-          inteins are located in the regions of these very
-          conserved proteins [ 22 ] that have the lowest
-          substitution rates.
-        
-        
-          Comparison of A-ATPase catalytic subunit and 16S
-          rRNA phylogeny
-          The phylogenies of archaeal ATPase catalytic subunits
-          and small subunit ribosomal RNAs are shown in Figure 3.
-          Both phylogenies were calculated for a similar set of
-          species. While the two phylogenies show some significant
-          differences, neither of them groups the molecules from 
-          Thermoplasma with the 
-          Pyrococcus homologs. In both
-          phylogenies several other Archaea, i.e., 
-          M. jannaschii, M. thermolithotrophicus,
-          Thermococcus sp., Halobacterium sp.,
-          Methanosarcina and 
-          Methanobacterium
-          thermoautotrophicus branch off between the two groups
-          that carry inteins in their ATPase catalytic subunits.
-          All of these intervening archaeal ATPases do not carry an
-          intein.
-        
-        
-          Codon usage comparison
-          Codon usage varies among organisms. The production of
-          tRNAs corresponds to the frequencies with which the
-          different codons are present in their protein coding
-          genes. The exact causes for tRNA regulation and codon
-          usage are not completely understood; however, expression
-          of foreign genes in an organism is often prevented by a
-          different codon usage of the foreign gene [ 31 ] . Many
-          Archaea have codon usage frequencies and tRNA
-          compositions different from 
-          E. coli. The 
-          T. acidophilum A-ATPase A subunit
-          has 763 codons. Codon AUA (Ile) is the most frequent
-          (39/1000). In 
-          E. coli the same codon (AUA) is a
-          rare codon present at a frequency of only 5.5 per 1000.
-          The other two major differences in codon usage between
-          the 
-          T. acidophilum A-ATPase A subunit
-          and 
-          E. coli are AGG (Arg) and AGA (Arg)
-          which are present in 
-          T. acidophilum A-ATPase A subunit
-          at frequencies of 41 and 16 per 1000 respectively. In 
-          E. coli however, these codons are
-          considered rare and occur with frequencies of 1.7 and 2.8
-          per 1000 respectively.
-        
-        
-          Expression and intein splicing of T.
-          acidophilumA-ATPase A subunit
-          The gene encoding the 
-          T. acidophilum A-ATPase A subunit
-          was cloned into the expression vector pET-11a
-          (Stratagene) and transformed into 
-          E. coli Bl21(DE3) and 
-          E. coli Bl21-CodonPlus(DE3)-RIL
-          strain for protein expression. When 
-          E. coli Bl21(DE3), a strain that
-          did not express additional rare tRNAs, was transformed
-          with the cloned 
-          T. acidophilum ATPase A subunit, no
-          additional protein bands were observed in extracts of
-          induced cells (not shown). However, the 
-          E. coli Bl21-CodonPlus (DE3)-RIL
-          strain transformed with the same plasmid expresses two
-          additional proteins of 20 and 65 kDalton upon induction
-          (Fig. 4). No additional band at 85 kDa, indicative of an
-          unprocessed intein, was visible after induction. This
-          demonstrates that autocatalytic splicing occurred
-          efficiently in 
-          E. coli. Efficient autocatalytic
-          splicing was also observed when the 
-          E. coli were grown and induced at
-          42°C, or when the 
-          E. coli were induced at 16°C for 16
-          hours (Fig. 4A). During preparation for SDS gel
-          electrophoreses the samples are heated to 72°C in the
-          presence of DTT. With respect to temperature these
-          conditions are more similar to the conditions in the 
-          T. acidophilum cytoplasm than the
-          conditions in 
-          E. coli. Intein excision might
-          occur only during this high temperature treatment.
-          Therefore, proteins from induced 
-          E. coli were also separated under
-          non-denaturing conditions with or without addition of
-          DTT. The induced bands were excised from the
-          non-denaturating gel and separated using denaturing SDS
-          gel electrophoresis (Fig. 5). Both of the slower
-          migrating bands visible after induction (A and B in Fig.
-          5), revealed only one major band corresponding to the
-          spliced and religated A-subunit upon separation in an SDS
-          denaturing gel. Presumably the slower migrating band was
-          a dimer or higher aggregate of the A-subunit monomer. In
-          none of these experiments did we find any indications for
-          unprocessed or incompletely spliced inteins.
+          Features of the LD130 protein family
+          In addition to the overall sequence homology, our
+          analyses revealed a number of other conserved features
+          (Fig. 3). They all are predicted to be moderately large
+          proteins of 348 to 649 amino acids and all contain
+          predicted signal peptides at their amino terminus and
+          transmembrane domains near their carboxyl terminus.
+          Another feature of these sequences is the conservation
+          of cysteine residues. In the baculovirus sequences, 11
+          cysteines are conserved (Fig. 4). In TED, the
+          lepidopteran retrovirus-like element, seven of the
+          C-terminal cysteine residues are conserved. Likewise in
+          the Drosophila sequence, cg4715, that is not a component
+          of a retrotransposon, six of the C-terminal cysteines are
+          conserved. With the two other categories of retroelements
+          represented by 
+          gypsy and 
+          tom in Fig. 4, four of the
+          cysteines are conserved. The consensus pattern of
+          cysteine conservation is shown at the bottom of Fig.
+          4.
+          It has recently been reported that SE8, a homolog of
+          LD130, is the likely membrane fusion protein for the 
+          Spodoptera exigua MNPV [ 7].
+          Furthermore, by N-terminal sequence analysis it was found
+          that in budded virions, SE8 was truncated downstream of a
+          motif that is a furin cleavage consensus sequence in
+          other viruses. This motif has the sequence K/RXXK/R. One
+          of the striking features of our alignments is that this
+          site and downstream sequences appear to be conserved in
+          these proteins (Fig. 5). The downstream sequence has the
+          21-amino acid motif gXΦBΦΦGXΦXKΦΦΦGXΦDXXD where Φ
+          represents sites with predominantly hydrophobic amino
+          acids, B represents D or N, and X represents any amino
+          acid. The lower case of the initial g is related to its
+          absense in one group of 
+          gypsy sequences (#7-10, Table 1).
+          This motif is present in all the sequences except those
+          represented by Ac23 and Op21 (Figs. 3, 5) and cg4715.
+          Both AcMNPV and OpMNPV utilize GP64 as their envelope
+          fusion protein and neither OP21 nor AC23 appear to
+          function as an envelope fusion protein in cell fusion
+          assays (Pearson et al, unpublished). Likewise, cg4715 is
+          not a component of a virus-like element. In contrast, the
+          sequence is conserved in the other proteins that may play
+          a role in membrane fusion. It has previously been
+          suggested that for members of the 
+          gypsy family of env proteins the
+          protease cleavage site may be downstream of this sequence
+          [ 13, 20]. A similar cleavage site location was suggested
+          for TED [ 21]. However, the major env components were
+          never N-terminally sequenced and the data could also be
+          interpreted to be the result of the removal of about 12
+          kda from the N-termini of these proteins at the cleavage
+          site shown in Fig. 5.
+          Coiled-coil-like motifs are a distinguishing feature
+          of a number of viral fusion proteins. A program,
+          Learncoil-VMF, has been developed to predict the location
+          and the probability of these domains occurring within a
+          protein [ 22]. We applied this program to the LD130
+          family of proteins. A summary of the scores is shown in
+          Table 1and the location of the coiled-coil domains is
+          indicated in Fig. 6. Coiled-coil-like domains were
+          predicted for many of these proteins immediately
+          downstream of the predicted cleavage site. With two
+          exceptions in which two regions were identified (Table
+          1), the program predicted a single coiled-coil region in
+          a similar location, or in three instances, no such
+          region. In the protein from the two NPVs that lack GP64
+          (LD130 and SE8), the same location was identified.
+          However, the program predicted these regions slightly
+          downstream for the two granulovirus proteins, XC27 and
+          PX26, (these two viruses also lack gp64) placing them in
+          the same position as predicted for proteins from NPVs
+          that contain GP64. The baculovirus proteins had a
+          probability of this motif occurring from 0.23 (Op21) to
+          0.63 (Ac23). In one set of gypsy retrovirus-like elements
+          (#7-10), the probability of the coiled-coil motif
+          downstream of the cleavage site ranged from 0.26 to 1.0.
+          The rest of the sequences showed a high degree of
+          variability. Two sequences (#15 and #16 [TED]), showed a
+          strong probability (0.69 and 0.54, respectively) just
+          upstream of the predicted cleavage site (Fig. 3). No.15
+          also showed a broad region of 0.17 probability just
+          downstream of the cleavage site. With the exception of
+          #12 (0.44), the remaining three sequences (#11,13, and
+          17) had a probability of 0. This included the cellular
+          protein cg4715.
         
       
       
         Discussion
-        The 
-        Daucus carota [ 32 ] and 
-        Saccharomyces cerevisiae (Alireza
-        Senejani unpublished) catalytic V-ATPase subunits form
-        inclusion bodies when expressed in 
-        E. coli. In contrast, the 
-        T. acidophilum subunit is expressed
-        as a soluble protein in the 
-        E. coli cytoplasm. Despite the
-        chemical and physical differences between the 
-        E. coli cytoplasm and the environment
-        in which the 
-        T. acidophilum intein is functioning 
-        in vivo, we found no indications that
-        self-splicing of the intein was inefficient in 
-        E. coli. Even when 
-        E. coli was grown at lower
-        temperatures, processing of the intein and religation of
-        the exteins appeared 100% efficient. Complete processing
-        was also observed when the 
-        E. coli proteins were separated in
-        non-denaturing and non-reducing gels. Autocatalytic
-        splicing of the 
-        T. acidophilum A-ATPase catalytic
-        subunit occurs efficiently in the 
-        E. coli cytoplasm. The 
-        T. acidophilum A-ATPase intein
-        appears to splice out efficiently at very different pHs
-        (7.2 versus 5.5 [ 21 33 ] ) and temperatures (16 to 37°
-        versus 55°C [ 20 ] ).
-        The 
-        T. acidophilum intein shows
-        significant sequence similarity to the inteins found in the
-        A-ATPase catalytic subunits of 
-        Pyrococcus. Moreover, these inteins
-        are inserted into the same highly conserved sequence in the
-        ATP binding site. This indicates that the inteins in 
-        Thermoplasma and 
-        Pyrococcus are homologous in the
-        evolutionary sense, 
-        i.e., they are derived from a common
-        ancestral gene. However, 
-        Pyrococcus and 
-        Thermoplasma are not considered
-        closely related Archaea. Based on their 16S rRNA they are
-        considered distantly related Euryarchaeotes (See Fig.
-        3b).
-        One explanation for the discrepancy between phylogenetic
-        classification and distribution of the A-ATPase intein is
-        horizontal gene transfer: the intein was not present in the
-        last common ancestor of 
-        Thermoplasma and 
-        Pyrococcus, rather the intein invaded
-        one of the lineages after their split and was more recently
-        horizontally transferred to the other lineage. The
-        horizontal transfer scenario is more parsimonious than the
-        assumption of presence in the shared common ancestor
-        because the latter requires several independently occurring
-        losses of the intein together with its long-term
-        persistence in the 
-        Pyrococcus and 
-        Thermoplasma lineages ( 
-        cf. Fig. 3b). Horizontal transfer of
-        whole genes and operons between divergent species is a
-        frequent event [ 34 35 36 37 ] . Even house keeping genes
-        are transferred between divergent species [ 37 ] .
-        Two possibilities exist for the horizontal transfer
-        scenario. Either the whole A-ATPase catalytic subunits was
-        transferred, or the intein alone spread as a selfish
-        genetic element. To discriminate between these two
-        scenarios, we constructed the phylogeny of the host protein
-        (Fig. 3a). The resulting phylogeny is in reasonable
-        agreement with the ribosomal rRNA phylogeny, the main
-        exception being the placement of 
-        Desulfurococcus. According to its 16S
-        rRNA this organisms is clearly classified as a
-        Crenarcheote; however, its ATPase catalytic subunit groups
-        with 
-        Thermococcus sp. The finding that the
-        host protein itself does not group the genus 
-        Thermoplasma with the 
-        Pyrococci suggests that the intein
-        alone was transferred between 
-        Thermoplasma and 
-        Pyrococcus, and that the sequence
-        similarity between the 
-        Thermoplasma and 
-        Pyrococcus catalytic subunits was
-        sufficient to allow homing into the same insertion
-        site.
-        The dispersion of the intein as a selfish genetic
-        element is consistent with the work of Goddard and Burt [
-        38 ] on the persistence of an intron with homing
-        endonuclease in yeast mitochondria. These authors studied
-        the distribution of empty target sites, and introns with
-        and without a functioning endonuclease gene among different
-        yeasts. They concluded that the long term persistence of
-        the intron depends on a cycle that begins with invasion of
-        the empty target site by an intron with the help of a
-        homing endonuclease encoded by an open reading frame within
-        the intron. However, once the intron containing allele is
-        fixed in the population, the endonuclease, which itself had
-        been the reason for the rapid spread of the intron in the
-        population, is no longer under selection, the endonuclease
-        becomes non-functional and is lost, resulting in an intron
-        without homing endonuclease activity. However, once the
-        endonuclease is lost the intron containing allele becomes
-        more likely to be replaced with an allele that has lost the
-        intron altogether and the cycle of invasion and successive
-        loss begins anew.
-        The process of intein homing is likely to depend on a
-        similar cycle; however, the time intervals for loss of the
-        intein are likely to be longer than the loss of the intron.
-        The A-ATPase and the V-ATPase inteins are located in the
-        most conserved part of the host gene. Any deletion of the
-        intein from the gene itself needs to be precise, because
-        any alteration of the amino acid sequence in the catalytic
-        site is likely to result in a non-functioning enzyme.
-        Comparative sequence analysis (Fig. 1) shows that the 
-        T. acidophilum and 
-        T. volcanium inteins do not contain
-        an endonuclease domain. Our search of the genomes of these
-        Archaea did not identify any endonucleases that might
-        function in homing. While the failure to identify a homing
-        endonuclease is not proof of absence, the presence of a
-        homing endonuclease acting in trans would be unprecedented
-        and has to be regarded as improbable. The cyclic reinvasion
-        model for long term persistence of a selfish genetic
-        element through homing [ 38 ] suggests that the small 
-        Thermoplasma intein evolved through
-        reduction from a large endonuclease containing intein
-        similar to the one found in the pyrococcal A-ATPase.
-        Apparently, the small intein has been persisting in the 
-        Thermoplasma A-ATPase since the split
-        between 
-        T. acidophilum and 
-        T. volcanium without the help of a
-        homing endonuclease.
-        The cyclic reinvasion model also explains why the
-        insertion site is in a region of very low substitution
-        rates: The high degree of sequence similarity surrounding
-        the integration point facilitates the intein transfer
-        between different populations and species using the homing
-        endonuclease. A more variable sequence surrounding the
-        integration point would restrict homing to members of the
-        same species, and would thus lower the chances for long
-        term survival of the intein.
+        In this report we have investigated the evolutionary
+        relatedness between three categories of proteins, the
+        retrovirus-like 
+        gypsy envelope proteins, the
+        baculovirus LD130 group of envelope-associated proteins,
+        and an insect cellular protein. Globally optimal sequence
+        alignments in combination with assessment of the
+        significance of the alignment scores resulted in striking
+        patterns of relatedness. Not only did our analyses link the
+        
+        gypsy -derived envelope proteins
+        together with a high level of significance as would be
+        predicted from studies of other 
+        gypsy genes [ 18], but it also linked
+        two of the major categories of the 
+        gypsy sequences to the baculovirus
+        ld130 group with similar levels of significance. In
+        addition, a cell-encoded protein from 
+        Drosophila showed relatedness at a
+        high level of significance to the baculovirus ld130 protein
+        group. The parameters we used as a basis for these analyses
+        were conservative with cut-off Z-score values
+        representative of at least 6 standard deviations above the
+        value for the randomized sequences. In addition to the
+        overall homology, a number of other features common to
+        members of this class of proteins were identified. These
+        included the predicted signal sequences and transmembrane
+        domains and a striking conservation surrounding a possible
+        protease cleavage site in the proteins that likely serve as
+        envelope fusion proteins [ 7]. In addition, predicted
+        coiled-coil domains in similar locations relative to the
+        cleavage site in a number of the sequences further suggest
+        both functional and structural similarities between members
+        of this protein group.
+        Concurrent with the preparation of this research for
+        publication, a similar study by Malik et al was reported [
+        23]. They also describe a relationship between the envelope
+        protein of gypsy retrovirus-like elements and the ld130
+        group of baculovirus envelope proteins. They identified the
+        predicted signal and transmembrane domains that we describe
+        in Fig. 3and the conserved region that we compare in Fig.
+        5. Their alignments also highlight the conservation of the
+        cysteine residues that we describe in Fig. 4.
+        Although our analyses convincingly indicate a
+        relationship between the insect cellular, 
+        gypsy , and baculovirus membrane
+        proteins, we can only speculate on the evolutionary pathway
+        leading to the presence of members of this set of proteins
+        in all three types of organisms. If homologs of the cg4715
+        gene are conserved among Diptera and Lepidoptera, the
+        interrelationship between members of the baculoviridae and
+        TED, the lepidopteran 
+        gypsy element capable of integrating
+        into both a host insect and a baculovirus genome, provides
+        a clear pathway via DNA recombination for the exchange of
+        members of the ld130 gene family between host cells,
+        baculovirus genomes, and the transposable element. Indeed,
+        a phylogenetic analysis of the envelope protein of these
+        elements reported by Malik et al [ 23] suggests that they
+        are derived from a monophyletic event that resulted from
+        their incorporation of a baculovirus envelope protein gene
+        in an ancestral member of these retrovirus-like
+        elements.
+        TED has features that suggest that it may have
+        specifically evolved to exploit a relationship with a
+        baculovirus and this may have facilitated its acquisition
+        of a baculovirus envelope protein gene. It is present as a
+        mid-level repeated element in its host insect genome (about
+        50 copies/genome) [ 19, 24], it encodes a set of proteins
+        (gag, pol, env) with features similar to those of
+        well-characterized retrovirus proteins [ 17] and it is
+        capable of producing virus-like particles [ 25]. A specific
+        example of TED's adaptation to baculovirus biology is the
+        presence of palindromes containing the baculovirus late
+        promoter element in its long terminal repeat [ 17, 24].
+        Evidence suggests that this results in the high level
+        transcription of the TED genome by the viral RNA polymerase
+        [ 17] and could lead to the production of TED virus-like
+        particles concomitant with the baculovirus late gene
+        expression. This would provide a novel two-pronged escape
+        mechanism from insects suffering from a fatal baculovirus
+        infection; TED might be passed to other insects as an
+        integrated transposable element in an infectious
+        baculovirus, or as an infectious retrovirus. Oral
+        transmission is the normal route for baculovirus infection
+        and has been reported for 
+        gypsy retrovirus-like
+        retrotransposons [ 15]. This strategy could elevate the
+        retrotransposon's potential to exchange genetic material
+        with the genomes of its viral and cellular hosts.
+        Members of the Ld130 family of baculovirus envelope
+        proteins have been demonstrated to mediate low-pH membrane
+        fusion [ 3]. In contrast, retroviruses normally enter cells
+        by receptor-mediated fusion at the cell surface (reviewed
+        in [ 26]) or by a combination of both receptor and low-pH
+        mediated events [ 27]. Despite the differing mechanisms of
+        cell entry, members of these two groups have been related
+        by a number of structural criteria [ 28]. The link that we
+        have described in this report and that of Malik et al [ 23]
+        suggests the possibility of a genetic relationship as
+        well.
       
       
-        Conclusion
-        The small intein in the 
-        Thermoplasma A-ATPase is closely
-        related to the endonuclease containing intein in the 
-        Pyrococcus A-ATPase. Phylogenies
-        constructed with the host protein (A-ATPase catalytic
-        subunit) and with 16S rRNA do not group these two organisms
-        together, suggesting that the A-ATPase intein spread
-        through horizontal gene transfer. The small intein has
-        persisted in 
-        Thermoplasma apparently without
-        homing. The 
-        T. acidophilum intein retains
-        efficient self-splicing activity when expressed in 
-        E. coli. This activity does not
-        depend on the physicochemical conditions in the 
-        T. acidophilum cytoplasm.
+        Conclusions
+        The relatedness of a class of low pH-dependent
+        baculovirus envelope fusion proteins to envelope proteins
+        of 
+        gypsy retrovirus-like elements was
+        demonstrated to be highly significant. Transposon mediated
+        exchange provides a documented pathway for the movement of
+        this gene between insect cells, and two different types of
+        viruses.
       
       
         Materials and Methods
-        
-          Plasmid constructs
-          The 
-          T. acidophilum A-ATPase A subunit
-          encoding gene was amplified from genomic DNA using
-          primers Ta-4 (ATGGATCCTTCTCAACGAAGAGCAGTG) and Ta-5
-          (GAGGTGAACATATGGGAAAGATAATCAG). These primers match the
-          coding sequence of the 
-          Thermoplasma acidophilum A-ATPase A
-          subunit (gene identification number 9369337) and
-          introduce restriction sites useful in subcloning.
-          Initially, the PCR product was cloned into pCR R2.1 (TA
-          cloning Vector, Invitrogen). After digestion with 
-          Nde I and 
-          BamH I the coding sequence was
-          subcloned to the vector pET-11a (Stratagene) for gene
-          expression experiments.
-        
-        
-          Protein expression and determination
-          
-          E. coli Bl21(DE3) and
-          Bl21-CodonPlus(DE3)-RIL strain (Stratagene) were used for
-          protein expression. If not stated otherwise, transformed 
-          E. coli were grown overnight in a
-          culture wheel at 37°C in Luria-Bertani broth with
-          ampicillin (100 μg/mL). One mL of the broth was used to
-          inoculate 10 mL of LB broth containing ampicillin and
-          incubated at 37°C (200 rpm). After 2 hours, isopropyl
-          thio-β-D-galactoside (IPTG) was added to a final
-          concentration of 1 mM to induce gene expression and the
-          cultures. Cells were harvested 4 hours after induction by
-          centrifugation at 7000 rpm for 10 min and washed with TEP
-          buffer (0.1 M Tris-HCl, pH 7.4, 0.01 M EDTA and 1 mM
-          phenyl methyl sulfonyl fluoride). Cells were resuspended
-          in 500 μL of TEP buffer and sonicated with a Braun-Sonic
-          U with micro-tip for 4 minutes (0.5 duty cycle; power
-          output approximately 120). The disrupted cells were
-          centrifuged at 8000 rpm and the pellet was resuspended in
-          500 μL of fresh TEP buffer. Both the supernatant and the
-          pellet were diluted by adding 6X sample buffer (10% SDS,
-          1.2 mg/mL bromphenol blue, 0.6 M DTT, 30% glycerol, .1 M
-          Tris/HCl pH 6.8) and heated to 80°C for 15 minutes to
-          denature the protein. Five to fifty microliters of this
-          preparation were run in a 10% denaturing Tris/Tricine SDS
-          polyacrylamide gel electrophoresis system as described by
-          Schagger and von Jagow [ 42 ] .
-          Non-denatured protein was prepared with the same
-          procedure except that SDS was omitted from the buffers
-          and that the samples were not heated. Proteins were
-          electroeluted from the non-denaturing gel as describe
-          here [ 24 ] . Gels were fixed with fixing solution (50%
-          methanol, 10% acetic acid) for 15 minutes, followed by
-          staining in Coomassie staining solution (20% acetic acid,
-          0.025% Coomassie blue G-250) for one hour, followed by
-          destaining in destaining solution (5% methanol, 10%
-          acetic acid) [ 42 ] .
-        
-        
-          DNA sequencing and cloning
-          DNA was sequenced using the ABI PRISM BigDye
-          Terminator Cycle Sequencing (PE Applied Biosystems).
-          Sequencing gels were ran and processed in the Biotech
-          Center (University of Connecticut)
-        
-        
-          Codon usage
-          The program Codon Usage Tabulated from GenBank (CUTG)
-          at http://www.kazusa.or.jp/codon/ [ 43 ] was used to
-          calculate the codon usage of individual genes and
-          genomes.
-        
-        
-          Sequence retrieval, alignment and phylogenetic
-          reconstruction
-          The 
-          Pyrococcus furiosus A-ATPase
-          sequence was retrieved via blastp from the unfinished
-          genome using the web page
-          http://combdna.umbi.umd.edu/bags.html. The aligned small
-          subunit ribosomal RNA sequences were retrieved from the
-          Ribosomal Database Project II http://rdp.cme.msu.edu [ 44
-          ] . Francine Perler (New England Biolabs) the curator of
-          the intein database
-          http://www.neb.com/inteins/int_reg.htmlkindly provided
-          the sequences of all known inteins. All the other
-          sequences were retrieved from the NCBI databank.
-          Sequences were aligned using CLUSTAL X 1.8 [ 45 ] .
-          The number of substitutions per site in the aligned data
-          set were calculated using a JAVA program written by Olga
-          Zhaxybayeva (University of Connecticut). This program
-          calculates and plots the number of substitutions in a
-          sliding window of 10 aligned positions. The window is
-          moved through the alignment one position at a time. For
-          positions where less than 50% of the sequences have a
-          gap, the average number of substitutions was calculated
-          considering the gap as an additional character. Positions
-          with gaps in more than 50% of the aligned sequences were
-          skipped.
-          Phylogenies were reconstructed from amino acid
-          sequences aligned using CLUSTAL X 1.8 [ 45 ] . The
-          topologies of the depicted trees were calculated using
-          neighbor joining as implemented in CLUSTAL X with
-          correction for multiple substitutions. Branch lengths and
-          their confidence intervals were calculated with
-          TREE-PUZZLE 5.0 [ 46 ] using the JTT or the HKY model for
-          substitution respectively, and assuming an among site
-          rate variation described by a gamma distribution.
-          Bootstrap samples were analyzed using parsimony as
-          implemented in PAUP* 4.0 beta 8 [ 47 ] treating gaps as
-          missing data. Each bootstrapped sample was analyzed using
-          10 different starting trees built through random
-          addition, tree-branch-reconnection (TBR) branch swapping,
-          and considering gaps as missing data. The following
-          sequences were used for the 16S rRNA phylogeny (the
-          sequences are available under these names from the
-          Ribosomal Database Project II http://rdp.cme.msu.edu/:
-          Sul.solfa4, Sul.acalda, Ap.pernixl, Mc.thlitho,
-          Mc.janrrnA, Mb.tautot2, Pc.furios2, Pc.abyssi, AP000001,
-          AB016298, Tpl.acidop, Arg.fulgid p, Hf.volcani,
-          Hb.spCh2_2, Hb.salina2, Msr.mazei5, Msr.barke2,
-          Dco.mobili.
-        
+        Blast searches were performed using the Gap-Blast search
+        engine [ 29]. Sequence alignments were performed with the
+        program SEQUOIA by C.M Bruns which is available on the web
+        at http://www.scripps.edu/∼bruns/sequoia.html. SEQUOIA uses
+        a conventional dynamic programming algorithm based on the
+        work of Needleman and Wunsch [ 30] to find the globally
+        optimal alignment given a particular residue comparison
+        matrix and gapping model. The statistical significance of
+        the optimal alignment was assessed by calculation of their
+        Z-score. The Z-score is derived by comparison of an
+        observed alignment score with the distribution of scores
+        obtained for alignments after one of the sequences was
+        shuffled to create a random sequence with the same amino
+        acid composition. 100 shuffles were carried out for each
+        sequence comparison and the significance was measured
+        relative to the mean and standard deviation of scores from
+        the shuffled sequences. Quantitatively, the Z-score is
+        defined as the number of standard deviations of the
+        observed score above the mean of the shuffled scores and is
+        determined by the following equation:
+        Z-score = Observed score - mean shuffled score/Standard
+        deviation of shuffled scores
+        In the work we describe here, alignments were done using
+        a gap penalty of 10 and the BLOSUM62 scoring matrix [ 31].
+        An additional important feature of SEQUOIA is that a
+        "sequence" need not be just a single sequence, but can be a
+        prealigned family of sequences that are treated as a
+        unit.
       
     
   

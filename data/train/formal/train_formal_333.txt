@@ -3,721 +3,574 @@
     
       
         Background
-        Repetitive sequences present many difficulties for
-        genome sequencing and analysis. The presence of large
-        numbers of repeats often confounds sequence assembly,
-        especially if the repeats are long and highly conserved.
-        The presence of low copy-number repeats can also confound
-        assembly, especially for whole-genome shotgun sequencing
-        projects [ 1]. Once a genome has been assembled, repeats
-        take on a new and more important role involving their
-        biological function. Certain classes of repeats, such as
-        transposons, perform a function by allowing mobile elements
-        to move around a genome. Other classes belong to less
-        well-defined categories with respect to their role, though
-        they may be even more ubiquitous. Repetitive sequences
-        appear to dominate the centromeres of many eukaryotes [ 2],
-        and telomeric and subtelomeric repeats extend for thousands
-        or tens of thousands of nucleotides at the ends of
-        chromosomes. These repeats also appear elsewhere in the
-        genome, for reasons as yet unknown. For these and other
-        reasons, it is critical to both the assembly and analysis
-        of genomic sequences to identify and characterize
-        repetitive sequence elements.
-        There are numerous computational methods for detecting
-        repeats, in one form or another, in genomic DNA sequences.
-        These include algorithms that locate repeated substrings,
-        including tandem repeats [ 3, 4, 5, 6], as well as programs
-        for identifying known repeats, such as the widely-used
-        RepeatMasker [ 7]. RepeatMasker uses a database of known
-        repeat sequences and implements a string-matching algorithm
-        to find copies of those repeats in a new sequence. A more
-        rapid implementation of the same approach is MaskerAid [
-        8], a wrapper for WU-BLAST [ 9, 10] that uses the BLAST
-        engine instead of the CrossMatch algorithm. Most of these
-        tools have some restriction on the maximum length of the
-        input sequence, which limits their use to sequences
-        considerably smaller than the size of a eukaryotic
-        chromosome. Recently, however, new systems based on suffix
-        trees, such as RepeatMatch (based on MUMmer [ 11]) and
-        REPuter [ 12, 13], have overcome this size limitation, at
-        least for biologically realistic input sizes. Both
-        RepeatMatch and REPuter are highly efficient computational
-        tools that can find all exact repeats in sequences as long
-        as complete eukaryotic chromosomes - 10-100 megabases (Mb).
-        The output of these systems, however, while accurately
-        representing the long list of positions of exact repeats,
-        does not provide any overview or summary of the repetitive
-        structure of the sequence. The REPuter system includes a
-        visualization tool to generate repeat graphs, which are
-        useful for identifying the positions of repeats, but this
-        does not provide an overview of the exact and non-exact
-        repeats in a genome. Figure 1shows an example of a repeat
-        graph [ 12] for a short DNA sequence.
-        Examining the output of REPuter and RepeatMatch for a
-        complete bacterial genome, it quickly becomes obvious that
-        many exact repeats are non-exact copies of one another.
-        Whether a genome is a few or hundreds of megabases in
-        length, the task of recognizing and describing how repeats
-        resemble one another at this scale is too complicated to
-        accomplish manually.
-        Here we describe a new system for the recognition of
-        repeat classes in genome sequences. This system,
-        RepeatFinder, is freely available from our website [ 14].
-        In contrast to approaches that cluster together the results
-        of BLAST searches (for example, Z.H. Bao and S. Eddy,
-        unpublished data) our algorithm uses a comprehensive set of
-        exact repeats as the basis for constructing repeat classes.
-        It relies on the efficient suffix tree data structure for
-        identification of exact repeats, which permits rapid
-        identification of repeat classes even in sequences
-        containing tens of millions of nucleotides. The algorithm
-        does not make any prior assumptions about the number or
-        structure of the classes. At its core is a merging
-        procedure that produces the actual members of each repeat
-        class using merging criteria described below, and it also
-        builds a repeat map of the genome sequence.
-        We have applied this system to several complete
-        microbial genomes [ 15, 16, 17, 18, 19, 20, 21], to the
-        complete 
-        Arabidopsis thaliana genome [ 2], and
-        to a large collection of rice bacterial artificial
-        chromosome (BAC) end sequences [ 22, 23]. The results of
-        this analysis are described below. The output of the system
-        gives a clear picture of all repeat classes identified in a
-        genome or a sequence collection. It provides
-        straightforward access to the actual repeat sequences as a
-        multi-fasta file, simple statistical analyses of the
-        results, and a procedure for identifying each class's most
-        representative element. We describe here the computational
-        techniques used in the system and demonstrate its use on
-        several different genome sequences.
+        Reversible protein phosphorylation is gaining
+        recognition as a potentially important mechanism of
+        post-translational regulation in protozoan parasites,
+        especially those belonging to the 
+        Apicomplexan family. The
+        dephosphorylation of phosphoproteins is universally
+        catalyzed by protein phosphatases that are classified into
+        two major functional groups, protein tyrosine phosphatase
+        (PTP) and protein serine/threonine phosphatase (PP)
+        although enzymes with various degrees of dual-specificity
+        are also encountered [ 1 2 3 4 5 ] . The majority of
+        Ser/Thr phosphatases belong to three classical groups,
+        namely PP1, PP2A, and PP2B (calcineurin), and possess
+        similar primary structures in their catalytic cores [ 2 3 6
+        ] . PP1, in particular, exhibits an extremely high degree
+        of sequence conservation through evolution, and its
+        orthologs and isoforms are found in all eukaryotic cells [
+        6 7 ] . In various organisms, PP1 regulates such diverse
+        cellular processes as cell cycle progression, protein
+        synthesis, carbohydrate metabolism, transcription, and
+        neuronal signaling [ 3 7 ] , underscoring its profound
+        importance in biology. The PP1 and PP2A phosphatases are
+        differentially affected by natural toxins such as okadaic
+        acid (OA) and microcystin-LR. For example, the
+        characteristic IC 
+        50 values for OA fall in the range:
+        PP2A, 1-5 nM, PP1, 20-80 nM, whereas PP2B is highly
+        resistant to both [ 2 3 7 ] . In contrast, tautomycin
+        affects PP1 and PP2A nearly equally, but fails to inhibit
+        other phosphatases [ 8 ] .
+        In the past few years, a number of phosphatase
+        activities and putative sequences have been reported in 
+        P. falciparum [ 9 ] . These include a
+        PP2A [ 10 ] , a PP2B-like activity [ 10 ] , a unique
+        chimeric PP2C [ 11 ] , two putative sexual-stage
+        phosphatases - PPα [ 12 ] and PPβ [ 13 ] , and a
+        tetratricopeptide repeat-containing phosphatase, PP5 [ 14 ]
+        . Preliminary studies revealed the presence of a protein
+        phosphatase activity in crude extracts of RBC-grown 
+        P. falciparum that exhibited
+        toxin-sensitivity resembling that of PP1 [ 15 ] .
+        Uninfected RBC, in contrast, possessed mainly a PP2A-like
+        activity. Because of its potential importance in a variety
+        of signalling pathways of the parasite, we have turned our
+        attention to defining the PP1 phosphatase and its
+        regulation in 
+        P. falciparum .
+        In this communication, we report the exact sequence of a
+        PP1 cDNA in 
+        P. falciparum , the corresponding
+        gene sequence in 
+        P. falciparum chromosome 14, the
+        enzymatic properties of the recombinant enzyme, and its
+        inhibition by mammalian physiological PP1-inhibitors,
+        namely, inhibitor-1 (I-1) and inhibitor-2 (I-2).
+        Post-transcriptional gene silencing using synthetic short
+        interfering RNA (siRNA) molecules has been recently used to
+        ablate specific mRNAs and thus, produce phenotypic
+        mutations in specific genes [ 16 17 ] . We have adopted
+        this technology to knockdown specific gene products in RNA
+        viruses that are obligatory intracellular parasites [ 18 ]
+        . In the present study, we have successfully used a similar
+        strategy to generate phenotypic PP1-deficient 
+        P. falciparum parasites.
       
       
-        Results and discussion
+        Results and Discussion
         
-          Algorithm description
-          Our algorithm is based on first identifying all exact
-          repeats in the input sequence, and then defining repeat
-          classes by merging and extending these short exact
-          matches. An exact repeat is represented by pair of
-          coordinates ( 
-          A 
-          1 , 
-          A 
-          2 ) delimiting its location in the
-          genome sequence, and by the repeat length 
-          l. We implemented an algorithm that
-          uses either of two suffix tree methods, RepeatMatch [ 11]
-          or REPuter [ 12] to determine all the exact repeats in a
-          given sequence. (For more on suffix trees see [ 24].) The
-          computational time and space requirements for both these
-          systems are linear in the size of the input sequences, an
-          essential requirement for any algorithm attempting to
-          process whole eukaryotic genomes. The subsequent
-          clustering procedure merges neighboring repeats and
-          groups them into classes. The input to the system can be
-          either a single genome sequence or a set of sequences.
-          The clustering procedure consists of the following steps,
-          which are described in more detail below.
-          Step 1: Selection and pre-processing. The list of
-          coordinates of all exact repeats as output by RepeatMatch
-          or REPuter can be interpreted as a partition of the
-          original genome sequence. (The output of RepeatMatch and
-          REPuter are very similar. We used REPuter in the example
-          and in the subsequent repeat analyses of microbial
-          genomes; for the 
-          A. thaliana genome and and the rice
-          BAC end-sequence data we used RepeatMatch.) Each
-          partition point has a reference to the pair coordinates (
-          
-          A 
-          1 , 
-          A 
-          2 ) and the repeat length 
-          l. Each repeat corresponds to at
-          least two partition points. Some repeats can be found in
-          the sequence more than twice, and the corresponding
-          partition points can appear with different coordinates
-          and different lengths. To prepare the data for the
-          merging procedure, we sort the list of partition points
-          in increasing order, and in the case of duplicate first
-          coordinates, in increasing order of second coordinates.
-          (The clustering algorithm is order-independent; however,
-          the linear nature of repeat data allows us to use this
-          pre-processing step to simplify the clustering procedure
-          without affecting the final clusters.) In particular
-          cases it is useful to filter the original repeat data to
-          remove certain types of repeats; for example, simple
-          one-base (homopolymeric) or two-base repeats.
-          Step 2: Merging procedure. In outline, this procedure
-          works by repeatedly merging together two exact repeats
-          that either overlap or that occur within a limited
-          distance (a gap) of each other. Specific values for the
-          overlap and gap distance can be specified for each genome
-          sequence. Whether the algorithm is merging repeats that
-          overlap (Figure 2c), or merging repeats separated by a
-          gap (Figure 2b), the new merging repeats will always have
-          the property that significant subsequences of the repeat
-          appear at least twice in the genome sequence.
-          At the time of merging procedure, we generate a repeat
-          map of the genome sequence. This map is based on a
-          linked-list data structure, which allows for rapid and
-          simple modifications to the dynamically changing repeat
-          data. Every merging repeat in the map is linked by
-          pointers to all the merging repeats with which it shares
-          exact repeats.
-          Step 3: Classification. This step defines the repeat
-          classes. Each merging repeat will be assigned to a
-          specific class if its list of references (that is, the
-          repeats that were combined into the merging repeat)
-          contains at least one repeat that already belongs to the
-          class. If a merging repeat has references that belong to
-          multiple distinct classes, then those classes are
-          combined into one. If a merging repeat contains no
-          references to an existing class, then the merging repeat
-          forms a new class.
-          Step 4: BLAST searches and repeat class updates. The
-          initial classification is based on exact repeats. To
-          merge together similar but non-exact repeats, we use
-          WU-BLAST [ 9, 10] to search all merging repeats against
-          all others. The resulting matches between the classes are
-          used as input to an update procedure which redistributes
-          all merging repeats into new classes. It is possible to
-          skip this step if the initial repeat set contains
-          approximate rather than exact repeats.
+          Identification of the PfPP1 cDNA sequence
+          Various pairs of oligodeoxynucleotide primers were
+          designed on the basis of the PlasmoDB-predicted mRNA
+          sequence (Gene chr14_1.phat_133), and employed in reverse
+          transcription-PCR (RT-PCR) amplification using Pf3D7
+          total mRNA as template. Based on the prediction, primers
+          5'ATGGCATTAGAAATAGATATAGATAATG 3'(primer A in Fig. 1, the
+          start codon in bold) and 5'TTATTTCCGACAAAAAGAAATATATGG
+          3'were first tested, but no product was obtained. Since
+          there was no other ATG within a reasonable distance
+          upstream that was in the same reading frame, we proceeded
+          on the assumption that the 3'-end of the mRNA might be
+          different. Thus, the second primer was replaced by a
+          series of nested primers (based on the genomic sequence),
+          each of which was paired with primer A in RT-PCR. The
+          combination of primer A and the primer
+          5'TTTTTTAATTTGCTGCTTTCTTTTTTTCC 3'(Fig. 1) eventually
+          produced a RT-PCR product that was cloned into pGEM-T
+          vector and sequenced. The cDNA sequence contained a
+          915-nucleotide long open reading frame corresponding to a
+          polypeptide 304 amino acid in length and ending with a
+          TAA stop codon.
+          Comparison of the cDNA sequence with the genomic
+          sequence (in Chromosome 14 at TIGR) revealed that the
+          coding sequence is divided into five exons, of which the
+          first two are the largest and contain most of the
+          catalytic core of the phosphatase (Fig. 1and 2). The
+          intron sequences are pronouncedly more AT-rich than
+          exons, and contained homopolymeric repeats, a feature
+          which, in our experience, is common in 
+          Plasmodium genes.
+          BLAST analysis of the predicted primary structure of
+          the protein revealed its clear identity with the PP1
+          class (Fig. 2). It is to be mentioned that among all the
+          Ser/Thr phosphatases, PP1 has been subjected to the most
+          extensive structure-function analysis [ 19 20 21 22 23 24
+          25 26 ] . In fact, it was one of the first phosphatases
+          for which the three-dimensional structure was solved [ 26
+          27 ] . A representative alignment in Fig. 2demonstrates
+          the high sequence conservation between the human and 
+          Plasmodium PP1 sequences. The
+          catalytic core of all members of the PP1 and PP2 families
+          are very conserved, and roughly corresponds to residues
+          5-260 of PfPP1 (Fig. 2). This region contains all the
+          signature motifs and conserved residues that have been
+          shown to be important for the fundamental steps of
+          catalysis, including substrate binding, metal ion
+          coordination, and interaction with the phosphate group [
+          19 26 27 28 ] . It is to be noted that at 304 amino acid
+          residues, PfPP1 is the shortest PP1 known to date, and
+          lacks a short proline-rich stretch at the C-terminal end
+          (Fig. 2).
         
         
-          Step 1: Pre-processing
-          In this step, the output from REPuter or RepeatMatch
-          is used to partition the original genome sequence. For
-          each repeat starting at coordinates 
-          A 
-          1 and 
-          A 
-          2 with length 
-          l , this list will include both ( 
-          A 
-          1 , 
-          A 
-          2 , 
-          l ) and ( 
-          A 
-          2 , 
-          A 
-          1 , 
-          l ). The list is then sorted by
-          first and by second coordinates. To illustrate the
-          method, we use the example shown in Figure 1. The table
-          on the left in Figure 3shows all seven pairs of repeats,
-          while the right table shows the corresponding sorted
-          partition points.
+          Expression and catalytic properties of PfPP1
+          In order to characterize the PfPP1 cDNA we subcloned
+          it into pET-15b such that the protein is expressed with
+          an N-terminal (His) 
+          6 -tag. As shown in Fig. 3, a protein
+          band of approximately 37,000 Mr was produced from the
+          pET-15b-PfPP1 clone, which is in agreement with the
+          predicted molecular weight of 34,904 of PfPP1 and roughly
+          another 2,000 added for the (His) 
+          6 region of pET-15b (Novagen: Madison,
+          WI). The protein specifically reacted with a monoclonal
+          anti-His antibody and also with a polyclonal antibody
+          against full-length human PP1 (Transduction Laboratories:
+          Lexington, KY). The recombinant protein was purified
+          through nickel-chelation chromatography and tested for
+          phosphatase activity. It dephosphorylated the small
+          substrate 
+          p NPP, as well as histone, labelled
+          at Ser residues. Interestingly, it also showed decent
+          activity on a Tyr-phosphorylated synthetic peptide. The V
+          
+          max values (μmol Pi liberated / mg
+          enzyme/ min) against these three substrates (pNPP,
+          phosphoserine-histone, phosphotyrosine peptide) were,
+          respectively: 12 +2, 8 +1, and 2 +0.5. An equivalent
+          protein fraction, obtained from 
+          E. coli containing vector alone
+          (without insert), showed no activity against any of these
+          substrates. It has been recently shown that rabbit PP1,
+          expressed in 
+          E. coli , also possessed Tyr
+          phosphatase activity. In contrast, native PP1 isolated
+          from rabbit muscle or expressed in Sf9 insect cells
+          contained only Ser/Thr phosphatase activity but no Tyr
+          phosphatase activity [ 24 ] . It was concluded that this
+          apparent difference might be due to subtle changes in
+          protein folding in eukaryotic versus prokaryotic cellular
+          environments. It remains to be seen whether this is a
+          general feature of all PP1.
+          To obtain biochemical evidence for the identity of the
+          recombinant PfPP1, we tested the effect of specific
+          phosphatase inhibitors and selected mutations on the
+          phosphatase activity. Mutation of Asn122 to Asp by
+          site-directed mutagenesis destroyed the phosphatase
+          activity, confirming the essential role of this residue
+          of PP1 in catalysis [ 19 ] . PfPP1 was inhibited by NaF,
+          inorganic orthophosphate, and pyrophosphate at respective
+          IC 
+          50 values of 2.5 mM, 10 mM, and 90 μM
+          (data not shown). Similar values were recently obtained
+          for 
+          Arabidopsis PP1 [ 8 ] . PfPP1 was
+          also inhibited by tautomycin, I-1, I-2, and OA with IC 
+          50 values of 0.8, 400, 7, and 100 nM,
+          respectively (Fig. 4). These values are comparable to
+          those obtained with various PP1 isoforms recombinantly
+          expressed in 
+          E. coli [ 25 29 ] . The sensitivity
+          of PfPP1 to these natural toxins is consistent with the
+          fact that the loop sequence between the β12 and β13
+          regions plays a direct role in binding these toxins [ 23
+          26 ] , and this sequence is entirely conserved in PfPP1
+          (Fig. 2). Recently, a few additional residues that are
+          closer to the N-terminus in the PP1 sequence have also
+          been shown to be important in the interaction with I-2 [
+          24 ] ; in PfPP1 numbers, these residues are: E52, E54,
+          and D164, E165, K166 (Fig. 2). In yeast PP1 (Glc7p), the
+          double mutant E52A/E54A and the triple mutant
+          D164A/E165A/K166A showed IC 
+          50 values for I-2 that were
+          respectively 8 and 300 times the wild type enzyme values
+          [ 24 ] . As shown in Fig. 4, a similar loss of inhibition
+          by I-2 was also observed when the corresponding mutations
+          were introduced into PfPP1, although they did not affect
+          the catalytic activity (specific activity) (data not
+          shown). Together, these results provide experimental
+          confirmation of the catalytic identity of PfPP1.
         
         
-          Step 2: Merging and repeat map generation
-          Using the list of partition points, we begin merging
-          exact repeats using the following criteria. Given two
-          partition points 
-          p 
-          1 = ( 
-          A 
-          1 , 
-          A 
-          2 , 
-          l 
-          
-            A 
-           ) and 
-          p 
-          2 = ( 
-          B 
-          1 , 
-          B 
-          2 , 
-          l 
-          
-            B 
-           ) where 
-          A 
-          1 < 
-          B 
-          1 , we compute the distance between
-          the non-overlapping repeats as
-          
-          d ( 
-          p 
-          1 , 
-          p 
-          2 ) = max (0, 
-          B 
-          1 - 
-          A 
-          1 - 
-          l 
-          
-            A 
-           + 1).
-          Next, given a maximum gap size 
-          G > 0, the 'merging with gap'
-          protocol uses the rule that sequences corresponding to 
-          p 
-          1 and 
-          p 
-          2 are merged if
-          
-          d ( 
-          p 
-          1 , 
-          p 
-          2 ) < 
-          G. 
-          The 'merging with overlap' protocol only merges
-          sequences that overlap one another; that is they are at
-          least partially identical. We denote the overlap of two
-          sequences as
-          0( 
-          p 
-          1 , 
-          p 
-          2 ) = max (0, 
-          A 
-          1 + 
-          l 
-          
-            A 
-           - 
-          B 
-          1 + 1) for 
-          A 
-          1 < 
-          B 
-          1 
-          Then the criterion for 'merging with overlap' is as
-          follows: given a minimum overlap proportion 
-          op, where 0 ≤ 
-          op ≤ 1, repeat points ( 
-          A 
-          1 , 
-          A 
-          2 , 
-          l 
-          
-            A 
-           ) and ( 
-          B 
-          1 , 
-          B 
-          2 , 
-          l 
-          
-            B 
-           ) are merged if at least one of the four repeats has
-          overlap satisfying
-          0 ( 
-          p 
-          1 , 
-          p 
-          2 ) > 
-          op min ( 
-          l 
-          
-            A 
-           , 
-          l 
-          
-            B 
-           ).
-          The parameter 
-          op is interpreted as a fraction of
-          the shorter of the two repeats. Thus for 
-          op = 0.75, we will merge two
-          overlapped sequences if the length of their overlap is at
-          least 75% of the length of the shorter sequence.
-          Using either merging procedure, if two sequences are
-          merged then the new sequence will be defined as a merging
-          repeat with starting position 
-          M = 
-          A 
-          1 and with length 
-          l 
-          
-            M 
-           = max ( 
-          A 
-          1 + 
-          l 
-          
-            A 
-           , 
-          B 
-          1 + 
-          l 
-          
-            B 
-           ) - 
-          A 
-          1 . The merging procedure is not
-          permitted to merge pairs of partition points of the form
-          ( 
-          B 
-          1 , 
-          B 
-          2 , 
-          l 
-          
-            B 
-           ) and ( 
-          B 
-          2 , 
-          B 
-          1 , 
-          l 
-          
-            B 
-           ). This condition avoids merging of tandem repeats
-          and avoids repetitiveness within the merging repeats.
-          On the left side of Figure 4we illustrate the merging
-          procedure using a merging with 
-          G = 1. Dark gray rectangles mark
-          the start coordinates of merging repeats. The extent of
-          each merging repeat is shown by dividing sets of repeats
-          using horizontal lines.
-          This procedure, by updating and creating new
-          references, leads to the repeat map shown on the right of
-          Figure 4. These references define the correspondences
-          between all merging repeats. Each merging repeat
-          maintains references to the other merging repeats with
-          which it shares exact repeats; each exact repeat is
-          assigned to the first merging repeat in which it appears.
-          In our example, the merging repeat starting in coordinate
-          77 gets a reference to itself only, because its exact
-          repeats have no previous references. The next repeat,
-          starting in position 116, gets a reference to itself and
-          to its mate the merging repeat 77. A data structure
-          stores with each merging repeat its start coordinate, its
-          length ( 
-          l 
-          
-            M 
-           ), the number of exact repeats it includes ( 
-          n 
-          
-            M 
-           ), and a list of references to itself and to other
-          repeats ( 
-          R 
-          1 , 
-          R 
-          2 , 
-          R 
-          3 ).
+          Expression of native PfPP1
+          As mentioned earlier, inhibition studies using OA and
+          calyculin A suggested the existence of a PP1-like
+          activity in 
+          P. falciparum extracts [ 15 ] .
+          However, our attempts to purify the native PfPP1 enzyme
+          by chromatographic procedures resulted in only small
+          amounts of activity, probably due to rapid inactivation
+          during fractionation. To determine if PfPP1 is expressed
+          in 
+          Plasmodium , we have, therefore,
+          taken an immunological approach. First, cell-free
+          extracts of different erythrocytic stages of 
+          P. falciparum were subjected to
+          Western blot using a monoclonal antibody that was raised
+          against nearly full-length human PP1 and showed a broad
+          species specificity (see Materials and Methods). As shown
+          in Fig. 5A, a major band of the expected size of 35 k was
+          observed in all stages including gametes. A peptide
+          antibody, specific for human PP1 (Materials and Methods),
+          did not detect the band. The gametogenesis was confirmed
+          by the appearance of Pfg27, an early gamete-specific
+          protein [ 30 ] . Having demonstrated that the monoclonal
+          antibody was specific for PP1, we used it in an attempt
+          to inhibit PfPP1 activity 
+          in vitro . At optimal
+          concentrations, the antibody almost completely inhibited
+          (90% inhibition) recombinant PfPP1 (including its Tyr
+          phosphatase activity), and also inhibited the phosphatase
+          activity of the 
+          P. falciparum extract by about 70%
+          (data not shown). Under the same conditions, the
+          human-specific antibody had no effect. Finally, it has
+          been shown that affinity resins containing immobilized
+          microcystin specifically bind toxin-sensitive
+          phosphatases such as PP1 and PP2A [ 31 ] . Thus, we
+          passed soluble cytosolic Pf extract through
+          microcystin-Sepharose, and the bound proteins were
+          analyzed on SDS-PAGE followed by immunoblot using the
+          anti-PP1 antibody. The blot revealed that the 35 kDa
+          PfPP1 polypeptide indeed specifically bound to
+          microcystin (Fig. 5B), correlating the antigenic
+          reactivity of PfPP1 with its affinity for the toxin.
+          Pre-incubation of the extract with microcystin
+          specifically prevented binding of PfPP1 to the
+          column.
         
         
-          Step 3: Classification
-          Given the repeat map, we can begin to define classes
-          by noting that if a merging repeat has at least one
-          reference in common with another, then they belong to the
-          same class. Figure 5illustrates one step in this
-          procedure. The merging repeat ( 
-          M, l 
-          
-            M 
-           = (126,8) has two common references in two different
-          classes, class 1 and class 5. These classes are then
-          combined together into a new class 1, which contains all
-          references from both the original classes.
-        
-        
-          Step 4: BLAST searches and further merging
-          For this step, the most time-consuming part of the
-          algorithm, we use the underlying sequences of the merging
-          repeats, and run a BLAST search of all sequences against
-          all others. Classes are merged if any of their underlying
-          sequences have a BLAST 
-          E -value less then a user-specified
-          threshold when compared to any sequence in another class.
-          If a class appears in multiple similarity pairs, all
-          these similar classes are merged with the original class.
-          For the example in Figure 4, BLAST searches do not reveal
-          any new similarity pairs; thus the classification from
-          the figure is identical to the final classification
-          (Table 1).
-        
-        
-          Repeat analysis of microbial genomes
-          We used our repeat clustering algorithm to analyze
-          several complete microbial genomes. Table 2summarizes the
-          repeat analysis for the 
-          Neisseria meningitidis genome [ 20]
-          using two different clustering criteria. It illustrates
-          how increasing the exact repeat size in the initial step
-          leads to fewer merging repeats and fewer classes. It also
-          shows how reducing the size of the gap and increasing the
-          required overlap increases the number of repeat classes,
-          as would be expected.
-          For a more comprehensive repeat analysis, we chose
-          seven different microbial genomes, using 25 base pairs
-          (bp) as the minimal exact repeat length and allowing less
-          than a 25 bp gap for the merging procedure. Table 3shows
-          the results for these genomes. It presents the number of
-          merging repeats, the number of repeat classes, the
-          longest single merging repeat, and the number of classes
-          containing more than two members. As shown here, these
-          latter classes comprise only 10-25% of all repeat
-          classes, indicating that most repeat types are simple
-          duplications. Among these duplication, the vast majority
-          occur in tandem, although this is not shown in Table 3.
-          The picture given here shows how repeat analysis can
-          quickly provide an overall picture of how repetitive a
-          genome is; in addition, the analysis extracts the repeats
-          themselves for further analysis.
-        
-        
-          Defining the prototype for a repeat class
-          Small microbial genomes have relatively few types of
-          repeats, and relatively few copies of each type. In
-          contrast, our studies of longer eukaryotic genome
-          sequences have uncovered tens of thousands of repeat
-          classes and hundreds of thousands of merging repeats. In
-          order to be able to process this data efficiently - in
-          particular, in order to run the procedure where all
-          classes are compared against each other using BLAST - we
-          developed a procedure to define the most representative
-          element for each class, which we call its prototype.
-          Referring to the repeat map shown in Figure 5, we use
-          the length of the merging repeat ( 
-          l 
-          
-            M 
-           ) and the number of exact repeats ( 
-          n 
-          
-            M 
-           ) to defined the desirable properties for the
-          prototype. The different merging protocols affect the
-          properties of the prototype. Thus, in the 'merging with
-          gap' procedure, the merging repeats with the longest
-          lengths and with the greatest number of subrepeats should
-          be the best candidates to represent the class. In this
-          case, many members will consist of simple subsequences of
-          the prototype. When we use the 'merging with overlap'
-          procedure, we also look for the greatest number of
-          subrepeats, but the length of the most representative
-          repeat should be closer to the shortest repeat in the
-          class. In this case the representative element will tend
-          to match across most of its length to every member of the
-          class.
-          Using these considerations, we can construct the
-          objective function for both cases. For each class, given
-          the merging repeat length 
-          l ( 
-          l 
-          
-            M 
-           ) and number of subrepeats 
-          n ( 
-          n 
-          
-            M 
-           ), the maximum and the minimum repeat lengths in the
-          class ( 
-          l 
-          max and 
-          l 
-          min ), and the maximum and the minimum
-          number of subrepeats in the class ( 
-          n 
-          max and 
-          n 
-          min ), we define the function 
-          F(l,n) for each merging repeat of
-          the class as
-          for 'merging with gaps' and
-          for 'merging with overlaps'.
-          This non-negative function is a summary of the
-          variance in the length and number of subrepeats from the
-          desirable values for the class prototype. Then we solve
-          the optimization problem of minimizing function 
-          F(l,n): 
-          find ( 
-          l , 
-          n ) corresponding to an element in
-          the single repeat class: min 
-          F(l,n). 
-          If we get several elements that minimize this
-          function, we select the one with the maximal number of
-          subrepeats. Thus in our example (Figures 1, 3, 4, 5) the
-          prototype for class 1 is the longest repeat starting in
-          position 77, with 
-          l = 11 and 
-          n = 2. Likewise, the prototype for
-          class 2 is the repeat starting at position 23, and for
-          class 3 it is the repeat starting at position 38. We used
-          this procedure in our studies of the genome sequences of 
-          A. thaliana [ 2] and rice BAC end
-          sequences [ 22, 23].
-        
-        
-          Repeat structure of the Arabidopsisgenome
-          The 125 Mb 
-          A. thaliana genome consists of five
-          chromosomes ranging from 18 Mb to 30 Mb in length. We
-          applied the suffix tree algorithm for finding exact
-          repeats to each of these sequences separately, and than
-          used our clustering method to determine the repetitive
-          structure of each chromosome. We found from 100,000 to
-          400,000 pairs of exact repeats in each chromosome using a
-          minimum length of 25 bp (after filtering out simple
-          repeat sequences). These repeats in total represent
-          approximately 10% of the chromosome sequences. To group
-          the repeats into classes the gap merging strategy was
-          used, with a maximum gap size of less than 25 bp. The
-          algorithm finds some 5,000-7,000 repeat classes per
-          chromosome, but only 20% of these contain more than two
-          elements. 
-          Arabidopsis is known to contain
-          extensive gene duplication and strong evidence of a
-          whole-genome duplication [ 2]; thus it is not surprising
-          to observe such a preponderance of repeats with just two
-          members. We defined the prototype element for each class
-          using the optimization procedure described above,
-          combined all the prototypes from five chromosomes in one
-          database, and generated a final classification of the
-          whole genome by clustering the BLAST search results of
-          all prototypes against all. This resulted in over 5,000
-          classes with three or more elements. Table 4contains a
-          summary of the repeat structure for the entire 
-          A. thaliana genome.
-          To find out more about the composition of the 
-          Arabidopsis repeats, each sequence
-          was searched against AtRepBase [ 25] and the 
-          Arabidopsis gene database [ 26]
-          (using a maximum BLAST E-value of 0.01 and at least 100%
-          identity for 
-          Arabidopsis genes and at least 95%
-          identity to AtRep-Base sequences). Of 105,434 repeat
-          sequences that fall into 27,961 separate repeat classes,
-          2,124 sequences matched an annotated repeat sequence in
-          AtRepBase, and 25,149 sequences matched a segment of an 
-          Arabidopsis gene. Comparing both
-          sets of matches, only 417 of the repeat sequences were
-          found to match both a gene segment and an annotated
-          repeat sequence. The large number of repeats that match
-          gene segments reflects the prevalence of segmental
-          chromosomal duplications and tandem gene duplications in 
-          Arabidopsis. Due to the greedy
-          'merging with gap' method used to build the repeat
-          classes, relatively few of the repeat classes contained
-          an abundance of the repeat sequences; the largest repeat
-          class contained 30,975 sequences of which 6,505 matched
-          gene segments and 1,723 matched annotated repeats.
-          To further analyze the composition of the repeat
-          classes, a prototype repeat sequence was chosen to
-          represent each repeat class containing at least five
-          members, and the top database matches were identified
-          (Table 5). Of the 1,454 prototype repeat sequences
-          examined, approximately half (755) matched gene segments
-          and 58 matched annotated repeats. The genes matched by
-          the prototype repeat sequences include known members of
-          large 
-          Arabidopsis gene families including
-          a cytochrome P450, a receptor kinase, a
-          disease-resistance protein and several transposon open
-          reading frames. In addition, there were many matches to
-          hypothetical proteins, the validity of which remains to
-          be determined. The biological relevance of the remaining
-          repeat classes remains unclear at present.
-        
-        
-          Rice repeat database
-          Yuan 
-          et al. [ 27] recently reported on
-          the construction of a rice repeat database that was
-          generated by searching all available rice sequences for
-          minisatellite sequences, mobile elements, rDNA,
-          centromeric repeat sequences and telomeric repeat
-          sequences. This database includes 215 sequences. We
-          attempted to use the repeat finding system described here
-          to enlarge this set, using as input the large collection
-          of sequences from the Clemson University rice BAC end
-          database [ 23].
-          Unlike either 
-          Arabidopsis or the microbial
-          genomes, where a single genome sequence or a few large
-          chromosomes were being processed, in this case we had
-          101,562 BAC end sequences with an average length of
-          approximately 400-700 bp. We therefore developed a
-          special pre-processing procedure which generates a single
-          sequence (approximately 42 Mb long) from all the BAC
-          ends. Each original sequence is represented by its
-          coordinate in the new sequence. This procedure permits
-          the algorithm to work with hundreds of thousands of
-          different sequences simultaneously. The system found
-          5,208,206 exact repeat pairs with lengths from 25 bp to
-          728 bp, where the latter represents an entire BAC end
-          that was repeated exactly. The maximum length of each
-          repeat was bounded by the length of the BAC end sequence
-          in which it was found. This length restriction was added
-          to the merging procedure to avoid artificially long
-          repeats that might mistakenly span more than one BAC end
-          sequence. The pre-clustering procedure also includes
-          filtering of the exact repeats data to remove
-          simple-sequence repeats, which were determined to
-          comprise over 40% of exact repeats. We merged the
-          filtered exact repeats data, requiring an overlap of 95%.
-          This resulted in 48,768 repeat classes, of which only
-          8,118 include more than two elements. Table 4contains a
-          summary of these repeat classes. A searchable rice repeat
-          database, based on the prototypes of these classes, is
-          available online at [ 28].
-          To test this new repeat database, we compared it to
-          the set of annotated repeats based on known, expertly
-          curated repeats [ 27]. There were four general groups in
-          this set: telomere/centromere repeats,
-          transposon/transposon-like repeats, rDNA, and all the
-          rest [ 27]. We used BLAST to search annotated repeats
-          against the rice repeat database, using an E-value cutoff
-          of 10 -8. Classification of the BLAST hits shows that the
-          annotated repeats from the four distinct groups always
-          fall into separate classes in the rice repeat database;
-          in other words, the new database divides the previous
-          repeat classes into a finer-grained set of repeats, but
-          it does not merge any of the four known groups
-          together.
-        
-        
-          Performance
-          Because of the use of the efficient suffix tree
-          procedures, the system runs very fast, with the
-          all-versus-all BLAST search consuming approximately 80%
-          of the computation time. The running time of the exact
-          repeat finder is about 10-15% of the total, with the
-          other processes - merging, clustering and post-BLAST
-          updating - using a relatively minor proportion of overall
-          computation time. The running time depends on both the
-          sequence length and the number of repeats; for example,
-          small microbial genomes take just 3-15 minutes, whereas
-          the highly repetitive rice repeat database took about two
-          days to process. The memory needed for computation is
-          dominated by the requirements of the suffix tree used for
-          the initial repeats computation [ 11, 12, 13]; this can
-          grow to many gigabytes for large eukaryotic
-          chromosomes.
+          Generation of phenotypic PfPP1 mutants by PTGS
+          using RNAi
+          RNA interference (RNAi), mediated by short interfering
+          double-stranded RNA molecules (siRNA or dsRNA), is now
+          recognized as a major mechanism of post-transcriptional
+          gene silencing (PTGS) in essentially all eukaryotes [ 16
+          ] . Recently, the technique has been successfully applied
+          to cultured mammalian cells, whereby introduction of
+          21-nucleotide long synthetic dsRNA molecules
+          corresponding to specific mRNA sequences effectively and
+          specifically degraded the cognate mRNAs and abrogated the
+          expression of the corresponding proteins [ 17 18 ] . This
+          prompted us to test a similar approach to knockdown PfPP1
+          function in the erythrocytic 
+          P. falciparum stages. Our initial
+          attempts with standardized transfection procedures using
+          OligofectAMINE (Life Technologies: Bethesda, MD) with the
+          dsRNA did not produce an appreciable loss of PfPP1. We
+          then resorted to the electroporation procedure originally
+          developed for DNA transfection in 
+          Plasmodium by Wellems and
+          co-workers [ 32 ] , as detailed under Materials and
+          Methods. A representative set of results shown in Fig.
+          6clearly demonstrates loss of PfPP1 by the RNAi
+          procedure, while the control PP2A was not significantly
+          affected. Loss of PfPP1 resulted in concomitant
+          inhibition of parasite growth as evidenced by the drastic
+          reduction in 3H-hypoxanthine incorporation. These results
+          suggest that PfPP1 plays an essential role in 
+          Plasmodium replication. The facts
+          that the parasite culture was asynchronous, i.e.,
+          contained all three major stages (ring, trophozoite, and
+          schizont) (data not shown) and that the effect of dsRNA
+          was severe, suggest that PfPP1 is required for cell cycle
+          progression at all stages of the parasite. This is
+          further supported by the expression of PP1 protein in all
+          the parasitic stages (Fig. 5). Taken together, this is
+          consistent with the established role of PP1 in eukaryotic
+          DNA synthesis and cell cycle progression, as discussed
+          below.
+          PP1 is one of the major protein phosphatases found in
+          all eukaryotic cells. The activity of the catalytic
+          subunit of PP1 is controlled by its interaction with a
+          large number of regulatory subunits, many of which also
+          target it to specific subcellular compartments [ 7 24 33
+          ] . The major ones include the glycogen-targeting
+          subunits (G 
+          M , G 
+          L ) [ 34 ] , myofibrillar-targeting
+          subunit (M 
+          110 ) [ 34 ] , nuclear inhibitor of
+          PP1 (NIPP-1) [ 35 ] , PP1 nuclear targeting subunit
+          (PNUTS) [ 36 37 ] , mitosis-regulating subunit Sds22 [ 38
+          39 40 ] , ribosomal protein L5 [ 41 ] and small cytosolic
+          inhibitory proteins, I-1, I-2, and DARRP-32 (Dopamine and
+          cAMP-regulated phosphoprotein, Mr 32,000) [ 7 23 25 ] .
+          The physiological role of many of these interactions has
+          been revealed in recent studies. A temperature-sensitive
+          mutant of the yeast PP1 (Glc7), for example, exhibits a
+          block in the M phase of the cell division cycle, and
+          elevated expression of Sds22 suppresses this defect [ 38
+          ] . Structure-function analysis of recombinant mammalian
+          PP1 has recently begun to map specific residues involved
+          in interaction with other molecules. Interestingly, all
+          these residues are conserved in PfPP1, and a few examples
+          are presented here. Co-crystal structure of PP1 and a G 
+          M peptide [ 42 ] , as well as
+          mutagenesis studies [ 43 ] of the yeast PP1 ortholog,
+          Glc7, have demonstrated a role of specific PP1 residues
+          in PP1-G 
+          M interaction. In the PfPP1 sequence,
+          these residues are: I167, L241, F255, L264, C289, and
+          F291 (Fig. 2). As mentioned, the β12-loop-β13 region,
+          important in interaction with natural toxins [ 23 ] , is
+          fully conserved in PfPP1 (Fig. 2). Two residues, recently
+          shown to be important for interaction with DARPP-32 [ 22
+          ] , are also conserved in PfPP1; these are: Met288 and
+          Cys289 (Fig. 2). We have provided experimental evidence
+          of an important role of a number of invariant residues of
+          PfPP1 in the interaction with I-2 (Fig. 2and 4). Based on
+          such overwhelming conservation of functionally important
+          residues, we propose that orthologs of many of these
+          PP1-interacting proteins may also exist in 
+          Plasmodium and function in similar
+          roles. The use of recombinant PfPP1 and protein-protein
+          interaction techniques should aid in characterizing these
+          physiological regulatory subunits of PfPP1. Our ability
+          to generate PP1-deficient 
+          P. falciparum parasites will allow
+          us to study the "mutant" phenotype in further detail and
+          understand the role of this highly conserved phosphatase
+          in malarial biochemistry and pathophysiology. These
+          studies are in progress.
+          As mentioned earlier, Li and Baker [ 12 ] described a
+          putative phosphatase DNA sequence in 
+          Plasmodium , the mRNA of which was
+          detected in the sexual stages of the parasite. The
+          predicted protein, named PPα, was 889 amino acid long,
+          and contained a unique N-terminal extension of about 500
+          amino acids. The C-terminal 345 amino acids, containing
+          the putative catalytic domain, had 5 unique peptide
+          stretches that were called "inserts". When these inserts
+          were omitted from the alignment, the rest of the sequence
+          showed significant similarity with PP1 phosphatases [ 12
+          ] . Clearly, further studies are needed to identify the
+          PPα protein and characterize its potentially interesting
+          identity.
+          While our manuscript was being written, McRobert and
+          McConkey [ 44 ] achieved similar success in using the
+          RNAi strategy to ablate dihydroorotate dehydrogenase
+          (DHODH) of 
+          P. falciparum . Although the
+          protein level was not directly monitored, the loss of
+          DHODH mRNA was confirmed by RT-PCR. This resulted in
+          inhibition of parasite growth, consistent with the role
+          of DHODH in pyrimidine biosynthesis, essential for
+          parasite DNA replication. These authors introduced the
+          double-stranded RNA by electroporation also, using
+          conditions very similar to ours. Thus, although the exact
+          mechanism of the RNA uptake remains to be elucidated, the
+          electroporation procedure must have allowed the dsRNA to
+          traverse the various erythrocytic and parasitic membranes
+          to enter the parasitic cells.
+          The success in ablating PfPP1 is particularly
+          gratifying to us on a number of accounts. As mentioned,
+          PP1 is a highly conserved enzyme, and toxin-sensitive
+          Ser/Thr phosphatase activities are also found in
+          erythrocytes [ 15 ] . Thus, use of PP1 inhibitors, such
+          as okadaic acid or tautomycin (Fig. 4) would affect the
+          parasite as well as the host, making conclusions
+          difficult. The dsRNA, in contrast, is known to be
+          extremely specific for its intended target, such that a
+          single nucleotide mismatch prevents its action [ 17 ] .
+          This has allowed us to create specific phenotypic loss of
+          PfPP1. Moreover, RNAi will permit the ablation of
+          essential gene products, at any time point in infection,
+          or on a desired parasitic stage following
+          synchronization. Lastly, traditional genetic manipulation
+          in eukaryotes, including the 
+          Apicomplexa, is a relatively
+          difficult and elaborate procedure [ 45 46 ] . Thus, we
+          believe that the RNAi strategy will become a powerful and
+          convenient tool in 
+          Plasmodium functional genomics,
+          particularly in the studies of phylogenetically conserved
+          signalling molecules.
         
       
       
-        Conclusions
-        We describe a new system for rapid identification of all
-        repeats in genome sequences and assignment of these repeats
-        to similarity classes. The system has been used to analyze
-        the repeat structure of several complete microbial genomes,
-        and the much larger genome of the model plant 
-        A. thaliana. We also used it to
-        create a new rice repeat database, based on an analysis of
-        a large BAC end sequence database. This new computational
-        tool should prove helpful in the analysis of repeat
-        structure for both complete and partial genome
-        sequences.
+        Conclusion
+        
+        P. falciparum contains a PP1 protein
+        phosphatase that is virtually identical to its orthologs in
+        other species in both sequence and biochemical properties.
+        Based on the established physiological role of PP1 in other
+        organisms such as mammals and yeast, PfPP1 may regulate a
+        variety of parasitic pathways, including glycogen
+        metabolism, glucose repression, and cell cycle progression.
+        Indeed, the successful use of RNA interference to ablate
+        PfPP1 confirms its essential role on parasitic growth. The
+        catalytic subunit of PfPP1 is expressed in all the
+        erythrocytic stages of the parasite and is specifically
+        inhibited by mammalian physiological inhibitors,
+        inhibitor-1 and inhibitor-2. Thus, an in-depth study of
+        PfPP1 and its interacting subunits may shed light on the
+        regulation of the relevant pathways in this clinically
+        important family of parasites.
+      
+      
+        Materials and methods
+        
+          Materials
+          Histone and the catalytic subunit of PKA were
+          purchased from Sigma (St. Louis, MO), and rabbit I-2, the
+          
+          v-abl protein tyrosine kinase, and
+          its peptide substrate EAIYAAPFAKKK were from New England
+          Biolabs (Bedford, MA). Okadaic acid (OA) and recombinant
+          I-1 [ 22 ] were kind gifts from R. Honkanen and S.
+          Shenolikar (Duke University), respectively. The
+          monoclonal anti-PP1 antibody was raised against a 25.6
+          kDa fragment of human PP1α (residue 5-226), and was
+          purchased from Transduction Laboratories (Lexington, KY).
+          This antibody reacts with all mammalian and avian PP1
+          tested, but does not react with other PP classes. The
+          other PP1 antibody (a kind gift from R. Honkanen) was
+          specific for human PP1, and was raised in rabbit against
+          a synthetic peptide corresponding to the last 13 residues
+          of human PP1 (PITPPRNSAKAKK; Fig. 2). The anti-PfPP2A
+          antibody was raised in rabbit against the peptide
+          MLIFKDTPDSRNSIKN, corresponding to residue 285-300 of the
+          previously described PfPP2A [ 10 ] . The RIG plasmid was
+          kindly provided by W. Hol (University of Washington,
+          Howard Hughes Medical Institute) [ 47 ] . Monoclonal
+          antibody against the early sexual-stage 
+          P. falciparum antigen Pfg27 [ 30 ]
+          was a generous gift from N. Kumar (Johns Hopkins
+          University, Baltimore, MD). Microcystin-coupled sepharose
+          was purchased from Upstate Biotechnology, Inc. (Lake
+          Placid, NY).
+        
+        
+          Amplification, cloning, and mutagenesis of PfPP1
+          cDNA
+          Total RNA was isolated from asynchronous 
+          P. falciparum 3D7 cells grown in
+          human A-positive erythrocytes essentially as before [ 48
+          49 ] . Various pairs of primers were designed on the
+          basis of the relevant sequences of chromosome 14. T 
+          m values of the primers were in the
+          range of 65-72°C in order to achieve high specificity in
+          reverse transcription (RT) as well as PCR. RT reaction
+          was carried out at 60°C for 1.5 hrs using the C. therm.
+          polymerase kit (Roche Molecular Biochemicals, Cat. No.
+          2016311). The RT reaction was incorporated into PCR,
+          carried out using a mixture of Taq (Roche) and Pfu
+          (Stratagene) polymerases (20:1) to ensure high fidelity [
+          50 ] . Elongation in PCR was performed at 62°C. The
+          various products were gel-purified and cloned in pGEM-T
+          by "TA cloning" (Promega, WI). The clones were initially
+          screened by restriction analysis and finally confirmed by
+          sequencing.
+          All site-directed mutagenesis were performed using the
+          megaprimer procedure [ 51 ] , and the mutations were
+          confirmed by sequencing. DNA sequencing was carried out
+          by cycle sequencing using the PRISM Big Dye Terminator
+          sequencing kit and AmpliTaq DNA polymerase (Perkin-Elmer,
+          Division of PE/ABI).
+        
+        
+          Expression and assay of recombinant PfPP1
+          phosphatase
+          Growth and induction of 
+          E. coli BL21(DE3) containing
+          pET-15b-PfPP1 and the RIG plasmid were carried out using
+          procedures described earlier [ 14 48 ] , except that the
+          culture was grown at 18°C in the presence of 2 mM MnCl 
+          2 , and IPTG concentration was lowered
+          to 0.4 mM. The (His) 
+          6 -tagged PfPP1 expressed from
+          pET-15b-PfPP1 was purified through Ni +2-chelation
+          chromatography [ 14 ] as described by the manufacturer
+          (Novagen), with 1 mM MnCl 
+          2 being present in all the buffers.
+          The imidazole-eluted His-tagged PfPP1 was dialyzed
+          against 50 mM Tris-Cl (pH 7.5), 100 mM NaCl, 25%
+          glycerol, 1 mM DTT (buffer A), and stored in small
+          portions at -80°C.
+          Phosphatase activities were assayed essentially as
+          described [ 14 19 52 ] . Unless otherwise mentioned, 80
+          μl reactions contained 2 mM of MnCl 
+          2 and requisite amount of recombinant
+          enzyme in buffer A. Where mentioned, OA was directly
+          added to the reaction. When I-2 was used, it was
+          pre-incubated with PfPP1 at 32°C for 30 min. I-1 was
+          prephosphorylated by PKA in a standard kinase reaction
+          containing 200 μM γ-thiophosphorylated ATP. 32P-labelled
+          histone was prepared by phosphorylation with PKA in the
+          presence of γ- 32P [ATP] essentially as described,
+          followed by removal of the free ATP by gel filtration [
+          19 52 ] . The resultant phosphohistone is exclusively
+          phosphorylated at Ser residues [ 53 ] . 32P-labeled
+          peptide EAI(Yp)AAPFAKKK, phosphorylated at the single Tyr
+          residue by pp43 v-ablkinase, was prepared essentially as
+          described [ 19 52 ] . Phosphatase reactions were
+          initiated by the addition of the substrate. The liberated
+          32P was quantitated by a phosphomolybdate extraction
+          assay as described previously [ 14 ] . Reactions were
+          followed with time, and results were corrected by
+          subtraction of the corresponding values from an
+          enzyme-free reaction.
+        
+        
+          Analysis of native PfPP1
+          
+          P. falciparum 3D7 was grown on
+          A-positive human erythrocytes in the presence of
+          homologous serum as described earlier [ 48 49 ] . When
+          needed, cultures were synchronized in two steps [ 49 54 ]
+          : (i) schizonts were purified by flottation over 65%
+          (v/v) Percoll (Pharmacia) followed by incubation with
+          fresh erythrocytes (5% haematocrit); (ii) the cultures
+          were then left to mature into rings and treated with 5%
+          D-sorbitol for 15 min at 37°C. The purity of individual
+          stages was greater than 95% as confirmed by microscopic
+          observation of a stained thin smear of the culture.
+          Sexual stage parasite was generated as described [ 30 ]
+          .
+        
+        
+          Transfection by inhibitory dsRNA
+          The following 21-mer RNA molecules, corresponding to
+          the underlined sequence in Fig. 1, were synthesized as
+          described [ 18 ] and deprotected according to the
+          manufacturer's protocol (Dharmacon Research, Lafayette,
+          CO):
+          Sense: (5') GAGGUAACCACGAAUGCGCdTdT (3')
+          Antisense: (5') GCGCAUUCGUGGUUACCUCdTdT (3')
+          The negative control luciferase RNA was the same as
+          the double-stranded GL3 RNA described previously [ 17 ] .
+          The RNAs were annealed 
+          in vitro to form double-stranded
+          RNA (dsRNA) [ 18 ] and electroporation was carried out
+          essentially as described [ 32 ] . In brief, 3 μg dsRNA in
+          800 μl of incomplete cytomix [ 32 ] was added to infected
+          RBC (at 10-15% parasitemia), and electroporation was
+          performed using a Bio-Rad Gene Pulsar unit at settings of
+          200 Ω, 2 kV, and 25 μF. Control cells were identically
+          electroporated without RNA. The cells were then grown in
+          12-well plates in triplicate wells, and measurement of
+          3H-hypoxanthine incorporation was carried out at 24 hr
+          post-electroporation using standard procedures [ 49 ] ,
+          except that parasites were liberated with saponin,
+          pelleted, and counts in the pellet measured following
+          solubilization. Parasites from unlabelled but otherwise
+          identical cultures were analyzed in Western blot using a
+          mixture of anti-PP1 and anti-PfPP2A antibodies (see
+          Materials and Methods).
+        
       
     
   

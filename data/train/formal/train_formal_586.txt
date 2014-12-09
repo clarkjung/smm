@@ -2,356 +2,908 @@
   
     
       
-        Introduction
-        In population studies, a dose-response relationship between short sleep duration and
-        high body mass index (BMI) has been reported across all age groups [1–7]. In the largest
-        studied sample, elevated BMI occurred for habitual sleep amounts below 7–8 h [2]. A
-        U-shaped curvilinear relationship between sleep duration and BMI was observed for women,
-        but for men, there was a monotonic trend towards higher BMI with shorter sleep duration.
-        Importantly, a recent prospective study identified a longitudinal association between sleep
-        curtailment and future weight gain [6]. How sleep curtailment may interact with body weight
-        is unknown, but hormones regulating appetite and energy expenditure may be involved.
-        A number of hormones may mediate the interactions between short sleep duration,
-        metabolism, and high BMI. We hypothesized that the two key opposing hormones in appetite
-        regulation, leptin and ghrelin [8,9], play a significant role in the interaction between
-        short sleep duration and high BMI. Leptin is an adipocyte-derived hormone that suppresses
-        appetite [10]. Ghrelin is predominantly a stomach-derived peptide that stimulates appetite
-        [9,11]. Other mediators of metabolism that may contribute include adiponectin and insulin.
-        Adiponectin is a novel hormone secreted by adipocytes and is associated with insulin
-        sensitivity [12,13]. We investigated the associations among sleep duration (acute and
-        habitual), metabolic hormones, and BMI in the population-based Wisconsin Sleep Cohort Study
-        [14].
+        Background
+        Affymetrix oligonucleotide arrays (referred to here as
+        oligonucleotide arrays) are widely used to measure the
+        abundance of mRNA molecules in biological samples [ 1]. The
+        investigator isolates total and/or polyadenylated RNA from
+        cells or tissues, generates the corresponding complementary
+        DNA (cDNA), transcribes complementary RNA (cRNA) from the
+        cDNA template, and then hybridizes the cRNA to the array [
+        2]. There is a significant amount of assay noise associated
+        with readouts from oligonucleotide arrays (for example [ 3,
+        4]). For these arrays we have found additive and
+        multiplicative noise affecting individual gene readouts
+        (typically 5-20%), as well as multiplicative noise
+        affecting entire arrays (often above 20%). As defined here,
+        normalization attempts to correct for only the latter type
+        of noise. The primary sources of this array-level noise are
+        between-array variation in overall performance (due to
+        inconsistencies in array fabrication, staining and
+        scanning), and between-cRNA variation (as independently
+        prepared cRNAs have variable purity and/or
+        fluorescently-labeled mass fractions). Because these
+        sources of variation contribute so significantly to array
+        readouts, normalization is a critical first step in any
+        analysis of gene expression data.
+        Most current normalization procedures for
+        oligonucleotide arrays are global approaches, based on
+        normalization of the overall mean or median array intensity
+        to a common standard (for example [ 5, 6, 7]). Spiked
+        standards have also been used to normalize cDNA [ 8] and
+        oligonucleotide [ 9, 10, 11] arrays. All these techniques
+        are inherently linear; there have been recent reports of
+        nonlinear normalizations for cDNA [ 12], oligonucleotide [
+        13, 14] and other [ 15] arrays. Few detailed comparisons of
+        oligonucleotide-array normalization procedures have been
+        reported, however [ 13].
+        For oligonucleotide arrays, the normalization
+        implemented in the Affymetrix GeneChip™ software
+        (Affymetrix, Santa Clara, CA) is by far the most commonly
+        used (for example [ 1, 16]). In this approach, the mean
+        hybridization intensities (the 'average differences' (AD))
+        of all probe sets on each array are scaled to an arbitrary,
+        fixed level [ 17]. In the rest of this paper, we refer to
+        this procedure as 'global normalization' or scaled average
+        difference (AD s). In practice, there are at least three
+        limitations to this method. Of these, the first two relate
+        to the normalization itself, and the last relates to the
+        practical utility of the normalized readouts.
+        First, global normalization makes no attempt to
+        absolutely quantify mRNA abundances. Readouts are
+        normalized to an arbitrary scale, which may vary from one
+        operator to another or between experiments. In contrast,
+        previous experiments with spiked controls [ 1] and
+        comparisons with serial analysis of gene expression (SAGE)
+        [ 18] have shown that array response can be proportional to
+        true transcript abundance, suggesting that absolute
+        quantitation of transcripts is feasible. If sufficiently
+        accurate, such an absolute scale for all array readouts
+        could facilitate comparisons across large, diverse gene
+        expression databases.
+        Second, global normalization implicitly assumes that the
+        mean expression level of all monitored mRNAs is constant.
+        The validity of this assumption depends on the number and
+        biological characteristics of genes monitored by an array.
+        For smaller arrays that monitor a limited set of mRNAs,
+        this assumption is invalid and may result in erroneous
+        normalization. Ideally, a quantitation method for arrays
+        would be effective even in cases where this 'constant mean'
+        hypothesis does not hold.
+        Third, as typically applied, global normalization does
+        not deal well with transcripts expressed at low copy
+        numbers. In a typical Affymetrix GeneChip assay, many
+        low-abundance transcripts are present at levels below the
+        sensitivity of detection of the array (typically about
+        1:100,000 mRNAs). Measurements for such mRNAs are not only
+        noisy but are sometimes negative, due to
+        cross-hybridization to mismatch probes [ 1]. Negative
+        intensity values are meaningless and problematic because
+        they cannot be log-transformed, a manipulation that is a
+        common prelude to downstream analysis of array data. Simply
+        discarding negative values is objectionable as it can lead
+        to missed observations of biologically significant
+        upregulation. An automated normalization method that
+        handles noisy and negative measurements and responds to
+        variable array sensitivity is desirable, especially in a
+        high-throughput setting.
+        The primary criterion for any alternative to global
+        normalization is that it should expand the investigator's
+        ability to compare diverse array experiments done at
+        different times in different laboratories. In this paper,
+        we describe alternative procedures that seek to quantitate
+        array results in terms of transcripts per unit cRNA. We
+        chose cRNA quantitation because it meets the primary
+        criterion, and for several additional reasons.
+        First, cRNA quantitation is easily applied to array
+        experiments using small amounts of starting total RNA that
+        are difficult to quantitate accurately. Second, the spike
+        reagents described here for cRNA quantitation can be used
+        to specifically monitor the performance of individual
+        arrays. Third, in our experience, the reproducibility,
+        accuracy and scientific value of cRNA quantitation are at
+        least as good as those of alternative techniques, such as
+        procedures to quantitate transcripts per cell, transcripts
+        per mass of input material, transcripts per total RNA or
+        transcripts per polyadenylated RNA.
+        We evaluated two alternatives to the standard global
+        normalization scheme which we term 'frequency' (F) and
+        'scaled frequency' (F s) normalization. These normalization
+        procedures are based on the presence of a common pool of
+        biotin-labeled transcripts of known concentrations spiked
+        into each hybridization. Constructs for generating the
+        control reagents are available through the American Type
+        Culture Collection (ATCC); accession numbers are given in
+        Table 1. We describe how scaled frequency normalization can
+        be used to estimate message abundance in cRNA, compute a
+        chip sensitivity metric and provide a natural scale for
+        damping spurious signals from below-sensitivity mRNAs.
+        Using previously published replicated experimental
+        hybridizations and new simulated data, we compare the
+        reproducibility and accuracy of frequency, scaled frequency
+        and global normalization. Our results suggest that scaled
+        frequency normalization is a useful strategy for
+        oligonucleotide array data and has important advantages
+        over current approaches.
       
       
-        Methods
+        Results and discussion
         
-          Overview
-          The institutional review board of the University of Wisconsin Medical School approved
-          all protocols for the study, and informed consent was obtained from all participants. The
-          Wisconsin Sleep Cohort Study is an ongoing longitudinal study of sleep habits and
-          disorders in the general population [14]. Briefly, to construct a defined sampling frame,
-          all employees aged 30–60 y of four state agencies in south central Wisconsin were mailed
-          a survey on sleep habits, health, and demographics in 1989. Mailed surveys were repeated
-          at 5-y intervals. A stratified random sample of respondents was then recruited for an
-          extensive overnight protocol including polysomnography at baseline. Stratification was
-          based on risk for sleep-disordered breathing (SDB), with an oversampling of habitual
-          snorers to ensure an adequate distribution of SDB. Analyses were adjusted for the
-          weighted sampling when appropriate. Recruitment for baseline studies was staggered to
-          conduct seven studies per week; study entry and follow-up time thus varied within the
-          cohort. Exclusion criteria included pregnancy, unstable cardiopulmonary disease, airway
-          cancers, and recent upper respiratory tract surgery. The baseline response rate was 51%,
-          with most refusals due to the inconvenience of sleeping away from home. Follow-up studies
-          have been conducted at 4-y intervals, with up to three follow-up studies to date.
-          Collection of morning, fasted blood was added to the protocol in 1995. Extensive survey
-          and other data available from the sampling frame have been used to evaluate the potential
-          for response and drop out biases.
-          Figure 1 provides an overview of the study population and the data collected. The
-          sample comprised 1,024 participants with an overnight study and blood sample. A 6-d diary
-          of sleep duration was added as part of a protocol to assess daytime sleepiness after the
-          initiation of the cohort study; these data were available for 721 participants.
-        
-        
-          Data Collection
-          This investigation is based on Wisconsin Sleep Cohort Study data collected from the
-          mailed sleep surveys, overnight studies, and 6-d sleep diaries. Overnight studies were
-          conducted in laboratory bedrooms, with participants setting their own sleep and rise
-          times. After informed consent was obtained, questionnaires on lifestyle and health
-          history were administered, and height and weight measured. A blood sample was collected
-          shortly after awakening from overnight polysomnography.
-          
-            Polysomnography
-            An 18-channel polysomnographic system was used to assess sleep states, and
-            respiratory and cardiac variables [14]. Sleep was studied using electroencephalography,
-            electro-oculography, and chin electromyography (Grass Instruments, Quincy,
-            Massachusetts, United States). Continuous measurement of arterial oxyhemoglobin
-            saturation by pulse oximetry (Ohmeda, Englewood, Colorado, United States), oral and
-            nasal airflow, nasal air pressure, and thoracic cage and abdominal respiratory motion
-            (Respitrace Ambulatory Monitoring, Ardsley, New York, United States) were used to
-            assess SDB [14]. Each 30-s interval of the polysomnographic record was scored for sleep
-            stage and SDB using standard criteria [14]. The average number of apneas and hypopneas
-            per hour of measured sleep, the apnea-hypopnea index (AHI), was the measure for SDB.
-            For analyses including AHI as a covariate, participants were excluded if they had sleep
-            studies with less than 4 h of usable polysomnography, or if they were receiving
-            treatment for SDB.
-          
-          
-            Polysomnographic measures of acute sleep
-            Polysomnographic measures of sleep duration just prior to blood sampling were used
-            to evaluate degree of “acute sleep restriction.” “Total sleep time” was total hours of
-            polysomnographically defined sleep. “Wake after sleep onset” (WASO) was hours of wake
-            time after three epochs of sleep had occurred. “Sleep efficiency” was total sleep time
-            divided by time from lights out until arising in the morning.
-          
-          
-            Self-reported sleep measures of chronic sleep
-            Two variables were used to evaluate degree of “chronic sleep restriction” by
-            estimating average nightly sleep duration: (i) “usual sleep” (from questionnaires) and
-            (ii) “average nightly sleep” (from sleep diaries).
-          
-          
-            Questionnaire
-            Usual sleep was estimated from the following questions: how many hours of sleep do
-            you usually get in (a) a workday night? (b) a weekend or non-work night? These
-            questions were included in all mailed surveys and were added to questionnaires
-            completed at the overnight study in 1998. For participants studied after 1998, data
-            from questionnaires administered at the overnight study were used (58%); for the
-            remainder of the sample, data from the mailed survey closest in time to the overnight
-            study were used. Usual sleep was calculated as (5 × workday sleep + 2 × weekend
-            sleep)/7.
-          
-          
-            Sleep diary
-            Average sleep duration was also estimated using a 6-d sleep diary, kept by 721
-            participants as part of an added protocol to measure daytime sleepiness. The median
-            time between the blood collection and completion of the diary was 18 d. Almost all
-            diaries (97%) were completed within 6 mo of blood sampling. In diaries, participants
-            recorded the time they went to bed and arose each day, and the duration of any naps.
-            “Average nightly sleep” was calculated as the sum of the hours between bedtime and
-            arising divided by six. “Average nightly sleep plus naps” added naps to the above
-            sum.
-          
+          The constant-mean assumption
+          A key assumption underlying global normalization is
+          that the mean expression level on an array should be the
+          same for all samples and all arrays. This assumption is
+          distinct from the additional implicit assumption that the
+          fraction of polyadenylated mRNA per total RNA is
+          constant. One can certainly construct special cases where
+          the constant-mean assumption is invalid. One example
+          would be using a small array containing only genes from a
+          single pathway in an experiment that studies variable
+          induction of that pathway. However, it is unclear how
+          well even more general array experiments satisfy this
+          assumption.
+          To evaluate the constant-mean assumption we examined
+          the coefficient of variation (CV) of the mean expression
+          level of variable-sized mRNA sets across samples covering
+          widely divergent developmental stages of the nematode 
+          Caenorhabditis elegans. We
+          constructed the largest possible subset of our data that
+          included only matched triplets of the A, B and C array
+          designs (see Materials and methods). The subset comprised
+          39 chip hybridzations, 13 of each design, covering all
+          developmental stages. This dataset represents a
+          relatively strong test of the constant mean assumption,
+          because very large biological modulation of many mRNAs
+          occurs across the dataset. As the 
+          C. elegans arrays monitor around
+          98% of all predicted 
+          C. elegans mRNAs, and the sum of
+          the relative expression levels of all expressed genes
+          must be constant by definition, global normalization is
+          well justified for the dataset as a whole. Thus, the 13
+          experimental hybridizations of each array design were
+          globally normalized, and subsets of the 19,031 total
+          mRNAs monitored by the arrays were selected at random.
+          For each subset, the CV of the mean expression level of
+          the subset across all 13 hybridizations was computed.
+          Subsets ranged in size from 10 to 19,031 genes (0.05% to
+          100% of this transcriptome) (Figure 1). The CV of the
+          mean expression level is below 7% for any set of mRNAs
+          larger than roughly 10% of the total. As this CV is no
+          larger than the typical contribution of other noise
+          sources in the readout, we conclude that the
+          constant-mean assumption can be supported for arrays that
+          monitor on the order of 20-100% of a transcriptome. This
+          is typical of current commercial arrays for several
+          bacteria, yeast, mouse and human.
+          These results only apply when genes monitored by an
+          array are randomly selected with respect to their
+          expression characteristics. The example noted above (all
+          genes on an array from a single pathway) is an extreme
+          case of nonrandom selection. Other common ways of
+          selecting genes for arrays may also violate this
+          assumption, including selection based on matches in
+          specific cDNA libraries.
+          Nonrandom selection of even large mRNA sets for
+          individual arrays can also lead to between-array
+          inconsistencies in mean expression level. For example,
+          consider the case of two arrays, each monitoring a large,
+          equal percentage (> 20%) of a transcriptome, where the
+          first array monitors mRNAs with confirmed cDNA library
+          matches, and the other array monitors mRNAs whose
+          sequences are based on lower-quality expressed sequence
+          tag (EST) sequence matches or computational gene
+          predictions. While the constant mean assumption is
+          justified for each array in isolation, comparison of
+          globally normalized expression levels between the two
+          arrays will give erroneous results because the mean
+          expression level of transcripts on the first array is
+          higher than that on the second.
         
         
-          The Relationship between BMI and Sleep Duration
-          For the analysis of the association of BMI and sleep duration, the sample comprised
-          1,040 participants with at least one 6-d sleep diary. Of these, 4-, 8-, and 12-y
-          follow-up studies had been completed by 397, 179, and 11 participants respectively (1,828
-          visits), providing repeated measures data for greater analytic efficiency and
-          precision.
+          Spike-in based normalization
+          The limitations of global normalization suggest the
+          use of spiked transcripts to normalize array data. Our
+          'spike-in' normalization method, which we call 'frequency
+          normalization', uses spiked transcripts for two purposes.
+          First, they allow us to calibrate the arrays,
+          transforming AD to cRNA frequency (F) estimates quoted in
+          transcripts per million. Second, the spiked transcripts
+          enable us to estimate the minimum detectable frequency on
+          the array (the 'array sensitivity' value). The array
+          sensitivity is useful as a quality-control metric for
+          individual hybridizations and is also used to adjust
+          signals from low-level transcripts. Specifically,
+          frequency values below the array sensitivity are averaged
+          with the sensitivity estimate to generate 'damped'
+          frequencies that lie between 50% and 100% of the array
+          sensitivity. This adjustment introduces a small
+          systematic error into the damped data, but in return it
+          eliminates problematic negative values and retains
+          low-level readings that can be biologically informative
+          in the context of additional experiments.
+          Figure 2shows a typical plot of the spiked transcript
+          readout from a single hybridization containing 2 μg of
+          cRNA and a corresponding amount of spike-in transcripts.
+          The specific hybridization intensity (AD) value for each
+          of the 11 spike-in controls is plotted as a function of
+          transcript frequency in units of transcripts per million.
+          The points are fitted with a generalized linear model
+          that is then used as a calibration curve to compute
+          frequencies from the AD values of the other genes on the
+          array. Using logistic regression, we define the chip
+          sensitivity as the frequency where we estimate a gene to
+          have a 70% probability of being called 'Present'. We will
+          use the capitalized terms 'Absolute Decision', 'Present',
+          'Absent' and 'Marginal' when referring to a specific
+          value that is calculated by the Affymetrix GeneChip
+          software (described in Materials and methods). In Figure
+          2, the vertical line at a frequency of 4.5 indicates the
+          computed sensitivity estimate for this array.
+          Fitting a power law model (AD = k 
+          F 
+          n ) to the data in Figure 2yields
+          the exponent 
+          n = 0.93. This indicates mild
+          curvature in the response, consistent with progressive
+          saturation of array readout for the highest abundance
+          mRNAs. Experiments using 0.1 to 10 μg cRNA per
+          hybridization with corresponding amounts of spike-in
+          transcripts, as well as high and low gain settings on the
+          scanner, indicated that readout saturation (not
+          hybridization saturation) accounted for most of the
+          observed curvature in the spike-in response. The use of
+          approximately 1 μg cRNA in each hybridization, or reduced
+          scanner gain, largely eliminated saturation with no
+          penalty in sensitivity.
         
         
-          Hormone Assays
-          Following overnight fasting, serum was collected soon after awakening and stored at
-          −70 °C. All samples were assayed in duplicate. It was not possible to assay samples from
-          all participants in all assays because of the volume of serum available; this
-          particularly affected the ghrelin assay, which required the most volume. Leptin and
-          insulin were determined using enzyme-linked immunoassays (ELISA; Linco Research, St.
-          Charles, Missouri, United States). Total ghrelin and adiponectin were measured by
-          radioimmunoassay (Linco Research). Sensitivity for the leptin and insulin enzyme-linked
-          immunoassays was 0.5 ng/ml and 2 μU/ml, respectively. Sensitivity for the ghrelin and
-          adiponectin radioimmunoassays was 10 pg/ml and 1 ng/ml, respectively. Intra- and
-          inter-assay variations were all less than 5% and less than 10%, respectively. The
-          quantitative insulin sensitivity check index (QUICKI) was 1/(log (
-          I ) + log (
-          G )), where 
-          I is fasting insulin and 
-          G is fasting glucose [15,16].
+          Scaled frequency normalization
+          Frequency normalization is appealing theoretically and
+          effective even when the constant-mean assumption is known
+          to be invalid. However, our experience suggests that
+          frequency estimates might be biased by experimental
+          limitations on the accuracy with which control
+          transcripts can be spiked into cRNA. Specifically,
+          because of the combination of small fluid-handling
+          uncertainties and potentially larger variation in the
+          purity of cRNA preparations, the actual ratio of the
+          spiked transcripts to cDNA-template-derived cRNAs might
+          be significantly skewed from one array to another. One
+          source of variable impurities in cRNA preparations could
+          be oligo(dT)-primer-dependent cRNA product [ 19]. Such
+          cRNA impurities would result in erroneous normalization
+          in which all readouts from one array would be
+          systematically higher or lower than those from another
+          array. We use the term 'spike-skew' to denote this
+          multiplicative skew in frequency values among multiple
+          hybridizations. One expected symptom of spike-skew would
+          be replicate hybridization readouts that are highly
+          correlated but have widely divergent mean expression
+          levels.
+          We developed the hybrid scaled frequency (F s)
+          normalization method to mitigate the effects of
+          spike-skew. F snormalization is based on the principle of
+          removing technical variation in the ratio of spiked
+          transcripts to cDNA-template-derived cRNAs, by averaging
+          the response to spiked cRNAs over multiple
+          hybridizations. To compute F svalues, globally scaled
+          average differences are first computed for all arrays in
+          a set. This initial step implicitly makes the
+          constant-mean assumption. A calibration function is then
+          computed by fitting a single linear model to the scaled
+          average differences of all spiked cRNAs on all the arrays
+          in the dataset, pooled together. Individual array
+          sensitivities are still computed as described above, and
+          the same damping of low-end frequencies is carried out
+          using the sensitivity values for each array.
+          To compare F and F smetrics, consider an experimental
+          set of ten arrays. To compute F values, ten linear models
+          are fitted to the ten distinct, unscaled AD responses to
+          the spiked cRNAs, yielding ten different calibration
+          factors, one for each array. In contrast, when computing
+          F svalues, a single linear model is fitted to the pooled
+          spike response curve consisting of 10 × 11= 121 globally
+          scaled AD values, and a single calibration factor
+          generated for all ten arrays. If there was no technical
+          variation in the ratio of spiked transcripts to
+          cDNA-template-derived cRNAs in the ten experiments, both
+          approaches would give the same quantitation, up to a
+          random error term arising from the difference between
+          fitting ten 11-point responses versus a single 121-point
+          response. If, in one of the ten arrays, the ratio of
+          spiked transcripts to cDNA-template-derived cRNAs is
+          different for technical reasons, then spike response for
+          that array will be skewed, and the F-metric readout for
+          that array will be skewed relative to the other nine
+          arrays. In contrast, such a skewed array will only affect
+          the F smetric to the extent that the single skewed
+          response shifts the fit to the pooled spike response. The
+          skew for the single problematic array will be removed
+          because all arrays in the set will be scaled and
+          calibrated with a single factor. In other words, F
+          svalues are estimates of transcript abundance in cRNA,
+          based on the average response to the spiked cRNAs over
+          multiple hybridizations and on the sensitivity of each
+          individual array. F values provide the same estimate, but
+          based solely on the response to spiked cRNAs in a single
+          array hybridization.
         
         
-          Statistical Analysis
-          All analyses were cross-sectional and performed using SAS/STAT 8.2. Leptin, ghrelin,
-          and adiponectin were square-root transformed and insulin log transformed based on the
-          distribution of residuals from the multivariate regression models. We evaluated the
-          relationship of age, sex, BMI, and time of storage of blood sample on hormones using
-          multiple regression. Partial correlations adjusted for age, sex, and BMI were calculated
-          for hormones and QUICKI, with and without control of other potential confounders. The
-          relationships between hormones and sleep were evaluated using multiple linear regression
-          after control for potential confounders including age, sex, BMI, SDB, and morningness
-          tendencies (as measured using the Horne-Ostberg questionnaire, an indirect surrogate of
-          earlier rising time). In all analyses involving insulin, glucose, and QUICKI (but not
-          leptin, ghrelin, and adiponectin), participants with diabetes (self-reported diagnosis,
-          or currently taking insulin or diabetic medications, or with glucose >300 mg/dl) were
-          excluded. Participants with SDB were not removed from the analyses shown. When
-          controlling for AHI in models, participants who used continuous positive airway pressure
-          or who had inadequate sleep were excluded. Because controlling for AHI did not
-          significantly change the sleep-hormone regression coefficients, these analyses are not
-          shown. The relationship of BMI with average nightly sleep was evaluated using a quadratic
-          fit. This was examined using multiple visits (
-          n = 1,828) from 1,040 participants with sleep diary data available.
-          Mixed modeling techniques were used to account for within-subject correlation for
-          participants with multiple visits. SAS procedure mixed was used for modeling and
-          hypothesis testing using robust standard errors and a compound symmetric within-subject
-          correlation structure. All reported 
-          p values are two-sided. For illustrative purposes, changes in leptin,
-          ghrelin, and BMI for different sleep amounts were calculated at the average values and
-          sex distribution of the relevant sample.
+          Comparison of normalization methods:
+          reproducibility
+          We compared the performance of four metrics: AD;
+          globally normalized AD (AD s); frequency (F); and scaled
+          frequency (F s). The basis for comparison was
+          experimental data consisting of four sets of replicated
+          hybridizations (each 
+          n = 3 or 4) of the same array
+          design (the 
+          C. elegans A array). Performance of
+          each metric was measured by the median absolute
+          coefficient of variation (MEDACV) of probe sets across
+          the replicated hybridizations. MEDACV is a measure of
+          reproducibility for which a value of zero indicates
+          perfect agreement of all transcript readouts in a set of
+          replicated hybridizations. We compared MEDACV for two
+          classes of mRNAs: those called Present in at least 50% of
+          replicated hybridizations (referred to as 'Present'
+          mRNAs), and those Present in fewer than 50% of the
+          replicated hybridizations (referred to as 'Absent'
+          mRNAs). All metrics showed higher (worse) MEDACVs for the
+          low-abundance Absent mRNAs than for the higher-abundance
+          Present mRNAs (Figure 3), as expected from the presence
+          of background noise on the arrays. For Present genes, AD
+          swas more reproducible than AD, as expected. Scaled
+          frequency (F s) was as reproducible as AD sfor Present
+          genes in all replicate sets, and yielded trivially higher
+          reproducibility than AD sfor Absent mRNAs, owing to
+          damping of background noise. Frequency appeared
+          equivalent to F sand AD sin the first set of experiments
+          (the 0-hour timepoint) but had a higher MEDACV than F sin
+          the other three replicate sets. We also computed Pearson
+          correlation coefficients for the same replicate readouts.
+          Unlike MEDACV, correlation coefficients between replicate
+          readouts were similar for all metrics (in the range from
+          0.978-0.996).
+          To better understand the reasons for the markedly
+          different MEDACV performances of the four metrics on
+          experimental replicates, we performed simulations. These
+          simulations incorporated several adjustable noise
+          parameters. We estimated values for these parameters
+          iteratively, based on experimental data (see Materials
+          and methods). The similarity in the CV distributions of
+          experimental and simulated data indicated that, for our
+          purposes, the simulations recapitulated the major error
+          properties of real array data (Figure 4).
+          We tested if spike-skew could account for the
+          relatively high CV of frequency in three of the four
+          replicate sets (Figure 3) by comparing experimental data
+          to simulated data with known levels of spike-skew. To
+          approximate spike-skew, the concentration of the spike-in
+          transcripts in simulations was multiplied by a random
+          noise term. Over a series of simulations, we varied the
+          standard deviation of the noise term from 0 to 40% to
+          model the effect of increasing spike-skew. MEDACV values
+          were then computed from the simulation results in the
+          same way as for the experimental data in Figure 3.
+          As expected, only frequency was sensitive to
+          spike-skew (Figure 5). The F smetric, which uses a single
+          standard curve pooled from each dataset to normalize all
+          arrays in that dataset, effectively eliminated spike-skew
+          effects. In the simulations, a spike-skew level of 20%
+          led to MEDACV values for frequency in simulated
+          replicates that were much higher than those of AD sor F
+          s. These results were highly reminiscent of the 36, 48
+          and 60 hour experimental replicate sets (compare Figures
+          5and 3).
+          Taken together, the experimental data and the
+          simulations suggest that spike-skews of roughly 20% can
+          explain the sometimes inferior MEDACV (but consistently
+          high inter-replicate correlation coefficients) of the
+          frequency metric.
+        
+        
+          Comparisons across array designs
+          We next considered the reproducibility of readouts of
+          the same mRNA on different array designs. For this
+          analysis, we selected the three mRNAs that were monitored
+          by identical probe sets on each of the A, B, and C array
+          designs and were called Present in all hybridizations of
+          the 0 hour cRNA sample. The observed CV of the AD smetric
+          was in all cases larger than that of the F or F smetric,
+          and was greater than 0.55 for all three mRNAs, indicating
+          very poor agreement of readouts from different array
+          designs when global normalization was used (Figure 6). In
+          contrast, the CVs of both F and F smetrics were lower,
+          with CVs for F sin particular averaging 0.19 (range
+          0.13-0.29). The mRNA K11C4.5 was expressed at >
+          10-fold lower levels than either of the other two mRNAs,
+          and thus had higher CV values for both F and F sthan the
+          other two mRNAs. Comparison of the across-array-design
+          CVs to the within-array-design CVs for the three
+          transcripts in Figure 6indicates that the reproducibility
+          of AD swas substantially poorer when comparing across
+          array designs rather than within arrays. Specifically, AD
+          sacross-array CV was 3.2- to 6.4-fold higher than the
+          within-array CV. In contrast, the across-array CV for F
+          swas only 1.3- to 1.6-fold higher than the corresponding
+          within-array CV (Table 2).
+          The reason for the poor agreement of AD sreadouts
+          across distinct designs was that the mRNAs monitored by
+          the A array are, on average, expressed at higher levels
+          than those on the B or C array, as confirmed by two
+          independent lines of evidence. First, the mRNAs on the A
+          array were intentionally selected because they were
+          represented in 
+          C. elegans cDNA libraries, whereas
+          the B and C array genes (many of them computational
+          predictions) were generally not represented in cDNA
+          libraries. Second, A array mRNAs were more likely than B
+          or C array mRNAs to be detected in the developmental time
+          course by the Affymetrix Absolute Decision metric [ 10].
+          Because of this systematic difference between gene sets,
+          the mean AD of all A array genes was substantially higher
+          than that of the genes on the B or C arrays. The AD
+          smetric scales data under the assumption that mean
+          expression levels for all arrays should be equal.
+          Therefore, AD svalues for genes on the B and C arrays
+          were inappropriately inflated relative to AD svalues from
+          the A array.
+        
+        
+          Comparison of normalization methods:
+          accuracy
+          Normalization methods should accurately measure true
+          biological variation. We tested the accuracy of the four
+          methods using simulated data. As a baseline we chose the
+          experimental data from one of the 0-hour replicates on
+          the A array. We generated 19 simulated experimental
+          conditions to produce 20 raw average difference values
+          for each of 6,617 genes. For each of the four metrics,
+          computed fold-changes between the modulated condition and
+          the baseline (considering only messages called Present)
+          were compared to the true fold-changes. Accuracy was
+          defined as the fraction of computed fold-changes that
+          were accurate within twofold, and determined for assumed
+          levels of spike-skew from 10-40% (percentage is the ratio
+          of standard deviation (SD) to mean of the random
+          spike-skew term in the simulation). Three simulations
+          were carried out at each level of assumed spike-skew. AD
+          sand F smetrics performed equally well and best overall,
+          with accuracies above 99% regardless of spike-skew. As
+          expected, frequency was the only metric with a
+          significant dependence on the level of spike-skew. At 10%
+          spike-skew, frequency accuracy was (mean ± SD) 0.9951 ±
+          0.0006, at 20%, 0.96 ± 0.02, and at 40%, 0.82 ± 0.06. For
+          comparison, the accuracy of AD was 0.88 ± 0.07 at 10%
+          spike-skew, and did not change significantly at higher
+          spike-skew levels.
+          We stress that the overall accuracy levels reported
+          here are highly dependent on adjustable parameters in our
+          simulation model (see Materials and methods).
+          Nevertheless, the simulations demonstrate that at levels
+          of spike-skew consistent with our experience, scaled
+          frequency is as accurate as globally normalized AD s;
+          this observation is robust to changes in the model
+          parameters.
+        
+        
+          Absolute quantitation of cRNA and cellular
+          RNA
+          There are several potential sources of inaccuracy in
+          the cRNA quantitiation given by the scaled frequency
+          metric.
+          Our results suggest that there is significant
+          uncertainty in the molar ratio of spike-in mRNAs to
+          template-derived cRNAs in any hybridization (the
+          spike-skew effect). The MEDACV for the F metric in Figure
+          3is likely one measure of this uncertainty, as it
+          probably arises primarily from cRNA purity variation.
+          This uncertainty leads to proportional differences
+          between frequency metric readouts and true cRNA
+          transcript abundances. However, in the scaled frequency
+          method, the simultaneous normalization of larger datasets
+          reduces these differences through averaging. We
+          anticipate that inaccuracies of cRNA quantitation arising
+          from this effect will be reduced by improved methods for
+          quantitation of cRNA preparations.
+          For F and F s, heterogeneity in probe response will
+          lead to gene-specific biases in quantitation. Our data
+          contains two observations that allow us to estimate the
+          degree of heterogeneity among spiked probe sets. Cursory
+          examination of the calibration curve (Figure 2) suggests
+          relative responses of the 11 distinct probe sets shown do
+          not vary more than two-fold: no observations fall more
+          than about a factor of two from the fitted line. A more
+          rigorous evaluation of probe set heterogeneity can be
+          done by comparing the ratio of AD values from two
+          distinct probe sets that monitor the same transcript in a
+          single hybridization. This ratio estimates the difference
+          in readout that would be observed for a single transcript
+          if a different probe set were selected. This comparison
+          was made for the 11 spiked transcripts (each array
+          contained two probe sets for each of these mRNAs). On the
+          basis of 138 ratio measurements from the 
+          C. elegans arrays, the 10th-90th
+          percentile range for the ratio was 0.39-1.44 [ 10],
+          indicating that for the set of control transcripts, the
+          uncertainty in cRNA quantitation due to heterogeneity in
+          probe set responses for 80% of transcripts was less than
+          threefold.
+          In addition to these factors leading to inaccuracies
+          in cRNA quantitation, there are at least two important
+          factors leading to differences between cRNA abundances
+          and cellular RNA abundances in the starting biological
+          material.
+          First, because cRNA is generated from the
+          polyadenylated fraction of total cellular RNA by a linear
+          amplification process, frequency estimates will not
+          reflect sample-specific changes in the fraction of
+          polyadenylated RNA in total cellular RNA. This may be a
+          desirable feature of frequency estimates, in cases where
+          per-total-RNA abundance is less relevant than
+          per-polyadenylated-RNA abundance.
+          Second, any gene-specific biases in the cRNA
+          amplification procedure will lead to gene-specific
+          differences between cRNA and per-total-RNA
+          quantifications. Evidence to date suggests that these
+          biases are small [ 1] and reproducible [ 19].
+          Taken together, the above-noted sources of inaccuracy
+          suggest that there can typically be around two- to
+          threefold differences between scaled frequency per-cRNA
+          estimates and per-polyadenylated-RNA abundances in the
+          starting material. These differences could be reduced by
+          improved cRNA process control and quantitation, and by
+          improved probe selection algorithms.
         
       
       
-        Results
-        Table 1 shows the characteristics of the sample, unadjusted for the weighted sampling
-        scheme. Figure 2 shows the mean BMI for 45-min intervals of average nightly sleep after
-        adjustment for age and sex. We found a significant U-shaped curvilinear relationship
-        between average nightly sleep and BMI after adjustment for age and sex (average nightly
-        sleep coefficient = −2.40, 
-        p = 0.008; (average nightly sleep)
-        2 coefficient = 0.156, 
-        p = 0.008; the two coefficients define a curve). The minimum BMI was
-        predicted at 7.7 h of average nightly sleep. The most striking portion of the curve was for
-        persons sleeping less than 8 h (74.4% of the sample), where increased BMI was proportional
-        to decreased sleep. An increase in BMI from 31.3 to 32.4 (+3.6%) corresponded approximately
-        to an average nightly sleep duration decrease from 8 h to 5 h, as estimated at the mean age
-        (53.1 y) and sex distribution (54.4% male) of the sample with available sleep diary
-        data.
-        Table 2 shows the association of each of the hormones, glucose, and QUICKI with age,
-        sex, and BMI. Serum ghrelin, leptin, adiponectin, insulin, and glucose were significantly
-        correlated with BMI and sex. Storage time had significant effects on some but not all
-        variables; in all cases, however, effect size was small, and the effect was corrected for
-        in all calculations. Adiponectin and glucose were correlated with age. Table 3 shows
-        partial correlations among the measured and calculated variables, adjusted for age, sex,
-        and BMI. All correlations agree with previous studies and validate our assays and
-        population sample. We also examined several potential confounders to be later controlled
-        for, if needed, in our models. Identified relationships included: ghrelin with high-density
-        lipoprotein (HDL), alcohol intake, and creatinine; leptin with diastolic blood pressure,
-        smoking, and blood urea nitrogen (BUN); adiponectin with HDL, triglycerides, uric acid, and
-        BUN; insulin with HDL, triglycerides, uric acid, and smoking; glucose with HDL,
-        triglycerides, uric acid, alcohol intake, BUN, and creatinine; QUICKI with HDL,
-        triglycerides, uric acid, smoking, and BUN. When diabetics (diagnosed) and participants
-        with high glucose (glucose >300 mg/dl) were removed from this analysis, all
-        relationships remained significant except for the correlation between ghrelin and
-        adiponectin, and ghrelin and insulin.
-        Using polysomnography to measure objective sleep immediately prior to blood sampling,
-        ghrelin correlated significantly with total sleep time, sleep efficiency, and WASO (Table
-        4). Using questionnaire and diary data estimating chronic sleep, significant correlations
-        were found between leptin and average nightly sleep (with and without naps) and usual sleep
-        amounts (Table 4). A significant correlation was also observed between ghrelin and average
-        nightly sleep plus naps. These relationships were consistently found when other possible
-        confounding factors such as medications, hypertension, AHI, and factors listed above were
-        included in the statistical model (analysis not shown). In unadjusted models, leptin was
-        significantly correlated with total sleep time and average weekly sleep with naps, and
-        ghrelin was significantly correlated with sleep efficiency and WASO. Figure 3A shows the
-        mean leptin levels for half-hour increments of average nightly sleep after adjustment for
-        age, sex, BMI, and time of storage (see Table 2). In the multiple regression model (see
-        Table 4), there was a significant increasing trend in leptin for average nightly sleep
-        duration (
-        p = 0.01). When evaluated at the average values and sex distribution of
-        our sample, a decrease from 8 to 5 h in average nightly sleep was associated with a
-        predicted 15.5% decrease in leptin. Figure 3B shows the mean ghrelin levels for half-hour
-        increments of total sleep time after adjustment for age, sex, BMI, and time of storage (see
-        Table 2). In the multiple regression model (see Table 4), there was a significant
-        decreasing trend in ghrelin with total sleep time (
-        p = 0.008). When evaluated at the average values and sex distribution of
-        our sample, a decrease from 8 to 5 h of polysomnographically defined total sleep time was
-        associated with a predicted 14.9% increase in ghrelin. There was no significant correlation
-        between sleep duration (acute or chronic) and serum adiponectin, insulin, glucose, or
-        QUICKI. Results of our analyses were unchanged after adjusting for the weighted sampling
-        scheme.
+        Conclusions
+        We have shown that cRNAs spiked into hybridization
+        solutions at known concentrations covering two to three
+        orders of magnitude can be used to normalize array data and
+        to estimate array sensitivity. However, frequency
+        normalization based solely on these control transcripts can
+        be adversely affected by variations in the 'purity' of cRNA
+        preparations. These observations underline the need for
+        meticulous quality control during the production of cRNA
+        samples and accurate quantitation of the resulting
+        material. With better control of these processes, the
+        frequency metric may provide a robust spike-based
+        normalization that, unlike all the other metrics described
+        here, does not rely on the constant-mean assumption.
+        In the presence of variation in cRNA purity, the F
+        smetric provides a compromise between the robustness of the
+        AD smetric and the more absolute quantitation scale of the
+        frequency metric, in cases where the constant-mean
+        assumption is valid. In addition, the F smetric provides a
+        common scale for comparing data from distinct array
+        designs. This is an important advantage over other metrics.
+        For example, the F smetric allows comparison of the
+        expression levels of all worm mRNAs on all three of our
+        array designs with comparable confidence to
+        within-array-design comparisons. This is not possible with
+        globally normalized average differences. We believe that
+        cRNA quantitation and the damping of low-amplitude signals
+        provided by the F snormalization make this metric a
+        valuable format for reporting diverse gene expression array
+        results.
       
       
-        Discussion
-        We found that habitual sleep duration below 7.7 h was associated with increased BMI,
-        similar to findings in other studies including children [1,17], adolescents [5], and adults
-        [2,3]. We also report a significant association of sleep duration with leptin and ghrelin
-        that is independent of BMI, age, sex, SDB, and other possible confounding factors (analysis
-        not shown for SDB and other confounders). Short sleep duration was associated with
-        decreased leptin and increased ghrelin, changes that have also been observed in reaction to
-        food restriction and weight loss and are typically associated with increased appetite.
-        These hormone alterations may contribute to the BMI increase that occurs with sleep
-        curtailment.
-        Previous studies have shown that both acute sleep deprivation [18] and chronic partial
-        sleep deprivation (sleep restriction) [19] can cause a decrease in serum leptin
-        concentrations. These studies, however, were performed under highly controlled laboratory
-        circumstances. Our results validate the association of decreased leptin with decreased
-        sleep time in a large sample of adults under real-life conditions and, now, indicate a role
-        for ghrelin. Leptin deficiency increases appetite and produces obesity [8,20]. Leptin
-        administration suppresses food intake and reduces energy expenditure [21,22]. Importantly,
-        low leptin as observed with sleep loss has a greater impact on appetite than high leptin
-        levels, which are associated with leptin resistance, as occurs with obesity [8].
-        Levels of ghrelin, a potent stimulator of appetite [23,24,25], were higher in those with
-        shorter sleep. Ghrelin levels are also positively associated with hunger ratings [26], but
-        decrease with increased BMI (see Table 2). In one study, after 3 mo of dietary supervision,
-        a reduction in BMI of approximately 5% was associated with a 12% increase in ghrelin and a
-        15% decrease in leptin [27]. These changes, in participants of similar BMI to our sample
-        and presumably producing increased appetite, are comparable to those observed with sleep
-        loss of 2–3 h/night. With sleep loss, however, relatively high ghrelin and low leptin
-        levels are associated with increased BMI. These changes can be hypothesized to play a
-        contributory, rather than compensatory, role in the development of overweight and obesity
-        with sleep restriction.
-        Our findings are strengthened by the large and well-characterized population-based
-        sample, attention to bias and confounding factors, and in-laboratory polysomnographic data.
-        The changes in hormones with sleep duration were consistent and of significant magnitude.
-        They also represent the first demonstration of a correlation between peripheral hormone
-        levels and both self-reported (questionnaire and diary data) and polysomnographically
-        determined sleep amounts in a general population sample. While these data are more
-        comprehensive than previous studies on this topic, some misclassification error may exist
-        because of intra-person variability or limitations of polysomnographic measurement. Little
-        is known about the stability of self-reported sleep duration and polysomnographic measures
-        of sleep duration over time. We examined the stability of the self-reported sleep duration
-        data, and found these measures to be stable. For 860 participants who completed three
-        surveys, the mean (standard deviation) of intra-person differences in usual sleep for two
-        5-y periods was 0.10 (0.47) h. For 190 participants with at least three sleep diaries, the
-        mean (standard deviation) of intra-person differences in average nightly sleep for two 4-y
-        intervals was 0.09 (0.41) h. Furthermore, the subjectively reported hours of usual sleep
-        and the diary-derived average nightly sleep values were highly correlated (
-        r = 0.55, 
-        p <0.001). One-night polysomnographically defined total sleep time
-        had a similar intra-person mean difference (0.10 h), with a somewhat larger standard
-        deviation (0.68) for 713 participants with at least three sleep studies.
-        Elevated ghrelin mainly correlated with acute sleep loss as measured by polysomnography
-        immediately prior to blood sampling (see Table 4; Figure 3B), while reduced leptin
-        correlated with chronic sleep restriction indicated by self-reported sleep measures (see
-        Table 4; Figure 3A). Measures of usual and one-night polysomnographically defined sleep
-        time were only weakly, but statistically significantly, correlated (
-        r = 0.12, 
-        p <0.001), supporting the concept that these measures reflect
-        long-term and short-term changes in sleep amounts, respectively. Our findings are in
-        agreement with the current view that leptin is important in signaling long-term nutritional
-        status while ghrelin has a more significant role in acute hunger. The changes in leptin and
-        ghrelin with sleep restriction could, therefore, provide a powerful dual stimulus to food
-        intake that may culminate in obesity.
-        Longitudinal and intervention studies will be necessary to define further the link
-        between sleep curtailment and increased BMI. Only total ghrelin was measured, since active
-        octanoylated ghrelin is unstable. Although both total and active ghrelin appear to be
-        regulated in a similar and parallel manner, future studies will need to focus on
-        measurement of the biologically active form. Other potentially important appetite
-        regulatory hormones, such as PYY 3–36 [28], were not measured. Measures of appetite were
-        not included in the Wisconsin Sleep Cohort Study overnight protocol; therefore, a direct
-        examination of the relationship between the observed hormone changes with sleep duration
-        and alterations in appetite was not possible.
-        Hormone measurements were all performed on a single fasted, morning sample and may not
-        reflect the 24-h profile. It is possible that participants with shorter sleep woke up
-        earlier and that hormone differences may be partially related to circadian time. Leptin and
-        ghrelin levels rise slightly during the night [29], and this could result in higher hormone
-        levels in short sleepers. This may be an issue for ghrelin, as levels increased with acute
-        sleep restriction. It is, however, unlikely to play a role in the leptin finding, since
-        lower levels were found with chronic but not acute sleep restriction. Additionally, studies
-        have shown a high correlation between morning, fasting leptin and ghrelin levels and 24-h
-        mean profile [29,30]. We also found that the ghrelin and leptin changes were unaffected by
-        morningness tendencies. The fact that studies investigating the diurnal profile of these
-        hormones found similar hormonal changes over the entire 24-h period after experimental
-        sleep restriction also corroborates our results [18,19]. The robustness of our findings and
-        similar observations from smaller controlled studies [18,19] also suggest that our
-        statistically significant results are unlikely to be a reflection of the number of analyses
-        carried out.
-        Animal studies have suggested a link between sleep and metabolism [31,32]. In rats,
-        prolonged, complete sleep deprivation increased both food intake and energy expenditure.
-        The net effect was weight loss and, ultimately, death [33]. Rats fed a high
-        protein-to-calorie diet had accelerated weight loss, compared to sleep-deprived rats fed
-        calorie-augmented (fatty) diets [32]. Food consumption remained normal in sleep-deprived
-        rats fed protein-rich diets, but increased 250% in rats fed calorie-rich diets. Preference
-        for fatty foods has also been reported anecdotally in sleep-deprived humans [32,34]. Sleep
-        deprivation may thus increase not only appetite but also preference for lipid-rich,
-        high-calorie foods. Animal experiments that have found weight loss after prolonged sleep
-        deprivation have to be interpreted in the context of a stressful procedure producing
-        intense sleep debt [35,36], which may interfere with adequate food intake. From our study,
-        we hypothesize that the moderate chronic sleep debt associated with habitual short sleep is
-        associated with increased appetite and energy expenditure. In societies where high-calorie
-        food is freely available and consumption uncontrolled, after milder chronic sleep
-        restriction, the equation may be tipped towards food intake for high-calorie food rather
-        than expenditure, culminating in obesity. Short sleepers may also have more time to
-        overeat.
-        Sleep loss from a baseline of 7.7 h was associated with a dose-dependent increase in
-        BMI. This was the predominant effect in a population increasingly curtailing sleep [37].
-        Sleep greater than 7.7 h, however, was also associated with increased BMI. Patients with
-        SDB (a pathology associated with increased BMI) may spend a longer time in bed to
-        compensate for fragmented sleep; however, controlling for AHI did not change the
-        curvilinear BMI–sleep association. Another possibility is that in long sleepers, reduced
-        energy expenditure due to increased time in bed has a greater impact than reduced food
-        intake. In favor of this hypothesis, long sleepers exercise less [38]. In our data, we
-        found that the odds ratio of high levels of self-reported exercise (>7 h/wk), based on a
-        single survey question, decreased with increased sleep time, but controlling for this
-        variable also did not change our findings (analyses not shown).
-        Insulin resistance with sleep deprivation has been reported in a laboratory study of
-        young, healthy volunteers [39]. When controlling for BMI, we found no significant
-        correlation between insulin, glucose, or adiponectin levels and various measures of sleep
-        duration. Also, there was no significant correlation between QUICKI (or the homeostatic
-        model assessment HOMA [16]; data not shown) and sleep duration. This may be due to
-        difficulties in detecting small effects on glucose tolerance under less-controlled
-        conditions of large population studies.
-        Our results demonstrate an important relationship between sleep and metabolic hormones.
-        The direct effect of chronic partial sleep loss on food intake, energy expenditure, and
-        obesity now needs to be explored. Altering sleep duration may prove to be an important
-        adjunct to preventing and treating obesity.
+        Materials and methods
+        
+          Experiments and arrays
+          Array experiments used the Genetics Institute 
+          C. elegans Affymetrix GeneChip™
+          oligonucleotide arrays, a set of three arrays (denoted A,
+          B and C) which in aggregate monitor approximately 98% of
+          the 19,099 predicted worm mRNAs in the October 1998 worm
+          genome sequence release [ 20]. The total number of probe
+          sets on each array was 6,617 (A array), 5,768 (B), and
+          6,646 (C). Each probe set consists of 20 distinct probe
+          pairs (each probe is a 25mer) designed to monitor a
+          single transcript. On the 
+          C. elegans arrays described here,
+          probe sets monitoring the spiked transcripts were each
+          tiled twice with a different set of oligonucleotide
+          probes. On arrays that are commercially available from
+          Affymetrix, one probe set is tiled to monitor each of the
+          spike-in transcripts. The probe sets are not fully
+          randomly distributed across the arrays, although on the 
+          C. elegans arrays the different
+          probe sets are tiled in widely different regions of the
+          arrays. Experimental array data described here were taken
+          from the developmental time course dataset reported in [
+          10]. Specifically, we examined individual replicate
+          hybridizations of the A array from the worm developmental
+          time course at each of 0 ( 
+          n = 4), 36 ( 
+          n = 3), 48 ( 
+          n = 4) and 60 ( 
+          n = 4) hours after synchronization
+          of worm eggs by bleach, as well as a larger set of 13
+          hybridizations of all three arrays to samples ranging
+          from oocytes to 2-week-old worms. Replicate
+          hybridizations in the datasets included independently
+          generated complementary RNA (cRNA) preparations from the
+          same starting total RNA. Primary data for all transcripts
+          on all arrays (including all replicates of all three
+          array designs) is contained in the supplementary Excel
+          spreadsheet (see Additional data files).
+        
+        
+          Spike-in transcript pool
+          A pool of biotin-labeled spike-in control transcripts
+          was derived by 
+          in vitro transcription of 11 cloned
+          
+          Bacillus subtilis genes, using the
+          methods described in [ 21]. The spike-in pool was added
+          into hybridization cocktails in proportion to the
+          UV-quantitated cRNA mass in the hybridization, so as to
+          achieve the desired final concentration of spike-ins. The
+          spiked transcripts and their final concentrations in the
+          hybridization cocktails are listed in Table 1. Final
+          concentrations in pmol and parts per million (ppm) for
+          each spiked transcript were computed from the known
+          length of each spike-in, assuming a total mass of 2 μg
+          worm cRNA in a 200 μl hybridization volume, and an
+          average length of 1,000 bases for 
+          in vitro transcribed worm
+          cRNAs.
+        
+        
+          Metrics for transcript abundance
+          Average difference (AD) is the basic measure of
+          transcript abundance that is calculated by the Affymetrix
+          GeneChip 3.1 software. The calculation of AD is described
+          in detail in the Affymetrix GeneChip User Guide [ 17].
+          Briefly, a background intensity is computed for each of
+          16 rectangular sectors on the array. This local
+          background is subtracted from the intensity values of
+          each probe cell in all sectors. After background
+          subtraction, the difference between perfect match (PM)
+          and mismatch (MM) feature intensity is calculated for all
+          probe pairs in each probe set (in our case, 20 probe
+          pairs in total). The AD for each probe set is the average
+          of the PM - MM differences, after outlying values are
+          removed.
+          A second important metric generated by the GeneChip
+          software is the Absolute Decision. The Absolute Decision
+          is a categorical call for each transcript: either
+          Present, Absent, or Marginal. The Absolute Decision is a
+          heuristic metric based on the number of probe pairs for a
+          given transcript that show strong specific hybridization
+          signals. See the Affymetrix GeneChip User Guide [ 17] for
+          a detailed description of this metric.
+          Because of array-to-array variation in overall signal
+          strength, AD values from different arrays are usually
+          normalized to a common scale. We reproduced the scaled AD
+          normalization of the Affymetrix GeneChip 3.1 software.
+          The calculation is described in detail in the Affymetrix
+          GeneChip User Guide [ 17]. Scaling is done by equalizing
+          the average intensity of all arrays in a given dataset,
+          where the average intensity is defined as the trimmed
+          average of the AD values of every probe set on the array,
+          excluding the highest 2% and lowest 2% of the values.
+          This normalization works on the assumption that the
+          summed expression level of all genes on the array is
+          constant across experiments, and that differences in
+          expression levels between arrays can be corrected by
+          array-specific scaling factors. We denote the normalized
+          AD values as scaled average difference (AD s).
+          The calculation of frequency (F) values involved two
+          steps: first, conversion of AD values to frequencies by
+          use of the calibration curve, and second, estimation of
+          the chip sensitivity of detection and 'damping' of
+          frequency values below this sensitivity.
+          The calibration curve for each hybridization was
+          constructed from the AD values for each of the 11 control
+          transcripts and their known frequencies (Table 1). AD
+          values that were negative, or associated with Absent or
+          Marginal Absolute Decisions, were removed from the curve
+          in order to improve the robustness of the fit. This
+          calibration curve was fitted by a linear function with
+          zero intercept, using a generalized linear model [ 22]
+          fitting procedure in the statistical software S-PLUS
+          (Insightful Corp., Seattle, WA). The fitting procedure
+          assumed a gamma error structure, appropriate for data
+          with constant coefficient of variation, and utilized
+          iterative reweighting of errors. The single coefficient
+          of this linear fit was multiplied with the average
+          difference values for each gene on the array to yield
+          initial frequency estimates. Calibration curves for the
+          hybridizations described here were examined visually to
+          rule out poor curve fits.
+          Chip sensitivity of detection was estimated from the
+          Absolute Decisions (Present, Marginal, or Absent) for the
+          11 spike-in transcripts in one of two ways. In the
+          general case, Absolute Decisions were considered as a
+          binary response: Absent = 0, Present = 1, with Marginal
+          calls treated as Absent to be conservative. This response
+          was regressed against the log-transformed known
+          frequencies, using a generalized linear model with a
+          logit link function. The chip sensitivity was then
+          defined as the frequency at which the predicted odds of a
+          Present call were 70%. In the special case where all
+          spike-in mRNAs called Absent were lower-abundance
+          messages than all spike-ins called Present, the
+          sensitivity was defined by linear interpolation as the
+          frequency 70% of the distance between the highest Absent
+          call frequency and the lowest Present call frequency.
+          Frequency values for all genes on the array that fell
+          below the sensitivity were damped as follows. Negative
+          frequencies (corresponding to negative AD values) were
+          adjusted to one-half of the chip sensitivity. Frequencies
+          between zero and the chip sensitivity were adjusted to
+          the average of the frequency and the chip sensitivity.
+          The rationale for this adjustment was threefold. First,
+          one-half the chip sensitivity was a reasonable 
+          a priori estimate of abundance for
+          many genes that were not reliably detected. Second, the
+          adjusted frequencies were guaranteed to be
+          positive-valued, making downstream analyses of frequency
+          values (for example, log transformation) significantly
+          easier. Third, retaining the adjusted low-level frequency
+          estimates was preferable to discarding them, because
+          discarding the values would make it impossible to detect
+          potentially important regulation of these genes in future
+          experiments.
+          Frequency normalization could be adversely affected by
+          technical uncertainties in cRNA preparation (see Results
+          and discussion). To attenuate these effects, an
+          additional frequency variant termed scaled frequency (F
+          s) was introduced. F swas a hybrid of ADs and frequency,
+          and was computed as follows. AD swas first computed for a
+          set of two or more arrays exactly as described above.
+          Then a linear model (with zero intercept) was fitted to
+          the pooled AD svalues for the 11 spike-in transcripts
+          from all arrays, ignoring negative AD svalues or those
+          associated with Marginal/Absent Absolute Decisions. The
+          slope of this linear model was the single calibration
+          factor for the entire dataset. This slope was multiplied
+          with the AD svalues from all arrays to yield F svalues.
+          Per-array sensitivity values were computed exactly as
+          described for F, and F svalues on any array that were
+          below the array sensitivity were adjusted as described
+          above.
+        
+        
+          Simulated data
+          Array data was simulated as follows. First, a single
+          experimental dataset, one of the 0-hour replicates, was
+          chosen as a baseline for generation of all simulated
+          data. To this baseline dataset, several random noise
+          sources were added to reproduce key sources of
+          variability in array data. The relation describing the
+          simulated data was:
+          
+          AD 
+          
+            ij 
+           = 
+          b 
+          
+            ij 
+           + 
+          ADB 
+          
+            i 
+           ( 
+          a 
+          
+            j 
+           
+          m 
+          
+            ij 
+           
+          s 
+          
+            ij 
+           
+          r 
+          
+            ij 
+           )
+          where
+          
+          AD 
+          
+            ij 
+           = simulated AD for the 
+          i th mRNA on the 
+          j th array
+          
+          ADB 
+          
+            i 
+           = baseline gene expression data for the 
+          i th mRNA
+          
+          b 
+          
+            ij 
+           = background noise for the 
+          i th mRNA on the 
+          j th array
+          
+          a 
+          
+            i 
+           = array intensity offset for the 
+          j th array
+          
+          m 
+          
+            ij 
+           = multiplicative noise for the 
+          i th mRNA on the 
+          j th array
+          
+          s 
+          
+            ij 
+           = spike-skew factor for the 
+          i th mRNA on the 
+          j th array (unity for all nonspiked
+          mRNAs)
+          
+          r 
+          
+            ij 
+           = regulation factor for the 
+          i th gene on the 
+          j th array (unity for all spiked
+          mRNAs)
+          Background 
+          b 
+          
+            ij 
+           was Gaussian with a standard deviation (SD) that
+          varied randomly from one array to another. The background
+          noise SD had a mean of 20 AD units, and a standard
+          deviation of 5 AD units. Array intensity offsets a 
+          
+            j 
+           were Gaussian with a mean of one and SD of 0.3.
+          Multiplicative noise, 
+          m 
+          
+            ij 
+           , was drawn from a normally distributed zero-mean
+          noise source with a constant CV of 0.1. Spike-skew factor
+          
+          s 
+          
+            ij 
+           was a single random factor for all spiked cRNAs on a
+          given array, and unity for all other messages. The
+          spike-skew factor for the spiked cRNAs was Gaussian with
+          mean 1 and a SD that was adjusted from 0.1 to 0.4 (in
+          percentage terms, 10-40%). Regulation factors r 
+          
+            ij 
+           were generated by a procedure in which the base-10
+          log (fold-change) for each gene was selected from a
+          normal distribution with mean 0 and SD 0.5. Extreme
+          random regulation factors were limited so that the
+          regulated gene expression values had the same range as
+          baseline data. After multiplication of each gene by its
+          regulation factor, the mean expression level of all genes
+          was adjusted so that the overall mean expression level
+          was unchanged by regulation.
+        
+      
+      
+        Additional data files
+        Primary data for all experimental hybridizations are
+        available as an Excel spreadsheet(20,325 Kb).
+        Additional data file 1
+        Primary data for all experimental hybridizations
+        Primary data for all experimental hybridizations
+        Click here for additional data file
       
     
   

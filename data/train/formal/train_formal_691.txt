@@ -2,298 +2,509 @@
   
     
       
-        
-        A year ago, I received an E-mail from a research scientist at a major pharmaceutical
-        company. The scientist had read my articles on whistleblowers who had raised concerns about
-        the undue influence of the pharmaceutical industry on American medicine My industry source
-        had information for me about drug company practices, but—out of fear of career ruin—would
-        only talk on the condition that I would conceal the scientist's identity.
-        For the next year or so, I had repeated contacts with the scientist. As I listened to
-        this researcher—and to the other medical whistleblowers that I continued to interview—it
-        occurred to me that each whistleblower was like the proverbial blind man with a hand on the
-        elephant. Each could describe one piece of the puzzle, but the full picture could only
-        emerge by bringing these whistleblowers together.
-        With an eye to focusing on the systemic problems that have allowed American medicine to
-        be unduly influenced by industry, on May 15, 2005, I brought together five whistleblowers
-        in Washington, D. C. I asked them each to tell their story and to suggest ways to restore
-        objectivity to medicine and medical research.
+        Rationale
+        Gene-expression profiling and other forms of
+        high-throughput genomic and proteomic studies are
+        revolutionizing biology. That much is universally agreed.
+        But the new technologies pose new challenges. The first is
+        the experiment itself, the second is statistical analysis
+        of results, the third is biological interpretation. That
+        third challenge is often the most vexing and
+        time-consuming. In gene-expression microarray studies, for
+        example, one generally obtains a list of dozens or hundreds
+        of genes that differ in expression between samples and then
+        asks: 'What does all of this mean biologically?' The work
+        of the Gene Ontology (GO) Consortium [ 1 ] provides a way
+        to address that question. GO organizes genes into
+        hierarchical categories based on biological process,
+        molecular function and subcellular localization. In the
+        past, this GO information was queried one gene at a time.
+        Recently, batch processing has been introduced [ 2 ] , but
+        with a flat-format output that does not communicate the
+        richness of GO's hierarchical structure.
+        We have developed, and present here, the program package
+        GoMiner as a freely available computer resource that fully
+        incorporates the hierarchical structure of the Gene
+        Ontology to automate the functional categorization of gene
+        lists of any length. GoMiner is downloadable free of charge
+        from [ 3 ] or [ 4 ] . GoMiner was developed particularly
+        for biological interpretation of microarray data; one can
+        input a list of under- and overexpressed genes and a list
+        of all genes on the array, and then calculate enrichment or
+        depletion of categories with genes that have changed
+        expression. GoMiner thus facilitates analysis and
+        organization of the results for rapid interpretation of
+        'omic' [ 5 6 ] data. For concreteness, the descriptions in
+        this article will focus on applications to microarray data,
+        but the range of uses is obviously much broader.
       
       
-        The Whistleblowers
-        Four whistleblowers attended in person, and the anonymous industry scientist
-        participated via speakerphone. The whistleblowers came from an extraordinary variety of
-        different professional backgrounds.
+        Overview of GoMiner
+        GoMiner takes as input two lists of genes: the total set
+        on the array and the subset that the user flags as
+        interesting (for example, altered in expression level).
+        GoMiner displays the genes within the framework of the Gene
+        Ontology hierarchy, both as a directed acyclic graph (DAG)
+        and as the equivalent tree structure. The latter is similar
+        in format to the visualization in the AmiGO browser display
+        [ 1 ] . However, each category is annotated to reflect the
+        number of genes from the user's experiment assigned to that
+        category plus the number assigned to its progeny categories
+        (Figure 1a). This computation does not double-count genes
+        that appear more than once along the traversal. The user
+        has the option of designating each gene within the
+        'interesting gene' list as exhibiting under- or
+        overexpression. If that is done, genes displayed in the
+        tree-like view are tagged with green down-arrows or red
+        up-arrows, respectively.
+        The most important parameter for purposes of
+        interpretation is the enrichment (or depletion) of a
+        category with respect to flagged genes (relative to what
+        would have been expected by chance alone). This parameter
+        will be discussed more extensively and more mathematically
+        in the section on 'Statistical considerations'. In Figure
+        1a, the relative enrichment is indicated by blue numbers
+        for total flagged genes and by red and green numbers for
+        over- and underexpressed genes, respectively. The last
+        number (blue) for each category is a two-sided 
+        p -value from Fisher's exact
+        test.
+        In GoMiner, clicking on a gene of interest in the
+        tree-structure opens a menu that can be used to submit that
+        gene as a query to an external data resource. The number of
+        such links is being expanded rapidly, but currently
+        included are LocusLink [ 7 ] , PubMed [ 8 ] , MedMiner [ 9
+        10 ] , GeneCards [ 11 ] , the NCBI's Structure Database [
+        12 ] , and BioCarta and KEGG pathway maps as implemented by
+        the NCI Cancer Genome Anatomy Project (CGAP) [ 13 ] . These
+        external databases provide GoMiner with a rich set of
+        resources for bioinformatic integration. For example, the
+        links with CGAP and LocusLink provide interaction with
+        pathway maps, chromosome visualizations, a database of
+        single nucleotide polymorphism (SNP), and the Mammalian
+        Gene Collection (MGC).
+        In GoMiner, clicking on a category instead of a gene
+        brings up a second visualization (Figure 1b), a DAG
+        programmed as a scalable vector graphic (SVG) that can be
+        navigated fluently. Any of its nodes can be moused-over to
+        list the flagged genes or clicked to highlight multiple
+        pathways connecting it to the root. Detailed quantitative
+        and statistical results are downloadable in several
+        tab-delimited formats that can be read directly into a text
+        file or a spreadsheet program for further analysis. For
+        example, the spreadsheet data can be sorted by enrichment
+        factor or 
+        p -value to focus attention on
+        potentially interesting categories.
+      
+      
+        Development of GoMiner
+        GoMiner is based on a variety of open-source Java
+        classes and developer tools, plus substantial in-house
+        custom software engineering (Figure 2). We chose Java to
+        achieve independence of operating system so that more
+        researchers could use the tool. A custom graphical user
+        interface (GUI) provides the user with flexibility and an
+        intuitive view of biological relationships (Figure 1a). A
+        complementary command-line version of GoMiner allows
+        high-throughput applications and fluent integration with
+        other programs.
+        The heart of GoMiner is its processing engine (Figure
+        2), which parses input gene lists and retrieves database
+        entries for association with GO categories (also called
+        'terms'). The GO categories and gene associations are
+        stored in a relational database. To enhance the speed of
+        data manipulation, we model the information in memory using
+        a DAG data structure. The root is the topmost node: 'Gene
+        Ontology'. The other nodes represent gene categories, and
+        the connections represent relationships between categories.
+        Each category-node object contains its associated genes,
+        functionality for counting genes, a flag for dereplication
+        during counting, and results of statistical analyses. The
+        gene-category associations are displayed in the form of a
+        tree (Figure 1a) or, alternatively, in the form of a DAG
+        (Figure 1b).
+        We have developed GoMiner as a client-server
+        application. The client, a Java application, communicates
+        with a server-side database through JDBC. The client can
+        run on platforms with Java run-time environment version 1.3
+        or higher. The primary client-user GUI, written using the
+        Java Swing API, takes the form of a three-panel window in
+        which the user can inspect GO categories and genes. The
+        left-hand panel lists the genes, the databases from which
+        their identities were derived, and optional up- and
+        down-arrows to indicate under- or over-expression; the
+        middle panel shows a tree visualization of categories in
+        the style of the AmiGO browser [ 1 ] and, in addition,
+        provides a visualization of the flagged genes in the
+        particular microarray experiment. The right-hand panel
+        shows all appearances within the GO hierarchy of any gene
+        selected from the left or middle panel. The gene and
+        category names are implemented as links to facilitate
+        navigation of the data structures and access to public
+        resources.
+        A second type of visualization, the DAG (programmed as
+        an SVG) shows in compact form the spanning hierarchy for
+        all flagged genes. Optionally, it can include only nodes
+        below a specified level if the entire DAG would be too
+        large for easy visualization. The client application uses
+        several open source components: the Berkeley 
+        Drosophila Genome Project (BDGP) Java
+        Toolkit [ 14 ] for utility classes; Browser Launcher [ 15 ]
+        for cross-platform web browser integration; Jakarta-ORO [
+        16 ] for text processing; the Jena Semantic Web Toolkit [
+        17 ] for manipulating RDF models; MySQL Connector/J [ 18 ]
+        for database connectivity; and Xerces [ 19 ] for parsing
+        XML. The back-end is a relational database server, which
+        stores all gene ontology data. It includes an
+        implementation in MySQL [ 20 ] of the GO Consortium
+        database.
+        In addition to the deployed components, we have
+        introduced a number of open-source tools to enhance the
+        development environment. In particular, the Concurrent
+        Versions System (CVS) tool [ 21 ] coordinates program
+        development at the Georgia Institute of Technology with
+        that at the NCI, and also coordinates development within
+        each of the groups. jUnit [ 22 ] automates unit- and
+        system-level testing of the application.
+      
+      
+        Statistical considerations
         
-          
-          
-            David Graham
-            This Food and Drug Administration (FDA) safety officer raised concerns about the
-            cardiovascular side effects of rofecoxib (Vioxx) and other Cox-2 inhibitors. He
-            testified at a United States Senate Finance Committee hearing on rofexocib, the FDA,
-            and Merck [1,2]. Graham attended the roundtable in his own personal capacity and was
-            not representing the FDA.
-            
-              Each whistleblower was like the proverbial blind man with a hand on the
-              elephant.
-            
-          
+          Random experimental and categorization error
+          Experimental error and any uncertainties in the
+          classification of genes in GO are not included in the
+          statistical model. Perhaps, given enough information
+          (which we essentially never have) about those sources of
+          error, they could be included in the statistical model,
+          for example through a resampling technique.
         
         
-          
-          
-            Allen Jones
-            This investigator at the Pennsylvania Office of the Inspector General led an
-            investigation into an off-the-books account, funded in part by drug companies, from
-            which payments were made to state employees to develop a medication treatment
-            algorithm. He filed a civil rights lawsuit against the Pennsylvania Office of the
-            Inspector General to protect his right to publicly discuss his findings, and was later
-            fired from his job for talking to the press [3–6].
-          
+          Gene representation bias
+          The microarray gene set (or set from some other type
+          of genomic or proteomic experiment) will generally be a
+          biased representation of all genes. Therefore,
+          enrichments and depletions, of necessity defined in terms
+          of the genes studied, may be biased with respect to
+          biological significance as well. An alternative is to
+          replace the list of the total set of genes on the
+          microarray with a list of the total set of genes in the
+          genome (or a representative sample), but that approach
+          introduces another source of bias: genes not on the
+          microarray are counted in determining 
+          N and 
+          n but have no chance to be
+          flagged.
         
         
-          
-          
-            Stefan Kruszewski
-            This Harvard-trained psychiatrist was hired by the Bureau of Program Integrity in
-            the Pennsylvania Department of Public Welfare to oversee the state's mental health and
-            substance misuse programs. He filed a law suit in a federal court in the Middle
-            District of Pennsylvania, charging that he was fired after uncovering widespread abuse
-            and fraud in the bureau [7,8].
-          
+          GO consortium database bias for human gene
+          associations
+          The GO Consortium [ 1 ] provides a set of flat files
+          that indicate the association between gene names and GO
+          categories for several species [ 27 ] . Although the flat
+          files for human are quite comprehensive, we found a low
+          hit rate for GO annotation of human genes using the
+          database created by the GO Consortium's downloaded MySQL
+          script files [ 28 ] . The hit rates were low both when
+          the gene names were used in the format of HUGO names and
+          when the gene names were used in the format of
+          'HUGO_HUMAN.' We tried the latter format because the flat
+          files often contained '_HUMAN' appended to the human gene
+          names. In contrast, when we used a combination of mouse
+          (MGI) and rat (RGD) association files, there were
+          reasonable numbers of hits. Therefore, we now routinely
+          use mouse and rat annotations for human data. We are
+          currently augmenting the human associations in the GO
+          Consortium database to provide a richer annotation of
+          human gene names. This goal will be achieved by using the
+          MatchMiner database to integrate the information in the
+          GO Consortium database [ 27 ] and the Swiss-Prot, TrEMBL
+          and TrEMBLnew databases [ 29 ] , and GoMiner will
+          implement this database for human data in the near term.
+          The MySQL script files will be freely available and
+          should represent an improvement over what is currently
+          available to program developers and end-users.
         
         
-          
-          
-            Kathleen Slattery-Moschkau
-            This former drug representative left the pharmaceutical industry after witnessing
-            marketing practices that she found disturbing. She wrote and directed the movie 
-            Side Effects , a fictionalized account of her experiences [9,10].
-          
+          Non-independence of gene data
+          Gene-expression values within a category may be
+          correlated for any of several reasons. They may represent
+          the same gene, close family members with similar
+          functions, genes in the same pathway or genes in
+          alternative pathways for performing a biological
+          function. Gene classifications in GO may be correlated
+          for analogous reasons. How do such relationships affect
+          the statistics? The answer is most easily seen by
+          imagining a category containing nothing but five
+          instances of the same gene (perhaps because five
+          different identifiers were used and not recognized as
+          representing the same gene). That category might appear
+          either to be strikingly enriched (with five out of five
+          genes flagged) or strikingly depleted (with none out of
+          five genes flagged). But the appropriate value of 
+          n for determining statistical
+          significance in those cases would be 1, not 5. GoMiner's
+          companion program MatchMiner [ 30 31 ] handles this
+          problem by identifying replicates of the same gene, even
+          if they are represented by different identifiers.
+          What about possible sources of correlation other than
+          'same-gene'? Do we want to dereplicate them as well?
+          Generally, the answer is 'no'. Correlation of genes in
+          the same pathway is precisely the phenomenon we are often
+          trying to identify. We would not want a statistical test
+          to adjust for (and, in effect, null out) the effect of
+          such relationships. Close family members might be
+          considered an intermediate case. The statistical model
+          implemented in GoMiner assumes, as our state of prior
+          knowledge, that we know when two 'genes' are identical
+          but nothing about their relationship if they are not
+          identical. That seems the only available course. However,
+          for each category, GoMiner provides the gene identities
+          and the numbers given in Table 1- sufficient information
+          for the knowledgeable user to decide to eliminate close
+          family members or pathway partners if desired.
         
         
+          The multiple comparisons problem
+          If one has not decided before analysis which
+          particular gene category is to be examined, a correction
+          should be made for the multiple opportunities to obtain a
           
+          p -value indicating statistically
+          significant enrichment or depletion. For example, with
+          1,000 categories, we would expect approximately 1,000 ×
+          0.05 = 50 false positives simply by chance if we set the
+          critical value at 
+          p = 0.05. The most common way to
+          correct for this problem is that of Bonferroni (see, for
+          example [ 32 ] ), in which the critical value is divided
+          by the number of trials (in this case, 1,000). However,
+          that approach assumes independence of categories and is
+          so conservative that it becomes extremely hard to detect 
+          true positives. A number of less
+          conservative statistical methods have also been
+          developed, but it is beyond the scope of this paper to
+          review them here. An approach based on resampling will be
+          incorporated into GoMiner in the coming months.
+          Overall, the 
+          p -values quoted should be
+          considered as heuristic measures, useful as indicators of
+          possible statistical significance, rather than as the
+          results of formal inference. The 
+          p -values can be used, for example,
+          to sort categories to identify those of the most
+          potential interest.
+          As another useful measure, we have calculated the
+          relative enrichment factor, 
+          R 
+          e , defined as
           
-            The anonymous research scientist
-            This is an industry insider who said to me, ahead of the roundtable, that the
-            culture of secrecy at drug companies too often results in claims that are closer to
-            “propaganda” than science.
-          
+          R 
+          e = ( 
+          n 
+          f / 
+          n )/( 
+          N 
+          f / 
+          N )
+          and shown as blue numbers in Figure 1a. The analogous
+          quantities for overexpressed (red numbers) and
+          underexpressed (green numbers) are also shown. Depletion
+          is, of course, represented by an enrichment factor less
+          than unity.
         
       
       
-        Lessons Learned from the Roundtable
-        
-          
-          
-            Ties between drug regulators and industry may influence new drug approval
-            David Graham described the frustrations he had felt in his almost 20 years of
-            experience as an FDA drug safety officer. Although he was instrumental, he said, in
-            getting ten drugs off the market because of safety concerns, his experience was like a
-            salmon swimming upstream—“a single individual…against the tide.” The tide, he said, “is
-            an entire institution whose mission is to approve drugs and make industry happy.”
-            The FDA, said Graham, is in a “collaborative relationship” with industry. The FDA
-            gets money from drug companies through the Prescription Drug User Fee Act of 1992 (see
-            http://www.fda.gov/cber/pdufa.htm) “to approve new drugs and approve them more
-            quickly.” The mindset at the FDA, he said, is that “we will find a reason to approve a
-            drug no matter how small the indication for the drug.” Graham explained that a senior
-            official at the FDA had told him: “industry is our client.“
-            When the FDA knows there is a serious problem with a new drug, he said, the FDA
-            deals with this by saying, “well, we'll handle it in labeling” even though, said
-            Graham, “FDA knows labeling doesn't work.”
-            “There is no independent voice for drug safety in the United States,” he said. The
-            upper-level managers in the FDA's Office of Drug Safety are appointed from the FDA's
-            Office of New Drugs, which approves new medicines. This makes the Office of Drug Safety
-            “captive,” he said, to the Office of New Drugs.
-            The anonymous scientist said that in order to speed up drug approval, companies
-            “don't measure things like whether we are really curing the disease, or prolonging
-            life, or preventing hospitalization, or whether a patient is truly more functional.
-            Oftentimes, we're measuring intermediate, lesser things, markers, predictors—we 
-            hope —of these clinical endpoints, but they may or may not be
-            accurate.”
-            And the FDA, said the scientist, requires just two positive studies to grant
-            approval to a new drug, but there is no limitation on how many negative studies can be
-            done before one or two positive studies are produced. This can lead to approval of a
-            drug even when most studies are negative or show no effect.
-            Both Graham and the anonymous scientist suggested putting an end to the Prescription
-            Drug User Fee Act, and Graham argued that there needs to be independent authority for
-            those in charge of drug safety. They indicated that two bills in Congress, introduced
-            by Senator Grassley and by Congressman Hinchey, at least partly address these
-            concerns.
-            “The pharma–FDA complex has to be dismantled,” said Graham, “and the American people
-            have to insist on that, otherwise we're going to have disasters like Vioxx that happen
-            in the future.”
-          
-        
-        
-          
-          
-            The race to approve new drugs without proper safety testing may be compromising
-            the public's health
-            “Drug companies assiduously avoid acquiring information about side effects,” said
-            the industry scientist. “Drug companies will not conduct safety studies unless they
-            have to—meaning basically that they're required by a regulator—and that rarely
-            happens.” High-risk patients who might have a bad reaction to a drug, said the
-            scientist, “are excluded from studies deliberately, even though, when the drug is
-            approved, these patients will be targeted for sales.” When a safety study is proposed
-            within the industry, said the scientist, “a typical response will be that if we
-            conducted a study to find out if there was a safety problem, people would learn about
-            it and think we 
-            had a problem [which] would destroy the image of safety that has been
-            so carefully constructed.”
-            
-              “There is no independent voice for drug safety in the United States.”
-            
-            Studies are too small and are conducted over too brief a period to properly assess
-            safety: “The largest studies—the phase three studies, [which] might be several thousand
-            people—last for a few months. If drugs kill one in several thousand per year, this
-            would be a public health catastrophe. A blockbuster drug with that kind of hazard
-            associated with it could be associated with tens of thousands of deaths a year, and it
-            would never be detected in studies of the kind that we routinely submit and are the
-            basis for approval.” These drugs, said the scientist, and these kinds of risks, are
-            “essentially out there now, unlabeled, unnoticed, all beneath the radar.”
-            The scientist said that, “to ensure that safety problems will go unnoticed, we
-            compound the problem of conducting small studies by setting a statistical threshold for
-            acknowledging the safety problem that is so high that you know in advance it could
-            never be reached for any serious side effect, like myocardial infarction.” This
-            practice, said the scientist, “virtually ensures that if a bad side effect happens to
-            show up, it's not going to reach the arbitrary level that we call statistically
-            significant, and the company can maintain that it's just bad luck.” And if a bad result
-            does happen, “typically a company is not going to publish the study at all. If they do
-            publish it, the bad result can be omitted as ‘not statistically important.’”
-          
-        
-        
-          
-          
-            The funding of state officials by industry may be affecting prescribing
-            patterns
-            Allen Jones described how he believed that drug companies were acting at the state
-            level to influence the prescribing of psychiatric medications.
-            “I began to investigate an account into which pharmaceutical companies were paying
-            money that was being accessed by state employees,” he said. “Additionally, I found that
-            various pharmaceutical companies were paying state employees directly—also giving them
-            trips, perks, lavish meals, transportation, honorariums up to $2,000 for speaking in
-            their official capacities at drug company events. They were given unrestricted
-            educational grants that were deposited into an off-the-books account—unregistered,
-            unmonitored, literally operated out of a drawer.”
-            These same state officials, he said, were responsible for dictating clinical policy
-            and writing guidelines for the treatment of patients in the state system. These
-            officials were, he said, receiving money from companies with a stake in the guidelines.
-            “The protocol they [the officials] were developing was called the Texas Medication
-            Algorithm Project, TMAP, which began in Texas in the mid-90s. It outlined detailed
-            medication guidelines for schizophrenia, depression, and bipolar disorder. It
-            recommends almost exclusive usage of newer, patented, very expensive atypical
-            antipsychotics, SSRIs [selective serotonin uptake inhibitors], and mood stabilizers.”
-            The Texas Medication Algorithm Project, said Jones, was based on “expert consensus”
-            from industry-supported meetings.
-            Jones said that when he wanted to investigate these findings, he was shut down. “I
-            was told point black, ‘Look, drug companies write checks to politicians, they write
-            checks to politicians on both sides of the aisle—back off.’” He was told, he said, to
-            “quit being a salmon, quit swimming against a stream.” He wouldn't back down from his
-            investigation, he said, and was demoted. On November 22, 2002, he filed a civil rights
-            lawsuit “to preserve my job and my right to speak out.” His employer, he said, took him
-            off investigative duties altogether.
-            Stefan Kruszewski, who has filed a law suit in a federal court in Pennsylvania,
-            raised concerns to his seniors in the Pennsylvania Department of Public Welfare about
-            prescribing practices in the state that he did not feel were evidence based, and said
-            he lost his job for raising his concerns. For example, he alerted his seniors to the
-            off-label prescribing of the anticonvulsant gabapentin (Neurontin) for mood disorders
-            and addictive disorders.
-            “The pharmaceutical industry is the single most powerful lobbying group on Capitol
-            Hill—outspending even the oil and banking industries,” said Jones. “It should come as
-            no surprise that the ties go far beyond just the mental health officials who wrote the
-            guidelines, but extend to many of the politicians who, in the end, allowed an
-            investigation into pharma corruption to be dropped, and the investigator—me—to be
-            fired.”
-            Efforts to detect and deter fraud and abuse due to these conflicts, he said, “will
-            be likely to be undermined as long as those charged with detecting fraud and abuse,
-            like the [Pennsylvania] Inspector General, are appointed by politicians who are
-            themselves beholden to the drug industry. Such positions should instead be filled by
-            career civil servants and not political appointees.”
-          
-        
-        
-          
-          
-            Regulatory agencies are not being held accountable
-            In comments that echoed his testimony to the US Senate Finance Committee, Graham
-            said that, “FDA was the single greatest obstacle to doing anything effective with
-            Vioxx. As a result, nearly 60,000 people probably died from that drug. That's as many
-            of our soldiers that were killed in the Vietnam war [who] died as a result of Vioxx
-            use. And FDA had the opportunity, the responsibility, to stop that and didn't. In fact,
-            FDA allowed it to continue. In my book, FDA shares in the responsibility for those
-            deaths and yet it's not being held accountable by Congress.” Congress itself, added
-            Graham, is deeply beholden to the drug industry since many politicians receive “often
-            quite a bit of campaign contributions” from the industry.
-            Kruszewski reflected upon the problems he said he had encountered in Pennsylvania,
-            saying that “there is no accountability in the system for oversight [agencies].” He has
-            become “a stronger advocate than ever for a federal patient bill of rights.”
-          
-        
-        
-          
-          
-            Marketing departments can influence doctors’ prescribing habits
-            The research scientist said that the job was attractive because of the “many
-            excellent drugs” developed, such as drugs to treat HIV, but the scientist “also saw
-            drugs marketed in a way that will exaggerate the benefits and conceal the risks.”
-            Kathleen Slattery-Moschkau gave an insider's view of drug marketing practices, from
-            her former experiences as a drug rep. She clutched her head in disbelief as she told
-            the roundtable that doctors would come up to her with patients' charts asking her for
-            advice on treating patients. Slattery-Moschkau, like most of the drug representatives
-            she came to know over the years, had no science background at all.
-            
-              “Drug companies assiduously avoid acquiring information about side effects.”
-            
-            The various techniques drug representatives were trained in to “educate doctors”
-            eventually proved to be not just “comical” but “also scary,” she said. “Whether it was
-            hiring, training, what we were told to say about drugs and what we were told not to
-            say,” it was marketing, not science, that dominated. One of the techniques used by drug
-            companies was to buy doctors' prescribing records so drug representatives knew “to the
-            dime” what drugs doctors were prescribing and could tailor their marketing to them.
-            Drug representatives developed “personality profiles” on doctors and were taught to
-            pitch their sales to specific personality types. Representatives were compensated, she
-            said, by “how many prescriptions we could encourage.”
-            Both Slattery-Moschkau and the industry scientist described tensions within drug
-            companies between marketing departments and industry scientists. “The marketing spin on
-            things,” said the scientist, “carries the day.”
-          
-        
-        
-          
-          
-            The published medical literature contains many biases
-            “When studies are published,” said the scientist, “they are frequently written not
-            by the trained research scientist, who might have designed and analyzed the study, but
-            by a designated medical writer with little if any background in research, but who is
-            trained instead to craft the findings of the study in the best possible way for the
-            company.”
-            The body of literature available to the public, said the scientist, “is a biased
-            sample of what companies want people to see.” The research scientist described “a
-            culture of secrecy,” which makes it hard even for industry scientists tasked with
-            ensuring drug safety to obtain the full datasets needed to genuinely understand a
-            drug's risk–benefit profile.
-          
-        
+        Benchmarking GoMiner on a biological problem
+        As a test, GoMiner was applied to the results of our
+        cDNA microarray study of the molecular mechanisms by which
+        drug resistance develops [ 33 ] . The DAG shown in Figure
+        1awas generated from that study, which used quadruplicate
+        'Oncochip' microarrays (Microarray Facility, Advanced
+        Technology Center, NCI [ 34 ] ) to compare gene expression
+        profiles in a prostate cancer cell line (DU145) and a
+        subline (RC0.1) selected from it for resistance to the
+        topoisomerase 1-inhibitor 9-nitro-camptothecin. The
+        microarray included 1,399 cancer-interesting genes. 181 of
+        those genes differed in expression according to a threshold
+        criterion (>1.5-fold difference). MatchMiner was used to
+        translate IMAGE clone Ids for the 1,399 genes into HUGO
+        names for input to GoMiner. Figure 1ashows that the
+        category 'apoptosis regulator' was enriched 2.4-fold in
+        genes with altered expression levels. More specifically, it
+        was enriched 3.2-fold with underexpressed genes and
+        2.0-fold with overexpressed genes. Flow cytometric annexin
+        V and TUNEL assays verified important differences in
+        apoptotic potential between the cell lines, and analysis
+        generated a novel hypothesis (the 'permissive
+        apoptosis-resistance' hypothesis) for the relationship
+        between apoptotic and cell-proliferation pathways in the
+        development of drug resistance. Figure 1aprovides more
+        detailed information, indicating that these differences
+        were focused in particular subcategories of apoptosis.
+        Thus, GoMiner can help the user in at least two ways: it
+        identifies categories enriched in, or depleted of, genes of
+        interest; and it generates hypotheses to guide further
+        research.
+        Unfortunately for us, interpretive analysis of the
+        DU145/RC0.1 study was initially done one gene at a time
+        before development of GoMiner (and, in fact, motivated that
+        development). Performing the GO analysis one gene at a time
+        would have taken more than two solid hours at the computer
+        for the 181 genes before getting to the much harder parts
+        of the task: doing the same for the entire array (nominally
+        > 15 hours), then collating and organizing the
+        information for each GO category. In contrast, operating on
+        a 266 MHz PC with 250 MB RAM, it took 90 seconds to browse
+        for and load the files, then 30 seconds for GoMiner to
+        process the entire array of 1,399 genes and display the
+        flagged and unflagged genes in their hierarchical context.
+        In another test, running 900 flagged genes and all of HUGO
+        (15,000 genes) took 4 minutes and 40 seconds on the same
+        computer. Overall, the processing time was essentially
+        linear with respect to the total number of genes (time in
+        minutes = 0.0003 × genes + 0.0656; 
+        R 2= 0.998).
       
       
-        Conclusion
-        Whistleblowers have been compared to bees—they have just one sting to use and using it
-        may lead to career suicide [11]. Many of the whistleblowers at the roundtable said they had
-        experienced retaliation from their employers for raising concerns, but all had felt
-        obligated to speak out about practices in medicine and medical research that they believe
-        are risking the public's health or safety. Graham said he felt “trapped by the truth” and
-        had to act. “There are bigger issues here,” said Kruszewski. “I felt right from the start
-        [that] if I wallowed in self-pity about being fired and having my belongings piled in the
-        gutter that I would never understand why all these things were happening. The bigger issue
-        is that we've got people in the pharmaceutical industry and the health-care industry all
-        acting in synchrony.”
-        Each of these whistleblowers, in very different ways—from making a satiric film to
-        speaking out in Congress—has shone light on how this “synchrony” may be compromising the
-        integrity of American medicine. We should not have to rely on medical whistleblowers to
-        alert us to these fault lines. If we are to restore objectivity to drug development,
-        prescribing, and safety monitoring, we must be willing to examine and change all of the
-        institutions that allow this synchrony to occur.
+        Comparison of GoMiner with related programs
+        Several other programs related to GoMiner have recently
+        appeared. These include MAPPFinder [ 35 36 ] , FatiGO [ 37
+        ] , Onto-Express [ 2 38 ] , and GoSurfer [ 39 ] . The
+        following represents our best attempt at comparison, based
+        on review of the available implementations and associated
+        documentation as of January 2003.
+        FatiGO is a web application. The current implementation
+        is very restrictive in that the user must specify ahead of
+        time one particular level of the GO hierarchy that is to be
+        used for analysis of the data. The other available
+        applications, including GoMiner, process data for the
+        entire GO hierarchy and allow the user to select views of
+        the results dynamically. In a trial using FatiGO's
+        recommended search criteria with our standard test gene
+        files, FatiGO did not find any GO categories with clusters
+        of differentially expressed genes.
+        Onto-Express is also implemented as a web application.
+        Although more flexible than FatiGO, it is largely limited
+        to a flat view of the biological world. Whereas GoMiner
+        provides both tree and DAG views of the genes embedded
+        within the GO hierarchy, Onto-Express does not provide any
+        hierarchical structure (the fundamental defining feature of
+        GO). Onto-Express lists enriched and depleted categories,
+        but it does not provide a statistical analysis of the
+        results to aid understanding. 'Version 2,' recently
+        announced (at a price of $1,500 - $5,000), provides a 
+        p -value (computed by a method not
+        specified in the announcement).
+        GoSurfer is implemented as a Windows application. As
+        such, it lacks the flexibility of platform-independence
+        that Java confers upon GoMiner. GoSurfer is also rather
+        inflexible in that the input identifiers are required to be
+        specific Affymetrix probe sets. It is not clear whether
+        other identifier types suggested in a figure on the web
+        site have been implemented. In contrast, GoMiner uses HUGO
+        gene names as input. These gene names are more convenient
+        for human interpretation, and GoMiner's companion program
+        MatchMiner [ 30 31 ] allows many other types of identifiers
+        (listed at the end of this section) to be converted easily
+        into HUGO gene names. The visual output of GoSurfer is in
+        the form of a DAG. GoMiner uses a text-based tree as its
+        primary visual output because the nodes of the DAG are
+        inherently more difficult to label without creating
+        unacceptable screen clutter. The DAG gives an intuitive
+        feel for the overall complexity of the categorizations, but
+        it is not particularly useful for detailed dynamic
+        navigation or for examination of categorized genes. The
+        tabular output of GoSurfer does not include the HUGO names,
+        which we consider to be the most useful key to gene
+        identity. In contrast to GoMiner, it appears that GoSurfer
+        does not provide complete quantitative and statistical
+        summary data.
+        MAPPFinder is a pioneering project that integrates GO
+        analysis and biological pathway maps. GoMiner also provides
+        the potential for this type of integration, since each gene
+        in the GoMiner tree classification is dynamically linked to
+        the corresponding set of BioCarta and KEGG biological
+        pathway maps. In addition to providing integration with
+        biological pathway maps, GoMiner provides integration with
+        chromosomal information via dynamic linking to LocusLink's
+        chromosome viewer. GoMiner also provides dynamic linking to
+        SNPs and MGC databases via LocusLink. MAPPFinder provides
+        the fundamental tree representation of the GO hierarchy,
+        with summary and statistical data in line with each
+        category. However, unlike the tree implementation in
+        GoMiner, it shows only the categories; the genes themselves
+        are shown in an auxiliary table. In GoMiner, both the
+        categories and the genes are seamlessly shown as integral
+        components of the tree.
+        MAPPFinder does not appear to include a DAG
+        representation. In GoMiner, the DAG view provides a
+        qualitative and quantitative picture of the often-complex,
+        multiple parenthood of some categories. In our opinion,
+        this type of visualization is complementary to the tree
+        form and important to an appreciation of the complex,
+        highly nonlinear relationships within biological systems
+        and gene networks. This complexity is not easy for a human
+        to infer from the tree representation. The GO consortium
+        selected the DAG as its fundamental data structure (though
+        not its visualization), in part because it includes the
+        characteristics of a network that are not included in a
+        tree.
+        MAPPFinder is written in Microsoft's Visual Basic and is
+        therefore restricted to running on PCs under Windows. In
+        contrast, GoMiner is written in Java and runs on multiple
+        operating systems. We have tested it on Windows XP, 2000,
+        NT, and 98, as well as on Mac OS X, Solaris, Linux (Red Hat
+        distribution), IRIX (SGI), and FreeBSD. See the GoMiner
+        website for specific operating-system issues.
+        We recently implemented an alternative command-line
+        interface for GoMiner (S.N., M.S., D.W.K. and B.R.Z.,
+        unpublished work) to complement the GUI version. The
+        command-line interface allows GoMiner to be integrated with
+        other tools via scripts or pipes. Our website will post
+        updated versions of the documentation and program as soon
+        as comprehensive testing of this interface has been
+        completed. In preliminary trials with the new interface we
+        have routinely processed more than 2,000 datasets at a time
+        through GoMiner. This high-throughput capability has made
+        two further developments possible: first, randomization
+        studies are being done to address the multiple-comparisons
+        problem (that is, to estimate the fraction of false
+        positives among the selected categories); second, the
+        output data stream is being coupled with integrated
+        downstream analysis for automated recognition of
+        interesting results buried within a large number of
+        exploratory experiments. The user can explore and visualize
+        these interesting results with GoMiner's graphical user
+        interface.
+        The command-line interface also allows GoMiner to
+        interact flexibly with its companion program MatchMiner.
+        With MatchMiner as a 'preprocessor', GoMiner can take input
+        data organized on the basis of 'omic' identifiers other
+        than the HUGO names central to GO. MatchMiner currently
+        resolves IMAGE clone ids, UniGene clusters, GenBank
+        accession numbers, Affymetrix ids, chromosome locations,
+        gene common names, and FISH clone ids, and greatly
+        facilitates the preparation of microarray data for analysis
+        in GoMiner.
+        In conclusion, GoMiner will continue in development with
+        a view to integration with other bioinformatic resources
+        being generated by the NCI and NIH for use by the
+        biomedical research community. GoMiner is flexible both
+        because it is coded in Java to be platform-independent and
+        because it can accommodate either the default GO hierarchy
+        and gene associations or customized versions. The default
+        is the GO Consortium's database of categories and gene
+        associations as implemented on our server. However, the
+        user can, if desired, edit categories and gene memberships
+        using DAG-Edit, the BDGP Gene Ontology Editor Tool [ 40 ] .
+        The edited database can then be accessed by GoMiner from a
+        local server to accommodate domain- and expertise-specific
+        applications. Another important type of flexibility is the
+        wide range of uses. In this report, we have presented
+        GoMiner in the context of microarray data, but the variety
+        of applications is clearly much broader; it embraces the
+        full range of genomic and proteomic studies.
       
     
   

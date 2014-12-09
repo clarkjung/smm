@@ -2,342 +2,319 @@
   
     
       
-        Background
-        Although intense efforts are being directed toward the
-        development of safe and effective viral vectors that permit
-        the introduction of foreign genes into mammalian cells,
-        chemical transfection continues to attract interest, not
-        only because chemicals are less difficult to use from a
-        technical standpoint, but also because this form of gene
-        transfer may prove less toxic and immunogenic from a
-        therapeutic perspective [ 1]. Synthetic vectors include
-        cationic polymers such as polyethyleneimine (PEI) and
-        polylysine, as well as cationic lipids such as
-        Lipofectamine [ 2] and negatively charged liposomes [ 3].
-        The unique chemical properties of PEI underscore its
-        potential as a vector for gene delivery. For example, PEI
-        has a very high cationic charge density, making it useful
-        for binding anionic DNA within the physiological pH range [
-        4] and forcing the DNA to form condensates small enough to
-        be effectively endocytosed [ 5], which is the primary mode
-        of the PEI/DNA complex into the cell [ 1, 6, 7]. Via the
-        endosomal compartment, PEI/DNA complexes travel to the
-        nucleus, whereupon the plasmid DNA is expressed within 5
-        hours after the initial attachment of the complexes to the
-        cell surface [ 7]. Another property of PEI that makes it
-        suitable as a DNA vector is its structure, in which every
-        third atom is a protonatable amino nitrogen that allows the
-        polymer to function as an effective buffering system for
-        the sudden decrease in pH from the extracellular
-        environment to the endosomal/lysosomal compartment. This
-        feature is important for the protection of genetic material
-        as it travels to the nucleus [ 4, 7].
-        Over 30 cell lines have been successfully transfected
-        using PEI, including COS-7 cells [ 8], rat hepatocytes [
-        3], human dendritic cells [ 9, 10], and mouse mammary
-        epithelial cells [ 11]. Especially exciting is the ability
-        of PEI to introduce foreign genetic material into fully
-        differentiated, postmitotic cells 
-        in vitro . Such examples include
-        mouse myotubes [ 2] and chick embryonic neurons [ 4].
-        Lambert et al. [ 12] also demonstrated PEI-mediated uptake
-        of nucleic acids in rat sympathetic neuronal/glial
-        cocultures in serum-supplemented media. In this report, we
-        describe the application of PEI in the transfection of
-        postmitotic rat sympathetic neurons in serum-free,
-        glia-free conditions, thereby showing the capability of PEI
-        as a method for studying the effects of targeted genetic
-        manipulation in a rigorously defined cell culture system.
-        In addition, we show that foreign genetic material can also
-        be introduced into human retinal neurons that are decades
-        old.
-      
-      
-        Results
         
-          Expression of β-galactosidase in SCG neurons
-          Transfection conditions were optimized using cultures
-          of postmitotic sympathetic neurons that had been treated
-          with a DNA synthesis inhibitor to remove nonneuronal
-          cells. Neurons were transfected on the fifth day 
-          in vitro .
-          Three days after transfection, β-galactosidase (β-gal)
-          activity was detected in a subpopulation of sympathetic
-          neurons (Figure 1Aand 1B). Labeling was present in both
-          the soma and processes. Labeled axons could be followed
-          for many millimeters, and growth cones were consistently
-          labeled. β-gal protein could also be detected using
-          immunocytochemical methods, and the labeling pattern was
-          identical to that detected using X-gal (Figure 1C).
-          Another gene that is commonly used to identify
-          transfected cells, EGFP, was also successfully introduced
-          into sympathetic neurons using PEI (Figure 1D). As with
-          β-gal, EGFP was detected throughout the neurons,
-          including synaptic varicosities and growth cones.
-          Pretreatment of our cultures with
-          cytosine-D-arabinofuranoside prior to transfection almost
-          completely eliminates the presence of nonneuronal cells [
-          13]. To further demonstrate that the transfected cells in
-          our cultures are neurons, we transfected cultures with
-          the plasmid encoding EGFP, and then immunostained them
-          using an antibody for microtubule-associated protein 2
-          (MAP2), a neuron-specific marker. Ninety-five out of 100
-          EGFP +cells were also MAP2 +(Figure 2), indicating that
-          the vast majority of transfected cells in our cultures
-          are neurons. Those few cells that expressed EGFP but not
-          MAP2 possessed a clearly distinct morphology from the
-          neurons, such as smaller size and shorter processes, and
-          thus were easily distinguished from neurons in subsequent
-          experiments.
-        
-        
-          Transfection efficiency is dependent on DNA: PEI
-          ratio and concentration
-          Consistent with previous results [ 4, 8, 9, 15, 16,],
-          we found that the β-gal transfection efficiency varied
-          according to the ratio of DNA to PEI (Figure 3). Peak
-          yield was observed at a ratio of 1 μg plasmid DNA to 5 μg
-          PEI (concentration of PEI stock is 1 μg/μl) in 1 ml
-          culture media, producing ∼ 9% transfected cells. As the
-          number of protonatable nitrogens on the linear 22 kD
-          ExGen 500 PEI polymer at physiological pH is roughly
-          equal to 5.47 nmol per μg PEI, and 1 μg DNA corresponds
-          to 3 nmol phosphate groups, this means that the peak
-          yield observed was at a PEI nitrogen: DNA phosphate (N/P)
-          ratio of ∼ 9. Thus, the most suitable N/P ratio for 
-          in vitro sympathetic neurons
-          appears to be around 9, creating positively charged
-          DNA/PEI complexes [ 17].
-          The percentage of β-gal +neurons varied according to
-          the total amount of DNA/PEI complex added to the
-          cultures. Keeping the 1: 5 DNA: PEI ratio constant, lower
-          yields were obtained at 0.2: 1 and 0.5: 2.5 DNA: PEI
-          (Figure 4). Toxicity increased at higher overall amounts
-          of DNA/PEI (Figure 5).
-        
-        
-          Kinetics of foreign gene expression
-          Sympathetic neurons were transfected with β-gal
-          plasmid and PEI (1 μg: 5 μg ratio). At various times
-          thereafter (6 h, 1 d, 3 d, 5 d, 10 d, 21 d), cells were
-          fixed and assayed for the presence of β-galactosidase
-          activity. β-gal +neurons were detected as soon as 6 h
-          post-transfection (Figure 6), a finding consistent with
-          previous work [ 7]. A maximum of ∼ 9% β-gal +neurons were
-          observed at 3 d post-transfection with 1: 5 DNA: PEI,
-          followed by a progressive decrease from 3 d to 10 d.
-          During this time, many β-gal +neurons appeared to either
-          die or cease expression of the foreign gene. However, the
-          percent of cells expressing β-galactosidase at 10 d
-          (4.8%) was similar to the percent at 21 d (4.7%). This
-          suggests that the neurons that still expressed
-          β-galactosidase by 10 d continued to do sothrough 21 d.
-          Therefore, PEI-mediated β-gal expression in a certain
-          percent of neurons is persistent.
-        
-        
-          Co-transfection of β-gal, EGFP
-          To determine how efficiently co-transfection occurred
-          with PEI, we used β-gal and EGFP together in a 1: 1
-          ratio, with the overall DNA: PEI ratio at 2 μg plasmid
-          DNA: 5 μg PEI/ml culture media. Neurons expressing EGFP
-          were also found to express β-galactosidase (Figure 7). 23
-          out of 24 transfected neurons examined clearly
-          demonstrated expression of both plasmids, indicating that
-          co-transfections are reliable using this method.
-        
-        
-          PEI-mediated transfection in cultured human retinal
-          ganglion cells
-          Cultures of cells dissociated from adult human retina
-          were transfected with plasmid encoding EGFP after 1-4
-          weeks 
-          in vitro using the same protocol
-          developed for sympathetic neurons. A variety of cells
-          were transfected, most notably glia (Figure 8A). Smaller,
-          process-bearing cells expressing EGFP were also detected
-          (Figures 8Aand 8B); these cells possess a morphology that
-          strongly suggests a neuronal origin. Similar types of
-          cells were able to express the β-gal plasmid as well (not
-          shown).
-        
-      
-      
-        Discussion
-        Our data demonstrate the utility of polyethyleneimine as
-        a vector for exogenous gene delivery in cultured neurons.
-        Although the sources of the neurons varied widely in age
-        and species, PEI was nonetheless able to facilitate the
-        expression of at least two foreign genes, LacZ and EGFP, in
-        each of the experimental settings. This finding underscores
-        the versatility of PEI as a method for introducing genes
-        into postmitotic populations of cells, particularly as our
-        previous efforts to transfect sympathetic neurons using
-        lipid-based reagents (Lipofectamine and Lipofectin) had
-        been unsuccessful.
-        From a technical standpoint, PEI is relatively
-        straightforward, as commercial preparations are sterile and
-        ready for use. There are, however, important factors to
-        consider while striving for optimal results. The first is
-        maximizing yield and minimizing toxicity. Although the
-        reasons for PEI toxicity are not completely clear, it
-        appears to involve the disruption of the endosome/lysosome
-        complex [ 4, 6]. In our experimental conditions, the
-        optimal density for transfection of rat sympathetic neurons
-        is around 30 neurons/mm 2, in contrast to a typical culture
-        density of 10 neurons/mm 2[ 13]. This allows for sufficient
-        numbers of transfected cells and appears to lessen the PEI
-        burden per neuron, yet does not preclude detailed
-        morphological analyses of individual neurons. Another
-        factor is the presence of serum. Based on our unpublished
-        observations, rat sympathetic neurons that are transfected
-        in the absence of serum show much greater toxicity than
-        those in which 2.5% serum is temporarily added for the
-        transfection process (data not shown). Furthermore, the
-        presence of serum does not seem to greatly interfere with
-        the transfection process of either rat sympathetic or human
-        retinal neurons, although in other cell types it sometimes
-        does [ 18, 19]. Rinsing the cultures immediately after
-        centrifugation is also a critical step in mitigating the
-        toxic effects of PEI. Increasing the number and volume of
-        rinses improves cell survival, but decreases the yield of
-        transfected cells (data not shown). Clearly, such
-        parameters must be tailored to the specific type of cell
-        under investigation.
-        Altering the ratio of DNA to PEI also affects the yield.
-        In our neuronal cultures it appears that the DNA: PEI ratio
-        of 1 μg: 5 μg, or 0.2, which produces complexes that bear a
-        net positive charge, produces the highest yield. This is in
-        contrast to previously published data showing that
-        positively charged complexes and neutral complexes produce
-        comparable yields in lung epithelial cells [ 17]. However,
-        considering that the optimal DNA: PEI ratio may vary from
-        cell line to cell line [ 19], this is not an unexpected
-        finding.
-        Perhaps the most attractive aspect of PEI-mediated gene
-        delivery is the flexibility of the method. For example, a
-        DNA/PEI ratio of 0.4 also produces reasonable numbers of
-        transfected neurons in our system, meaning that the
-        measurement of the DNA and PEI solutions need not be
-        rigorously accurate for the transfection process to work.
-        The applications can vary greatly, as well. PEI may be used
-        in conjunction with adenovirus vectors [ 2, 9, 11, 18, 19]
-        and can be conjugated to various ligands for targeted gene
-        delivery [ 10, 16] or to minimize nonspecific interactions
-        with blood when injected into the circulatory system [ 20].
-        It also has been shown to be effective as a vector for 
-        in vivo transfection in the mouse
-        brain [ 21, 22] and lung [ 17, 21], as well as a potential
-        way to target therapeutic genes to tumors [ 20].
-        Our results confirm the findings of others that show the
-        possibility of transfecting post-mitotic, fully
-        differentiated cells using PEI [ 2, 23]. In addition, we
-        show that adult human retinal neurons, which have been
-        fully differentiated as long as seven decades, are capable
-        of expressing foreign genes when administered in this
-        manner. As the eye is considered to be the most accessible
-        part of the central nervous system, any method of gene
-        transfer that works on human retinal neurons 
-        in vitro presents an attractive
-        avenue of research for potential 
-        in vivo applications.
+        Gastric adenocarcinoma (GC) is one of the most common
+        malignant diseases in China. Although the GC has been
+        declined in its mortality rate, it remains the leading
+        cause of cancer-related deaths in this country (Parkin et
+        al., 1992; World Health Organization, 1994; Nomura A,
+        1996). Gastric carcinogenesis is considered as a multistage
+        progressive process. The early indicator for the subject
+        predisposed to GC is abnormal hyperproliferation of gastric
+        epithelial cells, such as chronic atrophic gastritis (CAG),
+        DYS and intestinal metaplasia (IM), which have been
+        considered as precancerous lesions of GC (You et al., 1993;
+        Correa P, 1992). However, the information for the mechanism
+        of gastric carcinogenesis is very limited.
+        The growth and metastasis of tumors depend on the
+        development of an adequate blood supply via angiogenesis.
+        Recent studies indicate that the inducible nitric oxide
+        synthase (iNOS), vascular endothelial growth factor (VEGF)
+        and tumor suppressor p53 are fundamental play-makers of the
+        angiogenic process (Ambs et al., 1994; Jekins et al., 1995;
+        Forrester et al., 1996; Chiarugi et al., 1998). iNOS is one
+        of the isoforms of nitric oxide synthase that catalyzes the
+        formation of nitric oxide, a regulator of vascular
+        permeability. VEGF is a dimeric glycoprotein and has
+        specific mitogenic activity for endothelial cells.
+        Over-expression of iNOS and VEGF could induce angiogenesis
+        in tumors. P53 suppresses angiogenesis by down-regulating
+        VEGF and iNOS. Mutant p53 potentiates protein kinase C
+        induction of VEGF expression (Zhang et al., 2000). In a
+        tumorigenicity model using human fibroblast cells, the loss
+        of wild-type p53 and transfection of activated ras led to
+        increased VEGF expression (Devavrata et al., 1995).
+        Transient transfection of wild-type p53 and of v-src has
+        been found to exert opposing effects on human VEGF gene
+        promoter activity in human glioblastoma and transformed
+        human fetal kidney cells (Devavrata et al.,1995). However,
+        because wild-type p53 did not repress hypoxia-induced
+        transcription of the VEGF gene in stably transfected human
+        colorectal carcinoma and human hepatoblastoma cells with an
+        inducible p53-estrogen-receptor fusion protein expression
+        system (Ambs et al., 1998), it has been proposed that there
+        is a need for caution in interpreting p53 function on the
+        basis of cells transiently overexpressing this protein.
+        Nevertheless, mutant p53 has been correlated with increased
+        VEGF expression in human lung cancer (Ambs et al., 1994),
+        and colorectal cancer (Ambs et al.,1999) by
+        immunohistochemical staining of surgical specimens. It has
+        been reported that dysfunction of the p53/MDM-2 pathway can
+        be found in more than two-thirds of angiosarcomas; thus,
+        mutant p53 influences the development of angiosarcoma not
+        only by affecting growth and apoptosis control but also by
+        up-regulating VEGF (Chinrugi et al., 1998). We hypothesized
+        that alterations of p53, iNOS and VEGF expression may
+        contribute to gastric carcinogenesis and influence the
+        clinical behavior of GC via angiogenesis. The correlation
+        of expression of p53, VEGF and iNOS and clinical features
+        in gastric carcinogenesis, however, has not been well
+        characterized.
+        To characterize the changes of p53, iNOS and VEGF
+        expression in human gastric carcinogenesis, the present
+        study was undertaken to determine the protein level of p53,
+        iNOS and VEGF in normal tissues and the tissues with
+        different severities of lesions of CSG, CAG, DYS, IM and GC
+        with and without lymph node metastasis from surgically
+        resected human GC and gastric biopsies from symptom-free
+        subjects. The subjects were from Linzhou and nearby county
+        Huixian in Henan province, the high-incidence area for GC
+        in northern China.
       
       
         Materials and Methods
         
-          Tissue Culture
-          Sympathetic neuronal cultures were obtained by
-          dissociating superior cervical ganglia from perinatal (21
-          day embryos to 1 day postnatal) Holtzman rats (Harlan
-          Sprague-Dawley, Indianapolis), using previously described
-          methods [ 13]. Neurons were plated at ∼ 30 cells/mm 2onto
-          coverslips coated with poly-D-lysine (200 μg/ml).
-          Cultures were maintained in a serum-free medium [ 13]
-          containing β-nerve growth factor (β-NGF, 100 ng/ml). In
-          order to eliminate nonneuronal cells, cultures were
-          treated with the DNA synthesis inhibitor
-          cytosine-β-D-arabinofuranoside (2 μM) for 48 h beginning
-          on day 2.
-          Adult human donor eye tissue was obtained postmortem
-          from Upstate New York Transplant Services (Buffalo, NY)
-          with approval from the Health Sciences Institutional
-          Review Board. Familial consent for donation and research
-          was also obtained. Tissue was rejected if harvesting did
-          not occur within 7 hours postmortem and 48 hours of
-          storage on ice, or if the donor had a history of eye
-          disease. Dissociated human retinal cultures were derived
-          from adult donor tissue using a protocol adapted from
-          goldfish retinal explant studies [ 14]. Retinal isolates
-          were diced into 0.3 × 0.3 mm pieces using a tissue
-          chopper (Brinkman Instruments, Westbury, NY), followed by
-          sequential treatment with 0.1% hyaluronidase/0.05%
-          collagenase and 0.25% trypsin (GIBCO, Grand Island, NY)
-          in Ca 2+/Mg 2+-free HBSS. After several
-          rinsing/centrifugation cycles, a flame-polished pipette
-          was used to dissociate the cells. Cells were then
-          pelleted, resuspended, and plated onto 18 mm glass
-          coverslips coated with poly-D-lysine (100 μg/ml) and
-          laminin (10 μg/ml). Culture medium consisted of 1:1
-          DMEM/F12 supplemented with 10% FCS, insulin (10 μg/ml),
-          transferrin (20 μg/ml), 0.1 units/ml penicillin, and 0.1
-          μg/ml streptomycin.
+          Patients
+          The present investigation included 55 randomly
+          selected GC patients and 60 symptom-free subjects from
+          the mass survey in the high-incidence area for GC.
+          Fifty-five GC patients were performed gastric cancer
+          surgery at the Linzhou People's Hospital (n = 26) and The
+          Second Affiliated Hospital of Henan Medical University (n
+          = 29) from 1996 to 1998. Before surgery, none of the
+          patients received any kinds of chemical or radiation
+          therapy. The median age of the patients was 61 years (30
+          ~ 77 years). Cancer specimens were classified based on
+          TNM as stage T1 (19 patients, 35%), T2 (14 patients,
+          25%), T3 (12 patients, 22 %) and T4 (10 patients, 18%).
+          The tumors were histologically graded as
+          well-differentiated (15 patients, 27%),
+          moderate-differentiated (14 patients, 25%) and
+          poorly-differentiated (26 patients, 47%). Of the 55
+          patients, 35 occurred local lymph node metastasis (64%).
+          Gastric biopsies were taken from 60 symptom-free subjects
+          who volunteered to participate in a routine endoscopic
+          screening for esophageal and gastric cancer in Huixian,
+          China. No selection process was involved. Of the 60
+          subjects examined, there were 35 males and 25 females.
+          The median age of the subjects was 59 years (28 ~ 70
+          years). The biopsies were taken each from the pylorus of
+          the stomach from each subject.
         
         
-          Transfection
-          Transfection took place on the fifth day 
-          in vitro for sympathetic neurons,
-          1-4 weeks 
-          in vitro for retinal cultures.
-          Sympathetic neurons were treated with 2.5% fetal calf
-          serum immediately prior to transfection. The total volume
-          of media in each 20 mm well was ∼ 1 ml. The two plasmids
-          used encoded either a 1.6 Kb β-galactosidase gene
-          sequence from 
-          E. coli or the enhanced green
-          fluorescence protein (EGFP) gene (Calbiochem, Palo Alto),
-          and were purified by the CsCl method. Various
-          concentrations of plasmid and PEI (ExGen 500, MBI
-          Fermentas, Hanover, MD) were prepared, using 150 mM NaCl
-          in sterile water as the diluent. PEI and plasmid were
-          mixed together and incubated for 10 minutes at room
-          temperature to allow for adequate binding of the plasmid
-          to the PEI. One hundred μl of plasmid: PEI solution was
-          added to each 20 mm well and the 12 well plate was
-          centrifuged at 500 x 
-          g for 5 min. After centrifugation,
-          the cultures were washed once with 0.5 ml DMEM, treated
-          with 0.5 ml serum-free media containing 0.1 units/ml
-          penicillin and 0.1 μg/ml streptomycin, and returned to
-          the incubator.
+          Tissue processing
+          All the surgically resected specimens and biopsy
+          samples were fixed with 10% neutral formalin, embedded
+          with paraffin, and serially sectioned at 5 μm. The
+          sections were mounted onto the histostick-coated slides.
+          Four or five adjacent ribbons were collected for
+          histopathological analysis (hematoxylin and eosin stain)
+          and for immunohistochemical staining.
         
         
-          X-gal staining
-          Detection of enzymatic activity within cells
-          transfected with the β-galactosidase gene was similar to
-          that described by Galileo et al. [ 15]. Briefly, cells
-          were fixed for 20 minutes in 4% paraformaldehyde. After
-          rinsing with PBS, cells were incubated in the dark (20 h
-          at 37°C) in a buffer containing X-gal substrate (1
-          mg/ml), potassium ferricyanide (100 mM), and potassium
-          ferrocyanide (100 mM). Coverslips were washed in PBS and
-          mounted on slides using an elvanol-based medium [
-          13].
+          Histopathological Analysis
+          Histopathological diagnosis for gastric epithelia was
+          made according to cellular morphological changes and
+          tissue architecture using previously established criteria
+          (Wang, et al., 1994; You, et al., 1993). In brief, CSG:
+          an inflammation manifested by mild lymphocyte and
+          plasma-cell infiltration; CAG: glandular morphology
+          disappeared partially or completely absent in the mucosa
+          and replaced by connective tissue, inter-glandular space
+          was infiltrated mainly by plasma cells and lymphocytes;
+          DYS: characterized by nuclear atypia with or without
+          architectural abnormalities in the gastric epithelium,
+          but without invasion; IM: confirmed by the presence of
+          goblet cells in gastric mucosa; adenocarcinoma (AC):
+          invasion of neoplastic gastric cells through the basement
+          membrane.
         
         
-          Immunocytochemistry
-          Cultures were fixed in 4% paraformaldehyde for 20
-          minutes. Cells were then permeablilized in 0.1% Triton in
-          PBS for 3 minutes and blocked in a 10% goat serum, 5%
-          bovine serum solution for 20 minutes. Mouse monoclonal Ab
-          5B88 to β-galactosidase (GIBCO) was used at a
-          concentration of 2.5 g/ml, followed by
-          rhodamine-conjugated, affinity-purified goat anti-mouse
-          IgG antibody (Boehringer Mannheim, Indianapolis, IN).
-          Mouse monoclonal Ab SMI52 to microtubule-associated
-          protein 2 (Sternberger Monoclonals, Baltimore, MD) was
-          used at a concentration of 2 μg/ml, followed by the
-          rhodamine goat anti-mouse secondary.
+          Immunohistochemical staining
+          Anti-p53 antibody is a monoclonal mouse anti-serum
+          against p53 of human origin, and recognizes both
+          wild-type and mutant p53 (Ab-6, Oncogene Science,
+          Manhasset, NY). Anti-iNOS antibody is a monoclonal mouse
+          anti-serum against the C-terminal domain of iNOS of human
+          origin (sc-7271, Santa Cruz Biotechnology, Inc., Santa
+          Cruz, CA). Anti-VEGF antibody is a polyclonal rabbit
+          anti-serum against VEGF of human origin and recognizes an
+          amino-terminal epitope found in VEGF 121, 165, 189 and
+          206(Ab-2, Oncogene Science, Manhasset, NY). The
+          avidin-biotin-peroxidase complex method was used for the
+          immunostaining of p53, iNOS and VEGF. In brief, after
+          dewaxing, inactivating endogenous peroxidase activity and
+          blocking cross-reactivity with normal serum (Vectastain
+          Elite Kit; Vector, Burlingame, CA), the sections were
+          incubated overnight at 4□ with a diluted solution of the
+          primary antibodies (1:1000 for p53, 1:200 for iNOS and
+          1:100 for VEGF). Location of the primary antibodies was
+          achieved by subsequent application of a biotinylated
+          anti-primary antibody, an avidin-biotin complex
+          conjugated to horseradish peroxidase, and
+          diaminobenzidine (Vectastain Elite Kit, Vector,
+          Burlingame, CA). The slides were counter-stained by
+          hematoxylin. Negative controls were established by
+          replacing the primary antibody with PBS and normal mouse
+          or rabbit serum. Known immunostaining-positive slides
+          were used as positive controls.
+          Specific staining for each protein was categorized as
+          either positive or negative based on the presence of
+          brown-color staining. More than 10% cells positively
+          stained were graded as positive. Clear staining for
+          nuclei (p53), cytoplasm and cell membrane (VEGF and iNOS)
+          was the criterion for a positive reaction (Wang et
+          al.,1994). All the immunostaining slides were observed by
+          two pathologists (L D Wang and L H Jiao). The slides with
+          different diagnosis by two pathologists were read again
+          (less than 5%), until the agreed diagnosis was made.
         
+        
+          Statistical Analysis
+          The X 2test was used for the percentage of samples
+          with positive stain. Spearman correlation test and linear
+          tendency test were used for the correlation between
+          positive rates and different severities of lesions (p
+          < 0.05 was considered significant).
+        
+      
+      
+        Results
+        Histopathologically, all the 55 surgically-resected
+        gastric specimens were confirmed as adenocarcinoma. Of the
+        55 GC patients, 11 cases occurred the invasion within
+        sub-mucosa, 44 with whole-muscle layer. Of the 60
+        biopsy-samples examined, 10 were diagnosed as normal, 15 as
+        CSG, 9 as CAG, 16 as IM with CAG, and 10 as DYS (Table
+        1).
+        The positive immunostaining for p53, iNOS and VEGF was
+        observed in the gastric epithelial cells and cancer cells
+        with different rates in the lesions of CAG, DYS, IM and GC.
+        But, the positive immunostaining for p53, iNOS and VEGF was
+        not observed in normal gastric epithelial tissue and CSG.
+        Figure 1, 2and 3shows the representative of p53, iNOS and
+        VEGF immunostaining in GC. p53 immunoreactivity was located
+        in the nuclei, VEGF and iNOS immunoreactivity were located
+        mainly in the cytoplasm and cell membrane. iNOS
+        immunostaining was confirmed by Western Blot on part of
+        iNOS positive and negative slides (three slides for each),
+        and consistent results were obtained for iNOS
+        immunohistochemistry and Western Blot (data not shown). The
+        positive immunostaining rate for p53 was very low in CAG,
+        and slightly increased in IM and DYS, and significantly
+        increased in GC (Table 1). Similar results were observed in
+        iNOS and VEGF (Table 1). P53 positive immunosatining rate
+        in well-differentiated GC was lower than that in
+        poorly-differentiated GC (p = 0.012, Table 2). iNOS
+        positive staining was similar among the GC with different
+        degree of differentiation. Although VEGF immunostaining
+        rate in poorly-differentiated GC was higher than in
+        well-differentiated GC, the difference was not significant
+        (Table 2).
+        iNOS positive immunostaining rate in the cases with deep
+        invasion of GC (through muscle layers) was higher than in
+        those with superficial invasion (within submucosa), but,
+        the difference was not significant (Table 3). P53 and VEGF
+        immunostaining was similar in GC patients with superficial
+        and deep invasion.
+        iNOS immunosatining rate in the cases with lymph node
+        metastasis was higher than that in those without lymph node
+        metastasis (p = 0.014, Table 4). However, there was no
+        difference observed for p53 and VEGF between the cases with
+        and without lymph node metastasis.
+        P53 immunostaining rate in the cases with TNM grade T1
+        was lower than that in those with TNM grade T2, T3 and T4
+        (T1:T3, p = 0.023; T1:T4, p = 0.012). Similar results were
+        observed in VEGF (T1:T2 and T2:T3, p = 0.015; T1:T4, p =
+        0.014; T2:T4, p = 0.01, Table 5). However, there was no
+        difference for iNOS immunostaining between the cases with
+        different TNM stages.
+        A higher coincidental expression of p53, iNOS and VEGF
+        in GC was observed. Of the 55 cases examined, there were 20
+        cases showing positive staining both for p53 and iNOS
+        (36%), 23 cases showing negative staining for both p53 and
+        iNOS (42%) (p = 0.005, Table 6), 19 cases showing positive
+        staining both for p53 and VEGF (35%) and 18 cases showing
+        negative for both p53 and VEGF (33%) (p = 0.01, Table 7).
+        The correlations were significant.
+      
+      
+        Discussion
+        An interesting observation in this study was that the
+        immunoreactivity of p53, iNOS and VEGF occurred in the
+        early stage of gastric carcinogenesis. The positive
+        immunostaining cells were invariably associated with cell
+        proliferate activity. With the lesions progressed from
+        normal to CSG to CAG to IM to DYS, and to GC, the positive
+        immunostaining rates for p53, iNOS and VEGF increased
+        significantly, the increasing tendency for p53, iNOS and
+        VEGF had a good linear correlation with lesions
+        progression. The present results indicated that p53 protein
+        accumulation and increased expression of iNOS and VEGF may
+        be important molecular events involved in the early stage
+        of gastric carcinogenesis.
+        Another interesting observation was that, a high
+        coincidental positive immunostaining rates for p53 and iNOS
+        (36%) and p53 and VEGF (35%) was observed (Table 6and 7).
+        This result was consistent with the findings in human lung
+        and colon carcinomas (Ambs et al., 1999). Although p53
+        antibody used in this study could not differentiate
+        wild-type p53 from mutant p53, previous studies have
+        indicated that p53 protein detected by immunohistochemistry
+        seems to representative most mutant p53. Accumulation of
+        p53 is an indicator for a loss of p53 tumor suppressor
+        function. Both mutations and protein-protein interactions
+        can cause a p53 accumulation (Wang, et al., 1994).
+        Considering that p53 protein accumulation was correlated
+        with poorly-differentiation and T2, T3 and T4 TNM stage of
+        GC, we concluded that p53 protein accumulation in this
+        study may lead to the loss of cell proliferation control
+        and inhibition for iNOS and VEGF, possibly because of p53
+        gene mutation. Thus, the high coincidental expression of
+        iNOS and VEGF and p53 protein accumulation may be important
+        events to enhance gastric carcinogenesis and poorly
+        clinical features and may be useful biomarkers to assess
+        risk for the development of GC. Recent studies on Japanese
+        GC patients have showed that increased expression of VEGF
+        and p53 protein accumulation are associated with
+        intra-tumoral angiogenesis (Takeuchi, et al., 2000; Saito,
+        et al., 1999) and poor prognosis (Skatani, et al., 2000;
+        Ikeguchi, et al., 2000; Maeda, et al., 1998). Rajnkova
+        reported that increased expression of iNOS may promote
+        gastric cancer progression by providing a selective growth
+        advantage to tumor cells with non-functioning p53.
+        (Rajnkova, et al., 2001)
+        The third observation in this study was that increased
+        expression of iNOS and VEGF and p53 protein accumulation
+        occurred with a high frequency in gastric biopsy samples
+        with IM. IM, which may be defined as the replacement of
+        gastric mucosa by glands which have the histological,
+        histochemical, and physiological characteristics of the
+        small intestine, has been strongly associated with stomach
+        cancer. The present results demonstrated that IM was a
+        unstable stage with active molecular changes, and further
+        analysis to compare these changes with normal small
+        intestine will provides more information for the
+        significance of IM in gastric carcinogenesis.
+        Finally, the present study demonstrated that the
+        positive immunostaining rates of iNOS was correlated well
+        with GC lymph node metastasis, increased expression of VEGF
+        and p53 protein accumulation was related with TNM stages
+        and GC differentiation. These findings indicate that p53,
+        iNOS and VEGF may be useful biomarkers for GC
+        aggressiveness. The molecular basis for the observed
+        expression of iNOS and VEGF and p53 protein accumulation
+        and their roles in the progression of gastric pre-cancerous
+        lesions and angeogenesis requires to be carefully
+        investigated in the laboratory and follow-up studies.
+      
+      
+        Abbreviations
+        The abbreviations used are: CSG, chronic superficial
+        gastritis; CAG, chronic atrophic gastritis; DYS, dysplasia;
+        GC, gastric adenocarcinoma; iNOS, inducible nitric oxide
+        synthase; IM, intestinal metaplasia; VEGF, vascular
+        endothelial growth factor.
       
     
   

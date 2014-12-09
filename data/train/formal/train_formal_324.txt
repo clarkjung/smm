@@ -2,610 +2,445 @@
   
     
       
-        Background
-        Standard graphical representations of complex systems
-        have been developed for many disciplines in order to
-        communicate, archive and analyze systems knowledge.
-        Electronic circuit diagrams and architectural plans, for
-        instance, can be created, read and analyzed by
-        knowledgeable persons, yet there is no such common
-        graphical language for describing functional systems in
-        biology. A variety of representations are used in print or
-        online to archive knowledge in particular domains such as
-        metabolic pathways [ 1, 2], gene networks [ 3], signaling
-        networks [ 4, 5], and molecular interactions [ 6, 7], yet
-        are not sufficiently standardized to represent
-        cross-disciplinary systems - the interactions of gene
-        expression and metabolism at the inter- and intra-molecular
-        levels, for instance. To describe such multidisciplinary
-        biological problems at multiple levels of abstraction (for
-        example, from intramolecular to disease phenotype),
-        biologists customarily resort to informal cartoon diagrams
-        which, although expressive, are often ambiguous and must be
-        annotated to be interpreted properly.
-        Here we suggest that a standardized visual biological
-        description language would provide more readable and less
-        ambiguous communication and, with computational
-        implementation, provide a basis for distributed searchable
-        archives of functional (as opposed to structural)
-        knowledge, and serve as a 'computer-aided design' (CAD)
-        language for simulating and analyzing biological systems.
-        To explore these possibilities, we are developing a
-        prototype biological description language, BioD, as a
-        platform to test its conceptual basis, explore its utility
-        and identify key issues surrounding its implementation.
+        Introduction
+        In a recent investigation, Sourial et al. [ 1 ] found
+        that a high proportion of dementia patients exhibit
+        agitation and other behavioral problems in acute care
+        hospital settings, and that these behaviors are associated
+        with significant burden on staff. The literature suggests
+        that older patients, in general, admitted to acute care
+        units may be at increased risk for behavioral problems [ 2
+        3 4 5 ] . In a multisite investigation of acute care
+        settings, Minnick et al. [ 6 ] found that older patients
+        were more likely to be physically restrained than younger
+        patients. Additionally, they found that the dominant
+        rationale for the use of restraints in this population was
+        patients disrupting their own treatment, rather than
+        prevention of falls.
+        Older patients admitted to the hospital, in addition to
+        being ill, fatigued, or in considerable physical or mental
+        distress, are suddenly faced with stimuli levels far above
+        those in their home settings. Their environment, families,
+        caregivers, and daily routines are all drastically altered
+        from what they know. With such stressors and changes in
+        environment, behavioral problems and/or cognitive
+        impairment may occur [ 7 8 ] . Hospital staff and family
+        members may be faced with a patient who was cooperative and
+        attentive at home but is now increasingly combative [ 7 9
+        10 ] . Combative patients may require chemical or physical
+        interventions and in-hospital psychiatric consultation.
+        While several studies have focused upon the onset of
+        delirium and functional decline in hospitalized older
+        adults, there are few investigations of behavioral problems
+        in this population. Typically such behaviors are discussed
+        within the context of restraint use, but behavioral
+        problems are not limited to combative behaviors, which
+        necessitate restraint. Sleep disturbance, anxiety, and
+        irritability are among a broad range of behaviors that can
+        negatively impact staff, patient, and treatment [ 11 ]
+        .
+        Given the bourgeoning population of older adults, the
+        number of hospitalized elderly adults will continue to
+        increase in the coming decades. The National Health
+        Interview Survey reports that in the United States in 1994,
+        8.3 million individuals over 65 years of age were
+        discharged from hospitals, and accounted for over 30
+        percent of all discharges [ 12 ] . Agitation or other
+        behavioral problems in this population could have
+        significant negative consequences for staff and patients.
+        Indeed, in our recent investigation of clinical staff on
+        acute care units, staff self reported that such behavioral
+        problems were often encountered and of significant burden [
+        13 ] . Yet, to date, little is known about the prevalence
+        of agitation and behavioral problems in older patients in
+        acute care settings. The objectives of this study were to
+        (a) determine the quantity and quality of behavioral
+        problems in older hospitalized patients on acute care
+        units, over the first two days of hospitalization; (b)
+        determine the impact of these problem behaviors on nursing
+        staff; and (c) investigate whether there are predictor
+        variables, which could be easily assessed by clinicians at
+        admission, that may place older adults at increased risk of
+        developing behavioral problems in this setting.
       
       
-        Results and discussion
+        Methods
         
-          Functional properties: a basis for a biological
-          description language
-          If the goal were simply to standardize the graphics of
-          cartoon diagrams, one could collect and standardize sets
-          of icons and arrows for use as 'clip art' in
-          general-purpose graphics software or as templates in
-          diagramming software such as Visio™ (Microsoft™; for
-          Windows™) or TopDown™ (Kaetron™ Software; for MacOS™ and
-          Windows™). To build a sophisticated software editor for a
-          visual language and, especially, to design the language
-          to support computer archiving and analysis, one must,
-          however, establish deeper foundations for creating,
-          organizing and using graphic elements.
-          As a starting point, consider the common metaphor of
-          biological systems as 'circuits'. Indeed, viewing
-          metabolic pathways as electrical circuits is particularly
-          apt as, in each case, a limited set of entity classes
-          (metabolites versus resistors, capacitors and inductors)
-          are represented by icons that are linked by lines (or
-          arrows) representing interactions between iconified
-          entities. The benefit of such pathway and circuit
-          diagrams is, of course, that they help us infer and track
-          how a change in a 'state property' (for example,
-          metabolite concentration versus electrical voltage) of
-          one icon acts via an 'action property' (metabolic flux
-          rate versus electrical current) on the state properties
-          of linked icons. The problem for biologists is that
-          metabolite concentrations and flux rates, while
-          absolutely fundamental to many biological systems, are
-          not the only functional properties that need to be
-          considered.
-          Just as architectural plans must display and
-          distinguish several interacting circuit systems with
-          different properties (such as power, water, drainage,
-          ventilation, telephone, security, and digital cable),
-          diagrams of multidisciplinary biological systems must
-          distinguish multiple functions (metabolic pathways,
-          enzyme kinetics, ion fluxes, fluid flow) characterized by
-          different properties (concentration, catalytic activity,
-          voltage, pressure, respectively). Thus, the key challenge
-          for describing, archiving and analyzing complex
-          biological systems is not simply to collect expressive
-          icons and arrows but to establish a system of expressive
-          icons and arrows that consistently and unambiguously
-          represents the functional entities and their specific
-          functional properties. Does an arrow increase (or
-          decrease) the concentration or the catalytic activity of
-          an enzyme icon? Can we consistently represent the
-          separate effects of transmembrane ion flow on both ion
-          concentration and transmembrane voltage?
-          Whereas state and action properties are generally
-          implicit in most diagrams, computer implementation of a
-          visual language requires that language elements be
-          formalized as computational objects in order to edit,
-          archive and analyze models. To this end, we began
-          designing BioD by creating building-block icons (Figure
-          1) that represent primitive functional entities such as
-          atoms, molecules, compartments and so on, where each icon
-          is understood implicitly (as in metabolic pathway and
-          electrical circuit diagrams), but specifically, to
-          possess one or more state properties. For instance,
-          'atom' and 'molecule' icons each have a 'concentration'
-          property. A 'compartment' icon has 'volume' and (surface)
-          'area' properties. A 'membrane-bound compartment' icon,
-          derived from a simple compartment, is used to represent
-          cells and organelles and inherits the compartment's
-          volume and area properties while including a
-          (transmembrane) 'voltage' property. In this manner, an
-          extensible hierarchical lexicon of building-block icons
-          can be built by deriving new icons from existing icons.
-          Furthermore, additional state properties (such as
-          temperature, ionic charge, isotopy, pressure) can be
-          created and appended to new or existing icons as needed
-          to create new functional entities; an 'ion' icon is an
-          atom icon with an ionic charge property, for
-          instance.
-          In addition to creating new icons by derivation,
-          compound icons representing complex structures can be
-          built by aggregating icons according to common-sense
-          structural rules (for example, a 'molecular site', but
-          not a cell, can be part of a molecule). In the examples
-          below, a simple model of the cell-cycle kinase Cdk4
-          begins as a molecule icon to which is appended a 'kinase
-          site' (a square with a K), a 'phosphorylation site' (a
-          circle with a P) and a 'binding site' (a small circle
-          with a dot) (Figure 2a). As another example, the
-          membrane-bound compartment representing a cell could
-          contain other compartments representing internal
-          organelles or even compartments defined solely by
-          diffusion-limitations (for example a submembrane
-          compartment).
-          Functional interactions between building-block icons,
-          whether aggregated as compound icons or not, are
-          represented by 'action' arrows (Figure 1, upper right
-          panel) that are designed to minimize the functional
-          ambiguity of informal cartoon diagrams. It is required,
-          for instance, that arrows consistently distinguish: which
-          (if there is more than one) of an icon's functional
-          properties are affected either by context (as in
-          cartoons) or by appearance (for example, double-weight
-          arrows change concentration properties, by chemical
-          reactions or transport, whereas single-weight arrows
-          activate or inhibit activity properties); and how the
-          property is affected (for example, filled heads mean
-          'increase', open heads mean 'decrease'). As for the
-          lexicon of icons, the lexicon of action arrows in Figure
-          1could be extended to include other forms to represent,
-          say, thermal fluxes (which change temperature properties)
-          and fluid flows (which change compartmental volume and
-          pressure properties).
-          In the Cdk4 kinase model of Figure 2we use
-          single-weight arrows to represent how the activity of the
-          kinase site is inhibited by occupancy of the p15 binding
-          site and is activated by occupancy of the phosphorylation
-          site. A double-weight, solid-headed 'phosphorylate' arrow
-          represents the transfer of phosphate groups by the kinase
-          site of Cdk4 to increase occupancy of the retinoblastoma
-          protein (RB) phosphorylation site. A phosphatase
-          molecular site (a square with open-style P) represents
-          how an unspecified phosphatase activity reduces the
-          occupancy of the RB phosphorylation site. A dashed,
-          double-weight 'occupy' arrow represents the binding to
-          and increased occupancy of p15 to its binding site on
-          Cdk4. In this manner the diagram can represent both
-          intra- and inter-molecular site-site interactions while
-          distinguishing activation/inhibition (as by
-          conformational changes) from chemical reactions between
-          species.
-          Consistent coding of qualitative effects as 'increase'
-          or 'decrease' arrows allows qualitative 'what if
-          experiments where an initiating 'event' - an increase or
-          decrease of a functional property of one icon, say - can
-          be tracked through a model (or a network of models, see
-          below) as a chain of events. Such events chains can be
-          displayed in 'event diagrams' to represent some events
-          (but not necessarily all events) as chains of 'event'
-          icons (each representing a change of a specific
-          functional property) linked by 'cause' arrows. For
-          instance, the event diagram in Figure 2bdisplays the
-          consequences (as events icons) of increasing the
-          concentration of p15 in the model in Figure 2a. In
-          complex systems, such consistent qualitative
-          representations can reveal previously unappreciated
-          causal links - redundant parallel pathways or feedback
-          loops - in models built solely from pairwise interactions
-          of many functional parts.
-          As we will discuss below, formalizing a functional
-          descriptive language for biology can offer additional
-          benefits for exploring and understanding the function of
-          complex biological systems if the functional structures
-          and processes can be adequately and unambiguously
-          described.
+          Participants
+          Forty-two patients at the Veteran's Affairs hospitals
+          in Palo Alto (n= 19) and San Francisco (n = 23),
+          California participated in this study. Patients were
+          admitted to either medical or surgical units depending on
+          their diagnosis and the care they required. Patients had
+          a broad range of diagnoses from orthopedic problems to
+          prostate cancer. Overall, patients in the current study
+          were admitted to one of four units at each site. These
+          were standard acute care units, ranging from 12 to 26
+          beds per unit. Patients over sixty years of age, admitted
+          to these units were approached for participation in this
+          study. If the patient had a caregiver(s), the
+          caregiver(s) were also asked to participate in the study.
+          All patients and caregivers provided informed consent
+          before participating. All of the patients were male. The
+          patients ranged in age from 61 to 85 years, with a mean
+          age of 72 (SD = 6.5) years, and had an average of 13.3
+          (SD = 3.0) years of education. With respect to ethnicity,
+          30 patients were Caucasian, 9 were African American, 1
+          was Hispanic, 1 was Asian Pacific, and 1 was unreported.
+          Ten patients lived alone, and 19 patients had a past
+          history of psychiatric disorder. Only five patients had a
+          history of alcohol abuse, as indicated by self-report and
+          chart review. At baseline, patients had a mean MMSE of
+          24.8 (SD = 5.1) and a mean GDS of 3.6 (SD = 2.6). There
+          were no significant differences between the two sites
+          with respect to basic demographics or values on the MMSE
+          and GDS at admission.
+          Five patients approached refused to participate.
+          Although this represents too small a number to conduct
+          quantitative analyses, they had similar age-range, gender
+          and range of illnesses as participants. However, since
+          these individuals did not participate in the study we
+          were unable to compare them in terms of pain, level of
+          depressive symptoms or cognitive status.
         
         
-          Extending BioD to other domains
-          A major criterion for the utility of any technical
-          language is whether it can fully express concepts within
-          a domain of knowledge; that is, is the language
-          'complete'? For a domain such as biology which is almost
-          limitless in terms of physical (not to mention psychic,
-          social and evolutionary) phenomena, it is unlikely that
-          any single language will suffice for all purposes - nor
-          could such a language be proved complete by some
-          inductive process. Rather, in our approach to designing
-          and developing BioD, we have begun with basic
-          cell-biological models as test beds for BioD's conceptual
-          framework (that is, of functional properties, icons and
-          arrows), its lexicon and its icon-arrow linking rules
-          (tantamount to a 'graphical grammar'). We have
-          iteratively tested and modified the language to describe
-          an expanding array of biological functions that now
-          includes online models of: the cell-cycle G1/S checkpoint
-          machinery as it may be controlled by ion channel
-          activation [ 8]; and the metabolic, signaling and
-          neuronal pathways by which the ketogenic diet may affect
-          seizure susceptibility [ 9]. In this early phase of
-          design we expect modifications in basic as well as
-          superficial features (as for any software design
-          process), but we also expect that the basic precepts of
-          the functional-property approach can be extended to other
-          phenomenological domains such as fluid flow, heat
-          exchange, neural circuitry, and so forth. To demonstrate
-          the progress of language development within the
-          cell-biological domain, we will describe and discuss the
-          G1/S checkpoint control model.
+          Measures
+          
+            Neuropsychiatric Inventory-Questionnaire
+            (NPI-Q)
+            This questionnaire was developed and cross-validated
+            with the standard NPI to provide a brief assessment of
+            neuropsychiatric symptomotology and behavioral problems
+            [ 14 ] . The NPI-Q is used to measure 12 categories of
+            behavioral disturbance, in particular: 1) Delusions, 2)
+            Hallucinations, 3) Anxiety, 4) Depression/Dysphoria, 5)
+            Agitation/Aggression, 6) Elation/Euphoria, 7)
+            Disinhibition, 8) Irritability/Lability, 9)
+            Apathy/Indifference, 10) Motor Disturbance, 11)
+            Nighttime Behavior Problems, and 12) Problems with
+            Appetite/Eating. The NPI-Q is completed by a caregiver
+            (in this case a clinical staff member) and asks whether
+            the patient exhibits each of the above behaviors. The
+            caregiver then ranks the severity of the behavior
+            exhibited on a scale of 1 to 3, with 3 being the most
+            severe. The NPI-Q yields a total severity score, for
+            the patient, which is the sum of the severity scores
+            obtained for each behavioral category. Additionally,
+            the caregiver ranks their level of distress from each
+            behavior, on a scale of 1 to 5, with 5 indicating the
+            most severe level of distress. The NPI-Q yields a total
+            distress score, which is the sum of the distress scores
+            obtained for each behavioral category. The NPI-Q takes
+            approximately 10 minutes to administer. In the current
+            study the caregiver was a member of the nursing staff
+            caring for the patient during the first two days of
+            hospitalization.
+          
+          
+            Mini-Mental State Examination (MMSE)
+            The MMSE is a brief mental status examination
+            designed to quantify cognitive status by assessing
+            performance on the following cognitive domains:
+            orientation; language; calculation; memory; and
+            visuospatial reproduction [ 15 ] . A score of 23 or
+            less (maximum = 30) is generally considered evidence of
+            cognitive impairment. This measure takes approximately
+            10 minutes to administer.
+          
+          
+            Geriatric Depression Scale (GDS)
+            The 30-item GDS is a widely used depression
+            screening device specifically designed for the elderly
+            [ 16 ] . A yes/no format was purposely chosen for ease
+            of administration. The GDS has high internal
+            consistency and high test-retest reliability [ 17 ] .
+            The GDS can be completed in approximately 10 to 15
+            minutes. A score of 11 or higher is indicative of
+            depression.
+          
+          
+            Procedures
+            Patients over sixty years of age were contacted upon
+            admission on all units involved in the study. In order
+            to assess for agitation and/or behavioral problems, we
+            employed the NPI-Q. Several studies have suggested that
+            patient charts do not always adequately report the
+            occurrence of behavioral problems in acute care
+            settings, and only the most severe problems are likely
+            to be documented [ 18 19 20 ] . We felt that the NPI-Q
+            would provide a more objective and reliable assessment
+            of the extent of behavioral problems in this
+            population. In addition to providing an assessment of
+            behavioral problems, the NPI-Q also provides an
+            assessment of the direct care staffs' level of distress
+            specific to each behavior.
+            In the current study, the NPI-Q was administered
+            two-days post-admission to a clinical staff member
+            caring for each patient. We chose to administer the
+            NPI-Q two days post-admission because a significant
+            number of patients on these units are most likely to be
+            discharged or transferred two days post-admission.
+            Additionally, at two-days post admission we were able
+            to identify staff members who had similar levels of
+            exposure to the patients in the study.
+            In order to assess whether there are patient
+            variables which might predict the subsequent occurrence
+            of behavioral problems during hospitalization, we aimed
+            to include variables for which information is either
+            routinely acquired at regular patient visits or which
+            could be easily assessed by clinicians at admission. We
+            obtained information at admission on the following
+            variables: age, ethnicity, level of education, and
+            living arrangement. We assessed history of substance
+            abuse and psychiatric illness, by both obtaining
+            information from the patient themselves and by
+            reviewing patient charts. We also included brief
+            measures of mental status and mood because prior
+            research has suggested an association between these
+            domains and the occurrence of behavioral problems in
+            older adults in long-term care and other settings [ 21
+            22 23 24 ] . Thus, at admission, patients were also
+            administered the MMSE and the GDS.
+          
         
-        
-          Extending the lexicon to describe G1/S checkpoint
-          machinery
-          With a few additional icons and arrows, the complex
-          molecular signaling network that includes Cdk4 and
-          controls the G1/S transition can be described compactly
-          (Figure 3). First, a simple rectangle is used to
-          represent a 'process' that may be, but need not be,
-          specified by a separate model (see below). Second, we use
-          an arrow with a starred circle as a tail to mean
-          'produces' to correspond to commonly used shorthand for
-          saying that a commodity is produced where the specific
-          mechanism of production is either unknown or not germane
-          to the model. Figure 3can then represent a very complex
-          network of intramolecular and intermolecular actions
-          controlling the G1/S cell-cycle transition [ 6, 10, 11,
-          12, 13, 14], including Cdk2, cyclins A and E, the
-          inhibitor proteins p21 and p27 and inputs from
-          transforming growth factor-β (TGF-β) stimulation and DNA
-          damage processes.
-        
-        
-          Extensions for compartmental transport, gene
-          expression and membrane biophysics
-          BioD's iconography can be extended to accommodate
-          additional cell-biological phenomena. For instance, the
-          model of Figure 4introduces 'membrane-bound compartments'
-          in order to model the dependence of the nuclear
-          concentration of cyclin D1 on the complex kinetics of its
-          synthesis, degradation and cytoplasmic-nuclear transport.
-          The figure also introduces two derivatives of the
-          'molecule' icon: a 'dimer' icon (adapted from Kohn [ 6])
-          to represent dimers such as cyclin D1-Cdk4 and a
-          'biomolecule' icon as a shorthand to represent
-          catalytically active molecules with both 'concentration'
-          and 'activity' properties (for example the kinases in the
-          mitogen-to-ERK and -Akt kinase cascades). The
-          'dimerization' action arrow (dashed, double-weight) is
-          derived from the 'bind occupy' arrow to link to species
-          participating in the dimerization reaction.
-          To describe the possible effects of membrane potential
-          and ion fluxes on cellular activity in Figure 5, we have
-          introduced an electrical 'voltage' property (represented
-          by the 'depol' (depolarization) process icon) of
-          membrane-bound compartments and an ionic 'charge'
-          property used to derive 'ion' icons from atom icons. Ion
-          channel function is modeled as a 'transporter'-derivative
-          'ion channel' that is used to represent the K +and Ca
-          2+ion transport pathways as parts of ATP-sensitive
-          potassium channels (KATP) and calcium channels,
-          respectively. A 'depol' process icon is appended to the
-          cytoplasmic compartment's membrane to represent how
-          depolarization is decreased by K +efflux, increased by Ca
-          2+influx, and further activates voltage-dependent Ca
-          2+channels. With these additions, we can represent the
-          hypothetical action of 'K-channel blockers' that bind to
-          and inhibit ATP-sensitive potassium channels so that
-          increased intracellular Ca 2+activates intranuclear
-          calmodulin.
-          The lexicon and example models presented so far have
-          focused primarily on cell signaling and transduction
-          pathways where intramolecular site-site interactions (for
-          example conformational regulation of kinase activity) are
-          prominent. However, intermolecular steric interactions
-          figure just as prominently in gene-regulatory systems, as
-          exemplified in the classic problem of the lysis-lysogeny
-          'genetic switch' of lambda phage [ 15]. This system is
-          modeled in Figure 6to illustrate how activation and
-          inhibition arrows can be adapted to represent both steric
-          hindrance and mutual cooperativity of binding. For
-          instance, steric hindrance between the binding of the
-          transcription factor Cro to its operator (Cro- 
-          OR1 ) and RNA polymerase (RNAP) to
-          the promoter 
-          PR (RNAP- 
-          PR ) is represented by a
-          double-headed 'inhibition' arrow linking the respective
-          binding-reaction arrows. The positive cooperativity of
-          the binding reactions CI- 
-          OR2, RNAP- 
-          PRM and CI-RNAP is represented by
-          three pairs of double-tailed 'activation' arrows that
-          each link two binding reactions to a third reaction that
-          is enhanced by the two previous binding events. The
-          cooperativity being mutual, the three sets of
-          double-headed arrows are superimposed to form a triangle
-          of arrows linking the three binding arrows. Similar
-          cooperativity in the formation of CI-CI and CI- 
-          OR1 bonds with the CI- 
-          OR2 bond further stabilizes the
-          association of RNAP with 
-          PRM (see Figure 6legend for further
-          discussion).
-          The example models in Figures 3, 4, 5, 6demonstrate
-          that a functional description language can be extended by
-          defining new functional properties, associating the
-          properties with existing or new icons, and using the new
-          icons to represent a wide variety of biological
-          phenomena. In creating the BioD lexicon and drawing
-          conventions we have opted for simple icons and arrows
-          (more elaborate and expressive graphics can readily be
-          imagined) so that diagrams can be easily drawn by hand or
-          with a variety of general purpose computer graphics
-          applications. Creating and editing models is greatly
-          facilitated, however, by applications such as TopDown™
-          (as used here) or Visio™ that provide 'templates' of
-          reuseable icons and arrows and that also maintain
-          icon-icon arrow links as icons are moved about in the
-          field of the diagram. Even at this stage of development,
-          BioD diagrams created by these general graphic and
-          diagramming tools can be readily imported to available
-          web page design tools to create, edit, link and post
-          models on the internet (see sample BioD model sites [ 8,
-          9]).
-        
-        
-          Design considerations for a BioD editor
-          To fully realize the advantages of a standardized
-          visual language, however, custom editors will be required
-          for creating new icon and arrow objects, for maintaining
-          icon and arrow lexicons, and for creating and editing
-          models. The key first step in developing editors (as well
-          as archiving and analysis software, see below) is to
-          develop standardized, platform-independent computer
-          representations of core BioD language elements
-          (functional properties, icons, arrows and models) in
-          object-oriented programming (OOP) terms so that editors
-          and browsers can be developed on a number of
-          platforms.
-          In OOP parlance, for instance, BioD icons and arrow
-          objects would 'know' how to draw themselves, 'inherit'
-          functional and graphical properties from 'parent' icons
-          and arrows, and know how to link to each other. The tasks
-          of a BioD editor, as we envisage, would be to create
-          icons and arrows, organize them into lexicons and
-          palettes, and allow users to draw and link them into
-          models. A particularly attractive, but considerably more
-          sophisticated, feature would allow models to be built and
-          formatted automatically according to pairwise functional
-          interactions as available in metabolic pathway, gene
-          network and protein interaction databases.
-        
-        
-          Model-model links for archiving and searching
-          system models
-          A standardized biological description language that is
-          formalized in terms of computational and not just
-          graphical objects offers two very attractive benefits.
-          First, it would be possible to build models of very large
-          systems by linking individual submodels into distributed
-          model networks on the internet. Second, it would be
-          possible to treat such model networks as searchable
-          archives of functional knowledge that can be queried for
-          specific functional relationships.
-          The first possibility can be illustrated by linking
-          models (see Figures 3, 4, 5) into networks using only two
-          kinds of model-model links: 'action' and 'identity'
-          links. Action links allow a functional property of an
-          icon in one model to act on a functional property of an
-          icon or action in another model, as if in a single model.
-          For instance, an action link (iconified as a wall plug)
-          allows the calcium-dependent activation of calmodulin in
-          Figure 4to inhibit the export of cyclin D1 from the
-          nucleus in Figure 3. Identity links, on the other hand,
-          allow models to share a common icon and its properties.
-          For instance, an identity link (iconified as an = sign)
-          establishes that the cyclin D1 concentration in Figure
-          2represents the same cyclin D1 concentration as in the
-          nucleus in Figure 3. Additional examples of model-model
-          links can be seen in a network of models created to
-          explain how the ketogenic diet might affect seizure
-          activity [ 9].
-          The second possibility is to establish online models
-          as searchable archives of functional, as opposed to
-          structural, relationships. Just as modern bioinformatics
-          provides immense databases and search tools for molecular
-          structures and polymer sequences [ 16], we envisage that
-          with suitable computational implementation, distributed
-          online models may be queried not only for local pairwise
-          interactions (such as site-site interactions) but also
-          for long-distance chains of events (for example 'Find
-          models where a potassium channel blocker affects
-          cell-cycle progression'), a capability not available in
-          any other approach to biological systems. Implementing
-          this capability would depend, first, on encoding and
-          storing BioD language elements and models as objects in
-          XML (Extensible Markup Language [ 17]). This is a
-          standard language for describing and exchanging
-          information on the internet and is rapidly beginning to
-          fulfill its promise [ 18] as a means of representing
-          biological knowledge such as polymer sequences [ 19],
-          cellular and anatomical structures [ 20] and mathematical
-          models of biological systems [ 21]. Second, to link model
-          elements into distributed networks on the internet,
-          XML-encoded BioD objects and models can be linked using
-          XLink (XML Linking Language [ 22]) and queried for
-          patterns of functional interactions using query languages
-          such as Lore (Lightweight Object Repository [ 23]) that
-          have been developed for distributed, semistructured
-          data.
-        
-        
-          Beyond description: model simulation and
-          analysis
-          Visual languages in other fields [ 24, 25] have been
-          implemented as formal computer languages so that the
-          diagrams are not only comprehensible to humans but can be
-          analyzed by computers. This includes CAD systems for
-          electronic circuit design and visual languages for
-          computer programming (for example ProLog) as well as
-          mathematical modeling software that translates diagrams
-          into mathematical equations for quantitative analysis.
-          Indeed, visual languages suitable for mathematical
-          modeling in biology (for example Stella™ [ 26], SAAM II™
-          [ 27, 28] and KineCyte™ [ 29, 30]) have contributed to
-          the establishment of quantitative modeling as a 'gold
-          standard' and critical element of biological
-          analysis.
-          Despite the successes and value of quantitative
-          analytical methods, it must be recognized that progress
-          in the knowledge of biological systems proceeds largely
-          on qualitative information and reasoning ('A binds to B.'
-          'If C increases then D decreases.') rather than
-          quantitative analysis. This is due in large part to the
-          huge range of experimental conditions and phenomena that
-          are encountered and must be considered, and the great
-          time, effort and expense required to generate consistent
-          sets of quantitative system properties (concentrations,
-          reaction rates and binding constants, for instance) many
-          of which are experimentally inaccessible. In the face of
-          such difficulties, biology, perhaps more than other
-          disciplines, consists of a vast amount of qualitative
-          information that forms the basis for speculation,
-          reasoning and decision-making at all levels from the
-          basic science laboratory to the clinic. To exploit this
-          reservoir of qualitative biological knowledge, a variety
-          of qualitative and hybrid qualitative/quantitative
-          simulation and analysis tools that have been developed in
-          the artificial intelligence community [ 31, 32, 33, 34]
-          have been adapted to the analysis of biological problems
-          [ 35, 36, 37, 38].
-          The advantage of hybrid qualitative/quantitative
-          methods with BioD is that they allow simulation and
-          analysis of the behavior of complex systems at the
-          prevailing level of systems knowledge; BioD models may be
-          brainstormed in descriptive terms early in the discovery
-          process and then upgraded in stages as qualitative
-          information and then quantitative data become available.
-          Model development and testing can, therefore, become an
-          integral part of early discovery and hypothesis testing
-          all within the context of a single graphical description,
-          rather than developing models simply as validations of
-          well understood phenomena. In effect, BioD models would
-          fill the descriptive and analytical gap between informal
-          cartoons and fully quantitative mathematical models.
-          To accomplish this, BioD object data structures would
-          have to be extended to first represent functional
-          properties and then provide action arrows with logical
-          rules or mathematical functions that determine how the
-          states of linked icons affect each other. Within a BioD
-          editor, such rules and functions would be selectable in
-          preprogrammed form from context-sensitive menus of
-          appropriate and specific action arrows (a feature in
-          KineCyte™ simulation software; RainTown [ 39]). Encoding
-          BioD data structures in XML according to the Systems
-          Biology Markup Language (SBML), a recently proposed 'open
-          standard' for exchanging mathematical models of
-          biological systems [ 21], would allow BioD models to be
-          exported and quantitatively simulated in a variety of
-          analytical software platforms.
-          Dissociating the specification of functional
-          properties and values from the graphical description of
-          the model means that models can be created on a purely
-          speculative basis, and then, as system knowledge matures,
-          qualitative values and action rules can be selected (or
-          specified) to support qualitative reasoning and
-          hypothesis testing. As quantitative values and functions
-          are warranted, they can then used to constrain the
-          qualitative predictions of the model.
-        
+      
+      
+        Results
+        First, we determined the quantity and quality of
+        behavioral problems in older hospitalized patients on acute
+        care units, over the first two days of hospitalization.
+        Twenty-three of the 42 patients (55%) had at least one
+        behavioral problem as indicated by ratings on the NPI-Q.
+        Overall, these 23 patients exhibited a total of 51
+        behavioral problems. Figure 1presents the number of
+        behaviors exhibited in each of the different behavioral
+        domains assessed by the NPI-Q. Anxiety, depression,
+        irritability, and agitation/aggression were among the most
+        commonly observed behaviors, respectively. Table 1presents
+        the behavioral problems exhibited by each patient. Ten
+        patients (24% of all participants) exhibited one problem
+        behavior; 5 patients (11% of all participants) exhibited 2
+        behavioral problems and 8 patients (19% of all
+        participants) exhibited 3 or more behavioral problems. The
+        mean severity rating on the NPI-Q for all 23 patients
+        exhibiting behavioral problems, was 3.9 ± 4.0 (range 0-18);
+        mean distress = 2.8 ± 2.9 (range 0-30). However, this
+        reflects the fact that the NPI-Q severity and distress
+        scores are cumulative over all behavioral categories for
+        each patient. The mean level of severity for all 51
+        behavioral problems is 1.70 ± .78 (range 1-3); and the mean
+        level of distress for all 51 behavioral problems is 1.34 ±
+        1.75 (range 0-5). This suggests that the behavioral
+        problems exhibited were of moderate severity, resulting in
+        mild to moderate distress to staff.
+        Second, we determined the impact of these problem
+        behaviors on staff burden. Level of severity of a
+        behavioral problem was highly correlated with the distress
+        to staff (rho =.70; p < .001). Table 2. lists the mean
+        severity and mean level of distress to staff for each
+        behavioral category.
+        Thirdly, we investigated whether there are predictor
+        variables, which could be easily assessed by clinicians at
+        admission, which may place older adults at increased risk
+        of developing behavioral problems in this setting. To do
+        this we conducted a regression analysis. Due to the limited
+        number of patients with a history of substance abuse, we
+        excluded substance abuse from the analysis. Thus, we
+        conducted a multiple regression analysis that included 7
+        predictor variables: age, years of education, living
+        arrangement, ethnicity, psychiatric history, and
+        performance at admission on the MMSE and the GDS. Our
+        analysis revealed that a statistically significant
+        proportion of the variance of the NPI-Q was accounted for
+        by baseline MMSE performance, with lower scores on the MMSE
+        (more cognitive impairment) being significantly associated
+        with higher ratings on the NPI-Q (more behavioral
+        disturbance). No other significant associations were
+        observed.
+        We also conducted a Receiver Operating Characteristic
+        Curve Analysis (ROC). The ROC procedure examines every
+        predictor variable and their associated cutpoints and
+        identifies the variables with the optimal balance between
+        sensitivity and specificity for identifying those
+        particular patients with the specific outcome of interest
+        (namely, presence of behavioral problems). The result is a
+        decision tree (see Figure 2). For further details regarding
+        ROC analysis see Kraemer [ 25 ] . While ROC analysis is
+        typically conducted on large sample sizes, ROC can be
+        conducted on smaller samples in order to assess the first
+        variable which discriminates among the sample and at which
+        cut-point such discrimination occurs. The first and only
+        variable and cut-point isolated by the ROC analysis was
+        performance on the MMSE (chi-square= 4.37, p < .05,
+        cutpoint = 27). Of 29 patients with a MMSE of less than or
+        equal to 27, 19 patients (66%) exhibited a behavioral
+        problem during hospitalization as rated by the NPI-Q (see
+        Figure 2). Of 13 patients with an MMSE greater than 27,
+        only 4 patients (31%) exhibited a behavioral problem during
+        hospitalization.
+        It should be noted that this cut-point of 27 on the MMSE
+        is considerably above the cut-point of 23 that is commonly
+        used to identify dementia. However, it is interesting to
+        note that in this sample, 12 of 42 (29%) of the patients
+        had a MMSE of 23 or less, and 10 of 42 (24%) patients had
+        an MMSE between 24 and 26.
       
       
         Discussion
-        We propose a conceptual basis for an extensible
-        biological description language that is designed to be
-        implemented as visual computer language for describing,
-        archiving and analyzing complex, multidisciplinary
-        biological systems. We view this suggestion not as radical
-        but as a natural, perhaps inevitable, extension to
-        biomedicine of the visual computer language paradigm [ 24,
-        25, 40] that has been successfully applied in other
-        technical disciplines. The major challenge is that biology
-        offers perhaps some of the most complex and functionally
-        diverse systems known.
-        With example models here and online, we have shown that
-        a limited, but extensible, lexicon of icons and arrows is
-        capable of describing complex systems that involve a range
-        of cell-biological disciplines from gene regulation to the
-        biophysics of ion transport. The value of such
-        standardization is increased conciseness, readability and
-        clarity for communication of knowledge about complex
-        systems. Beyond simple graphic standardization, computer
-        implementation of a graphic language for biology is not
-        only feasible with currently available computer and
-        internet technology, but could yield substantial benefits
-        to biomedical education, investigation and industry. For
-        instance, development of a common language to build
-        accessible common models are critical elements in the
-        'blackboard' approach [ 41, 42] for multidisciplinary
-        collaborations on complex problems. We suggest that a
-        standard language for building and posting
-        cross-disciplinary functional models on the internet will
-        be a necessary stage in the evolution of bioinformatics, as
-        there is a growing need to express and understand
-        whole-systems behavior and the complex systems that
-        underlie disease. We further suggest that additional
-        extensions to a standard graphical language can serve as a
-        user interface for a variety of qualitative and
-        quantitative simulation and analysis methods used in other
-        disciplines.
-        The prototype language we present here is designed
-        primarily for describing cell-biological systems as
-        discrete networks of interacting functional objects at
-        multiple conceptual levels. As such, it may prove
-        cumbersome for describing massively parallel systems (such
-        as the coupled expression of thousands of genes) or
-        continuum systems (such as the wave propagation of
-        cytoplasmic calcium). Even in these modeling domains,
-        however, a standardized visual computational interface
-        would allow modelers to describe discrete parts ('finite
-        elements') of systems and/or to embed the systems in larger
-        BioD models that both control and depend on the massive or
-        continuum systems models.
-        How might BioD evolve and be extended from a core set of
-        elements as described above to more general biological
-        description language? In our approach, we have followed the
-        model of recent developments of internet protocols,
-        operating systems and computer languages by envisioning
-        that if a core computational framework can be established,
-        it can be extended and implemented for a variety of
-        methods, languages and operating systems. Thus we envision
-        that, given the development of one (or more) editor
-        applications, users could invent BioD language elements
-        (functional properties, icons, arrows and models) as needed
-        to describe specific domains. As domain lexicons and
-        model-model networks expand, with inevitable conflicts and
-        duplications, we would suggest more global standardization
-        be negotiated according to 'open-source' mechanisms of
-        distributed, cooperative development [ 43] used for
-        developing the Linux operating system and now being applied
-        to SBML development [ 21].
-        By whatever mechanism, language development raises other
-        key issues. How can one maintain the delicate balance of
-        expressiveness and readability - can the language concisely
-        describe all systems of interest while still being
-        understandable without extensive training? When does the
-        ability to derive more expressive icons begin to diminish
-        readability as viewers are required to recognize and
-        interpret subtle differences between similar icons? Even if
-        successfully developed for selected domains and purposes,
-        inevitably there will be edges to any language for
-        describing all domains and for all analytical purposes -
-        hence the continued appearance of new computer languages
-        such as Java.
+        In the current study we found that 23 of 42 patients
+        (55%) exhibited at least one behavioral problem in their
+        first two days of hospitalization. All together, these 23
+        patients exhibited a total of 51 problem behaviors in the
+        first two days of hospitalization. In particular, anxiety,
+        depression, irritability, and agitation/aggression were the
+        most commonly observed behaviors. Hallucinations and
+        delusions were associated with the highest level of
+        severity and highest level of distress; however, they
+        occurred rarely. Of the more frequently occurring
+        behaviors, nighttime problems was the behavioral category
+        associated with the highest mean level of severity.
+        However, agitation resulted in the highest level of
+        distress to staff. The results find that, on average, the
+        observed behavioral problems are of moderate severity and
+        result on average, in mild distress to staff. While the
+        occurrence of one behavioral problem, in and of itself, may
+        not be a significant burden, the cumulative impact of so
+        many problem behaviors over so short a time span may be
+        very disruptive to staff, and we have previously reported
+        that staff report a large number of behavioral problems in
+        this population [ 13 ] .
+        The results of this paper also suggest that the mental
+        status of older adults at admission to hospital is
+        predictive of behavioral problems during their
+        hospitalization. Thus, assessment of the mental status of
+        older adults at admission to hospital may represent an
+        effective way for staff and clinicians to identify older
+        patients who are more likely to develop behavioral problems
+        during hospitalization and who could potentially be
+        targeted for procedures that might reduce the occurrence of
+        such problems. This finding is in line with the literature,
+        which suggests that individuals who have cognitive deficits
+        are at greater risk for exhibiting behavioral problems in
+        long-term and other non-acute settings [ 24 ] .
+        Investigators have found lower MMSE scores at admission
+        predictive of functional decline following acute medical
+        illness and hospitalization [ 26 ] . Additionally,
+        cognitive impairment is associated with the development of
+        delirium during hospitalization, which in turn, can result
+        in a variety of behavioral problems [ 27 ] . However, in
+        these studies, patients usually had cognitive impairment
+        indicative of dementia, whereas the current study suggests
+        that among hospitalized elderly, a MMSE score of less than
+        27 places a patient at increased risk of behavioral
+        problems. It may be that a patient with even the mildest
+        degree of cognitive impairment is more vulnerable to any
+        negative impact of hospitalization on behavior.
+        Alternatively, this may simply reflect the fact that in our
+        ROC analysis we utilized a broad criterion for specifying
+        the occurrence of a behavioral problem, with a rating of
+        one or higher on the NPI-Q considered indicative of the
+        presence of a behavioral problem. However, as mentioned,
+        the occurrence of even one behavioral problem can be
+        disruptive. Additionally, as our multivariate analysis
+        reveals, increased ratings on the NPI-Q were associated
+        with lower scores on the MMSE, such that more cognitively
+        impaired patients exhibited a greater quantity and/or
+        severity of behavioral problems.
+        This relationship between mental status and behavioral
+        problems is all the more important given the observation in
+        the current study of a large percentage of patients with a
+        MMSE of 23 or less at admission, suggesting that a greater
+        proportion of older hospitalized elderly may be suffering
+        from cognitive impairment than has been traditionally
+        recognized. Prior studies suggest that approximately 5 to
+        12% of older adults admitted to general hospital units have
+        dementia [ 28 29 ] . However, in the current investigation,
+        29% had a MMSE of 23 or less which is indicative of
+        dementia, although only four of these patients had a
+        documented diagnosis of dementia. One of the few studies
+        that investigated cognitive impairment in an acute care
+        setting observed a similar prevalence. Hickey et al., in an
+        investigation of 112 older patients in the acute care
+        setting, average age of 74.7, found that 22% had an MMSE of
+        23 or less [ 3 ] . Overall, this suggests that a
+        significant proportion of older hospitalized adults are
+        cognitively impaired, and thus greater proportions of
+        hospitalized older adults may be at increased risk for
+        behavioral problems.
+        However, the current study had several limitations,
+        which impact the interpretations that can be made and which
+        future studies might address. In addition to the small
+        sample size, the data in this paper are limited to only the
+        first two days of hospitalization, and this significantly
+        impacts the prevalence of behavioral problems in the
+        current study. It may be that patients are more likely to
+        exhibit behavioral problems at this time, but it also is
+        likely that patients who did not exhibit behavioral
+        problems in the first two days may do so later in the
+        course of their hospitalization. Therefore, it is not clear
+        whether we would observe the same relationship between our
+        predictors and the occurrence of behavioral problems if we
+        included all episodes of behavioral problems exhibited
+        during the full course of each patient's hospitalization.
+        Ideally, future investigations of this issue would assess
+        for the presence of behavioral problems each day during
+        hospitalization.
+        As the current study was conducted at Veterans' Affairs
+        hospitals, the male-only sample further limits the
+        interpretation of the results to the male gender. Some
+        studies have suggested that men are at increased risk for
+        exhibiting behavioral problems [ 30 ] , and this may have
+        significantly biased the prevalence of behavioral problems
+        in our investigation.
+        Additionally, we included a limited number of predictors
+        in the current study. Although we identified predictors
+        that could be easily obtained or assessed at admission,
+        other variables, including diagnosis, acuity of illness,
+        co-morbidities, pain, and type and dose of medications, may
+        also be associated with the development of behavioral
+        problems in this setting. However, we did not have a
+        sufficiently large sample size to investigate these
+        variables given their significant heterogeneity across the
+        patient population in this study. Future studies of larger
+        numbers of hospitalized elderly adults could investigate a
+        broader range of predictor variables. Also, several of our
+        predictor variables were based upon self-report, and such
+        self-report may be influenced by cognitive status. Indeed,
+        even depressive symptoms, as assessed by the GDS, may be
+        under-reported by those participants with cognitive
+        impairment, although we observed no association between
+        mental status and GDS.
+        Since clinical staff can have limited shifts and care
+        for more than one patient at a time they may under-report
+        certain behavioral changes, particularly apathy and
+        depressive symptoms. Alternatively, distress responses to
+        behavioral problems may vary among staff, and may be
+        influenced by such factors as staff experience, or whether
+        or not the clinical staff member has a background in
+        psychiatry or geriatrics. The current study did not
+        investigate these issues, but future studies are needed to
+        explore other factors impacting staff distress responses to
+        behavioral problems.
+        Overall, however, the current study suggests that a
+        significant proportion of older hospitalized patients
+        exhibit behavioral problems, and these problems are
+        distressful to staff. Additionally, our findings indicate
+        that a large percentage of these patients are cognitively
+        impaired and that lower mental status in these patients
+        places them at increased risk for developing behavioral
+        problems during hospitalization.
       
       
-        Conclusions
-        We have proposed that a generalized biological
-        descriptive language akin to schematic diagramming
-        languages in other disciplines is a necessary step in the
-        evolution of functional bioinformatics. Toward this, we
-        have developed a prototype language, BioD, that we have
-        used to test the value of this approach and to explore the
-        feasibility of computational implementation using
-        object-oriented programming methods in the context of
-        Internet-based communications. We suggest that a
-        sufficiently formalized descriptive language built on the
-        BioD concept of 'functional properties' can anchor a
-        computational framework capable of supporting the archiving
-        of extended, web-linked model networks and model analysis
-        using hybrid qualitative reasoning and quantitative
-        simulations.
+        Competing Interests
+        None declared.
+      
+      
+        Acknowledgements
+        This work was supported by the State of California
+        Alzheimer's Disease Research Clinical Center, by the
+        Sierra-Pacific Mental Illness Research, Education and
+        Clinical Center, and by the Medical Research Service of the
+        VA Palo Alto Health Care System
       
     
   

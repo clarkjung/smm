@@ -3,335 +3,300 @@
     
       
         Background
-        The Golgi complex is the central secretory organelle of
-        most eukaryotic cells and consists of membranous stacks
-        called cisternae [ 1, 2]. Secreted proteins, like all other
-        proteins, are synthesized in the endoplasmic reticulum (ER)
-        and are specifically packaged into vesicles that bud off
-        from the ER in a GTP-dependent process [ 3, 4]. These lipid
-        vesicles are coated with the COPII coat protein-complex and
-        are equipped with the ATP-dependent vesicle-fusion
-        apparatus. They carry the secretory cargo to the 
-        cis surface of the Golgi complex,
-        with which they fuse, delivering the cargo. A second type
-        of vesicle, coated by the COPI coat-protein complex, is
-        part of a retrograde pathway that buds off the Golgi
-        membrane and returns proteins that are not targeted for
-        secretion back to the endoplasm [ 3, 4].
-        Studies on the secretory system in crown-group
-        eukaryotes (plants, animals and fungi) have uncovered a
-        family of proteins, the p24 (p24/gp25L/emp24/Erp) family,
-        that have an important role in cargo selection and
-        packaging into COPII-coated vesicles [ 5, 6, 7, 8].
-        Additionally, they might also function in excluding
-        secreted proteins from COPI-coated retrograde vesicles [ 9,
-        10]. Members of the p24 family are type I membrane
-        proteins, with a small carboxy-terminal cytoplasmic tail
-        that interacts with the vesicle coat proteins and a
-        globular lumenal region that probably interacts with the
-        cargo [ 11, 12]. They are abundantly distributed on the
-        membranes of the vesicles budding off the ER and the 
-        cis Golgi membranes. The p24 proteins
-        belong to at least four distinct subfamilies [ 8, 12] and
-        form hetero-oligomeric complexes that contain at least one
-        member from each subfamily. This heteromerization of the
-        p24 proteins has been shown to require a coiled-coil
-        stretch at the extreme carboxyl terminus of their lumenal
-        regions [ 10].
-        Improved understanding of the p24 family may throw light
-        on evolution and function of the Golgi apparatus in
-        eukaryotes. With this objective, we conducted a
-        computational sequence analysis of the p24 proteins and
-        show that they contain a conserved globular domain that is
-        also present in several other Golgi and lipid-traffic
-        proteins. We present evidence that this module is likely to
-        serve as a common denominator in protein-protein
-        interactions in several distinct contexts, such as in
-        secretory vesicles and on the Golgi peripheral membrane.
-        The proliferation of this superfamily appears to have been
-        central to the diversification of the eukaryotic secretory
-        apparatus.
+        RU486 (Mifepristone) has shown remarkable
+        antiglucocorticoid and antiprogestrone activities both 
+        in vitro and 
+        in vivo [ 1 2 ] . This compound has a
+        high affinity for ligand binding sites of both receptors [
+        1 2 ] . Current clinical uses of RU486 are limited to its
+        function as a progestrone antagonist [ 1 2 ] , where it was
+        approved in France in 1988, and recently in the USA as a
+        means to induce early termination of pregnancy [ 1 2 3 ]
+        .
+        Based on its antiprogesterone activity, RU486 has been
+        evaluated as a useful anticancer agent in organs sensitive
+        to this hormone [ 4 ] . Although evidence was not
+        conclusive in these studies, RU486 demonstrated a benefit
+        to humans suffering from meningioma, breast cancer and
+        uterine leiomyomata [ 4 ] . Several 
+        in vitro studies also demonstrated
+        that RU486 induced antiproliferative effects against murine
+        mammary tumors [ 5 ] as well as cultured human endometrial
+        stromal and epithelial cells [ 6 7 ] .
+        Antagonizing the effects of glucocorticoids by RU486
+        may, however, result in deleterious effects.
+        Glucocorticoids produce a receptor-mediated inhibitory
+        effect on both basal and hormone-stimulated expression of a
+        newly discovered family of molecules known as suppressors
+        of cytokine signalling [ 8 ] . These molecules play an
+        important role in shutting off cytokine action [ 8 ] , and
+        RU486 may therefore augment cytokine-mediated effects.
+        Indeed, since tumor necrosis factor 
+        alpha (TNFα) is known to suppress
+        hepatic apoptosis [ 9 ] , a function which is considered a
+        safeguard mechanism against neoplasia [ 10 11 ] , the
+        reported ability of RU486 to elevate hepatic TNFα
+        production 
+        in vivo and to enhance cell
+        sensitivity to its toxic effects is alarming [ 12 ] .
+        Glucocorticoids also inhibit hepatocellular proliferation [
+        13 14 15 ] and modulate the expression of oncogenes and
+        tumor suppressor genes [ 11 ] , 
+        via mechanisms involving the
+        glucocorticoid receptor [ 16 17 18 ] , further supporting
+        the notion that inhibiting these receptors may result in
+        harmful effects.
+        We tested the hypothesis that inhibition of the
+        glucocorticoid receptor will trigger events that may
+        ultimately lead to liver cancer. Consequently, we
+        investigated the impact of RU486 on hepatocellular
+        proliferation and programmed cell death in livers of male
+        B6C3F1 mice, and quantified hepatic levels of genes
+        involved in these events.
       
       
-        Results and discussion
+        Results
         
-          Identification of a conserved domain in p24 and
-          other Golgi proteins
-          The 
-          bona fide p24 proteins contain a
-          short carboxy-terminal tail that interacts with the
-          COP-complex proteins through specific short peptide
-          motifs. The amino-terminal region that faces the lumen is
-          much larger and is predicted to form a compact globular
-          unit. As this region of the protein is likely to contain
-          a conserved globular domain that mediates other
-          functional interactions of these proteins, we sought to
-          investigate its complete diversity and potential
-          evolutionary connections. We carried out a profile search
-          of the Non-Redundant protein database (of the National
-          Center for Biotechnology Information, NCBI) using the
-          PSI-BLAST program [ 13], seeded with lumenal region of
-          the 
-          Caenorhabditis elegans p24 family
-          member K08E4.6 (the profile-inclusion threshold was set
-          at 0.01 and the search iterated until convergence). This
-          search readily detected the classical p24 family members
-          that are found in six to nine copies in the proteomes of
-          most organisms belonging to the eukaryotic crown group.
-          In addition, this search retrieved several other proteins
-          that do not belong to the p24 family with statistically
-          significant expectation ( 
-          E )-values ( 
-          E < 0.001, see Figure 1legend).
-          These proteins include yeast Osh3p, a cytoplasmic
-          oxysterol-binding protein, animal Sec14-like proteins
-          that are involved in secretion, human GCP60 (also called
-          PAP7, a peripheral-type benzodiazepine
-          receptor-associated protein [ 14]), which interacts with
-          the Golgi integral membrane protein Giantin, and several
-          other uncharacterized eukaryotic proteins with different
-          lipid-binding domains (Figure 1). Reciprocal searches
-          initiated with this region from the newly detected
-          proteins showed that they were more closely related to
-          each other, but in subsequent iterations they recovered
-          the classic p24 family members at significant 
-          E -values, suggesting that all
-          these conserved regions define a novel superfamily of
-          protein domains. Separate prediction of the secondary
-          structure of this domain from the p24 family and the
-          newly detected proteins, showed that the two groups had
-          essentially the same core structural elements, further
-          reinforcing their relationship. As this conserved domain
-          is present in at least three distinct classes of proteins
-          related to Golgi dynamics (animal Sec14 proteins, the p24
-          family and GCP60-like proteins), we name this conserved
-          region the GOLD domain.
-          The presence of the GOLD domain at the extreme amino
-          or carboxyl terminus of the Osh3p and animal Sec14
-          proteins, respectively, allowed us to establish accurate
-          boundaries for it. The domain is typically between 90 and
-          150 amino acids long and, in the p24 family, it comprises
-          almost the entire lumenal region, with the exception of
-          an α-helical extension of approximately 50 amino acids
-          that precedes the transmembrane segment. Most of the size
-          difference observed in the GOLD-domain superfamily is
-          traceable to a single large low-complexity insert that is
-          seen in some versions of the domain. A
-          secondary-structure prediction for the domain using the
-          PHD [ 15] program reveals that it is likely to adopt a
-          compact all-β-fold structure with six to seven strands.
-          Most of the sequence conservation is centered on the
-          hydrophobic cores that support these predicted strands.
-          The predicted secondary-structure elements and the size
-          of the conserved core of the domain suggests that it may
-          form a β-sandwich fold with the strands arranged in two β
-          sheets stacked on each other.
-          Experimental studies so far on diverse proteins
-          containing GOLD domains point to a role for it in
-          protein-protein interactions. A region of the GPC60
-          molecule that rather precisely encompasses the GOLD
-          domain has been shown to bind to the cytoplasmic region
-          of the Golgi membrane protein Giantin [ 16].
-          Cross-linking experiments have suggested that the p24
-          proteins interact directly with the cargo molecules that
-          are present in the lumen of the COPII-coated vesicles and
-          that they are, accordingly, cargo receptors [ 17].
-          However, yeast deletion mutants lacking all the p24
-          proteins grow similarly to wild type, although they show
-          delays in translocation of a subset of cargo molecules
-          such as invertase and Gas1p from the ER to the Golgi, and
-          increased secretion of resident ER proteins [ 18].
-          Certain members of the p24 family from vertebrates have
-          also been shown to bind to specific ligands such as the
-          interleukin-1 receptor-like molecule T1/ST2 and might aid
-          its proper expression on the cell surface [ 19]. These
-          observations suggest that the p24 subset of the GOLD
-          domains probably function as discriminators that
-          selectively interact with particular proteins to
-          influence their loading into vesicles. The GOLD domains
-          show considerable variability in some of the loops that
-          are predicted to extrude from the core β-sandwich-like
-          structure (Figure 1). These loops might form exposed
-          surfaces that provide the GOLD domains with the
-          discriminatory capacity necessary for their interactions
-          with diverse ligands.
+          Effect of RU 486 on hepatocellular proliferation
+          and apoptosis
+          In control mice, 1.55 ± 0.12% of hepatocytes were
+          labeled with BrDU (Fig. 1A). Treatment with RU 486
+          significantly diminished these labeling indices by
+          approximately 45% to 0.86 ± 0.039% (Fig 1A). Similarly,
+          RU 486 caused a remarkable decrease in programmed cell
+          death in the liver. In control animals, 2.68 ± 0.7% of
+          hepatocytes were undergoing apoptosis (Fig 1B). These
+          levels were significantly reduced by 66% to 0.9 ± 0.16%
+          in livers of mice pretreated with RU 486 (Fig 1B).
         
         
-          The domain architecture and evolutionary history of
-          GOLD-domain proteins: functional implications
-          With the exception of the p24 proteins, which have a
-          simple architecture with the GOLD domain as their only
-          globular domain, all other GOLD-domain proteins contain
-          additional conserved globular domains (Figure 2). In
-          these proteins, the GOLD domain co-occurs with lipid-,
-          sterol- or fatty acid-binding domains such as PH [ 20,
-          21], Sec14p [ 22], FYVE [ 23], oxysterol binding- and
-          acyl CoA-binding domains, suggesting that these proteins
-          may interact with membranes. The FYCO1 protein that
-          combines a GOLD domain with a FYVE domain, also contains
-          a RUN domain [ 24], an uncharacterized α-helical domain
-          that may have a role in the interaction of various
-          proteins with cytoskeletal filaments [ 24, 25]. An
-          orthologous group of proteins typified by human Sec14L1,
-          which is conserved in all animals, has, in addition to
-          the carboxy-terminal fusion of the Sec14p and GOLD
-          domains, a previously unrecognized, conserved
-          amino-terminal domain (Figures 2, 3). This domain has so
-          far been found only in eukaryotes, and occurs in
-          stand-alone form in several proteins, including the human
-          PRELI protein [ 26] and the yeast MSF1p' protein. The
-          PRELI/MSF1p' domain is approximately 170 residues long
-          and is predicted to assume a globular α + β fold with six
-          β strands and four α helices (Figure 3). MSF1p' is
-          proposed to be involved in mitochondrial protein sorting
-          [ 27], suggesting that the PRELI/MSF1p' domain may also
-          have a function associated with cellular membranes.
-          Thus, all GOLD-domain proteins can be divided into two
-          architectural categories: the p24-like category, in which
-          the GOLD domains project into the lumen, anchored in the
-          membrane by the membrane-spanning helix (category 1); and
-          proteins in which the GOLD domain occurs at the extreme
-          amino or carboxyl terminus, with additional domains that
-          are known to interact with lipid membranes (category 2)
-          (Figure 2). GCP60, which is peripherally associated with
-          the Golgi membrane, is one of the proteins in the second
-          category that has been experimentally characterized. It
-          has been shown that overexpression of a region of this
-          protein encompassing the GOLD domain caused disassembly
-          of the Golgi structure and abrogated protein transport
-          from the ER to the Golgi [ 16].
-          These observations can be accommodated by two (not
-          mutually exclusive) hypotheses regarding the functions of
-          these proteins. The GOLD proteins belonging to the second
-          architectural category could function as double-headed
-          adaptors that interact with both a specific protein (via
-          the GOLD domain) and different cellular lipid membranes.
-          Thus, GCP60 and GOLD proteins with analogous
-          architectures could help in the assembly of vesicular or
-          Golgi-membrane-associated protein complexes by tethering
-          specific proteins to the membranes, with the GOLD domain
-          binding the protein targets and the lipid-binding protein
-          to the membrane. Alternatively, at least some of the
-          category-2 proteins could function as a previously
-          unrecognized class of vesicular cargo-loading molecules
-          that associate with the membrane via their lipid-binding
-          domains and deliver their protein ligands via the GOLD
-          domain. The observation that deletion mutants lacking all
-          the p24 proteins still show normal trafficking of certain
-          proteins such as carboxypeptidase Y, suggests that there
-          are some protein-trafficking pathways that are unaffected
-          by their absence. Thus, the GOLD-domain proteins of
-          category 2 may have a specific role in regulating the
-          secretion of molecules that are not affected by the p24
-          proteins. The hetero-oligomerization of the p24 proteins
-          via the coiled-coil regions carboxy-terminal to the GOLD
-          domain seems to help in generating combinatorial
-          diversity for their interactions with multiple ligands.
-          The presence of extensive coiled-coil segments in some of
-          the category-2 GOLD-domain proteins, such as FYCO1,
-          suggests that they might also form oligomers, like the
-          p24 proteins.
-          Similarity-based clustering and phylogenetic analysis
-          divides the GOLD domains into two primary divisions that
-          precisely mirror the two categories established on the
-          basis of domain architectures (Figure 2). This division
-          was also supported by a synapomorphic (shared derived)
-          feature in the form of two conserved cysteines, which is
-          restricted to the p24 family (category-1 proteins).
-          Likewise, the presence of a specific insert between
-          strand 1 and 2 with a characteristic conserved tryptophan
-          serves as a synapomorphic feature for category-2 GOLD
-          domains (Figure 1). An analysis of the phyletic patterns
-          suggests that the p24 family had already differentiated
-          into at least four distinct subfamilies in the common
-          ancestor of plants, animals and fungi. The detection of
-          multiple members of the p24 family in the early branching
-          eukaryotes such as 
-          Cryptosporidium parvum and
-          kinetoplastids suggests that some of this diversification
-          was probably already under way early in eukaryotic
-          evolution. Within the eukaryotic crown group, we obtained
-          evidence of specific instances of duplications and gene
-          losses that are restricted to particular lineages. The
-          most striking case is seen in 
-          Arabidopsis thaliana , which
-          appears to have proliferated the Erv25 subfamily (five to
-          six members), but lacks the Erp2p and Erp5p subfamilies.
-          The second major family of GOLD domains (category 2) is
-          so far only attested in the crown group. In fungi, this
-          group is typified by 
-          Saccharomyces cerevisiae Osh3p,
-          which combines an amino-terminal GOLD domain with PH and
-          oxysterol-binding domains. The greatest architectural
-          diversity of this group is seen in animals (Figure 2),
-          suggesting that there was increased proliferation and
-          domain shuffling among these proteins concomitant with
-          the evolutionary emergence of the animals. This might
-          correlate with the increased complexity of
-          animal-specific secretory functions.
+          Increasing oncogene mRNA expression by RU
+          486
+          Pretreatment of mice with RU 486 caused significant
+          increases in hepatic levels of JunB and mdm2 (Fig 2). A
+          remarkable 2.5-fold increase in the mRNA of JunB was
+          detected upon treatment with RU 486 (Fig 2A). RU 486 also
+          increased the hepatic mRNA levels of the oncogene mdm2 by
+          21 ± 7% (Fig 2B).
+        
+        
+          Decreasing Liver mRNA Levels of c-myc and p53 by
+          RU486
+          In contrast to its effect on JunB and mdm2 mRNA
+          levels, RU 486 diminished the hepatic expression of c-myc
+          and p53 mRNAs to comparable degrees (Fig 3). While mRNA
+          of c-myc was significantly decreased by approximately 25
+          ± 3% (Fig 3A), that of p53 was also diminished
+          significantly by about 21 ± 5% in the livers of animals
+          treated with RU 486, compared to control mice (Fig
+          3B).
         
       
       
-        Conclusions
-        A novel β-strand-rich domain was identified in numerous
-        eukaryotic proteins, including the p24 proteins, which
-        appear to have a function related to the Golgi complex,
-        secretion or protein sorting. These GOLD domains are
-        predicted to be involved in specific protein-protein
-        interactions. Other than the p24 proteins, GOLD domains are
-        present in several proteins where they occur at the extreme
-        termini and are combined with diverse membrane- or
-        lipid-binding domains. These proteins are predicted to be
-        double-headed adaptors that may help in the assembly of
-        protein complexes on membranes or in the packaging of
-        specific cargo molecules in membranous vesicles. The
-        identification to the GOLD domain may help in a directed
-        dissection of p24-family function and provide novel
-        candidate molecules for experimental studies on secretion
-        and sorting.
+        Discussion
+        
+          Effect of RU 486 on liver cell proliferation
+          Glucocorticoids have been shown in various studies to
+          inhibit DNA synthesis [ 13 14 15 ] . Therefore, we
+          hypothesized that blocking the glucocorticoid receptor by
+          the potent antagonist RU 486 would result in increased
+          incorporation of BrDU into hepatocyte DNA, indicating an
+          enhanced cellular proliferative capability. Indeed, RU486
+          caused a remarkable 2.5-fold increase in the expression
+          of junB mRNA (Fig 2A). The protein product of this gene
+          is a member of the activating protein-1 (AP-1) family [
+          19 ] , which upon binding to either c-fos or fos B
+          protein form a complex that have high affinity to AP-1
+          binding concensus sequence [ 20 ] . A wide variety of
+          chemicals, including growth factors, and tumor promotors
+          increase the expression of this gene in various cell
+          types [ 21 ] . Compared to untransfected keratinocytes,
+          JunB-transfected cells grew more rapidly, and were highly
+          invasive in an 
+          in vitro assay [ 22 ] . Therefore,
+          the increased hepatic levels of junB gene, in mice
+          treated with RU486, was expected to reflect an
+          uncontrolled hepatocellular growth in these animals.
+          Surprisingly, however, RU 486 diminished the capacity of
+          liver cells to proliferate (Fig 1A). In order to explain
+          this discrepancy, it is noteworthy to mention that
+          unrelated to its anti-glucocorticoid activity, RU486 also
+          has antioxidant properties that have been suggested to
+          play a role in the inhibition of cell growth caused by
+          this compound [ 7 ] . Such an effect and/or other
+          anti-glucocorticoid-independent influences by RU 486
+          appears to prevail in relation to the overall impact of
+          this compound on cell proliferation, and may indeed
+          suggest, at a first glance, a protective effect against
+          the risk of hepatocellular cancer.
+        
+        
+          Diminishing liver capacity to eliminate
+          pre-cancerous hepatocytes
+          Despite the decrease in hepatocellular proliferation
+          caused by RU 486, inhibition of hepatic apoptosis in
+          animals treated with this compound (Fig 1B) represents a
+          potentially deleterious effect. Apoptosis is considered a
+          safeguard that enables an organ to purge itself of
+          transformed cells [ 10 11 ] , and its inhibition is
+          proposed as a mechanism by which non-genotoxic
+          hepatocarcinogens produce liver cancer [ 9 23 ] . We
+          examined the effect of RU 486 on the hepatic expression
+          of two genes involved in the regulation of this function
+          [ 10 11 ] , c-myc and p53, to evaluate how RU486 might
+          inhibit apoptosis. This compound diminished the hepatic
+          mRNA expression of both c-myc and p53 significantly (Fig
+          3). We previously reported that enhanced liver apoptosis
+          in response to the antihepatocarcinogen rotenone was
+          preceded and accompanied by a marked increase in the
+          hepatic levels of c-myc mRNA [ 10 ] , a proto-oncogene
+          that plays a dual role in cell proliferation and
+          apoptosis [ 24 ] . Since in our study [ 10 ] rotenone
+          inhibited hepatocellular proliferation while enhancing
+          apoptosis, we concluded that the increase in c-myc mRNA
+          expression acted as a pro-apoptotic signal in the liver.
+          Also, p53 modulates a battery of downstream genes
+          involved in growth control and apoptosis [ 25 26 ] .
+          Taken collectively, diminishing liver mRNA levels of both
+          c-myc and p53 by RU 486 may help define the underlying
+          reasons for the observed anti-apoptotic activity of this
+          compound.
+          In addition to its effects on mRNA of c-myc and p53,
+          RU486 significantly increased that of the oncogene mdm2
+          by approximately 20% (Fig 2B). The protein product of the
+          mdm2 oncogene is over-expressed in a considerable number
+          of tumors [ 27 ] . This protein is a pivotal negative
+          regulator of p53 [ 27 ] ; it interacts with the P53
+          protein masking its transcriptional domain and
+          accelerating its proteasomal degradation [ 21 27 ] . The
+          later process involves the deacetylation and
+          ubiquitylation of the p53 protein by mdm2 [ 28 ] .
+          Inactivation and/or degradation of p53 diminishes the
+          cell ability to undergo apoptosis [ 21 ] . Conversely,
+          p53 may influence mdm2. Over-expression of
+          homeodomain-interacting protein kinase 2 (HIPK2), which
+          increases p53 protein expression and/or stability, leads
+          to a downregulation of mdm2 protein, but not mRNA [ 29 ]
+          . Consequently, the RU486-induced increase in mdm2 mRNA
+          expression, coupled with a decrease in that of P53, may
+          also act in tandem to suppress the liver apoptotic
+          capacity (Fig 1B).
+        
+        
+          NF-κB and the glucocorticoid receptor
+          The transcription factor NF-κB plays a critical role
+          in controlling expression of downstream target genes in
+          immune and inflammatory responses, development, and
+          apoptosis [ 30 ] . Important advances have been made in
+          understanding the signal transduction cascades that
+          control NF-κB activation. Several lines of evidence
+          indicate that NF-κB is constitutively activated in cancer
+          cells, suggesting that it plays an important role in
+          tumorigenesis [ 30 ] . Activated glucocorticoid receptors
+          have been shown to repress NF-κB-mediated gene expression
+          [ 31 ] , and to cause a significant reduction in nuclear
+          levels of p65 protein, a subunit of NF-κB [ 31 ] . A
+          variety of mitogens, cytokines, and reactive oxygen
+          intermediates have been shown to rapidly cause the
+          translocation of NF-κB to the nucleus [ 30 31 32 ] , and
+          the ability of dexamethasone to interfere with this
+          translocation is blocked by prior treatment with the
+          glucocorticoid antagonist RU 486 [ 30 ] . Based on these
+          findings, it is plausible to speculate that exposure to
+          RU 486 may interfere with the function of endogenous
+          glucocorticoids as regulators of cell cycle, allowing the
+          initiation and progression of malignant transformation of
+          liver cells.
+          Other mechanisms that may participate in the RU
+          486-induced inhibition of hepatic apoptosis include the
+          fact that this compound blocks the inhibitory effect of
+          glucocorticoids on suppressors of cytokine signalling in
+          the liver [ 8 ] . This family of proteins is induced by
+          growth hormones and cytokines, and is strongly repressed 
+          in vivo by glucocorticoids [ 8 ] .
+          Up-regulation of these proteins by RU 486 [ 8 ] , coupled
+          with significant increase in hepatic TNFα level found in
+          animals treated with RU 486 [ 12 ] , may contribute to
+          the inhibition of apoptosis observed in our study (Fig
+          1B). Increased liver production of TNFα has been promoted
+          as a significant factor in the mechanism by which
+          non-genotoxic hepatocarcinogens produce their effect [ 9
+          ] .
+        
       
       
-        Materials and methods
-        The Non-Redundant (NR) database of protein sequences
-        (National Center for Biotechnology Information, NIH,
-        Bethesda) was searched using the BLASTP program [ 13].
-        Profile searches were conducted using the PSI-BLAST program
-        with either a single sequence or an alignment used as the
-        query, with a profile-inclusion expectation ( 
-        E )-value threshold of 0.01, and were
-        iterated until convergence [ 13, 28]. Previously known
-        conserved protein domains were detected using the
-        corresponding PSI-BLAST-derived position-specific scoring
-        matrices (PSSMs) [ 29]. The PSSMs were prepared by choosing
-        one or more starting queries (seeds) for a set of most
-        frequently encountered domains (see reference [ 28] for
-        details) and run against the NR database until convergence
-        with the -C option of PSI-BLAST to save the PSSM. We
-        ensured that at convergence no false positives were
-        included in the profiles. This profile database can be
-        downloaded from [ 30] or used on the internet via the
-        RPS-BLAST program [ 31]. All globular segments of proteins
-        that did not map to domains with previously constructed
-        PSSMs were searched individually using PSI-BLAST to detect
-        any additional domains that may have been overlooked.
-        Multiple alignments were constructed using the T-Coffee
-        program [ 32], followed by manual correction based on the
-        PSI-BLAST results. Protein secondary structure was
-        predicted using a multiple alignment as the input for the
-        PHD program [ 15]. Signal peptides were predicted using the
-        SIGNALP program [ 33, 34] and the transmembrane regions
-        were predicted using the TOPRED program [ 35]. Phylogenetic
-        analysis was carried out using the maximum likelihood,
-        neighbor-joining and least-squares methods [ 36, 37].
-        Briefly, this process involved the construction of a
-        least-squares tree using the FITCH program or a
-        neighbor-joining tree using the NEIGHBOR program (both from
-        the Phylip package) [ 38], followed by local rearrangement
-        using the Protml program of the Molphy package [ 37] to
-        arrive at the maximum likelihood (ML) tree. The statistical
-        significance of various nodes of this ML tree was assessed
-        using the relative estimate of logarithmic likelihood
-        bootstrap (Protml RELL-BP) with 10,000 replicates.
+        Conclusion
+        RU 486 has recently become available in the USA for
+        clinical use as an effective non-surgical means to induce
+        abortion. The inhibitory effect of this compound on
+        hepatocellular apoptosis, observed in this study, raises
+        questions about the potentially deleterious impact of RU
+        486. A single dose of RU 486 such as that recommended for
+        abortion, or possible long-term treatment with this drug in
+        the future for other therapeutic purposes could potentially
+        initiate events that could increase the risk of hepatic
+        cancer. Such an effect would be of special concern for
+        individuals concurrently exposed to other carcinogens.
+      
+      
+        Methods
+        
+          Chemicals and supplies
+          TRI REAGENT was the product of Sigma Chemical Co, St
+          Louis, MO, while MAXI script™ labeling kit and the
+          Ribonuclease Protection Assay kit were purchased from
+          Ambion, Inc, Austin, TX. 32P UTP was obtained from NEN
+          Life Science Products, Inc, Boston, MA. ApopTag™ kit was
+          purchased from Intergen (Purchase, NY). Probes for mdm2,
+          JunB, c-myc and β-actin genes were also obtained from
+          Ambion, lnc. (Austin, TX).
+        
+        
+          Animal treatment
+          Male B6C3F1 mice (Charles River, Portage. Michigan)
+          weighing 20-25 g were maintained on a daily cycle of
+          alternating 12 hours periods of light and darkness. Mice
+          received the glucocorticoid antagonist RU486 (2 mg/k/day,
+          ip), or a corn oil vehicle for 7 days. Care and handling
+          of animals were in accordance with the guidelines of the
+          USDA through the Animal Welfare Act Guide for the Care
+          and Use of Laboratory Animals, Department of Health and
+          Human Services Publication No 85-23.
+        
+        
+          Ribonuclease protection assay (RPA)
+          Hepatic RNA was extracted and quantified as we
+          reported previously [ 10 ] . RNA was mixed with
+          32P-labeled c-myc, mdm2, p53, JunB, and β-actin probes,
+          then co-precipitated, purified, and electrophoresed on 5%
+          polyacrylamide gel. Following electrophoresis, gels were
+          exposed to X-ray film overnight. Band intensities were
+          quantified using Molecular Analyst software and a GS-250
+          Molecular Imager (Bio-Rad Laboratories, Hercules CA).
+        
+        
+          Hepatocellular proliferation and apoptosis
+          Bromodeoxyuridine (BrDU) incorporation into DNA, a
+          measure of cell proliferation, and enzymatic end labeling
+          of 3'-hydroxy-DNA strand breaks, a measure of apoptosis,
+          were quantified 
+          in situ as we have reported
+          previously [ 10 ] .
+        
+        
+          Statistical analysis
+          Means of the two experimental groups were compared
+          using the Student t-test. Statistical significance was
+          defined as p < 0.05. All data reported are means ± SEM
+          of 3-6 mice per group.
+        
+      
+      
+        Authors' contributions
+        JY performed the cell proliferation and apoptosis
+        assays, and carried out related analyses. MB conceived,
+        designed and coordinated the study. Both authors
+        participated in writing the manuscript.
       
     
   

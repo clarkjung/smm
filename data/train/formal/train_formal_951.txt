@@ -3,259 +3,499 @@
     
       
         Background
-        Neural tube defects (NTDs) are major malformations of
-        the central nervous system (CNS) due to a defect in the
-        covering of the CNS. They are among the most prevalent of
-        congenital malformations. NTDs are second only to
-        congenital heart defects as a cause of perinatal mortality
-        due to birth defect and range in incidence from 0.5 to 12
-        per 1000 live births, depending on the country, accounting
-        for 400,000 births world-wide annually.
-        Factors that predispose individuals to NTDs are
-        numerous. While folic acid deficiency and altered folic
-        acid metabolism have received widespread attention, other
-        contributors are also important. Socio-economic status,
-        genetic factors, maternal illness and maternal drug
-        exposure are important contributors to the risk of
-        NTDs.
-        Drug models of NTDs are valued because the drug's action
-        provides a possible explanation of the pathophysiology of
-        NTDs. Valproic acid (VA) is a well-known teratogen in both
-        animals and humans, with a 5-fold occurrence of spina
-        bifida (SB) in pregnant women exposed to the drug [ 1 ] .
-        The mechanism by which VA produces SB is unknown but
-        inhibition of folic acid metabolism is one hypothesis [ 2 3
-        ] . Some investigators have brought the folic acid
-        hypothesis into question by demonstrating that folic acid
-        supplementation has no effect on VA exposed embryos
-        in-vitro [ 4 5 ] . These studies suggest that another
-        mechanism may be responsible for the production of SB by
-        VA. Other possible mechanisms include alteration of
-        neuronal membrane conductance, sodium channel blockade or
-        altered neuronal calcium metabolism [ 6 ] . VA is also
-        known to allow GABA, the chief inhibitory neurotransmitter
-        of the CNS, to accumulate in tissues.
-        The role of GABA as a potential site for teratogen
-        activity for VA and other teratogens has been little
-        explored. Preliminary reports have linked ligands active at
-        the GABA receptor with SB or other NTDs, including
-        benzodiazepines, alcohol, and zinc [ 7 8 9 10 11 ] .
-        Preliminary work from this laboratory has shown the GABAa
-        receptor agonist muscimol and the GABAb agonist baclofen
-        produce both SB and the Arnold-Chiari malformation,
-        commonly associated with SB [ 12 13 14 ] . VA appears to
-        produce most of its anticonvulsant effects by increasing
-        levels of GABA in the CNS, presumably by inhibiting the
-        enzyme GABA-transaminase (GABA-T). There is other evidence
-        to suggest that substances which alter the function of the
-        GABAergic system may contribute to the formation of NTDs.
-        Alcohol has been associated with NTDs [ 11 ] and is known
-        to enhance the functioning of GABA. Benzodiazepines (BDZs),
-        which enhance the activity of the GABA receptor, also
-        enhance the teratogenic effects of VA in humans [ 10 ] .
-        Chlordiazepoxide, another BDZ, has been shown to produce
-        NTDs in the hamster [ 11 ] .
-        Further support for the contention that VA may produce
-        NTDs by way of GABA activity include the following
-        evidence. One hypothesis of VAs mechanism of action holds
-        that it alters intracelluar pH. This may be the case as
-        GABA can increase intracellular proton levels by
-        intensifying bicarbonate ion conductance through a
-        GABA-gated channel [ 15 ] which may act as a "developmental
-        handshake" and regulate neuronal differentiation [ 16 ] .
-        The chloride channel, an integral part of the GABA a
-        receptor, has been implicated in embryonic development [ 17
-        ] . GABA receptors are first seen at the time the neural
-        tube formation [ 18 ] . Binding sites to GABA agonists and
-        antagonists and the expression of GABA receptor mRNAs are
-        seen starting at 4 days of development and peak at 10-15
-        days, corresponding to the time of neural tube formation [
-        19 ] . Many neurotransmitters, including GABA, are growth
-        factor candidates for the CNS [ 20 21 22 ] .
-        Based on the above information we have undertaken this
-        study to systematically examine the effects of GABA
-        agonists and antagonists at both the GABA a and b receptor
-        and the role they may play in SB. We used an established
-        model of SB in the rat to test the hypothesis using VA as a
-        known standard. This model of SB uses the width of the
-        vertebral arch as an indicator of neural tube closure.
-        While this model does not produce a specific SB lesion the
-        widening of the vertebral arch provides a model that
-        resembles human SB in terms of accompanying defects [ 12 13
-        14 23 ] and response to folate and other drugs [ 6 11 24 25
-        ] and meets the formal definition of a neural tube defect:
-        any defect in the covering of the central nervous
-        system.
-        We report here the effects of GABA a and b receptor
-        agonists and antagonists administered to rats at 10 days
-        gestation, the period of neural tube formation.
+        The cullin/RING family of ubiquitin ligases comprises a
+        multifunctional set of enzymes controlling the stability
+        and activity of cell cycle regulators, transcription
+        factors, and signaling proteins (reviewed in ref. [ 1]).
+        Among the best studied examples of cullin/RING enzymes are
+        the so-called SCF complexes. SCF complexes share homologues
+        of the core components cullin 1 (CUL1), SKP1, and the RING
+        domain protein HRT1/RBX1/ROC1, which associate with
+        different F-box proteins and ubiquitin-conjugating enzymes
+        [ 1]. F-box proteins specifically bind substrates,
+        following their phosphorylation in response to activation
+        of various signaling pathways. Although substrate
+        phosphorylation is one major determinant of SCF-mediated
+        ubiquitylation [ 1], covalent modification of the CUL1
+        subunit through attachment of the ubiquitin-related peptide
+        NEDD8 also regulates SCF activity. NEDD8 modification
+        stimulates SCF-dependent substrate ubiquitylation 
+        in vitro [ 2, 3, 4], and mutant CUL1
+        resistant to NEDD8 modification is defective 
+        in vivo [ 5]. In addition, fission
+        yeast mutants deficient in the enzymes that attach Ned8p,
+        or in the 
+        ned8 gene itself, are inviable [
+        5].
+        In addition to CUL1, the human genome contains at least
+        five other cullins, CUL 2, 3, 4A, 4B, and 5. This diversity
+        is partially recapitulated in 
+        S. pombe , which encodes 
+        pcu3 and 
+        pcu4 , homologues of human CUL3 and
+        CUL4, for which there are no direct correlates in budding
+        yeast [ 6]. All human cullins interact with HRT1/RBX1/ROC1
+        [ 7], are modified by NEDD8 [ 8], and have ubiquitin ligase
+        activity 
+        in vitro [ 9]. Similarly, the fission
+        yeast cullins Pcu1p and Pcu4p are neddylated, and
+        neddylation is critical for their function 
+        in vivo . [ 5].
+        While it is clear that neddylation affects the activity
+        of cullin/RING complexes, mechanisms controlling this
+        modification are just emerging. A recent study by Lyapina 
+        et al. uncovered a novel connection
+        between the COP9/signalosome (CSN) and cullin neddylation [
+        10]. CSN is a highly conserved multiprotein complex
+        consisting of eight subunits, which have been implicated in
+        a wide variety of regulatory processes, including, cell
+        cycle control [ 11, 12], signal transduction [ 13],
+        transcriptional activation [ 14], and plant
+        photomorphogenesis [ 15, 16]. To date, no distinct
+        biochemical activity has been identified that can reconcile
+        this diversity in CSN functions. The eight CSN subunits
+        show a one-to-one relationship to components of the 19S
+        proteasome lid complex [ 17, 18, 19] and, like 
+        pcu3 and 
+        pcu4 , at least seven of the eight
+        human subunits are conserved in fission yeast, but not in
+        budding yeast. [ 16, 20].
+        Lyapina 
+        et al. recently showed that
+        disruption of 
+        S. pombe CSN subunit 1 ( 
+        caa1/csn1 ) results in accumulation
+        of Pcu1p in the neddylated state [ 10]. However, it
+        remained unclear whether this reflects global control of
+        multiple cullins by Csn1p as part of the entire CSN
+        complex. We have examined this question by determining the
+        effect of disruption of several CSN subunits on Pcu3p
+        neddylation, localization, and ubiquitin ligase activity.
+        Our results indicate that the entire CSN complex is
+        required for proper control of the neddylation state of
+        multiple cullins.
       
       
-        Results and Discussion
-        A total of 1156 embryos from 123 litters were examined.
-        Measurements from the embryos were averaged for each litter
-        and the litter was used as the unit of analysis. All
-        measurements were made in a blind manner. ANOVA revealed a
-        significant effect of drug treatment of the average
-        vertebral arch distance (F(13, 109)=7.70, p < .0001).
-        The Bonferroni test was used for follow-up comparisons and
-        the comparisons to the normal saline group are given below
-        and in Table 1and in Figure 1where the results are
-        presented graphically. Occasionally other defects were
-        noted in the embryos, chiefly fused ribs, these defects
-        were not appreciable and did not impact the vertebral arch
-        analysis. There is no statistically significant
-        relationship between mean vertebral arch distance and mean
-        littler size.
-        Valproic Acid produced a significant widening of the
-        vertebral arch in a manner consistent with previous reports
-        (p < .0005) [ 6 24 ]
-        The GABAa agonist muscimol produced a significant
-        widening of the vertebral arch at all three doses tested
-        (1, 2, 4 mg/kg) (p=.06 for 1 mg/kg, p < .05 for 2 &
-        4 mg/kg). The GABAa antagonist bicuculline also widened
-        vertebral arch distance at the 0.5 and 1 mg/kg doses (p
-        < .05), but not at the 2 mg/kg dose.
-        The GABAb agonist baclofen produced significant widening
-        of the vertebral arch at 30 mg/kg (p < .05) but not at
-        15 or 60 mg/kg. The GABAb antagonist hydroxysaclofen
-        produced a significant narrowing of the vertebral arch at
-        all three doses tested (p=.09 for 1 mg/kg, p=.001 for 3
-        mg/kg and p=.05 for 5 mg/kg).
-        This study indicates that substances active at either
-        the GABA a or b receptors have teratogenic potential. The
-        most striking feature of the drug effects is the
-        differential effect of antagonizing the GABAb receptor with
-        hydroxysaclofen. While the GABAa agonist muscimol and
-        antagonist bicucullin widened the vertebral arch, as did
-        the GABAb agonist baclofen, the GABAb antagonist
-        hydroxysaclofen narrowed the vertebral arch. Narrowing of
-        the vertebral arch was unexpected but has been previously
-        reported. Previous work in this laboratory has demonstrated
-        narrowing of the vertebral arch when zinc is
-        co-administered with baclofen or muscimol [ 13 ] . It is
-        unclear what the structural or functional consequence of
-        vertebral arch narrowing is. Work in this laboratory has
-        shown lags in neuromuscular development associated with
-        excessive zinc exposure during neural tube formation and,
-        possibly, accompanying narrowing of the vertebral arches [
-        26 ] . Another curious finding of this study is that
-        widening of the vertebral arch occurs with either the GABAa
-        agonist muscimol or the antagonist bicuculline. In classic
-        pharmacology it would be expected that the effects would be
-        opposite. However, in this instance it may be that any
-        disruption of the normal function of the GABAa receptor and
-        its integral chloride channel result in widening of the
-        vertebral arch. On the other hand the GABAb receptor is not
-        directly linked to a chloride channel exerting its effect
-        via second messenger systems. This functional difference
-        may allow for a classic agonist-antagonist drug effect
-        during neural tube formation.
-        One potential confound of this study is the role of
-        developmental delays. Animals exposed to valproate and
-        presumably suffering from widened vertebral arches can show
-        weight differences well into post-natal life. However,
-        behavioral differences persist even when weight differences
-        no longer exist [ 1 ] . However, we are unaware of any
-        studies directly examining the spinal columns of animals
-        well into post-natal life, therefore it is unclear if the
-        widening of the vertebral arch seen at 21 days persists.
-        Another limitation to this study is the small sample sizes
-        for some groups and the administration of drugs to only one
-        day. These results need to be replicated using larger
-        sample sizes and administering the drugs at other times
-        during gestation. It is possible that these drugs may
-        disrupt neural tube formation if given outside of the
-        classic time frame for neural tube formation.
-        GABA is a well-documented neurotrophic agent involved in
-        brain development [ 27 28 29 30 ] . Most of the work done
-        on the effects of GABA and neural development has been done
-        on embryos and embryonic tissue well past the neural tube
-        stage [ 27 31 32 ] . However, there is evidence of glutamic
-        acid decarboxylase (GAD) and GABA receptor expression about
-        the time of neural tube formation [ 27 ] . Given that GABA
-        is important to neural development, and the early
-        developmental time frame of the GABA system, it is logical
-        that agents active at the GABA receptor (ethanol, BDZs) can
-        have adverse consequences on CNS development. Nearly all of
-        the substances examined are GABAa receptor ligands. GABAb
-        receptor effects have been little studied and the role of
-        the GABAb receptor in neural development is little known
-        and should be more thoroughly investigated.
+        Results
+        
+          Pcu3p is modified by Ned8p
+          Immunoblotting of protein lysates prepared from 
+          S. pombe cells, whose 
+          pcu3 chromosomal locus was modified
+          to encode Pcu3p with thirteen copies of the Myc epitope
+          attached to its C-terminus, revealed two distinct species
+          of Pcu3p, which migrated on SDS gels as two closely
+          spaced species of roughly equal abundance (Fig. 1A).
+          Several findings indicate that the slower migrating form
+          of Pcu3p arose from covalent modification with the
+          ubiquitin-related protein Ned8p: First, overexpression of
+          a fusion protein of Ned8p and glutathione transferase
+          (GST-Ned8p) converted the faster, unmodified form of
+          Pcu3p into a high molecular weight species that reacted
+          with antibodies to GST (Fig. 1A). Second, replacing
+          lysine 729, which is homologous to the conserved
+          neddylation sites in other cullins, with arginine,
+          completely abolished the slower migrating, modified form
+          of Pcu3p (Fig. 1B). In contrast, mutation of a
+          neighboring conserved lysine (residue 760) did not alter
+          the mobility of Pcu3p. Thus, as with other 
+          S. pombe cullins [ 5], Pcu3p
+          undergoes covalent modification by ubiquitin-like Ned8p
+          at lysine 729.
+        
+        
+          Multiple csnmutants accumulate neddylated
+          Pcu3p
+          Interestingly, fission yeast 
+          caa1/csn1 deletion mutants show a
+          set of defects, which partially overlaps that found in 
+          pcu3 disruptants: slow growth, cell
+          elongation, and sensitivity to UV-irradiation, but not
+          hydroxyurea [ 6, 21]. With respect to the recent
+          implication of CSN in cullin regulation [ 10], we
+          considered the possibility that the overlapping
+          phenotypes of 
+          csn1 and 
+          pcu3 mutants could arise from
+          interference with Pcu3p function.
+          Initial support for this hypothesis was provided by
+          the observation that disruption of 
+          csn1 led to accumulation of Pcu3p
+          in the slower migrating form (Fig. 2A). This shift in
+          migration is due to Pcu3p neddylation as shown by
+          overexpression of GST-Ned8p in 
+          csn1 mutants. This caused an
+          additional supershift, converting a substantial portion
+          of the slower migrating form into a GST-Ned8p modified
+          species (Fig. 2B). Importantly, accumulation of
+          neddylated Pcu3p was also apparent in strains deleted for
+          
+          csn3 , 
+          csn4 , and 
+          csn5 (Fig. 2A), three genes
+          encoding other putative subunits of the 
+          S. pombe CSN, which co-fractionate
+          with Csn1p upon size exclusion chromatography (see below,
+          Fig. 4). However, unlike 
+          csn1 disruptants, which have a
+          defect in S phase control resulting in slow growth and
+          cell elongation [ 21], deletion of 
+          csn3 , 
+          csn4 , and 
+          csn5 genes did not cause cell
+          elongation, S phase delay, or any other obvious growth
+          defects (Fig. 2C, 2D, data not shown). This indicates
+          that the described phenotype of 
+          csn1 mutants [ 21] is unlikely to
+          be a consequence of interference with Pcu3p activity.
+          Pcu1p, another fission yeast cullin also accumulated in
+          the neddylated form in all 
+          csn mutants [ 10] (Fig. 2A),
+          suggesting that CSN has a general role in the control of
+          cullin neddylation in fission yeast. The accumulation of
+          neddylated Pcu3p was prevented in all 
+          csn mutants by providing the
+          missing CSN subunit on a plasmid (Fig. 3).
+        
+        
+          The conserved "cysteine box" in Csn5p is not
+          required for Pcu3p deneddylation
+          Lyapina 
+          et al. recently demonstrated that
+          partially purified CSN promotes the cleavage of
+          Pcu1p-Ned8p conjugates 
+          in vitro [ 10], but it remained
+          unclear whether the enzymatic activity is contained
+          within one of the CSN subunits or a tightly associated
+          peptidase. All peptidases known to cleave ubiquitin- or
+          SUMO-protein conjugates are cysteine-based proteases
+          (reviewed in ref. [ 22]). Csn5p contains a motif closely
+          resembling the conserved cysteine box previously
+          recognized in the catalytic center of deubiquitylating
+          enzymes and in the budding yeast proteasome subunit
+          Rpn11p [ 23]. The complementation assay shown in Fig.
+          3allowed us to determine the potential role of this motif
+          in the control of Pcu3p neddylation by replacing the
+          critical cysteine residue with alanine. This mutant Csn5p
+          retained full activity for preventing Pcu1p and Pcu3p
+          hyperneddylation (Fig. 3Alanes 12-15, and data not
+          shown).
+        
+        
+          Pcu3p interacts with CSN
+          We next determined whether the effect of CSN
+          deficiency on Pcu3p neddylation reflects a physical
+          interaction of these proteins. Size exclusion
+          chromatography of lysates prepared from cells harboring
+          epitope-tagged Pcu3p or CSN subunits at the endogenous
+          genomic loci, revealed precise co-elution of Pcu3p with
+          CSN subunits 1, 3, 4, and 5 in high molecular weight
+          fractions corresponding to approximately 550 kDa (Fig.
+          4A). Interestingly, Csn5p, unlike the other CSN subunits,
+          showed a second peak in gel filtration eluting with an
+          approximate molecular weight of 200 kDa, suggesting that
+          Csn5p may also be involved in protein complexes separate
+          from the entire CSN (Fig. 4B).
+          Based on the co-elution of Pcu3p with CSN subunits in
+          gel filtration, we determined whether Pcu3p and Csn1p
+          interact 
+          in vivo at endogenous expression
+          levels. Pcu3-Myc immunoprecipitated from lysates of cells
+          expressing HA-tagged Csn1p together with Pcu3p-Myc from
+          the endogenous promoters revealed co-precipitation of
+          Csn1p-HA. This interaction was specific as it was not
+          observed with an irrelevant antibody (Fig. 4Cleft panel)
+          or with lysate from a strain containing untagged Pcu3p
+          (Fig. 4C, right panel). In contrast, immunoprecipitation
+          with HA antibodies failed to precipitate both Csn1p-3HA
+          and Pcu3p-Myc, potentially due to inaccessibility of the
+          C-terminal 3HA tag of Csn1p within the CSN complex (data
+          not shown).
+          We therefore generated Pcu3p-Myc containing strains
+          overexpressing N-terminally 6xhistidine-Myc-tagged Csn1p,
+          Csn3p, Csn4p, or Csn5p. Binding of each of the four
+          different CSN subunits to nickel beads resulted in
+          co-purification of Pcu3p, indicative of specific 
+          in vivo interactions (Fig. 4C).
+          Notably, both modified and unmodified Pcu3p interacted
+          with CSN subunits (Fig. 4C). We conclude that, at least a
+          fraction of Pcu3p forms a stable complex with CSN 
+          in vivo .
+        
+        
+          Pcu3p localization in csnmutants
+          In 
+          A. thaliana , CSN was shown to be
+          required for the efficient nuclear accumulation of the
+          putative RING-type ubiquitin ligase COP1 [ 24], which
+          mediates ubiquitin-dependent degradation of the
+          photomorphogenic transcription factor HY5 [ 25]. We
+          therefore considered the possibility that accumulation of
+          neddylated Pcu3p in 
+          csn mutants is a consequence of
+          defective subcellular targeting. Indirect
+          immunofluorescence staining indicated that endogenous
+          Myc-tagged Pcu3p is present in the cytoplasm, but
+          enriched in the nucleus of wild-type cells (Fig. 5). This
+          localization pattern was fully preserved in all four 
+          csn mutants, indicating that CSN
+          does not regulate the subcellular localization of
+          Pcu3p.
+        
+        
+          Mutation of CSN increases Pcu3p-dependent
+          polyubiquitylation activity
+          All human cullins have been shown to assemble into
+          complexes possessing polyubiquitylation activity 
+          in vitro [ 9, 26]. To determine
+          whether Pcu3p is associated with such an activity and how
+          it is affected by CSN, we developed a
+          substrate-independent 
+          in vitro polyubiquitylation assay,
+          similar to that originally reported by Lyapina et al. [
+          27]. As Pcu3p-associated ubiquitin ligase activity was
+          not described before, we first needed to determine which
+          of the fourteen different ubiquitin-conjugating enzymes
+          (UBCs) present in the fission yeast genome associate with
+          the RING domain protein Pip1p, an essential cofactor of
+          cullin ubiquitin ligases [ 7, 28, 29, 30]. Binding assays
+          showed that overexpressed HA-tagged Pip1p specifically
+          associated with co-overexpressed 6xHis-Myc-tagged Ubc1p,
+          Ubc7p, Ubc11p, Ubc12p, Ubc13p, Ubc14p, and Mms2p. In the
+          next step, we confirmed, by immunoprecipitation, that
+          both forms of Pcu3p-Myc bound endogenous Pip1p in a
+          CSN-independent manner (Fig. 6B).
+          Pcu3p-Myc complexes prepared by immunoprecipitation
+          with Myc antibodies were then incubated with human E1,
+          ATP, ubiquitin, and the recombinant UBCs that interacted
+          with Pip1p. Polyubiquitylated species were visualized by
+          anti-ubiquitin blot. Pcu3p-Myc complexes isolated from 
+          pcu3-13myc cells did not show any
+          recognizable polyubiquitylation activity above background
+          with any of the seven UBCs tested (Fig. 6C, lane 2, and
+          data not shown). In contrast, the ubiquitylation assay
+          with Pcu3p-Myc complexes purified from 
+          csn5 mutants led to efficient
+          formation of high molecular weight species reactive with
+          ubiquitin antibodies (Fig. 6C). This activity was
+          specific for Ubc7p (Fig. 6C, compare lanes 3 - 7).
+          Appearance of multiubiquitin chains was inhibited by
+          mutant ubiquitin lacking all lysines, indicating that
+          they were specifically generated in the reaction rather
+          than co-precipitated with Pcu3p-Myc (Fig. 6D). Thus, CSN
+          deficiency appears to stimulate Pcu3p-associated
+          ubiquitin ligase activity 
+          in vitro . A similar stimulation
+          was obtained for substrate-specific polyubiquitylation of
+          phosphorylated Rum1p by SCF Poppurified from 
+          csn5 mutants (unpublished
+          observation).
+        
+      
+      
+        Discussion
+        Our data confirm and extend the recently discovered
+        connection between CSN and cullin regulation [ 10] by
+        showing that deletion of four putative CSN subunits causes
+        accumulation of Pcu3p in the neddylated state (Fig. 2A).
+        Co-elution of these four proteins in a 550 kDa complex
+        (Fig. 4B) strongly suggests that they represent part of the
+        
+        S. pombe equivalent of the eight
+        subunit CSN complex found in higher eukaryotes [ 18, 19,
+        20]. Thus, cullin regulation through modulation of the
+        balance of Ned8p modification appears to require the entire
+        CSN complex.
+        Our study also provides some insight into the role of
+        deneddylation in cullin function, as we were able to create
+        a situation in which Pcu1p and Pcu3p are fully neddylated 
+        in vivo (ref [ 10] and data presented
+        here). Deletion of 
+        pcu1 and 
+        pcu3 results either in lethality or
+        in severe growth retardation, respectively [ 6]. The normal
+        growth behavior of 
+        csn3 , 
+        4 , and 
+        5 mutants (Fig. 2C, 2D), where both
+        cullins seem constitutively neddylated, argues against a
+        critical role for dynamic cycles of neddylation and
+        deneddylation in cullin function in fission yeast.
+        Consistent with this notion, the subcellular localization
+        of Pcu3p and Pcu1p were unaffected by mutations in CSN
+        (Fig. 5) [ 10]. Instead, neddylated Pcu3p and Pcu1p
+        purified from 
+        csn mutant cell extract exhibit
+        increased ubiquitin ligase activity 
+        in vitro (Fig. 6B) [ 10]. Thus, CSN
+        may exert negative control on Pcu1p and Pcu3p by promoting
+        their deneddylation. However, while mutation of 
+        csn5 caused a modest two-fold
+        increase in the steady state fraction of neddylated Pcu3p
+        (Fig. 2A), Pcu3p-associated ubiquitin ligase activity
+        recovered from this mutant showed a much more dramatic
+        increase (Fig. 6C). This suggests the possibility that CSN
+        represses Pcu3p activity by other mechanisms, in addition
+        to its control of neddylation. Further experiments are
+        required to determine whether recombinant Csn5p or purified
+        CSN complex can inhibit Pcu3p-associated ubiquitin ligase
+        activity.
+        Lyapina 
+        et al. recently provided evidence for
+        a cullin deneddylating activity of CSN by demonstrating
+        that a partially purified preparation of the pig CSN can
+        deneddylate the fission yeast cullin Pcu1p 
+        in vitro [ 10]. The results presented
+        here eliminate the attractive hypothesis that the cysteine
+        box in Csn5p, which is conserved in numerous
+        deubiquitylating enzymes [ 23], harbors a critical activity
+        for deneddylation (Fig. 3A). In addition, recombinant Csn5p
+        failed to deneddylate Pcu1p and Pcu3p 
+        in vitro (unpublished observation).
+        Our finding that hyperneddylated Pcu3p and Pcu1p accumulate
+        in all 
+        csn mutants tested (Fig. 2A, and data
+        not shown), also suggests that control of cullin
+        neddylation results from cooperation of multiple CSN
+        components rather than from the activity of a single
+        catalytic subunit. The CSN complex may, for example, serve
+        as a platform for recruitment of a separate deneddylating
+        enzyme. A human NEDD8-processing isopeptidase has been
+        described previously [ 31]. The potential role of CSN as an
+        organizing center for certain enzymatic activities may not
+        be restricted to the control of cullin neddylation, as CSN
+        was also shown to mediate phosphorylation of c-JUN, IkBa,
+        and p53 by a tightly associated kinase(s) [ 12, 19].
+        So far, we were unable to obtain deneddylation of
+        Pcu3p-13Myc 
+        in vitro by partially purified CSN
+        preparations active in deneddylation of Pcu1p-13Myc (data
+        not shown). We can therefore not exclude that CSN's role in
+        the control of Pcu3p neddylation differs from its role
+        established for Pcu1p [ 10]. For example, binding by CSN
+        could protect Pcu3p from the Ned8p-conjugating enzyme
+        Ubc12p, thus maintaining a fraction of Pcu3p in a
+        deneddylated state. As this shield is experimentally
+        removed through deletion of CSN subunits, Pcu3p may
+        accumulate in the neddylated state. In such a scenario, no
+        enzymatic activity of purified CSN toward neddylated Pcu3p
+        would be expected 
+        in vitro .
+        Finally, our data suggest CSN functions in addition to
+        cullin regulation that are not shared by all individual
+        subunits. Out of the four mutants tested, only 
+        csn1 showed the previously described
+        defect in S phase progression [ 21] (Fig. 2C, 2D), thereby
+        underscoring the significance of our finding that all CSN
+        subunits tested here are involved in cullin regulation. It
+        is likely that some subunits have very specialized
+        functions within the complex, while others are required for
+        its broader activities such as control of cullin
+        neddylation. On the other hand, we found that a sizable
+        fraction of Csn5p is dissociated from the putative CSN
+        holocomplex, but enriched in a 200 kDa assembly (Fig. 4B).
+        It thus appears that part of the diversification of CSN
+        function may arise from formation of smaller
+        subcomplexes.
       
       
         Conclusions
-        GABA may play an important role in neural tube formation
-        and the production of neural tube defects. Substances
-        active at the GABA a or b receptor may be potentially
-        teratogenic. In particular, the findings indicate that GABA
-        a or b ligands are capable of altering neural formation.
-        GABA may play a greater than appreciated role in neural
-        tube formation and may be important in neural tube defects.
-        The narrowing of the vertebral arch produced by the GABA b
-        antagonist hydroxysalcofen suggests that GABA b receptor
-        may play an important, but undefined role in neural tube
-        closure that differs from the GABA a receptor.
+        Our study reveals a general role of the 
+        S. pombe CSN complex in the control
+        of cullin modification by Ned8p. Regardless of the exact
+        mechanism, CSN may regulate the activity of multiple cullin
+        ubiquitin ligases through counteracting their stimulatory
+        Ned8p modification. Future studies will reveal whether some
+        of the other described functions of CSN also involve
+        post-translational modification of regulatory proteins by
+        ubiquitin-like modifiers.
       
       
-        Materials and Methods
+        Materials and methods
         
-          Reference groups
-          Normal saline intraperitoneally (IP) 0.9 cc to
-          establish baseline.
-          Valproic acid subcutaneously (SC) 1200 mg/kg (600
-          mg/cc) in two divided doses over 8 hours. Previous
-          studies have shown this dose and route to reliably
-          produce SB in the rat [ 24 ] . This group provided a
-          positive control to which the teratogenic activity of
-          other substances could be compared.
-        
-        
-          GABAa test groups
-          Muscimol IP at 1, 2, or 4 mg/kg (1 mg/cc). Muscimol is
-          a well-documented specific and potent GABAa agonist [ 33
-          ] .
-          Bicuculline methiodide IP at 0.5, 1 or 2 mg/kg (1
-          mg/cc). Bicuculline is a well-documented specific and
-          potent GABAa antagonist [ 33 ] .
-        
-        
-          GABAb test groups
-          Baclofen IP at 15, 30, or 60 mg/kg (9 mg/cc as aqueous
-          suspension). Baclofen is a well-documented and specific
-          GABAb agonist [ 34 ] .
-          Hydroxysaclofen IP at 1, 3, or 5 mg/kg (1 mg/cc).
-          Hydroxysaclofen is a well-documented specific and potent
-          GABAb antagonist [ 34 ] .
+          Plasmids and yeast strains
+          
+          S. pombe genes for UBCs and 
+          csn3 , 
+          4 , and 
+          5 were identified in the Sanger
+          Centre 
+          S. pombe sequence database based on
+          their homology to the respective human and budding yeast
+          proteins. Complementary DNAs were amplified by PCR and
+          subcloned into pRep81.6xHis-Myc, pRep3.6xHis-Myc, or
+          pRep4.HA. Deletion strains and epitope-tagged strains
+          were constructed by one-step gene replacement using
+          PCR-generated fragments containing kanamycin or 
+          ura4 cassettes [ 32]. Growth media,
+          flow cytometry, and all other relevant 
+          S. pombe techniques were described
+          previously [ 33].
         
         
-          Embryo studies
-          After injection gestation was allowed to otherwise
-          progress as normal. At 21 days gestation the females were
-          euthenized with chloroform, the abdomen opened and the
-          uterus and uterine contents removed. Fetuses were removed
-          and had their abdomens opened to allow for the
-          penetration of 10% 0.1 M phosphate buffered formalin in
-          which they were immersed. After three days fixation the
-          fetuses were stained for bone and cartilage as described
-          previously [ 24 ] . Briefly, the fetuses were eviscerated
-          and skinned. Cartilage was stained with alcian blue
-          followed by bone staining with alizarin red. The fetuses
-          were cleared in KOH and graded concentrations of
-          glycerol.
-          After clearing the fetuses were inspected with a
-          dissecting microscope and the width of the vertebral arch
-          gap was measured with an eyepiece micrometer from T-9 to
-          S-4. Previous work has shown that these vertebrae are the
-          most clearly visible and the most frequently effected [ 6
-          24 ] . For the sake of clarity vertebral arch distances
-          from T-9 to S-4 were averaged for the each embryo.
-          For analysis vertebral arch distance was averaged for
-          each fetus and then for the litter. Data was analyzed
-          with Analysis of Variance with follow-up statistics
-          (Bonferroni test) using Statview 5.0 for the
-          Macintosh.
+          Immunological techniques
+          Protein lysates were prepared by bead lysis in a
+          Fastprep device (Bio 101) in the presence of proteinase
+          inhibitors, followed by boiling in SDS sample buffer.
+          Pip1p and Pcu1p were detected with affinity-purified
+          rabbit antisera. Epitope-tagged proteins were detected by
+          the monoclonal antibodies 9E10 and 12CA5 prepared from
+          hybridoma supernatants.
+          Cell lysates for immunoprecipitation were prepared by
+          disrupting cells in immunoprecipitation buffer (20 mM
+          Tris/HCl, pH 7.4; 150 mM NaCl; 0.5 % Triton X-100, 10
+          μg/ml leupeptin, 10 μg/ml pepstatin, 5 μg/ml aprotinin, 1
+          mM PMSF). Lysates were cleared and precipitated with the
+          respective antisera. Immunocomplexes were collected by
+          binding to protein A or G beads, washed and analyzed by
+          immunoblotting as described [ 33].
+          For indirect immunofluorescence staining, cells were
+          fixed in freshly prepared 3.7% para-formaldehyde for 1h
+          at 30°C. Cells were washed in PEM (100 mM Pipes pH6.9, 1
+          mM EGTA, 1 mM MgSO 
+          4 ), and digested with Novozyme (0.5
+          mg/ml, Sigma) and Zymolyase (0.5 mg/ml, US Biological) in
+          PEM, 1M sorbitol. Unspecific epitopes were blocked by
+          incubation in PEM-BAL (PEM plus 1% BSA, 0.1% Na-azide,
+          0.1 M L-lysine HCl) for 1h. Incubation with monoclonal
+          Myc antibodies diluted in PEM-BAL was done overnight,
+          followed by three washes in PEM-BAL. An overnight
+          incubation with TRITC-labeled anti mouse antibodies was
+          followed by washing and mounting on polylysine coated
+          coverslips. Cell nuclei were counterstained with DAPI.
+          Photomicrographs were obtained with a CCD camera mounted
+          on a Nikon E600 epifluorescence microscope. Brightness
+          and contrast were adjusted in Adobe Photoshop 5.0.
         
+        
+          In vitroubiquitylation assay
+          For ubiquitylation reactions, Pcu3p-Myc complexes were
+          immunoprecipitated from 100 - 200 ug total cell lysates
+          prepared as described above. Precipiates were washed four
+          times in 20 mM Tris/HCl, pH 7.4; 150 mM NaCl; 0.5 %
+          Triton X-100, 10 μg/ml leupeptin, 10 μg/ml pepstatin, 5
+          μg/ml aprotinin, 1 mM PMS, and equilibrated in 20 mM
+          HEPES, pH 7.4, 100 mM potassium acetate, 1 mM DTT. The
+          reaction was started by the addition of a cocktail of 8
+          μM ubiquitin, ATP regenerating system (2 mM HEPES at pH
+          7.4, 1 mM ATP, 30 mM creatine phosphate, 1 mM magnesium
+          acetate, 0.15 mg/ml creatine kinase), reaction buffer (4
+          mM magnesium acetate, 1 mM DTT), 500 nM bacterially
+          expressed 6xHis-UBCs, 100 nM 6xHis-tagged human E1, and
+          0.5 μM ubiquitin aldehyde in a volume of 15 μl. After 90
+          min at 30°C, the reaction was terminated by the addition
+          5 × SDS sample buffer. Samples were separated on 11 %
+          SDS-polyacrylamide gels and analyzed by immunoblotting
+          with ubiquitin antibodies (Zymed).
+        
+      
+      
+        Abbreviations
+        CSN: COP9/signalosome
+        GST: Glutathione S-transferase
+        HA: hemagglutinin
+        SCF: SKP1/Cullin/F-box protein complex
+        UBC: Ubiquitin-conjugating enzyme
       
     
   

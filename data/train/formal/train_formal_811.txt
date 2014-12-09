@@ -3,468 +3,785 @@
     
       
         Background
-        The genome of higher eukaryotes codes for most of its
-        proteins through short coding sequences (exons) interrupted
-        by non-coding sequences (introns). These intervening
-        sequences must be removed precisely after transcription of
-        the gene, a process called splicing. Splicing is carried
-        out by the spliceosome, a large complex consisting of
-        proteins and small nuclear RNAs (snRNAs) [ 1 2 3 ] . RNA
-        splicing is dependent upon the identity of nucleotide
-        sequences at the exon/intron boundaries. The 5' boundary or
-        donor site of introns in most eukaryotes contains the
-        dinucleotide GU, while the 3' boundary or acceptor site
-        contains the dinucleotide AG. These GU-AG motifs are merely
-        parts of longer consensus sequences that span the 5' and 3'
-        splice sites. With the exception of the conserved canonical
-        GU and AG at the 5' and 3' splice sites, splice site
-        sequences may contain several deviations from the
-        consensus. The match of a splice site to this consensus
-        reflects the strength of the site. In addition, a third
-        conserved intronic sequence that is known to be
-        functionally important in splicing is the branch point,
-        located 10-50 nucleotides upstream from the AG
-        dinucleotide. The branch point is characterised by a rather
-        weak consensus sequence YURAY [ 4 ] . In the first step of
-        splicing the 2' hydroxyl of an adenosine of the branch
-        point attacks the phosphate at the 5' splice site,
-        producing a free 5' exon and a lariat intermediate. During
-        the second step, the 3' hydroxyl of the 5' exon attacks the
-        phosphate at the 3' splice site, yielding a ligated mRNA
-        and a lariat intron.
-        Now that the total human genome has been sequenced, the
-        surprising outcome is that differences between humans and
-        other organisms are not reflected by the genome complexity.
-        Alternative splicing might play a role in this apparent
-        discrepancy. Alternative splicing is an important mechanism
-        to create protein diversity and to regulate gene expression
-        in a tissue- or developmental-specific manner. To
-        understand the mechanism of alternative splice site
-        selection the identification of all 
-        cis -acting elements that contribute
-        to the efficiency with which splice sites are recognised
-        must be taken into account. These include 1) the strength
-        of the 3' and 5' splice sites, which can be calculated
-        using the consensus values that were determined by Shapiro
-        and Senepathy [ 5 ] or by the Splice Site Prediction
-        program by Neural Networks (SSPNN,
-        http://www.fruitfly.org/seq_tools/splice.html) which takes
-        more known sequences into account, 2) the branch point
-        sequences and 3) certain sequences such as exonic splicing
-        enhancers (ESE) that can activate the use of a weak 3'
-        splice site or elements such as exonic splicing silencer
-        elements (ESS) that inhibit splicing [ 1 ] . In addition to
-        these 
-        cis -acting elements, exon length [ 6
-        ] and secondary structure have also been mentioned to play
-        a role in splicing [ 7 ] .
-        Neurofibromatosis type 1 (NF1) is an autosomal
-        dominantly inherited disorder affecting one in 3500
-        individuals [ 8 ] . The gene spans 350 kb of genomic DNA
-        and encodes approximately 13 kb mRNA containing 60 exons.
-        Three exons (9br, 23a and 48a) are known to be subjected to
-        alternative splicing and these isoforms were also detected
-        at the protein level with isoform-specific antibodies [ 9
-        10 ] . Four additional alternative transcripts were
-        described (ex29-, ex30-, ex29/30- and the N-isoform) but no
-        further analysis at the protein level was reported [ 11 12
-        ] . During mutation analysis in the 
-        NF1 -gene we disclosed several
-        additional splice variants in which specific exons were
-        skipped and that were also present in fresh lymphocytes of
-        non-affected persons, albeit typically at a low level [ 13
-        ] . Several other studies also report the existence of
-        lowly expressed splice 
-        NF1 variants. Some of these variants
-        are more abundant when RNA is analysed from aged blood or
-        from blood that was kept at a non-physiological temperature
-        [ 13 14 15 16 ] . Starting from this initial observation,
-        we were interested to determine the extent of aberrant and/
-        or alternative splicing in 
-        NF1 . A RT-PCR plasmid library was
-        made to identify new 
-        NF1 splice variants. We have made a
-        survey of these variants and searched systematically for a
-        number of factors involved in splice site selection aiming
-        to explain the observed variants.
+        It has been suggested that solid tumours can not grow
+        beyond 60-80 cells without inducing the formation of new
+        blood vessels: tumour angiogenesis [ 1 ] . This blood
+        vessel formation requires proliferation of endothelial
+        cells, cell migration and the lysis of the different
+        components of the matrix (collagen, elastin, fibronectin)
+        by several proteases. One of great importance, urokinase
+        (uPA) and its high affinity receptor, the GPI-anchored
+        membrane CD87 (uPAR), is critical in tumour progression and
+        its level of expression is correlated with poor prognosis
+        of various cancers such as prostate [ 2 ] , breast [ 3 ] ,
+        colon [ 4 ] , ovarian [ 5 ] , gastric [ 6 ] , brain [ 7 ] ,
+        and lung cancer [ 8 ] . Urokinase (uPA) and its main
+        product plasmin belong to the very early proteases [ 9 10
+        11 ] that activate the metallo-protease (MMP) cascade and
+        therefore control cell motility, tissue remodelling and the
+        activation of various angiogenic factors (VEGF, TGFβ). Most
+        of these proteases (e.g. uPA) are localised at the tumour
+        site through receptors that are highly expressed on the
+        surface of activated endothelial cells and tumour cells. A
+        high level of uPAR at the invasive edge of the tumour
+        concentrates uPA where neoangiogenesis occurs [ 12 ] ,
+        generating the full activation of the MMP cascade [ 13 ] .
+        Furthermore, various cellular migrations proceed upon the
+        transient attachment of the uPAR to matrix components (e.g.
+        vitronectin) [ 14 ] , and uPA as well as plasmin activate
+        angiogenic factors such as VEGF, HGF, FGFs, and TGFβ [ 15
+        16 17 ] .
+        The inhibitors of the matrix lysis can be divided in two
+        categories: the synthetic inhibitors and the endogenous
+        ones. Most of the synthetic inhibitors are competitive
+        inhibitors of the metallo-proteases, mimicking the
+        substrate of the enzymes (marismatat and derivatives). The
+        endogenous inhibitors (e.g. endostatin, angiostatin,
+        thrombospondin) differ in their angiostatic activity from
+        synthetic inhibitors, since they appear to also block
+        endothelial cell proliferation and/or migration. In this
+        paper we described the antitumour effects of a hybrid
+        protein, consisting of the Amino Terminal Fragment linked
+        to Bovine Pancreatic Trypsin Inhibitor (ATF-BPTI),
+        delivered by gene therapy with adenoviral vector.
+        ATF is the N-terminal part of the uPA (residues 1-135)
+        that binds to the uPA receptor (uPAR) and thus inhibits the
+        formation of the uPA-uPAR complex. Systemic and local
+        delivery of an adenovirus encoding ATF have been shown to
+        inhibit the growth of primary tumour implants as well as of
+        tumour metastasis in different animal models [ 18 19 ] . In
+        the ATF-BPTI chimeric protein, ATF has two functions (1)
+        the anti uPA effect with its known angiostatic activity and
+        (2) delivery of BPTI at the tumour site due to
+        over-expression of uPAR on tumour and endothelial cells.
+        The ATF is species specific between the human and the mouse
+        [ 20 ] and is not specific between the mouse and the rat.
+        The murinised version of ATF-BPTI differs by four amino
+        acids from the human version It was shown to bind to the
+        rat receptor and to inhibit plasmin activity in a rat model
+        [ 21 ] . BPTI (commercialised as aprotinin) is a serine
+        protease inhibitor prepared from bovine lung tissue which
+        dose dependently inhibits human trypsin, plasmin and
+        kallikrein. Aprotinin acts in a number of interrelated ways
+        to provide an anti-fibrinolytic effect. Thus, aprotinin is
+        mainly used in the clinic as anti-haemorrhagic agent in
+        extracorporal circulation (valve replacement, coronary
+        by-pass), for preventing postoperative haemorrhage, and as
+        anti protease in acute pancreatitis. BPTI has been used
+        systemically in a few animal tumour models, and showed
+        anti-tumour effects in a mouse hepatoma, lung carcinoma,
+        and mammary carcinoma [ 22 23 24 ] , and in a fibrosarcoma
+        of the hamster [ 24 ] . However, BPTI was not further
+        developed as a systemic anti tumour agent probably because
+        of its anti fibrinolytic property that might preclude its
+        use in cancer patients. Its linkage to ATF is expected to
+        ameliorate or reduce that side effect.
+        In this study, the tumour growth inhibiting effect of
+        ATF-BPTI gene transfer was investigated and compared to
+        endostatin and ATF. The adenoviral vector was administered
+        intravenously, which leads to the ATF-BPTI production and
+        secretion by the liver, or by intra tumoral injection. In
+        the latter case, the protein is mostly produced by
+        transduced tumour cells. Two transplantable rat bronchial
+        carcinomas, growing either as subcutaneous implants or as
+        lung metastasis were employed as targets. Levels of
+        ATF-BPTI in the plasma and in tissues were determined and
+        the association with tumour responses is described.
       
       
-        Results and discussion
+        Methods
         
-          Identification of novel NF1splice variants in
-          normal cells
-          The entire 
-          NF1 -coding region from two normal
-          non-affected individuals was amplified in 5 overlapping
-          segments by RT-PCR according to Heim [ 17 ] starting from
-          fresh blood leukocytes. As expression of specific 
-          NF1 transcripts can change due to
-          environmental changes [ 13 14 15 16 18 ] , we extracted
-          the RNA immediately after blood drawing, allowing to
-          identify splice variants that are not induced by stress
-          factors. Plasmid libraries were created and 150 colonies
-          per fragment were lysed and reamplified with the same
-          primers in order to search for the presence of minor
-          splice variants. The PCR products were digested with a
-          restriction enzyme and separated by electrophoresis on an
-          agarose gel (Fig. 1). For the five fragments, a total of
-          114 clones out of 750 colonies in total showed a
-          different restriction pattern. Sequence analysis of the
-          inserts revealed that these represented 
-          NF1 transcripts with specific
-          insertions/deletions. Some of these resulted from cryptic
-          splice site usage, others were found to have deletions
-          precisely at the exon boundaries ('exon skipping'), very
-          few resulted from intron retention. All variants that
-          were found are summarised in Fig. 2. Transcripts
-          containing more than one change per single transcript
-          were also identified. Some changes were in frame (14
-          variants, green in Fig. 2) others were out of frame (32
-          variants, red in Fig. 2) and hence would lead to a
-          premature stop codon. All together, 46 
-          different transcripts were
-          detected. The number of abnormal sized transcripts is not
-          exhaustive as only 150 colonies per fragment were
-          analysed (750 colonies in total). The frequency of each
-          clone captured is indicated between brackets in Fig. 2.
-          This frequency might indicate that some 
-          NF1 transcripts are more abundant
-          in blood, as compared to rarer 
-          NF1 transcript variants. Some of
-          these variants have been independently observed by other
-          groups: NF1ins4a-2 [ 14 15 16 ] , NF1ΔE4b [ 14 15 16 ] ,
-          NF1ΔE7 [ 15 19 ] , NF1ΔE29/E30 [ 11 ] , NF1ΔE30 [ 11 ] ,
-          NF1ΔE33 [ 16 ] , NF1ΔE34 [ 16 ] , NF1ΔE37 [ 15 16 ] ,
-          NF1ΔE43 [ 16 ] , NF1-Δ7605-7675 [ 16 ] and NF1ΔE45 [ 16 ]
-          . Some of these transcripts increased with time or cold
-          shock [ 14 16 ] . It has been shown that ~30 % of 
-          NF1 germline mutations result in
-          splicing errors [ 13 20 ] . The vast majority of them are
-          due to alterations outside the canonical AG/GT acceptor
-          and donor splice sites. Some of the splice variants
-          identified in this study are identical to misspliced
-          transcripts formed by the mutant allele carrying a
-          specific mutation in NF1 patients (11 variants, blue in
-          Fig. 2). For example, the NF1-Δ2618_2850 transcript was
-          found in a NF1 patient carrying an IVS16+3del6 [ 13 ]
-          mutation. In this patient mutation at the splice donor of
-          exon 16 leads to the constitutively activation of the
-          cryptic donor present in exon 16 at position 2618 that
-          normally is used in only a minor proportion of the
-          transcripts.
+          Animals
+          Pathogen-free inbred male Wag/Rij and Brown Norway
+          rats, weighing 300 to 350 gr were purchased from Harlan,
+          The Netherlands. All animals were fed ad libitum with
+          laboratory chow and water and were kept under standard
+          laboratory conditions. For assay of plasma hEndostatin,
+          and mhATF-BPTI, rats were anaesthetised with isoflurane
+          and bled by tail vein puncture and the blood was
+          collected in EDTA containing tubes. All animal procedures
+          were performed in accordance with the official guidelines
+          after obtaining permission of the animal welfare
+          committee.
         
         
-          Role of splice site strength in splice site
-          selection
-          Intensive effort has already been made to understand
-          the mechanisms involved in splice site selection. Because
-          we detected such a large group of variants in one single
-          gene, a detailed examination of the different parameters
-          that play a role in alternative splice regulation could
-          be performed and compared statistically. Early splice
-          site choice in mammals involves protein-protein
-          interactions across the exon, as is proposed in the exon
-          definition model of Berget [ 21 ] . Exon definition is
-          mediated in part by SR proteins bridging between the
-          small nuclear ribonucloprotein (snRNP) U1 at a downstream
-          5' splice site and the U2AF heterodimer at the upstream
-          3' splice site. First we calculated the strength of the
-          5' and 3' splice sites of all constitutive and
-          alternative exons and of all deletions and insertions
-          reported in this study. Calculations were performed using
-          the 
-          S plice 
-          S ite 
-          P rediction by 
-          N eural 
-          N etwork (SSPNN,
-          http://www.fruitfly.org/seq_tools/splice.html) program
-          (Table 1). In general, sequences that show a better match
-          to the consensus sequences, indicated by a higher
-          calculated score, are considered to be 'strong', as
-          specificity of the splicing reaction is mediated in part
-          by RNA-RNA interactions between these sequences and snRNA
-          molecules. The calculated scores demonstrate that
-          deletions or insertions sometimes occur at strong cryptic
-          splice sites (e.g. the NF1-Δ2618_2850 variant), whereas
-          in a few cases no or only a weak consensus splice site
-          was found (score of < 0.7: underscored in Table 1,
-          e.g. NF1-Δ5701_6946). The latter might result from
-          aberrant splicing or PCR artefacts.
-          We wanted to examine whether an association exists
-          between the observed splicing pattern and splice site
-          strength. To this end, a comparison of the scores was
-          made between those single exons that were spliced out in
-          a fraction of the mRNA (bold in Table 1), including the
-          alternative exons 9br, 23a and 48a, and the mean values
-          for all 
-          NF1 exons (Table 2). Skipping of
-          more than one exon probably involves other factors and
-          mechanisms than those based on splice parameters alone.
-          The exon definition model is no more applicable as the
-          distance would be too long to accommodate exon-bridging
-          interactions. Therefore, only exons that were spliced out
-          
-          individually were compared to the
-          mean values. The SSPNN program gave the exons that can
-          become skipped a significantly lower score (0.63, p =
-          0.03) at the acceptor site, compared to the mean 
-          NF1 acceptor score for all 
-          NF1 exons (0.81). No such
-          correlation could be found at the donor site. Exon
-          bridging interactions may occur less efficiently as a
-          result of weak binding of splice factors at the acceptor
-          site, thus modulating the splicing efficiency. This
-          finding underlines the importance of the acceptor site in
-          splice site selection. This is in agreement with a recent
-          study [ 22 ] in which it was shown that mutating the
-          acceptor site to a stronger site was more effective for
-          full intron splicing of an alternative intron, than
-          strengthening the donor site. Likewise, there was an
-          inverse relationship found between the length of the
-          polythimidine tract, which influences the acceptor
-          strength, at the exon 9 acceptor site and the proportion
-          of exon 9 deleted 
-          CFTR mRNA transcripts [ 23 ] . Our
-          results indicate that acceptor splice site strength is an
-          important parameter in the regulation of 
-          NF1 splicing.
+          ATF-BPTI cloning
+          The plasmid encoding the ATF-BPTI (pAB) was provided
+          by P. Quax (TNO-PG, Leiden). The ATF plasmid was
+          constructed by deleting the DNA sequences encoding amino
+          acids 139 to 401 of the urokinase cDNA plasmid. Then a
+          DNA fragment encoding the amino acids residues 36-96 of
+          the bovine pancreatic trypsin inhibitor (BPTI) was cloned
+          into the ATF plasmid resulting in a plasmid encoding the
+          ATF, the BPTI and the 11 C-terminal amino acids of
+          urokinase including the stop codon. After sequence
+          confirmation, the ATF-BPTI cDNA was cloned into the
+          recombinant adenovirus (Ad) shuttle vector Adapt. The
+          murinised ATF-BPTI (mhAB) plasmid was constructed by an
+          identical procedure, using the (Tyr22, Arg27,29,30) uPA
+          mutant cDNA as starting sequence [ 33 ] .
         
         
-          Role of branch point position and strength
-          Some studies have pointed to the importance of the
-          branch point in alternative splicing [ 24 25 ] . The
-          distance between the branch point and the 3' splice site
-          and the base pairing of the branch point with the U2RNA
-          is important for splicing. The majority of branch points
-          used in vertebrate splicing are between 10 and 50
-          nucleotides upstream from the acceptor splice site. We
-          have analysed 1) the position of the putative branch
-          point sequence and 2) the match of the putative branch
-          point sequence to the loosely defined consensus YURAY. We
-          developed a program to calculate the strength of a branch
-          point. The region between -50 and -10 upstream from the
-          acceptor site was examined for a branch point signal and
-          the corresponding branch point score was calculated
-          (Table 1). A relatively low score points to a suboptimal
-          branch point or to a branch point situated outside the
-          chosen window (-50, -10). Branch points located at long
-          distances are also suboptimal. However, mean branch point
-          strength (Table 2) was not significantly lower (p =
-          0.411) for the exons associated with skipping.
+          Adenoviral vectors
+          Recombinant adenovirus vectors were generated in
+          PER.C6™ cells by homologous recombination between an
+          Adapter plasmid (pAdapt) and the E1 deleted Ad 5 DNA
+          plasmid as described elsewhere [ 34 ] . The expression
+          cassette contains a CMV promoter and SV40 poly A signal.
+          As a result of the absence of sequence overlap between
+          the Adapt plasmid and the Ad5 E1 sequences integrated
+          into the genome of PER.C6, the vector stocks used in this
+          study does not contain replicative competent adenovirus
+          (RCA) [ 35 ] .
+          The Ad Adapt mhAB encodes for a murinised form of the
+          human ATF-BPTI [ 21 ] . In this construct the mhAB, is
+          preceded by the native secretion signal peptide of the
+          human urokinase. The human endostatin coding sequence
+          (InvivoGen, CA, USA) was cloned in the Ad Adapt shuttle
+          vector. The encoded endostatin corresponds to the 183
+          residue of the human endostatin described by O'Reilly et
+          al (1997) with an intact N-terminus (HSHRDFQ...),
+          preceded by the secretion signal peptide of the human
+          IL-2. The Ad.Adapt.Luc and the Ad.Adapt.LacZ are
+          recombinant adenoviral vectors in which the E3 region of
+          Ad5 is retained and the gene of interest (luciferase or
+          LacZ) replaces the E1 region. The Ad Adapt empty is
+          identical to Ad Adapt mhAB except that it does not encode
+          any transgene.
+          All vectors were produced on PER.C6™ using standard
+          procedures [ 35 ] . Infectious units (iu) were determined
+          by end point cytopathogenic effect (CPE) assay on 911
+          cells [ 36 ] . Viral particles were determined by HPLC [
+          37 ] . The particle to infectious unit ratio was always
+          lower than 10.
         
         
-          Role of secondary structure in splice site
-          selection
-          Recently, it was suggested that 
-          NF1 exon skipping events could be
-          explained by structural alterations in possible higher
-          free-energy structures of the pre-mRNA at the donor site
-          [ 19 ] . Here in, it was hypothesised that when an
-          alternative structure is too different from the lowest
-          free-energy structure (ground state) this sequence is not
-          recognised by the splicing machinery and that, as a
-          consequence, the corresponding exon becomes skipped. We
-          further elaborated this hypothesis by comparing the
-          lowest free energy structures of the donor- and acceptor
-          sites of 
-          all exons that were prone to
-          skipping (bold in Table 1) to their first higher
-          free-energy structures using the mfold program [ 26 27 ]
-          . Some structures showed remarkable alterations between
-          both energy states, but many others did not at all. A
-          representative example is given in figure 3where a
-          striking structural change was found between the energy
-          states of the donor of exon 7 (Fig. 3A,3B). On the other
-          hand, very similar structures were obtained for the donor
-          of exon 4b (Fig. 3C,3D) although this exon was shown to
-          be skipped in a significant part of the mRNA in several
-          tissues (unpublished results) using the highly accurate
-          real-time PCR technique [ 28 ] . Moreover, when the
-          window is displaced over a few nucleotides, as
-          exemplified here for exon 8, the ground state alters
-          considerably, (Fig. 3E,3F), demonstrating the difficulty
-          of assigning significance to these 
-          in silico results. These data
-          indicate that one has to be extremely careful when
-          correlating exon skipping events to secondary structure
-          predictions. Limitations of the mathematical model,
-          uncertainties in the thermodynamic parameters and
-          influences of the secondary structure 
-          in vivo by specific interactions of
-          RNA-protein complexes limit the prediction capacities of
-          secondary structure by these programs.
-          On the other hand, comparison of the ground state of a
-          mutant donor site, as was done for G1185+1U and G1185+1A
-          in [ 19 ] , to the higher energy structure of the normal
-          donor is superfluous to explain skipping. It is well
-          known that splice sites mutated at their highly conserved
-          AG-GT bases are not recognised anymore by the splicing
-          machinery since recognition e.g. of the splice donor by
-          the U1snRNP is mainly directed by RNA-RNA base pairing [
-          29 30 ] .
-        
-      
-      
-        Conclusions
-        The data presented in this study indicate that splicing
-        in 
-        NF1 is extremely complex. Although
-        several alternative transcripts have been found previously
-        for the 
-        NF1 gene [ 9 10 11 12 ] , we
-        identified multiple 
-        novel NF1 splice variants and made a
-        survey of them. This large catalogue of variants detected
-        in one single gene allowed to perform a comparative
-        analysis of the factors involved in splice regulation in
-        order to explain the observed variants. We performed an
-        extensive analysis of different splicing parameters. These
-        include the strength of the 5' and 3' splice site, the
-        branch point strength and secondary structure predictions
-        at the donor and acceptor site. On the basis of the
-        analysed features we can conclude that an interplay of
-        various factors is involved in regulation of 
-        NF1 splicing. Competition between the
-        alternative splice sites depends on the relative quality of
-        the different constitutive splice signals and we found that
-        the acceptor strength probably plays a major role in this
-        regulation. The functional significance of the transcripts
-        identified in this study still remains unclear. What
-        fraction of the splicing represents 'noise', caused by the
-        relaxation of the RNA splicing, is currently unknown.
-        Although the RNA was extracted immediately after blood
-        drawing, excluding as far as possible influences due to
-        stress factors, some splice events occurred at
-        non-consensus splice sites and probably represent
-        'aberrant' splicing. However, some of these novel
-        identified transcripts could potentially encode proteins of
-        different sizes and may have distinct roles. Further
-        research was started to analyse tissue-specific expression
-        of several transcripts. Preliminary results show that some
-        transcripts are highly expressed in specific tissues,
-        demonstrating that splicing in 
-        NF1 may be regulated in a tissue
-        specific manner. Further analysis of these transcripts is
-        needed and it will remain a challenging task to elucidate
-        the biological significance of all of them.
-      
-      
-        Materials and methods
-        
-          RNA isolation and cDNA preparation
-          RNA was isolated from fresh blood leukocytes from two
-          normal individuals using TRIzol LS Reagent (Invitrogen)
-          according to the manufacturer's instructions. RNA
-          extraction was performed immediately after blood drawing,
-          excluding as far as possible influences due to stress
-          factors. Total RNA (2 μg) was reverse transcribed using
-          SuperScript II Reverse transcriptase (Invitrogen) and
-          random hexamers (Amersham Biosciences).
+          Elisa and activity analysis
+          An mhATF-BPTI ELISA was developed by P. Quax et al [
+          21 ] , using a monoclonal antibody specific for the ATF
+          as the capture antibody and a polyclonal antibody
+          directed against BPTI as the detector antibody. As a
+          standard we used urokinase or mhATF-BPTI. The biologic
+          activity of the mhATF-BPTI was tested in vitro in a
+          plasmin inhibition assay using the chromogenic substrate
+          S2251 (Chromogenix, Mölndahl, Sweden). Diluted samples of
+          Ad Adapt mhAB infected A549 cells medium were incubated
+          for 15 min at room temperature with 200 pmol/l plasmin.
+          S251 was then added and after 24 hours incubation at 37 C
+          the A 
+          405 was measured to determine the
+          conversion of the chromogenic substrate. Controls
+          consisted of plasmin solution incubated with buffer or
+          with 1.0 KIU /ml aprotinin.
+          The human endostatin activity was tested in the human
+          umbilical vein endothelial cells HUVEC proliferation
+          assay. In short, HeLa cells were incubated for 2 days
+          with the Ad Adapt human endostatin and the medium was
+          collected. Fibroblast growth factor (bFGF)-stimulated
+          HUVEC in 96 wells plate were incubated for 2 days with
+          hEndostatin infection medium. The proliferation of the
+          HUVEC cell was determined by measuring the incorporation
+          of BrdU. Levels of human endostatin in rat plasma was
+          determined with a human enzyme-linked immunoabsorbent
+          assay (ELISA) kit (InvivoGen, CA USA) according to the
+          manufacturers procedure.
         
         
-          RT-PCR library formation and PCR analysis
-          Primers used for the amplification of the total 
-          NF1 cDNA in 5 overlapping fragments
-          were as described [ 17 ] . Reactions were performed as
-          described [ 13 ] . The PCR products were cloned in the
-          pCR2.1-TOPO-vector (Invitrogen) and transformed into
-          TOP-10F' cells. The colonies were lysed and the subcloned
-          fragments were reamplified with the same primers. The
-          five 
-          NF1 fragments (NF1-F1 to NF1-F5)
-          were digested subsequently with different restriction
-          enzymes: 
-          Scrf I, 
-          Sty I, and 
-          Bsr I for NF1-F1, 
-          Hae III and 
-          Ava II for NF2-F2, 
-          Hae II for NF1-F3 and NF1-F5, and 
-          Ava II for NF1-F4. All transcripts
-          with a different restriction pattern were sequenced
-          (primer sequences available upon request) using the
-          Thermo Sequenase fluorescent labelled primer cycle
-          sequencing kit (Amersham Biosciences) and analysed on an
-          ALF-express automated DNA sequencer (Amersham
-          Biosciences).
+          Tumour models
+          The L42 tumour is a bronchial squamous carcinoma that
+          originated in a Wag/Rij rat after intrapulmonary
+          implantation of an iodine-125 seed [ 38 ] . L44
+          adenocarcinoma was induced in Brown Norway rats by local
+          irradiation of the thorax [ 39 ] . Both tumours are also
+          adapted to cell culture and give rise to tumours with the
+          same histological characteristics as the original
+          tumours. These two carcinomas were serially passaged in
+          syngeneic rats for more than 50 passages. The CC531
+          tumour is a dimethylhydrazine-induced, moderately
+          differentiated colon adenocarcinoma exhibiting weak
+          immunogenicity [ 40 ] . The tumour is transplantable in
+          syngeneic Wag/Rij rats. The subcutaneously growing tumour
+          has a low microvascular density of 1.4% ± 0.6 (n = 10)
+          and a volume doubling time of 10 days ± 0.8 (n = 10). For
+          the experiments, the tumours were established in the
+          flank of rats by implanting small pieces (3 × 3 × 3 mm)
+          of tumour tissue sub-cutaneously as described before [ 41
+          ] .
+          The size of the subcutaneous tumours was measured in
+          three dimensions at regular intervals, using a Vernier
+          calliper. The volume of the tumours was calculated, from
+          the three tumour dimensions measures (a, b, c), with the
+          formula V = πabc/6. The doubling time of the different
+          tumours was calculated between volume of 1000 and 2000 mm
+          3.
+          Microvascular density (MVD) in the L44, L42, and CC531
+          tumours was determined as follows: When the tumours
+          reached the size of 10 × 10 × 10 mm, the animals were
+          sacrificed and frozen sections through the middle of the
+          tumours were prepared. We used an anti-mouse CD31
+          antibody (American Diagnostica), that cross reacts with
+          rat CD31, to stain specifically the endothelial cells
+          that can then be easily selected by the image analyser
+          software Qwin™. The software allowed us to quantify the
+          surface of the selected endothelial cells and to relate
+          it to the surface of non-necrotic tumour tissue. The end
+          value is the surface of all endothelial cells as
+          percentage of the surface of non-necrotic tissue: the
+          microvascular density.
+          The global process including cell infection and
+          protein production is commonly called in the literature
+          adenoviral permissiveness. The in vitro permissiveness of
+          the different cell lines to adenovirus was determined by
+          infection of the cells by graded MOI of Ad5 Adapt
+          Luciferase. The Luciferase activity was measured in the
+          supernatant of the cell culture lysate after 2 days of
+          culture and expressed in RLU / milligram of protein. The
+          in vivo permissiveness of the tumours was assessed by
+          analysing the lysate of the whole tumour (without any
+          surrounding tissue) 2 days after injection of the Ad
+          Adapt Luc. Adenoviral vector was administered in a volume
+          of 100 μL to 8 × 8 × 8 mm tumours.
+          For the metastases model the L44 and L42 cell lines
+          were cultured in Dulbecco's modified Eagle's medium
+          (DMEM) supplemented with 10% FBS. When the cells reached
+          80% of confluence, they were trypsinised, washed and
+          resuspended in PBS. 10 4L44 tumour cells or 5.10 4L42
+          tumour cells (0.5 ml) were injected into the tail vein of
+          the syngeneic rat. The animals were sacrificed after 22
+          days (L44 bearing Brown Norway) and 53 days (L42 bearing
+          Wag/Rij), the lungs fixed in Bouin solution and the
+          nodules on the surface were counted. The first
+          experiments, in which animals were not treated, showed
+          that all animals developed multiple metastases in the
+          lungs. The average number of nodules counted on the lung
+          surface was 58 in Wag/Rij and 93 in Brown Norway rats.
+          The volume doubling time of the metastases in the lung
+          was extrapolated from the volumes determined at two time
+          points. The volume at 11 days (for the L44) and at 20
+          days (for the L42) was determined by measuring the size
+          of microscopic metastasis on lung sections (10 metastases
+          per rat, 4 rats per tumour model). The final volume of
+          the nodules on the lung surface was assessed, on day 22
+          for the L44 and day 53 for the L42, using a Vernier
+          calliper (10 nodules per rat, 10 rats per tumour
+          model).
         
         
-          Nomenclature for the description of the different
-          NF1transcripts
-          In order to clearly describing the identity (ID) of
-          the transcripts, following nomenclature was used:
-          • The ID of all transcript variants start with 'NF1'
-          followed by '-'.
-          • Sequence changes are all described at the RNA level,
-          with 1 = first base of methionine (ATG) at the start.
-          Numbering system for insertions are based on the 
-          NF1 genomic sequence (Genbank
-          Accession Nr. AC004526).
-          • Deletions are designated with the symbol 'Δ',
-          insertions with 'ins'.
-          • Deletions are described with a '_' separating the
-          first and the last deleted exon.
-          • Skipping of a complete exon is designated by an 'E'
-          preceding the exon number. Two consecutive deleted exons
-          are separated by '/'. When more than two consecutive
-          exons were deleted, the first and the last deleted exon
-          are separated by a '_' character, non-consecutive exons
-          are separated by a ',' character to indicate that
-          intermediate exons are not deleted.
-          • Insertions are described by a '+' or a '-' after the
-          nucleotide flanking the insertion site, followed by the
-          position of the first inserted nucleotide of the intron
-          (beginning of intron = +1, for insertions flanking the
-          acceptor site: end of preceding intron = -1), followed by
-          'ins' and the length of the inserted sequence.
-          • Insertions of a complete intron are designated by
-          'IVS' preceding the intron number.
-          • When more than one change was detected, these
-          changes are described between square brackets, separated
-          by a ',' character.
+          Luciferase assays in tissues
+          Rats were sacrificed by an overdose of isoflurane and
+          whole organs were dissected out, frozen in liquid
+          nitrogen and stored at -80°. Organs were homogenised in
+          phosphate buffered saline pH 7.8 using a blender. To lyse
+          the cells, DTT (SIGMA, The Netherlands) (1 mM) and Triton
+          x-100 (0.1%) (Merck, The Netherlands) were added. After
+          centrifugation at 10,000 rpm for 10 min, 20 μl of the
+          supernatant was added to 100 μl of luciferase assay
+          substrate (Promega, The Netherlands). Relative light
+          units (RLU) were determined for 30 s using a luminometer
+          (Lumat 951, Wallac, Belgium). The amount of protein in
+          the extracts was determined using a commercial kit
+          (Bio-Rad laboratories, The Netherlands) based on the
+          Coomasie brilliant blue G250 binding assay developed by
+          Bradford [ 42 ] . The level of luciferase activity in the
+          tissue homogenates was expressed in RLU / mg protein. The
+          background level of this assay is <1000 RLU/mg protein
+          and was defined by measuring luciferase activity in
+          organs of non treated rats.
         
         
-          Splice site scores
-          The sequence environment of all donor- and acceptor
-          sites was analysed using Splice Site Prediction by Neural
-          Network (SSPNN, URL address:
-          http://www.fruitfly.org/seq_tools/splice.html).
+          mhATF-BPTI determination in tissues
+          Rats were sacrificed by an overdose of isoflurane and
+          the blood was flushed out by cutting the vena cava and
+          injecting 100 ml PBS into the right ventricle. The whole
+          organs or tumours were dissected out and weighted, frozen
+          in liquid nitrogen and stored at -80 C. Tissue and organs
+          were homogenised in phosphate buffer pH 7.8 using a
+          blender. To prepare a cell lysate, DTT (SIGMA, The
+          Netherlands) (1 mM) and Triton x-100 (0.1%) (Merck, The
+          Netherlands) were added. After centrifugation at 10,000
+          rpm for 10 min, the ELISA was performed on 1:100 dilution
+          of the supernatant. Total protein in the extracts was
+          determined as described above. The concentration of
+          mhATF-BPTI was expressed in ng / g tissue. The background
+          level of this assay is < 20 ng / g tissue and was
+          defined by measuring the mhATF-BPTI in organs of rats
+          treated with the empty vector.
         
         
-          Branch point scores
-          We searched for branch point sequences in a window of
-          -50, -10 with respect to the acceptor site. A program was
-          written in DELPHI to calculate the strength of a branch
-          point. Every 5-nucleotide sequence within the window was
-          evaluated as a potential branch point. The 'standard'
-          branch point sequence weight-table [ 4 ] was used to
-          assign a score at every 5-nucleotide sequence within the
-          window. The computed score reflects how closely it
-          resembles known branch point sequences. The sequence with
-          the highest score was selected as the 'putative' branch
-          point.
-        
-        
-          Secondary structures
-          The mfold computer program version 3.0
-          http://bioinfo.math.rpi.edu/~mfold/rna/form1.cgiwas used
-          to predict the RNA secondary structure and to calculate
-          the folding free energy [ 26 27 ] . We have computed the
-          minimum-free-energy structures from all the donor- and
-          acceptor sites of the 60 exons of 
-          NF1 within a window of 100 bp. It
-          has been proposed [ 31 ] that there is a window of about
-          100 nucleotides after transcription where the pre-mRNA is
-          free to fold. The size of this window would be defined by
-          the time taken for the protein complexes to bind as the
-          nascent RNA emerges.
+          LacZ expression assay
+          Forty-eight hours after Ad.Adapt.LacZ administration
+          rats were sacrificed and organs were removed and cut in 2
+          mm sections. Sections were fixed in 10% phosphate
+          buffered formalin (pH 7.0) for 60 min at room temperature
+          and incubated overnight in 0.5 M sucrose at 4°C. The
+          samples were subsequently frozen in liquid nitrogen. Ten
+          micron thick frozen sections were prepared and stained
+          with 5-bromo-4-chloro-3-indolyl-β-galactopyranoside
+          (X-gal) solution (Molecular Probes, The Netherlands)
+          overnight at 37 C. Finally, sections were counterstained
+          with Hematoxylin-Phloxin-Safran.
         
         
           Statistical analysis
-          The one-way ANOVA test was used to assess significance
-          in the comparison of mean values.
+          Survival time until tumour size of 20 ml was analysed
+          by log range analysis of Kaplan-Meier curves. Analysis of
+          variance (ANOVA) was used to analyse the differences in
+          tumour growth delay. Scheffe's test was employed to
+          analyse the difference between the numbers of metastases,
+          between plasma concentrations, and between MVDs.
         
+      
+      
+        Results
+        
+          Tumour characteristics
+          Carcinomas of the lung were chosen, as it is the most
+          frequent tumour in the cancer population. Several
+          vascularisation phenotypes can be observed in the
+          different histological type of lung cancer. Therefore a
+          bronchial squamous cell carcinoma and an adenocarcinoma
+          with different microvascular density (MVD) were selected
+          to assess the inhibition effect of the ATF-BPTI. The
+          growth characteristics of the tumours are listed in Table
+          1. The L44 adenocarcinoma grows roughly 2.5-fold faster
+          than the squamous cell carcinoma L42. This difference of
+          growth rate holds for in vitro culture of the cells as
+          well as for subcutaneous tumours and lung metastasis.
+          Probably related to the growth rate, the vascularisation
+          of the L44 tumours was significantly higher (p <
+          0.001, Scheffe'test) than that of the L42 tumours. The
+          distribution of endothelial cells in each of the tumour
+          is homogeneous in the viable part of the tumour. However,
+          the L42 tumour develops a necrotic area with no vessels
+          in the centre of the tumour mass as it grows above 8 × 8
+          × 8 mm.
+          The in vitro permissiveness to Ad5 of the cultured
+          cell line showed that the L42 carcinoma had a 2 log
+          higher permissiveness than the L44 tumour (Fig 1A). These
+          characteristics are preserved in vivo when using the
+          luciferase as well as the LacZ marker gene delivered in
+          10 × 10 × 10 mm tumours. Luciferase activity, 2 days
+          after intra tumoral injection of 10 10iu Ad Adapt Luc,
+          was 2 log higher in the L42 tumours than in the L44
+          adenocarcinoma (Fig 1B). The luciferase activity in
+          various organs of the Wag/Rij rats is about the
+          background level, and 1 to 2 log higher in those of the
+          Brown Norway rats. Our interpretation is that a
+          significant proportion of the vector escapes into the
+          circulation and reaches the liver and spleen, because the
+          L44 tumour cells are poorly infected by the adenovirus.
+          These observations were corroborated by the results of
+          the intratumoral injection of the β-Galactosidase
+          encoding adenovirus. Histological examination, 2 days
+          after administration of 10 10iu Ad Adapt LacZ, showed
+          that the L42 tumour preparations were almost completely
+          blue whereas the L44 tumours showed few blue cells around
+          the needle track (Fig 2). This inhomogeneous distribution
+          is not specific for the L44 tumour, as it was also
+          observed in the L42 tumours when injecting a lower dose
+          of virus (data not shown).
+        
+        
+          In vitro activity of mhATF-BPTI and
+          hEndostatin
+          To assess the functionality of the vectors, the
+          biological activities of the encoded transgenes were
+          tested in vitro. As depicted in Fig 3A, the mhATF-BPTI
+          expressed in the supernatant of Ad Adapt mhAB infected
+          A459 cells was able to inhibit 70% of the plasmin
+          activity at a picomolar concentration (mol wt: 25 kD).
+          Furthermore, mhATF-BPTI was shown to inhibit plasmin
+          activity at the cell surface of rat aortic smooth muscle
+          cells (RASMC) expressing rat urokinase receptor [ 21 ]
+          .
+          The biologic activity of the endostatin encoded in the
+          adenoviral vector was determined through the bFGF
+          simulated HUVEC proliferation assay. A linear dose
+          response relationship between endostatin concentration
+          and percentage of inhibition of HUVEC proliferation could
+          be demonstrated (Fig. 3B). The ED50 of endostatin (1000
+          ng / ml) was in the range of published data [ 25 ] .
+          Further, the angiostatic and antitumoral activities of
+          the human endostatin has been demonstrated in different
+          rat models [ 26 27 28 ] .
+        
+        
+          Secretion of mhATF-BPTI and hEndostatin in
+          animals
+          Brown Norway rats were injected intravenously with
+          different doses of Ad Adapt mhAB (from 10 8to10 10iu) and
+          the concentration of mhATF-BPTI was assessed in the
+          plasma at various time points post-infection. The
+          detection limits of the ELISA in plasma is around 5 ng /
+          ml. The results, depicted in Fig 4, show a linear dose
+          response with a maximum level of 500-800 ng / ml obtained
+          when 10 10iu Ad Adapt mhAB was injected intravenously. A
+          linear dose response relationship was also observed in
+          both rat strains after iv injection of graded doses (10
+          9iu to 10 10iu) of vectors encoding the marker genes
+          luciferase and LacZ (data not shown). In the Wag/Rij rats
+          the plasma levels of mhATF-BPTI were 10 times lower (Fig.
+          5A) after the same vector dose. The plateau concentration
+          after intravenous injection of 10 10iu Ad Adapt mhAB was
+          around 50 ng /ml plasma. In both rat strains the plasma
+          levels reached a plateau after 3 days and remained
+          constant for at least 1 month. The levels of ATF in the
+          plasma were similar to those of the ATF-BPTI in the Brown
+          Norway as well as in the Wag/Rij rats (Fig. 5B).
+          The human Endostatin was measured in the plasma of
+          animals that received 10 10iu Ad Adapt hEndostatin
+          intravenously (Fig. 5C). The concentrations of endostatin
+          were much higher than those of mhATF-BPTI. The levels
+          reached a plateau around 10 μg / ml in the Brown Norway
+          rats and around 1 μg / ml in the Wag/Rij rats. Otherwise
+          the kinetics were roughly similar to those of mhATF-BPTI,
+          with a plateau lasting for a month and one log lower
+          levels in the Wag/Rij than in the Brown Norway rats.
+        
+        
+          Effects of systemic administration of Ad mhAB on
+          tumour growth
+          The purpose of these experiments was to investigate
+          the response to angiostatic gene therapy of the two
+          selected lung tumours with different characteristics.
+          Firstly, we investigated the effects of systemic delivery
+          of mhATF-BPTI on the growth of subcutaneous tumour
+          implants.
+          Brown Norway rats bearing L44 tumours were treated
+          with intravenous injections of Ad Adapt mhATF-BPTI daily
+          for 4 consecutive days. As depicted in Fig 6, three
+          different doses of vector were compared and a significant
+          inhibition of the tumour growth (p < 0.001, ANOVA) was
+          observed with the 2 highest doses (10 9iu and 2.5 10
+          9iu). Seven days after the viral injection, the plasma
+          concentrations of mhATF-BPTI were about 120 ng / ml and
+          250 ng / ml respectively, which is slightly higher than
+          the levels obtained after a single injection. In
+          contrast, treatment of such tumours with a low dose of
+          adenoviral vector (10 8iu), that induced lower plasma
+          levels of mhATF-BPTI of 10 ng / ml, did not significantly
+          inhibit tumour growth. Thus it appears that the anti
+          tumour activity of mhATF-BPTI is dependant on its
+          systemic concentration. Higher doses could not be
+          achieved without inducing unacceptable liver toxicity, as
+          manifested by a severe inflammatory infiltrate and
+          vacuolisation of the hepatocytes. Therefore 10 10iu was
+          the maximal accepted dose for these experiments.
+          In a second experiment Ad Adapt mhAB and Ad Adapt
+          hEndostatin were compared (Fig. 7). L44 tumour pieces
+          were implanted subcutaneously on day 0 and 10 10iu of
+          each vector were injected iv in a single dose on day 20.
+          The treatment with Ad Adapt mhAB caused a significant
+          inhibition (p < 0.0001, ANOVA) of the growth of the
+          L44 tumours as compared to the Ad Adapt empty or Ad Adapt
+          mhATF treated animals (Fig. 7A). The human endostatin,
+          which plasma level was around 10 μg / ml 2 days after
+          vector injection, showed a slight but not significant
+          effect (p = 0.007, ANOVA) on tumour growth compared to
+          the empty vector. The mhATF-BPTI effect was achieved with
+          a plasma level of mhATF-BPTI of about 800 ng / ml between
+          day 5 and 30 after the virus injection. It is required by
+          Dutch law to sacrifice animals when the tumour volume has
+          surpassed 20 ml. That intervention precluded the
+          continuation of the growth curves after the time point at
+          which the first animal is sacrificed. Therefore the
+          animals with a tumours volume under 20 ml were plotted on
+          a Kaplan Meier analysis graph. The result showed a
+          significant (p < 0,0001, rank test) improvement in
+          time to sacrifice showing an Ad Adapt mhAB specific
+          protective effect. In the control group, the rats (n = 9)
+          reached the limiting size after 38 to 50 days, whereas in
+          the Ad AB treated group (n = 9), the rats had tumours
+          above 20 ml after 55 to108 days. Mean time to sacrifice
+          was prolonged by 30 days (Fig. 7B).
+          To complete the study, the same treatment protocol was
+          applied to Wag/Rij rats bearing the slowly growing and
+          poorly vascularised L42 adenocarcinoma. A single dose of
+          10 10iu of the different vectors was injected iv on day
+          14 (Fig. 7C). The plateau concentration of mhATF,
+          mhATF-BPTI and endostatin were low, around 50 ng/ml for
+          the 2 first and around 0.5 μg/ml for the last
+          respectively. No significant inhibition of the tumour
+          growth was observed in either the mhATF-BPTI, the mhATF,
+          or the endostatin groups as compared to the empty vector
+          group. We concluded that the plasma levels of our
+          therapeutic agents were too low to induce any response in
+          this model. In an attempt to improve this issue we
+          studied direct injection of our vectors into the
+          tumour.
+        
+        
+          Intra-tumoral Ad Adapt mhAB administration delays
+          tumour growth in L42
+          Adenoviral-mediated delivery of the mhATF-BPTI
+          directly at the tumour site was studied in the L42 lung
+          carcinoma implanted subcutaneously into Wag/Rij rats. 19
+          days after implantation, one intratumoral virus injection
+          (10 10iu in 0.1 ml PBS) per day for 3 consecutive days
+          was performed and tumour growth monitored. Seven days
+          after the beginning of the treatment, a significant (p
+          < 0.0001, ANOVA) delay of tumour growth was seen in
+          the Ad Adapt mhAB injected group (Fig. 8A). The
+          mhATF-BPTI plasma levels were under the detection limit
+          of the ELISA.
+          In contrast, local delivery of the vector to the very
+          low permissive L44 tumour did not lead to any significant
+          tumour growth inhibition by Ad Adapt mhAB (Fig. 8B).
+        
+        
+          Local concentration of mhATF-BPTI
+          The results of the systemic administration in the
+          Brown Norway suggested a correlation between the plasma
+          concentration of mhATF-BPTI and the tumour response. The
+          concentrations of mhATF-BPTI were measured in the plasma
+          and in the tumour at 7 and 14 days after intravenous or
+          intra-tumoral injection of the mhATF-BPTI vector (Table
+          2). The systemic delivery of 10 10iu Ad Adapt mhAB in L44
+          bearing Brown Norway rats resulted in a concentration of
+          mhATF-BPTI in the tumour of about 1.2-1.8 μg / g tumour.
+          This intra-tumoral level was maintained for at least 2
+          weeks and is 2-3 times higher than the plasma level. This
+          suggests that mhATF-BPTI concentrates in the tumour. The
+          concentration of mhATF-BPTI in the L42 tumours after
+          intravenous delivery of the vector was much lower around
+          150 - 160 ng / g tumour, but as in the Brown Norway rats
+          2-3 time higher than the plasma concentration.
+          The local delivery of the transgene in the tumour
+          resulted in a low concentration of ATF-BPTI in the L44
+          tumour (60 - 90 ng / g tumour) and high concentration in
+          the L42 tumours (1 - 1.4 μg / g tumour). This was
+          expected from the 2 log higher permissiveness to
+          adenoviral infection of the L42 compared to the L44
+          tumours.
+        
+        
+          Effect of mhATF-BPTI on lung metastasis
+          In the subcutaneous tumour model, the majority of the
+          tumour cells implanted die, and the surviving cells grow
+          in the fibrous interstitial tissue of the skin. The
+          subsequent angiogenesis give rise to one small artery
+          that will vascularise the whole tumour. This probably
+          does not reflect accurately the clinical situation, where
+          a primary carcinoma cell grows in a highly vascularised
+          epithelium. The angiogenesis in non-small-cell lung
+          carcinomas in patients shows four different patterns of
+          vascularisation: basal, diffuse, papillary and alveolar [
+          29 ] . The basal and the diffuse are the most frequent
+          patterns found in squamous carcinomas and adenocarcinomas
+          respectively. Both are accompanied by a destruction of
+          the normal lung parenchyma and the production of newly
+          formed vessels. Our lung metastasis models in the rat
+          also represent these two main patterns: the L44
+          (adenocarcinoma) shows a diffuse architecture and the L42
+          (squamous cell carcinoma) grows with a basal histological
+          architecture. Further characterisation showed that the
+          growth rate of the lung metastases is roughly similar to
+          that of subcutaneous implants, the difference between L42
+          and L44 being maintained at both locations (Table 1).
+          The protective effect of systemic administration of Ad
+          Adapt mhAB was assessed by treating the animals with a
+          single iv dose of Ad Adapt mhAB, or Ad Adapt hEndostatin,
+          or with Ad Adapt Empty as negative control virus. The
+          treatment was administered when the micro metastasis were
+          a few hundreds cells large as observed in not-treated
+          rats. This size was reached at 4 days after injection of
+          the L44 tumour cells and after 13 days in the L42 model.
+          The animals were sacrificed when the lung nodules were
+          expected to be 2 mm diameter in the control group. As
+          depicted in Fig. 9Athe L42 metastasis-bearing rats
+          responded to treatment with Ad Adapt mhAB with a more
+          than 50% reduction in the number of metastases.
+          Macroscopic inspection of the lung surface and
+          microscopic examination of lung sections gave similar
+          responses. It is also noteworthy that treatment with the
+          endostatin vector, which results in a much higher level
+          of the angiostatic protein (1-3 μg / ml), does not
+          significantly reduce the number of metastases. In
+          contrast, the L44 lung metastasis were not significantly
+          influenced by either the Ad Adapt mhATF-BPTI or the Ad
+          Adapt mhATF treatments (Fig 9B).
+          Surprisingly, the systemic administration of Ad Adapt
+          mhATF-BPTI does inhibit the growth of L42 lung
+          metastases, but not of the L44 metastases. In view of the
+          high permissiveness of the L42 tumour cells, it seemed
+          possible that the lung metastases were transfected with
+          the mhATF-BPTI gene. Therefore the permissiveness of the
+          lung micrometastasis was estimated, by determining the
+          β-galactosidase and luciferase activity 2 and 7 days
+          after the iv injection of 10 10iu Ad Adapt LacZ or Ad
+          Adapt Luc into animals bearing L44 or L42 micrometastasis
+          in the lungs. The results were however essentially
+          negative. The luciferase activity was under the
+          background level in all cases and the sections of the
+          frozen lungs showed no tumour cell stained for the
+          β-galactosidase in either L44 or L42 metastasis bearing
+          animals (data not shown, 6 animals per group). Thus, it
+          seems that the metastases are not actively contributing
+          to the levels of mhATF-BPTI in the lungs and the
+          concentration in the metastases should be similar to the
+          concentration in the lung parenchyma (all the blood being
+          washed out). Therefore, the concentration of mhATF-BPTI
+          in the lung of the two rat strains was determined. The
+          results depicted on Table 3show that the mhATF-BPTI
+          concentration is significantly higher (p < 0.001,
+          Scheffe's test) in the Wag/Rij rats than in the Brown
+          Norway rats and is not influenced by the presence of
+          metastasis. The Wag/Rij rats concentrate the mhATF-BPTI
+          in the lung parenchyma about 10 fold, reaching
+          therapeutic levels. In contrast, the same systemic
+          treatment has no effect on the L42 tumour growing
+          subcutaneously, and this can be explained by the fact
+          that tumour does not concentrate the mhATF-BPTI
+          sufficiently.
+        
+        
+          Influence of the tumour mass on the anti tumour
+          activity of mhATF-BPTI
+          Radio- and chemotherapy are usually expected to be
+          less effective on large tumour mass than on small
+          tumours. In contrast, it was shown that certain
+          anti-angiogenic compounds (e.g. Combrestatin) act the
+          other way around, namely that they are more active on
+          large tumours (>10 cm 3) than on small tumours (<1
+          cm 3). The supposed explanation of this peculiar volume -
+          response relationship is based on the concept that the
+          requirement for new vessels increases with the size of
+          the tumour [ 30 ] . Nevertheless, this is not a general
+          rule for angiostatics. Various compounds such as
+          endostatin, metallo proteinase (MMP) inhibitors, and
+          TNP-470 do not inhibit the tumour growth when its size is
+          too large. Thus, large tumours that are richly
+          vascularised might be more sensitive to angiostatic
+          therapy. In order to investigate this issue in the case
+          of ATF-BPTI, two subcutaneous tumours with difference
+          vascular density were treated at different time points
+          (figure 10and 11). In the highly vascularised L44 as well
+          as in the poorly vascularised CC531 tumours, ATF-BPTI
+          could significantly inhibit the growth of the tumours
+          when they were around 100 mm3 at the time of treatment.
+          In contrast, when the tumours reached a volume of 1000
+          mm3, the treatment had no more influence on the tumour
+          growth. The receptor of ATF-BPTI (uPAR) is known to be
+          principally present at the outer edge of the tumour mass
+          and as the volume increases, the proportion of uPAR in
+          the tumour will decrease. Thus, it was expected that
+          large tumour mass were insensitive to the treatment. In
+          this extent, ATF-BPTI is similar to the MMPs inhibitors,
+          in that their best indication would probably be for
+          treatment of residual disease or small metastases.
+        
+      
+      
+        Discussion
+        Agents that inhibit the growth of new vessels in the
+        tumours include a wide range of different compounds. Most
+        of them are not toxic for endothelial cells, but impair the
+        dynamic process of cell proliferation, migration and matrix
+        remodelling. Thus, these agents are mostly effective on the
+        formation of new vessels and not on the pre-existing
+        vasculature. Accordingly such therapy is not expected to
+        cause a dramatic shrinkage of an established tumour. It
+        appears from the different clinical trials with endostatin,
+        thalidomide, the synthetic inhibitors of MMPs, and the
+        different anti-VEGFs that angiostatics, though slightly
+        effective in advanced diseases, are more likely indicated
+        in combination with chemotherapy or radiotherapy and as an
+        adjuvant therapy to treat small tumour masses, in
+        particular local minimal residual disease or
+        micrometastasis. In whatever situation, long term systemic
+        delivery is considered to be the treatment of choice.
+        Therefore gene transfer may offer an advantage. The
+        potential of adenovirus based vectors to infect the liver
+        cells after intravenous injection makes them suitable
+        vectors for establishing a prolonged systemic delivery of
+        the encoded protein. However, our findings so far show that
+        the achievable plasma levels of mhATF-BPTI are limited by
+        adenoviral damage to the liver. To circumvent this
+        limitation, direct injection of the vector in the tumour
+        was employed in an attempt to achieve higher intra tumoral
+        levels of the therapeutic protein.
+        High levels of mhATF-BPTI were achieved in the
+        permissive L42 tumour by local delivery of the vector and
+        subsequently a significant inhibition of tumour growth was
+        obtained. The Wag/Rij rat liver is poorly permissive to the
+        adenoviral infection and accordingly systemic
+        administration of the vector induces low plasma levels of
+        mhATF-BPTI (<80 ng / ml). Consequently, the intra
+        tumoral concentration, though 3 times higher than the
+        plasma levels, was not high enough to inhibit its growth.
+        In contrast, the L42 lung metastasis in the Wag/Rij did
+        respond to the intravenous administration of the vector
+        encoding mhATF-BPTI, though the resulting plasma level was
+        low. It was observed that the mhATF-BPTI accumulated in the
+        lung parenchyma, independently of the presence of
+        metastasis, up to a concentration of about 500 ng / g. This
+        fully explains the therapeutic response observed in this
+        lung metastasis model.
+        In contrast, the L44 adenocarcinoma cells have a low
+        permissiveness to the adenovirus. Consequently, in case of
+        direct intra tumoral delivery of the vector, the tumour
+        concentrations reached were low (<90 ng / g) and tumour
+        responses were not observed. However, the Brown Norway rat
+        liver is 10 times more permissive to the adenovirus and
+        produced high levels of the vector-encoded protein.
+        Additionally, the tumour tissue concentrates 2 to 3 fold
+        the mhATF-BPTI from the plasma, resulting in high intra
+        tumoral levels. Using graded doses of Ad Adapt mhAB, a
+        linear relation was observed between the dose and the
+        plasma level as well as between the dose and the tumour
+        growth delay. It appeared that a significant tumour
+        response could be obtained when the intra tumoral
+        concentration of mhATF-BPTI was above 400 ng / g of tissue.
+        In contrast, at the same plasma levels that inhibited the
+        growth of the subcutaneous L44 could not induce any
+        response on the metastasis in the lungs. The tissue
+        concentration of mhATF-BPTI in the lung of the Brown Norway
+        rats was apparently too low (<180 ng / g) for eliciting
+        a decrease in the number of metastasis.
+      
+      
+        Conclusion
+        The tumour growth inhibition in both poorly and highly
+        vascularised L44 and L42 tumours was achieved only when the
+        concentration of mhATF-BPTI in the tumoral mass or in the
+        surrounding tissue reached a value of at least 300 to 400
+        ng / g. In contrast, mhATF and the human endostatin even at
+        higher molecular plasma concentration than the mhATF-BPTI
+        did not achieve any significant inhibition of tumour growth
+        as in established subcutaneous tumours as well as in
+        micrometastasis in the lungs. Other investigators reported
+        that at those concentrations endostatin and ATF induced
+        responses of tumours and metastases in mice [ 31 32 ] . The
+        absence of a response in our tumour model might be due to a
+        lower sensitivity to angiostatic agents. In that case our
+        results suggest that ATF-BPTI is a more potent agent than
+        endostatin or ATF.
+      
+      
+        List of abbreviations
+        ATF: Amino Terminal Fragment
+        bFGF: Fibrobast Growth Factor b
+        BPTI: Bovine Pancreatic Trypsin Inhibitor
+        GPI: Glycophosphatidylinositol
+        HUVEC: Human Umbilical Vein Endothelial Cell
+        KIU: Kallikrein Inhibition Unit
+        MDV: Micro-Vascular Density
+        mhATF: Murinised human ATF
+        mhATF-BPTI: Murinised human ATF-BPTI
+        MMP: Matrix Metallo-Proteinase
+        TIMP: Tissue Inhibitor of Metallo Protease
+        uPA: Urokinase Plasminogen Activator
+        uPAR: Urokinase Receptor
+        VEGF: Vascular Endothelial Growth Factor
+      
+      
+        Competing interests
+        None declared.
+      
+      
+        Authors' Contributions
+        PL and JA participated in the all aspects of the study
+        and DvB is the principal investigator.
       
     
   

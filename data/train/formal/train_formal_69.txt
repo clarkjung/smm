@@ -2,357 +2,488 @@
   
     
       
-        Introduction
-        The precise role played by CD8 +T cells in the
-        pathogenesis and inflammation of rheumatoid arthritis (RA)
-        is unclear. In the synovial membrane, the most common
-        IFN-γ-producing cell is the CD8 +T cell, suggesting that
-        this population of T cells plays a major role in macrophage
-        activation and perpetuation of the inflammatory response [
-        1 ] . CD8 +T cells were recently associated with the
-        presence of germinal centers in RA synovium [ 2 ] ,
-        suggesting a role for CD8 +T cells in the formation or
-        maintenance of those lymphoid structures in the synovium.
-        Further studies indicated that CD8 +T cells exhibit
-        oligoclonality in the peripheral blood [ 3 4 ] and synovial
-        fluid of RA patients [ 5 ] , raising the question of
-        whether this oligoclonality is antigen driven. However,
-        recent studies have indicated that large numbers of
-        virus-specific CD8 +T cells preferentially accumulate in
-        the synovial fluid of RA patients and that these cells are
-        also oligoclonal, suggesting that non-antigen-specific
-        homing may be responsible for the observed oligoclonality
-        of CD8 +T cells in the synovial fluid [ 6 ] . Because
-        chemokines such as macrophage inflammatory protein-1α and
-        RANTES (regulated upon activation, normal T-cell expressed
-        and secreted) are expressed in RA synovial tissue [ 7 8 ] ,
-        subsets of CD8 +T cells may be preferentially recruited
-        into the synovial tissue in a non-antigen-specific manner.
-        If the expression of chemokines is also accompanied by a
-        perturbation in CD8 +T-cell homeostasis in the periphery
-        that favors differentiation into cell types that can be
-        recruited into the synovium, then a vicious cycle may be
-        set up in RA in which there is continuous generation of CD8
-        +T cells that can be recruited into the synovium, resulting
-        in chronic inflammation and joint destruction.
-        Recently, memory CD8 +T cells were classified into three
-        distinct populations, based on phenotype [ 9 10 11 ] : a
-        central memory population, which is CD45RA -CCR7 +CD62L
-        +CD28 +IL-2 +IFN-γ -; and two effector memory populations,
-        namely the CD45RA -CD62L -CCR7 -and the terminally
-        differentiated CD45RA +CD62L -CCR7 -populations. The two
-        latter effector memory populations contain perforin,
-        secrete IFN-γ and tumor necrosis factor-α, are cytotoxic,
-        and are capable of rapid effector function after
-        stimulation [ 9 10 11 ] .
-        Although a linear model of differentiation has been
-        suggested for these memory populations (i.e. central memory
-        T cells CD45RA -CCR7 +CD62L +→ effector memory T cells
-        CD45RA -CD62L -CCR7 -→ effector memory T cells CD45RA
-        +CD62L -CCR7 - [ 10 ] ), the exact relationship between
-        these populations is not fully established. Indeed,
-        Champagne 
-        et al . [ 12 ] suggested that the
-        differentiation may not be linear at all. The central and
-        effector memory phenotypes of CD4 +and CD8 +T cells in
-        peripheral blood of RA patients are unknown. Determination
-        of these phenotypes in RA may provide important insights
-        into T-cell homeostasis, and we therefore examined the
-        distribution of CD4 +and CD8 +T cells into these
-        subpopulations because such a study may reveal differences
-        in the differentiation of T cells in RA patients. Decreases
-        in some of the subpopulations in peripheral blood may
-        indicate that there is a selective migration of these cells
-        out of the peripheral blood, decreased survival of these
-        cells, or blockade in their differentiation. Perturbations
-        in the homeostasis of memory T cells may play an important
-        role in the pathogenesis of RA by generating effector cells
-        that can contribute to the synovial inflammation of RA.
+        Background
+        Class B biosolids, the most common form of processed
+        sewage sludges used in agriculture, are treated to reduce
+        levels of pathogens by various processes including
+        anaerobic digestion and pH elevation (lime stabilisation).
+        The finished product may contain a wide variety of
+        contaminants with a potential for adverse health effects [
+        1 ] . This includes enteric bacteria, viruses, endotoxins,
+        inorganic and organic sulfides, volatile fatty acids, alkyl
+        amines, and ammonia [ 2 3 ] . No formal pathogens risk
+        assessment has been carried out for public exposure to
+        Class B biosolids [ 4 ] ; and, complaints of sludge-related
+        illnesses reported by residents have not been previously
+        studied.
+        Retrospective studies have been done on workers exposed
+        to sewage sludges who have reported illnesses. Gregersen et
+        al [ 5 ] , for example, investigated five workers who
+        experienced fever and flu-like symptoms after repairing a
+        decanter used for concentrating sludge at a sewage
+        treatment plant. High concentrations of 
+        Legionella pneumophila (serogroup 1)
+        found in the sludge along with positive antibody titers in
+        all five workers indicated that they developed Pontiac
+        fever from contact with sludge. Similarly, NIOSH
+        investigated five workers complaining of headaches, stomach
+        cramps, and diarrhoea at a sludge processing operation [ 6
+        ] . Investigators isolated a variety of enteric,
+        opportunistic pathogens from bulk sludge samples and
+        airborne particulates, including species of the genera 
+        Mycobacterium , 
+        Pseudomonas , and 
+        Staphylococcus . Based on the nature
+        and timing of their symptoms, investigators concluded that
+        ingestion or inhalation of pathogens in sewage sludge
+        probably caused the illnesses.
+        Dorn et al, on the other hand, found no elevated risks
+        of infection in the only epidemiological study done with
+        residents exposed to sewage sludges [ 7 ] . The authors of
+        this prospective study, however, did not determine whether
+        any pathogens were present in the material. Also, because
+        of the low application rates used in the study, they
+        cautioned against extrapolating their data to other
+        sites.
+        Our retrospective investigation was designed to use a
+        survey for describing adverse effects reported by
+        residents, develop an approach for assessing their
+        environmental exposures, and evaluate whether any
+        infections associated with exposure to sewage sludges were
+        prevalent within the group.
       
       
-        Patients and methods
+        Methods
         
-          Patients
-          Peripheral blood was obtained from patients with RA,
-          systemic lupus erythematosus (SLE), and healthy control
-          individuals following Drexel University Institutional
-          Review Board approval and obtaining informed consent. The
-          RA group consisted of eight patients (seven women, one
-          man) with an age range of 33-63 years (mean 49 years).
-          All patients in the group were receiving
-          disease-modifying antirheumatic drugs and were clinically
-          stable. The SLE group consisted of 12 women with an age
-          range of 22-68 years (mean 45 years) who were clinically
-          stable. All patients in the two groups met the American
-          College of Rheumatology criteria for SLE and RA,
-          respectively. Patient profiles and characteristics are
-          shown in Table 1. Age- and sex-matched healthy control
-          groups were included for the RA and the SLE patient
-          groups (control group for RA: 
-          n = 8, age range 32-61 years [mean
-          50 years]; and control group for SLE: 
-          n = 12, age range 22-61 years [mean
-          46 years]). No statistically significant difference was
-          found between the age of the RA patient group and the
-          corresponding healthy control group ( 
-          P > 0.9, by Student's 
-          t -test), between the age of the
-          SLE patient group and the corresponding healthy control
-          group ( 
-          P > 0.9, by Student's 
-          t -test), and between the RA
-          patient group and the SLE patient group ( 
-          P > 0.5, by Student's 
-          t -test).
-        
-        
-          Flow cytometry
-          Heparinized venous blood from RA patients, SLE
-          patients and healthy control individuals was collected,
-          and peripheral blood mononuclear cells were freshly
-          isolated by Ficoll-Hypaque (Amersham Pharmacia Biotech,
-          Uppsala, Sweden). The following monoclonal antibody
-          combinations were used to characterize the phenotypes of
-          T cells:
-          anti-CD45RA-FITC/anti-CD3-PE/anti-CD62L-CyChrome/
-          anti-CD4-APC; and
-          anti-CD45RA-FITC/anti-CD3-PE/anti-CD62L-CyChrome/anti-CD8-APC
-          (PharMingen, San Diego, CA, USA). Briefly, 10 6peripheral
-          blood mononuclear cells were stained with each
-          combination of antibodies in Hanks buffered saline
-          solution (Cellgro, Herndon, VA, USA), 3% fetal bovine
-          serum, and 0.02% NaN 
-          3 for 15 min on ice; washed twice with
-          Hanks buffered saline solution, 3% fetal bovine serum and
-          0.02% NaN 
-          3 ; and fixed with 1%
-          paraformaldehyde. Analysis was performed on a
-          FACS-Calibur (Becton Dickinson, San Jose, CA, USA) using
-          FlowJo software (TreeStar, San Carlos, CA, USA).
+          Surveying residents
+          To indicate the general symptomatology, we surveyed 48
+          affected residents at ten land application sites in
+          Alabama, California, Florida, New Hampshire, Ohio,
+          Ontario, Pennsylvania, and Texas (Table 1).
+          Questionnaires were patterned after a previous
+          epidemiological study in Ohio and based on symptoms
+          associated with exposure to sewage sludges [ 6 7 ] . More
+          specifically, residents were queried about their symptoms
+          and how much time elapsed between exposures and onset.
+          Individuals who were previously questioned by
+          environmental activists were excluded from the survey and
+          medical records were obtained in cases involving death or
+          serious illnesses (those requiring medical
+          attention).
+          Using chi-squared analyses, proportions of individuals
+          reporting a particular symptom at each site were compared
+          with the combined reports for that symptom at all sites. 
+          P indicated how consistently a
+          symptom was reported from site to site, that is, the
+          degree to which numbers of individuals reporting a
+          particular symptom at a given site could be expected
+          based on the frequency of that symptom for all sites
+          combined. Low 
+          P values were indicative of
+          symptoms that were largely independent of confounding
+          health-related and environmental factors (e.g., previous
+          medical history, demographics, sources of biosolids, and
+          environmental conditions).
+          This survey, which did not include an unexposed
+          control group, was primarily intended to describe and
+          document self-reported illnesses. It also provided
+          guidance on which exposure routes (e.g., contaminated
+          drinking water, dermal contact, or inhalation of
+          aerosols) should be the focus of the research. Exposure,
+          on the other hand, was evaluated using a dose-response
+          curve in a separate part of the study concerning
+          environmental assessments.
         
         
-          Statistical analysis
-          Statistical analysis was performed using Mann-Whitney
-          U test, Student's 
-          t -test, linear regression, and
-          Shapiro-Wilk W test for normality. 
-          P < 0.05 was considered
-          statistically significant. The JMP statistical analysis
-          program was used (SAS, Cary, NC, USA).
+          Assessing environmental conditions
+          Sludges used at all but one agricultural site
+          (Ontario), according to county records, were limed or
+          applied to alkaline soils then exposed to weathering.
+          Whether sludges used for mining reclamation in Osceola
+          Mills were lime stabilised, however, was disputed.
+          Residents reported that the area was limed after
+          sludging.
+          County records indicated that biosolids-related
+          complaints for individual patients described in this
+          study were concurrent with land application of Class B
+          biosolids. In the case of one family (Residents 19-22),
+          however, records indicated that dairy wastes, rather than
+          biosolids, had been applied. Unconfirmed reports that
+          dairy wastes had been mixed with Class B biosolids prior
+          to application at this site, however, precluded the
+          authors from ruling out biosolids as a possible cause of
+          the symptoms. According to county officials, soil in this
+          area is naturally alkaline such that irritation similar
+          to that observed with exposure to lime-stabilised sludge
+          may occur.
+          The NH site was used to develop an approach for
+          assessing exposures to windborne contaminants. At the
+          site, approximately 132 metric tons (dry wt) of Class B
+          biosolids containing 12 metric tons of lime and 318 kg of
+          Stockhausen 644BC cationic polymer (Stockhausen, Inc.
+          Greensboro, NC) were applied to a 10-ha field in late
+          October 1995. The field was located at the end of a paved
+          road with eight houses (A-H) and 28 residents.
+          Historical records of symptoms experienced in the
+          neighbourhood were kept by one of the residents. Records
+          began approximately 2 weeks after sludges were applied
+          and continued for approximately two years (1995-96).
+          Descriptions of symptoms included coughing, burning eyes,
+          burning throat, congestion, and difficulty in
+          breathing.
+          To evaluate wind conditions at the site at the time
+          sewage sludge was applied, we used a computer program
+          (WRPLOT Version 3.5, Lakes Environmental Corp., Waterloo,
+          Ontario), topographic information, and historical weather
+          data from Pease Air Force Base located approximately 5 km
+          from the site. Exposure times (h), which were based on
+          duration of wind passing directly from the field toward
+          each house, were determined from wind frequency data
+          averaged for three 8-day periods after sludges were
+          applied (between October 31 - November 23, 1995).
+          Distances (m) each household resided from the nearest
+          edge of the treated field were 23 (A, B); 77 (C), 170
+          (D); 130 (E); 280 (G); and 320 (H).
+          Concentrations of air pollutants to which residents
+          were exposed, relative to concentrations over the treated
+          field, were predicted using an Industrial Source Complex
+          (ISC3) Dispersion Model [ 8 ] . This prediction was not
+          specific for any pollutant. Instead, it was used as a
+          means for possibly ruling out the effects of ammonia,
+          organic amines, or other gaseous or volatile pollutants.
+          Should airborne chemical contaminants be present only at
+          a fraction of a percent of the concentrations present
+          over the treated field, the result would argue against
+          airborne chemical pollutants as a cause of adverse
+          effects. If, on the other hand, pollutants are
+          sufficiently concentrated to cause burning eyes and other
+          symptoms of irritation at the application site, these
+          same effects may occur among residents in areas where
+          pollutant concentrations are not highly diluted.
+          The ISC3 air dispersion model is designed to predict
+          concentrations of pollutants off site based on emission
+          rates of the pollutants at their sources and local
+          meteorological conditions. This approach is unreliable
+          when emission rates cannot be accurately determined.
+          Microbiological process rates, which largely control
+          emission rates of airborne pollutants produced by sewage
+          sludges, are highly unpredictable. To circumvent this
+          problem, the model was used only to predict the relative
+          concentrations of air pollutants between the treated
+          field and potentially affected residences. This approach
+          is based on the dispersion of air pollutants as winds
+          carry them over land surfaces, irrespective of their
+          emission rates at the source.
         
       
       
         Results
-        Naïve and memory subpopulations of CD4 +and CD8 +T cells
-        from RA and SLE patients were compared with those in
-        healthy control individuals to determine T-cell maturation
-        differences between those groups.
-        As compared with the healthy control group, RA patients
-        had fewer CD45RA +CD62L +CD4 +naïve T cells (32 ± 4.8% in
-        RA patients [ 
-        n = 8] and 42 ± 6.5% in healthy
-        controls [ 
-        n = 8], respectively), although this
-        difference was not statistically significant (Fig. 1a,1b).
-        The CD45RA -CD62L +CD4 +central memory T-cell population
-        was significantly increased in RA patients (50 ± 3.7% [ 
-        n = 8]) as compared with the healthy
-        control group (38 ± 4.4% [ 
-        n = 8]; 
-        P < 0.05; Fig. 1a,1b). No
-        differences were found in the CD45RA -CD62L -CD4 +effector
-        memory population (15 ± 2.2% for RA patients and 18 ± 2.6%
-        for healthy controls [ 
-        n = 8 each]) or in the terminally
-        differentiated CD45RA +CD62L -CD4 +effector memory
-        population (1.7 ± 0.5% for RA patients and 2.2 ± 0.6% for
-        healthy controls [ 
-        n = 8 each]; Fig. 1a,1b).
-        In the CD8 +T-cell population, 39 ± 6.2% were CD45RA
-        +CD62L +naïve cells for the RA patients and 28 ± 3.4% for
-        the healthy control group (Fig. 1a,1b). The central memory
-        CD45RA -CD62L +CD8 +T-cell population was significantly
-        increased in RA patients (17 ± 3.5% [ 
-        n = 8]) as compared with the healthy
-        control group (9 ± 1.8% [ 
-        n = 8]; 
-        P < 0.05; Fig. 1a,1b). No
-        difference was found between patients and healthy control
-        group in the CD45RA -CD62L -CD8 +effector memory
-        populations (18 ± 3.2% for RA patients and 25 ± 4.5% for
-        healthy controls [ 
-        n = 8]), whereas the CD45RA +CD62L
-        -CD8 +terminally differentiated effector memory population
-        was significantly decreased in RA patients (26 ± 2.4%) as
-        compared with healthy controls (38 ± 4.8% [ 
-        n = 8]; 
-        P < 0.05; Fig. 1a,1b).
-        No significant differences were found when CD4 +and CD8
-        +T cells of SLE patients were compared with the CD4 +and
-        CD8 +T cells of matched healthy control individuals (Fig.
-        1c). In the CD4 +T-cell population, 35 ± 4.6% of cells from
-        SLE patients and 45 ± 4.7% in the healthy controls
-        exhibited a naïve phenotype; the central memory phenotype
-        was expressed by 42 ± 3.8% of the CD4 +T cells from SLE
-        patients ( 
-        n = 12) and in 37 ± 3.1% of the CD4
-        +T cells from healthy controls ( 
-        n = 12). Of the CD4 +T cells, 20 ±
-        3.6% and 16 ± 2.0% were effector memory cells in the SLE
-        and healthy control groups ( 
-        n = 12 in each), respectively, and
-        only a very small population of the cells were terminally
-        differentiated effector memory CD4 +T cells in SLE patients
-        (2.4 ± 0.9%) and healthy controls (1.7 ± 0.5%; Fig. 1c).
-        The CD8 +T-cell compartment of SLE patients consisted of 42
-        ± 5.6% CD45RA +CD62L +naïve cells, 14 ± 2.9% CD45RA -CD62L
-        +central memory, 20 ± 4.1% CD45RA -CD62L -effector memory,
-        and 24 ± 4.9% CD45RA +CD62L -terminally differentiated
-        effector memory CD8 +T cells ( 
-        n = 12; Fig. 1c). In the healthy
-        control group, 39 ± 5.8% CD45RA +CD62L +naïve cells, 9 ±
-        1.3% CD45RA -CD62L +central memory, 23 ± 3.4% CD45RA -CD62L
-        -effector memory, and 29 ± 5.2% CD45RA +CD62L -terminally
-        differentiated effector memory CD8 +T cells were found ( 
-        n = 12; Fig. 1c).
-        A positive correlation was found between the age and the
-        percentage of CD45RA +CD62L -terminally differentiated
-        effector memory CD8 +T cells in the healthy control group (
         
-        r 2= 0.64 [ 
-        n = 13]; 
-        P < 0.001; Fig. 1d), indicating
-        that this effector population increases with age. However,
-        no such correlation was detected in RA and SLE patients
-        (Fig. 1d). Finally, the frequency of CD45RA +CD62L -CD8 +T
-        cells did not correlate with disease duration or treatment
-        in either RA or SLE patients (data not shown).
+          Residents survey
+          Demographic data for the 48 residents surveyed, along
+          with their symptoms, are listed in Table 1. The average
+          age of the group was 35 years; 56% were female; 23% were
+          smokers. Residents who complained of adverse effects
+          lived within approximately 1 km of the treated fields.
+          Symptoms were primarily associated with sites where
+          freshly applied, lime-stabilised sewage sludges remained
+          on the surface and were exposed to wind erosion.
+          The primary complaints (a fourth or more reporting the
+          symptom) within 1 h of exposure were coughing (63%, 8
+          sites), burning throat (56%, 10 sites), burning eyes
+          (56%, 9 sites), and headaches (46%, 6 sites). Within 24
+          h, residents developed nasal and chest congestion (77%, 7
+          sites), difficulty in breathing (71%, 8 sites),
+          nausea/vomiting (46%, 7 sites), fatigue (33%, 7 sites),
+          and flu-like symptoms (29%, 5 sites). In some cases,
+          symptoms of chemical irritation (e.g., burning eyes,
+          burning throat) recurred for over a year after
+          applications ceased.
+          Proportions of individuals reporting coughing and
+          burning throats exhibited the greatest consistency from
+          site to site ( 
+          P 0.02, 0.03, respectively). Half
+          of the residents reported bacterial, viral or fungal
+          infections within 1 month of exposure (50 %, 8 sites).
+          Most residents also reported symptoms indicating exposure
+          to infectious micro-organisms or microbial products
+          (endotoxins). These included flu-like symptoms (29%, 5
+          sites), nausea/vomiting (46%, 7 sites), diarrhoea (21%, 4
+          sites), rashes (25%, 3 sites), and sinusitis (19%, 5
+          sites).
+          The most common infections identified by medical
+          records were caused by 
+          S. aureus (14 residents at 3 sites,
+          including the additional patients identified in
+          Robesonia). Records indicated that one infection ( 
+          S. lugdunensis , Resident 44) was
+          probably hospital-acquired. Affected residents in
+          Greenland, NH recalled that respiratory infections
+          experienced by individuals in several households treated
+          by the same physician responded to erythromycin, an
+          antibiotic primarily used for treating gram positive
+          bacterial infections.
+          In Menifee, CA, two family members complaining of
+          chemical irritation developed different staphylococcal
+          infections. Resident 17 experienced recurrent 
+          S. aureus infections of the nasal
+          passages and oral cavity. The spouse was hospitalised for
+          an invasive 
+          S. epidermitis infection that
+          developed approximately two days after an undressed
+          surgical incision became contaminated with sand blowing
+          from an adjacent field treated with Class B
+          biosolids.
+          Mild chronic maxillary sinusitis in one child
+          (Resident 18) living in this household deteriorated into
+          recurrent (unidentified) bacterial infections. The
+          patient responded poorly to oral and IV antibiotic
+          therapy, tonsillectomy, and removal of the adenoids.
+          Rigorous antibiotic therapy, including intramuscular
+          injections of rocephrine, also yielded unsatisfactory
+          results.
+          County records showed that Class B biosolids were
+          applied to an adjacent field at the time the
+          above-mentioned illnesses developed. The paediatrician
+          treating patients in the area (author C. Pumphrey) noted
+          that children living near the land application sites
+          appeared to develop abnormally persistent sinusitis.
+        
+        
+          Environmental assessment
+          Samples of sludges collected at the NH site, which
+          were frozen since 1995, retained a strong faecal odour.
+          Microbiological assays showed that they contained (3.2 ±
+          3.5) × 10 5colony-forming units of bacteria per gram but
+          almost no culturable fungi. Predominant culturable
+          bacteria were identified as common gram-negative
+          environmental isolates and included 
+          Alcaligenes faecalis and 
+          Brevundimonas diminuta , which
+          occasionally serve as opportunistic human pathogens.
+          Exposure times (h) for each household when initial
+          symptoms of chemical irritation were reported (Oct 31 -
+          Nov 23) were: 28 ± 25 (A); 48 ± 17 (B, C), 21 ± 12 (D),
+          88 ± 17 (E); and 13 ± 08 (G, H) (mean ± standard
+          deviation, 
+          n = 3). The air-dispersion model
+          indicated that adverse effects from exposure to airborne
+          pollutants from the land application site could not be
+          ruled out as a cause of adverse health effects. Air
+          pollutants at Household C, for example, were frequently
+          present at concentrations of approximately 5 - 40%
+          compared with concentrations 2 m directly above the
+          treated field (Fig. 1).
+          Numbers of individuals who reported adverse effects
+          compared with the total numbers of individuals per
+          household, respectively, were: 2, 2 (A); 2, 2 (B); 5, 5
+          (C), 2, 3 (D); 4, 4 (E); 1, 3 (G); and 1, 5 (H). Data
+          from one household (F) were unavailable. Based on a
+          least-squares analysis, proportions of individuals with
+          symptoms increased linearly from 40 to 80 h ( 
+          r 20.98) with time exposed to wind
+          blowing from the field; all occupants in households with
+          exposure ≥ 80 h reported symptoms (Fig. 2). Proportions
+          of individuals with symptoms also decreased linearly with
+          distance from the field from 130 to 320 m ( 
+          r 20.95); all occupants in
+          households living ≤ 130 m from the field reported
+          symptoms.
+        
+        
+          Prevalence of S. aureusinfections
+          Two cases involving mortality from 
+          S. aureus occurred with individuals
+          who directly contacted freshly applied biosolids. In the
+          first case, an 11-year-old male in Osceola Mills, PA with
+          an unremarkable medical history died of staphylococcal
+          septicaemia. The patient developed a sore throat,
+          headaches, and furuncles on one leg and one arm within
+          several days after riding a motorbike through sewage
+          sludges applied nearby for mine reclamation purposes. A
+          primary care physician prescribed antibiotics and the
+          patient was admitted to the hospital the following day
+          with difficulty in breathing and high fever.
+          S. aureus was isolated from skin lesions and IV
+          antibiotics were administered. The patient developed
+          septicaemia and expired six days after contacting the
+          biosolids. Mine workers in the same area requested a
+          health hazard evaluation after experiencing similar
+          respiratory and skin irritation symptoms that they
+          attributed to biosolids exposure.
+          The second mortality was associated with an outbreak
+          of 
+          S. aureus in Robesonia, PA.
+          According to state records, Class B, lime-stabilised
+          sewage sludges from a local wastewater treatment facility
+          were applied to ten fields comprising a total of 300
+          acres. Applications began in1988 and continued through
+          December 1995. Sewage sludges were applied five times a
+          week at a rate of approximately 1,300 tons (dry wt) per
+          year.
+          Of nine individuals living in or frequenting the house
+          where the outbreak occurred, eight developed 
+          S. aureus infections over a
+          five-year period beginning in February 1993 (Table 2).
+          The house was located across a paved road approximately
+          200 m from the treated field. Three individuals (Patients
+          1, 7, 8) were granted hunting rights on the farmland and
+          frequently traversed treated areas during the application
+          period.
+          Eight additional individuals lived in four other
+          houses that were also located in close proximity to the
+          field (<50 m). These individuals complained of odours,
+          inundation with houseflies, and respiratory symptoms.
+          They associated these problems with application of
+          biosolids; however, they could not recall having any
+          infections.
+          Residents reported that feral cats occupying a barn
+          near the treated field had to be destroyed after
+          developing multiple boils and weeping sores after sewage
+          sludge applications began. Similarly, residents at the
+          New Hampshire site reported that one individual and
+          numerous pets (dogs, cats) developed boils after sewage
+          sludges were applied. Pets may have served as a reservoir
+          of staphylococcal infections in these neighbourhoods and,
+          in some cases, transmitted their infections to
+          humans.
+          Medical records were available for three of the four
+          infected residents: Patients 1, 3, 8. Patient 1, a 17
+          year-old male with a history of excellent health, was
+          treated for a furuncle of the knee in February1993 then
+          succumbed to 
+          S. aureus pneumonia in March 1995
+          after contracting a rotavirus infection and viral
+          pneumonia. Each of four relatives who frequented the
+          house (≥ 2 d/wk) was also infected with 
+          S. aureus . The first of these
+          (Patient 3) developed furuncles concurrently with
+          dermatophytic infections (identified as tinea
+          cruris/tinea corpora). All but two individuals (Patients
+          6, 7) sought medical attention. These patients were
+          self-treated using antibiotics prescribed for other
+          family members. The last 
+          S. aureus infection at Robesonia
+          (Patient 8) occurred approximately two years after
+          biosolids applications ceased.
+          Overall, the prevalence of 
+          S. aureus infections in this study
+          was approximately twenty-five times higher than
+          infections among hospitalised patients, a recognised risk
+          group for 
+          S. aureus [ 9 ] .
+        
       
       
         Discussion
-        The present study shows that the differentiation of
-        peripheral blood CD8 +T cells is skewed in patients with RA
-        and results in an increase in central memory CD45RA -CD62L
-        +CD8 +T cells, with a concomitant decrease in terminally
-        differentiated effector memory CD45RA +CD62L -CD8 +T cells.
-        The increase in central memory CD45RA -CD62L +T cells was
-        also found in the CD4 +T-cell population in RA patients.
-        This skewed differentiation was not observed in healthy
-        age-matched control individuals and in SLE patients,
-        indicating that this perturbation in homeostasis of T cells
-        is a specific feature of RA.
-        Although the naïve/memory phenotype of T cells has
-        previously been investigated in RA in numerous studies
-        using CD45RA and CD45RO expression as markers of naïve and
-        memory cells, respectively, that approach has suffered from
-        the limitation that large numbers of CD45RA +CD8 +T cells
-        are actually effector memory cells [ 10 13 ] . The
-        CD45RA/CD45RO oversimplification has also resulted in
-        rather confusing conclusions regarding T-cell homeostasis,
-        such as defects in primary T-cell homeostasis based on
-        reduced T-cell receptor excision circle (TREC) levels in
-        naïve CD4 +T cells (defined as CD45RO -) in RA patients [
-        14 ] . Our findings suggest that reduced TREC levels in the
-        CD45RO -CD4 +T-cell population may not be due to a
-        reduction in TRECs in naïve cells but rather to reduced
-        TRECs in the CD45RA +CD45RO -CD62L -effector memory CD4 +T
-        cells. It should be noted that previous studies have
-        reported 'false naïve' CD45RA +populations of CD4 +and CD8
-        +T cells in peripheral blood of RA patients [ 15 ] ;
-        however, the nature of these cells, the exact phenotype,
-        and the significance was not known at that time.
-        Our finding that peripheral blood CD8 +T cells exhibit
-        increased central memory phenotype and decreased terminally
-        differentiated effector memory phenotype suggests that the
-        peripheral blood homeostasis of CD8 +T cells is perturbed
-        in RA. Perturbations in CD8 +T-cell maturation have been
-        shown for HIV-specific CD8 +T cells, in which there is an
-        accumulation of preterminally differentiated CD45RA -CD62L
-        -CD8 +T cells [ 12 16 ] , and such a lack of
-        differentiation may result in functional or homing defects.
-        In RA we found a decrease in terminally differentiated
-        CD45RA +CD62L -CD8 +T cells with a concomitant increase in
-        the CD45RA -CD62L +central memory population. If one
-        accepts the linear model of differentiation [ 10 ] , which
-        we note has been challenged [ 12 ] , then our findings
-        indicate that in RA there may be an accelerated
-        differentiation of naïve cells into central memory CD4 +and
-        CD8 +T cells. This accelerated differentiation may be due
-        to a non-antigen-specific effect in RA that differentiates
-        all peripheral T cells irrespective of their specificity,
-        or it may actually reflect an antigen-specific expansion of
-        T cells potentially driven by autoantigen.
-        The decrease in CD45RA +CD62L -effector memory CD8 +T
-        cells in peripheral blood we found in RA patients may
-        reflect a decrease in the survival of these cells. It
-        should be noted, however, that peripheral blood T cells
-        from RA patients do not exhibit an increase in apoptosis in
-        
-        in vitro cultures, which is in
-        contrast to synovial membrane T cells [ 17 18 ] . This may
-        suggest that the skewed phenotype of the CD45RA +CD62L
-        -effector memory CD8 +T cells is more likely due to an
-        increase in the migration of these cells into sites of
-        inflammation. However, a blockade of the differentiation of
-        central memory CD45RA -CD62L +CD8 +T cells into effector
-        memory CD8 +T cells would also result in an increase in the
-        central memory population with a concomitant decrease in
-        the effector T cells, as observed in the present study.
-        Studies of the phenotype of CD8 +T cells in the synovial
-        membrane and fluid may shed light as to whether this skewed
-        phenotype is also found in these sites or whether there is
-        an enrichment for CD45RA +CD62L -CD8 +T cells, indicating
-        increased recruitment into the inflamed synovium in RA.
-        Inflammation and production of chemokines such as
-        macrophage inflammatory protein-1α and RANTES [ 7 8 ] in
-        the synovium may result in preferential recruitment of such
-        effector memory CD8 +T cells (which are important
-        contributors to IFN-γ production) and subsequent macrophage
-        activation, because terminally differentiated CD45RA +CD62L
-        -CD8 +T cells have been shown to express higher levels of
-        perforin and may be more potent effector cells [ 10 ] . The
-        question arises of whether the observed skewed
-        differentiation of CD8 +T cells in RA patients is due to
-        medication, especially steroids. As shown in Table 1, 38%
-        of the RA patients and 58% of the SLE patients were
-        receiving steroid treatment. However, the skewed memory
-        phenotype was only observed in the RA patients, suggesting
-        that this treatment is not responsible for the differences
-        in CD4 +and CD8 +T-cell phenotypes.
-        Findings from the present preliminary study show that
-        peripheral blood CD8 +T cells in RA exhibit a skewed
-        effector memory phenotype. This skewed phenotype was not
-        found in CD4 +T cells in RA and was not seen in age-matched
-        healthy control individuals or in SLE patients. The skewed
-        phenotype may be a result of accelerated differentiation
-        and migration into sites of inflammation. An understanding
-        of the mechanisms that are involved in this skewed
-        differentiation of effector memory CD8 +T cells may prove
-        valuable in elucidating the pathogenesis of RA.
+        Chemical irritants of concern with biosolids include
+        endotoxins, lime, ammonia, and alkyl amines. These
+        contaminants may cause allergic and non-allergic reactions
+        that could contribute to broncho-obstructive and
+        inflammatory responses [ 3 ] . The senior author and two
+        accompanying individuals, for example, experienced
+        coughing, burning eyes, burning throat, headaches,
+        congestion and difficulty in breathing within 1 h while
+        conducting a site visit in Menifee, CA. The visit occurred
+        during a time when residents were reporting these same
+        symptoms. Although high winds were blowing sand from the
+        treated fields, no odour was evident at that time. This
+        experience argued against attributing the symptoms to
+        odour-related psychosomatic responses, which are thought to
+        play an important role in self-reported illnesses
+        associated with human and animal waste-treatment operations
+        [ 2 ] .
+        The lower human colon is the primary reservoir for 
+        S. aureus ; therefore, the organism
+        is a common sewage contaminant. It is known to survive
+        desiccation for days to weeks and can be aerially
+        transmitted [ 10 ] . It tends to invade irritated tissue
+        and infections are a common complication of diaper rash
+        after prolonged contact with urine and faeces [ 11 12 ] .
+        Although it can be part of the natural skin and nasal
+        microflora, risks of infection vary widely among different
+        strains and increase with exposure to virulent strains from
+        other sources. It is a leading cause of nosocomial
+        pneumonia and surgical site and bloodstream infections [ 9
+        ] ; however, the EPA considered it to be a low risk to
+        public health with land applied sewage sludges [ 13 ] .
+        In the case of recurrent 
+        S. aureus infections in Robesonia
+        (Table 1), it was evident that a persistent source of 
+        S. aureus was present. It was
+        unclear, however, whether the strain(s) responsible for the
+        infections had a common environmental source lasting for
+        several years or if certain individuals or pets became
+        persistent carriers and continued to expose others even
+        after land application ceased. Residents reported that
+        tilling the heavily treated soil still, seven years later,
+        draws large swarms of houseflies to the area.
+        A lack of any documented risk of staphylococcal
+        infections among workers processing and handling wastewater
+        and sewage sludges may reflect the fact that workers are
+        more immunocompetent than the general population, or that
+        adequate epidemiological studies have not been done. It may
+        also reflect differences in exposure routes; or, it may
+        suggest that incubation in the field can lead to increased
+        concentrations or virulence of the organism.
+        Risks of infection with 
+        S. aureus may also depend on
+        environmental processes that enhance the ability of sewage
+        sludges to irritate the skin and respiratory tract. As gram
+        negative bacteria die off after sludge application,
+        endotoxin concentrations (a potential source of
+        bronco-pulmonary irritation) increase. As sludges dry in
+        the field, lime and other irritant chemicals become
+        concentrated and, therefore, may be more irritating upon
+        dermal contact and inhalation.
       
       
-        Conclusion
-        In peripheral blood of RA patients a skewed homeostasis
-        of CD8 +T cells was found, with an increase in central
-        memory and a decrease in terminally differentiated effector
-        memory T cells (Fig. 2). This skewed T-cell phenotype was
-        not found in healthy age- and sex-matched control
-        individuals or in patients with SLE. Reduction in
-        peripheral blood effector memory CD8 +T cells in RA may
-        indicate an increase in the migration of these cells into
-        sites of inflammation, and therefore may contribute to
-        ongoing synovial inflammation.
+        Conclusions
+        Federal guidelines advise wearing protective gear and
+        exercising good personal hygiene when handling Class B
+        biosolids or exposed to the aerosols [ 6 14 ] . The nature
+        and timing of symptoms reported by residents suggest that
+        steps should also be taken to protect the public from
+        exposure to airborne contaminants from land application
+        areas. Air-dispersion models, such as the one used in this
+        study, could provide guidance in selecting application
+        sites where exposure of residents would be minimal.
+        The Osceola Mills case, Robesonia outbreak, and the
+        occurrence of staphylococcal infections among residents at
+        other land application sites suggest that risks land
+        application practices pose from these pathogens may be
+        higher than expected. Chemical contaminants in sludges,
+        which irritate the skin and mucous membranes, may be
+        responsible for an increased host susceptibility.
+        Further research is needed to address illnesses among
+        residents exposed to Class B biosolids, especially airborne
+        dusts, and the role irritant chemicals may play in risks
+        posed by low levels of pathogens.
       
       
         Competing interests
         None declared.
       
       
-        Abbreviations
-        IFN = interferon; IL = interleukin; RA = rheumatoid
-        arthritis; RANTES = regulated upon activation, normal
-        T-cell expressed and secreted; SLE = systemic lupus
-        erythematosus; TREC = T-cell receptor excision circle.
+        Authors' contributions
+        DL was responsible for the study's concept and design,
+        supervised the study, participated in the analysis and
+        interpretation of data, drafted the manuscript, and
+        participated in the critical revision of the manuscript. DG
+        supervised and participated in the data collection using
+        air dispersion modelling, participated in the analysis and
+        interpretation of that and other data, contributed to the
+        technical support of the project, and participated in the
+        critical revision of the manuscript. MN participated in the
+        dispersion modelling, conducted the survey of self-reported
+        symptoms, contributed to the computer support and data
+        management of the project, and participated in the revision
+        of the manuscript. SS supervised the isolation and
+        identification of microbial isolates and contributed to the
+        analysis and interpretation of that data. CP treated
+        children living near land application sites in Menifee, CA
+        and participated in the acquisition and interpretation of
+        medical data.
       
     
   

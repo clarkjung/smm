@@ -2,466 +2,635 @@
   
     
       
-        Introduction
-        Autoreactive T cells are primarily eliminated in the
-        thymus by negative selection (central tolerance). Some of
-        the autoreactive T cells, however, may escape from negative
-        selection and are released into the periphery. These
-        self-reactive T cells are exquisitely regulated, and their
-        activation can result in autoimmune diseases. There is
-        accumulating evidence that, in addition to
-        activation-induced cell death or anergy, T-cell-mediated
-        dominant control of self-reactive T cells represents one
-        mechanism for maintaining immunological tolerance [ 1 2 3 ]
-        . Studies conducted in a number of experimental models have
-        demonstrated the existence of regulatory T-cell subsets
-        that prevent activation of autoreactive T cells. Recently,
-        a subset of CD4 +T cells was identified that is present on
-        5-10% of CD4 +T cells in normal naïve mice and expresses
-        CD25 (the α-chain of IL-2 receptor) [ 4 5 ] . Functional
-        analysis of murine CD4 +CD25 +T cells showed that those
-        cells, which constitutively express cytotoxic T-lymphocyte
-        antigen (CTLA)-4 [ 6 7 8 ] , fail to proliferate or secret
-        cytokines in response to polyclonal or antigen-specific
-        stimulation, but inhibit the activation of conventional
-        responsive T cells [ 1 2 3 8 9 ] . The suppressive activity
-        of the CD4 +CD25 +T cells depends on signaling via the
-        negative regulator of T-cell activation CTLA-4 [ 7 ] and
-        requires a cell-cell interaction that possibly involves
-        cell surface bound transforming growth factor (TGF)-β 
-        1 [ 1 10 ] . It has been shown that
-        B7/CD28 costimulation is essential for the development and
-        homeostasis of the CD4 +CD25 +regulatory T cells [ 6 ] ,
-        which play critical roles not only in preventing
-        autoimmunity but also in controlling tumor immunity and
-        transplantation tolerance [ 2 11 ] .
-        Proteoglycan-induced arthritis (PGIA) is a novel
-        autoimmune murine model that is induced by systemic
-        immunization of BALB/c mice with cartilage proteoglycans [
-        12 13 ] . The development of PGIA is based on the
-        cross-reactive immune response between immunizing human and
-        mouse (self) cartilage proteoglycans in genetically
-        susceptible BALB/c mice [ 12 13 ] . Several lines of
-        evidence indicate T-cell involvement in the pathogenesis of
-        PGIA. First, CD4 +T cells selectively proliferate in
-        response to proteoglycan antigens [ 14 ] . Second,
-        prevention of arthritis can be achieved by 
-        in vivo treatment with anti-CD4
-        monoclonal antibodies [ 15 ] . Third, arthritis can be
-        transferred to naïve BALB/c or severe combined
-        immunodeficient (SCID) mice using T and B cells from
-        arthritic animals [ 16 17 18 ] . Fourth, a
-        proteoglycan-specific T-cell hybridoma (T-helper-1 type)
-        can induce arthritis in BALB/c mice [ 19 ] . Finally, CD4
-        +T cells from arthritic animals are resistant to
-        activation-induced cell death [ 20 ] . These data suggest a
-        breakdown of peripheral tolerance and accumulation of
-        autoreactive T cells in the periphery.
-        In order to determine whether CD4 +CD25 +regulatory T
-        cells play a role in the development of PGIA, we monitored
-        the CD4 +CD25 +-expressing regulatory T cells in mice with
-        PGIA during an entire immunization period. We also
-        transferred purified CD4 +CD25 +T cells from naïve BALB/c
-        mice together with spleen cells from arthritic animals, or
-        alternatively transferred CD4 +CD25 +-depleted spleen cells
-        from arthritic animals into SCID mice, and then monitored
-        disease development in SCID mice. In addition, we examined
-        disease incidence in CD28-deficient mice, which have
-        deficiency in CD4 +CD25 +T cells. Our data suggest that the
-        CD4 +CD25 +regulatory T cells might not be essential for
-        controlling the development of PGIA.
-      
-      
-        Materials and methods
-        
-          Antigen, mice and immunization
-          High-density cartilage proteoglycan (aggrecan) was
-          purified from human cartilage, by CsCl gradient
-          centrifugation, and depleted of glycosaminoglycan side
-          chains as described previously [ 21 ] . Female BALB/c
-          mice (National Cancer Institute, Friedrich, MD, USA, or
-          The Jackson Laboratory, Bar Harbor, ME, USA) and
-          CD28-deficient mice (The Jackson Laboratory) were
-          immunized intraperitoneally with cartilage proteoglycan
-          (100 μg protein) in complete Freund's adjuvant on day 0,
-          and boosted with proteoglycan in incomplete Freund's
-          adjuvant on days 21 and 42. Female SCID mice on a BALB/c
-          background (NCI/NCrC.B-17-scid/scid), aged 8-12 weeks or
-          young retired breeders, were purchased from the National
-          Cancer Institute and maintained under germ-free
-          conditions.
-        
-        
-          Assessment of arthritis
-          A standard scoring system, based on swelling and
-          redness of each paw, was used for the assessment of the
-          severity of disease. The first clinical symptom of
-          swelling was recorded as the time of onset of arthritis.
-          Joint swelling was scored (ranging from 0 to 4 in each
-          paw) and expressed as acute cumulative arthritis score,
-          resulting in a possible maximum severity score of 16.
-          Typically, in the primary form of PGIA, BALB/c mice
-          developed swelling and redness in one or more limbs 7-14
-          days after the third injection with proteoglycan and
-          adjuvant. In the transfer system, recipient SCID mice
-          developed a more uniform disease from day 10 after
-          transfer, with involvement of nearly all peripheral
-          joints.
-        
-        
-          Flow cytometry analysis
-          The CD4 +CD25 +-expressing T cells were identified by
-          staining spleen cells with fluorescein isothiocyanate
-          (FITC)-labeled anti-CD4 and biotin-labeled anti-CD25
-          followed by CyChrome-labeled streptavidin (BD PharMingen,
-          San Diego, CA, USA), and analyzed on a flow cytometer
-          (Beckton Dickinson, San Jose, CA, USA). For analysis of
-          intracellular CTLA-4, spleen cells were first stained
-          with the above fluorescence-labeled antibodies, fixed and
-          rendered permeable, and stained with R-phycoerythrin
-          (PE)-labeled anti-CTLA-4 using a Cytofix/Cytoperm kit (BD
-          PharMingen).
-        
-        
-          Purification of CD4 +CD25 +and CD4 +CD25 -T cells
-          and cell transfer in SCID mice
-          The CD4 +CD25 +T cells were purified using a protocol
-          described previously [ 6 ] . Briefly, CD4 +T cells were
-          isolated from spleens of 10- to 12-week-old, naïve,
-          BALB/c mice by negative selection using CD4-enrichment
-          columns (R&D System, Minneapolis, MN, USA). Purified
-          CD4 +T cells were incubated with PE-labeled anti-CD25,
-          and the stained cells were incubated with anti-PE
-          microbeads (Miltenyi Biotech Inc., Auburn, CA, USA). The
-          CD25 +cells were selected on an LS +column (Miltenyi
-          Biotech Inc.). The purity of the CD4 +CD25 +T cells was
-          approximately 90%. The CD4 +CD25 -T cells, which did not
-          bind to magnetic beads, were collected from the flow
-          through the washing steps (purity >98%). A total of 5
-          × 10 5CD4 +CD25 +or CD4 +CD25 -T cells were injected
-          intraperitoneally, along with 1 × 10 7spleen cells from
-          arthritic animals that were depleted of CD25 +cells and
-          100 μg proteoglycan, into SCID mice.
-        
-        
-          Depletion of CD4 +CD25 +T cells and cell
-          transfer
-          Spleen cells from arthritic animals were depleted of
-          CD25 +cells using negative selection as described above
-          (0.5 μg PE-labeled anti-CD25 per 1 × 10 6cells). The
-          depletion of CD4 +CD25 +cells was detected by flow
-          cytometry. Typically, less than 0.3% of the depleted
-          cells expressed CD25. a total of 1 × 10 7CD25 +and CD25
-          -spleen cells, together with 100 μg proteoglycan, were
-          injected intraperitoneally into SCID mice.
-        
-        
-          In vitro suppression assay
-          CD4 +CD25 +T cells (1 × 10 4) isolated from naïve
-          BALB/c mice were mixed with CD4 +CD25 -T cells (5 × 10 4)
-          from arthritic mice in the presence of irradiated
-          syngenic splenocytes as antigen-presenting cells (7.5 ×
-          10 4) with 1 μg/ml soluble anti-CD3 for 3 days or 50
-          μg/ml proteoglycan for 5 days, and T-cell proliferation
-          was determined by [ 3H]thymidine incorporation.
-        
-        
-          Measurements of antigen-specific T-cell responses,
-          antibodies, and cytokine production
-          Antigen-specific T-cell responses were measured in
-          quadriplicate samples of spleen cells (3 × 10
-          5cells/well) cultured in the presence of 50 μg
-          proteoglycan protein/ml. T-cell proliferation was
-          assessed on day 5 by [ 3H]thymidine incorporation [ 14 22
-          ] . Antigen (proteoglycan)-specific interferon-γ, IL-10,
-          and IL-4 production by T cells was determined in media
-          collected on day 4 using capture enzyme-linked
-          immunosorbent assays (ELISAs) from BioSource
-          International, Inc. (Camarillo, CA, USA). For induction
-          of TGF-β 
-          1 , spleen cells were cultured in
-          serum-free medium X-Vivo-20 (BioWhittaker, Inc.,
-          Walkersville, MD, USA) in the presence of proteoglycan.
-          Total TGF-β 
-          1 was measured after acidification to
-          activate latent TGF-β, followed by neutralization using
-          an ELISA kit from Promega (Madison, WI, USA).
-          Maxisorp immunoplates (Nunc, Rochester, NY, USA) were
-          coated with human or mouse cartilage proteoglycans (0.1
-          μg protein/100 μl per well) for ELISA, and free binding
-          capacity of the wells was blocked by 1% fat-free milk in
-          phosphate-buffered saline [ 23 24 25 ] . Sera were
-          applied at increasing dilutions and isotypes of
-          proteoglycan-specific antibodies were determined using
-          peroxidase-conjugated rat antimouse IgG 
-          1 or IgG 
-          2a secondary antibodies (Zymed, South
-          San Francisco, CA, USA) as previously described [ 24 26 ]
-          . Serum antibody levels were calculated according to
-          mouse IgG 
-          1 and IgG 
-          2a standards. Mouse IgG 
-          1 and IgG 
-          2a standards were purified by
-          sepharose-coupled protein G from irrelevant
-          (non-proteoglycan-specific) monoclonal
-          antibody-containing ascites fluids and coated directly
-          onto the microplate's surface.
-        
-        
-          Statistical analysis
-          Statistical analysis was performed using SPSS v7.5
-          (SPSS, Chicago, IL, USA). The Mann-Whitney and Wilcoxon
-          tests were used for intergroup comparisons. 
-          P < 0.05 was considered
-          statistically significant.
-        
+        Background
+        Within the long DNA molecules of eukaryotic chromosomes,
+        some replication origins fire more frequently than others.
+        In most cases, it is not clear why certain origins are
+        preferred. In several species, however-fruit flies ( 
+        Drosophila melanogaster ) [ 1, 2],
+        budding yeast ( 
+        Saccharomyces cerevisiae ) [ 3, 4, 5,
+        6], and fission yeast ( 
+        Schizosaccharomyces pombe ) [
+        7]-evidence suggests that sequences called "replication
+        enhancers" stimulate nearby origins. This stimulation is
+        independent of enhancer orientation and, within a limited
+        range, independent of distance to the origin.
+        Replication enhancers in fruit flies control the
+        programmed amplification (extra rounds of replication in
+        non-cycling cells) of chorion gene clusters on the third
+        and X chromosomes. On the third chromosome, several 
+        cis -acting sequences, 
+        ACE3 and 
+        AER-a through 
+        AER-d , are essential for
+        amplification [ 1, 2]. Of these, 
+        ACE3 is quantitatively the most
+        important. Its ability to stimulate amplification is both
+        orientation- and (within 1.5 kbp) distance-independent. It
+        has been localized to a 320-bp region, and the effects of
+        internal deletions suggest that it contains multiple
+        partially redundant internal domains [ 2]. Whether it can
+        stimulate non-chorion replication origins has not, to our
+        knowledge, been tested.
+        In budding yeast, replication enhancers have been found
+        near several different chromosomal replication origins. In
+        several cases, the enhancers bind transcription factors [
+        3, 4, 5]. In all cases tested so far, budding yeast
+        enhancers have proved to be origin-specific; they stimulate
+        only the origin with which they are normally associated in
+        the chromosome [ 5, 6].
+        The replication enhancer that has been studied in
+        fission yeast is part of the 
+        ura4 origin cluster - a group of
+        three origins, called 
+        ars3003, ars3002 and 
+        ars3004 in their order from left to
+        right upstream of the 
+        ura4 gene in the left portion of
+        chromosome III (green boxes in Fig. 1; [ 7, 8, 9]). We
+        recently found that 
+        ars3002 and 
+        ars3004 overlap by ~400 bp (between
+        the 
+        Eco RI and 
+        Hin cII sites, Fig. 1; [ 7]). The
+        overlap region is essential for 
+        ars3004 to function as a replication
+        origin in plasmids. In contrast, the ~800-bp 
+        Eco RV- 
+        Eco RI fragment containing core 
+        ars3002 (without the overlap) is
+        sufficient for plasmid origin function. However, addition
+        of the overlap region to core 
+        ars3002 dramatically increases its
+        plasmid origin activity [ 7]. Moreover, although the
+        overlap region has no plasmid origin activity of its own,
+        it strongly stimulated the plasmid origin activity of all
+        other tested origins ( 
+        ars3001 and 
+        ars3003 ), and it did so in a
+        relatively distance- and orientation-independent fashion [
+        7]. For these reasons, we call the overlap region a
+        "replication enhancer" (yellow RE in Fig. 1). We consider
+        the enhancer to be a functional part of both 
+        ars3002 and 
+        ars3004 . We found that the enhancer
+        could not be substituted by a DNA fragment of the same size
+        and base composition but different nucleotide sequence [
+        7]. This observation suggests that specific nucleotide
+        sequences within the enhancer are required for its
+        function.
+        Previously we characterized sequence elements within
+        core 
+        ars3002 that are important for its
+        activity as a plasmid replication origin [ 10]. Now we have
+        asked whether the sequence elements previously identified
+        as important are also important when core 
+        ars3002 is combined with the
+        replication enhancer to form extended 
+        ars3002 . We have also determined
+        which sequences within the enhancer are most important for
+        its ability to stimulate 
+        ars3002 .
       
       
         Results
         
-          Lack of correlation between development of
-          arthritis and expression of CD4 +CD25 +regulatory T cells
-          in PGIA
-          To elucidate the role of these regulatory T cells in
-          autoimmune arthritis, we first followed up the CD4 +CD25
-          +-expressing regulatory T cells in mice with PGIA during
-          the entire course of immunization. To exclude the
-          possibility that different CD4 +CD25 +-expressing T cells
-          may be a strain- and/or antigen-dependent phenomenon, we
-          immunized BALB/c mice (PGIA-susceptible strain) and
-          C57BL/6 (arthritis-resistant strain) with human cartilage
-          proteoglycan or ovalbumin. As shown in Fig. 1, BALB/c
-          mice immunized with human cartilage proteoglycan started
-          to develop arthritis after the third injection and the
-          incidence of arthritis reached 100% at day 72 following
-          the third immunization, whereas BALB/c mice immunized
-          with ovalbumin or C57BL/6 mice immunized with
-          proteoglycan were completely resistant to PGIA. The CD4
-          +CD25 +-expressing T cells detected 14 days after each
-          immunization from each experimental group were similar
-          during the entire course of immunization (Fig. 2a). This
-          observation suggests that the CD4 +CD25 +regulatory T
-          cells might not be involved in the development of PGIA.
-          Although it has been shown that the CD4 +CD25 +regulatory
-          T cells can suppress the development of autoimmunity, a
-          recent report [ 27 ] demonstrated that depletion of the
-          CD4 +CD25 +T cells is necessary but not sufficient for
-          induction of autoimmune gastritis.
-          It has been shown that the CD4 +CD25 +regulatory T
-          cells express CTLA-4 [ 6 7 8 ] , which is a negative
-          regulator of T-cell activation. The suppressive activity
-          of the CD4 +CD25 +regulatory T cells may in part be
-          ascribed to signaling through CTLA-4. CTLA-4 may
-          transduce an activating signal to CD4 +CD25 +regulatory T
-          cells [ 2 ] . Although we did not detect any significant
-          decrease in numbers of the CD4 +CD25 +regulatory T cells
-          between proteoglycan-immunized BALB/c and C57BL/6 mice,
-          this might be due to reduced expression of CTLA-4 in the
-          CD4 +CD25 +regulatory T cells from proteoglycan-immunized
-          BALB/c mice. To test this possibility, we then detected
-          CTLA-4 expression on the CD4 +CD25 +regulatory T cells
-          using intracellular staining. There was no significant
-          difference between levels of CTLA-4 expression in the CD4
-          +CD25 +regulatory T cells from each group (Fig. 2b). This
-          finding excludes the possibility that reduced expression
-          of CTLA-4 in the CD4 +CD25 +regulatory T cells from
-          BALB/c mice with PGIA may mediate the induction of the
-          disease.
+          Effects of deleting consecutive ~50-bp stretches
+          throughout extended ars3002:
+          To determine which nucleotide sequences are most
+          important for core origin and enhancer function, we
+          constructed consecutive ~50-bp deletions throughout
+          extended 
+          ars3002 . To simplify production of
+          these deletion mutants, we destroyed the 
+          Eco RI site between the core 
+          ars3002 and the enhancer and
+          introduced a 
+          Cla I linker (see Materials and
+          Methods). This manipulation did not cause any detectable
+          change in plasmid origin activity (data not shown). All
+          deletions were constructed in this altered plasmid. They
+          are called Δ1-Δ22. Their locations are shown in Figure 2,
+          which also shows the positions of the inactivated 
+          Eco RI site (light orange
+          highlight) and of the introduced 
+          Cla I linker (yellow highlight).
+          Note that Δ1-Δ15 are located in core 
+          ars3002 and correspond in position
+          precisely to the ~50-bp deletions previously studied in
+          this region [ 10].
+          Figure 3ashows the average values of four independent
+          transformation experiments with constructs containing
+          (from left to right): intact extended 
+          ars3002 (Ext), ~50-bp deletions
+          Δ1-Δ22, core 
+          ars3002 (lacking the replication
+          enhancer), and vector alone. All results were calculated
+          relative to the values generated by extended 
+          ars3002 . Blue bars indicate
+          relative transformation frequency (number of colonies
+          generated per 100 ng input DNA), and gold bars indicate
+          the relative average areas of the transformed colonies,
+          which is a reflection of colony growth rate. In general,
+          the more efficiently a plasmid replicates, the greater
+          the number of transformed colonies and the faster those
+          colonies grow under conditions that select for plasmid
+          maintenance [ 7, 10, 11, 12]. Notice that the replication
+          efficiencies of all the deletions, except Δ10, are
+          greater than those of intact core 
+          ars3002 (core, Fig. 3a), which was
+          the subject of our previous study [ 10].
+          For comparison purposes, the results from our previous
+          study of core 
+          ars3002 are displayed in Fig. 3b.
+          In the previous study, we measured replication efficiency
+          only by the transformation frequency assay (blue bars).
+          The results were expressed relative to those obtained for
+          intact core 
+          ars3002 . Note that our new results
+          (Fig. 3a) show that the transformation frequency of
+          intact core 
+          ars3002 is only about 40% that of
+          extended 
+          ars3002 . Thus the heights of the
+          blue bars in Fig. 3bare exaggerated compared to those in
+          Fig. 3a. The previous transformation frequency results
+          (Fig. 3b) revealed that the Δ4-Δ14 regions are important
+          for the transformation activity of core 
+          ars3002 , and the Δ8 and Δ10
+          regions are essential. Our new transformation frequency
+          results (blue bars in Fig. 3a) show that in the context
+          of extended 
+          ars3002 with its replication
+          enhancer, none of the ~50-bp deletion regions within the
+          core is individually essential for transformation
+          activity, and only the Δ10 region is important.
+          As discussed in detail below, we have found that when
+          plasmid origin efficiency is generally high, colony size
+          measurements are more sensitive indicators of small
+          differences in origin activity than are transformation
+          frequency measurements. For that reason we interpret the
+          colony size reductions produced by deletions Δ11-Δ14
+          (Fig. 3a) to indicate that these deletions cause a small
+          decrease in plasmid origin activity, even though these
+          deletions have no effect on transformation
+          efficiency.
+          Thus the transformation frequency and colony size
+          results show that sequences within the enhancer partially
+          or completely suppress the negative effects of deletions
+          Δ4-Δ14 on the plasmid origin activity of core 
+          ars3002 . The simplest explanation
+          of this observation is that sequences within the
+          enhancer-in combination with other core sequences-are
+          partially or fully competent to carry out each of the
+          replication functions mediated by each of the ~50-bp
+          regions within the core. Note that the enhancer must work
+          in combination with the core, because the enhancer by
+          itself has no plasmid origin activity [ 7].
+          It is interesting that deletion Δ15, which is part of
+          the core but was not previously tested due to a cloning
+          problem [ 10], has a slight stimulatory effect on colony
+          size, implying that region 15 may be a mild suppressor of
+          plasmid origin activity. The stimulatory effect of
+          deleting region 15 is more obvious in the double and
+          triple deletion analyses to be presented below (Fig.
+          5).
+          The results in Fig. 3aalso indicate that there is
+          considerable sequence redundancy within the enhancer
+          itself. None of the ~50-bp deletions within the enhancer
+          (Δ16-Δ22) reduces transformation frequency. Therefore
+          none of these regions is uniquely essential for enhancer
+          activity. However, some of the deletions (Δ16-Δ20)
+          moderately reduce colony size, indicating that each of
+          the corresponding regions (16-20) makes a modest unique
+          contribution to enhancer activity.
         
         
-          CD4 +CD25 +regulatory T cells may not control
-          autoimmune arthritis
-          To further investigate whether the CD4 +CD25 +T cells
-          play a role in PGIA, we performed adoptive transfer
-          experiments using SCID mice as recipients. Purified CD4
-          +CD25 +regulatory T cells (3-20 × 10 5) from naïve BALB/c
-          mice, together with 10 7spleen cells from arthritic mice
-          that were depleted of CD25 +T cells and 100 μg
-          proteoglycan, were injected intraperitoneally into SCID
-          mice [ 18 ] , and the incidence and severity of disease
-          were monitored. Note that we used different ratios of the
-          CD4 +CD25 +regulatory T cells to the effector cells, and
-          we did not observe any suppression of arthritis
-          development. As a control, the same number of CD4 +CD25
-          -T cells, together with arthritogenic spleen cells that
-          were depleted of CD25 +cells, and proteoglycan, were also
-          adoptively transferred into SCID mice. The transfers of
-          CD4 +CD25 +T cells did not have any impact on incidence
-          and severity of the disease in SCID mice as compared with
-          transfer of CD4 +CD25 -T cells (Fig. 3a), suggesting that
-          the CD4 +CD25 +regulatory T cells did not protect SCID
-          mice from arthritis. To further verify these results, a
-          depletion experiment was conducted. Spleen cells from
-          arthritic animals, either depleted of CD25 +cells or
-          without depletion, were injected into SCID mice together
-          with proteoglycan. The incidence and severity of
-          arthritis in SCID mice receiving spleen cells containing
-          CD25 +cells or spleen cells depleted of CD25 +cells were
-          identical (Fig. 3b). Proteoglycan-specific T-cell
-          proliferation and production of IL-4, interferon-γ,
-          IL-10, TGF-β 
-          1 and antiproteoglycan autoantibodies
-          were comparable in both transfer groups (Fig. 3c). The
-          inability of the CD4 +CD25 +regulatory T cells to
-          suppress PGIA was not due to loss of their suppression
-          activity, because 
-          in vitro the CD4 +CD25 +T cells
-          could effectively inhibit the proliferation of the CD4
-          +CD25 -T cells (Fig. 3d, left panel). Interestingly,
-          proteoglycan-induced proliferation of CD4 +CD25 -T cells
-          could not be inhibited by the CD4 +CD25 +T cells (Fig.
-          3d, right panel), which is consistent with a recent
-          report that the effective function of the CD4 +CD25
-          +regulatory T cells is T-cell receptor (TCR) specific [
-          28 ] . Collectively, our data suggest that the CD4 +CD25
-          +regulatory T cells may not be involved in the
-          development of PGIA.
+          Comparison of colony size measurements with plasmid
+          retention rate measurements:
+          In Fig. 3awe used both transformation frequency and
+          colony size to evaluate plasmid origin activity.
+          Transformation frequency is the standard assay for
+          plasmid origin activity in 
+          S. pombe [ 9, 12, 13]. Colony size
+          measurement is usually more reproducible than
+          transformation frequency measurement (compare the error
+          bar sizes in Fig. 3a), but colony size measurement is a
+          newer assay and not yet so widely used [ 7, 11, 12].
+          Furthermore, the results obtained with the two assays are
+          not identical. Two of the mutants studied in Fig. 3a(Δ19
+          and Δ20) produce elevated transformation frequencies
+          combined with slightly reduced colony sizes. Other
+          mutants (Δ11-Δ14, Δ16) yield normal transformation
+          frequencies and significantly reduced colony sizes. Only
+          in the cases of Δ10 and core 
+          ars3002 are transformation
+          frequency and colony size simultaneously reduced.
+          For these reasons, it seemed important to check the
+          validity of colony size measurement by comparing it to an
+          alternative well-established indicator of plasmid origin
+          activity-plasmid retention rate under selective
+          conditions (reviewed in [ 12]). Plasmid retention rate is
+          the proportion of cells containing plasmid during
+          exponential growth in selective medium. To simplify our
+          measurements, we divided the mutants into three groups
+          based on the relative colony size data in Fig. 3a. The
+          mutants in group C (Δ10, Δ13 and Δ14) generated the
+          smallest colonies (20-38 % of the area of those generated
+          by the control, which was intact extended 
+          ars3002 ). The mutants in group B
+          (Δ7, Δ11, Δ12, Δ16-Δ20) produced larger colonies (50-79 %
+          of control). The rest of the mutants were in group A
+          (colony size >80 % of control). Then we selected three
+          mutants from each group and tested plasmid retention rate
+          in selective medium for two to five independent
+          transformants for each of the selected mutants.
+          Our results reveal a correlation between colony size
+          (panels on the left side of Fig. 4; see also the relevant
+          gold bars in Fig. 3a) and plasmid retention rate (right
+          column in Fig. 4). The plasmid retention rates of the 3
+          tested mutants in group A (largest colonies) are 60-70%,
+          for group B (medium-size colonies) they are 38-65%, and
+          for group C (smallest colonies) they are 17-29%. This
+          correlation suggests that colony size measurement
+          provides a valid assay of plasmid origin activity in
+          fission yeast. Note, however, that none of the tested
+          group A mutants had a plasmid retention rate as high as
+          that of extended 
+          ars3002 (98%), despite the fact
+          that both their transformation frequencies and their
+          colony sizes were equal to or slightly greater than those
+          of extended 
+          ars3002 (Fig. 3a). We do not have
+          an explanation for this discrepancy. It is possible that
+          plasmid retention rate is more sensitive than colony size
+          or transformation frequency to small differences in the
+          plasmid origin activity of highly efficient replication
+          origins. We also do not have an explanation for the fact
+          that the Δ7 mutation led to colony sizes in the medium
+          (group B) range but plasmid retention rates in the higher
+          (group A) range (Fig. 4).
+          In the case of origins of somewhat lower (but still
+          high) replication efficiencies, these and previous
+          results [ 7, 11] suggest to us that colony size may be a
+          more sensitive indicator of plasmid origin activity than
+          is transformation frequency. These results also suggest
+          that transformation frequency may be a good indicator of
+          plasmid origin activity only when replication efficiency
+          is relatively low. Consider, for example, deletions
+          Δ11-Δ14. In Fig. 3a, where the effects of these deletions
+          were measured in the context of extended 
+          ars3002 (with enhancer; efficient
+          replication), these deletions had no effect on
+          transformation frequency but did reduce colony size. Fig.
+          3bshows that when these same deletions were assayed in
+          the absence of the enhancer (so overall replication
+          efficiency was much lower), each deletion significantly
+          reduced transformation frequency [ 10]. Qualitative
+          results presented in our previous publication [ 10]
+          showed that each deletion also reduced colony size. Thus
+          colony size and transformation frequency measurements
+          seem to vary together when replication efficiency is
+          sufficiently low.
         
         
-          CD28-deficient mice have severely reduced CD4 +CD25
-          +regulatory T cells but are resistant to PGIA
-          It has been shown that CD28-B7 interaction is
-          essential for the homeostasis of the CD4 +CD25
-          +regulatory T cells that control autoimmune diabetes [ 6
-          ] . Consistent with that report, the expression of CD4
-          +CD25 +regulatory T cells was found to be significantly
-          reduced as compared with that in wild-type BALB/c mice
-          (Fig. 4a). To investigate whether a deficiency in the CD4
-          +CD25 +regulatory T cells may lead to an increase in the
-          development of PGIA, we immunized wild-type and
-          CD28-deficient BALB/c mice with proteoglycan, and disease
-          incidence was monitored. In contrast to the report in
-          autoimmune diabetes [ 6 ] , CD28-deficient BALB/c mice
-          were highly resistant to induction of arthritis, albeit
-          at a low percentage of the CD4 +CD25 +regulatory T cells
-          observed in these mice (Fig. 4b). Note that T cells from
-          proteoglycan-immunized CD28-deficient mice proliferate in
-          response to proteoglycan stimulation, albeit at a rate
-          lower than that in wild-type T cells (Fig. 4c),
-          suggesting that CD28-deficient T cells can be effectively
-          primed.
+          Effects of larger deletions on enhancer
+          activty:
+          Because deletions of stretches of ~50 bp within the
+          enhancer had no effects on transformation frequency and
+          only mild effects on colony size (Fig. 3a), we also
+          tested ~100-bp deletions (double deletions of adjacent
+          ~50-bp stretches, Fig. 5a) and ~150-bp deletions (triple
+          deletions of adjacent ~50-bp stretches; Fig. 5b) in the
+          enhancer region.
+          The data in Figs. 3aand 5suggest that regions 16-20
+          all make individual contributions to enhancer activity.
+          Although individual deletion of region 21 does not have a
+          measurable effect (Fig. 3a), loss of region 21 along with
+          region 20 (Fig. 5a) does significantly reduce enhancer
+          activity. Regions 15 and 22 appear to suppress enhancer
+          activity. Although their individual loss does not have
+          much effect-just a slight stimulation of colony size
+          (Δ15) or transformation frequency (Δ22)-their loss is
+          capable of totally suppressing the negative effects of
+          simultaneous deletion of adjacent sequences (Δ16 and Δ17
+          or Δ20 and Δ21, respectively; Figs. 3aand 5).
+          Region 16 is the ~50-bp region whose deletion most
+          affects enhancer activity (Fig. 3a). However, deletion of
+          region 16 by itself affects only colony size. In
+          contrast, deletions of two ~100-bp stretches (Δ16-17 and
+          Δ20-21) severely reduce both colony size and
+          transformation frequency (Fig. 5a). Two ~150-bp deletions
+          (Δ16-18 and Δ19-21) have even more severe effects,
+          reducing both transformation frequency and colony size to
+          the levels of the enhancerless core, within experimental
+          error (Fig. 5b). The progressively more severe phenotypes
+          of single, double, and triple deletions indicate partial
+          redundancy of function between the three ~50-bp stretches
+          of which each of the two essential ~150-bp regions is
+          composed.
         
       
       
         Discussion
-        A controlled balance between initiation and
-        downregulation of immune responses (peripheral tolerance)
-        is important for maintaining immune homeostasis, whereas
-        dysfunctional immune regulation may lead to chronic
-        inflammation or autoimmunity [ 29 ] . The CD4 +CD25
-        +regulatory T cells have been shown to suppress
-        autoimmunity in several animal models [ 2 ] . To evaluate
-        the role of the CD4 +CD25 +regulatory T cells in PGIA,
-        three approaches were used. First, the numbers of the CD4
-        +CD25 +cells in spleens of susceptible versus resistant or
-        ovalbumin immunized mice were assessed by flow cytometry at
-        day 14 following immunization. No significant change in the
-        numbers of the CD4 +CD25 +cells was observed among
-        experimental groups tested (Fig. 2a). Moreover, the levels
-        of expression of CTLA-4 in the CD4 +CD25 +cells was similar
-        between groups. These data suggest that the CD4 +CD25
-        +cells may not be involved in the development of PGIA.
-        Although the immune system had been perturbed by
-        immunization, CD4 +T cells isolated 14 days after
-        immunization of each group did not show significant
-        increase in CD25 expression as compared with that in naïve
-        mice, suggesting that T cells activated by immunization had
-        become resting memory T cells.
-        To further evaluate the role of the CD4 +CD25 +cells in
-        PGIA, an adoptive transfer system was employed. Different
-        ratios of activated effector cells (CD25-depleted spleen
-        cells) to CD4 +CD25 +cells were tested in our cotransfer
-        experiments. No suppression of development of PGIA in SCID
-        mice was observed. Although one could argue that the ratio
-        of effector cells to regulatory cells is not sufficiently
-        great to inhibit disease, we tested a wide range of ratios
-        of effector cells to regulatory cells (5-30 : 1) in our
-        transfer system, and similar results were observed. We did
-        not observe any inhibition at the ratios used in the
-        present study. However, we cannot completely exclude the
-        possibility that 1-4 : 1 ratios may be required for
-        suppression of PGIA. In view of the published literature,
-        this is unlikely because most studies of this type used
-        ratios greater than 20 : 1 [ 6 ] . This finding is further
-        supported by the evidence that adoptive transfer of
-        CD25-depleted splenocytes from arthritic mice does not
-        exacerbate disease in SCID mice. The CD4 +CD25 +T cells are
-        functionally normal because the CD4 +CD25 +cells can
-        significantly inhibit the proliferation of the CD4 +CD25
-        -cells induced by TCR stimulation (Fig. 3d, left panel). No
-        alteration in IL-10 and TGF-β production could be detected
-        in two transfer groups (Fig. 3c). Taken together, our data
-        suggest that the CD4 +CD25 +regulatory T cells may not
-        regulate the development of PGIA.
-        We found that CD28-deficient mice, which have a low
-        frequency of CD4 +CD25 +T cells, are resistant to PGIA.
-        Although one may argue that, in the absence of CD28, T-cell
-        priming by proteoglycan immunization may be defective.
-        However, CD28-deficient T cells from proteoglycan-immunized
-        animals can proliferate in response to proteoglycan
-        stimulation 
-        in vitro , albeit at a rate lower
-        than that in wild-type T cells, which is consistent with
-        the report by Oliveira-dos-Santos 
-        et al . [ 30 ] . It has been
-        demonstrated that, in the absence of CD28 engagement, T
-        cells require very high TCR occupancy and prolonged
-        stimulation, whereas CD28 costimulation allows T cells to
-        respond to lower degrees of TCR occupancy [ 30 31 ] . In
-        support of this observation, CD28 -/-mice can still mount
-        immune responses, which vary in magnitude and efficiency
-        depending on the antigen or infectious agent [ 30 32 ] .
-        Our results and those reported by others [ 30 ] suggest
-        that CD28 may regulate the threshold for T-cell activation.
-        In support of this notion, immunization of CD28-deficient
-        mice with high concentrations of myelin basic protein
-        induces experimental autoimmune encephalomyelitis at
-        similar prevalence and severity as in wild-type mice [ 30 ]
-        . Our data suggest that the CD4 +CD25 +regulatory T cells
-        might be important for controlling spontaneous models of
-        autoimmunity but not for induced models of autoimmunity. In
-        induced models of autoimmunity, the CD28-B7 interaction has
-        been shown to regulate disease susceptibility by rendering
-        autoreactive T cells anergic, or alternatively by
-        upregulating the threshold for autoreactive T-cell
-        activation [ 30 ] . Furthermore, we previously showed that
-        impaired Fas-mediated activation-induced cell death (AICD)
-        of autoreactive T-helper-1 cells may be responsible for the
-        development of PGIA [ 20 ] . Therefore, AICD and/or T-cell
-        anergy, but not the CD4 +CD25 +regulatory T cells, may be
-        responsible for deletion or inactivation of autoreactive T
-        cells in autoimmune arthritis.
+        This paper describes the first attempt in any organism
+        to determine how the presence of a replication enhancer
+        next to a core replication origin alters the relative
+        importance of the sequences within the core origin. It also
+        describes the first attempt in any yeast to map the
+        nucleotide sequences important for function within a
+        replication enhancer.
+        We have previously shown that 
+        ars3002 is the most active of the
+        three replication origins in the 
+        ura4 origin cluster on the left end
+        of fission yeast chromosome III (Fig. 1; [ 7, 8]). We have
+        also shown that core 
+        ars3002 is no more active as a
+        plasmid replication origin than is 
+        ars3003, whereas extended 
+        ars3002 is more active than 
+        ars3003 in the chromosome because the
+        core activity is stimulated by the adjacent replication
+        enhancer (Fig. 1), which is also part of 
+        ars3004 but which has no plasmid
+        replication origin activity of its own [ 7].
+        As a first step toward understanding the mechanism of
+        replication enhancement, we have generated consecutive
+        ~50-bp deletions throughout the 
+        ura4 replication enhancer (Fig. 2),
+        and we have tested the effects of these deletions on the
+        activity of 
+        ars3002 as a plasmid replication
+        origin (Fig. 3a). We also tested the effects of ~50-bp
+        deletions within core 
+        ars3002 . The effects of these
+        deletions within core 
+        ars3002 had previously been measured
+        for core 
+        ars3002 by itself (Fig. 3b; [ 10]).
+        Here we determined their effects for extended 
+        ars3002 (core 
+        ars3002 plus enhancer). These
+        experiments showed that enhancers deleted for each of the
+        ~50-bp stretches within the enhancer were nevertheless
+        capable of stimulating core 
+        ars3002 . Thus, none of the ~50-bp
+        stretches within the enhancer is essential for enhancer
+        activity. However, deletion Δ16 at the core-proximal end of
+        the enhancer significantly reduced plasmid origin activity
+        as measured by the colony size assay (Fig. 3a).
+        These experiments also demonstrated that many of the
+        ~50-bp stretches that are important for core 
+        ars3002 function (Fig. 3b) are not
+        important for extended 
+        ars3002 function. The ~50-bp stretch
+        that proved most important for extended 
+        ars3002 function is region 10. Its
+        deletion (Δ10 in Fig. 3a) dramatically reduced plasmid
+        origin function by both the transformation frequency and
+        colony size assays. Region 10 contains a stretch of 20
+        consecutive adenines in the top strand (Fig. 2). Short runs
+        of adenines and thymines are also present in multiple
+        locations elsewhere in 
+        ars3002 (Fig. 2). These may be
+        binding sites for the 
+        S. pombe Origin Recognition Complex
+        (ORC), whose fourth largest subunit (Orp4) contains a
+        multiple AT-hook domain, which permits it to bind with high
+        affinity to DNA containing runs of adenines or thymines in
+        one strand [ 14, 15]. In fact, the largest subunit of 
+        S. pombe ORC (Orp1) has been mapped
+        by chromatin immunoprecipitation to 
+        ars3002 and also to 
+        ars2004 , which, like 
+        ars3002 , contains multiple
+        asymmetric A+T-rich stretches [ 16, 17].
+        We do not yet know the functions of the other sequences
+        (regions 11-14 and 16-20) that-according to the results in
+        Fig. 3-also contribute (though to a lesser extent than
+        region 10) to the plasmid origin activity of extended 
+        ars3002 . What is clear, however, is
+        that the functions of all of the ~50-bp stretches are at
+        least partially redundant. None of the deletions, even Δ10,
+        eliminates origin activity. In each case, other sequences
+        within extended 
+        ars3002 must be capable of providing
+        at least a portion of the function of the deleted region.
+        The redundant nature of the sequences within 
+        S. pombe replication origins has
+        previously been amply noted [ 10, 11, 16, 18]. However,
+        this is the first time that redundancy has also been found
+        within a yeast replication enhancer. 
+        ACE3 , the amplification enhancer for
+        the chorion gene cluster on chromosome 3 of 
+        Drosophila melanogaster , also
+        contains multiple redundant sequence elements [ 2].
+        In an attempt to reduce the redundancy in the enhancer
+        and identify combinations of ~50-bp deletions that,
+        together, would completely eliminate replication enhancer
+        function, we constructed double and triple deletions so
+        that each ~50-bp stretch was deleted in combination with
+        one or two flanking ~50-bp stretches to the left and to the
+        right. These analyses showed that the double deletions
+        Δ16-17 and Δ20-21 were especially effective at reducing
+        origin activity (Fig. 5a), and the triple deletions Δ16-18
+        and Δ19-21 were even more effective (Fig. 5b). In fact,
+        these two triple deletions reduced the activity of extended
+        
+        ars3002 to the level of core 
+        ars3002 . In other words, they
+        abolished enhancer activity. The fact that the enhancer
+        contains two non-overlapping essential ~150-bp regions
+        (16-18 and 19-21) indicates that these two regions
+        cooperate with each other to generate enhancer function.
+        Neither provides complete enhancer function by itself. Each
+        is essential for enhancer function. However, none of the
+        three ~50-bp regions that together comprise each essential
+        ~150-bp region is individually essential, suggesting
+        internal redundancy within both of the ~150-bp essential
+        regions.
+        What could be the sequences that contribute to enhancer
+        function within these essential regions? Several
+        laboratories, including ours, have identified consensus
+        sequences that are often found in 
+        S. pombe replication origins [ 9, 10,
+        11, 13, 18]. All of these are A+T-rich and are asymmetric
+        in the sense that most of the adenines are in one strand
+        and most of the thymines are in the complementary strand.
+        Previous origin deletion scans (similar to those in Fig. 3)
+        have shown that the regions most important for 
+        S. pombe origin function frequently
+        contain clusters of these consensus sequences [ 10, 11, 16,
+        18]. To test whether the 
+        ars3002 replication enhancer is
+        similarly organized, we scanned it for near matches to the
+        four characterized consensus sequences [ 9, 10, 11, 13,
+        18]. We found several potentially interesting consensus
+        matches within the important portions of the enhancer (Fig.
+        6). In region 16 (the ~50-bp region that seems most
+        important for enhancer function; Fig. 3a), there is a 10/11
+        match to the consensus sequence identified by Maundrell 
+        et al. [ 13], which is highlighted
+        with light green in Fig. 6. Although this consensus, like
+        the three others, has not been found to be completely
+        essential for any tested 
+        S. pombe origin, a 10-bp linker
+        substitution in 
+        ars3001 (the 
+        S. pombe rDNA origin) that removes a
+        Maundrell consensus sequence reduces origin activity about
+        30-fold [ 11]. Consequently, there is a good chance that
+        this sequence contributes significantly to whatever role
+        region 16 plays in enhancer function.
+        Spanning the junction of regions 20 and 21 is a 20/30
+        match to a 30-bp sequence found by Clyne and Kelley [ 18]
+        to be important for 
+        ars1 plasmid replication origin
+        activity (blue in Fig. 6). In addition, region 21 contains
+        several overlapping 11/12 matches to the consensus sequence
+        of Zhu 
+        et al. [ 9, 11], highlighted with
+        light magenta in Fig. 6. Overlapping matches to this
+        consensus are also found in region 10 (Fig. 2), which is
+        highly important for 
+        ars3002 function (Fig. 3; [ 9, 11]).
+        These two consensus sequences are therefore good candidates
+        for playing important roles in the enhancer activities
+        mediated by regions 20 and 21.
+        Note that all three of the consensus sequences and also
+        many additional regions within the enhancer contain runs of
+        adenines or thymines and thus are potential binding sites
+        for 
+        S. pombe ORC. It has recently been
+        demonstrated that the 
+        Drosophila amplification enhancers, 
+        ACE3 and 
+        AER-d , bind 
+        Drosophila ORC [ 19]. Thus it is
+        possible that ORC binding is an aspect of enhancer function
+        conserved from fission yeast to animals.
+        Testing this hypothesis or any other hypothesis
+        concerning the mechanism of enhancer function will require
+        identifying and characterizing the proteins that bind to
+        the 
+        cis -acting sequences described here.
+        During the past decade much progress has been made in
+        identifying proteins that bind to core origins (reviewed in
+        [ 20]). This progress provides grounds for optimism that
+        the 
+        trans -acting proteins that bind to
+        enhancers will also be identified in the relatively near
+        future.
       
       
-        Conclusion
-        Our results showed that the percentage of the CD4 +CD25
-        +regulatory T cells does not change during the development
-        of PGIA. The CD4 +CD25 +regulatory T cells do not protect
-        SCID mice from arthritis when they are cotransferred with
-        spleen cells from arthritic mice and proteoglycan into SCID
-        mice. Transfer of spleen cells from arthritic mice,
-        depleted of the CD4 +CD25 +regulatory T cells, into SCID
-        mice does not accelerate the disease. Furthermore,
-        CD28-deficient mice, which are deficient for CD4 +CD25 +T
-        cells, are resistant to PGIA. Our data suggest that the CD4
-        +CD25 +regulatory T cells may not be essential for
-        controlling experimentally induced autoimmune
-        arthritis.
-      
-      
-        Competing interests
-        None declared.
-      
-      
-        Abbreviations
-        AICD = activation-induced cell death; CTLA = cytotoxic
-        T-lymphocyte antigen; ELISA = enzyme-linked immunosorbent
-        assay; FITC = fluorescein isothiocyanate; IL = interleukin;
-        PE = R-phycoerythrin; PG = proteoglycan; PGIA,
-        proteoglycan-induced arthritis; SCID = severe combined
-        immunodeficient; TCR = T-cell receptor; TGF = transforming
-        growth factor; WT = wild-type.
+        Materials and Methods
+        
+          Strains and media
+          
+          Escherichia coli DH5α cells were
+          used for cloning mutated 
+          ars3002 plasmids. The 
+          S. pombe strain 
+          ura4- D18 ( 
+          ura4- D18 
+          leu1-32 end1 h -) [ 21] was used as
+          the recipient strain for transformation assays. Cells
+          were grown at 30°C in EMM [ 22] supplemented with uracil
+          and leucine (150 mg each per liter) when not under
+          selection or leucine (150 mg per liter) when under
+          selection for uracil prototrophy.
+        
+        
+          Plasmid construction
+          To construct the plasmid, pUra4script: 
+          ars3002 (ext), which contains the
+          extended ~1.2 kbp 
+          ars3002 [ 7], the ~1 kbp 
+          Eco RI fragment containing the
+          replication enhancer (Fig. 1) was cut and blunt-ended by
+          treatment with Klenow polymerase (New England Biolabs)
+          and dNTPs. The gel-purified fragment was ligated with 
+          Cla I linker and then cut with 
+          Cla I and 
+          Hin cII to produce the ~400-bp
+          fragment containing the enhancer [ 7]. The gel-purified
+          ~400-bp fragment was inserted into the 
+          Cla I and 
+          Hin cII sites of p3002PCR (the
+          plasmid containing core 
+          ars3002 generated by PCR; [ 10]).
+          The resulting plasmid was then cut with 
+          Eco RI, blunt-ended with Klenow
+          polymerase and dNTPs, and self-religated, in order to
+          destroy the 
+          Eco RI site at the boundary between
+          core 
+          ars3002 and the enhancer that was
+          regenerated during the process of 
+          Cla I linker addition. The insert
+          sequences were confirmed by sequence analysis.
+        
+        
+          Generation of ~50 bp internal deletions
+          Deletions Δ1-Δ14 are the same as previously described
+          [ 10]. To evaluate these deletions in the context of
+          extended 
+          ars3002 , the ~400-bp 
+          Cla I- 
+          Hin cII fragment containing the
+          replication enhancer (from pUra4script: 
+          ars3002 (ext)) was inserted between
+          the 
+          Cla I and 
+          Hin cII sites of the deletion
+          constructs Δ1-Δ14 previously described [ 10]. For
+          deletions Δ15-Δ22, the two-step PCR procedure and cloning
+          strategy described previously [ 10, 11] was employed. All
+          primer sequences are available upon request.
+        
+        
+          Generation of double and triple deletions within
+          the enhancer region
+          Double and triple deletions were constructed according
+          to the same two-step PCR and cloning strategy, except
+          that the choices of internal (forward and reverse)
+          primers for the first amplification step were different.
+          For example, the rightward-pointing (forward) primer used
+          in constructing Δ16 and the leftward-pointing (reverse)
+          primer used in constructing Δ15 were chosen as internal
+          primers at the first step PCR to obtain the double
+          deletion, Δ15-16, and so on.
+        
+        
+          Transformation of S. pombe cells, and colony number
+          and size analysis
+          
+          S. pombe D18 cells lacking the 
+          ura4 gene were transformed [ 23]
+          with equal amounts of DNA (100 ng) from the plasmids
+          under test. All analyses were performed as described
+          previously [ 7, 10], except that transformation plates
+          were analyzed after 4-5 days, since the growth rates of
+          colonies transformed with enhancer-containing plasmids
+          are faster than those with core 
+          ars3002 alone (which was used in
+          the previous experiment [ 10]). All results shown are an
+          average of four independent experiments with standard
+          deviation shown as error bars.
+        
+        
+          Plasmid retention rate measurement under selective
+          conditions
+          To determine the percentage of exponentially growing
+          cells containing plasmid, the transformants were grown in
+          selective medium (EMM-uracil) to 1.2-1.5 × 10 7cells/ml.
+          Then 500 cells were plated onto selective and
+          non-selective (EMM+uracil) plates to determine the
+          fraction of cells containing plasmid.
+        
       
     
   

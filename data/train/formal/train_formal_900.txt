@@ -2,465 +2,295 @@
   
     
       
-        Introduction
-        The interaction of MS2 coat protein with its
-        translational operator is one of the best-understood
-        examples of RNA-protein recognition, having been studied
-        extensively by genetic, biochemical, and structural means [
-        1]. The primary and secondary structures of operator RNA
-        are shown in Figure 1. This RNA hairpin makes contacts with
-        both subunits of a coat protein dimer. One of the most
-        important features of the complex of coat protein with its
-        RNA target is the insertion of two unpaired adenosines into
-        equivalent pockets on different subunits of the coat dimer
-        (Figure 2). The interactions of A-4 and A-10 with coat
-        protein involve non-identical contacts with the same five
-        amino acid residues, namely Val29, Thr45, Ser47, Thr59 and
-        Lys61 [ 2, 3]. X-ray crystallographic analysis infers
-        specific amino acid-nucleotide contacts, but does not by
-        itself allow a clear definition of their individual
-        contributions to RNA-binding and translational repression.
-        In the experiments described here we introduced amino acid
-        substitutions of A-pocket amino acids in single-chain coat
-        protein heterodimers in order to determine the role of each
-        residue in interaction with A-4 and A-10.
+        The problem
+        Three published [ 1 2 3 ] and one recently presented [ 4
+        ] randomized placebo-controlled clinical trial have
+        unequivocally demonstrated that 3-Hydroxy-3-methylgluatryl
+        coenzyme A (HMG CoA) reductase inhibitors (statins) reduce
+        the morbidity and mortality associated with coronary
+        disease. These trials found that when compared with
+        placebo, statins significantly reduced the incidence of
+        death, myocardial infarction, unstable angina, percutaneous
+        and surgical coronary revascularization, and stroke in
+        persons with 
+        stable coronary disease. Because
+        patients who had experienced an acute coronary syndrome
+        within three to six months of enrollment were excluded,
+        these trials did not assess the effect of lipid-lowering
+        therapy on adverse cardiovascular events in those with
+        recently 
+        unstable coronary disease. Whether
+        lipid-lowering therapy would provide incremental benefit if
+        initiated immediately following an acute coronary syndrome
+        is an important issue as the risk of a recurrent adverse
+        cardiac events is much greater in patients with unstable
+        coronary disease than in the stable setting. The Myocardial
+        Ischemia Reduction with Aggressive Cholesterol Lowering
+        (MIRACL) trial set out to answer this question.
       
       
-        Results and Discussion
-        
-          Rationale
-          Amino acid substitutions in the RNA-binding site of
-          coat protein, including substitutions of A-pocket
-          residues, result in reduced affinity for translational
-          operator RNA and therefore compromise its ability to
-          carry out translational repression. However, since coat
-          protein is a symmetric homodimer, substitutions are
-          necessarily introduced simultaneously into both halves of
-          the molecule, making it difficult to distinguish the
-          separate effects of mutations on binding of different
-          halves of the asymmetric RNA ligand. We previously
-          described a means of making this distinction based on the
-          phenomenon we call heterodimer complementation. We have
-          explained its basis in detail elsewhere [ 4, 5], but the
-          basic ideas are depicted in Figure 3and briefly
-          reiterated here.
-          Heterodimer complementation relies on the ability to
-          genetically fuse the two subunit of coat protein [ 4],
-          thus producing a single-chain dimer in which the two
-          subunits are covalently linked. This fused dimer has the
-          same RNA-binding and capsid assembly properties typical
-          of coat protein itself, with the important difference
-          that the two halves of the molecule can be manipulated
-          separately. In other words, we can produce heterodimers
-          that contain different amino acid substitutions in their
-          two halves.
-          Because of its symmetry, and because it binds an
-          asymmetric ligand, coat protein bears two equivalent
-          RNA-binding sites, related to each another by a dyad
-          symmetry axis. Since the RNA ligand makes contacts with
-          both subunits, each binding site is made up of amino
-          acids contributed by both monomers. We think of each of
-          the two equivalent, symmetry-related RNA-binding sites as
-          being comprised each of two half-sites, where we define a
-          half-site as representing the contribution of a subunit
-          to one complete binding site (see Figure 3). After RNA
-          binding the subunits can be distinguished by the
-          asymmetric nature of their contacts with RNA. We follow
-          the convention of Valegard, et al. [ 2] and refer to the
-          two subunits as A and B. Thus we can think of each
-          binding site as being made up of A and B half-sites. In
-          homodimers any mutational defect in either half site
-          occurs in both halves of the dimer and both binding sites
-          are affected. However, the introduction of a mutation
-          into one subunit of a single-chain heterodimer causes a
-          defect in only one half-site and therefore inactivates
-          only one of the two RNA-binding sites. Because one
-          binding site remains intact, such mutant-wild-type
-          heterodimers are functional repressors (except in cases
-          where the mutation affects a residue that plays a role in
-          both half-sites). When different binding site lesions are
-          introduced into the two subunits, thereby creating a
-          mutant-mutant heterodimer, several outcomes are possible:
-          If, for example, one lesion affects half-site A and the
-          other affects half-site B, one of the RNA-binding sites
-          is doubly defective, but the other is left intact.
-          Consequently, such heterodimers are active repressors. In
-          the context of the work presented in this paper, this
-          means that if a particular A-pocket mutation is
-          functional for translational repression in combination
-          with a lesion in half-site A, it must affect half site B
-          where, from previous genetic and structural mapping, we
-          know it interacts with A-10. If, on the other hand, it
-          complements a half site B lesion, then it must primarily
-          play a role in half-site A where it binds A-4.
-          Heterodimers that contain either half site A lesions, or
-          half-site B lesions in both subunits are inactive
-          repressors. If a mutation complements defects in neither
-          of the half-sites, then the identity of the amino acid is
-          judged important for interaction with both A-4 and
-          A-10.
-          It should be noted that Figure 3is an imperfect
-          representation. While it illustrates the basic idea of
-          heterodimer complementation, for the sake of simplicity
-          it fails to adequately illustrate certain features of the
-          binding sites. In particular, it does not show that the
-          two binding sites are, in reality, overlapping. In fact,
-          the purpose of this paper is to attempt to distinguish
-          features within the overlap by defining the roles of
-          A-pocket residues and assigning them to half-sites.
-          The reader should also be alert to the possibility of
-          confusing "A-pocket", which is shorthand for
-          "adenosine-binding pocket", with the term "half-site A",
-          which refers to those amino acids involved in binding RNA
-          on subunit A of the coat protein dimer.
-          To implement the heterodimer complementation scheme we
-          created a series of substitutions of each of the A-pocket
-          amino acids. For each mutant we constructed four
-          different kinds of single-chain dimers. Mutant homodimers
-          have the same defect in both submits. Wild-type-mutant
-          heterodimers have a mutation in only one subunit and tell
-          us whether the identity of the mutated A-pocket amino
-          acid is important on only one half of the dimer. The
-          other two types of constructs were heterodimers of
-          A-pocket substitutions with either Y85H or T91I. We used
-          Y85H to inactivate half-site A (where A-4 is bound) and
-          T91I to inactivate half-site B (the site of A-10
-          interaction). These are well-characterized substitutions
-          of amino acids whose roles in RNA binding are known from
-          biochemical, genetic and structural studies. Mutations
-          that restore translational repression when paired in
-          heterodimers with Y85H map to half-site B, while those
-          that complement T91I map to half-site A. Effects on
-          translational repression were determined by measuring the
-          β-galactosidase activity produced from 
-          lacz fused to the translational
-          operator in the plasmid called pRZ5. Wild-type coat
-          protein typically represses β-galactosidase synthesis to
-          about 1-3% of the unrepressed value.
-          A note about nomenclature: We name mutant homodimers
-          by placing the numeral "2" in front of the amino acid
-          substitution. For example the V29A single-chain homodimer
-          we call 2V29A. We name heterodimers by listing both
-          substitutions, with the mutation in the 5'-monomer given
-          first, for example V29A-Y85H, V29A-T91I, or V29A-WT,
-          where WT refers to the wild-type sequence. The plasmid
-          called p2CTdl-13 contains the WT-WT single-chain
-          homodimer sequence [ 4]. We used pUCter3 as a
-          non-repressing control [ 6].
-        
-        
-          Assessing the native structure of mutants
-          The ability of coat protein to fold correctly is
-          sometimes sensitive to amino acid substitution. To ensure
-          that any particular mutation does not grossly perturbed
-          coat protein structure we subjected each of the mutant
-          proteins to a test of its ability to assemble into
-          virus-like particles [ 7], an activity sensitive to
-          folding defects. This was accomplished by subjecting cell
-          lysates to electrophoresis in agarose gels, followed by
-          blotting to nitrocellulose membranes. Probing with
-          anti-MS2 serum and 125I-protein A reveals the amount and
-          the electrophoretic mobility of the coat protein produced
-          by each plasmid construct. Since virus-like particles
-          have a characteristic electrophoretic behavior, this
-          provides a simple means of assessing a mutant for
-          acquisition of native protein structure. We have used
-          this method extensively to assess the proper folding of
-          coat protein and representative results can be seen in
-          previous publications from this laboratory [ 5, 7].
-          Our results showed that some mutations disrupted coat
-          protein structure when introduced into the conventional
-          dimer. Specifically, substitutions of Val29 and Lys61
-          generally resulted in failure to produce virus-like
-          particles, while Ser47 and Thr59 tolerated all the
-          substitutions we introduced. We previously reported that
-          Thr45 has a remarkable sensitivity to substitution and
-          that fusion of coat protein subunits in the single-chain
-          dimer reverts these and other coat protein structural
-          defects [ 5, 8]. This was also the case with the mutants
-          we describe here, all of which formed normal or near
-          normal amounts of capsids in single-chain homodimers and
-          in their heterodimers with wild-type, Y85H and T91I
-          (results not shown).
-        
-        
-          Testing the roles of the individual A-pocket ammo
-          acids
-          
-            Thr45
-            X-ray structural analysis suggests that the hydroxyl
-            of ThrA45 makes H-bonds with N6 and N7 of A-4. ThrB45
-            is said to Hl-bond with N1 and N6 of A-10 [ 2, 3]. In a
-            fore-runner of the current work we determined the
-            effects of introducing all 19 amino acid substitutions
-            of Thr45 and created heterodimer constructs to test the
-            separate roles of the two Thr45's on binding of A-4 and
-            A-10. In summary, we found that RNA binding activity
-            tolerates substitution of ThrB45, but not of ThrA45. In
-            other words, Thr45 makes crucial contacts with A-4, but
-            tolerates substitutions in the site where A-10 is
-            bound. These experiments were related in an earlier
-            report [ 5] and are not further elaborated here.
-          
-          
-            Val29
-            Structural analysis shows that the side chain of
-            Val29 approaches the faces of both A-4 and A-10 in
-            their respective binding pockets. We previously
-            isolated a mutant, V29I, which increases the size of
-            the side chain while retaining its aliphatic character.
-            The V29I mutant is a translational super-repressor 
-            in vivo and binds RNA 7.5-fold
-            more tightly 
-            in vitro [ 9]. This suggested
-            that the increased size of the isoleucine side chain
-            compared to valine might improve a hydrophobic
-            interaction with one or both adenosines. Here we
-            describe the introduction of other substitutions of
-            Val29 that seek to determine the role of the size of
-            the hydrophobic side-chain. V29A reduces the size of
-            the side-chain, asking whether Val29 approaches the A's
-            closely enough to provide a stacking-like interaction.
-            V29L, like V29I, provides a greater surface area for
-            interaction. V29F increases the bulk of the side chain
-            even further, as do V29Y and V29W.
-            The introduction of alanine at position 29 must
-            severely disrupt protein-RNA contacts since
-            translational repression is abolished nearly completely
-            in the 2V29A homodimer (Table 1). Being smaller, the
-            alanine side chain apparently is unable to form as good
-            interaction with the adenosines as does valine. The
-            fact that the V29A-Y85H and V29A-T91I heterodimers only
-            partially recover repressor activity, and to about the
-            same extent, indicates that Val29 makes contacts of
-            roughly equal importance at both A-4 and A-10. In other
-            words, the V29A substitution fails to complement fully
-            mutations in half-sites A and B. On the other hand,
-            several amino acids with larger side chains, each of
-            them hydrophobic (or predominantly so), are acceptable
-            replacements. In fact, as we have already said, V29I
-            represses better than wild-type. 2V29L is also a
-            competent represser, nearly as good as wild-type, as
-            are also the V29L-WT, V29L-Y85H, and V29L-T91I
-            heterodimers. Both 2V29F and 2V29Y showed only small
-            defects in repression, defects which were not fully
-            corrected in any of the heterodimer constructs.
-            Tryptophan was the bulkiest substitution we introduced
-            and it resulted in a fairly severe represser defect
-            when present in both halves of the dimer (2V29W).
-            However, nearly all the repressor activity was restored
-            in the V29W-WT heterodimer. The observation that
-            repression is restored more completely in V29W-T91I
-            than in V29W-Y85H indicates that the effects of the
-            V29W substitution are more severe in the pocket where
-            A-10 is bound.
-          
-          
-            Ser47
-            On structural grounds Ser47 has been thought to
-            contribute to RNA-binding in both A-pockets [ 2, 3].
-            The Oγ of SerA47 appears to H-bond to N1 of A-4 while
-            the Oγ of the SerB47 side chain H-bonds to N3 of A-10.
-            We previously showed that introduction of arginine at
-            position 47 resulted in a repressor defect [ 7], and
-            heterodimer complementation experiments suggested that
-            S47R disrupts an interaction with A-10 [ 4]. The
-            results presented here confirm and extend the earlier
-            result using more subtle substitutions. The mutant
-            called S47C replaces Ser47 with cysteine, which is
-            isosteric with serine but a poorer H-bonder.
-            Substitution with alanine (in S47A) entirely eliminates
-            the ability to form an H-bond. Both 2S47A and 2S47C are
-            repressor-defective, and by about the same amount
-            (Table 2). Repression is restored to wild-type levels
-            in the S47A-Y85H and S47C-Y85H heterodimers, but not in
-            S47A-T91I or S47C-T91I. Therefore the identity of Ser47
-            is only important in the A-pocket where it contacts
-            A-10 through an H-bond with N3. The interaction with
-            A-4, predicted from x-ray structural analysis,
-            apparently makes little or no contribution to RNA
-            binding energy.
-          
-          
-            Thr59
-            Together with Lys61, Thr59 forms one wall of each of
-            the A-binding pockets. Its close proximity to both A-4
-            and A-10 suggests substitutions here might affect RNA
-            binding. In fact, the main chain carbonyl of residue 59
-            appears to be H-bonded to the exocyclic amino group
-            (N6) of A-4 in subunit A. We already know from the
-            effects of amino acid substitutions previously
-            introduced here that the identity of residue 59 is of
-            some importance. For example, T59A and T59S are both
-            repressor-defective 
-            in vivo [ 7, 10], although there
-            seems to be some disagreement as to exactly how
-            defective T59S is for RNA binding 
-            in vitro [ 7, 11]. On the other
-            hand, glutamine seems to be tolerated here, since T59Q,
-            is a good repressor [ 12]. Inspection of the crystal
-            structure suggests a possible reason for the importance
-            of Thr59. The methyl groups of the Thr59's approach the
-            faces of both A-4 and A-10, and this may help provide a
-            hydrophobic environment for the bases. Neither alanine
-            (T59A) nor serine (T59S) can perform this function. We
-            constructed T59L and T59I to test the effects of some
-            other hydrophobic side chains. The proximities of the
-            Thr59's to the two A's also suggest the possibility of
-            engineering stacking interactions by the substitution
-            of threonine with each of the aromatic amino acids in
-            the mutants we will call T59F, T59Y, and T59W.
-            The various Thr59 substitutions we constructed are
-            all virtually as active as wild-type in heterodimer
-            combinations with WT and with Y85H, the half-site A
-            lesion (Table 3). On the other hand, each of the
-            mutations is about as defective in heterodimers with
-            T91I as it is in each of the Thr59 mutant homodimers.
-            This means that Thr59 plays a role in binding RNA in
-            half-site B where A-10 is bound. This confirms the
-            results of earlier heterodimer complementation
-            experiments that already showed that T59S is a member
-            of half-site B [ 4]. However, these new results show
-            that a range of substitutions of Thr59 are well
-            tolerated in half-site A, while a range of
-            substitutions in half-site B compromise translational
-            repression, each to a comparable extent.
-            The crystal structure of T59S in complex with
-            wild-type RNA has been determined [ 11]. It showed only
-            slight differences compared to wild-type. Several
-            possible structural explanations for poor repression by
-            T59S were offered: 1. The loss of the Thr59 methyl
-            group results in a reduction of hydrophobic interaction
-            area of 25Å 2(out of 700 Å 2total). This should reduce
-            binding affinity somewhat but seems insufficient to
-            account for the observed 
-            in vivo defect. 2. The T59S
-            mutants may pay a higher entropic cost in binding RNA
-            since Ser59 could be more mobile than Thr59. 3. The
-            most significant structural change in the T59S-RNA
-            complex was the movement of GluB89 and the apparent
-            loss of a water molecule bound to its side chain. Since
-            GluB89 resides within 6.5A of A-7, G-8, and G-9 it was
-            suggested that GluB89 could interact with these bases
-            transiently in the binding pathway. Our results confirm
-            that the important changes are indeed associated with
-            subunit B. We also point out that the RNA main chain
-            passes near ThrB59, causing us to wonder whether some
-            substitutions here create steric clashes, thus
-            contributing to an RNA-binding defect by introducing an
-            unfavorable contact.
-          
-          
-            Lys61
-            The aliphatic portions of the side chains of both
-            Lys61's may play roles in RNA binding since they cross
-            the faces of both adenosines. In addition, the ε-amino
-            group of Lys61 seems to interact on the B subunit
-            through salt links with the phosphates of A-10 and
-            G-11. The importance of these phosphate contacts has
-            been supported by the results of phophorothioate
-            substitutions [ 13]. Structurally-based predictions of
-            the role of Lys61 on the A subunit, on the other hand,
-            are less clear. It appears to have some flexibility in
-            its complex with wild-type RNA since its electron
-            density is weak [ 2, 3]. It is located roughly in
-            position to interact with the ribose or the phosphate
-            of A-4. Moreover, in complex with a variant RNA it is
-            seen to interact through its ε-amino group with the
-            phosphate of nucleotide -5 [ 14]. Phosphorothioate
-            substitution implicates the A-4 phosphate in
-            interaction with protein, but since LysA43 also forms a
-            contact here a possible involvement of LysA61 is
-            obscured.
-            We previously isolated the K61R mutant, which
-            replaces Lys61 with arginine, resulting in a repressor
-            defect. Heterodimer constructs with the K61R mutant
-            already showed that the identity of Lys61 is important
-            in both halves of the dimer [ 4]. In other words
-            arginine fails to functionally substitute for lysine
-            even when it is present on only one subunit of the
-            dimer. In the present study we made additional
-            mutations. To eliminate most of the side-chain, K61A
-            introduces alanine at this position. K61M was
-            constructed to test the role of the ε-amino group.
-            Methionine has a hydrophobic side chain about the same
-            length as the aliphatic portion of the lysine side
-            chain, but lacks the terminal amino group. The close
-            proximity of Lys61 to both A-4 and A-10 suggests the
-            possibility that the introduction of aromatic residues
-            may allow stacking interactions. We, therefore, also
-            constructed K61F, K61Y, and K61W.
-            The substitutions introduced at position 61
-            generally resulted in severe repressor defects (Table
-            IV). Most of these defects are only partially corrected
-            in heterodimers with wild-type or with Y85H and
-            generally are not improved at all in heterodimers with
-            T91I. It is notable that the K61M substitution, which
-            was designed to preserve the aliphatic characteristics
-            of the lysine side chain while eliminating its amino
-            group, causes a severe repressor defect in mutant
-            homodimers. Repression is only slightly improved in
-            heterodimers of K61M with T91I, with somewhat greater
-            improvement when combined with Y85H. These results
-            suggest that the identity of the Lys61's is important
-            for interaction with both A-4 and A-10, and further,
-            that the ε-amino groups contribute importantly to the
-            energy of interaction on both subunits of the dimer,
-            perhaps somewhat more importantly at A-10 (i.e.
-            LysB61).
-          
-        
+        The answer?
+        MIRACL enrolled 3,086 patients within 24-96 hours (mean
+        63 hours) of admission for unstable angina or a non-Q-wave
+        myocardial infarction and randomized them to 16 weeks of
+        atorvastatin 80 mg or placebo once daily [ 5 ] . The major
+        exclusion criteria were: total cholesterol level greater
+        than 270 mg/dL; Q-wave myocardial infarction on admission
+        or during the previous month; and, coronary
+        revascularization in the months before admission, during
+        the index hospitalization or anticipated following hospital
+        discharge. The primary efficacy endpoint was a composite of
+        death, non-fatal myocardial infarction, resuscitated sudden
+        cardiac death or emergent rehospitalization for worsening
+        symptomatic myocardial ischemia. Secondary endpoints
+        included stroke, worsening heart failure, need for coronary
+        revascularization and change in lipid levels throughout the
+        study. On average, patients were 65 years of age,
+        approximately 65% were men, 86% Caucasian and the mean
+        baseline low density lipoprotein (LDL) cholesterol level
+        was 124 mg/dL. Atorvastatin treatment was associated with a
+        2.6% absolute reduction in the risk of the primary endpoint
+        (14.8% vs. 17.4%; RR relative risk [RR] 0.84, 95%
+        confidence interval [CI] 0.70-1.00, p = 0.048). This
+        reduction was primarily driven by the 2.2% absolute
+        reduction in incidence of emergent rehospitalization for
+        symptomatic myocardial ischemia (6.2% vs. 8.4%; RR 0.74,
+        95% CI 0.57-0.95, p = 0.02). The risk of death, nonfatal
+        myocardial infarction and resuscitated sudden cardiac death
+        were each no different between the two groups. While there
+        were no significant differences in the incidence of
+        worsening heart failure or need for coronary
+        revascularization, atorvastatin did reduce the incidence of
+        fatal or non-fatal stroke by 0.8% (0.8% vs. 1.6%; RR 0.50,
+        95% CI 0.26-0.99, p = 0.045). Atorvastatin also
+        significantly reduced total and LDL cholesterol and
+        triglyceride levels but did not significantly change high
+        density lipoprotein (HDL) cholesterol by 16 weeks. By 16
+        weeks, the adjusted mean LDL cholesterol decreased to 72
+        mg/dL in atorvastatin-treated patients but increased to 135
+        mg/dL among placebo-treated patients. No serious adverse
+        events occurred as the result of treatment with
+        atorvastatin, although reversible liver transaminase
+        elevation more than three times the upper limit of normal
+        occurred in 2.5% of atorvastatin-treated versus 0.6% of
+        placebo-treated patients (p < 0.001).
       
       
-        Conclusions
-        The results we present here emphasize the importance of
-        combined functional and structural approaches to
-        understanding molecular interactions. Some of the contacts
-        observed in the x-ray structure of the MS2 RNA-protein
-        complex clearly make little or no contribution to its
-        stability. Our results are summarized in Figure 4, where we
-        schematically illustrate the important interactions at A-4
-        and A-10 in the context of the structure of the whole
-        translational operator. To recapitulate, Val29 and Lys61
-        make important stabilizing interactions with both A-4 and
-        A-10. On the other hand, the contributions of Thr45, Ser47
-        and Thr59 are highly asymmetric. Thr45 contributes to
-        binding only through its interaction with A-4, while the
-        effects of Ser47 and Thr59 are confined to their
-        interactions with A-10.
+        The MIRACuLous
+        The efficacy and safety findings from MIRACL were unique
+        for a number of reasons. Although lipid-lowering therapy
+        was associated with a significantly lower mortality when
+        initiated early after an acute coronary syndrome in two
+        large observational studies [ 6 7 ] , MIRACL was the first
+        randomized trial to suggest that statins confer clinical
+        benefits in this setting. It was also the first trial to
+        identify a short-term (ie, within 16 weeks) clinical
+        benefit from statin therapy; in previous secondary
+        prevention trials, the benefit of statin therapy was not
+        evident for one to two years. And, while clinical trial
+        safety endpoints may be considered less glamorous, MIRACL's
+        most important contribution may have been that high-dose
+        statin therapy was not associated with serious harm,
+        despite its use in the unstable setting. Earlier secondary
+        prevention statin trials had excluded patients with
+        unstable coronary syndromes largely out of theoretical
+        concern that statin-mediated reductions in vascular smooth
+        muscle cell proliferation might destabilize healing plaque.
+        That no harm resulted from this aggressive treatment
+        strategy should allay theoretical fears and by doing so
+        remove a major obstacle to the inpatient initiation of
+        lipid-lowing therapy after coronary events.
       
       
-        Materials and Methods
-        
-          Site-directed Mutagenesis and Recombinant
-          DNA
-          Mutations were introduced by site-directed mutagenesis
-          of pCT119 [ 6, 7] using the method of Kunkel et al. [
-          15]. Mutants were identified by nucleotide sequence
-          analysis and in all cases the nucleotide sequence of the
-          entire coat coding region of each mutant was determined.
-          Fused dimers were constructed as derivatives of
-          p2CTdl-13, a plasmid whose construction and properties
-          have been described elsewhere [ 4].
-        
-        
-          Analysis of coat protein and β-galactosidase
-          expression
-          The ability of the coat mutants to assemble into
-          virus-like particles was assessed by agarose gel
-          electrophoresis and western blot [ 7]. Blotted coat
-          proteins were visualized using anti-MS2 serum and
-          125I-protein A. The relative 
-          in vivo RNA binding activities of
-          the various mutants are reflected in their abilities to
-          repress translation of a replicase-β-galactosidase fusion
-          expressed from pRZ5 in E. coli strain CSH41F -[ 6].
-          Assays of β-galactosidase activity were performed by the
-          method of Miller [ 16]. The values we report are the
-          averages of three assays. Although there is some
-          variability in these measurements the variations are
-          usually no larger than 5-10% and never exceed 30%.
-        
+        The not so MIRACuLous
+        Despite these unique and important findings, there were
+        a number of inherent study limitations worth noting. First
+        and foremost, the possibility of a null treatment effect
+        cannot be ignored given the wide confidence intervals (and
+        hence marginally significant p value of 0.048) for the
+        effect of atorvastatin on the primary efficacy endpoint.
+        Furthermore, while the number of patients lost to follow up
+        was small, if adverse events had occurred in those treated
+        with atorvastatin (n = 3) but not placebo (n = 8), the
+        overall trial results may have been neutral rather than
+        positive.
+        The types of events prevented in MIRACL are also worth
+        noting. While rehospitalization for recurrent myocardial
+        ischemia is an important determinant of quality of life and
+        health care costs, other important endpoints were not
+        significantly affected (eg, death, myocardial infarction,
+        resuscitated sudden cardiac death, worsening heart failure,
+        need for coronary revascularization, etc). The question of
+        whether statins can prevent these and other adverse events
+        when initiated soon after an acute coronary syndrome will
+        require further study.
+        The short duration of follow-up is also particularly
+        troubling. While it is impressive that a clinical benefit
+        was realized after only 16 weeks of statin therapy, the
+        increased risk of adverse clinical events persists
+        throughout the year following an acute coronary syndrome.
+        Without longer clinical follow up, it is not possible to
+        assess the intermediate-term effect (if any) of
+        atorvastatin on hard endpoints such as death or myocardial
+        infarction. To do so would be critical in light of the lack
+        of effect on these important endpoints at 16 weeks.
+        Unfortunately, no late clinical follow up is planned.
+        There were also a number of limitations that may have
+        hampered the study's generalizability. First, patients who
+        underwent recent revascularization or in whom it was
+        planned were excluded. Specifically, patients who underwent
+        percutaneous transluminal coronary angioplasty (PTCA) or
+        coronary artery bypass graft (CABG) surgery within the
+        previous three or six months respectively were not eligible
+        for inclusion. The investigators reasoned that recurrent
+        ischemic events in this population were likely to result
+        from restenosis or bypass graft closure and that statins
+        would be less likely to affect these processes [ 8 ] .
+        Nevertheless, a number of trials have established the
+        benefits of statin therapy 
+        early after coronary
+        revascularization [ 9 10 11 ] . Furthermore, a number of
+        recent trials have suggested that higher risk patients with
+        non-ST elevation acute coronary syndromes fair better when
+        an early invasive strategy is applied [ 12 13 14 ] and it
+        is not uncommon for patients to be treated in this fashion.
+        Second, patients with Q-wave myocardial infarction were not
+        eligible for enrollment because it was felt that statins
+        would not influence the development of important prognostic
+        determinants such as left ventricular systolic dysfunction,
+        ventricular arrhythmias or mechanical complications [ 5 ] .
+        Nevertheless, patients who develop electrocardiographic
+        Q-waves represent a substantial proportion of all patients
+        with myocardial infarction. While their short-term risk
+        following hospital discharge is lower relative to those
+        with a non-Q-wave myocardial infarction, it is still much
+        greater than in patients with stable coronary disease, and
+        the need for secondary prevention in this population is
+        equally important. Third, despite the high risk nature of
+        enrolled patients (ie, electrocardiogram [ECG] changes
+        and/or other objective evidence of ischemia), the rate of
+        platelet glycoprotein IIb/IIIa inhibitor utilization was
+        quite low (1.1%). Such therapy appears to be cost effective
+        [ 15 16 ] , especially among high risk patients and is
+        recommended under current American College of
+        Cardiology/American Heart Association guidelines [ 17 ] .
+        Fourth, it may not be possible to ascertain whether these
+        findings apply to all patients with recent acute coronary
+        syndromes regardless of baseline lipid levels. The small
+        difference in number of primary endpoint events between
+        atorvastatin and placebo groups make it difficult to
+        dissect the relationship between baseline lipid levels and
+        treatment effect further. Consequently, it remains
+        uncertain whether one can extrapolate the MIRACL trial
+        results to those who undergo coronary revascularization
+        shortly before or after a coronary event, who present with
+        a Q-wave myocardial infarction, who are treated with
+        platelet glycoprotein IIb/IIIa inhibitors, or who have
+        relatively low admission LDL cholesterol levels.
+      
+      
+        Time to change current practice
+        Although MIRACL and the two aforementioned cohort
+        studies suggest that lipid-lowering agents exert short-term
+        clinical benefits when initiated soon after an acute
+        coronary syndrome, this remains an open question. Even if
+        these findings are not confirmed after further study, one
+        could still make a compelling argument that lipid-lowering
+        therapy (barring contraindications) should be initiated
+        early and universally in patients who present with an acute
+        coronary syndrome: First, the long-term safety and
+        effectiveness of statins for the secondary prevention of 
+        stable coronary disease is
+        well-established [ 1 2 3 ] ; Second, as evidenced by
+        MIRACL, these agents are safe when initiated at the time of
+        hospitalization for an acute coronary syndrome; Third, the
+        in-hospital initiation of lipid-lowering therapy appears to
+        promote greater long-term utilization of these agents [ 18
+        19 20 21 ] . Finally, although lipid levels may be
+        unreliable in the setting of an acute coronary syndrome
+        (excepting total :HDL and LDL:HDL cholesterol ratios [ 22 ]
+        ) the overwhelming majority of patients with coronary
+        disease will ultimately require both pharmacologic and
+        non-pharmacologic lipid-lowering interventions to attain
+        recommended cholesterol targets [ 23 24 25 ] ; newer
+        guidelines are even more stringent [ 26 ] . Furthermore,
+        data from the recently presented Heart Protection Study
+        suggest that clinical benefits may accrue independent of
+        baseline cholesterol level [ 4 ] . Thus, to withhold
+        lipid-lowering therapy from patients who present with an
+        acute coronary syndrome would be to accept the status quo,
+        and to date our efforts at cholesterol lowering in the
+        secondary prevention setting have been dismal [ 27 28 ]
+        .
+      
+      
+        More MIRACLes ahead?
+        The ascertainment and quantification of any incremental
+        benefit conferred by statin therapy initiated early after
+        an acute coronary syndrome will require confirmation. There
+        is currently only one ongoing randomized placebo-controlled
+        trial of early versus delayed statin therapy in this
+        setting, A-2-Z (Aggrastat to Zocor, Merck) [ 29 ] . The
+        A-2-Z study is evaluating the efficacy of early treatment
+        with simvastatin in 4,500 patients following an episode of
+        unstable angina or a non-Q wave myocardial infarction. In
+        the first four months, patients will be randomized to
+        simvastatin 40 mg daily or placebo. Thereafter, those
+        patients treated with simvastatin in the first phase will
+        receive 80 mg of simvastatin daily and those treated with
+        placebo, 40 mg of simvastatin daily. The primary composite
+        endpoint is the occurrence of cardiovascular death,
+        non-fatal myocardial infarction, or rehospitalization for
+        an acute coronary syndrome (ACS) at one year. If A-2-Z
+        demonstrates significant reductions in the incidence of
+        adverse events during the first four months, it would
+        suggest an incremental clinical benefit from initiating
+        these agents early after an acute coronary syndrome. If
+        benefits accrue, but do so later during follow up, it would
+        be difficult to discriminate between the effects of more
+        aggressive vs. earlier lipid lowering therapy.
+        The Pravastatin or Atorvastatin Evaluation and Infection
+        Therapy (PROVE IT) trial is looking at 4,000 patients
+        within 10 days of an acute coronary syndrome and
+        randomizing them to either pravastatin 40 mg or
+        atorvastatin 80 mg daily [ 29 ] . Patients will be observed
+        over at least 1.5 years for the occurrence of myocardial
+        infarction or other cardiovascular events. Unlike, MIRACL
+        and the A-2-Z trials, this study will not assess the
+        efficacy of early statin therapy after an acute coronary
+        syndrome; rather, it will examine the role of 
+        more vs. 
+        less aggressive lipid-lowering in
+        this setting.
+        In 2002, many would consider it unethical to withhold
+        statins from patients with established coronary disease.
+        This makes it unlikely that additional placebo-controlled
+        trials will be carried out in this area. Future secondary
+        prevention studies should look at patients with stable 
+        or unstable disease and will need to
+        address the comparative efficacy of different statins (or
+        newer agents), assess the incremental benefit of
+        combination therapy [ 30 ] and determine whether there is a
+        serum cholesterol 'floor' below which reductions are
+        unlikely to provide further clinical benefit.
+      
+      
+        Competing interests
+        Dr Aronow has received honoraria as a speaker and
+        advisory board member for Pfizer and as a speaker for
+        Merck.
+      
+      
+        Abbreviations
+        HMG CoA = 3-Hydroxy-3-methylgluatryl coenzyme A; MIRACL
+        = Myocardial Ischemia Reduction with Aggressive Cholesterol
+        Lowering; LDL = low density lipoprotein; RR = relative
+        risk; CI = confidence interval; HDL = high density
+        lipoprotein; PTCA = percutaneous transluminal coronary
+        angioplasty; CABG = coronary artery bypass graft; ECG =
+        electrocardiogram; A-2-Z = Aggrastat to Zocor; ACS = acute
+        coronary syndrome; PROVE IT = Pravastatin or Atorvastatin
+        Evaluation and Infection Therapy.
       
     
   

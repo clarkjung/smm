@@ -3,803 +3,620 @@
     
       
         Background
-        Movement of eukaryotic cells, intracellular transport,
-        signaling, cell division and cell shape are functions of
-        the cytoskeleton [ 1, 2, 3, 4]. The cytoskeleton is made up
-        of three types of filaments: actin filaments, intermediate
-        filaments and microtubules. Three groups of proteins called
-        molecular motors utilize energy from the hydrolysis of ATP
-        to move in association with the cytoskeleton: kinesins,
-        dyneins and myosins [ 1, 5, 6]. Kinesins and dyneins move
-        along microtubules [ 5, 7] and actin is utilized by myosin
-        for motility [ 8, 9].
-        Molecular motors in non-plant systems have been
-        extensively characterized but less is known about the
-        presence and functions of these motors in plant cells.
-        Using antibodies to mouse dynein, two 400 kDa proteins were
-        identified in tobacco pollen during pollen germination [
-        10] suggesting the presence of dynein in pollen tubes. To
-        date, no report has been published on the presence of
-        dynein at the molecular level. Using animal dynein
-        sequences to search the 
-        Arabidopsis database TAIR (The 
-        Arabidopsis Information Resource) [
-        11], no sequences similar to heavy or intermediate chains
-        were found. However, some sequences showing similarity to
-        light chains are present in the database. Kinesins have
-        been identified in 
-        Arabidopsis and other plant systems [
-        12, 13, 14, 15, 16] and their movement along microtubules
-        has been analyzed [ 16, 17, 18, 19]. Kinesins are a
-        superfamily of molecular motors containing at least nine
-        subfamilies [ 7, 20]. Plant kinesins are represented in all
-        but two of the families. Using the amino-acid sequence of
-        the motor domain of a plant kinesin, a search of the 
-        Arabidopsis genome yielded 61
-        kinesin-like proteins [ 21]. This is the largest number of
-        kinesins in an organism per thousand genes compared to
-        yeast, 
-        Drosophila melanogaster and 
-        Caenorhabditis elegans. 
-        Phylogenetic analysis of known myosins in various
-        organisms has resulted in the classification of myosins
-        into several groups. The Myosin Home Page (MHP) [ 22] has a
-        phylogenetic tree with 143 myosins classified into 17
-        classes. However, an analysis of the myosin superfamily in 
-        Drosophila, concluded that two new
-        mammalian myosins and a 
-        Drosophila myosin make up a new class
-        of myosins, class XVIII [ 23]. These myosins have a unique
-        amino-terminal PDZ domain. The classes have been named
-        according to the order in which each class was first
-        discovered except for myosins I and II. Myosin II is the
-        conventional myosin, which was discovered 60 years ago [
-        8]. The next myosin identified was myosin I and then in
-        order of class name. Myosins have three domains in common;
-        a motor domain that interacts with actin and binds ATP, a
-        neck domain that binds light chains or calmodulin and a
-        tail domain. The tail domain varies by class. Phylogenetic
-        analysis is often based on the motor domain of the myosins.
-        However, using the full-length sequence results in nearly
-        the same grouping, indicating that the heads and tails have
-        evolved together [ 23, 24, 25, 26]. A study using the head
-        (motor domain), neck and tail domains separately for
-        phylogenetic analysis or the head and neck/tail showed that
-        this is generally true [ 27]. The neck domain consists of
-        one or more helical sequences termed the IQ motif, which
-        has the consensus sequence IQXXXRGXXXR [ 28]. The IQ motif
-        binds the conventional myosin II light chains and
-        calmodulin or calmodulin-like proteins in other myosins [
-        29]. Unlike most calmodulin-binding proteins, myosins bind
-        calmodulin in the absence of Ca 2+.
-        As actin is utilized by myosin for motility, the
-        possible functions of myosin in plants are closely linked
-        to the functions of actin. The actin cytoskeleton has been
-        shown to be involved in many processes in plants including
-        transportation, signaling, cell division, cytoplasmic
-        streaming and morphogenesis [ 2, 3]. Much of the
-        cytoplasmic streaming work has been done in algal cells and
-        the direct involvement of actin and myosin has been shown [
-        30, 31]. Genetic, biochemical and cell biological studies
-        with trichomes during the past four years have provided
-        interesting insights into the role of the cytoskeleton in
-        trichome morphogenesis. These studies indicate that actin
-        and the microtubule cytoskeleton play a pivotal role in
-        cell expansion and branching during trichome development [
-        32].
-        Localization studies and visualization of the actin
-        cytoskeleton in live cells with an actin-binding protein
-        tagged with green fluorescent protein (GFP) indicate that
-        the organization of F-actin changes during trichome
-        morphogenesis [ 33, 34]. Chemicals that promote
-        depolymerization or stabilization of the actin cytoskeleton
-        did not effect branching but produced distorted trichomes.
-        The morphology of these trichomes is similar to that
-        observed in a 'distorted' class of mutants, suggesting that
-        at least some of the affected genes are likely to code for
-        proteins involved in actin organization/dynamics (for
-        example myosins, actin-depolymerizing factors,
-        actin-binding proteins). There is also evidence that the
-        actin cytoskeleton is involved in mitosis and during
-        separation of daughter cells after the successful
-        segregation of chromosomes into daughter nuclei [ 3]. The
-        actin cytoskeleton is also involved in pollen tube growth,
-        and calcium regulation has also been shown to be involved [
-        35, 36].
-        Myosins have been identified in plants both
-        biochemically [ 37, 38, 39, 40] and at the molecular level
-        [ 41, 42, 43]. Immunological detection of myosins using
-        antibodies against animal myosin identified proteins of
-        various sizes from different plants [ 44, 45, 46].
-        Immunofluorescence studies localized myosin to the surface
-        of organelles, the vegetative nuclei and generative cells
-        in pollen grains and tubes [ 39], to the active streaming
-        lanes and cortical surface in pollen tubes [ 40] and, more
-        recently, to plasmodesmata in root tissues [ 38, 47].
-        Motility assays [ 48] and ATPase assays [ 48, 49, 50] using
-        myosin-like proteins isolated from plants have also
-        demonstrated the presence of myosins in plants.
-        Since 1993, five partial or full-length myosins from 
-        Arabidopsis have been characterized
-        at the molecular level. Using PCR-based approaches, Knight
-        and Kendrick-Jones [ 43] cloned a myosin they called ATM ( 
-        Arabidopsis thaliana myosin), Kinkema
-        and Schiefelbein [ 41] cloned the myosin MYA1 and Kinkema 
-        et al. [ 42] cloned another
-        full-length myosin, ATM2, and two partial length myosins
-        MYA2 and MYA3. Kinekema 
-        et al. [ 42] also identified three
-        PCR products that coded for unique myosin motor domain
-        sequence. Phylogenetic analysis using these myosins
-        indicated that the ATM myosins were a unique class and they
-        were named class VIII. The MYA myosins are somewhat related
-        to class V myosins but as other analyses have been done,
-        these myosins were also assigned to a new class, class XI [
-        8, 42].
-        Myosins have been identified in 
-        Zea mays, two of which belonged to
-        class XI and one to class VIII [ 51]. PCR fragments for
-        fern myosins have been reported [ 52, 53] and sequences are
-        available for myosins from 
-        Helianthus annuus (0. Vugrek and D.
-        Menzel, unpublished data). Two fern ( 
-        Anemia phyllitidis ) PCR products and
-        the 
-        H. annuus myosins also fall either
-        into class VIII or class XI myosins [ 22, 42]. Two algal
-        myosins are also members of the class XI myosins, one from 
-        Chara corallina and one from 
-        Chlamydomonas reinhardtii [ 22, 54].
-        A third class of myosins (XIII) is composed of two algal
-        myosins from 
-        Acetabularia cliftonii. No animal
-        myosins are in any of these classes and no plant myosins
-        are in any other myosin class. However, the cellular slime
-        mold 
-        Dictyostelium discoideum has one
-        myosin (Dd MyoJ), which is alternatively grouped with class
-        V or class XI [ 27].
-        Other organisms have myosins from more than two classes.
-        The yeast 
-        Saccharomyces cerevisiae has five
-        myosins in three different classes. 
-        Caenorhabditis elegans has myosins in
-        seven classes and 
-        Drosophila melanogaster in nine. Do
-        plants have only two classes of myosins? How many myosins
-        are in a plant genome? What are the similarities and
-        differences between plant and non-plant myosins that might
-        help establish a function for the myosins? Until the recent
-        completion of the sequencing of the 
-        Arabidopsis genome [ 55], answers to
-        these questions were not known. It is now possible to
-        determine how many myosins are in the 
-        Arabidopsis genome and to see if any
-        plant myosins fall into other myosin classes. As the myosin
-        motor domain is highly conserved, the sequence from one
-        myosin motor can be used to search a database for all other
-        myosins. We used the motor domain from MYA1 to search the 
-        Arabidopsis database [ 11] for
-        sequences with similarity to this domain. We identified 17 
-        Arabidopsis myosins, including the 5
-        reported myosins, in the 
-        Arabidopsis genome. Phylogenetic
-        analysis using non-plant and plant myosins showed that all
-        17 fall into either myosin class VIII or XI. Only 4 are in
-        class VIII and 13 in class XI. An analysis of their
-        exon/intron junctions and sequence similarities indicates
-        that all myosins are highly conserved and some may
-        represent gene duplication events.
+        Most eukaryotic mRNAs are translated through a
+        cap-dependent mechanism of initiation. In this process,
+        eIF4E, which functions by binding the 7-methylguanosine
+        cap, is the rate-limiting factor due to its low abundance [
+        1 2 ] . In normal cells, elevated eIF4E activity is
+        associated with proliferation and is regulated by multiple
+        mechanisms. eIF4E gene transcription is enhanced in
+        response to mitogenic stimulation and may be mediated by
+        c-myc [ 3 ] . Phosphorylation of eIF4E by the protein
+        kinase Mnk1 increases its affinity for the cap, and thus
+        increases cap-dependent initiation of translation [ 4 5 6 ]
+        . An inhibitor of eIF4E, 4E binding protein (4EBP), is also
+        regulated by phosphorylation. Phosphorylation of 4EBP
+        disrupts its ability to bind eIF4E, freeing eIF4E to bind
+        eIF4G, which functions to recruit additional components of
+        the initiation complex [ 7 8 ] . The net result is that
+        phosphorylation of 4EBP enhances cap-dependent translation
+        initiation. 4EBP phosphorylation is thought to be mediated
+        by mammalian target of rapamycin (mTOR) in mitogen
+        stimulated cells [ 9 10 11 ] .
+        Numerous studies have implicated eIF4E in formation and
+        progression of tumors. Overexpression of eIF4E leads to
+        deregulated growth and malignant transformation of a
+        variety of cultured cell lines [ 12 13 14 ] . Moreover,
+        elevated levels of eIF4E are commonly found in solid
+        tumors, especially in breast, colon, and head and neck
+        tumors [ 15 ] . Clinical studies indicate that eIF4E gene
+        amplification and protein overexpression is associated with
+        malignant progression in these tumors [ 16 ] . High eIF4E
+        levels are also associated with a higher rate of cancer
+        recurrence and cancer-related death [ 17 ] . In contrast to
+        eIF4E, overexpression of 4EBP inhibits cell proliferation [
+        18 ] and 4EBP-1 expression levels are inversely correlated
+        with the progression of certain types of tumors [ 19 ]
+        .
+        The findings summarized above indicate that elevated
+        eIF4E activity plays a fundamental role in cancer formation
+        and progression and suggest the possibility that eIF4E
+        could be exploited as a therapeutic target. This is
+        supported by several recent investigations. Inhibiting the
+        expression of eIF4E by expressing antisense RNA reverses
+        ras-mediated transformation of cultured cells as indicated
+        by decreased efficiency of growth in soft agar and tumor
+        formation in nude mice [ 20 ] . Similarly,
+        antisense-mediated reduction of eIF4E in breast cancer
+        cells inhibits both their tumorigenic and angiogenic
+        properties [ 21 ] . On the other hand, overexpression of
+        4EBP reverses transformation mediated by v-src [ 18 ] .
+        Rapamycin and its analogs are potent inhibitors of mTOR
+        and lead to cell cycle arrest. Thus there is interest in
+        using this class of inhibitors for chemotherapeutic
+        treatment of cancer and several phase I trials have been
+        carried out [ 22 ] . Treatment of mammalian cells with
+        rapamycin leads to dephosphorylation and activation of
+        4EBP, which in turn binds to and inhibits eIF4E. However,
+        several other targets downstream of mTOR are also affected
+        by rapamycin. These include effects on other translational
+        control proteins including p70 S6 kinase (p70S6K), eIF4G,
+        eIF4B, and eEF2 (reviewed in [ 23 ] ). At present neither
+        the targets that are essential for inhibition of cell
+        proliferation by rapamycin nor the mechanism by which these
+        targets mediate cell cycle arrest are completely
+        understood.
+        In the present study an MCF7 breast cancer cell line was
+        developed which can be induced to express a mutant form of
+        4EBP-1 in which five amino acids that are targets for
+        phosphorylation have been changed to alanines [ 24 ] .
+        Since the protein cannot be inactivated by phosphorylation
+        it constitutively binds to and inhibits eIF4E. Thus
+        expression of the mutant mimics the effects of rapamycin on
+        4EBP but does not affect the other targets of mTOR.
+        Induction of the constitutively active 4EBP-1 leads to cell
+        cycle arrest which correlates with loss of cyclin D1
+        expression and increased levels of the cyclin dependent
+        kinase inhibitor p27 Kip1. The increase in p27 Kip1is
+        mediated, at least in part, by enhanced synthesis of the
+        protein and corresponds to activation of the p27 Kip1mRNA
+        5'-untranslated region (UTR) and its ability to mediate
+        cap-independent initiation of translation.
       
       
         Results
         
-          Identification of Arabidopsismyosins
-          Using the amino-acid sequence of the conserved motor
-          domain of the plant myosin MYA1 [ 41], databases were
-          searched using BLASTP and TBLASTN at TAIR [ 11]. Other
-          searches using the amino-acid sequence of motor domains
-          from representatives of other classes of myosins were
-          also done but they did not reveal any other myosin
-          sequences. Sixteen unique sequences were obtained that
-          contain a myosin motor domain as identified by the SMART
-          (Smart Modular Architecture Research Tool) program [ 56].
-          The sequences obtained in this search were compared to
-          the Munich Information Center for Protein Sequences
-          (MIPS) [ 57] list of myosin domains in 
-          Arabidopsis. MIPS lists 16 
-          Arabidopsis sequences showing
-          myosin domains. A check of these showed that 13 of the
-          sequences were myosins identified in our search and one
-          was a myosin not available in the NCBI (National Center
-          for Biotechnology Information) protein database [ 58].
-          Two are not full-length myosins. One is a putative
-          helicase (At1g26370) with no myosin motor domain and one
-          is a possible pseudogene (At1g42680) with only 162 amino
-          acids that have some similarity to the myosin motor
-          domain. MIPS does not list three myosins identified in
-          our search (At XIG, At XIF and At XI-I). Table 1lists the
-          myosins by names as given in the phylogenetic tree
-          constructed by Hodge and Cope [ 59] and as assigned by
-          us. There are a total of 17 myosin genes in 
-          Arabidopsis. In comparison, 
-          S. cerevisiae, Schizosaccharomyces
-          pombe, C. elegans and 
-          D. melanogaster have 5, 5, 20 and
-          13 myosins, respectively (Figure 1) [ 60, 61]. 
-          Arabidopsis has the lowest
-          percentage (0.068%) of myosin genes out of the total
-          number of genes, as compared to 
-          S. cerevisiae and 
-          S. pombe with 0.080% and 0.093%,
-          respectively, 
-          C. elegans with 0.11% and 
-          D. melanogaster with 0.096% (see
-          Figure 1).
-          Only 5 of the 17 
-          Arabidopsis myosins have been
-          reported in the literature [ 41, 42, 43]. The other 12
-          are sequences obtained from the 
-          Arabidopsis database sequenced as
-          part of the Arabidopsis Genome Sequencing Project. These
-          sequences are, therefore, predicted sequences that have
-          not been verified by complete cDNAs. The average sequence
-          length of the 
-          Arabidopsis myosins is 1,400
-          residues, with the shortest sequence prediction being
-          1,085 (At VIIIA) amino acids and the longest 1,730 (At
-          XIA). Some of the intron/exon predictions may not be
-          correct, which could reduce or increase the size of the
-          predicted proteins and so the sizes may change as more
-          characterization is done for each myosin. A case in point
-          is the cDNA that was isolated by Kinkema and Schiefelbein
-          [ 41] for At MYA1 (At MYA1) which codes for 1,520 amino
-          acids, whereas the predicted protein has 1,599 because of
-          differences in intron prediction.
-          Using the 
-          Arabidopsis Sequence Map Overview
-          of TAIR [ 62], the location of each myosin was determined
-          (Figure 2). The myosin genes are distributed throughout
-          the 
-          Arabidopsis genome. The chromosome
-          lengths are based on the centimorgan (cM) scale as shown
-          on the TAIR Map Overview [ 62]. The maps reported with
-          the announcement of the Arabidopsis genome sequence show
-          somewhat different lengths than the TAIR maps [ 55].
+          Expression of constitutively active 4EBP-1 inhibits
+          the proliferation of MCF7 cells
+          To test the effect of 4EBP-1 on the proliferation of
+          human breast cancer cells, an expression vector encoding
+          the constitutively active 4EBP-1 mutant (4EBP-1-5A) was
+          stably transfected into MCF7 cells. The 4EBP-1-5A cDNA
+          was placed under the control of a promoter that is
+          responsive to the insect hormone ponasterone A (pon A),
+          an ecdysone analog. In the absence of pon A an ecdysone
+          receptor/VP16 fusion protein actively represses the
+          promoter leading to very low basal levels of expression.
+          In the presence of pon A the ecdysone receptor recruits
+          coactivators that lead to elevated expression. The stably
+          transfected MCF7 line (MCF7-4EBP-1-5A) was treated with
+          pon A and at various times cells were harvested for
+          analysis of 4EBP-1 expression by Western blotting (Fig.
+          1A). Several forms of 4EBP-1 are present in the stably
+          transfected MCF7 cells. The slower migrating bands
+          represent endogenous 4EBP-1 that is phosphorylated at
+          various sites. The fastest migrating band corresponds to
+          hypophosphorylated 4EBP-1. Treatment with pon A leads to
+          a rapid increase in the intensity of the fastest
+          migrating band, which corresponds to the 4EBP-1-5A
+          mutated form of the protein which cannot be
+          phosphorylated. In cells treated with pon A, the fastest
+          migrating form of 4EBP-1 is the predominant band at all
+          time points. Expression of this form of 4EBP-1 continues
+          to increase for at least five days after treatment with
+          pon A. In the control cells, which were not treated with
+          pon A, phosphorylated, inactive 4EBP-1 is the predominant
+          form of the protein (Fig. 1A). Treatment of untransfected
+          MCF7 cells with pon A had no effect on expression or
+          phosphorylation status of 4EBP-1 (data not shown). The
+          expressed 4EBP-1-5A protein is active as determined by a
+          large increase in the amount of 4EBP-1 bound to eIF4E in
+          pon A treated MCF7-4EBP-1-5A cells (Fig. 1B).
+          Expression of constitutively active 4EBP-1, through
+          inhibition of eIF4E activity, would be expected to slow
+          the rate of proliferation of MCF7 cells. To test this,
+          the growth of MCF7-4EBP-1-5A breast cancer cells was
+          determined by counting cell number in cultures treated
+          with or without pon A (Fig. 1C). In the absence of pon A,
+          the cells continued to proliferate for at least five
+          days. However, induction of 4EBP-1-5A by the addition of
+          pon A almost completely blocked cell proliferation. There
+          was no indication of cell death in the pon A treated
+          cultures and pon A had no effect on the untransfected
+          parental MCF7 cell line (Fig. 1C). These results indicate
+          that expression of constitutively active 4EBP-1 leads to
+          cell cycle arrest of MCF7 cells.
         
         
-          Phylogenetic analysis
-          All 
-          Arabidopsis myosins and a selection
-          of myosins from other organisms representing each of the
-          myosin classes were aligned using the motor domain
-          sequence as determined by the SMART program [ 56]. The
-          alignment was done in Megalign by the CLUSTAL method and
-          a phylogenetic tree was generated using the Bootstrap
-          (100 replicates) method with a heuristic search of the
-          PAUP 4.0b6 program (Figure 3). The 
-          Arabidopsis myosins all group into
-          two classes along with other plant myosins - class VIII
-          and class XI. No animal myosins group with the plant
-          myosins and no plant myosins group into any of the animal
-          myosins. An algal ( 
-          Chara corallina ) myosin, Cc ccm,
-          does group with the plant class XI myosins but is on a
-          separate branch from any other class XI myosin (Figure
-          3). The 
-          D. discoideum myosin Dd myoJ did
-          not fall into a class with any of the plant myosins. In
-          fact, three 
-          D. discoideum myosins (Dd myoI, Dd
-          myoJ, and Dd myoM) did not fall into any of the classes
-          (Figure 3). The phylogenetic trees of Hodge and Cope and
-          the tree on the myosin home page [ 22, 59] show the Dd
-          myoI branching from class VII myosins. A heuristic search
-          without bootstrapping also showed the Dd myoI myosin as a
-          branch from class VII and domain analysis shows that Dd
-          myoI has the MyTH4 domain found in other class VII
-          myosins. Other phylogenetic anaylses have placed Dd myoJ
-          as a branch off class XI myosins from plants [ 22, 59].
-          However, the phylogenetic tree generated from full-length
-          sequences of plant myosins and Dd myoJ (see below) also
-          shows that Dd myoJ is separate from the plant
-          myosins.
-          Myosins from another alga, 
-          Acetabularia cliftonii, are
-          classified into a separate group (XIII) and one myosin
-          each from the fungi 
-          Emericella nidulans and 
-          Pyricularia grisea are also
-          assigned to a separate class (XVII). A second alignment
-          was done using the full-length sequences for all 
-          Arabidopsis and other known
-          full-length plant myosins with a human heavy-chain myosin
-          (Hs Ib) as an outgroup. The two classes of plant myosins
-          are clearly seen (Figure 4). Among the class XI myosins
-          the similarity ranges from 40-85% (full length) and
-          61-91% (motor domain). The similarity between the class
-          VIII myosins ranges from 50-83% (full length) and 64-92%
-          (motor domain). When class VIII myosins are compared to
-          class XI myosins the similarity only ranges from 22-29%
-          (full-length) and 35-42% (motor domain). Thirteen 
-          Arabidopsis myosins group into
-          class XI. Two subgroups branch off in this class with
-          three outliers (Figure 4). One subgroup consists of two
-          pairs of 
-          Arabidopsis myosins, At XIB/At MYA2
-          and At XIG/At XIH, which are most similar to the
-          sunflower myosin Hahamy4 and then another pair of 
-          Arabidopsis myosins, At XID/At XIA.
-          The other subgroup consists of the 
-          Arabidopsis myosin pair At XIC/At
-          XIE and two unpaired 
-          Arabidopsis myosins, At XIK and At
-          MYA1, that are most closely related to sunflower myosins
-          Hahamy2 and Hahamy5 and to the maize myosin ZmMYO1. At
-          XIJ, AT XIF and At XI-I are on separate branches that
-          group with the other class XI myosins but not within the
-          two subgroups. There are four class VIII 
-          Arabidopsis myosins that form two
-          pairs, At ATM/At VIIIA and At VIIIB/At ATM2. The first
-          pair group with class VIII myosins from 
-          Z. mays and 
-          H. annuus whereas the second pair
-          are on a separate branch.
+          Expression of 4EBP-1-5A results in enhanced p27
+          Kip1expression and downregulation of cyclin D1
+          Elevated levels of eIF4E are associated with
+          tumorigenic transformation and enhanced expression of
+          specific cell cycle regulatory proteins such as cyclin
+          D1. Expression of constitutively active 4EBP-1 should
+          lead to a global decrease in cap-dependent translation
+          which could lead to cell cycle arrest. However, it is
+          also possible that constitutively active 4EBP-1 inhibits
+          proliferation through specific effects on cell cycle
+          regulatory proteins. Therefore, a number of G1 cell cycle
+          regulatory molecules were examined in MCF7-4EBP-1-5A
+          cells that had been treated with or without pon A.
+          Addition of pon A altered the levels of two critical G1
+          regulatory proteins. There was a significant increase in
+          the level of p27 Kip1observed at every time point up to
+          three days after addition of pon A (Fig. 2Aand 2B). At
+          the same time there was a substantial decrease in the
+          level of cyclin D1. No difference was observed in the
+          protein levels of CDK4 or CDK2 between pon A treated and
+          untreated cells. Treatment of MCF7-pERV3 cells, which
+          express the ecdysone receptor/VP16 fusion protein but not
+          the inducible constitutively active 4EBP-1 (see Methods),
+          with pon A had no effect on the expression of any of
+          these proteins (Fig. 2B).
         
         
-          Characterization of the Arabidopsismyosins
-          Figure 5shows schematic diagrams of each myosin. The
-          motor domain in all cases is in the amino-terminal
-          region. The motor domain starts at about 50-55 residues
-          for the class XI myosins whereas the class VIII myosins
-          have a longer amino-terminal region before the motor
-          domain (99-159 residues). The IQ domains usually follow
-          right after the motor domain but are separated slightly
-          from the motor domain in At XID, At XI-I, and At XIK.
-          There are three or four IQ domains in class VIII myosins
-          and five or six in class XI, except for At XIK, which has
-          only four. There are coiled-coil domains, that differ in
-          length and number, in all the myosins. They often follow
-          directly after the IQ domains, but in some cases there is
-          intervening sequence. Based on the presence of the
-          coiled-coil domains, the 
-          Arabidopsis myosins are probably
-          dimeric [ 26]. The class XI myosins are much longer than
-          the class VIII myosins with the difference being in the
-          length of the carboxy-terminal region following the
-          conserved domains found in myosins.
-          Besides the motor, IQ and coiled-coil domains, other
-          domains have been identified in myosins from classes
-          other than the plant classes VIII and XI. These include
-          SH3 domains (Src homology 3 domains, that bind to target
-          proteins), MYTH4 (a domain of unknown function found in a
-          few classes of myosins), a zinc-binding domain, a
-          pleckstrin homology domain, FERM/talin (band
-          4.1/ezrin/radixin/moesin), GPA-rich domains and a protein
-          kinase domain [ 8, 22, 26]. These domains are involved in
-          protein interactions and presumably give specificity to
-          the action of the myosin. Except for the IQ and
-          coiled-coil domains, the SMART program used to identify
-          the motor domain of the myosin sequences did not identify
-          any domains other than a few with scores less significant
-          than the required threshold.
-          Myosins have 131 highly conserved residues spread
-          throughout the motor domain that define a core consensus
-          sequence [ 26]. Comparison of an alignment of 
-          Arabidopsis myosin motor domains to
-          these conserved sequences shows a great deal of
-          conservation among them (data not shown). One example is
-          the ATP-binding site which consists of GESGAGKT (179-187
-          in 
-          Dictyostelium myosin II, DmyoII)
-          and NxNSSR-FGK (233-241, DmyoII). With the exception of
-          only one residue these are conserved in all 17 
-          Arabidopsis myosins. The
-          conformational state of myosin changes with ATP
-          hydrolysis and a very conserved region implicated in this
-          process has the conserved sequence
-          LDIxGFExFxxN(S/G)(F/L)EQxxINxxNExLQQxF (453-482, DmyoII)
-          [ 26]. The plant sequences are very conserved through
-          this region. The sequence in this region is
-          LDIYGFExFxxNSFEQxCINE(K/R)LQQHF (the first x is S in all
-          but one myosin, the fourth x is F in all but one myosin).
-          Cope 
-          et al. [ 26] suggest that release
-          of the γ-phosphate of ATP may be through a hole in the
-          structure centered around an absolutely conserved
-          arginine residue (residue 654, DmyoII) which is also
-          absolutely conserved in all 
-          Arabidopsis myosins. The presence
-          of these highly conserved residues in plant myosins
-          suggests that they are capable of motor function. In
-          fact, 
-          in vitro motility studies with a
-          purified myosin from 
-          Chara (myosin XI, Cc ccm in Figure
-          3) have confirmed that it is indeed an actin-based motor
-          [ 54]. A loop present in the motor domain called the HCM
-          (mutations in this loop cause hypertrophic
-          cardiomyopathy) is the location of a phosphorylatable
-          serine (S) or threonine (T) in certain amoeboid myosin I
-          molecules and myosin VI molecules. This S or T residue is
-          16 residues upstream from the conserved DALAK sequence.
-          The enzyme activity of the amoeboid myosins depends on
-          phosphorylation of this site, but although
-          phosphorylation of the myosin VI T residue has been
-          demonstrated, the regulation of enzyme activity has not [
-          8, 63]. Most other myosins have a constitutively
-          negatively charged amino acid, either aspartic acid (D)
-          or glutamic acid (E) at this site. This site has been
-          named the TEDS rule site on the basis of these amino
-          acids [ 8]. The 
-          Arabidopsis and other plant myosins
-          all have aspartic acid, glutamic acid or glycine residue
-          at this site, suggesting that they are not regulated by
-          phosphorylation at this site. However, three residues
-          upstream (19 from DALAK), all the class XI myosins have a
-          threonine residue.
-          The site for each predicted or actual intron was
-          located and is shown schematically in Figure 6. The
-          intron locations were determined from the information at
-          MIPS [ 57]. The length of each exon and the domain(s)
-          they code for are shown in Tables 2and 3for class VIII
-          and class XI myosins, respectively. The exons vary in
-          length from 12 to greater than 672 nucleotides (the
-          length of the beginning and last exons for each gene are
-          not known as the predicted sizes include only the
-          protein-coding nucleotides) with an average of 122
-          nucleotides. The four class VIII myosins have seven exons
-          of the same length in the same order within the myosin
-          motor domain (Table 2). The motor domain starts in the
-          third exon of each class VIII myosin. The start of the IQ
-          domains and the coiled-coil domains is more variable
-          except for the At ATM2/At VIIIB pair. The class XI
-          myosins also have many exons that are of the same length
-          and in the same order but that differ from the class VIII
-          pattern (Table 3). The exons coding for the motor domain
-          sequence are most conserved in length. Most class XI
-          myosins motor domains start in the third exon and end in
-          the twentieth. Six of the class XI myosins have an intron
-          after the start codon. Most differences in exon length
-          are in the carboxy-terminal regions (Figure 6and Table
-          3). However, even in the carboxy-terminal region there
-          are some exon lengths conserved between some or all of
-          the myosins. The two XI myosins with the closest
-          similarity are At XIB and At MYA2. A Clustal alignment at
-          Pole Bio-Informatique Lyonnais [ 64] showed 83.88%
-          identity, 8.19% strong similarity and 2.36% weak
-          similarity between these two myosins. Their motor domains
-          are 91.6% identical. Twenty-three of their introns are at
-          the same location in the motor domain area and then
-          following a few different size exons, there are similar
-          sized exons again. They are located on chromosomes I and
-          V, respectively. It is possible that this pair is a
-          result of gene duplication. Class VIII myosins At ATM and
-          At VIIIA have 13 exons of the same length. Their
-          full-length sequences are 79% identical with another
-          6.72% strongly similar and 3.52% weakly similar. Their
-          motor domains have 93% similarity. At ATM is on
-          chromosome III whereas At VIIIA is on chromosome I. This
-          again may have resulted from a gene duplication. Analysis
-          of the total 
-          Arabidopsis genome revealed that a
-          whole genome duplication occurred, followed by subsequent
-          gene loss and extensive local gene duplications [ 55].
-          The duplicated segments represent 58% of the 
-          Arabidopsis genome. The 
-          S. cerevisiae genome has also had a
-          complete ancient genome duplication and 30% of the genes
-          form duplicate pairs. Duplicated genes account for 48% of
-          the total genes of 
-          C. elegans and 
-          Drosophila [ 60].
-          If the gene pairs are the result of duplication, it is
-          interesting to note that while exon lengths have been
-          conserved, intron lengths have not. The intron lengths
-          are shown in Table 4. No pattern can be seen in intron
-          lengths between any of the myosins. The average intron
-          length is 131 nucleotides with the shortest intron at 47
-          nucleotides and the longest at 860. At XI-I has the
-          highest average, 272 nucleotides. It contains the
-          860-nucleotide intron and three others that are over 500
-          nucleotides. In a study of 998 introns only 3.3% of the
-          introns were longer than 500 nucleotides with sizes
-          ranging from 59 to 1242 nucleotides [ 65]. This makes At
-          XI-I unusual in having four out of 33 introns (12%)
-          longer than 500 nucleotides. Only two other myosins had
-          an intron over 500 nucleotides. Of the total 557 splice
-          sites that were identified in the 
-          Arabidopsis myosins only six (a
-          little more than 1%) were over 500 nucleotides with four
-          out of the six being in one myosin. Hunt 
-          et al. found that a SV40 small-t
-          intron only 66 nucleotides in length was spliced
-          efficiently in tobacco cells [ 66]. Several of the
-          introns in the myosins are between 66 and 70 nucleotides
-          and so may be long enough to be spliced. Only one is in a
-          cloned myosin known to be spliced at that site (At XIJ).
-          There is also a predicted intron of only 47 nucleotides
-          in length (At XID) which is thought to be too short for
-          efficient splicing. Brown 
-          et al. [ 65] found three introns
-          less than 66 nucleotides in length in known expressed
-          proteins, but none of them was less than 59 nucleotides.
-          Until the expression of At XID is studied, no conclusion
-          can be made as to the validity of this intron prediction.
-          The significance of the range and variability of intron
-          length is not known. In 
-          Arabidopsis, in general, the range
-          is even greater (47-6,442) [ 11].
-          The consensus nucleotide sequences for the 5' and 3'
-          splice sites are A 
-          -2 G 
-          -1 G 
-          +1 T 
-          +2 A 
-          +3 A 
-          +4 G 
-          +5 T 
-          +6 and T 
-          -5 G 
-          -4 C 
-          -3 A 
-          -2 G 
-          -1 
-          G 
-          +1 T 
-          +2 , respectively [ 65]. The most
-          conserved sequences are the 5' consensus G (100%) T (99%)
-          at the +1, +2 positions, respectively, and the 3' A(100%)
-          G(100%) at the -2, -1 positions, respectively. The splice
-          sites in the reported myosins and the predicted myosins
-          (Table 4) all contain the 5' GT and 3' AG sequences. The
-          sequences in the 
-          Arabidopsis myosins upstream and
-          downstream of these two very conserved sites varied as a
-          reflection of the less conserved nature of these
-          nucleotides (Table 4). However, these predicted sites at
-          the 5' and 3' splice sites need to be confirmed
-          experimentally.
+          Constitutively active 4EBP-1 does not alter p27
+          Kip1and cyclin D1 turnover rates
+          The results above suggest that cell cycle arrest of
+          MCF7 cells in response to 4EBP-1-5A expression involves
+          specific effects on expression of cyclin D1 and p27 Kip1.
+          The most plausible explanation is that the observed
+          changes are mediated by altered rates of translation.
+          However, others have shown that eIF4E overexpression
+          enhances cyclin D1 mRNA transport from the nucleus to the
+          cytosol [ 25 ] and it is possible that 4EBP-1 affects
+          this process. Also, p27 Kip1expression is actually
+          enhanced while 4EBP-1 would be expected to inhibit
+          translation rates. Therefore it was of interest to
+          examine the mechanism by which 4EBP-1-5A expression
+          modulates p27 Kip1and cyclin D1 levels.
+          First, to determine if 4EBP-1 led to a change in
+          degradation of either p27 Kip1or cyclin D1, turnover
+          rates were estimated in MCF7-4EBP-1-5A cells that had
+          been treated with or without pon A for 24 hours.
+          Cycloheximide was added for various times and p27 Kip1and
+          cyclin D1 levels were estimated by western blotting (Fig.
+          3). Neither the rate of p27 Kip1turnover nor that of
+          cyclin D1 was significantly altered by pon A-induced
+          expression of 4EBP-1-5A. Thus, modulation of p27 Kip1and
+          cyclin D1 levels in response to expression of
+          constitutively active 4EBP-1 does not appear to be
+          mediated by changes in protein degradation.
+        
+        
+          Expression of constitutively active 4EBP-1 does not
+          alter p27 Kip1mRNA levels but decreases cyclin D1 mRNA
+          levels
+          To examine whether 4EBP-1 could regulate p27 Kip1or
+          cyclin D1 at the transcriptional level or through changes
+          in message stability, the levels of p27 Kip1and cyclin D1
+          mRNA levels were examined by Northern blotting (Fig.
+          4Aand 4B) There was no difference in mRNA levels encoding
+          p27 Kip1after treatment with pon A. However, pon A
+          treatment led to an approximately 50% decrease in the
+          levels of cyclin D1 mRNA (Fig. 4B). This may contribute
+          to the downregulation of cyclin D1 protein and is
+          consistent with a previous report showing an increase in
+          cyclin D1 mRNA in cells overexpressing eIF4E [ 26 ] .
+        
+        
+          Expression of 4EBP-1-5A enhances de novop27
+          Kip1protein synthesis
+          The observation that expression of constitutively
+          active 4EBP-1 leads to increased p27 Kip1, but does not
+          significantly affect protein turnover or mRNA levels
+          suggests that synthesis of p27 Kip1is affected.
+          Therefore, the effect of 4EBP-1-5A on the 
+          de novo synthesis of p27 Kip1was
+          tested by metabolic labeling with [ 35S]-labeled amino
+          acids. After treatment of MCF7-4EBP-1-5A cells with or
+          without pon A for 48 hours the cells were pulse labeled
+          for 1.5 hours. Half of the cellular extract was used to
+          immunoprecipitate cyclin D1 and the other half to
+          immunoprecipitate p27 Kip1(Fig. 5Aand 5B). The results
+          demonstrate an increase in p27 Kip1protein synthesis of
+          approximately two-fold in cells expressing 4EBP-1-5A.
+          Since no changes in p27 Kip1mRNA levels or protein
+          turnover were observed, the increased synthesis of p27
+          Kipmost likely reflects increased rates of translation.
+          In the same experiment a substantial decrease in 
+          de novo synthesis of cyclin D1 was
+          observed, which could be due, in part, to lower cyclin D1
+          mRNA levels (see Fig. 4). Interestingly, total protein
+          synthesis, as determined by trichloroacetic acid (TCA)
+          precipitation of total cellular proteins following pulse
+          labeling, was decreased only about 15% by expression of
+          constitutively active 4EBP-1 (Fig. 5B). This is
+          consistent with reports that changes in the levels of
+          active eIF4E have a much greater effect on the
+          translation of specific classes of mRNA than on general
+          translation rates [ 15 27 ] .
+        
+        
+          Expression of 4EBP-1-5A leads to inhibition of CDK2
+          activity
+          A critical factor in p27 Kip1-mediated cell cycle
+          arrest is inhibition of CDK2. 4EBP-1-5A expression did
+          not significantly change CDK2 protein levels (see Fig.
+          2A). However, there was a substantial loss of CDK2
+          activity as determined by an immunoprecipitation kinase
+          assay (Fig. 6). This loss of CDK2 activity correlated
+          with an increase in the amount of p27 Kip1that
+          co-immunoprecipitated with CDK2 (Fig. 6). At the same
+          time, the association of p27 Kip1with CDK4 was
+          dramatically decreased (Fig. 6). These results suggest
+          that 4EBP-dependent cell cycle arrest involves p27
+          Kip1-mediated inhibition of CDK2 kinase activity.
+        
+        
+          Expression of constitutively active 4EBP-1-5A
+          enhances cap-independent translation through the p27
+          Kip15'-UTR
+          A novel finding of the experiments above is that
+          synthesis of endogenous p27 Kip1is enhanced under
+          conditions that are expected to reduce cap-dependent
+          translation. One possibility is that the p27 Kip1mRNA is
+          translated through a cap-independent mechanism that does
+          not require eIF4E. It was recently demonstrated that
+          elements within a 217 nucleotide sequence from the 5'-UTR
+          of the mouse p27 Kip1mRNA is able to mediate
+          cap-independent translation of a reporter gene in NIH3T3
+          and D6P2T cells [ 28 ] . There is a high level of
+          sequence homology between the mouse and human 5'-UTRs and
+          the major transcriptional start site is also conserved [
+          29 ] . Therefore it is likely the 5'-UTR of the human p27
+          Kip1message is also able to mediate cap-independent
+          translation initiation. To test this, a 472 nucleotide
+          fragment, representing the full-length human p27
+          Kip15'-UTR derived from transcription initiation at the
+          major start site, was inserted into the bicistronic
+          expression vector pGL2CAT/Luc [ 30 ] . In this vector,
+          the first cistron, encoding chloramphenicol
+          acetyltransferase (CAT), is proximal to the mRNA's cap
+          structure and therefore expected to be translated by the
+          conventional cap-dependent translation mode. The second
+          cistron, encoding luciferase, is downstream of the CAT
+          stop codon and therefore must be translated by a
+          cap-independent mechanism mediated by sequence elements
+          inserted between the two cistrons. Bicistronic constructs
+          without an insert or with the human p27 Kip15'-UTR
+          inserted in either the correct or reverse orientation
+          were transiently expressed in MCF7 cells. The cells were
+          harvested after one day and both CAT and luciferase
+          activities were analyzed (Fig. 7Aand 7B). Expression of
+          CAT was nearly identical with all three constructs and
+          was therefore independent of an insert between the two
+          coding regions. In contrast, only the construct carrying
+          the p27 Kip15'-UTR insert in the correct orientation
+          expressed a significant level of luciferase. The ratio of
+          luciferase/CAT was enhanced approximately 12-fold by the
+          human 5'-UTR (Fig. 7B). Thus the full-length human p27
+          Kip15'-UTR is able to mediate cap-independent translation
+          in a manner similar to that previously shown for the 217
+          nucleotide sequence of the mouse 5'-UTR [ 28 ] .
+          The effect of constitutively active 4EBP-1 on the
+          activity of the p27 Kip15'-UTR was determined by
+          cotransfecting the bicistronic construct together with an
+          expression vector encoding 4EBP-1-5A into MCF7 cells.
+          Expression of 4EBP-1-5A led to a two-fold increase in the
+          luciferase/CAT ratio (Fig. 7C). Interestingly, this is
+          approximately the same level of increase that is observed
+          in synthesis of endogenous p27 Kip1protein (see Fig.
+          5B).
         
       
       
         Discussion
-        Only two classes of myosins are present in 
-        Arabidopsis. A study of myosins in
-        lily and tobacco pollen tubes using antibodies to three
-        animal-type myosins IA and IB, II and V suggested the
-        presence of three types of myosins in these plants [ 40].
-        However, no type I, II or V myosins have been found in any
-        plant and only two types (VIII and XI) have been
-        identified. Class XI are somewhat similar to class V
-        myosins [ 42] and this may explain the reaction with the
-        type V antibody. Possibly the other reactions were due to
-        similarities in the myosin motor domain. Phylogenetic
-        analysis of 
-        Arabidopsis myosins along with other
-        plant myosins suggests that most class XI myosins (except
-        three) fall into two subgroups (Figure 4).
-        The 
-        Arabidopsis myosins have anywhere
-        from three to six IQ domains. The IQ domain in non-plant
-        myosins has been shown to bind to calmodulin in a
-        calcium-independent manner. The regulation of myosin action
-        is thought to be due to calmodulin interaction. In plants,
-        two myosin heavy chains have been shown to associate with
-        calmodulin [ 37, 67]. A myosin-containing protein fraction
-        from tobacco BY2 cells was used in motility assays with
-        F-actin. Concentrations of Ca 2+higher than 10 -6M caused a
-        significant reduction in F-actin sliding [ 37]. Another
-        study with myosin isolated from lily pollen, also
-        demonstrated a co-precipitation of myosin and calmodulin
-        and a similar effect of Ca 2+concentration [ 67]. Not only
-        did concentrations above 10 -6M cause inhibition of myosin
-        activity, but the effects of concentrations higher than 10
-        -5M were not reversible upon Ca 2+removal. These studies
-        provide evidence that plant myosins bind calmodulin in the
-        absence of Ca 2+and are active when calmodulin is bound and
-        inactivated when the Ca 2+concentration is increased. They
-        also found that when the myosin fraction was pretreated
-        with CaCl 
-        2 calmodulin did not bind the myosin,
-        suggesting that calmodulin dissociates from myosin at high
-        concentrations of Ca 2+. The myosins in the above studies
-        have not been cloned, and binding to specific IQ domains
-        has not been established. However, the presence of IQ
-        domains in 
-        Arabidopsis and other plant myosins
-        suggests that these are the sites of Ca 2+regulation. It
-        would be interesting to investigate the possible
-        phosphorylation of the threonine residue which is three
-        residues upstream from the TEDS rule site in class XI
-        myosins and to see if enzyme activity is regulated by
-        phosphorylation of this residue.
-        Myosins are involved in a wide range of cellular
-        functions. They have been shown to be involved in movement,
-        translocation, cell division, organelle transport,
-        G-protein-linked signal cascade and maintenance of
-        structure within cells [ 26]. Insight into the function of
-        plant myosins has been gained by studies in algae.
-        Cytoplasmic streaming is responsible for movement of
-        organelles and vesicles and of generative cells and
-        vegetative nuclei in pollen tubes. Physiological studies in
+        In normal mitogen-activated cells eIF4E activity is
+        enhanced due to elevated transcription of the eIF4E gene, a
+        phosphorylation-dependent increase in affinity for the
+        7-methylguanosine cap, and phosphorylation-dependent
+        inactivation of the inhibitor protein 4EBP. In many tumor
+        cells eIF4E levels are elevated and overexpression of the
+        protein in normal cultured cells causes transformation.
+        Elevated eIF4E levels enhance translation of specific
+        mRNAs. Many of these mRNAs are involved in cell cycle
+        progression. They have long GC-rich 5'-UTRs that can form
+        extensive secondary structure and have been classified as
+        "weak" mRNAs because they are translated inefficiently when
+        eIF4E levels are limiting (reviewed in [ 15 ] ). It has
+        been proposed that when eIF4E levels are elevated these
+        mRNAs can more effectively recruit eIF4E and its associated
+        factors including eIF4G, a scaffold protein essential in
+        recruiting the small ribosomal subunit, and eIF4A, a
+        helicase essential for scanning through secondary
+        structures in the 5'-UTR [ 15 27 ] .
+        In the experiments described here we have inducibly
+        expressed a constitutively active form of 4EBP-1 in the
+        human breast cancer cell line MCF7. This leads to nearly
+        complete inhibition of cell proliferation which is
+        associated with an increase in binding of 4EBP-1 to eIF4E.
+        This does not lead to a major drop in total protein
+        synthesis as indicated by metabolic labeling with 35S-amino
+        acids. However, there are major changes in expression of
+        two cell cycle regulatory proteins, cyclin D1 and p27 Kip1.
+        Cyclin D1 levels decline to about 30% of that observed in
+        uninduced cells and this appears to be due to a reduction
+        in cyclin D1 mRNA levels and protein synthesis, since there
+        was no evidence for changes in cyclin D1 turnover. The
+        observed decline in cyclin D1 is expected since
+        constitutively active 4EBP should reverse cyclin D1
+        expression mediated by eIF4E overexpression. Interestingly,
+        others have demonstrated that eIF4E has an additional role
+        in the nucleus. A portion of the cellular eIF4E is imported
+        into the nucleus through a mechanism that requires the
+        protein 4E-T [ 31 ] . In the nucleus eIF4E is localized to
+        specific nuclear bodies and associates with promyelocytic
+        leukemia protein (PML, [ 32 ] ). Nuclear eIF4E appears to
+        be involved in export of cyclin D1 mRNA to the cytosol [ 25
+        ] . Both 4E-T and PML interact with the same domain of
+        eIF4E that binds 4EBP [ 32 ] . Thus expression of
+        constitutively active 4EBP may block nuclear functions of
+        eIF4E, one consequence being a reduction in cyclin D1 mRNA
+        that can be translated in the cytoplasm.
+        In contrast to cyclin D1, p27 Kip1levels increase when
+        4EBP-1-5A is expressed. An interesting note is that the p27
+        Kip1mRNA has a long 5'-UTR that is 65% GC and is predicted
+        to form stable secondary structures [ 29 ] . Thus, even
+        though it shares these characteristics with the putative
+        "weak" mRNAs that require elevated eIF4E activity for
+        efficient translation, p27 Kip1responds in an opposite
+        manner. Part of this can be explained by the fact that the
+        p27 Kip15'-UTR is able to promote cap-independent
+        translation. When placed between the CAT and luciferase
+        coding regions in a bicistronic mRNA, the 5'-UTR stimulates
+        high level expression of the downstream coding region
+        (luciferase). This property is shared by the highly
+        homologous mouse p27 Kip15'-UTR [ 28 ] . Coexpression of
+        4EBP-1-5A with the bicistronic construct containing the p27
+        Kip15'-UTR leads to an approximately two-fold increase in
+        cap-independent expression. This increase is similar to
+        that observed for endogenous p27 Kip1in cells induced to
+        express 4EBP-1-5A. The mechanism by which 4EBP-1-5A could
+        mediate enhanced translation through the p27 Kip15'-UTR is
+        not presently known. One possibility is that binding of
+        4EBP-1 to eIF4E releases other initiation factors that are
+        in limited supply but also required for cap-independent
+        initiation.
+        Inhibition of cell proliferation by 4EBP-1-5A correlates
+        with a large decrease in CDK2 activity. This is not due to
+        a decline in CDK2 or cyclin E protein levels. Rather it
+        corresponds to enhanced binding of p27 Kip1to the cyclin
+        E/CDK2 complex. This is probably mediated by two separate
+        mechanisms. First, downregulation of cyclin D1 leads to
+        release of p27 Kip1sequestered by the cyclin D1/CDK4
+        complex. This is indicated by a large decrease in
+        co-immunoprecipitation of p27 Kip1with CDK4 upon induction
+        of 4EBP-1-5A. Second, 
+        de novo synthesis contributes to the
+        pool of cellular p27 Kip1that is available to bind the
+        cyclin E/CDK2 complex.
+        Given its role in control of cell proliferation and in
+        tumorigenesis, there is interest in targeting the pathways
+        that control eIF4E activity for cancer chemotherapy.
+        Clinical trials using the rapamycin analog CCI-779 show
+        promise for this strategy [ 22 ] . Rapamycin and its
+        synthetic analogs block mTOR kinase activity leading to
+        dephosphorylation of 4EBP and other mTOR substrates. MCF7
+        cells are sensitive to rapamycin analogs in the low nM
+        range [ 33 ] . A potential problem with the use of
+        rapamycin and its analogs is that some tumors are
+        intrinsically resistant to its effects [ 33 34 ] .
+        Resistance in mammalian cells has been associated with
+        decreased expression of 4EBP-1 [ 35 ] , mutations in the
+        ATM protein [ 36 ] , and low level expression of p27
+        Kip1due to enhanced turnover of the protein [ 37 ] . In
+        addition, it has been demonstrated that fibroblasts from
+        p27 Kip1knockout mice are more resistant to the effects of
+        rapamycin than normal cells [ 37 ] . Thus p27 Kip1is an
+        important mediator of cell growth inhibition in response to
+        rapamycin. Many tumor cells express very low levels of p27
+        Kip1and this is correlated with poor prognosis. If
+        rapamycin and its analogs are to be developed as useful
+        antitumor agents, it will be important to determine how p27
+        Kip1levels affect responsiveness to these compounds.
+        Rapamycin and its analogs affect all of the downstream
+        targets of mTOR, including p70 S6 kinase and other
+        components of the translation machinery. The data presented
+        here indicate that direct inhibition of eIF4E may be more
+        effective and a more specific means of targeting tumor
+        cells than treatment with rapamycin. It will be important
+        to determine if direct inhibition of eIF4E is able to
+        arrest the cell cycle in rapamycin resistant tumors. If so,
+        it may be possible to develop reagents that target eIF4E
+        activity, thereby bypassing the upstream signaling events
+        in the pathway.
+      
+      
+        Methods
         
-        Chara have shown that an increase in
-        Ca 2+concentration causes cytoplasmic streaming to stop [
-        68]. A myosin isolated from the alga 
-        Chara corallina was shown to be
-        responsible for cytoplasmic streaming [ 30, 69, 70]. The
-        myosin was cloned and characterized and found to be a class
-        XI myosin related to the 
-        Arabidopsis MYA myosins [ 54].
-        Myosins in plants have also been shown to be involved in
-        cytoplasmic streaming. Using immunofluorescence, myosin was
-        localized to vesicles, organelles and generative cells and
-        vegetative nuclei in grass pollen tubes [ 39]. A myosin
-        isolated from lily pollen has been shown to be responsible
-        for cytoplasmic streaming in pollen tubes and two myosins
-        were identified in tobacco cell cultures that are also
-        thought to participate in cytoplasmic streaming [ 37, 71].
-        Antibodies to the myosins recognized a protein in
-        vegetative cells as well as pollen tubes. Liu 
-        et al. [ 51] suggest that class XI
-        myosins are likely candidates for transport of large
-        vesicles because of the number of IQ domains (5-6).
-        Previous studies showed that translocational step size
-        produced by a myosin motor is proportional to the number of
-        IQ domains and the larger the step the faster or more
-        efficiently they are able to transport vesicles [ 9].
-        However, the kinetic properties of the motor domain are
-        also involved in speed and there is a wide range of
-        movement speeds for myosin II molecules [ 2, 72, 73].
-        An antibody specific to a 
-        Z. mays class XI myosin was used to
-        localize this myosin in fractions of maize proteins and
-        maize root tip cells [ 51]. The nuclear/cell wall fraction
-        and the plastid fraction contained relatively small amounts
-        of antigen while the mitochondrial fraction and the low
-        density membrane fraction had most of the antigen. The root
-        tip cells showed particulate staining in the cytoplasm, but
-        neither the vacuole membrane nor plasma membrane were
-        stained, although in some cells the staining was too bright
-        to distinguish if the plasma membrane was stained or not.
-        There are 13 class XI myosins in 
-        Arabidopsis that could be involved in
-        vesicle and organelle transport. The large number could
-        reflect redundancy of function or differential expression.
-        Patterns of expression were different for the cloned 
-        Z. mays and 
-        Arabidopsis myosins that have been
-        analyzed [ 42, 51].
-        Immunolocalization studies have also detected myosin
-        associated with plasmodesmata. Plasmodesmata are
-        interconnections between contiguous plant cells that allow
-        direct cell-to-cell transport of ions and proteins. A
-        recent study using an antibody to a cloned class VIII 
-        Arabidopsis myosin ATM1 (At ATM)
-        localized this myosin to the plasmodesmata and the plasma
-        membrane regions involved in the assembly of new cell walls
-        [ 47]. Earlier work suggested that actin was involved in
-        regulation of plasmodesmal transport [ 74]. Other studies
-        using antibodies to animal myosins in root tissues of 
-        Allium cepa, Z. mays and 
-        Hordeum vulagare have also indicated
-        the presence of myosin in the plasmodesmata [ 38]. However,
-        immunolocalization studies with antibodies to animal
-        myosins need to be interpreted with caution as there are no
-        plant myosins that group with animal myosins.
-        The recent work by Reichelt 
-        et al. [ 47] is more convincing
-        because they used antibody to plant myosin. The myosin was
-        localized mainly to the transverse walls with some punctate
-        labeling of the longitudinal walls. During cell division
-        the anti-class-VIII myosin staining remains confined to the
-        transverse cell walls and is strongest in the newly formed
-        cell wall. Immunogold electron microscopy showed labeling
-        of class VIII myosin associated with the plasma membrane
-        and plasmodesmata. These studies suggest that class VIII
-        myosins may be involved in new cell wall formation and
-        transport in the plasmodesmata. Reichelt 
-        et al. [ 47] suggest that myosin VIII
-        could act to bring islands of membrane plate material
-        together or could trigger exocytosis of new cell wall
-        material, or alternatively as an anchor for actin along the
-        transverse walls. The role of myosin in the plasmodesmata
-        was studied further by pretreating tissue with
-        2,3-butanedione 2-moxoxime (BDM), an inhibitor of
-        actin-myosin motility. The pretreatment resulted in a
-        strong constriction of the neck region of plasmodesmata [
-        38]. Myosin VIII in the plasmodesmata could be a part of a
-        gating complex that is thought to control the opening of
-        the plasmodesma neck [ 74]. There are four class VIII
-        myosins in 
-        Arabidopsis that could be involved in
-        these types of functions.
-        A recent study of the effect of BDM on the distribution
-        of myosins, F-actin, microtubules and cortical endoplasmic
-        reticulum (ER) suggests that myosins may link together
-        microtubules and actin filaments involved in structural
-        interactions [ 75]. This study used antibody to myosin II
-        from animals and 
-        Arabidopsis myosin VIII for
-        immunofluorescence studies. BDM treatment disrupted normal
-        cellular distributions of maize myosins and the
-        characteristic distribution of F-actin was also affected.
-        Myosin may participate in the intracellular distribution of
-        actin filaments as was proposed for myosin XV [ 76].
-        Microtubule arrangements in cortical root cells were
-        altered, as was the normal ER network. Post-mitotic cell
-        growth was inhibited by BDM, specifically in the transition
-        zone and the apical parts of the elongation region. The
-        study suggested that actin fibers and microtubules interact
-        together via myosins and that myosin-based contractility of
-        the actin cytoskeleton is essential for the developmental
-        progression of root cells [ 75]. However, BDM has only been
-        shown to inhibit a few myosins 
-        in vitro [ 77] and is known to be a
-        nonspecific inhibitor; so these results must be viewed with
-        caution.
+          Cell culture
+          MCF7 cells were cultured in Dulbecco's modified
+          Eagle's medium (DMEM) supplemented with 10% fetal calf
+          serum (FCS), 100 U/ml penicillin, and 100 μg/ml
+          streptomycin. The inducible MCF7 cell line expressing
+          4EBP-1-5A was established using the Complete Control™
+          Inducible Mammalian Expression System (Stratagene).
+          First, MCF7 cells were transfected with the pERV3 vector
+          encoding both the RXR protein and an
+          ecdysone/glucocorticoid receptor fusion protein using
+          GenePorter (Gene Therapy Systems). Stably transfected
+          colonies were selected using G418 (400 μg/ml). These
+          colonies were further screened for the ability to
+          inducibly express luciferase from the pEGSH-luc construct
+          in response to pon A in transient transfection assays. A
+          responsive cell line derived in this manner (designated
+          MCF7-pERV3) was further transfected with pEGSH-4EBP-1-5A,
+          a construct in which a constitutively active form of
+          4EBP-1 is inserted into the pon A-inducible expression
+          cassette of pEGSH. Cell clones were selected using
+          hygromycin B (100 μg/ml). The resulting colonies were
+          isolated, expanded, and tested for pon A-inducible
+          expression of 4EBP-1-5A. A single stably transfected cell
+          line designated MCF7-4EBP-1-5A was used in the
+          experiments described.
+        
+        
+          Transfections and reporter assays
+          Cells growing in 35 mm plates were transfected using
+          GenePorter. One day after transfection cells were lysed
+          using reporter lysis buffer (Promega) and scraped from
+          the dishes. Luciferase activity was determined using the
+          Steady-Glo substrate (Promega) according to the
+          manufacturer's protocol, using 50 μl of cellular extract.
+          CAT enzyme activity was determined using 14C-labeled
+          chloramphenicol as described previously [ 38 ] .
+        
+        
+          Plasmid constructs
+          The human p27 Kip15'UTR was amplified by PCR using
+          primers CCCAAGCTTTCTCCCGGGTCTGCACGACCGCCTCT and
+          CCCAAGCTTCTTCGTCAGCCTCCCTTCCAC. The PCR product was
+          digested with Hind III and ligated into the Hind III site
+          of pGL2CAT/Luc (a gift of R.E. Rhoads). To subclone
+          4EBP-1-5A into pEGSH the plasmid pcDNA3.1-4EBP-1-5A was
+          digested with Hind III, the ends were filled using Klenow
+          fragment, and then the insert was released by digesting
+          with Xba I. The resulting fragment was ligated into pEGSH
+          that had been digested with Eco RV and Xba I.
+        
+        
+          Cell proliferation assay
+          MCF7 and MCF7-4EBP-1-5A cells were treated with pon A
+          (10 μM) or the same volume of ethanol for 5 days. The
+          medium was changed every day. After 1, 3, or 5 days
+          incubation, cells were harvested using trypsin and the
+          cell number was determined using a hemacytometer.
+        
+        
+          Western blotting
+          Cells were harvested by trypsinization and the cell
+          number was determined using a hemacytometer. The cells
+          were pelleted and washed with phosphate-buffered saline
+          (PBS). The cell pellets were resuspended in sodium
+          dodecylsulfate (SDS)-sample buffer at 1 × 10 4cells per
+          μl and then sonicated to shear nucleic acids. Samples
+          representing 2 × 10 5cells were separated by
+          SDS-polyacrylamide gel electrophoresis (SDS-PAGE) and
+          transferred to Immobilion P membranes. Membranes were
+          probed with the appropriate antibodies. The p27 Kip1and
+          eIF4E monoclonal antibodies were purchased from
+          Transduction Laboratories. Anti-PHAS1 (4EBP-1) polyclonal
+          antibody was purchased from Zymed. Anti-β-actin
+          monoclonal antibody was purchased from Sigma. Antibodies
+          against cyclin D1, CDK2, and CDK4 were purchased from
+          Santa Cruz Biotechnology. Secondary horseradish
+          peroxidase-linked anti-mouse or anti-rabbit IgG
+          antibodies were purchased from Santa Cruz Biotechnology.
+          Bands were visualized using the SuperSignal West Pico
+          chemiluminescence detection system (Pierce).
+        
+        
+          Protein turnover analysis
+          MCF7-4EBP-1-5A cells were cultured in the presence or
+          absence of pon A (10 μM) for 24 hours. The medium was
+          then changed with readdition of pon A or an equal volume
+          of ethanol and the protein synthesis inhibitor
+          cycloheximide (100 μg/ml, Sigma) was added. Cells were
+          incubated for the indicated times and then harvested in
+          SDS-sample buffer as described above for Western
+          blotting. Cyclin D1 and p27 Kip1proteins were detected by
+          Western blotting and the levels of each protein were
+          estimated by densitometry using a ChemiImager system
+          (Alpha Innotech).
+        
+        
+          Cap-binding assay
+          MCF7-4EBP-1-5A cells were cultured in the presence or
+          absence of pon A (10 mM) for 48 hours. Cell monolayers
+          were washed with PBS three times and then lysed in lysis
+          buffer (50 mM Tris-HCl, pH 7.5, 150 mM KCl, 1 mM
+          dithiothreitol, 1 mM EDTA, 10 μg/ml leupeptin, 2 μg/ml
+          Aprotinin, and 0.1 mM PMSF) by subjecting the cells to 3
+          cycles of freezing in liquid nitrogen and thawing in a
+          37°C water bath. The lysate was then centrifuged at full
+          speed in a microcentrifuge at 4°C for 15 min. The
+          supernatants were incubated with 50 μl of
+          7-methyl-GTP-Sepharose (Amersham Pharmacia Biotech, Inc.)
+          at 4°C for 2 hours on a rotator. The resin was washed
+          three times with lysis buffer and resuspended in 50 μl of
+          SDS-sample buffer. Proteins were resolved by SDS-PAGE and
+          transferred to Immobilon P membranes. eIF4E and 4EBP-1
+          were detected by Western blotting.
+        
+        
+          Immunoprecipitation, pulse-labeling and CDK2 kinase
+          assays
+          Cell extracts were prepared using a lysis buffer
+          consisting of 50 mM HEPES, pH 7.5, 150 mM NaCl, 1 mM
+          EDTA, 2.5 mM EGTA, 10% glycerol, 0.1% Tween-20, 1 mM DTT,
+          1 mM NaF, 0.1 mM Na 
+          3 VO 
+          4 , 10 μg/ml leupeptin, 2 μg/ml
+          Aprotinin, and 0.1 mM PMSF. Extracts were briefly
+          sonicated and then centrifuged at full speed in a
+          microcentrifuge at 4°C for 15 min. Protein concentration
+          was determined using the Bio-Rad protein assay
+          solution.
+          For pulse-labeling, the cells were washed three times
+          with DMEM lacking Met and Cys and then incubated in the
+          same medium containing 80 μCi/ml of 35S-labeled Met and
+          Cys (Tran 35S-label, ICN) and the proteasome inhibitor
+          MG-132 (10 μM, Calbiochem) for 1.5 hours. The cells were
+          washed three times with ice-cold PBS and lysed as above.
+          A portion of the supernatant was precipitated with TCA to
+          estimate the level of total protein synthesis. The
+          remainder of the cell extract was used for
+          immunoprecipitation. Equal amounts of total protein from
+          each extract (0.5 to 1 mg) were used for analysis. Cell
+          lysates were incubated with 2 μg of rabbit polyclonal
+          antibody overnight at 4°C on a rotator. Protein
+          A-conjugated agarose beads (30 μl) were added, and the
+          incubation continued for 1 hour on a rotator. The beads
+          were pelleted and washed five times with lysis buffer.
+          Next, 30 μl of 2X SDS-sample buffer was added to elute
+          immunoprecipitated proteins. Labeled proteins were
+          resolved by SDS-PAGE and detected by autoradiography.
+          For CDK2 kinase assays, lysates (100 μg protein)
+          prepared as described above were used to
+          immunoprecipitate CDK2 with a polyclonal antibody. The
+          beads with the bound proteins were washed and then
+          resuspended in 30 μl of kinase buffer [50 mM HEPES, pH
+          7.4, 2.5 mM EGTA, 10 mM β-glycerophosphate, 0.1 mM
+          vanadate, 1 mM NaF, 1 mM DTT, 10 mM MgCl 
+          2 , 20 μM ATP, 50 μCi γ- 32P-ATP (7000
+          Ci/mmol, ICN), and 1 μg histone H1]. Reaction mixtures
+          were incubated for 15 min at 30°C and stopped by adding
+          the same volume of 2X SDS-sample buffer. The
+          phosphorylated histone H1 was resolved by SDS-PAGE and
+          detected by autoradiography using Kodak XAR-5 film.
+          For co-immunoprecipitation of p27 Kip1with CDK4 or
+          CDK2, immunoprecipitations were performed as described
+          above with either anti-CDK4 or anti-CDK2. The
+          precipitated proteins were dissolved in SDS-sample
+          buffer, separated by SDS-PAGE and then p27 Kip1and CDK2
+          were detected by Western blotting.
+        
       
       
-        Conclusions
-        As the classification system of myosins now stands,
-        plant myosins fall only into two classes - class VIII and
-        class XI. All animal cells examined contain at least one
-        myosin II gene and usually multiple myosin I genes [ 8],
-        but this is not true for 
-        Arabidopsis specifically and possibly
-        for all plants. Also, no animal myosins of type VIII or XI
-        have been identified. Plant and animal cells have some
-        common tasks such as vesicular and organelle movement, but
-        plant cells are unique in many ways and the presence of
-        specific plant myosins is probably a reflection of that
-        uniqueness.
-        There are 4 class VIII and 13 class XI 
-        Arabidopsis myosins. The large number
-        of myosins in class XI could be the result of gene
-        duplication or specialization of function in different
-        tissues or different life cycle times. This work identifies
-        the 
-        Arabidopsis myosins, their domains
-        and gene intron/exon structure. The task ahead is to
-        analyze the protein products biochemically and try to
-        establish the function of each myosin.
-      
-      
-        Materials and methods
-        Using the conserved motor domain of the plant myosin At
-        MYA1 [ 41] database searches were performed using BLASTP
-        and TBLASTN at TAIR [ 11]. The sequences were evaluated for
-        the presence of a myosin motor domain using the SMART
-        program [ 56]. All sequences with a myosin domain had
-        BLASTP scores greater than 100 and E values less than 10
-        -20. The motor domains of representative myosins from other
-        groups were also used to search the 
-        Arabidopsis domain but the searches
-        did not reveal any new myosin genes. The SMART program also
-        identified the IQ and coiled-coil domains and the location
-        of the domains. The sequences found at TAIR were checked
-        against the MIPS database [ 57]. Sequences identified at
-        MIPS as myosins but not at TAIR were evaluated as above.
-        The sizes of the exons/introns were determined using the
-        exon/intron data for each myosin sequence using the MIPS
-        predictions for myosins not previously cloned. Two
-        sequences (At XIF, At XIH) were edited by comparing the
-        upstream genome sequence translation to conserved sequences
-        present in the other myosins but missing in the predicted
-        sequences.
-        Sequences of myosins other than the 
-        Arabidopsis myosins for phylogenetic
-        analysis were obtained from MHP [ 22] or NCBI [ 58]. The
-        names are as in the tree of Hodge and Cope [ 59]. The motor
-        domain sequences were determined using the SMART program [
-        56]. The motor domain sequences were used for alignment of
-        the plant and non-plant myosins using the Megalign program.
-        The alignment was saved as a PAUP file and the phylogenetic
-        analysis was done using PAUP 4.0b4a (PPC). We performed a
-        bootstrap analysis with 100 replicates using the heuristic
-        method. Full-length sequences were used for analysis of the
-        plant myosins using the same methods as above.
+        Authors' Contributions
+        HJ participated in manuscript preparation and design and
+        performance of the experiments. JC constructed and
+        characterized the bicistronic reporter constructs and aided
+        with manuscript preparation. RM and WKM conceived of the
+        project, directed the performance of the experiments, and
+        prepared the final manuscript. All authors read and
+        approved the final manuscript.
       
     
   

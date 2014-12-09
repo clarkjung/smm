@@ -2,467 +2,655 @@
   
     
       
-        Introduction
-        The synovial tissue in rheumatoid arthritis (RA)
-        contains synovial fibroblasts and stromal cells as well as
-        macrophages. Synovial stromal cells and fibroblasts are
-        thought to proliferate 
-        in situ [ 1]. On the contrary,
-        macrophages do not proliferate, but rather differentiate
-        from monocytes that migrated from the peripheral blood, and
-        are activated to differentiate in the synovial tissue.
-        Macrophages in RA synovium secrete many inflammatory
-        mediators (IL-1, IL-6, IL-8, tumor necrosis factor-α
-        [TNF-α] and PGE 
-        2 ) and a variety of matrix
-        metalloproteinases, and are thought to play a central role
-        in the inflammation and joint destruction characteristic of
-        RA [ 2]. The number of macrophages in RA synovium
-        correlates significantly with clinical symptoms and the
-        degree of joint damage [ 3]. Understanding the regulation
-        of macrophage accumulation in the RA synovium should
-        therefore provide insight into the inflammatory nature of
-        rheumatoid synovitis.
-        Migration of peripheral blood monocytes is likely to be
-        influenced by chemokines. A number of chemokines, including
-        IL-8, monocyte chemotactic protein-1 (MCP-1), macrophage
-        inflammatory protein-1α (MIP-1α), MIP-1β,
-        epithelial-derived neutrophil attractant 78, and regulated
-        upon activation, normal T cell expressed and secreted
-        (RANTES), are known to be found in RA synovial fluid [ 4,
-        5, 6, 7, 8]. A number of specific chemokine receptors
-        including CCR1, CCR2, CCR5, CCR8, and CXCR4 are also known
-        to be expressed by peripheral blood monocytes [ 9, 10].
-        Despite this information, the specific chemokine-chemokine
-        receptor interactions involved in the recruitment of
-        monocytes into the rheumatoid synovium have not been fully
-        delineated.
-        To address this issue, we examined chemokine receptor
-        expression by peripheral blood monocytes, and also analyzed
-        the capacity of supernatants from RA synovial stromal cells
-        to induce monocyte migration. The data indicate that MCP-1
-        secreted by synovial stromal cells plays a major role in
-        attracting monocytes to the synovium, and that IL-8 may
-        also contribute.
+        Background
+        
+        Yersinia pestis , the causative agent
+        of bubonic plague, harbors a large virulence plasmid that
+        is essential for pathogenicity. This plasmid, called pCD1 [
+        1 ] in 
+        Y. pestis , encodes for a type III
+        secretion apparatus necessary for the translocation of
+        effector proteins (Yops) into eukaryotic target cells [ 2 ]
+        . The net result of this polarized toxin translocation is
+        the disruption of eukaryotic cell signalling and structure
+        [ 2 ] . Induction of the virulence-related genes on pCD1 is
+        linked to an in vitro phenomenon termed the Low Calcium
+        Response (LCR). The LCR is believed to mimic the response
+        of 
+        Y. pestis in contact with eukaryotic
+        cells when calcium ions are removed from the growth medium
+        at 37°C. The result of this in vitro induction of virulence
+        genes is the massive secretion of Yops into the growth
+        medium, accompanied by a characteristic growth restriction
+        that is a hallmark phenotype of the LCR [ 3 ] .
+        Secretion of Yops by the type III secretion system is
+        not constitutive. Control of secretion is complex and
+        involves several proteins that positively and negatively
+        regulate the activity of the secretion apparatus in
+        response to environmental conditions [ 3 ] . LcrG has been
+        implicated in blocking the secretion apparatus either
+        directly or indirectly [ 4 ] , as strains lacking 
+        lcrG constitutively secrete Yops [ 5
+        ] , regardless of inducing conditions. In addition, YopN,
+        TyeA, SycN, YscB, LcrH, YopD, and LcrQ are all also
+        required for the negative regulation of Yops secretion [ 6
+        7 8 9 10 11 12 13 14 15 16 17 ] . LcrV (the V antigen) is
+        thought to positively regulate Yops secretion as 
+        lcrV strains do not secrete Yops,
+        even under conditions that normally favor secretion [ 18 19
+        ] .
+        LcrG and LcrV have been demonstrated to physically
+        interact in the bacterial cytoplasm [ 4 ] . Disruption of
+        the LcrG-LcrV interaction or overexpression of LcrG in a
+        low-LcrV background both result in a constitutive blockage
+        of Yops secretion [ 18 20 ] . This evidence led to a model
+        of how these two proteins may control Yops secretion. The
+        LcrG-titration model theorizes that LcrG blocks the
+        secretion apparatus (Ysc) from the bacterial cytoplasm and
+        that interaction with LcrV is required to relieve the
+        blockage. Upon induction by eukaryotic cell contact or
+        removal of calcium from the growth medium, the
+        intracellular level of LcrV becomes elevated relative to
+        that of LcrG. The increased amount of LcrV removes LcrG
+        from its secretion-blocking role, resulting in full
+        induction of the LCR and secretion of Yops. Evidence
+        accumulated to date clearly demonstrates that the LcrG-LcrV
+        interaction is critical for the regulation of this complex
+        virulence system [ 18 20 ] . Therefore, dissection of the
+        LcrG-LcrV interaction is warranted.
+        Utilizing yeast two-hybrid analyses, we further
+        investigated the LcrG-LcrV interaction. We determined that
+        the N-terminus of LcrG is essential for LcrV interaction.
+        The smallest linear region of LcrG required for the
+        interaction is predicted to form a coiled-coil motif, a
+        structure often associated with protein-protein
+        interactions. We used both alanine-scanning and a 'radical'
+        site-directed mutagenesis strategy to identify amino acids
+        critical for the interaction within this region of LcrG.
+        While alanine mutants failed to disrupt the LcrG-LcrV
+        interaction, radical mutations of three residues revealed a
+        region important for the interaction. These residues are
+        likely to reside on the same face of the protein if a
+        coiled-coil structure is assumed. Based on this evidence,
+        we predict that the interaction of LcrG with LcrV occurs
+        within an N-terminal coiled-coil domain of LcrG via
+        hydrophobic interactions.
+        Additionally, we investigated whether the 
+        Pseudomonas homolog of LcrG, PcrG,
+        could transcomplement an 
+        lcrG strain of 
+        Y. pestis . The opportunistic
+        pathogen 
+        Pseudomonas aeruginosa utilizes a
+        type III secretion system for intracellular delivery of
+        toxins [ 21 22 23 ] that is the most similar to the 
+        Yersinia system [ 21 ] . Several
+        components of the 
+        Pseudomonas system have been
+        demonstrated to functionally complement genetic defects in
+        the 
+        Yersinia homologs including the LcrV
+        homolog, PcrV [ 24 25 ] . Homologs of LcrG and LcrV (i.e.,
+        PcrG and PcrV) have only been identified in 
+        P. aeruginosa, suggesting that this
+        pair of regulatory proteins may fulfill similar roles in
+        these extracellular pathogens. In the present study, we
+        found that PcrG could not substitute for LcrG, although
+        both proteins interacted with LcrV. This result led to a
+        genetic selection for PcrG variants that could
+        transcomplement an 
+        lcrG defect. Isolation of a PcrG
+        variant that could substitute for LcrG led to the
+        identification of a region within LcrG that may be involved
+        in blocking the activity of the 
+        Y. pestis type III secretion
+        system.
       
       
-        Materials and methods
+        Results and Discussion
         
-          Antibodies and reagents
-          Biotinylated mouse anti-human CCR1 monoclonal antibody
-          (mAb), mouse anti-human CCR2 mAb conjugated with
-          phycoerythrin (PE), mouse anti-human CCR6 mAb conjugated
-          with PE, mouse anti-human CXCR1 mAb conjugated with PE,
-          mouse anti-human CXCR2 mAb conjugated with PE, mouse
-          anti-human CXCR5 mAb conjugated with PE, mouse anti-human
-          CCR3 mAb conjugated with FITC, mouse anti-human MCP-1 mAb
-          (24822.111), mouse anti-human IL-8 mAb (6217.111), mouse
-          anti-human IP-10 mAb (33036.211), mouse anti-human CCR5
-          mAb (45531.111), and biotinylated goat IgG anti-human
-          IP-10 were purchased from R&D Systems Inc (Miami,
-          FL). Mouse anti-human CCR5 mAb conjugated with FITC and
-          mouse anti-human CXCR4 mAb conjugated with PE were
-          purchased from Pharmingen (San Diego, CA). Mouse
-          anti-human CD14 mAb conjugated with FITC or PE, and
-          Streptavidin conjugated with PE were obtained from Sigma
-          (St Louis, MO). Mouse IgG1 mAb was prepared from
-          hybridoma cell lines purchased from ATCC (Rockville, MD).
-          Mouse IgG2A conjugated with PE (Pharmingen), mouse IgG2B
-          conjugated with PE (R&D Systems), and mouse IgG1
-          conjugated with FITC (Becton Dickinson, San Jose, CA)
-          were used for negative controls for flow cytometry.
-          Recombinant human TNF-α, RANTES, interferon-gamma
-          inducible protein 10 (IP-10), and stromal cell derived
-          factor-1α were purchased from R&D Systems. Trizol
-          reagent, deoxyribonucleaseI, and SuperScriptII reverse
-          transcriptase were purchased from Gibco BRL (Rockville,
-          MD). Taq polymerase was purchased from Promega (Madison,
-          WI), and Oligo dT and ficoll/isopaque were purchased from
-          Pharmacia (Piscataway, NJ). DMEM with high-glucose,
-          RPMI-1640, and FBS were purchased from Gibco BRL.
-          Enzyme-linked immunosorbent assays (ELISAs) for MCP-1,
-          IL-8, MIP-1β, and RANTES were purchased from R&D
-          Systems, and transwell membranes (5 μm pore size in 24
-          wells) were purchased from Costar (Cambridge, MA). The
-          TMB microwell peroxidase substrate system was purchased
-          from KPL (Gaithersburg, MD).
+          Delineation of the LcrV-interaction domain of
+          LcrG
+          LcrG and LcrV physically interact in 
+          Y. pestis [ 4 ] , and that
+          interaction plays a significant role in the regulation of
+          Yops secretion [ 20 ] . LcrG and LcrV interact in a yeast
+          two-hybrid assay [ 20 ] , therefore this technique was
+          used to further investigate the region of LcrG required
+          for its interaction with LcrV. Truncations of LcrG were
+          constructed and fused to the GAL4 activation domain of
+          pACT2. These plasmids were co-transformed into yeast
+          strain Y187 with full-length LcrV fused to the GAL4 DNA
+          binding domain of plasmid pAS2-1 to determine if the LcrG
+          truncations could continue to participate in an
+          interaction with LcrV. Using a filter-lift assay as a
+          qualitative determination of an interaction and a liquid
+          β-galactosidase assay to quantify the results, we found
+          that the LcrV-interaction domain of LcrG lies in the
+          N-terminus of the protein. The smallest linear region of
+          LcrG that was still capable of interacting with LcrV was
+          determined to be amino acids 7-40 (Fig. 1; shown
+          highlighted in yellow in Fig. 2). Deletion of five
+          additional amino acids from the N-terminus of the 7-40
+          construct or seven amino acids from the C-terminus of the
+          7-40 construct eliminated our ability to detect an
+          interaction using this system (Fig. 1). Interestingly,
+          this approximate region of LcrG (amino acids 7-35) is
+          predicted to form a coiled-coil domain when LcrG is
+          analyzed using the COILS algorithm [ 26 ] (data not
+          shown). These results suggest that the LcrG-LcrV
+          interaction requires the N-terminus of LcrG and may
+          involve a coiled-coil domain.
         
         
-          Stromal cell lines and fibroblast lines
-          One RA stromal cell line (SCL) was established from
-          synovium as previously described [ 11]. In brief,
-          synovial tissue of a patient with RA who met American
-          College of Rheumatology criteria [ 12] was obtained
-          following informed consent, and dissociated with
-          collagenase and trypsin. Dissociated cells were cultured
-          in DMEM supplemented with 10% FBS and 10% conditioned
-          medium, which was prepared by incubation of peripheral
-          blood mononuclear cells from 10 healthy donors in
-          RPMI-1640 medium with 10% FBS for 48 h. The cultures were
-          then maintained for more than 2 months, and the SCLs were
-          cloned by limiting dilution. Clones were thereafter
-          maintained and replenished with fresh DMEM medium with 10
-          or 20% FBS every 3-4 days. One clone (Sy77) was used in
-          the present experiments. RA tissues from two other
-          patients were also dissociated with collagenase and
-          trypsin. Dissociated cells were cultured in DMEM
-          supplemented with 10% FBS and 10% conditioned medium and
-          used as RA SCLs (RA6/1 and RA8/3) after 4-10 passages. An
-          SCL was also established from osteoarthritis synovium
-          (OA5/26) using the same procedure. A skin fibroblast line
-          (FBHG) was also established from a healthy human skin
-          sample.
+          Alanine-scanning mutagenesis of the LcrG
+          N-terminus
+          To determine individual residues of LcrG required for
+          interaction with LcrV, a systematic site-directed
+          mutagenesis strategy was used to change conserved or
+          charged residues within the delineated interaction
+          region. Initially, alanine-scanning mutagenesis was used
+          for this study as alanine substitutions are generally
+          thought to minimally effect protein folding [ 27 ] .
+          Sequence conservation from the alignment of LcrG with the
+          
+          Pseudomonas aeruginosa homolog,
+          PcrG (Fig. 2), allowed the targeting of specific residues
+          likely to be important for the interaction. After
+          construction of specific missense mutants, each
+          full-length LcrG alanine variant was screened for
+          interaction with LcrV using the yeast two-hybrid assay.
+          Surprisingly, the alanine-scanning mutagenesis results
+          failed to demonstrate amino acids of LcrG involved in the
+          LcrG-LcrV interaction. All of the alanine mutants
+          screened were capable of interaction with LcrV as
+          demonstrated in a filter-lift assay. Liquid
+          β-galactosidase assays showed that the strength of the
+          interactions were not significantly reduced from that of
+          wild-type LcrG (Table 1). These results showed that
+          single alanine substitutions are insufficient to disrupt
+          the LcrG-LcrV interaction. A likely explanation for the
+          failure of alanine-scanning to reveal residues in LcrG
+          important for LcrV interaction is that alanine is a
+          residue capable of interaction with hydrophobic residues.
+          Our subsequent studies suggest that the interaction of
+          LcrG with LcrV occurs at a hydrophobic patch within
+          LcrG.
         
         
-          SCL and fibroblast culture
-          RA SCL, osteoarthritis (OA) SCL, and skin fibroblasts
-          (1 × 10 5) were seeded in six-well culture plates
-          (Costar) with DMEM containing 10% FBS, 200 U/ml
-          penicillinG, 10 μg/ml gentamicin and 0.3 mg/ml
-          L-glutamine, and cultured for 3 days. After culturing,
-          the cells were washed once and the medium was changed to
-          DMEM containing 5% FBS, 200 U/ml penicillinG, 10 μg/ml
-          gentamicin, and 0.3 mg/ml L-glutamine with or without 2
-          ng/ml TNF-α. To assess chemokine mRNA expression, cell
-          lines were harvested after 4 h of culture, then suspended
-          in Trizol and stored at -80°C. Supernatants were
-          collected after 24 h and stored at -80°C until use for
-          migration assay and quantification of chemokines.
+          'Radical' site-directed mutagenesis of LcrG allows
+          the LcrG-LcrV interaction to be disrupted
+          Based on our experience with the alanine-scanning
+          combined with the similar results of Francis et. al [ 28
+          ] , it seemed likely that the LcrG-LcrV interaction was
+          occurring between hydrophobic residues. Accordingly, we
+          continued to examine the interaction domain using a
+          mutagenesis strategy described by Francis, et al. termed
+          'radical' site-directed mutagenesis [ 28 ] . This method
+          involves replacing hydrophobic residues with charged
+          residues, or changing charged residues to oppositely
+          charged residues. This method was used to mutagenize
+          several conserved residues in the interacting region in
+          the effort to disrupt the LcrG-LcrV interaction (Table
+          2). These 'radical' site-directed mutants were then
+          screened using the yeast two-hybrid system for their
+          interaction with LcrV. Radical mutagenesis revealed
+          several residues with decreased β-galactosidase activity
+          in the yeast two hybrid system. The LcrG mutants A16R,
+          A16D, S23R, and L30R all had significantly decreased
+          activity when assayed for β-galactosidase expression
+          (Table 2). LcrG mutants I20R, A27E, and I37R demonstrated
+          somewhat decreased activity (Table 2). These results
+          suggested that residues A16, S23, and L30 (red asterisks
+          in Fig. 2) all participate in the interaction of LcrG
+          with LcrV and that residues I20, A27, and I37 may also
+          contribute to the interaction. Of the residues identified
+          in these experiments, only changes to A16, S23, and L30
+          were detected with a more sensitive filter-lift assay for
+          β-galactosidase activity and were therefore chosen for
+          further characterization.
+          The alanine at position 16 was previously identified
+          as a critical residue in the LcrG-LcrV interaction [ 20 ]
+          . Two mutations were characterized at this position (A16R
+          and A16D) and they failed to interact with LcrV, showing
+          that single substitutions of this kind can disrupt the
+          LcrG-LcrV interaction [ 20 ] . Additional data from this
+          study showed that a substitution of the leucine at
+          position 30 with an arginine also prevented the LcrG-LcrV
+          interaction in yeast (Table 2). Interestingly, when L30
+          is replaced with alanine (Table 1) or threonine (Table
+          2), the interaction is not effected. Mutagenesis of the
+          serine at position 23 to arginine resulted in an LcrG
+          variant that weakly interacted with LcrV as determined by
+          a filter-lift assay for β-galactosidase activity. The
+          color change of the yeast colonies due to the hydrolysis
+          of 5-bromo-4-chloro-3-indolyl-β-D-galactopyranoside
+          (X-gal) by β-galactosidase was significantly delayed and
+          less intense than the reaction we observed for strongly
+          interacting mutants. The liquid β-galactosidase assay
+          confirmed that the strength of the LcrG S23R-LcrV
+          interaction was reduced (Table 2), indicating that this
+          residue is likely involved in the interaction of LcrG
+          with LcrV. As coiled-coil motifs show a characteristic
+          seven amino acid repeat pattern, with each repeat
+          representing two turns of the α-helix, it is interesting
+          that three positions identified as important to the
+          LcrG-LcrV interaction (16, 23, and 30) are each separated
+          by seven amino acids. When this region was analyzed using
+          a helical wheel projection, the three residues fall on
+          the same face of the helix, which appears to be largely
+          hydrophobic in nature (Fig. 3). These results and
+          observations further indicate that the LcrG-LcrV
+          interaction may require the participation of a
+          coiled-coil motif and occurs at a largely hydrophobic
+          interface.
+          To evaluate the biological significance of the changes
+          in interaction seen in the yeast two-hybrid system
+          between LcrV and LcrG S23R or LcrG L30R, LcrG S23R and
+          L30R were expressed in 
+          lcrG Y. pestis where their ability
+          to control Yops secretion was examined. Neither the S23R
+          or the L30R mutant displayed the calcium-independent
+          growth phenotype previously observed for LcrG A16R [ 20 ]
+          . LcrG S23R displayed a wildtype growth and secretion
+          phenotype while LcrG L30R was Ca 2+-blind (data not
+          shown). To further understand the phenotypes obtained,
+          the ability of LcrG S23R and L30R to interact with LcrV
+          was examined in 
+          Y. pestis . Wild type LcrG, LcrG
+          S23R, LcrG L30R, and LcrG A16R were independently
+          co-expressed with His 
+          6 -tagged LcrV in a strain of 
+          Y. pestis deleted for 
+          lcrGV . The cells were French
+          pressed and the cleared lysates were applied to Talon
+          columns to purify His 
+          6 -tagged LcrV. As previously reported
+          [ 20 ] , LcrG copurified with LcrV and LcrG A16R did not
+          copurify with LcrV (Fig. 4, lanes 3 and 12). When LcrG
+          S23R was coexpressed with His 
+          6 -tagged LcrV, a small amount was
+          recovered in the elution fraction from the column (Fig.
+          4, lane 6). This result is indicative of a weaker
+          interaction between LcrG S23R and LcrV than the
+          interaction between wildtype LcrG and LcrV. The weaker
+          interaction seen in 
+          Y. pestis between LcrG S23R and
+          LcrV corresponds with our yeast two-hybrid data for the
+          S23R mutant, which showed an interaction with LcrV, and
+          suggests an interaction with decreased affinity (Table
+          2). The interaction results for LcrG S23R provide an
+          explanation for the failure of LcrG S23R to confer a Ca
+          2+-independent phenotype like the previously described
+          LcrG A16R mutant. LcrG S23R still interacts with LcrV and
+          therefore LcrV can neutralize the LcrG-mediated secretion
+          block. In fact, this result is consistent with the fact
+          that very low levels of LcrG are required to provide LcrG
+          function [ 20 ] . LcrG L30R either interacts weakly with
+          or does not interact with His 
+          6 -tagged LcrV in 
+          Y. pestis (Fig. 4, lane 9). This
+          result also corresponds with the lack of interaction
+          observed in the yeast two-hybrid assay for this mutant.
+          Taken together, these results suggest that the residues
+          found to be involved in the LcrG-LcrV interaction using
+          two-hybrid analysis are relevant in the bacterial cell.
+          However, the inability of L30R to function like our
+          previously described A16R mutant was somewhat surprising.
+          One explanation is that the protein with the L30R change
+          is simply misfolded. The second explanation is that the
+          secretion-blocking and the LcrV-interaction domains of
+          LcrG overlap. Currently we do not possess the data
+          required to differentiate between the two possibilities
+          and we are pursuing the reasons for the failure of L30R
+          to function like wildtype LcrG.
         
         
-          Preparation of mononuclear cells
-          Peripheral blood mononuclear cells (PBMC) were
-          isolated from heparinized blood of healthy adult
-          volunteers by density sedimentation using
-          ficoll/isopaque. PBMC were cultured with sheep red blood
-          cells (SRBC) treated for 70 min at 4°C, and rosette
-          negative cells were collected by ficoll/isopaque
-          sedimentation.
+          PcrG does not complement an lcrGstrain, but
+          interacts with LcrV
+          Because the residues of LcrG required for interaction
+          with LcrV are strongly conserved in PcrG of 
+          P. aeruginosa (red asterisks in
+          Fig. 2), we determined if PcrG could interact directly
+          with LcrV. First, PcrG-GAL4-AD and LcrV-GAL4-BD chimeras
+          were coexpressed in a yeast two-hybrid assay. Activation
+          of β-galactosidase by the chimeric proteins was
+          demonstrated by a filter-lift assay showing that LcrV and
+          PcrG interact (data not shown). To determine if PcrG and
+          LcrV also interacted in 
+          Y. pestis , we attempted to
+          copurify the two proteins from bacterial extracts. PcrG
+          and His 
+          6 -LcrV were coexpressed in a 
+          Y. pestis strain with 
+          lcrG and 
+          lcrV deleted and the cleared
+          lysates were applied to a Talon column. PcrG reacts
+          weakly with antibody to LcrG, allowing us to detect the
+          presence of PcrG on immunoblots. PcrG was present in the
+          elution fraction (Fig. 5A, lane 6), indicating that PcrG
+          was retained on the Talon column. This result
+          demonstrated that PcrG and LcrV interact in 
+          Y. pestis . The interaction of PcrG
+          with LcrV supports the mutagenesis and sequence data
+          indicating that residues conserved between LcrG and PcrG
+          are likely to be important for interaction with LcrV.
+          Since PcrG and LcrV interacted in 
+          Y. pestis , the ability of PcrG to
+          complement an 
+          lcrG strain of 
+          Y. pestis was examined. Cultures of
+          
+          lcrG strains transcomplemented with
+          either LcrG or PcrG were grown in the presence and
+          absence of calcium and harvested after four hours of
+          growth at 37°C. Culture supernatants were examined for
+          the presence of secreted proteins by immunoblotting for
+          LcrV, YopE, and YopM. Fig. 5Bshows that LcrG expression
+          blocked secretion in this strain in the presence of
+          calcium and allowed secretion in its absence (Fig. 5B,
+          lanes 3 and 4). However, when PcrG was expressed,
+          secretion was not blocked in either the presence or
+          absence of calcium (calcium-blind phenotype) similar to
+          the parent strain (Fig. 5B, lanes 5 and 6). Therefore,
+          while PcrG is capable of interacting with LcrV, it
+          differs from LcrG in its ability to block secretion of
+          Yops in 
+          Y. pestis .
         
         
-          Chemokine receptor expression by monocytes
-          Chemokine receptor expression by monocytes was
-          assessed by dual immunofluorescence flow cytometry
-          following staining with anti-CD14 mAb and anti-chemokine
-          receptor mAbs (FACScan; Becton Dickinson). For staining
-          chemokine receptors, 10 μl of each mAb was used for 1 ×
-          10 5cells suspended in 100 μl staining buffer (PBS + 2%
-          FBS) in accordance with the manufacturer's
-          instructions.
+          Selection of PcrG mutants that block
+          secretion
+          PcrG of 
+          P. aeruginosa can interact with
+          LcrV, but cannot block secretion of Yops in 
+          Y. pestis (Fig. 5B). This result
+          suggested that mutagenesis of 
+          pcrG could be used to isolate PcrG
+          mutants capable of blocking Yops secretion in 
+          Y. pestis . This genetic screen
+          allowed the isolation of PcrG mutants that functioned in 
+          Y. pestis in a manner
+          indistinguishable from LcrG (Fig. 5B, compare lanes 7 and
+          8 to lanes 3 and 4). DNA sequencing of seven independent
+          isolates revealed the presence of a phenylalanine to
+          leucine change at position 42 of PcrG in all seven of the
+          isolates. This result suggests that a region of PcrG
+          including amino acid 42 is capable of interaction with 
+          Y. pestis secretion components and
+          suggests that the homologous LcrG region is likely to be
+          involved in LcrG's secretion-blocking activity.
         
         
-          Migration assay
-          Cell migration was assessed in 24-well chemotaxis
-          chambers fitted with 5.0 μm transwell membranes.
-          Supernatants (550 μl) of cell lines cultured in various
-          conditions were added to the lower wells, and 5 × 10
-          5SRBC rosette negative PBMC in 100 μl DMEM containing 5%
-          FBS were added to the upper wells. In blocking
-          experiments, the supernatants were cultured with blocking
-          mAbs specific for chemokines overnight at 4°C before
-          assay. SRBC rosette negative PBMC were incubated with
-          blocking mAb to chemokine receptors for 1 h at 4°C before
-          assay in some experiments. The transwell membranes were
-          removed after 90 min of incubation at 37°C, and migrated
-          cells in the lower chamber were harvested by pipetting.
-          The cells were stained with anti-CD14 mAb conjugated with
-          FITC, and they were suspended in 110 μl PBS containing 3%
-          FBS. All of the cells were analyzed by flow cytometry and
-          CD14 +cells were counted.
-        
-        
-          RNA isolation and reverse transcriptase-polymerase
-          chain reaction
-          RNA was extracted from SCLs and fibroblasts using
-          Trizol reagent in accordance with the manufacturer's
-          instructions. Two micrograms of the extracted RNA was
-          treated with 2 U DNaseI to eliminate DNA, and reverse
-          transcribed with 200 U SuperScriptII reverse
-          transcriptase at 42°C for 70 min using oligo dT primers
-          in accordance with the manufacturer's instructions.
-          Polymerase chain reaction (PCR) was carried out with Taq
-          polymerase using 0.1-0.3 μl cDNA (1.5 mM MgCl 
-          2 ). Denaturation and extension
-          conditions were 94°C for 1 min and 72°C for 1 min,
-          respectively. The annealing period was 1 min for each
-          PCR, and the temperature was 62°C for RANTES and 56°C for
-          the other chemokines and β-actin. PCR products were
-          resolved by electrophoresis on 1.5% agarose gels and
-          identified with ethidium bromide staining. Firstly,
-          β-actin expression was examined using 26-30 cycles of
-          reverse transcriptase-PCR (RT-PCR) to amplify 0.1, 0.2,
-          and 0.3 μl cDNA to adjust the amount of cDNA of each
-          sample precisely. After resolving the PCR products on
-          agarose gels and identifying the relevant bands with
-          ethidium bromide, the optimal amounts of cDNA for
-          analysis were then determined. Chemokine expression in
-          this amount of cDNA was examined using 30, 32, 35, 38,
-          and 40 cycles of PCR amplification, and the results in
-          the linear part of the amplification curve are reported
-          in the figures.
-        
-        
-          PCR primers
-          The primer pair for β-actin was GTC CTC TCC CAA GTC
-          CAC ACA (forward) and CTG GTC TCA AGT CAG TGT ACA GGT AA
-          (reverse), that of IL-8 was CTG CGC CAA CAC AGA AAT TA
-          (forward) and ATT GCA TCT GGC AAC CCT AC (reverse), that
-          of MCP-1 was GCC TCC AGC ATG AAA GTC TC (forward) and TAA
-          AAC AGG GTG TCT GGG GA (reverse), that of IP-10 was CCA
-          CGT GTT GAG ATC ATT GC (forward) and TGG AAG ATG GGA AAG
-          GTG AG (reverse), that of RANTES was CGC TGT CAT CCT CAT
-          TGC TA (forward) and GCT GTC TCG AAC TCC TGA CC
-          (reverse), that of MIP-1α was TGC AAC CAG TTC TCT GCA TC
-          (forward) and ACA GGG GAA CTC TCA GAG CA (reverse), and
-          that of MIP-1β was CTG GGT CCA GGA GTA CGT GT (forward)
-          and ACA GTG GAC CAT CCC CAT AG (reverse).
-        
-        
-          ELISA
-          Concentrations of chemokines were measured by sandwich
-          ELISA according to the manufacturer's instructions
-          (R&D Systems).
-        
-        
-          Statistical analysis
-          The Student paired 
-          t test was used to compare the
-          effect of CD14 cell migration, and the blocking effect of
-          mAbs. The Student 
-          t test was used to evaluate
-          chemokine production by SCLs and the fibroblast line.
+          Analysis of the putative secretion-blocking region
+          of LcrG
+          Change of residue 42 in PcrG from phenylalanine to
+          leucine made the PcrG sequence look more like that of
+          LcrG. That is, position 42 of PcrG became identical to
+          the corresponding LcrG residue (L39) (Fig. 2, boxed
+          residues). This information suggested that residue 39 of
+          LcrG was an ideal candidate for site-directed mutagenesis
+          to disrupt LcrG's secretion blocking activity.
+          Accordingly, the leucine at position 39 in LcrG was
+          mutated to both phenylalanine and arginine. Surprisingly,
+          neither mutant LcrG protein L39F (data not shown) or L39R
+          (Fig. 6B, lanes 5 and 6) effected LcrG function.
+          Subsequent mutagenesis of the phenylalanine at position
+          48 of LcrG to arginine resulted in an LcrG mutant (F48R,
+          blue asterisk in Fig. 2) that was defective for secretion
+          blocking activity (Fig. 6B, lanes 7 and 8). Mutation of
+          F48 to either alanine or leucine had no effect on the
+          function of those LcrG variants, suggesting that the
+          hydrophobic nature of F48 is important for LcrG function.
+          The expression level of LcrG and LcrG F48R from our
+          plasmid constructs were also analyzed in whole cell
+          extracts. LcrG F48R was expressed as well as wild type
+          LcrG, demonstrating that its inability to block secretion
+          is not due to a change in the expression or stability of
+          the protein (Fig. 6A, lanes 3-4 and 7-8). An interesting
+          point to note is that when Skrzypek and Straley deleted
+          residues 39-53 of LcrG (highlighted in blue in Fig. 2),
+          they obtained a mutant protein that did not block Yops
+          secretion [ 5 ] . The LcrG F48R mutant, like the Δ39-53
+          mutant, interacts with LcrV (data not shown and [ 4 ] ),
+          demonstrating that the protein likely folds in a native
+          conformation. Additionally, the mutant confirms previous
+          work that the two known LcrG functions (secretion
+          blocking and LcrV interaction) are genetically separable
+          [ 5 ] . Further experiments will more precisely delineate
+          the region of LcrG required to block the type III
+          secretion apparatus.
         
       
       
-        Results
+        Conclusions
+        The interaction of LcrG with LcrV is a critical factor
+        in controlling the activity of the type III secretion
+        system in 
+        Y. pestis [ 20 ] . In order to gain a
+        deeper understanding of this critical interaction, we
+        determined the region of LcrG required for interaction with
+        LcrV. Results presented in this study demonstrate that the
+        smallest linear region of LcrG required for interaction
+        with LcrV is residues 7 to 40 (highlighted in yellow in
+        Fig. 2). Interestingly, this region is predicted to form a
+        coiled-coil domain. We have identified several residues
+        (indicated with red asterisks in Fig. 2) within the
+        interacting region of LcrG that contribute to the
+        interaction with LcrV. When residues 7 to 40 of the protein
+        are analyzed with a helical wheel projection, these three
+        residues (A16, S23, and L30) appear to lie on one face of
+        an amphipathic helix (Fig. 3). The seven amino-acid
+        periodicity of the residues is consistent with a
+        coiled-coil protein motif. These data strongly suggest the
+        LcrV-interaction domain of LcrG is contained within an
+        amphipathic coiled-coil domain. Additionally, we exploited
+        the inability of PcrG to block secretion in 
+        Y. pestis as a point to start mapping
+        the region of LcrG required for blocking the type III
+        secretion apparatus. We found that mutation of residue 42
+        in PcrG (boxed in Fig. 2) allowed the protein to function
+        in 
+        Y. pestis . This information, coupled
+        with a previous observation that deletion of residues 39 to
+        53 within LcrG (highlighted in blue in Fig. 2) abolished
+        the secretion-blocking activity [ 5 ] , allowed us to
+        identify amino acid 48 as a residue (blue asterisk in Fig.
+        2) required to block the activity of the 
+        Y. pestis type III secretion
+        apparatus.
+      
+      
+        Materials and Methods
         
-          Chemokine receptor expression by peripheral blood
-          monocytes
-          Chemokine receptor expression by CD14 +monocytes was
-          examined using flow cytometry. Representative examples
-          (Fig. 1) and asummary of staining results (Table 1) are
-          presented. CXCR3 and CXCR4 were expressed by a high
-          frequency of monocytes in all healthy donors. More than
-          one-half of monocytes expressed CCR2, CCR5, CXCR1, and
-          CXCR2 in seven of nine cases, although a minimal number
-          of monocytes from two donors expressed these receptors.
-          Expression of CCR6 and CXCR5 by monocytes was minimal in
-          all subjects. CCR1 was expressed by few monocytes in
-          three donors, whereas 20-40% of monocytes of the other
-          donors expressed CCR1. These results suggest that CCR1,
-          CCR2, CCR5, and CXCR1, CXCR2, CXCR3, and CXCR4 are
-          candidates to be involved in chemokine-mediated
-          trafficking of monocytes.
-        
-        
-          Supernatants of cell lines attract monocytes
-          To examine whether SCLs derived from RA synovium can
-          attract monocytes efficiently, migration of monocytes in
-          response to culture supernatants of RA and OA SCLs and
-          fibroblasts was examined (Fig. 2). Supernatants of all
-          cell lines attracted significantly more monocytes than
-          medium alone ( 
-          P < 0.01). Those supernatants
-          from RA SCLs induced the migration of significantly more
-          monocytes than the supernatants of the OA SCL and skin
-          fibroblasts.
-        
-        
-          Chemokine mRNA production by cell lines
-          Production of proinflammatory chemokine mRNA by the
-          various cell lines was assessed using RT-PCR (Fig. 3). RA
-          SCLs expressed a number of proinflammatory chemokine
-          mRNAs, including MCP-1, IL-8, MIP-1α, MIP-1β, RANTES, and
-          IP-10. OA SCL also expressed these same chemokine mRNAs
-          with the exception of MIP-1β. The fibroblast line
-          expressed mRNAs for IL-8, MCP-1, and IP-10, but not
-          RANTES, MIP-1α, and MIP-1β.
-        
-        
-          Chemokine production by cell lines
-          Chemokines secreted into the culture supernatants of
-          cell lines were measured by ELISA (Fig. 4). Production of
-          MCP-1 and IL-8 by RA SCLs was greater than that by OA SCL
-          and the fibroblast line. The cell lines produced low
-          levels of RANTES, whereas IP-10 and MIP1-β were not
-          detected (data not shown).
-        
-        
-          MCP-1 and IL-8 play a role in migration of
-          monocytes
-          Blocking experiments were carried out using mAbs to
-          determine the chemokines that contribute to monocyte
-          migration induced by RA SCLs (Fig. 5). Anti-MCP-1 and
-          anti-IL-8 mAbs decreased monocyte migration
-          significantly, with the effect of anti-MCP-1 being
-          consistently greater than that of anti-IL-8. Anti-CCR5
-          blocking mAb did not effect monocyte migration. The
-          anti-CCR5 mAb did have blocking activity, however, since
-          migration of T cells induced by RANTES (500 ng/ml) was
-          blocked by 95% (data not shown).
+          Bacterial strains, yeast strains, and growth
+          conditions
+          
+          Yersinia pestis , 
+          Pseudomonas aeruginosa , 
+          Escherichia coli , and 
+          Saccharomyces cerevisiae strains
+          used are listed in Table 3. 
+          Y. pestis strains were grown in
+          heart infusion broth or on tryptose blood agar base
+          medium (Difco Laboratories, Detroit, MI) at 26°C for
+          genetic manipulations. For physiological studies, growth
+          of 
+          Y. pestis was conducted in a
+          defined medium, TMH, as previously described [ 29 ] . 
+          E. coli strains were grown in
+          Luria-Bertani medium or agar [ 30 ] at 37°C. When
+          appropriate, bacteria were grown in the presence of
+          antibiotics, which were used at 50 μg/ml for both
+          carbenicillin and kanamycin.
         
         
-          Stimulation with TNF-α induces RA SCL to produce
-          more chemokines and attract more monocytes
-          RA SCLs were stimulated with TNF-α, and chemokine
-          production and the capacity of supernatants to influence
-          monocyte migration were examined to assess the influence
-          of inflammatory cytokines on chemokine production and
-          monocyte trafficking. Supernatants from RA SCLs
-          stimulated with 2 ng/ml TNF-α produced more MCP-1, IL-8,
-          RANTES and IP-10 (Fig. 6), and attracted more monocytes
-          (Fig. 7) than those that were unstimulated.
+          DNA methods and plasmid construction
+          Plasmid DNA was isolated using a QiaPrep Spin kit
+          (Qiagen, Inc., Studio City, CA). Cloning methods were
+          essentially as described previously [ 31 ] . PCR
+          fragments were purified using the QiaQuick PCR
+          purification kit (Qiagen). Transformation of DNA into 
+          E. coli was accomplished by using
+          commercially obtained competent cells (Novagen, Madison,
+          WI). Electroporation of DNA into 
+          Y. pestis was done as described
+          previously [ 32 ] . Gene amplification was performed with
+          DeepVent (New England Biolabs, Beverly, MA) or Taq
+          (Eppendorf Scientific, Westbury, NY) DNA polymerase in a
+          Perkin-Elmer GeneAmp Model 2400 thermocycler (Applied
+          Biosystems, Foster City, CA).
+          Site-directed mutagenesis was performed with 
+          PfuTurbo DNA polymerase
+          (Stratagene, La Jolla, CA) using the QuikChange
+          Site-directed Mutagenesis Kit (Stratagene) according to
+          the manufacturer's instructions. Complementary
+          oligonucleotides were designed to contain the desired
+          mutation, flanked by unmodified sequence to anneal to the
+          same sequence on opposite strands of the template
+          plasmid. Oligonucleotide primers were synthesized by MWG
+          Biotech (High Point, NC). pACTG was used as the template
+          for all plasmids listed in Table 1and Table 2. pAraG18K
+          was used as the template for pJM99, pJM131, pJM143, and
+          pJM144. All mutations were confirmed by sequence analysis
+          (MWG Biotech). The sequences of all mutagenic
+          oligonucleotides are available upon request.
+          Plasmids used in this study are described in Table 3.
+          All plasmids expressing truncations of LcrG (pJM1, pJM2,
+          pJM3, pJM4, pJM5, pJM23, pJM52, and pJM53) were
+          constructed by cloning 
+          Bam HI- and 
+          Nco I-cleaved PCR products into
+          pACT2. pJM110 was constructed by cloning a 
+          Bam HI- and 
+          Nco I-cleaved PCR product of 
+          pcrG into pACT2. Plasmid pJM127 was
+          constructed by cloning an 
+          Eco RI-cleaved PCR p6roduct of 
+          pcrG into 
+          Eco RI- and 
+          Sma I-cleaved pBAD18. pJM127 was
+          digested with 
+          Eco RI and 
+          Xba I to release a 
+          pcrG fragment that was subsequently
+          subcloned into EcoRI- and XbaI-cleaved pBAD18-Kan to
+          create pJM132. The sequences of all oligonucleotide
+          primers are available upon request.
+          To facilitate the selection of PcrG variants that
+          functioned to block Yops secretion (see below), the
+          virulence plasmid, pCD1, of the 
+          lcrG Y. pestis strain KIM8-3002.7
+          was tagged with a kanamycin resistance cassette to select
+          for its presence. pCD1 in KIM8-3002.7 was tagged with the
+          mini-Tn5 derived transposon EZ::Tn™ <R6Kγori/KAN-2>
+          (Epicentre Technologies, Madison WI) according to the
+          manufacturer's instructions to obtain KIM8-3002.7.MN1.
+          Location of the insertion was not determined but the LCR
+          phenotype and ability to translocate Yops into HeLa cells
+          was verified (data not shown).
         
         
-          MCP-1 and IL-8 play major roles in monocyte
-          migration by RA SCLs after TNF-α stimulation
-          Anti-MCP-1 mAb and anti-IL-8 mAb significantly
-          inhibited monocyte migration by supernatants of RA SCLs
-          stimulated with TNF-α. Anti-IP-10 mAb and anti-CCR5 mAb
-          did not inhibit monocyte migration significantly (Fig.
-          8).
+          Yeast two-hybrid assays
+          Yeast two-hybrid assays were performed as recommended
+          by the commercial supplier (Clontech, Palo Alto, CA).
+          Vectors pAS2-1 (encoding the GAL4 DNA binding domain) and
+          pACT2 (encoding the GAL4 activation domain) were obtained
+          from Clontech Laboratories as part of the Matchmaker
+          Two-Hybrid System 2 Kit. Plasmids were transformed into 
+          Saccharomyces cerevisiae strain
+          Y187 by using the Frozen-EZ Yeast Transformation II kit
+          (Zymo research, Orange, CA) and plated on appropriate
+          minimal yeast synthetic-dropout medium plates. Colony
+          filter-lift assays to detect β-galactosidase activity
+          were performed as described by Clontech laboratories.
+          Liquid β-galactosidase assays were performed using the
+          Yeast β-galactosidase Assay Kit (Pierce, Rockford, IL)
+          according to the manufacturer's instructions.
+          β-galactosidase units were calculated as described
+          previously [ 30 ] .
+        
+        
+          PcrG selection
+          Error-prone PCR was used to mutagenize 
+          pcrG for selection of PcrG variants
+          that could block Yops secretion in an 
+          lcrG background (KIM8-3002.7.MN1).
+          Mutazyme (Stratagene, La Jolla, CA) was used to amplify
+          PcrG for cloning into pBAD18 [ 33 ] . The ligation
+          reaction was electroporated into 
+          lcrG Y. pestis (which is
+          temperature sensitive due to its Ca 2+-blind phenotype)
+          and the cells were plated on TMH medium [ 29 ] containing
+          arabinose, Ca 2+, kanamycin and carbenicillin.
+          Transformants that grew at 37°C were streak purified and
+          checked for phenotype by determining Ca 2+-dependence,
+          which suggests restoration of "LcrG function" by PcrG. Ca
+          2+-dependent strains were subsequently used for plasmid
+          isolation. Isolated plasmids were re-electroporated into
+          an unmutagenized background and the strains were
+          re-evaluated for growth at 37°C and secretion of
+          Yops.
+        
+        
+          Cell fractionation and affinity purification
+          Bacterial cells were fractionated as previously
+          described [ 18 ] . Briefly, bacterial cells were chilled
+          on ice after growth, harvested by centrifugation, and
+          washed in cold phosphate-buffered saline (PBS; [ 34 ] ).
+          Bacterial whole cell fractions were prepared by
+          resuspending the washed cells in cold PBS and
+          precipitating total proteins with 10% (vol/vol)
+          trichloroacetic acid (TCA) on ice overnight. Secreted
+          proteins were recovered from the bacterial growth medium
+          by centrifuging the spent medium a second time,
+          transferring the supernatant to a clean tube, and
+          precipitating with 10% (vol/vol) TCA on ice overnight.
+          The TCA-precipitated proteins were pelleted by
+          centrifugation (20,800 × g at 4°C) for 20 min and
+          resuspended in 2X sodium dodecyl sulfate (SDS) sample
+          buffer [ 34 ] . Protein extracts for
+          affinity-purification were prepared by disintegration
+          with a French press. Ice-cold yersiniae were resuspended
+          in ice-cold PBS and passed through a French pressure cell
+          at 20,000 psi. Following disintegration, the extracts
+          were clarified by centrifugation at 20,800 × g for 10 min
+          at 4°C. Affinity purification with His 
+          6 -LcrV was performed using Talon
+          resin (Clontech) as described by the manufacturer.
+        
+        
+          Protein electrophoresis and immunodetection
+          Proteins were separated by SDS-polyacrylamide gel
+          electrophoresis (SDS-PAGE), using 12.5 % (wt/vol)
+          polyacrylamide gels according to the method of Laemmli [
+          35 ] . Samples were boiled 3-5 min before loading on the
+          gels. Samples were loaded such that lanes containing
+          different culture fractions represented equivalent
+          amounts of the original cultures. Proteins resolved by
+          SDS-PAGE were transferred to Immobilon-P membranes
+          (Millipore Corp., Bedford, MA) using carbonate transfer
+          buffer (pH 9.9) [ 5 ] . Specific proteins were visualized
+          using rabbit polyclonal antibodies specific for
+          glutathione S-transferase (GST)-tagged LcrG (α-LcrG) [ 4
+          ] , His-tagged LcrV (α-LcrV) [ 4 ] , YopM (α-YopM) [ 36 ]
+          , GST-tagged LcrQ (α-LcrQ) [ 16 ] , YopN (aka LcrE)
+          (α-LcrE [ 4 ] ), His-tagged YopD (α-YopD) [ 16 ] , and
+          YopE (α-YopE; gift from S. C. Straley, University of
+          Kentucky, Lexington, KY. Alkaline phosphatase-conjugated
+          secondary antibody (goat anti-rabbit immunoglobulin G;
+          Pierce) was used to visualize proteins by development
+          with nitroblue tetrazolium and
+          5-bromo-4-chloro-3-indolylphosphate (NBT-BCIP; Fisher
+          Scientific, Fair Lawn, NJ).
         
       
       
-        Discussion
-        The results of this study indicate that supernatants of
-        SCL derived from RA synovial tissue can attract more
-        monocytes from peripheral blood than OA SCL and skin
-        fibroblasts. MCP-1 and, to a lesser degree, IL-8 played the
-        major roles in SCL-induced trafficking of monocytes. These
-        results begin to provide an explanation for the extensive
-        accumulation of myeloid cells in rheumatoid synovium.
-        Importantly, RA SCL induced more monocyte migration after
-        stimulation with TNF-α, one of the major inflammatory
-        cytokines produced in the rheumatoid synovium.
-        Peripheral blood monocytes express many chemokine
-        receptors [ 9, 10], including CCR1, CCR2, CCR5, CCR8, and
-        CXCR4. The current analysis indicates that, along with
-        these receptors, CXCR1, CXCR2, and CXCR3 are also expressed
-        by monocytes. CCR1, CCR2, CCR5, CXCR1, CXCR2, CXCR3, and
-        CXCR4 notably appear to be expressed by monocytes obtained
-        from most donors.
-        Ligands of these chemokine receptors are candidates to
-        be involved in monocyte trafficking. These ligands would
-        include RANTES, MIP-1α and MCP-3 (CCR1), MCP-1, MCP-2,
-        MCP-3, MCP-4, MCP-5 (CCR2), RANTES, MIP-1α, and MIP-1β
-        (CCR5), IL-8 and CGP-2 (CXCR1), IL-8, GROα, and
-        epithelial-derived neutrophil attractant 78 (CXCR2), IP-10
-        and MIG (CXCR3), and stromal cell derived factor-1 (CXCR4)
-        [ 13]. Migration assays using supernatants of RA SCLs were
-        employed to determine which of these chemokine and receptor
-        interactions might be involved in monocyte migration in the
-        RA synovium.
-        Stromal cells are one of the important cell populations
-        in RA synovium. SCL can produce many cytokines, chemokines,
-        and can promote viability and functional activation of T
-        cells and B cells [ 14, 15, 16]. The current findings also
-        indicate that supernatants of RA SCLs attract more
-        monocytes than the supernatants of OA SCL and skin
-        fibroblasts. This result suggests that the supernatants
-        from RA SCLs may contain more chemokines than or different
-        chemokines to those of OA SCL or fibroblast lines and,
-        therefore, are able to attract additional monocytes. This
-        is likely to contribute to the more marked accumulation of
-        monocytes in RA compared with OA synovium.
-        An analysis of chemokines produced by RA SCL indicated
-        that these cells expressed MCP-1 and IL-8 mRNAs, and also
-        secreted MCP-1 and IL-8. It is noteworthy that there were
-        some discrepancies between mRNA expression and protein
-        production. From the mRNA expression, we expected RA SCLs
-        to produce reasonable amounts of IP-10, RANTES, MIP-1α, and
-        MIP-1β. RA SCLs, however, secreted only small amounts of
-        RANTES, and IP-10 and MIP-1β secretion was not detected.
-        According to previous reports, mRNAs of MCP-1, IL-8, and
-        RANTES were found in RA SCL or fibroblasts, but only MCP-1
-        was reported to be secreted by RA SCL or fibroblasts
-        without cytokine stimulation [ 4, 5, 17, 18]. The current
-        study indicates a wider profile of chemokine expression and
-        secretion by RA SCL, and also a greater production of IL-8
-        and MCP-1 by RA SCL compared with OA SCL, implying a
-        greater proinflammatory potential.
-        Experiments with blocking mAbs were carried out to
-        examine the chemokines in the supernatants of SCL that
-        accounted for monocyte migration. The data were consistent
-        with the conclusion that MCP-1 and, to a lesser extent,
-        IL-8 accounted for the capacity of RA SCL supernatants to
-        stimulate monocyte migration. Whether additional cytokines
-        produced by RA SCL also contributed to monocyte migration
-        is currently not known, but the combination of the
-        chemokine data and the mAb blocking results suggests that
-        MCP-1 and IL-8 play a dominant role in monocyte migration
-        measured by SCL.
-        TNF-α is one of the major cytokines produced in
-        inflammatory sites such as RA synovium, and it is thought
-        to play a central proinflammatory role [ 2]. We examined
-        the influence of TNF-α on monocyte migration induced by RA
-        SCL. RA SCLs stimulated by TNF-α secreted more MCP-1, IL-8,
-        and RANTES than those that were unstimulated, and began to
-        produce IP-10. Moreover, supernatants of TNF-α-stimulated
-        RA SCLs attracted more monocytes in migration assay. MCP-1
-        and IL-8 played the main roles in monocyte migration
-        induced by TNF-α-stimulated RA-SCL, as documented by
-        blocking experiments.
-        It has recently been reported that T cells expressing
-        CCR5 gather at inflammatory sites such as RA or multiple
-        sclerosis, and that interactions between CCR5 and its
-        ligands (RANTES, MIP-1α, MIP-1β) are thought to be
-        important in the accumulation of inflammatory cells at
-        these sites [ 19, 20, 21]. CCR5 expressed by monocytes,
-        however, was not apparently active in transmitting
-        transmigratory signals. RANTES is also the ligand of CCR1,
-        but the major receptor for RANTES is thought to be CCR5. In
-        this regard, expression of CCR1 by monocytes was lower than
-        that of CCR5. Moreover, antibody to MCP-1 and IL-8 blocked
-        75% and 20% of migration of monocytes, respectively.
-        According to this information, RANTES is unlikely to play a
-        major role in monocyte migration by RA SCL
-        supernatants.
-        MCP-1 has been shown to play an important role in the
-        development of arthritis in MRL-lpr mice [ 22], whereas the
-        migration of monocytes into inflammatory sites was reduced
-        in the CCR2-deficient mouse [ 23]. These results are
-        consistent with the current findings, demonstrating the
-        important role of MCP-1 in monocyte migration. Blocking the
-        effect of RANTES has, however, also been shown to be
-        effective in ameliorating collagen-induced arthritis in
-        DAB/1 mice and adjuvant-induced arthritis in rats [ 24,
-        25]. RANTES might, therefore, play a different role in the
-        initiation of inflammatory arthritis in experimental
-        animals compared with propagating chronic inflammation in
-        RA.
-        The overlapping roles of MCP-1 and IL-8 in the migration
-        of inflammatory cells have recently been highlighted in
-        studies of neutrophil trafficking. It was reported that
-        MCP-1 plays a role in neutrophil trafficking in
-        inflammation, although neutrophil trafficking was
-        previously believed to be regulated only by IL-8, and not
-        by MCP-1 [ 26]. These previous results, together with the
-        current data, indicate that both MCP-1 and IL-8 play major
-        roles in regulating the trafficking of myeloid cells into
-        inflammatory sites.
-        The role of specific chemokines in arthritis is still
-        controversial, and further investigation is necessary to
-        delineate to specific roles of these effector molecules.
-        Moreover, the role of tissue cells in regulating the
-        migration of inflammatory cells into the synovium is also
-        not fully established. The current data, however, strongly
-        imply that monocyte accumulation in rheumatoid synovium is
-        regulated by SCL via production of the chemokines MCP-1 and
-        IL-8.
-      
-      
-        Abbreviations
-        ELISA = enzyme-linked immunosorbent assay; IP-10 =
-        interferon-gamma inducible protein 10; mAb = monoclonal
-        antibody; MCP-1 = monocytechemotactic protein-1; MIP =
-        macrophage inflammatory protein; OA = osteoarthritis; PBMC
-        = peripheral blood mononuclear cells; PE = phycoerythrin;RA
-        = rheumatoid arthritis; RANTES = regulated upon activation,
-        normal T cell expressed and secreted; RT-PCR = reverse
-        transcriptase-polymerasechain reaction; SCL = stromal cell
-        line; SRBC = sheep red blood cells; TNF-α = tumor necrosis
-        factor-α.
+        Authors' contributions
+        J.S.M. performed all of the studies described and wrote
+        the draft of the manuscript. M. L N. conceived of the
+        study, supervised the work, and edited the manuscript.
+        All authors read and approved the final manuscript.
       
     
   

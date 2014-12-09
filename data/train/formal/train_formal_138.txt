@@ -2,304 +2,365 @@
   
     
       
-        Introduction
-        With the increasing worldwide availability of liver
-        transplantation, a standardized assessment of severity of
-        illness is needed to evaluate patient outcome objectively
-        over time and between different institutions.
-        Cirrhosis-specific scoring systems, such as the Child-Pugh
-        classification and Show's risk score, have been shown to be
-        good predictors of outcome of cirrhotic patients [ 1].
-        However, when used as predictors of outcome for liver
-        transplantation patients the results are inconsistent [ 2,
-        3, 4]. This is partly explained by the fact that the
-        preoperative condition is only one factor in a series of
-        complex interactions that include intra-operative and
-        postoperative factors. Systems for predicting the severity
-        of illness and mortality, such as the Acute Physiology and
-        Chronic Health Evaluation (APACHE) II system, are
-        attractive options for this group because they rely on data
-        collected soon after admission to the intensive care unit
-        (ICU), which is likely to reflect preoperative,
-        intra-operative and postoperative contributions.
-        The APACHE II system was described by Knaus 
-        et al. in 1985 to predict hospital
-        mortality in ICU patients [ 5]. The multiple logistic
-        regression equations were based on data collected on 5050
-        medical and surgical patients admitted to the ICU in 13
-        tertiary medical centers in the USA. This outcome
-        prediction system has been used to evaluate and compare the
-        performance of ICUs in different hospitals and countries.
-        In addition to general ICU patients, APACHE II has also
-        been studied in specific groups of patients such as those
-        with trauma [ 6], sepsis [ 7], and cirrhosis [ 8].
-        The APACHE II prediction equation incorporates three
-        variables: an APACHE II score, the diagnostic category of
-        the patient, and whether the surgery was emergency or
-        elective. The APACHE II score consists of the Acute
-        Physiology Score, which is calculated from 14 physiologic
-        variables that are scored from 0 to 4 and depend upon the
-        degree of deviation from normal. Points for age and for
-        chronic illness are also assigned. There are 50 different
-        diagnostic categories, each with a different weight used in
-        calculating the predicted mortality. There is no specific
-        diagnostic category weight for liver transplantation,
-        because there were no liver transplantation patients in the
-        developmental database for this system. Thus, when this
-        system is used for postoperative liver transplantation
-        patients, the diagnostic category weight 'postoperative
-        other gastrointestinal surgery' is used. This approach has
-        been shown to overestimate mortality significantly [ 9].
-        Angus 
-        et al. recently derived a new
-        diagnostic category weight based on their population of
-        liver transplantation patients [ 9]. The purpose of the
-        study was to validate the newly derived postoperative
-        orthotopic liver transplantation (OLTX)-specific diagnostic
-        weight for APACHE II in independent databases.
-      
-      
-        Methods
-        King Fahad National Guard Hospital (KFNGH) is a 550-bed
-        tertiary care center. The 12-bed medical-surgical ICU has
-        600 admissions per year. The liver transplantation program
-        is the main program in the Kingdom of Saudi Arabia. The
-        University of Wisconsin (UW) liver transplantation program
-        is a major program in the USA. Liver transplantation
-        patients are admitted to the Trauma and Life Support
-        Center, which is a multidisciplinary ICU that admits 2000
-        patients per year. Medical records of liver transplantation
-        patients admitted postoperatively to the adult ICU in the
-        period April 1996 to January 2000 at KFNGH and April 1997
-        to January 2000 at UW were reviewed. Re-transplantations,
-        kidney-liver and living-related transplantations were
-        excluded. The following data were collected: age, sex, and
-        underlying liver disease. APACHE II scores were calculated
-        according to the original methodology by using the worst
-        physiologic values in the first ICU day. The only exception
-        was Glasgow Coma Score (GCS). Most of these patients were
-        still under the influence of postoperative sedation during
-        the first 24 hours in ICU, and the worst GCS would reflect
-        the effect of sedation more than the true underlying mental
-        status. We therefore used the best GCS, which we felt would
-        be a better reflection of the patient's mental status. All
-        patients were given chronic health points. Vital status at
-        discharge from the hospital was registered.
-        Predicted mortality was calculated with the logistic
-        regression formula described in the original article [ 5].
-        We used two approaches: the original APACHE II diagnostic
-        category weight of postoperative gastrointestinal surgery
-        (-0.613), and the OLTX-specific diagnostic category weight
-        calculated by Angus 
-        et al. (-1.076) [ 9]. The formulae
-        for calculating predicted mortality (risk of death [ROD])
-        are as follows:
-        for the original approach, ln (ROD/1 - ROD) = -3.517 +
-        (APACHE II score × 0.146) - 0.613;
-        for the new approach, ln (ROD/1 - ROD) = -3.517 +
-        (APACHE II score × 0.146) - 1.076.
-        Standardized mortality ratio (SMR) was calculated by
-        dividing observed mortality by the predicted mortality. The
-        95% confidence intervals (CIs) for SMRs were calculated by
-        regarding the observed mortality as a Poisson variable,
-        then dividing its 95% CI by the predicted mortality [ 10].
-        The two approaches were compared with regard to calibration
-        (the ability to provide a risk estimate corresponding to
-        the observed mortality) and discrimination (the ability of
-        the predictive system to differentiate survivors from
-        non-survivors). The calibration of both systems was
-        evaluated with the Hosmer-Lemeshow goodness-of-fit 
-        C -statistic [ 11]. We calculated the
-        
-        C -statistic by dividing the study
-        population into six equal groups with increasing predicted
-        mortality to ensure an adequate number of patients in each
-        group. Discrimination was tested by 2 × 2 classification
-        matrices at decision criteria of 10%, 30%, and 50%.
-        Receiver operating characteristic (ROC) curves were
-        constructed as a measure of assessing discrimination with
-        10% stepwise increments in predicted mortality. The two
-        curves were compared by computing the areas under the ROC
-        curves [ 12, 13].
-        The patient characteristics and outcome data from the
-        two participating institutions were compared, to evaluate
-        the overall performance of the system between the two
-        hospitals. Continuous variables were expressed as means ±
-        SD. Categorical values were expressed in absolute and
-        relative frequencies. All categorical variables were
-        analyzed by the χ 2test. Non-parametric variables were
-        compared by Kruskal-Wallis test. 
-        P values of 0.05 or less were
-        considered significant. Minitab for Windows (Release 12.1,
-        Minitab Inc.) was used for statistical analysis.
+        Background
+        The mitogen-activated protein kinase (MAPK) family
+        consists of three commonly recognized subgroups: the
+        extracellular signal-regulated kinase (ERK), the
+        c-jun-N-terminal kinase (JNK), also known as the stress
+        activated protein kinase (SAPK) and the p38 kinase. While
+        many actions have been associated with activation of the
+        ERK pathway, two particular functions of interest to our
+        laboratory are mitogen-stimulated growth [ 1 ] and smooth
+        muscle cell contraction [ 2 ] . Of the three MAPK pathways,
+        activation of the ERK pathway and the intracellular
+        signaling pathways associated with ERK activation are the
+        best delineated. Known activators include reactive oxygen
+        species [ 3 4 ] , growth factors [ 5 ] , and agonists of
+        G-protein coupled receptors [ 6 7 ] . The two other MAPK
+        pathways, the JNK and p38 pathways, have been implicated in
+        a variety of similar cellular functions. Known activators
+        of the JNK and p38 pathways in vascular smooth muscle cells
+        include reactive oxygen species [ 8 9 ] , mechanical strain
+        [ 10 11 ] , hypoxia [ 12 ] and a variety of cytokines and
+        growth factors. The mechanisms of many cellular functions
+        of the JNK and p38 pathways are not yet clearly defined.
+        The JNK pathway is involved in apoptosis [ 13 ] , arginine
+        vasopressin-induced increases in smooth muscle α-actin in
+        vascular smooth muscle cells [ 14 ] as well as in
+        phosphorylation of transcription factors c-jun, ATF-2 and
+        ELK-1 and phosphorylation of Na-K-2CI cotransporter [ 15 ]
+        . The p38 pathway has been implicated in apoptosis [ 16 ] ,
+        neointimal hyperplasia after vascular injury [ 17 ] as well
+        as angiotensin ll-induced contraction in vascular smooth
+        muscle [ 18 ] .
+        Recently, it has been noted that the JNK and p38
+        pathways can be activated by G-protein coupled receptor
+        agonists, notably angiotensin II, in vascular smooth muscle
+        cells [ 19 20 ] . In cardiac myocytes, both the p38 and JNK
+        pathways have been activated by endothelin-1 (ET-1) and the
+        α 
+        1 adrenergic receptor agonist
+        phenylephrine [ 21 ] . The ability of the JNK and p38
+        pathways to be activated by the same agonists of G-protein
+        coupled receptors which activate the ERK pathway led to the
+        investigation of 5-HT as a possible activator of the JNK
+        and p38 pathways. 5-HT, acting 
+        via the 5-HT 
+        2A receptor, is a known activator of the
+        ERK pathway in vascular smooth muscle cells [ 2 22 ] . In
+        these studies we tested the hypothesis that 5-HT would
+        activate the JNK and p38 pathways in rat aortic vascular
+        smooth muscle cells.
       
       
         Results
         
-          Patient characteristics
-          During the study period 174 postoperative liver
-          transplantation patients were admitted to ICU. Patients'
-          characteristics, underlying liver disease, APACHE II
-          scores, and predicted and observed outcomes are shown in
-          Table 1.
+          The ERK pathway
+          In agreement with previously published studies from
+          our lab, 5-HT caused a concentration-dependent activation
+          of the ERK pathway (figure 1). This activation occurs
+          maximally at five minutes of stimulation and returns to
+          basal levels by thirty minutes [ 23 ] . This time course
+          of activation is consistent with that of other G-protein
+          coupled receptors.
         
         
-          Actual and predicted hospital mortality
-          rates
-          The mean APACHE II score was 13.96, with an SD of
-          5.76. Observed mortality was 5.75%. When the original
-          diagnostic weight was used, APACHE II significantly
-          overestimated mortality (predicted mortality 12.96%, SMR
-          0.44, 95% CI 0.22-0.80). When the new diagnostic weight
-          was used, the system provided a closer estimate of
-          mortality (predicted mortality 8.89%, SMR 0.65, 95% CI
-          0.31-1.16). Fig. 1shows actual and predicted mortality
-          with the use of both approaches in the whole cohort
-          classified according to APACHE II score.
+          The p38 pathway
+          The p38 pathway has demonstrated a different time
+          course of activation 
+          via G- protein coupled receptors
+          than the ERK pathway [ 24 ] . Using the time point (30
+          min) at which angiotensin II demonstrates maximal
+          stimulation of the JNK pathway we performed a
+          concentration response curve (10 -9- 10 -5M) to 5-HT in
+          vascular smooth muscle cells. Western analysis using
+          phosphospecific antibodies was used to measure activation
+          the p38 pathway. A total or non-phosphospecific antibody
+          was used to ensure equal loading of p38 protein. After
+          thirty-minutes of incubation with 5-HT (10 -9- 10 -5M),
+          there was no enhanced phosphorylation of p38 (figure 2,
+          bottom). In contrast, incubation with anisomycin (500
+          ng/ml) induced significant phosphorylation of p38 (2-fold
+          above basal). These data suggest that 5-HT does not
+          activate the p38 pathway in rat vascular smooth muscle
+          cells despite the ability of other agonists to activate
+          the pathway in these cells.
         
         
-          Calibration
-          The goodness-of-fit analysis, with the Hosmer-Lemeshow
-          
-          C -statistic, is shown in Table 2;
-          the new system had better calibration (original model, χ
-          2= 11.06, 
-          P = 0.03; new model, χ 2= 5.92, 
-          P = 0.20).
-        
-        
-          Discrimination
-          Discrimination examined by 2 × 2 classification
-          matrices showed an improvement with the new diagnostic
-          category weight. This was reflected by the higher overall
-          correct classification rate at the three examined
-          decision criteria (see Table 3). Discrimination was also
-          tested by ROC curves (Fig. 2): the areas under receiver
-          characteristic curves for the two approaches were almost
-          identical (0.740 and 0.744, respectively).
-        
-        
-          Comparison between the two institutions
-          Table 4shows the characteristics of patients on the
-          basis of their institutions. Patients from KFNGH were
-          slightly (but significantly) younger than patients at UW.
-          Hepatitis C virus was more common, and alcohol-related
-          liver disease was less common, as an underlying disease
-          in patients in KFNGH than in those at UW. APACHE II
-          scores, and correspondingly predicted mortalities, were
-          higher in KFNGH patients. Despite these differences, the
-          performances of the prediction systems (the old and the
-          new models) were quite similar in the two hospitals as
-          reflected by SMRs. The new approach provided more
-          accurate estimates of hospital mortality in each hospital
-          than the old model.
+          The JNK pathway
+          Figure 3shows that thirty minutes of incubation with
+          5-HT (10 -9- 10 -5M) resulted in a trend towards a modest
+          increase in phosphorylation of the p46 JNK isoform. This
+          trend, however, was not statistically significant. In
+          contrast, anisomycin (500 ng/ml) induced significant
+          phosphorylation of the p46 JNK isoform (5-7 fold above
+          basal). Both the p54 and p46 bands were analyzed by
+          densitometry (data for p54 not shown). However,
+          incubation with 5-HT did not produce statistically
+          significant activation in either band when compared to
+          vehicle. These data suggest that 5-HT does not
+          substantially activate the JNK pathway in vascular smooth
+          muscle cells. However, the data obtained with anisomycin
+          provides evidence that this pathway can be activated in
+          these cells.
+          To confirm that thirty minutes was an optimal time
+          point for observing 5-HT-induced phosphorylation of JNK,
+          we next performed a time course of JNK phosphorylation
+          after exposure to 5-HT in rat vascular smooth muscle
+          cells. At no time point (5 min, 15 min, 30 min and 60
+          min) did 5-HT (10 -5M) enhance JNK phosphorylation above
+          basal levels (figure 4). These data fail to support a
+          role for 5-HT-induced activation of the JNK pathway in
+          vascular smooth muscle cells.
+          To demonstrate that a G-protein coupled receptor
+          agonist could activate the JNK pathway in our vascular
+          smooth muscle cells, we incubated the cells with
+          angiotensin II (10 -9- 10 -5M) for thirty minutes.
+          Angiotensin II (10 -8- 10 -5M) produced a significant
+          increase in the level of JNK phosphorylation (figure 5).
+          The authors speculate that the differences in the level
+          of phosphorylation of the p46 JNK isoform in the vehicle
+          treatment group maybe due to differences in the JNK
+          expression over time in cultured cells. The cells used in
+          these experiments were of a later passage than those used
+          for the 5-HT incubation studies. These data, in addition
+          to that obtained with anisomycin, demonstrate that in
+          these vascular smooth muscle cells the JNK pathway can be
+          activated.
+          Due to the trend toward increased phosphorylation of
+          both the p46 and p54 JNK isoforms by 5-HT, we next
+          performed JNK activity assays to determine whether 5-HT
+          had any significant effect on kinase activity. This assay
+          was chosen to ensure that the western analyses used were
+          sufficiently sensitive to detect changes in the
+          activation of the JNK pathway. There was no significant
+          difference in the levels of activity at any concentration
+          of 5-HT (10 -9- 10 -5M) after thirty minutes of
+          incubation in vascular smooth muscle cells (figure 6). In
+          contrast, anisomycin (500 ng/ml, 30 min) produced a
+          significant increase in JNK activation (approximately
+          2-fold above basal). These data, in combination with the
+          above findings, do not support a role for 5-HT in the
+          activation of the JNK pathway in vascular smooth muscle
+          cells.
         
       
       
-        Discussion
-        The findings of our study can be summarized as follows:
-        (1)APACHE II with its original diagnostic category weight
-        overestimated hospital mortality in postoperative liver
-        transplantation patients; (2) when the newly derived
-        OLTX-specific diagnostic category weight was applied,
-        mortality prediction, discrimination, and calibration of
-        APACHE II improved; (3)despite differences in the patient
-        populations, the performance of the old and new models, as
-        reflected by SMRs, was similar in the two institutions.
-        The literature evaluating APACHE II in postoperative
-        liver transplantation patients is limited. Bein 
-        et al. [ 14] reviewed the use of
-        scoring systems in 123 liver transplantation patients. In
-        their study, APACHE II scores were reported; however, no
-        calculation of the predicted mortality was performed. The
-        study showed that APACHE II scores had good discrimination
-        as reflected by the areas under the curves of the ROC
-        curves. A second study by Sawyer 
-        et al. [ 15] found that mortality
-        correlated with the APACHE II score. However, the predicted
-        mortality was again not calculated.
-        Angus 
-        et al. [ 9] recently calculated the
-        predicted mortality for postoperative liver transplantation
-        patients and found that APACHE II system overestimated
-        mortality when the original equation was used (SMR 0.73,
-        95% CI 0.58-0.99). This is consistent with our findings.
-        The inaccuracy of APACHE II with its original equation
-        probably arises from several factors. The developmental
-        database of APACHE II did not have liver transplantation
-        patients; the use of the system with the original equation
-        for liver transplantation patients therefore essentially
-        assumes that the weighted diagnostic category for liver
-        transplantation would be the same as for postoperative
-        gastrointestinal surgery. In this study we show, as shown
-        previously by Angus 
-        et al. [ 9], that this assumption is
-        not accurate because it leads to a significant
-        overestimation of mortality.
-        We believe that the reason is related to the unique
-        patho-physiology of the period after liver transplantation.
-        Marked changes occur during the procedure, especially at
-        the time of reperfusion [ 16, 17]. These include a
-        significant decrease in blood pressure, a decrease in
-        systemic vascular resistance, an increase in cardiac
-        output, a decrease in pH, an increase in lactate, an
-        increase in potassium, and a prolongation of prothrombin
-        time [ 16, 17]. Although some of these abnormalities start
-        to normalize during the final stages of surgery, some will
-        persist into to the immediate postoperative period [ 16]
-        and will be reflected on any severity of illness score such
-        as APACHE II. These changes start to normalize rapidly as
-        the graft starts to function. The multitude of the
-        abnormalities and the speed with which they are corrected
-        make this group of patients unique and explains the
-        inaccuracy of APACHE II when using the diagnostic category
-        weight of 'postoperative gastrointestinal surgery'.
-        On the basis of the above, it is not surprising that a
-        model developed on a population of liver transplant
-        patients would provide more accurate and reproducible
-        estimates. Similar disease-specific customizations of
-        mortality prediction systems have been performed, such as
-        for sepsis [ 18].
-        There are several obvious advantages to the use of
-        APACHE II as a model of severity of illness for liver
-        transplant patients. These include the familiarity with the
-        system and its widespread use in ICUs. ICUs that use APACHE
-        II as their database severity of illness scoring system
-        will find it easy to apply the system to this subgroup of
-        patients rather than implementing a special
-        disease-specific system exclusively for OLTX patients. In
-        general, using a system for scoring the severity of illness
-        is essential for monitoring transplant program performance
-        over time and between different institutions. Such a system
-        also can be useful for grouping patients in clinical
-        studies.
-        In conclusion, APACHE II provided an accurate estimate
-        of mortality in liver transplant patients when the
-        OLTX-specific diagnostic category weight was used.
+        Conclusions
+        5-HT is an activator of the ERK pathway in vascular
+        smooth muscle cells. In contrast, 5-HT appears to be unable
+        to activate the JNK and p38 pathways in vascular smooth
+        muscle cells. No observable changes in activation, as
+        measured by phosphorylation status, were seen at any of the
+        5-HT concentrations (10 -9- 10 -5M) or time points (5 min,
+        30 min, 60 min and 2 hr) examined. The data from the kinase
+        activity assay also demonstrated no activation of the JNK
+        pathway by 5-HT.
+        The mitogen-activated protein kinase family is
+        associated with many cellular functions. The ability of
+        5-HT to activate the ERK pathway is consistent with 5-HT's
+        role as a mitogenic stimulus and vasoconstrictor. Several
+        vasoactive G-protein coupled agonists, including
+        angiotensin II and endothelin, have also been shown to
+        activate the ERK pathway in vascular smooth muscle cells [
+        6 21 ] . These same hormones also activate the JNK and p38
+        pathways. These agonists have different time course and
+        concentration profiles for activation of the different MAPK
+        pathways. ERK activation by angiotensin II and 5-HT occurs
+        at relatively lower agonist concentrations and within five
+        minutes of stimulation (19,23). The activation of p38 and
+        JNK pathways by angiotensin II and endothelin occurs at
+        higher concentrations of agonist and requires a longer
+        incubation with the stimulus [ 18 19 25 ] . There are data
+        which also suggest that different signal transduction
+        pathways are utilized for the different pathways [ 25 26 27
+        ] . This differential activation of MAPK pathways is most
+        likely due to the role that each plays in the cell. The ERK
+        pathway is associated with growth where as the p38 and JNK
+        pathways are "stress response" pathways.
+        In light of data for the other G-protein coupled
+        receptor agonists, the inability of 5-HT, also G-protein
+        coupled receptor, was initially surprising. While 5-HT has
+        never been shown to increase activation of either the p38
+        or JNK pathways, it has been linked to ERK activation. The
+        5-HT 
+        2A receptor is the primary serotonergic
+        receptor which couples to activation the ERK pathway in
+        vascular smooth muscle cells [ 28 ] . 5-HT's inability to
+        activate the JNK and p38 pathways may be due to a lack of
+        coupling of the 5-HT 
+        2A receptor signaling pathway to the
+        components in the JNK and p38 pathways.
+        It has recently been suggested that G-protein coupled
+        receptors with PDZ domains, SH2-containing domains and PTB
+        domains participate in protein-protein interactions with
+        partners other than G-proteins, such as Grb2 and JAK2,
+        which may allow these receptors to bypass the G-proteins
+        and utilize other signaling cascades (29). This ability of
+        G-protein coupled receptors to modulate the signal cascade
+        used, independent of G-proteins, suggests a broader range
+        of interaction with signaling components. This may provide
+        one explanation for the 5-HT activation of the ERK and its
+        lack of effect on the JNK and p38 pathways.
+        Another possible explanation for the differential
+        activation of the MAPK pathways by 5-HT may relate to the
+        varied roles 5-HT in different cell types and the multiple
+        receptors which mediate these roles. When examining the
+        physiological role of 5-HT in other cell types, in regards
+        to apoptosis and cellular responses to stress, 5-HT is
+        generally anti-apoptotic [ 30 31 32 ] . In particular, in
+        neuronal cells the 5-HT 
+        1A receptor is upregulated under
+        conditions of cellular stress and is anti-apoptotic [ 33 34
+        ] . The anti-apoptotic effects of 5-HT maybe due to
+        scavenging of reactive oxygen species [ 35 ] as well as
+        stimulation of the ERK pathway which results in inhibition
+        of a caspase-3-like enzyme [ 32 ] . There are no currently
+        published studies examining the role of 5-HT as an
+        anti-apoptotic factor in vascular smooth muscle cells. It
+        may be that under stressful conditions, such as a disease
+        state or a loss of nutrients which occurs in a state of
+        ischemia, the smooth muscle cells upregulate a new
+        complement of 5-HT receptors [ 33 34 35 ] . These new
+        receptors maybe involved in activation of the ERK, p38 and
+        JNK pathways, but the studies presented here do not
+        directly address this issue. They do, however, support the
+        conclusion that the 5-HT 
+        2A receptor does not activate the p38
+        orJNK pathways in rat vascular smooth muscle cells.
       
       
-        Key messages
-        · APACHE II with its original diagnostic category weight
-        overestimated hospital mortality in postoperative liver
-        transplantation patients.
-        · When the newly derived OLTX specific diagnostic
-        category weight was applied, mortality prediction,
-        discrimination and calibration of APACHE II improved.
-        · Despite differences in the patient population, the
-        performance of the old and new models was similar in the
-        two institutions as reflected by SMRs.
-      
-      
-        Competing interests
-        None declared.
-      
-      
-        Abbreviations
-        APACHE = Acute Physiology and Chronic Health Evaluation;
-        CI = confidence interval; GCS = Glasgow Coma Score; ICU =
-        intensive care unit; OLTX = orthotopic liver
-        transplantation; ROC = receiver operating characteristic;
-        SMR = standardized mortality ratio.
+        Methods
+        
+          Aortic smooth muscle cell culture
+          Vascular smooth muscle cells were derived from the
+          aorta of male Sprague-Dawley rats by an explant method
+          previously described [ 36 ] . The smooth muscle cells
+          were plated on to P-100's and grown to confluence. The
+          cells were used between passages 2 and 9. The cells were
+          positively stained for smooth muscle α-actin (Oncogene
+          Research Products, Boston, MA; Fluorescein labeled goat
+          anti-mouse secondary antibody, Molecular Probes, Eugene,
+          OR) with each new isolation.
+        
+        
+          Aortic smooth muscle cells experiments
+          Cells (P-100 plates) were switched to physiological
+          salt solution (4 ml) [consisting of (in mmol/L) NaCI,
+          103; KCI, 4.7; KH 
+          2 PO 
+          4 , 1.18; MgSO 
+          4 • 7H 
+          2 O, 1.17; CaCl 
+          2 • 2H 
+          2 O, 1.6; NaHCO 
+          3 , 14.9; dextrose, 5.5; and CaNa 
+          2 EDTA, 0.03] for one hour prior to
+          addition of agonist. At this time, okadaic acid (1 μM),
+          sodium orthovanadate (1 μM) and PD098059 (10 μM) or
+          vehicle (0.1-.5 %DMSO) was added and allowed to
+          equilibrate for one hour. PD098059, an inhibitor of MEK
+          activation, was included in all experiments, except the
+          ERK activation experiments, to increase the specificity
+          of the phospho-JNK antibody which recognizes the 44 and
+          42 kDa ERK bands as well as bands at 54 and 46 kDa. In
+          the presence of PD098059, the bands at 42 and 44 kDa were
+          significantly reduced. Each dish was incubated with one
+          agonist concentration [5-HT (10 -9- 10 -5M), angiotensin
+          II (10 -9- 10 -5M) or anisomycin (500 ng/ml [ 37 ] )] for
+          thirty minutes. Plates were placed on ice and incubation
+          buffer aspirated. Plates were washed with ice-cold
+          phosphate-buffered saline containing sodium orthovanadate
+          as a tyrosine phosphatase inhibitor (10 mM sodium
+          phosphate, 150 mM NaCI, 1 mM Na 
+          3 VO 
+          4 , pH 7.0). Five hundred microliters
+          of supplemented RIPA lysis buffer (50 mM Tris-HCI pH 7.5,
+          150 mM NaCI, 2 mM EGTA, 0.1% Triton X-100, 1 mM PMSF, 10
+          ug/ml aprotinin, 10 ug/ml leupeptin, 1 mM sodium
+          orthovanadate) were added to each dish and cells were
+          harvested with a rubber policeman. Lysates were
+          centrifuged at 14,000 g for 10 minutes at 4°C. Protein
+          concentrations of the resulting supernatant were measured
+          using the BSA method (Bio-Rad, Hercules, CA). The gels
+          were also stained with Gel Code Blue ®(Pierce, Rockford,
+          IL) to validate equal loading of protein.
+        
+        
+          Immunoblotting protocol
+          Supernatant (4:1 in denaturing loading buffer, boiled
+          5 minutes) was loaded, separated on 10% denaturing
+          SDS-polyacrylamide gels, and transferred to Immobilon-P
+          membranes. Membranes were blocked for 3-4 hours in Tris
+          buffer saline + Tween-20 (0.1%; TBS-T) containing 4%
+          chick egg ovalbulmin and 0.025% sodium azide. Rabbit
+          anti-phospho Erk MAPK (1:5000, Promega, Madison, Wl),
+          rabbit anti-phospho JNK MAPK (1:5000, Promega, Madison
+          Wl), rabbit anti-phospho p38 MAPK (1:1000, Cell
+          Signaling, Beverly, MA), mouse anti-total Erk (1:5000,
+          Zymed, San Francisco, CA) rabbit anti-total JNK MAPK
+          (1:5000, Santa Cruz BioTechnologies, Santa Cruz, CA) or
+          rabbit anti-total p38 MAPK (1:1000, Cell Signaling,
+          Beverly, MA) were incubated with blots overnight (4°C).
+          Following washes, secondary antibody linked to
+          horseradish peroxidase [anti-rabbit (1:2000, Zymed
+          Laboratories, S. San Francisco, CA) or anti-mouse
+          (1:7500, Amersham, Arlington Heights IL)] was added for
+          one hour and incubated with blots at 4°C. Enhanced
+          chemiluminescence was performed using standard reagents
+          (Amersham Laboratories, Arlington Heights, IL).
+        
+        
+          Kinase activity assay protocol
+          Primary vascular smooth muscle cell preparations were
+          treated with agonists as described above. They were then
+          lysed in a protein kinase lysis buffer [50 mM HEPES, pH
+          7.5, 150 mM NaCI, 1.5 mM MgCI2, 1 mM EGTA, 1 mM sodium
+          vanadate, 50 mM sodium fluoride, 20 mM
+          beta-glycerophosphate, 10% (vol/vol) glycerol, 1%
+          (vol/vol) Triton X-100, and protease inhibitors (1 mM
+          PMSF, 1 ug/ml pepstatin A1, 1 ug/ml leupeptin, and 1
+          ug/ml aprotinin]. Equal protein amounts of each cell
+          lysate (usually 100 ug) were incubated for 3 h at 4°C in
+          the presence of purified GST-c-Jun-(1-79) bound to
+          glutathione-agarose beads (2.8 ug GST-c-Jun/ul beads) as
+          previously described [ 38 ] . Beads were washed 2 times
+          with HNTG buffer (HEPES 20 mM pH7.5, NaCI 150 mM, Triton
+          X-100 0.10%, glycerol 10%) followed by an additional
+          washing with HNTG buffer + 1% bovine serum albumin (BSA).
+          Samples were then centrifuged at 13,000 rpm for 2 min and
+          the supernatant was discarded. The pellets were washed 2
+          times with HNTG buffer and 2 times with JKAW buffer
+          (HEPES 25 mM, glycerol 10%, MgCl 
+          2 20 mM, Na 
+          3 VO 
+          4 0.1 mM, beta-glycerophosphate 12.5
+          mM, EGTA 0.5 mM, NaF 0.5 mM). The pellets were then
+          resuspended in 50.5 μl JKAW reaction buffer containing 20
+          μCi [- 32P] ATP and 50 μM unlabeled ATP. After 30 min at
+          37°C, reactions were terminated by the addition of 8 ul
+          SDS loading buffer, samples were boiled and separated by
+          SDS-PAGE. Proteins were transferred to stabilized
+          nitrocellulose membranes and the bands corresponding to
+          phosporylated c-Jun were counted by a phosphorimager
+          (Storm model 860, Molecular Dynamics, Sunnyvale CA).
+        
+        
+          Data analysis
+          Cell experiments were performed three or four times
+          with each repetition of the experiment being performed in
+          cells from explants derived from different animals. Thus,
+          experiments are representative of responses of 3 or 4
+          different animals. Unpaired Student's t tests were used
+          where appropriate in comparing two group responses and a
+          one way ANOVA test was used when comparing responses of
+          three or more groups (p < 0.05 considered
+          statistically significant). Phosphorimager data was
+          captured using Image Quant 5.1 software (Molecular
+          Dynamics, SunnyVale, CA). Quantitation of all band
+          densities was performed using the public domain NIH Image
+          (v.1.62).
+        
       
     
   

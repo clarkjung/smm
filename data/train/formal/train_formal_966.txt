@@ -2,245 +2,363 @@
   
     
       
+        Background
+        CFEOM1 is an autosomal dominant disorder that has been
+        linked to the pericentromere of chromosome 12, flanked by
+        marker D12S1584 on the p arm and D12S1668 on the q arm [ 1,
+        2]. The clinical phenotype consists of congenital,
+        bilateral ptosis and external ophthalmoplegia, with the
+        eyes partially or completely fixed in a hypotrophic or
+        downward position. On autopsy, CFEOM1 patients appear to be
+        lacking the superior division of cranial nerve III, which
+        innervates the levator and superior rectus muscles [ 3].
+        Whether this disease is caused by a primary defect in the
+        nerve or the muscle remains unclear. The disease was
+        initially linked to an 8 centiMorgan region spanning the
+        centromere of chromosome 12, and then further refined to a
+        critical region of 3 cM [ 1, 2]. Yeast and bacterial
+        artificial chromosome (YAC and BAC) contigs have been
+        generated and a positional cloning approach to identify the
+        CFEOM1 causative gene is ongoing.
+        Sarcospan is a member of the dystrophin associated
+        protein complex present in skeletal and extraocular muscle
+        [ 4, 5, 6]. Sarcospan is most tightly associated with the
+        transmembrane sarcoglycan subcomplex, mutation of which
+        causes autosomal recessive limb girdle muscular dystrophy
+        (LGMD2C-2F) [ 7, 8, 9, 10, 11]. Primary mutation of α - δ
+        sarcoglycan leads to a variable degree of secondary
+        instability of sarcospan and the non-mutant sarcoglycans.
+        Sarcospan is homologous to the tetraspanin superfamily,
+        members of which have been shown to facilitate both
+        integral-membrane and membrane-proximal protein
+        interactions involved in many different cellular processes
+        [ 12]. Sarcospan had previously been identified as Krag, a
+        gene that is co-amplified with Ki-ras in the Y1 murine
+        adrenal carcinoma cell line [ 13, 14]. Portions of the
+        gene's genomic structure were elucidated at that time, and
+        the gene was localized to chromosome 12p11.2.
+        Given the genomic localization of sarcospan in the
+        critical region defined for CFEOM1, and its association
+        with other proteins known to be involved in muscular
+        diseases, sarcospan has been proposed as a candidate
+        disease gene for CFEOM1 [ 5]. We have refined the
+        previously published genomic structure of sarcospan more
+        fully and screened for mutations in six families with
+        CFEOM1. We have also generated antibodies that recognize
+        human sarcospan and examined extraocular muscle samples
+        from CFEOM1 patients.
+        We find sarcospan to be unmutated in all six CFEOM1
+        families studied and sarcospan immunoreactivity to be
+        identical in control and CFEOM1 extraocular muscle.
+        Sarcospan is also shown to map electronically to BACs that
+        are considered to be outside of the CFEOM1 critical region.
+        These data make it unlikely that sarcospan, or other
+        dystrophin associated proteins, are involved in the
+        pathogenesis of CFEOM1.
+      
+      
+        Results
         
-        At first glance, the preschool classroom on the other side of the two-way mirror looks
-        like any other—brightly colored rugs, scattered toys, and tiny chairs. But almost
-        immediately an observer notices differences in the Team Toddle students here at the
-        Neuropsychiatric Institute of the University of California at Los Angeles (UCLA) (Los
-        Angeles, California, United States).
-        A therapist instructs a toddler on his colors, flashing a rapid sequence of blocks at
-        him. When the toddler starts rocking in his chair and repeatedly touching his forehead, the
-        therapist physically restrains his hands, placing them back on the tabletop until he stops
-        the repetitive behaviors and focuses once again on her face and the blocks. During
-        playtime, a two-year-old girl sits by herself in the corner, fixated on some picture cards,
-        oblivious to a group of other children playing with a racetrack and to the therapist who
-        tries to draw her out to join the group.
-        These children lack some of the key social skills that normal toddlers pick up
-        naturally—looking to others for reassurance or cues, focusing on faces, and playing
-        together. Social and communication impairment is a hallmark of autism and can show up as
-        early as 12–18 months of age. But with an unknown cause, and genetic linkages still hazy,
-        there is little consensus among researchers on how the disorder develops in children and
-        how it causes a broad spectrum of social, language, and behavioral deficits.
-        Following one line of research, David Amaral's laboratory at the M.I.N.D. Institute at
-        the University of California at Davis Medical Center in Sacramento (California, United
-        States) has recorded, in autistic brains, a brain volume increase in a specific structure,
-        the amygdala, which is thought to be important for social behavior. A similar study at the
-        University of Washington in Seattle (UW) (Seattle, Washington, United States) has reached
-        the same conclusion. “There are so few facts about autism, to have two labs come up with
-        the same data is phenomenal,” says Amaral. “We feel confident this is a real finding, but
-        what does it mean to these kids?”
-        On another research track, using functional imaging, Ralph-Axel Müller, a cognitive
-        neuroscientist at San Diego State University (San Diego, California, United States) sees a
-        scattering of brain activation in autistic brains that he views as an indication of a more
-        general brain development problem underlying the disorder (Figure 1). He has hypothesized
-        that the early-developing basic functions may require more brain area in autism, pushing
-        out and disturbing the later specialization for more complex functions. “I'm sure this is
-        wrong,” he says, “but it will allow us to look in a more hypothesis-driven way at animal
-        studies of how the cerebral cortex develops specialization.” Animal models may, in turn,
-        yield clues about normal and abnormal brain development in humans.
-        “Since there is no major hypothesis as to cause [of autism], there are many plausible
-        ideas,” says Amaral. “If we go after all of them, we will waste all of our resources. [We
-        have to] come to some consensus about which are most plausible.” At least two levels of
-        pursuit exist for tracing brain problems associated with autism—the exploration of the
-        general developmental disruptions that result in an autistic brain, and the examination of
-        more specific problems in particular brain structures that produce symptoms. Although
-        scientists still debate how autism evolves in a patient, the field has begun in the last
-        decade to replicate findings and make science-based arguments for interventions. Progress
-        has come in small steps, with advances in neuroimaging and more rigorous experimental
-        designs.
-        Research focuses have shifted from “curing” autism to finding better diagnostics for
-        early intervention, improving behavioral therapies, and gaining insight into the
-        development and function of the autistic brain. Both advocacy groups and government
-        programs have started to bring together neuroscience and genetics experts, clinicians, and
-        families to sharpen the focus of studies and ensure progress in what has often been a messy
-        field.
+          Genomic organization of the human sarcospan
+          gene
+          Five independent clones were isolated from a human
+          genomic phage library using hybridization probes that
+          covered the entire coding region of sarcospan. Primers
+          within the coding sequence were designed to cross the two
+          known intron-exon junctions and other hypothesized
+          junctions. The sarcospan open reading frame is encoded by
+          three exons. The first exon contains 279 base pairs (bp)
+          of coding sequence and is extremely G/C rich (71%). The
+          second exon, as previously determined, is 87 bp in
+          length. The third exon is very large and includes the
+          last 363 bp of coding sequence and over 1500 bp
+          3'-untranslated region (UTR).
+        
+        
+          Analysis of the CFEOM1 critical region
+          Based on its cytogenetic localization and expression
+          pattern, sarcospan is a candidate gene for autosomal
+          dominant CFEOM1. Initially, to determine whether
+          sarcospan was contained on YACs or BACs spanning the
+          CFEOM1 critical region, YACs 766h7, 762e1, 951h6, 813h9,
+          782e8, 813g11, 832f4, 887g10, 916c8, 936f5, 946d5, 852c3,
+          723h3, 906f9, 798b12, 958b2, 943f6, 957b8, and 973h3 [ 2]
+          and BACs B455J16, B50I19, B459A22, B392F18, B193D8,
+          B855O3, B460N10, B351C12, B56H16, B937H2, B1035D8,
+          B251K10, B152M7, B396F22, B45D10, B471G7, B520I18, and
+          B367O10 (AECOM Genome Center Home Page chromosome 12 maps
+          http://sequence.aecom.yu.edu/chr12/QARM1.pdfand
+          http://sequence.aecom.yu.edu/chr12/Parm2.pdf) were
+          tested. Positive control primers were able to amplify
+          fragments of the YACs and BACs while sarcospan primers
+          were not (data not shown).
+        
+        
+          Mutation Analysis
+          Although the coverage of the YAC and BAC physical maps
+          was nearly complete, only direct sequencing of CFEOM1
+          patient DNA would yield definitive results about the
+          status of the sarcospan gene in CFEOM1. Primer pairs to
+          amplify all of exon 2 and the coding portions of exons 1
+          and 3 were designed. Because of the large 3'-UTR present
+          in exon 3, a primer pair was designed to amplify the
+          coding portions of the exon including the 5' splice
+          junction and 40 bp of 3' non-coding sequence (Figure
+          1).
+          Two affected individuals from each of six families
+          with CFEOM1 were analyzed by direct sequencing. No
+          mutations or polymorphisms were found.
+        
+        
+          Immunofluorescence Analysis
+          Samples of CFEOM1 affected and unaffected extraocular
+          muscle were analyzed for the pattern of sarcospan
+          staining. Muscle was simultaneously stained with
+          anti-spectrin antibody so that the samples' membrane
+          integrity could be assessed, and a comparison could be
+          made between the levels of sarcospan in normal and CFEOM1
+          samples. All samples showed normal sarcolemmal staining;
+          no abnormalities were observed (Figure 2).
+        
+        
+          BAC Mapping of Sarcospan
+          Comparison of the sarcospan coding sequence (GenBank
+          accession number AF016028) to the human genome sequence
+          revealed that sarcospan is contained on the BACs B283G6
+          and B612B6 (Chromosome 12p map page 1
+          http://sequence.aecom.yu.edu/chr12/Parm2.pdf). These BACs
+          are located 48.1 cM from the telomere of 12p, while the
+          CFEOM1 critical region is between 53.3 and 56.5 cM
+          (Chromosome 12p map page 3 (search for D12S1584)
+          http://sequence.aecom.yu.edu/chr12/Parm2.pdfand
+          Chromosome 12q map page 1 (search for D12S1668)
+          http://sequence.aecom.yu.edu/chr12/QARM1.pdf), thus
+          placing sarcospan outside of the CFEOM1 critical
+          region.
+        
       
       
-        A World Apart
-        Autism spectrum disorder strikes between one and six out of every 1,000 children around
-        the world, but diagnosis and treatment are currently limited to developed countries. Autism
-        is four times more prevalent in boys than girls, but makes no racial, ethnic, or
-        socioeconomic distinctions. It is characterized by three main symptoms: impaired language,
-        social and communicative deficits, and repetitive and stereotyped behaviors, such as hand
-        flapping, rocking, and unusual responses to sensory stimuli. Autism spectrum disorders can
-        be broken down into other categories, such as low-functioning autism (IQ below 70),
-        high-functioning autism (IQ above 70), and Asperger syndrome (similar to high-functioning
-        autism but with no language deficit).
-        Researchers suspect that there are even more distinct subsets of autism patients. For
-        example, some patients also have epilepsy, and it has been suggested that there is a
-        regressive form of autism—children who, at two or three years of age, appear to regress and
-        lose developmental milestones they had already achieved. Researchers say that sorting out
-        these different profiles—or phenotypes—of autism will be especially important in sorting
-        out which genes or which brain abnormalities are implicated for particular deficits. This
-        sorting should also help clarify the mounds of contradictory data that have dogged the
-        field, by tamping down the experimental “noise” in studies. Boosting the number of children
-        studied and following them from early infancy through adolescence and beyond will also be
-        key components of future studies.
-        “There is not going to be rapid progress in autism research unless we subtype,” Amaral
-        says. He predicts that “brain differences in kids with a regressive form of autism will be
-        different than those of kids with the more congenital type of autism.” He and others are
-        teaming up in an autism phenotyping project that will characterize 600 children into
-        categories of autism (comparing them to 600 children with mental retardation and 600
-        controls). Splitting autism into subtypes will boost both neurobiology and genetics studies
-        (Box 1) to find real effects related to specific traits.
+        Discussion
+        The critical region for the congenital eye movement
+        disorder, CFEOM1, has been reduced to a 3 cM region at the
+        centromere of human chromosome 12 [ 2]. In an effort to
+        identify the gene which when mutated gives rise to CFEOM1,
+        a combination of positional and candidate gene approaches
+        has been undertaken. The sarcospan gene is composed of
+        three exons that are located on human chromosome 12p11.2
+        and the sarcospan protein has been shown to be an integral
+        component of the sarcoglycan complex [ 5, 15, 16].
+        Mutations in any one of the other four members of this
+        complex have been shown to cause muscular dystrophy. As the
+        extraocular muscle is one of the few muscles spared in
+        Duchenne Muscular Dystrophy, the dystrophin associated
+        protein complex present in extraocular muscle may respond
+        differently to mutation of the complex than other striated
+        muscle [ 17, 18]. By virtue of its genomic localization and
+        expression in extraocular muscle, sarcospan is a candidate
+        gene for autosomal dominant CFEOM1. We therefore chose to
+        study sarcospan more closely within the context of this
+        disease.
+        Immunofluorescence data showed comparable patterns of
+        sarcospan staining in CFEOM1 and control patient samples
+        implying that there was no haplo-insufficiency, altered
+        accumulation or increased degradation of the sarcospan
+        protein in these patients. Direct sequencing of the three
+        coding exons of sarcospan in CFEOM1 patients confirmed that
+        they were normal, rendering alteration of the sarcospan
+        protein as the primary genetic defect in CFEOM1 unlikely.
+        This conclusion is supported by the electronic localization
+        of sarcospan to BACs outside of the CFEOM1 critical
+        region.
+        The normal staining pattern of sarcospan in the
+        autosomal dominant CFEOM1 patient muscle indicates that the
+        primary genetic mutation is likely to be found in another,
+        unrelated gene. Patients with autosomal dominant limb
+        girdle muscular dystrophy type 1C, caused by mutations in
+        caveolin-3 [ 19, 20], or autosomal recessive LGMD2B, caused
+        by mutations in dysferlin, show normal dystrophin and
+        sarcoglycan-sarcospan complex staining patterns [ 21].
+        Sarcospan immunoreactivity is altered in both Duchenne
+        Muscular Dystrophy and the sarcoglycanopathies (LGMD2C-F)
+        and appears to be very sensitive to disturbances in the
+        dystrophin associated protein complex [ 16]. Thus the
+        finding that sarcospan is normal in CFEOM1 patient muscle
+        suggests that sarcospan itself and the rest of the
+        dystrophin associated protein complex are not involved in
+        the pathogenesis of the disease.
+        A sarcospan null mouse has recently been generated and
+        appears to display a normal phenotype [ 22]. This does not,
+        however, rule out the possibility of sarcospan playing a
+        primary role in a muscle disorder. There may, for example,
+        be a homologous tetraspanin protein that compensates for
+        the absence of sarcospan in mice, but not in humans. There
+        is, of course, also a difference between complete absence
+        of a protein and a protein with an altered sequence. This
+        may hold especially true, as sarcospan appears to be member
+        of the tetraspanin family of proteins, which have been
+        described as molecular facilitators; alterations of such a
+        protein's sequence could affect the proteins with which it
+        interacts. We are therefore expanding our patient analysis
+        to include patients with other forms of muscular
+        abnormalities including unlinked muscular dystrophies.
+        The effort to identify the CFEOM1 disease gene is
+        continuing with analysis of other genes and expressed
+        sequence tags from the critical region at the centromere of
+        chromosome 12.
       
       
-        Facing Up to Autism
-        A key area of research explores the brain's response to human faces at a young age.
-        Studies at the UW Autism Center have shown that unlike typically developing
-        three-year-olds, autistic children do not show a differential brain response to their
-        mother's face compared to that of a stranger. While dysfunctional face recognition may be
-        one of the more devastating symptoms for caregivers, it is also one of the most promising
-        avenues for research to determine how autistic brains process their world differently.
-        Sara Webb, a child psychologist at UW, has followed about 70 autistic children since the
-        age of three for a longitudinal study that will test many parameters until they reach age
-        nine. Her work has already shown that autistic three-year-olds process seeing a strange toy
-        differently from seeing a favorite toy, in the same way a normal child does. But activity
-        in their brains—measured through a network of electrodes placed on the scalp—is similar
-        whether the face is familiar (for example, mom) or strange. This, Webb says, led to two
-        hypotheses: either the brain area for face processing is not set up correctly in autistic
-        children, or the way these children incorporate experiences from their environment is so
-        different that the brain area develops improperly.
-        “We think the latter is a more likely explanation at this point,” says Webb. “By the
-        time they are adolescents or adults, they are showing the [proper] response for familiar
-        faces.” Indeed, a functional MRI (fMRI) study by UW neuroimaging researcher Elizabeth
-        Aylward showed that the brains of high-functioning adolescents and adults did activate the
-        face-recognition center, the fusiform gyrus, when shown a very familiar face. However, the
-        same subjects did not activate the center when viewing strange faces. This points to the
-        possibility that greater experience seeing the familiar face (i.e., on a daily basis for
-        many years) can eventually influence the appropriate brain areas.
-        “You need the biological wiring set up properly, but you also need experience for it to
-        function normally,” says Aylward. “We're guessing what is missing is the experience.” To
-        test that idea, one of her graduate students will “train” half of the autistic patients in
-        face recognition—something most children pick up on their own—by having them study,
-        manipulate, and match faces using computer games. Then fMRI scans will be done again to see
-        if the fusiform gyrus might now be activated when viewing strange faces, as it is in
-        control subjects. Intense training of a similar type for reading has already been shown to
-        effect change in brain activation in as little as three weeks for children with
-        dyslexia.
-        In their model, it is as if “all the parts are there, ready to go, but somehow they
-        haven't gotten the ignition turned on,” says Aylward. At the 2004 annual meeting of the
-        American Association for the Advancement of Science (Washington DC, United States), the UW
-        center director Geraldine Dawson explained that this tackling of specific deficits will
-        help researchers attach them to particular “mind modules” in the brain and will ultimately
-        lead to the genes that control the development or function of those modules. That modular
-        view, however, is not shared by many of her colleagues elsewhere, who argue that autistic
-        behaviors are the result of a system-wide perturbation of early brain development and
-        connectivity.
+        Conclusions
+        The DNA sequence analysis and protein immunofluorescence
+        results that show sarcospan to be normal in CFEOM1
+        patients, combined with the localization of sarcospan to
+        BACs that are outside of the CFEOM1 critical region, make
+        it unlikely that sarcospan is involved in CFEOM1.
       
       
-        Structural Support
-        For example, Müller points to structural studies that seem to uphold his theory of
-        overall disorganization of the brain's cortex. Work by Manuel Casanova and colleagues at
-        the University of Louisville (Louisville, Kentucky, United States) shows that the
-        “minicolumns” of neurons that make up the cortex are narrower and more numerous in autistic
-        brains. Normally, these organized bundles appear very early in the developing fetal brain.
-        In postmortem studies of autistic brains, Casanova found that the minicolumns had the same
-        number of neurons, but smaller margins between the bundles. The margins, Casanova says, may
-        act like “a shower curtain of inhibition that prevents information from flooding adjacent
-        minicolumns.”
-        Reducing those margins, he hypothesizes, could mean that an autistic brain has too much
-        positive feedback, acting like a noisy amplifier. “For an autistic individual who is trying
-        to piece together too much information from a face, maybe it's like looking at the sun,” he
-        says.
-        More general studies of adult autistic neuroanatomy have given conflicting results—most
-        likely from diversity in the study populations—that make functional inferences difficult,
-        if not impossible. But recent studies that focus on developing autistic brains earlier in
-        life have revealed intriguing differences from normally developing children.
-        Several studies have shown that from ages two to four, autistic children have larger
-        overall brain volumes (and correspondingly larger head circumferences) than normal
-        children, but that the difference had disappeared by about age six or seven. Since autism
-        is usually diagnosed around age two or three, when the brain is already abnormally large,
-        Eric Courchesne and colleagues at University of California, San Diego (San Diego,
-        California, United States) hypothesized that brain overgrowth must occur earlier, before
-        signs of autism appear.
-        In an elegant retrospective study, the team analyzed head circumference and brain volume
-        measurements of autistic children that started at birth and continued until 14 months of
-        age. The study revealed that at birth, autistic children's head size is much smaller than
-        healthy children, in the 25th percentile, but by 6–14 months, their head size had increased
-        to the 84th percentile, an excessive growth rate. The increase correlated with increased
-        brain volumes of both gray and white matter regions measured by structural imaging between
-        ages two to five.
-        The Courchesne study strongly suggests that with autism, significant unregulated brain
-        growth occurs in the first year of life. The team also found an association between greater
-        increases in brain size in infancy and a later age for first word, worse repetitive
-        behavior, and a trend toward more severe autistic symptoms later, at diagnosis. The rapid
-        growth of autistic brains may produce too many connections too quickly, without the
-        opportunity to be shaped by the experience and input that a typically developing child
-        accumulates over many years. At age six or later, when the growth slows, the already
-        derailed connections may no longer be able to incorporate experiences. “By that time,”
-        write Courchesne et al., “the period of plasticity that allows the exquisite and graceful
-        complexity of the human brain to emerge will have passed.”
-      
-      
-        Playing Well with Others
-        This idea that autistic brains are developing at warp speed, to their detriment, fits
-        intriguingly well with what is known about treatment of autism—the earlier and more intense
-        behavioral therapy an autistic child receives, the better the outcome will be. That's why
-        the toddlers at UCLA get one-on-one training by therapists, who fire rapid questions and
-        physically repeat tasks until they sink in.
-        Stephanny Freeman, co-director of the Early Childhood Partial Hospitalization program at
-        UCLA (Los Angeles, California, United States), says these methods would be alien to, and
-        lost on, typically developing two-year-olds, who would be bewildered by such a highly
-        structured environment. Her colleague and co-director, Tanya Paparella, chimes in, “It as
-        if we are opening a window or door to the autistic brain.” Keeping that door open as long
-        as possible in very young autistic patients seems to give them a better prognosis than
-        older children, who are more difficult to treat.
-        But while most agree that early and intense therapy is good for autistic children, until
-        recently, little research on intervention methods existed. Connie Kasari, an educational
-        psychologist at UCLA, along with Freeman and Paparella, has run one of the first
-        randomized, controlled trials on therapies designed to teach autistic kids social skills.
-        The group tested two skills in particular—sharing attention with others and pretend playing
-        (Figure 2). The team hypothesizes that these skills, which normal children pick up easily
-        and early, lay important groundwork for language development.
-        The team's results show that autistic children can learn these skills from intense
-        training. At least anecdotally, some of these children have gone on to function in normal
-        school classrooms, even making a few friends, although they are still a bit socially
-        awkward. Whether or not improvements in those skills will correlate with language
-        improvements will require further testing. But Kasari notes that this work is not
-        universally accepted in the autism therapy community, and that many more controlled studies
-        will have to be published before a system-wide change in autism preschool education can
-        occur.
-      
-      
-        Funding the Search
-        In the last decade, National Institutes of Health funding for autism research has
-        increased from $10 million to $80 million, and much of that has been funneled into large,
-        multidisciplinary research projects. Advocacy groups such as Cure Autism Now (Los Angeles,
-        California, United States) and the National Alliance for Autism Research (Princeton, New
-        Jersey, United States) greatly influence which autism research projects get funded, both
-        through their own grant programs and also by lobbying Congress for increased federal
-        grants. Some question whether it is wise to let emotions and the desire to find a cure
-        drive research agendas. In the past, tensions between government programs and advocacy
-        programs have run high.
-        Casanova, for one, criticizes the disproportionate flow of money to what he calls
-        imaging and genetic “fishing expeditions” and says more should go to neuropathology
-        studies. He points out that only about 40 postmortem, mostly adult, autistic brains have
-        been studied so far, a tiny fraction compared to those studied in other neuropathological
-        disorders like Alzheimer's disease or schizophrenia.
-        But Daniel Geschwind, a neurogeneticist at UCLA, defends this approach, saying that a
-        well-planned fishing expedition that uses the right technology and looks in the appropriate
-        places can result in a “freezer full of fish.” He also says that parent organizations keep
-        the field honest by “constantly reminding us to keep an eye on the ball and don't get
-        distracted.” Geschwind, Amaral, and other top experts have recently been recruited by
-        advocacy groups or by friends with autistic children to shift some of their research
-        questions to examining autism.
-        As more researchers in genetics and neuroscience have become involved, Amaral says, the
-        tensions between the parent groups and the National Institutes of Health have eased. “The
-        parents communicated to the scientists the tremendous need for research and the scientists
-        convey back to them which [research projects] make sense to fund,” he says. He adds that
-        advocacy groups have been indispensable to research, setting up large genetic and brain
-        tissue banks and enlisting families to participate in those efforts.
-        So, researchers say, the goals of the National Institutes of Health programs and the
-        advocacy programs have started to come together to focus on well-executed studies that
-        might lead to better diagnostics and earlier, proven interventions. The work of Courchesne
-        et al. suggests that children at risk for autism might easily be diagnosed by head
-        circumference measurements as early as the first few months of life. Imaging studies
-        combined with training programs, such as the work at UW on face recognition, may one day be
-        able to verify that behavioral interventions are effective at activating target brain
-        areas. As researchers work to untangle the causes and effects of brain dysfunctions in
-        autism, Aylward notes, there is good reason to be hopeful: “Although this is a genetic
-        disorder, we know there is plasticity in the young brain.”
+        Materials and Methods
+        
+          Screening of Human Genomic DNA Library
+          Two hybridization probes spanning the entire sarcospan
+          coding sequence were generated by PCR amplification of
+          sarcospan cDNA amplifying 366 bp
+          (5'-ATGGGCAAGAACAAGCAGCCACG-3' and
+          5'-TTTCATAGAAAATTGAATACATGTCC-3') and 466 bp
+          (5'-GGGCTGGGATCATTGTCTGCT-3' and
+          5'-GGAATTCTTAGATCTTTTGCTGGGG-3'). The bands were excised
+          from 0.8% low-melt agarose and 20 ng of DNA were labeled
+          with [α- 32P]-dCTP using the Life Technologies Random
+          Primers DNA Labeling System. A human genomic phage
+          library (Clontech) was screened by hybridization with the
+          radiolabeled products according to standard protocols.
+          Briefly, filters were pre-hybridized at 65°C in
+          hybridization buffer (5x SSC, 50 mM NaPO 
+          4 , pH 7.4, 2.5x Denhardt's Solution)
+          with 100 μg/ml denatured salmon sperm DNA for two hours.
+          Probes were denatured at 95°C for 5 minutes and added to
+          fresh hybridization buffer at 200,000 cpm/ml buffer for
+          16 hours. Following three one-hour washes in 2x SSC, 0.1%
+          SDS, filters were exposed for 18 - 100 hours. Positively
+          hybridizing plaques were purified by limiting dilution
+          and phage DNA was isolated and purified with the Lambda
+          Maxi Kit (Qiagen).
+        
+        
+          Determination of intron-exon boundaries
+          Five unique, partially overlapping genomic phage
+          clones were identified. Phage DNA was sequenced with exon
+          specific primers on an ABI automated sequencer. Acquired
+          data was analyzed with the Sequencher software
+          (Genecodes). The intron-exon borders were defined by
+          divergence of the cDNA and genomic sequences, and by
+          their adherence to splice donor and acceptor consensus
+          sequences.
+        
+        
+          Patient material
+          Genomic DNA extracted from blood was used to screen
+          two affected family members from each of six previously
+          described pedigrees [ 1, 2]. The patients included in our
+          analysis are AIII13, AIV1; BII4, BIV1; HIII17, HIII19;
+          AAIII5, AAIII10; ACIV5, ACV1; and ADIII3, ADIII8.
+          Extraocular muscle (inferior rectus) from patient AVI1
+          was obtained during a diagnostic biopsy. Age match
+          control extraocular muscle (inferior rectus) from an
+          unrelated, unaffected individual was obtained during an
+          autopsy.
+          This study was approved by the Children's Hospital
+          institutional review board, and informed consent was
+          obtained from all adult participating subjects and from
+          parents or legal guardians of participating minors.
+        
+        
+          YAC and BAC maps
+          Development of the YAC map was described previously by
+          Engle, et al. [ 1]. BACs were isolated from RPCI-11 male
+          and RPCI-13 female BAC libraries as described [ 23,
+          24].
+        
+        
+          PCR amplification from YAC contig
+          Primers from exons 1 and 3 were used to test the YACs
+          from the critical region defined for CFEOM1. The exon 1
+          primers amplified a 116 bp fragment
+          (5'-AAGGAGTGCGGGGAGGAG-3' and 5'-GCCATGAGGAAGCCCACC-3')
+          and the exon 3 primers amplified a 150 bp fragment
+          (5'-TTTGCCGCCCACCACTATTC-3' and
+          5'-TGAAAGTGCCAGTGACGC-3'). A total of 28 cycles (94°C /1
+          minute; 57°C/1 minute; 72°C/1 minute) following a 4
+          minute denaturation was used.
+        
+        
+          PCR amplification from BAC contig
+          Primers for exons 2 and 3 were used to test the BACs
+          from the critical region defined for CFEOM1.
+          Amplifications were performed as described below.
+          Positive control reactions included template DNA isolated
+          from human genomic phage that contained the appropriate
+          sarcospan exons, and primers from the markers used to
+          order the BAC map to ensure the quality of the DNA.
+          Reactions were analyzed on agarose gels and scored for
+          presence or absence of the appropriately sized
+          product.
+        
+        
+          Primer sets and PCR conditions for direct
+          sequencing
+          Three primer pairs amplifying the coding portions of
+          exons 1 and 3 and all of exon 2 were designed (Table 1).
+          Optimal polymerase chain reaction conditions were
+          determined for each of the sets using 60-100 ng genomic
+          DNA. Optimal buffer conditions for the exon 1 primer set
+          were obtained with the FailSafe PCR PreMix Selection Kit
+          (Epicentre Technologies) and Buffer F was used in
+          conjunction with the FailSafe PCR Enzyme mix. PCR
+          amplifications were performed in a 50 μl reaction volume
+          with 60-100 ng genomic DNA, 200 μM of each dNTP and 1.25
+          units PCR enzyme mix. A total of 35 cycles (94°C/20 sec;
+          61°C/20 sec; 72°C/30 sec) following a 4 minute
+          denaturation step was used. Exons 2 and 3 were amplified
+          using PfuTurbo polymerase (Stratagene) at 2.5 Units per
+          50 μl reaction, containing 5 μl of the accompanying 10x
+          PCR buffer, 200 μM of each dNTP, 100 ng of each primer
+          and 60-100 ng genomic DNA. A total of 35 cycles (94°C/20
+          sec; 56°C/20 sec; 72°C/1 min) was used to amplify both
+          exons 2 and 3. PCR amplification products were purified
+          using the QIAquick PCR Purification Kit (Qiagen) and both
+          strands were sequenced on an ABI automated sequencer.
+          Data was analyzed with the Sequencher software
+          (Genecodes).
+        
+        
+          Antibodies
+          Anti-human-sarcospan antibodies were generated by
+          subcutaneous injection of New Zealand white rabbits with
+          the synthetic N-terminal peptide MGKNKQPRGQQRQGGC (QCB).
+          The final amino acid was added for purification purposes.
+          The resulting serum was purified over a peptide affinity
+          column made by covalent coupling of the unlinked peptide
+          to SulfoLink beads (Pierce). Anti-human spectrin
+          antibodies (NCL-SPEC1) were obtained from Vector
+          Laboratories.
+        
+        
+          Immunofluorescence Analysis
+          CFEOM1 patient and normal muscle sections from
+          extraocular muscle were stained with anti-human sarcospan
+          and anti-human spectrin antibodies. Sections were fixed
+          for 1 minute in ice cold methanol; blocked for 45 minutes
+          in blocking buffer (15% horse serum, 0.025% Triton, 1x
+          PBS); incubated overnight at 4°C with anti-sarcospan
+          (1:750) and anti-spectrin (1:100) antibodies in block
+          buffer; washed 3 × for 15 minutes in wash buffer (0.025%
+          Triton, 1x PBS); incubated for 2 hours at 4°C with Cy3
+          conjugated anti-rabbit secondary antibody (Jackson
+          ImmunoResearch) and Alexa-488 conjugated anti-mouse
+          secondary antibody (Molecular Probes Inc.) diluted 1:300
+          in blocking buffer; washed 3 × for 15 minutes in wash
+          buffer and mounted with Immumount (Shandon). Samples were
+          examined using a Zeiss Axiophot microscope.
+        
       
     
   

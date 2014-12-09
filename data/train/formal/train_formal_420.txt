@@ -3,850 +3,986 @@
     
       
         Background
-        Cell migration is one of the most important and complex
-        cellular behaviors. It is essential for animal development,
-        immune system function, and wound repair. Defects in cell
-        migration can lead to human diseases such as birth defects,
-        and failure to control cell migration is an important step
-        in tumor metastasis.
-        We currently believe that migrating cells extend and
-        retract actin rich protrusions, lamellipodia and filopodia,
-        into their environment. Protrusions that adhere strongly
-        enough are stabilized and fail to retract. In this way,
-        cells (or cell processes) can follow adhesive guidance
-        cues. While this model has been around for some time [ 1],
-        we are only now beginning to understand the molecular
-        signals that cause cells to initiate movement, how cells
-        move, the signals that guide the cell migrations, and the
-        signals that stop cells at their appropriate positions.
-        Recently, progress in understanding cell migration has
-        come from studies of 
-        Caenorhabditis elegans and 
-        Drosophila [ 2]. Most cell migration
-        genes identified in these simple invertebrates are
-        conserved in vertebrates, which confirms the efficacy of
-        these genetically tractable systems for studying cell
-        migration.
-        
-        C. elegans is a particularly
-        attractive system for the study of cell migration. These
-        animals are transparent and anatomically simple, so cell
-        migrations can be followed in the living animal at all
-        stages of development by fluorescence microscopy of GFP
-        fusion proteins or by Nomarski microscopy. Both the cell
-        lineage and the cell migrations are invariant from animal
-        to animal, so migration defects can be easily
-        identified.
-        Several genetic screens performed with 
-        C. elegans have identified mutations
-        that interfere with cell migrations (for reviews see [ 2,
-        3]). Some of these mutations affect all cell migrations,
-        whereas others only affect the migrations of a limited
-        subset of cells. Not surprisingly, many of these mutants
-        also show defects in axon extension, bundling and
-        pathfinding. The genes identified by these mutations encode
-        extracellular proteins, cell surface receptors, fibroblast
-        growth factor-like proteins and their receptors, adhesion
-        molecules, small GTPases, non-muscle myosins and
-        transcription factors.
-        In 
-        C. elegans , three genes, 
-        unc -6, 
-        unc -5 and 
-        unc -40, guide cells and processes
-        along the dorsal-ventral axis [ 4]. All of these genes are
-        conserved across broad groups of animals from 
-        C. elegans to man. UNC-6 protein, a
-        laminin-like protein that is located in the ventral region
-        of the animal, is a homolog of the vertebrate protein
-        netrin. UNC-5 and UNC-40 are cell surface receptors that
-        interact with UNC-6. UNC-5 promotes dorsal migrations,
-        whereas UNC-40 promotes ventral migrations, both in
-        response to UNC-6 signals. Based on studies in other
-        species, the difference in how UNC-5 and UNC-40 guide cells
-        and axons lies in their intracellular domains [ 5, 6].
-        Mutations in 
-        unc-129 , a member of the
-        transforming growth factor β (TGFβ) superfamily, were
-        identified as genetic suppressors of ectopic UNC-6
-        signaling [ 7]. 
-        unc-129 is expressed dorsally and
-        loss of UNC-129 function disrupts dorsal axon migrations.
-        In 
-        Drosophila , TGFβ family members are
-        also involved in controlling dorsal-ventral migrations [
-        8]. It appears, therefore, that the UNC-6/netrin and TGFβ
-        guidance systems act redundantly and are conserved across
-        species.
-        The guidance of cells and axons along the
-        anterior-posterior axis of 
-        C. elegans is not as well understood.
-        Two genes involved in anterior-posterior cell migration are
-        
-        vab- 8 and 
-        mig-13 . VAB-8 is a kinesin-related
-        protein that acts cell autonomously and is involved in
-        posterior cell migrations [ 9, 10]. Therefore, VAB-8 is
-        probably involved in the cellular response to guidance
-        cues. MIG-13 is a novel transmembrane protein that acts
-        non-cell autonomously and is involved in anterior cell
-        migrations [ 11, 12]. The dose of MIG-13 appears to affect
-        the extent of anterior cell migrations [ 12]. MIG-13 may,
-        therefore, signal to cells their direction and extent of
-        migration.
-        Chalfie and colleagues have identified a transcriptional
-        cascade that leads to the activation of touch
-        neuron-specific genes. UNC-86 is a POU homeodomain
-        transcription factor needed to activate the 
-        mec-3 gene [ 13, 14, 15]. 
-        mec-3 in turn encodes a LIM
-        homeodomain protein that is expressed in the six touch
-        receptor neurons, two FLP neurons and two PVD neurons.
-        MEC-3 and UNC-86 proteins form a heterodimer that binds to
-        and activates the 
-        mec-3 promoter and the promoters of
-        touch receptor-specific genes such as 
-        mec-7 and 
-        mec-4 [ 13, 14, 15]. In this way,
-        MEC-3 activates its own transcription, which probably
-        prevents the dedifferentiation of the touch neurons. Later
-        in development, 
-        mec-17 also contributes to the
-        maintenance of 
-        mec-3 expression [ 16].
-        We show here that a sequence upstream of 
-        mec-3 , when transformed into 
-        C. elegans in high copy arrays,
-        altered the extent and direction of ALM touch receptor
-        neuron migrations. This sequence also disrupted extension
-        of the PLM touch receptor axon. These defects did not
-        result from RNA interference (RNAi), the heavy genetic load
-        of carrying a transgenic array, the expression of GFP, or
-        the 
-        rol-6 marker gene used to make the
-        transgenic arrays. The ALM migration defects were due to a
-        specific DNA sequence and only occurred when there were
-        many copies of that sequence in the array. This sequence
-        did not affect all cell migrations, the ALM/BDU cell
-        division or the positions of the BDU cells. We conclude,
-        therefore, that the sequence is sequestering a factor that
-        helps control ALM migrations and PLM axon outgrowth. We
-        also suggest that this factor may be differentially
-        segregated into touch receptor neurons and that it may help
-        specify the touch receptor neuron cell fate.
+        The 
+        B em 
+        1 - 
+        i nteracting proteins Boi1 and
+        Boi2 were identified from screens for proteins that display
+        two-hybrid interaction with the 
+        b ud- 
+        em ergence protein Bem1 [ 1 2 ] ,
+        a protein that is important for the initiation of budding
+        and that contains two SH3 domains. Boi1 and Boi2 are
+        similar in sequence to one another. Each contains an SH3
+        domain; a SAM (sterile alpha motif) domain; a proline-rich
+        region, which mediates binding to the second SH3 domain of
+        Bem1; and a PH domain [ 1 2 3 ] . Figure 1shows the
+        relative positions of these sequence features in Boi1.
+        Deletion of either 
+        BOI1 or 
+        BOI2 alone has little effect on
+        growth. However, deletion of both genes together is lethal
+        (at least in some strains), suggesting that Boi1 and Boi2
+        perform at least one important, shared function [ 1 2 ]
+        .
+        The functions of Boi1/Boi2 appear to be linked to those
+        of Cdc42 and Rho3, which are Rho-type GTPases that are
+        important for polarized cell growth [ 4 5 6 7 8 9 ] . Boi1
+        and Boi2 display two-hybrid interactions with both
+        wild-type and mutationally activated Cdc42 but not with a
+        mutant version of Cdc42 that is predicted to be impaired in
+        the ability to bind nucleotide, suggesting that Boi1 and
+        Boi2 may associate with the GTP-bound ("active") form of
+        Cdc42 [ 1 ] . Further evidence that some function of Boi1
+        is linked to that of Cdc42 is that overexpression of Boi1
+        inhibits bud emergence and that this inhibition can be
+        suppressed by overexpression of Cdc42 [ 1 2 ] . 
+        RHO3 can serve as a multicopy
+        suppressor of the lethality caused by deletion of 
+        BOI1 and 
+        BOI2 [ 1 2 ] . These findings are
+        consistent with the possibilities that Boi1 and Boi2 are
+        targets of Cdc42 that promote cell growth in a manner that
+        is regulated by Rho3.
+        Support for the view that Boi1 and Boi2 are involved in
+        polarized growth comes from the analysis of fission yeast
+        Pob1, which is a homolog of Boi1 and Boi2. In particular,
+        in 
+        S. pombe cells, Pob1 is localized to
+        sites of polarized growth, loss of Pob1 function leads to a
+        loss of polarized growth, and overexpression of Pob1 causes
+        cell growth to become depolarized [ 10 ] .
+        The PH domain appears to be a critical feature of Boi1:
+        mutations in this domain destroy Boi1 function, and Boi1-PH
+        (see Fig. 1) can substitute in function for Boi1 and Boi2 [
+        1 ] . In addition, Boi1-PH contains the region of Boi1 that
+        displays the two-hybrid interaction with Cdc42, raising the
+        possibility that the PH domain, itself, mediates or
+        regulates the association with Cdc42 [ 1 ] .
+        A generally shared feature of PH domains is the ability
+        to bind acidic phospholipids, usually one or more derived
+        from PI (phosphatidylinositol) and, in some cases, also PS
+        [ 11 12 ] . In some proteins, the main role of the binding
+        of PH domains to phospholipids may simply be to promote
+        association with membrane (i.e., to serve as a
+        membrane-localization tag) [ 13 14 ] . In other proteins,
+        the binding of PH domains to phospholipids appears to be
+        important for allosteric or other types of regulation [ 15
+        16 ] .
+        Given that 1) Boi1 and Boi2 are important proteins whose
+        functions appear to be linked to those of Cdc42 and Rho3,
+        2) the PH domain appears to be of particular importance for
+        Boi1 function, and 3) a general role of PH domains may be
+        to bind acidic phospholipids, we wanted to know whether the
+        PH domain of Boi1 binds acidic phospholipids and, if it
+        does, whether this binding is important for the function
+        and proper localization of Boi1. In the current study, we
+        investigate these issues as a first step toward eludicating
+        roles of Boi1's PH domain.
       
       
         Results
         
-          ALM migration and PLM axonal morphology
-          defects
-          Figure 2shows fluorescence micrographs and bar graphs
-          of the positions of the ALMs from strain TU2562, which
-          has an integrated 
-          mec-3gfp (equivalent to pJC8 in
-          Figure 4), and strain EA485, which contains a high copy
-          extrachromosomal array made from plasmid pJC4 (see Figure
-          4and Materials and Methods). In strain TU2562, the ALMs
-          migrated close to their normal positions; the average
-          position was 8.6 (n=190) on the scale described above. In
-          EA485, the ALMs were usually anterior to their normal
-          positions; the average position was 4.2 (n=175) on this
-          scale.
-          Strains that showed the ALM migration defects also
-          showed defects in another pair of touch neurons, the
-          PLMs. Figure 3shows an example of a normal PLM in strain
-          TU2562 and several examples of PLMs with axonal defects
-          in strain EA485. All of the 189 PLMs scored in TU2562 had
-          normal morphology, whereas 64% of the 183 PLMs scored in
-          EA485 had defects in axonal morphology. In EA485, the PLM
-          axons were often short, misdirected and had extra
-          branches.
-          Axonal defects in the ALMs were less common than in
-          the PLMs. In EA485, 77.4% of 199 ALMs scored had normal
-          axonal morphology, whereas in TU2562, all of the 117 ALMs
-          scored had normal morphology. The majority of ALMs with
-          abnormal axonal morphology were in positions 1-3 with a
-          few as posterior as position 5. All ALMs located
-          posterior to position 5 had normal axonal morphology.
+          Binding of Boi1-PH to phospholipids
+          In all binding analyses reported in this study, we
+          used Boi1-PH (see Fig. 1) rather than full-length Boi1,
+          because we wanted to focus on interactions mediated by
+          the PH domain. Also, we needed to have a soluble pool of
+          protein for vesicle co-sedimentation studies, and while
+          most of the Boi1-PH was soluble (at least when
+          overexpressed), virtually none of the full-length Boi1
+          was soluble (whether or not overexpressed).
+          Fortuitously, we discovered that Boi1-PH can be
+          proteolyzed in yeast extracts in a manner that is
+          stimulated by PIP 
+          2 . Figure 2Ashows an example of this
+          phenomenon; whereas most of the anti-Boi1
+          immunoreactivity was present in a single band when
+          Boi1-PH was incubated with control PS vesicles that
+          lacked PIP 
+          2 , almost all of the anti-Boi1
+          immunoreactivity was present in faster-migrating bands
+          when Boi1-PH was incubated with PS vesicles that
+          contained PIP 
+          2 (lanes 1 and 5). (In this and all
+          subsequent experiments that use PIP 
+          2 /PS mixed vesicles, the mass ratio
+          of PIP 
+          2 :PS was 1:20.) Less total anti-Boi1
+          immunoreactivity was recovered when Boi1-PH was incubated
+          with PIP 
+          2 /PS mixed vesicles than when
+          incubated with vesicles containing only PS (lanes 1 and
+          5), suggesting that the faster-migrating species
+          represent degradation products of Boi1-PH. Consistent
+          with this view, although Boi1-PH remained stable when
+          incubated for longer intervals with vesicles that
+          contained only PS, the anti-Boi1 immunoreactive bands
+          became fainter and then disappeared altogether when
+          incubated for longer intervals with PIP 
+          2 /PS mixed vesicles (data not
+          shown).
+          The finding that PIP 
+          2 can stimulate degradation of Boi1-PH
+          suggests that PIP 
+          2 may bind to Boi1-PH in a manner that
+          results in the exposure of a protease-sensitive site. We
+          do not know the identity of the relevant protease.
+          However, we found that the PIP 
+          2 -stimulated proteolysis of Boi1-PH
+          is strongly enhanced by Ca ++and is inhibited by EGTA
+          (data not shown), suggesting that this protease may
+          require Ca ++for activity.
+          Next, we asked whether proteolysis of Boi1-PH could
+          also be stimulated by other inositol-based phospholipids.
+          PI and PI3P (phosphatidylinositol-3-phosphate), presented
+          in PS-based vesicles, appeared to stimulate slightly the
+          proteolysis of Boi1-PH, but did so to a much lesser
+          extent than did PIP 
+          2 (Fig. 2A, lanes 1-3 and 5). In
+          contrast, PI4P (phosphatidylinositol-4-phosphate)/PS
+          vesicles stimulated substantial proteolysis of Boi1-PH,
+          although to a lesser extent than did PIP 
+          2 /PS vesicles (Fig. 2A, lanes 4 and
+          5). These findings indicate that different
+          phosphatidylinositides can stimulate proteolysis of
+          Boi1-PH but differ greatly in their abilities to do
+          so.
+          To investigate whether the nature of the bulk lipid in
+          the vesicles affects the ability of
+          phosphatidylinositides to stimulate proteolysis of
+          Boi1-PH, we repeated this analysis using the neutral
+          phospholipid PC (phosphatidylcholine) instead of PS.
+          Using reaction conditions that were otherwise the same as
+          those used when PS was the bulk lipid, no proteolysis of
+          Boi1-PH was detected in the presence of any of the
+          phosphatidylinositides except PIP 
+          2 , which stimulated only a small
+          amount of proteolysis (Fig. 2B). Thus, PS is much more
+          effective than PC at facilitating the ability of
+          phosphatidylinositides to stimulate proteolysis of
+          Boi1-PH.
+          To investigate further whether Boi1-PH binds PIP 
+          2 , we used a vesicle co-sedimentation
+          assay. In this analysis, we asked whether an otherwise
+          soluble fraction of Boi1-PH, after being incubated with
+          PIP 
+          2 -bearing vesicles, would now
+          sediment in conditions (436,000 × g for 1 hr) that cause
+          vesicles to pellet. (To inhibit the proteolysis of
+          Boi1-PH, we performed this analysis in buffer that lacks
+          Ca ++but that contains EGTA and two other protease
+          inhibitors that were not present in the proteolysis
+          assay.) First, we asked whether Boi1-PH could pellet with
+          vesicles that lacked PIP 
+          2 . We did not detect any pelleting of
+          Boi1-PH with PC vesicles (data not shown), but found that
+          Boi1-PH could pellet with vesicles composed of PS (Fig.
+          3, top panel), suggesting that Boi1-PH can bind PS.
+          Next, we asked whether the inclusion of PIP 
+          2 in the PS vesicles affected the
+          ability of Boi1-PH to pellet. In the starting buffer
+          conditions (phosphate-buffered saline without additional
+          salt), a larger percentage of Boi1-PH pelleted when the
+          vesicles contained PIP 
+          2 (Fig. 3, lanes 1 and 2). However,
+          most of the Boi1-PH pelleted whether or not PIP 
+          2 was present. So, to try to
+          accentuate the effects of PIP 
+          2 on Boi1-PH's co-sedimentation with
+          vesicles, we repeated this analysis using buffer that
+          contained additional concentrations of KCl. In the
+          presence of 50, 100, and 200 mM additional KCl, the ratio
+          of Boi1-PH that pelleted with respect to that which
+          stayed in the supernatant was greater when using vesicles
+          that contained PIP 
+          2 (Fig. 3, lanes 3-8), suggesting that
+          Boi1-PH has a higher affinity for PIP 
+          2 than for PS.
+          In similar experiments using mixed PIP 
+          2 /PC vesicles, all of the Boi1-PH
+          stayed in the soluble fraction (data not shown),
+          supporting the views that the composition of the lipid
+          bilayer affects the ability of Boi1-PH to bind PIP 
+          2 and that PS promotes this
+          association.
         
         
-          The ALM migration defect was due to a specific DNA
-          sequence
-          To determine whether the ALM migration defect was due
-          to the presence of a specific DNA sequence in the
-          extrachromosomal arrays, we generated 
-          mec-3gfp deletion constructs
-          containing various portions of the 
-          mec-3 upstream sequences. Plasmids
-          pJC8, pJC3, pJC4, pJC1, pJC18 and pJC19 were made as
-          described in Materials and Methods and plasmid pPD118.17
-          was a gift from A. Fire. We transformed these plasmids
-          into wild type animals as described in Materials and
-          Methods and screened for transgenic lines. All of the
-          resulting strains expressed 
-          mec-3gfp in the ten cells where 
-          mec-3 is normally expressed. We
-          measured the ALM positions in 100 animals from each
-          strain.
-          Figure 4shows the region of 
-          mec-3gfp included in each of the
-          plasmids, the combined distribution of ALM positions from
-          three strains transformed with each construct, the
-          percent of ALMs that showed migration defects (those
-          located anterior to position 8) and the total number of
-          ALMs scored. Strains transformed with pJC8, pJC3, and
-          pJC4 showed strong ALM migration defects but strains
-          transformed with plasmids pPD118.17 and pJC1 showed few
-          ALM migration defects. The region from 
-          Pst I to 
-          Bbs I appeared to suppress the
-          migration defect (compare pJC3 to pJC4). The 495 bp
-          region from the 5' end of the 
-          mec-3 clone to the 
-          Pst I site appeared to most
-          strongly affect ALM migrations (compare pJC3 and pJC4 to
-          pPD118.17 and pJC1). Further deletions of this region
-          (pJC18 and pJC19) resulted in less severe migration
-          defects. These data and results described below are
-          consistent with the hypothesis that this sequence
-          contains multiple binding sites that titrate out a cell
-          migration factor or factors. Below we refer to this
-          sequence as the titrating sequence.
+          Mutant versions of Boi1-PH that are impaired in the
+          ability to bind PIP 2
+          To investigate whether binding to PIP 
+          2 may be important for Boi1 function,
+          we sought to make mutant versions of Boi1-PH that are
+          defective in the ability to bind PIP 
+          2 . As a guide for designing such
+          mutants, we used information about one of the PH domains
+          from pleckstrin. Figure 4shows those positions in the
+          N-terminal PH domain of pleckstrin that have been
+          implicated, based on NMR analysis, to contact PIP 
+          2 [ 17 ] . Boi1's PH domain has
+          identical or similar amino acids at most of the analogous
+          positions (Fig. 4).
+          To obtain mutant versions of Boi1 that might be
+          defective in the ability to bind PIP 
+          2 , we created three sets of mutations
+          that resulted in amino-acid subsitutions at some of those
+          positions. We call these sets of substitutions "KK"
+          (K785E and K786A), "TK" (T793A and K795E), and "KKTK"
+          (K785E, K786A, T793A, and K795E; a combination of the KK
+          and TK sets) (Fig. 4).
+          To investigate whether these substitutions affect the
+          ability of Boi1-PH to bind PIP 
+          2 , we first used the proteolysis
+          assay. We found that, in conditions in which PIP 
+          2 stimulated proteolysis of most of
+          the wild-type Boi1-PH, PIP 
+          2 did not stimulate the proteolysis of
+          the TK, KK, and KKTK versions of Boi1-PH (Fig. 5A, lanes
+          3, 6, 9, and 12), suggesting that all three sets of
+          substitutions may disrupt binding to PIP 
+          2 and/or PS.
+          To investigate further whether the three sets of
+          substitutions affect the ability of Boi1-PH to bind these
+          lipids, we used the vesicle co-sedimentation assay. In
+          the presence of vesicles composed of only PS, an
+          appreciable amount of Boi1-PH(KK) pelleted (Fig. 5B,
+          second panel, lanes 3 and 4). However, the percentage of
+          Boi1-PH(KK) that pelleted was less than that for
+          wild-type Boi1-PH (Fig. 5B, top and second panels, lanes
+          3 and 4), suggesting that the KK substitutions reduce
+          somewhat the binding affinity for PS. The TK
+          substitutions had a more obvious effect: no Boi1-PH(TK)
+          was seen to pellet with PS vesicles (Fig. 5B, third
+          panel, lanes 3 and 4), suggesting that the TK
+          substitutions impaired binding to PS to a greater extent
+          than did the KK substitutions. As expected, given that
+          the TK substitutions were sufficient to severely affect
+          pelleting with PS vesicles, none of the Boi1-PH(KKTK) was
+          seen to co-sediment with PS vesicles (Fig. 5B, bottom
+          panel, lanes 3 and 4).
+          Whereas inclusion of PIP 
+          2 in the vesicles increased the amount
+          of wild-type Boi1-PH that co-sedimented, PIP 
+          2 did not have an obvious effect on
+          the co-sedimentation behavior of Boi1-PH(KK) (Fig. 5B,
+          top and second panels, lanes 3-6), suggesting that the KK
+          substitutions impair binding to PIP 
+          2 . In contrast, the TK mutant version
+          of Boi1-PH appeared to retain a slight ability to pellet
+          with PIP 
+          2 /PS vesicles (Fig. 5B, third panel,
+          lanes 3-6).
+          None of the Boi1-PH(KKTK) was detected in the pellet
+          fraction even when using vesicles that contained PIP 
+          2 (Fig. 5A, bottom panel, lanes 5 and
+          6), consistent with the view that the KKTK mutant is more
+          severely impaired in the ability to bind PIP 
+          2 than are the KK and TK mutants.
         
         
-          The migration defect was not due to nonspecific
-          effects of carrying an array, expression of GFP, or the
-          rol-6 transformation marker gene
-          The above data also show that the ALM migration and
-          PLM axonal morphology defects are not due to nonspecific
-          effects of carrying an extrachromosomal array. Some
-          arrays such as those made with plasmids pPD118.17 and
-          pJC1 had little effect on ALM migration and PLM axonal
-          morphology.
-          There have been reports that expression of GFP in
-          neurons can have toxic effects [ 20, 21]. The above
-          results, however, show that neither the migration defects
-          nor the PLM axonal morphology defects resulted from
-          expression of GFP. Some arrays, such as the integrated
-          array in strain TU2562 and the extrachromosomal arrays
-          containing plasmids pPD118.17 and pJC1, express GFP yet
-          had few ALM migration or PLM axonal morphology defects.
-          The lines transformed with pJC1 had especially bright GFP
-          fluorescence yet had few ALM or PLM defects.
-          All of the lines shown in Figure 4were made by
-          co-injection of the plasmid of interest and the plasmid
-          pRF4, which contains the 
-          rol-6(su1006) marker gene. Because
-          some of these arrays, and others described below, did not
-          induce ALM migration or PLM axonal defects, these
-          phenotypes were not due to the 
-          rol-6 marker plasmid.
+          Exploring the significance of binding to
+          phospholipids
+          To investigate whether binding to phospholipid may be
+          important for Boi1 function, we used a red/white,
+          colony-sectoring assay to test whether the KK, TK, and
+          KKTK mutant versions of Boi1 could substitute in function
+          for wild-type 
+          BOI1 and 
+          BOI2 . For this analysis, we used
+          strain PY967, which lacks the genomic copies of 
+          BOI1 and 
+          BOI2 and which is kept alive by 
+          BOI1 -bearing plasmid pPB799.
+          pPB799 also contains the 
+          ADE3 color marker. Cells that have
+          this plasmid are red, while those that fail to inherit it
+          are white. PY967 cells form thoroughly red colonies
+          (lacking white sectors), because cells that fail to
+          inherit the plasmid lack 
+          BOI1 and so do not propagate.
+          However, when transformed with a second plasmid that can
+          substitute in function for 
+          BOI1 , PY967 cells that fail to
+          inherit pPB799 are still viable and so give rise to white
+          sectors.
+          To test the different versions of 
+          BOI1 for function, we introduced
+          them on plasmids into strain PY967, at both 23 and 30°C,
+          and then scored the degree of sectoring of the resultant
+          transformant colonies. For each plasmid tested,
+          approximately 200 colonies from each transformation plate
+          were analyzed at each temperature. As negative and
+          positive controls for sectoring, we used an empty plasmid
+          and one that contains wild-type 
+          BOI1 , respectively. As indicated
+          in Figure 6, the empty plasmid (-) gave no sectoring
+          colonies, indicating that the level of background
+          sectoring in this assay is low. The plasmid that contains
+          wild-type 
+          BOI1 gave a range of sectoring
+          abilities, with 71 and 79% of the colonies showing a
+          moderate or heavy degree of sectoring at 23 and 30°C,
+          respectively (Fig. 6).
+          At both temperatures, the TK mutant version of Boi1
+          allowed a substantial fraction of colonies to show either
+          moderate or heavy sectoring (Fig. 6), suggesting that the
+          TK mutant is able to provide whatever vital function
+          normally is provided by Boi1/Boi2. However, this version
+          of Boi1 appeared to function less efficiently than did
+          wild-type Boi1: at 23°C, the percentage of colonies that
+          showed either moderate or heavy sectoring with Boi1(TK)
+          was only 29%, and, at 30°C, the percentage of colonies
+          that showed moderate or heavy sectoring with Boi1(TK) was
+          only 10%.
+          At each temperature, almost every one of the colonies
+          of cells that contained either the KK or KKTK mutant
+          versions of Boi1 showed no sectoring (Fig. 6), suggesting
+          that these mutant versions of Boi1 provide little or no
+          function.
+          To investigate whether the diminished amount of
+          sectoring allowed by the different mutant versions of
+          Boi1 might be due to effects of the amino-acid
+          substitutions on the concentration of Boi1 (e.g., by
+          decreasing the stability of Boi1), we used immunoblotting
+          to compare the concentrations of the mutant proteins to
+          that of wild-type Boi1. This analysis was done using a
+          genomically 
+          boi1 BOI2 strain, so that the only
+          version of Boi1 present was the one expressed from a
+          plasmid. As shown in Figure 7A, each of the mutant
+          versions of Boi1 is present at a concentration similar to
+          or higher than that of wild-type Boi1, suggesting that
+          the reduced functions of the mutant versions of Boi1 are
+          not likely to be due to effects on their
+          concentrations.
+          One potential role of the binding of Boi1 to
+          phospholipid is simply to target Boi1 to the plasma
+          membrane. If this were the only role for such binding,
+          then attachment to a membrane-localization tag might be
+          able to restore function to versions of Boi1 that are
+          impaired in the ability to bind phospholipid. One type of
+          membrane-localization tag is the myristoyl group, which
+          is attached to the glycine residue of proteins, such as 
+          S. cerevisiae Gpa1 (the α subunit
+          of the pheromone-responsive G protein) [ 18 ] , that
+          contain at their N-termini the sequence MGXXXS/T (where
+          "X" can be any amino acid) [ 19 ] . Thus, we investigated
+          whether fusion to the sequence MGCTVS, which is present
+          at the N-terminus of Gpa1 and which we will henceforth
+          refer to as "Myr", could restore function to the mutant
+          versions of Boi1 that are impaired in the ability to bind
+          phospholipid.
+          At the time that we initiated this analysis, the only
+          lipid-binding-impaired version of Boi1 that we had
+          generated so far was the KK mutant. In preliminary
+          analyses, we found that Myr did not improve the ability
+          of full-length Boi1(KK) to promote sectoring, but that it
+          did improve the ability of the KK version of Boi1-PH to
+          promote sectoring (data not shown). Therefore, in
+          subsequent tests to ask whether Myr could restore
+          function to mutant versions of Boi1 that are impaired in
+          the ability to bind lipid, we used specifically the
+          Boi1-PH segment of Boi1 rather than full-length Boi1.
+          First, we checked to see whether Myr had any
+          inhibitory effects on the function of wild-type Boi1-PH.
+          Myr-Boi1(PH) allowed a degree of sectoring similar to
+          that for Boi1-PH without the tag (Fig. 6), suggesting
+          that Myr does not impair the function of Boi1-PH.
+          Next, we asked whether Myr could improve the ability
+          of the different mutant versions of Boi1-PH to function.
+          At 23°C, 25% of colonies containing Boi1-PH(TK) without
+          the tag showed moderate or heavy sectoring. This value
+          rose to 81% when using the Myr-tagged version of
+          Boi1-PH(TK) (Fig. 6), suggesting that Myr improves the
+          ability of the TK mutant version of Boi1-PH to function.
+          At 30°C, the effect of Myr was even more striking:
+          without the tag, only 1% of the Boi1-PH(TK) colonies
+          showed any degree of sectoring; however, with the tag,
+          90% of the colonies showed moderate or heavy sectoring
+          (Fig. 6).
+          Myr also greatly improved the ability of the KK mutant
+          version of Boi1-PH to cause sectoring: Myr-Boi1-PH(KK)
+          allowed 59% moderate or heavy sectoring at 23°C and
+          allowed 28% moderate or heavy sectoring at 30°C, compared
+          to there being no sectoring at either temperature without
+          Myr (Fig. 6). At 23°C, Myr also improved the function of
+          the KKTK (the most severe) mutant version of Boi1-PH: at
+          this temperature, whereas Boi1-PH(KKTK) without Myr did
+          not allow any sectoring, Myr-Boi1-PH(KKTK) allowed 17% of
+          the colonies to show moderate or heavy sectoring (Fig.
+          6). In constrast, when tested at 30°C, Myr did not affect
+          significantly the amount of sectoring allowed by
+          Boi1-PH(KKTK): 98% of the colonies of cells containing
+          Myr-Boi1-PH(KKTK) were non-sectoring at this temperature
+          (Fig. 6).
+          It is unlikely that the mechanism by which Myr
+          improves the function of the different mutant versions of
+          Boi1-PH is by increasing their stability, because the
+          presence of Myr did not have an obvious effect on the
+          relative concentrations of the different versions of
+          Boi1-PH (Fig. 7B).
         
         
-          The ALM migration defect was not due to RNAi
-          In 
-          C. elegans , the presence of double
-          stranded RNA that corresponds in sequence to a gene will
-          usually result in silencing of that gene [ 22]. This
-          effect is referred to as RNA interference or RNAi. In
-          several cases where transgenic arrays induced odd
-          phenotypes, the authors attribute this to RNAi effects
-          resulting from cryptic promoters on either side of the
-          transformed gene [ 23]. In the case described here, it
-          seemed unlikely that RNAi was inducing the ALM migration
-          or the PLM axonal morphology defects because there is no
-          predicted protein-encoding gene in the titrating
-          sequence. It was conceivable, however, that a small,
-          undetected gene was present in this sequence. To test
-          this possibility, we generated double stranded RNA that
-          corresponded to the sequence 5' of the 
-          Pst I restriction site and injected
-          it into TU2562 animals. TU2562 was chosen because it
-          expresses GFP in its ALMs and these neurons migrate
-          normally.
-          In strain TU2562 the average ALM position was 8.6. In
-          two separate experiments, TU2562 injected with double
-          stranded RNA containing the 
-          mec-3 sequence 5' of the 
-          Pst I restriction site also had
-          average ALM positions of 8.6 (n=190 and n=167). These RNA
-          injected animals also had normal PLM axonal morphology.
-          Therefore, the ALM migration and the PLM axonal
-          morphology defects were not due to RNAi.
-        
-        
-          Many copies of the titrating sequence were required
-          to induce the ALM migration defect
-          To determine whether the migration defect resulted
-          from having many copies of the titrating sequence, we
-          made transformants with different mixtures of plasmid and
-          genomic DNA. Kelly et al. [ 24] have shown that blunt end
-          cut plasmids injected with blunt end cut genomic DNA will
-          form complex arrays that contain genomic DNA intermixed
-          with a few copies of the plasmid. To generate arrays with
-          different numbers of copies of pJC4, we co-injected pJC4
-          plasmid DNA with pRF4 and genomic DNA as described in
-          Materials and Methods. We measured the positions of the
-          ALMs in 100 animals from one transgenic strain made with
-          each DNA mixture.
-          Figure 5shows a plot of the average ALM position
-          versus the concentration of pJC4 in the injection
-          mixture. The ALMs were close to their normal positions in
-          the strains made with 2, 4, 8, 16 and 32 μg/ml of pJC4
-          but showed a clear migration defect at 64 and 128 μg/ml
-          of pJC4.
-        
-        
-          Having a promoter near the titrating sequence did
-          not enhance the ALM migration defect
-          All of the plasmids shown in Figure 4contained both
-          the 
-          mec-3 promoter and the GFP encoding
-          sequence. We reasoned that pJC4 may have caused more
-          severe migration defects than pJC8 and pJC3 because in
-          pJC4 the titrating sequence was closer to the promoter
-          and was thereby more accessible to binding factors. To
-          determine whether having a promoter present increased the
-          effectiveness of this sequence, we made two plasmids
-          shown in Figure 6. Plasmid pJC11 had the region upstream
-          of the 
-          Pst I site fused to the region of
-          the 
-          mec-3 promoter, whereas pJC10 had
-          just the 
-          mec-3 region upstream of the 
-          Pst I site. We transformed TU2562
-          with these plasmids and generated transgenic lines.
-          Because the extrachromosomal arrays did not contain 
-          mec-3gfp , we first picked rollers
-          and then scored them for ALM position. Due to the mosaic
-          inheritance of extrachromosomal arrays, some of the ALMs
-          scored may not have contained the array.
-          Figure 6shows the regions of 
-          mec-3 included in each plasmid and
-          the distribution of ALM positions from three separate
-          strains made with each plasmid. On the right are listed
-          the percent of ALMs that showed migration defects and the
-          total number of ALMs scored from the three strains
-          transformed with each construct. Plasmids pJC10 and pJC11
-          appeared to be equally capable of inducing ALM migration
-          defects.
-        
-        
-          What is the sequence?
-          To further refine the region responsible for inducing
-          the ALM migration defect, we generated plasmids
-          containing further deletions of the 495 bp 
-          mec-3 region upstream of the 
-          Pst I site. We transformed these
-          plasmids into TU2562 and analyzed the ALM positions in
-          the resulting lines as we did for the lines shown in
-          Figure 6. Figure 7shows the results of this experiment.
-          Arrays containing pJC15 induced migration defects less
-          effectively than arrays containing pJC10 (Fig. 6), so
-          sequences within the 
-          Pst I to 
-          Bgl II region appear to contribute
-          to the migration defect. However, the pJC13 data show
-          that arrays containing this sequence by itself induced
-          few migration errors. pJC15 arrays and pJC14 arrays
-          induced similar migration defects, so the sequence from
-          the 
-          Bgl II to the 
-          Hpa I restriction sites did not
-          appear to contribute to the migration defect. pJC16
-          arrays induced fewer migration defects than pJC14 arrays
-          and pJC17 arrays induced fewer migration defects than
-          pJC16 arrays, so there appeared to be multiple sequences
-          between the 
-          Hpa I and 
-          Bsa BI restriction sites that
-          contributed to the migration defect.
-        
-        
-          Does this sequence affect all cell
-          migrations?
-          The QR.p neuroblast is generated in the posterior of
-          the animal [ 12, 25]. As shown in Figure 8A, it migrates
-          anteriorly to the middle of the animal where it stops and
-          then divides. One of the resulting cells, QR.pp,
-          undergoes programmed cell death while the other, QR.pa
-          migrates forward to about position 7 and again stops and
-          divides. QR.pa gives rise to two neurons, SDQR and the
-          AVM touch receptor neuron. Thus, if the transgenic arrays
-          containing the titrating sequence affect all cell
-          migrations, the AVMs should also be misplaced.
-          To test this idea, we measured the AVM positions in
-          TU2562 and EA485. Figure 8Bshows the distributions of AVM
-          positions for these two strains. The average positions of
-          the AVMs in EA485 and in TU2562 were both 6.3. As shown
-          above, the ALMs in TU2562 were near their normal
-          positions, whereas the ALMs in EA485 were grossly
-          misplaced. Clearly, the migrations of the QR.p neuroblast
-          and its daughter, QR.pa, unlike the ALM neurons, were not
-          affected by the extrachromosomal array in EA485.
-        
-        
-          The ALM migration and the PLM axonal morphology
-          defects are highly correlated
-          Strains that had many ALM migration defects also had
-          many PLM axonal defects. The correlation coefficient of
-          the average ALM position versus the percent of animals
-          with PLM axonal defects was -0.99. This correlation
-          between the ALM defects and the PLM defects is consistent
-          with both defects resulting from the titration of the
-          same factor or factors.
-        
-        
-          The titrating sequence did not affect the ALM/BDU
-          cell division or the positions of the BDUs
-          In strains containing these arrays, some of the ALMs
-          that were anterior to position 6 had an axonal morphology
-          similar to their lineal sisters, the BDU neurons. We
-          wondered whether in these animals the ALM/BDU cell
-          division was not occurring and the progenitor of these
-          neurons was taking on some of the character of both
-          cells. This ALM/BDU cell might migrate anteriorly, like a
-          BDU, and express 
-          mec-3gfp , like an ALM. To address
-          this, we asked whether the BDU neurons were present in
-          animals where the ALMs were displaced anteriorly. We took
-          advantage of the fact that in 
-          pag-3 mutants, 
-          mec-3gfp is expressed in both the
-          ALMs and in the BDUs (McDermott, J. et al., unpublished
-          results). We crossed the pJC4 array in EA485 into a 
-          pag-3(ls20) genetic background to
-          generate strain EA489. As a control, we crossed the
-          integrated array in TU2562 into a 
-          pag-3(ls20) genetic background to
-          generate strain EA363. In these strains, we measured the
-          positions of the ALMs and BDUs. In a 
-          pag-3(ls20) background, the BDU
-          neurons have a lower level of 
-          mec-3gfp expression than the ALM
-          neurons so these neurons can be easily distinguished. In
-          EA489, the BDUs were present even in animals with ALMs
-          anterior to position 3 and they were located in their
-          normal positions. The average position of BDUs in EA489
-          was 3.3 (n=50). The average position of BDUs in EA363 was
-          3.6 (n=50). Thus, the ALM/BDU cell divisions were taking
-          place and the BDUs were migrating normally in these
-          strains.
-        
-        
-          The migration defect was cold sensitive
-          To determine whether the ALM migration defect was
-          sensitive to temperature, we grew EA471 and TU2562 at
-          15°C, 20°C and 25°C. We then measured the positions of
-          the ALMs in each strain grown at each temperature. EA471
-          (a strain transformed with pJC3) was chosen because it
-          showed an intermediate distribution of ALM positions at
-          20°C (see Figure 4), so either an anterior or a posterior
-          shift would be apparent. TU2562 was chosen because its
-          ALMs migrated close to their normal positions at
-          20°C.
-          Figure 9shows the distribution of ALM positions for
-          each strain at each temperature. The temperature at which
-          the animals were grown affected ALM migrations in both
-          EA471 and TU2562. ALMs were located more anteriorly in
-          both EA471 and TU2562 grown at 15°C. TU2562 grown at 25°C
-          had fewer ALMs anterior to position 9 than TU2562 grown
-          at 20°C.
+          Localization of wild-type and mutant versions of
+          Boi1 and Boi2
+          To investigate whether binding to phospholipid may be
+          important for proper localization of Boi1, we used GFP
+          (green fluorescent protein) fusions to identify first the
+          patterns of localization of wild-type Boi1 and Boi2 and
+          then those of the mutant versions of Boi1 that are
+          impaired in the ability to bind phospholipid. The
+          micrographs in Figure 8show examples of the different
+          patterns of localization observed for wild-type Boi1-GFP.
+          In unbudded cells, Boi1-GFP was seen to be concentrated
+          in a single spot at the cell cortex ("polar" pattern) in
+          70% of the cells (Fig. 8A). In small-budded cells,
+          Boi1-GFP was concentrated in the bud in 89% of the cells
+          (Fig. 8B). In cells containing large buds, Boi1-GFP was
+          concentrated in the bud in 50% of the cells and was
+          concentrated at the neck in 31% of the cells (Fig. 8C).
+          Boi2-GFP showed distributions of localization patterns
+          generally similar to those for Boi1-GFP (Fig. 8A,8B,8C).
+          Thus, Boi1-GFP and Boi2-GFP both appear to be localized
+          to sites of polarized growth throughout the cell
+          cycle.
+          The KK, TK, and KKTK versions of Boi1-GFP all showed a
+          polar pattern of localization in approximately half of
+          the unbudded cells (Fig. 8A), suggesting that binding to
+          phospholipid is not critical for this pattern of
+          localization. In small-budded cells, the KK, TK, and KKTK
+          mutant proteins showed localization to the bud in only
+          18, 21, and 27% of the cells, respectively (compared to
+          in 89% of the cells for wild-type Boi1-GFP) (Fig. 8B).
+          Thus, although the KK, TK, and KKTK mutant proteins all
+          were able to localize to the bud in small-budded cells,
+          they were localized and/or retained there less
+          efficiently than was wild-type Boi1-GFP.
+          A more striking effect of the KK, TK, and KKTK
+          substitutions on the localization of Boi1-GFP was seen in
+          cells that contained large buds: Boi1-TK-GFP was
+          concentrated in the bud in only 4% of large-budded cells,
+          and Boi1-KK-GFP and Boi1-KKTK-GFP were concentrated in
+          the bud in less than 1% of such cells (Fig. 8C). None of
+          the sets of substitutions had an obvious effect on
+          localization to the neck, however (Fig. 8C). These
+          findings suggest that, in large-budded cells, binding to
+          phospholipid may be important for the localization of
+          Boi1 to the bud but not for localization to the neck.
+          Although our studies focus on roles of Boi1's PH
+          domain, we were also curious to know which other portions
+          of Boi1 contribute to its proper patterns of
+          localization. In particular, we wished to know whether
+          either the SH3 domain or the proline-rich (Bem1-binding)
+          region of Boi1 is important for any pattern of
+          localization. To address this issue, we used the
+          following mutant versions of Boi1: the "S" mutant, which
+          contains a Lys residue in place of a Trp residue at a
+          highly conserved position in the SH3 domain; the "P"
+          mutant, in which seven of the nine Pro residues in the
+          Pro-rich region are replaced with Ala residues (a version
+          of Boi1 that does not bind Bem1); and the "SP" mutant,
+          which contains both the "S" and "P" changes [ 1 ] .
+          The most striking effect of the SH3-domain mutation
+          was on the localization of Boi1-GFP to necks: we never
+          saw Boi1-S-GFP localized to necks (Fig. 8C), suggesting
+          that the SH3 domain is required for such localization. In
+          constrast, the SH3-domain mutation had no obvious effect
+          on the localization of Boi1-GFP to the bud in either
+          small- or large-budded cells (Figs. 8Band 8C). However,
+          this mutation increased the frequency of localization to
+          the periphery of large-budded cells, and it did so to a
+          degree that approximated that to which it caused a
+          decrease in the frequency of localization to the neck: in
+          large-budded cells, whereas wild-type Boi1-GFP was
+          localized to the periphery of the mother part of the cell
+          in only 3% of the cells and to the neck in 31% of the
+          cells, Boi1-S-GFP was localized to the periphery of the
+          mother in 22% of the cells (and was never localized to
+          the neck). These findings raise the possibility that
+          failure to localize to the neck increases the likelihood
+          that Boi1 will adopt or retain localization at the
+          periphery of the mother part of the cell.
+          Another apparent effect of the SH3-domain mutation on
+          the localization of Boi1-GFP was seen in unbudded cells,
+          in which the percentage of cells that showed a polar
+          pattern of localization for Boi1-S-GFP (24%) was lower
+          than for wild-type Boi1-GFP (70%), and in which
+          Boi1-S-GFP gave a higher percentage of cells that showed
+          the diffuse pattern (62%) compared to that given by
+          wild-type Boi1-GFP (24%) (Fig. 8A). These findings raise
+          the possibility that one way in which Boi1-GFP acquires a
+          polar distribution in unbudded cells involves prior
+          localization to the neck, via the SH3 domain.
+          In all classes of cells, the distributions of
+          localization patterns for Boi1-P-GFP were not notably
+          different from those for wild-type Boi1-GFP, and the
+          distributions of localization patterns for Boi1-S-P-GFP
+          were not notably different from those for Boi1-S-GFP
+          (Figs. 8A,8B,8C), suggesting that the proline-rich region
+          is not important for any of the observed patterns of
+          localization of Boi1-GFP.
         
       
       
         Discussion
-        We have identified a sequence in the 
-        mec-3 upstream region that, when
-        present in high copy extrachromosomal arrays, caused the
-        ALM touch receptor neurons to migrate aberrantly and caused
-        PLM touch receptor neuron axonal defects. These defects
-        were not due to RNAi, nonspecific effects of carrying a
-        transgenic array, expression of GFP, or the marker gene
-        used to make the transformants. Rather, these defects
-        resulted from transgenic arrays containing many copies of a
-        specific sequence from the 
-        mec-3 upstream control region.
-        Figure 1Ashows the direction and extent of the ALM and
-        BDU cell migrations. ALMs that failed to migrate would
-        remain around position 5 [ 12]. In strains transformed with
-        the titrating sequence, the ALMs often migrated anteriorly
-        rather than posteriorly and were located anterior to
-        position 5. Thus, the arrays appeared to be sequestering a
-        factor that controls both the direction and extent of ALM
-        migrations. Presumably, the BDU neurons normally inherit a
-        small amount of this factor and migrate anteriorly, while
-        the ALMs inherit a larger amount of this factor and migrate
-        posteriorly.
-        All ALMs that showed defects in axon morphology were
-        anterior to position 6. Perhaps ALMs positioned anterior to
-        position 6 sometimes fail to find their normal axon
-        guidance cues. Interestingly, some of these anteriorly
-        positioned ALMs had axon morphologies similar to BDU
-        neurons. These cells, being deprived of their own axon
-        guidance cues, may have followed the BDU axon guidance
-        cues.
-        Figure 4shows that the sequence upstream of the 
-        Pst I restriction site appeared to
-        contribute strongly to the ALM migration defects. Plasmids
-        containing this sequence (pJC8, pJC3 and pJC4) induced many
-        ALM migration defects, whereas plasmids lacking this
-        sequence (pPD118.17 and pJC1) induced few migration
-        defects. Figure 6shows that this upstream 
-        mec-3 sequence alone (pJC10) was
-        sufficient to induce migration defects. Smaller pieces of
-        the sequence upstream of the 
-        Pst I site are also sufficient to
-        induce ALM migration defects (Fig. 7). The smallest
-        sequence tested that caused the migration defects (pJC16,
-        Fig. 7) contained only 157 bp upstream of the 
-        Eco RI restriction site.
-        These conclusions assume that the arrays generated for
-        each construct have roughly the same number of copies of
-        the titrating sequence. We controlled for strain-to-strain
-        variability in the array size by discarding strains with
-        low transmission frequencies (see Materials and Methods)
-        and by combining the data from at least three independently
-        generated strains transformed with each construct. Because
-        the strain-to-strain variability was small, this assumption
-        is probably valid.
-        Other sequences around the titrating sequence appeared
-        to facilitate the binding of the factor or factors involved
-        in controlling ALM cell migrations. For instance, plasmid
-        pJC10, which contained more surrounding sequence, was more
-        effective than pJC15. These surrounding sequences may
-        contain additional binding sites for this factor or the
-        migration factor may interact with other proteins that bind
-        the 
-        mec-3 upstream sequences. Thus, the
-        binding of one factor might cooperatively facilitate the
-        binding of other factors. Li et al. [ 26] identified a
-        sequence upstream of 
-        her-1 that phenocopied an 
-        sdc mutation when transformed into 
-        C. elegans in high copy arrays. They
-        too found that several regions of the 
-        her-1 upstream sequence contributed
-        to the effect.
-        The results shown in Figure 7suggest that a 104 bp
-        sequence,
-        5'AAATCTCAAT-10-CTAAAAACAT-20-TTTTAGAACT-30-TTTTCAAAGA
-        -40-TATGTTGAAT-50-TCTGGCAACT-60-TTAGGTAGTT-70-TTAAATTTTC-
-        80-CACGAAATTT-90-CAAATCAAAT-100-GTTA 3', contributed
-        strongly to the ALM migration defects. The region from
-        nucleotide 39-96 is a degenerate palindrome. Within this
-        palindrome there are two more levels of nested palindromes.
-        For instance, the 69-96 region is palindromic, and within
-        the 69-96 region, the 84-96 region is palindromic.
-        Some of this interesting sequence structure may result
-        from the juxtaposition of transcription factor binding
-        sites. For instance, the sequence from 72-92 would be an
-        excellent binding site in both its forward and reverse
-        orientations for the 
-        Drosophila STAT transcription factor
-        D-STAT [ 27]. There are two proteins with homology to the
-        STAT family of transcription factors in 
-        C. elegans . This sequence is
-        followed by the repeated sequence caaatcaaat, which would
-        provide two good binding sites for the mammalian brain POU
-        transcription factor Brn-2 [ 28]. Brn-2 is related to
-        UNC-86, which is required to initiate and sustain 
-        mec-3 expression.
-        The titrating sequence is located between two genes that
-        are positioned head-to-head, 
-        mec-3 and F01D4.1, which encodes a
-        UDP-glucoronosyltransferase. The titrating element could be
-        regulating either, neither, or both of these genes. Because
-        this element appeared to sequester a factor involved in ALM
-        migration and PLM axon outgrowth, it is probably a 
-        mec-3 control element.
         
-        mec-3gfp fusion genes that lack this
-        element appear to be correctly expressed. What aspect,
-        then, of 
-        mec-3 expression is affected by this
-        control element? 
-        mec-3 is activated by UNC-86 protein
-        [ 13, 14, 15]. Once MEC-3 protein is made, UNC-86 and MEC-3
-        form a heterodimer that more effectively activates 
-        mec-3 . Perhaps the titrating element
-        is involved in the initial 
-        mec-3 activation. This role would not
-        be apparent in 
-        mec-3gfp fusion genes because they
-        would be activated by the endogenous UNC-86/MEC-3
-        heterodimer. Alternatively, this element might help sustain
+          Binding to phospholipids
+          Boi1-PH co-sediments with PS vesicles, suggesting that
+          Boi1's PH domain can bind PS. Boi1-PH co-sediments more
+          readily when such vesicles contain a small percentage
+          (5%) of PIP 
+          2 , suggesting that Boi1-PH also binds
+          PIP 
+          2 and that it does so with higher
+          affinity than it binds PS. Given that PIP 
+          2 and PS are negatively charged (with
+          PIP 
+          2 being more negatively charged than
+          PS), a model to account for these binding behaviors is
+          that Boi1's PH domain binds in a non-specific manner to
+          negatively charged surfaces. The ability to bind
+          different acidic phospholipids appears to be a fairly
+          common attribute of PH domains [ 11 12 ] . For example,
+          five out of ten PH domains in one study were judged to
+          bind to PS with affinity similar to that for PIP 
+          2 and other inositol-based
+          phospholipids, suggesting that many PH domains bind
+          promiscuously to negatively charged phospholipids [ 11 ]
+          .
+          Findings from protease-sensitivity analyses suggest
+          that Boi1-PH binds in a different manner to PIP 
+          2 than to PS, however. Specifically,
+          proteolysis of Boi1-PH was stimulated by PIP 
+          2 /PS mixed vesicles but not by
+          vesicles that contained only PS. For the following
+          reasons, we think that the inability of PS, by itself, to
+          stimulate the proteolysis of PIP 
+          2 is not due to an inability of PS to
+          bind to Boi1-PH. First, the ability of PIP 
+          2 to stimulate proteolysis of Boi1-PH
+          was greatly enhanced when using PS (rather than PC) as
+          the bulk lipid in the vesicles, suggesting that PS binds
+          to Boi1-PH in this analysis. Second, the proteolysis
+          analysis was conducted in conditions that were very
+          similar to those used in the vesicle co-sedimentation
+          analysis, in which Boi1-PH was found to bind readily to
+          PS. These findings suggest that, in conditions in which
+          both PS and PIP 
+          2 bind to Boi1-PH, only PIP 
+          2 binds in a manner that triggers the
+          exposure of a protease-sensitive site.
+          PIP 
+          2 was not the only
+          phosphatidylinositide that could stimulate proteolysis of
+          Boi1-PH; PI4P also did so, although less effectively than
+          did PIP 
+          2 . In contrast, PI3P and PI were
+          comparatively ineffective at stimulating proteolysis. The
+          large difference in the ability of PI4P versus PI3P to
+          stimulate proteolysis supports the view that Boi1's PH
+          domain can discriminate between different phosphorylated
+          versions of PI in some manner that involves more than
+          simply recognizing net charge.
         
-        mec-3 expression. Finally, this
-        element might modulate 
-        mec-3 expression in a way that is not
-        evident by looking at the MEC-3GFP fluorescence.
-        Figure 5demonstrates that the ALM migration defect
-        arises due to having many copies of the titrating sequence.
-        Arrays made with few copies of pJC4 did not induce ALM
-        migration defects, whereas arrays containing many copies of
-        pJC4 did, thus suggesting that the arrays that altered ALM
-        cell migrations acted by titrating a control factor.
-        It is somewhat surprising that high copy arrays could
-        titrate this factor to low enough levels to induce
-        phenotypes. Transgenic arrays in 
-        C. elegans contain about 50-100
-        copies of the plasmids used to make the array [ 29].
-        Assuming that each copy of the titrating sequence bound
-        only one molecule, then shifting the concentration of this
-        DNA binding factor by as few as 100 molecules caused the
-        ALM migration defects. Because this factor is titratable,
-        it may be present at low concentrations and bind with high
-        affinity to the 
-        mec-3 upstream sequence.
-        Perhaps this factor is present at low concentration
-        because it is part of a mechanism for sensitive regulation
-        of a cell state. The relative level of a factor present at
-        low concentration should be easier to change than that of a
-        factor present at high concentration. These results suggest
-        that ALM migrations are carefully regulated by the
-        concentration of a specific DNA binding protein that is
-        present in the cell in only a few copies.
-        The need for an all-or-nothing response could also
-        explain why there appear to be multiple sequences that
-        contribute to the titration. One mechanism for steepening
-        the response of an effector molecule is to require that
-        more than one molecule bind to the target to induce a
-        response. Perhaps the migration factor binds to several
-        sites in both 
-        mec-3 and in the cell migration
-        genes, and multiple sites must be bound to affect
-        expression.
-        The factor sequestered by the titrating sequence does
-        not affect all cell migrations. The AVM touch receptor
-        neurons in EA485, a strain which showed a strong ALM
-        migration defect, were located in the same position as the
-        AVMs in TU2562, a strain which showed few ALM migration
-        defects (Fig. 8). The AVM's lineal mother and grandmother
-        both migrate anteriorly and if either of these migrations
-        were defective, the AVMs would be mispositioned. We do not
-        know whether other cell migrations were affected by the
-        titrating sequence, but no other phenotypes were observed
-        in animals with severe ALM migration defects.
-        The incidence of PLM axonal defects correlated well with
-        the ALM migration defects. We believe, therefore, that the
-        PLM defects were induced by titration of the same factor or
-        factors that control ALM migrations. In both cases, the
-        cells failed to correctly interpret anterior-posterior
-        spatial information. However, the ALMs migrated to more
-        anterior positions, whereas the PLMs axons often terminated
-        at more posterior positions.
-        Temperature had a strong effect on the ALM migration
-        defects (Fig. 9). In cells grown at lower temperatures, the
-        titrated factor may be less active, it may be produced at
-        low concentrations, it may bind to arrays more tightly, or
-        it may interact with its ligand less effectively. The cold
-        sensitivity of the ALM migration defect may be useful for
-        identifying genetic suppressors of the migration
-        defect.
-        The factor titrated by this sequence may also be
-        involved in differentiating ALMs and BDUs. It may be
-        present in AB.arpppapp and AB.arppaapp, the progenitors of
-        ALMR/BDUR and ALML/BDUL, respectively. When these cells
-        divide to generate ALMs and BDUs, the factor may
-        differentially segregate into the ALMs. A high
-        concentration of this factor may direct the ALMs to migrate
-        posteriorly while a low level of this factor may direct the
-        BDUs to migrate anteriorly. Furthermore, this factor may
-        help activate 
-        mec-3 expression and thereby cause
-        the ALMs to differentiate into touch receptor neurons.
-        As was true in sea urchin embryos [ 30, 31], titration
-        of transcription factors with high copy transgenes may be
-        useful for characterizing control elements in 
-        C. elegans . The ALM migration defect
-        should be useful for identifying optimal conditions for the
-        titration of DNA binding protein with high copy arrays. We
-        do not know, at this point, how often transcription factors
-        will be present at low enough concentrations and bind DNA
-        with enough affinity to apply this approach. Because others
-        have also reported competitive titration by transgenic
-        sequences in 
-        C. elegans [ 26, 32], we expect that
-        it will not be uncommon. Certainly, some of the artifacts
-        associated with transformation of 
-        C. elegans with high copy arrays may
-        result from titration of DNA binding factors [ 23].
-        Transformation of 
-        C. elegans with low copy arrays made
-        with complex carrier DNA prevented the titration effects,
-        so the use of low copy arrays may be prudent where
-        titration effects are not desired.
-        Kelly et al. [ 24] found that inclusion of complex
-        carrier DNA in 
-        C. elegans transformation experiments
-        improves the function of certain co-injected reporter
-        constructs. These effects include both increased expression
-        and improved uniformity of transgene expression. Figure
-        5shows that including complex carrier DNA may also prevent
-        transformation artifacts resulting from titration of
-        transcription factors.
+        
+          Residues implicated in binding to
+          phospholipid
+          The KK, TK, and KKTK mutant versions of Boi1-PH
+          contain substitutions at positions in the PH domain that
+          were predicted to be involved in binding PIP 
+          2 . PIP 
+          2 /PS vesicles did not stimulate the
+          proteolysis of any of these mutant versions of Boi1-PH,
+          suggesting that each mutant is indeed impaired in the
+          ability to associate with PIP 
+          2 and/or PS.
+          Vesicle co-sedimentation analyses also suggest that
+          each mutant version of Boi1-PH is impaired in the ability
+          to bind PIP 
+          2 /PS vesicles. However, these
+          analyses suggest that the KK substitutions may impair
+          binding in a different manner than do the TK
+          substitutions. In particular, the co-sedimentation
+          analyses suggest that the TK mutant may be severely
+          impaired in the ability to bind acidic phospholipids
+          generally. In contrast, the KK mutant appears to be
+          impaired more in the ability to recognize specifically
+          PIP 
+          2 than in the ability to bind
+          non-specifically to acidic phospholipids.
+        
+        
+          Significance of binding to phospholipids
+          Based on colony-sectoring analyses, the KK, TK, and
+          KKTK mutant versions of Boi1 are all impaired in
+          function. The KK (as well as the KKTK) version of Boi1
+          appeared to be completely non-functional, pointing to the
+          possibility that binding specifically to PIP 
+          2 (as opposed to binding to acidic
+          phospholipids generally) may be critical for Boi1
+          function.
+          Fusion to a myristoyl group-accepting sequence
+          appeared to completely restore function to Boi1-PH(TK),
+          consistent with the possibility that the TK substitutions
+          may affect primarily association with membrane. The
+          myristoyl group-accepting sequence did not completely
+          restore function to the KK and KKTK versions of Boi1-PH,
+          however, raising the possibility that, rather than simply
+          promoting general association with membrane, one role of
+          binding to PIP 
+          2 may be to regulate some other
+          behavior of Boi1 (e.g., the binding of Boi1 to some other
+          protein at the plasma membrane).
+          If specific binding to PIP 
+          2 (and/or to some other
+          phosphatidylinositide, such as PI4P) is critical for Boi1
+          function, then how could fusion to a myristoyl
+          group-accepting sequence (i.e., to a
+          membrane-localization tag) improve the function of mutant
+          versions of Boi1-PH that are impaired in the ability to
+          bind PIP 
+          2 ? One possibility is that each of
+          these mutant versions of Boi1 retains at least a slight
+          affinity for PIP 
+          2 and that the myristoyl group causes
+          these mutant PH domains to be apposed close enough to the
+          lipid bilayer to enable the residual PIP 
+          2 -binding activity to now be
+          sufficient for binding to PIP 
+          2 . We speculate that, just as binding
+          to PS may serve to position the PH domain of wild-type
+          Boi1 near the plasma membrane in a manner that
+          facilitates binding to PIP 
+          2 , the myristoyl group may help to
+          situate the PH domain of the mutant versions of Boi1-PH
+          at the plasma membrane in a manner that facilitates
+          binding to PIP 
+          2 .
+          Although the myristoyl group-accepting sequence
+          improved the ability of the KK mutant version of Boi1-PH
+          to function, it failed to improve the function of the
+          corresponding mutant version (KK) of full-length Boi1.
+          This finding is consistent with the possibility that the
+          ability of the myristoyl group to improve function to a
+          version of Boi1 that is impaired in the ability to bind
+          phospholipids may depend on the myristoyl group being
+          near enough to the PH domain to be able to promote a
+          close association with membrane of specifically the PH
+          domain portion of the protein.
+        
+        
+          Localization of Boi1
+          A behavior of Boi1 that is affected by mutations that
+          impair binding to phospholipids is the localization of
+          Boi1 to buds. These mutant versions of Boi1 still
+          localize to mother/bud necks, however. In contrast, a
+          mutation in the SH3 domain prevents Boi1 from localizing
+          to necks, but it does not diminish the ability of Boi1 to
+          localize to buds. These findings suggest that binding to
+          phospholipids may promote the localization of Boi1 to
+          (and/or the retention of Boi1 at) the bud, but that this
+          binding is not important for the localization of Boi1 to
+          the neck.
+          How might binding to phospholipids promote
+          localization of Boi1 to buds? One possibility is that the
+          relevant phospholipid(s) (e.g., PIP 
+          2 ) is itself concentrated in buds.
+          Another possibility is that the binding to phospholipid
+          promotes the binding of Boi1 to some other protein that
+          is itself localized to buds. Other than the unidentified
+          protease that acts on Boi1 in yeast extracts, the only
+          proteins that we have evidence for binding to Boi1 are
+          Bem1 and Cdc42, both of which show localization patterns
+          similar to those for Boi1 ( [ 20 21 ] , and our
+          unpublished data). Amino-acid substitutions in the
+          proline-rich stretch of Boi1 that destroy binding to Bem1
+          do not affect the localization of Boi1, suggesting that
+          binding to Bem1 is not necessary for any pattern of
+          localization of Boi1.
+          The situation with respect to Cdc42 is less clear. We
+          have not yet generated mutations in 
+          BOI1 that would allow us to probe
+          the role of Boi1's interaction specifically with Cdc42.
+          However, we have observed that the two-hybrid interaction
+          between Boi1-PH and Cdc42 is not reduced by substitutions
+          (i.e., KK, TK, and KKTK) that impair binding to
+          phospholipids. These findings suggest that binding to
+          phospholipid is not necessary for the interaction between
+          Boi1 and Cdc42, and so place in doubt the possibility
+          that the mechanism by which binding to phospholipid
+          promotes localization of Boi1 to buds is by positively
+          regulating the binding of Boi1 to Cdc42. We note,
+          however, that these two-hybrid analyses may be quite
+          limited in terms of what they can reveal about
+          interactions between Boi1 and Cdc42 that might normally
+          occur at the plasma membrane (or at other membranes),
+          because 1) the two-hybrid assay monitors only those
+          interactions that are occurring in the nucleus and 2) in
+          these two-hybrid analyses, we used only versions of Cdc42
+          that lack a site of isoprenylation (because we were
+          unable to detect two-hybrid interactions between Boi1 and
+          versions of Cdc42 that retain that site). Thus, it is
+          still possible that at the plasma membrane, binding to
+          one or more types of phospholipid influences Boi1's
+          ability to associate with Cdc42. Alternatively,
+          phospholipids might regulate the binding of Boi1 to some
+          other, as-yet unidentified binding partner of Boi1. To
+          us, an important breakthrough toward elucidating the role
+          of the binding of any phospholipid to Boi1 would be the
+          identification of a protein whose binding to Boi1 is
+          regulated by that phospholipid.
+        
       
       
         Conclusions
-        The experiments described here show that transformation
-        of 
-        C. elegans with many copies of a
-        specific sequence located upstream of 
-        mec-3 induced cell migration and
-        axonal guidance defects. This 
-        mec-3 upstream sequence appeared to
-        be sequestering a factor involved in controlling ALM
-        migration and PLM axonal outgrowth. This factor may also
-        regulate 
-        mec-3 and thereby control touch
-        receptor neuron fate. Titration of transcription factors
-        with high copy arrays may become widely applicable in 
-        C. elegans once conditions that
-        optimize this effect are found. The ALM defect described
-        here may be useful for finding these conditions.
+        From vesicle co-sedimentation and
+        proteolysis-stimulation analyses, we gained evidence that
+        the PH domain of Boi1 binds with higher affinity to PIP 
+        2 than to PS and that binding to PIP 
+        2 is facilitated by PS and promotes a
+        conformational change in Boi1. Amino-acid substitutions
+        that diminish binding to PS and PIP 
+        2 impair Boi1 function, and fusion to a
+        myristoyl group-accepting sequence improves the ability of
+        these mutant versions of Boi1-PH to function, suggesting
+        that binding to phospholipids is important for Boi1 action.
+        Based on the differing extents to which the myristoyl
+        group-accepting sequence improved the ability of the
+        different mutant versions of Boi1-PH to function, we
+        propose that the main role of binding to PS is to promote
+        association with membrane and that binding to PIP 
+        2 plays some additional important role.
+        Boi1 and Boi2 are localized to sites of polarized growth,
+        consistent with the view that they are involved in
+        polarized growth. Whereas the SH3 domain is needed for
+        localization of Boi1 to the neck, the phospholipid-binding
+        portion of the PH domain is important for localization to
+        the bud.
       
       
         Materials and Methods
         
-          Worm culture and strain methods
+          Materials
+          The plasmids used in this study are described in
+          Additional file 1: Plasmids and phage. The yeast strains
+          used are Y312 ( 
+          MATα ura3 leu2 his3 Gal +), Y1284 (
           
-          C. elegans were maintained as
-          described by Brenner [ 33]. Animals were grown at 20°C
-          unless otherwise stated. The wild type strain was N2 var.
-          Bristol. Strain TU2562, 
-          mec-3gfp (uIs22), was a gift from
-          M. Chalfie.
-        
-        
-          Plasmid constructs
-          Standard molecular biology methods were used in making
-          the following plasmids [ 34]. To make pJC1, we removed a 
-          Pst I- 
-          Bbs I fragment from pPD118.17, a
-          gift from A. Fire. To make pJC3, we subcloned the 
-          Nsi I- 
-          Pst I fragment (1246 bp) of pTU23 [
-          35] into the 
-          Pst I site of pPD118.17. We made
-          pJC4 by deleting the 
-          Pst I- 
-          Bbs I fragment (1329 bp) from
-          pJC3.
-          We made pJC8 from pBS1 and pJC3. To make pBS1, the
-          oligonucleotides 5'ACCTCCCAAACTATAGATTGGGTG 3'and
-          5'CGGCCAGAGTCGACTCACATATTG 3'were used to amplify a 1370
-          bp fragment from pTU23. This introduced a 
-          Sal I site near the 3' end of the
-          third exon of 
-          mec-3 . We digested this fragment
-          with 
-          Hind III and 
-          Sal I, and ligated it into the 
-          Hind III and 
-          Sal I sites of pPD95.67, a gift
-          from A. Fire. We removed the 
-          Kpn I- 
-          Kpn I fragment from pBS1 to make
-          pBS1ΔK. We digested pBS1ΔK and pJC3 with both 
-          Bbs I and 
-          Xho I to remove a 1657 bp piece and
-          a 908 bp piece, respectively. The remaining fragments
-          were religated to make pJC8.
-          The only 
-          mec-3 sequence in plasmid pJC10 was
-          the 495 bp sequence 5' to the 
-          Pst I site. We constructed pJC10 by
-          deleting the 
-          Pst I- 
-          Nhe I fragment (2861 bp) from pJC3.
-          To make pJC11, we removed the 
-          Not I- 
-          Nhe I fragment (944 bp) from pJC4.
-          Plasmid pJC12 was a 
-          Hinc II- 
-          Hinc II deletion (443 bp) of pJC10.
-          To make pJC13, we removed the 
-          Hinc II- 
-          Bgl II fragment (602 bp) from
-          pJC10. pJC14 was a 
-          Hpa I- 
-          Bsp EI deletion (309 bp) of pJC10,
-          and pJC15 was a 
-          Bgl II- 
-          Bsp EI deletion (150 bp) of pJC10.
-          To make pJC16, we digested pJC10 with 
-          Bsp EI and 
-          Eco RI to remove a 365 bp fragment.
-          pJC17 was a 
-          Bsp EI- 
-          Bsa BI deletion (412 bp) of pJC10.
-          pJC18 was a 
-          Hinc II- 
-          Hinc II deletion (443 bp) of pJC4,
-          and pJC19 was a 
-          Bsa BI- 
-          Bgl II deletion (262 bp) of pJC4.
-          All plasmids were prepared with the Wizard midiprep kit
-          (Promega).
-        
-        
-          Transformation of C. elegans
-          Germ-line transformation was done as described by
-          Mello et al. [ 29]. All constructs were co-injected with
-          plasmid pRF4 containing the semidominant 
-          rol-6(su1006) allele, which causes
-          a roller phenotype. Plasmids pJC1, pJC3, pJC4, and pJC8
-          were injected into N2 wild type animals at 100 μg/ml.
-          Plasmids pJC10-pJC15 were injected into TU2562 at 100
-          μg/ml. Plasmid pRF4 was co-injected with all plasmids at
-          100 μg/ml.
-          To test whether the number of copies in the arrays had
-          an effect on ALM migration, 
-          Stu I cut pJC4 was co-injected with
+          MAT 
           
-          Sma I cut pRF4 and 
-          Pvu II cut genomic DNA at the
-          following concentrations (μg/ml): 2, 2, 100; 4, 4, 92; 8,
-          8, 84; 16, 16, 68; 32, 32, 36; 64, 32, 18; and 128, 32,
-          9, respectively. Larger arrays are transmitted to the
-          next generation more effectively than smaller arrays [
-          36]. All of the strains presented here had transmission
-          frequencies greater than 16%.
+            a 
+           
+          boi1::LEU2 ura3 leu2 his3 trp1
+          met14 Gal +), Y1300 ( 
+          MAT 
+          
+            a 
+           / 
+          MATα ura3/ura3 leu2/leu2 his3/his3
+          trp1/trp1 met14/met14 Gal +), and PY967 ( 
+          MAT 
+          
+            a 
+           / 
+          Matα boi1::LEU2/boi1::LEU2
+          boi2::LEU2/boi2::LEU2 ura3/ura3 leu2/leu2 trp1/trp1
+          ade2/ade2 ade3/ade3 bearing plasmid pPB799).
+          SC medium is 1.7 g/l yeast nitrogen base without amino
+          acids and ammonium sulfate, 5 g/l ammonium sulfate, 20
+          g/l glucose, 20 mg/l uracil, 20 mg/l adenine, 80 mg/l
+          L-leucine, 20 mg/l L-histidine, 40 mg/l L-tryptophan, 20
+          mg/l L-methionine, and 30 mg/l L-lysine. SC-Leu, SC-Ura,
+          and SC-Ura-Leu are SC without leucine, uracil, and both
+          leucine and uracil, respectively. Sgal-Leu is SC-Leu with
+          20 g/l galactose plus 20 g/l raffinose instead of
+          glucose.
+          PBS (phosphate-buffered saline, pH 7.0) is 1.42 g/l Na
+          
+          2 PO 
+          4 , 245 mg/l KH 
+          2 PO 
+          4 , 8 g/l NaCl, and 0.2 g/l KCl.
+          Protease inhibitors are 40 μg/ml bestatin, 0.7 μg/ml
+          pepstatin A, 1 mM PMSF, 50 μM leupeptin, 1 mM
+          benzamidine, and 1 mM EGTA. 2× SDS sample buffer is 2%
+          sodium dodecyl sulfate, 50 mM Tris (pH6.8), 6 M urea, and
+          bromophenol blue.
+          Phosphatidylcholine, phosphatidylinositol, and
+          phosphatidylserine were from Avanti Polar Lipids
+          (Alabaster, AL); phosphatidylinositol-4,5-bisphosphate
+          and phosphatidylinositol-4-phosphate were from Calbiochem
+          (San Diego, CA); and phosphatidylinositol-3-phosphate was
+          from Matreya, Inc. (Pleasant Gap, PA).
+          AP-PH is affinity-purified anti-Boi1 antibody [ 1 ] .
+          AP-101 is affinity-purified anti-Boi1 antibody that was
+          generated in the same manner as AP-PH, except that it
+          came from the serum of a different rabbit. Both types of
+          antibody were affinity purified [ 22 ] using a 6×His
+          fusion to the C-terminal 194 amino acids of Boi1 (the
+          same fusion that was used as immunogen) [ 1 ] . Immobilon
+          P membrane was from Millipore, Inc. (Bedford, MA). ECL
+          reagents were from Amersham Pharmacia Biotech, Inc.
+          (Piscataway, NJ).
+          Additional file 1
+          This table describes the plasmids and phage used in
+          this study
+          Click here for file
         
         
-          Microscopy
-          Microscopy was done on an Olympus IMT-2 inverted
-          microscope and on an Olympus AX70 microscope. A Power Mac
-          G3 7100/80 with a frame grabber and IPlab software was
-          used to collect and process images from the AX70. Both
-          microscopes were equipped with fluorescence and Nomarski
-          optics. Animals were immobilized with approximately 30 mM
-          sodium azide and viewed at 100 X or 400 X.
+          Generation of lipid vesicles
+          PC and PS were stored dissolved in chloroform at
+          concentrations of 20 and 10 mg/ml, respectively.
+          Inositol-based phospholipids were stored at 1 mg/ml
+          dissolved in a 1:1 mixture of chloroform:methanol. Lipids
+          (pure or mixtures) were dried down from these solutions
+          under a stream of nitrogen gas. Bath-type sonication was
+          then used to generate suspensions of vesicles of these
+          lipids in PBS.
         
         
-          RNAi
-          To make double stranded RNA for RNAi, we placed the 
-          Pst I- 
-          Rsa I fragment from pJC3 into
-          pBluescript II KS+. RNA was made from the T3 and T7
-          promoters in pBluescript with a Maxiscript kit (Ambion).
-          The dsRNA was injected at a concentration of 25
-          μg/ml.
+          Proteolysis assay
+          The wild-type, KK, TK, and KKTK versions of Boi1-PH
+
+          were expressed in yeast strain Y312 under the control of
+          the 
+          GAL10 promoter from plasmids
+          pPB900, pPB1308, pPB1699, and pPB1755, respectively.
+          Cultures were grown to an O.D. 
+          600 of 0.8 in 250 mls of SC-Leu,
+          pelleted, suspended in 250 mls of Sgal-Leu, and incubated
+          at 30°C for 16 hours. The following procedures were then
+          performed at 4°C. Cells were pelleted, and the pellets
+          were rinsed with PBS containing all of the protease
+          inhibitors except leupeptin, benzamidine, and EGTA. Cells
+          were suspended in PBS containing the same protease
+          inhibitors and were then lysed using a French press.
+          Large pieces of cellular debris were removed by
+          centrifugation at 12,000 × g for 10 min in a Sorval SS34
+          rotor. Soluble fractions were then generated by
+          centrifugation of lysates at 541,000 × g for 1 hr in a
+          TLA 100.4 rotor in an Optima TLX ultracentrifuge
+          (Beckman, Palo Alto, CA). To the cytosolic fractions
+          (supernatants), glycerol was added to a final
+          concentration of 40%. These fractions were stored at
+          -20°C and used within one month. 15 μl of 1 mg/ml lipid
+          vesicle/PBS suspension was mixed with 15 μl of cytosol. 5
+          mM DTT was included to inactivate any residual PMSF, and
+          then 2 mM CaCl 
+          2 was added to allow proteolysis of
+          Boi1-PH. Reaction mixtures were then transferred
+          immediately to a 30°C water bath, and proteolysis was
+          inhibited 5 min later by addition of an equal volume of
+          2× SDS sample buffer containing 2 mM EGTA. Proteins were
+          separated by SDS-PAGE through a 12% gel, and then
+          proteins were transferred electrophoretically to
+          Immobilon P membrane. Blots were probed with anti-Boi1
+          antibody AP-PH. Antibody-bound protein bands were
+          detected on X-ray film using ECL. Each of the proteolysis
+          experiments was performed at least three times, with
+          similar results.
         
         
-          Computer analysis
-          Sequence homologies were identified with the Blast
-          algorithm [ 37, 38] at the National Center for
-          Biotechnology Information (http://www.ncbi.nlm.nih.gov/).
-          To identify long-range palindromic structures, an RNA
-          secondary structure algorithm in the program DNASIS
-          version 2.0 was used. Transcription factor binding sites
-          were identified with MatInspector at
-          http://genomatix.gsf.de/cgi-bin/matinspector/matinspector.pl
-          [ 39].
+          Vesicle co-sedimentation assay
+          Yeast cytosol (from 541,000 × g spins) containing
+          wild-type and mutant versions of Boi1-PH were prepared
+          and stored as described for the proteolysis assay, except
+          that the protease inhibitors leupeptin, benzamidine, and
+          EGTA were included. 15 μl of 1 mg/ml lipid vesicle/PBS
+          suspensions were mixed with 15 μl of cytosol. 30 μl of
+          PBS, with or without additional KCl, was then added to
+          each mixture to reduce the concentration of glycerol to
+          approximately 10%. For the experiment shown in Fig. 3,
+          the concentrations of additional KCl in the final
+          reaction mixture are indicated. For the experiment shown
+          in Fig. 5B, no additional KCl was present. Mixtures were
+          then centrifuged immediately at 436,000 × g for 1 hr in a
+          TLA100 rotor. Supernatants were combined 1:1 with 2× SDS
+          sample buffer, and pellets were dissolved in 2× SDS
+          sample buffer. Equal proportions of each fraction were
+          subjected to SDS-PAGE through a 12% gel, proteins were
+          transblotted Immobilon P membrane, blots were probed with
+          antibody AP-PH, and bound antibodies were detected by
+          ECL. Each of the vesicle co-sedimentation experiments was
+          performed at least three times, with similar results.
         
+        
+          Colony-sectoring assay
+          Plasmids were introduced into strain PY967 using the
+          lithium thiocyanate procedure [ 23 ] , and transformants
+          were selected on SC-Ura. Concentrations of plasmid DNAs
+          were adjusted so that they would give approximately 400
+          colonies per petri plate. Transformation plates were
+          incubated at either 23 or 30°C for 4-5 days and then
+          stored at 4°C for one week to allow further development
+          of the red color. To assay sectoring, colonies were
+          viewed using a low-power dissecting microscope. A minimum
+          of 200 colonies were analyzed for each plasmid tested at
+          each temperature.
+        
+        
+          Analysis of relative protein concentrations
+          To analyze versions of full-length Boi1, 
+          boi1 strain Y1284 was used,
+          selecting for plasmids in SC-Ura. To analyze versions of
+          Boi1-PH, strain PY967 was used, selecting for plasmids in
+          SC-Ura-Leu. Cultures were grown to an O.D. 
+          600 of 0.8 at 23°C and then diluted
+          1:1 with 0.4 M NaOH + 1.7% 2-mercaptoethanol. The
+          resulting lysed-cell suspensions were then incubated on
+          ice for 10 min, and protein was made to precipitate using
+          10% trichloroacetic acid. Pellets were rinsed first with
+          70% ethanol and then with acetone, and they were then
+          suspended in 1% SDS + 3 M urea. Protein concentrations
+          were determined using the BCA Protein Assay (Pierce,
+          Rockford, IL). 10 μg of total protein from each sample
+          was subjected to SDS-PAGE through a 12% gel. Proteins
+          were transblotted to Immobilon P membrane, blots were
+          probed with antibody AP-101, and bound antibodies were
+          detected by ECL. Each of the analyses of protein
+          concentration was performed three times, with similar
+          results.
+        
+        
+          Localization studies
+          Yeast strain Y1300 was used for localization studies.
+          Cells were grown in SC-Ura to select for plasmids that
+          encode the GFP fusions. Aliquots of cells from
+          exponentially growing cultures were placed directly
+          (without centrifugation) onto glass slides for analysis
+          using a Zeiss Axioplan epifluorescence microscope. No
+          slide sample was analyzed for longer than 5 min, to avoid
+          stressing the cells. Quantification of the different
+          localization patterns was done separately for each
+          morphological category (i.e., analyzing first only
+          unbudded cells, then only small-budded cells, and then
+          only large-budded cells). Cells in which the diameter of
+          the bud was less than 1/4 of the diameter of the mother
+          part of the cell were classified as small-budded cells.
+          For each experiment, we analyzed at least 100 cells in
+          each morphological category, scoring only cells that gave
+          detectable green fluorescence. Figure 8shows the average
+          values from the results of three such experiments. In
+          some large-budded cells, but in no case more than in 3%
+          of such cells, green fluorescence was seen both at the
+          neck and at the mother periphery. Such cells were placed
+          in the "neck" rather than in the "peripheral" category.
+          Images were captured using a MicroMAX digital camera
+          system and WinView/32 software (Princeton Instruments
+          Inc., Trenton, N.J.). Images were processed using
+          Photoshop 5 software (Adobe Systems Inc., San Jose,
+          CA).
+        
+      
+      
+        Authors' contributions
+        M.A.H. performed the lipid-binding analyses, assisted in
+        the localization and colony-sectoring studies, and prepared
+        the figures. H.S.L. conducted localization and
+        colony-sectoring analyses and constructed most of the
+        plasmids and phage. A.B. constructed some of the plasmids
+        and phage and assisted in the colony-sectoring
+        analyses.
+        All authors read and approved the final manuscript.
       
     
   

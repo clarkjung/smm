@@ -1,316 +1,266 @@
 
-  
-    
-      
-        Background
-        The potential adaptive significance of transposable
-        elements (TEs) to the host genomes in which they reside is
-        a topic that has been hotly debated by molecular
-        evolutionists for more than two decades. While the
-        biological importance of TEs seemed self-evident to those
-        scientists involved in their initial discovery [e.g., [ 1 2
-        ] ], the subsequent realization that TEs could be
-        maintained in populations even while imparting slight
-        selective disadvantage to their hosts [e.g., [ 3 4 5 ] ]
-        drew into question the presumption of adaptive
-        significance. However, even if TEs can be maintained in
-        populations on a day-to-day basis without providing
-        selective advantage, it does not preclude the possibility
-        that the insertion of TEs in or near genes may, in some
-        instances, be of adaptive advantage.
-        If TE insertion variants have contributed to adaptive
-        gene evolution, such variants might be expected to be in
-        high frequency or fixed in populations and species. Initial
-        surveys of natural populations of 
-        Drosophila melanogaster showing that
-        TE insertion alleles are in uniformly low frequency seemed
-        to negate the adaptive hypothesis [ 6 ] . However, the
-        sporadic discovery of degenerate TEs or TE fragments as
-        critical components of functional genes in both plants and
-        animals was sufficient to keep the adaptive hypothesis
-        alive throughout the pre-genomic era [ 7 8 9 10 11 ] .
-        The current availability of the complete or nearly
-        complete sequence of select genomes representing a variety
-        of species is providing an unprecedented opportunity to
-        examine the frequency and distribution of TEs in eukaryotic
-        genomes. The results have been dramatic. TEs not only
-        comprise a significant fraction of nearly all eukaryotic
-        genomes thus far sequenced, they have been found to be
-        components of the regulatory and/or coding regions of a
-        surprisingly large number of genes [e.g., [ 12 ] ]. For
-        example, a recent genomic analysis of 13,799 human genes
-        revealed that approximately 4% harbored retrotransposon
-        sequences within protein-coding regions [ 13 ] . Similar
-        results have been recently reported for the nematode 
-        Caenorhabditis elegans [ 14 ] . Here
-        we analyze the polymorphism of two LTR retrotransposon /
-        host gene associations across geographically widespread 
-        D. melanogaster populations and a
-        representative population of the 
-        D. melanogaster sibling species, 
-        Drosophila mauritiana .
-      
-      
-        Results
-        We have initiated a genomic analysis of LTR
-        retrotransposons present in the 
-        Drosophila melanogaster genome [e.g.,
-        [ 15 ] ]. Of particular interest is identification of genes
-        harboring TEs and determining if these insertion alleles
-        are in high frequency or fixed among natural populations as
-        would be expected from the adaptive hypothesis. We report
-        here the results of an analysis of two LTR
-        retrotransposon-containing genes located on the second
-        chromosome of the sequenced 
-        D. melanogaster y; cn bw sp strain.
-        These two genes present an interesting contrast in that one
-        of them, 
-        Chitinase 3 (Cht3) , is located
-        within constitutive heterochromatin (Genbank accession:
-        AE002743) while the other, 
-        cathD , is located in a euchromatic
-        region of the chromosome (Genbank accession: AE003839). Our
-        findings demonstrate that while the euchromatic 
-        cathD insertion variant was not
-        detected in any of the natural populations examined, the
-        insertion variant present in the heterochromatic 
-        Cht3 gene was found to be apparently
-        fixed throughout the species. These results are consistent
-        with the view that the presence of TEs in constitutive
-        heterochromatin may have relevance to the expression of
-        heterochromatic genes [e.g., [ 16 17 ] ].
-        Genomic analysis of the sequenced y; 
-        cn bw sp strain of 
-        Drosophila melanogaster identified a
-        full-length 
-        Burdock LTR retrotransposon located
-        just 3' to the 
-        cathD gene and a 359bp LTR fragment
-        (complete LTR is 659 bp) of an 
-        Antonia LTR retrotransposon [ 15 ]
-        located within an intron of the 
-        Cht3 gene (Figure 1). A set of PCR
-        primers were designed to amplify regions of both genes and
-        retrotransposon sequences. Appropriate pairs of gene and
-        element primers were used to detect the presence or absence
-        of the respective retrotransposon inserts associated with
-        each gene in strains representing 12 geographically
-        dispersed populations of 
-        D. melanogaster . The results
-        presented in Figure 2and Table 1demonstrate that while the 
-        Burdock insertion located just 3' to 
-        cathD gene is not present in any of
-        12 strains representing a geographically diverse sampling
-        of natural populations, the 
-        Antonia LTR fragment located in the
-        intron of the heterochromatic 
-        Cht3 gene is fixed in all 12 strains
-        tested.
-        It is formally possible that the presence of the 
-        Antonia LTR within the 
-        Cht3 intron was the result of a
-        chance fixation event prior to the expansion of 
-        D. melanogaster around the world.
-        Thus, to further test the adaptive hypothesis we compared
-        the level of sequence divergence within the LTR and its
-        flanking intronic sequence between the two sibling species 
-        Drosophila melanogaster and 
-        Drosophila mauritiana . If the
-        LTR-containing intron is under stabilizing selection, a
-        lower than neutral rate of substitution would be expected.
-        A total of 685 bp of the 
-        Cht3 intron was sequenced. This
-        region spans 264 bp of the 359 bp 
-        Antonia LTR fragment. The sequence of
-        this region in a 
-        D. melanogaster (Dimonika, Africa)
-        and 
-        D. mauritiana (Mauritius, Africa)
-        strain was aligned with the homologous region in the
-        sequenced 
-        D. melanogaster y; cn bw sp strain
-        (Figure 3). The two 
-        melanogaster strains were 100%
-        identical. The 
-        melanogaster sequences were found to
-        be only 1.3% (9 substitutions/685 nucleotide sites)
-        diverged from that of 
-        D. mauritiana . This value is
-        significantly less than half of the expected 4.3 % (± 2.7)
-        divergence based on the 
-        Drosophila neutral substitution rate
-        of 0.016 (± 0.005) substitutions/site/million year [ 18 ]
-        over the estimated 2.7 million years separating the two
-        species [ 19 ] .
-        To directly compare the substitution rate for the 
-        Cht3 intron with that of another 
-        Drosophila gene intron, we randomly
-        selected intron 1 of the 
-        Drosophila alcohol dehydrogenase ( 
-        Adh ) gene. 
-        Adh is a widely studied 
-        Drosophila gene and it has been
-        sequenced in several 
-        Drosophila species including 
-        D. melanogaster , accession X60793 [
-        20 ] and 
-        D. mauritiana , accession M19264 [ 21
-        ] . The sequence divergence between 
-        D. melanogaster and 
-        D. mauritiana in the 
-        Adh intron 1 (7.9%, Figure 4), is
-        higher than that for the LTR containing 
-        Cht3 intron (1.3%). These results
-        strongly suggest that conservative selection has been
-        operating on the LTR containing intron associated with the 
-        Drosophila Cht3 gene over the past
-        2.7 million years.
-      
-      
-        Discussion
-        For many years, constitutive heterochromatin was
-        considered to be of little or no functional significance [
-        22 ] . This view seemed to be supported by early molecular
-        studies showing that heterochromatin consists almost
-        exclusively of highly repeated and middle repetitive DNA
-        [e.g., [ 23 24 ] ]. The middle repetitive fraction was
-        viewed as the descendent of once active TEs that had the
-        misfortune of inserting into transcriptionally inert
-        heterochromatin at some point in their evolutionary history
-        [e.g., [ 6 20 ] ]. The view of heterochromatin as a genetic
-        wasteland gradually changed with the mapping of a number of
-        functionally important 
-        Drosophila genes to constitutive
-        heterochromatin [e.g., [ 24 25 26 27 28 29 30 31 ] ].
-        Reexamination of 
-        Drosophila constitutive
-        heterochromatin revealed that long stretches of highly
-        repetitive DNA are interrupted by "islands" of
-        retrotransposon sequences [e.g., [ 32 33 ] ]. 
-        Drosophila genes in heterochromatin
-        are typically associated with these islands of
-        retrotransposons [ 2 31 34 35 36 ] . It has been suggested
-        that transposable elements inserted into heterochromatin
-        may locally alter chromatin structure [e.g., [ 16 ] ]. Our
-        results suggest that in at least some instances, the
-        association of heterochromatic genes with transposable
-        element sequences may be of adaptive significance.
-      
-      
-        Conclusions
-        The results presented here are consistent with the
-        hypothesis that a 359 bp fragment of the 
-        Antonia retrotransposon located
-        within the intron of the heterochromatic 
-        Drosophila melanogaster Cht3 gene may
-        be of adaptive evolutionary significance. Further genomic
-        and molecular analyses will be required to assess the
-        general importance of LTR retrotransposon sequences to the
-        evolution of heterochromatic gene structure and
-        function.
-      
-      
-        Materials and Methods
-        
-          Gene Region Annotation
-          BLASTS of sequenced DNA turned up several instances of
-          genes proximal to an LTR retrotransposon. Sequence
-          retrieval was initiated via BLASTN searches (default
-          parameters- [ 37 ] ) against the BDGP
-          http://www.fruitfly.organd GenBank
-          http://www.ncbi.nlm.nih.govdatabases using LTRs from
-          previously identified 
-          Drosophila retroelements as queries
-          [ 15 ] . Results with E-values < e -10were annotated
-          on the corresponding clone, whereupon visual inspection
-          of several annotations confirmed the presence of
-          retroelements proximal to known genes. Selected genes
-          were BLASTed against NCBI's EST database and mapped along
-          with predicted transcript structures from Flybase
-          http://www.flybase.org. Chromosomal location of clones
-          was also determined from Flybase.
-        
-        
-          PCR
-          
-            Cht3 PCR
-            The PCR products for primer set 
-            cht3(f) and 
-            cht3(r) and primer set 
-            Antonia LTR(f) and 
-            Antonia LTR(r) were amplified in
-            a 25 μl reaction containing 3 mM MgCl 
-            2 , 10X PCR buffer supplied by
-            Pierce (Rockford, IL), 5% DMSO, 0.2 mM dNTPs, 0.5 μM of
-            each primer, and 0.5 U of Taq DNA polymerase supplied
-            by Pierce [Rockford, IL]. The program consisted of an
-            initial incubation at 94°C for 3 min for 1 cycle, a 30
-            cycle extension at 94°C for 30 sec, 56°C for 
-            cht3(f)/cht3(r) primer set or
-            57°C for 
-            Antonia LTR(f)/Antonia
-            LTR(r) primer set for 30 sec, 72°C for 1 min 30
-            sec, and a 1 cycle final extension of 72°C for 5 min.
-            The PCR products for primer set 
-            cht3(f2) and 
-            LTR(r) were amplified in a 25 μl
-            reaction containing Expand Long Template PCR System 10X
-            PCR buffer #1 supplied by Roche (Indianapolis, IN),
-            0.35 mM dNTPs, 0.32 μM of each primer, and 1.3 U of
-            Expand Long Template PCR System DNA polymerase mix
-            supplied by Roche (Indianapolis, IN). The program
-            consisted of an initial incubation at 94°C for 3 min
-            for 1 cycle, a 30 cycle extension at 94°C for 30 sec,
-            52°C for 30 sec, 68°C for 3 min, and a 1 cycle final
-            extension at 68°C for 5 min.
-          
-          
-            cathD PCR
-            The reaction mix and program used for all sets of
-            primers are the same as those described for primer set 
-            cht3(f) and 
-            cht3(r) and primer 
-            set Antonia LTR(f) and 
-            Antonia LTR(r) in the 
-            Cht3 PCR (above). The annealing
-            temperature for primer set 
-            cathD(f) and 
-            cathD(r) is 58°C, for primer set 
-            Burdock LTR(f) and 
-            Burdock element(r) is 59°C, and
-            for primer set 
-            cathDff ) and 
-            Burdock element(r) is 56°C.
-          
-        
-        
-          Sequencing
-          PCR products of the 
-          Cht3 intron were sequenced in the
-          Molecular Genetics Instrumentation Facility at the
-          University of Georgia. Sequences were aligned with Mac
-          Vector 7.0 and compared to the published y; 
-          cn bw sp strain. Substitutions and
-          insertion/deletion sites (indels) were summed for each
-          sequence product and compared to the expected divergence
-          based upon the neutral substitution rate. The expected
-          number of polymorphisms between 
-          D. melanogaster and 
-          D. mauritiana was calculated based
-          on the 
-          Drosophila neutral substitution
-          rate of .016 (± 0.005) substitutions per site/million
-          years [ 18 ] on 685 bp over a divergence time of 2.7
-          million years [ 19 ] .
-        
-        
-          Note added in proof
-          The two Cht3 intron fragments descibed in Figure 3
-          have the following provisional accession numbers in
-          GenBank:
-          D. melanogaster, Africa - AY081055
-          D. mauritiana - AY081054
-        
-      
-    
-  
+
+
+
+Coup Reshapes Legal Aid Programs:
+One Directors' Path is Smooth While Another's is Rough
+By Gina Keating Daily Journal Staff Writer
+LOS ANGELES - A government-sponsored coup last year made Bruce
+Iwasaki and Neal Dudovitz the kings of Los Angeles County's
+federally funded legal aid community.
+The two men emerged atop a changed landscape that resulted from
+a decade of begging for a share of shrinking public dollars doled
+out by an unsympathetic GOP-controlled Congress. That era was
+capped in 1998, when the Legal Services Corp. forced 275 legal aid
+providers nationwide to combine into 179.
+To comply with the orders from their main funding source, a new
+species of poverty lawyer emerged - a tech-savvy and button-down
+breed who swapped neighborhood walkin offices for toll-free phone
+lines, self-help kiosks and Internet access to legal advice.
+While some organizations made the dramatic change look
+effortless, for others, it did not come easy. And few programs
+provide more dramatic illustrations of the promise and pitfalls of
+government-funded legal services than Los Angeles County's two
+largest providers of federally funded services - Legal Aid
+Foundation of Los Angeles and Pacoima-based Neighborhood Legal
+Services of Los Angeles County.
+From his offices in Koreatown, Iwasaki, a soft-spoken former
+O'Melveny & Myers attorney, quietly engineered a merger between
+a much smaller Legal Aid Society of Long Beach and his program, the
+Legal Aid Foundation of Los Angeles. The merger was completed
+peacefully within a year of the federal order.
+Today, the programs operate seamlessly, offering new innovations
+- including toll-free multilingual phone advisers, expanded hours
+for domestic-violence clinics, and renewed immigration and consumer
+aid - built on the foundations of the old program. The organization
+is Los Angeles' largest government-funded group, with a budget of
+$11 million leveraged into $40 million in legal services to the
+poor.
+Iwasaki's careful respect for the Long Beach program and its
+lawyers earned him the political capital he needed to complete his
+takeover in a matter of weeks.
+"The Long Beach program had strong support in the community so
+in a situation like that, one has to recognize that it's not like a
+takeover where I have all the answers and I know best," Iwasaki
+said. "The people in the community who are working there have the
+contacts and the knowledge that will allow service to
+continue."
+Things have gone less smoothly across town. There, Dudovitz, a
+longtime poverty lawyer and executive director of the San Fernando
+Valley's 36-year-old legal aid program, continues to struggle with
+his hostile takeover of the neighboring San Gabriel-Pomona Valleys
+service area one year after it was accomplished.
+On the bright side, Dudovitz has extended his respected program
+to clients in the San Gabriel-Pomona Valley, and he now operates on
+a much larger budget, $6.5 million last year. However, his clash
+with the old San Gabriel program resulted in litigation, bitter
+feelings and a mission that some say is not clearly focused on
+serving poor people.
+"It was a difficult situation that was probably mishandled by
+everyone," a longtime observer of the public interest community
+said of the San Fernando Valley-San Gabriel-Pomona Valley merger.
+"There are very few people who come out as the heroes.
+Personalities got involved when they shouldn't have. Things were
+said that caused bad feelings and couldn't be unsaid."
+Iwasaki's merger with the smaller, 48-year-old Long Beach
+program was friendly and fast, and no one - not even Long Beach
+board members - lost a job.
+When it was over, Iwasaki had $1 million more in federal dollars
+and two new offices. Long Beach clients regained services they had
+lost years ago when federal budget cuts and dwindling grants
+reduced the staff of 15 lawyers to five and cut immigration and
+consumer law programs.
+Iwasaki said, "[I judged the transition] better than I could
+have hoped for."
+Former Long Beach Executive Director Toby Rothschild, now a
+policy wonk in Iwasaki's outfit, agreed.
+"To some extent, I did look at it and say, 'We are the littlest
+kid on the block, and we don't want to get beat up so we need a
+bigger protector,'" Rothschild said. "Once we got past that, it
+became a real positive for the Long Beach program and Long Beach
+clients."
+But to the San Gabriel-Pomona Valley legal aid program, the
+positives of merging with Dudovitz's program, San Fernando Valley
+Neighborhood Legal Services, were never obvious.
+A meeting in late 1999 between Dudovitz and the San
+Gabriel-Pomona Valley program's board showed how little the two
+programs had in common and how difficult bridging the gap between
+their ideologies would be, Dudovitz recalled.
+Although no merger plans were discussed, board members at the
+smaller program knew of Dudovitz's preference for impact litigation
+over direct services.
+"We had a discussion about what our separate views were,"
+Dudovitz said. "The message we got was that they wanted their
+program to stay as it was."
+Lauralea Saddick, former executive director of the San
+Gabriel-Pomona Valley program, said her board simply did not share
+Dudovitz's desire to spend money influencing social policy and
+participating in high-profile litigation over poverty-related
+issues.
+"Our board's philosophy was that the money given by the federal
+government was to help people with basic everyday needs," Saddick
+said. "It might take a little bit of humility to take those kinds
+of cases. Impact work is very important ... but what was the good
+of getting the law changed if no one is there to help the
+individual?"
+Before the San Gabriel program was subsumed by Dudovitz's group,
+it offered to merge with the Legal Aid Society of Orange County.
+The boards of both organizations eschewed impact litigation in
+favor of the 1960s model of providing direct client services.
+Supported by resolutions from the Pasadena, San Gabriel, Eastern
+and Foothill bar associations, the two programs drew up plans to
+merge and submitted them to the Legal Services Corp.
+Dudovitz won Iwasaki's backing to oppose the deal, and Legal
+Services Corp., the national funding source, overruled the proposed
+San Gabriel-Pomona Valley/Orange County merger. On Jan. 27, 2001,
+the federal agency awarded the San Gabriel-Pomona Valley service
+area to Dudovitz under the umbrella of an expanded San Fernando
+program, citing the location of both programs in Los Angeles, which
+would allow "better coordinated and more effective advocacy on
+county government policies."
+The San Gabriel-Pomona Valley program sued Legal Services Corp.
+to stop the takeover, claiming the federal program based the
+decision on favoritism for the politically active Dudovitz and the
+politically powerful Iwasaki.
+Though the federal suit accomplished little, it effectively
+suspended the end of the old program and the start of the new one
+for nearly a year. Hundreds of case files, as well as two offices
+in Pasadena and Pomona, remained under the old program's control
+until the litigation ended in August 2001.
+"We weren't being uncooperative in the matter, they were not
+reasoning [the transition] out like lawyers," former San
+Gabriel-Pomona Valley board President Jerome Applebaum said.
+During this period, Dudovitz did what he could to claim his new
+territory - a huge area bounded by the Ventura, Kern, San
+Bernardino and Riverside county lines and state Route 60. He
+renamed his program Neighborhood Legal Services of Los Angeles
+County.
+He set up a temporary office in El Monte, advertised his
+toll-free phone line through the radio, local elected officials and
+the courts. He sent paralegals and staff attorneys to conduct
+several daylong educational clinics at local churches, schools and
+communitybased organizations. And he accepted city officials'
+invitations to analyze and comment on a low-income housing
+ordinance in Pasadena along with other housing advocates.
+Neighborhood Legal Services participated in several cooperative
+efforts with homeless advocacy and health care agencies in his new
+territory.
+Dudovitz said that he is halfway to his goal of reorganizing his
+new territory.
+Still untaken are several steps that required goodwill from
+local bar associations and others who had opposed the
+combination.
+"[I am] not a fan of Neal's," admitted John Peck, a former board
+member of the San Gabriel-Pomona Valley program and a Pasadena Bar
+Association board member.
+Peck says bad feelings still linger among allies of the old
+program who feel left out.
+"They really screwed us. We had a good program," Peck said.
+An observer familiar with the reconfiguration debate who
+requested anonymity wondered why Dudovitz had not spent more time
+mending fences.
+"He ought to be bending over backwards for reconciliation, but
+if you want to do impact work and people in the San Gabriel Valley
+want direct services, you have to accommodate that or change your
+approach," the observer said. "Neal would never consider doing
+that."
+More than a year after he officially incorporated the San
+Gabriel-Pomona Valley, Dudovitz had not placed a local resident on
+the board of Neighborhood Legal Services or made the rounds of the
+private legal community to recruit the volunteer lawyers.
+"Our emphasis has been on having our potential clients know
+about us and deliver services to them," Dudovitz said. "We have
+done that spectacularly."
+He did not hire any of the old program's nine lawyers and has
+yet to permanently place any of his 18 new hires in the San
+Gabriel-Pomona Valley. The lack of a legal aid presence in Pomona
+prompted the bar association and court officials to start their own
+once-monthly family law clinic.
+After learning of the effort, Dudovitz sent personnel to staff
+the clinic for three hours per week and is helping to write a grant
+application to fund a self-help kiosk for Pomona patterned on the
+center he pioneered in Van Nuys.
+The help, although late, has earned Dudovitz some
+appreciation.
+"There has been a transition and [the clinic] has helped to fill
+some void," said Deni Butler, administrator for the Eastern
+District Superior Court. "But we are working together quite nicely
+contrary to what the other side issue is."
+Scott Wheeler, president of the Eastern Bar Association of Los
+Angeles and an ally of the old program, said he mobilized his 200
+members to staff the clinic after watching the ranks of unserved
+poor grow over the past year.
+"We felt we needed to take care of something that had
+disappeared. We established the program because we were concerned
+about the changeover," Wheeler said.
+While acknowledging that building the new program from the
+ground up has been slow going, Dudovitz expects to serve up to 30
+percent more clients in the San Gabriel-Pomona Valley than his
+predecessors.
+Of the 700,000 to 1 million people who are eligible for legal
+aid services in his combined area, Dudovitz estimated that he will
+serve more than 30,000 annually. During his first year in the new
+territory, he served 25,000 in the program - a 20 percent increase
+over his caseload for San Fernando alone, Dudovitz said.
+"The reality is we have to make the transition step by step,"
+Dudovitz said. "We need to establish some infrastructure before we
+go out. One of the worse things that you can do is promise services
+that we can't deliver."
+During his 29-year tenure as a public interest lawyer, Dudovitz
+has proved that he can deliver on some of the Legal Services
+Corp.'s key objectives.
+By 2000, he had diversified funding sources for his then-$5.2
+million budget so that just 32 percent came from federal programs.
+He got the rest from private funds and state and local government
+contracts and grants.
+He hoped to do the same thing for the San Gabriel-Pomona Valley
+program, whose $1.8 million budget was derived almost entirely of
+Legal Services Corp. grants.
+He had learned the importance of reputation to private sector
+fund-raising after the Federal Emergency Management Agency cited
+his program before Congress for excellence in cases stemming from
+the 1994 Northridge earthquake.
+"After that, we were able to raise funds," he said. "People
+generally want to give to programs that do quality work because
+they get results. We are creative and effective advocates."
+Competitive bidding also became easier with a reputation to back
+up his grant proposals, and Dudovitz soon was raising enough to
+develop slick promotional materials and to share funds with other
+public interest programs to cement collaborative efforts on health
+care, policy advocacy, homelessness, domestic-violence assistance,
+self-help and technology development.
+He developed a reputation as an innovator with a
+multimillion-dollar grant from the California Endowment to fund a
+countywide health advocacy program called Health Consumer Center of
+Los Angeles.
+The 3-year-old program connected 10,000 poor people with health
+care and earned Dudovitz entrée to legislative committees and
+elected officials grappling with how to provide medical services
+for the poor.
+Long before Legal Services Corp. advised legal aid programs to
+recruit more privatesector attorneys, Dudovitz in 1992 established
+domestic-violence clinics in four San Fernando Valley courthouses
+in a partnership with the local bar association.
+He tapped that relationship again in 1999 to create two
+self-help legal access centers -one at the Van Nuys courthouse and
+the other at James Monroe High School in North Hills - where legal
+magnet students assist pro per defendants.
+"One of the things that is clear is that we could throw 50 or 60
+lawyers out there, and we could never approach the need in regards
+to providing one-on-one service," Dudovitz said. "But we can be
+effective if [we are] thoughtful about how we employ staff and the
+balance of the service we provide."
+Dudovitz acknowledged that the acrimonious transition may not
+have been ideal for clients but said the range of services now
+available to them will more than compensate for any lapse of
+services.
+Although he lauds his counterpart, Iwasaki, and the Long Beach
+community for their ideal marriage, Dudovitz had no regrets about
+his own stormy rise to power.
+"They were one of probably a handful of places in the country
+where that happened," he said. "We have an opportunity to grow a
+program based on 30 years of experience - we aren't stuck with the
+old way. That's an opportunity that very few people have had."
+
+
+

@@ -2,475 +2,564 @@
   
     
       
-        Background
-        Taste receptor cells are specialized epithelial cells,
-        which are organized into discrete endorgans called taste
-        buds. Typical taste buds contain 50-100 polarized taste
-        cells, which extend from the basal lamina to the taste
-        pore, where apical microvilli protrude into the oral
-        cavity. The basolateral membrane forms chemical synapses
-        with primary gustatory neurons (Fig. 1A). In mammals,
-        lingual taste buds are housed in connective tissue
-        structures called papillae. Fungiform papillae are located
-        on the anterior two-thirds of the tongue and typically
-        contain 1-2 taste buds each. Vallate and foliate papillae
-        are found on the posterior tongue and house several hundred
-        taste buds each. Taste transduction begins when sapid
-        stimuli interact with the apical membrane of taste cells,
-        usually resulting in taste cell depolarization, calcium
-        influx, and transmitter release onto gustatory afferent
-        neurons. Simple stimuli, such as salts and acids depolarize
-        taste cells by direct interaction with apical ion channels.
-        In contrast, complex stimuli, such as sugars, amino acids,
-        and most bitter compounds bind to G protein coupled
-        receptors, initiating intracellular signaling cascades that
-        culminate in Ca 2+influx or release of Ca 2+from
-        intracellular stores [ 1 2 3 ] .
-        Inositol 1,4,5-trisphosphate (IP 
-        3 ) is an important second messenger in
-        both bitter and sweet taste transduction. In both pathways,
-        activation of taste receptors stimulates a G
-        protein-coupled cascade resulting in activation of
-        phospholipase C (PLC), which cleaves phosphoinositol
-        bisphosphate (PIP 
-        2 ) to produce the second messengers IP 
-        3 and diacylglycerol (DAG). The soluble
-        messenger IP 
-        3 binds to receptors located on calcium
-        store membranes, causing release of calcium into the
-        cytosol, while DAG remains in the membrane, where it can
-        activate downstream effectors. While little is known about
-        the role of IP 
-        3 in sweet taste transduction,
-        considerable data indicate that IP 
-        3 plays an important role in bitter
-        transduction. The first evidence for the involvement of IP 
-        3 in bitter transduction was obtained by
-        Akabas et al. [ 4], who used Ca 2+imaging to show that the
-        bitter stimulus denatonium causes release of Ca 2+from
-        intracellular stores. More recently, biochemical
-        measurements have shown that several bitter compounds
-        elevate IP 
-        3 in taste tissue [ 5 6 7 8 ] .
-        Other studies, however, suggested that a decrease in
-        cAMP, rather than an increase in IP 
-        3 , mediated bitter transduction. In
-        1992, a chemosensory specific G protein, α-gustducin, was
-        identified in a subset of taste cells [ 9].
-        Alpha-gustducin, which is closely related to the rod and
-        cone transducins, activates PDE to reduce intracellular
-        levels of cAMP [ 13]. Evidence for gustducin's role in
-        bitter taste came from knockout studies, in which a
-        targeted deletion of α-gustducin resulted in mice with a
-        reduced sensitivity for bitter compounds [ 10]. More
-        recently, a variety of bitter compounds have been shown to
-        activate gustducin in biochemical assays [ 11, 12], causing
-        a decrease in intracellular cAMP levels via activation of
-        PDE [ 13]. It is now known that individual bitter receptors
-        modulate both the IP 
-        3 and cAMP pathways (Fig. 1B). Bitter
-        compounds bind to a family of G protein-coupled receptors
-        called the T2R [ 14, 15] or TRB [ 16] receptors, which
-        activate a heterotrimeric G protein consisting of
-        α-gustducin and a βγ complex containing β3 [ 17] and γ13 [
-        8]. Alpha-gustducin activates PDE to decrease intracellular
-        levels of cAMP [ 13], while its βγ partners stimulate PLCβ2
-        to produce IP 
-        3 and DAG [ 18].
-        Although it is clear that IP 
-        3 binds to receptors located on
-        intracellular Ca 2+stores, the specific identity of IP 
-        3 receptors in taste cells is not known.
-        There are at least 3 known isotypes of IP 
-        3 receptors encoded by different genes [
-        19]. Each protein product is about 300 Kda. Four subunits
-        assemble to form a functional channel. Both homomultimeres
-        and heteromultimeres have been reported [ 19]. The N
-        terminus of each subunit houses the IP 
-        3 binding domain while the C terminus
-        anchors the protein to the membrane, is involved in the
-        formation of the tetrameric protein, and forms the Ca
-        2+pore region. The general structure of each isoform is
-        similar, however they differ in primary sequence,
-        distribution, regulation, and IP 
-        3 affinity [ 19].
-        In this study we used immunocytochemical methods to
-        determine which IP 
-        3 R isoform is expressed in taste cells
-        and to examine the expression patterns of IP 
-        3 receptors relative to other proteins
-        known to be important for taste transduction. We report
-        that the Type III IP 
-        3 receptor is the dominant isotype
-        expressed in rodent taste cells and that it is primarily
-        found in the same subset of taste cells as other known
-        signaling components of bitter transduction. A preliminary
-        account of this work was published in abstract form [
-        20].
+        Introduction
+        The Golgi complex is an elaborate cytoplasmic organelle
+        that has a prominent function in the processing,
+        transporting, and sorting of intracellular proteins.
+        Autoantibodies directed against the Golgi complex were
+        first identified in the serum of a Sjögren's syndrome
+        patient with lymphoma [ 1 ] . Subsequent reports described
+        anti-Golgi complex autoantibodies (AGA) in patients with
+        systemic rheumatic diseases such as systemic lupus
+        erythematosus [ 2 ] , rheumatoid arthritis [ 3 ] , and
+        Wegener's granulomatosis [ 4 ] . Immunoblotting and
+        immunoprecipitation studies have shown that there was
+        heterogeneity of reactivity among AGA [ 5 ] .
+        Within the past several years, our laboratories and
+        others have cloned and identified novel Golgi autoantigens
+        (golgins) [ 6 ] . This has been achieved primarily by
+        expression cloning using human autoantibody probes. The
+        identified autoantigens referred to are golgin-160/GCP170 [
+        7 8 ] , golgin-95/gm130 [ 7 ] , golgin-97 [ 9 ] ,
+        golgin-245/ p230 [ 10 11 12 ] , giantin/macrogolgin/GCP372
+        [ 13 14 ] , and golgin-67 [ 15 ] . These proteins are
+        characterized by predominant α-helical coiled-coil domains,
+        except for N-termini and C-termini. It has been reported
+        that some golgins are localized to the cytoplasmic face of
+        Golgi membranes [ 16 ] . Functions of the golgins have been
+        proposed in vesicular transport and in maintaining
+        structural integrity of the Golgi complex [ 17 18 19 ] .
+        The potential implication is that these Golgi proteins may
+        have common biochemical characteristics that may make them
+        targets of autoimmune responses in certain disease
+        states.
+        It is not clear why and how the immune system is able to
+        recognize or target intracellular autoantigens. One
+        possible explanation is that they may be recognized as
+        surface structures on cytoplasmic organelles that are
+        released to the immune system in aberrant disease states
+        associated with unregulated cell death (apoptosis or
+        necrosis) resulting from injury or infection, or defective
+        clearance of dying cells. A variety of autoantigens are
+        cleaved into signature fragments during apoptosis and
+        necrosis [ 20 ] . Other cell death post-translational
+        modifications in autoantigens include hyperphosphorylation,
+        (de)ubiquitination, methylation, citrullination, and
+        transglutaminase crosslinking [ 21 22 ] .
+        The emerging view is that modified forms of autoantigens
+        generated during cell death might stimulate autoantibody
+        responses if presented to the immune system in a
+        proinflammatory context [ 23 ] . Since the fate of the
+        Golgi complex during cell death has not been extensively
+        explored, we investigated whether the Golgi complex and
+        associated autoantigens are altered during apoptosis and
+        necrosis. Using AGA as probes, we observed that the Golgi
+        complex undergoes dynamic changes during apoptosis distinct
+        from those observed in necrosis. Immunoblotting analysis
+        showed distinct cleavage fragments of Golgi autoantigens
+        generated during apoptosis and necrosis. Since the cleaved
+        Golgi autoantigen fragments are antigenic, they may play a
+        role in sustaining autoantibody production in autoimmune
+        disease states.
+      
+      
+        Materials and methods
+        
+          Antibodies
+          Human prototype serum containing highly specific
+          antipolyADP-ribose polymerase (PARP) antibody and AGA
+          sera were obtained from the serum bank of the WM Keck
+          Autoimmune Center, The Scripps Research Institute, CA,
+          USA. Rabbit antibodies to Golgi autoantigens were
+          produced in New Zealand White rabbits [ 7 9 10 ] .
+          Briefly, recombinant human Golgi autoantigens were
+          produced using the expression plasmid pET28 system in 
+          Escherichia coli (Novagen, Madison,
+          WI, USA). Recombinant golgin-160 (amino acids 787-1348,
+          GenBank accession number BAA23661), giantin (amino acids
+          851-1496, GenBank accession number NP_004478), gm130
+          (amino acids 370-990, GenBank accession number AAF65550),
+          and golgin-97 (amino acids 1-767, GenBank accession
+          number AAB81549) proteins were purified by affinity
+          nickel column chromatography. They were then used to
+          immunize one or two rabbits separately by subcutaneous
+          injection of recombinant proteins in an equal volume of
+          Freund's complete adjuvant. After booster immunizations,
+          the immune sera were prepared and stored at -20°C. The
+          appearance and titers of antibodies were monitored by
+          indirect immunofluorescence and immunoblotting
+          analysis.
+        
+        
+          Induction of cell death
+          Human Jurkat and HEp-2 cells were obtained from
+          American Type Culture Collection (Rockville, MD, USA) and
+          were cultured in RPMI 1640 and Dulbecco's modified
+          Eagle's medium (Life Technologies, Rockville, MD, USA),
+          respectively, containing 10% fetal bovine serum under
+          standard conditions. Induction of cell death was
+          performed essentially as described elsewhere [ 20 ] with
+          some modifications.
+          Apoptosis was induced in Jurkat T cells (10 6/ml) by
+          exposure to 1 μM staurosporine (STS) (ALEXIS, San Diego,
+          CA, USA) for up to 4 hours. Apoptosis in HEp-2 cells was
+          induced by exposure to 2 μM STS at 37°C for up to 6
+          hours. Necrosis was induced in these cells by exposure to
+          10 μM STS for up to 24 hours or by treatment with 0.1%
+          hydrogen peroxide (H 
+          2 O 
+          2 ) (Fisher Scientific, Pittsburgh,
+          PA, USA) for 3 hours. Necrosis was quantified using the
+          trypan blue exclusion assay, which measures loss of
+          cytoplasmic membrane integrity, as described previously [
+          20 24 ] .
+          At least 300 cells were counted in triplicate in three
+          independent experiments. In some experiments, Jurkat
+          cells were incubated for 1 hour in the presence of the
+          pancaspase inhibitor
+          benzylocarbonyl-Val-Ala-Asp-fluromethyl-ketone (zVAD-fmk)
+          (ALEXIS), used at 100 μM, prior to addition of STS.
+          Treated and control cells, and their extracts, were
+          analyzed by indirect immunofluorescence and/or
+          immunoblotting analysis. Spontaneous cell death prior to
+          the experiments was minimized by maintaining exponential
+          cell growth. Cell viability was quantified by trypan blue
+          exclusion analysis at the beginning of every experiment
+          to ensure that cell cultures used in the experiments were
+          healthy (alive cells >95%).
+        
+        
+          Indirect immunofluorescence microscopy
+          Indirect immunofluorescence was performed as reported
+          previously [ 7 10 25 ] . HEp-2 cells were grown on
+          eight-chamber vessel tissue culture slides (Becton
+          Dickinson, Franklin Lakes, NJ, USA) and treated with 2 or
+          10 μM STS for up to 6 hours. Cells were fixed by methanol
+          and acetone (1:3, -20°C) for 2 min. Sera containing AGA
+          were used in dilutions of 1:200 to 1:10,000. The
+          secondary antibodies were Alexa™ 488 conjugated goat
+          anti-rabbit IgG or anti-human IgG reagents (ALEXIS).
+          Cells were counterstained with
+          4',6-diamidino-2-phenylindole nuclear stain prior to
+          immunofluorescence microscopy. The estimation of the
+          percentage of cells at each morphological stage described
+          in the following for Golgi staining in apoptotic cells
+          was obtained by scoring 300-500 cells in each
+          experiment.
+        
+        
+          Immunoblotting analysis of cell lysates
+          After incubation in the presence of
+          cell-death-inducing reagents, Jurkat cells were
+          centrifuged at 200 × 
+          g for 30 min, followed by one wash
+          at 1000 × 
+          g for 10 min in PBS containing
+          Complete Protease Inhibitor cocktail (Roche, Mannheim,
+          Germany). Cell pellets (10 7) were then resuspended
+          directly in lysis buffer containing 150 mM NaCl, 1 mM
+          MgCl 
+          2 · 6H 
+          2 O, 80 mM Tris-HCl and 0.1%
+          NP-40.
+          The lysates were passed several times sequentially
+          through 18-gauge to 27-gauge needles to shear the DNA,
+          and protein concentrations in the lysates were determined
+          by Protein DC Assay Kit (Bio-Rad, Hercules, CA, USA) to
+          ensure equal loading of proteins in each SDS-PAGE lane.
+          After determination of the protein concentration, lysates
+          were mixed with an equal volume of 2 × gel sample buffer
+          containing 6% sodium dodecyl sulfate, 20% glycerol, 10%
+          β-mercaptoethanol, 0.02% bromphenol blue and Complete
+          Protease Inhibitor cocktail. Lysates were stored at -80°C
+          until use.
+          The equivalent of 1.5 μg total lysate protein was
+          loaded onto each lane of 10% SDS-PAGE gels, separated by
+          electrophoresis, and transferred to nitrocellulose
+          membranes using a Semi-Dry Trans-Blot apparatus
+          (Bio-Rad). Immunoblotting was performed as described
+          previously [ 7 10 24 ] using human anti-PARP specific
+          antibody (1:250) and AGA (1:250). Detection of bound
+          antibodies was achieved using horseradish
+          peroxidase-conjugated goat anti-human or anti-rabbit IgG
+          antibody (CALTAG, San Francisco, CA, USA), used at 1:5000
+          dilution, in combination with enhanced chemiluminescence
+          (Super Signal; PIERCE Products, Rockford, IL, USA).
+        
       
       
         Results
         
-          IP 3Receptor Isotypes
-          Forty micron thick rat sections containing
-          circumvallate papillae were exposed to either anti-IP 
-          3 R1, anti-IP 
-          3 R2, or anti-IP 
-          3 R3 antibodies and appropriate
-          secondary antibodies. Laser scanning confocal microscopy
-          of the resultant sections was used to examine the
-          distribution of IP 
-          3 receptor immunoreactivity in rat
-          circumvallate taste buds. Labeling for IP 
-          3 R1 and IP 
-          3 R2 was negligible (Figs. 2A, B). In
-          contrast, immunoreactivity to IP 
-          3 R3 was robust and present in a large
-          subset of taste cells (Fig. 2C). Generally,
-          immunoreactivity extended throughout the cytoplasm of
-          labeled cells. Immunoreactivity was found only in taste
-          buds and was not present in the lingual epithelium
-          surrounding taste buds. Primarily intragemmal taste cells
-          were labeled, proliferative basal cells of the taste buds
-          did not appear to be labeled. In addition, gustatory
-          nerve fibers did not appear to be labeled. Controls in
-          which the primary antibody was omitted showed no specific
-          labeling (Fig. 2D).
-        
-        
-          Co-expression of IP 3R3 with known bitter signaling
-          components
-          To determine if IP 
-          3 R3 could be involved in bitter taste
-          transduction, we performed double-label
-          immunocytochemistry with antibodies to IP 
-          3 R3 and components of the bitter
-          signaling pathway. For most experiments, mouse as well as
-          rat tissues were examined. Exposure of tissue to
-          antibodies against α-gustducin and IP 
-          3 R3 showed that all α-gustducin
-          immunoreactive (IR) cells were also immunoreactive for IP
+          Induction of apoptosis and necrosis in HEp-2
+          cells
+          HEp-2 cells exposed to 2 and 10 μM STS exhibited
+          apoptotic-like fragmentation into multiple round bodies
+          after 6 hours of treatment (Fig. 1c,1d). Interestingly,
+          cells exposed to 10 μM STS showed a more pronounced loss
+          of cytoplasmic membrane integrity (Fig. 1e), indicating
+          that this STS concentration drove cell death more rapidly
+          into necrosis. As control, cells treated with levels of H
           
-          3 R3, however, a subset of IP 
-          3 R3-IR taste cells lacked
-          α-gustducin-IR (Fig. 3). Further analysis with antibodies
-          to other signaling components of the bitter transduction
-          pathway are shown in Figs. 4- 5. Immunoreactivity for
-          PLCβ2 and IP 
-          3 R3 showed nearly complete
-          coincidence of labeling (Fig. 4). Immunoreactivity for
-          PLCβ2 extended throughout the cytoplasm, as did
-          immunoreactivity for IP 
-          3 R3. However, some taste cells
-          appeared to differ in the degree of labeling for each
-          antibody, with some cells showing more intense label for
-          IP 
-          3 R3 and others for PLCβ2. We also
-          compared IP 
-          3 R3 IR with γ13 IR in rat and mouse
-          circumvallate taste buds. As shown in Fig. 5, nearly
-          complete co-localization was again observed for both
-          antigens. Results from PLCβ2 and γ13 double label
-          experiments were similar for mouse and rat taste buds.
-          Taken together, these immunocytochemical data indicate
-          that IP 
-          3 R3 is the predominant isoform of IP 
-          3 receptor expressed in taste cells,
-          and that it is found in the same subset of taste cells as
-          other components known to be involved with bitter taste
-          transduction.
+          2 O 
+          2 (0.1%) previously shown to provoke
+          massive necrotic cell death [ 20 ] exhibited a
+          characteristic necrotic morphology (Fig. 1b) associated
+          with rapid loss of cytoplasmic membrane (Fig. 1e).
+        
+        
+          Changes of the Golgi complex during
+          apoptosis
+          Changes in the Golgi complex during apoptosis were
+          examined by immunostaining with AGA in HEp-2 cells
+          treated with 2 μM STS. Apoptosis was defined by
+          stereotypic morphological changes, especially evident in
+          the nucleus, where the chromatin condenses and compacts,
+          and assumes a globular, crescent-shaped morphology [ 26 ]
+          . Figure 2shows a composite of four apoptotic stages,
+          provisionally called stages I-IV (Fig. 2b,2c,2d,2e), that
+          are classified on the basis of progression of apoptotic
+          nuclear change (middle panels) and corresponding staining
+          for golgin-97 (left panels).
+          About 50-60% of cells appeared unaffected after 2
+          hours of incubation in the presence of STS, as evidenced
+          by perinuclear Golgi staining identical to untreated
+          cells (Fig. 2a). Interestingly, 'swelling' of the Golgi
+          complex with vesicular staining (stage I) was observed in
+          10-20% of cells, and is most strikingly demonstrated in
+          Fig. 2b. It is estimated that the area occupied by the
+          swelled Golgi can be ~ 5-10 times the normal size for
+          Golgi complex in HEp-2 cells. Slight changes in the shape
+          of some nuclei were observed, as shown in the middle
+          panel, but most cells with Golgi swelling exhibited no
+          change in nuclear size and shape.
+          About 10% of cells appeared to be in stage II (Fig.
+          2c) where there was elongation of the nucleus, appearing
+          kidney or crescent shaped (middle panel). A
+          characteristic of stage II was that the Golgi complex was
+          condensed at the concave or indented region of the
+          crescentic nucleus (right panel). Stage III (Fig. 2d) was
+          seen in 3-5% of cells with defined nuclear fragmentation
+          into two approximately equal fragments (middle panel) and
+          golgin-97 primarily located at the cleavage zone between
+          the two nuclear fragments (right panel). About 10-15% of
+          the cells were considered to be at stage IV (Fig. 2e),
+          where their nuclei were fragmented into more than two
+          pieces (middle panel) and golgin-97 staining appeared as
+          vesicular structures. This was the final stage when
+          remnants of the Golgi complex could be detected.
+          Evaluation of cells after 6 hours of incubation with 2
+          μM STS showed all four stages described (data not shown).
+          At this time, up to 50% of cells were in stage I, 20%
+          were in stage II, 2-3% were in stage III, and 25% of
+          cells were in stage IV. These data suggested that
+          STS-treated cells do not enter the apoptotic pathway at
+          the same time, which is consistent with the notion that
+          apoptosis is a relatively asynchronous process.
+          Similar staining patterns to those seen with golgin-97
+          were observed when apoptotic HEp-2 cells were stained
+          with antibodies to golgin-95, golgin-160, golgin-245, and
+          giantin (data not shown). These results were also
+          reproduced in HeLa S3 and mouse J774A.1 cells treated
+          with 2 μM STS (data not shown). The amount of Golgi
+          swelling observed in stage I varied in different
+          experiments, but the characteristics for stages II-IV
+          were highly reproducible in all the experiments we have
+          conducted. Our observations of Golgi swelling during
+          apoptosis are supported by previous studies. For
+          instance, in neurons undergoing apoptosis, morphologic
+          changes were characterized by a highly ordered sequence
+          of organelle abnormalities, with swelling of endoplasmic
+          reticulum and Golgi vesiculation that preceded most
+          nuclear changes or mitochondrial disruption [ 27 28 ]
+          .
+        
+        
+          Changes of the Golgi complex during necrosis
+          In contrast to the Golgi swelling already described,
+          striking fragmentation of the Golgi complex was observed
+          during necrosis in HEp-2 cells treated with 10 μM STS
+          (Fig. 2f). As shown in Fig. 1b,1e, approximately 50% of
+          cells treated with this STS concentration, while
+          initially showing apoptotic-like fragmentation into
+          multiple bodies, gradually died by necrosis. Figure
+          2fshows Golgi fragments clearly visible (arrows) in cells
+          with condensed nuclei after 6 hours of treatment with 10
+          μM STS. Note the absence of nuclear fragmentation in
+          these cells compared with apoptotic cells (Fig. 2e),
+          consistent with previous observations showing that
+          necrotic nuclei exhibit condensation but not
+          fragmentation [ 20 ] . In this treatment, designed to
+          drive apoptotic cells more rapidly into necrosis, changes
+          in the Golgi complex similar to the four stages observed
+          in apoptosis were not detected. Similar results were also
+          obtained for other Golgi autoantigens, including
+          golgin-160, giantin, and golgin-95 (data not shown).
+          No Golgi staining was observed in HEp-2 cells treated
+          with 10 μM STS for 24 hours or with 0.1% H 
+          2 O 
+          2 (data not shown), presumably due to
+          the extensive cytoplasmic damage associated with
+          necrosis. These results suggested that the Golgi complex
+          is affected differently in apoptosis and in necrosis,
+          prompting us to examine whether specific Golgi proteins
+          are targeted for proteolysis in these modes of cell
+          death.
+        
+        
+          Golgi autoantigens are cleaved during apoptosis and
+          necrosis
+          It is well established that specific intracellular
+          autoantigens are cleaved into different fragments in
+          Jurkat T cells and other cell types undergoing apoptosis
+          and necrosis [ 20 ] . Mancini 
+          et al . reported that golgin-160
+          (native protein, 160 kDa) was cleaved into a 140 kDa
+          fragment during apoptosis [ 29 ] . We therefore performed
+          an immunoblotting analysis using extracts from Jurkat
+          cells treated with apoptosis-inducing reagent (1 μM STS)
+          or necrosis-inducing reagent (0.1% H 
+          2 O 
+          2 ) to investigate whether Golgi
+          autoantigens are cleaved in the two major types of cell
+          death. PARP (110 kDa protein) was selected as a positive
+          control to monitor the cleavage of proteins during
+          apoptosis and necrosis because its cleavage products in
+          Jurkat cells undergoing apoptosis (89 kDa) and undergoing
+          necrosis (60 and 50 kDa) are well established [ 20 24 30
+          ] .
+          Figure 3shows the results of immunoblotting analysis
+          using antibodies to PARP and four Golgi autoantigens. In
+          cells treated with STS (Fig. 3, left) or H 
+          2 O 
+          2 (Fig. 3, right), PARP was cleaved
+          into an 89 kDa polypeptide (apoptotic fragments) or 60
+          and 50 kDa polypeptides (necrotic fragments),
+          respectively, with complete degradation of native protein
+          as previously described [ 24 ] . Golgin-160 was cleaved
+          into 140 and 80 kDa fragments in apoptotic cells,
+          consistent with published observations [ 29 ] . In
+          contrast to the apoptotic fragments, a 70 kDa fragment
+          was detected in necrotic cells. Giantin was cleaved into
+          three major apoptotic fragments (150, 80, and 60 kDa),
+          and these fragments were clearly different from the 75
+          and 50 kDa fragments derived from necrosis.
+          Interestingly, while apoptotic fragments of golgin-95 and
+          golgin-97 were not detected, necrotic fragments at 50 and
+          70 kDa were detected for both proteins. A summary of the
+          Golgi protein fragments generated during apoptosis and
+          necrosis is presented in Table 1.
+        
+        
+          Proteolysis of Golgi autoantigens induced by
+          apoptosis is caspase dependent
+          The caspase family of proteases plays a central role
+          in apoptosis by participating in a cascade of cleavage
+          events that result in the apoptotic phenotype [ 31 ] . We
+          investigated whether the proteolysis of Golgi
+          autoantigens caused by treatment with STS was caspase
+          dependent. Jurkat cells were treated with 1 μM STS for 4
+          hours after preincubation with the pan-caspase inhibitor
+          100 μM zVAD-fmk. The generation of proteolytic fragments
+          from Golgi autoantigens was completely blocked in Jurkat
+          cells pretreated with zVAD-fmk (Fig. 4), indicating that
+          cleavage of Golgi autoantigens during apoptosis is
+          mediated by caspases.
         
       
       
         Discussion
-        IP 
-        3 R3 is heavily expressed in a large
-        subset of vallate taste cells of both mouse and rat,
-        suggesting that IP 
-        3 R3 plays a similar role in both
-        species. IP 
-        3 R3 appears to be located throughout
-        the cytoplasm of taste cells, consistent with its expected
-        location on the smooth endoplasmic membrane [ 21]. In other
-        cells, IP 
-        3 receptors have also been found on the
-        plasma membrane [ 19], but because of heavy cytoplasmic
-        labeling, we were unable to resolve whether it was also
-        located on the plasma membrane. One caveat is that antigen
-        retrieval was necessary to observe IP 
-        3 R3 labeling. However, using this
-        method with α-gustducin, PLCβ2, and γ13 antibodies did not
-        alter their immunoreactivities; similar results were
-        obtained with and without antigen retrieval. Thus, we do
-        not believe that antigen retrieval compromised our
-        interpretation of the results.
-        Taste cells expressing IP 
-        3 R3 have an elongate, bipolar
-        morphology, suggestive of Type II taste cells [ 22].
-        Indeed, a subset of the IP 
-        3 R3 immunoreactive taste cells is also
-        immunoreactive for α-gustducin, which has been identified
-        exclusively in Type II cells [ 23]. However, whether IP 
-        3 R3 is expressed exclusively in Type II
-        cells awaits further investigation. It is noteworthy that a
-        subset of taste cells does not express IP 
-        3 receptors. This raises the question as
-        to whether these cells have intracellular Ca 2+release
-        mechanisms. Ryanodine receptors also mediate release of Ca
-        2+from intracellular stores, however a previous study
-        showed no effect of ryanodine on bitter taste responses in 
-        Necturus taste cells [ 24].
-        IP 
-        3 R3 immunoreactivity was expressed in
-        the same subset of taste cells as PLCβ2 and γ13, and by
-        inference from other data, β3 [ 8]. Antibodies against
-        these proteins have been shown to inhibit IP 
-        3 formation to bitter compounds in taste
-        cells [ 8, 17, 18], suggesting that they are important
-        components of the bitter-stimulated IP 
-        3 pathway. It is of interest that only a
-        subset of IP 
-        3 R3 IR cells express α-gustducin, a G
-        protein known to be involved with bitter transduction.
-        These data suggest that alpha subunit(s) in addition to
-        α-gustducin must be involved with the IP 
-        3 signaling pathway in α-gustducin
-        negative cells. Several G protein alpha subunits have been
-        identified in taste cells, and are potential candidates for
-        this role. These include α-transducin [ 25], Gαi-2, Gαi-3,
-        Gαs [ 26], and Gα15 and Gαq [ 27]. Further experiments will
-        be required to identify the additional alpha subunits that
-        couple to this pathway, and the receptors that activate
-        these G proteins.
-        In addition to its role in bitter transduction, IP 
-        3 is involved in the transduction of
-        artificial sweeteners [ 28]. Interestingly, mice lacking
-        α-gustducin are compromised in the detection of sweet
-        compounds as well as bitter compounds, suggesting that
-        sweet receptors may also couple to α-gustducin [ 10].
-        Approximately two-thirds of the α-gustducin positive
-        vallate taste cells express T2R/TRB receptors [ 15]. It is
-        possible that the remaining α-gustducin positive vallate
-        taste cells express receptors for synthetic sweeteners, and
-        that they couple to the IP 
-        3 signaling pathway. Thus, IP 
-        3 R3 may be involved with sweet as well
-        as bitter taste transduction.
-        IP 
-        3 R3 is widely expressed in cells in a
-        variety of tissues including adult pancreatic islets,
-        kidney, gastrointestinal tract, salivary glands, and brain
-        [ 29, 30]. Many of these cell types, including taste cells,
-        are polarized, where Ca 2+signals are initiated on the
-        apical membrane and must propagate long intracellular
-        distances. IP 
-        3 R3 is particularly well suited for
-        this function, since it is the only IP 
-        3 receptor isotype that is not inhibited
-        at high Ca 2+concentrations [ 31]. In fact, under certain
-        conditions, Ca 2+can stimulate IP 
-        3 R3, making it a likely candidate for
-        participation in the propagation of Ca 2+oscillations. In
-        taste cells Ca 2+oscillations have been observed in
-        response to bitter stimuli (T. Ogura and S.C. Kinnamon,
-        unpub. observations), and it's likely that IP 
-        3 R3 participates in these Ca
-        2+oscillations.
-        Another interesting feature of IP 
-        3 R3 is that cAMP-dependent
-        phosphorylation can inhibit its activity in pancreatic
-        acinar cells [ 32, 33]. In these cells, cAMP-dependent
-        phosphorylation decreases Ca 2+release from intracellular
-        stores and slows the frequency of Ca 2+oscillations. These
-        data suggest a possible role for α-gustducin in bitter
-        taste transduction. Specifically, activation of
-        α-gustducin, which decreases intracellular cAMP by
-        activation of PDE [ 11], may lead to a decrease in the
-        cAMP-dependent phosphorylation of IP 
-        3 R3. This would disrupt the negative
-        control of the receptor and potentiate the Ca 2+response.
-        Interestingly, Gαi-2, another alpha subunit heavily
-        expressed in taste cells [ 26], also functions to decrease
-        intracellular levels of cAMP and may lead to regulation of
-        IP 
-        3 R3. Further experiments will be
-        necessary to clarify the role of these alpha subunits in
-        regulation of the IP 
-        3 pathway in taste cells.
+        
+          Apoptotic changes of the Golgi complex
+          Lane 
+          et al . reported recently that the
+          Golgi complex in HeLa cells is fragmented into scattered
+          vesicles by caspases due to interference of Golgi
+          reassembly and abnormalities of the 65 kDa stacking
+          protein GRASP65 [ 32 ] . In the present report, we
+          describe characteristic changes of the Golgi complex
+          during the progression of apoptosis. It is not known
+          whether the Golgi complex functions as a stress sensor
+          involved in the regulation of apoptosis. Mancini 
+          et al . reported that caspase-2 was
+          localized at the Golgi complex and generated a unique
+          cleavage product of golgin-160 [ 29 ] . Furthermore,
+          these investigators proposed that the Golgi complex
+          transduces proapoptotic signals [ 29 ] . A precedent for
+          this hypothesis was provided by Nakagawa 
+          et al ., who reported that
+          caspase-12 is localized to the endoplasmic reticulum and
+          mediates an endoplasmic reticulum-specific apoptosis
+          pathway [ 33 ] . In the present study, we have found that
+          all Golgi autoantigens examined were cleaved in apoptosis
+          in a caspase-dependent manner, as evidenced by studies
+          showing that the pan-caspase inhibitor zVAD-fmk
+          completely blocked the apoptotic fragmentation of these
+          antigens. Although the requirement for specific caspases
+          was not examined here, it is possible that caspases
+          localized in the Golgi complex (including caspase-2)
+          transduce death signals during the early stages of
+          apoptosis that are associated with fragmentation of
+          specific Golgi proteins.
+          It has been reported that apoptotic death receptors
+          such as CD95 [ 34 ] , tumor necrosis factor-related
+          apoptosis inducing ligand receptor 1, tumor necrosis
+          factor-related apoptosis inducing ligand receptor 2 [ 35
+          ] , and tumor necrosis factor receptor 1 [ 36 ] are
+          enriched in the Golgi complex prior to transport to the
+          plasma membrane, thus suggesting that the Golgi complex
+          may play an important role in apoptotic signalling. We
+          now provide evidence for characteristic alterations in
+          the Golgi complex corresponding to nuclear change during
+          the progression of apoptosis. Swelling of the Golgi
+          complex was particularly detected in the early stages of
+          apoptosis. It could be speculated that apoptotic
+          alterations of the Golgi complex may facilitate the
+          transportation of death receptors from the Golgi complex
+          to the plasma membrane, and may amplify the apoptotic
+          events once apoptosis was initiated. Additional studies
+          are needed to examine the precise function of the Golgi
+          complex during apoptosis.
+        
+        
+          Role of apoptotic or necrotic fragments in
+          autoantibody production
+          Analysis of post-translational modifications in
+          intracellular autoantigens associated with apoptosis and
+          necrosis should provide important insights into the
+          possible role of cell death in the generation of
+          potentially autoantigenic forms of cellular antigens.
+          Casciola-Rosen and coworkers have proposed that
+          modifications of autoantigens during cell death,
+          particularly proteolytic cleavage, might be crucial for
+          the generation of autoantibodies in autoimmune diseases [
+          23 37 ] . Unique proteolytic fragments of α-fodrin and
+          type 3 muscarinic acetylcholine receptor have been
+          implicated in the generation of autoantibody responses in
+          primary Sjögren's syndrome [ 38 39 ] .
+          Although direct evidence that autoantigen cleavage
+          fragments produced during cell death elicit autoantibody
+          responses is still scarce, Pollard 
+          et al . reported that immunization
+          of B10.S mice (H-2 s) with a 19 kDa proteolytic cleavage
+          fragment of fibrillarin (derived from nonapoptotic cell
+          death) elicited antibodies that are comparable with human
+          anti-fibrillarin autoantibodies and those derived from
+          mice exposed to mercury [ 40 ] . In a study using human
+          sera, Greidinger 
+          et al . reported that the
+          recognition of apoptosis-derived and oxidatively modified
+          forms of the 70 kDa subunit of U1 small nuclear
+          ribonucleoprotein autoantigen was associated with
+          distinct disease manifestations [ 41 ] . Furthermore,
+          Oriss 
+          et al . demonstrated that a
+          combination of antigen-processing cells and a fragment of
+          DNA topoisomerase I efficiently elicited autoreactive
+          T-cell proliferation, whereas the full-length
+          topoisomerase I required additional stimulus of exogenous
+          interleukin-2 [ 42 ] .
+          These data point to a crucial role for fragments of
+          autoantigens in the generation of autoantibody responses.
+          In the present study, several Golgi autoantigens were
+          detected cleaved into distinctive fragments during
+          apoptosis and necrosis. It has been speculated that these
+          modified forms of autoantigens may have enhanced
+          immunogenicity through exposure of immunocryptic epitopes
+          that are not generated during antigen processing [ 21 23
+          37 43 ] . These epitopes could trigger autoimmune
+          responses if presented to the immune system under
+          proinflammatory conditions [ 44 ] , and they may be
+          recognized as surface structures on cytoplasmic
+          organelles that are released to the immune system in
+          aberrant disease states.
+          Autoantibody responses could be amplified and
+          maintained on repeated stimulation if the exposure of
+          intracellular antigens to the immune system is associated
+          with defective clearance of apoptotic cells, prolonged
+          necrosis (primary or secondary), T-cell cytotoxicity
+          associated with chronic infection, or even antigen
+          mutation or overexpression. It would be important not
+          only to assess the immunogenic potential of subcellular
+          particles and proteolytic fragments released during cell
+          death, but also to continue investigating possible
+          defects leading to aberrant apoptosis or phagocyte
+          function and/or aberrant antigen expression in systemic
+          autoimmune diseases.
+        
+        
+          Kinetics of degradation of golgins and generation
+          of apoptotic fragments
+          Although only well-defined apoptotic fragments of
+          golgin-160 and giantin, not of golgin-95 and golgin-97,
+          were detected after 2 or 4 hours of incubation with STS,
+          total disappearance of intact proteins was detected with
+          all Golgi autoantigens and complete blockage was observed
+          in the presence of z-VAD-fmk. These results suggested
+          that there might be differences in the kinetics of
+          degradation among the golgins, with golgin-95 and
+          golgin-97 perhaps being more sensitive to proteolysis and
+          being targeted very early during apoptosis. While the
+          absence of apoptotic fragments for golgin-95 and
+          golgin-97 suggests that total degradation of these
+          proteins occurred without generation of intermediate
+          protease-resistant fragments, it cannot be ruled out that
+          the intact proteins were released from apoptotic cells or
+          that their apoptotic fragments were not recognized by
+          autoantibodies.
+          In the present study, Jurkat cells were relatively
+          sensitive to the treatment with STS such that the
+          kinetics of degradation of different golgins relative to
+          that of PARP could not be accurately differentiated.
+          Since HEp-2 cells grown as a monolayer were observed to
+          be more resistant to apoptosis compared with Jurkat
+          cells, we used HEp-2 cells to investigate more precisely
+          the relative kinetics of degradation for the native
+          golgins during apoptosis.
+          An identical pattern of fragmentation was essentially
+          observed for all the Golgi autoantigens examined except
+          that the overall kinetics of native protein degradation
+          was slower (data not shown). The integrity of native
+          golgin-95 and golgin-97, in which apoptotic fragments
+          were not detected, was almost completely maintained at 12
+          hours after the addition of STS (data not shown). In
+          contrast, native golgin-160 and giantin were degraded
+          into their respective fragments 12 hours after the
+          addition of STS. The processing of golgin-160 and giantin
+          occurred as early as that for PARP, suggesting that these
+          proteins are cleaved during the onset of apoptosis (data
+          not shown). Cleavage of golgin-160 and giantin may thus
+          play a potentially important role in the early stages of
+          apoptosis.
+          Although we did not determine which golgins are
+          substrates for specific caspases, further studies aimed
+          at defining the caspases responsible for golgin cleavage,
+          the cleavage sites, and the biological consequences of
+          these cleavages should provide important insights into
+          the possible role of some of the Golgi autoantigens in
+          apoptosis.
+        
       
       
-        Conclusions
-        The principal finding in this study is the
-        identification of IP 
-        3 R3 as the dominant isoform of the IP 
-        3 receptor in taste cells. IP 
-        3 has been shown to be an important
-        second messenger in both bitter and sweet taste
-        transduction, and IP 
-        3 R3 likely mediates the Ca 2+release
-        from intracellular stores in response to IP 
-        3 . In bitter taste transduction, many
-        signaling components have been identified, and IP 
-        3 R3 is co-expressed in the same taste
-        cells (Fig. 6). Bitter stimuli bind to T2R/TRB taste
-        receptors coupled to a heterotrimeric G protein complex
-        consisting of α-gustducin and its partners, β3 and γ13.
-        Alpha gustducin activates PDE, causing decreases in
-        intracellular cAMP, while its βγ partners stimulate PLCβ2
-        to produce IP 
-        3 and DAG. IP 
-        3 subsequently binds to IP 
-        3 R3, causing increases in cytosolic Ca
-        2+, due to release from intracellular stores (Fig. 1B). The
-        unique properties of IP 
-        3 R3, including its regulation by Ca
-        2+and cAMP dependent kinases, are consistent with known
-        characteristics of bitter signaling in taste cells.
+        Conclusion
+        The present study has shown overall morphologic changes
+        of the Golgi complex during apoptosis and necrosis, with
+        distinct fragmentation patterns of its associated
+        autoantigens. We propose that cleavage of golgin-160 and
+        giantin may play a role in early events in apoptosis. We
+        also speculate that Golgi fragmentation in cell death might
+        participate in sustaining autoantibody response to the
+        Golgi complex in aberrant disease states characterized by
+        unregulated cell death resulting from injury or infection
+        or defective clearance of dying cells.
       
       
-        Materials and Methods
-        
-          Animals
-          Adult male Sprague Dawley Rats and adult C57/B1 male
-          or female mice were obtained from Charles River
-          Laboratories (Wilmington, MA). Animals were cared for in
-          compliance with the Colorado State University Animal Care
-          and Use Committee.
-        
-        
-          Tissue preparation
-          Rats or mice were deeply anesthetized by
-          intraperitoneal injections of Sodium Pentobarbitol, 40
-          mg/Kg (Veterinary Laboratories, Inc., Lenexa, KS).
-          Following anesthetization animals were injected
-          intracardially with heparin (Elkins-Sinn, Inc., Cherry
-          Hill, NJ) and 1% sodium nitrate. Rats were perfused with
-          80 ml of 4% paraformaldehyde and mice with 30 ml.
-          Following perfusion tongues were removed and immediately
-          placed into fresh 4% paraformaldehyde (Electron
-          Microscopy Sciences, Ft. Washington, PA) in 0.1 M
-          phosphate buffer for approximately twenty minutes.
-          Tongues were then put into a 20% sucrose solution in 0.1
-          M phosphate buffer overnight for cryoprotection. Forty
-          micron sections were cut on a Leitz 1729 digital Kryostat
-          and collected in 0.1 M phosphate buffered saline (PBS,
-          pH7.2). Following sectioning, the slices were washed in
-          PBS three times for ten minutes each at room temperature.
-          Antigen retrieval was performed by placing sections into
-          a 10 mM sodium citrate solution at 80°C for 30 minutes.
-          This was done to help disrupt protein cross-bridges
-          formed by formalin fixation and expose antigen binding
-          sites. In some experiments the incubation time in sodium
-          citrate was reduced to 5 minutes, and labeling was still
-          apparent. All sections were incubated in blocking
-          solution for 1-2 hours at room temperature. Blocking
-          solution contained 0.3% Triton X-100, 1% normal goat
-          serum, and 1% bovine serum albumin in 0.1 M PBS. All
-          chemicals were purchased from Sigma Chemical Corporation
-          (St. Louis, MO) unless otherwise noted.
-        
-        
-          Antibodies
-          Polyclonal antibodies raised in rabbit against the
-          sequence N 
-          1829 KKKDDEVDRDAPSRKKAKE 
-          1848 near the COOH-terminal domain of
-          human IP 
-          3 R1 were purchased from Affinity
-          Bioreagents, Inc. (Golden, CO, cat #PA1-901). Polyclonal
-          antibodies raised in rabbit against a synthetic peptide
-          with a sequence derived from the cytoplasmic, NH 
-          2 -terminal domain of the rat IP 
-          3 R2 protein (E 
-          317 LNPDYRDAQNEGKTVRD 
-          334 ), were also purchased from
-          Affinity Bioreagents, Inc. (Golden, CO, cat #PA1-904).
-          Monoclonal mouse anti-IP 
-          3 R3 was purchased from Transduction
-          laboratories (Lexington, KY, cat #131220). Monoclonal
-          mouse anti-IP 
-          3 R3 recognizes the peptide sequence
-          22-230. Rabbit anti-α-gustducin (cat #SC-395) directed
-          against a peptide fragment containing amino acids 93-113
-          of α-gustducin; and rabbit anti-PLCβ2 (cat #SC206) were
-          obtained from Santa Cruz laboratories (Santa Cruz, CA).
-          Rabbit anti-γ13 was prepared as described previously [
-          8]. All secondary antibodies were purchased from Jackson
-          ImmunoResearch Laboratories, Inc. (West Grove, PA). These
-          included: Rhodamine Red X anti-rabbit (# 111-295-045),
-          Rhodamine Red X anti-mouse (# 115-295-146), Cy-5
-          anti-mouse (# 115-175-146), Flourescein (FITC)
-          anti-rabbit (# 711-095-152). Cy-5 anti mouse antibodies
-          were tested on mouse tissue prior to these experiments to
-          insure no background labeling.
-        
-        
-          Single label Immunocytochemistry
-          Sections from rat circumvallate papillae were
-          incubated with primary antibodies overnight at 4°C.
-          Controls in which the primary antibodies were excluded
-          were included in each experiment. The primary antibodies
-          rabbit anti-IP 
-          3 R1 and rabbit anti-IP 
-          3 R2 were diluted to 1:100 in blocking
-          solution. Mouse anti-IP 
-          3 R3 was used at 1:50 in blocking
-          solution. Following overnight incubation in primary
-          antibodies, sections were washed three times for ten
-          minutes each in PBS at room temperature. Rabbit anti-IP 
-          3 R1, rabbit anti-IP 
-          3 R2, and no primary antibody control
-          sections were then incubated with the secondary antibody
-          Rhodamine Red X anti-rabbit (1:100 in blocking solution)
-          at room temperature for two hours. Mouse anti-IP 
-          3 R3 labeled sections, were incubated
-          in Rhodamine anti-mouse. Following incubation with
-          secondary antibodies, sections were washed three times
-          for ten minutes in PBS and mounted on RITE-ON micro
-          slides (Becton, Dickinson and Company, Portsmouth, NH)
-          using Flouromount-G (Southern Biotechnology Associates,
-          Inc., Birmingham, AL, cat# 0100-01) and coverslipped (VWR
-          Scientific, Media, PA). Slides were stored at 4°C.
-        
-        
-          Double Label Immunocytochemistry
-          Double-labeled experiments involved incubations with
-          two primary antibodies and subsequent incubation with
-          appropriate secondary antibodies. Rabbit anti-α-gustducin
-          was used at 1:500 in blocking solution. Both rabbit
-          anti-PLCβ2 and rabbit anti-γ13 were used at 1:1000 in
-          blocking solution. Following incubation with primary
-          antibodies, sections were washed in PBS three times for
-          ten minutes each. Both rabbit anti-IP 
-          3 R1 and rabbit anti-IP 
-          3 R2 labeled sections were then
-          treated with Rhodamine Red X anti rabbit antibodies
-          (1:100). For IP 
-          3 R3 double-labeled sections, Cy-5
-          anti-mouse secondary antibodies were applied. Rabbit
-          anti-α-gustducin was visualized using FITC anti-rabbit
-          (1:100) secondary antibodies. Both rabbit anti-PLCβ2 and
-          rabbit anti-γ13 were labeled with FITC anti rabbit
-          (1:100). Incubations with secondary antibodies were done
-          at room temperature for two hours. Sections were then
-          washed in PBS three times for ten minutes each, mounted
-          using flouromount-6, and coverslipped.
-        
-        
-          Imaging
-          Lingual sections were viewed with an Olympus Fluoview
-          laser scanning confocal microscope. Sequential scanning
-          techniques were used for some double-label experiments
-          and showed no differences from simultaneous scans. There
-          is no overlap between the excitation and emission spectra
-          for the FITC and Cy5 secondary antibodies used in the
-          double label experiments. Images were captured with an
-          Olympus FVX-IHRT Fluoview Confocal Laser Scanning
-          Microscope. Lasers included Argon 488 nm, HeNe 543 nm,
-          and HeNe 622. Fluoview software was used for data
-          acquisition. Images were processed and printed using
-          Photoshop 6.0 software.
-        
+        Abbreviations
+        AGA = anti-Golgi complex autoantibodies; H 
+        2 O 
+        2 = hydrogen peroxide; PARP =
+        polyADP-ribose polymerase; PBS = phosphate-buffered saline;
+        STS = staurosporine; zVAD-fmk =
+        benzylocarbonyl-Val-Ala-Asp-fluromethylketone.
       
     
   

@@ -3,464 +3,383 @@
     
       
         Background
-        In an early attempt to relate theoretical concepts and
-        empirical results bearing on the molecular basis of
-        evolution, Kimura and Ohta listed five principles of
-        molecular evolution [ 1, 2]. The first of these deals with
-        the concept of the molecular clock and predicts that, as
-        long as a protein's function remains unaltered, the
-        protein's rate of evolution will be approximately constant
-        within different phylogenetic lineages. From this
-        principle, it follows that detection of changes in a
-        protein's rate of evolution may reveal functional changes [
-        3]. This rate-constancy prediction is tested here by
-        studying the relative rates of protein evolution in a
-        simple phylogenetic context. The test relies on the
-        simultaneous analysis of numerous protein sequences that
-        represent complete protein sets from sequenced genomes or
-        partial protein sets from genomes of which a significant
-        fraction has been sequenced. Consistent with the
-        rate-constancy prediction, given a phylogenetic tree
-        topology, the ratio of evolutionary distances along
-        different branches of the tree should be approximately
-        constant for all proteins from an analyzed set of
-        species.
-        Clusters of orthologous proteins from bacterial,
-        archaeal and eukaryotic species sets of size three were
-        analyzed with respect to this prediction. Specifically, for
-        each protein phylogeny, the length of the longest branch
-        was compared to the sum of the two shorter branches (Figure
-        1). Such a genome-scale test allowed for a robust
-        assessment of the rate constancy of protein evolution, as
-        well as the detection of multiple cases of accelerated
-        evolutionary change and a quantitative assessment of the
-        fraction of genes that undergo such acceleration.
+        Over 32 million elderly Americans are enrolled in the
+        Medicare health insurance program. Since 1982, the Health
+        Care Financing Administration has offered a managed care
+        option, with capitated payment, to Medicare enrollees.
+        Currently nearly 15% of Medicare enrollees are members of
+        managed care plans nationwide. [ 1 ]
+        The economic incentives of capitated payment have raised
+        concerns that managed care organizations that use
+        capitation might limit provision of effective services as a
+        way of trimming costs. [ 2 3 4 5 ] Public concerns about
+        restriction of service in managed care organizations have
+        led to proposed legislation for a "patient's bill of
+        rights." [ 6 ] once again being considered in the US
+        Senate. [ 7 ] It is becoming clear, however, that "managed
+        care" is not a single entity, and that a wide range of
+        economic incentives and disincentives may be created in
+        various forms of managed care, [ 8 ] each likely to have
+        different kinds of influence on clinician behavior. [ 9 10
+        11 ] The proximity of risk to the clinician or clinician
+        group has an especially strong effect on behavior. [ 12 ]
+        Systems maintained by managed care organizations to assist
+        clinicians in providing quality care also differ widely,
+        and may strongly influence performance.
+        Although reduced access to care is a theoretical risk of
+        capitated payment, relatively few studies have addressed
+        whether this concern is borne out in practice. Perhaps
+        because of the variation in managed care arrangements, the
+        results of studies have been mixed. [ 13 ] If managed care
+        presents barriers to access to effective care, the elderly
+        would be especially vulnerable because they have a higher
+        burden of illness than the rest of the population. We
+        therefore created indicators in several domains for which
+        it was known that care improved outcomes. We then used
+        these indicators to compare health care received by elderly
+        Medicare beneficiaries in three kinds of payment
+        arrangements: a capitated, staff-model health maintenance
+        organization (HMO) and a partially capitated group-model
+        HMO, both parts of the same managed care organization, and
+        in fee-for-service (FFS) care in the same geographic
+        area.
       
       
-        Results and discussion
+        Methods
         
-          Genomic-scale relative rates test
-          Three genomes of intracellular pathogenic bacteria of
-          the family Chlamydiaceae ( 
-          Chlamydophila pneumoniae , 
-          Chlamydia trachomatis and 
-          Chlamydia muridarum ) and three
-          genomes of archaeal hyperthermophiles of the genus 
-          Pyrococcus ( 
-          Pyrococcus abyssi , 
-          P. horikoshii and 
-          P. furiosus ) were chosen for
-          analysis. Orthologs were identified using the rationale
-          and procedure that underlie the construction of clusters
-          of orthologous groups of proteins (COGs) [ 4, 5]. This
-          approach has been designed to maximize the likelihood of
-          identification of orthologs when complete genomes are
-          compared. A modified approach involving two additional
-          steps was used to identify probable orthologs among the
-          encoded proteins from three partially completed mammalian
-          genomes ( 
-          Homo sapiens (human), 
-          Mus musculus (mouse) and 
-          Rattus norvegicus (rat).
-          These procedures resulted in a total of 703
-          Chlamydiaceae, 1,305 
-          Pyrococcus and 2,112 mammalian
-          orthologous protein sets. Each orthologous
-          protein-sequence set was aligned and the evolutionary
-          distances between sequences within the sets were
-          computed. These distances were used in phylogenetic
-          reconstructions for all orthologous protein sets. For
-          each species group, branch lengths were averaged to
-          produce the trees shown (Figure 2). Each of the trees
-          contains two relatively short branches of virtually
-          identical length and one long branch, forming two main
-          phylogenetic partitions. The rate-constancy prediction
-          holds that the evolutionary rates along these
-          phylogenetic branches should be correlated. In other
-          words, the length of branch A (bA) should be correlated
-          with the length of branches B and C (bB + bC) (Figures 1,
-          2) resulting, in an ideal case, in a constant bA/(bB+bC)
-          ratio.
-          This prediction was tested by evaluating the branch
-          lengths estimated from alignments of orthologous protein
-          sets of the three species groups. Consistent with the
-          prediction, there is a highly significant positive
-          correlation between bA and bB + bC for all three species
-          groups (Figure 3). Thus, the vast majority of proteins in
-          each analyzed group of species seem to evolve in accord
-          with the rate-constancy prediction, suggesting that the
-          functional constraints among orthologous proteins remain
-          largely unchanged. However, in each group of species
-          there are outliers (Figure 3) that do not conform to the
-          expected pattern of variation. For each of the three
-          groups of orthologous protein sets, upper and lower
-          limits of the distance from the linear trend line that
-          correspond to an expectation value of 0.05 were
-          determined. All points above and below these lines
-          (Figure 3) represent statistically significant deviants
-          from the linear trend, given the standard error and the
-          number of orthologous protein sets analyzed for each
-          group of species. Points above the upper limit line show
-          more variation between the phylogenetic partitions (that
-          is, longer bA) than expected by chance, and points below
-          the lower limit line show more variation within one
-          partition (that is, longer bB and/or bC) than expected.
-          The majority of the deviants fall above the upper limit.
-          These points represent proteins with an accelerated rate
-          of amino-acid substitution between phylogenetic
-          partitions. The less frequent outlier points below the
-          lower line represent proteins that have undergone
-          accelerated evolution in one or both of the two more
-          closely related species in the corresponding group. All
-          of the orthologous protein sets that showed significant
-          deviations from the linear trend were re-analyzed using
-          BLAST similarity searches followed by phylogenetic
-          analysis. This was done to verify that these sets contain
-          orthologous proteins. For orthologous proteins, it is
-          expected that they will form monophyletic clades without
-          any intervening paralogs or proteins from distantly
-          related species. For all Chlamydiaceae and mammalian
-          data, the phylogenetic analysis revealed that these sets
-          do in fact consist of orthologous proteins. However, the 
-          Pyrococcus analysis yielded five
-          cases where orthology could not be ascertained. These
-          ambiguous 
-          Pyrococcus sets were removed and
-          the linear relationship between bA and bB +bC was
-          re-assessed. The total number of orthologous protein sets
-          that show evidence of accelerated evolution suggestive of
-          functional diversification is between 0.76% and 1% of the
-          total number of such sets analyzed for each species
-          (Chlamydiaceae = 7/703, 
-          Pyrococcus = 11/1305,
-          human-mouse-rat= 16/2112).
+          Study site
+          
+            Staff model HMO
+            The Staff Model division of HPHC provided primary
+            care-based, multi-specialty care. The organization has
+            cared for aged Medicare patients in risk and other
+            commercial plans since the mid-1980's. All primary care
+            providers were salaried and there were no specific
+            economic incentives (i.e. no bonuses of any kind) for
+            individual providers during the study period.
+            Information on all ambulatory services, including
+            visits, diagnoses, procedures and tests, was maintained
+            electronically for all members as part of an Automated
+            Medical Record System (AMRS.) [ 14 ] These data have
+            been used in previous studies. [ 15 16 17 ] The Staff
+            Model HMO contracted with area hospitals for inpatient
+            services. For hospitalization and other outside
+            utilization, the HMO maintains claims data using ICD-9
+            codes; this data structure contains up to six diagnoses
+            and up to 3 surgical procedures per claim.
+          
+          
+            Group model HMO
+            The Group Model division of HPHC included 16 medical
+            groups in 1993 that contracted with the HMO on a
+            non-exclusive basis, i.e. they were exclusive with
+            regard to other managed care plans, but not with
+            respect to indemnity insurance. Most were primary care
+            groups but a small number were multispecialty groups.
+            Payment of groups was based on various forms of
+            capitation; the most common arrangement was for groups
+            to be capitated for both primary and specialty
+            outpatient care, and for hospitalization risk to be
+            shared in a wider pool. Capitation rates and details
+            such as loss-limit provisions varied from group to
+            group. Almost all groups comprised between 5 and 10
+            physicians.
+            Data from the Group Model were obtained from claims
+            that were submitted to the HMO to document care for
+            calculations pertinent to loss-limit provisions, even
+            though payments were not based on the claims
+            themselves. Data files contained information on
+            services provided in the offices of the primary care
+            clinicians, on outpatient services not provided by the
+            primary care provider, (i.e. referrals), and on
+            hospitalizations. Diagnoses and procedures were coded
+            using ICD-9 and CPT-4 codes.
+            Demographic and insurance coverage information on
+            members in the study were obtained from HMO enrollment
+            files.
+          
+          
+            Fee-for-service
+            Medicare beneficiaries were included in this study
+            if they were: age 65 and older as of January 1, 1994;
+            had both Part A and B coverage for at least 12
+            consecutive months during 1994 and 1995; were not
+            enrolled in an HMO during these 12 consecutive months;
+            and resided within the HMO catchment area (see
+            below).
+            We matched Medicare members enrolled in the HMO with
+            those in fee-for-service by area of residence. First,
+            we constructed a list of the zip codes in which
+            eligible HMO members resided during the study period.
+            We constructed a list of Medicare fee-for-service
+            beneficiaries residing in the comparison area
+            consisting of all contiguous zip codes in which at
+            least one HMO Medicare beneficiary resided. The
+            resulting sample included 339,627 people.
+            Data for the fee-for-service sample were obtained
+            from an enrollment file for demographic information,
+            the MedPAR (Medicare Provider Analysis and Review) file
+            for hospitalization claim data, Part B
+            physician/supplier claims file, and Hospital Outpatient
+            Department claims file.
+          
         
         
-          Nucleotide-substitution rates
-          A number of cases of positive selection at the
-          molecular level have been supported by comparison of the
-          rates of synonymous (K 
-          s ) and non-synonymous (K 
-          a ) substitution [ 3]. K 
-          a > K 
-          s is considered unequivocal evidence
-          of positive selection [ 2]. With this in mind,
-          comparisons of K 
-          s and K 
-          a were carried out for the orthologous
-          protein sets that showed a pattern of variation
-          consistent with functional diversification in the
-          whole-genome test (Figure 3). For the bacterial and
-          archaeal species groups, the vast majority of these
-          comparisons were inconclusive because the evolutionary
-          distance between phylogenetic partitions resulted in a
-          saturation of K 
-          s . The more closely related
-          human-mouse-rat group did not show saturation of K 
-          s . Comparisons of K 
-          s and K 
-          a for functionally diversified
-          mammalian protein sets did not reveal any cases with K 
-          a > K 
-          s . This is probably due to the fact
-          that, if directional selection led to the acceleration of
-          the amino-acid substitution rate in these proteins, it
-          acted in an episodic manner [ 6, 7] and on a minority of
-          residues against a constant background of purifying
-          selection [ 8, 9]. This is consistent with previous work
-          suggesting that adaptive changes are difficult to find
-          using the strict K 
-          a > K 
-          s criterion and that even documented
-          cases of positive selection can be missed using this
-          technique alone [ 6, 10, 11, 12, 13]. The average K 
-          a is, however, significantly higher
-          for the putative functionally diversified proteins than
-          for the total dataset (Table 1, Figure 4). The mammalian
-          proteins with an increased rate of amino-acid
-          substitution between the human and rodent lineages also
-          show a level of K 
-          s significantly higher than that of
-          the total dataset (Table 1). This can be explained by the
-          fact that, consistent with previous reports [ 10, 14, 15,
-          16, 17], we observe a positive correlation between K 
-          s and K 
-          a ( 
-          r = 0.556, 
-          P < 10 -10). This correlation
-          could reflect a mechanistic bias in mutation [ 10, 18,
-          19] or synonymous sites may be subject to some degree of
-          selection [ 20, 21, 22, 23] (or both). However, the K 
-          a /K 
-          s ratio is also significantly higher
-          for the sets of putative functionally diversified
-          proteins (Table 1), indicating a relative acceleration of
-          amino-acid substitution, which could be due to a
-          relaxation of functional constraints and/or directional
-          selection.
+          Performance indicators
+          We developed performance measures that met several or
+          all of the following criteria: the disease or condition
+          was relatively common and potentially severe; a clinical
+          service that could affect the health outcome of the
+          patient was identifiable; the performance of the
+          indicated service depended in part on the role of a
+          physician or health system and not only on the patient;
+          service performance was potentially subject to financial
+          incentives; it was possible from other research to assume
+          that the indicated service would on average improve
+          outcome; and data to construct the indicator were
+          currently or potentially available.
+          Our indicators assessed access to health care in three
+          domains (Table 1): 1) 
+          preventive care, including services
+          that provide future, not current, benefit; 2) 
+          diagnosis-specific care, examining
+          treatment for acute conditions or episodes of disease;
+          and 3) 
+          chronic disease care, including
+          secondary prevention. The selection of preventive care
+          indicators was guided by the generic applicability of
+          these maneuvers in this age group, making it unnecessary
+          to define a special population for whom the procedure
+          would be indicated. The indicators of timely follow-up
+          after hospitalization (diagnosis-specific care) were
+          selected based on the seriousness of the medical
+          conditions; [ 18 ] the time interval between hospital
+          discharge and outpatient visit were determined by a panel
+          of physicians.
+          A panel of national experts in access to quality
+          health care, convened by the Health Care Financing
+          Administration in March of 1996, suggested additions to
+          our original indicator set. We then selected those that
+          best met the structured evaluation criteria, including at
+          least two indicators in each of the domains. Table 1shows
+          the indicators organized by domains. More complete
+          definitions of inclusion criteria and coding, including
+          specific AMRS, ICD-9 and CPT codes used, have been
+          published elsewhere [ 19 ] and are summarized in
+          Additional fileIndicator Definitions.
         
         
-          Functional prediction and phyletic
-          distribution
-          There are some notable similarities in the (predicted)
-          functional identities and the phyletic distributions of
-          the putative functionally diversified proteins (Table 2).
-          The sets from all three species groups are enriched for
-          proteins that appear to function at the periphery of the
-          cells and mediate their interaction with the environment.
-          Specifically, 5 of the 7 cases in Chlamydiaceae, 7 of the
-          11 
-          Pyrococcus cases and 13 of the 16
-          mammalian cases are (predicted) membrane or secreted
-          proteins (Table 2). Some of the remaining proteins are
-          completely uncharacterized and could associate with
-          membranes by other mechanisms that do not involve
-          recognizable structural features such as signal peptides
-          or transmembrane segments. The mammalian set of
-          functionally diversified proteins, for which much more
-          experimental information is available than for the
-          bacterial and archaeal sets, is particularly enriched for
-          secreted proteins, including several proteins involved in
-          immune surveillance and defense (Table 2). An example of
-          a protein that is implicated in a different class of
-          functions, but is still related to defense mechanisms is
-          the predicted restriction endonuclease from 
-          Pyrococcus . Generally, the
-          functions of proteins for which accelerated evolution was
-          detected and functional diversification inferred are
-          compatible with the previously reported cases of
-          accelerated evolution which is particularly prominent,
-          for example, in the immune system [ 3].
-          The phyletic distribution of the functionally
-          diversified proteins is typically narrow, particularly in
-          Chlamydiaceae (six of the seven proteins have no homologs
-          outside this bacterial family). Although the selected 
-          Pyrococcus proteins showed more
-          evolutionary conservation, the majority had orthologs
-          only in other archaeal genomes, if not only in 
-          Pyrococcus . Similarly, 13 of the
-          16 selected mammalian proteins were either
-          mammal-specific or vertebrate-specific (Table 2). The
-          only two clear exceptions to this pattern of poorly
-          conserved proteins primarily involved in defense and
-          extracellular signaling were the mammalian enzymes
-          hydroxysteroid sulfotransferase and hydroxy acid oxidase.
-          Accelerated evolution in proteins with a narrow phyletic
-          distribution may represent species-specific adaptations
-          in how each organism responds to and processes unique
-          environmental cues.
+          Statistical analyses
+          We compared the three samples by age category using
+          the chi-square test. For annual indicators, we averaged
+          utilization rates for 1994 and 1995; the denominators
+          were individuals eligible for each calendar year. We
+          calculated rates in three age strata: age 65-74, 75-84,
+          and 85 years and older. We also calculated age-adjusted
+          rates standardized to the fee-for-service sample.
+          Analyses were performed using SAS. [ 20 ] We conducted
+          two-way comparisons of age-adjusted rates across the
+          three samples (Staff Model, Group Model, and
+          fee-for-service) using the chi-square test.
         
+      
+      
+        Results
+        Demographic characteristics of the study subjects are
+        shown in Table 2. The FFS population in the region under
+        study was older than the nationwide Medicare population,
+        and a slightly larger proportion was female (62% versus
+        60%, p < 0.001). Those enrolled in the HMO were younger
+        than both the geographically matched, fee-for-service
+        sample and Medicare enrollees in the US as a whole (p <
+        0.001), and they were less likely to be female (p
+        0.001).
+        Age-adjusted rates of breast cancer screening with
+        mammography were substantially higher in the two HMO
+        settings than under fee-for-service insurance. (Table 3).
+        Mammography screening rates in the Staff Model were nearly
+        double those in the FFS sample. The proportion of Medicare
+        enrollees who saw a clinician within a one-year period
+        (Annual visit rate, Table 3) was greater than 85% in all
+        three groups; however, this rate was significantly higher
+        in the Staff Model HMO (94%) than the fee-for-service
+        sample (88%)(p < 0.001).
+        Proportion with follow up by either a primary care
+        physician or cardiologist within 60 days of hospital
+        discharge after myocardial infarction (Table 4) was similar
+        in the two managed care divisions and, in both cases,
+        higher than under fee-for-service insurance (91% and 93% in
+        the Staff and Group Model respectively, compared to 73% in
+        FFS; p < 0.001). Follow up within 14 days after
+        hospitalization for depression was highest in the Group
+        Model HMO, although small sample size limited our ability
+        to find statistically significant differences (p >
+        0.3).
+        Care of chronic diseases is summarized in Table 5.
+        Screening rates for diabetic retinopathy were higher in
+        both divisions of the managed care organization than in the
+        fee-for-service sample. The proportion of diabetics with 2
+        or more visits was 50% higher in managed care than in
+        fee-for-service (95% and 91% in the Staff and Group Model,
+        respectively, versus 61% in FFS, p < 0.001).
+      
+      
+        Discussion
+        We developed a set of indicators of access to effective
+        care for elderly people insured by Medicare designed to fit
+        varying clinical settings, insurance structures, and data
+        systems. In general, performance in both the Staff and
+        Group Model divisions of the managed care plan studied was
+        equivalent to or better than that in the fee-for-service
+        sector. Other investigators have devised administrative
+        claims-based indicators, [ 21 22 ] and chart review-based
+        indicators for hospitals, [ 23 ] and ambulatory care sites,
+        [ 24 ] in efforts to compare hospital performance or health
+        plan performance. In contrast, we explored the feasibility
+        of using data elements available in an automated outpatient
+        medical record, which are increasingly prevalent, in
+        addition to those available in claims databases. The
+        indicators we selected overlap with those chosen to be
+        included in the Health Plan Employer Data and Information
+        Set (HEDIS) for the Medicare population, released in 1997,
+        which also evaluates breast cancer screening and retinal
+        screening for diabetics. [ 25 ]
+        Previous studies comparing performance indicators across
+        insurance types have found inconsistent results. HMO
+        performance on preventive services is consistently higher
+        than in FFS settings. [ 26 27 28 ] On the other hand, some
+        studies' findings have raised a concern that vulnerable
+        populations such as the chronically ill [ 29 ] and the
+        elderly [ 30 ] fare less well in HMOs than in FFS care. In
+        the Medicare population, data to support concern about
+        worse outcomes of care in HMOs has come from a national
+        telephone survey about persistence of symptoms. [ 29 ]
+        In numerous other investigations, however, care for the
+        Medicare population provided by HMOs has been shown to be
+        comparable to that in FFS. No differences between HMO and
+        FFS samples were found in studies of care for colon cancer,
+        [ 31 3 2 ] breast cancer, [ 33 34 ] prostate cancer, [ 35 ]
+        cardiovascular disease, [ 36 ] rheumatoid arthritis, [ 37 ]
+        congestive heart failure, [ 38 ] hypertension, [ 39 ] acute
+        myocardial infarction, [ 40 ] acute appendicitis, [ 41 ]
+        and stroke. [ 42 ] One study found that functional status
+        did not decline faster among Medicare recipients enrolled
+        in HMOs versus those in FFS. [ 43 ] Our findings are
+        consonant with these previous studies: for example, a
+        higher rate of mammography screening as seen in our managed
+        care population could explain the trend to earlier stage
+        breast cancers seen in California among HMO enrollees
+        compared to FFS. [ 31 ] , [ 32 ] While most of previous
+        work focussed on specific disease entities, we studied the
+        general Medicare population and measured indicators
+        applicable to all enrollees, as well as indicators focussed
+        on specific disease-populations.
+        There are few studies of the effect of managed care
+        structure, (e.g. Group vs. Staff vs. IPA models) on
+        indicators of quality care. [ 44 45 ] These models differ
+        both in the extent to which financial risk is attached to
+        individual providers, and also the degree to which
+        providers are effectively formed into an organized system
+        of care. For example some of the differences seen in our
+        study between the Group and Staff Model were probably due
+        to organizational processes and systems in place in the
+        Staff Model, such as physician reminder systems for
+        preventive services leading to higher rates of breast
+        cancer screening.
+        This study has several strengths. We included a large
+        number of Medicare enrollees covered by the health plan
+        studied, and the universe of fee-for-service Medicare
+        enrollees in the same geographic region. Matching by region
+        reduces the variation that may have affected some previous
+        comparisons of FFS and HMO populations, in which national
+        samples were used. [ 46 ] This method also automatically
+        accounts for any "spillover" effect of managed care
+        practices onto fee-for service practice, wherein
+        cost-saving techniques are applied widely by providers,
+        even to those with fee-for-service insurance, in a market
+        with high penetration of managed care insurance. [ 47 ] In
+        contrast to studies that focus on inpatient data (in part
+        because of their ready availability,) [ 48 ] our focus on
+        outpatient care is highly relevant to comparisons of
+        managed care with fee-for-service care [ 49 ] in terms of
+        ambulatory practices that may prevent hospitalizations. Our
+        work on the time period 1994-95 follows the transformations
+        in managed care in 1991-1993, and thus can been seen as an
+        update to previous studies of the topic. [ 13 ]
+        Our study also has limitations. People enrolling in
+        managed care organizations may be systematically different
+        from those choosing fee-for-service arrangements. [ 50 ]
+        For example, patients who are sicker or more disabled may
+        not enroll, [ 28 ] or may differentially choose to leave
+        managed care. [ 51 ] Those who do enroll could be more
+        aggressive in seeking care. We know that a smaller
+        proportion of HMO enrollees were over the age of 85 years,
+        compared to the matched fee-for-service sample.
+        Differential enrollment could influence our results if
+        patients with higher degrees of co-morbid conditions
+        preferentially enrolled in the fee-for service system and
+        did not participate in cancer screening or secondary
+        diabetic prevention because of their other illnesses. [ 52
+        ] In addition, the annual visit rate could potentially be
+        overestimated in the HMO population if an influx of new
+        patients and a "new enrollee" effect were to cause more
+        patients to come in for visits than otherwise would.
+        Another potentially important limitation is that different
+        data systems created for different purposes, such as claims
+        and clinical databases, may not provide comparable results,
+        even for strictly defined indicators. [ 53 54 ]
+        The use of performance indicators to compare care
+        provided in different settings usually requires expensive
+        data gathering. Indicators based on automated data systems
+        offer partial relief to this problem. Our findings related
+        to staff model and group model HMO types should be
+        replicated in other settings, and extended to other types
+        of managed care. While the staff model HMO share of the
+        market is shrinking, group and network model health
+        maintenance organizations are experiencing increased
+        enrollment. Our finding of concordance on many indicators
+        between the Group and Staff Model divisions suggests that a
+        less tightly organized provider system may perform as well
+        as a staff model HMO. Neither of the HMO divisions studied
+        resembles an independent practice association (IPA) model,
+        so our findings may not apply to that form of provider
+        organization. In addition we studied only one managed care
+        organization, one that is well established, and exists in a
+        region of the country with high level access to specialty
+        services. The generalizability of our findings to other
+        managed care populations is unknown. Furthermore, the
+        single HMO studied is a not-for profit organization, and
+        our findings might not be applicable to for-profit
+        entities. [ 55 ]
       
       
         Conclusions
-        The present results show that the mode of evolution of
-        the vast majority of the analyzed proteins from all three
-        domains of life - bacteria, archaea and eukaryotes is
-        compatible with the rate-constancy prediction of molecular
-        evolution. A recent analysis of the genome-wide
-        distribution of the evolutionary rates of prokaryotic genes
-        suggested that the shape of this distribution does not
-        significantly change during evolution, although the rates
-        themselves may change [ 24]. This is consistent with the
-        present finding of a strong correlation between
-        evolutionary rates in different phylogenetic partitions.
-        However, with remarkable consistency, for all three species
-        groups analyzed here, approximately 1% of orthologous genes
-        seem to have experienced accelerated evolution, suggesting
-        functional and potentially adaptive diversification that is
-        conspicuous enough to be detected at a statistically
-        significant level.
-        It is also a formal possibility that some of the genes
-        identified as functionally diversified may be losing their
-        function. As this would entail a change in function, it can
-        be considered as a special type of functional
-        diversification. However, two points argue against this
-        possibility. First, the K 
-        s /K 
-        a values for mammalian genes are all
-        < 1 (including the putative diversified genes) and thus
-        do not show evidence of loss of function or of pseudogenes.
-        Second, amino-acid sequence alignments of the diversified
-        proteins show that these proteins still retain the identity
-        of critical domains, such as signal peptides and
-        transmembrane domains, as well as critical residues in the
-        active sites of enzymes (Table 2and data not shown).
-        Accelerated evolution and functional diversification
-        between paralogs is thought to be common in evolution and
-        is posited as a major mechanism for the generation of new
-        genes and new biochemical functions [ 25]. Functional
-        diversification between orthologs is considered to be much
-        less common, however. In fact, directional selection
-        leading to functional diversification between orthologs is
-        the least common form of natural selection observed at the
-        molecular level [ 3]. In the present study, the
-        implementation of a simple test designed specifically to
-        exploit the availability of numerous complete and partially
-        complete genome sequences facilitated the detection of
-        multiple cases of probable functional diversification
-        between orthologs. Application of this method to the
-        growing set of complete genomes is expected to yield
-        similar results and may reveal numerous additional cases of
-        functionally diversified orthologs.
+        In conclusion, we believe that the indicators we have
+        tested are feasible to implement in other managed care
+        systems, and could be translated into other electronic
+        medical record systems. Indicators such as these might be
+        useful for consumers in comparing health plans to one
+        another, such as those participating in Medicare+Choice. We
+        found no evidence of any decrement in access to health care
+        for the elderly Medicare population enrolled in one managed
+        care plan in this geographic region. The low- or no cost
+        "supplemental" insurance provided by many HMOs may in fact
+        lower financial barriers to care for low-income seniors.
+        Our study describes only two models of managed care, and
+        this is a crude classification by current standards. Yet to
+        be studied are the effects of financial incentives on
+        increasingly smaller units of leverage, e.g. small IPA
+        model groups, and the effectiveness of managed care plans
+        that use sophisticated information systems to track and
+        improve care, as compared to those that use principally
+        financial incentives. [ 56 57 ] The latter is crucial to
+        understanding how best to create a partnership between
+        providers and health plans that facilitates the provision
+        of excellent care.
       
       
-        Materials and methods
-        
-          Sequence analysis
-          Three closely related Chlamydiaceae genomes and three
-          closely related 
-          Pyrococcus genomes were chosen for
-          analysis. These genomes were chosen on the basis of three
-          criteria. First, there were three or more closely related
-          complete genome sequences available; second, the genomes
-          were closely enough related to avoid saturation of
-          amino-acid changes and to ensure unambiguous
-          identification of orthologs; and third, the genomes were
-          distantly enough related to provide meaningful
-          information on amino-acid variation. Predicted proteomes
-          for three Chlamydiaceae genomes ( 
-          Chlamydophila pneumoniae - CWL029, 
-          Chlamydia muridarum and 
-          Chlamydia trachomatis ) and two 
-          Pyrococcus genomes ( 
-          P. abyssi and 
-          P. horikoshii ) were obtained from
-          the National Center for Biotechnology Information (NCBI)
-          public server [ 26]. The predicted proteome for the 
-          P. furiosus genome was obtained
-          from the sequencer's site [ 27]. The method for
-          identifying probable orthologs is based on the
-          genome-specific best hits (BeTs) rationale that underlies
-          the construction of the COGs database [ 4, 5]. For each
-          group of genomes, all-against-all BLAST [ 28] comparisons
-          were done using the predicted protein sequences. For each
-          query sequence, the BeT (highest score or lowest
-          expectation value) to each of the other proteomes was
-          recorded. Triangles of mutually consistent symmetrical
-          BeTs were detected to form COGs. Only COGs with one
-          representative (ortholog) from each genome (COGs of size
-          3) were considered for further analysis. This
-          sequence-similarity-based approach is generally not
-          dependent on constant rates of evolution and thus is not
-          misled by rate variation. However, it is a formal
-          possibility that misidentification of orthologs could
-          result from cases of extreme rate variations that would
-          make the orthologs less similar to each other than to
-          some paralogs. This possibility was examined using
-          phylogenetic analysis, as described below.
-          Messenger RNA sequences from 
-          R. norvegicus , 
-          Mus musculus and 
-          Homo sapiens were obtained using
-          NCBI's batch Entrez server [ 29]. The encoded amino-acid
-          sequences were clustered at 99% similarity threshold
-          using BLASTCLUST [ 30] to remove redundant sequences. The
-          BeT procedure was used to identify perfectly symmetrical
-          COGs of size 3 for this species group. Because these
-          mammalian genomes are not complete, a formal possibility
-          exists that the COGs procedure will isolate
-          non-orthologous protein sets. For this reason, two
-          additional steps were added to the ortholog
-          identification procedure. Subsequent to the construction
-          of human-mouse-rat COGs and phylogenetic trees, the
-          'triplet test' [ 17] was used to further ensure that the
-          COGs of size 3 contained only orthologs. The triplet test
-          verifies that the mouse and rat members of the COGs are
-          approximately equidistant from the human member. In
-          addition to the triplet test, the distributions of K 
-          s between human and rodents and K 
-          s between mouse and rat was used to
-          eliminate potentially non-orthologous sequence sets. In
-          both cases, the distribution of K 
-          s was approximately normal, with the
-          exception of long and sparsely populated tails. Sequence
-          sets that fell in the tails of the K 
-          s distribution (K 
-          s > 0.35 for mouse-rat and K 
-          s > 1.0 for human-rodent) were
-          removed before analysis to eliminate potentially
-          non-orthologous protein sets. This manual selection
-          process does not appear to bias the results in any way
-          (for example, by eliminating a certain functional class
-          of genes). Omitting this step resulted in the inclusion
-          of a number of distantly related and poorly aligned
-          sequence sets that may not actually include orthologs.
-          Thus, the relative rates test as implemented for the
-          mammalian dataset is a conservative one. Furthermore, the
-          most rapidly evolving genes will not be included in the
-          analysis as many of them will not have detectable
-          orthologs even in closely related genomes.
-          Orthologous protein sequence sets were aligned using
-          CLUSTALW [ 31] with default options. Alignments that
-          resulted in any branch lengths (based on the corrected
-          gamma distance, see below) longer than 2 in the case of
-          the Chlamydiaceae and 
-          Pyrococcus species groups or longer
-          than 1 in the case of the human-mouse-rat species group
-          were visually inspected and adjusted manually. Manual
-          adjustment included removal of poorly aligning and/or
-          low-sequence-complexity regions identified by BLAST.
-          These adjustments did not result in any qualitative
-          differences in the results of subsequent analyses.
-          For each orthologous protein set of size 3,
-          evolutionary distances between the sequences were
-          calculated using 3BRANCH program (Y.I.W., unpublished
-          data, available from the author on request) that uses the
-          distance correction based on the gamma distribution of
-          site rate variation [ 32, 33] with an α parameter of 1.0.
-          Phylogenetic branch lengths were calculated from
-          distances by solving the following set of equations
-          (Figure 1):
-          distance from species A to species B (dAB) = branch
-          length A (bA) + bB,
-          dAC = bA + bC,
-          dBC = bB + bC.
-          For example, solving for bA yields bA = (dAB + dAC -
-          dBC)/2.
-          For each orthologous gene set, pairwise estimates of
-          the synonymous (K 
-          s ) and non-synonymous (K 
-          a ) substitution rates were obtained
-          from nucleotide-coding sequence alignments using the
-          Pamilo-Bianchi-Li method [ 34, 35] implemented in the
-          PBLtest program (I.B.R., unpublished data, available from
-          the author on request). Pairwise estimates were averaged
-          to obtain the data presented in Table 1.
-          Domain architectures of the functionally diversified
-          proteins were assessed by using the SMART server [ 36,
-          37] and the NCBI's CD-Search server [ 28, 38]. Domain
-          architectures together with the results of PSI-BLAST [
-          28] searches that were run for three iterations, Entrez
-          protein annotation [ 39] and protein annotations in the
-          COG database [ 5, 40], were used to assign (probable)
-          functions to the selected proteins. The phyletic
-          distribution of these proteins was determined from the
-          PSI-BLAST search results using the TAX_COLLECTOR program
-          of the SEALS package [ 41]. Additional case-by-case
-          inspection of these results was conducted and
-          neighbor-joining phylogenetic trees [ 42, 43] were
-          constructed to verify the orthologous relationships
-          between the selected proteins. This was done by ensuring
-          that putative orthologous proteins did not show a greater
-          similarity to any paralogs or proteins from more distant
-          species than they did to the proteins included in the
-          analyzed COGs. As a result of this inspection, five 
-          Pyrococcus COGs were removed from
-          the original set of selected proteins.
-        
-        
-          Statistical analysis
-          For each species set, the standard error of the
-          predicted 
-          y -value for each 
-          x -value in the regression (Figure
-          3) was determined. The number of standard errors away
-          from the linear trend line that corresponds to an
-          expectation value of 0.05 was calculated using the
-          inverse of the standard normal cumulative distribution
-          for a probability equal to 1 - (0.05/number of values in
-          plot/2).
-        
+        Competing interests
+        None declared
       
     
   

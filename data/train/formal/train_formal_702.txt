@@ -3,631 +3,682 @@
     
       
         Background
-        The identification of individual genes governing
-        phenotypic variation is crucial to understand the
-        mechanistic basis of quantitative inheritance and
-        ultimately provide information about the design of optimal
-        breeding strategies in both plants and animals.
-        Quantitative genetics based on new statistical and
-        computational technologies has advanced to the point at
-        which individual genes can be detected and mapped on
-        chromosomes [ 1 2 ] . The underpinning for the detection
-        and mapping of genes is founded on their particular
-        segregation pattern. For a pedigree derived from inbred
-        lines, the segregation pattern of a gene can be exactly
-        predicted. In this situation, quantitative genetic theory
-        can lay a sufficient foundation for gene detection and,
-        thus, the properties of a detected gene can be adequately
-        described by its effect and genomic location. However, for
-        outcrossing populations, such as forest trees, in which
-        inbred lines are not available, genes also display
-        population genetic properties [ 3 ] . Hence, the foundation
-        for gene detection in these populations should be
-        established on a combination of quantitative genetics and
-        population genetics. The estimation of the population
-        genetic properties of genes, such as allele frequencies and
-        the degree of disequilibrium, can not only enhance the
-        precision and power of gene detection, but also is
-        fundamentally important to our understanding of population
-        differentiation and evolution [ 4 5 ] .
-        We present a strategy for investigating the existence of
-        genes in an arbitrarily complex progeny test based on
-        phenotype data and estimating the effects of these genes on
-        a quantitative trait and their population properties under
-        the maximum likelihood framework. Only a limited number of
-        statistical studies have been performed to detect genes
-        based on the phenotypic data [ 6 7 8 9 10 11 12 13 ] , and
-        none of these studies have considered the population and
-        evolutionary genetic properties of genes. Our study
-        population can be derived from a natural population instead
-        of inbred lines as used for general agronomic crops. A
-        finite number of unrelated parents are randomly selected
-        from a natural population and are mated to produce progeny
-        tests under a mating design such as factorial or diallel.
-        In a recent paper, we used such progeny tests to derive a
-        model for detecting major genes affecting a quantitative
-        trait [ 14 ] . This model has power to estimate the effect
-        of drift errors on genetic variation during hybridization,
-        thus providing information about dynamic changes of the
-        genetic architecture of a population under artificial
-        hybridization. However, the estimates of population genetic
-        parameters from the progeny test using the above model
-        cannot be generalized to the original population from which
-        the mating design is derived. In this paper, we developed a
-        hierarchical model for analyzing the pattern of gene
-        segregation at both population and family levels, which
-        thus can provide estimates of genetic parameters in two
-        successive generations of the population. Estimates of
-        population genetic parameters using this hierarchical model
-        can reasonably infer the genetic structure of the original
-        population. A forest tree example is used to demonstrate
-        the application of the new statistical model for gene
-        detection.
+        Since the 'seed and soil' hypothesis of Paget in the
+        19th century [ 1 ] , it has been understood that the
+        microenvironment, or 'soil,' surrounding the tumor 'seed'
+        plays a critical part in its development. However,
+        investigations into the molecular biology of cancers are
+        often carried out on cells grown 
+        in vitro in culture, where the
+        environment is unlike that of the 
+        in vivo tissue environment in which
+        cancers naturally develop. The effects of these
+        environmental differences on cancer cells may account, in
+        part, for the fact that only a small percentage of
+        anticancer drugs that are found to effectively kill cells 
+        in vitro are successful in subsequent
+        animal and human studies. In this study, we explored the
+        changes that occur at the transcriptome level as cells
+        grown 
+        in vitro are transplanted into an 
+        in vivo environment, where they
+        develop as a tumor. The 
+        in vivo environment represented here
+        is that of the subcutaneous intrascapular region of the
+        nude mouse. Two different cell lines were studied: A549,
+        derived from human lung adenocarcinoma, and U118, derived
+        from human brain glioblastoma. Our study examined the
+        differences in global gene expression between A549 mouse
+        xenograft tumors and A549 cell cultures and between U118
+        xenograft tumors (grown in the same location as the A549
+        tumors) and U118 cultures. We looked for 
+        in vivo versus 
+        in vitro differences that were common
+        to the two cell lines, and for differences that were found
+        in one cell line but not the other.
+        In modeling mechanisms of cancer development, global
+        gene-expression profiling of human-derived cells grown as
+        tumors in mice has some distinct advantages over profiling
+        of tumors obtained from patients. Whereas a great deal of
+        genetic variability exists among different tumors from
+        different patients, lesser genetic heterogeneity would be
+        expected in xenografts of cancer cells originally derived
+        from a single patient. Furthermore, patient-derived tumors
+        are composed of both cancer and non-cancer cells, making it
+        difficult to precisely ascertain gene-expression patterns
+        specifically attributable to cancer cells. For example, in
+        many cancer microarray studies, the actual percentage of
+        cancer cells in a profiled sample may be as low as 30-40% [
+        2 ] . Even when using techniques such as laser capture
+        microdissection, which can improve tumor purity [ 3 ] , the
+        relative contribution of cancer cells and non-cancer cells
+        to the overall gene-expression profile remains uncertain.
+        In contrast, profiling human genes expressed in a mouse
+        xenograft using a human microarray chip might uncover genes
+        specifically expressed in human cancer cells in xenograft
+        tumors comprised of a mixture of human- and mouse-derived
+        cells [ 4 ] .
+        The data obtained in a microarray experiment can be
+        overwhelming, and the challenge is to understand, on a
+        global systems level, the biology behind the differences in
+        expression observed in hundreds of genes. In this study, we
+        have searched for 'significantly enriched' classes of genes
+        among all differentially expressed genes. These are classes
+        or functional categories of genes that appear
+        overrepresented in the set of differentially expressed
+        genes. As a result, valuable clues could emerge as to the
+        dominant biological features or processes that might
+        underlie the coordinate expression of these genes. Such
+        clues could be especially convincing if it can be shown
+        that the enriched classes are unlikely to represent a
+        chance occurrence. Gene classes can be defined by common
+        gene annotations or concepts from the biomedical
+        literature.
       
       
-        Model
+        Results
         
-          Population genetic structure
-          Suppose there is a segregating major gene responsible
-          for a quantitative trait in a natural or experimental
-          diploid population. This gene has 
-          s different codominant alleles, 
-          A 
-          1 ,..., 
-          A 
-          
-            s 
-           , whose frequencies in the population are denoted by
-          
-          p 
-          1 ,..., 
-          p 
-          
-            s 
-           with 
-          p 
-          κ = 1. These 
-          s alleles randomly unite to form 
-          s ( 
-          s + 1)/2 distinguishable genotypes
-          including 
-          s homozygotes and 
-          s ( 
-          s - 1)/2 heterozygotes. The
-          population frequencies of the genotypes are denoted by 
-          p 
-          κι (κ, ι = 1,..., 
-          s ). If the population is at
-          Hardy-Weinberg disequilibrium (HWD), the genotypic
-          frequency is the product of the two corresponding allelic
-          frequencies, plus the coefficient of HWD ( 
-          d 
-          κι ), i.e., 
-          p 
-          κι = 
-          p 
-          κ 
-          p 
-          ι + 
-          d 
-          κι , where 
-          d 
-          κι has the restrictions, max{- 
-          p 
-          κ (1 - 
-          p 
-          ι ), - 
-          p 
-          ι (1 - 
-          p 
-          κ )} ≤ 
-          d 
-          κι ≤ 
-          p 
-          κ 
-          p 
-          ι and ∑ 
-          υ≠κ 
-          d 
-          κυ - ∑ 
-          
-          v ≠κ 
-          d 
-          υυ ≥ - [ 15 ] .
-        
-        
-          Mating design
-          A finite number of unrelated individuals are randomly
-          selected from the population as female and male parents
-          to generate a 
-          I × 
-          J factorial mating design. Based on
-          sampling theory, these selected individuals have
-          genotypes at the major locus whose counts follow the same
-          multinomial distribution as those in the original
-          population, with probability vector 
-          
-            p 
-           = ( 
-          p 
-          κι , κ, ι = 1,..., 
-          n ). The segregation of progeny
-          genotypes in the mating design depends on how the
-          major-locus genotypes segregate (1) among the selected
-          female or male parents and (2) within each of the
-          full-sib families (Table 1). The segregation among the 
-          I female or 
-          J male parents having the same
-          pattern as in the original population is viewed as the
-          population-level segregation. The segregation within a
-          full-sib family of size 
-          n 
-          
-            ij 
-           derived from the 
-          i th female and 
-          j th male parent follows the
-          Mendelian segregation ratio, viewed as the family-level
-          segregation. To understand the genetic structure of the
-          original population, different genetic information
-          derived from this two-level segregation will not be
-          mixed, but rather combined within a maximum likelihood
-          framework.
+          Global differences in gene expression between
+          xenograft tumors and cell cultures
+          A549 and U118 cells were each transplanted
+          subcutaneously into the intrascapular region of
+          immunodeficient mice, within which sizable tumors
+          developed after 21 days. Global mRNA expression profiles
+          from these tumors, using Affymetrix HuGeneFL chips, were
+          compared with profiles obtained from the cell lines as
+          grown in culture. Between the A549 xenograft tumors and
+          the A549 cell cultures, 357 genes (375 probe sets)
+          differed significantly at 
+          p < 0.01 with a fold change
+          greater than two either way (134 genes being higher in
+          tumors and 223 genes being higher in culture), a number
+          much greater than the 24 to be expected by chance, as
+          determined by permutation testing. Between the U118
+          xenograft tumors and cell cultures, 368 genes (387 probe
+          sets) differed significantly (112 genes being higher in
+          tumors and 256 genes being higher in culture), with 29
+          expected false positives due to chance. Table 1shows the
+          genes with highest expression in tumors compared with
+          cultures, for each of the cell lines.
+          From histological analysis the amount of mouse tissue
+          in a xenograft tumor was estimated between 10 and 20%. To
+          determine the extent of hybridization with the human
+          HuGeneFL chip that might be attributable to mouse RNA, a
+          sample of mouse lung tissue was also profiled. Whereas
+          the total amount of hybridization measured in the
+          xenograft tumor profiles was comparable to that of the
+          culture profiles with equal amounts of RNA, the total
+          hybridization measured in the mouse control profile was
+          found to be about one-fifth that of a xenograft profile,
+          with the same amount of RNA. As the control profile was
+          from a sample of 100% mouse tissue, the contribution of
+          mouse genes to differences observed in gene expression
+          between cell cultures and tumors was considered to be
+          minimal. From a comparison of the individual probe-set
+          intensities of the mouse lung profile with those of the
+          culture profiles, and assuming a 20% contribution of
+          mouse tissue to the human xenograft sample, we estimate
+          that in only about 20 out of the 7,069 probe sets on the
+          HuGeneFL chip (a number on the level of measurement noise
+          in a microarray experiment) would the amount of
+          hybridization from mouse tissue alone have been high
+          enough to account for greater than twofold changes
+          between cell cultures and tumors. In contrast, nearly 800
+          probe sets showed a greater than twofold increase on
+          average from A549 culture profiles to A549 xenograft
+          tumor profiles. It can therefore be concluded that, in
+          all but a handful of genes, the numerous significant
+          changes observed in gene expression in the xenograft
+          tumors are due to the cancerous (human) cells and not the
+          surrounding (mouse) host tissue.
+          Principal components were extracted from the cell
+          culture and xenograft expression data using all 7,069
+          probe sets considered in the analysis. The first
+          principal component captures the greatest fraction of the
+          overall variance in gene expression; the second captures
+          the greatest fraction of variance subject to being
+          independent of the first, and so on. From the first two
+          principal components, a pair of coordinates was
+          determined for each xenograft and cell culture profile to
+          construct a two-dimensional view that reflects the
+          relative locations of the profiles in the
+          higher-dimensional space. On the same two-dimensional
+          view, we plotted one dataset of 86 profiles from lung
+          adenocarcinomas and another dataset of 45 profiles from
+          glioblastomas and astrocytomas, generated from previous
+          global gene-expression studies [ 5 6 ] . Figure 1shows
+          this principal components analysis (PCA) plot of the
+          gene-expression profiles from cell cultures, xenografts,
+          and human lung and brain tumors. Although none of the
+          human tumor profiles was used to define the principal
+          components coordinate space, lung tumor profiles appear
+          well separated on the plot from brain tumor profiles.
+          A549 profiles (both xenograft and culture) are grouped
+          with lung tumors rather than brain tumors, and U118
+          profiles, with brain tumors rather than lung tumors. Of
+          the 134 genes found expressed more highly in A549
+          xenograft tumors over A549 cultures ( 
+          p < 0.01, fold change > 2),
+          70 were also higher in stage I adenocarcinomas over A549
+          cultures ( 
+          p < 0.05). Of the 112 genes
+          upregulated in U118 xenograft tumors over cultures, 50
+          were also higher in high-grade glioblastomas over U118
+          cultures ( 
+          p < 0.05).
         
         
-          Estimation method
-          Let 
-          y 
-          
-            ijk 
-           denote the phenotypic measurement for the 
-          k th offspring from 
-          i th female parent and 
-          j th male parent and 
-          g 
-          
-            ijk 
-           denote its genotype at the major gene, 
-          i = 1,2, ..., 
-          I , 
-          j = 1, 2, ..., 
-          J , 
-          k = 1,2, ..., 
-          n 
-          
-            ij 
-           . The statistical model describing the
-          phenotype-genotype relationship can be expressed as
-          
-          where μ 
-          κι is the genotypic value of genotype 
-          A 
-          κ 
-          A 
-          ι ; and 
-          e 
-          
-            ijk 
-           is the error term with the normal distribution 
-          N (0,σ 2).
-          Let be the genotype for the 
-          i th female parent and for the 
-          j th male parent. We denote by 
-          
-            y 
-           the collection of the observed data and by 
-          
-            z 
-           = ( 
-          
-            g 
-           , 
-          
-            g 
-           
-          
-            f 
-           , 
-          
-            g 
-           
-          
-            m 
-           ) the collection of the major-locus genotypes for
-          offspring, female parents and male parents. We assume the
-          following hierarchical model:
-          
-          where 
-          f denotes the normal distribution
-          of the phenotype 
-          N (μ 
-          κι , σ 2), 
-          h is distributed according to the
-          Mendelian segregation pattern and ψ is multinomially
-          distributed with probability vector 
-          
-            p 
-           . Note that genotypes for siblings are dependent
-          and, given genotypes, the traits are independent of each
-          other. Under the above model ( 
-          
-            y, z 
-           ) has a joint distribution as follows:
-          
-          Statistically, equation (2) is a mixture model in
-          which each component is represented by a genotype within
-          a full-sib family [ 16 17 18 ] . The maximum likelihood
-          estimates for θ = ( 
-          μ , σ 2, 
-          p ) can be obtained using the EM
-          algorithm [ 19 20 ] . At the 
-          t 
-          th step of the EM sequence, the
-          expected log-likelihood is proportional to
-          
-          where Σ 
-          
-            G 
-           sums over all possible genotypes, are the posterior
-          distributions of offspring genotypes and 
-          iG , 
-          jG are the posterior distributions
-          of parent genotypes. Conditional on , these posterior
-          probabilities can be evaluated as follows:
-          
-          The EM sequence is defined by
-          
-          Suppose the major gene has two different codominant
-          alleles, the posterior probablities in equation (4) can
-          be exactly calculated for a usual mating design. However,
-          for large designs with many parents or for the case where
-          the major gene has many different alleles, we have to
-          rely on a Monte Carlo version of the EM algorithm. For
-          example, we can sample from the conditional distribution
-          of 
-          
-            z 
-           = ( 
-          
-            g 
-           , 
-          
-            g 
-           
-          
-            f 
-           , 
-          
-            g 
-           
-          
-            m 
-           ) given using the following Gibbs sampler [ 20 ]
-          :
-          
+          Overrepresentation of genes involved in cell
+          division and metabolism among genes upregulated in cancer
+          cells in culture relative to xenografts
+          Searches were made for significantly enriched gene
+          classes, as defined by Gene Ontology (GO) annotation or
+          Medical Subject Heading Index (MeSH) term association
+          (see Materials and methods), for both the set of 223
+          genes upregulated in the A549 cell cultures over A549
+          tumors and the set of 256 genes upregulated in the U118
+          cell cultures over the U118 tumors ( 
+          p < 0.01, fold change > 2).
+          In each case, the 
+          p -values for the most enriched
+          classes appeared highly significant compared to what
+          would be expected, based on simulation results, in a
+          randomly selected set of the same number of genes. For
+          example, for the A549 set of 223 genes, 35 enriched
+          LocusLink annotation terms were found that had a 
+          p -value less than 1.9E-03, where
+          one term with a 
+          p -value less than 1.9E-03 would be
+          expected in a given set of 223 randomly selected genes.
+          Out of 100 simulation tests, no single test had more than
+          eight terms with a 
+          p -value less than 1.9E-03. Table
+          2shows the top gene classes found in both the A549 set
+          and the U118 set with 
+          p -values less than 0.05. There are
+          far more gene classes common to both gene sets with 
+          p < 0.05 in each than would be
+          expected in two randomly selected gene sets of 223 and
+          256 (for example, for the MeSH term classes, 37 were
+          found to be significantly enriched in the actual data,
+          whereas about two would be expected to occur by chance,
+          see Table 2).
+          Taken together, the significantly enriched classes
+          found for both the A549 and the U118 genes in cell
+          culture compared with tumors are highly indicative of
+          processes of cell division and metabolism, with
+          significant MeSH term classes for the two gene sets
+          including 'Cell cycle' (62 genes for A549, 66 genes for
+          U118), 'DNA replication' (30,33), 'Mitosis' (28,37),
+          'Mitochondria' (38,52), and 'Cyclin-dependent kinases'
+          (21,30); and significant GO terms including 'Cell
+          proliferation' (36,39), 'Metabolism' (108,134),
+          'Cytokinesis' (8,6), 'Tricarboxylic acid cycle' (3,5),
+          and 'G1/S transition' (5,7). A search for enriched gene
+          classes was also made for 157 genes that were expressed
+          more highly ( 
+          p < 0.05, fold change > 2) in
+          both A549 and U118 cell cultures over tumors, and the
+          significant classes found were the same, or of the same
+          nature, as the classes listed in Table 2. For the entire
+          set of enriched classes for genes upregulated in cell
+          cultures over the xenograft tumors, including which genes
+          belong to which classes, see Additional data files and [
+          7 ] .
         
-      
-      
-        Example
-        We use data from aspen trees to illustrate the
-        appication of our statistical model for detecting a major
-        gene. The example is derived from a 6 × 6 factorial mating
-        design of 
-        Populus tremuloides and 
-        P. tremula. The parents for the
-        crosses were randomly selected from a mixed breeding
-        population of two different species established at the
-        University of Minnesota. Originally, the 
-        P. tremuloides trees used as the
-        female parents from the Upper Peninsula of Michigan and
-        northern Wisconsin, and the 
-        P. tremula male parents came from
-        northeastern Poland and Germany [ 21 ] . The seedlings from
-        the progeny population were planted in two different
-        locations, one on a cutover forest site near Grand Rapids,
-        Minnesota, and the other on farmland near Rhinelander,
-        Wisconsin. Both trials were laid out in a randomized
-        complete block design with 10 replicates and six seedlings
-        per family in each replicate at 2.5 × 2.5 spacing. At the
-        end of the second year in the field, all trees were
-        measured for stem height.
-        Figure 1presents density estimates of the second year
-        height from each family pooled over the two locations.
-        Trees from eight families did not have growth data due to
-        mortality. The phenotypic distributions suggest the
-        existence of a major gene in the progeny test. For example,
-        in the family derived from Clone-5 × TA-1-68, the
-        phenotypic distribution is a mixture of at least two
-        components, showing the existence of a segregating gene.
-        Figure 1also indicates different segregation patterns among
-        the families, with some more smooth and others more waved,
-        thus suggesting that some parents are heterozygous with
-        their alleles segregating in the progeny.
-        The effect and genotypic frequencies of the major gene
-        are estimated using the hierarchical model assuming two
-        alleles. Since no significant difference is detected
-        between two locations, we only report the result based on
-        pooled data. With probability of almost one, parents
-        TA-1-91, TA-2-68, TA-4-91, XTA-3-6 have genotype 
-        A 
-        1 
-        A 
-        1 , parents TA-1-68, TA-1-75, CLONE-5,
-        TA-5-61 have genotype 
-        A 
-        1 
-        A 
-        2 and the rest parents have genotype 
-        A 
-        2 
-        A 
-        2 . The estimates of the genotypic
-        values of 
-        A 
-        1 
-        A 
-        1 , 
-        A 
-        1 
-        A 
-        2 and 
-        A 
-        2 
-        A 
-        2 are 
-        11 = 56.7 ± 0.80, 
-        12 = 40.6 ± 0.32 and 
-        22 = 30.0 ± 1.02, respectively. The
-        estimate of residual variance is = 218.676 ± 6.09. Here,
-        the estimates of standard errors for the parameter
-        estimators are obtained based on the Fisher information
-        matrix [ 22 ] . We also fitted the model under the null
-        hypothesis that there is no major gene with a single normal
-        distribution. The likelihood ratio test has ( 
-        p < 0.0001), suggesting the
-        existence of a major gene for height growth. The ratio of
-        the dominant to additive effect for this major gene is less
-        than 0.2, which implies that it affects the stem height
-        growth in an additive manner.
-        The population genetic parameters of this major gene are
-        estimated based on the genotypes of the parents detected.
-        The genotype frequencies estimated are identical for the
-        three genotypes, i.e. 
-        11 = 
-        12 = 
-        22 = 1/3. In consequence, the allele
-        frequencies are also same ( 
-        1 = 
-        2 = 1/2). Thus, the mixed breeding
-        population of 
-        P. tremulodes and 
-        P. tremula is not at Hardy-Weinberg
-        equilibrium, because the genotype frequencies are not
-        products of the corresponding allele frequencies. The
-        coefficient of Hardy-Weinberg disequilibrium is estimated
-        as . The estimate of allele frequencies and Hardy-Weinberg
-        disequilibrium using our hierarchical model can be well
-        generalized to the original breeding population from which
-        the parents were sampled. However, one should be cautious
-        about the accuracy of the estimator due to the small sample
-        size.
-      
-      
-        Simulation
-        The behavior of the EM estimators is evaluated by two
-        simulation experiments. In the first simulation, a 6 by 6
-        mating design same as our real example is assumed. The
-        major gene is assumed to have two codominant alleles 
-        A 
-        1 and 
-        A 
-        2 whose frequencies in the population
-        are 
-        p 
-        1 = 0.6 and 
-        p 
-        2 = 0.4. The genotypic values are set to
-        be 65, 40 and 25 with standard deviation 15. Based on the
-        hierarchical model defined in equation (1), we first
-        simulated a set of the parental genotypes ( 
-        A 
-        1 
-        A 
-        1 , 
-        A 
-        1 
-        A 
-        1 , 
-        A 
-        1 
-        A 
-        2 , 
-        A 
-        1 
-        A 
-        1 , 
-        A 
-        1 
-        A 
-        2 , 
-        A 
-        1 
-        A 
-        1 for females and 
-        A 
-        1 
-        A 
-        2 , 
-        A 
-        2 
-        A 
-        2 , 
-        A 
-        2 
-        A 
-        2 , 
-        A 
-        1 
-        A 
-        1 , 
-        A 
-        1 
-        A 
-        2 , 
-        A 
-        1 
-        A 
-        2 for males). Then we randomly generated
-        50 offspring genotypes and observations for each
-        family.
-        Our EM estimating procedure converged to the correct
-        parental genotypes after only a few iterations (normally 2
-        or 3). A loglikelihood test is highly significant with
-        log-likelihood ratio equals 125 (df = 4). The estimates of
-        genotypic values from a single simulation replicate are
-        64.1 ± 0.74 for 
-        A 
-        1 
-        A 
-        1 , 39.5 ± 0.59 for 
-        A 
-        1 
-        A 
-        2 and and 26.8 ± 1.64 for 
-        A 
-        2 
-        A 
-        2 . The estimate of residual variance is
-        241.6 ± 10.30.
-        In our second simulation we studied a 5 by 5 mating
-        design. We used 25 replications to investigate the
-        empirical accuracy of the estimators. We assume the major
-        gene has 2 alleles and randomly generated parental
-        genotypes. The parental genotypes were randomly generated
-        based on allele frequence 
-        p 
-        1 = 0.5. That resulted in female
-        genotypes ( 
-        A 
-        1 
-        A 
-        1 , 
-        A 
-        1 
-        A 
-        2 , 
-        A 
-        2 
-        A 
-        2 , 
-        A 
-        1 
-        A 
-        2 , 
-        A 
-        2 
-        A 
-        2 ) and male genotypes ( 
-        A 
-        1 
-        A 
-        2 , 
-        A 
-        1 
-        A 
-        1 , 
-        A 
-        2 
-        A 
-        2 , 
-        A 
-        1 
-        A 
-        1 , 
-        A 
-        1 
-        A 
-        2 ). For each family we simulated the 50
-        genotypes for its offsprings and then simulated its trait
-        measurement using a normal and log-normal distribution.
-        The results from the second simulation study are
-        summarized in Figure 2. The top panel of the plots is for
-        the simulation where trait measurements are simulated from
-        a normal distribution. The bottom panel corresponds to
-        lognormal data. In each plot we graphed the ideal estimates
-        of the parameter (assuming that we know the genotypes of
-        each offspring) versus our estimates based on the EM
-        algorithm. Mean squared errors are also indicated in the
-        plots. It is seen from Figure 2that all four parameters can
-        be estimated quite accurately in the normal case while they
-        are slightly biased for the lognormal data.
+        
+          Overrepresentation of genes involved in cell
+          adhesion, the extracellular matrix, and vascularization
+          among genes upregulated in cancer cells in xenografts
+          relative to cultures
+          As with the genes expressed at higher levels in
+          culture compared to xenografts, searches were made for
+          significantly enriched GO and MeSH term classes for the
+          set of 134 genes with significantly higher expression ( 
+          p < 0.01, fold change > 2) in
+          the A549 tumors over the A549 cell cultures and the set
+          of 112 genes upregulated in the U118 tumors over the U118
+          cell cultures. Again, in each case, the 
+          p -values for the most enriched
+          classes found were quite significant over what would be
+          expected by chance. For example, for the A549 set of 134
+          genes, 36 enriched MeSH terms were found that had a 
+          p -value less than 7E-04, where one
+          term would be expected to have 
+          p less than 7E-04 in a set of 134
+          randomly selected genes; out of 100 simulation tests, no
+          single test had more than six terms with a 
+          p -value less than 7E-04. Table
+          3shows the top gene classes found in both the A549 set
+          and the U118 set with 
+          p -values less than 0.05.
+          Taken together, the significantly enriched gene
+          classes for A549 and U118 genes that were upregulated in
+          tumors compared to cell culture are highly indicative of
+          processes involving cell adhesion and the extracellular
+          matrix (ECM). Significant MeSH term classes for the two
+          gene sets included 'Cell adhesion' (26 genes for A549, 21
+          genes for U118), 'Extracellular matrix proteins' (15,16),
+          'Cytokines' (28,26), 'Collagen' (28,33), 'Fibroblasts'
+          (40,35), 'Metalloendopeptidases' (11,12), 'Growth
+          Substances' (14,16), 'Proteoglycans' (11,15), and
+          'Transcription factor Sp1' (11,10). Sp1 is important for
+          the basal expression of various collagens, and blocking
+          Sp1 broadly inhibits expression of ECM genes [ 8 ] .
+          Terms such as 'Pathologic neovascularization' (13,9) and
+          'Vascular endothelium' (29,26) can refer to processes of
+          angiogenesis, the generation of new blood vessels from
+          preexisting vessels for the delivery of nutrients to
+          tumors. Other disease-related terms include 'Precancerous
+          conditions' (11,8), 'Pulmonary fibrosis' (5,5; a
+          condition involving chronic inflammation and progressive
+          fibrosis of the pulmonary alveolar walls), and 'Systemic
+          scleroderma' (4,6; characterized by hardening of affected
+          tissues). Also of interest is the significant term 'Stem
+          cells' (23,20), as similar signaling pathways are thought
+          to regulate self-renewal in stem cells and cancer cells,
+          and as tumors may include stem cells [ 9 ] . The entire
+          set of enriched classes found for genes expressed more
+          strongly in the xenografts over the cell cultures,
+          including which genes belong to which classes, is
+          available as additional data files and from [ 7 ] .
+        
+        
+          Upregulation of genes specific to cell-line lineage
+          in xenografts
+          While several gene classes were found in common
+          between the 112 genes upregulated in U118 tumors and the
+          134 genes upregulated in A549 tumors over cultures ( 
+          p < 0.01, fold change > 2),
+          only 10 upregulated genes were shared between the two
+          gene sets. At a significance level of 0.05, 26 genes were
+          shared between the 301 genes upregulated in U118 tumors
+          and the 229 genes upregulated in A549 tumors over
+          cultures, whereas 12 would be expected if the two gene
+          sets were independent of each other. By comparison, 46
+          genes (over four times the 10 expected by chance) were
+          common to the 223 genes upregulated in A549 cultures and
+          the 256 genes upregulated in U118 cultures over tumors ( 
+          p < 0.01, fold change > 2).
+          Whereas processes of cell division and metabolism may be
+          more in common from one cancer to the next, processes of
+          cell adhesion and ECM interaction are likely to be very
+          different between different cell types. These
+          observations gave rise to the hypothesis that, when
+          placed in comparable tissue environments, cancer cells
+          from different lineages may express different cell
+          adhesion and ECM-related genes.
+          To test our hypothesis that A549 cells and U118 cells
+          each express a restricted set of ECM-related genes in
+          tumors, we built a classifier for distinguishing between
+          A549 and U118 cell-culture profiles. We used as the
+          training dataset the A549 and U118 tumor profiles with
+          the expression values for the 30 genes that had both an
+          association in the literature with the MeSH term
+          'Extracellular matrix proteins' and were significantly
+          upregulated ( 
+          p < 0.01, fold change > 2)
+          either in A549 xenograft tumors over cultures or in U118
+          tumors over cultures. We then tested the classifier on
+          the six profiles from A549 and U118 cell cultures. The
+          classifier distinguished perfectly between A549 and U118
+          profiles, which indicates that the expression pattern of
+          ECM-related genes upregulated in the A549 tumors is more
+          similar to the expression pattern of the same genes in
+          the A549 cell cultures than it is to the expression of
+          these genes in the U118 cell cultures, and vice versa. We
+          built three other similar classifiers: one used the
+          expression values of the 47 genes that are significantly
+          higher in either A549 or U118 tumors and had an
+          association with the MeSH term 'Cell adhesion'; the
+          second used the values for 95 genes associated with 'Cell
+          differentiation'; and the third used the expression
+          values of all 236 genes higher in A549 or U118 tumors
+          with 
+          p less than 0.01 and fold change
+          greater than two. All three classifiers correctly
+          distinguished between A549 and U118 cell cultures. Figure
+          2shows a cluster diagram of the expression signatures of
+          the 47 cell adhesion-related genes across all profiles,
+          showing most of the genes as appearing more highly
+          expressed in either the A549 tumors or the U118 tumors,
+          but not in both.
+        
       
       
         Discussion
-        We have derived a hierarchical model for detecting major
-        genes affecting a quantitative trait based on progeny tests
-        of outcrossing species. The new model takes into account
-        the population genetic properties of genes and is expected
-        to enhance the accuracy, precision and power of gene
-        detection. The information about the population behavior of
-        genes estimated from this model is fundamentally important
-        to our understanding of the genetic architecture of a
-        natural or experimental population and is also useful for
-        the design of sound breeding strategies for agricultural
-        crops and forest trees.
-        We used an example from interspecific aspen hybrids to
-        illustrate the application of our gene-detecting model. The
-        model has successfully identified a major gene with
-        additive effects on second year stem growth in the hybrid
-        aspens. The additive effect of genes on height growth in
-        young poplars was also observed in a molecular marker
-        experiment [ 23 ] . In this marker experiment, an additive
-        quantitative trait locus was found to explain almost a
-        quarter of the total phenotypic variation in second year
-        height growth. The result from the aspen hybrids was
-        consistent with that from a simulation experiment based on
-        a mating scheme analogous to that used in our real example.
-        The consistency of the results from the simulation study
-        suggests that the model proposed here can be adequately
-        used to detect genes of large effect on the phenotypes.
-        The model will have immediate applications for many
-        species in which progeny tests have been established for a
-        number of years [ 24 ] . Most of these tests are maintained
-        in different locations and measured annually, thus offering
-        desirable opportunities to address two important questions:
-        (1) How does the genes interact with environment? (2) What
-        is the developmental plasticity of gene expression? In our
-        real example, no evidence has been obtained for the change
-        of gene expression at the major locus detected over the two
-        field trials, despite their dramatic differences in
-        climate, soil properties and silvicultural measures [ 21 ]
-        . If the stability of the expression of this gene over a
-        range of environments is confirmed by more accurate
-        genotype determination methods, e.g. based on genetic
-        markers. It will have a tremendous application in breeding
-        for stable cultivars of forest tree species.
-        Our analysis and simulation is based on diallelic
-        inheritance. But multiallelic inheritance can be similarly
-        considered, although more parameters should be introduced.
-        Also, our model assumes the segregation of a single gene in
-        progeny tests. The principle behind the model can be
-        extended to consider two or more genes. Modelling multiple
-        genes may be closer to biological reality, because the
-        linkage, epistatic interaction and genetic association
-        among genes are considered. However, the consideration of
-        these relationships needs to estimate an increased number
-        of unknown genetic parameters. Finally, our model is based
-        on a balanced factorial design. For some populations, like
-        mammals, mating designs are frequently unbalanced because
-        of limited resources or reproductive difficulties. It is
-        very important to extend our analysis and model to an
-        unbalanced mating design of any complexity. For all of
-        these extensions mentioned above, maximum likelihood
-        approaches may not be sufficient owing to an increasing
-        dimension of parameter space. A more powerful computational
-        tool, e.g., Markov chain Monte Carol methods, may be needed
-        [ 20 ] to make our model more tractable in real
-        applications.
+        Cells grown in culture have unlimited access to
+        nutrients under conditions most favorable for growth and
+        proliferation and little exposure to extrinsic factors such
+        as cytokines that modulate growth and differentiation. In
+        contrast, cells in a tumor growing in a host tissue
+        environment face conditions with more limited nutrients and
+        oxygen and are subjected to or benefit from a wide variety
+        of host factors. The ability of cancer cells to proliferate
+        within a tissue depends on their response to adhesive and
+        growth factor cues within the ECM [ 10 ] , and
+        self-sufficiency in growth signals is one of the hallmarks
+        of cancer [ 11 ] . To stimulate their own growth and
+        proliferation in tissue, tumor cells can overproduce and
+        release their own growth factors or obtain them from the
+        matrix as they are released by matrix metalloproteinases [
+        12 ] . The endothelial vasculature grows into the tumor and
+        provides nutrients and oxygen [ 13 ] . This model is
+        illustrated by the experimental results presented here, as
+        both A549 (lung) and U118 (brain) cell lines are observed
+        to upregulate one set of genetic programs related to cell
+        growth and proliferation when in culture and another set
+        related to cell adhesion, the extracellular matrix, growth
+        substances, and neovascularization when developing as an 
+        in vivo tumor.
+        In terms of new biological insight into cancer
+        development, our findings suggest that cancer cells of
+        different origins interact in different ways with the same
+        extracellular environment to survive and proliferate as
+        tumors. These lineage-specific genetic programs for cell
+        adhesion and ECM interaction, although less active in cell
+        culture, are not lost, but may be reactivated when cells
+        are transplanted back into an 
+        in vivo environment, even if the new
+        environment is different from the tissue of origin of the
+        cancer. This conclusion is based on the significant
+        representation of genes associated with cell adhesion and
+        the ECM in both the A549 and the U118 xenograft tumors.
+        However, the genes in each case represent two very distinct
+        sets, the set in the U118 tumors being more similar in
+        their expression pattern to that of the U118 cell cultures
+        than to the A549 cultures, and vice versa.
+        Although tumors are known to express high levels of
+        genes involved in cell adhesion and the ECM, as we observed
+        in the xenografts, assessment of the specific contribution
+        of cancer cells to the increased expression may be
+        difficult. In the case of human tumor xenografts in a mouse
+        host, however, it can be determined conclusively that
+        expression of cell adhesion and ECM genes is upregulated in
+        the cancerous cells in the tumor tissue. This conclusion is
+        based on the following two observations. First, profiling
+        mouse tissue alone using probe sets designed for human
+        genes gives poor hybridization, to the extent that the
+        contribution from mouse genes would not have been enough to
+        account for the differences in gene expression observed.
+        Second, different cell adhesion and ECM-related genes are
+        upregulated in tumors of different cell types (A549 versus
+        U118); if the upregulation were due to a common mouse
+        source, then the same genes should have appeared
+        upregulated in both cell types, given that the cells were
+        grown in the same site.
+        The findings presented here, suggesting that different
+        ECM signaling pathways are active in different cancers,
+        could have important clinical implications, as knowledge of
+        the specific pathways dysregulated in a particular cancer
+        may be valuable for devising effective therapy that targets
+        those pathways. As candidates for further investigation, we
+        have identified genes that appear upregulated in certain
+        cancers 
+        in vivo compared to 
+        in vitro and that belong to distinct
+        functional classes related to tumor progression. Also of
+        interest are genes that are upregulated in both the
+        cancers, including 
+        IGFBP3 (insulin-like growth factor
+        binding protein 3), which, interestingly, is thought to
+        have proapoptotic activities [ 14 ] , and 
+        GSN (gelsolin), which has a role in
+        cellular motility and acts as both a regulator and effector
+        of apoptosis [ 15 ] . Further xenograft studies of the type
+        presented here could examine the responses of the host
+        tissue to the tumor (using a mouse microarray chip), as
+        well as temporal changes in gene expression within the
+        developing tumor.
+      
+      
+        Materials and methods
+        
+          Cell lines and tumors
+          Both the A549 lung adenocarcinoma cell line and the
+          U118 brain glioblastoma cell line were cultured at 37°C
+          in a 6% CO 
+          2 -humidified incubator in DMEM
+          supplemented with 10% fetal calf serum, 100 U/ml
+          penicillin and 100 U/ml streptomycin. The cells were
+          passaged weekly upon reaching confluence. We produced
+          tumors in immunodeficient SCID C.B-17 mice by inoculating
+          5 × 10 6cells (either A549 or U118) subcutaneously per
+          mouse in the intrascapular region. Tumors greater than 5
+          mm in diameter (range = 5-7 mm) were observed within 21
+          days in all the mice inoculated. The tumors were
+          harvested under sterile conditions and trimmed of adipose
+          and connective tissue. Total RNA was prepared from tumor
+          tissue.
+        
+        
+          Gene-expression profiling
+          Three A549 xenograft tumors obtained from different
+          mice, three U118 tumors from different mice, three A549
+          cell-culture samples, and three U118 culture samples were
+          each profiled using HuGeneFL microarray chips
+          (Affymetrix, Santa Clara, CA), which consist of 7,069
+          probe sets, each representing an mRNA transcript. To
+          assess the amount of hybridization with the HuGeneFL chip
+          (designed for human mRNAs) that could be attributable to
+          mouse mRNA in a xenograft tumor sample, a sample of mouse
+          lung tissue was also profiled. Preparation of mRNA,
+          hybridization of the arrays, and computation of probe-set
+          intensities were as previously described [ 5 16 17 ] .
+          The exogenous probe set controls on the HuGeneFL chip
+          (probe sets that give constant hybridization from sample
+          to sample) were used to determine scaling factors for
+          comparing the mouse lung profile with the xenograft and
+          culture profiles. For each probe set, we computed the
+          fold changes for human cell-line cultures (U118 and A549)
+          with 20% mouse lung compared to the pure cell line, using
+          the expression (0.8 × [human] + 0.2 × [mouse])/[human].
+          This assessed the potential impact of mouse tissue on
+          differences observed between xenograft tumor and
+          cell-culture profiles.
+          As criteria for determining significant differences in
+          mean gene mRNA expression levels between groups of
+          samples, we used both a 
+          p -value less than 0.01 using the
+          two-sample 
+          t -test and a fold change greater
+          than two either way. Probe-set intensities less than 50
+          were set to 50. Permutation testing was used to assess
+          the number of genes that could be considered significant
+          for any arbitrary separation of the profiles into two
+          groups. Hierarchical clustering, using the Eisen software
+          [ 18 19 ] , was applied using the average linkage method
+          as an aid to visualizing gene-expression patterns of
+          interest. Global views of the variation in gene
+          expression among cell specimens were obtained using PCA [
+          17 ] .
+        
+        
+          Significantly enriched classes within gene
+          sets
+          For a given set of genes showing significant
+          differences in expression between comparison groups, a
+          search was made within the set for 'significantly
+          enriched' functional classes of genes, as described
+          previously [ 20 ] . For the entire set of genes profiled
+          on the HuGeneFL chip, each gene was grouped into one or
+          more classes as defined by one of the following criteria:
+          a common Gene Ontology (GO) annotation term, where on the
+          order of 1,000 terms were considered [ 21 ] ; and a
+          common MeSH literature term [ 22 ] association as defined
+          below. GO term gene assignments related to categories of
+          'biological process' or 'molecular function' were
+          obtained from LocusLink [ 23 24 ] and the GO term
+          hierarchy was obtained from the Gene Ontology Consortium
+          [ 25 ] . For each GO term assigned to a given gene in
+          LocusLink, we also assigned all hierarchical parent terms
+          of the term to the gene.
+          For each gene profiled in the study, the summaries of
+          the 50 most recent articles that mention the gene by any
+          one of its common aliases in the article abstract were
+          downloaded from the web, using the Entrez utilities
+          (described at [ 26 ] ). An association was then made
+          between the gene and any MeSH index terms included within
+          those summaries. To reduce search time and spurious or
+          uninteresting results, before searching for common MeSH
+          term associations we first reviewed the MeSH terms
+          downloaded for the entire set of genes profiled. We
+          removed from further consideration any MeSH term that
+          appeared to have no relevance to our study (for example,
+          MeSH terms describing experimental protocols or the
+          healthcare system). MeSH terms that were associated with
+          fewer than 20 genes were also discarded, leaving some
+          4,000 MeSH terms that were considered in the analysis.
+          Similarly, GO gene classes that applied to less than four
+          of the genes under study were not considered.
+          For a given set of 
+          k significant genes, two separate
+          searches were made for enriched GO term classes and MeSH
+          term classes. For a given gene class common to 
+          n genes within the 
+          k set, where the class applied to a
+          total of 
+          A genes out of the entire set of 
+          G unique genes under study, the
+          probability, 
+          p , for the term occurring 
+          n or more times within a set of 
+          k genes randomly selected from the
+          chip was calculated using the one-sided Fisher's exact
+          test. As multiple gene classes were tested for our set of
+          genes of interest, the true significance of a low 
+          p -value for an enriched class was
+          estimated using 100 separate Monte Carlo simulation
+          tests. For each test 
+          k genes were first randomly
+          selected from the set of 
+          G genes, and 
+          p -values for the classes occurring
+          within the 
+          k set of genes were then
+          calculated. For a 
+          p -value for a given class found in
+          the original 
+          k set of genes, we calculated the
+          number of classes that could be expected to have a 
+          p -value as low or lower in a set
+          of 
+          k randomly selected genes, based on
+          the simulation results. For each class found to be
+          represented in two given sets, one with 
+          k genes and the other with 
+          l genes, with 
+          p -values less than 0.05 in both
+          cases, we calculated on the basis of simulation results
+          the number of classes expected to be found in both a
+          random 
+          k- gene set and a random 
+          l -gene set with 
+          p -values less than 0.05 in both.
+          In this case, we carried out 100 simulation tests, in
+          each of which one set of 
+          k genes and another set of 
+          l genes were each randomly selected
+          from the entire set of 
+          G genes under study. For each gene
+          class that was found to be represented in both random
+          gene sets, 
+          p -values for enrichment were
+          calculated for each of the two sets.
+        
+        
+          Classification of cell-line lineage based on gene
+          expression
+          In order to determine whether the lineage, A549 or
+          U118, of a given cell population could be predicted on
+          the basis of its gene-expression profile, we built a
+          classifier using a training set of profiles with a set of
+          genes of interest to be used as markers. To classify a
+          test sample as either A549 or U118, we computed the
+          correlation coefficient between the expression values of
+          the markers in the test sample profile and the same genes
+          on each of the profiles in the training set (using
+          log-transformed values). The class identity of the
+          majority of the top five training profiles having the
+          greatest correlation with the test profile was then
+          assigned to that profile. This strategy is known in the
+          classification literature as "five-nearest neighbors with
+          majority voting" [ 16 ] .
+        
+      
+      
+        Additional data files
+        The following files are available with the online
+        version of this article: expression datasets of the cell
+        culture and xenograft profiles as a tab-delimited text file
+        (Additional data file 1); a spreadsheet file including
+        extra data, such as the scale-normalized means prior to
+        quantile normalization, 
+        p -values from the 'present' test, a
+        sheet of data from 60 control probe-sets on the Affymetrix
+        chips, and data from the mouse lung tissue control profile
+        (Additional data file 2); the search results for
+        significantly enriched classes for GO annotation
+        (Additional data file 3) and for MeSH term literature
+        associations (Additional data file 4) for genes found to
+        significantly differ at 
+        p < 0.01, fold change > 2
+        between tumors and cell cultures for a given cell line; the
+        values used in the classifications of cell culture lineage
+        using xenograft tumor profiles, together with the
+        classification results, which correctly predicted the
+        lineage of all six cell culture profiles, as an Excel
+        spreadsheet (Additional data file 5). The software for
+        finding significantly enriched classes within gene sets is
+        available from the authors' website [ 7 ] .
+        Additional data file 1
+        Expression datasets of the cell culture and xenograft
+        profiles
+        Expression datasets of the cell culture and xenograft
+        profiles
+        Click here for additional data file
+        Additional data file 2
+        The scale-normalized means prior to quantile
+        normalization, 
+        p -values from the 'present' test, a
+        sheet of data from 60 control probe-sets on the Affymetrix
+        chips, and data from the mouse lung tissue control
+        profile
+        The scale-normalized means prior to quantile
+        normalization, 
+        p -values from the 'present' test, a
+        sheet of data from 60 control probe-sets on the Affymetrix
+        chips, and data from the mouse lung tissue control
+        profile
+        Click here for additional data file
+        Additional data file 3
+        The search results for significantly enriched classes
+        for GO annotation for genes found to significantly differ
+        between tumors and cell cultures for a given cell line
+        The search results for significantly enriched classes
+        for GO annotation for genes found to significantly differ
+        between tumors and cell cultures for a given cell line
+        Click here for additional data file
+        Additional data file 4
+        The search results for significantly enriched classes
+        for MeSH term literature associations for genes found to
+        significantly differ between tumors and cell cultures for a
+        given cell line
+        The search results for significantly enriched classes
+        for MeSH term literature associations for genes found to
+        significantly differ between tumors and cell cultures for a
+        given cell line
+        Click here for additional data file
+        Additional data file 5
+        The values used in the classifications of cell culture
+        lineage using xenograft tumor profiles, together with the
+        classification results, which correctly predicted the
+        lineage of all six cell culture profiles
+        The values used in the classifications of cell culture
+        lineage using xenograft tumor profiles, together with the
+        classification results, which correctly predicted the
+        lineage of all six cell culture profiles
+        Click here for additional data file
       
     
   

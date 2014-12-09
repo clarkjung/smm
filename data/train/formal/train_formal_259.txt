@@ -3,417 +3,531 @@
     
       
         Introduction
-        MI is a potentially catastrophic event in patients
-        presenting with acute coronary syndromes. In recent trials
-        of antiplatelet and antithrombotic therapies for such
-        patients, prevention of MI was the primary treatment effect
-        assessed [ 1, 2, 3, 4]. Although MI has been considered a
-        'hard' end-point, determination of MI end-points in
-        clinical trials can be difficult, just as in clinical
-        practice. Because of conflicting clinical, laboratory, and
-        electrocardiography (ECG) data, physicians often disagree
-        whether a patient has suffered a MI. The importance of
-        low-level enzyme elevations also has been controversial,
-        particularly in asymptomatic patients and in those
-        undergoing percutaneous coronary intervention (PCI) [ 5].
-        Although such enzyme elevations are defined as MIs in many
-        trial protocols, physicians in clinical practice do not
-        consistently consider them as such. The MI rates reported
-        by site investigators in recent cardiovascular trials have
-        differed from rates adjudicated by a CEC [ 6, 7, 8, 9]. The
-        reasons for these differences are unclear.
-        CECs are widely accepted to adjudicate suspected
-        endpoint events in trials, but only limited information has
-        been published regarding end-point adjudication [ 10, 11,
-        12, 13, 14, 15]. In the PURSUIT trial [ 6], a central,
-        independent CEC systematically identified and adjudicated
-        all suspected MIs that occurred up to 30 days after
-        enrolment. The rationale for CEC adjudication was the need
-        for a systematic, unbiased, independent, and standard
-        assessment of MIs in a large international trial. In a
-        previous analysis of the CEC process in the PURSUIT trial,
-        we found that the CEC and site investigator assessments of
-        end-point MI disagreed in ~10% of patients [ 16]. We
-        retrospectively reviewed these cases, to identify reasons
-        for them and to understand their potential effect on the
-        trial results.
+        With the exception of counting deaths from all causes, a
+        common problem in clinical trials is the missing data
+        caused by patients who do not complete the study in full
+        schedule and drop out of the study without further
+        measurements. Possible reasons for patients dropping out of
+        the study (the so-called 'withdrawals') include death,
+        adverse reactions, unpleasant study procedures, lack of
+        improvement, early recovery, and other factors related or
+        unrelated to trial procedure and treatments. Missing data
+        in a study because of dropouts may cause the usual
+        statistical analysis for complete or available data to be
+        subject to a potential bias. This review attempts to raise
+        the awareness of the problem and to provide some general
+        guidance to clinical trial practitioners.
       
       
-        Materials and methods
+        Examples
         
-          The PURSUIT trial
-          The PURSUIT trial examined the role of eptifibatide, a
-          platelet glycoprotein IIb/IIIa antagonist, in patients
-          presenting with acute coronary syndromes without
-          persistent ST-segment elevation. The trial enrolled
-          10,948 patients in 726 hospitals in 27 countries in North
-          America, Latin America, Western Europe, and Eastern
-          Europe, using previously reported inclusion and exclusion
-          criteria and treatment regimens [ 6]. The primary
-          end-point was a composite of death or post-enrolment MI
-          (or reinfarction if patients had a MI at enrolment) by 30
-          days as adjudicated by a CEC. The composite end-point was
-          also constructed using the site investigator
-          determination of MI.
+          Example 1
+          A multicenter, randomized, double-blind, three
+          parallel groups trial to compare placebo, candesartan
+          ciltexetil and enalapril in patients with mild to
+          moderate essential hypertension [ 1 ] . The study
+          randomized 205 to treatment, however, only 178 patients
+          were evaluable by protocol at the end of an 8-week
+          treatment period. 'The remaining patients were excluded
+          from the analysis of blood pressure (BP) data because of
+          major protocol violations, poor compliance with medical
+          visits, or withdrawal because of adverse events.'
         
         
-          Definitions
-          The protocol defined MI as an end-point event based on
-          clinical, ECG, and laboratory criteria (see Appendix);
-          MIs that occurred before or at enrolment were not
-          included in the primary end-point. The site investigators
-          and the CEC used the same MI criteria. These criteria
-          were presented in the protocol, at investigator meetings,
-          and in trial materials and newsletters.
+          Example 2
+          A multicenter, randomized, open-label, parallel-design
+          study to compare the treatment effect of niacin and
+          atorvastatin (for 12 weeks) on lipoprotein subfractions
+          in patients with atherogenic dyslipidemia [ 2 ] . 'Of the
+          total 108 patients randomized to treatment, 12 withdrew
+          from the study. Of those who withdrew, nine were due to
+          adverse events, two were lost to follow-up, and one did
+          not return for the final visit.'
         
         
-          Data collection
-          Data were captured on standard case report forms.
-          Information collected for all patients included cardiac
-          enzymes, ECGs (at the time of the qualifying episode, at
-          enrolment, at 24 hours, at initial discharge, and at 30
-          days), revascu-larisation procedure reports, details of
-          ischemic episodes, clinical complications, medications,
-          and readmission records. All enzyme values for each
-          patient were to be reported, and study monitors verified
-          them against source documents. For patients with
-          suspected MI, site investigators were to submit
-          supporting documents and to include discharge summaries
-          and additional ECGs during the suspected event. An
-          independent, blinded, ECG Core Laboratory read the ECGs
-          and identified suspected MIs, defined as new Q waves ≥
-          0.04 s in two contiguous leads.
+          Example 3
+          A multicenter, randomized, double-blind,
+          placebo-controlled trial to assess treatment effect of
+          pimobendan on exercise capacity in patients with chronic
+          heart failure [ 3 ] . 'The primary pre-specified analysis
+          of exercise time was limited to those patients who had at
+          least the first follow up (four-week) exercise test
+          carried out and had shown good compliance up to the day
+          of the test. If subsequent tests were not performed,
+          whatever the reason, or performed although compliance
+          between tests had been poor, the last exercise time value
+          obtained while compliance was good was carried forward.'
+          Two hundred and forty of the 317 randomized patients had
+          exercise test done with good compliance at four, 12, and
+          24 weeks. Listed reasons (and number of patients) for
+          missing exercise time data at 24 weeks were: 'exercise
+          test not done due to death' (n = 30), 'exercise testing
+          contraindicated' (n = 9), and 'exercise test not done for
+          other reasons' (n = 10).
         
         
-          Clinical events classification process
-          The structure of the CEC and the event adjudication
-          process have been reported in detail elsewhere [ 16].
-          Computer algorithms systematically identified key
-          clinical, enzymatic, and ECG data from the database that
-          could indicate the occurrence of a MI. Each case of
-          suspected MI was reviewed independently by two physicians
-          blinded to treatment. If the physicians agreed that a MI
-          had or had not occurred, the case was classified as
-          resolved. A committee of faculty cardiologists reviewed
-          patients about which the CEC physicians disagreed, for
-          adjudication by consensus.
+          Example 4
+          A randomized, double-blind study to compare
+          nifedipine-GITS and verapamil-SR on hemodynamics, left
+          ventricular mass, and coronary vasodilatory in patients
+          with advanced hypertension [ 4 ] . Fifty-four patients
+          were randomized after the placebo run-in phase.
+          'Twenty-four failed to complete the (six-month) trial,
+          and thus were not included for analysis because of 1)
+          withdrawal for symptomatic adverse effects, 2) lack of
+          response, and 3) poor compliance.' 'Consequently, there
+          were 30 subjects with sufficient data sets for inclusion
+          in analyses.'
         
         
-          Disagreements between the site investigators and
-          CEC
-          A faculty cardiologist (KWM, RAH, BSC) re-reviewed
-          patients with disagreement between the site investigator
-          assessment and the CEC adjudication of end-point MI, to
-          determine reasons for the disagreement. This review
-          occurred after the main trial results were presented, but
-          the reviewers were blinded to patient treatment
-          assignment. Patients were categorised during the
-          re-review in clinically meaningful groups: MI at
-          enrolment (versus post-enrolment MI), MI related to the
-          revascularisation procedure, MI related to clinically
-          evident ischemia, asymptomatic cardiac enzyme elevation
-          post-enrolment, and clinically significant cardiac event
-          resulting in death (versus sudden death without evidence
-          of MI).
-          Despite rigorous criteria to define MI, some patients
-          required a subjective assessment by CEC physicians if
-          cardiac enzyme, ECG, and clinical information conflicted.
-          For patients with MI identified by the CEC but not by the
-          site investigator (excluding events after PCI or bypass
-          surgery), we therefore assigned a level of clinical
-          certainty. A high clinical certainty was assigned when
-          all clinicians agreed that a MI had occurred; a low
-          clinical certainty was assigned when only some clinicians
-          would agree that a MI had occurred.
-        
-        
-          Statistical analysis
-          Data regarding the number of patients with suspected
-          events and those with disagreements between the site
-          investigators and the CEC were obtained from the entire
-          PURSUIT study population, so the data included patients
-          assigned high-dose eptifibatide, low-dose eptifibatide,
-          or placebo. Comparisons by treatment assignments included
-          only patients assigned to high-dose eptifibatide or
-          placebo to maintain consistency with the primary efficacy
-          analysis in the PURSUIT trial [ 6]. 
-          P values were calculated using the
-          Χ 2test.
+          Example 5
+          A randomized, double-blind, titration study of
+          omapatrilat with hydrochlorothiazide in comparison with
+          hydrochlorothiazide (HCTZ) plus placebo for the treatment
+          of hypertension [ 5 ] . After 2 weeks of placebo lead in
+          and four weeks of HCTZ period, 274 subjects were
+          randomized into three treatment groups. 'A total of 235
+          subjects completed the (eight-week double-blind period)
+          study.'
         
       
       
-        Results
+        Effect of withdrawals on the data analysis
+        To demonstrate with simple algebra the effects and key
+        statistical concepts surrounding missing data, I use the
+        data from Example 4 above. In that study, 54 patients were
+        randomized. However, only the 30 patients who completed the
+        trial were included in the paper's analysis. The authors
+        excluded from the analysis the other 24 patients who
+        withdrew early because of adverse effects, lack of response
+        or poor compliance. Defining effective control of BP by the
+        criteria of either maintaining diastolic blood pressure
+        (DBP) ≤ 95 mmHg or achieving a least ≥ 15 mmHg decrease in
+        DBP, the authors summarized the following results: 'Eighty
+        per cent of randomized patients completed the protocol with
+        effective control of BP and no side effects.' Obviously,
+        the authors only counted 24 patients out of the 30
+        completers and obtained 80% and ignored the 24 patients who
+        dropped out prior to the scheduled end of the study at six
+        months. To distinguish the different 24 patients in this
+        example, we denote 24 (cr)for the former and 24 (d)for the
+        latter, that is, dropouts. It is easily seen that the
+        correct summary should be 24 (cr)/54 = 44.4% completed the
+        protocol with effective control of BP and no side effects,
+        rather than the reported 24 (cr)/30 = 80%. (See Table
+        1.)
+        If the authors really intended to estimate the chance
+        for patients to have effective control of BP with no side
+        effects with the study therapies at Month 6 ('responders'
+        in brief), then we need to do more work. First, the
+        calculation should always use 54 as the denominator because
+        that was the number of patients randomized to the study;
+        however, only 30 patients had BP measurement at Month 6; of
+        them, 24 (cr)were responders. This means that the true
+        answer should be (24 (cr)+?)/(30+24 (d)) = (24+?)/54, where
+        the question mark represents the unknown number of
+        responders among the 24 (d)withdrawals counted in the
+        denominator. Next, we calculate the extreme possibilities
+        as (a) (24 (cr)+0)/54 = 44.4% and (b) (24 (cr)+24)/54 =
+        48/54 = 88.9%.
+        In (a) we assumed that none of 24 (d)withdrawals (0%)
+        responded, while in (b) we assume all 24 (d)withdrawals
+        (100%) responded. Of course, we know that (b) is
+        unrealistic since some people withdrew because of lack of
+        response and some because of side effects, but the paper
+        did not provide the exact numbers. In general, we usually
+        do not feel comfortable with either extreme, but we
+        understand that they provide an idea of the uncertainty in
+        the data because of withdrawals.
+        An estimate between the extremes is (c): to substitute
+        the unknown number by 24 (d)× (24 (cr)/30) = 24 (d)× 0.80 =
+        19.2, where 24 (cr)/30 = 80% is the proportion of
+        responders among those who completed the trial. That is,
+        when no particular information was available, we may assume
+        that the same proportion of patients (80%) among the 24
+        (d)dropouts would have also responded, had they completed
+        six months. Unsurprisingly, when we do the calculation, the
+        estimate becomes (24 (cr)+19.2)/54 = 43.2/54 = 80%, the
+        same answer as that using only the completers. In fact, a
+        simple algebra can show that this is always so. We can see
+        that (c) is in-between (a) and (b), and in this case, leans
+        toward (b). See Table 2.
+        Notice that the paper reported that a proportion of 80%
+        of 'randomized patients completed the protocol with
+        effective control of BP and no side effects' (as explained
+        earlier, the figure should instead be 44.4%), while the 80%
+        in (c) is an estimate of the chance of effective control of
+        BP without side effects with the study therapies at Month
+        6, under an assumption of 'no information available for the
+        missing data'. We should not be confused with these two
+        '80%'. The former 80% is a wrong summary number; the latter
+        is an estimate of the quantity of interest with a
+        particular assumption about the missing data. This
+        assumption is not likely to be appropriate for all the
+        dropouts, especially for those patients who dropped out
+        because of ineffective therapy; more discussion is given
+        later. We do not know whether the authors might have
+        intended to make the latter estimate but gave a wrong
+        summary instead.
+        Even more interesting and useful would be the same
+        calculations within each treatment group along with a
+        comparison of the estimates. Unfortunately, the paper did
+        not give the number of dropouts according to their
+        treatment groups.
+        Using proportions simplifies the illustration, but the
+        idea can easily be conveyed to the estimation of continuous
+        data as well, such as BP, exercise time, hemodynamic
+        measures, and lipoprotein levels.
+      
+      
+        Lessons learned
+        Several points can be generalized from the simple
+        illustration given above and closer examinations of the
+        other examples.
+        • It does not take very much missing data to mislead an
+        investigator. A good principle to avoid being misled is to
+        always account for every subject randomized to the study in
+        the analysis. Using the total number of randomized subjects
+        in the denominator is a step towards accomplishing this
+        principle, whether it is to calculate an average or a
+        proportion. This principle is known as intent to treat
+        (ITT). However, the much harder job for ITT is to account
+        for the dropouts in the numerator. This requires further
+        consideration, which follows below.
+        • It is important to record and report the reasons for
+        withdrawal and the number of subjects in each category of
+        withdrawal according to their treatment group. The reasons
+        for patients dropping out can be used to help properly
+        assess the nature of the missing data. For example, if all
+        the dropouts were because of a lack of response or side
+        effects, then the calculation in (a) would be appropriate.
+        In statistical terms, they would be called informative
+        missing data. This is because useful information can be
+        found in the reason for the dropout and this can be used to
+        estimate the true response. Outcome-related dropouts are
+        informative and should not be disregarded in analytical
+        study without careful thought. In particular, when a
+        patient dies, whatever the cause of the death might be,
+        such as in Example 3, all of the subsequent physiological
+        and quality of life data should not even be regarded as
+        missing, but as having values equal to zero or the worst
+        category. When a patient's clinical status has reached a
+        terminal disease progression stage (such as New York Heart
+        Association class IV) and they are unable to perform
+        exercise testing, as in Example 3, the exercise time should
+        also be equal to zero seconds, and not simply regarded as
+        missing data. For the same reason, the remaining survival
+        time after death (of any cause) would be zero days as well,
+        not a censored observation when doing, say Kaplan-Meier,
+        survival analysis for an endpoint such as cardiovascular
+        death. Treating non-cardiovascular death as equivalent to
+        censoring because of loss-to-follow-up or
+        end-of-observation for an endpoint of cardiovascular death
+        has unfortunately become a popular practice in many medical
+        journal articles. This needs to be corrected.
+        • The extreme calculations in (a) and (b) enable us to
+        assess the uncertainty of the data which contains missing
+        values, especially if we do the calculation for each
+        treatment group separately. The bias seen in the medical
+        publishing industry in the decisions over which articles
+        are chosen for publication is a mirror image of the dropout
+        problem in patient studies. In the former, positive studies
+        have better chance of getting published, while negative
+        studies have a higher chance of being rejected. The same is
+        true for the latter: patients responding to treatment tend
+        to continue in the study, while patients failing to respond
+        tend to drop out prematurely. Using only the available data
+        or only the subgroup of those who complete the study leads
+        to a biased result. The approaches in (a) and (b) take this
+        consideration into account, although they may also be
+        biased by over-correction.
+        • The assumption underlying the approach in (c) is
+        interesting. When no particular information is known about
+        the missing data, we are essentially assuming that the
+        dropouts are not much different from the completers. This
+        is generally described statistically as missing completely
+        at random (MCAR), meaning that the process which caused the
+        missing data is not informative about the parameter that we
+        are trying to estimate. A good way to think of MCAR is that
+        the dropouts are a simple, random sample of the study
+        sample. Examples of MCAR include patients who have moved
+        away, or study that has closed and the late entry of
+        patients being administratively 'censored'. We have seen
+        the convenience of MCAR in the above illustration: simply
+        use the completers and we get the same result. However,
+        whether this assumption is valid or not should be examined
+        carefully in each individual case. In many situations,
+        dropouts are not the same patient population as those who
+        stayed within the trial. MCAR certainly is less restrictive
+        than the assumptions in (a) or (b). Still, other less
+        restrictive assumptions than MCAR exist, and these are
+        discussed later.
+        • All three estimates given by (a), (b), and (c) are
+        biased to a certain extent. Had the authors given the
+        detail about the numbers of dropout categories of 'lack of
+        response' and 'side effects', a better estimate could be
+        derived.
+        • We would certainly feel more comfortable with a study
+        conclusion when it is not altered by different approaches.
+        Sensitivity analysis is actually the best way to analyze
+        data in the presence of dropouts. Medical investigators
+        should consult with statisticians when dealing with missing
+        data because there are many possible methods available.
+        Some popular approaches are reviewed below.
+      
+      
+        More about methods handling missing data
         
-          Incidence of disagreement
-          Overall, 5005 (46%) patients with possible or
-          suspected MI were identified and adjudicated by the CEC.
-          The CEC identified more patients with end-point events
-          than did the site investigators (13.6% versus 7.7% for
-          placebo, 12.6% versus 6.2% for eptifibatide). The CEC and
-          site investigator assessments of MI disagreed for 9% of
-          all patients enrolled in the PURSUIT trial. The CEC
-          identified MIs in 1415 of the 5005 patients with
-          suspected MI. The site investigator and the CEC
-          assessments disagreed in 983 (20%) of the 5005 patients.
-          Of these 983 patients with disagreements, 816 patients
-          had a MI identified by the CEC but not the site
-          investigator, and 167 patients had a MI identified by
-          site investigator but not the CEC. The proportion of
-          patients with disagreement was similar among regions.
+          Objectives
+          As in any data analysis, the first consideration is
+          the objective of the analysis. In the presence of
+          dropouts, there can be two types of questions: (i) What
+          would be the treatment effect without dropouts? and (ii)
+          What would be the treatment effect in the presence of
+          dropouts? Question (i) is concerned with an ideal
+          situation. It is also known as a 'question for
+          explanatory trials' [ 6 ] . It is often concerned with
+          the human pharmacological properties of new drugs under
+          investigation rather than practical usage. Regarding
+          question (ii), we need to further differentiate two
+          situations: patients drop out either (a) totally from the
+          study and no data are collected after withdrawal, or (b)
+          merely from the study assigned treatment with data still
+          being collected. For (b) there will be no missing data.
+          If we can design trials that will allow patients to be
+          followed until the end of the study despite the patient's
+          lack of compliance, then (ii) is a very practical
+          question, also known as the 'question for pragmatic
+          trials' [ 7 ] . Prevention studies with all-cause
+          mortality as the primary endpoint usually follow this
+          design. However, other endpoints may also be followed-up
+          (until death) in such a design. A recent example is [ 8 ]
+          , in which all participants, even those who discontinued
+          treatment (lovastatin or placebo), were contacted
+          annually for vital status, cardiovascular events, and
+          cancer history. Since no missing data would occur, the
+          design of (b) is highly recommended for all trials if at
+          all possible. In fact, the ITT principle originally aims
+          to answer question (ii) with (b) type of dropouts, where
+          no missing data would occur. However, more often than not
+          we face studies in which patients have withdrawn from the
+          study entirely and caused the missing data problem, ie,
+          type (a), as the Examples 1-5 (with the exception of
+          Example 3) above have demonstrated. Unless the patient's
+          clinical status does not permit further testing after
+          discontinuing the study treatment, type (a) dropout
+          problem is a common design flaw and should be corrected.
+          Nevertheless, the problem of no follow-up data prevails
+          in clinical trials. For clinical trials conducted for
+          drug registrations it is possible that, in light of the
+          International Conference on Harmonization (ICH)-E9
+          guideline [ 9 ] , the data analyses have to address both
+          questions (i) and (ii).
         
         
-          Reasons for disagreement
-          Most often, when the site investigator had identified
-          a MI and the CEC had not, the investigator had
-          misclassified a MI at enrolment as an end-point MI,
-          although by protocol these were not end-point events
-          (Table 1). Recurrent ischemic events without elevated
-          cardiac enzymes or ECG evidence of MI were also
-          incorrectly identified by site investigators as MIs
-          (Table 1). In cases where the CEC had identified a MI and
-          the site investigators had not, one-third of those
-          identified were MIs defined by enzyme elevations without
-          clinical or ECG evidence of ischemia or infarction (Table
-          2). Enzyme elevations after bypass surgery accounted for
-          25% of these cases. Patients with clinically evident
-          ischemia reported by the site investigator and associated
-          with cardiac enzyme elevations were not reported as MIs
-          by investigators in 27% of the cases of disagreement
-          (Table 2). Few infarctions based on new Q waves without
-          clinical evidence of reinfarction were identified by the
-          CEC and not by site investigators.
-          Table 3presents the cardiac enzyme elevation for MIs
-          that the CEC identified and the site investigators did
-          not. These data exclude MIs associated with PCI or bypass
-          surgery; by definition, those types of MI required enzyme
-          elevations greater than three or five times the upper
-          limit of normal (ULN), respectively. The ratio of
-          creatine kinase-myocardial band (CK-MB) to its ULN was
-          highest in North America (median [25 th, 75 th] 1.6 [1.2,
-          2.9]). Enzymes were similarly elevated between patients
-          with MIs defined only by enzyme elevations (without
-          symptoms or ECG changes) and patients with elevations
-          associated with ECG or clinical evidence of ischemia.
-          Table 4presents the level of clinical certainty for
-          MIs not associated with PCI or bypass surgery, as
-          identified by the CEC but not the site investigators.
-          Overall, 98 (18%) of these patients were assigned a low
-          level of clinical certainty. The proportion of patients
-          assigned a low level of clinical certainty varied among
-          the regions, with the lowest in North America.
-        
-        
-          Effect of disagreement on outcomes
-          The 30-day CEC rates of MI and death or MI overall are
-          presented in Table 5by geographic region. The event rates
-          are also shown for the analyses in which the 98 patients
-          assigned a low level of certainty were reclassified as no
-          infarction.
-          The lowest mortality rates were in patients for whom
-          the CEC and site investigators agreed that no MI had
-          occurred by 30 days (Table 6). The highest rates were in
-          patients for whom there was agreement that a MI had
-          occurred. Mortality was high in the group with MI
-          identified by the site investigators but not the CEC;
-          however, many of these patients had suspected sudden
-          cardiac death as the event identified as a MI by the
-          investigator (Table 1). The absolute increase in
-          mortality between 30 days and 6 months was greater in
-          patients with CEC-determined MIs not identified by the
-          site investigators than in patients with MI identified by
-          the site investigators but not the CEC.
+          Imputation methods
+          The analyses illustrated in Table 2were methods in the
+          general category of imputation. In general, the basic
+          idea of imputation is to fill in the missing data by
+          using values based on a certain model with assumptions.
+          There are methods based on a single imputation and
+          methods based on multiple imputation, which, instead of
+          filling in a single value for each missing value, replace
+          each missing value with a set of plausible values that
+          represent the uncertainty about the right value to
+          impute. The attraction of imputation is that once the
+          missing data are filled-in (imputed), all the statistical
+          tools available for the complete data may be applied.
+          Each method of (a), (b) and (c) in Table 2is a single
+          simple imputation method, but together they may be viewed
+          as a 'multiple simple imputation' method (as opposed to
+          the 'proper multiple imputation' method discussed below).
+          The data in Table 2only had one time-point (Month 6) for
+          analysis.
+          For longitudinal data with multiple time-points, the
+          conventional last-observation-carried-forward (LOCF)
+          approach is a common practice of another simple
+          imputation. This approach was used by the authors in
+          Examples 3 and 5. Attempting to follow the principle of
+          ITT to account for all randomized, LOCF method includes
+          every randomized subject who has at least one
+          post-therapy observation. LOCF is popular among
+          practitioners because it is simple to put into effect and
+          because of a misconception that it is conservative
+          (meaning working against an effective treatment group).
+          However, every imputation method implicitly or explicitly
+          assumes a model for the missing data. The LOCF assumes
+          (unrealistically) that the missing data after patient's
+          withdrawal are the same as the last value observed for
+          that patient. The consequence of this assumption is that
+          it imputes data without giving them within-subject
+          variability and that it alters the sample size.
+          Proper multiple imputation (PMI) methods are described
+          in [ 10 ] and [ 11 ] , which use regression models to
+          create more than one imputed data sets and thus provide
+          variability within and between imputations. PMI method
+          has long been a preferred approach in survey research.
+          Its popularity has recently gainied in clinical trials
+          since the method became automated by commercial computer
+          software [ 12 13 ] . However, the complexity of
+          regression models used in PMI should be carefully thought
+          through by clinical trial practitioners, because the
+          method assumes that the missing data process can be fully
+          captured by the regression model employed on observed
+          values. This assumption is called missing at random
+          (MAR). MAR essentially says that the cause of the missing
+          data may be dependent on observed data (such as data of
+          previous visits) but must be independent of the missing
+          value that would have been observed. It is a less
+          restrictive model than MCAR, which says that the missing
+          data cannot be dependent on either the observed or the
+          missing data. The design suggested by Murray and Findlay
+          [ 14 ] , which forced dropouts upon observing
+          uncontrolled BP, uses the MAR principle. When MAR or MCAR
+          conditions are met, model-based analyses can be
+          appropriately performed based on the observed data alone
+          without further modeling the missing data process.
+          Another imputation method, which is in-between the
+          LOCF and PMI, is the partial imputation (PI) or improved
+          LOCF method [ 15 ] . The idea of this method is quite
+          simple. In LOCF, one imputes every missing visit
+          time-point by carrying the last observation forward until
+          the end of the study. Since LOCF requires the strong
+          assumption of stability, the more it imputes the more
+          bias it introduces if the assumption of stability does
+          not hold. The method of PI does not always carry the
+          observations to the end time-point of the study, but just
+          far enough to balance the dropout patterns between the
+          treatment groups. The underlying principle is that when
+          the dropout patterns are made almost identical between
+          the treatment groups, the relative comparison of the
+          treatment effects will be less biased. Since PI does less
+          imputation, it is less biased than LOCF because the
+          assumption of stability usually does not hold. Some
+          simulation results under various missing data processes
+          demonstrated the potential usefulness of PI over the
+          methods of using all available data and LOCF [ 15 ] .
+          However, more experience is still needed to test this new
+          method in practice.
         
       
       
-        Discussion
-        
-          Event rates
-          The MI rates adjudicated by the CEC in the PURSUIT
-          trial were higher than those reported in trials of
-          similar patient populations [ 6, 17, 18, 19]. The reasons
-          for these higher rates have been detailed previously [
-          16], and include the review of nearly 50% of patients by
-          physicians to identify suspected events, more liberal MI
-          criteria, and rigorous measurement of cardiac enzymes in
-          all patients. Studies that have used only
-          investigator-reported events probably underestimate the
-          true MI rate.
-        
-        
-          Lack of concordance between site investigator and
-          CEC event rates
-          Site investigators underreported MIs. A similar lack
-          of concordance between events adjudicated by a CEC and
-          those identified by clinical investigators has been
-          observed in trials in which a similar CEC group
-          adjudicated MIs [ 1, 8] and in other trials [ 7, 9].
-          The MI definitions in the PURSUIT trial were
-          formulated by the International Steering Committee based
-          on experience and clinical expertise. Because of the
-          broad geographic enrolment planned for the PURSUIT trial,
-          definitions were designed to be applicable in an array of
-          clinical practice situations. The definitions were
-          detailed in the study protocol, in study newsletters, and
-          in study materials so the CEC and site investigators had
-          the same set of criteria to classify MIs.
-          The reasons for disagreements in MI assessment between
-          the site investigators and the CEC in the PURSUIT trial
-          (Tables 1and 2) are similar to those seen in the Global
-          Use of Strategies to Open Occluded Arteries in Acute
-          Coronary Syndromes (GUSTO-IIb) and the Integrilin to
-          Minimize Platelet Aggregation and Coronary Thrombosis
-          (IMPACT-II) trials (unpublished personal data). Many of
-          the disagreements reflect physician reluctance to
-          diagnose MI in patients they are treating, particularly
-          when the definition of MI includes events with low-level
-          cardiac enzyme elevations (often called 'enzyme leaks' in
-          clinical practice). This reluctance by physicians to
-          diagnose MI is also apparent for patients undergoing PCI,
-          in which the clinical significance of postprocedural
-          enzyme elevations is controversial, even though such
-          elevations correlate with worse outcome [ 5].
-          The disagreements also may partly reflect the
-          definitions (see Appendix) of MI themselves. These
-          definitions were designed to be applied to a broad set of
-          clinical scenarios, including events after PCI or bypass
-          surgery, and to events occurring early after enrolment,
-          which needed to be differentiated from pre-enrolment or
-          enrolment MIs. Site investigators may have had difficulty
-          applying these criteria, particularly with conflicting
-          cardiac enzyme, ECG, and clinical information. In
-          addition, the enzyme criteria in the PURSUIT trial
-          required only one cardiac enzyme value above normal to
-          provide supportive evidence of MI. Substantial clinical
-          uncertainty exists regarding the need for more than one
-          elevated enzyme value and whether the CK-MB criteria
-          should specify elevations greater than 1 × ULN or 2 ×
-          ULN.
-          The strategy used by a CEC to adjudicate MIs can
-          dramatically influence event rates and the proportion of
-          events with disagreements between site investigators and
-          a CEC. Some trials have confirmed only events reported by
-          the investigators [ 9, 17, 18, 19, 20, 21], while other
-          trials have adjudicated all suspected events identified
-          by systematic screening of patient data [ 1, 2, 3, 7, 8,
-          22]. When only events reported by investigators are
-          reviewed by a CEC, the reported event rates will be
-          identical to or lower than the site investigator rates.
-          When events are identified independently by the CEC, the
-          CEC event rates may be higher, lower, or the same as the
-          site investigator-reported rates.
-        
-        
-          Difference in treatment effect
-          The absolute difference in the MI rates was 1.6% (6.2%
-          for eptifibatide versus 7.8% for placebo) as assessed by
-          the site investigators, and 1.0% (12.6% versus 13.6%) as
-          adjudicated by the CEC. The higher event rates in both
-          treatment arms using the CEC data, despite the similar
-          absolute difference, reduced the relative treatment
-          effect (7.4% versus 20.5% reduction) as expected. A
-          similar decrease in relative treatment effect has been
-          noted in some trials [ 1, 8] but not others [ 17, 18,
-          19].
-          The MIs determined by cardiac enzyme elevations
-          without clinical symptoms or ECG changes accounted for
-          33% of the disagreements in which the CEC identified a MI
-          and the site investigators did not. The median CK-MB
-          elevation in these events was 1.6 × ULN. About 50% of
-          these events were thus defined by CK-MB values between 1
-          × ULN and 1.5 × ULN, with normal median CK values (0.9 ×
-          ULN) (Table 3).
-          A retrospective but blinded review of MIs identified
-          by the CEC but not the site investigator found that 18%
-          (98/540) of these patients were assigned a low level of
-          clinical certainty. This was because, although the CK or
-          CK-MB elevations met the end-point criteria, the cardiac
-          enzyme data were considered inconsistent or unreliable,
-          or were associated with conflicting clinical and ECG
-          data.
-          We noted regional differences in the proportion of
-          patients with low clinical certainty. The highest
-          proportions were in Eastern Europe and Latin America,
-          where the observed treatment effect using the CEC
-          definition was negligible. Furthermore, the magnitude of
-          the enzyme elevations (Table 3) parallels discrepancies
-          in the assigned level of certainty. The highest enzyme
-          elevations were observed in North America (median CK-MB
-          elevation, 2.9 × ULN; median CK elevation, 1.6 × ULN),
-          where the treatment effect was mostpronounced. CK-MB
-          elevations in other regions were less striking (median
-          CK-MB elevation, 1.4 × ULN-2.0 × ULN). The regional
-          differences in treatment effect are, however, complex and
-          include differences in patient demographics, the use of
-          cardiac procedures, medications and revascularisation,
-          and the reliability of laboratory data [ 23]. These
-          findings support the hypothesis that including MI
-          end-points defined by low-level cardiac enzyme elevations
-          or events associated with conflicting clinical and ECG
-          data may dilute the actual treatment effect.
-        
-        
-          Predictive value of CEC-identified events
-          The 30-day treatment effect was reduced using
-          CEC-adjudicated end-points versus site investigator
-          assessments, but patients with events adjudicated by the
-          CEC (but not identified by the site investigators) had
-          greater mortality between 30 days and 6 months than did
-          patients with MI reported only by the site investigators
-          (Table 6). In addition, MIs identified by a similar CEC
-          process have been associated with worse long-term
-          outcomes at 3-year follow-up [ 24]. These data suggest
-          that events identified by the CEC alone are of prognostic
-          importance.
-        
+        Methods based on special missing data models
+        Other, more sophisticated methods based on statistical
+        models are available [ 16 17 18 ] ; a technical review can
+        be found, for example, in [ 19 ] and [ 20 ] . No general
+        computer programs are available to put them into effect
+        though, because every so-called informative missing data
+        set requires a unique model to describe it.
       
       
-        Implications
-        CEC adjudication of suspected nonfatal MI end-point
-        events is important to provide independent, unbiased,
-        standard, systematic assessment. The CEC adjudication does
-        have certain limitations. The criteria used to define MI
-        must be evaluated. The determination of MI may require more
-        clinical judgment in patients with inconsistent clinical
-        history, cardiac enzyme data, and ECG information, or
-        suspect cardiac enzyme data. We recognise that this may
-        decrease the objectivity that is important for event
-        classification, particularly in trials across geographic
-        regions and clinical practice settings. At a minimum,
-        events characterised by a low level of clinical certainty
-        should not be classified as MIs.
-        Although the absolute difference in infarction rates
-        determined by the CEC versus site investigators was small,
-        the relative difference was more substantial. This caused a
-        substantial impact on the statistical outcome of the trial.
-        This phenomenon must be considered in calculations of
-        sample size and power during design of future trials, and
-        also may influence how clinical and regulatory bodies
-        interpret trial results. In addition, the CEC process used
-        must be considered, among other factors, when performing
-        comparisons of event rates between trials.
+        Methods based on ranking observations
+        A large class of non-parametric methods is based on the
+        ranks or 'scores' of the observations instead of the actual
+        values. Commonly used non-parametric methods in clinical
+        trials include the Wilcoxon signed-rank test, Mann-Whitney
+        test, and so on. Example 3 also used a ranking method after
+        LOCF for a secondary analysis. Incorporating missing data
+        into these methods can be easily done, by ranking the
+        missing data, according to the reasons for withdrawals [ 21
+        ] , and, in longitudinal study cases, the time of
+        withdrawal [ 22 ] . For example, death would be given the
+        worst rank, followed by 'lack of efficacy', then 'adverse
+        reaction', 'patient refusal', and so on. Within the same
+        category of withdrawal, early dropouts would be given worse
+        ranks than later dropouts. Ground rules for the ranking
+        should be set prior to unmasking the treatment codes for
+        data analyses to avoid being post-hoc. After missing data
+        are replaced by their ranks, the usual testing procedure
+        can be carried out. One major drawback in these methods is
+        that they do not provide any estimation of the treatment
+        effect in the original measurement unit, because the data
+        are replaced by the ranks.
+        All these methods, parametric or non-parametric, require
+        much closer collaboration between medical investigators and
+        statisticians. In the parametric case, the observed outcome
+        cannot provide statistical tests to select the missing data
+        models. In both cases, the validity of the various models
+        or ranking rules requires an examination of the missing
+        data information and strong faith in the reasons given for
+        the patients' withdrawal. Still, the main issue is the
+        question that these methods are addressing. They attempt to
+        follow the ITT principle (but with missing data) to answer
+        question (i) above, hoping that the dropouts can
+        hypothetically be removed by, say, a truly ITT design, or
+        by successfully using concurrent treatments for intolerable
+        side effects without affecting the efficacy of the study
+        medication.
       
       
-        Conclusions
-        Nonfatal MI is an important clinical outcome, and its
-        prevention is a key measure of efficacy in evaluating new
-        therapies for acute coronary syndromes. The determination
-        of MI can be difficult in clinical practice due to
-        conflicting clinical, cardiac enzyme, and ECG data. The CEC
-        adjudication of MI provides a standard, systematic,
-        independent, and unbiased assessment of this end-point in
-        clinical investigations. In the PURSUIT trial, the
-        assessments of MI by site investigators and a central CEC
-        disagreed; more MIs were identified by the CEC than by site
-        investigators. Most disagreements reflected underreporting
-        of procedure-related events and misclassification of
-        enrolment MIs as post-enrolment (end-point) MIs.
-        Understanding the CEC process used in a trial is important
-        in interpreting event rates, particularly when comparing
-        rates between trials. The type of CEC process also has
-        implications in calculations of sample size and power. Our
-        review of the PURSUIT trial CEC experience has highlighted
-        some of these important issues and the need to further
-        evaluate the strategies used for event adjudication.
+        Composite comparisons
+        Many believe that removing the patient's dropout process
+        is not plausible in clinical practice. In this case, the
+        dropout process itself may be an outcome of interest and
+        not a nuisance effect. For example, the US Federal Drug
+        Association's draft guidance on diabetes trials
+        specifically requested the consideration of dropouts as an
+        endpoint [ 23 ] . Therefore, the problem becomes a
+        'composite endpoints' issue. This is the approach taken in
+        [ 24 25 ] , and it has lately been extended to modeling the
+        joint distribution of the longitudinal and time-to-event
+        data (ie, time to withdrawal) [ 26 27 ] . In this setting,
+        we would compare the treatment groups with two aspects
+        simultaneously: (a) the chance (or duration) of complying
+        with the prescribed protocol and, (b) the outcome measure
+        (eg, mean change in systolic blood pressure) given the
+        pattern of compliance. The comparison (a) is
+        straightforward by either the standard binomial or survival
+        techniques. The comparison (b) requires the same care as
+        has been discussed here previously, because, given the
+        pattern of compliance, the subgroup of patients has already
+        been self-selected. The randomization mechanism used for
+        achieving comparability between treatment groups is broken
+        by the post-randomization stratification of compliance. It
+        is then important to check the key outcome-correlated
+        baseline characteristics between the treatment groups for
+        any incomparability among these subgroup patients. This was
+        done in Example 4 but not others. Recognizing that the
+        subgroups are no longer randomized, we should treat this
+        portion as a semi-observational study imbedded in the
+        randomized trial. Techniques used for analyzing
+        observational studies should be applied to this part of
+        comparison [ 28 ] . Generally speaking, in an observational
+        study, bias can only be reduced but not entirely eliminated
+        by methods of adjustment or matching. Sensitivity analysis
+        in this approach is to consider different baseline
+        covariates for matching or adjustment.
+      
+      
+        Conclusion
+        The issue of what to do about missing data caused by
+        dropouts in clinical trials is a research topic that is
+        still under development in statistical literature. As has
+        been noted in the ICH-E9 guideline [ 9 ] , 'no universally
+        applicable methods of handling missing values can be
+        recommended.' The issue of handling missing data is
+        intrinsically difficult because it requires a large
+        proportion of missing data to investigate a method. On the
+        other hand, a large proportion of missing data would make a
+        clinical study less credible. The best available advice is
+        to minimize the chance of dropouts at the design stage and
+        during trial monitoring. A truly ITT design is absolutely
+        encouraged. This requires follow-up data to be collected
+        even after patients discontinue the treatment, whenever the
+        clinical status of the patient permits. If it is
+        anticipated that there will be many dropouts, then perhaps
+        the study's duration should be shortened. Alternatively,
+        the medical procedure that is deemed to be the most likely
+        cause of patients' withdrawal should be altered. All data
+        after death of any cause should be given a value of zero
+        instead of a blank. Consideration may also be given to
+        define an endpoint (event), instead of a measurement value,
+        as the primary response variable, which can be determined
+        even if the patient withdraws from the study. In an
+        analysis, one should be clear about the question or
+        objective of the analysis with missing data, and conduct
+        sensitivity analysis with a set of plausible, pre-specified
+        models of the missing data.
       
       
         Competing interests
@@ -421,53 +535,13 @@
       
       
         Abbreviations
-        CEC = clinical events committee; CK-MB = creatine
-        kinase-myocardial band; ECG = electrocardiography; MI =
-        myocardial infarction; PCI = percutaneous coronary
-        intervention; PURSUIT = Platelet Glycoprotein IIb/IIIa in
-        Unstable Angina: Receptor Suppression Using Integrilin
-        (Eptifibatide) Therapy; ULN = upper limit of normal.
-      
-      
-        Appendix: definition for post-enrolment myocardial
-        infarction
-        
-          Enzyme criteria
-          1. Myocardial infarction (events without documentation
-          of previous infarction during the admission): creatine
-          kinase-myocardial band (CK-MB) level above the upper
-          limit of normal (ULN) and ≥ 3% of total CK. If CK-MB was
-          unavailable, then total CK >2 × ULN.
-          2. Myocardial reinfarction (events with documentation
-          of an infarction before or at enrolment):
-          If <18 hours since previous infarction. Recurrent,
-          severe ischemic discomfort and new, recurrent ST-segment
-          elevation ≥ 0.1 mV in at least two contiguous leads,
-          either persisting ≥ 30 min.
-          If ≥ 18 hours since previous infarction. Re-elevation
-          of CK-MB to above the ULN (if prior CK-MB was within
-          normal range) or >50% above the prior level (if prior
-          CK-MB was above normal). If CK-MB was unavailable: either
-          total CK ≥ 2 × ULN and increased by ≥ 25%; or ≥ 1.5 × ULN
-          and increased by ≥ 200 IU above prior value.
-          3. Periprocedural infarction (events occurring during
-          or within 24 hours of percutaneous coronary
-          intervention): CK-MB level ≥ 3 × ULN and >50% above
-          prior nadir value. If CK-MB was unavailable, total CK ≥ 3
-          × ULN.
-          4. Perioperative infarction (events occurring during
-          or within 36 hours of bypass surgery): CK-MB ≥ 5 × ULN
-          (or CK, in the absence of CK-MB).
-        
-        
-          ECG criteria
-          New, significant Q waves or equivalents ≥ 0.04 s in at
-          least two contiguous leads. When enzyme or
-          electrocardiographic (ECG) data were unavailable, an
-          infarction was identified when the bulk of clinical
-          evidence (patient signs, symptoms, ECG changes, and
-          pathological findings) so indicated.
-        
+        BP = blood pressure; HCTZ = hydrochlorothiazide; DBP =
+        diastolic blood pressure; ITT = intent to treat; MCAR =
+        missing completely at random; ICH = International
+        Conference on Harmonization; LOCF
+        last-observation-carried-forward; PMI = proper multiple
+        imputation; MAR = missing at random; PI = partial
+        imputation.
       
     
   

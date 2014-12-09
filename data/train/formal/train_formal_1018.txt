@@ -2,399 +2,498 @@
   
     
       
-        Background
-        Respiratory syncytial virus (RSV) belongs to the
-        Pneumovirinae subfamily of the Paramyxovirodae family of
-        enveloped single-stranded negative sense RNA viruses. RSV
-        infection of the lower respiratory tract cells results in
-        cell death and sloughing into the lumen of the respiratory
-        tree. Worldwide, RSV is the leading cause of infant
-        mortality from respiratory infections and is so highly
-        contagious that by age two nearly all children have been
-        infected. RSV infection in infancy cause severe
-        bronchiolitis and pneumonia and may predispose children to
-        the subsequent development of asthma, the most common
-        chronic illness of childhood [ 1 ] . Many studies have
-        indicated that chemokines can play an important role in the
-        onset and severity of asthma and it has been shown that RSV
-        infection of lung epithelial cells increases chemokine
-        production, although the mechanisms involved are largely
-        unknown [ 2 3 4 5 ] .
-        The chemotactic cytokines, or chemokines, compose a
-        large superfamily of small structurally related
-        polypeptides that play important roles in host defense by
-        recruiting specific subsets of leukocytes to sites of
-        inflammation and injury [ 6 ] . Chemokines have been
-        associated with a number of inflammatory diseases and
-        conditions, including asthma, sepsis, inflammatory bowel
-        disease, and adult respiratory distress syndrome [ 7 8 9 ]
-        . The chemokine superfamily can be divided into two major
-        groups based on the position of the first two of
-        four-conserved cysteine residues at the amino terminus,
-        which are either adjacent (CC subfamily) or separated by
-        one amino acid (CXC subfamily). The CXC chemokines such as
-        IL-8 were originally identified as potent activators and
-        chemoattractants for neutrophils, whereas the CC chemokines
-        such as MCP-1 and RANTES mostly attract monocytes and
-        eosinophils respectively [ 10 ] . Chemokines are secreted
-        in a stimulus-and cell type-specific manner [ 11 12 13 14
-        15 16 17 ] and are regulated primarily at the level of gene
-        transcription [ 18 19 20 21 22 23 24 ] . The
-        transcriptional promoters of IL-8, RANTES and MCP-1 contain
-        binding sites for the redox-responsive transcription factor
-        NF-κB, which has been shown to be important for their
-        regulation by viral infections and cytokines [ 18 20 23 25
-        26 27 28 29 30 31 32 33 34 ] .
-        We previously demonstrated that the chemokines IL-8,
-        MCP-1 and RANTES are differentially regulated in A549
-        airway epithelial cells [ 35 36 37 38 ] . To further
-        elucidate the mechanisms of chemokine expression in A549,
-        we have compared the induction of IL-8, MCP-1 and RANTES by
-        RSV infection with that of TNFα. Our findings suggest that
-        RSV induction of chemokine gene expression involves a
-        redox-sensitive NF-κB signaling mechanism that differs from
-        that mediated by TNFα and involving predominantly the Rel A
-        subunit of NF-κB.
+        Introduction
+        With an estimated 3.5 million people with HIV/AIDS, Nigeria is home to one of every 11
+        of the 40 million people with HIV/AIDS worldwide [1]. The HIV prevalence among adults in
+        Nigeria has increased from 1.8% in 1991 to an estimated 5.8% in 2001 [1]. Prevalence ranges
+        from 2% to 14.9% in the country's 36 states and Federal Capital Territory [2]. According to
+        official estimates, Nigeria has an estimated 3.6 million people with HIV/AIDS and
+        approximately 310,000 AIDS deaths this year alone [3], and these numbers are projected to
+        increase each year. In 1999, with the election of President Olusegun Obasanjo, Nigeria
+        emerged from approximately 20 years of military dictatorship in which little governmental
+        attention or funding was directed at addressing HIV/AIDS [4].
+        People living with HIV/AIDS (PLWA) in Nigeria have been found to be subject to
+        discrimination and stigmatization in the work place, and by family and communities [5,6].
+        PLWA may also face discrimination from those employed in the health-care sector. [5].
+        Discriminatory or unethical behavior by health-care professionals against PLWA, as
+        documented in other countries [7–11], may create an atmosphere that interferes with
+        effective prevention and treatment by discouraging individuals from being tested or seeking
+        information on how to protect themselves and others from HIV/AIDS [12–14]. Furthermore,
+        discriminatory practices and violations of international principles of medical ethics may
+        serve to legitimize other forms of discrimination against people living with HIV/AIDS.
+        Anecdotal information suggests that health-care professionals in Nigeria may engage in
+        discrimination against and stigmatization of PLWA [6,15]. The prevalence, character of, and
+        factors contributing to these practices are, however, largely undocumented. To address
+        this, Physicians for Human Rights (PHR), Policy Project Nigeria, and the Center for the
+        Right to Health conducted a survey of health professionals in four sites in Nigeria. The
+        study was designed to answer three research questions. (1) Are there discriminatory
+        practices in the health sector that affect the health and well-being of people with
+        HIV/AIDS in Nigeria? (2) How receptive are health workers and institutions to treating
+        people with HIV/AIDS? And (3) what underlying factors may contribute to any discriminatory
+        practices? The study was intended to inform ongoing policy discussions and development of
+        effective interventions.
       
       
-        Materials and methods
+        Methods
         
-          Materials
-          Dulbecco's Modified Eagle Medium (DMEM), fetal bovine
-          serum (FBS), Dulbecco's phosphate buffered saline (DPBS),
-          antibiotic/antimycotic, 1% trypsin/EDTA, Hanks Balanced
-          Salt Solution (HBSS) and TRIZOL were purchased from
-          Invitrogen Gibco Cell Culture (Carlsbad, CA).
-          N-acetyl-L-cysteine, dexamethasone, glycerol and MTT
-          tetrazolium salt were obtained from Sigma (St. Louis,
-          MO). TNFα was obtained from R&D systems (Minneapolis,
-          MN). ELISA kits were purchased from Pierce Endogen
-          (Rockford, IL). Human CK5 RiboQuant ribonuclease
-          protection assay kit was purchased from BD Pharmingen
-          (San Diego, CA). [α- 32P]UTP (250 μCi) was obtained from
-          Perkin Elmer Life Sciences (Boston, MA). Gel shift assay
-          system was purchased from Promega (Madison, WI). [γ-
-          32P]ATP (500 μCi) was obtained from ICN (Costa Mesa, CA).
-          Antibodies were purchased from Santa Cruz Biotechnology
-          (Santa Cruz, CA). The A549 cell line and RSV Long strain
-          were obtained from the American Type Culture Collection
-          (Rockville, MD).
-        
-        
-          Virus stock growth and maintenance
-          RSV, Long strain, was grown on HEp-2, a human tracheal
-          epithelial cell line. Cells were grown to 50% confluence
-          in DMEM containing 7% FBS and 1% antibiotic/antimycotic.
-          After two washes with 1X DPBS, a minimal volume of RSV,
-          at a multiplicity of infection (MOI) of 1 or greater,
-          containing less than 1% FBS was added. The virus and
-          cells were incubated for 2 hours, after which DMEM was
-          added to bring culture to normal growth volume and 7%
-          FBS. Cultures were then incubated for 48 hours. All
-          plates were scraped and contents were transferred to 50
-          ml conical tubes. The virus/cell cocktail was vortexed
-          briefly and large debris was removed in a tabletop
-          centrifuge. RSV was purified by ultracentrifugation
-          through 30% glycerol in HBSS. RSV stocks were resuspended
-          in HBSS containing 0.5% bovine serum albumin and 100 mM
-          magnesium sulfate and frozen at -70° C.
+          Sampling
+          At the time of the study, approximately 120,000,000 people were living in the 36
+          states and Federal Capital Territory of Nigeria [16]. We conducted the study in four
+          states: Abia, Gombe, Kano, and Oyo. These sites were selected by dividing the country's
+          six geopolitical zones into two sections—north and south—in order to capture geographical
+          and other differences and then randomly selecting two of three zones from each section.
+          Within the four selected zones, using health-care facility lists compiled by Nigeria's
+          Federal Ministry of Health [17], we identified states that have a tertiary care
+          institution and randomly selected one of these states from each zone. To obtain a
+          representative sample of health-care professionals, we proportionally sampled doctors,
+          nurses, and midwives from the tertiary facility and systematically selected public and
+          private secondary and primary health-care facilities in the four states. Fifty-four
+          percent of the health-care professionals were sampled from tertiary care facilities. We
+          determined the sample size based on local activists' estimates that 10% of clinicians
+          have discriminatory behavior and attitudes, a margin of error of ± 0.01% and a 90%
+          confidence (10% significance) level. The sample size required given these constraints was
+          301 health-care professionals. However, our sample design included several levels of
+          clustering, and we therefore assumed a design effect of three and thus the sample size
+          needed was calculated to be approximately 1,000. Eligible facilities were medical
+          facilities included in the published federal government database, which indicated that
+          there were 2,585 health facilities in the four states [17]. In each health-care facility,
+          we systematically sampled from all doctors, nurses, and midwives to acquire information
+          about their knowledge, attitudes, and behavior. Eligible professionals were physicians or
+          certified nurses or midwives working in positions with direct patient contact. Data on
+          the number of health-care professionals were derived from Federal Ministry of Health
+          data, which indicated that these four states have a total of nearly 4,500 health-care
+          professionals who serve a population of approximately 17.8 million people [18].
         
         
-          Cell culture, infection and treatments
-          The A549 human type II lung carcinoma cell line was
-          grown and maintained in DMEM containing 7% FBS and 1%
-          antibiotic/antimycotic. For treatment, cells were grown
-          to approximately 75% confluence, washed once with 1X DPBS
-          and incubated overnight with DMEM containing 1% FBS.
-          Cultures were then washed twice with 1X DPBS and
-          pretreated with inhibitors DEX or NAC in serum-free DMEM
-          to final concentrations as indicated in the figures. RSV
-          and TNFα were added to the DMEM/inhibitor mix to final
-          concentrations as indicated in the figures. One hour
-          after agonist addition, FBS was added to 1% concentration
-          for the duration of the experiment.
+          Survey Questionnaire
+          The 104-item health-care professional survey included questions on respondent
+          demographics; practices regarding informed consent, testing, and disclosure; treatment
+          and care of patients with HIV/AIDS; and attitudes and beliefs about treatment and care of
+          patients with HIV/AIDS including informed consent, testing, and disclosure.
+          Treatment and care practices of patients with HIV/AIDS were assessed using Likert-type
+          scales (e.g., the possible answers were “always,” “most of the time,” “sometimes,”
+          “rarely,” and “never”). Attitudes and beliefs were assessed by a response of “agree” or
+          “disagree” with statements regarding testing, treatment, and care of patients with
+          HIV/AIDS.
+          Using a separate 103-item survey instrument, we obtained information about each
+          facility's capacity, resources, and policies from the person in charge of the facility.
+          The questionnaires were written and interviews conducted in English. Seven regional,
+          human rights, and medical experts reviewed the questionnaires for content validity. The
+          instruments were pilot tested among 20 participants in Lagos and suggestions regarding
+          clarity and cultural appropriateness were incorporated.
         
         
-          Protein secretion
-          After addition of RSV and TNFα, cells were cultured
-          for 24 h. Supernatants were collected and spun at high
-          speed to remove cellular debris. The resulting suspension
-          was frozen at -70°C until assayed following
-          manufacturer's instructions by chemokine-specific ELISA
-          (Endogen).
+          Interviewers
+          After completing an intensive training program, 24 Nigerian surveyors conducted the
+          survey interviews. Interviewer training consisted of 5 d of classroom teaching and
+          role-playing followed by several days of field observation and ongoing supervision by PHR
+          and Nigerian researchers.
+          All interviews were conducted over 5 wk in October and November 2002. Interviews
+          lasted approximately 20–30 min and were conducted in the most private setting possible
+          within each health-care facility. All questionnaires were reviewed for completeness and
+          for correctness of recording after the interview by the interviewers themselves, by the
+          Nigerian research team leaders, and by PHR field supervisors at the end of each day.
         
         
-          RNase protection
-          RNase protection assays (RPA) were performed using an
-          RPA kit purchased from BD Pharmingen. In brief, total RNA
-          was isolated from stimulated A549 cells with TRIZOL. The
-          hCK-5 multiprobe template set was used to synthesize RNA
-          probes for the chemokines lymphotactin, RANTES, IP-10,
-          MIP-1α, MIP-1β, IL-8, MCP-1, and I-309 as well as the
-          house-keeping genes L32 and glyceraldehyde-3-phosphate
-          dehydrogenase (GAPDH) labeled with [α- 32P]UTP using T7
-          RNA polymerase. 3 × 10 5cpm of labeled probe were
-          hybridized with 10 μg of total RNA for 16 h at 56°C.
-          MRNA-probe hybrids were treated with RNase cocktail and
-          phenol-chloroform extracted. Protected hybrids were
-          resolved on a 6% denaturing polyacrylamide sequencing
-          gels and exposed to a Molecular Dynamics detection screen
-          overnight. Laser densitometry was performed using a
-          Molecular Dynamics Storm scanner system (Molecular
-          Dynamics, Inc., Sunny vale, CA).
+          Definitions
+          In the surveys, informed consent was defined as ensuring that a patient who is
+          competent to make decisions is informed and consulted about his or her care. Respondents
+          were informed that this included the responsibility of the clinician to let the patient
+          know about any procedure or medical decision, reasonable alternatives to it, and the
+          risks, benefits, uncertainties, and possible consequences related to each alternative.
+          The clinician must carry out the discussion in layperson's terms, assess the patient's
+          understanding along the way, and ensure that the patient understands the information and
+          consents to it voluntarily [19]. Universal precautions were defined as the use of
+          protective barriers such as gloves, gowns, aprons, masks, or protective eyewear, which
+          can reduce the risk of exposure to potentially infective materials at all times
+          regardless of a patient's HIV or other status [20].
         
         
-          DNA binding studies
-          Electrophoretic mobility shift assays (EMSA) were
-          performed essentially as described previously [ 39 ] .
-          Briefly, nuclear protein extracts (7 μg protein) prepared
-          form A549 cells by the method of Osborn 
-          et al [ 40 ] were incubated with 5
-          × 10 5cpm (~0.1 ng) of 32P end-labeled consensus NF-κB
-          oligonucleotide (5'-AGTTGAGGGGACTTTCCCAGGC-3') probe
-          contained in the Promega gel shift assay system for 20-30
-          min at room temperature in 10 μl reaction volume using
-          the kit provided reaction buffer. To demonstrate binding
-          specificity, 100-fold molar excess (10 ng) of a specific
-          or non-specific oligonucleotide
-          (5'-ATTCGATCGGGGCGGGGCGAGC-3') was included in the
-          binding reaction. Protein-DNA and protein-DNA-antibody
-          complexes were resolved in 5% polyacrylamide gels
-          preelectrophoresed for 30 min at room temperature in
-          0.25X TBE buffer (22.5 mM Tris-borate and 0.5 mM EDTA, pH
-          8.3). Gels were dried and exposed to radiographic film
-          with an intensifying screen at -70°C.
+          Human Subjects Protection
+          This study was reviewed and approved by an independent ethics review board of
+          individuals with expertise in clinical medicine, public health, bioethics, and
+          international HIV/AIDS and human rights research developed for this research project by
+          PHR. In reviewing the research, the review board was guided by the relevant provisions of
+          Title 45 of the US Code of Federal Regulations [21], and complied with the Declaration of
+          Helsinki, as revised in 2000 [22]. The study was also reviewed for ethical and cultural
+          appropriateness by a panel convened in Nigeria by Policy Project Nigeria. In addition,
+          permission for the study and access to facilities was granted by the Nigerian Federal
+          Ministry of Health, state and local government authorities, and facility directors. There
+          were no limitations placed on movement or surveying. Verbal informed consent was obtained
+          from all participants, their names were not recorded, and only minimal identifying
+          information was taken in order to preserve the anonymity of their responses. Participants
+          did not receive any compensation.
         
         
-          NF-kappaB subunit specific ELISA
-          NF-κB subunits Rel A (p65) and NF-κB1 (p50) were
-          quantified using Trans-AM™ transcription factor assay kit
-          from Active Motif (Carlsbad, CA). The assay is
-          essentially an ELISA in which the consensus NF-κB binding
-          site (5'-GGGACTTTCC-3') is immobilized onto the 96 well
-          plate. Nuclear cell extracts (3 μg) were added to the
-          wells and assayed for either Rel A or p50 binding as per
-          the manufacturer's instructions. Optical density was
-          determined on a spectophotometer at 450 nm.
+          Statistical Analysis
+          The data were analyzed using Stata 7 [23]. To control for clustering and design
+          effect, the sample was weighted by the number of states selected with a tertiary facility
+          from each of six selected geopolitical zones, the number of local government areas per
+          location, the number of facilities selected from each local government area, and the
+          response rate in each location. The study's principal objective was to describe
+          health-care professional practices and attitudes towards people with HIV/AIDS, rather
+          than to conduct comparisons between professionals or explore associations between
+          professional characteristics and different outcomes. However, we conducted bivariate
+          analyses using chi-square analyses and simple logistic regression to compare negative
+          practices and attitudes among the three health specialties surveyed (doctors, nurses, and
+          midwives) and to test for associations between reported facility resources and providers'
+          reported adequacy of AIDS training and reported negative practices and attitudes about
+          HIV/AIDS.
         
       
       
         Results
         
-          RSV induction of chemokine expression differs from
-          that induced by TNFalpha
-          As shown in Fig. 1, RSV infection of A549 epithelial
-          cells induces the production and secretion of the
-          chemokines IL-8, MCP-1, and RANTES. In A549 epithelial
-          cells substantial MCP-1 was constitutively expressed
-          whereas little or no spontaneous IL-8 or RANTES was
-          detected. However, upon RSV infection (MOI = 3) a
-          significant increase in chemokine production and
-          secretion was observed 24 hr post-infection for each of
-          the chemokines.
-          To determine whether the chemokine induction was
-          mediated by increased chemokine gene expression we
-          assessed the kinetics of mRNA synthesis by chemokine
-          specific RNase protection. A549 cells were infected with
-          RSV (MOI = 1) or stimulated with TNFα (100 ng/ml) and
-          total RNA isolated at various times post-treatment over a
-          24 hr time course. As shown in Fig. 2, RSV rapidly
-          induced IL-8 and MCP-1 with steady-state mRNA readily
-          detected as early as 1 hr and continued to increase over
-          the 24 hr time course. In contrast, RANTES mRNA was not
-          detected until 4 hrs post infection after which its
-          expression rapidly increased also reaching a maximum at
-          24 hrs. The RSV induction kinetics differed dramatically
-          from the induction kinetics for TNFα in the same
-          experiment. Whereas RSV induction of the chemokines did
-          not reach a maximum until 24 hrs, TNFα induction was
-          maximal between 4 and 8 hrs and was either unchanged or
-          lower at 24 hrs post-infection.
-          The magnitude of induction also differed between TNFα
-          and RSV infection. In general TNFα was a stronger inducer
-          of chemokine expression. This difference was also
-          reflected in the amount of chemokine secreted from the
-          cells (data not shown). Together, these data indicate
-          that RSV infection of A549 epithelial cells induces
-          chemokine expression with distinct kinetics suggesting
-          the mechanism of RSV induction differs from that of
-          proinflammatory cytokines.
+          Characteristics of Facilities
+          Of the 163 facilities sampled, 20 were no longer operational; for ten, contact could
+          not be established after two attempts at the time of sampling; and 15 were not eligible.
+          Of the 118 eligible facilities where contact was established, 111 participated in the
+          study (78% of operational facilities). Over half of the facilities were general hospitals
+          (54%) and 23% were primary health centers.
+          Eighty-four percent of facility directors reported not having antiretroviral
+          medications in their facility. Moreover, the availability of other medications and
+          dietary supplements was limited, and protective materials and other supplies and
+          utilities were not always available (Table 1).
         
         
-          NF-kappaB inhibitors differentially effect RSV and
-          TNFalpha induction of chemokine expression
-          IL-8, MCP-1 and RANTES gene expression are regulated
-          by the redox responsive transcription factor NF-κB [ 18
-          20 23 25 26 27 28 29 30 31 32 33 41 42 43 44 ] . The
-          NF-κB signaling pathways have been shown to be
-          differentially affected by antioxidants and
-          glucocorticoid steroids [ 45 ] . To determine whether RSV
-          and TNFα induction of chemokine expression might be
-          mediated by different NF-κB signaling pathways we
-          pretreated A549 cells with the glutathione precursor
-          N-acetyl-L-cysteine (NAC) or the synthetic glucocorticoid
-          dexamethasone (DEX). Twenty-four hours post infection,
-          total RNA was isolated and steady state mRNA expression
-          analyzed by chemokine specific RNase protection. As shown
-          in Fig. 3, the two inhibitors had very different effects
-          on chemokine gene expression. Most strikingly, RSV
-          induced chemokine expression was more sensitive to NAC,
-          whereas TNFα induced chemokine expression was conversely
-          more sensitive to DEX. Thus, NAC preferentially inhibited
-          chemokine expression induced by RSV, while DEX
-          predominantly inhibited chemokine expression induced by
-          TNFα.
+          Characteristics of Respondents
+          Of the 1,103 professionals sampled, 23 were not eligible, five were not available
+          after two attempts at the time of sampling, eight were interrupted during the course of
+          the interview, and 46 refused to participate. Consequently, 1,021 professionals
+          participated in the study (93% response rate). Although we did not gather information on
+          nonrespondents, most of the 46 nonrespondents who refused to participate cited lack of
+          time as the reason they were unable to participate (36), with other nonrespondents citing
+          other obligations (four), fear of reprisal (one), and opposition to the study
+          (three).
+          
+            Sociodemographic characteristics
+            Professionals were predominantly female (67%) with a mean age of 36 y. Fifty-six
+            percent were nurses, 31% were physicians, and 12% were certified midwives (Table
+            2).
+          
+          
+            HIV/AIDS training
+            Most professionals reported having some training on HIV/AIDS (Table 2). Current
+            literature (69%), conferences (56%), and courses as a student (52%) were most
+            frequently reported by professionals as the sources of this training. Seven percent
+            reported having no training on HIV/AIDS at all.
+          
         
         
-          Differential inhibition of TNFalpha and RSV induced
-          NF-kappaB
-          NF-κB binds to the chemokine promoter as either homo-
-          or heterodimers composed of Rel A (p65) and NF-κB1 (p50).
-          Initially we detected TNFα and RSV induction of NF-κB by
-          EMSA (KA Roebuck and LR Carpenter unpublished data) but
-          because multiple gel shift complexes were induced it was
-          not possible to distinguish the individual contributions
-          of Rel A and p50 to the formation of these complexes.
-          Therefore to assess the induction of the Rel A and p50
-          subunits individually in A549 nuclear cell extracts, we
-          used a subunit specific NF-κB binding ELISA system that
-          utilizes anti-Rel A and anti-p50 antibodies. As shown in
-          Fig. 4, Rel A and p50 subunits of NF-κB are
-          differentially expressed and induced in A549 epithelial
-          cells. In untreated cells, no Rel A (solid bars) was
-          detectable whereas in resting cells constitutive levels
-          of p50 were observed (open bars), suggesting that
-          unstimulated A549 epithelial cells contain p50
-          homodimers, which with regard to transcriptional activity
-          have been shown to be functionally inert or inhibitory.
-          In contrast, cells stimulated by TNFα (Fig. 4A) or
-          infected by RSV (Fig. 4B) markedly induced Rel A, the
-          transcriptionally active subunit of NF-κB. In addition,
-          TNFα was also able to induce p50 by about 5-fold whereas
-          RSV increased the constitutive p50 level by only about
-          50%. The induction of Rel A and p50 were specific since
-          competition with either wild type or mutant consensus
-          NF-κB oligonucleotide respectively inhibited or not the
-          RSV and TNFα induced binding activity. These data
-          demonstrate that TNFα is a potent inducer of both Rel A
-          and p50 whereas RSV primarily induces the Rel A subunit
-          of NF-κB.
-          To determine whether RSV and TNFα activate NF-κB
-          differently, we examined the effects of NAC and DEX on
-          Rel A and p50 binding activity. As shown in Fig. 4, Rel A
-          and p50 subunits are differentially inhibited by NAC and
-          DEX which have been shown to inhibit NF-κB by distinct
-          mechanisms. Both NAC and DEX were unable to inhibit TNFα
-          induction of either Rel A or p50. In contrast, in RSV
-          infected cells both DEX and NAC inhibited Rel A and p50
-          binding activity. However, the inhibitory effects were
-          most striking for Rel A suggesting the inhibitors
-          primarily target the RSV induction of Rel A.
-          The differential effects of NAC on TNFα and RSV
-          induced NF-κB binding activity correlated with its
-          effects on chemokine gene expression (Fig. 3) and protein
-          secretion (data not shown) suggesting that RSV induces
-          IL-8, MCP-1 and RANTES through redox-sensitive NF-κB
-          binding complexes. DEX also showed differential effects
-          on NF-κB binding activity with DEX preferentially
-          inhibiting RSV induction of NF-κB. However, the effects
-          of DEX on NF-κB binding induced by TNFα did not correlate
-          with its effects on chemokine expression, suggesting in
-          TNFα activation of chemokine gene expression DEX targets
-          another mechanism of chemokine induction not involving
-          NF-κB.
+          Testing and Consent
+          
+            Practices
+            Seventeen percent of surveyed health-care professionals reported that their facility
+            had a written HIV testing policy (Table 3). Respondents indicated that the policies
+            included requirements for informed consent (58%), pre-test counseling (53%), post-test
+            counseling (52%), and post-test referral (29%).
+            Over 50% of professionals reported obtaining informed consent of patients for HIV
+            tests half of the time or less, including 14% who reported never obtaining consent for
+            HIV tests (Table 3). Fifty-four percent of respondents reported that, regardless of
+            consent, routine HIV testing of all patients scheduled for surgery always took place at
+            their facilities, and 50% reported such routine HIV testing of all women attending
+            antenatal care clinics. Providers who reported that they lacked adequate training in
+            HIV/AIDS treatment and ethics had 50% higher odds of reporting that they failed to
+            obtain informed consent for HIV tests (more than 50% of the time) compared to providers
+            reporting adequate training in these areas (odds ratio (OR) 1.53, 95% confidence
+            interval [CI] 1.17–2.01).
+          
+          
+            Attitudes
+            Ninety-one percent of professionals agreed that staff and health-care professionals
+            should be informed when a patient is HIV-positive so they can protect themselves (Table
+            4). Over three-quarters of respondents (78%) agreed that there are circumstances when
+            it is appropriate to test a patient without his or her knowledge or permission.
+            Fifty-seven percent of participants believed that relatives and sexual partners of
+            patients with HIV/AIDS should be notified of the patient's status even without the
+            patient's consent. Forty-six percent of professionals thought that the charts or beds
+            of patients with HIV should be marked so that health facility workers know the
+            patient's status.
+            Forty percent believed that health-care professionals with HIV/AIDS should not be
+            working in any area of the health professions that requires patient contact. Twenty
+            percent of respondents agreed that many of those who have HIV/AIDS behaved immorally
+            and deserve the disease (Table 4).
+            Providers working in facilities that did not always practice universal precautions
+            (65% citing lack of sufficient materials as the reason) were significantly more likely
+            than those working in facilities that always observed universal precautions to agree
+            that people with HIV/AIDS should not be employed in the health field (OR 1.43, 95% CI
+            1.09–1.74) and should not work in areas that require patient contact. They also had
+            higher odds of agreeing that under certain circumstances, patients could be tested for
+            HIV without their knowledge or permission (OR 1.63, 95% CI 1.14–2.33) Working in a
+            facility that did not always practice universal precautions, being a nurse or midwife,
+            and reporting inadequate training in HIV/AIDS treatment were all associated with
+            agreeing that patients with HIV/AIDS should be on a separate ward in a hospital or
+            clinic. Nurses and midwives both had more than five times the odds of agreeing that
+            people with HIV/AIDS should not be employed in the health field than doctors and that
+            the charts or beds of HIV patients should be marked. Nurses and midwives also had
+            almost twice the odds of physicians of agreeing that under certain circumstances it is
+            acceptable to test patients for HIV without their consent or knowledge.
+          
+        
+        
+          Treatment and Care
+          
+            Practices
+            Among health-care professionals, the three most important concerns about treating
+            patients with HIV/AIDS were fear of becoming contaminated (81%), contamination of
+            facility, materials, or instruments (17%), and not having materials needed to treat
+            them (10%) (Table 5). Seventy-two percent of respondents reported that universal
+            precautions were always practiced in the facilities in which they worked. Lack of
+            materials—reported by 65% of professionals—was cited as the main reason for
+            non-practice of universal precautions (Table 5).
+            Nine percent of professionals reported refusing to care for a patient with HIV/AIDS,
+            and 9% indicated that they had refused a patient with HIV/AIDS admission to a hospital
+            (Table 6). Sixty-six percent had observed other health-care professionals refusing to
+            care for a patient with HIV/AIDS, and 43% had observed others refusing a patient with
+            HIV/AIDS admission to a hospital. While less than one percent of professionals reported
+            verbally mistreating a patient with HIV/AIDS, 27% of respondents reported seeing others
+            verbally mistreat patients with HIV/AIDS.
+            Thirty-eight percent of professionals reported giving confidential information to a
+            patient's family member without the patient's consent, and 53% had observed this
+            behavior. Twelve percent of professionals reported giving confidential information to a
+            person not related to a patient without consent, and 22% had observed this behavior
+            (Table 6).
+            Providers who reported inadequate training in HIV/AIDS treatment and in ethics were
+            significantly more likely to have refused to treat a patient with HIV/AIDS than those
+            reporting adequate training in those two areas (OR 2.06, 95% CI 1.31–3.22). Providers
+            working in facilities that did not always practice universal precautions were not more
+            likely to have refused care to a patient themselves but were significantly more likely
+            to report having observed other providers refuse to care for a patient with HIV/AIDS
+            (OR 1.09, 95% CI 1.01–1.45). There were no differences among specialties in reporting
+            having refused to care for a patient with HIV/AIDS.
+          
+          
+            Attitudes
+            To prevent discrimination by health-care professionals against patients with
+            HIV/AIDS, most participants (87%) indicated that health-care professionals who engage
+            in discriminatory practices should be educated and counseled. Health facility policies
+            against discrimination were cited as solutions by 19% of professionals, and stronger
+            laws against discrimination were suggested by 11% (Table 6).
+            Ninety-four percent indicated that medications to treat opportunistic infections may
+            prolong the life of a patient who is HIV-positive (Table 7). Over half (59%) of
+            professionals agreed that people with HIV/AIDS should be on a separate ward in a
+            hospital or clinic. Forty-eight percent of participants expressed their belief that a
+            person with HIV/AIDS cannot be treated effectively in their facility. Forty percent of
+            health-care professionals reported that it is possible to determine a person's HIV
+            status by looking at him or her, and 21% agreed that they could refuse to treat a
+            patient with HIV/AIDS to protect themselves and their family. Twelve percent expressed
+            agreement with the statement that treatment of opportunistic infections in patients
+            with HIV/AIDS wastes resources, and 8% agreed that treating someone with HIV/AIDS is a
+            waste of precious resources.
+            Nurses had higher odds than physicians of agreeing that treating opportunistic
+            infections in patients with HIV/AIDS is a waste of resources (OR 2.14, 95% CI
+            1.35–3.40), but physicians were 50% more likely than nurses to agree that they could
+            refuse to treat a patient with HIV/AIDS to protect themselves and their family.
+            Respondents who reported inadequate training in HIV/AIDS treatment also were
+            significantly more likely to agree it was acceptable to refuse to treat a patient for
+            these reasons (OR 1.34, 95% CI 1.31–3.22). Physicians had significantly higher odds
+            than either nurses or midwives of agreeing that there were circumstances under which it
+            was appropriate to reveal a person's HIV status to others without the patient's
+            knowledge or permission.
+          
         
       
       
         Discussion
-        In this study, we examined the role of NF-κB in the
-        activation of chemokine gene expression in response to TNFα
-        and RSV infection. The inhibitor studies correlating
-        chemokine gene expression and NF-κB binding activity
-        indicate that RSV, in contrast to TNFα, induces IL-8, MCP-1
-        and RANTES expression in A549 epithelial cells through a
-        redox-sensitive NF-κB signaling pathway that appears to
-        involve predominately Rel A. IL-8, MCP-1 and RANTES are
-        known redox regulated genes and our results are consistent
-        with the findings that oxidant tone can regulate chemokine
-        gene expression in RSV infected airway epithelial cells [
-        46 47 48 ] .
-        NF-κB activation is controlled by its inhibitory protein
-        I-κBα which when phosphorylated on ser32 and ser36 marks it
-        for degradation by the 26S proteosome complex. Thus I-κB is
-        a potential regulatory target for the differential
-        induction of NF-κB. Although we have not directly examined
-        the role of I-κB, Fiedler 
-        et al [ 49 50 ] have reported
-        differential effects of RSV and TNFα on I-κB activity in
-        A549 epithelial cells. In addition, Bitko and Barik [ 51 ]
-        have demonstrated that another I-κB protein (I-κBβ) may
-        also contribute via a redox-sensitive pathway to NF-κB
-        activation by RSV.
-        In addition to NF-κB dependent regulation there appears
-        to also be NF-κB independent activation of chemokine
-        expression since DEX inhibited TNFα induced chemokine
-        expression but not NF-κB binding activity. Along these
-        lines, it has been shown that RSV activation of chemokine
-        gene promoters involves multiple inducible transcription
-        factors including AP-1 [ 52 53 ] , which is also a redox
-        sensitive transcription factor important in chemokine gene
-        expression [ 28 36 54 ] . AP-1 can also be inhibited by DEX
-        and has been shown to cooperate with NF-κB to mediate RSV
-        induction of IL-8 [ 46 55 ] .
-        The differential effects of NAC and DEX on chemokine
-        gene expression and NF-κB activation suggest that the
-        mechanisms of RSV and TNFα activation of NF-κB and
-        chemokine expression differ possibly involving distinct
-        NF-κB signaling mechanisms. TNFα rapidly and potently
-        activates Rel A and p50 subunits of NF-κB through a
-        kinase-mediated phosphorylation cascade involving a high
-        molecular mass signaling complex called the IKK complex [
-        56 ] . TNFα activation of the multiprotein IKK complex
-        results in the serine phorsphorylation of I-κB and the
-        subsequent activation of NF-κB [ 57 ] .
-        Consistent with the idea of RSV and TNFα activating
-        distinct NF-κB signaling pathways, we found that the NF-κB
-        inhibitor NAC had differential effects on chemokine gene
-        expression. In contrast to TNFα, RSV induced chemokine
-        expression was sensitive to NAC particularly the Rel A
-        (p65) subunit. NAC is an antioxidant thiol that raises the
-        intracellular pool of glutathione the major redox
-        regulating mechanism in the A549 epithelial cell line [ 45
-        ] . Interestingly, it has been reported that NAC can have
-        differential effects on NF-κB binding activity suggesting
-        only a subset of NF-κB binding complexes are redox
-        sensitive [ 58 ] . Moreover, it has been shown that NAC
-        inhibits Rel A/p50 heterodimers but not p50 homodimers and
-        can inhibit NF-κB binding to only certain variant κB
-        elements which presumably interact with distinct redox
-        sensitive NF-κB binding complexes [ 59 ] . These
-        observations are consistent with our findings that indicate
-        NAC predominantly inhibits Rel A homodimers since that was
-        the major NF-κB subunit induced by RSV infection of A549
-        cells.
-        Consistent with RSV and TNFα inducing functionally
-        distinct NF-κB binding complexes, AP-1 was recently shown
-        to be the preferential cooperative partner with NF-κB in
-        RSV-induced IL-8 expression [ 46 ] , whereas in
-        TNFα-induced expression NF-κB cooperates preferentially
-        with NF-IL-6 [ 18 19 22 ] . Apparently, the
-        stimulus-specific gene regulation of chemokines is complex
-        involving differential cooperativity of redox sensitive and
-        redox resistant NF-κB complexes with other transcription
-        factors to form unique higher order transcription
-        complexes.
-      
-      
-        Conclusions
-        Taken together, our data indicate that RSV, in contrast
-        to the cytokine TNFα, activate NF-κB and chemokine gene
-        expression through a redox sensitive NF-κB signaling
-        pathway involving predominately Rel A.
-      
-      
-        Competing interests
-        None declared.
+        Most health-care professionals in the four states where the study was conducted appeared
+        to be providing care to patients who were HIV-positive and complying with their ethical
+        responsibilities despite their lack of training on HIV/AIDS and their having insufficient
+        supplies of materials needed for treatment and prevention in the facilities where they
+        work. A significant number, however, reported engaging in discriminatory and/or unethical
+        behavior. These practices are corrosive to the health professions as they taint all health
+        professionals and erode trust in them. They also represent missed opportunities for
+        prevention, positive living education, and treatment, thereby undermining Nigeria's
+        concerted national efforts to address the HIV/AIDS epidemic. Our study findings suggest
+        that there are several factors that may contribute to such discriminatory and/or unethical
+        behavior by health-care professionals against people with HIV/AIDS in Nigeria.
+        The vast majority of professionals expressed an interest in additional information and
+        suggested education as a way to address discriminatory behaviors by their colleagues. An
+        immediate investment to ensure the education of all existing clinical staff about HIV/AIDS,
+        including modes of transmission, universal precautions, and the rights of PLWA would likely
+        reduce the number of discriminatory practices towards PLWA and may improve these patients'
+        care and access to health services. This assertion is supported by previous studies that
+        demonstrate the effect of HIV/AIDS education of nurses and other health workers on their
+        attitudes and behavior towards patients who are HIV-positive in Nigeria and elsewhere
+        [24–26]. These studies also suggest that education about scientific matters is not likely
+        to be sufficient to achieve change in practice and that educational programs may also need
+        to address attitudes and cultural beliefs.
+        This study further suggests that the lack of protective and other materials needed to
+        treat and prevent the spread of HIV and related conditions contributes to discriminatory
+        behavior. While the issue of access to affordable antiretroviral treatment is the subject
+        of much debate in Nigeria [13,27], many of the facilities in this study did not even have
+        sufficient stocks of basic antibiotics to treat opportunistic infections. The lack of
+        protective materials, documented in the health facility survey and cited also by
+        professionals as the main reason for not applying universal precautions, contributes to
+        discriminatory behavior in two ways. First, professionals lacking adequate protection may
+        come to fear PLWA and fear may lead to discrimination [28–30]. Second, lack of resources
+        also results in differential treatment practices that may contribute to stigmatization of
+        PLWA.
+        In order to do their jobs safely and effectively, health professionals must be provided
+        with adequate supplies of essential protective materials. Further, the lack of basic
+        medications hampers the ability of health professionals to provide appropriate treatment.
+        Without these materials, it is unlikely that education of health professionals and
+        implementation of anti-discrimination policies alone will have the desired impact on
+        practice.
+        It is likely that in other low-resource contexts, the absence of medications needed to
+        treat HIV/AIDS-related illnesses, a lack of materials needed for protection of health
+        personnel, and insufficient knowledge of health personnel about HIV/AIDS may contribute to
+        discriminatory behavior towards people with HIV/AIDS. The role of these factors should be
+        investigated. While addressing these factors may not eliminate all discriminatory behavior,
+        these basic investments in the health-care sector are likely to result in improvements.
+        HIV infection is both a product of and a factor contributing to human rights violations
+        [12]. The documented marginalization of certain groups, and their increased risk for
+        infection with HIV in Nigeria [1], must be considered in light of this study.
+        Misconceptions must be taken into account when developing education and training programs
+        for professionals and the public. Nigerian health professionals are members of their
+        society, one in which stigma and moral judgment appear to be attached to HIV/AIDS [6].
+        Twenty percent of respondents agreed that many of those who have HIV/AIDS behaved immorally
+        and deserve the disease. As such, it is likely that governmental and facility policies and
+        monitoring to reduce discriminatory practices in the health-care sector will be an
+        important aspect of addressing these practices.
+        Numerous international and regional human rights instruments, to which Nigeria is a
+        party [31], protect the rights of PLWA. These include [32–37] the African Charter on Human
+        and People's rights [36], the Convention on Elimination of All Forms of Discrimination
+        against Women [34], the Convention on the Rights of the Child [35], the International
+        Convention on Elimination of All Forms of Racial Discrimination [37], the International
+        Covenant on Economic, Social, and Cultural Rights [32], and the International Covenant on
+        Civil and Political Rights [33]. Of these, only the African Charter and the Convention on
+        the Rights of the Child have been incorporated into the domestic law of Nigeria [4,38].
+        Nigeria is also a signatory to the Universal Declaration of Human Rights [39].
+        The above instruments set out Nigeria's obligations to protect the rights of PLWA
+        including the right to life [33], the right to education [36], the right to marry and found
+        a family [33], the right to nondiscrimination [36], the right to share in the benefits of
+        scientific advancements [32], the right to privacy [33], and the right to freedom of
+        association [36].
+        Several of the instruments to which Nigeria is a party include the right to health
+        [34–37,40]. The right to health, was first elaborated in the International Covenant on
+        Economic, Social, and Cultural Rights, Article 12 [32], which states:
+        
+          
+          
+            1. The States Parties to the present Covenant recognize the right of everyone to
+            the enjoyment of the highest attainable standard of physical and mental health.
+            2. The steps to be taken by the States Parties to the present Covenant to achieve
+            the full realization of this right shall include those necessary for:
+          
+        
+        
+          
+          
+            (a) The provision for the reduction of the stillbirth-rate and of infant
+            mortality and for the healthy development of the child;
+            (b) The improvement of all aspects of environmental and industrial
+            hygiene;
+            (c) The prevention, treatment and control of epidemic, endemic, occupational and
+            other diseases;
+            (d) The creation of conditions which would assure to all medical service and
+            medical attention in the event of sickness.
+          
+        
+        In 2000, the Committee on Economic Social and Cultural Rights (ESCR Committee),
+        responsible for interpretation and monitoring of the International Covenant on Economic,
+        Social, and Cultural Rights, published General Comment 14 on the Right to the Highest
+        Attainable Standard of Health [40]. The ESCR Committee determined that fulfillment of the
+        right to health means that access to health services must not be limited based on
+        discrimination on a prohibited ground, including HIV status .
+        In General Comment 14, the ESCR Committee also set out the core obligations of a state
+        party to protect the right to health, which include ensuring “the right of access to health
+        facilities, goods and services on a non-discriminatory basis, especially for vulnerable or
+        marginalized groups,” the provision of essential drugs “as from time to time defined by
+        WHO's Action Programme on Essential Drugs,” and ensuring “equitable distribution of all
+        health facilities, goods and services.” In addition to these and other core obligations,
+        the ESCR Committee also set out “obligations of comparable priority” , including a state
+        party's obligation “to take measures to prevent, treat and control epidemic and endemic
+        diseases,” “to provide education and access to information concerning the main health
+        problems in the community, including methods of preventing and controlling them,” and “to
+        provide appropriate training for health personnel, including education on health and human
+        rights.”
+        The ESCR Committee also stated in General Comment 14 that “any person or group who is a
+        victim of a violation of the right to health should have access to effective judicial or
+        other appropriate remedies at both national and international levels.”As a state party,
+        Nigeria is bound by the provisions of the International Covenant on Economic, Social, and
+        Cultural Rights and the authoritative interpretations of the ESCR Committee. This study
+        finds that some PLWA have been excluded from access to health care because of their HIV
+        status and that, at this time, PLWA have no access to judicial or other remedial processes
+        to address this. The data further suggest that inadequate education of health personnel
+        about HIV/AIDS along with a lack of protective and treatment materials likely contribute to
+        these behaviors by health professionals. It is therefore likely that Nigeria has not met
+        its core obligations to fulfill and protect the right to health. The findings of this study
+        suggest that, in order to fulfill its obligations, the government of Nigeria should
+        continue to address gaps in policy and legislation and work together with the international
+        community to ensure that health professionals receive the training, protective materials,
+        and medications they need to treat PLWA.
+        International principles of medical ethics and Nigerian codes of conduct clearly provide
+        for patient autonomy, i.e., the right to informed consent and confidentiality of patient
+        information. In addition to representing violations of human rights, the denial of
+        treatment and breaches of informed consent and confidentiality detailed in this paper
+        contravene international principles of medical ethics and Nigerian health professional
+        codes of conduct. The 
+        Rules of Professional Conduct for Medical and Dental Practitioners in
+        Nigeria [41] states that “a doctor shall preserve absolute secrecy on all he knows
+        about his patient even after the patient has died, because of the confidence entrusted to
+        him.” The binding rules also state that “practitioners…must always obtain consent of the
+        patient or the competent relatives...before embarking on any special treatment procedures
+        with determinable risks.”
+        Nigerian medical practitioners also have a duty under these rules to report any
+        unethical conduct by their peers to the Medical and Dental Council of Nigeria. According to
+        the rules, “every doctor or dentist must be his brother's keeper, with regard to the
+        observance and indeed the enforcement of the rules and regulations which guide the
+        profession. Doctors and dentists should expose without fear or favour, before the Medical
+        and Dental Council of Nigeria either directly or through the Nigerian Medical Association,
+        any corrupt, dishonest, unprofessional or criminal act or omission on the part of any
+        doctor or dentist.” There is no indication that this may have happened in the case of the
+        breaches documented in this study. At the time of publication, no specific medical ethics
+        principles on HIV and AIDS have been articulated by the Medical and Dental Council of
+        Nigeria.
+        
+          Limitations
+          The study was conducted in four states in Nigeria with a total population of 17
+          million [2]. It is possible that these sites, though chosen at random from states with
+          tertiary care facilities, may differ significantly from others in terms of resources and
+          training provided to health-care providers. Although sampled systematically, it is
+          possible that sampled facilities and health-care professionals may differ significantly
+          from those that were not sampled in the four study states.
+          Although the findings of this study can not be generalized to Nigeria as a whole, it
+          is likely that, depending on resources and training available to the health-care sector,
+          the level of discriminatory behavior may differ in other parts of the country.
+          The apparent discrepancy between reported and observed behavior may indicate under- or
+          overreporting of discriminatory behavior or may result from health-care professionals
+          within the same institution having observed the same incidents.
+          While this study focused on HIV/AIDS, it is possible that health-care professionals
+          also engage in inappropriate behavior toward or breach the confidentiality of people with
+          other conditions. The health-care system in Nigeria is underfunded and suffers from
+          fundamental problems including material scarcity and inadequacies in infrastructure,
+          which may contribute to this behavior overall [4,42,43]. We did not specifically ask
+          clinicians to compare their treatment of patients positive for HIV with that of other
+          patients. Even if health-care professionals engage in breaches of confidentiality and
+          other inappropriate behavior toward patients with other conditions, however, it is likely
+          that the consequences of such actions may be worse for patients positive for HIV than for
+          patients with other conditions.
+          Despite efforts to ensure privacy during interviews, the lack of privacy, or concern
+          about job status, may have resulted in an underreporting of discriminatory behavior
+          and/or an overreporting of “correct” practices or attitudes. Although interviewers were
+          careful to explain that there would be no material gain or penalty to the respondent or
+          his or her facility from participation in the study, the responses may have been
+          inaccurate if respondents judged it in their material or political interest to exaggerate
+          or conceal certain behaviors.
+        
+        
+          Conclusion
+          Despite these limitations, the study documents a significant proportion of health
+          professionals in four states in Nigeria as reporting discriminatory attitudes and
+          engaging in discriminatory and unethical behavior toward patients with HIV or AIDS,
+          including denial of care, breach of confidentiality, and non-consented HIV testing. The
+          breaches of confidentiality and testing for HIV without informed consent reported by
+          participants are in contravention of international principles of medical ethics [44], and
+          are also breaches of the Nigerian physician code of conduct [41]. The study identifies
+          four factors that may contribute to this behavior: lack of correct information and
+          education about HIV/AIDS and prevention of infection, lack of protective materials needed
+          for the practice of universal precautions, lack of materials needed to care for and treat
+          patients with HIV/AIDS, and prevailing attitudes about PLWA. This study suggests that
+          adequately addressing these discriminatory practices and attitudes requires targeted
+          education of health professionals and provision of adequate resources to health-care
+          facilities combined with instituting and enforcing anti-discrimination policies.
+        
       
     
   
