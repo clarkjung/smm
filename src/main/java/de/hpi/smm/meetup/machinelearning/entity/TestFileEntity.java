@@ -76,6 +76,7 @@ public class TestFileEntity extends FileEntity {
 				wordAnalyze(sCurrentLine, trainFormalMap, trainInformalMap);
 				lineAnalyze(sCurrentLine, trainFormalMap, trainInformalMap);
 		}
+		br.close();
 		
 		guess();
 	}

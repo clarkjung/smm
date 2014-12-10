@@ -39,6 +39,7 @@ public class IndexEntity {
 			
 			addTerm(sCurrentLine);
 		}
+		br.close();
 	}
 	
 	public void addTerm(String term){

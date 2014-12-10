@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.StringTokenizer;
 
+import de.hpi.smm.meetup.crossvalidation.CrossValidation;
 import de.hpi.smm.meetup.machinelearning.entity.FileEntity;
 import de.hpi.smm.meetup.machinelearning.entity.TermEntity;
 import de.hpi.smm.meetup.machinelearning.entity.TestFileEntity;
@@ -26,12 +27,10 @@ public class MachineLearner {
 	ArrayList<TestFileEntity> testFormalList, testInformalList;
 	HashMap<String, Integer> trainFormalMap, trainInformalMap;
 	
-	public MachineLearner(String trainFolderPath, String testFolderPath){
+	private MachineLearner(){
 		this.formalAccuracy = 0;
 		this.informalAccuracy = 0;
 		this.generalAccuracy = 0;
-		this.trainFolderPath = trainFolderPath;
-		this.testFolderPath = testFolderPath;
 		this.exportPath = null;
 		this.trainFormalList = new ArrayList<TrainFileEntity>();
 		this.trainInformalList = new ArrayList<TrainFileEntity>();
@@ -39,6 +38,12 @@ public class MachineLearner {
 		this.testInformalList = new ArrayList<TestFileEntity>();
 		this.trainFormalMap = new HashMap<String, Integer>();
 		this.trainInformalMap = new HashMap<String, Integer>();
+	}
+	
+	public MachineLearner(String trainFolderPath, String testFolderPath){
+		this();
+		this.trainFolderPath = trainFolderPath;
+		this.testFolderPath = testFolderPath;
 	}
 	
 	public MachineLearner(String trainFolderPath, String testFolderPath, String exportPath){
@@ -58,7 +63,31 @@ public class MachineLearner {
 		return generalAccuracy;
 	}
 	
+	private void reset(){
+		this.formalAccuracy = 0;
+		this.informalAccuracy = 0;
+		this.generalAccuracy = 0;
+		this.trainFormalList = new ArrayList<TrainFileEntity>();
+		this.trainInformalList = new ArrayList<TrainFileEntity>();
+		this.testFormalList = new ArrayList<TestFileEntity>();
+		this.testInformalList = new ArrayList<TestFileEntity>();
+		this.trainFormalMap = new HashMap<String, Integer>();
+		this.trainInformalMap = new HashMap<String, Integer>();
+	}
+	
+	public void train(CrossValidation cv){
+		ArrayList<ArrayList<String>> formalSubsets = cv.randomlyCreateSubsets(true);
+		ArrayList<ArrayList<String>> informalSubsets = cv.randomlyCreateSubsets(false);
+		int fold = cv.getFold();
+	}
+	
 	public void train() throws IOException{
+		
+		if(trainFolderPath == null || testFolderPath == null){
+			System.out.println("train folder or test folder not given. ");
+			return;
+		}
+		
 		trainSubFolder("formal/", trainFormalList);
 		trainSubFolder("informal/", trainInformalList);
 		
@@ -68,8 +97,8 @@ public class MachineLearner {
 		smoothing(trainFormalMap);
 		smoothing(trainInformalMap);
 		
-		exportHashMaps(trainFormalMap, "TrainFormalMap.txt");
-		exportHashMaps(trainInformalMap, "TrainInformalMap.txt");
+		//exportHashMaps(trainFormalMap, "TrainFormalMap.txt");
+		//exportHashMaps(trainInformalMap, "TrainInformalMap.txt");
 	}
 	
 	private void exportHashMaps(HashMap<String, Integer> hashMap, String fileName) throws IOException{
@@ -157,12 +186,6 @@ public class MachineLearner {
 		//informal
 		int informalCount = 0;
 		for (TestFileEntity testFileEntity : testInformalList){
-//			System.out.println("==========");
-//			System.out.println("logSumFormal: " + testFileEntity.getLogSumFormal());
-//			System.out.println("logSumInformal: " + testFileEntity.getLogSumInformal());
-//			System.out.println("countFormal: " + testFileEntity.getCountFormal());
-//			System.out.println("countInformal: " + testFileEntity.getCountInformal());
-//			System.out.println("");
 			if (testFileEntity.getGuess().equals("informal")) informalCount++;
 		}
 		informalAccuracy = informalCount*100/(double)testInformalList.size();

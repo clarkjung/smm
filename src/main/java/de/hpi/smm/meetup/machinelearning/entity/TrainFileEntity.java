@@ -24,6 +24,8 @@ public class TrainFileEntity extends FileEntity{
 			lineAnalyze(sCurrentLine);
 			wordAnalyze(sCurrentLine);
 		}
+		
+		br.close();
 	}
 	
 	public void printIndex(){

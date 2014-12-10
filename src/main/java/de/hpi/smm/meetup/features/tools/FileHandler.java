@@ -116,6 +116,7 @@ public class FileHandler {
 			if(sPreviousLine.toLowerCase().equals(sCurrentLine.toLowerCase())) System.out.println(sPreviousLine);
 			sPreviousLine = sCurrentLine;
 		}
+		br.close();
 	}
 	
 	
