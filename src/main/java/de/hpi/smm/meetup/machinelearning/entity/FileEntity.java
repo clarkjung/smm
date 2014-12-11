@@ -8,8 +8,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-import edu.stanford.nlp.process.Tokenizer;
-
 public class FileEntity {
 
 	String fullFilePath;

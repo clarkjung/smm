@@ -16,7 +16,6 @@ import de.hpi.smm.meetup.machinelearning.MachineLearner;
 import de.hpi.smm.meetup.machinelearning.entity.FileEntity;
 import de.hpi.smm.meetup.machinelearning.entity.IndexEntity;
 import de.hpi.smm.meetup.machinelearning.entity.TermEntity;
-import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 
 
 public class Main 
