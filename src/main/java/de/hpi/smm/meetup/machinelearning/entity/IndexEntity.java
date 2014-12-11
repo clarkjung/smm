@@ -13,7 +13,7 @@ public class IndexEntity {
 	ArrayList<TermEntity> indexWord;
 	ArrayList<TermEntity> indexPhrase;
 	ArrayList<ArrayList<TermEntity>> index;
-	static String targetWordsListPath = "/Users/jaeyoonjung/git/smm/target_words/target_words_list.txt";
+	static String targetWordsListPath = "target_words/target_words_list.txt";
 	
 	public IndexEntity() throws IOException{
 		this.indexWord = new ArrayList<TermEntity>();

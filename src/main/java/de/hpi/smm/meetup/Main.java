@@ -39,13 +39,13 @@ public class Main
 //        String tagged = tagger.tagString(sample);
 //        System.out.println(tagged);
     
-    	String oldFilePath = "Y:/Projects/AlchemyAPI/smm/data/train/formal/";
-    	String newFilePath = "Y:/Projects/Alche0myAPI/smm/data/test/formal/";
-    	//String targetWordsPath = "Y:/Projects/AlchemyAPI/smm/target_words/";
-    	String trainFormalPathMac = "/Users/jaeyoonjung/git/smm/data/train/formal/";
-    	String trainInformalPathMac = "/Users/jaeyoonjung/git/smm/data/train/informal/";
-    	String targetWordsPath = "/Users/jaeyoonjung/git/smm/target_words/";
-    	String trainFormalPathWin = "C:/workspace/smm/smm/data/train/formal/";
+    	String oldFilePath = "data/train/formal/";
+    	String newFilePath = "data/test/formal/";
+    	//String targetWordsPath = "target_words/";
+    	String trainFormalPathMac = "data/train/formal/";
+    	String trainInformalPathMac = "data/train/informal/";
+    	String targetWordsPath = "target_words/";
+    	String trainFormalPathWin = "data/train/formal/";
     	
 //    	MachineLearner machineLearner = new MachineLearner(trainFormalPathMac);
 //    	machineLearner.train("train_formal_2.txt");
