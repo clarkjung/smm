@@ -22,16 +22,17 @@ public class MachineLearner {
 	String trainFolderPath;
 	String testFolderPath;
 	String exportPath;
-	double formalAccuracy, informalAccuracy, generalAccuracy;
+	double formalAccuracy, informalAccuracy, generalAccuracy, cvAccuracy;
 	ArrayList<TrainFileEntity> trainFormalList, trainInformalList;
 	ArrayList<TestFileEntity> testFormalList, testInformalList;
 	HashMap<String, Integer> trainFormalMap, trainInformalMap;
 	
-	private MachineLearner(){
+	public MachineLearner(){
 		this.formalAccuracy = 0;
 		this.informalAccuracy = 0;
 		this.generalAccuracy = 0;
 		this.exportPath = null;
+		this.cvAccuracy = 0;
 		this.trainFormalList = new ArrayList<TrainFileEntity>();
 		this.trainInformalList = new ArrayList<TrainFileEntity>();
 		this.testFormalList = new ArrayList<TestFileEntity>();
@@ -63,6 +64,10 @@ public class MachineLearner {
 		return generalAccuracy;
 	}
 	
+	public double getCVAccuracy(){
+		return cvAccuracy;
+	}
+	
 	private void reset(){
 		this.formalAccuracy = 0;
 		this.informalAccuracy = 0;
@@ -75,10 +80,68 @@ public class MachineLearner {
 		this.trainInformalMap = new HashMap<String, Integer>();
 	}
 	
-	public void train(CrossValidation cv){
+	private ArrayList<String> combineTrainSets(int index, ArrayList<ArrayList<String>> subsets){
+		ArrayList<String> list = new ArrayList<String>();
+		for ( int i = 0 ; i < subsets.size() ; i ++ ){
+			if (i == index) continue;
+			list.addAll(subsets.get(i));
+		}
+		return list;	
+	}
+	
+	private void trainOneFold(ArrayList<String> trainList, ArrayList<TrainFileEntity> fileList) throws IOException{
+		
+		for ( int index = 0 ; index < trainList.size() ; index ++ ){
+			String fullFilePath = trainList.get(index);
+			TrainFileEntity fileEntity = new TrainFileEntity(fullFilePath);
+			fileEntity.analyzeText();
+			fileList.add(fileEntity);
+		}
+	}
+	
+	private void testOneFold(ArrayList<String> testList, ArrayList<TestFileEntity> fileList, HashMap<String, Integer> trainFormalMap, HashMap<String, Integer> trainInformalMap) throws IOException{
+		
+		for ( int index = 0 ; index < testList.size() ; index ++ ){
+			String fullFilePath = testList.get(index);
+			TestFileEntity fileEntity = new TestFileEntity(fullFilePath);
+			fileEntity.analyzeText(trainFormalMap, trainInformalMap);
+			fileList.add(fileEntity);
+		}
+	}
+	
+	public void trainAndTest(CrossValidation cv) throws IOException{
+		ArrayList<Double> accuracyList = new ArrayList<Double>();
 		ArrayList<ArrayList<String>> formalSubsets = cv.randomlyCreateSubsets(true);
 		ArrayList<ArrayList<String>> informalSubsets = cv.randomlyCreateSubsets(false);
 		int fold = cv.getFold();
+		for ( int i = 0 ; i < fold ; i ++ ){
+			System.out.println(i + "th cvTrain started");
+			reset();
+			trainOneFold(combineTrainSets(i, formalSubsets), trainFormalList);
+			trainOneFold(combineTrainSets(i, informalSubsets), trainInformalList);
+			
+			buildHashMap(trainFormalList, trainFormalMap);
+			buildHashMap(trainInformalList, trainInformalMap);
+			
+			smoothing(trainFormalMap);
+			smoothing(trainInformalMap);
+			
+			testOneFold(formalSubsets.get(i), testFormalList, trainFormalMap, trainInformalMap);
+			testOneFold(informalSubsets.get(i), testInformalList, trainFormalMap, trainInformalMap);
+			
+			getAccuracy();
+			accuracyList.add(getGeneralAccuracy());
+			System.out.println(i + "th cvTrain done");
+		}
+		
+		double sum = 0;
+		int index = 0;
+		for (Double accuracy : accuracyList){
+			sum += accuracy;
+			index++;
+			System.out.println("accuracyList " + index + ": " + accuracy);
+		}
+		cvAccuracy = sum/accuracyList.size();
 	}
 	
 	public void train() throws IOException{

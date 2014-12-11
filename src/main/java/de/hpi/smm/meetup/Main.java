@@ -44,6 +44,7 @@ public class Main
     	String newFilePath = "Y:/Projects/Alche0myAPI/smm/data/test/formal/";
     	//String targetWordsPath = "Y:/Projects/AlchemyAPI/smm/target_words/";
     	String trainFormalPathMac = "/Users/jaeyoonjung/git/smm/data/train/formal/";
+    	String trainInformalPathMac = "/Users/jaeyoonjung/git/smm/data/train/informal/";
     	String targetWordsPath = "/Users/jaeyoonjung/git/smm/target_words/";
     	String trainFormalPathWin = "C:/workspace/smm/smm/data/train/formal/";
     	
@@ -73,10 +74,10 @@ public class Main
     	//System.out.println(accuracyForFormal + ", " + accuracyForInformal + ", " + machineLearner.getGeneralAccuracy());
     	
 
-//    	CrossValidation cv = new CrossValidation();
-//    	cv.randomlyCreateSubsets(trainFormalPathWin);
-    	
-
+    	CrossValidation cv = new CrossValidation(trainFormalPathMac, trainInformalPathMac);
+    	MachineLearner machineLearner = new MachineLearner();
+    	machineLearner.trainAndTest(cv);
+    	System.out.println(machineLearner.getCVAccuracy());
     	
     }
     	
