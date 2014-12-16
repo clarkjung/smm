@@ -26,17 +26,10 @@ public class IndexEntity {
 	
 	private void initializeIndex() throws IOException{
 		
-		ArrayList<TermEntity> selectedIndex;
 		String sCurrentLine;
 		BufferedReader br = new BufferedReader(new FileReader(targetWordsListPath));
 		
 		while ((sCurrentLine = br.readLine()) != null) {
-			if (Counter.countWords(sCurrentLine) == 1) {
-				selectedIndex = indexWord;
-			}else{
-				selectedIndex = indexPhrase;
-			}
-			
 			addTerm(sCurrentLine);
 		}
 		br.close();

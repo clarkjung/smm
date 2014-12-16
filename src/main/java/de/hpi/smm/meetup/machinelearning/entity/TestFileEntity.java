@@ -83,8 +83,8 @@ public class TestFileEntity extends FileEntity {
 	
 	private int countAllFreq(HashMap<String, Integer> hashMap){
 		int sum = 0;
-		for (String str : hashMap.keySet()){
-			sum += hashMap.get(str);
+		for (int freq : hashMap.values()){
+			sum += freq;
 		}
 		return sum;
 	}
